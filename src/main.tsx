@@ -158,7 +158,7 @@ Använd Swedish Civics Test Preparation som en oberoende träningsguide: läs f�
       { title: "3. Repetera svaga delar", body: "Använd dina resultat för att välja vad du ska repetera härnäst, i stället för att läsa om allt från början." }
     ],
     chapterMapTitle: "Täckning av officiella kapitel",
-    chapterMapIntro: "Sverige i fokus är uppbyggt kring 13 kapitel. Den här MVP:n grupperar kapitlen i fyra träningsområden så att appen är enkel men fortfarande följer den officiella strukturen.",
+    chapterMapIntro: "Sverige i fokus är uppbyggt kring 13 kapitel. Den här guiden grupperar kapitlen i fyra träningsområden så att det blir enklare att öva, samtidigt som du fortfarande kan följa den officiella strukturen.",
     chapterNames: {
       country: "Landet Sverige",
       "democratic-system": "Sveriges demokratiska system",
@@ -308,7 +308,7 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
       { title: "3. Repeat weak spots", body: "Use your results to decide what to review next instead of rereading everything from the beginning." }
     ],
     chapterMapTitle: "Official chapter coverage",
-    chapterMapIntro: "Sverige i fokus is structured around 13 chapters. This MVP groups those chapters into four practice areas so the app stays simple while still pointing back to the official structure.",
+    chapterMapIntro: "Sverige i fokus is structured around 13 chapters. This guide groups those chapters into four practice areas so it stays simple while still pointing back to the official structure.",
     chapterNames: {
       country: "Sweden as a country",
       "democratic-system": "Sweden's democratic system",
@@ -608,7 +608,7 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
       { title: "3. 重复薄弱点", body: "根据练习结果决定下一步复习什么，而不是每次都从头读。" }
     ],
     chapterMapTitle: "官方章节覆盖",
-    chapterMapIntro: "Sverige i fokus 分为13章。这个 MVP 把这些章节归到四个练习区，让应用保持简单，同时仍然对应官方结构。",
+    chapterMapIntro: "Sverige i fokus 分为13章。本指南把这些章节归到四个练习区，让应用保持简单，同时仍然对应官方结构。",
     chapterNames: {
       country: "瑞典这个国家",
       "democratic-system": "瑞典民主制度",
@@ -764,7 +764,7 @@ U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka
     topicSelectorLabel: "Dooro qayb tababar",
     allTopics: "Dhammaan mawduucyada",
     chapterMapTitle: "Daboolidda cutubyada rasmiga ah",
-    chapterMapIntro: "Sverige i fokus wuxuu ka kooban yahay 13 cutub. MVP-kan wuxuu cutubyadaas u kala dhigaa afar meelood oo tababar ah si app-ku u ahaado fudud, isla markaana weli ugu xirmo qaab-dhismeedka rasmiga ah.",
+    chapterMapIntro: "Sverige i fokus wuxuu ka kooban yahay 13 cutub. Hagahan wuxuu cutubyadaas u kala dhigaa afar meelood oo tababar ah si app-ku u ahaado fudud, isla markaana weli ugu xirmo qaab-dhismeedka rasmiga ah.",
     chapterNames: {
       country: "Iswiidhan dal ahaan",
       "democratic-system": "Nidaamka dimuqraadiyadda Iswiidhan",
@@ -903,7 +903,7 @@ U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka
     topicSelectorLabel: "یک بخش تمرین را انتخاب کنید",
     allTopics: "همه موضوع‌ها",
     chapterMapTitle: "پوشش فصل‌های رسمی",
-    chapterMapIntro: "Sverige i fokus در ۱۳ فصل تنظیم شده است. این MVP آن فصل‌ها را در چهار بخش تمرینی گروه‌بندی می‌کند تا برنامه ساده بماند و همچنان به ساختار رسمی وصل باشد.",
+    chapterMapIntro: "Sverige i fokus در ۱۳ فصل تنظیم شده است. این راهنما آن فصل‌ها را در چهار بخش تمرینی گروه‌بندی می‌کند تا برنامه ساده بماند و همچنان به ساختار رسمی وصل باشد.",
     chapterNames: {
       country: "سوئد به عنوان یک کشور",
       "democratic-system": "نظام دموکراتیک سوئد",
@@ -1042,7 +1042,7 @@ Swedish Civics Test Preparation ከም ናጻ መምርሒ ልምምድ ተጠ�
     topicSelectorLabel: "ክፋል ልምምድ ምረጹ",
     allTopics: "ኩሎም ርእሰ-ጉዳያት",
     chapterMapTitle: "ሽፋን ወግዓዊ ምዕራፋት",
-    chapterMapIntro: "Sverige i fokus ብ13 ምዕራፋት ዝተዋደደ እዩ። እዚ MVP ነዞም ምዕራፋት ኣብ ኣርባዕተ ክፋላት ልምምድ ይጠርንፍ፣ እቲ app ቀሊል ክቕጽልን ምስ ወግዓዊ ቅርጺ ክተሓሓዝን።",
+    chapterMapIntro: "Sverige i fokus ብ13 ምዕራፋት ዝተዋደደ እዩ። እዚ መምርሒ ነዞም ምዕራፋት ኣብ ኣርባዕተ ክፋላት ልምምድ ይጠርንፍ፣ እቲ app ቀሊል ክቕጽልን ምስ ወግዓዊ ቅርጺ ክተሓሓዝን።",
     chapterNames: {
       country: "ሽወደን ከም ሃገር",
       "democratic-system": "ዲሞክራሲያዊ ስርዓት ሽወደን",
@@ -1321,7 +1321,7 @@ const FAQ_CONTENT_BASE: Record<CoreUiLanguage, FaqContent> = {
       },
       {
         question: "Var sparas mina framsteg?",
-        answer: "I den här MVP:n sparas framsteg bara i webbläsaren på den här enheten. Det finns inga konton ännu, så framstegen synkas inte mellan enheter."
+        answer: "I den här versionen sparas framsteg bara i webbläsaren på den här enheten. Det finns inga konton ännu, så framstegen synkas inte mellan enheter."
       },
       {
         question: "Är det gratis?",
@@ -1351,7 +1351,7 @@ const FAQ_CONTENT_BASE: Record<CoreUiLanguage, FaqContent> = {
       },
       {
         question: "Where is my progress saved?",
-        answer: "For this MVP, progress is saved only in your browser on this device. There are no accounts yet, so progress does not sync across devices."
+        answer: "For this version, progress is saved only in your browser on this device. There are no accounts yet, so progress does not sync across devices."
       },
       {
         question: "Is it free?",
@@ -1411,7 +1411,7 @@ const FAQ_CONTENT_BASE: Record<CoreUiLanguage, FaqContent> = {
       },
       {
         question: "我的进度保存在哪里？",
-        answer: "在这个 MVP 中，进度只保存在你当前设备的浏览器里。现在还没有账号，所以不会跨设备同步。"
+        answer: "在当前版本中，进度只保存在你当前设备的浏览器里。现在还没有账号，所以不会跨设备同步。"
       },
       {
         question: "现在免费吗？",
@@ -1434,7 +1434,7 @@ const FAQ_CONTENT: Record<UiLanguage, FaqContent> = {
       { question: "App-kan ma yahay adeeg rasmi ah?", answer: "Maya. Swedish Civics Test Preparation waa qalab waxbarasho oo madax-bannaan. Lama xiriirno UHR, Skolverket, Migrationsverket, ama imtixaanka rasmiga ah." },
       { question: "Su'aalahan ma yihiin su'aalo imtixaan rasmi ah?", answer: "Maya. Waa su'aalo tababar oo asal ah, kuna salaysan mawduucyada waxbarashada ee dadweynaha ee Sverige i fokus." },
       { question: "Maxay su'aaluhu u yihiin Iswiidhish?", answer: "Su'aalaha waxaan ku haynaa Iswiidhish si ay ugu ekaadaan habka waxbarashada, laakiin sharaxaad iyo caawin luqadeed ayaan ku siinnaa luqadda aad doorato." },
-      { question: "Xaggee horumarkayga lagu kaydiyaa?", answer: "Noocan MVP, horumarka wuxuu ku kaydsan yahay browser-ka qalabkan oo keliya. Xisaabo ma jiraan weli." },
+      { question: "Xaggee horumarkayga lagu kaydiyaa?", answer: "Noocan hadda ah, horumarka wuxuu ku kaydsan yahay browser-ka qalabkan oo keliya. Xisaabo ma jiraan weli." },
       { question: "Ma bilaash baa?", answer: "Haa, noocan hore waa bilaash inta aan ka ururinayno jawaab-celin ardayda dhabta ah." },
       { question: "Ma leeyahay imtixaan 60 su'aal ah?", answer: "Weli maya. Hadda waa tababar mawduucyo ah. Imtixaan isku-dhafan wuxuu iman karaa marka bangiga su'aalaha weynaado." }
     ]
@@ -1446,7 +1446,7 @@ const FAQ_CONTENT: Record<UiLanguage, FaqContent> = {
       { question: "آیا این برنامه سرویس رسمی آزمون است؟", answer: "نه. Swedish Civics Test Preparation یک ابزار مستقل مطالعه و تمرین است. ما وابسته به UHR، Skolverket، Migrationsverket یا آزمون رسمی شهروندی نیستیم." },
       { question: "آیا این‌ها پرسش‌های رسمی امتحان هستند؟", answer: "نه. این‌ها پرسش‌های تمرینی اصلی برای این برنامه هستند و بر اساس موضوع‌های عمومی Sverige i fokus نوشته شده‌اند." },
       { question: "چرا پرسش‌ها به سوئدی هستند؟", answer: "پرسش‌ها را به سوئدی نگه می‌داریم، اما کمک و توضیح را به زبان انتخابی شما نشان می‌دهیم." },
-      { question: "پیشرفت من کجا ذخیره می‌شود؟", answer: "در این MVP، پیشرفت فقط در مرورگر همین دستگاه ذخیره می‌شود. هنوز حساب کاربری نداریم." },
+      { question: "پیشرفت من کجا ذخیره می‌شود؟", answer: "در این نسخه، پیشرفت فقط در مرورگر همین دستگاه ذخیره می‌شود. هنوز حساب کاربری نداریم." },
       { question: "آیا رایگان است؟", answer: "بله، نسخه اولیه فعلاً رایگان است تا از زبان‌آموزان واقعی بازخورد بگیریم." },
       { question: "آیا آزمون کامل ۶۰ پرسشی دارد؟", answer: "هنوز نه. فعلاً تمرین بر اساس موضوع است. وقتی بانک پرسش بزرگ‌تر شود، آزمون ترکیبی گزینه خوبی است." }
     ]
@@ -1458,7 +1458,7 @@ const FAQ_CONTENT: Record<UiLanguage, FaqContent> = {
       { question: "እዚ app ወግዓዊ ናይ ፈተና ኣገልግሎት ድዩ?", answer: "ኣይፋሉን። Swedish Civics Test Preparation ናጻ መጽናዕቲን ልምምድን መሳርሒ እዩ። ምስ UHR, Skolverket, Migrationsverket ወይ ወግዓዊ ፈተና ዜግነት ኣይተተሓሓዝናን።" },
       { question: "እዞም ሕቶታት ወግዓዊ ሕቶታት ፈተና ድዮም?", answer: "ኣይፋሉን። እዞም ንapp ዝተጻሕፉ ናይ ልምምድ ሕቶታት እዮም፣ ኣብ ህዝባዊ ርእሰ-ጉዳያት Sverige i fokus ዝተመርኮሱ።" },
       { question: "ስለምንታይ ሕቶታት ብሽወደንኛ እዮም?", answer: "ሕቶታት ብሽወደንኛ ንሕዞም፣ ግን ሓገዝን መግለጺን ብዝመረጽኩሞ ቋንቋ ነርኢ።" },
-      { question: "ምዕባለይ ኣበይ ይዕቀብ?", answer: "ኣብዚ MVP፣ ምዕባለ ኣብ browser ናይዚ መሳርሒ ጥራይ ይዕቀብ። ሕሳብ ተጠቃሚ ገና የለን።" },
+      { question: "ምዕባለይ ኣበይ ይዕቀብ?", answer: "ኣብዚ ስሪት፣ ምዕባለ ኣብ browser ናይዚ መሳርሒ ጥራይ ይዕቀብ። ሕሳብ ተጠቃሚ ገና የለን።" },
       { question: "ነጻ ድዩ?", answer: "እወ፣ እዚ ቀዳማይ ስሪት ነጻ እዩ፣ ካብ ተማሃሮ ርእይቶ ንምእካብ።" },
       { question: "ሙሉእ 60 ሕቶታት ፈተና ኣለዎ?", answer: "ገና የለን። ሕጂ ብርእሰ-ጉዳይ ልምምድ እዩ። ባንክ ሕቶታት ምስ ዓበየ፣ ዝተሓዋወሰ ፈተና ጽቡቕ ቀጻሊ ይኸውን።" }
     ]
@@ -1482,7 +1482,7 @@ const LEGAL_CONTENT_BASE: Record<CoreUiLanguage, LegalContent> = {
     footerNote: "Originalfrågor för träning baserade på offentliga studieteman. Inte officiella provfrågor.",
     title: "Villkor och integritet",
     updated: "Senast uppdaterad: 10 augusti 2026",
-    intro: "Den här sidan förklarar hur Swedish Civics Test Preparation fungerar idag. Den är avsiktligt kort eftersom nuvarande MVP inte har konton, betalningar, backend-databas eller annonsspårning.",
+    intro: "Den här sidan förklarar hur Swedish Civics Test Preparation fungerar idag. Den är avsiktligt kort eftersom den nuvarande versionen inte har konton, betalningar, backend-databas eller annonsspårning.",
     sections: [
       {
         title: "Oberoende studieverktyg",
@@ -1499,7 +1499,7 @@ const LEGAL_CONTENT_BASE: Record<CoreUiLanguage, LegalContent> = {
         ]
       },
       {
-        title: "Integritet i nuvarande MVP",
+        title: "Integritet i nuvarande version",
         body: [
           "Det finns inga användarkonton, betalningar, kontaktformulär, analyspixlar eller backend-lagrade profiler i den här versionen.",
           "Dina träningsframsteg och valt språk sparas lokalt i webbläsaren med localStorage. Datan stannar på din enhet om du inte rensar webbläsarens lagring eller senare väljer att använda en framtida kontofunktion."
@@ -1520,7 +1520,7 @@ const LEGAL_CONTENT_BASE: Record<CoreUiLanguage, LegalContent> = {
     footerNote: "Original practice questions based on public study themes. Not official exam questions.",
     title: "Terms & Privacy",
     updated: "Last updated: 10 August 2026",
-    intro: "This page explains how Swedish Civics Test Preparation works today. It is intentionally short because the current MVP has no accounts, payments, backend database, or advertising trackers.",
+    intro: "This page explains how Swedish Civics Test Preparation works today. It is intentionally short because the current version has no accounts, payments, backend database, or advertising trackers.",
     sections: [
       {
         title: "Independent study tool",
@@ -1537,7 +1537,7 @@ const LEGAL_CONTENT_BASE: Record<CoreUiLanguage, LegalContent> = {
         ]
       },
       {
-        title: "Privacy in the current MVP",
+        title: "Privacy in the current version",
         body: [
           "There are no user accounts, payments, contact forms, analytics pixels, or backend-stored profiles in this version.",
           "Your practice progress and selected language are saved locally in your browser using localStorage. This data stays on your device unless you clear browser storage or later choose to use a future account feature."
@@ -1558,7 +1558,7 @@ const LEGAL_CONTENT_BASE: Record<CoreUiLanguage, LegalContent> = {
     footerNote: "أسئلة تدريب أصلية مبنية على موضوعات دراسة عامة. ليست أسئلة امتحان رسمية.",
     title: "الشروط والخصوصية",
     updated: "آخر تحديث: 10 أغسطس 2026",
-    intro: "تشرح هذه الصفحة كيف يعمل Swedish Civics Test Preparation اليوم. هي قصيرة لأن إصدار MVP الحالي لا يحتوي على حسابات أو مدفوعات أو قاعدة بيانات خلفية أو تتبع إعلاني.",
+    intro: "تشرح هذه الصفحة كيف يعمل Swedish Civics Test Preparation اليوم. هي قصيرة لأن الإصدار الحالي لا يحتوي على حسابات أو مدفوعات أو قاعدة بيانات خلفية أو تتبع إعلاني.",
     sections: [
       {
         title: "أداة دراسة مستقلة",
@@ -1596,7 +1596,7 @@ const LEGAL_CONTENT_BASE: Record<CoreUiLanguage, LegalContent> = {
     footerNote: "原创练习题，基于公开学习主题；不是官方考试题。",
     title: "条款与隐私",
     updated: "最后更新：2026年8月10日",
-    intro: "本页说明 Swedish Civics Test Preparation 目前如何运作。当前 MVP 没有账号、付款、后台数据库或广告追踪，所以内容保持简短。",
+    intro: "本页说明 Swedish Civics Test Preparation 目前如何运作。当前版本没有账号、付款、后台数据库或广告追踪，所以内容保持简短。",
     sections: [
       {
         title: "独立学习工具",
@@ -1613,7 +1613,7 @@ const LEGAL_CONTENT_BASE: Record<CoreUiLanguage, LegalContent> = {
         ]
       },
       {
-        title: "当前 MVP 的隐私",
+        title: "当前版本的隐私",
         body: [
           "当前版本没有用户账号、付款、联系表单、分析像素，也没有保存在后台的用户资料。",
           "你的练习进度和所选语言会通过 localStorage 保存在本设备浏览器中。除非你清除浏览器存储，或未来选择使用账号功能，否则这些数据留在你的设备上。"
@@ -1638,11 +1638,11 @@ const LEGAL_CONTENT: Record<UiLanguage, LegalContent> = {
     footerNote: "Su'aalo tababar oo asal ah oo ku salaysan mawduucyo waxbarasho oo dadweyne. Ma aha su'aalo imtixaan rasmi ah.",
     title: "Shuruudaha & Asturnaanta",
     updated: "La cusbooneysiiyay: 10 Agoosto 2026",
-    intro: "Boggan wuxuu sharxayaa sida Swedish Civics Test Preparation u shaqeeyo maanta. Waa kooban yahay sababtoo ah MVP-kan ma laha xisaabo, lacag-bixin, database backend, ama xayeysiis raadraac.",
+    intro: "Boggan wuxuu sharxayaa sida Swedish Civics Test Preparation u shaqeeyo maanta. Waa kooban yahay sababtoo ah noocan hadda ah ma laha xisaabo, lacag-bixin, database backend, ama xayeysiis raadraac.",
     sections: [
       { title: "Qalab waxbarasho oo madax-bannaan", body: ["Swedish Civics Test Preparation waa hage tababar oo madax-bannaan. Lama xiriirno UHR, Skolverket, Migrationsverket, ama imtixaanka rasmiga ah.", "Su'aalaha tababarku waa asal, waxayna ku salaysan yihiin mawduucyada dadweynaha ee Sverige i fokus. Ma nuqulno ama ma sheeganno su'aalo rasmi ah."] },
       { title: "Isticmaalka app-ka", body: ["Waxaad u isticmaali kartaa waxbarashadaada gaarka ah oo aad nala wadaagi kartaa jawaab-celin.", "Fadlan ha xoqin, dib ha u daabicin, hana iibin bangiga su'aalaha, sharaxaadaha, tarjumaadaha, ama naqshadda."] },
-      { title: "Asturnaanta MVP-kan", body: ["Noocan kuma jiraan xisaabo, lacag-bixin, foomam xiriir oo server ah, analytics pixels, ama profiles backend lagu kaydiyo.", "Horumarkaaga iyo luqadda aad doorato waxaa lagu kaydiyaa browser-kaaga adigoo adeegsanaya localStorage."] },
+      { title: "Asturnaanta noocan hadda ah", body: ["Noocan kuma jiraan xisaabo, lacag-bixin, foomam xiriir oo server ah, analytics pixels, ama profiles backend lagu kaydiyo.", "Horumarkaaga iyo luqadda aad doorato waxaa lagu kaydiyaa browser-kaaga adigoo adeegsanaya localStorage."] },
       { title: "Isbeddello mustaqbalka", body: ["Haddii aan ku darno xisaabo, lacag-bixin, analytics, email login, ama sync horumar cloud, siyaasaddan waa in la cusbooneysiiyaa.", "Boggan waa hagitaan product, ma aha talo sharci. Dib-u-eegis GDPR ayaa weli mudan ka hor launch weyn."] }
     ]
   },
@@ -1652,11 +1652,11 @@ const LEGAL_CONTENT: Record<UiLanguage, LegalContent> = {
     footerNote: "پرسش‌های تمرینی اصلی بر اساس موضوع‌های عمومی مطالعه. پرسش رسمی امتحان نیستند.",
     title: "شرایط و حریم خصوصی",
     updated: "آخرین به‌روزرسانی: ۱۰ آگست ۲۰۲۶",
-    intro: "این صفحه توضیح می‌دهد Swedish Civics Test Preparation امروز چگونه کار می‌کند. متن کوتاه است چون MVP فعلی حساب کاربری، پرداخت، پایگاه داده backend یا ردیاب تبلیغاتی ندارد.",
+    intro: "این صفحه توضیح می‌دهد Swedish Civics Test Preparation امروز چگونه کار می‌کند. متن کوتاه است چون نسخه فعلی حساب کاربری، پرداخت، پایگاه داده backend یا ردیاب تبلیغاتی ندارد.",
     sections: [
       { title: "ابزار مطالعه مستقل", body: ["Swedish Civics Test Preparation یک راهنمای مستقل تمرین برای مطالعه جامعه سوئد است. ما وابسته به UHR، Skolverket، Migrationsverket یا آزمون رسمی شهروندی نیستیم.", "پرسش‌های تمرینی اصلی هستند و بر اساس موضوع‌های عمومی Sverige i fokus نوشته شده‌اند. ما پرسش‌های رسمی امتحان را کپی، منتشر یا ادعا نمی‌کنیم."] },
       { title: "استفاده شما از برنامه", body: ["می‌توانید از برنامه برای مطالعه شخصی استفاده کنید و برای ما بازخورد بفرستید.", "لطفاً بانک پرسش‌ها، توضیح‌ها، ترجمه‌ها یا طراحی را استخراج، بازنشر یا به عنوان محصول دیگر نفروشید."] },
-      { title: "حریم خصوصی در MVP فعلی", body: ["در این نسخه حساب کاربری، پرداخت، فرم تماس backend، پیکسل تحلیل یا پروفایل ذخیره‌شده در سرور وجود ندارد.", "پیشرفت تمرین و زبان انتخابی شما با localStorage در مرورگر همین دستگاه ذخیره می‌شود."] },
+      { title: "حریم خصوصی در نسخه فعلی", body: ["در این نسخه حساب کاربری، پرداخت، فرم تماس backend، پیکسل تحلیل یا پروفایل ذخیره‌شده در سرور وجود ندارد.", "پیشرفت تمرین و زبان انتخابی شما با localStorage در مرورگر همین دستگاه ذخیره می‌شود."] },
       { title: "تغییرات آینده", body: ["اگر بعداً حساب، پرداخت، تحلیل، ورود ایمیلی یا همگام‌سازی ابری اضافه کنیم، این سیاست باید قبل از انتشار آن ویژگی‌ها به‌روزرسانی شود.", "این صفحه راهنمای محصول است، نه مشاوره حقوقی. پیش از انتشار عمومی بزرگ‌تر، بررسی GDPR ارزش دارد."] }
     ]
   },
@@ -1666,11 +1666,11 @@ const LEGAL_CONTENT: Record<UiLanguage, LegalContent> = {
     footerNote: "ናይ ልምምድ ሕቶታት ናይ ባዕልና እዮም፣ ኣብ ህዝባዊ ርእሰ-ጉዳያት መጽናዕቲ ዝተመርኮሱ። ወግዓዊ ሕቶታት ፈተና ኣይኮኑን።",
     title: "ቅድመ-ኩነትን ውልቃዊ ሓበሬታን",
     updated: "መወዳእታ ምሕዳስ፦ 10 ነሓሰ 2026",
-    intro: "እዚ ገጽ እቲ app ሎሚ ከመይ ከምዝሰርሕ ይገልጽ። MVP ሕጂ ሕሳብ፣ ክፍሊት፣ backend database፣ ወይ ዝከታተል analytics የብሉን።",
+    intro: "እዚ ገጽ እቲ app ሎሚ ከመይ ከምዝሰርሕ ይገልጽ። እዚ ሕጂ ዘሎ ስሪት ሕሳብ፣ ክፍሊት፣ backend database፣ ወይ ዝከታተል analytics የብሉን።",
     sections: [
       { title: "ናጻ መሳርሒ መጽናዕቲ", body: ["Swedish Civics Test Preparation ናጻ መምርሒ ልምምድ እዩ። ምስ UHR, Skolverket, Migrationsverket ወይ ወግዓዊ ፈተና ዜግነት ኣይተተሓሓዝናን።", "ሕቶታት ልምምድ ናይ ባዕልና እዮም፣ ኣብ Sverige i fokus ዘለዉ ህዝባዊ ርእሰ-ጉዳያት ዝተመርኮሱ። ወግዓዊ ሕቶታት ኣይንቐድሕን።"] },
       { title: "ኣጠቓቕማኹም", body: ["ንውልቃዊ መጽናዕቲ ክትጥቀሙሉን ርእይቶ ክትልእኹልናን ትኽእሉ።", "ባንክ ሕቶታት፣ መግለጺታት፣ ትርጉማት ወይ ዲዛይን ከም ካልእ ፍርያት ኣይትሽጡ።"] },
-      { title: "ውልቃዊ ሓበሬታ ኣብዚ MVP", body: ["ኣብዚ ስሪት ሕሳብ ተጠቃሚ፣ ክፍሊት፣ backend contact form፣ analytics pixels፣ ወይ server profile የለን።", "ምዕባለኹምን ዝመረጽኩሞ ቋንቋን ብlocalStorage ኣብ browser ናይ መሳርሒኹም ይዕቀብ።"] },
+      { title: "ውልቃዊ ሓበሬታ ኣብዚ ስሪት", body: ["ኣብዚ ስሪት ሕሳብ ተጠቃሚ፣ ክፍሊት፣ backend contact form፣ analytics pixels፣ ወይ server profile የለን።", "ምዕባለኹምን ዝመረጽኩሞ ቋንቋን ብlocalStorage ኣብ browser ናይ መሳርሒኹም ይዕቀብ።"] },
       { title: "መጻኢ ለውጢ", body: ["ሕሳብ፣ ክፍሊት፣ analytics፣ email login ወይ cloud sync እንተወሲኽና፣ እዚ ፖሊሲ ቅድሚ ምውጻእ ክሕደስ ኣለዎ።", "እዚ ገጽ መምርሒ product እዩ፣ ሕጋዊ ምኽሪ ኣይኮነን። ቅድሚ ዓቢ launch፣ GDPR ምርመራ ጠቓሚ እዩ።"] }
     ]
   }
