@@ -5,9 +5,9 @@ export type Topic = {
   descriptionEn: string;
 };
 
-export type ExplanationLanguage = "en" | "ar" | "fa" | "so" | "zh";
+export type ExplanationLanguage = "en" | "ar" | "fa" | "so" | "ti" | "zh";
 
-export type UiLanguage = "en" | "ar" | "zh";
+export type UiLanguage = "en" | "ar" | "fa" | "so" | "ti" | "zh";
 
 export type Question = {
   id: string;
@@ -27,12 +27,12 @@ export type Lesson = {
   topicId: string;
   chapterNumbers: number[];
   titleSv: string;
-  titles: Record<UiLanguage, string>;
-  studyText: Record<UiLanguage, string[]>;
-  takeaways: Record<UiLanguage, string[]>;
+  titles: Partial<Record<UiLanguage, string>> & { en: string };
+  studyText: Partial<Record<UiLanguage, string[]>> & { en: string[] };
+  takeaways: Partial<Record<UiLanguage, string[]>> & { en: string[] };
   vocabulary: {
     sv: string;
-    translations: Record<UiLanguage, string>;
+    translations: Partial<Record<UiLanguage, string>> & { en: string };
   }[];
   questionIds: string[];
 };

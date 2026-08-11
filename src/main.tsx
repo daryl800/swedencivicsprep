@@ -134,7 +134,9 @@ const OFFICIAL_CHAPTERS = [
   { id: "traditions", number: 13, nameSv: "Traditioner och högtider", topicId: "everyday" }
 ] as const;
 
-const UI_TEXT: Record<UiLanguage, UiText> = {
+type CoreUiLanguage = "en" | "ar" | "zh";
+
+const UI_TEXT_BASE: Record<CoreUiLanguage, UiText> = {
   en: {
     eyebrow: "Prepare for the Swedish citizenship test",
     appTitle: "Swedish Civics Test Preparation",
@@ -587,13 +589,260 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
   }
 };
 
+const UI_TEXT: Record<UiLanguage, UiText> = {
+  ...UI_TEXT_BASE,
+  so: createLocalizedUiText(UI_TEXT_BASE.en, {
+    eyebrow: "U diyaar garow imtixaanka jinsiyadda Iswiidhan",
+    appTitle: "Diyaarinta Imtixaanka Bulshada Iswiidhan",
+    lead: "Ku tababar su'aalo ku saabsan bulshada Iswiidhan si aad ugu diyaar garowdo imtixaanka jinsiyadda.",
+    languageNote: "Su'aalaha iyo doorashooyinka jawaabta waxay ku sii jiraan af Iswiidhish. Qaybaha kale ee app-ku waxay raacaan luqadda aad doorato.",
+    dailyPrompt: "Ku bilow 10 daqiiqo maalintii.",
+    earlyAccessTitle: "Hage madax-bannaan",
+    officialGuideLink: "Fur agabka rasmiga ah ee waxbarashada",
+    studyPathTitle: "Hab waxbarasho oo ka fiican",
+    topicSelectorLabel: "Dooro qayb tababar",
+    allTopics: "Dhammaan mawduucyada",
+    comingNextTitle: "Waxyaabaha soo socda",
+    progressDashboardTitle: "Guddi horumar",
+    flashcardsTitle: "Kaadhadh ereyo - tijaabo",
+    flashcardsPreview: "Nooc tijaabo ah",
+    feedbackTitle: "Dir jawaab-celin",
+    feedbackIntro: "Noocan hore waxaa hagaajiya ardayda dhabta ah. Noo sheeg waxa kuu faa'iideeyay, waxa kugu adkaaday, waxa maqan, ama waxa khaldan.",
+    feedbackPromptTitle: "Maxaan xiga hagaajinnaa?",
+    feedbackPromptBody: "Fariintu waxay ka furmaysaa app-kaaga email-ka. Weli ma kaydinno foomkan backend.",
+    feedbackNameLabel: "Magac",
+    feedbackNamePlaceholder: "Ikhtiyaari",
+    feedbackEmailLabel: "Email",
+    feedbackEmailPlaceholder: "Ikhtiyaari, haddii aad rabto jawaab",
+    feedbackTypeLabel: "Nooca jawaab-celinta",
+    feedbackMessageLabel: "Jawaab-celintaada",
+    feedbackMessagePlaceholder: "Tusaale: Waan jeclahay caawinta luqadda, laakiin waxaan u baahanahay tusaalooyin badan oo daryeel caafimaad ah...",
+    feedbackSend: "Email ku dir jawaab-celinta",
+    feedbackMailFallback: "Haddii app-ka email-ku furmi waayo, noogu soo dir",
+    feedbackTypes: ["Jawaab-celin guud", "Su'aal ma cadda", "Dhibaato turjumaad", "Mawduuc maqan", "Cilad app-ka ah"],
+    flipCard: "Rog kaadhka",
+    nextCard: "Kaadhka xiga",
+    backToHome: "Ku noqo bogga hore",
+    overallProgress: "Horumarka guud",
+    topicAccuracy: "Saxnaanta",
+    weakTopic: "Mawduuc daciif ah",
+    recommendedNext: "Talo xigta",
+    continuePractice: "Sii wad",
+    startPractice: "Bilow su'aalaha tababarka",
+    reviewLesson: "Dib u eeg kaadhka casharka",
+    backToTopics: "Ku noqo mawduucyada",
+    level: "Heerka 1",
+    coachNote: "Dooro jawaabta kuu muuqata sax. Kadib waan kuu sharxi doonaa.",
+    showQuestionHelp: "Muuji caawinta luqadda",
+    hideQuestionHelp: "Qari caawinta luqadda",
+    questionHelpLabel: "Macnaha luqaddaada",
+    checkAnswer: "Hubi jawaabtayda",
+    nextQuestion: "Isku day mid kale",
+    resetProgress: "Tirtir horumarka",
+    readMore: "Akhri wax badan",
+    showLess: "Muuji wax yar",
+    dismiss: "Qari",
+    selected: "La doortay",
+    correct: "Sax",
+    incorrect: "Ma saxna",
+    correctKicker: "Wanaagsan, waad qabatay fikradda.",
+    wrongKicker: "Khalad yar oo wax laga barto.",
+    correctTitle: "Jawaabtaasi waa sax.",
+    wrongTitle: "Markan maya.",
+    bestAnswer: "Jawaabta ugu fiican",
+    explanationFallback: "Sharaxaad ayaa imanaysa dhowaan.",
+    appLanguage: "Luqadda app-ka",
+    appLanguageHint: "Su'aaluhu Iswiidhish bay ku sii jiraan.",
+    today: "maanta",
+    total: "wadar",
+    progressFresh: "Bilow cusub.",
+    progressWarm: "Waad is kululaynaysaa.",
+    progressGood: "Hab fiican.",
+    progressSolid: "Tababar adag.",
+    progressStrong: "Maalin tababar oo xooggan.",
+    topicNames: {
+      democracy: "Dimuqraadiyad & Doorashooyin",
+      rights: "Xuquuq & Waajibaad",
+      everyday: "Nolosha Maalinlaha ah ee Iswiidhan",
+      authorities: "Hay'adaha & Adeegyada"
+    },
+    topicFlavor: {
+      democracy: "Codad, doorashooyin, iyo xeerarka dimuqraadiyadda.",
+      rights: "Ogow xorriyadahaaga iyo masuuliyadaha la wadaago.",
+      everyday: "Iswiidhan-ka aad la kulanto maalin caadi ah.",
+      authorities: "Khariidad degdeg ah: yaa kaa caawinaya maxay?"
+    },
+    topicDescriptions: {
+      democracy: "Ku tababar codbixinta, Riksdag, iyo sida dadka saamayn ugu yeelan karaan Iswiidhan.",
+      rights: "Baro xorriyadaha, masuuliyadaha, iyo qiimaha sinnaanta ee nolol maalmeedka.",
+      everyday: "Ku tababar shaqo, guri, dugsi, caafimaad, iyo caadooyin maalinle ah.",
+      authorities: "Baro goorta iyo meesha lala xiriirayo hay'adaha iyo adeegyada muhiimka ah."
+    }
+  }),
+  fa: createLocalizedUiText(UI_TEXT_BASE.en, {
+    eyebrow: "برای آزمون شهروندی سوئد آماده شوید",
+    appTitle: "آمادگی آزمون جامعه‌شناسی سوئد",
+    lead: "با پرسش‌هایی درباره جامعه سوئد تمرین کنید تا برای آزمون شهروندی/مدنی آماده شوید.",
+    languageNote: "پرسش‌ها و گزینه‌ها به سوئدی می‌مانند. بقیه برنامه با زبان انتخابی شما نمایش داده می‌شود.",
+    dailyPrompt: "با روزی ۱۰ دقیقه شروع کنید.",
+    earlyAccessTitle: "راهنمای مستقل",
+    officialGuideLink: "باز کردن منبع رسمی مطالعه",
+    studyPathTitle: "روش هوشمندتر برای مطالعه",
+    topicSelectorLabel: "یک بخش تمرین را انتخاب کنید",
+    allTopics: "همه موضوع‌ها",
+    comingNextTitle: "مرحله‌های بعدی",
+    progressDashboardTitle: "داشبورد پیشرفت",
+    flashcardsTitle: "پیش‌نمایش فلش‌کارت‌ها",
+    flashcardsPreview: "نسخه پیش‌نمایش",
+    feedbackTitle: "ارسال بازخورد",
+    feedbackIntro: "این نسخه اولیه با نظر زبان‌آموزان واقعی بهتر می‌شود. بگویید چه چیزی مفید، گیج‌کننده، ناقص یا اشتباه بود.",
+    feedbackPromptTitle: "بعد چه چیزی را بهتر کنیم؟",
+    feedbackPromptBody: "پیام در برنامه ایمیل شما باز می‌شود. فعلاً این فرم را در backend ذخیره نمی‌کنیم.",
+    feedbackNameLabel: "نام",
+    feedbackNamePlaceholder: "اختیاری",
+    feedbackEmailLabel: "ایمیل",
+    feedbackEmailPlaceholder: "اختیاری، اگر پاسخ می‌خواهید",
+    feedbackTypeLabel: "نوع بازخورد",
+    feedbackMessageLabel: "بازخورد شما",
+    feedbackMessagePlaceholder: "مثلاً: کمک زبانی سوئدی خوب است، اما مثال‌های بیشتری درباره خدمات درمانی لازم دارم...",
+    feedbackSend: "ارسال بازخورد با ایمیل",
+    feedbackMailFallback: "اگر برنامه ایمیل باز نشد، به این آدرس ایمیل بفرستید",
+    feedbackTypes: ["بازخورد عمومی", "پرسش نامشخص است", "مشکل ترجمه", "موضوع کم است", "گزارش خطا"],
+    flipCard: "برگرداندن کارت",
+    nextCard: "کارت بعدی",
+    backToHome: "بازگشت به صفحه اصلی",
+    overallProgress: "پیشرفت کلی",
+    topicAccuracy: "دقت",
+    weakTopic: "موضوع ضعیف",
+    recommendedNext: "پیشنهاد بعدی",
+    continuePractice: "ادامه",
+    startPractice: "شروع پرسش‌های تمرینی",
+    reviewLesson: "مرور کارت مطالعه",
+    backToTopics: "بازگشت به موضوع‌ها",
+    level: "سطح ۱",
+    coachNote: "پاسخی را انتخاب کنید که درست‌تر به نظر می‌رسد. بعد از بررسی توضیح می‌دهیم.",
+    showQuestionHelp: "نمایش کمک زبانی",
+    hideQuestionHelp: "پنهان کردن کمک زبانی",
+    questionHelpLabel: "معنی به زبان شما",
+    checkAnswer: "پاسخم را بررسی کن",
+    nextQuestion: "یک پرسش دیگر",
+    resetProgress: "پاک کردن پیشرفت",
+    readMore: "بیشتر بخوانید",
+    showLess: "کمتر نشان بده",
+    dismiss: "بستن",
+    selected: "انتخاب‌شده",
+    correct: "درست",
+    incorrect: "درست نیست",
+    correctKicker: "خوب، نکته را گرفتی.",
+    wrongKicker: "از همین اشتباه هم می‌شود یاد گرفت.",
+    correctTitle: "این پاسخ درست است.",
+    wrongTitle: "این بار نه.",
+    bestAnswer: "بهترین پاسخ",
+    explanationFallback: "توضیح به‌زودی اضافه می‌شود.",
+    appLanguage: "زبان برنامه",
+    appLanguageHint: "پرسش‌ها سوئدی می‌مانند.",
+    today: "امروز",
+    total: "کل",
+    progressFresh: "شروع تازه.",
+    progressWarm: "در حال گرم شدن هستید.",
+    progressGood: "ریتم خوبی دارید.",
+    progressSolid: "تمرین محکم.",
+    progressStrong: "روز تمرین عالی.",
+    topicNames: {
+      democracy: "دموکراسی و انتخابات",
+      rights: "حقوق و وظایف",
+      everyday: "زندگی روزمره در سوئد",
+      authorities: "اداره‌ها و خدمات"
+    }
+  }),
+  ti: createLocalizedUiText(UI_TEXT_BASE.en, {
+    eyebrow: "ንፈተና ዜግነት ሽወደን ተዳለዉ",
+    appTitle: "ምድላው ፈተና ማሕበረሰብ ሽወደን",
+    lead: "ብዛዕባ ማሕበረሰብ ሽወደን ሕቶታት ተለማመዱ ንፈተና ዜግነት ክትዳለዉ።",
+    languageNote: "ሕቶታትን ምርጫታት መልስን ብሽወደንኛ ይቕጽሉ። ዝተረፈ ክፋል ናይ app ብዝመረጽኩሞ ቋንቋ ይረአ።",
+    dailyPrompt: "ብ10 ደቓይቕ ኣብ መዓልቲ ጀምሩ።",
+    earlyAccessTitle: "ናጻ መምርሒ",
+    officialGuideLink: "ናይ ወግዒ መጽናዕቲ ክፈት",
+    studyPathTitle: "ዝሓሸ መንገዲ መጽናዕቲ",
+    topicSelectorLabel: "ክፋል ልምምድ ምረጹ",
+    allTopics: "ኩሎም ርእሰ-ጉዳያት",
+    comingNextTitle: "ዝቕጽል",
+    progressDashboardTitle: "መከታተሊ ምዕባለ",
+    flashcardsTitle: "ፍላሽካርድ ቅድመ-ምርኢት",
+    flashcardsPreview: "ቅድመ-ምርኢት",
+    feedbackTitle: "ርእይቶ ስደዱ",
+    feedbackIntro: "እዚ ቀዳማይ ስሪት ብርእይቶ ተማሃሮ ይምሕየሽ። እንታይ ጠቓሚ፣ ዘደናግር፣ ዝጎደለ ወይ ጌጋ ከምዝኾነ ንገሩና።",
+    feedbackPromptTitle: "ቀጺልና እንታይ ነመሓይሽ?",
+    feedbackPromptBody: "መልእኽትኹም ኣብ email app ይኽፈት። እዚ ፎርም ገና ኣብ backend ኣይንዕቅቦን።",
+    feedbackNameLabel: "ስም",
+    feedbackNamePlaceholder: "ኣማራጺ",
+    feedbackEmailLabel: "Email",
+    feedbackEmailPlaceholder: "መልሲ እንተደሊኹም ኣማራጺ",
+    feedbackTypeLabel: "ዓይነት ርእይቶ",
+    feedbackMessageLabel: "ርእይቶኹም",
+    feedbackMessagePlaceholder: "ኣብነት፦ ሓገዝ ቋንቋ ጽቡቕ እዩ፣ ግን ብዛዕባ ጥዕና ተወሳኺ ኣብነታት የድልዩኒ...",
+    feedbackSend: "ብemail ርእይቶ ስደዱ",
+    feedbackMailFallback: "email app እንተዘይተኸፊቱ፣ ናብዚ ስደዱ",
+    feedbackTypes: ["ሓፈሻዊ ርእይቶ", "ሕቶ ግልጺ ኣይኮነን", "ጸገም ትርጉም", "ዝጎደለ ርእሰ-ጉዳይ", "ሪፖርት ጌጋ"],
+    flipCard: "ካርድ ግለጹ",
+    nextCard: "ቀጻሊ ካርድ",
+    backToHome: "ናብ መጀመርታ ተመለሱ",
+    overallProgress: "ሓፈሻዊ ምዕባለ",
+    topicAccuracy: "ትኽክለኛነት",
+    weakTopic: "ድኹም ርእሰ-ጉዳይ",
+    recommendedNext: "ዝተመከረ ቀጻሊ",
+    continuePractice: "ቀጽሉ",
+    startPractice: "ሕቶታት ልምምድ ጀምሩ",
+    reviewLesson: "ካርድ መጽናዕቲ ድገሙ",
+    backToTopics: "ናብ ርእሰ-ጉዳያት ተመለሱ",
+    level: "ደረጃ 1",
+    coachNote: "ትኽክል ዝመስለኩም መልሲ ምረጹ። ድሕሪ ምምርማር ንገልጾ።",
+    showQuestionHelp: "ሓገዝ ቋንቋ ኣርእዩ",
+    hideQuestionHelp: "ሓገዝ ቋንቋ ሕብኡ",
+    questionHelpLabel: "ትርጉም ብቋንቋኹም",
+    checkAnswer: "መልሰይ ርአ",
+    nextQuestion: "ካልእ ሕቶ ፈትኑ",
+    resetProgress: "ምዕባለ ኣጥፍኡ",
+    readMore: "ተወሳኺ ኣንብቡ",
+    showLess: "ውሑድ ኣርእዩ",
+    dismiss: "ዕጸዉ",
+    selected: "ተመሪጹ",
+    correct: "ትኽክል",
+    incorrect: "ትኽክል ኣይኮነን",
+    correctKicker: "ጽቡቕ፣ ሓሳቡ ሒዝኩሞ።",
+    wrongKicker: "ካብዚ ክትመሃሩ ትኽእሉ።",
+    correctTitle: "እዚ መልሲ ትኽክል እዩ።",
+    wrongTitle: "ኣብዚ ግዜ ኣይኮነን።",
+    bestAnswer: "ዝበለጸ መልሲ",
+    explanationFallback: "መግለጺ ቀረባ ክውሰኽ እዩ።",
+    appLanguage: "ቋንቋ app",
+    appLanguageHint: "ሕቶታት ብሽወደንኛ ይቕጽሉ።",
+    today: "ሎሚ",
+    total: "ድምር",
+    progressFresh: "ሓድሽ መጀመርታ።",
+    progressWarm: "ትለማመዱ ኣለኹም።",
+    progressGood: "ጽቡቕ ምንቅስቓስ።",
+    progressSolid: "ጽኑዕ ልምምድ።",
+    progressStrong: "ጽቡቕ መዓልቲ ልምምድ።",
+    topicNames: {
+      democracy: "ዲሞክራሲን ምርጫታትን",
+      rights: "መሰላትን ግቡኣትን",
+      everyday: "ዕለታዊ ህይወት ኣብ ሽወደን",
+      authorities: "ትካላትን ኣገልግሎታትን"
+    }
+  })
+};
+
 const SUPPORTED_LANGUAGES: { id: UiLanguage; label: string; nativeLabel: string }[] = [
   { id: "en", label: "English", nativeLabel: "English" },
+  { id: "so", label: "Somali", nativeLabel: "Soomaali" },
+  { id: "fa", label: "Dari / Persian (Farsi)", nativeLabel: "دری / فارسی" },
+  { id: "ti", label: "Tigrinya", nativeLabel: "ትግርኛ" },
   { id: "ar", label: "Arabic", nativeLabel: "العربية" },
   { id: "zh", label: "Chinese", nativeLabel: "中文" }
 ];
 
-const CITIZENSHIP_UPDATE: Record<UiLanguage, {
+type CitizenshipUpdateText = {
   title: string;
   source: string;
   summary: string;
@@ -602,7 +851,9 @@ const CITIZENSHIP_UPDATE: Record<UiLanguage, {
   note: string;
   migrationsverketLink: string;
   uhrLink: string;
-}> = {
+};
+
+const CITIZENSHIP_UPDATE_BASE: Record<CoreUiLanguage, CitizenshipUpdateText> = {
   en: {
     title: "2026 citizenship rules update",
     source: "Based on information from Migrationsverket",
@@ -653,7 +904,61 @@ const CITIZENSHIP_UPDATE: Record<UiLanguage, {
   }
 };
 
-const FAQ_CONTENT: Record<UiLanguage, { title: string; intro: string; items: { question: string; answer: string }[] }> = {
+const CITIZENSHIP_UPDATE: Record<UiLanguage, CitizenshipUpdateText> = {
+  ...CITIZENSHIP_UPDATE_BASE,
+  so: {
+    title: "Cusboonaysiinta xeerarka jinsiyadda 2026",
+    source: "Ku salaysan macluumaadka Migrationsverket",
+    summary: "Xeerarka cusub ee jinsiyadda 2026 waxay bilaabmeen Juun. Dadka qaar waxay yeelan karaan waddo ka fudud oo deganaansho joogto ah.",
+    intro: "Laga bilaabo 6 Juun 2026, codsiyada jinsiyadda Iswiidhan waxaa lagu qiimeeyaa shuruudo adag. Dad badan oo waaweyn waxaa laga rabaa:",
+    bullets: [
+      "saldhig deganaansho oo sax ah",
+      "muddo cayiman oo lagu noolaa Iswiidhan",
+      "aqoon af Iswiidhish iyo bulshada Iswiidhan",
+      "awood aad naftaada ku masruufto",
+      "nolol nidaamsan oo sharciga la ixtiraamo"
+    ],
+    note: "Laga bilaabo 12 Luulyo 2026, dadka qaar oo leh oggolaansho deganaansho ku-meelgaar ah waxaa laga yaabaa in laga dhaafo shuruudda deganaanshaha joogtada ah. Xaaladdaada gaarka ah waxaa qiimeeya Migrationsverket.",
+    migrationsverketLink: "Ka hubi shuruudaha Migrationsverket",
+    uhrLink: "Wax ku baro Sverige i fokus"
+  },
+  fa: {
+    title: "به‌روزرسانی قوانین شهروندی ۲۰۲۶",
+    source: "بر اساس اطلاعات Migrationsverket",
+    summary: "قوانین جدید شهروندی ۲۰۲۶ از ماه جون اجرا می‌شود. بعضی متقاضیان ممکن است مسیر آسان‌تری به اقامت دائم داشته باشند.",
+    intro: "از ۶ جون ۲۰۲۶، درخواست‌های شهروندی سوئد با شرایط سخت‌تری بررسی می‌شوند. برای بسیاری از بزرگسالان، شرایط شامل این موارد است:",
+    bullets: [
+      "پایه اقامتی معتبر",
+      "مدت لازم زندگی در سوئد",
+      "دانش زبان سوئدی و جامعه سوئد",
+      "توانایی تأمین هزینه‌های خود",
+      "زندگی منظم و قانون‌مدار"
+    ],
+    note: "از ۱۲ جولای ۲۰۲۶، برخی افراد با اجازه اقامت موقت ممکن است از شرط اقامت دائم معاف شوند. وضعیت شخصی شما همیشه توسط Migrationsverket بررسی می‌شود.",
+    migrationsverketLink: "بررسی شرایط در Migrationsverket",
+    uhrLink: "مطالعه با Sverige i fokus"
+  },
+  ti: {
+    title: "ሓድሽ ሕግታት ዜግነት 2026",
+    source: "ብመሰረት ሓበሬታ Migrationsverket",
+    summary: "ሓደስቲ ሕግታት ዜግነት 2026 ካብ ሰነ ጀሚሮም ተፈጻሚ እዮም። ገለ ኣመልከትቲ ቀሊል መንገዲ ናብ ቀዋሚ መንበሪ ክህልዎም ይኽእል።",
+    intro: "ካብ 6 ሰነ 2026 ጀሚሩ፣ ምልክታታት ዜግነት ሽወደን ብዝጠንከረ ረቛሒታት ይግምገሙ። ንብዙሓት ዓበይቲ እዚ ይሓትት፦",
+    bullets: [
+      "ቅኑዕ መሰረት መንበሪ",
+      "ዝተወሰነ ግዜ ኣብ ሽወደን ምንባር",
+      "ፍልጠት ቋንቋ ሽወደንን ማሕበረሰብ ሽወደንን",
+      "ንርእስኻ ክትኣልይ ምኽኣል",
+      "ስርዓታዊን ሕጊ ዘኽብርን ህይወት"
+    ],
+    note: "ካብ 12 ሓምለ 2026 ጀሚሩ፣ ገለ ሰባት ግዝያዊ ፍቓድ መንበሪ ዘለዎም ካብ ረቛሒ ቀዋሚ መንበሪ ክነጻጸሉ ይኽእሉ። ውልቃዊ ኩነታትኩም ወትሩ ብMigrationsverket ይግምገም።",
+    migrationsverketLink: "ረቛሒታት ኣብ Migrationsverket ርአ",
+    uhrLink: "ብSverige i fokus ተማሃሩ"
+  }
+};
+
+type FaqContent = { title: string; intro: string; items: { question: string; answer: string }[] };
+
+const FAQ_CONTENT_BASE: Record<CoreUiLanguage, FaqContent> = {
   en: {
     title: "FAQ",
     intro: "Short answers for early users. The product is intentionally simple while we test what helps learners most.",
@@ -746,7 +1051,47 @@ const FAQ_CONTENT: Record<UiLanguage, { title: string; intro: string; items: { q
   }
 };
 
-const LEGAL_CONTENT: Record<UiLanguage, {
+const FAQ_CONTENT: Record<UiLanguage, FaqContent> = {
+  ...FAQ_CONTENT_BASE,
+  so: {
+    title: "Su'aalo badan la isweydiiyo",
+    intro: "Jawaabo kooban oo loogu talagalay isticmaalayaasha hore.",
+    items: [
+      { question: "App-kan ma yahay adeeg rasmi ah?", answer: "Maya. Swedish Civics Test Preparation waa qalab waxbarasho oo madax-bannaan. Lama xiriirno UHR, Skolverket, Migrationsverket, ama imtixaanka rasmiga ah." },
+      { question: "Su'aalahan ma yihiin su'aalo imtixaan rasmi ah?", answer: "Maya. Waa su'aalo tababar oo asal ah, kuna salaysan mawduucyada waxbarashada ee dadweynaha ee Sverige i fokus." },
+      { question: "Maxay su'aaluhu u yihiin Iswiidhish?", answer: "Su'aalaha waxaan ku haynaa Iswiidhish si ay ugu ekaadaan habka waxbarashada, laakiin sharaxaad iyo caawin luqadeed ayaan ku siinnaa luqadda aad doorato." },
+      { question: "Xaggee horumarkayga lagu kaydiyaa?", answer: "Noocan MVP, horumarka wuxuu ku kaydsan yahay browser-ka qalabkan oo keliya. Xisaabo ma jiraan weli." },
+      { question: "Ma bilaash baa?", answer: "Haa, noocan hore waa bilaash inta aan ka ururinayno jawaab-celin ardayda dhabta ah." },
+      { question: "Ma leeyahay imtixaan 60 su'aal ah?", answer: "Weli maya. Hadda waa tababar mawduucyo ah. Imtixaan isku-dhafan wuxuu iman karaa marka bangiga su'aalaha weynaado." }
+    ]
+  },
+  fa: {
+    title: "پرسش‌های متداول",
+    intro: "پاسخ‌های کوتاه برای کاربران اولیه.",
+    items: [
+      { question: "آیا این برنامه سرویس رسمی آزمون است؟", answer: "نه. Swedish Civics Test Preparation یک ابزار مستقل مطالعه و تمرین است. ما وابسته به UHR، Skolverket، Migrationsverket یا آزمون رسمی شهروندی نیستیم." },
+      { question: "آیا این‌ها پرسش‌های رسمی امتحان هستند؟", answer: "نه. این‌ها پرسش‌های تمرینی اصلی برای این برنامه هستند و بر اساس موضوع‌های عمومی Sverige i fokus نوشته شده‌اند." },
+      { question: "چرا پرسش‌ها به سوئدی هستند؟", answer: "پرسش‌ها را به سوئدی نگه می‌داریم، اما کمک و توضیح را به زبان انتخابی شما نشان می‌دهیم." },
+      { question: "پیشرفت من کجا ذخیره می‌شود؟", answer: "در این MVP، پیشرفت فقط در مرورگر همین دستگاه ذخیره می‌شود. هنوز حساب کاربری نداریم." },
+      { question: "آیا رایگان است؟", answer: "بله، نسخه اولیه فعلاً رایگان است تا از زبان‌آموزان واقعی بازخورد بگیریم." },
+      { question: "آیا آزمون کامل ۶۰ پرسشی دارد؟", answer: "هنوز نه. فعلاً تمرین بر اساس موضوع است. وقتی بانک پرسش بزرگ‌تر شود، آزمون ترکیبی گزینه خوبی است." }
+    ]
+  },
+  ti: {
+    title: "ብዙሕ ዝሕተቱ ሕቶታት",
+    intro: "ንቀዳሞት ተጠቀምቲ ሓጺር መልስታት።",
+    items: [
+      { question: "እዚ app ወግዓዊ ናይ ፈተና ኣገልግሎት ድዩ?", answer: "ኣይፋሉን። Swedish Civics Test Preparation ናጻ መጽናዕቲን ልምምድን መሳርሒ እዩ። ምስ UHR, Skolverket, Migrationsverket ወይ ወግዓዊ ፈተና ዜግነት ኣይተተሓሓዝናን።" },
+      { question: "እዞም ሕቶታት ወግዓዊ ሕቶታት ፈተና ድዮም?", answer: "ኣይፋሉን። እዞም ንapp ዝተጻሕፉ ናይ ልምምድ ሕቶታት እዮም፣ ኣብ ህዝባዊ ርእሰ-ጉዳያት Sverige i fokus ዝተመርኮሱ።" },
+      { question: "ስለምንታይ ሕቶታት ብሽወደንኛ እዮም?", answer: "ሕቶታት ብሽወደንኛ ንሕዞም፣ ግን ሓገዝን መግለጺን ብዝመረጽኩሞ ቋንቋ ነርኢ።" },
+      { question: "ምዕባለይ ኣበይ ይዕቀብ?", answer: "ኣብዚ MVP፣ ምዕባለ ኣብ browser ናይዚ መሳርሒ ጥራይ ይዕቀብ። ሕሳብ ተጠቃሚ ገና የለን።" },
+      { question: "ነጻ ድዩ?", answer: "እወ፣ እዚ ቀዳማይ ስሪት ነጻ እዩ፣ ካብ ተማሃሮ ርእይቶ ንምእካብ።" },
+      { question: "ሙሉእ 60 ሕቶታት ፈተና ኣለዎ?", answer: "ገና የለን። ሕጂ ብርእሰ-ጉዳይ ልምምድ እዩ። ባንክ ሕቶታት ምስ ዓበየ፣ ዝተሓዋወሰ ፈተና ጽቡቕ ቀጻሊ ይኸውን።" }
+    ]
+  }
+};
+
+type LegalContent = {
   homeLink: string;
   privacyLink: string;
   footerNote: string;
@@ -754,7 +1099,9 @@ const LEGAL_CONTENT: Record<UiLanguage, {
   updated: string;
   intro: string;
   sections: { title: string; body: string[] }[];
-}> = {
+};
+
+const LEGAL_CONTENT_BASE: Record<CoreUiLanguage, LegalContent> = {
   en: {
     homeLink: "Back to home",
     privacyLink: "Terms & privacy",
@@ -871,7 +1218,53 @@ const LEGAL_CONTENT: Record<UiLanguage, {
   }
 };
 
-const QUESTION_TRANSLATIONS: Record<string, Record<UiLanguage, { question: string; options: string[] }>> = {
+const LEGAL_CONTENT: Record<UiLanguage, LegalContent> = {
+  ...LEGAL_CONTENT_BASE,
+  so: {
+    homeLink: "Ku noqo bogga hore",
+    privacyLink: "Shuruudaha & asturnaanta",
+    footerNote: "Su'aalo tababar oo asal ah oo ku salaysan mawduucyo waxbarasho oo dadweyne. Ma aha su'aalo imtixaan rasmi ah.",
+    title: "Shuruudaha & Asturnaanta",
+    updated: "La cusbooneysiiyay: 10 Agoosto 2026",
+    intro: "Boggan wuxuu sharxayaa sida Swedish Civics Test Preparation u shaqeeyo maanta. Waa kooban yahay sababtoo ah MVP-kan ma laha xisaabo, lacag-bixin, database backend, ama xayeysiis raadraac.",
+    sections: [
+      { title: "Qalab waxbarasho oo madax-bannaan", body: ["Swedish Civics Test Preparation waa hage tababar oo madax-bannaan. Lama xiriirno UHR, Skolverket, Migrationsverket, ama imtixaanka rasmiga ah.", "Su'aalaha tababarku waa asal, waxayna ku salaysan yihiin mawduucyada dadweynaha ee Sverige i fokus. Ma nuqulno ama ma sheeganno su'aalo rasmi ah."] },
+      { title: "Isticmaalka app-ka", body: ["Waxaad u isticmaali kartaa waxbarashadaada gaarka ah oo aad nala wadaagi kartaa jawaab-celin.", "Fadlan ha xoqin, dib ha u daabicin, hana iibin bangiga su'aalaha, sharaxaadaha, tarjumaadaha, ama naqshadda."] },
+      { title: "Asturnaanta MVP-kan", body: ["Noocan kuma jiraan xisaabo, lacag-bixin, foomam xiriir oo server ah, analytics pixels, ama profiles backend lagu kaydiyo.", "Horumarkaaga iyo luqadda aad doorato waxaa lagu kaydiyaa browser-kaaga adigoo adeegsanaya localStorage."] },
+      { title: "Isbeddello mustaqbalka", body: ["Haddii aan ku darno xisaabo, lacag-bixin, analytics, email login, ama sync horumar cloud, siyaasaddan waa in la cusbooneysiiyaa.", "Boggan waa hagitaan product, ma aha talo sharci. Dib-u-eegis GDPR ayaa weli mudan ka hor launch weyn."] }
+    ]
+  },
+  fa: {
+    homeLink: "بازگشت به صفحه اصلی",
+    privacyLink: "شرایط و حریم خصوصی",
+    footerNote: "پرسش‌های تمرینی اصلی بر اساس موضوع‌های عمومی مطالعه. پرسش رسمی امتحان نیستند.",
+    title: "شرایط و حریم خصوصی",
+    updated: "آخرین به‌روزرسانی: ۱۰ آگست ۲۰۲۶",
+    intro: "این صفحه توضیح می‌دهد Swedish Civics Test Preparation امروز چگونه کار می‌کند. متن کوتاه است چون MVP فعلی حساب کاربری، پرداخت، پایگاه داده backend یا ردیاب تبلیغاتی ندارد.",
+    sections: [
+      { title: "ابزار مطالعه مستقل", body: ["Swedish Civics Test Preparation یک راهنمای مستقل تمرین برای مطالعه جامعه سوئد است. ما وابسته به UHR، Skolverket، Migrationsverket یا آزمون رسمی شهروندی نیستیم.", "پرسش‌های تمرینی اصلی هستند و بر اساس موضوع‌های عمومی Sverige i fokus نوشته شده‌اند. ما پرسش‌های رسمی امتحان را کپی، منتشر یا ادعا نمی‌کنیم."] },
+      { title: "استفاده شما از برنامه", body: ["می‌توانید از برنامه برای مطالعه شخصی استفاده کنید و برای ما بازخورد بفرستید.", "لطفاً بانک پرسش‌ها، توضیح‌ها، ترجمه‌ها یا طراحی را استخراج، بازنشر یا به عنوان محصول دیگر نفروشید."] },
+      { title: "حریم خصوصی در MVP فعلی", body: ["در این نسخه حساب کاربری، پرداخت، فرم تماس backend، پیکسل تحلیل یا پروفایل ذخیره‌شده در سرور وجود ندارد.", "پیشرفت تمرین و زبان انتخابی شما با localStorage در مرورگر همین دستگاه ذخیره می‌شود."] },
+      { title: "تغییرات آینده", body: ["اگر بعداً حساب، پرداخت، تحلیل، ورود ایمیلی یا همگام‌سازی ابری اضافه کنیم، این سیاست باید قبل از انتشار آن ویژگی‌ها به‌روزرسانی شود.", "این صفحه راهنمای محصول است، نه مشاوره حقوقی. پیش از انتشار عمومی بزرگ‌تر، بررسی GDPR ارزش دارد."] }
+    ]
+  },
+  ti: {
+    homeLink: "ናብ መጀመርታ ተመለሱ",
+    privacyLink: "ቅድመ-ኩነትን ውልቃዊ ሓበሬታን",
+    footerNote: "ናይ ልምምድ ሕቶታት ናይ ባዕልና እዮም፣ ኣብ ህዝባዊ ርእሰ-ጉዳያት መጽናዕቲ ዝተመርኮሱ። ወግዓዊ ሕቶታት ፈተና ኣይኮኑን።",
+    title: "ቅድመ-ኩነትን ውልቃዊ ሓበሬታን",
+    updated: "መወዳእታ ምሕዳስ፦ 10 ነሓሰ 2026",
+    intro: "እዚ ገጽ እቲ app ሎሚ ከመይ ከምዝሰርሕ ይገልጽ። MVP ሕጂ ሕሳብ፣ ክፍሊት፣ backend database፣ ወይ ዝከታተል analytics የብሉን።",
+    sections: [
+      { title: "ናጻ መሳርሒ መጽናዕቲ", body: ["Swedish Civics Test Preparation ናጻ መምርሒ ልምምድ እዩ። ምስ UHR, Skolverket, Migrationsverket ወይ ወግዓዊ ፈተና ዜግነት ኣይተተሓሓዝናን።", "ሕቶታት ልምምድ ናይ ባዕልና እዮም፣ ኣብ Sverige i fokus ዘለዉ ህዝባዊ ርእሰ-ጉዳያት ዝተመርኮሱ። ወግዓዊ ሕቶታት ኣይንቐድሕን።"] },
+      { title: "ኣጠቓቕማኹም", body: ["ንውልቃዊ መጽናዕቲ ክትጥቀሙሉን ርእይቶ ክትልእኹልናን ትኽእሉ።", "ባንክ ሕቶታት፣ መግለጺታት፣ ትርጉማት ወይ ዲዛይን ከም ካልእ ፍርያት ኣይትሽጡ።"] },
+      { title: "ውልቃዊ ሓበሬታ ኣብዚ MVP", body: ["ኣብዚ ስሪት ሕሳብ ተጠቃሚ፣ ክፍሊት፣ backend contact form፣ analytics pixels፣ ወይ server profile የለን።", "ምዕባለኹምን ዝመረጽኩሞ ቋንቋን ብlocalStorage ኣብ browser ናይ መሳርሒኹም ይዕቀብ።"] },
+      { title: "መጻኢ ለውጢ", body: ["ሕሳብ፣ ክፍሊት፣ analytics፣ email login ወይ cloud sync እንተወሲኽና፣ እዚ ፖሊሲ ቅድሚ ምውጻእ ክሕደስ ኣለዎ።", "እዚ ገጽ መምርሒ product እዩ፣ ሕጋዊ ምኽሪ ኣይኮነን። ቅድሚ ዓቢ launch፣ GDPR ምርመራ ጠቓሚ እዩ።"] }
+    ]
+  }
+};
+
+const QUESTION_TRANSLATIONS: Record<string, Partial<Record<UiLanguage, { question: string; options: string[] }>>> = {
   "democracy-001": {
     en: { question: "What does the word democracy mean?", options: ["Rule by the people", "Rule by a king", "Rule by companies", "Rule by courts"] },
     ar: { question: "ماذا تعني كلمة ديمقراطية؟", options: ["حكم الشعب", "حكم الملك", "حكم الشركات", "حكم المحاكم"] },
@@ -1183,6 +1576,18 @@ function App() {
 function getInitialLanguage(): UiLanguage {
   const saved = localStorage.getItem(LANGUAGE_STORAGE_KEY) || localStorage.getItem(OLD_EXPLANATION_LANGUAGE_KEY);
   return SUPPORTED_LANGUAGES.some((language) => language.id === saved) ? (saved as UiLanguage) : "en";
+}
+
+function createLocalizedUiText(base: UiText, overrides: Partial<UiText>): UiText {
+  return {
+    ...base,
+    ...overrides,
+    chapterNames: { ...base.chapterNames, ...overrides.chapterNames },
+    chapterSummaries: { ...base.chapterSummaries, ...overrides.chapterSummaries },
+    topicNames: { ...base.topicNames, ...overrides.topicNames },
+    topicFlavor: { ...base.topicFlavor, ...overrides.topicFlavor },
+    topicDescriptions: { ...base.topicDescriptions, ...overrides.topicDescriptions }
+  };
 }
 
 function getInitialRoute(): Route {
@@ -1927,7 +2332,7 @@ function FlashcardsPreviewPage({
     lesson.vocabulary.map((item) => ({
       topic: ui.topicNames[lesson.topicId] || lesson.topicId,
       sv: item.sv,
-      translation: item.translations[language]
+      translation: item.translations[language] || item.translations.en
     }))
   );
   const [cardIndex, setCardIndex] = useState(0);
@@ -2136,13 +2541,16 @@ function LessonCard({
 }) {
   const lessonIndex = LESSONS.findIndex((item) => item.id === lesson.id);
   const lessonNumber = lessonIndex >= 0 ? lessonIndex + 1 : 1;
+  const lessonTitle = lesson.titles[language] || lesson.titles.en;
+  const studyText = lesson.studyText[language] || lesson.studyText.en;
+  const takeaways = lesson.takeaways[language] || lesson.takeaways.en;
 
   return (
     <section className="lesson-card" aria-label={ui.studyCardLabel}>
       <div className="lesson-header">
         <div>
           <p className="lesson-step">{ui.roadmapStep(lessonNumber, LESSONS.length)}</p>
-          <h1>{lesson.titles[language]}</h1>
+          <h1>{lessonTitle}</h1>
           <p className="topic-sv" dir="ltr">{lesson.titleSv}</p>
         </div>
         <div className="lesson-meta">
@@ -2161,7 +2569,7 @@ function LessonCard({
             <BookOpen size={20} aria-hidden="true" />
             {ui.studyMaterialTitle}
           </h2>
-          {lesson.studyText[language].map((paragraph) => (
+          {studyText.map((paragraph) => (
             <p key={paragraph}>{paragraph}</p>
           ))}
         </section>
@@ -2172,7 +2580,7 @@ function LessonCard({
             {ui.takeawaysTitle}
           </h2>
           <ul>
-            {lesson.takeaways[language].map((takeaway, index) => (
+            {takeaways.map((takeaway, index) => (
               <li key={takeaway}>
                 <span aria-hidden="true">{index + 1}</span>
                 <strong>{takeaway}</strong>
@@ -2188,7 +2596,7 @@ function LessonCard({
           {lesson.vocabulary.map((item) => (
             <div className="vocabulary-item" key={item.sv}>
               <strong lang="sv">{item.sv}</strong>
-              <span>{item.translations[language]}</span>
+              <span>{item.translations[language] || item.translations.en}</span>
             </div>
           ))}
         </div>
@@ -2369,7 +2777,7 @@ function getProgressMessage(today: number, ui: UiText) {
 }
 
 function isRtl(language: ExplanationLanguage | UiLanguage) {
-  return language === "ar";
+  return language === "ar" || language === "fa";
 }
 
 createRoot(document.querySelector("#app")!).render(
