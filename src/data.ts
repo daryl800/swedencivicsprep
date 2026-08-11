@@ -42,6 +42,9 @@ export const LESSONS: Lesson[] = [
     titles: {
       en: "Democracy, elections, and influence",
       ar: "الديمقراطية والانتخابات والتأثير",
+      so: "Dimuqraadiyad, doorashooyin, iyo saamayn",
+      fa: "دموکراسی، انتخابات و تأثیرگذاری",
+      ti: "ዲሞክራሲ፣ ምርጫታትን ጽልዋን",
       zh: "民主、选举和影响社会"
     },
     studyText: {
@@ -54,6 +57,21 @@ export const LESSONS: Lesson[] = [
         "تشرح Sverige i fokus السويد كدولة ديمقراطية. هذا يعني أن السلطة السياسية تأتي من الشعب، وأن الناس يختارون ممثليهم في انتخابات حرة.",
         "الديمقراطية ليست التصويت فقط. يمكن للناس أيضاً التأثير في المجتمع عبر الجمعيات، والتواصل مع السياسيين، والتظاهر السلمي، وكتابة مقالات رأي، والمشاركة في النقاش العام.",
         "تحتاج الديمقراطية القوية إلى انتخابات حرة، وإعلام حر، واحترام الحقوق، وأشخاص يتحققون من المعلومات بدلاً من نشر التهديدات أو الادعاءات الكاذبة."
+      ],
+      so: [
+        "Sverige i fokus waxay sharxaysaa in Iswiidhan tahay dal dimuqraadi ah. Taas macnaheedu waa in awoodda siyaasadeed ka timaaddo dadka, dadkuna ay doortaan wakiillo doorashooyin xor ah.",
+        "Dimuqraadiyaddu ma aha codbixin oo keliya. Dadku sidoo kale waxay bulshada saamayn ugu yeelan karaan ururro, la xiriiridda siyaasiyiinta, bannaanbax nabad ah, qorista maqaal dood ah, iyo ka qaybgalka doodda dadweynaha.",
+        "Dimuqraadiyad xooggan waxay u baahan tahay doorashooyin xor ah, warbaahin xor ah, ixtiraam xuquuq, iyo dad hubiya macluumaadka halkii ay faafin lahaayeen hanjabaad ama sheegashooyin been ah."
+      ],
+      fa: [
+        "Sverige i fokus سوئد را به عنوان یک دموکراسی توضیح می‌دهد. یعنی قدرت سیاسی از مردم می‌آید و مردم نمایندگان خود را در انتخابات آزاد انتخاب می‌کنند.",
+        "دموکراسی فقط رأی دادن نیست. مردم می‌توانند با عضویت در انجمن‌ها، تماس با سیاستمداران، تظاهرات مسالمت‌آمیز، نوشتن مقاله‌های بحثی و شرکت در گفت‌وگوی عمومی بر جامعه اثر بگذارند.",
+        "یک دموکراسی قوی به انتخابات آزاد، رسانه آزاد، احترام به حقوق و افرادی نیاز دارد که اطلاعات را بررسی کنند و تهدید یا ادعاهای نادرست پخش نکنند."
+      ],
+      ti: [
+        "Sverige i fokus ሽወደን ከም ዲሞክራሲ ትገልጻ። እዚ ማለት ፖለቲካዊ ስልጣን ካብ ህዝቢ ይመጽእ፣ ህዝቢ ድማ ኣብ ናጻ ምርጫታት ወከልቱ ይመርጽ።",
+        "ዲሞክራሲ ድምጺ ምሃብ ጥራይ ኣይኮነን። ሰባት ብማሕበራት፣ ምስ ፖለቲከኛታት ብምርኻብ፣ ብሰላማዊ ሰልፊ፣ ብጽሑፋት ክትዕ እናጻሕፉን ኣብ ህዝባዊ ዘተ ብምስታፍን ጽልዋ ክገብሩ ይኽእሉ።",
+        "ጽኑዕ ዲሞክራሲ ናጻ ምርጫታት፣ ናጻ ሚድያ፣ ክብሪ መሰላት፣ ከምኡውን ሓበሬታ ዝምርምሩ ሰባት የድልዮ።"
       ],
       zh: [
         "《Sverige i fokus》把瑞典解释为一个民主国家。这表示政治权力来自人民，人们通过自由选举选择代表。",
@@ -74,6 +92,24 @@ export const LESSONS: Lesson[] = [
         "الريكسداغ يسن القوانين، ويقرر ميزانية الدولة، ويراقب الحكومة.",
         "المعلومات الكاذبة والتهديدات والكراهية وضعف المشاركة يمكن أن تضعف الديمقراطية."
       ],
+      so: [
+        "Dimuqraadiyaddu waxay ka dhigan tahay in dadku xukumaan.",
+        "Iswiidhan badanaa waxay leedahay doorashooyin guud afartii sanoba mar.",
+        "Riksdag wuxuu sameeyaa sharciyo, go'aamiyaa miisaaniyadda qaranka, wuxuuna kormeeraa dowladda.",
+        "Macluumaad been ah, hanjabaad, nacayb, iyo ka-qaybgal hoose ayaa daciifin kara dimuqraadiyadda."
+      ],
+      fa: [
+        "دموکراسی یعنی حکومت مردم.",
+        "سوئد معمولاً هر چهار سال یک‌بار انتخابات عمومی دارد.",
+        "Riksdag قانون تصویب می‌کند، بودجه دولت را تعیین می‌کند و بر دولت نظارت دارد.",
+        "اطلاعات نادرست، تهدید، نفرت و مشارکت کم می‌تواند دموکراسی را ضعیف کند."
+      ],
+      ti: [
+        "ዲሞክራሲ ማለት ህዝቢ ይመርሕ ማለት እዩ።",
+        "ሽወደን ብተለምዶ ኣብ ነፍሲ ወከፍ ኣርባዕተ ዓመት ሓፈሻዊ ምርጫ ትገብር።",
+        "Riksdag ሕግታት ይገብር፣ ባጀት መንግስቲ ይውስን፣ ንመንግስቲ ድማ ይቆጻጸር።",
+        "ሓሶት ሓበሬታ፣ ምፍርራሕ፣ ጽልኢ፣ ከምኡውን ዝተሓተ ተሳትፎ ዲሞክራሲ ከድክሙ ይኽእሉ።"
+      ],
       zh: [
         "民主表示人民治理。",
         "瑞典通常每四年举行一次大选。",
@@ -82,10 +118,10 @@ export const LESSONS: Lesson[] = [
       ]
     },
     vocabulary: [
-      { sv: "demokrati", translations: { en: "democracy", ar: "ديمقراطية", zh: "民主" } },
-      { sv: "riksdag", translations: { en: "parliament", ar: "البرلمان", zh: "国会" } },
-      { sv: "val", translations: { en: "election", ar: "انتخابات", zh: "选举" } },
-      { sv: "påverka", translations: { en: "influence", ar: "يؤثر", zh: "影响" } }
+      { sv: "demokrati", translations: { en: "democracy", ar: "ديمقراطية", so: "dimuqraadiyad", fa: "دموکراسی", ti: "ዲሞክራሲ", zh: "民主" } },
+      { sv: "riksdag", translations: { en: "parliament", ar: "البرلمان", so: "baarlamaanka Iswiidhan", fa: "پارلمان سوئد", ti: "ፓርላማ ሽወደን", zh: "国会" } },
+      { sv: "val", translations: { en: "election", ar: "انتخابات", so: "doorasho", fa: "انتخابات", ti: "ምርጫ", zh: "选举" } },
+      { sv: "påverka", translations: { en: "influence", ar: "يؤثر", so: "saamayn ku yeelasho", fa: "تأثیر گذاشتن", ti: "ጽልዋ ምግባር", zh: "影响" } }
     ],
     questionIds: [
       "democracy-001",
@@ -110,6 +146,9 @@ export const LESSONS: Lesson[] = [
     titles: {
       en: "Rights, law, and media",
       ar: "الحقوق والقانون والإعلام",
+      so: "Xuquuq, sharci, iyo warbaahin",
+      fa: "حقوق، قانون و رسانه",
+      ti: "መሰላት፣ ሕጊን ሚድያን",
       zh: "权利、法律和媒体"
     },
     studyText: {
@@ -122,6 +161,21 @@ export const LESSONS: Lesson[] = [
         "تربط Sverige i fokus الديمقراطية بسيادة القانون. يجب أن تنطبق القوانين على الجميع، ويجب أن تحكم المحاكم وفقاً للقانون.",
         "تحمي القوانين الدستورية في السويد حريات مثل حرية التعبير وحرية الصحافة. هذه الحريات مهمة، لكنها لا تسمح بالتهديد أو الكراهية ضد الآخرين.",
         "تؤكد المادة أيضاً على الإعلام والنقد المصدري. في الديمقراطية يحتاج الناس إلى المعلومات، لكنهم يحتاجون أيضاً إلى السؤال عن مصدرها ومدى موثوقيتها."
+      ],
+      so: [
+        "Sverige i fokus waxay isku xirtaa dimuqraadiyadda iyo ku dhaqanka sharciga. Sharciyadu waa inay qof walba khuseeyaan, maxkamaduhuna waa inay ku xukumaan sharciga.",
+        "Sharciyada dastuuriga ah ee Iswiidhan waxay ilaaliyaan xorriyado sida xorriyadda hadalka iyo xorriyadda saxaafadda. Xorriyadahani waa muhiim, laakiin ma oggola hanjabaad ama nacayb ka dhan ah dadka kale.",
+        "Qalabku sidoo kale wuxuu xoogga saaraa warbaahinta iyo källkritik. Dimuqraadiyadda, dadku waxay u baahan yihiin macluumaad, laakiin waa inay sidoo kale is weydiiyaan halka macluumaadku ka yimid iyo inuu la isku halayn karo."
+      ],
+      fa: [
+        "Sverige i fokus دموکراسی را با حاکمیت قانون پیوند می‌دهد. قوانین باید برای همه اجرا شوند و دادگاه‌ها باید بر اساس قانون حکم کنند.",
+        "قوانین اساسی سوئد آزادی‌هایی مانند آزادی بیان و آزادی مطبوعات را محافظت می‌کنند. این آزادی‌ها مهم هستند، اما تهدید یا نفرت علیه دیگران را مجاز نمی‌کنند.",
+        "این منبع همچنین بر رسانه و نقد منبع تأکید دارد. در دموکراسی مردم به اطلاعات نیاز دارند، اما باید بپرسند اطلاعات از کجا آمده و آیا قابل اعتماد است."
+      ],
+      ti: [
+        "Sverige i fokus ዲሞክራሲን ምስ ልዕልና ሕጊ ትተሓሓዞ። ሕግታት ንኹሉ ሰብ ክትግበሩ ኣለዎም፣ ቤት ፍርዲ ድማ ብሕጊ ክፈርድ ኣለዎ።",
+        "መሰረታዊ ሕግታት ሽወደን ከም ናጽነት ርእይቶን ናጽነት ፕሬስን ዝኣመሰሉ ናጽነታት ይሕልዉ። እዞም ናጽነታት ኣገደስቲ እዮም፣ ግን ምፍርራሕ ወይ ጽልኢ ኣንጻር ካልኦት ኣየፍቅዱን።",
+        "እቲ መጽናዕቲ ብዛዕባ ሚድያን ምርመራ ምንጪን እውን ይገልጽ። ኣብ ዲሞክራሲ፣ ሰባት ሓበሬታ የድልዮም፣ ግን ምንጪ ናይቲ ሓበሬታን ተኣማንነቱን ክሓቱ ኣለዎም።"
       ],
       zh: [
         "《Sverige i fokus》把民主和法治联系在一起。法律应适用于每个人，法院必须依法判决。",
@@ -142,6 +196,24 @@ export const LESSONS: Lesson[] = [
         "الإعلام الحر يمكنه إبلاغ الناس ومراقبة السلطة.",
         "النقد المصدري يعني فحص المرسل والهدف والأدلة والموثوقية."
       ],
+      so: [
+        "Ku dhaqanka sharcigu wuxuu ka dhigan yahay in qofna ka sarreyn sharciga.",
+        "Xorriyadda hadalku waxay ilaalisaa fikradaha, laakiin ma ilaaliso hanjabaad ama hadal nacayb.",
+        "Warbaahin xor ah waxay dadka siin kartaa macluumaad, waxayna kormeeri kartaa awoodda.",
+        "Källkritik waxay ka dhigan tahay hubinta cidda dirtay, ujeeddada, caddaynta, iyo kalsoonida."
+      ],
+      fa: [
+        "حاکمیت قانون یعنی هیچ‌کس بالاتر از قانون نیست.",
+        "آزادی بیان از نظرها محافظت می‌کند، اما تهدید یا نفرت‌پراکنی را محافظت نمی‌کند.",
+        "رسانه آزاد می‌تواند به مردم اطلاعات بدهد و قدرت را بررسی کند.",
+        "نقد منبع یعنی بررسی فرستنده، هدف، شواهد و قابل اعتماد بودن اطلاعات."
+      ],
+      ti: [
+        "ልዕልና ሕጊ ማለት ማንም ሰብ ካብ ሕጊ ላዕሊ ኣይኮነን።",
+        "ናጽነት ርእይቶ ሓሳባት ይሕሉ፣ ግን ምፍርራሕ ወይ ናይ ጽልኢ ዘረባ ኣይሕሉን።",
+        "ናጻ ሚድያ ንሰባት ሓበሬታ ክህብን ስልጣን ክምርምርን ይኽእል።",
+        "ምርመራ ምንጪ ማለት ላኣኺ፣ ዕላማ፣ መርትዖ፣ ከምኡውን ተኣማንነት ምርኣይ ማለት እዩ።"
+      ],
       zh: [
         "法治表示没有人高于法律。",
         "言论自由保护观点，但不保护威胁或仇恨言论。",
@@ -150,10 +222,10 @@ export const LESSONS: Lesson[] = [
       ]
     },
     vocabulary: [
-      { sv: "rättssäkerhet", translations: { en: "rule of law/legal security", ar: "الأمن القانوني/سيادة القانون", zh: "法治/法律保障" } },
-      { sv: "grundlag", translations: { en: "constitutional law", ar: "قانون دستوري", zh: "基本法" } },
-      { sv: "yttrandefrihet", translations: { en: "freedom of expression", ar: "حرية التعبير", zh: "言论自由" } },
-      { sv: "källkritik", translations: { en: "source criticism", ar: "النقد المصدري", zh: "来源批判" } }
+      { sv: "rättssäkerhet", translations: { en: "rule of law/legal security", ar: "الأمن القانوني/سيادة القانون", so: "ku dhaqanka sharciga / amni sharci", fa: "حاکمیت قانون / امنیت حقوقی", ti: "ልዕልና ሕጊ / ሕጋዊ ውሕስነት", zh: "法治/法律保障" } },
+      { sv: "grundlag", translations: { en: "constitutional law", ar: "قانون دستوري", so: "sharciga dastuuriga ah", fa: "قانون اساسی", ti: "መሰረታዊ ሕጊ", zh: "基本法" } },
+      { sv: "yttrandefrihet", translations: { en: "freedom of expression", ar: "حرية التعبير", so: "xorriyadda hadalka", fa: "آزادی بیان", ti: "ናጽነት ርእይቶ", zh: "言论自由" } },
+      { sv: "källkritik", translations: { en: "source criticism", ar: "النقد المصدري", so: "hubinta ilaha macluumaadka", fa: "نقد و بررسی منبع", ti: "ምርመራ ምንጪ", zh: "来源批判" } }
     ],
     questionIds: [
       "rights-001",
@@ -178,6 +250,9 @@ export const LESSONS: Lesson[] = [
     titles: {
       en: "Daily life, welfare, and Sweden as a country",
       ar: "الحياة اليومية والرفاه والسويد كبلد",
+      so: "Nolol maalmeed, daryeel bulsho, iyo Iswiidhan dal ahaan",
+      fa: "زندگی روزمره، رفاه و سوئد به عنوان یک کشور",
+      ti: "ዕለታዊ ህይወት፣ ድሕነትን ሽወደን ከም ሃገርን",
       zh: "日常生活、福利和瑞典这个国家"
     },
     studyText: {
@@ -190,6 +265,21 @@ export const LESSONS: Lesson[] = [
         "تبدأ Sverige i fokus بالسويد كبلد: الجغرافيا والسكان والموارد الطبيعية وكيف تغيّر المجتمع عبر الزمن.",
         "فكرة مركزية هي مجتمع الرفاه. كثير من الخدمات، مثل الرعاية الصحية والتعليم والرعاية الاجتماعية، تُدفع من الضرائب وتنظمها الجهات العامة.",
         "تصف المادة أيضاً حياة العمل والاقتصاد الشخصي والمجتمع العلماني وحرية الدين والتقاليد. هذه الموضوعات تشرح الحياة اليومية، وليس السياسة فقط."
+      ],
+      so: [
+        "Sverige i fokus waxay ka bilaabataa Iswiidhan dal ahaan: juqraafi, dadka, khayraadka dabiiciga ah, iyo sida bulshadu isu beddeshay waqti ka dib.",
+        "Fikrad muhiim ah waa bulshada daryeelka. Adeegyo badan, sida daryeel caafimaad, waxbarasho, iyo daryeel, waxaa lagu bixiyaa canshuur, waxaana abaabula qaybta dadweynaha.",
+        "Qalabku sidoo kale wuxuu sharxayaa nolosha shaqada, dhaqaalaha gaarka ah, bulsho sekulär ah, xorriyadda diinta, iyo dhaqamada. Mawduucyadani waxay sharxaan nolol maalmeedka, ma aha siyaasadda oo keliya."
+      ],
+      fa: [
+        "Sverige i fokus با سوئد به عنوان یک کشور شروع می‌کند: جغرافیا، جمعیت، منابع طبیعی و این‌که جامعه در طول زمان چگونه تغییر کرده است.",
+        "یک مفهوم اصلی، جامعه رفاهی است. بسیاری از خدمات مانند درمان، آموزش و مراقبت از طریق مالیات پرداخت می‌شوند و توسط بخش عمومی سازمان‌دهی می‌شوند.",
+        "این منبع همچنین زندگی کاری، اقتصاد شخصی، جامعه سکولار، آزادی دین و سنت‌ها را توضیح می‌دهد. این موضوع‌ها زندگی روزمره را توضیح می‌دهند، نه فقط سیاست را."
+      ],
+      ti: [
+        "Sverige i fokus ብሽወደን ከም ሃገር ትጅምር፦ ጂኦግራፊ፣ ህዝቢ፣ ተፈጥሮኣዊ ሃብቲ፣ ከምኡውን ማሕበረሰብ ኣብ ግዜ ከመይ ከምዝተቐየረ።",
+        "ቀንዲ ሓሳብ ማሕበረሰብ ድሕነት እዩ። ብዙሓት ኣገልግሎታት፣ ከም ጥዕና፣ ትምህርቲ፣ ክንክን፣ ብግብሪ ይኽፈሉ እና ብህዝባዊ ክፋል ይውደቡ።",
+        "እቲ መጽናዕቲ እውን ህይወት ስራሕ፣ ውልቃዊ ቁጠባ፣ ሴኩላር ማሕበረሰብ፣ ናጽነት ሃይማኖትን ባህልታትን ይገልጽ። እዞም ርእሰ-ጉዳያት ዕለታዊ ህይወት ይገልጹ፣ ፖለቲካ ጥራይ ኣይኮኑን።"
       ],
       zh: [
         "《Sverige i fokus》从瑞典这个国家开始：地理、人口、自然资源，以及社会如何随时间变化。",
@@ -210,6 +300,24 @@ export const LESSONS: Lesson[] = [
         "تموّل الضرائب جزءاً كبيراً من نظام الرفاه.",
         "السويد دولة علمانية، ويمكن للناس أن تكون لهم أديان مختلفة أو لا دين لهم."
       ],
+      so: [
+        "Magaalooyinka ugu waaweyn Iswiidhan waa Stockholm, Göteborg, iyo Malmö.",
+        "Kaymaha, macdanta, dhulka beeraha, iyo biyuhu waa khayraad muhiim ah.",
+        "Canshuurtu waxay maalgelisaa qayb weyn oo ka mid ah nidaamka daryeelka bulshada.",
+        "Iswiidhan waa dal sekulär ah, dadkuna waxay yeelan karaan diimo kala duwan ama diin la'aan."
+      ],
+      fa: [
+        "بزرگ‌ترین شهرهای سوئد Stockholm، Gothenburg و Malmö هستند.",
+        "جنگل‌ها، معادن، زمین کشاورزی و آب منابع مهم هستند.",
+        "مالیات بخش بزرگی از نظام رفاه را تأمین مالی می‌کند.",
+        "سوئد سکولار است و مردم می‌توانند دین‌های متفاوت داشته باشند یا بی‌دین باشند."
+      ],
+      ti: [
+        "ዝዓበያ ከተማታት ሽወደን Stockholm, Gothenburg, Malmö እየን።",
+        "ዱር፣ ማዕድናት፣ መሬት ሕርሻን ማይን ኣገደስቲ ሃብቲ እዮም።",
+        "ግብሪ ዓቢ ክፋል ናይ ስርዓት ድሕነት ይምውል።",
+        "ሽወደን ሴኩላር ሃገር እያ፣ ሰባት ዝተፈላለዩ ሃይማኖታት ወይ ሃይማኖት ዘይብሎም ክኾኑ ይኽእሉ።"
+      ],
       zh: [
         "瑞典最大的城市是斯德哥尔摩、哥德堡和马尔默。",
         "森林、矿产、农地和水是重要资源。",
@@ -218,10 +326,10 @@ export const LESSONS: Lesson[] = [
       ]
     },
     vocabulary: [
-      { sv: "välfärd", translations: { en: "welfare", ar: "الرفاه", zh: "福利" } },
-      { sv: "skatt", translations: { en: "tax", ar: "ضريبة", zh: "税" } },
-      { sv: "arbetsmarknad", translations: { en: "labour market", ar: "سوق العمل", zh: "劳动力市场" } },
-      { sv: "sekulär", translations: { en: "secular", ar: "علماني", zh: "世俗的" } }
+      { sv: "välfärd", translations: { en: "welfare", ar: "الرفاه", so: "daryeel bulsho", fa: "رفاه", ti: "ድሕነት", zh: "福利" } },
+      { sv: "skatt", translations: { en: "tax", ar: "ضريبة", so: "canshuur", fa: "مالیات", ti: "ግብሪ", zh: "税" } },
+      { sv: "arbetsmarknad", translations: { en: "labour market", ar: "سوق العمل", so: "suuqa shaqada", fa: "بازار کار", ti: "ዕዳጋ ስራሕ", zh: "劳动力市场" } },
+      { sv: "sekulär", translations: { en: "secular", ar: "علماني", so: "aan diin dowladeed ku dhisnayn", fa: "سکولار", ti: "ሴኩላር", zh: "世俗的" } }
     ],
     questionIds: [
       "everyday-001",
@@ -246,6 +354,9 @@ export const LESSONS: Lesson[] = [
     titles: {
       en: "How Sweden is governed and cooperates with the world",
       ar: "كيف تُحكم السويد وتتعاون مع العالم",
+      so: "Sida Iswiidhan loo maamulo iyo sida ay ula shaqeyso dunida",
+      fa: "سوئد چگونه اداره می‌شود و با جهان همکاری می‌کند",
+      ti: "ሽወደን ከመይ ከምትመሓደርን ምስ ዓለም ከመይ ከምትተሓባበርን",
       zh: "瑞典如何治理并与世界合作"
     },
     studyText: {
@@ -258,6 +369,21 @@ export const LESSONS: Lesson[] = [
         "تصف Sverige i fokus السويد كديمقراطية وملكية. الملك هو رئيس الدولة، لكن القرارات السياسية تُتخذ من خلال المؤسسات الديمقراطية.",
         "الريكسداغ يسن القوانين ويقرر ميزانية الدولة. الحكومة تدير البلاد وتنفذ القرارات. البلديات والمناطق تتعامل مع كثير من الخدمات المحلية وخدمات الرفاه.",
         "تتعاون السويد أيضاً دولياً، مثلاً مع دول الشمال والاتحاد الأوروبي والأمم المتحدة ومنظمات أخرى."
+      ],
+      so: [
+        "Sverige i fokus waxay Iswiidhan ku tilmaantaa dimuqraadiyad iyo boqortooyo. Boqorku waa madaxa qaranka, laakiin go'aannada siyaasadeed waxaa lagu sameeyaa hay'ado dimuqraadi ah.",
+        "Riksdag wuxuu sameeyaa sharciyada wuxuuna go'aamiyaa miisaaniyadda qaranka. Dowladda ayaa dalka maamusha oo fulisa go'aannada. Degmooyinka iyo gobolladu waxay qabtaan adeegyo badan oo maxalli ah iyo adeegyo daryeel bulsho.",
+        "Iswiidhan sidoo kale waxay si caalami ah ula shaqeysaa dalalka Waqooyiga Yurub, Midowga Yurub, Qaramada Midoobay, iyo ururro kale."
+      ],
+      fa: [
+        "Sverige i fokus سوئد را به عنوان یک دموکراسی و پادشاهی توضیح می‌دهد. پادشاه رئیس کشور است، اما تصمیم‌های سیاسی از طریق نهادهای دموکراتیک گرفته می‌شوند.",
+        "Riksdag قانون تصویب می‌کند و بودجه دولت را تعیین می‌کند. دولت کشور را اداره می‌کند و تصمیم‌ها را اجرا می‌کند. شهرداری‌ها و مناطق بسیاری از خدمات محلی و رفاهی را انجام می‌دهند.",
+        "سوئد همچنین در سطح بین‌المللی همکاری می‌کند، برای مثال با کشورهای نوردیک، اتحادیه اروپا، سازمان ملل و سازمان‌های دیگر."
+      ],
+      ti: [
+        "Sverige i fokus ሽወደን ከም ዲሞክራሲን ንግስነትን ትገልጻ። ንጉስ ርእሰ ሃገር እዩ፣ ግን ፖለቲካዊ ውሳነታት ብዲሞክራሲያዊ ትካላት ይግበሩ።",
+        "Riksdag ሕግታት ይገብርን ባጀት መንግስቲ ይውስንን። መንግስቲ ንሃገር ይመርሕን ውሳነታት ይፍጽምን። ኮሙናትን ረጂዮናትን ብዙሓት ናይ ከባቢን ድሕነትን ኣገልግሎታት ይሕዙ።",
+        "ሽወደን እውን ብዓለም ደረጃ ትተሓባበር፣ ንኣብነት ምስ ኖርዲክ ሃገራት፣ EU፣ UN እና ካልኦት ውድባት።"
       ],
       zh: [
         "《Sverige i fokus》把瑞典描述为民主国家和君主制国家。国王是国家元首，但政治决定通过民主机构作出。",
@@ -278,6 +404,24 @@ export const LESSONS: Lesson[] = [
         "المناطق مسؤولة بشكل رئيسي عن الرعاية الصحية.",
         "البلديات تتعامل مع كثير من الخدمات المحلية، مثل المدارس ورعاية كبار السن."
       ],
+      so: [
+        "Boqorku waa madaxa qaranka, laakiin hay'adaha la doortay ayaa haya awoodda siyaasadeed.",
+        "Riksdag wuxuu sameeyaa sharciyo wuxuuna kormeeraa dowladda.",
+        "Gobolladu waxay inta badan mas'uul ka yihiin daryeelka caafimaadka.",
+        "Degmooyinku waxay qabtaan adeegyo badan oo maxalli ah, oo ay ku jiraan dugsiyada iyo daryeelka dadka waayeelka ah."
+      ],
+      fa: [
+        "پادشاه رئیس کشور است، اما نهادهای انتخاب‌شده قدرت سیاسی دارند.",
+        "Riksdag قانون تصویب می‌کند و دولت را بررسی می‌کند.",
+        "مناطق بیشتر مسئول خدمات درمانی هستند.",
+        "شهرداری‌ها بسیاری از خدمات محلی، از جمله مدرسه و مراقبت از سالمندان را انجام می‌دهند."
+      ],
+      ti: [
+        "ንጉስ ርእሰ ሃገር እዩ፣ ግን ዝተመርጹ ትካላት ፖለቲካዊ ስልጣን ይሕዙ።",
+        "Riksdag ሕግታት ይገብርን ንመንግስቲ ይቆጻጸርን።",
+        "ረጂዮናት ብቐንዱ ንኣገልግሎት ጥዕና ሓላፍነት ኣለዎም።",
+        "ኮሙናት ብዙሓት ናይ ከባቢ ኣገልግሎታት ይሕዙ፣ እዚ ድማ ቤት ትምህርትን ክንክን ኣረጋውያንን የጠቓልል።"
+      ],
       zh: [
         "国王是国家元首，但政治权力属于民选机构。",
         "Riksdag 制定法律并监督政府。",
@@ -286,10 +430,10 @@ export const LESSONS: Lesson[] = [
       ]
     },
     vocabulary: [
-      { sv: "statschef", translations: { en: "head of state", ar: "رئيس الدولة", zh: "国家元首" } },
-      { sv: "regering", translations: { en: "government", ar: "الحكومة", zh: "政府" } },
-      { sv: "region", translations: { en: "region", ar: "منطقة", zh: "地区" } },
-      { sv: "kommun", translations: { en: "municipality", ar: "بلدية", zh: "市/地方政府" } }
+      { sv: "statschef", translations: { en: "head of state", ar: "رئيس الدولة", so: "madaxa qaranka", fa: "رئیس کشور", ti: "ርእሰ ሃገር", zh: "国家元首" } },
+      { sv: "regering", translations: { en: "government", ar: "الحكومة", so: "dowlad", fa: "دولت", ti: "መንግስቲ", zh: "政府" } },
+      { sv: "region", translations: { en: "region", ar: "منطقة", so: "gobol", fa: "منطقه", ti: "ረጂዮን", zh: "地区" } },
+      { sv: "kommun", translations: { en: "municipality", ar: "بلدية", so: "degmo", fa: "شهرداری", ti: "ኮሙን", zh: "市/地方政府" } }
     ],
     questionIds: [
       "authorities-001",
