@@ -613,7 +613,45 @@ U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka
     ],
     topicSelectorLabel: "Dooro qayb tababar",
     allTopics: "Dhammaan mawduucyada",
+    chapterMapTitle: "Daboolidda cutubyada rasmiga ah",
+    chapterMapIntro: "Sverige i fokus wuxuu ka kooban yahay 13 cutub. MVP-kan wuxuu cutubyadaas u kala dhigaa afar meelood oo tababar ah si app-ku u ahaado fudud, isla markaana weli ugu xirmo qaab-dhismeedka rasmiga ah.",
+    chapterNames: {
+      country: "Iswiidhan dal ahaan",
+      "democratic-system": "Nidaamka dimuqraadiyadda Iswiidhan",
+      governance: "Sida Iswiidhan loo maamulo",
+      elections: "Doorashooyin siyaasadeed iyo xisbiyo",
+      law: "Sharci iyo caddaalad",
+      media: "Doorka warbaahinta",
+      "human-rights": "Xuquuqda aadanaha",
+      "work-economy": "Suuqa shaqada iyo dhaqaalaha gaarka ah",
+      welfare: "Bulshada daryeelka",
+      "modern-history": "Taariikhda casriga ah ee Iswiidhan",
+      world: "Iswiidhan iyo dunida",
+      "secular-state": "Dal sekulär ah iyo bulsho diimo badan",
+      traditions: "Dhaqamo iyo ciidaha"
+    },
+    chapterSummaries: {
+      country: "juqraafi, dad, khayraad",
+      "democratic-system": "dimuqraadiyad, ka-qaybgal, khataro",
+      governance: "Riksdag, dowlad, gobollo, degmooyin",
+      elections: "doorashooyin, xisbiyo, aftiyo",
+      law: "dastuur, maxkamado, amni sharci",
+      media: "warbaahin xor ah, furfurnaan, hubinta ilaha",
+      "human-rights": "sinnaan, xuquuqda carruurta, dadka laga tirada badan yahay",
+      "work-economy": "shaqo, ururro shaqaale, canshuur, lacagta gaarka ah",
+      welfare: "caafimaad, dugsi, caymis bulsho",
+      "modern-history": "warshadaynta iyo dalka daryeelka",
+      world: "Nordic, EU, UN, iskaashi caalami ah",
+      "secular-state": "xorriyadda diinta iyo bulsho sekulär ah",
+      traditions: "maalinta qaranka, midsommar, Lucia, ciidaha"
+    },
     comingNextTitle: "Waxyaabaha soo socda",
+    comingNextIntro: "Kuwani waa jihooyin product oo waxtar leh, laakiin si cad ayaa loogu calaamadeyn doonaa ilaa ay noqdaan muuqaalada dhabta ah.",
+    comingNextItems: [
+      { title: "Kaadhadh ereyo", body: "Erayada Iswiidhishka ee muhiimka ah u beddel kaadhadh dib-u-eegis degdeg ah." },
+      { title: "Imtixaan tijaabo isku-dhafan", body: "Hab 60 su'aalood oo waqti leh marka bangiga su'aalaha weynaado." },
+      { title: "Guddi horumar", body: "Muuji mawduucyada daciifka ah, maalmaha isku xiga, iyo waxa xiga ee la celinayo." }
+    ],
     progressDashboardTitle: "Guddi horumar",
     flashcardsTitle: "Kaadhadh ereyo - tijaabo",
     flashcardsPreview: "Nooc tijaabo ah",
@@ -638,9 +676,11 @@ U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka
     topicAccuracy: "Saxnaanta",
     weakTopic: "Mawduuc daciif ah",
     recommendedNext: "Talo xigta",
+    topicProgress: (completed, total) => `${completed}/${total} dhammaatay`,
     continuePractice: "Sii wad",
     startPractice: "Bilow su'aalaha tababarka",
     reviewLesson: "Dib u eeg kaadhka casharka",
+    startWarmup: (count) => `Hage waxbarasho + ${count} su'aalood`,
     backToTopics: "Ku noqo mawduucyada",
     level: "Heerka 1",
     coachNote: "Dooro jawaabta kuu muuqata sax. Kadib waan kuu sharxi doonaa.",
@@ -712,7 +752,45 @@ U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka
     ],
     topicSelectorLabel: "یک بخش تمرین را انتخاب کنید",
     allTopics: "همه موضوع‌ها",
+    chapterMapTitle: "پوشش فصل‌های رسمی",
+    chapterMapIntro: "Sverige i fokus در ۱۳ فصل تنظیم شده است. این MVP آن فصل‌ها را در چهار بخش تمرینی گروه‌بندی می‌کند تا برنامه ساده بماند و همچنان به ساختار رسمی وصل باشد.",
+    chapterNames: {
+      country: "سوئد به عنوان یک کشور",
+      "democratic-system": "نظام دموکراتیک سوئد",
+      governance: "سوئد چگونه اداره می‌شود",
+      elections: "انتخابات سیاسی و احزاب",
+      law: "قانون و عدالت",
+      media: "نقش رسانه",
+      "human-rights": "حقوق بشر",
+      "work-economy": "بازار کار و اقتصاد شخصی",
+      welfare: "جامعه رفاهی",
+      "modern-history": "تاریخ معاصر سوئد",
+      world: "سوئد و جهان",
+      "secular-state": "کشور سکولار و جامعه چنددینی",
+      traditions: "سنت‌ها و تعطیلات"
+    },
+    chapterSummaries: {
+      country: "جغرافیا، جمعیت، منابع",
+      "democratic-system": "دموکراسی، مشارکت، تهدیدها",
+      governance: "Riksdag، دولت، مناطق، شهرداری‌ها",
+      elections: "انتخابات، احزاب، همه‌پرسی‌ها",
+      law: "قانون اساسی، دادگاه‌ها، امنیت حقوقی",
+      media: "رسانه آزاد، دسترسی عمومی، نقد منبع",
+      "human-rights": "برابری، حقوق کودکان، اقلیت‌ها",
+      "work-economy": "کار، اتحادیه‌ها، مالیات، اقتصاد شخصی",
+      welfare: "درمان، مدرسه، بیمه اجتماعی",
+      "modern-history": "صنعتی‌شدن و دولت رفاه",
+      world: "نوردیک، اتحادیه اروپا، سازمان ملل، همکاری جهانی",
+      "secular-state": "آزادی دین و جامعه سکولار",
+      traditions: "روز ملی، میدسامر، لوسیا، تعطیلات"
+    },
     comingNextTitle: "مرحله‌های بعدی",
+    comingNextIntro: "این‌ها جهت‌های مفید محصول هستند، اما تا وقتی واقعاً آماده نشوند، روشن به عنوان قابلیت آینده علامت‌گذاری می‌شوند.",
+    comingNextItems: [
+      { title: "فلش‌کارت‌ها", body: "واژه‌های مهم سوئدی را به کارت‌های مرور سریع تبدیل کنید." },
+      { title: "آزمون آزمایشی ترکیبی", body: "وقتی بانک پرسش به اندازه کافی بزرگ شد، حالت زمان‌دار ۶۰ پرسشی اضافه می‌شود." },
+      { title: "داشبورد پیشرفت", body: "موضوع‌های ضعیف، زنجیره تمرین و پیشنهاد مرور بعدی را نشان می‌دهد." }
+    ],
     progressDashboardTitle: "داشبورد پیشرفت",
     flashcardsTitle: "پیش‌نمایش فلش‌کارت‌ها",
     flashcardsPreview: "نسخه پیش‌نمایش",
@@ -737,9 +815,11 @@ U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka
     topicAccuracy: "دقت",
     weakTopic: "موضوع ضعیف",
     recommendedNext: "پیشنهاد بعدی",
+    topicProgress: (completed, total) => `${completed}/${total} کامل شده`,
     continuePractice: "ادامه",
     startPractice: "شروع پرسش‌های تمرینی",
     reviewLesson: "مرور کارت مطالعه",
+    startWarmup: (count) => `راهنمای مطالعه + ${count} پرسش`,
     backToTopics: "بازگشت به موضوع‌ها",
     level: "سطح ۱",
     coachNote: "پاسخی را انتخاب کنید که درست‌تر به نظر می‌رسد. بعد از بررسی توضیح می‌دهیم.",
@@ -775,6 +855,18 @@ U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka
       rights: "حقوق و وظایف",
       everyday: "زندگی روزمره در سوئد",
       authorities: "اداره‌ها و خدمات"
+    },
+    topicFlavor: {
+      democracy: "رأی‌ها، صداها و قواعد بازی دموکراتیک.",
+      rights: "آزادی‌های خود را بشناسید؛ مسئولیت‌های مشترک را هم.",
+      everyday: "سوئد عملی که در یک روز عادی با آن روبه‌رو می‌شوید.",
+      authorities: "نقشه سریع این‌که چه کسی در چه چیزی کمک می‌کند."
+    },
+    topicDescriptions: {
+      democracy: "با رأی دادن، Riksdag و راه‌های اثرگذاری مردم در سوئد آشنا شوید.",
+      rights: "تعادل روزمره آزادی‌ها، مسئولیت‌ها و ارزش برابر همه را یاد بگیرید.",
+      everyday: "کار، اجاره خانه، مدرسه، درمان و عادت‌های روزمره را تمرین کنید.",
+      authorities: "یاد بگیرید چه زمانی با کدام اداره یا خدمت مهم تماس بگیرید."
     }
   }),
   ti: createLocalizedUiText(UI_TEXT_BASE.en, {
@@ -799,7 +891,45 @@ Swedish Civics Test Preparation ከም ናጻ መምርሒ ልምምድ ተጠ�
     ],
     topicSelectorLabel: "ክፋል ልምምድ ምረጹ",
     allTopics: "ኩሎም ርእሰ-ጉዳያት",
+    chapterMapTitle: "ሽፋን ወግዓዊ ምዕራፋት",
+    chapterMapIntro: "Sverige i fokus ብ13 ምዕራፋት ዝተዋደደ እዩ። እዚ MVP ነዞም ምዕራፋት ኣብ ኣርባዕተ ክፋላት ልምምድ ይጠርንፍ፣ እቲ app ቀሊል ክቕጽልን ምስ ወግዓዊ ቅርጺ ክተሓሓዝን።",
+    chapterNames: {
+      country: "ሽወደን ከም ሃገር",
+      "democratic-system": "ዲሞክራሲያዊ ስርዓት ሽወደን",
+      governance: "ሽወደን ከመይ ከምትመሓደር",
+      elections: "ፖለቲካዊ ምርጫታትን ፓርቲታትን",
+      law: "ሕጊን ፍትሕን",
+      media: "ተራ ሚድያ",
+      "human-rights": "መሰላት ሰብ",
+      "work-economy": "ዕዳጋ ስራሕን ውልቃዊ ቁጠባን",
+      welfare: "ማሕበረሰብ ድሕነት",
+      "modern-history": "ዘመናዊ ታሪኽ ሽወደን",
+      world: "ሽወደንን ዓለምን",
+      "secular-state": "ሴኩላር ሃገርን ብዙሕ ሃይማኖት ዘለዎ ማሕበረሰብን",
+      traditions: "ባህልታትን በዓላትን"
+    },
+    chapterSummaries: {
+      country: "ጂኦግራፊ፣ ህዝቢ፣ ሃብቲ",
+      "democratic-system": "ዲሞክራሲ፣ ተሳትፎ፣ ስግኣታት",
+      governance: "Riksdag፣ መንግስቲ፣ ረጂዮናት፣ ኮሙናት",
+      elections: "ምርጫታት፣ ፓርቲታት፣ ረፈረንዱም",
+      law: "መሰረታዊ ሕጊ፣ ቤት ፍርዲ፣ ሕጋዊ ውሕስነት",
+      media: "ናጻ ሚድያ፣ ህዝባዊ ክፉትነት፣ ምርመራ ምንጪ",
+      "human-rights": "ማዕርነት፣ መሰላት ቆልዑ፣ ኣናሳት",
+      "work-economy": "ስራሕ፣ ማሕበራት ሰራሕተኛታት፣ ግብሪ፣ ውልቃዊ ቁጠባ",
+      welfare: "ጥዕና፣ ቤት ትምህርቲ፣ ማሕበራዊ መድሕን",
+      "modern-history": "ኢንዱስትሪን ድሕነት ሃገርን",
+      world: "ኖርዲክ፣ EU፣ UN፣ ዓለምለኻዊ ትሕብብር",
+      "secular-state": "ናጽነት ሃይማኖትን ሴኩላር ማሕበረሰብን",
+      traditions: "መዓልቲ ሃገር፣ midsommar፣ Lucia፣ በዓላት"
+    },
     comingNextTitle: "ዝቕጽል",
+    comingNextIntro: "እዞም ጠቓሚ ናይ product ኣንፈታት እዮም፣ ግን ክሳብ ብሓቂ ዝተዳለዉ ባህርያት ዝኾኑ ብግልጺ ከም ዝመጹ ይምልከቱ።",
+    comingNextItems: [
+      { title: "ፍላሽካርድ", body: "ኣገደስቲ ቃላት ሽወደንኛ ናብ ፈጣን ናይ ድግማ ካርድ ቀይሩ።" },
+      { title: "ዝተሓዋወሰ ፈተና ልምምድ", body: "ባንክ ሕቶታት ምስ ዓበየ፣ 60 ሕቶታት ዘለዎ ግዜ ዝተቐየደ ሞድ።" },
+      { title: "መከታተሊ ምዕባለ", body: "ድኹማት ርእሰ-ጉዳያት፣ ተኸታታሊ ልምምድ፣ እንታይ ቀጺልካ ክትደግም ከምዘለካ የርኢ።" }
+    ],
     progressDashboardTitle: "መከታተሊ ምዕባለ",
     flashcardsTitle: "ፍላሽካርድ ቅድመ-ምርኢት",
     flashcardsPreview: "ቅድመ-ምርኢት",
@@ -824,9 +954,11 @@ Swedish Civics Test Preparation ከም ናጻ መምርሒ ልምምድ ተጠ�
     topicAccuracy: "ትኽክለኛነት",
     weakTopic: "ድኹም ርእሰ-ጉዳይ",
     recommendedNext: "ዝተመከረ ቀጻሊ",
+    topicProgress: (completed, total) => `${completed}/${total} ተዛዚሙ`,
     continuePractice: "ቀጽሉ",
     startPractice: "ሕቶታት ልምምድ ጀምሩ",
     reviewLesson: "ካርድ መጽናዕቲ ድገሙ",
+    startWarmup: (count) => `መምርሒ መጽናዕቲ + ${count} ሕቶታት`,
     backToTopics: "ናብ ርእሰ-ጉዳያት ተመለሱ",
     level: "ደረጃ 1",
     coachNote: "ትኽክል ዝመስለኩም መልሲ ምረጹ። ድሕሪ ምምርማር ንገልጾ።",
@@ -862,6 +994,18 @@ Swedish Civics Test Preparation ከም ናጻ መምርሒ ልምምድ ተጠ�
       rights: "መሰላትን ግቡኣትን",
       everyday: "ዕለታዊ ህይወት ኣብ ሽወደን",
       authorities: "ትካላትን ኣገልግሎታትን"
+    },
+    topicFlavor: {
+      democracy: "ድምጺ፣ ምርጫታት፣ እና ሕግታት ዲሞክራሲ።",
+      rights: "ናጽነታትኩም ፍለጡ፣ ናይ ሓባር ሓላፍነታት እውን።",
+      everyday: "ኣብ ሓደ መዓልቲ ዝትረኽብዎ ተግባራዊ ሽወደን።",
+      authorities: "መን ኣብ እንታይ ከምዝሕግዝ ፈጣን ካርታ።"
+    },
+    topicDescriptions: {
+      democracy: "ብዛዕባ ድምጺ ምሃብ፣ Riksdag፣ እና ሰባት ኣብ ሽወደን ከመይ ጽልዋ ከምዝገብሩ ተለማመዱ።",
+      rights: "ናጽነታት፣ ሓላፍነታት፣ ማዕርነትን ሓባራዊ ክብርን ተማሃሩ።",
+      everyday: "ስራሕ፣ ክራይ ገዛ፣ ቤት ትምህርቲ፣ ጥዕና፣ ዕለታዊ ልምድታት ተለማመዱ።",
+      authorities: "መዓስ ናብ ኣየናይ ትካል ወይ ኣገልግሎት ክትራኸቡ ከምዘለኩም ተማሃሩ።"
     }
   })
 };
@@ -1780,7 +1924,9 @@ function HomePage({
                 </div>
                 <p className="topic-sv" dir="ltr">{topic.nameSv}</p>
                 <h2>{topicName}</h2>
-                <p>{ui.topicDescriptions[topic.id] || topic.descriptionEn}</p>
+                <p dir={getTextDirection(ui.topicDescriptions[topic.id] || topic.descriptionEn)}>
+                  {ui.topicDescriptions[topic.id] || topic.descriptionEn}
+                </p>
                 <div className="coverage-chips" aria-label={`${ui.topicCoverageLabel} ${topicName}`}>
                   {coveredChapters.map((chapter) => (
                     <span key={chapter.id}>{chapter.number}</span>
@@ -1971,7 +2117,7 @@ function ChapterMapSection({ ui }: { ui: UiText }) {
     <section className="chapter-map" aria-label={ui.chapterMapTitle}>
       <div className="section-heading">
         <h2>{ui.chapterMapTitle}</h2>
-        <p>{ui.chapterMapIntro}</p>
+        <p dir={getTextDirection(ui.chapterMapIntro)}>{ui.chapterMapIntro}</p>
       </div>
       <div className="chapter-grid">
         {OFFICIAL_CHAPTERS.map((chapter) => (
@@ -1979,8 +2125,8 @@ function ChapterMapSection({ ui }: { ui: UiText }) {
             <span className="chapter-number">{chapter.number}</span>
             <div>
               <p className="chapter-sv" dir="ltr">{chapter.nameSv}</p>
-              <h3>{ui.chapterNames[chapter.id]}</h3>
-              <p>{ui.chapterSummaries[chapter.id]}</p>
+              <h3 dir={getTextDirection(ui.chapterNames[chapter.id])}>{ui.chapterNames[chapter.id]}</h3>
+              <p dir={getTextDirection(ui.chapterSummaries[chapter.id])}>{ui.chapterSummaries[chapter.id]}</p>
             </div>
           </article>
         ))}
@@ -2002,7 +2148,7 @@ function ComingNextSection({
     <section className="coming-next" aria-label={ui.comingNextTitle}>
       <div className="section-heading">
         <h2>{ui.comingNextTitle}</h2>
-        <p>{ui.comingNextIntro}</p>
+        <p dir={getTextDirection(ui.comingNextIntro)}>{ui.comingNextIntro}</p>
       </div>
       <div className="coming-grid">
         {ui.comingNextItems.map((item, index) => {
@@ -2015,8 +2161,8 @@ function ComingNextSection({
               <div className="coming-icon" aria-hidden="true">
                 <Icon size={20} strokeWidth={2.3} />
               </div>
-              <h3>{item.title}</h3>
-              <p>{item.body}</p>
+              <h3 dir={getTextDirection(item.title)}>{item.title}</h3>
+              <p dir={getTextDirection(item.body)}>{item.body}</p>
               {isAvailable ? (
                 <button className="secondary coming-action" type="button" onClick={onClick}>
                   {index === 0 ? ui.flashcardsPreview : ui.continuePractice}
