@@ -598,8 +598,19 @@ const UI_TEXT: Record<UiLanguage, UiText> = {
     languageNote: "Su'aalaha iyo doorashooyinka jawaabta waxay ku sii jiraan af Iswiidhish. Qaybaha kale ee app-ku waxay raacaan luqadda aad doorato.",
     dailyPrompt: "Ku bilow 10 daqiiqo maalintii.",
     earlyAccessTitle: "Hage madax-bannaan",
+    earlyAccessMessage: `Wax ku baro Sverige i fokus
+
+Agabka rasmiga ah ee lagu barto imtixaanka jinsiyadda Iswiidhan waa Sverige i fokus oo ka yimid UHR iyo Skolverket. Wuxuu daboolaa Iswiidhan dal ahaan, dimuqraadiyad, sida Iswiidhan loo maamulo, doorashooyin, sharci iyo xuquuq, warbaahin iyo hubinta ilaha, xuquuqda aadanaha, shaqo iyo dhaqaalaha gaarka ah, daryeel bulsho, taariikh casri ah, iskaashi caalami ah, diin, iyo dhaqamo.
+
+U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka hore akhri cutub ka mid ah Sverige i fokus, kadibna isticmaal su'aalahan Iswiidhishka ah si aad u hubiso waxaad xusuusato. Annagu ma nihin imtixaanka rasmiga ah mana nuqulno su'aalaha imtixaanka rasmiga ah.`,
     officialGuideLink: "Fur agabka rasmiga ah ee waxbarashada",
     studyPathTitle: "Hab waxbarasho oo ka fiican",
+    studyPathIntro: "Casharka muhiimka ah ee laga baranayo app-yada waxbarasho ee xooggan ma aha naqshadda muuqaalka. Waa wareegga waxbarashada: raac buugga rasmiga ah, ku tababar xusuusin firfircoon, kuna noqo cutubyada daciifka ah.",
+    studySteps: [
+      { title: "1. Akhri isha rasmiga ah", body: "Ku bilow hal cutub oo ka mid ah Sverige i fokus. U qaado agabka rasmiga ah inuu yahay khariidaddaada." },
+      { title: "2. Ku tababar Iswiidhish", body: "Ka jawaab su'aalo gaagaaban oo Iswiidhish ah marka fikraddu weli cusub tahay. Taageerada luqaddu waxay sharaxdaa fikradda, ma beddesho qoraalka su'aasha." },
+      { title: "3. Ku celi meelaha daciifka ah", body: "Isticmaal natiijooyinkaaga si aad u go'aamiso waxa xiga ee aad dib u eegayso halkii aad mar kasta bilowga ka akhrin lahayd." }
+    ],
     topicSelectorLabel: "Dooro qayb tababar",
     allTopics: "Dhammaan mawduucyada",
     comingNextTitle: "Waxyaabaha soo socda",
@@ -686,8 +697,19 @@ const UI_TEXT: Record<UiLanguage, UiText> = {
     languageNote: "پرسش‌ها و گزینه‌ها به سوئدی می‌مانند. بقیه برنامه با زبان انتخابی شما نمایش داده می‌شود.",
     dailyPrompt: "با روزی ۱۰ دقیقه شروع کنید.",
     earlyAccessTitle: "راهنمای مستقل",
+    earlyAccessMessage: `با Sverige i fokus مطالعه کنید
+
+منبع رسمی مطالعه برای آزمون شهروندی سوئد Sverige i fokus از UHR و Skolverket است. این منبع سوئد به عنوان کشور، دموکراسی، شیوه اداره سوئد، انتخابات، قانون و حقوق، رسانه و نقد منبع، حقوق بشر، کار و اقتصاد شخصی، رفاه، تاریخ معاصر، همکاری بین‌المللی، دین و سنت‌ها را پوشش می‌دهد.
+
+از Swedish Civics Test Preparation به عنوان یک راهنمای تمرین مستقل استفاده کنید: اول یک فصل از Sverige i fokus را بخوانید، بعد با این پرسش‌های سوئدی بررسی کنید چه چیزی را به یاد دارید. ما آزمون رسمی نیستیم و پرسش‌های رسمی امتحان را کپی نمی‌کنیم.`,
     officialGuideLink: "باز کردن منبع رسمی مطالعه",
     studyPathTitle: "روش هوشمندتر برای مطالعه",
+    studyPathIntro: "درس مفید از برنامه‌های قوی مطالعه، طراحی ظاهری نیست. نکته اصلی چرخه مطالعه است: منبع رسمی را دنبال کنید، با یادآوری فعال تمرین کنید و به فصل‌های ضعیف برگردید.",
+    studySteps: [
+      { title: "1. منبع را بخوانید", body: "با یک فصل از Sverige i fokus شروع کنید. منبع رسمی را نقشه اصلی خود بدانید." },
+      { title: "2. به سوئدی تمرین کنید", body: "وقتی مطلب هنوز تازه است، به پرسش‌های کوتاه سوئدی پاسخ دهید. پشتیبانی زبانی مفهوم را توضیح می‌دهد، نه این‌که متن پرسش را جایگزین کند." },
+      { title: "3. نقطه‌های ضعیف را تکرار کنید", body: "از نتیجه‌های خود استفاده کنید تا بدانید بعد چه چیزی را مرور کنید، به جای این‌که هر بار همه چیز را از ابتدا بخوانید." }
+    ],
     topicSelectorLabel: "یک بخش تمرین را انتخاب کنید",
     allTopics: "همه موضوع‌ها",
     comingNextTitle: "مرحله‌های بعدی",
@@ -762,8 +784,19 @@ const UI_TEXT: Record<UiLanguage, UiText> = {
     languageNote: "ሕቶታትን ምርጫታት መልስን ብሽወደንኛ ይቕጽሉ። ዝተረፈ ክፋል ናይ app ብዝመረጽኩሞ ቋንቋ ይረአ።",
     dailyPrompt: "ብ10 ደቓይቕ ኣብ መዓልቲ ጀምሩ።",
     earlyAccessTitle: "ናጻ መምርሒ",
+    earlyAccessMessage: `ብSverige i fokus ተማሃሩ
+
+ወግዓዊ መጽናዕቲ ንፈተና ዜግነት ሽወደን Sverige i fokus ካብ UHRን Skolverketን እዩ። እዚ ሽወደን ከም ሃገር፣ ዲሞክራሲ፣ ሽወደን ከመይ ከምትመሓደር፣ ምርጫታት፣ ሕጊን መሰላትን፣ ሚድያን ምርመራ ምንጪን፣ መሰላት ሰብ፣ ስራሕን ውልቃዊ ቁጠባን፣ ድሕነት፣ ዘመናዊ ታሪኽ፣ ዓለምለኻዊ ትሕብብር፣ ሃይማኖትን ባህልታትን ይሽፍን።
+
+Swedish Civics Test Preparation ከም ናጻ መምርሒ ልምምድ ተጠቐሙሉ፦ መጀመርታ ሓደ ምዕራፍ ካብ Sverige i fokus ኣንብቡ፣ ድሕሪኡ እዞም ሽወደንኛ ሕቶታት እንታይ ከምዝዘከርኩም ንምርኣይ ተጠቐሙሎም። ንሕና ወግዓዊ ፈተና ኣይኮንናን፣ ወግዓዊ ሕቶታት ፈተና ድማ ኣይንቐድሕን።`,
     officialGuideLink: "ናይ ወግዒ መጽናዕቲ ክፈት",
     studyPathTitle: "ዝሓሸ መንገዲ መጽናዕቲ",
+    studyPathIntro: "ካብ ጽቡቓት ናይ መጽናዕቲ appታት ዝምሃር ቀንዲ ነገር ዲዛይን ኣይኮነን። እቲ ጠቓሚ ነገር ዙርያ መጽናዕቲ እዩ፦ ወግዓዊ መጽሓፍ ምክታል፣ ብንጡፍ ምዝካር ምልምማድ፣ ናብ ድኹማት ምዕራፋት ምምላስ።",
+    studySteps: [
+      { title: "1. ምንጪ ኣንብቡ", body: "ብሓደ ምዕራፍ ካብ Sverige i fokus ጀምሩ። እቲ ወግዓዊ መጽናዕቲ ከም ካርታ ውሰድዎ።" },
+      { title: "2. ብሽወደንኛ ተለማመዱ", body: "ሓሳቡ ገና ሓድሽ ከሎ ሓጺር ሽወደንኛ ሕቶታት መልሱ። ሓገዝ ቋንቋ ነቲ ሓሳብ ይገልጽ፣ ጽሑፍ ሕቶ ኣይቕይርን።" },
+      { title: "3. ድኹማት ነጥብታት ድገሙ", body: "ውጽኢትኩም ተጠቒምኩም ቀጺልኩም እንታይ ክትደግሙ ከምዘለኩም ወስኑ፣ ኩሉ ግዜ ካብ መጀመርታ ኣይትጀምሩ።" }
+    ],
     topicSelectorLabel: "ክፋል ልምምድ ምረጹ",
     allTopics: "ኩሎም ርእሰ-ጉዳያት",
     comingNextTitle: "ዝቕጽል",
@@ -1590,6 +1623,15 @@ function createLocalizedUiText(base: UiText, overrides: Partial<UiText>): UiText
   };
 }
 
+function getTextDirection(text: string) {
+  return /[\u0590-\u08ff\uFB1D-\uFDFF\uFE70-\uFEFC]/.test(text) ? "rtl" : "ltr";
+}
+
+function formatStudyIntroItem(item: string) {
+  const trimmed = item.replace(/\.$/, "");
+  return getTextDirection(trimmed) === "rtl" ? trimmed : `${trimmed}.`;
+}
+
 function getInitialRoute(): Route {
   const hash = window.location.hash.replace(/^#\/?/, "");
   const [page, topicId] = hash.split("/");
@@ -1819,10 +1861,10 @@ function IndependentGuideSection({ ui }: { ui: UiText }) {
         <BookOpen size={20} aria-hidden="true" />
         {ui.earlyAccessTitle}
       </h2>
-      {heading ? <p className="guide-kicker">{heading}</p> : null}
+      {heading ? <p className="guide-kicker" dir={getTextDirection(heading)}>{heading}</p> : null}
       <ul className="guide-list">
         {bullets.map((paragraph) => (
-          <li key={paragraph}>{paragraph}</li>
+          <li dir={getTextDirection(paragraph)} key={paragraph}>{paragraph}</li>
         ))}
       </ul>
       <a className="source-link" href={OFFICIAL_STUDY_GUIDE_URL} rel="noopener noreferrer" target="_blank">
@@ -1893,14 +1935,16 @@ function CitizenshipUpdateCard({
 }
 
 function StudyPathSection({ ui }: { ui: UiText }) {
+  const introItems = ui.studyPathIntro.split(". ").filter(Boolean).slice(0, 3);
+
   return (
     <section className="study-path" aria-label={ui.studyPathTitle}>
       <div>
         <p className="eyebrow">{ui.topicCoverageLabel}</p>
         <h2>{ui.studyPathTitle}</h2>
         <ul className="study-intro-list">
-          {ui.studyPathIntro.split(". ").filter(Boolean).slice(0, 3).map((item) => (
-            <li key={item}>{item.replace(/\.$/, "")}.</li>
+          {introItems.map((item) => (
+            <li dir={getTextDirection(item)} key={item}>{formatStudyIntroItem(item)}</li>
           ))}
         </ul>
       </div>
@@ -1913,7 +1957,7 @@ function StudyPathSection({ ui }: { ui: UiText }) {
                 <span aria-hidden="true">{index === 0 ? "📖" : index === 1 ? "🎯" : "↻"}</span>
                 {step.title.replace(/^\d+\.\s*/, "")}
               </h3>
-              <p>{step.body}</p>
+              <p dir={getTextDirection(step.body)}>{step.body}</p>
             </div>
           </article>
         ))}
