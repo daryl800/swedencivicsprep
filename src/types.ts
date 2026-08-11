@@ -5,9 +5,9 @@ export type Topic = {
   descriptionEn: string;
 };
 
-export type ExplanationLanguage = "en" | "ar" | "fa" | "so" | "ti" | "zh";
+export type ExplanationLanguage = "sv" | "en" | "ar" | "fa" | "so" | "ti" | "zh";
 
-export type UiLanguage = "en" | "ar" | "fa" | "so" | "ti" | "zh";
+export type UiLanguage = "sv" | "en" | "ar" | "fa" | "so" | "ti" | "zh";
 
 export type Question = {
   id: string;

@@ -40,6 +40,7 @@ export const LESSONS: Lesson[] = [
     chapterNumbers: [2, 4],
     titleSv: "Demokrati, val och påverkan",
     titles: {
+      sv: "Demokrati, val och påverkan",
       en: "Democracy, elections, and influence",
       ar: "الديمقراطية والانتخابات والتأثير",
       so: "Dimuqraadiyad, doorashooyin, iyo saamayn",
@@ -48,6 +49,11 @@ export const LESSONS: Lesson[] = [
       zh: "民主、选举和影响社会"
     },
     studyText: {
+      sv: [
+        "Sverige i fokus förklarar Sverige som en demokrati. Det betyder att den politiska makten kommer från folket och att människor väljer representanter i fria val.",
+        "Demokrati är mer än att rösta. Människor kan också påverka samhället genom föreningar, kontakt med politiker, fredliga demonstrationer, debattartiklar och offentliga samtal.",
+        "En stark demokrati behöver fria val, fria medier, respekt för rättigheter och människor som kontrollerar information i stället för att sprida hot eller falska påståenden."
+      ],
       en: [
         "Sverige i fokus explains Sweden as a democracy. That means political power comes from the people, and people choose representatives in free elections.",
         "Democracy is more than voting. People can also influence society by joining associations, contacting politicians, demonstrating peacefully, writing debate articles, and taking part in public discussion.",
@@ -80,6 +86,12 @@ export const LESSONS: Lesson[] = [
       ]
     },
     takeaways: {
+      sv: [
+        "Demokrati betyder folkstyre.",
+        "Sverige har normalt allmänna val vart fjärde år.",
+        "Riksdagen stiftar lagar, beslutar om statens budget och kontrollerar regeringen.",
+        "Falsk information, hot, hat och låg delaktighet kan försvaga demokratin."
+      ],
       en: [
         "Democracy means rule by the people.",
         "Sweden normally has general elections every four years.",
@@ -118,10 +130,10 @@ export const LESSONS: Lesson[] = [
       ]
     },
     vocabulary: [
-      { sv: "demokrati", translations: { en: "democracy", ar: "ديمقراطية", so: "dimuqraadiyad", fa: "دموکراسی", ti: "ዲሞክራሲ", zh: "民主" } },
-      { sv: "riksdag", translations: { en: "parliament", ar: "البرلمان", so: "baarlamaanka Iswiidhan", fa: "پارلمان سوئد", ti: "ፓርላማ ሽወደን", zh: "国会" } },
-      { sv: "val", translations: { en: "election", ar: "انتخابات", so: "doorasho", fa: "انتخابات", ti: "ምርጫ", zh: "选举" } },
-      { sv: "påverka", translations: { en: "influence", ar: "يؤثر", so: "saamayn ku yeelasho", fa: "تأثیر گذاشتن", ti: "ጽልዋ ምግባር", zh: "影响" } }
+      { sv: "demokrati", translations: { sv: "folkstyre", en: "democracy", ar: "ديمقراطية", so: "dimuqraadiyad", fa: "دموکراسی", ti: "ዲሞክራሲ", zh: "民主" } },
+      { sv: "riksdag", translations: { sv: "Sveriges parlament", en: "parliament", ar: "البرلمان", so: "baarlamaanka Iswiidhan", fa: "پارلمان سوئد", ti: "ፓርላማ ሽወደን", zh: "国会" } },
+      { sv: "val", translations: { sv: "när människor röstar", en: "election", ar: "انتخابات", so: "doorasho", fa: "انتخابات", ti: "ምርጫ", zh: "选举" } },
+      { sv: "påverka", translations: { sv: "försöka ändra eller bidra", en: "influence", ar: "يؤثر", so: "saamayn ku yeelasho", fa: "تأثیر گذاشتن", ti: "ጽልዋ ምግባር", zh: "影响" } }
     ],
     questionIds: [
       "democracy-001",
@@ -144,6 +156,7 @@ export const LESSONS: Lesson[] = [
     chapterNumbers: [5, 6, 7],
     titleSv: "Rättigheter, lag och medier",
     titles: {
+      sv: "Rättigheter, lag och medier",
       en: "Rights, law, and media",
       ar: "الحقوق والقانون والإعلام",
       so: "Xuquuq, sharci, iyo warbaahin",
@@ -152,6 +165,11 @@ export const LESSONS: Lesson[] = [
       zh: "权利、法律和媒体"
     },
     studyText: {
+      sv: [
+        "Sverige i fokus kopplar demokrati till rättssäkerhet. Lagar ska gälla för alla, och domstolar ska döma enligt lagen.",
+        "Sveriges grundlagar skyddar friheter som yttrandefrihet och tryckfrihet. Friheterna är viktiga, men de ger inte rätt att hota eller sprida hat mot andra människor.",
+        "Materialet lyfter också medier och källkritik. I en demokrati behöver människor information, men de behöver också fråga var informationen kommer från och om den är pålitlig."
+      ],
       en: [
         "Sverige i fokus connects democracy with rule of law. Laws should apply to everyone, and courts must judge according to law.",
         "Sweden's constitutional laws protect freedoms such as freedom of expression and freedom of the press. These freedoms are important, but they do not allow threats or hate against other people.",
@@ -184,6 +202,12 @@ export const LESSONS: Lesson[] = [
       ]
     },
     takeaways: {
+      sv: [
+        "Rättssäkerhet betyder att ingen står över lagen.",
+        "Yttrandefrihet skyddar åsikter, men inte hot eller hets mot folkgrupp.",
+        "Fria medier kan informera människor och granska makten.",
+        "Källkritik betyder att kontrollera avsändare, syfte, bevis och trovärdighet."
+      ],
       en: [
         "Rule of law means no one is above the law.",
         "Freedom of expression protects opinions, but not threats or hate speech.",
@@ -222,10 +246,10 @@ export const LESSONS: Lesson[] = [
       ]
     },
     vocabulary: [
-      { sv: "rättssäkerhet", translations: { en: "rule of law/legal security", ar: "الأمن القانوني/سيادة القانون", so: "ku dhaqanka sharciga / amni sharci", fa: "حاکمیت قانون / امنیت حقوقی", ti: "ልዕልና ሕጊ / ሕጋዊ ውሕስነት", zh: "法治/法律保障" } },
-      { sv: "grundlag", translations: { en: "constitutional law", ar: "قانون دستوري", so: "sharciga dastuuriga ah", fa: "قانون اساسی", ti: "መሰረታዊ ሕጊ", zh: "基本法" } },
-      { sv: "yttrandefrihet", translations: { en: "freedom of expression", ar: "حرية التعبير", so: "xorriyadda hadalka", fa: "آزادی بیان", ti: "ናጽነት ርእይቶ", zh: "言论自由" } },
-      { sv: "källkritik", translations: { en: "source criticism", ar: "النقد المصدري", so: "hubinta ilaha macluumaadka", fa: "نقد و بررسی منبع", ti: "ምርመራ ምንጪ", zh: "来源批判" } }
+      { sv: "rättssäkerhet", translations: { sv: "trygghet genom lag och rätt", en: "rule of law/legal security", ar: "الأمن القانوني/سيادة القانون", so: "ku dhaqanka sharciga / amni sharci", fa: "حاکمیت قانون / امنیت حقوقی", ti: "ልዕልና ሕጊ / ሕጋዊ ውሕስነት", zh: "法治/法律保障" } },
+      { sv: "grundlag", translations: { sv: "extra viktig lag om hur landet styrs", en: "constitutional law", ar: "قانون دستوري", so: "sharciga dastuuriga ah", fa: "قانون اساسی", ti: "መሰረታዊ ሕጊ", zh: "基本法" } },
+      { sv: "yttrandefrihet", translations: { sv: "frihet att uttrycka åsikter", en: "freedom of expression", ar: "حرية التعبير", so: "xorriyadda hadalka", fa: "آزادی بیان", ti: "ናጽነት ርእይቶ", zh: "言论自由" } },
+      { sv: "källkritik", translations: { sv: "att kontrollera information och källor", en: "source criticism", ar: "النقد المصدري", so: "hubinta ilaha macluumaadka", fa: "نقد و بررسی منبع", ti: "ምርመራ ምንጪ", zh: "来源批判" } }
     ],
     questionIds: [
       "rights-001",
@@ -248,6 +272,7 @@ export const LESSONS: Lesson[] = [
     chapterNumbers: [1, 8, 9, 10, 12, 13],
     titleSv: "Vardag, välfärd och Sverige som land",
     titles: {
+      sv: "Vardag, välfärd och Sverige som land",
       en: "Daily life, welfare, and Sweden as a country",
       ar: "الحياة اليومية والرفاه والسويد كبلد",
       so: "Nolol maalmeed, daryeel bulsho, iyo Iswiidhan dal ahaan",
@@ -256,6 +281,11 @@ export const LESSONS: Lesson[] = [
       zh: "日常生活、福利和瑞典这个国家"
     },
     studyText: {
+      sv: [
+        "Sverige i fokus börjar med Sverige som land: geografi, befolkning, naturresurser och hur samhället har förändrats över tid.",
+        "En central idé är välfärdssamhället. Många tjänster, som sjukvård, utbildning och omsorg, betalas med skatter och organiseras av det offentliga.",
+        "Materialet beskriver också arbetsliv, privatekonomi, sekulärt samhälle, religionsfrihet och traditioner. De ämnena förklarar vardagslivet, inte bara politiken."
+      ],
       en: [
         "Sverige i fokus starts with Sweden as a country: geography, population, natural resources, and how society has changed over time.",
         "A central idea is the welfare society. Many services, such as healthcare, education, and care, are paid for by taxes and organized by the public sector.",
@@ -288,6 +318,12 @@ export const LESSONS: Lesson[] = [
       ]
     },
     takeaways: {
+      sv: [
+        "Sveriges största städer är Stockholm, Göteborg och Malmö.",
+        "Skogar, mineraler, jordbruksmark och vatten är viktiga resurser.",
+        "Skatter finansierar en stor del av välfärdssystemet.",
+        "Sverige är sekulärt, och människor kan ha olika religioner eller ingen religion."
+      ],
       en: [
         "Sweden's largest cities are Stockholm, Gothenburg, and Malmö.",
         "Forests, minerals, agricultural land, and water are important resources.",
@@ -326,10 +362,10 @@ export const LESSONS: Lesson[] = [
       ]
     },
     vocabulary: [
-      { sv: "välfärd", translations: { en: "welfare", ar: "الرفاه", so: "daryeel bulsho", fa: "رفاه", ti: "ድሕነት", zh: "福利" } },
-      { sv: "skatt", translations: { en: "tax", ar: "ضريبة", so: "canshuur", fa: "مالیات", ti: "ግብሪ", zh: "税" } },
-      { sv: "arbetsmarknad", translations: { en: "labour market", ar: "سوق العمل", so: "suuqa shaqada", fa: "بازار کار", ti: "ዕዳጋ ስራሕ", zh: "劳动力市场" } },
-      { sv: "sekulär", translations: { en: "secular", ar: "علماني", so: "aan diin dowladeed ku dhisnayn", fa: "سکولار", ti: "ሴኩላር", zh: "世俗的" } }
+      { sv: "välfärd", translations: { sv: "samhällets stöd och service", en: "welfare", ar: "الرفاه", so: "daryeel bulsho", fa: "رفاه", ti: "ድሕነት", zh: "福利" } },
+      { sv: "skatt", translations: { sv: "pengar som betalas till det offentliga", en: "tax", ar: "ضريبة", so: "canshuur", fa: "مالیات", ti: "ግብሪ", zh: "税" } },
+      { sv: "arbetsmarknad", translations: { sv: "området där arbete söks och erbjuds", en: "labour market", ar: "سوق العمل", so: "suuqa shaqada", fa: "بازار کار", ti: "ዕዳጋ ስራሕ", zh: "劳动力市场" } },
+      { sv: "sekulär", translations: { sv: "inte styrd av religion", en: "secular", ar: "علماني", so: "aan diin dowladeed ku dhisnayn", fa: "سکولار", ti: "ሴኩላር", zh: "世俗的" } }
     ],
     questionIds: [
       "everyday-001",
@@ -352,6 +388,7 @@ export const LESSONS: Lesson[] = [
     chapterNumbers: [3, 11],
     titleSv: "Så styrs Sverige och samarbetar med omvärlden",
     titles: {
+      sv: "Så styrs Sverige och samarbetar med omvärlden",
       en: "How Sweden is governed and cooperates with the world",
       ar: "كيف تُحكم السويد وتتعاون مع العالم",
       so: "Sida Iswiidhan loo maamulo iyo sida ay ula shaqeyso dunida",
@@ -360,6 +397,11 @@ export const LESSONS: Lesson[] = [
       zh: "瑞典如何治理并与世界合作"
     },
     studyText: {
+      sv: [
+        "Sverige i fokus beskriver Sverige som en demokrati och en monarki. Kungen är statschef, men politiska beslut fattas genom demokratiska institutioner.",
+        "Riksdagen stiftar lagar och beslutar om statens budget. Regeringen styr landet och genomför beslut. Kommuner och regioner ansvarar för många lokala tjänster och välfärdstjänster.",
+        "Sverige samarbetar också internationellt, till exempel med de nordiska länderna, EU, FN och andra organisationer."
+      ],
       en: [
         "Sverige i fokus describes Sweden as a democracy and a monarchy. The king is head of state, but political decisions are made through democratic institutions.",
         "The Riksdag makes laws and decides the state budget. The government governs the country and carries out decisions. Municipalities and regions handle many local and welfare services.",
@@ -392,6 +434,12 @@ export const LESSONS: Lesson[] = [
       ]
     },
     takeaways: {
+      sv: [
+        "Kungen är statschef, men folkvalda institutioner har den politiska makten.",
+        "Riksdagen stiftar lagar och kontrollerar regeringen.",
+        "Regionerna ansvarar främst för sjukvård.",
+        "Kommunerna ansvarar för många lokala tjänster, bland annat skolor och äldreomsorg."
+      ],
       en: [
         "The king is head of state, but elected institutions hold political power.",
         "The Riksdag makes laws and checks the government.",
@@ -430,10 +478,10 @@ export const LESSONS: Lesson[] = [
       ]
     },
     vocabulary: [
-      { sv: "statschef", translations: { en: "head of state", ar: "رئيس الدولة", so: "madaxa qaranka", fa: "رئیس کشور", ti: "ርእሰ ሃገር", zh: "国家元首" } },
-      { sv: "regering", translations: { en: "government", ar: "الحكومة", so: "dowlad", fa: "دولت", ti: "መንግስቲ", zh: "政府" } },
-      { sv: "region", translations: { en: "region", ar: "منطقة", so: "gobol", fa: "منطقه", ti: "ረጂዮን", zh: "地区" } },
-      { sv: "kommun", translations: { en: "municipality", ar: "بلدية", so: "degmo", fa: "شهرداری", ti: "ኮሙን", zh: "市/地方政府" } }
+      { sv: "statschef", translations: { sv: "landets formella högsta företrädare", en: "head of state", ar: "رئيس الدولة", so: "madaxa qaranka", fa: "رئیس کشور", ti: "ርእሰ ሃገር", zh: "国家元首" } },
+      { sv: "regering", translations: { sv: "de ministrar som styr landet", en: "government", ar: "الحكومة", so: "dowlad", fa: "دولت", ti: "መንግስቲ", zh: "政府" } },
+      { sv: "region", translations: { sv: "regional nivå som bland annat ansvarar för vård", en: "region", ar: "منطقة", so: "gobol", fa: "منطقه", ti: "ረጂዮን", zh: "地区" } },
+      { sv: "kommun", translations: { sv: "lokal nivå som ansvarar för många vardagstjänster", en: "municipality", ar: "بلدية", so: "degmo", fa: "شهرداری", ti: "ኮሙን", zh: "市/地方政府" } }
     ],
     questionIds: [
       "authorities-001",

@@ -134,9 +134,159 @@ const OFFICIAL_CHAPTERS = [
   { id: "traditions", number: 13, nameSv: "Traditioner och högtider", topicId: "everyday" }
 ] as const;
 
-type CoreUiLanguage = "en" | "ar" | "zh";
+type CoreUiLanguage = "sv" | "en" | "ar" | "zh";
 
 const UI_TEXT_BASE: Record<CoreUiLanguage, UiText> = {
+  sv: {
+    eyebrow: "Förbered dig för det svenska medborgarskapsprovet",
+    appTitle: "Swedish Civics Test Preparation",
+    lead: "Träna på frågor om det svenska samhället inför medborgarskapsprovet.",
+    languageNote: "Frågor och svarsalternativ är på svenska. Stödtexter och förklaringar följer valt språk.",
+    dailyPrompt: "Börja med 10 minuter om dagen.",
+    earlyAccessTitle: "Oberoende guide",
+    earlyAccessMessage: `Studera med Sverige i fokus
+
+Det officiella studiematerialet för medborgarskapsprovet är Sverige i fokus från UHR och Skolverket. Det tar upp Sverige som land, demokrati, hur Sverige styrs, val, lag och rättigheter, medier och källkritik, mänskliga rättigheter, arbete och privatekonomi, välfärd, modern historia, internationellt samarbete, religion och traditioner.
+
+Använd Swedish Civics Test Preparation som en oberoende träningsguide: läs först ett kapitel i Sverige i fokus och använd sedan de svenska frågorna för att kontrollera vad du minns. Vi är inte det officiella provet och vi kopierar inte officiella provfrågor.`,
+    officialGuideLink: "Öppna det officiella studiematerialet",
+    studyPathTitle: "Ett smartare sätt att studera",
+    studyPathIntro: "Det viktiga från starka studieappar är inte bara den visuella designen. Det är studie-loopen: följ det officiella materialet, träna aktiv återkallning och återvänd till svaga kapitel.",
+    studySteps: [
+      { title: "1. Läs källan", body: "Börja med ett kapitel i Sverige i fokus. Se det officiella materialet som kartan." },
+      { title: "2. Träna på svenska", body: "Svara på korta svenska frågor medan idén är färsk. Språkstödet förklarar begreppet, inte hela provet." },
+      { title: "3. Repetera svaga delar", body: "Använd dina resultat för att välja vad du ska repetera härnäst, i stället för att läsa om allt från början." }
+    ],
+    chapterMapTitle: "Täckning av officiella kapitel",
+    chapterMapIntro: "Sverige i fokus är uppbyggt kring 13 kapitel. Den här MVP:n grupperar kapitlen i fyra träningsområden så att appen är enkel men fortfarande följer den officiella strukturen.",
+    chapterNames: {
+      country: "Landet Sverige",
+      "democratic-system": "Sveriges demokratiska system",
+      governance: "Så här styrs Sverige",
+      elections: "Politiska val och partier",
+      law: "Lag och rätt",
+      media: "Mediernas roll",
+      "human-rights": "Mänskliga rättigheter",
+      "work-economy": "Arbetsmarknad och privatekonomi",
+      welfare: "Välfärdssamhället",
+      "modern-history": "Sveriges moderna historia",
+      world: "Sverige och omvärlden",
+      "secular-state": "En sekulär stat och ett mångreligiöst land",
+      traditions: "Traditioner och högtider"
+    },
+    chapterSummaries: {
+      country: "geografi, befolkning, resurser",
+      "democratic-system": "demokrati, delaktighet, hot",
+      governance: "riksdag, regering, regioner, kommuner",
+      elections: "val, partier, folkomröstningar",
+      law: "grundlag, domstolar, rättssäkerhet",
+      media: "fria medier, offentlighet, källkritik",
+      "human-rights": "jämlikhet, barns rättigheter, minoriteter",
+      "work-economy": "arbete, fack, skatt, privatekonomi",
+      welfare: "sjukvård, skola, socialförsäkring",
+      "modern-history": "industrialisering och välfärdsstat",
+      world: "Norden, EU, FN, globalt samarbete",
+      "secular-state": "religionsfrihet och sekulärt samhälle",
+      traditions: "nationaldag, midsommar, lucia, högtider"
+    },
+    topicCoverageLabel: "Täcker",
+    studyCardLabel: "Studiekort",
+    studyMaterialTitle: "Studiematerial",
+    takeawaysTitle: "Viktiga punkter",
+    vocabularyTitle: "Viktiga svenska ord",
+    chaptersLabel: "Officiella kapitel",
+    topicSelectorLabel: "Välj träningsområde",
+    allTopics: "Alla ämnen",
+    roadmapStep: (current, total) => `Steg ${current} av ${total}`,
+    testKnowledge: "Testa dina kunskaper",
+    comingNextTitle: "Nästa steg",
+    comingNextIntro: "Det här är användbara produktriktningar, men de är tydligt markerade tills de är riktiga funktioner.",
+    comingNextItems: [
+      { title: "Ordkort", body: "Gör viktiga svenska ord till snabba repetitionskort." },
+      { title: "Blandat provläge", body: "Ett tidsatt läge med 60 frågor när frågebanken är större." },
+      { title: "Framstegspanel", body: "Visa svaga ämnen, träningsrytm och vad som bör repeteras härnäst." }
+    ],
+    progressDashboardTitle: "Framstegspanel",
+    progressDashboardIntro: "Lokala framsteg från den här webbläsaren. Spårning av rätt och fel svar börjar från den här versionen.",
+    flashcardsTitle: "Förhandsversion av ordkort",
+    flashcardsPreview: "Förhandsversion",
+    feedbackTitle: "Skicka feedback",
+    feedbackIntro: "Den här tidiga versionen formas av riktiga användare. Berätta vad som var användbart, oklart, saknades eller blev fel.",
+    feedbackPromptTitle: "Vad ska vi förbättra härnäst?",
+    feedbackPromptBody: "Meddelandet öppnas i din e-postapp. Vi sparar inte formuläret i någon backend ännu.",
+    feedbackNameLabel: "Namn",
+    feedbackNamePlaceholder: "Valfritt",
+    feedbackEmailLabel: "E-post",
+    feedbackEmailPlaceholder: "Valfritt, om du vill ha svar",
+    feedbackTypeLabel: "Typ av feedback",
+    feedbackMessageLabel: "Din feedback",
+    feedbackMessagePlaceholder: "Exempel: Jag gillar språkstödet, men vill ha fler exempel om sjukvård...",
+    feedbackSend: "Skicka feedback via e-post",
+    feedbackMailFallback: "Om din e-postapp inte öppnas, mejla oss på",
+    feedbackTypes: ["Allmän feedback", "Otydlig fråga", "Översättningsproblem", "Saknat ämne", "Felrapport"],
+    flipCard: "Vänd kort",
+    nextCard: "Nästa kort",
+    backToHome: "Till startsidan",
+    overallProgress: "Övergripande framsteg",
+    topicAccuracy: "Träffsäkerhet",
+    weakTopic: "Svagt ämne",
+    weakTopicAdvice: (wrong) => `${wrong} fel svar registrerade. Repetera det här ämnet härnäst.`,
+    recommendedNext: "Rekommenderat nästa steg",
+    topicProgress: (completed, total) => `${completed}/${total} klara`,
+    continuePractice: "Fortsätt",
+    startPractice: "Starta träningsfrågor",
+    reviewLesson: "Repetera studiekort",
+    startWarmup: (count) => `Studieguide + ${count} frågor`,
+    backToTopics: "Till ämnen",
+    level: "Nivå 1",
+    questionProgress: (current, total) => `Fråga ${current} av ${total}`,
+    coachNote: "Välj det svar som känns mest rätt. Vi förklarar efter att du kontrollerat.",
+    showQuestionHelp: "Visa språkstöd",
+    hideQuestionHelp: "Dölj språkstöd",
+    questionHelpLabel: "Betydelse på valt språk",
+    checkAnswer: "Kontrollera mitt svar",
+    nextQuestion: "Prova en till",
+    resetProgress: "Nollställ framsteg",
+    readMore: "Läs mer",
+    showLess: "Visa mindre",
+    dismiss: "Stäng",
+    selected: "Valt",
+    correct: "Rätt",
+    incorrect: "Inte rätt",
+    correctKicker: "Bra, du fångade poängen.",
+    wrongKicker: "Nära nog för att lära sig.",
+    correctTitle: "Det svaret fungerar.",
+    wrongTitle: "Inte den här gången.",
+    bestAnswer: "Bästa svar",
+    explanationFallback: "Förklaring kommer snart.",
+    appLanguage: "Appspråk",
+    appLanguageHint: "Frågorna är på svenska.",
+    today: "idag",
+    total: "totalt",
+    progressFresh: "Ny start.",
+    progressWarm: "Du är igång.",
+    progressGood: "Bra rytm.",
+    progressSolid: "Stabilt pass.",
+    progressStrong: "Stark träningsdag.",
+    topicNames: {
+      democracy: "Demokrati och val",
+      rights: "Rättigheter och skyldigheter",
+      everyday: "Vardagsliv i Sverige",
+      authorities: "Myndigheter och tjänster"
+    },
+    topicFlavor: {
+      democracy: "Val, röster och demokratins spelregler.",
+      rights: "Känn till dina friheter och det gemensamma ansvaret.",
+      everyday: "Det praktiska Sverige du möter i vardagen.",
+      authorities: "En snabb karta över vem som hjälper med vad."
+    },
+    topicDescriptions: {
+      democracy: "Bli tryggare med val, riksdag och hur människor kan påverka i Sverige.",
+      rights: "Lär dig balansen mellan friheter, ansvar och allas lika värde.",
+      everyday: "Träna på vardagliga frågor: arbete, hyra, skola, vård och rutiner.",
+      authorities: "Lär dig vem du kontaktar, när du ska ringa och vilken service som hjälper med vad."
+    }
+  },
   en: {
     eyebrow: "Prepare for the Swedish citizenship test",
     appTitle: "Swedish Civics Test Preparation",
@@ -1011,6 +1161,7 @@ Swedish Civics Test Preparation ከም ናጻ መምርሒ ልምምድ ተጠ�
 };
 
 const SUPPORTED_LANGUAGES: { id: UiLanguage; label: string; nativeLabel: string }[] = [
+  { id: "sv", label: "Swedish", nativeLabel: "Svenska" },
   { id: "en", label: "English", nativeLabel: "English" },
   { id: "so", label: "Somali", nativeLabel: "Soomaali" },
   { id: "fa", label: "Dari / Persian (Farsi)", nativeLabel: "دری / فارسی" },
@@ -1031,6 +1182,22 @@ type CitizenshipUpdateText = {
 };
 
 const CITIZENSHIP_UPDATE_BASE: Record<CoreUiLanguage, CitizenshipUpdateText> = {
+  sv: {
+    title: "Uppdatering av medborgarskapsregler 2026",
+    source: "Baserat på information från Migrationsverket",
+    summary: "Nya medborgarskapsregler 2026 gäller från juni. Vissa sökande kan ha enklare vägar kring kravet på permanent uppehållstillstånd.",
+    intro: "Sedan 6 juni 2026 bedöms ansökningar om svenskt medborgarskap enligt skärpta krav. För många vuxna sökande ingår:",
+    bullets: [
+      "en giltig grund för vistelse, ofta permanent uppehållstillstånd, uppehållsrätt, uppehållskort eller uppehållsstatus",
+      "en viss tid med hemvist i Sverige",
+      "kunskaper i svenska och om det svenska samhället",
+      "förmåga att försörja sig",
+      "ett skötsamt och hederligt levnadssätt"
+    ],
+    note: "Sedan 12 juli 2026 kan vissa personer med tidsbegränsade uppehållstillstånd undantas från kravet på permanent uppehållstillstånd. Din personliga situation bedöms alltid av Migrationsverket.",
+    migrationsverketLink: "Kontrollera kraven hos Migrationsverket",
+    uhrLink: "Studera med Sverige i fokus"
+  },
   en: {
     title: "2026 citizenship rules update",
     source: "Based on information from Migrationsverket",
@@ -1136,6 +1303,36 @@ const CITIZENSHIP_UPDATE: Record<UiLanguage, CitizenshipUpdateText> = {
 type FaqContent = { title: string; intro: string; items: { question: string; answer: string }[] };
 
 const FAQ_CONTENT_BASE: Record<CoreUiLanguage, FaqContent> = {
+  sv: {
+    title: "FAQ",
+    intro: "Korta svar för tidiga användare. Produkten är medvetet enkel medan vi testar vad som hjälper elever mest.",
+    items: [
+      {
+        question: "Är Swedish Civics Test Preparation en officiell provtjänst?",
+        answer: "Nej. Swedish Civics Test Preparation är ett oberoende studie- och träningsverktyg. Vi är inte kopplade till UHR, Skolverket, Migrationsverket eller det officiella medborgarskapsprovet."
+      },
+      {
+        question: "Är det här officiella provfrågor?",
+        answer: "Nej. Frågorna är originalfrågor skrivna för den här appen. De bygger på offentliga studieteman i Sverige i fokus och är inte kopierade från något officiellt prov."
+      },
+      {
+        question: "Varför är frågorna på svenska?",
+        answer: "Det riktiga samhällskunskaps- och medborgarskapsprovet är kopplat till svensk samhällskunskap och svenskspråkigt studiematerial. Därför behåller vi frågorna på svenska och ger stöd och förklaringar på valt språk."
+      },
+      {
+        question: "Var sparas mina framsteg?",
+        answer: "I den här MVP:n sparas framsteg bara i webbläsaren på den här enheten. Det finns inga konton ännu, så framstegen synkas inte mellan enheter."
+      },
+      {
+        question: "Är det gratis?",
+        answer: "Ja, den tidiga versionen är gratis medan vi samlar feedback från riktiga användare. Senare versioner kan lägga till konton, mer innehåll eller betalda funktioner."
+      },
+      {
+        question: "Simulerar appen ett helt prov med 60 frågor?",
+        answer: "Inte ännu. Den nuvarande versionen är ämnesträning. Ett tidsatt blandat provläge är ett bra nästa steg när frågebanken är större."
+      }
+    ]
+  },
   en: {
     title: "FAQ",
     intro: "Short answers for early users. The product is intentionally simple while we test what helps learners most.",
@@ -1279,6 +1476,44 @@ type LegalContent = {
 };
 
 const LEGAL_CONTENT_BASE: Record<CoreUiLanguage, LegalContent> = {
+  sv: {
+    homeLink: "Till startsidan",
+    privacyLink: "Villkor och integritet",
+    footerNote: "Originalfrågor för träning baserade på offentliga studieteman. Inte officiella provfrågor.",
+    title: "Villkor och integritet",
+    updated: "Senast uppdaterad: 10 augusti 2026",
+    intro: "Den här sidan förklarar hur Swedish Civics Test Preparation fungerar idag. Den är avsiktligt kort eftersom nuvarande MVP inte har konton, betalningar, backend-databas eller annonsspårning.",
+    sections: [
+      {
+        title: "Oberoende studieverktyg",
+        body: [
+          "Swedish Civics Test Preparation är en oberoende träningsguide för personer som studerar det svenska samhället. Vi är inte kopplade till UHR, Skolverket, Migrationsverket eller det officiella medborgarskapsprovet.",
+          "Träningsfrågorna är original och bygger på offentliga studieteman i Sverige i fokus. Vi kopierar, publicerar eller påstår oss erbjuda officiella provfrågor."
+        ]
+      },
+      {
+        title: "Din användning av appen",
+        body: [
+          "Du får använda appen för dina egna studier och dela feedback med oss.",
+          "Skrapa, återpublicera eller sälj inte frågebanken, förklaringarna, översättningarna eller designen som en annan produkt."
+        ]
+      },
+      {
+        title: "Integritet i nuvarande MVP",
+        body: [
+          "Det finns inga användarkonton, betalningar, kontaktformulär, analyspixlar eller backend-lagrade profiler i den här versionen.",
+          "Dina träningsframsteg och valt språk sparas lokalt i webbläsaren med localStorage. Datan stannar på din enhet om du inte rensar webbläsarens lagring eller senare väljer att använda en framtida kontofunktion."
+        ]
+      },
+      {
+        title: "Framtida ändringar",
+        body: [
+          "Om vi senare lägger till konton, betalningar, analys, e-postinloggning eller molnsynk av framsteg måste den här policyn uppdateras innan funktionerna släpps.",
+          "Den här sidan är produktvägledning, inte juridisk rådgivning. Inför en större publik lansering är en GDPR-granskning fortfarande värd att göra."
+        ]
+      }
+    ]
+  },
   en: {
     homeLink: "Back to home",
     privacyLink: "Terms & privacy",
@@ -1752,7 +1987,7 @@ function App() {
 
 function getInitialLanguage(): UiLanguage {
   const saved = localStorage.getItem(LANGUAGE_STORAGE_KEY) || localStorage.getItem(OLD_EXPLANATION_LANGUAGE_KEY);
-  return SUPPORTED_LANGUAGES.some((language) => language.id === saved) ? (saved as UiLanguage) : "en";
+  return SUPPORTED_LANGUAGES.some((language) => language.id === saved) ? (saved as UiLanguage) : "sv";
 }
 
 function createLocalizedUiText(base: UiText, overrides: Partial<UiText>): UiText {
@@ -1897,7 +2132,7 @@ function HomePage({
       <IndependentGuideSection ui={ui} />
 
       <StudyPathSection ui={ui} />
-      <ChapterMapSection ui={ui} />
+      <ChapterMapSection language={language} ui={ui} />
 
       <TopicSelector
         selectedTopicId={selectedTopicFilter}
@@ -1922,7 +2157,7 @@ function HomePage({
                 <div className="topic-icon" aria-hidden="true">
                   <Icon size={24} strokeWidth={2.2} />
                 </div>
-                <p className="topic-sv" dir="ltr">{topic.nameSv}</p>
+                {language !== "sv" ? <p className="topic-sv" dir="ltr">{topic.nameSv}</p> : null}
                 <h2>{topicName}</h2>
                 <p dir={getTextDirection(ui.topicDescriptions[topic.id] || topic.descriptionEn)}>
                   {ui.topicDescriptions[topic.id] || topic.descriptionEn}
@@ -2112,7 +2347,7 @@ function StudyPathSection({ ui }: { ui: UiText }) {
   );
 }
 
-function ChapterMapSection({ ui }: { ui: UiText }) {
+function ChapterMapSection({ language, ui }: { language: UiLanguage; ui: UiText }) {
   return (
     <section className="chapter-map" aria-label={ui.chapterMapTitle}>
       <div className="section-heading">
@@ -2120,16 +2355,26 @@ function ChapterMapSection({ ui }: { ui: UiText }) {
         <p dir={getTextDirection(ui.chapterMapIntro)}>{ui.chapterMapIntro}</p>
       </div>
       <div className="chapter-grid">
-        {OFFICIAL_CHAPTERS.map((chapter) => (
-          <article className={`chapter-card accent-${TOPIC_VISUALS[chapter.topicId].accent}`} key={chapter.id}>
-            <span className="chapter-number">{chapter.number}</span>
-            <div>
-              <p className="chapter-sv" dir="ltr">{chapter.nameSv}</p>
-              <h3 dir={getTextDirection(ui.chapterNames[chapter.id])}>{ui.chapterNames[chapter.id]}</h3>
-              <p dir={getTextDirection(ui.chapterSummaries[chapter.id])}>{ui.chapterSummaries[chapter.id]}</p>
-            </div>
-          </article>
-        ))}
+        {OFFICIAL_CHAPTERS.map((chapter) => {
+          const chapterName = ui.chapterNames[chapter.id];
+
+          return (
+            <article className={`chapter-card accent-${TOPIC_VISUALS[chapter.topicId].accent}`} key={chapter.id}>
+              <span className="chapter-number">{chapter.number}</span>
+              <div>
+                {language === "sv" ? (
+                  <h3 dir="ltr">{chapter.nameSv}</h3>
+                ) : (
+                  <>
+                    <p className="chapter-sv" dir="ltr">{chapter.nameSv}</p>
+                    <h3 dir={getTextDirection(chapterName)}>{chapterName}</h3>
+                  </>
+                )}
+                <p dir={getTextDirection(ui.chapterSummaries[chapter.id])}>{ui.chapterSummaries[chapter.id]}</p>
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
   );
@@ -2741,7 +2986,7 @@ function LessonCard({
         <div>
           <p className="lesson-step">{ui.roadmapStep(lessonNumber, LESSONS.length)}</p>
           <h1>{lessonTitle}</h1>
-          <p className="topic-sv" dir="ltr">{lesson.titleSv}</p>
+          {language !== "sv" ? <p className="topic-sv" dir="ltr">{lesson.titleSv}</p> : null}
         </div>
         <div className="lesson-meta">
           <p>{topicName}</p>
