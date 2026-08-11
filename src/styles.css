@@ -64,7 +64,9 @@ body {
 }
 
 button,
-input {
+input,
+select,
+textarea {
   font: inherit;
 }
 
@@ -216,6 +218,20 @@ button:disabled {
 .hero-banner .daily-prompt:hover {
   transform: translateY(-1px);
   box-shadow: 0 8px 24px rgba(59, 130, 246, 0.46);
+}
+
+.hero-feedback-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 38, 76, 0.18);
+}
+
+.hero-feedback-link:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .hero-banner .language-select {
@@ -883,6 +899,103 @@ h3 {
   color: var(--primary);
   font-weight: 850;
   text-decoration: underline;
+}
+
+.footer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.feedback-page {
+  display: grid;
+  gap: 24px;
+  border: 1px solid #c6d8ec;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+  padding: 30px;
+  box-shadow: var(--practice-shadow);
+}
+
+.feedback-intro {
+  display: grid;
+  gap: 10px;
+  max-width: 760px;
+}
+
+.feedback-intro h1 {
+  color: #103e83;
+  font-size: clamp(2rem, 6vw, 3.5rem);
+}
+
+.feedback-intro p {
+  margin: 0;
+  color: #344256;
+}
+
+.feedback-icon {
+  display: grid;
+  width: 54px;
+  height: 54px;
+  place-items: center;
+  border-radius: 8px;
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+.feedback-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.feedback-form label {
+  display: grid;
+  gap: 7px;
+  color: #16406f;
+  font-weight: 850;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%;
+  border: 1px solid #c8d9ec;
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--text);
+  font-weight: 650;
+  padding: 12px 13px;
+}
+
+.feedback-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+
+.feedback-message-field,
+.feedback-submit {
+  grid-column: 1 / -1;
+}
+
+.feedback-submit {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  gap: 9px;
+}
+
+.feedback-fallback {
+  margin: 0;
+  border-radius: 8px;
+  background: var(--primary-soft);
+  padding: 14px 16px;
+  color: #344256;
+}
+
+.feedback-fallback a {
+  color: var(--primary);
+  font-weight: 850;
 }
 
 .legal-page {
@@ -1691,6 +1804,7 @@ legend {
   }
 
   .hero-banner .daily-prompt,
+  .hero-banner .hero-feedback-link,
   .hero-banner .progress,
   .hero-banner .language-select {
     width: 100%;
@@ -1708,8 +1822,18 @@ legend {
   }
 
   .dashboard-page,
-  .flashcard-page {
+  .flashcard-page,
+  .feedback-page {
     padding: var(--space-5);
+  }
+
+  .feedback-form {
+    grid-template-columns: 1fr;
+  }
+
+  .feedback-submit {
+    width: 100%;
+    justify-content: center;
   }
 
   .topic-selector {

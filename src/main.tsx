@@ -1,6 +1,7 @@
 import { StrictMode, useEffect, useState } from "react";
+import type { FormEvent } from "react";
 import { createRoot } from "react-dom/client";
-import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Landmark, Layers3, Scale, Sparkles, Star, X, XCircle } from "lucide-react";
+import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Landmark, Layers3, MessageSquare, Scale, Send, Sparkles, Star, X, XCircle } from "lucide-react";
 import { LESSONS, MIGRATIONSVERKET_CITIZENSHIP_URL, OFFICIAL_STUDY_GUIDE_URL, QUESTIONS, TOPICS } from "./data";
 import { loadProgress, recordAnswered, resetProgress } from "./progress";
 import type { ExplanationLanguage, Lesson, Progress, Question, Topic, UiLanguage } from "./types";
@@ -11,6 +12,7 @@ type Route =
   | { page: "topic"; topicId: string }
   | { page: "progress" }
   | { page: "flashcards" }
+  | { page: "feedback" }
   | { page: "privacy" };
 
 type UiText = {
@@ -46,6 +48,20 @@ type UiText = {
   progressDashboardIntro: string;
   flashcardsTitle: string;
   flashcardsPreview: string;
+  feedbackTitle: string;
+  feedbackIntro: string;
+  feedbackPromptTitle: string;
+  feedbackPromptBody: string;
+  feedbackNameLabel: string;
+  feedbackNamePlaceholder: string;
+  feedbackEmailLabel: string;
+  feedbackEmailPlaceholder: string;
+  feedbackTypeLabel: string;
+  feedbackMessageLabel: string;
+  feedbackMessagePlaceholder: string;
+  feedbackSend: string;
+  feedbackMailFallback: string;
+  feedbackTypes: string[];
   flipCard: string;
   nextCard: string;
   backToHome: string;
@@ -192,6 +208,20 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
     progressDashboardIntro: "Local progress from this browser. Correct and wrong answer tracking starts from this version.",
     flashcardsTitle: "Flashcards preview",
     flashcardsPreview: "Preview version",
+    feedbackTitle: "Send feedback",
+    feedbackIntro: "This early version is shaped by real learners. Tell us what felt useful, confusing, missing, or wrong.",
+    feedbackPromptTitle: "What should we improve next?",
+    feedbackPromptBody: "Your message opens in your email app. We do not store this form in a backend yet.",
+    feedbackNameLabel: "Name",
+    feedbackNamePlaceholder: "Optional",
+    feedbackEmailLabel: "Email",
+    feedbackEmailPlaceholder: "Optional, if you want a reply",
+    feedbackTypeLabel: "Feedback type",
+    feedbackMessageLabel: "Your feedback",
+    feedbackMessagePlaceholder: "Example: I liked the Swedish question help, but I need more examples about healthcare...",
+    feedbackSend: "Send feedback by email",
+    feedbackMailFallback: "If your email app does not open, email us at",
+    feedbackTypes: ["General feedback", "Question is unclear", "Translation issue", "Missing topic", "Bug report"],
     flipCard: "Flip card",
     nextCard: "Next card",
     backToHome: "Back to home",
@@ -328,6 +358,20 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
     progressDashboardIntro: "تقدم محلي من هذا المتصفح. بدأ تتبع الإجابات الصحيحة والخاطئة من هذا الإصدار.",
     flashcardsTitle: "معاينة بطاقات الكلمات",
     flashcardsPreview: "نسخة معاينة",
+    feedbackTitle: "إرسال ملاحظات",
+    feedbackIntro: "هذا الإصدار المبكر يتطور بملاحظات المتعلمين الحقيقيين. أخبرنا ما كان مفيداً أو محيراً أو ناقصاً أو غير صحيح.",
+    feedbackPromptTitle: "ما الذي يجب أن نحسنه بعد ذلك؟",
+    feedbackPromptBody: "ستفتح رسالتك في تطبيق البريد الإلكتروني. لا نحفظ هذا النموذج في خادم حالياً.",
+    feedbackNameLabel: "الاسم",
+    feedbackNamePlaceholder: "اختياري",
+    feedbackEmailLabel: "البريد الإلكتروني",
+    feedbackEmailPlaceholder: "اختياري إذا أردت رداً",
+    feedbackTypeLabel: "نوع الملاحظة",
+    feedbackMessageLabel: "ملاحظتك",
+    feedbackMessagePlaceholder: "مثال: أعجبتني مساعدة اللغة السويدية، لكن أحتاج أمثلة أكثر عن الرعاية الصحية...",
+    feedbackSend: "إرسال الملاحظات بالبريد",
+    feedbackMailFallback: "إذا لم يفتح تطبيق البريد، راسلنا على",
+    feedbackTypes: ["ملاحظة عامة", "السؤال غير واضح", "مشكلة ترجمة", "موضوع ناقص", "بلاغ عن خطأ"],
     flipCard: "اقلب البطاقة",
     nextCard: "البطاقة التالية",
     backToHome: "العودة إلى الرئيسية",
@@ -464,6 +508,20 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
     progressDashboardIntro: "这是本浏览器中的本地进度。从当前版本开始记录正确和错误答案。",
     flashcardsTitle: "词汇卡片预览",
     flashcardsPreview: "预览版本",
+    feedbackTitle: "发送反馈",
+    feedbackIntro: "这个早期版本会根据真实学习者的反馈改进。请告诉我们哪里有用、哪里困惑、缺少什么或哪里不对。",
+    feedbackPromptTitle: "下一步应该改进什么？",
+    feedbackPromptBody: "点击发送会打开你的邮件应用。目前这个表单不会保存到后台。",
+    feedbackNameLabel: "姓名",
+    feedbackNamePlaceholder: "可选",
+    feedbackEmailLabel: "邮箱",
+    feedbackEmailPlaceholder: "可选，如果你希望收到回复",
+    feedbackTypeLabel: "反馈类型",
+    feedbackMessageLabel: "你的反馈",
+    feedbackMessagePlaceholder: "例如：我喜欢瑞典语题目帮助，但希望增加更多医疗相关例子……",
+    feedbackSend: "通过邮件发送反馈",
+    feedbackMailFallback: "如果邮件应用没有打开，请发邮件到",
+    feedbackTypes: ["一般反馈", "题目不清楚", "翻译问题", "缺少主题", "错误报告"],
     flipCard: "翻转卡片",
     nextCard: "下一张",
     backToHome: "返回首页",
@@ -939,6 +997,7 @@ const QUESTION_TRANSLATIONS: Record<string, Record<UiLanguage, { question: strin
 const LANGUAGE_STORAGE_KEY = "appLanguage";
 const OLD_EXPLANATION_LANGUAGE_KEY = "explanationLanguage";
 const CITIZENSHIP_UPDATE_DISMISSED_KEY = "citizenshipUpdateDismissed";
+const FEEDBACK_EMAIL = "feedback@swedencivicsprep.se";
 
 function App() {
   const [route, setRoute] = useHashRoute();
@@ -979,6 +1038,10 @@ function App() {
 
   function goFlashcards() {
     setRoute({ page: "flashcards" });
+  }
+
+  function goFeedback() {
+    setRoute({ page: "feedback" });
   }
 
   function handleStartPractice(topicId: string) {
@@ -1058,6 +1121,17 @@ function App() {
     );
   }
 
+  if (route.page === "feedback") {
+    return (
+      <FeedbackPage
+        language={language}
+        onBack={goHome}
+        onSelectLanguage={handleLanguageChange}
+        ui={ui}
+      />
+    );
+  }
+
   if (route.page === "topic") {
     const topic = TOPICS.find((item) => item.id === route.topicId);
 
@@ -1094,6 +1168,7 @@ function App() {
   return (
     <HomePage
       language={language}
+      onOpenFeedback={goFeedback}
       onOpenFlashcards={goFlashcards}
       onOpenPrivacy={goPrivacy}
       onOpenProgress={goProgress}
@@ -1130,6 +1205,10 @@ function getInitialRoute(): Route {
     return { page: "flashcards" };
   }
 
+  if (page === "feedback") {
+    return { page: "feedback" };
+  }
+
   return { page: "home" };
 }
 
@@ -1155,7 +1234,9 @@ function useHashRoute(): [Route, (route: Route) => void] {
             ? "/progress"
             : nextRoute.page === "flashcards"
               ? "/flashcards"
-              : `/topic/${nextRoute.topicId}`;
+              : nextRoute.page === "feedback"
+                ? "/feedback"
+                : `/topic/${nextRoute.topicId}`;
     setRouteState(nextRoute);
   }
 
@@ -1164,6 +1245,7 @@ function useHashRoute(): [Route, (route: Route) => void] {
 
 function HomePage({
   language,
+  onOpenFeedback,
   onOpenFlashcards,
   onOpenPrivacy,
   onOpenProgress,
@@ -1173,6 +1255,7 @@ function HomePage({
   ui
 }: {
   language: UiLanguage;
+  onOpenFeedback: () => void;
   onOpenFlashcards: () => void;
   onOpenPrivacy: () => void;
   onOpenProgress: () => void;
@@ -1207,6 +1290,10 @@ function HomePage({
         </div>
         <div className="intro-actions">
           <p className="daily-prompt">{ui.dailyPrompt}</p>
+          <button className="hero-feedback-link" type="button" onClick={onOpenFeedback}>
+            <MessageSquare size={17} aria-hidden="true" />
+            {ui.feedbackTitle}
+          </button>
           <ProgressCounter progress={progress} ui={ui} />
           <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
         </div>
@@ -1272,7 +1359,7 @@ function HomePage({
 
       <ComingNextSection onOpenFlashcards={onOpenFlashcards} onOpenProgress={onOpenProgress} ui={ui} />
       <FaqSection language={language} />
-      <SiteFooter language={language} onOpenPrivacy={onOpenPrivacy} />
+      <SiteFooter language={language} onOpenFeedback={onOpenFeedback} onOpenPrivacy={onOpenPrivacy} />
     </main>
   );
 }
@@ -1537,9 +1624,11 @@ function FaqItem({ item }: { item: { question: string; answer: string } }) {
 
 function SiteFooter({
   language,
+  onOpenFeedback,
   onOpenPrivacy
 }: {
   language: UiLanguage;
+  onOpenFeedback: () => void;
   onOpenPrivacy: () => void;
 }) {
   const legal = LEGAL_CONTENT[language];
@@ -1547,10 +1636,133 @@ function SiteFooter({
   return (
     <footer className="site-footer">
       <p>{legal.footerNote}</p>
-      <button className="footer-link" type="button" onClick={onOpenPrivacy}>
-        {legal.privacyLink}
-      </button>
+      <div className="footer-actions">
+        <button className="footer-link" type="button" onClick={onOpenFeedback}>
+          {UI_TEXT[language].feedbackTitle}
+        </button>
+        <button className="footer-link" type="button" onClick={onOpenPrivacy}>
+          {legal.privacyLink}
+        </button>
+      </div>
     </footer>
+  );
+}
+
+function FeedbackPage({
+  language,
+  onBack,
+  onSelectLanguage,
+  ui
+}: {
+  language: UiLanguage;
+  onBack: () => void;
+  onSelectLanguage: (language: UiLanguage) => void;
+  ui: UiText;
+}) {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [feedbackType, setFeedbackType] = useState(ui.feedbackTypes[0]);
+  const [message, setMessage] = useState("");
+
+  useEffect(() => {
+    setFeedbackType(ui.feedbackTypes[0]);
+  }, [ui.feedbackTypes]);
+
+  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    const body = [
+      `Feedback type: ${feedbackType}`,
+      `Name: ${name || "Not provided"}`,
+      `Reply email: ${email || "Not provided"}`,
+      `App language: ${language}`,
+      "",
+      message
+    ].join("\n");
+
+    const mailto = new URL(`mailto:${FEEDBACK_EMAIL}`);
+    mailto.searchParams.set("subject", `Swedish Civics Test Preparation feedback: ${feedbackType}`);
+    mailto.searchParams.set("body", body);
+    window.location.href = mailto.toString();
+  }
+
+  return (
+    <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
+      <nav className="topbar">
+        <button className="ghost" type="button" onClick={onBack}>
+          {ui.backToHome}
+        </button>
+        <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
+      </nav>
+
+      <section className="feedback-page">
+        <div className="feedback-intro">
+          <div className="feedback-icon" aria-hidden="true">
+            <MessageSquare size={24} strokeWidth={2.3} />
+          </div>
+          <p className="eyebrow">{ui.feedbackPromptTitle}</p>
+          <h1>{ui.feedbackTitle}</h1>
+          <p>{ui.feedbackIntro}</p>
+          <p>{ui.feedbackPromptBody}</p>
+        </div>
+
+        <form className="feedback-form" onSubmit={handleSubmit}>
+          <label>
+            <span>{ui.feedbackNameLabel}</span>
+            <input
+              autoComplete="name"
+              onChange={(event) => setName(event.target.value)}
+              placeholder={ui.feedbackNamePlaceholder}
+              value={name}
+            />
+          </label>
+
+          <label>
+            <span>{ui.feedbackEmailLabel}</span>
+            <input
+              autoComplete="email"
+              inputMode="email"
+              onChange={(event) => setEmail(event.target.value)}
+              placeholder={ui.feedbackEmailPlaceholder}
+              type="email"
+              value={email}
+            />
+          </label>
+
+          <label>
+            <span>{ui.feedbackTypeLabel}</span>
+            <select onChange={(event) => setFeedbackType(event.target.value)} value={feedbackType}>
+              {ui.feedbackTypes.map((type) => (
+                <option key={type} value={type}>
+                  {type}
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <label className="feedback-message-field">
+            <span>{ui.feedbackMessageLabel}</span>
+            <textarea
+              onChange={(event) => setMessage(event.target.value)}
+              placeholder={ui.feedbackMessagePlaceholder}
+              required
+              rows={8}
+              value={message}
+            />
+          </label>
+
+          <button className="primary feedback-submit" type="submit">
+            <Send size={17} aria-hidden="true" />
+            {ui.feedbackSend}
+          </button>
+        </form>
+
+        <p className="feedback-fallback">
+          {ui.feedbackMailFallback}{" "}
+          <a href={`mailto:${FEEDBACK_EMAIL}`}>{FEEDBACK_EMAIL}</a>
+        </p>
+      </section>
+    </main>
   );
 }
 
