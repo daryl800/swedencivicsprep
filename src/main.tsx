@@ -3,7 +3,7 @@ import type { FormEvent } from "react";
 import { createRoot } from "react-dom/client";
 import { useTranslation } from "react-i18next";
 import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Home as HomeIcon, Landmark, Layers3, LockKeyhole, MessageSquare, Scale, Send, Sparkles, Star, X, XCircle } from "lucide-react";
-import { LESSONS, MIGRATIONSVERKET_CITIZENSHIP_URL, OFFICIAL_STUDY_GUIDE_URL, QUESTIONS, TOPICS } from "./data";
+import { LESSONS, MIGRATIONSVERKET_CITIZENSHIP_URL, OFFICIAL_CHAPTERS, OFFICIAL_STUDY_GUIDE_URL, QUESTIONS, TOPICS } from "./data";
 import i18n from "./i18n";
 import { analyticsStatus, trackEvent, trackPageView } from "./analytics";
 import { CITIZENSHIP_UPDATE, FAQ_CONTENT, LEGAL_CONTENT } from "./i18n/content";
@@ -29,22 +29,6 @@ const TOPIC_VISUALS = {
   everyday: { icon: HeartPulse, accent: "rose" },
   authorities: { icon: BriefcaseBusiness, accent: "gold" }
 } as const;
-
-const OFFICIAL_CHAPTERS = [
-  { id: "country", number: 1, nameSv: "Landet Sverige", topicId: "everyday" },
-  { id: "democratic-system", number: 2, nameSv: "Sveriges demokratiska system", topicId: "democracy" },
-  { id: "governance", number: 3, nameSv: "Så här styrs Sverige", topicId: "authorities" },
-  { id: "elections", number: 4, nameSv: "Politiska val och partier", topicId: "democracy" },
-  { id: "law", number: 5, nameSv: "Lag och rätt", topicId: "rights" },
-  { id: "media", number: 6, nameSv: "Mediernas roll", topicId: "rights" },
-  { id: "human-rights", number: 7, nameSv: "Mänskliga rättigheter", topicId: "rights" },
-  { id: "work-economy", number: 8, nameSv: "Arbetsmarknad och privatekonomi", topicId: "everyday" },
-  { id: "welfare", number: 9, nameSv: "Välfärdssamhället", topicId: "everyday" },
-  { id: "modern-history", number: 10, nameSv: "Sveriges moderna historia", topicId: "everyday" },
-  { id: "world", number: 11, nameSv: "Sverige och omvärlden", topicId: "authorities" },
-  { id: "secular-state", number: 12, nameSv: "En sekulär stat och ett mångreligiöst land", topicId: "everyday" },
-  { id: "traditions", number: 13, nameSv: "Traditioner och högtider", topicId: "everyday" }
-] as const;
 
 const QUESTION_TRANSLATIONS: Record<string, Partial<Record<UiLanguage, { question: string; options: string[] }>>> = {
   "democracy-001": {
@@ -648,7 +632,7 @@ function HomePage({
             const visual = TOPIC_VISUALS[topic.id as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
             const Icon = visual.icon;
             const topicName = ui.topicNames[topic.id] || topic.nameEn;
-            const coveredChapters = OFFICIAL_CHAPTERS.filter((chapter) => chapter.topicId === topic.id);
+            const chapterStats = getChapterStatsForTopic(topic.id, progress, ui);
             const moduleStatus =
               percent === 100
                 ? { label: ui.moduleMastered, className: "mastered" }
@@ -671,10 +655,11 @@ function HomePage({
                     {ui.topicDescriptions[topic.id] || topic.descriptionEn}
                   </p>
                   <div className="coverage-chips" aria-label={`${ui.topicCoverageLabel} ${topicName}`}>
-                    {coveredChapters.map((chapter) => (
+                    {chapterStats.map((chapter) => (
                       <span key={chapter.id}>{chapter.number}</span>
                     ))}
                   </div>
+                  <ChapterProgressList compact stats={chapterStats} ui={ui} />
                 </div>
                 <div className="topic-progress">
                   <div className="topic-progress-row">
@@ -1037,9 +1022,10 @@ function ChapterMapSection({ language, ui }: { language: UiLanguage; ui: UiText 
       <div className="chapter-grid">
         {OFFICIAL_CHAPTERS.map((chapter) => {
           const chapterName = ui.chapterNames[chapter.id];
+          const visual = TOPIC_VISUALS[chapter.topicId as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
 
           return (
-            <article className={`chapter-card accent-${TOPIC_VISUALS[chapter.topicId].accent}`} key={chapter.id}>
+            <article className={`chapter-card accent-${visual.accent}`} key={chapter.id}>
               <span className="chapter-number">{chapter.number}</span>
               <div>
                 {language === "sv" ? (
@@ -1425,6 +1411,7 @@ function ProgressDashboardPage({
             {topicStats.map((topic) => {
               const visual = TOPIC_VISUALS[topic.id as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
               const Icon = visual.icon;
+              const chapterStats = getChapterStatsForTopic(topic.id, progress, ui);
               const status =
                 topic.completedPercent === 100
                   ? { label: ui.moduleMastered, className: "mastered" }
@@ -1453,6 +1440,7 @@ function ProgressDashboardPage({
                       <span style={{ width: `${topic.completedPercent}%` }} />
                     </div>
                   </div>
+                  <ChapterProgressList stats={chapterStats} ui={ui} />
                   <p>
                     {ui.topicAccuracy}: <strong>{topic.accuracy}%</strong>
                   </p>
@@ -1996,6 +1984,55 @@ function getTopicStats(topic: Topic, progress: Progress, ui: UiText) {
   };
 }
 
+function getChapterStatsForTopic(topicId: string, progress: Progress, ui: UiText) {
+  return OFFICIAL_CHAPTERS.map((chapter) => {
+    const questions = QUESTIONS.filter((question) => question.topicId === topicId && question.chapterId === chapter.id);
+    const completed = questions.filter((question) => progress.answeredIds.includes(question.id)).length;
+    const percent = questions.length > 0 ? Math.round((completed / questions.length) * 100) : 0;
+
+    return {
+      id: chapter.id,
+      number: chapter.number,
+      name: ui.chapterNames[chapter.id] || chapter.nameSv,
+      total: questions.length,
+      completed,
+      percent
+    };
+  }).filter((chapter) => chapter.total > 0);
+}
+
+function ChapterProgressList({
+  compact = false,
+  stats,
+  ui
+}: {
+  compact?: boolean;
+  stats: ReturnType<typeof getChapterStatsForTopic>;
+  ui: UiText;
+}) {
+  if (stats.length === 0) {
+    return null;
+  }
+
+  return (
+    <div className={`chapter-progress-list ${compact ? "compact" : ""}`} aria-label={ui.chaptersLabel}>
+      {stats.map((chapter) => (
+        <div className="chapter-progress-item" key={chapter.id}>
+          <div className="chapter-progress-topline">
+            <strong>
+              {chapter.number}. {chapter.name}
+            </strong>
+            <span>{ui.topicProgress(chapter.completed, chapter.total)}</span>
+          </div>
+          <div className="chapter-progress-track" aria-hidden="true">
+            <span style={{ width: `${chapter.percent}%` }} />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 type AdminStats = {
   configured: boolean;
   generatedAt: string;
@@ -2066,6 +2103,8 @@ function TopicPracticePage({
   const topicName = ui.topicNames[topic.id] || topic.nameEn;
   const questionNumber = questionIndex + 1;
   const questionPercent = questions.length > 0 ? Math.round((questionNumber / questions.length) * 100) : 0;
+  const chapter = OFFICIAL_CHAPTERS.find((item) => item.id === question.chapterId);
+  const chapterName = chapter ? ui.chapterNames[chapter.id] || chapter.nameSv : "";
   const mobileActionDisabled = checked ? false : selectedIndex === null;
   const mobileActionLabel = checked ? ui.nextQuestion : ui.checkAnswer;
   const handleMobileAction = () => {
@@ -2109,6 +2148,11 @@ function TopicPracticePage({
           </div>
           <div className="practice-meta">
             <p className="level-pill">{topicName} · {ui.level}</p>
+            {chapter ? (
+              <p className="chapter-pill">
+                {chapter.number}. {chapterName}
+              </p>
+            ) : null}
             <p className="question-count">{ui.questionProgress(questionIndex + 1, questions.length)}</p>
           </div>
         </div>

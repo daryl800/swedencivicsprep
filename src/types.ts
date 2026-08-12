@@ -5,6 +5,13 @@ export type Topic = {
   descriptionEn: string;
 };
 
+export type Chapter = {
+  id: string;
+  number: number;
+  nameSv: string;
+  topicId: string;
+};
+
 export type ExplanationLanguage = "sv" | "en" | "ar" | "fa" | "so" | "ti" | "zh";
 
 export type UiLanguage = "sv" | "en" | "ar" | "fa" | "so" | "ti" | "zh";
@@ -12,6 +19,7 @@ export type UiLanguage = "sv" | "en" | "ar" | "fa" | "so" | "ti" | "zh";
 export type Question = {
   id: string;
   topicId: string;
+  chapterId: string;
   questionSv: string;
   options: string[];
   correctIndex: number;
