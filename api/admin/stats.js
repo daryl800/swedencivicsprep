@@ -10,7 +10,7 @@ const QUERIES = {
   practiceStarts: "SELECT count() FROM events WHERE event = 'practice_started' AND timestamp >= now() - INTERVAL 30 DAY",
   feedbackSubmissions: "SELECT count() FROM events WHERE event = 'feedback_submitted' AND timestamp >= now() - INTERVAL 30 DAY",
   languages:
-    "SELECT properties.uiLanguage, count() FROM events WHERE event = 'language_changed' AND timestamp >= now() - INTERVAL 30 DAY GROUP BY properties.uiLanguage ORDER BY count() DESC LIMIT 8",
+    "SELECT coalesce(properties.toLanguage, properties.uiLanguage, 'unknown'), count() FROM events WHERE event = 'language_changed' AND timestamp >= now() - INTERVAL 30 DAY GROUP BY coalesce(properties.toLanguage, properties.uiLanguage, 'unknown') ORDER BY count() DESC LIMIT 8",
   topics:
     "SELECT properties.topicId, count() FROM events WHERE event IN ('topic_selected', 'practice_started', 'question_answered') AND timestamp >= now() - INTERVAL 30 DAY GROUP BY properties.topicId ORDER BY count() DESC LIMIT 8",
   correctness:

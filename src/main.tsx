@@ -302,7 +302,7 @@ function App() {
   }
 
   function handleLanguageChange(nextLanguage: UiLanguage) {
-    trackEvent("language_changed", { fromLanguage: language, toLanguage: nextLanguage });
+    trackEvent("language_changed", { fromLanguage: language, toLanguage: nextLanguage, uiLanguage: nextLanguage });
     setLanguage(nextLanguage);
     localStorage.setItem(LANGUAGE_STORAGE_KEY, nextLanguage);
     localStorage.setItem(OLD_EXPLANATION_LANGUAGE_KEY, nextLanguage);
