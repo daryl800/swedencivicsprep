@@ -1,8 +1,10 @@
 import { StrictMode, useEffect, useState } from "react";
 import type { FormEvent } from "react";
 import { createRoot } from "react-dom/client";
+import { useTranslation } from "react-i18next";
 import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Landmark, Layers3, MessageSquare, Scale, Send, Sparkles, Star, X, XCircle } from "lucide-react";
 import { LESSONS, MIGRATIONSVERKET_CITIZENSHIP_URL, OFFICIAL_STUDY_GUIDE_URL, QUESTIONS, TOPICS } from "./data";
+import i18n from "./i18n";
 import { loadProgress, recordAnswered, resetProgress } from "./progress";
 import type { ExplanationLanguage, Lesson, Progress, Question, Topic, UiLanguage } from "./types";
 import "./styles.css";
@@ -1261,6 +1263,8 @@ const SUPPORTED_LANGUAGES: { id: UiLanguage; label: string; nativeLabel: string 
   { id: "zh", label: "Chinese", nativeLabel: "中文" }
 ];
 
+registerUiTranslations();
+
 type CitizenshipUpdateText = {
   title: string;
   source: string;
@@ -1905,7 +1909,13 @@ function App() {
   const [lastWasCorrect, setLastWasCorrect] = useState(false);
   const [questionHelpVisible, setQuestionHelpVisible] = useState(false);
   const [language, setLanguage] = useState<UiLanguage>(() => getInitialLanguage());
-  const ui = UI_TEXT[language];
+  const ui = useTranslatedUiText(language);
+
+  useEffect(() => {
+    if (i18n.language !== language) {
+      void i18n.changeLanguage(language);
+    }
+  }, [language]);
 
   function goHome() {
     setRoute({ page: "home" });
@@ -2079,6 +2089,43 @@ function App() {
 function getInitialLanguage(): UiLanguage {
   const saved = localStorage.getItem(LANGUAGE_STORAGE_KEY) || localStorage.getItem(OLD_EXPLANATION_LANGUAGE_KEY);
   return SUPPORTED_LANGUAGES.some((language) => language.id === saved) ? (saved as UiLanguage) : "sv";
+}
+
+function registerUiTranslations() {
+  Object.entries(UI_TEXT).forEach(([language, uiText]) => {
+    i18n.addResourceBundle(language, "translation", toI18nextResource(uiText), true, true);
+  });
+
+  void i18n.changeLanguage(getInitialLanguage());
+}
+
+function toI18nextResource(uiText: UiText) {
+  return Object.fromEntries(
+    Object.entries(uiText).filter(([, value]) => typeof value !== "function")
+  );
+}
+
+function useTranslatedUiText(language: UiLanguage): UiText {
+  const { t } = useTranslation();
+  const base = UI_TEXT[language] || UI_TEXT.sv;
+  const translated = { ...base };
+
+  (Object.keys(base) as (keyof UiText)[]).forEach((key) => {
+    const value = base[key];
+
+    if (typeof value === "function") {
+      return;
+    }
+
+    const isObjectLike = typeof value === "object" && value !== null;
+    translated[key] = t(key, {
+      defaultValue: value,
+      lng: language,
+      returnObjects: isObjectLike
+    }) as never;
+  });
+
+  return translated;
 }
 
 function createLocalizedUiText(base: UiText, overrides: Partial<UiText>): UiText {
