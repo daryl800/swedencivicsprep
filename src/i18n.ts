@@ -7,6 +7,9 @@ void i18n.use(initReactI18next).init({
     escapeValue: false
   },
   lng: "sv",
+  react: {
+    useSuspense: false
+  },
   resources: {}
 });
 
