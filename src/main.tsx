@@ -171,6 +171,7 @@ const LANGUAGE_STORAGE_KEY = "appLanguage";
 const OLD_EXPLANATION_LANGUAGE_KEY = "explanationLanguage";
 const CITIZENSHIP_UPDATE_DISMISSED_KEY = "citizenshipUpdateDismissed";
 const ADMIN_UNLOCKED_KEY = "swedencivicsprep-admin-unlocked";
+const ADMIN_PASSWORD_SESSION_KEY = "swedencivicsprep-admin-password";
 const ADMIN_PASSWORD = "preview-admin-2026";
 const FEEDBACK_EMAIL = "feedback@swedencivicsprep.se";
 
@@ -1388,7 +1389,11 @@ function AdminDashboardPage({
 }) {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const [adminPassword, setAdminPassword] = useState(() => sessionStorage.getItem(ADMIN_PASSWORD_SESSION_KEY) || "");
   const [unlocked, setUnlocked] = useState(() => localStorage.getItem(ADMIN_UNLOCKED_KEY) === "true");
+  const [adminStats, setAdminStats] = useState<AdminStats | null>(null);
+  const [adminStatsStatus, setAdminStatsStatus] = useState<"idle" | "loading" | "ready" | "error">("idle");
+  const [adminStatsMessage, setAdminStatsMessage] = useState("");
   const topicStats = TOPICS.map((topic) => getTopicStats(topic, progress, ui));
   const knownAnswers = Object.values(progress.answers || {});
   const attempts = knownAnswers.reduce((sum, answer) => sum + answer.attempts, 0);
@@ -1397,11 +1402,12 @@ function AdminDashboardPage({
   const accuracy = attempts > 0 ? Math.round((correct / attempts) * 100) : 0;
   const strongestTopic = [...topicStats].filter((topic) => topic.attempts > 0).sort((a, b) => b.accuracy - a.accuracy)[0];
   const busiestTopic = [...topicStats].sort((a, b) => b.attempts - a.attempts)[0];
+  const productionTopic = adminStats?.topics[0];
   const dashboardItems = [
     {
-      title: "Visitor analytics",
+      title: "Product analytics",
       body: analyticsStatus.enabled
-        ? "PostHog is configured. Use its private dashboard for real visitors, referrers, countries, devices, and retention until this page has a serverless stats API."
+        ? "PostHog browser event collection is configured for production visits and learning actions."
         : "Set VITE_POSTHOG_KEY in Vercel to collect real visitors, referrers, countries, devices, and retention.",
       status: analyticsStatus.enabled ? "Connected" : "Needs key"
     },
@@ -1411,17 +1417,69 @@ function AdminDashboardPage({
       status: "Added"
     },
     {
-      title: "Admin security",
-      body: "Move the password and analytics API keys into a Vercel function before showing private production data here.",
-      status: "Important"
+      title: "Private stats API",
+      body: adminStats
+        ? "The Vercel function returned production aggregates from PostHog."
+        : "Set server-only env vars so /api/admin/stats can pull production aggregates from PostHog.",
+      status: adminStats ? "Connected" : "Needs env"
     }
   ];
+
+  useEffect(() => {
+    if (!unlocked || !adminPassword) {
+      return;
+    }
+
+    let cancelled = false;
+
+    async function fetchAdminStats() {
+      setAdminStatsStatus("loading");
+      setAdminStatsMessage("");
+
+      try {
+        const response = await fetch("/api/admin/stats", {
+          headers: {
+            "x-admin-password": adminPassword
+          }
+        });
+        const payload = await response.json();
+
+        if (cancelled) {
+          return;
+        }
+
+        if (!response.ok) {
+          setAdminStats(null);
+          setAdminStatsStatus("error");
+          setAdminStatsMessage(payload.error || "Production stats are not available yet.");
+          return;
+        }
+
+        setAdminStats(payload);
+        setAdminStatsStatus("ready");
+      } catch {
+        if (!cancelled) {
+          setAdminStats(null);
+          setAdminStatsStatus("error");
+          setAdminStatsMessage("Could not reach /api/admin/stats. This works after deploying to Vercel.");
+        }
+      }
+    }
+
+    void fetchAdminStats();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [adminPassword, unlocked]);
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
     if (password === ADMIN_PASSWORD) {
       localStorage.setItem(ADMIN_UNLOCKED_KEY, "true");
+      sessionStorage.setItem(ADMIN_PASSWORD_SESSION_KEY, password);
+      setAdminPassword(password);
       setUnlocked(true);
       setError("");
       return;
@@ -1432,6 +1490,10 @@ function AdminDashboardPage({
 
   function handleLock() {
     localStorage.removeItem(ADMIN_UNLOCKED_KEY);
+    sessionStorage.removeItem(ADMIN_PASSWORD_SESSION_KEY);
+    setAdminPassword("");
+    setAdminStats(null);
+    setAdminStatsStatus("idle");
     setUnlocked(false);
     setPassword("");
   }
@@ -1491,34 +1553,52 @@ function AdminDashboardPage({
           <p className="eyebrow">Private admin preview</p>
           <h1>Site statistics dashboard</h1>
           <p>
-            This page combines local browser practice data with production analytics status. Real visitor totals live in PostHog until we add a Vercel stats function.
+            This page combines production PostHog aggregates with local browser practice data. If the private stats API is not configured yet, local data remains visible as a fallback.
           </p>
         </div>
         <div className="admin-live-badge">
           <span aria-hidden="true" />
-          {analyticsStatus.enabled ? "Analytics connected" : "Local data only"}
+          {adminStats ? "Production stats" : analyticsStatus.enabled ? "Analytics connected" : "Local data only"}
         </div>
       </section>
 
       <section className="admin-metric-grid" aria-label="Admin overview">
         <AdminMetric
           title="Visitors"
-          value={analyticsStatus.enabled ? "In PostHog" : "Not connected"}
-          note={analyticsStatus.enabled ? "Open the private PostHog dashboard for live visitor counts" : "Set VITE_POSTHOG_KEY to begin collection"}
+          value={adminStats ? String(adminStats.overview.visitors) : analyticsStatus.enabled ? "In PostHog" : "Not connected"}
+          note={adminStats ? `${adminStats.range} unique visitors` : analyticsStatus.enabled ? "Waiting for private stats API" : "Set VITE_POSTHOG_KEY to begin collection"}
         />
-        <AdminMetric title="Questions answered" value={String(attempts)} note={`${progress.today} today / ${progress.total} total in this browser`} />
-        <AdminMetric title="Correct answer rate" value={`${accuracy}%`} note={`${correct} correct / ${wrong} wrong`} />
-        <AdminMetric title="Most active area" value={busiestTopic?.name || "-"} note={`${busiestTopic?.attempts || 0} attempts`} />
+        <AdminMetric
+          title="Questions answered"
+          value={String(adminStats?.overview.questionsAnswered ?? attempts)}
+          note={adminStats ? `${adminStats.range} production events` : `${progress.today} today / ${progress.total} total in this browser`}
+        />
+        <AdminMetric
+          title="Correct answer rate"
+          value={`${adminStats?.overview.correctRate ?? accuracy}%`}
+          note={adminStats ? "Based on production question_answered events" : `${correct} correct / ${wrong} wrong locally`}
+        />
+        <AdminMetric
+          title="Most active area"
+          value={productionTopic?.name || busiestTopic?.name || "-"}
+          note={productionTopic ? `${productionTopic.count} production events` : `${busiestTopic?.attempts || 0} local attempts`}
+        />
       </section>
 
       <section className="admin-panel admin-analytics-panel">
         <div className="admin-panel-heading">
           <div>
             <p className="eyebrow">Production analytics</p>
-            <h2>{analyticsStatus.enabled ? "PostHog event tracking is ready" : "PostHog is not configured yet"}</h2>
+            <h2>{adminStats ? "Production stats are connected" : analyticsStatus.enabled ? "PostHog event tracking is ready" : "PostHog is not configured yet"}</h2>
           </div>
           <Sparkles size={24} aria-hidden="true" />
         </div>
+        {adminStatsStatus === "error" ? (
+          <p className="admin-api-message" role="status">{adminStatsMessage}</p>
+        ) : null}
+        {adminStatsStatus === "loading" ? (
+          <p className="admin-api-message" role="status">Loading production stats from PostHog...</p>
+        ) : null}
         <div className="admin-analytics-grid">
           <div>
             <strong>Provider</strong>
@@ -1529,8 +1609,12 @@ function AdminDashboardPage({
             <span>{analyticsStatus.host}</span>
           </div>
           <div>
-            <strong>Status</strong>
+            <strong>Browser events</strong>
             <span>{analyticsStatus.enabled ? "Collecting when deployed with env key" : "Disabled until VITE_POSTHOG_KEY is set"}</span>
+          </div>
+          <div>
+            <strong>Private stats API</strong>
+            <span>{adminStats ? `Connected at ${new Date(adminStats.generatedAt).toLocaleString()}` : adminStatsStatus === "loading" ? "Loading..." : "Not connected yet"}</span>
           </div>
         </div>
         <div className="admin-analytics-actions">
@@ -1594,8 +1678,8 @@ function AdminDashboardPage({
       <section className="admin-panel">
         <div className="admin-panel-heading">
           <div>
-            <p className="eyebrow">Analytics roadmap</p>
-            <h2>What this dashboard should show after tracking is connected</h2>
+            <p className="eyebrow">Analytics setup status</p>
+            <h2>What is connected now</h2>
           </div>
           <Layers3 size={24} aria-hidden="true" />
         </div>
@@ -1620,7 +1704,7 @@ function AdminDashboardPage({
         </div>
         <div className="admin-event-tags">
           {[
-            "homepage_viewed",
+            "page_viewed",
             "language_changed",
             "topic_selected",
             "study_guide_opened",
@@ -1731,6 +1815,22 @@ function getTopicStats(topic: Topic, progress: Progress, ui: UiText) {
     accuracy: attempts > 0 ? Math.round((correct / attempts) * 100) : 0
   };
 }
+
+type AdminStats = {
+  configured: boolean;
+  generatedAt: string;
+  range: string;
+  overview: {
+    correctRate: number;
+    feedbackSubmissions: number;
+    pageViews: number;
+    practiceStarts: number;
+    questionsAnswered: number;
+    visitors: number;
+  };
+  languages: { count: number; name: string }[];
+  topics: { count: number; name: string }[];
+};
 
 type TopicPracticePageProps = {
   checked: boolean;
