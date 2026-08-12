@@ -1742,24 +1742,27 @@ function AdminDashboardPage({
       <section className="admin-panel admin-events-panel">
         <div className="admin-panel-heading">
           <div>
-            <p className="eyebrow">Event plan</p>
-            <h2>Recommended events to collect</h2>
+            <p className="eyebrow">Tracked events</p>
+            <h2>Event activity in the last 30 days</h2>
           </div>
           <MessageSquare size={24} aria-hidden="true" />
         </div>
         <div className="admin-event-tags">
-          {[
-            "page_viewed",
-            "language_changed",
-            "topic_selected",
-            "study_guide_opened",
-            "practice_started",
-            "question_answered",
-            "question_translation_toggled",
-            "topic_completed",
-            "feedback_submitted"
-          ].map((eventName) => (
-            <code key={eventName}>{eventName}</code>
+          {(adminStats?.events || [
+            { name: "page_viewed", count: 0 },
+            { name: "language_changed", count: 0 },
+            { name: "topic_selected", count: 0 },
+            { name: "study_guide_opened", count: 0 },
+            { name: "practice_started", count: 0 },
+            { name: "question_answered", count: 0 },
+            { name: "question_translation_toggled", count: 0 },
+            { name: "topic_completed", count: 0 },
+            { name: "feedback_submitted", count: 0 }
+          ]).map((event) => (
+            <code className={event.count > 0 ? "active" : ""} key={event.name}>
+              <span>{event.name}</span>
+              {adminStats ? <strong>{event.count}</strong> : null}
+            </code>
           ))}
         </div>
       </section>
@@ -1882,6 +1885,7 @@ type AdminStats = {
     questionsAnswered: number;
     visitors: number;
   };
+  events: { count: number; name: string }[];
   languages: { count: number; name: string }[];
   topics: { count: number; name: string }[];
 };

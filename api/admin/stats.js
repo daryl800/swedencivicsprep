@@ -2,6 +2,17 @@ const POSTHOG_HOST = process.env.POSTHOG_API_HOST || "https://eu.posthog.com";
 const POSTHOG_PROJECT_ID = process.env.POSTHOG_PROJECT_ID;
 const POSTHOG_PERSONAL_API_KEY = process.env.POSTHOG_PERSONAL_API_KEY;
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
+const TRACKED_EVENTS = [
+  "page_viewed",
+  "language_changed",
+  "topic_selected",
+  "study_guide_opened",
+  "practice_started",
+  "question_answered",
+  "question_translation_toggled",
+  "topic_completed",
+  "feedback_submitted"
+];
 
 const QUERIES = {
   visitors: "SELECT count(DISTINCT distinct_id) FROM events WHERE timestamp >= now() - INTERVAL 30 DAY",
@@ -14,7 +25,9 @@ const QUERIES = {
   topics:
     "SELECT properties.topicId, count() FROM events WHERE event IN ('topic_selected', 'practice_started', 'question_answered') AND timestamp >= now() - INTERVAL 30 DAY GROUP BY properties.topicId ORDER BY count() DESC LIMIT 8",
   correctness:
-    "SELECT properties.isCorrect, count() FROM events WHERE event = 'question_answered' AND timestamp >= now() - INTERVAL 30 DAY GROUP BY properties.isCorrect"
+    "SELECT properties.isCorrect, count() FROM events WHERE event = 'question_answered' AND timestamp >= now() - INTERVAL 30 DAY GROUP BY properties.isCorrect",
+  eventCounts:
+    `SELECT event, count() FROM events WHERE event IN (${TRACKED_EVENTS.map((eventName) => `'${eventName}'`).join(", ")}) AND timestamp >= now() - INTERVAL 30 DAY GROUP BY event ORDER BY event ASC`
 };
 
 export default async function handler(request, response) {
@@ -60,6 +73,7 @@ export default async function handler(request, response) {
       },
       languages: toBreakdown(data.languages),
       topics: toBreakdown(data.topics),
+      events: withMissingEvents(toBreakdown(data.eventCounts)),
       configured: true
     });
   } catch (error) {
@@ -107,5 +121,14 @@ function toBreakdown(data) {
   return (data?.results || []).map(([name, count]) => ({
     name: String(name || "unknown"),
     count: Number(count || 0)
+  }));
+}
+
+function withMissingEvents(eventCounts) {
+  const countByName = new Map(eventCounts.map((event) => [event.name, event.count]));
+
+  return TRACKED_EVENTS.map((eventName) => ({
+    name: eventName,
+    count: countByName.get(eventName) || 0
   }));
 }
