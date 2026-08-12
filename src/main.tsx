@@ -2,7 +2,7 @@ import { StrictMode, useEffect, useState } from "react";
 import type { FormEvent } from "react";
 import { createRoot } from "react-dom/client";
 import { useTranslation } from "react-i18next";
-import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Landmark, Layers3, MessageSquare, Scale, Send, Sparkles, Star, X, XCircle } from "lucide-react";
+import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Landmark, Layers3, LockKeyhole, MessageSquare, Scale, Send, Sparkles, Star, X, XCircle } from "lucide-react";
 import { LESSONS, MIGRATIONSVERKET_CITIZENSHIP_URL, OFFICIAL_STUDY_GUIDE_URL, QUESTIONS, TOPICS } from "./data";
 import i18n from "./i18n";
 import { CITIZENSHIP_UPDATE, FAQ_CONTENT, LEGAL_CONTENT } from "./i18n/content";
@@ -17,7 +17,8 @@ type Route =
   | { page: "progress" }
   | { page: "flashcards" }
   | { page: "feedback" }
-  | { page: "privacy" };
+  | { page: "privacy" }
+  | { page: "admin" };
 
 const TOPIC_VISUALS = {
   democracy: { icon: Landmark, accent: "blue" },
@@ -168,6 +169,8 @@ const QUESTION_TRANSLATIONS: Record<string, Partial<Record<UiLanguage, { questio
 const LANGUAGE_STORAGE_KEY = "appLanguage";
 const OLD_EXPLANATION_LANGUAGE_KEY = "explanationLanguage";
 const CITIZENSHIP_UPDATE_DISMISSED_KEY = "citizenshipUpdateDismissed";
+const ADMIN_UNLOCKED_KEY = "swedencivicsprep-admin-unlocked";
+const ADMIN_PASSWORD = "preview-admin-2026";
 const FEEDBACK_EMAIL = "feedback@swedencivicsprep.se";
 
 registerUiTranslations();
@@ -311,6 +314,18 @@ function App() {
     );
   }
 
+  if (route.page === "admin") {
+    return (
+      <AdminDashboardPage
+        language={language}
+        onBack={goHome}
+        onSelectLanguage={handleLanguageChange}
+        progress={progress}
+        ui={ui}
+      />
+    );
+  }
+
   if (route.page === "topic") {
     const topic = TOPICS.find((item) => item.id === route.topicId);
 
@@ -434,6 +449,10 @@ function getInitialRoute(): Route {
     return { page: "feedback" };
   }
 
+  if (page === "admin") {
+    return { page: "admin" };
+  }
+
   return { page: "home" };
 }
 
@@ -461,7 +480,9 @@ function useHashRoute(): [Route, (route: Route) => void] {
               ? "/flashcards"
               : nextRoute.page === "feedback"
                 ? "/feedback"
-                : `/topic/${nextRoute.topicId}`;
+                : nextRoute.page === "admin"
+                  ? "/admin"
+                  : `/topic/${nextRoute.topicId}`;
     setRouteState(nextRoute);
   }
 
@@ -1287,6 +1308,241 @@ function ProgressDashboardPage({
         </div>
       </section>
     </main>
+  );
+}
+
+function AdminDashboardPage({
+  language,
+  onBack,
+  onSelectLanguage,
+  progress,
+  ui
+}: {
+  language: UiLanguage;
+  onBack: () => void;
+  onSelectLanguage: (language: UiLanguage) => void;
+  progress: Progress;
+  ui: UiText;
+}) {
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const [unlocked, setUnlocked] = useState(() => localStorage.getItem(ADMIN_UNLOCKED_KEY) === "true");
+  const topicStats = TOPICS.map((topic) => getTopicStats(topic, progress, ui));
+  const knownAnswers = Object.values(progress.answers || {});
+  const attempts = knownAnswers.reduce((sum, answer) => sum + answer.attempts, 0);
+  const correct = knownAnswers.reduce((sum, answer) => sum + answer.correct, 0);
+  const wrong = knownAnswers.reduce((sum, answer) => sum + answer.wrong, 0);
+  const accuracy = attempts > 0 ? Math.round((correct / attempts) * 100) : 0;
+  const strongestTopic = [...topicStats].filter((topic) => topic.attempts > 0).sort((a, b) => b.accuracy - a.accuracy)[0];
+  const busiestTopic = [...topicStats].sort((a, b) => b.attempts - a.attempts)[0];
+  const dashboardItems = [
+    {
+      title: "Visitor analytics",
+      body: "Connect PostHog, Plausible, or Vercel Analytics to show real visitors, referrers, countries, and devices.",
+      status: "Needs provider"
+    },
+    {
+      title: "Learning events",
+      body: "Track topic_selected, practice_started, question_answered, language_changed, and feedback_submitted.",
+      status: "Next"
+    },
+    {
+      title: "Admin security",
+      body: "Move the password and analytics API keys into a Vercel function before showing private production data here.",
+      status: "Important"
+    }
+  ];
+
+  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    if (password === ADMIN_PASSWORD) {
+      localStorage.setItem(ADMIN_UNLOCKED_KEY, "true");
+      setUnlocked(true);
+      setError("");
+      return;
+    }
+
+    setError("Wrong password. This is only a lightweight gate for the preview admin page.");
+  }
+
+  function handleLock() {
+    localStorage.removeItem(ADMIN_UNLOCKED_KEY);
+    setUnlocked(false);
+    setPassword("");
+  }
+
+  if (!unlocked) {
+    return (
+      <main className="shell admin-shell">
+        <section className="admin-login-card" aria-labelledby="admin-login-title">
+          <div className="admin-login-icon" aria-hidden="true">
+            <LockKeyhole size={30} strokeWidth={2.2} />
+          </div>
+          <p className="eyebrow">Admin preview</p>
+          <h1 id="admin-login-title">SwedenCivicsPrep Admin</h1>
+          <p>
+            This page is hidden from normal navigation and protected by a simple static password for now. It is not a replacement for proper server-side admin security.
+          </p>
+          <form className="admin-login-form" onSubmit={handleSubmit}>
+            <label>
+              <span>Password</span>
+              <input
+                autoComplete="current-password"
+                onChange={(event) => setPassword(event.target.value)}
+                placeholder="Enter admin password"
+                type="password"
+                value={password}
+              />
+            </label>
+            {error ? <p className="admin-error" role="alert">{error}</p> : null}
+            <button className="primary" type="submit">
+              Open dashboard
+            </button>
+          </form>
+          <button className="ghost" type="button" onClick={onBack}>
+            Back to site
+          </button>
+        </section>
+      </main>
+    );
+  }
+
+  return (
+    <main className="shell admin-shell" dir={isRtl(language) ? "rtl" : "ltr"}>
+      <nav className="topbar">
+        <button className="ghost" type="button" onClick={onBack}>
+          Back to site
+        </button>
+        <div className="admin-top-actions">
+          <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
+          <button className="secondary" type="button" onClick={handleLock}>
+            Lock admin
+          </button>
+        </div>
+      </nav>
+
+      <section className="admin-hero">
+        <div>
+          <p className="eyebrow">Private admin preview</p>
+          <h1>Site statistics dashboard</h1>
+          <p>
+            This first version shows local browser practice data and the dashboard structure. Real visitor numbers need an analytics provider or a small Vercel function.
+          </p>
+        </div>
+        <div className="admin-live-badge">
+          <span aria-hidden="true" />
+          Local data only
+        </div>
+      </section>
+
+      <section className="admin-metric-grid" aria-label="Admin overview">
+        <AdminMetric title="Visitors" value="Not connected" note="Use PostHog, Plausible, or Vercel Analytics" />
+        <AdminMetric title="Questions answered" value={String(attempts)} note={`${progress.today} today / ${progress.total} total in this browser`} />
+        <AdminMetric title="Correct answer rate" value={`${accuracy}%`} note={`${correct} correct / ${wrong} wrong`} />
+        <AdminMetric title="Most active area" value={busiestTopic?.name || "-"} note={`${busiestTopic?.attempts || 0} attempts`} />
+      </section>
+
+      <section className="admin-panel-grid">
+        <article className="admin-panel admin-topic-panel">
+          <div className="admin-panel-heading">
+            <div>
+              <p className="eyebrow">Practice areas</p>
+              <h2>Where learners spend time</h2>
+            </div>
+            <BarChart3 size={24} aria-hidden="true" />
+          </div>
+          <div className="admin-topic-list">
+            {topicStats.map((topic) => (
+              <div className="admin-topic-row" key={topic.id}>
+                <div>
+                  <strong>{topic.name}</strong>
+                  <span>{topic.attempts} attempts · {topic.accuracy}% correct</span>
+                </div>
+                <div className="admin-topic-meter" aria-hidden="true">
+                  <span style={{ width: `${Math.min(topic.completedPercent, 100)}%` }} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </article>
+
+        <article className="admin-panel">
+          <div className="admin-panel-heading">
+            <div>
+              <p className="eyebrow">Content quality</p>
+              <h2>What to review next</h2>
+            </div>
+            <CheckCircle2 size={24} aria-hidden="true" />
+          </div>
+          <div className="admin-insight-list">
+            <p>
+              <strong>Strongest topic:</strong> {strongestTopic?.name || "Not enough data yet"}
+            </p>
+            <p>
+              <strong>Unique questions practiced:</strong> {progress.answeredIds.length} / {QUESTIONS.length}
+            </p>
+            <p>
+              <strong>Suggested next metric:</strong> track translation toggle usage per question to find hard Swedish wording.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section className="admin-panel">
+        <div className="admin-panel-heading">
+          <div>
+            <p className="eyebrow">Analytics roadmap</p>
+            <h2>What this dashboard should show after tracking is connected</h2>
+          </div>
+          <Layers3 size={24} aria-hidden="true" />
+        </div>
+        <div className="admin-roadmap-grid">
+          {dashboardItems.map((item) => (
+            <article className="admin-roadmap-card" key={item.title}>
+              <span>{item.status}</span>
+              <h3>{item.title}</h3>
+              <p>{item.body}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="admin-panel admin-events-panel">
+        <div className="admin-panel-heading">
+          <div>
+            <p className="eyebrow">Event plan</p>
+            <h2>Recommended events to collect</h2>
+          </div>
+          <MessageSquare size={24} aria-hidden="true" />
+        </div>
+        <div className="admin-event-tags">
+          {[
+            "homepage_viewed",
+            "language_changed",
+            "topic_selected",
+            "study_guide_opened",
+            "practice_started",
+            "question_answered",
+            "question_translation_toggled",
+            "topic_completed",
+            "feedback_submitted"
+          ].map((eventName) => (
+            <code key={eventName}>{eventName}</code>
+          ))}
+        </div>
+      </section>
+    </main>
+  );
+}
+
+function AdminMetric({ note, title, value }: { note: string; title: string; value: string }) {
+  return (
+    <article className="admin-metric-card">
+      <span>{title}</span>
+      <strong>{value}</strong>
+      <p>{note}</p>
+    </article>
   );
 }
 
