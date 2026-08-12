@@ -1503,6 +1503,24 @@ h3 {
 .topic-dashboard-card {
   display: grid;
   gap: var(--space-4);
+  border-top: 4px solid var(--card-accent, var(--primary));
+}
+
+.topic-dashboard-heading {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: start;
+  gap: var(--space-3);
+}
+
+.topic-dashboard-heading .topic-icon {
+  width: 48px;
+  height: 48px;
+  margin: 0;
+}
+
+.topic-dashboard-heading .module-status {
+  align-self: start;
 }
 
 .topic-dashboard-card h2 {
@@ -2884,6 +2902,10 @@ legend {
   display: none;
 }
 
+.mobile-bottom-nav {
+  display: none;
+}
+
 .quiz-mobile-footer {
   display: none;
 }
@@ -2942,6 +2964,60 @@ legend {
 
   .nav-actions {
     display: none;
+  }
+
+  .mobile-bottom-nav {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 45;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    border-top: 1px solid rgba(188, 212, 238, 0.92);
+    background: rgba(248, 251, 255, 0.95);
+    padding: 8px 10px calc(8px + env(safe-area-inset-bottom));
+    box-shadow: 0 -14px 32px rgba(15, 23, 42, 0.12);
+    backdrop-filter: blur(16px);
+  }
+
+  .mobile-bottom-nav button {
+    display: grid;
+    min-width: 0;
+    min-height: 58px;
+    place-items: center;
+    gap: 3px;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    background: transparent;
+    color: #64748b;
+    padding: 6px 4px;
+    font-size: 0.73rem;
+    font-weight: 950;
+    transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease, transform 0.18s ease;
+  }
+
+  .mobile-bottom-nav button:hover,
+  .mobile-bottom-nav button:focus-visible {
+    background: #e8f2ff;
+    color: var(--sweden-blue-dark);
+  }
+
+  .mobile-bottom-nav button.active {
+    border-color: rgba(254, 204, 0, 0.74);
+    background: var(--sweden-yellow);
+    color: #13213a;
+    box-shadow: 0 12px 22px rgba(254, 204, 0, 0.22);
+  }
+
+  .mobile-bottom-nav button:active {
+    transform: translateY(1px);
+  }
+
+  .mobile-bottom-nav svg {
+    width: 23px;
+    height: 23px;
   }
 
   .mobile-nav-actions {
