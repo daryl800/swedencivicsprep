@@ -26,10 +26,10 @@ export const UI_TEXT: Record<UiLanguage, UiText> = {
 
 export const SUPPORTED_LANGUAGES: { id: UiLanguage; label: string; nativeLabel: string; flag: string; shortLabel: string }[] = [
   { id: "sv", label: "Swedish", nativeLabel: "Svenska", flag: "🇸🇪", shortLabel: "SV" },
+  { id: "zh", label: "Chinese", nativeLabel: "中文", flag: "🇨🇳", shortLabel: "ZH" },
   { id: "en", label: "English", nativeLabel: "English", flag: "🇬🇧", shortLabel: "EN" },
   { id: "so", label: "Somali", nativeLabel: "Soomaali", flag: "🇸🇴", shortLabel: "SO" },
   { id: "fa", label: "Dari / Persian (Farsi)", nativeLabel: "دری / فارسی", flag: "🇦🇫", shortLabel: "FA" },
   { id: "ti", label: "Tigrinya", nativeLabel: "ትግርኛ", flag: "🇪🇷", shortLabel: "TI" },
-  { id: "ar", label: "Arabic", nativeLabel: "العربية", flag: "🌍", shortLabel: "AR" },
-  { id: "zh", label: "Chinese", nativeLabel: "中文", flag: "🇨🇳", shortLabel: "ZH" }
+  { id: "ar", label: "Arabic", nativeLabel: "العربية", flag: "🌍", shortLabel: "AR" }
 ];
