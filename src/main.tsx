@@ -2,6 +2,7 @@ import { StrictMode, useEffect, useState } from "react";
 import type { FormEvent } from "react";
 import { createRoot } from "react-dom/client";
 import { useTranslation } from "react-i18next";
+import { Analytics } from "@vercel/analytics/react";
 import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Home as HomeIcon, Landmark, Layers3, LockKeyhole, MessageSquare, Scale, Send, Sparkles, Star, X, XCircle } from "lucide-react";
 import { LESSONS, MIGRATIONSVERKET_CITIZENSHIP_URL, OFFICIAL_CHAPTERS, OFFICIAL_STUDY_GUIDE_URL, QUESTIONS, TOPICS } from "./data";
 import i18n from "./i18n";
@@ -2538,5 +2539,6 @@ function isRtl(language: ExplanationLanguage | UiLanguage) {
 createRoot(document.querySelector("#app")!).render(
   <StrictMode>
     <App />
+    <Analytics />
   </StrictMode>
 );

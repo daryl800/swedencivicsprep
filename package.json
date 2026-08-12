@@ -9,6 +9,7 @@
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "i18next": "^26.3.6",
     "lucide-react": "^1.29.0",
     "posthog-js": "^1.415.7",
