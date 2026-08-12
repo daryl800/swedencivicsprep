@@ -745,6 +745,13 @@ function AppNav({
             {ui.navStartPractice}
           </button>
         </div>
+
+        <div className="mobile-nav-actions" aria-label={ui.navStartPractice}>
+          <LanguageSelector onChange={onSelectLanguage} ui={ui} value={value} />
+          <button className="nav-cta mobile-nav-cta" type="button" onClick={onStartPractice}>
+            {ui.navStartPractice}
+          </button>
+        </div>
       </nav>
     </header>
   );

@@ -177,6 +177,10 @@ button:disabled {
   gap: var(--space-3);
 }
 
+.mobile-nav-actions {
+  display: none;
+}
+
 .app-nav .language-select {
   position: relative;
   min-width: 190px;
@@ -2920,8 +2924,11 @@ legend {
   }
 
   .app-nav-inner {
+    grid-template-columns: 1fr;
     width: min(100% - 24px, 1040px);
     min-height: 64px;
+    gap: 10px;
+    padding: 12px 0;
   }
 
   .brand-mark {
@@ -2935,6 +2942,36 @@ legend {
 
   .nav-actions {
     display: none;
+  }
+
+  .mobile-nav-actions {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .mobile-nav-actions .language-select {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .mobile-nav-actions .language-trigger {
+    justify-content: space-between;
+    min-height: 46px;
+  }
+
+  .mobile-nav-actions .language-menu {
+    right: auto;
+    left: 0;
+    width: min(320px, calc(100vw - 24px));
+  }
+
+  .mobile-nav-cta {
+    min-height: 46px;
+    padding: 0 16px;
+    white-space: nowrap;
   }
 
   .mobile-cta {
@@ -2962,6 +2999,16 @@ legend {
 
   .mobile-cta button:hover {
     background: #ffd735;
+  }
+
+  @media (max-width: 440px) {
+    .mobile-nav-actions {
+      grid-template-columns: 1fr;
+    }
+
+    .mobile-nav-cta {
+      width: 100%;
+    }
   }
 
   .shell {
