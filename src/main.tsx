@@ -21,6 +21,21 @@ type UiText = {
   lead: string;
   languageNote: string;
   dailyPrompt: string;
+  navStudyModules: string;
+  navPracticeTests: string;
+  navAbout: string;
+  navStartPractice: string;
+  heroPrimaryCta: string;
+  heroSecondaryCta: string;
+  heroTrustBadge: string;
+  heroMockLabel: string;
+  heroMockQuestion: string;
+  heroMockOptionWrong: string;
+  heroMockOptionCorrect: string;
+  heroMockOptionMiss: string;
+  heroMockExplanationLabel: string;
+  heroMockExplanation: string;
+  proofStats: { value: string; label: string }[];
   earlyAccessTitle: string;
   earlyAccessMessage: string;
   officialGuideLink: string;
@@ -143,6 +158,25 @@ const UI_TEXT_BASE: Record<CoreUiLanguage, UiText> = {
     lead: "Träna på frågor om det svenska samhället inför medborgarskapsprovet.",
     languageNote: "Frågor och svarsalternativ är på svenska. Stödtexter och förklaringar följer valt språk.",
     dailyPrompt: "Börja med 10 minuter om dagen.",
+    navStudyModules: "Studieområden",
+    navPracticeTests: "Träningsfrågor",
+    navAbout: "Om guiden",
+    navStartPractice: "Starta träning",
+    heroPrimaryCta: "Starta gratis träningsfrågor →",
+    heroSecondaryCta: "Utforska studieområden",
+    heroTrustBadge: "✓ Uppdaterad för 2026 • Inget kreditkort behövs",
+    heroMockLabel: "Exempel från träningen",
+    heroMockQuestion: "Vad betyder demokrati i Sverige?",
+    heroMockOptionWrong: "Att en person bestämmer allt",
+    heroMockOptionCorrect: "Att folket är med och bestämmer",
+    heroMockOptionMiss: "Att bara myndigheter får rösta",
+    heroMockExplanationLabel: "Kort förklaring",
+    heroMockExplanation: "Demokrati betyder att människor kan påverka samhället genom val, yttrandefrihet och delaktighet.",
+    proofStats: [
+      { value: "48", label: "förhandsfrågor" },
+      { value: "13", label: "officiella kapitel kartlagda" },
+      { value: "10 min/dag", label: "enkel studierutin" }
+    ],
     earlyAccessTitle: "Oberoende guide",
     earlyAccessMessage: `Studera med Sverige i fokus
 
@@ -293,6 +327,25 @@ Använd Swedish Civics Test Preparation som en oberoende träningsguide: läs f�
     lead: "Practice questions about Swedish society to prepare for the citizenship test.",
     languageNote: "Questions and answer options stay in Swedish. The rest of the app follows your selected language.",
     dailyPrompt: "Start with 10 minutes a day.",
+    navStudyModules: "Study Modules",
+    navPracticeTests: "Practice Tests",
+    navAbout: "About",
+    navStartPractice: "Start Practice Test",
+    heroPrimaryCta: "Start Free Practice Test →",
+    heroSecondaryCta: "Explore Modules",
+    heroTrustBadge: "✓ Updated for 2026 Requirements • No Credit Card Needed",
+    heroMockLabel: "Practice preview",
+    heroMockQuestion: "Vad betyder demokrati i Sverige?",
+    heroMockOptionWrong: "Att en person bestämmer allt",
+    heroMockOptionCorrect: "Att folket är med och bestämmer",
+    heroMockOptionMiss: "Att bara myndigheter får rösta",
+    heroMockExplanationLabel: "Instant explanation",
+    heroMockExplanation: "Democracy means people can influence society through elections, free speech, and participation.",
+    proofStats: [
+      { value: "48", label: "preview questions" },
+      { value: "13", label: "official chapters mapped" },
+      { value: "10 min/day", label: "structured study loop" }
+    ],
     earlyAccessTitle: "Independent guide",
     earlyAccessMessage: `Study with Sverige i fokus
 
@@ -443,6 +496,25 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
     lead: "تدرّب على أسئلة عن المجتمع السويدي استعداداً لاختبار المواطنة أو المعرفة المدنية.",
     languageNote: "تبقى الأسئلة وخيارات الإجابة باللغة السويدية. باقي التطبيق يظهر باللغة التي تختارها.",
     dailyPrompt: "ابدأ بعشر دقائق يومياً.",
+    navStudyModules: "مجالات الدراسة",
+    navPracticeTests: "أسئلة التدريب",
+    navAbout: "عن الدليل",
+    navStartPractice: "ابدأ التدريب",
+    heroPrimaryCta: "ابدأ تدريباً مجانياً →",
+    heroSecondaryCta: "استكشف المجالات",
+    heroTrustBadge: "✓ محدث لمتطلبات 2026 • لا حاجة لبطاقة ائتمان",
+    heroMockLabel: "معاينة التدريب",
+    heroMockQuestion: "Vad betyder demokrati i Sverige?",
+    heroMockOptionWrong: "Att en person bestämmer allt",
+    heroMockOptionCorrect: "Att folket är med och bestämmer",
+    heroMockOptionMiss: "Att bara myndigheter får rösta",
+    heroMockExplanationLabel: "شرح فوري",
+    heroMockExplanation: "الديمقراطية تعني أن الناس يمكنهم التأثير في المجتمع عبر الانتخابات وحرية التعبير والمشاركة.",
+    proofStats: [
+      { value: "48", label: "سؤالاً في نسخة المعاينة" },
+      { value: "13", label: "فصلاً رسمياً مرتبطاً" },
+      { value: "10 دقائق/يوم", label: "روتين دراسة بسيط" }
+    ],
     earlyAccessTitle: "دليل مستقل",
     earlyAccessMessage: `ادرس مع Sverige i fokus
 
@@ -593,6 +665,25 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
     lead: "练习关于瑞典社会的选择题，为未来的公民或社会知识测试做准备。",
     languageNote: "题目和答案选项保持瑞典语。应用界面和解释会使用你选择的语言。",
     dailyPrompt: "每天先练10分钟。",
+    navStudyModules: "学习模块",
+    navPracticeTests: "练习题",
+    navAbout: "关于指南",
+    navStartPractice: "开始练习",
+    heroPrimaryCta: "开始免费练习 →",
+    heroSecondaryCta: "浏览模块",
+    heroTrustBadge: "✓ 已按 2026 要求更新 • 不需要信用卡",
+    heroMockLabel: "练习预览",
+    heroMockQuestion: "Vad betyder demokrati i Sverige?",
+    heroMockOptionWrong: "Att en person bestämmer allt",
+    heroMockOptionCorrect: "Att folket är med och bestämmer",
+    heroMockOptionMiss: "Att bara myndigheter får rösta",
+    heroMockExplanationLabel: "即时解释",
+    heroMockExplanation: "民主表示人们可以通过选举、言论自由和参与来影响社会。",
+    proofStats: [
+      { value: "48", label: "预览练习题" },
+      { value: "13", label: "官方章节已映射" },
+      { value: "10分钟/天", label: "结构化学习节奏" }
+    ],
     earlyAccessTitle: "独立学习指南",
     earlyAccessMessage: `配合 Sverige i fokus 学习
 
@@ -2102,93 +2193,223 @@ function HomePage({
     setShowCitizenshipUpdate(false);
   }
 
+  function handleExploreModules() {
+    document.getElementById("study-modules")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function handleStartPractice() {
+    onSelectTopic(TOPICS[0]?.id || "democracy");
+  }
+
   return (
-    <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
-      <section className="intro hero-banner">
-        <div className="hero-copy">
-          <p className="hero-badge">
-            <span className="flag-icon" aria-hidden="true" />
-            {ui.eyebrow}
-          </p>
-          <h1>{ui.appTitle}</h1>
-          <p className="lead">{ui.lead}</p>
-          <p className="language-note">{ui.languageNote}</p>
-        </div>
-        <div className="intro-actions">
-          <p className="daily-prompt">{ui.dailyPrompt}</p>
-          <button className="hero-feedback-link" type="button" onClick={onOpenFeedback}>
-            <MessageSquare size={17} aria-hidden="true" />
-            {ui.feedbackTitle}
-          </button>
-          <ProgressCounter progress={progress} ui={ui} />
-          <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
-        </div>
-      </section>
-
-      {showCitizenshipUpdate ? (
-        <CitizenshipUpdateCard language={language} onDismiss={handleDismissCitizenshipUpdate} ui={ui} />
-      ) : null}
-
-      <IndependentGuideSection ui={ui} />
-
-      <StudyPathSection ui={ui} />
-      <ChapterMapSection language={language} ui={ui} />
-
-      <TopicSelector
-        selectedTopicId={selectedTopicFilter}
-        onSelectTopic={setSelectedTopicFilter}
+    <>
+      <AppNav
+        onExploreModules={handleExploreModules}
+        onSelectLanguage={onSelectLanguage}
+        onStartPractice={handleStartPractice}
         ui={ui}
+        value={language}
       />
-
-      <section className="topic-list" aria-label="Topics">
-        {visibleTopics.map((topic) => {
-          const topicQuestions = QUESTIONS.filter((question) => question.topicId === topic.id);
-          const count = topicQuestions.length;
-          const completed = topicQuestions.filter((question) => progress.answeredIds.includes(question.id)).length;
-          const percent = count > 0 ? Math.round((completed / count) * 100) : 0;
-          const visual = TOPIC_VISUALS[topic.id as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
-          const Icon = visual.icon;
-          const topicName = ui.topicNames[topic.id] || topic.nameEn;
-          const coveredChapters = OFFICIAL_CHAPTERS.filter((chapter) => chapter.topicId === topic.id);
-
-          return (
-            <article className={`topic-card accent-${visual.accent}`} key={topic.id}>
-              <div>
-                <div className="topic-icon" aria-hidden="true">
-                  <Icon size={24} strokeWidth={2.2} />
-                </div>
-                {language !== "sv" ? <p className="topic-sv" dir="ltr">{topic.nameSv}</p> : null}
-                <h2>{topicName}</h2>
-                <p dir={getTextDirection(ui.topicDescriptions[topic.id] || topic.descriptionEn)}>
-                  {ui.topicDescriptions[topic.id] || topic.descriptionEn}
-                </p>
-                <div className="coverage-chips" aria-label={`${ui.topicCoverageLabel} ${topicName}`}>
-                  {coveredChapters.map((chapter) => (
-                    <span key={chapter.id}>{chapter.number}</span>
-                  ))}
-                </div>
-              </div>
-              <div className="topic-progress">
-                <div className="topic-progress-row">
-                  <span>{ui.topicProgress(completed, count)}</span>
-                  <strong>{percent}%</strong>
-                </div>
-                <div className="topic-progress-track" aria-hidden="true">
-                  <span style={{ width: `${percent}%` }} />
-                </div>
-              </div>
-              <button className="primary" type="button" onClick={() => onSelectTopic(topic.id)}>
-                {completed > 0 ? ui.continuePractice : ui.startWarmup(count)}
+      <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
+        <section className="intro hero-banner">
+          <div className="hero-copy">
+            <p className="hero-badge">
+              <span className="flag-icon" aria-hidden="true" />
+              {ui.eyebrow}
+            </p>
+            <h1>{ui.appTitle}</h1>
+            <p className="lead">{ui.lead}</p>
+            <p className="language-note">{ui.languageNote}</p>
+            <div className="hero-cta-row">
+              <button className="hero-primary" type="button" onClick={handleStartPractice}>
+                {ui.heroPrimaryCta}
               </button>
-            </article>
-          );
-        })}
-      </section>
+              <button className="hero-secondary" type="button" onClick={handleExploreModules}>
+                {ui.heroSecondaryCta}
+              </button>
+            </div>
+            <p className="hero-trust">{ui.heroTrustBadge}</p>
+          </div>
+          <HeroMockup ui={ui} />
+        </section>
 
-      <ComingNextSection onOpenFlashcards={onOpenFlashcards} onOpenProgress={onOpenProgress} ui={ui} />
-      <FaqSection language={language} />
-      <SiteFooter language={language} onOpenFeedback={onOpenFeedback} onOpenPrivacy={onOpenPrivacy} />
-    </main>
+        <ProofStats ui={ui} />
+
+        {showCitizenshipUpdate ? (
+          <CitizenshipUpdateCard language={language} onDismiss={handleDismissCitizenshipUpdate} ui={ui} />
+        ) : null}
+
+        <IndependentGuideSection ui={ui} />
+
+        <StudyPathSection ui={ui} />
+        <ChapterMapSection language={language} ui={ui} />
+
+        <div id="study-modules" className="study-modules-anchor">
+          <TopicSelector
+            selectedTopicId={selectedTopicFilter}
+            onSelectTopic={setSelectedTopicFilter}
+            ui={ui}
+          />
+        </div>
+
+        <section className="topic-list" aria-label="Topics">
+          {visibleTopics.map((topic) => {
+            const topicQuestions = QUESTIONS.filter((question) => question.topicId === topic.id);
+            const count = topicQuestions.length;
+            const completed = topicQuestions.filter((question) => progress.answeredIds.includes(question.id)).length;
+            const percent = count > 0 ? Math.round((completed / count) * 100) : 0;
+            const visual = TOPIC_VISUALS[topic.id as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
+            const Icon = visual.icon;
+            const topicName = ui.topicNames[topic.id] || topic.nameEn;
+            const coveredChapters = OFFICIAL_CHAPTERS.filter((chapter) => chapter.topicId === topic.id);
+
+            return (
+              <article className={`topic-card accent-${visual.accent}`} key={topic.id}>
+                <div>
+                  <div className="topic-icon" aria-hidden="true">
+                    <Icon size={24} strokeWidth={2.2} />
+                  </div>
+                  {language !== "sv" ? <p className="topic-sv" dir="ltr">{topic.nameSv}</p> : null}
+                  <h2>{topicName}</h2>
+                  <p dir={getTextDirection(ui.topicDescriptions[topic.id] || topic.descriptionEn)}>
+                    {ui.topicDescriptions[topic.id] || topic.descriptionEn}
+                  </p>
+                  <div className="coverage-chips" aria-label={`${ui.topicCoverageLabel} ${topicName}`}>
+                    {coveredChapters.map((chapter) => (
+                      <span key={chapter.id}>{chapter.number}</span>
+                    ))}
+                  </div>
+                </div>
+                <div className="topic-progress">
+                  <div className="topic-progress-row">
+                    <span>{ui.topicProgress(completed, count)}</span>
+                    <strong>{percent}%</strong>
+                  </div>
+                  <div className="topic-progress-track" aria-hidden="true">
+                    <span style={{ width: `${percent}%` }} />
+                  </div>
+                </div>
+                <button className="primary" type="button" onClick={() => onSelectTopic(topic.id)}>
+                  {completed > 0 ? ui.continuePractice : ui.startWarmup(count)}
+                </button>
+              </article>
+            );
+          })}
+        </section>
+
+        <ComingNextSection onOpenFlashcards={onOpenFlashcards} onOpenProgress={onOpenProgress} ui={ui} />
+        <FaqSection language={language} />
+        <SiteFooter language={language} onOpenFeedback={onOpenFeedback} onOpenPrivacy={onOpenPrivacy} />
+      </main>
+      <MobileCta onStartPractice={handleStartPractice} ui={ui} />
+    </>
+  );
+}
+
+function AppNav({
+  onExploreModules,
+  onSelectLanguage,
+  onStartPractice,
+  ui,
+  value
+}: {
+  onExploreModules: () => void;
+  onSelectLanguage: (language: UiLanguage) => void;
+  onStartPractice: () => void;
+  ui: UiText;
+  value: UiLanguage;
+}) {
+  function handleAboutClick() {
+    document.getElementById("about-guide")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  return (
+    <header className="app-nav" dir={isRtl(value) ? "rtl" : "ltr"}>
+      <nav className="app-nav-inner" aria-label="Main navigation">
+        <button className="brand-mark" type="button" onClick={handleAboutClick}>
+          <span className="brand-icon" aria-hidden="true">
+            <BookOpen size={20} />
+          </span>
+          <span>SwedenCivicsPrep</span>
+        </button>
+
+        <div className="nav-links">
+          <button type="button" onClick={onExploreModules}>
+            {ui.navStudyModules}
+          </button>
+          <button type="button" onClick={onStartPractice}>
+            {ui.navPracticeTests}
+          </button>
+          <button type="button" onClick={handleAboutClick}>
+            {ui.navAbout}
+          </button>
+        </div>
+
+        <div className="nav-actions">
+          <LanguageSelector onChange={onSelectLanguage} ui={ui} value={value} />
+          <button className="nav-cta" type="button" onClick={onStartPractice}>
+            {ui.navStartPractice}
+          </button>
+        </div>
+      </nav>
+    </header>
+  );
+}
+
+function HeroMockup({ ui }: { ui: UiText }) {
+  return (
+    <aside className="hero-mockup" aria-label={ui.heroMockLabel}>
+      <div className="mockup-header">
+        <span>{ui.heroMockLabel}</span>
+        <span className="mockup-pill">1 / 12</span>
+      </div>
+      <div className="mockup-body">
+        <p className="mockup-question" dir="ltr">{ui.heroMockQuestion}</p>
+        <div className="mockup-options" dir="ltr">
+          <div className="mockup-option wrong">
+            <XCircle size={18} aria-hidden="true" />
+            <span>{ui.heroMockOptionWrong}</span>
+            <strong>Inte rätt</strong>
+          </div>
+          <div className="mockup-option correct">
+            <CheckCircle2 size={18} aria-hidden="true" />
+            <span>{ui.heroMockOptionCorrect}</span>
+            <strong>Rätt</strong>
+          </div>
+          <div className="mockup-option">
+            <span className="mockup-radio" aria-hidden="true" />
+            <span>{ui.heroMockOptionMiss}</span>
+          </div>
+        </div>
+        <div className="mockup-explanation">
+          <p>{ui.heroMockExplanationLabel}</p>
+          <span>{ui.heroMockExplanation}</span>
+        </div>
+      </div>
+    </aside>
+  );
+}
+
+function ProofStats({ ui }: { ui: UiText }) {
+  return (
+    <section className="proof-strip" aria-label="Study platform highlights">
+      {ui.proofStats.map((stat) => (
+        <article className="proof-card" key={`${stat.value}-${stat.label}`}>
+          <strong>{stat.value}</strong>
+          <span>{stat.label}</span>
+        </article>
+      ))}
+    </section>
+  );
+}
+
+function MobileCta({ onStartPractice, ui }: { onStartPractice: () => void; ui: UiText }) {
+  return (
+    <div className="mobile-cta" aria-label={ui.heroPrimaryCta}>
+      <button type="button" onClick={onStartPractice}>
+        {ui.heroPrimaryCta}
+      </button>
+    </div>
   );
 }
 
@@ -2237,7 +2458,7 @@ function IndependentGuideSection({ ui }: { ui: UiText }) {
   const bullets = paragraphs.slice(1, 3);
 
   return (
-    <section className="early-access" aria-label={ui.earlyAccessTitle}>
+    <section className="early-access" id="about-guide" aria-label={ui.earlyAccessTitle}>
       <h2 className="section-title-with-icon">
         <BookOpen size={20} aria-hidden="true" />
         {ui.earlyAccessTitle}
