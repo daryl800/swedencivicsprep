@@ -42,8 +42,6 @@ const OFFICIAL_CHAPTERS = [
   { id: "traditions", number: 13, nameSv: "Traditioner och högtider", topicId: "everyday" }
 ] as const;
 
-registerUiTranslations();
-
 const QUESTION_TRANSLATIONS: Record<string, Partial<Record<UiLanguage, { question: string; options: string[] }>>> = {
   "democracy-001": {
     en: { question: "What does the word democracy mean?", options: ["Rule by the people", "Rule by a king", "Rule by companies", "Rule by courts"] },
@@ -171,6 +169,8 @@ const LANGUAGE_STORAGE_KEY = "appLanguage";
 const OLD_EXPLANATION_LANGUAGE_KEY = "explanationLanguage";
 const CITIZENSHIP_UPDATE_DISMISSED_KEY = "citizenshipUpdateDismissed";
 const FEEDBACK_EMAIL = "feedback@swedencivicsprep.se";
+
+registerUiTranslations();
 
 function App() {
   const [route, setRoute] = useHashRoute();
