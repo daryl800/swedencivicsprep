@@ -69,6 +69,10 @@ export type UiText = {
   weakTopicAdvice: (wrong: number) => string;
   recommendedNext: string;
   topicProgress: (completed: number, total: number) => string;
+  moduleMastered: string;
+  moduleInProgress: string;
+  moduleNotStarted: string;
+  studyModeBadge: string;
   continuePractice: string;
   startPractice: string;
   reviewLesson: string;

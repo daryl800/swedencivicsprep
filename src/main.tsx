@@ -570,12 +570,21 @@ function HomePage({
             const Icon = visual.icon;
             const topicName = ui.topicNames[topic.id] || topic.nameEn;
             const coveredChapters = OFFICIAL_CHAPTERS.filter((chapter) => chapter.topicId === topic.id);
+            const moduleStatus =
+              percent === 100
+                ? { label: ui.moduleMastered, className: "mastered" }
+                : completed > 0
+                  ? { label: ui.moduleInProgress, className: "in-progress" }
+                  : { label: ui.moduleNotStarted, className: "not-started" };
 
             return (
               <article className={`topic-card accent-${visual.accent}`} key={topic.id}>
                 <div>
-                  <div className="topic-icon" aria-hidden="true">
-                    <Icon size={24} strokeWidth={2.2} />
+                  <div className="topic-card-topline">
+                    <div className="topic-icon" aria-hidden="true">
+                      <Icon size={24} strokeWidth={2.2} />
+                    </div>
+                    <span className={`module-status ${moduleStatus.className}`}>{moduleStatus.label}</span>
                   </div>
                   {language !== "sv" ? <p className="topic-sv" dir="ltr">{topic.nameSv}</p> : null}
                   <h2>{topicName}</h2>
@@ -1416,6 +1425,18 @@ function TopicPracticePage({
     : QUESTIONS.filter((question) => question.topicId === topic.id);
   const question = questions[questionIndex];
   const topicName = ui.topicNames[topic.id] || topic.nameEn;
+  const questionNumber = questionIndex + 1;
+  const questionPercent = questions.length > 0 ? Math.round((questionNumber / questions.length) * 100) : 0;
+  const mobileActionDisabled = checked ? false : selectedIndex === null;
+  const mobileActionLabel = checked ? ui.nextQuestion : ui.checkAnswer;
+  const handleMobileAction = () => {
+    if (checked) {
+      onNext(topic.id, questions.length);
+      return;
+    }
+
+    onCheck(question);
+  };
 
   return (
     <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
@@ -1453,6 +1474,12 @@ function TopicPracticePage({
           </div>
         </div>
 
+        <QuizProgressHeader
+          percent={questionPercent}
+          questionLabel={ui.questionProgress(questionNumber, questions.length)}
+          studyModeLabel={ui.studyModeBadge}
+        />
+
         <p className="coach-note">{ui.coachNote}</p>
 
         <QuestionCard
@@ -1468,7 +1495,7 @@ function TopicPracticePage({
 
         {checked ? <ResultPanel language={language} lastWasCorrect={lastWasCorrect} question={question} ui={ui} /> : null}
 
-        <div className="actions">
+        <div className="actions practice-actions">
           <button className="primary" type="button" disabled={selectedIndex === null || checked} onClick={() => onCheck(question)}>
             {ui.checkAnswer}
           </button>
@@ -1484,9 +1511,39 @@ function TopicPracticePage({
             </button>
           ) : null}
         </div>
+        <div className="quiz-mobile-footer">
+          <button className="primary" type="button" disabled={mobileActionDisabled} onClick={handleMobileAction}>
+            {mobileActionLabel}
+          </button>
+        </div>
       </section>
       ) : null}
     </main>
+  );
+}
+
+function QuizProgressHeader({
+  percent,
+  questionLabel,
+  studyModeLabel
+}: {
+  percent: number;
+  questionLabel: string;
+  studyModeLabel: string;
+}) {
+  return (
+    <section className="quiz-progress-header" aria-label={questionLabel}>
+      <div className="quiz-progress-topline">
+        <strong>{questionLabel}</strong>
+        <span>
+          <Sparkles size={15} aria-hidden="true" />
+          {studyModeLabel}
+        </span>
+      </div>
+      <div className="quiz-progress-track" aria-hidden="true">
+        <span style={{ width: `${percent}%` }} />
+      </div>
+    </section>
   );
 }
 
@@ -1637,6 +1694,7 @@ function QuestionCard({
                   type="radio"
                   value={optionIndex}
                 />
+                <span className="option-letter" aria-hidden="true">{String.fromCharCode(65 + optionIndex)}</span>
                 <span className="option-text">
                   <span>{option}</span>
                   {translatedOption ? (
@@ -1678,14 +1736,17 @@ function ResultPanel({
   const explanation = getExplanation(question, language, ui);
 
   return (
-    <section className={`result ${lastWasCorrect ? "result-correct" : "result-wrong"}`} aria-live="polite">
+    <details className={`result ${lastWasCorrect ? "result-correct" : "result-wrong"}`} open aria-live="polite">
+      <summary>
+        <span>{lastWasCorrect ? ui.correctTitle : ui.wrongTitle}</span>
+        <ChevronDown size={18} aria-hidden="true" />
+      </summary>
       <p className="result-kicker">{lastWasCorrect ? ui.correctKicker : ui.wrongKicker}</p>
-      <h2>{lastWasCorrect ? ui.correctTitle : ui.wrongTitle}</h2>
       <p>
         <strong>{ui.bestAnswer}:</strong> <span dir="ltr">{question.options[question.correctIndex]}</span>
       </p>
       <p dir={isRtl(language) ? "rtl" : "ltr"}>{explanation}</p>
-    </section>
+    </details>
   );
 }
 
@@ -1702,18 +1763,65 @@ function LanguageSelector({
   ui: UiText;
   value: UiLanguage;
 }) {
+  const [open, setOpen] = useState(false);
+  const selectedLanguage = SUPPORTED_LANGUAGES.find((language) => language.id === value) || SUPPORTED_LANGUAGES[0];
+
+  function handleSelect(language: UiLanguage) {
+    onChange(language);
+    setOpen(false);
+  }
+
   return (
-    <label className="language-select">
+    <div className={`language-select ${open ? "open" : ""}`}>
       <span>{ui.appLanguage}</span>
-      <select value={value} onChange={(event) => onChange(event.target.value as UiLanguage)}>
+      <button
+        aria-expanded={open}
+        aria-haspopup="listbox"
+        className="language-trigger"
+        onClick={() => setOpen((current) => !current)}
+        type="button"
+      >
+        <span className="language-flag" aria-hidden="true">{selectedLanguage.flag}</span>
+        <span className="language-current">
+          <strong>{selectedLanguage.shortLabel}</strong>
+          <small>{selectedLanguage.nativeLabel}</small>
+        </span>
+        <ChevronDown size={16} aria-hidden="true" />
+      </button>
+      {open ? (
+        <div className="language-menu" role="listbox" aria-label={ui.appLanguage}>
+          {SUPPORTED_LANGUAGES.map((language) => {
+            const isSelected = language.id === value;
+
+            return (
+              <button
+                aria-selected={isSelected}
+                className={isSelected ? "selected" : ""}
+                key={language.id}
+                onClick={() => handleSelect(language.id)}
+                role="option"
+                type="button"
+              >
+                <span className="language-flag" aria-hidden="true">{language.flag}</span>
+                <span>
+                  <strong>{language.nativeLabel}</strong>
+                  <small>{language.label}</small>
+                </span>
+                <em>{language.shortLabel}</em>
+              </button>
+            );
+          })}
+        </div>
+      ) : null}
+      <small>{ui.appLanguageHint}</small>
+      <select aria-hidden="true" tabIndex={-1} value={value} onChange={(event) => onChange(event.target.value as UiLanguage)}>
         {SUPPORTED_LANGUAGES.map((language) => (
           <option key={language.id} value={language.id}>
-            {language.nativeLabel} / {language.label}
+            {language.flag} {language.nativeLabel} / {language.label}
           </option>
         ))}
       </select>
-      <small>{ui.appLanguageHint}</small>
-    </label>
+    </div>
   );
 }
 

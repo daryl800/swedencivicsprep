@@ -24,12 +24,12 @@ export const UI_TEXT: Record<UiLanguage, UiText> = {
   ti: tiUiText
 };
 
-export const SUPPORTED_LANGUAGES: { id: UiLanguage; label: string; nativeLabel: string }[] = [
-  { id: "sv", label: "Swedish", nativeLabel: "Svenska" },
-  { id: "en", label: "English", nativeLabel: "English" },
-  { id: "so", label: "Somali", nativeLabel: "Soomaali" },
-  { id: "fa", label: "Dari / Persian (Farsi)", nativeLabel: "دری / فارسی" },
-  { id: "ti", label: "Tigrinya", nativeLabel: "ትግርኛ" },
-  { id: "ar", label: "Arabic", nativeLabel: "العربية" },
-  { id: "zh", label: "Chinese", nativeLabel: "中文" }
+export const SUPPORTED_LANGUAGES: { id: UiLanguage; label: string; nativeLabel: string; flag: string; shortLabel: string }[] = [
+  { id: "sv", label: "Swedish", nativeLabel: "Svenska", flag: "🇸🇪", shortLabel: "SV" },
+  { id: "en", label: "English", nativeLabel: "English", flag: "🇬🇧", shortLabel: "EN" },
+  { id: "so", label: "Somali", nativeLabel: "Soomaali", flag: "🇸🇴", shortLabel: "SO" },
+  { id: "fa", label: "Dari / Persian (Farsi)", nativeLabel: "دری / فارسی", flag: "🇦🇫", shortLabel: "FA" },
+  { id: "ti", label: "Tigrinya", nativeLabel: "ትግርኛ", flag: "🇪🇷", shortLabel: "TI" },
+  { id: "ar", label: "Arabic", nativeLabel: "العربية", flag: "🌍", shortLabel: "AR" },
+  { id: "zh", label: "Chinese", nativeLabel: "中文", flag: "🇨🇳", shortLabel: "ZH" }
 ];
