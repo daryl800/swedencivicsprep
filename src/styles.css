@@ -1688,6 +1688,10 @@ h3 {
   margin-top: var(--space-6);
 }
 
+.admin-analytics-panel {
+  margin-bottom: var(--space-6);
+}
+
 .admin-panel-heading {
   display: flex;
   align-items: flex-start;
@@ -1753,6 +1757,61 @@ h3 {
 .admin-insight-list {
   display: grid;
   gap: var(--space-4);
+}
+
+.admin-analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+}
+
+.admin-analytics-grid div {
+  display: grid;
+  gap: 6px;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  background: #f8fafc;
+  padding: 14px;
+}
+
+.admin-analytics-grid strong {
+  color: #475569;
+  font-size: 0.78rem;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.admin-analytics-grid span {
+  overflow-wrap: anywhere;
+  color: var(--text);
+  font-weight: 850;
+}
+
+.admin-analytics-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: var(--space-5);
+}
+
+.admin-dashboard-link {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.admin-analytics-actions code {
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #334155;
+  padding: 8px 11px;
+  font-size: 0.85rem;
+  font-weight: 850;
 }
 
 .admin-roadmap-grid {
@@ -2801,7 +2860,8 @@ legend {
   .topic-list,
   .dashboard-stats,
   .admin-metric-grid,
-  .admin-roadmap-grid {
+  .admin-roadmap-grid,
+  .admin-analytics-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -2921,7 +2981,8 @@ legend {
   .topic-dashboard-grid,
   .admin-metric-grid,
   .admin-panel-grid,
-  .admin-roadmap-grid {
+  .admin-roadmap-grid,
+  .admin-analytics-grid {
     grid-template-columns: 1fr;
   }
 
@@ -2953,7 +3014,9 @@ legend {
   }
 
   .admin-top-actions .language-select,
-  .admin-top-actions button {
+  .admin-top-actions button,
+  .admin-analytics-actions .primary,
+  .admin-dashboard-link {
     width: 100%;
   }
 

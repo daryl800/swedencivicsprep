@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Landmark, Layers3, LockKeyhole, MessageSquare, Scale, Send, Sparkles, Star, X, XCircle } from "lucide-react";
 import { LESSONS, MIGRATIONSVERKET_CITIZENSHIP_URL, OFFICIAL_STUDY_GUIDE_URL, QUESTIONS, TOPICS } from "./data";
 import i18n from "./i18n";
+import { analyticsStatus, trackEvent, trackPageView } from "./analytics";
 import { CITIZENSHIP_UPDATE, FAQ_CONTENT, LEGAL_CONTENT } from "./i18n/content";
 import { SUPPORTED_LANGUAGES, UI_TEXT, type UiText } from "./i18n/uiText";
 import { loadProgress, recordAnswered, resetProgress } from "./progress";
@@ -193,6 +194,13 @@ function App() {
     }
   }, [language]);
 
+  useEffect(() => {
+    trackPageView(getRouteName(route), {
+      uiLanguage: language,
+      topicId: route.page === "topic" ? route.topicId : undefined
+    });
+  }, [language, route]);
+
   function goHome() {
     setRoute({ page: "home" });
     setSelectedIndex(null);
@@ -201,6 +209,7 @@ function App() {
   }
 
   function goTopic(topicId: string) {
+    trackEvent("topic_selected", { topicId, uiLanguage: language });
     setRoute({ page: "topic", topicId });
     setSelectedIndex(null);
     setChecked(false);
@@ -215,18 +224,22 @@ function App() {
   }
 
   function goProgress() {
+    trackEvent("progress_dashboard_viewed", { uiLanguage: language });
     setRoute({ page: "progress" });
   }
 
   function goFlashcards() {
+    trackEvent("flashcards_opened", { uiLanguage: language });
     setRoute({ page: "flashcards" });
   }
 
   function goFeedback() {
+    trackEvent("feedback_opened", { uiLanguage: language });
     setRoute({ page: "feedback" });
   }
 
   function handleStartPractice(topicId: string) {
+    trackEvent("practice_started", { topicId, uiLanguage: language });
     setPracticeStartedByTopic((current) => ({ ...current, [topicId]: true }));
     setSelectedIndex(null);
     setChecked(false);
@@ -234,6 +247,7 @@ function App() {
   }
 
   function handleReviewLesson(topicId: string) {
+    trackEvent("study_guide_opened", { topicId, uiLanguage: language });
     setPracticeStartedByTopic((current) => ({ ...current, [topicId]: false }));
     setSelectedIndex(null);
     setChecked(false);
@@ -243,12 +257,35 @@ function App() {
   function handleCheck(question: Question) {
     if (selectedIndex === null) return;
 
+    const isCorrect = selectedIndex === question.correctIndex;
+    const wasAlreadyAnswered = progress.answeredIds.includes(question.id);
     setChecked(true);
-    setLastWasCorrect(selectedIndex === question.correctIndex);
-    setProgress(recordAnswered(question.id, selectedIndex === question.correctIndex));
+    setLastWasCorrect(isCorrect);
+    const nextProgress = recordAnswered(question.id, isCorrect);
+    setProgress(nextProgress);
+    trackEvent("question_answered", {
+      correctIndex: question.correctIndex,
+      isCorrect,
+      questionId: question.id,
+      selectedIndex,
+      topicId: question.topicId,
+      uiLanguage: language
+    });
+
+    const topicQuestionIds = QUESTIONS.filter((item) => item.topicId === question.topicId).map((item) => item.id);
+    const completedTopicQuestions = topicQuestionIds.filter((questionId) => nextProgress.answeredIds.includes(questionId));
+
+    if (!wasAlreadyAnswered && topicQuestionIds.length > 0 && completedTopicQuestions.length === topicQuestionIds.length) {
+      trackEvent("topic_completed", {
+        questionCount: topicQuestionIds.length,
+        topicId: question.topicId,
+        uiLanguage: language
+      });
+    }
   }
 
   function handleNext(topicId: string, questionCount: number) {
+    trackEvent("question_next", { topicId, questionCount, uiLanguage: language });
     setQuestionIndexByTopic((current) => ({
       ...current,
       [topicId]: ((current[topicId] || 0) + 1) % questionCount
@@ -259,13 +296,27 @@ function App() {
   }
 
   function handleResetProgress() {
+    trackEvent("progress_reset", { uiLanguage: language });
     setProgress(resetProgress());
   }
 
   function handleLanguageChange(nextLanguage: UiLanguage) {
+    trackEvent("language_changed", { fromLanguage: language, toLanguage: nextLanguage });
     setLanguage(nextLanguage);
     localStorage.setItem(LANGUAGE_STORAGE_KEY, nextLanguage);
     localStorage.setItem(OLD_EXPLANATION_LANGUAGE_KEY, nextLanguage);
+  }
+
+  function handleToggleQuestionHelp() {
+    const topicId = route.page === "topic" ? route.topicId : undefined;
+    const nextVisible = !questionHelpVisible;
+
+    trackEvent("question_translation_toggled", {
+      helpVisible: nextVisible,
+      topicId,
+      uiLanguage: language
+    });
+    setQuestionHelpVisible(nextVisible);
   }
 
   if (route.page === "privacy") {
@@ -350,7 +401,7 @@ function App() {
           questionHelpVisible={questionHelpVisible}
           questionIndex={questionIndexByTopic[topic.id] || 0}
           selectedIndex={selectedIndex}
-          onToggleQuestionHelp={() => setQuestionHelpVisible((current) => !current)}
+          onToggleQuestionHelp={handleToggleQuestionHelp}
           lesson={lesson}
           topic={topic}
           ui={ui}
@@ -423,6 +474,10 @@ function getTextDirection(text: string) {
 function formatStudyIntroItem(item: string) {
   const trimmed = item.replace(/\.$/, "");
   return getTextDirection(trimmed) === "rtl" ? trimmed : `${trimmed}.`;
+}
+
+function getRouteName(route: Route) {
+  return route.page === "topic" ? `topic:${route.topicId}` : route.page;
 }
 
 function getInitialRoute(): Route {
@@ -1069,6 +1124,13 @@ function FeedbackPage({
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    trackEvent("feedback_submitted", {
+      feedbackType,
+      hasEmail: Boolean(email),
+      hasName: Boolean(name),
+      messageLength: message.length,
+      uiLanguage: language
+    });
 
     const body = [
       `Feedback type: ${feedbackType}`,
@@ -1338,13 +1400,15 @@ function AdminDashboardPage({
   const dashboardItems = [
     {
       title: "Visitor analytics",
-      body: "Connect PostHog, Plausible, or Vercel Analytics to show real visitors, referrers, countries, and devices.",
-      status: "Needs provider"
+      body: analyticsStatus.enabled
+        ? "PostHog is configured. Use its private dashboard for real visitors, referrers, countries, devices, and retention until this page has a serverless stats API."
+        : "Set VITE_POSTHOG_KEY in Vercel to collect real visitors, referrers, countries, devices, and retention.",
+      status: analyticsStatus.enabled ? "Connected" : "Needs key"
     },
     {
       title: "Learning events",
-      body: "Track topic_selected, practice_started, question_answered, language_changed, and feedback_submitted.",
-      status: "Next"
+      body: "The app now emits topic_selected, practice_started, question_answered, language_changed, question_translation_toggled, and feedback_submitted.",
+      status: "Added"
     },
     {
       title: "Admin security",
@@ -1427,20 +1491,58 @@ function AdminDashboardPage({
           <p className="eyebrow">Private admin preview</p>
           <h1>Site statistics dashboard</h1>
           <p>
-            This first version shows local browser practice data and the dashboard structure. Real visitor numbers need an analytics provider or a small Vercel function.
+            This page combines local browser practice data with production analytics status. Real visitor totals live in PostHog until we add a Vercel stats function.
           </p>
         </div>
         <div className="admin-live-badge">
           <span aria-hidden="true" />
-          Local data only
+          {analyticsStatus.enabled ? "Analytics connected" : "Local data only"}
         </div>
       </section>
 
       <section className="admin-metric-grid" aria-label="Admin overview">
-        <AdminMetric title="Visitors" value="Not connected" note="Use PostHog, Plausible, or Vercel Analytics" />
+        <AdminMetric
+          title="Visitors"
+          value={analyticsStatus.enabled ? "In PostHog" : "Not connected"}
+          note={analyticsStatus.enabled ? "Open the private PostHog dashboard for live visitor counts" : "Set VITE_POSTHOG_KEY to begin collection"}
+        />
         <AdminMetric title="Questions answered" value={String(attempts)} note={`${progress.today} today / ${progress.total} total in this browser`} />
         <AdminMetric title="Correct answer rate" value={`${accuracy}%`} note={`${correct} correct / ${wrong} wrong`} />
         <AdminMetric title="Most active area" value={busiestTopic?.name || "-"} note={`${busiestTopic?.attempts || 0} attempts`} />
+      </section>
+
+      <section className="admin-panel admin-analytics-panel">
+        <div className="admin-panel-heading">
+          <div>
+            <p className="eyebrow">Production analytics</p>
+            <h2>{analyticsStatus.enabled ? "PostHog event tracking is ready" : "PostHog is not configured yet"}</h2>
+          </div>
+          <Sparkles size={24} aria-hidden="true" />
+        </div>
+        <div className="admin-analytics-grid">
+          <div>
+            <strong>Provider</strong>
+            <span>{analyticsStatus.provider}</span>
+          </div>
+          <div>
+            <strong>Host</strong>
+            <span>{analyticsStatus.host}</span>
+          </div>
+          <div>
+            <strong>Status</strong>
+            <span>{analyticsStatus.enabled ? "Collecting when deployed with env key" : "Disabled until VITE_POSTHOG_KEY is set"}</span>
+          </div>
+        </div>
+        <div className="admin-analytics-actions">
+          {analyticsStatus.dashboardUrl ? (
+            <a className="primary admin-dashboard-link" href={analyticsStatus.dashboardUrl} target="_blank" rel="noreferrer">
+              Open PostHog dashboard
+            </a>
+          ) : null}
+          <code>VITE_POSTHOG_KEY</code>
+          <code>VITE_POSTHOG_HOST</code>
+          <code>VITE_POSTHOG_DASHBOARD_URL</code>
+        </div>
       </section>
 
       <section className="admin-panel-grid">
