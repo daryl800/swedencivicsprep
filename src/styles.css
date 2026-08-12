@@ -1692,6 +1692,10 @@ h3 {
   margin-bottom: var(--space-6);
 }
 
+.admin-language-panel {
+  margin-bottom: var(--space-6);
+}
+
 .admin-panel-heading {
   display: flex;
   align-items: flex-start;
@@ -1757,6 +1761,15 @@ h3 {
 .admin-insight-list {
   display: grid;
   gap: var(--space-4);
+}
+
+.admin-empty-state {
+  border: 1px dashed #cbd5e1;
+  border-radius: 14px;
+  background: #f8fafc;
+  color: #64748b;
+  padding: 16px;
+  font-weight: 850;
 }
 
 .admin-analytics-grid {

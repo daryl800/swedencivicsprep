@@ -1403,6 +1403,8 @@ function AdminDashboardPage({
   const strongestTopic = [...topicStats].filter((topic) => topic.attempts > 0).sort((a, b) => b.accuracy - a.accuracy)[0];
   const busiestTopic = [...topicStats].sort((a, b) => b.attempts - a.attempts)[0];
   const productionTopic = adminStats?.topics[0];
+  const maxProductionTopicCount = Math.max(...(adminStats?.topics.map((topic) => topic.count) || [0]));
+  const maxProductionLanguageCount = Math.max(...(adminStats?.languages.map((item) => item.count) || [0]));
   const dashboardItems = [
     {
       title: "Product analytics",
@@ -1629,6 +1631,35 @@ function AdminDashboardPage({
         </div>
       </section>
 
+      {adminStats ? (
+        <section className="admin-panel admin-language-panel">
+          <div className="admin-panel-heading">
+            <div>
+              <p className="eyebrow">Language usage</p>
+              <h2>Which help languages people choose</h2>
+            </div>
+            <MessageSquare size={24} aria-hidden="true" />
+          </div>
+          {adminStats.languages.length > 0 ? (
+            <div className="admin-topic-list">
+              {adminStats.languages.map((item) => (
+                <div className="admin-topic-row" key={item.name}>
+                  <div>
+                    <strong>{formatAdminLanguageName(item.name)}</strong>
+                    <span>{item.count} language change events</span>
+                  </div>
+                  <div className="admin-topic-meter" aria-hidden="true">
+                    <span style={{ width: `${maxProductionLanguageCount > 0 ? Math.round((item.count / maxProductionLanguageCount) * 100) : 0}%` }} />
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p className="admin-empty-state">No language change events yet. Change language on the live site once, then refresh this page.</p>
+          )}
+        </section>
+      ) : null}
+
       <section className="admin-panel-grid">
         <article className="admin-panel admin-topic-panel">
           <div className="admin-panel-heading">
@@ -1639,17 +1670,31 @@ function AdminDashboardPage({
             <BarChart3 size={24} aria-hidden="true" />
           </div>
           <div className="admin-topic-list">
-            {topicStats.map((topic) => (
-              <div className="admin-topic-row" key={topic.id}>
-                <div>
-                  <strong>{topic.name}</strong>
-                  <span>{topic.attempts} attempts · {topic.accuracy}% correct</span>
+            {adminStats?.topics.length ? (
+              adminStats.topics.map((topic) => (
+                <div className="admin-topic-row" key={topic.name}>
+                  <div>
+                    <strong>{formatAdminTopicName(topic.name, ui)}</strong>
+                    <span>{topic.count} production events</span>
+                  </div>
+                  <div className="admin-topic-meter" aria-hidden="true">
+                    <span style={{ width: `${maxProductionTopicCount > 0 ? Math.round((topic.count / maxProductionTopicCount) * 100) : 0}%` }} />
+                  </div>
                 </div>
-                <div className="admin-topic-meter" aria-hidden="true">
-                  <span style={{ width: `${Math.min(topic.completedPercent, 100)}%` }} />
+              ))
+            ) : (
+              topicStats.map((topic) => (
+                <div className="admin-topic-row" key={topic.id}>
+                  <div>
+                    <strong>{topic.name}</strong>
+                    <span>{topic.attempts} local attempts · {topic.accuracy}% correct</span>
+                  </div>
+                  <div className="admin-topic-meter" aria-hidden="true">
+                    <span style={{ width: `${Math.min(topic.completedPercent, 100)}%` }} />
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))
+            )}
           </div>
         </article>
 
@@ -1730,6 +1775,15 @@ function AdminMetric({ note, title, value }: { note: string; title: string; valu
       <p>{note}</p>
     </article>
   );
+}
+
+function formatAdminLanguageName(languageId: string) {
+  const language = SUPPORTED_LANGUAGES.find((item) => item.id === languageId);
+  return language ? `${language.flag} ${language.nativeLabel} (${language.shortLabel})` : languageId;
+}
+
+function formatAdminTopicName(topicId: string, ui: UiText) {
+  return ui.topicNames[topicId] || TOPICS.find((topic) => topic.id === topicId)?.nameEn || topicId;
 }
 
 function FlashcardsPreviewPage({
