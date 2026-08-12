@@ -2,8 +2,8 @@ import { StrictMode, useEffect, useState } from "react";
 import type { FormEvent } from "react";
 import { createRoot } from "react-dom/client";
 import { useTranslation } from "react-i18next";
-import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Landmark, Layers3, LockKeyhole, MessageSquare, Scale, Send, Sparkles, Star, X, XCircle } from "lucide-react";
-import { LESSONS, MIGRATIONSVERKET_CITIZENSHIP_URL, OFFICIAL_STUDY_GUIDE_URL, QUESTIONS, TOPICS } from "./data";
+import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Home as HomeIcon, Landmark, Layers3, LockKeyhole, MessageSquare, Scale, Send, Sparkles, Star, X, XCircle } from "lucide-react";
+import { LESSONS, MIGRATIONSVERKET_CITIZENSHIP_URL, OFFICIAL_CHAPTERS, OFFICIAL_STUDY_GUIDE_URL, QUESTIONS, TOPICS } from "./data";
 import i18n from "./i18n";
 import { analyticsStatus, trackEvent, trackPageView } from "./analytics";
 import { CITIZENSHIP_UPDATE, FAQ_CONTENT, LEGAL_CONTENT } from "./i18n/content";
@@ -21,28 +21,14 @@ type Route =
   | { page: "privacy" }
   | { page: "admin" };
 
+type MobileNavTarget = "home" | "study" | "practice" | "progress";
+
 const TOPIC_VISUALS = {
   democracy: { icon: Landmark, accent: "blue" },
   rights: { icon: Scale, accent: "green" },
   everyday: { icon: HeartPulse, accent: "rose" },
   authorities: { icon: BriefcaseBusiness, accent: "gold" }
 } as const;
-
-const OFFICIAL_CHAPTERS = [
-  { id: "country", number: 1, nameSv: "Landet Sverige", topicId: "everyday" },
-  { id: "democratic-system", number: 2, nameSv: "Sveriges demokratiska system", topicId: "democracy" },
-  { id: "governance", number: 3, nameSv: "Så här styrs Sverige", topicId: "authorities" },
-  { id: "elections", number: 4, nameSv: "Politiska val och partier", topicId: "democracy" },
-  { id: "law", number: 5, nameSv: "Lag och rätt", topicId: "rights" },
-  { id: "media", number: 6, nameSv: "Mediernas roll", topicId: "rights" },
-  { id: "human-rights", number: 7, nameSv: "Mänskliga rättigheter", topicId: "rights" },
-  { id: "work-economy", number: 8, nameSv: "Arbetsmarknad och privatekonomi", topicId: "everyday" },
-  { id: "welfare", number: 9, nameSv: "Välfärdssamhället", topicId: "everyday" },
-  { id: "modern-history", number: 10, nameSv: "Sveriges moderna historia", topicId: "everyday" },
-  { id: "world", number: 11, nameSv: "Sverige och omvärlden", topicId: "authorities" },
-  { id: "secular-state", number: 12, nameSv: "En sekulär stat och ett mångreligiöst land", topicId: "everyday" },
-  { id: "traditions", number: 13, nameSv: "Traditioner och högtider", topicId: "everyday" }
-] as const;
 
 const QUESTION_TRANSLATIONS: Record<string, Partial<Record<UiLanguage, { question: string; options: string[] }>>> = {
   "democracy-001": {
@@ -646,7 +632,7 @@ function HomePage({
             const visual = TOPIC_VISUALS[topic.id as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
             const Icon = visual.icon;
             const topicName = ui.topicNames[topic.id] || topic.nameEn;
-            const coveredChapters = OFFICIAL_CHAPTERS.filter((chapter) => chapter.topicId === topic.id);
+            const chapterStats = getChapterStatsForTopic(topic.id, progress, ui);
             const moduleStatus =
               percent === 100
                 ? { label: ui.moduleMastered, className: "mastered" }
@@ -669,10 +655,11 @@ function HomePage({
                     {ui.topicDescriptions[topic.id] || topic.descriptionEn}
                   </p>
                   <div className="coverage-chips" aria-label={`${ui.topicCoverageLabel} ${topicName}`}>
-                    {coveredChapters.map((chapter) => (
+                    {chapterStats.map((chapter) => (
                       <span key={chapter.id}>{chapter.number}</span>
                     ))}
                   </div>
+                  <ChapterProgressList compact stats={chapterStats} ui={ui} />
                 </div>
                 <div className="topic-progress">
                   <div className="topic-progress-row">
@@ -695,7 +682,15 @@ function HomePage({
         <FaqSection language={language} />
         <SiteFooter language={language} onOpenFeedback={onOpenFeedback} onOpenPrivacy={onOpenPrivacy} />
       </main>
-      <MobileCta onStartPractice={handleStartPractice} ui={ui} />
+      <MobileBottomNav
+        active="home"
+        language={language}
+        onGoHome={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        onOpenPractice={handleStartPractice}
+        onOpenProgress={onOpenProgress}
+        onOpenStudy={handleExploreModules}
+        ui={ui}
+      />
     </>
   );
 }
@@ -811,6 +806,54 @@ function MobileCta({ onStartPractice, ui }: { onStartPractice: () => void; ui: U
         {ui.heroPrimaryCta}
       </button>
     </div>
+  );
+}
+
+function MobileBottomNav({
+  active,
+  language,
+  onGoHome,
+  onOpenPractice,
+  onOpenProgress,
+  onOpenStudy,
+  ui
+}: {
+  active: MobileNavTarget;
+  language: UiLanguage;
+  onGoHome: () => void;
+  onOpenPractice: () => void;
+  onOpenProgress: () => void;
+  onOpenStudy: () => void;
+  ui: UiText;
+}) {
+  const labels = getMobileNavLabels(language, ui);
+  const items: { id: MobileNavTarget; label: string; icon: typeof HomeIcon; onClick: () => void }[] = [
+    { id: "home", label: labels.home, icon: HomeIcon, onClick: onGoHome },
+    { id: "study", label: labels.study, icon: BookOpen, onClick: onOpenStudy },
+    { id: "practice", label: labels.practice, icon: CheckCircle2, onClick: onOpenPractice },
+    { id: "progress", label: labels.progress, icon: BarChart3, onClick: onOpenProgress }
+  ];
+
+  return (
+    <nav className="mobile-bottom-nav" aria-label="Mobile navigation" dir={isRtl(language) ? "rtl" : "ltr"}>
+      {items.map((item) => {
+        const Icon = item.icon;
+        const isActive = item.id === active;
+
+        return (
+          <button
+            aria-current={isActive ? "page" : undefined}
+            className={isActive ? "active" : ""}
+            key={item.id}
+            type="button"
+            onClick={item.onClick}
+          >
+            <Icon size={21} strokeWidth={2.5} aria-hidden="true" />
+            <span>{item.label}</span>
+          </button>
+        );
+      })}
+    </nav>
   );
 }
 
@@ -979,9 +1022,10 @@ function ChapterMapSection({ language, ui }: { language: UiLanguage; ui: UiText 
       <div className="chapter-grid">
         {OFFICIAL_CHAPTERS.map((chapter) => {
           const chapterName = ui.chapterNames[chapter.id];
+          const visual = TOPIC_VISUALS[chapter.topicId as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
 
           return (
-            <article className={`chapter-card accent-${TOPIC_VISUALS[chapter.topicId].accent}`} key={chapter.id}>
+            <article className={`chapter-card accent-${visual.accent}`} key={chapter.id}>
               <span className="chapter-number">{chapter.number}</span>
               <div>
                 {language === "sv" ? (
@@ -1305,21 +1349,33 @@ function ProgressDashboardPage({
     .sort((a, b) => a.accuracy - b.accuracy || b.wrong - a.wrong)[0];
   const recommended = weakTopic || [...topicStats].sort((a, b) => a.completedPercent - b.completedPercent)[0];
 
-  return (
-    <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
-      <nav className="topbar">
-        <button className="ghost" type="button" onClick={onBack}>
-          {ui.backToHome}
-        </button>
-        <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
-      </nav>
+  function handleOpenStudy() {
+    onBack();
+    window.setTimeout(() => {
+      document.getElementById("study-modules")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 0);
+  }
 
-      <section className="dashboard-page">
-        <div className="section-heading">
-          <p className="eyebrow">{ui.overallProgress}</p>
-          <h1>{ui.progressDashboardTitle}</h1>
-          <p>{ui.progressDashboardIntro}</p>
-        </div>
+  function handleOpenPractice() {
+    onSelectTopic(TOPICS[0]?.id || "democracy");
+  }
+
+  return (
+    <>
+      <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
+        <nav className="topbar">
+          <button className="ghost" type="button" onClick={onBack}>
+            {ui.backToHome}
+          </button>
+          <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
+        </nav>
+
+        <section className="dashboard-page">
+          <div className="section-heading">
+            <p className="eyebrow">{ui.overallProgress}</p>
+            <h1>{ui.progressDashboardTitle}</h1>
+            <p>{ui.progressDashboardIntro}</p>
+          </div>
 
         <div className="dashboard-stats">
           <article>
@@ -1351,34 +1407,82 @@ function ProgressDashboardPage({
           </section>
         ) : null}
 
-        <div className="topic-dashboard-grid">
-          {topicStats.map((topic) => (
-            <article className="topic-dashboard-card" key={topic.id}>
-              <div>
-                <h2>{topic.name}</h2>
-                <p dir="ltr">{topic.nameSv}</p>
-              </div>
-              <div className="topic-progress">
-                <div className="topic-progress-row">
-                  <span>{ui.topicProgress(topic.completed, topic.total)}</span>
-                  <strong>{topic.completedPercent}%</strong>
-                </div>
-                <div className="topic-progress-track" aria-hidden="true">
-                  <span style={{ width: `${topic.completedPercent}%` }} />
-                </div>
-              </div>
-              <p>
-                {ui.topicAccuracy}: <strong>{topic.accuracy}%</strong>
-              </p>
-              <button className="secondary" type="button" onClick={() => onSelectTopic(topic.id)}>
-                {ui.continuePractice}
-              </button>
-            </article>
-          ))}
-        </div>
-      </section>
-    </main>
+          <div className="topic-dashboard-grid">
+            {topicStats.map((topic) => {
+              const visual = TOPIC_VISUALS[topic.id as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
+              const Icon = visual.icon;
+              const chapterStats = getChapterStatsForTopic(topic.id, progress, ui);
+              const status =
+                topic.completedPercent === 100
+                  ? { label: ui.moduleMastered, className: "mastered" }
+                  : topic.completed > 0
+                    ? { label: ui.moduleInProgress, className: "in-progress" }
+                    : { label: ui.moduleNotStarted, className: "not-started" };
+
+              return (
+                <article className={`topic-dashboard-card accent-${visual.accent}`} key={topic.id}>
+                  <div className="topic-dashboard-heading">
+                    <span className="topic-icon" aria-hidden="true">
+                      <Icon size={24} strokeWidth={2.2} />
+                    </span>
+                    <div>
+                      <h2>{topic.name}</h2>
+                      <p dir="ltr">{topic.nameSv}</p>
+                    </div>
+                    <span className={`module-status ${status.className}`}>{status.label}</span>
+                  </div>
+                  <div className="topic-progress">
+                    <div className="topic-progress-row">
+                      <span>{ui.topicProgress(topic.completed, topic.total)}</span>
+                      <strong>{topic.completedPercent}%</strong>
+                    </div>
+                    <div className="topic-progress-track" aria-hidden="true">
+                      <span style={{ width: `${topic.completedPercent}%` }} />
+                    </div>
+                  </div>
+                  <ChapterProgressList stats={chapterStats} ui={ui} />
+                  <p>
+                    {ui.topicAccuracy}: <strong>{topic.accuracy}%</strong>
+                  </p>
+                  <button className="secondary" type="button" onClick={() => onSelectTopic(topic.id)}>
+                    {topic.completed > 0 ? ui.continuePractice : ui.startPractice}
+                  </button>
+                </article>
+              );
+            })}
+          </div>
+        </section>
+      </main>
+      <MobileBottomNav
+        active="progress"
+        language={language}
+        onGoHome={onBack}
+        onOpenPractice={handleOpenPractice}
+        onOpenProgress={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        onOpenStudy={handleOpenStudy}
+        ui={ui}
+      />
+    </>
   );
+}
+
+function getMobileNavLabels(language: UiLanguage, ui: UiText) {
+  const labels: Partial<Record<UiLanguage, Record<MobileNavTarget, string>>> = {
+    sv: { home: "Hem", study: "Studera", practice: "Träna", progress: "Framsteg" },
+    en: { home: "Home", study: "Study", practice: "Practice", progress: "Progress" },
+    zh: { home: "首页", study: "学习", practice: "练习", progress: "进度" },
+    ar: { home: "الرئيسية", study: "الدراسة", practice: "التدريب", progress: "التقدم" },
+    so: { home: "Hore", study: "Baro", practice: "Tababar", progress: "Horumar" },
+    fa: { home: "خانه", study: "مطالعه", practice: "تمرین", progress: "پیشرفت" },
+    ti: { home: "መጀመርታ", study: "መጽናዕቲ", practice: "ልምምድ", progress: "ምዕባለ" }
+  };
+
+  return labels[language] || {
+    home: "Home",
+    study: ui.navStudyModules,
+    practice: ui.navPracticeTests,
+    progress: ui.progressDashboardTitle
+  };
 }
 
 function AdminDashboardPage({
@@ -1880,6 +1984,55 @@ function getTopicStats(topic: Topic, progress: Progress, ui: UiText) {
   };
 }
 
+function getChapterStatsForTopic(topicId: string, progress: Progress, ui: UiText) {
+  return OFFICIAL_CHAPTERS.map((chapter) => {
+    const questions = QUESTIONS.filter((question) => question.topicId === topicId && question.chapterId === chapter.id);
+    const completed = questions.filter((question) => progress.answeredIds.includes(question.id)).length;
+    const percent = questions.length > 0 ? Math.round((completed / questions.length) * 100) : 0;
+
+    return {
+      id: chapter.id,
+      number: chapter.number,
+      name: ui.chapterNames[chapter.id] || chapter.nameSv,
+      total: questions.length,
+      completed,
+      percent
+    };
+  }).filter((chapter) => chapter.total > 0);
+}
+
+function ChapterProgressList({
+  compact = false,
+  stats,
+  ui
+}: {
+  compact?: boolean;
+  stats: ReturnType<typeof getChapterStatsForTopic>;
+  ui: UiText;
+}) {
+  if (stats.length === 0) {
+    return null;
+  }
+
+  return (
+    <div className={`chapter-progress-list ${compact ? "compact" : ""}`} aria-label={ui.chaptersLabel}>
+      {stats.map((chapter) => (
+        <div className="chapter-progress-item" key={chapter.id}>
+          <div className="chapter-progress-topline">
+            <strong>
+              {chapter.number}. {chapter.name}
+            </strong>
+            <span>{ui.topicProgress(chapter.completed, chapter.total)}</span>
+          </div>
+          <div className="chapter-progress-track" aria-hidden="true">
+            <span style={{ width: `${chapter.percent}%` }} />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 type AdminStats = {
   configured: boolean;
   generatedAt: string;
@@ -1950,6 +2103,8 @@ function TopicPracticePage({
   const topicName = ui.topicNames[topic.id] || topic.nameEn;
   const questionNumber = questionIndex + 1;
   const questionPercent = questions.length > 0 ? Math.round((questionNumber / questions.length) * 100) : 0;
+  const chapter = OFFICIAL_CHAPTERS.find((item) => item.id === question.chapterId);
+  const chapterName = chapter ? ui.chapterNames[chapter.id] || chapter.nameSv : "";
   const mobileActionDisabled = checked ? false : selectedIndex === null;
   const mobileActionLabel = checked ? ui.nextQuestion : ui.checkAnswer;
   const handleMobileAction = () => {
@@ -1993,6 +2148,11 @@ function TopicPracticePage({
           </div>
           <div className="practice-meta">
             <p className="level-pill">{topicName} · {ui.level}</p>
+            {chapter ? (
+              <p className="chapter-pill">
+                {chapter.number}. {chapterName}
+              </p>
+            ) : null}
             <p className="question-count">{ui.questionProgress(questionIndex + 1, questions.length)}</p>
           </div>
         </div>

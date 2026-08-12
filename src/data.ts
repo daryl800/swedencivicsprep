@@ -1,4 +1,4 @@
-import type { Lesson, Question, Topic } from "./types";
+import type { Chapter, Lesson, Question, Topic } from "./types";
 
 export const OFFICIAL_STUDY_GUIDE_URL =
   "https://www.uhr.se/medborgarskapsprovet/utbildningsmaterial/";
@@ -31,6 +31,22 @@ export const TOPICS: Topic[] = [
     nameEn: "Authorities & Services",
     descriptionEn: "Practice who does what: parliament, government, municipalities, regions, courts, agencies, and public services."
   }
+];
+
+export const OFFICIAL_CHAPTERS: Chapter[] = [
+  { id: "country", number: 1, nameSv: "Landet Sverige", topicId: "everyday" },
+  { id: "democratic-system", number: 2, nameSv: "Sveriges demokratiska system", topicId: "democracy" },
+  { id: "governance", number: 3, nameSv: "Så här styrs Sverige", topicId: "authorities" },
+  { id: "elections", number: 4, nameSv: "Politiska val och partier", topicId: "democracy" },
+  { id: "law", number: 5, nameSv: "Lag och rätt", topicId: "rights" },
+  { id: "media", number: 6, nameSv: "Mediernas roll", topicId: "rights" },
+  { id: "human-rights", number: 7, nameSv: "Mänskliga rättigheter", topicId: "rights" },
+  { id: "work-economy", number: 8, nameSv: "Arbetsmarknad och privatekonomi", topicId: "everyday" },
+  { id: "welfare", number: 9, nameSv: "Välfärdssamhället", topicId: "everyday" },
+  { id: "modern-history", number: 10, nameSv: "Sveriges moderna historia", topicId: "everyday" },
+  { id: "world", number: 11, nameSv: "Sverige och omvärlden", topicId: "authorities" },
+  { id: "secular-state", number: 12, nameSv: "En sekulär stat och ett mångreligiöst land", topicId: "everyday" },
+  { id: "traditions", number: 13, nameSv: "Traditioner och högtider", topicId: "everyday" }
 ];
 
 export const LESSONS: Lesson[] = [
@@ -504,6 +520,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "democracy-001",
     topicId: "democracy",
+    chapterId: "democratic-system",
     questionSv: "Vad betyder ordet demokrati?",
     options: ["Folkstyre", "Kungastyre", "Företagsstyre", "Domstolsstyre"],
     correctIndex: 0,
@@ -516,6 +533,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "democracy-002",
     topicId: "democracy",
+    chapterId: "elections",
     questionSv: "Vad är ett fritt val?",
     options: ["Ett val där alla måste rösta på samma parti", "Ett val där rösten är hemlig och det finns flera alternativ", "Ett val där bara regeringen får rösta", "Ett val där arbetsgivaren bestämmer"],
     correctIndex: 1,
@@ -528,6 +546,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "democracy-003",
     topicId: "democracy",
+    chapterId: "democratic-system",
     questionSv: "Vilket av detta är ett sätt att påverka samhället?",
     options: ["Att rösta i politiska val", "Att sprida hot mot politiker", "Att gömma viktig information", "Att låta andra rösta åt dig"],
     correctIndex: 0,
@@ -540,6 +559,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "democracy-004",
     topicId: "democracy",
+    chapterId: "elections",
     questionSv: "Hur ofta hålls ordinarie val till riksdag, regioner och kommuner?",
     options: ["Varje år", "Vartannat år", "Vart fjärde år", "Vart tionde år"],
     correctIndex: 2,
@@ -552,6 +572,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "democracy-005",
     topicId: "democracy",
+    chapterId: "governance",
     questionSv: "Vad är riksdagens viktigaste uppgifter?",
     options: ["Att stifta lagar och besluta om statens budget", "Att döma personer i domstol", "Att ge sjukvård", "Att bestämma hyran i alla bostäder"],
     correctIndex: 0,
@@ -564,6 +585,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "democracy-006",
     topicId: "democracy",
+    chapterId: "democratic-system",
     questionSv: "Vad kan vara ett hot mot demokratin?",
     options: ["Många människor röstar", "Falsk information och hot i samhällsdebatten", "Flera partier deltar i valet", "Människor diskuterar politik"],
     correctIndex: 1,
@@ -576,6 +598,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "rights-001",
     topicId: "rights",
+    chapterId: "law",
     questionSv: "Vad betyder rättssäkerhet?",
     options: ["Att ingen får dömas utan en rättvis rättegång", "Att polisen får döma utan domstol", "Att bara rika personer följer lagen", "Att lagar bara gäller medborgare"],
     correctIndex: 0,
@@ -588,6 +611,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "rights-002",
     topicId: "rights",
+    chapterId: "law",
     questionSv: "Vilken av dessa är en svensk grundlag?",
     options: ["Tryckfrihetsförordningen", "Skollagen", "Hyreslagen", "Trafikförordningen"],
     correctIndex: 0,
@@ -600,6 +624,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "rights-003",
     topicId: "rights",
+    chapterId: "human-rights",
     questionSv: "Vad betyder yttrandefrihet?",
     options: ["Att man får säga och skriva sina åsikter", "Att man får hota andra", "Att staten alltid måste hålla med", "Att bara journalister får prata politik"],
     correctIndex: 0,
@@ -612,6 +637,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "rights-004",
     topicId: "rights",
+    chapterId: "media",
     questionSv: "Varför är fria medier viktiga i en demokrati?",
     options: ["De kan granska makten och sprida information", "De ska bestämma alla lagar", "De ska ersätta domstolar", "De ska tala om för alla hur de måste rösta"],
     correctIndex: 0,
@@ -624,6 +650,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "rights-005",
     topicId: "rights",
+    chapterId: "media",
     questionSv: "Vad är källkritik?",
     options: ["Att fundera på om information är sann och var den kommer ifrån", "Att alltid tro på allt i sociala medier", "Att bara läsa rubriker", "Att aldrig fråga efter bevis"],
     correctIndex: 0,
@@ -636,6 +663,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "rights-006",
     topicId: "rights",
+    chapterId: "human-rights",
     questionSv: "Vad säger principen om mänskliga rättigheter?",
     options: ["Alla människor har lika värde och rättigheter", "Rättigheter gäller bara vuxna", "Rättigheter gäller bara personer med arbete", "Varje kommun väljer om människor har rättigheter"],
     correctIndex: 0,
@@ -648,6 +676,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "everyday-001",
     topicId: "everyday",
+    chapterId: "country",
     questionSv: "Vilka är Sveriges tre största städer?",
     options: ["Stockholm, Göteborg och Malmö", "Uppsala, Lund och Kiruna", "Malmö, Visby och Örebro", "Göteborg, Växjö och Umeå"],
     correctIndex: 0,
@@ -660,6 +689,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "everyday-002",
     topicId: "everyday",
+    chapterId: "country",
     questionSv: "Vilken naturresurs har länge varit viktig för Sveriges ekonomi?",
     options: ["Järnmalm och skog", "Kaffeodlingar", "Olja i öknen", "Bomullsfält"],
     correctIndex: 0,
@@ -672,6 +702,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "everyday-003",
     topicId: "everyday",
+    chapterId: "welfare",
     questionSv: "Varför betalar människor skatt i Sverige?",
     options: ["För att finansiera välfärd som vård, skola och omsorg", "För att alla ska få rösta två gånger", "För att slippa följa lagen", "För att staten ska äga alla bostäder"],
     correctIndex: 0,
@@ -684,6 +715,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "everyday-004",
     topicId: "everyday",
+    chapterId: "work-economy",
     questionSv: "Vilka är arbetsmarknadens parter?",
     options: ["Arbetsgivare och fackföreningar", "Domstolar och bibliotek", "Regioner och sjukhus", "Banker och universitet"],
     correctIndex: 0,
@@ -696,6 +728,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "everyday-005",
     topicId: "everyday",
+    chapterId: "secular-state",
     questionSv: "Vad betyder att Sverige är en sekulär stat?",
     options: ["Staten är inte styrd av en religion", "Alla måste ha samma religion", "Religion är förbjuden", "Bara religiösa partier får styra"],
     correctIndex: 0,
@@ -708,6 +741,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "everyday-006",
     topicId: "everyday",
+    chapterId: "modern-history",
     questionSv: "Vad hände i Sverige under 1800- och 1900-talet enligt materialet?",
     options: ["Sverige förändrades från jordbrukssamhälle till industri- och välfärdssamhälle", "Sverige blev en ökenstat", "Sverige slutade ha kommuner", "Sverige avskaffade alla skolor"],
     correctIndex: 0,
@@ -720,6 +754,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "authorities-001",
     topicId: "authorities",
+    chapterId: "governance",
     questionSv: "Vem är Sveriges statschef?",
     options: ["Kungen", "Statsministern", "Talmannen", "Justitieombudsmannen"],
     correctIndex: 0,
@@ -732,6 +767,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "authorities-002",
     topicId: "authorities",
+    chapterId: "governance",
     questionSv: "Vad gör regeringen?",
     options: ["Styr landet och genomför riksdagens beslut", "Dömer i brottmål", "Väljer alla riksdagsledamöter", "Äger alla medier"],
     correctIndex: 0,
@@ -744,6 +780,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "authorities-003",
     topicId: "authorities",
+    chapterId: "welfare",
     questionSv: "Vad ansvarar regionerna främst för?",
     options: ["Hälso- och sjukvård", "Riksdagens lagar", "Passkontroll vid gränsen", "Alla domstolar"],
     correctIndex: 0,
@@ -756,6 +793,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "authorities-004",
     topicId: "authorities",
+    chapterId: "governance",
     questionSv: "Vad ansvarar kommuner ofta för?",
     options: ["Skola, äldreomsorg och lokala frågor", "Att stifta grundlagar", "Att leda EU", "Att döma i domstol"],
     correctIndex: 0,
@@ -768,6 +806,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "authorities-005",
     topicId: "authorities",
+    chapterId: "law",
     questionSv: "Vad gör domstolarna?",
     options: ["Prövar mål och dömer enligt lag", "Skriver partiprogram", "Bestämmer kommunalskatten", "Driver vårdcentraler"],
     correctIndex: 0,
@@ -780,6 +819,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "authorities-006",
     topicId: "authorities",
+    chapterId: "world",
     questionSv: "Vad betyder att Sverige samarbetar internationellt?",
     options: ["Sverige deltar i till exempel nordiskt, europeiskt och globalt samarbete", "Sverige har inga kontakter med andra länder", "Sverige låter andra länder bestämma alla lagar", "Sverige har avskaffat sitt försvar"],
     correctIndex: 0,
@@ -792,6 +832,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "democracy-007",
     topicId: "democracy",
+    chapterId: "elections",
     questionSv: "Vem kan rösta i val till riksdagen?",
     options: ["Svenska medborgare som har fyllt 18 år", "Alla som turistar i Sverige", "Barn som går i skolan", "Alla företag i Sverige"],
     correctIndex: 0,
@@ -809,6 +850,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "democracy-008",
     topicId: "democracy",
+    chapterId: "elections",
     questionSv: "Vad är en folkomröstning?",
     options: ["När folket får säga ja eller nej i en viktig fråga", "När en domstol väljer regering", "När ett företag skriver lagar", "När skolan bestämmer skatt"],
     correctIndex: 0,
@@ -826,6 +868,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "democracy-009",
     topicId: "democracy",
+    chapterId: "elections",
     questionSv: "Vad gör politiska partier?",
     options: ["De samlar idéer och försöker få stöd i val", "De dömer brottmål", "De sköter alla sjukhus", "De bestämmer vem som får vara svensk"],
     correctIndex: 0,
@@ -843,6 +886,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "democracy-010",
     topicId: "democracy",
+    chapterId: "democratic-system",
     questionSv: "Vad betyder offentlighetsprincipen?",
     options: ["Att många handlingar hos myndigheter kan läsas av allmänheten", "Att alla måste berätta sin lön", "Att privata brev alltid är offentliga", "Att medier skriver alla lagar"],
     correctIndex: 0,
@@ -860,6 +904,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "democracy-011",
     topicId: "democracy",
+    chapterId: "democratic-system",
     questionSv: "Vad är en fredlig demonstration?",
     options: ["När människor samlas för att visa en åsikt utan våld", "När polisen väljer parti", "När man hotar andra på nätet", "När bara en person får prata"],
     correctIndex: 0,
@@ -877,6 +922,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "democracy-012",
     topicId: "democracy",
+    chapterId: "elections",
     questionSv: "Varför är det viktigt att många röstar?",
     options: ["Då speglar besluten bättre folkets vilja", "Då behöver Sverige inga lagar", "Då försvinner alla partier", "Då bestämmer kungen allt"],
     correctIndex: 0,
@@ -894,6 +940,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "rights-007",
     topicId: "rights",
+    chapterId: "human-rights",
     questionSv: "Vad betyder religionsfrihet?",
     options: ["Att man får ha en religion, byta religion eller inte ha någon religion", "Att alla måste ha samma religion", "Att religion alltid bestämmer lagen", "Att bara vuxna får tro"],
     correctIndex: 0,
@@ -911,6 +958,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "rights-008",
     topicId: "rights",
+    chapterId: "human-rights",
     questionSv: "Vad betyder diskriminering?",
     options: ["Att någon behandlas sämre på grund av till exempel kön, religion eller etnicitet", "Att alla får samma chans", "Att man röstar i ett val", "Att man betalar skatt"],
     correctIndex: 0,
@@ -928,6 +976,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "rights-009",
     topicId: "rights",
+    chapterId: "human-rights",
     questionSv: "Vad är barnkonventionen?",
     options: ["Regler om barns rattigheter", "Regler om banklan", "Regler om bilparkering", "Regler om politiska partier"],
     correctIndex: 0,
@@ -945,6 +994,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "rights-010",
     topicId: "rights",
+    chapterId: "human-rights",
     questionSv: "Vad betyder skyldighet?",
     options: ["Något man ansvarar för att göra eller följa", "En present från staten", "En typ av semester", "En hemlig röst"],
     correctIndex: 0,
@@ -962,6 +1012,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "rights-011",
     topicId: "rights",
+    chapterId: "law",
     questionSv: "Vad betyder likhet infor lagen?",
     options: ["Lagen ska gälla lika för alla", "Bara vuxna behöver följa lagen", "Olika städer har alltid olika grundlagar", "Domstolen får strunta i lagen"],
     correctIndex: 0,
@@ -979,6 +1030,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "rights-012",
     topicId: "rights",
+    chapterId: "media",
     questionSv: "Vad ska du göra om du delar information på nätet?",
     options: ["Tänka på källan och om informationen kan stämma", "Dela alltid snabbt utan att läsa", "Ändra fakta så de passar din åsikt", "Skriva att allt är sant"],
     correctIndex: 0,
@@ -996,6 +1048,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "everyday-007",
     topicId: "everyday",
+    chapterId: "welfare",
     questionSv: "Vad är en vårdcentral?",
     options: ["En mottagning för vanlig sjukvård nära dig", "En domstol för vårdfrågor", "Ett kontor för pass", "En skola för vuxna"],
     correctIndex: 0,
@@ -1013,6 +1066,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "everyday-008",
     topicId: "everyday",
+    chapterId: "welfare",
     questionSv: "Vad är 1177?",
     options: ["Sjukvardsradgivning och information om vard", "Polisens akutnummer", "Skatteverkets nummer", "Ett politiskt parti"],
     correctIndex: 0,
@@ -1030,6 +1084,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "everyday-009",
     topicId: "everyday",
+    chapterId: "welfare",
     questionSv: "Vad betyder skolplikt?",
     options: ["Att barn måste gå i skolan under vissa år", "Att vuxna måste gå på universitet", "Att skolan är frivillig för alla barn", "Att bara pojkar går i skolan"],
     correctIndex: 0,
@@ -1047,6 +1102,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "everyday-010",
     topicId: "everyday",
+    chapterId: "work-economy",
     questionSv: "Vad är fika ofta på en arbetsplats?",
     options: ["En kort paus med kaffe eller nagot att ata", "Ett mote i domstol", "En typ av skatt", "En bostadskontrakt"],
     correctIndex: 0,
@@ -1064,6 +1120,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "everyday-011",
     topicId: "everyday",
+    chapterId: "work-economy",
     questionSv: "Vad är ett hyreskontrakt?",
     options: ["Ett avtal mellan hyresvard och hyresgast", "Ett pass fran Polisen", "Ett beslut fran riksdagen", "Ett betyg fran skolan"],
     correctIndex: 0,
@@ -1081,6 +1138,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "everyday-012",
     topicId: "everyday",
+    chapterId: "work-economy",
     questionSv: "Vad är privatekonomi?",
     options: ["Hur en person eller familj planerar pengar, inkomster och utgifter", "Hur domstolar skriver domar", "Hur partier väljer ledare", "Hur sjukhus bygger rum"],
     correctIndex: 0,
@@ -1098,6 +1156,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "authorities-007",
     topicId: "authorities",
+    chapterId: "governance",
     questionSv: "Vad gör Skatteverket?",
     options: ["Arbetar med skatt, folkbokforing och personnummer", "Driver alla skolor", "Domer i brottmal", "Tar hand om akut sjukvard"],
     correctIndex: 0,
@@ -1115,6 +1174,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "authorities-008",
     topicId: "authorities",
+    chapterId: "welfare",
     questionSv: "Vad gör Försäkringskassan?",
     options: ["Handlägger socialförsäkring, till exempel föräldrapenning och sjukpenning", "Bestämmer alla lagar", "Ger körkort", "Driver bibliotek"],
     correctIndex: 0,
@@ -1132,6 +1192,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "authorities-009",
     topicId: "authorities",
+    chapterId: "work-economy",
     questionSv: "När kontaktar man Arbetsförmedlingen?",
     options: ["När man söker arbete eller behöver stöd för att komma in på arbetsmarknaden", "När man behöver akut ambulans", "När man vill rösta i riksdagen", "När man ska döma ett brottmål"],
     correctIndex: 0,
@@ -1149,6 +1210,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "authorities-010",
     topicId: "authorities",
+    chapterId: "welfare",
     questionSv: "Nar ska man ringa 112?",
     options: ["Vid akut fara för liv, egendom eller miljö", "När man vill boka en vanlig läkartid", "När man vill fråga om skatt", "När man vill ställa sig i bostadskö"],
     correctIndex: 0,
@@ -1166,6 +1228,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "authorities-011",
     topicId: "authorities",
+    chapterId: "governance",
     questionSv: "Vem beslutar om lagar i Sverige?",
     options: ["Riksdagen", "Vårdcentralen", "En hyresvärd", "Ett privat företag"],
     correctIndex: 0,
@@ -1183,6 +1246,7 @@ export const QUESTIONS: Question[] = [
   {
     id: "authorities-012",
     topicId: "authorities",
+    chapterId: "governance",
     questionSv: "Vilken nivå ansvarar ofta för förskola och grundskola?",
     options: ["Kommunen", "EU", "FN", "Kungen"],
     correctIndex: 0,
