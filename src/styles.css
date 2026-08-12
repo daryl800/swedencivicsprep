@@ -178,6 +178,7 @@ button:disabled {
 }
 
 .app-nav .language-select {
+  position: relative;
   min-width: 190px;
   margin: 0;
   border-color: rgba(15, 23, 42, 0.12);
@@ -187,24 +188,36 @@ button:disabled {
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.7), 0 8px 22px rgba(15, 23, 42, 0.07);
 }
 
-.app-nav .language-select span,
-.app-nav .language-select small {
+.app-nav .language-select > span,
+.app-nav .language-select > small {
   display: none;
 }
 
-.app-nav .language-select select {
+.app-nav .language-trigger {
   min-height: 38px;
   border-color: transparent;
-  border-radius: 999px;
   background: #0f172a;
-  padding: 6px 12px;
   color: #ffffff;
-  font-size: 0.9rem;
-  font-weight: 900;
+  box-shadow: none;
 }
 
-.app-nav .language-select select option {
-  color: var(--text);
+.app-nav .language-trigger:hover {
+  border-color: transparent;
+  background: #1e293b;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.18);
+}
+
+.app-nav .language-trigger svg,
+.app-nav .language-current strong {
+  color: #ffffff;
+}
+
+.app-nav .language-current small {
+  color: #cbd5e1;
+}
+
+.app-nav .language-flag {
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .nav-cta {
@@ -1765,6 +1778,7 @@ h3 {
 }
 
 .language-select {
+  position: relative;
   display: grid;
   gap: 4px;
   width: fit-content;
@@ -1783,21 +1797,156 @@ h3 {
   font-weight: 850;
 }
 
-.language-select select {
-  width: 100%;
-  border: 1px solid #c8d9ec;
-  border-radius: 8px;
-  background: #f7fbff;
-  color: var(--text);
-  font: inherit;
-  font-weight: 750;
-  padding: 8px 10px;
-}
-
 .language-select small {
   color: var(--muted);
   font-size: 0.78rem;
   line-height: 1.25;
+}
+
+.language-select > select {
+  display: none;
+}
+
+.language-trigger {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid #c8d9ec;
+  border-radius: 999px;
+  background: #ffffff;
+  color: var(--text);
+  padding: 6px 10px;
+  text-align: start;
+  box-shadow: 0 8px 18px rgba(20, 89, 200, 0.06);
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.language-trigger:hover {
+  border-color: #7bb3e4;
+  box-shadow: 0 12px 24px rgba(20, 89, 200, 0.12);
+  transform: translateY(-1px);
+}
+
+.language-trigger:focus-visible {
+  outline: 3px solid rgba(245, 158, 11, 0.42);
+  outline-offset: 2px;
+}
+
+.language-select.open .language-trigger svg {
+  transform: rotate(180deg);
+}
+
+.language-flag {
+  display: inline-grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  border-radius: 999px;
+  background: #eff6ff;
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.language-current {
+  display: grid;
+  min-width: 0;
+  line-height: 1.1;
+}
+
+.language-current strong {
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 950;
+}
+
+.language-current small {
+  overflow: hidden;
+  color: #64748b;
+  font-size: 0.74rem;
+  font-weight: 800;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.language-menu {
+  position: absolute;
+  z-index: 30;
+  top: calc(100% + 8px);
+  right: 0;
+  display: grid;
+  width: min(280px, calc(100vw - 32px));
+  overflow: hidden;
+  border: 1px solid #cfe0f2;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 24px 54px rgba(15, 23, 42, 0.18);
+}
+
+[dir="rtl"] .language-menu {
+  right: auto;
+  left: 0;
+}
+
+.language-menu button {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  min-height: 52px;
+  border-radius: 0;
+  background: #ffffff;
+  color: var(--text);
+  padding: 9px 12px;
+  text-align: start;
+}
+
+.language-menu button + button {
+  border-top: 1px solid #eef4fb;
+}
+
+.language-menu button:hover,
+.language-menu button.selected {
+  background: #eff6ff;
+}
+
+.language-menu button.selected {
+  box-shadow: inset 4px 0 0 var(--highlight);
+}
+
+[dir="rtl"] .language-menu button.selected {
+  box-shadow: inset -4px 0 0 var(--highlight);
+}
+
+.language-menu strong,
+.language-menu small,
+.language-menu em {
+  display: block;
+}
+
+.language-menu strong {
+  color: var(--text);
+  font-size: 0.92rem;
+  font-style: normal;
+  font-weight: 950;
+}
+
+.language-menu small {
+  color: #64748b;
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.language-menu em {
+  border-radius: 999px;
+  background: #e2e8f0;
+  color: #334155;
+  padding: 3px 7px;
+  font-size: 0.72rem;
+  font-style: normal;
+  font-weight: 950;
 }
 
 .lesson-card {

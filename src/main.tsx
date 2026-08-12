@@ -1763,18 +1763,65 @@ function LanguageSelector({
   ui: UiText;
   value: UiLanguage;
 }) {
+  const [open, setOpen] = useState(false);
+  const selectedLanguage = SUPPORTED_LANGUAGES.find((language) => language.id === value) || SUPPORTED_LANGUAGES[0];
+
+  function handleSelect(language: UiLanguage) {
+    onChange(language);
+    setOpen(false);
+  }
+
   return (
-    <label className="language-select">
+    <div className={`language-select ${open ? "open" : ""}`}>
       <span>{ui.appLanguage}</span>
-      <select value={value} onChange={(event) => onChange(event.target.value as UiLanguage)}>
+      <button
+        aria-expanded={open}
+        aria-haspopup="listbox"
+        className="language-trigger"
+        onClick={() => setOpen((current) => !current)}
+        type="button"
+      >
+        <span className="language-flag" aria-hidden="true">{selectedLanguage.flag}</span>
+        <span className="language-current">
+          <strong>{selectedLanguage.shortLabel}</strong>
+          <small>{selectedLanguage.nativeLabel}</small>
+        </span>
+        <ChevronDown size={16} aria-hidden="true" />
+      </button>
+      {open ? (
+        <div className="language-menu" role="listbox" aria-label={ui.appLanguage}>
+          {SUPPORTED_LANGUAGES.map((language) => {
+            const isSelected = language.id === value;
+
+            return (
+              <button
+                aria-selected={isSelected}
+                className={isSelected ? "selected" : ""}
+                key={language.id}
+                onClick={() => handleSelect(language.id)}
+                role="option"
+                type="button"
+              >
+                <span className="language-flag" aria-hidden="true">{language.flag}</span>
+                <span>
+                  <strong>{language.nativeLabel}</strong>
+                  <small>{language.label}</small>
+                </span>
+                <em>{language.shortLabel}</em>
+              </button>
+            );
+          })}
+        </div>
+      ) : null}
+      <small>{ui.appLanguageHint}</small>
+      <select aria-hidden="true" tabIndex={-1} value={value} onChange={(event) => onChange(event.target.value as UiLanguage)}>
         {SUPPORTED_LANGUAGES.map((language) => (
           <option key={language.id} value={language.id}>
-            {language.nativeLabel} / {language.label}
+            {language.flag} {language.nativeLabel} / {language.label}
           </option>
         ))}
       </select>
-      <small>{ui.appLanguageHint}</small>
-    </label>
+    </div>
   );
 }
 
