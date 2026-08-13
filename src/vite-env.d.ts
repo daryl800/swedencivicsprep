@@ -2,6 +2,7 @@
 
 interface ImportMetaEnv {
   readonly VITE_POSTHOG_DASHBOARD_URL?: string;
+  readonly VITE_FEEDBACK_FORM_URL?: string;
   readonly VITE_POSTHOG_HOST?: string;
   readonly VITE_POSTHOG_KEY?: string;
 }

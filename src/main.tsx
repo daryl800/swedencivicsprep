@@ -160,7 +160,7 @@ const CITIZENSHIP_UPDATE_DISMISSED_KEY = "citizenshipUpdateDismissed";
 const ADMIN_UNLOCKED_KEY = "swedencivicsprep-admin-unlocked";
 const ADMIN_PASSWORD_SESSION_KEY = "swedencivicsprep-admin-password";
 const ADMIN_PASSWORD = "preview-admin-2026";
-const FEEDBACK_EMAIL = "feedback@swedencivicsprep.se";
+const FEEDBACK_FORM_URL = import.meta.env.VITE_FEEDBACK_FORM_URL || "https://tally.so/r/eqOoLO";
 
 registerUiTranslations();
 
@@ -1147,6 +1147,7 @@ function FeedbackPage({
   const [email, setEmail] = useState("");
   const [feedbackType, setFeedbackType] = useState(ui.feedbackTypes[0]);
   const [message, setMessage] = useState("");
+  const [submitted, setSubmitted] = useState(false);
 
   useEffect(() => {
     setFeedbackType(ui.feedbackTypes[0]);
@@ -1162,19 +1163,18 @@ function FeedbackPage({
       uiLanguage: language
     });
 
-    const body = [
-      `Feedback type: ${feedbackType}`,
-      `Name: ${name || "Not provided"}`,
-      `Reply email: ${email || "Not provided"}`,
-      `App language: ${language}`,
-      "",
-      message
-    ].join("\n");
+    if (!FEEDBACK_FORM_URL) {
+      setSubmitted(true);
+      return;
+    }
 
-    const mailto = new URL(`mailto:${FEEDBACK_EMAIL}`);
-    mailto.searchParams.set("subject", `Swedish Civics Test Preparation feedback: ${feedbackType}`);
-    mailto.searchParams.set("body", body);
-    window.location.href = mailto.toString();
+    const feedbackUrl = new URL(FEEDBACK_FORM_URL);
+    feedbackUrl.searchParams.set("type", feedbackType);
+    feedbackUrl.searchParams.set("name", name);
+    feedbackUrl.searchParams.set("replyEmail", email);
+    feedbackUrl.searchParams.set("language", language);
+    feedbackUrl.searchParams.set("message", message);
+    window.location.href = feedbackUrl.toString();
   }
 
   return (
@@ -1248,10 +1248,11 @@ function FeedbackPage({
           </button>
         </form>
 
-        <p className="feedback-fallback">
-          {ui.feedbackMailFallback}{" "}
-          <a href={`mailto:${FEEDBACK_EMAIL}`}>{FEEDBACK_EMAIL}</a>
-        </p>
+        {!FEEDBACK_FORM_URL && (
+          <p className="feedback-fallback" role={submitted ? "status" : undefined}>
+            {ui.feedbackMailFallback}
+          </p>
+        )}
       </section>
     </main>
   );
