@@ -756,7 +756,10 @@ function AppNav({
 function HeroArtwork() {
   return (
     <div className="hero-artwork" aria-hidden="true">
-      <img alt="" className="civic-illustration" src="/images/hero-horse-cityhall-yellow.png" />
+      <picture>
+        <source media="(max-width: 760px)" srcSet="/images/hero-horse-cityhall-mobile.png" />
+        <img alt="" className="civic-illustration" src="/images/hero-horse-cityhall-yellow.png" />
+      </picture>
     </div>
   );
 }

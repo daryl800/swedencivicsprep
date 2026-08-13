@@ -415,6 +415,12 @@ button:disabled {
   pointer-events: none;
 }
 
+.hero-artwork picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .hero-artwork::before {
   position: absolute;
   z-index: 2;
@@ -3120,16 +3126,30 @@ legend {
   }
 
   .hero-poster {
+    overflow: hidden;
     min-height: auto;
     padding: var(--space-5);
   }
 
   .hero-poster .hero-copy {
+    width: 100%;
+    min-width: 0;
     max-width: 100%;
   }
 
   .hero-banner h1 {
-    font-size: clamp(2.15rem, 12vw, 3.2rem);
+    max-width: 100%;
+    font-size: clamp(2rem, 10vw, 2.95rem);
+    line-height: 1.03;
+    overflow-wrap: anywhere;
+    text-wrap: unset;
+  }
+
+  .hero-banner .lead,
+  .hero-banner .language-note,
+  .hero-trust {
+    max-width: 100%;
+    overflow-wrap: anywhere;
   }
 
   .hero-copy {
@@ -3149,16 +3169,23 @@ legend {
     right: auto;
     bottom: auto;
     width: calc(100% + (var(--space-5) * 2));
-    height: 260px;
+    height: clamp(300px, 82vw, 390px);
     overflow: hidden;
     margin: var(--space-5) calc(var(--space-5) * -1) calc(var(--space-5) * -1);
+  }
+
+  .hero-artwork::before {
+    width: 34%;
+    height: 44%;
+    background:
+      linear-gradient(145deg, #006aa7 0%, rgba(0, 106, 167, 0.88) 58%, rgba(0, 106, 167, 0) 100%);
   }
 
   .civic-illustration {
     right: 0;
     bottom: 0;
-    width: min(100%, 460px);
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
     margin: 0;
     object-fit: contain;
     object-position: right bottom;
@@ -3168,6 +3195,10 @@ legend {
   .hero-secondary {
     width: 100%;
     min-height: 50px;
+    padding-inline: var(--space-4);
+    white-space: normal;
+    text-align: center;
+    overflow-wrap: anywhere;
   }
 
   .proof-strip {
