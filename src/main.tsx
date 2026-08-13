@@ -3,7 +3,7 @@ import type { FormEvent } from "react";
 import { createRoot } from "react-dom/client";
 import { useTranslation } from "react-i18next";
 import { Analytics } from "@vercel/analytics/react";
-import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Home as HomeIcon, Landmark, Layers3, LockKeyhole, MessageSquare, Scale, Send, Sparkles, Star, X, XCircle } from "lucide-react";
+import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Home as HomeIcon, Landmark, Layers3, LockKeyhole, MessageSquare, Scale, Sparkles, Star, X, XCircle } from "lucide-react";
 import { LESSONS, MIGRATIONSVERKET_CITIZENSHIP_URL, OFFICIAL_CHAPTERS, OFFICIAL_STUDY_GUIDE_URL, QUESTIONS, TOPICS } from "./data";
 import i18n from "./i18n";
 import { analyticsStatus, trackEvent, trackPageView } from "./analytics";
@@ -1143,39 +1143,11 @@ function FeedbackPage({
   onSelectLanguage: (language: UiLanguage) => void;
   ui: UiText;
 }) {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [feedbackType, setFeedbackType] = useState(ui.feedbackTypes[0]);
-  const [message, setMessage] = useState("");
-  const [submitted, setSubmitted] = useState(false);
-
-  useEffect(() => {
-    setFeedbackType(ui.feedbackTypes[0]);
-  }, [ui.feedbackTypes]);
-
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    trackEvent("feedback_submitted", {
-      feedbackType,
-      hasEmail: Boolean(email),
-      hasName: Boolean(name),
-      messageLength: message.length,
-      uiLanguage: language
-    });
-
-    if (!FEEDBACK_FORM_URL) {
-      setSubmitted(true);
-      return;
-    }
-
-    const feedbackUrl = new URL(FEEDBACK_FORM_URL);
-    feedbackUrl.searchParams.set("type", feedbackType);
-    feedbackUrl.searchParams.set("name", name);
-    feedbackUrl.searchParams.set("replyEmail", email);
-    feedbackUrl.searchParams.set("language", language);
-    feedbackUrl.searchParams.set("message", message);
-    window.location.href = feedbackUrl.toString();
-  }
+  const tallyUrl = new URL(FEEDBACK_FORM_URL);
+  tallyUrl.searchParams.set("transparentBackground", "1");
+  tallyUrl.searchParams.set("dynamicHeight", "1");
+  tallyUrl.searchParams.set("source", "app-feedback-page");
+  tallyUrl.searchParams.set("language", language);
 
   return (
     <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
@@ -1197,62 +1169,19 @@ function FeedbackPage({
           <p>{ui.feedbackPromptBody}</p>
         </div>
 
-        <form className="feedback-form" onSubmit={handleSubmit}>
-          <label>
-            <span>{ui.feedbackNameLabel}</span>
-            <input
-              autoComplete="name"
-              onChange={(event) => setName(event.target.value)}
-              placeholder={ui.feedbackNamePlaceholder}
-              value={name}
-            />
-          </label>
+        <iframe
+          className="feedback-embed"
+          data-tally-src={tallyUrl.toString()}
+          loading="lazy"
+          src={tallyUrl.toString()}
+          title={ui.feedbackTitle}
+        />
 
-          <label>
-            <span>{ui.feedbackEmailLabel}</span>
-            <input
-              autoComplete="email"
-              inputMode="email"
-              onChange={(event) => setEmail(event.target.value)}
-              placeholder={ui.feedbackEmailPlaceholder}
-              type="email"
-              value={email}
-            />
-          </label>
-
-          <label>
-            <span>{ui.feedbackTypeLabel}</span>
-            <select onChange={(event) => setFeedbackType(event.target.value)} value={feedbackType}>
-              {ui.feedbackTypes.map((type) => (
-                <option key={type} value={type}>
-                  {type}
-                </option>
-              ))}
-            </select>
-          </label>
-
-          <label className="feedback-message-field">
-            <span>{ui.feedbackMessageLabel}</span>
-            <textarea
-              onChange={(event) => setMessage(event.target.value)}
-              placeholder={ui.feedbackMessagePlaceholder}
-              required
-              rows={8}
-              value={message}
-            />
-          </label>
-
-          <button className="primary feedback-submit" type="submit">
-            <Send size={17} aria-hidden="true" />
-            {ui.feedbackSend}
-          </button>
-        </form>
-
-        {!FEEDBACK_FORM_URL && (
-          <p className="feedback-fallback" role={submitted ? "status" : undefined}>
-            {ui.feedbackMailFallback}
-          </p>
-        )}
+        <p className="feedback-fallback">
+          <a href={tallyUrl.toString()} rel="noreferrer" target="_blank">
+            {ui.feedbackSend} <ExternalLink size={16} aria-hidden="true" />
+          </a>
+        </p>
       </section>
     </main>
   );
