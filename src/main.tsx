@@ -583,7 +583,7 @@ function HomePage({
         value={language}
       />
       <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
-        <section className="intro hero-banner">
+        <section className="intro hero-banner hero-poster">
           <div className="hero-copy">
             <p className="hero-badge">
               <span className="flag-icon" aria-hidden="true" />
@@ -602,7 +602,7 @@ function HomePage({
             </div>
             <p className="hero-trust">{ui.heroTrustBadge}</p>
           </div>
-          <HeroMockup ui={ui} />
+          <HeroArtwork />
         </section>
 
         <ProofStats ui={ui} />
@@ -753,37 +753,14 @@ function AppNav({
   );
 }
 
-function HeroMockup({ ui }: { ui: UiText }) {
+function HeroArtwork() {
   return (
-    <aside className="hero-mockup" aria-label={ui.heroMockLabel}>
-      <div className="mockup-header">
-        <span>{ui.heroMockLabel}</span>
-        <span className="mockup-pill">1 / 12</span>
-      </div>
-      <div className="mockup-body">
-        <p className="mockup-question" dir="ltr">{ui.heroMockQuestion}</p>
-        <div className="mockup-options" dir="ltr">
-          <div className="mockup-option wrong">
-            <XCircle size={18} aria-hidden="true" />
-            <span>{ui.heroMockOptionWrong}</span>
-            <strong>Inte rätt</strong>
-          </div>
-          <div className="mockup-option correct">
-            <CheckCircle2 size={18} aria-hidden="true" />
-            <span>{ui.heroMockOptionCorrect}</span>
-            <strong>Rätt</strong>
-          </div>
-          <div className="mockup-option">
-            <span className="mockup-radio" aria-hidden="true" />
-            <span>{ui.heroMockOptionMiss}</span>
-          </div>
-        </div>
-        <div className="mockup-explanation">
-          <p>{ui.heroMockExplanationLabel}</p>
-          <span>{ui.heroMockExplanation}</span>
-        </div>
-      </div>
-    </aside>
+    <div className="hero-artwork" aria-hidden="true">
+      <picture>
+        <source media="(max-width: 760px)" srcSet="/images/hero-horse-cityhall-mobile.png" />
+        <img alt="" className="civic-illustration" src="/images/hero-horse-cityhall-yellow.png" />
+      </picture>
+    </div>
   );
 }
 
