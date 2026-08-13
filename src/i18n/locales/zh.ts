@@ -1,9 +1,9 @@
 import type { UiText } from "../uiTextTypes";
 
 export const zhUiText: UiText = {
-    eyebrow: "准备瑞典公民/社会知识测试",
-    appTitle: "瑞典社会知识测试备考",
-    lead: "练习关于瑞典社会的选择题，为未来的公民或社会知识测试做准备。",
+    eyebrow: "2026 瑞典入籍社会知识练习",
+    appTitle: "瑞典入籍考试社会知识练习",
+    lead: "用瑞典语练习 medborgarskapsprovet 相关社会知识题，配合中文解释和 Sverige i fokus 章节复习。",
     languageNote: "题目和答案选项保持瑞典语。应用界面和解释会使用你选择的语言。",
     dailyPrompt: "每天先练10分钟。",
     navStudyModules: "学习模块",
@@ -12,7 +12,7 @@ export const zhUiText: UiText = {
     navStartPractice: "开始练习",
     heroPrimaryCta: "开始免费练习 →",
     heroSecondaryCta: "浏览模块",
-    heroTrustBadge: "✓ 已按 2026 要求更新 • 不需要信用卡",
+    heroTrustBadge: "✓ 瑞典语题目 • 多语言解释 • 不需要信用卡",
     heroMockLabel: "练习预览",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -21,7 +21,7 @@ export const zhUiText: UiText = {
     heroMockExplanationLabel: "即时解释",
     heroMockExplanation: "民主表示人们可以通过选举、言论自由和参与来影响社会。",
     proofStats: [
-      { value: "48", label: "预览练习题" },
+      { value: "48", label: "社会知识练习题" },
       { value: "13", label: "官方章节已映射" },
       { value: "10分钟/天", label: "结构化学习节奏" }
     ],
