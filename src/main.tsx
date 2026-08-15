@@ -1434,7 +1434,7 @@ function AdminDashboardPage({
     },
     {
       title: "Learning events",
-      body: "The app now emits topic_selected, practice_started, question_answered, language_changed, question_translation_toggled, and feedback_submitted.",
+      body: "The app now emits topic_selected, practice_started, question_answered, language_changed, question_translation_toggled, and feedback_opened. Submitted feedback is stored in Tally.",
       status: "Added"
     },
     {
@@ -1776,7 +1776,7 @@ function AdminDashboardPage({
             { name: "question_answered", count: 0 },
             { name: "question_translation_toggled", count: 0 },
             { name: "topic_completed", count: 0 },
-            { name: "feedback_submitted", count: 0 }
+            { name: "feedback_opened", count: 0 }
           ]).map((event) => (
             <code className={event.count > 0 ? "active" : ""} key={event.name}>
               <span>{event.name}</span>
