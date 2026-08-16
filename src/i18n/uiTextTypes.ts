@@ -59,6 +59,9 @@ export type UiText = {
   feedbackMessagePlaceholder: string;
   feedbackSend: string;
   feedbackMailFallback: string;
+  feedbackNudgeTitle: string;
+  feedbackNudgeBody: string;
+  feedbackNudgeAction: string;
   feedbackTypes: string[];
   flipCard: string;
   nextCard: string;

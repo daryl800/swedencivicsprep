@@ -11,6 +11,9 @@ const TRACKED_EVENTS = [
   "question_answered",
   "question_translation_toggled",
   "topic_completed",
+  "feedback_prompt_shown",
+  "feedback_prompt_clicked",
+  "feedback_opened",
   "feedback_submitted"
 ];
 

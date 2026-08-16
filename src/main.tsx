@@ -174,6 +174,7 @@ function App() {
   const [lastWasCorrect, setLastWasCorrect] = useState(false);
   const [questionHelpVisible, setQuestionHelpVisible] = useState(false);
   const [language, setLanguage] = useState<UiLanguage>(() => getInitialLanguage());
+  const [feedbackPromptMilestone, setFeedbackPromptMilestone] = useState<number | null>(null);
   const ui = useTranslatedUiText(language);
 
   useEffect(() => {
@@ -221,9 +222,27 @@ function App() {
     setRoute({ page: "flashcards" });
   }
 
-  function goFeedback() {
-    trackEvent("feedback_opened", { uiLanguage: language });
+  function handleOpenFeedback(source = "manual", topicId?: string, milestone?: number) {
+    trackEvent("feedback_opened", { milestone, source, topicId, uiLanguage: language });
     setRoute({ page: "feedback" });
+  }
+
+  function goFeedback() {
+    handleOpenFeedback("manual");
+  }
+
+  function handleFeedbackPromptShown(topicId: string, milestone: number) {
+    trackEvent("feedback_prompt_shown", { milestone, topicId, uiLanguage: language });
+  }
+
+  function handleFeedbackPromptClicked(topicId: string, milestone: number) {
+    trackEvent("feedback_prompt_clicked", { milestone, topicId, uiLanguage: language });
+    setFeedbackPromptMilestone(null);
+    handleOpenFeedback("practice_milestone", topicId, milestone);
+  }
+
+  function handleDismissFeedbackPrompt() {
+    setFeedbackPromptMilestone(null);
   }
 
   function handleStartPractice(topicId: string) {
@@ -251,6 +270,12 @@ function App() {
     setLastWasCorrect(isCorrect);
     const nextProgress = recordAnswered(question.id, isCorrect);
     setProgress(nextProgress);
+    const nextFeedbackMilestone = getFeedbackMilestone(nextProgress.total);
+
+    if (nextFeedbackMilestone !== null) {
+      setFeedbackPromptMilestone(nextFeedbackMilestone);
+    }
+
     trackEvent("question_answered", {
       correctIndex: question.correctIndex,
       isCorrect,
@@ -374,8 +399,12 @@ function App() {
       return (
         <TopicPracticePage
           checked={checked}
+          feedbackPromptMilestone={feedbackPromptMilestone}
           language={language}
           lastWasCorrect={lastWasCorrect}
+          onDismissFeedbackPrompt={handleDismissFeedbackPrompt}
+          onFeedbackPromptShown={handleFeedbackPromptShown}
+          onOpenFeedback={handleFeedbackPromptClicked}
           onBack={goHome}
           onCheck={handleCheck}
           onNext={handleNext}
@@ -1434,7 +1463,7 @@ function AdminDashboardPage({
     },
     {
       title: "Learning events",
-      body: "The app now emits topic_selected, practice_started, question_answered, language_changed, question_translation_toggled, and feedback_opened. Submitted feedback is stored in Tally.",
+      body: "The app now emits topic_selected, practice_started, question_answered, language_changed, question_translation_toggled, feedback_prompt_shown, feedback_prompt_clicked, and feedback_opened. Submitted feedback is stored in Tally.",
       status: "Added"
     },
     {
@@ -1776,6 +1805,8 @@ function AdminDashboardPage({
             { name: "question_answered", count: 0 },
             { name: "question_translation_toggled", count: 0 },
             { name: "topic_completed", count: 0 },
+            { name: "feedback_prompt_shown", count: 0 },
+            { name: "feedback_prompt_clicked", count: 0 },
             { name: "feedback_opened", count: 0 }
           ]).map((event) => (
             <code className={event.count > 0 ? "active" : ""} key={event.name}>
@@ -1960,9 +1991,13 @@ type AdminStats = {
 
 type TopicPracticePageProps = {
   checked: boolean;
+  feedbackPromptMilestone: number | null;
   language: UiLanguage;
   lastWasCorrect: boolean;
   lesson?: Lesson;
+  onDismissFeedbackPrompt: () => void;
+  onFeedbackPromptShown: (topicId: string, milestone: number) => void;
+  onOpenFeedback: (topicId: string, milestone: number) => void;
   onBack: () => void;
   onCheck: (question: Question) => void;
   onNext: (topicId: string, questionCount: number) => void;
@@ -1983,9 +2018,13 @@ type TopicPracticePageProps = {
 
 function TopicPracticePage({
   checked,
+  feedbackPromptMilestone,
   language,
   lastWasCorrect,
   lesson,
+  onDismissFeedbackPrompt,
+  onFeedbackPromptShown,
+  onOpenFeedback,
   onBack,
   onCheck,
   onNext,
@@ -2013,6 +2052,9 @@ function TopicPracticePage({
   const questionPercent = questions.length > 0 ? Math.round((questionNumber / questions.length) * 100) : 0;
   const chapter = OFFICIAL_CHAPTERS.find((item) => item.id === question.chapterId);
   const chapterName = chapter ? ui.chapterNames[chapter.id] || chapter.nameSv : "";
+  const [shownFeedbackPrompts, setShownFeedbackPrompts] = useState<number[]>([]);
+  const feedbackMilestone = feedbackPromptMilestone;
+  const shouldShowFeedbackPrompt = checked && feedbackMilestone !== null;
   const mobileActionDisabled = checked ? false : selectedIndex === null;
   const mobileActionLabel = checked ? ui.nextQuestion : ui.checkAnswer;
   const handleMobileAction = () => {
@@ -2023,6 +2065,15 @@ function TopicPracticePage({
 
     onCheck(question);
   };
+
+  useEffect(() => {
+    if (!checked || !shouldShowFeedbackPrompt || feedbackMilestone === null || shownFeedbackPrompts.includes(feedbackMilestone)) {
+      return;
+    }
+
+    onFeedbackPromptShown(topic.id, feedbackMilestone);
+    setShownFeedbackPrompts((current) => [...current, feedbackMilestone]);
+  }, [feedbackMilestone, onFeedbackPromptShown, shouldShowFeedbackPrompt, shownFeedbackPrompts, topic.id]);
 
   return (
     <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
@@ -2086,6 +2137,14 @@ function TopicPracticePage({
 
         {checked ? <ResultPanel language={language} lastWasCorrect={lastWasCorrect} question={question} ui={ui} /> : null}
 
+        {shouldShowFeedbackPrompt && feedbackMilestone !== null ? (
+          <FeedbackNudge
+            onDismiss={onDismissFeedbackPrompt}
+            onOpenFeedback={() => onOpenFeedback(topic.id, feedbackMilestone)}
+            ui={ui}
+          />
+        ) : null}
+
         <div className="actions practice-actions">
           <button className="primary" type="button" disabled={selectedIndex === null || checked} onClick={() => onCheck(question)}>
             {ui.checkAnswer}
@@ -2110,6 +2169,42 @@ function TopicPracticePage({
       </section>
       ) : null}
     </main>
+  );
+}
+
+function getFeedbackMilestone(total: number) {
+  if (total === 6 || total === 12 || (total > 0 && total % 24 === 0)) {
+    return total;
+  }
+
+  return null;
+}
+
+function FeedbackNudge({
+  onDismiss,
+  onOpenFeedback,
+  ui
+}: {
+  onDismiss: () => void;
+  onOpenFeedback: () => void;
+  ui: UiText;
+}) {
+  return (
+    <aside className="feedback-nudge" aria-label={ui.feedbackNudgeTitle}>
+      <div className="feedback-nudge-copy">
+        <p className="eyebrow">{ui.feedbackNudgeTitle}</p>
+        <p>{ui.feedbackNudgeBody}</p>
+      </div>
+      <div className="feedback-nudge-actions">
+        <button className="secondary" type="button" onClick={onOpenFeedback}>
+          <MessageSquare size={18} aria-hidden="true" />
+          {ui.feedbackNudgeAction}
+        </button>
+        <button className="ghost" type="button" onClick={onDismiss}>
+          {ui.dismiss}
+        </button>
+      </div>
+    </aside>
   );
 }
 

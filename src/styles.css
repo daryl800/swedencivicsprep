@@ -2880,6 +2880,44 @@ legend {
   background: linear-gradient(180deg, #fef2f2 0%, #ffffff 100%);
 }
 
+.feedback-nudge {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-4);
+  margin-top: 18px;
+  border: 1px solid #bcd4ee;
+  border-left: 6px solid var(--highlight);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(254, 204, 0, 0.18), rgba(255, 255, 255, 0.96) 42%),
+    #ffffff;
+  padding: 16px 18px;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
+}
+
+.feedback-nudge p {
+  margin: 0;
+}
+
+.feedback-nudge .eyebrow {
+  margin-bottom: 4px;
+  color: #9a5a00;
+}
+
+.feedback-nudge-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.feedback-nudge-actions button {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+}
+
 .placeholder {
   color: var(--muted);
 }
@@ -3312,6 +3350,19 @@ legend {
 
   .practice-actions {
     padding-bottom: 72px;
+  }
+
+  .feedback-nudge {
+    grid-template-columns: 1fr;
+  }
+
+  .feedback-nudge-actions {
+    justify-content: stretch;
+  }
+
+  .feedback-nudge-actions button {
+    justify-content: center;
+    width: 100%;
   }
 
   .quiz-mobile-footer {
