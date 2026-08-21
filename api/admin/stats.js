@@ -22,13 +22,25 @@ const QUERIES = {
   pageViews: "SELECT count() FROM events WHERE event = 'page_viewed' AND timestamp >= now() - INTERVAL 30 DAY",
   questionsAnswered: "SELECT count() FROM events WHERE event = 'question_answered' AND timestamp >= now() - INTERVAL 30 DAY",
   practiceStarts: "SELECT count() FROM events WHERE event = 'practice_started' AND timestamp >= now() - INTERVAL 30 DAY",
+  practiceStarters: "SELECT count(DISTINCT distinct_id) FROM events WHERE event = 'practice_started' AND timestamp >= now() - INTERVAL 30 DAY",
+  languageHelpToggles: "SELECT count() FROM events WHERE event = 'question_translation_toggled' AND timestamp >= now() - INTERVAL 30 DAY",
   feedbackSubmissions: "SELECT count() FROM events WHERE event = 'feedback_submitted' AND timestamp >= now() - INTERVAL 30 DAY",
+  returningUsers:
+    "SELECT count() FROM (SELECT distinct_id, count(DISTINCT toDate(timestamp)) AS active_days FROM events WHERE timestamp >= now() - INTERVAL 30 DAY GROUP BY distinct_id HAVING active_days >= 2)",
+  repeatVisitors:
+    "SELECT count() FROM (SELECT distinct_id, count() AS page_views FROM events WHERE event = 'page_viewed' AND timestamp >= now() - INTERVAL 30 DAY GROUP BY distinct_id HAVING page_views >= 2)",
+  heavyUsers:
+    "SELECT count() FROM (SELECT distinct_id, count() AS answers FROM events WHERE event = 'question_answered' AND timestamp >= now() - INTERVAL 30 DAY GROUP BY distinct_id HAVING answers >= 10)",
+  multiTopicUsers:
+    "SELECT count() FROM (SELECT distinct_id, count(DISTINCT properties.topicId) AS topics FROM events WHERE event IN ('practice_started', 'question_answered') AND properties.topicId IS NOT NULL AND timestamp >= now() - INTERVAL 30 DAY GROUP BY distinct_id HAVING topics >= 2)",
   languages:
     "SELECT coalesce(properties.toLanguage, properties.uiLanguage, 'unknown'), count() FROM events WHERE event = 'language_changed' AND timestamp >= now() - INTERVAL 30 DAY GROUP BY coalesce(properties.toLanguage, properties.uiLanguage, 'unknown') ORDER BY count() DESC LIMIT 8",
   topics:
     "SELECT properties.topicId, count() FROM events WHERE event IN ('topic_selected', 'practice_started', 'question_answered') AND timestamp >= now() - INTERVAL 30 DAY GROUP BY properties.topicId ORDER BY count() DESC LIMIT 8",
   correctness:
     "SELECT properties.isCorrect, count() FROM events WHERE event = 'question_answered' AND timestamp >= now() - INTERVAL 30 DAY GROUP BY properties.isCorrect",
+  questionDifficulty:
+    "SELECT properties.questionId, properties.isCorrect, count() FROM events WHERE event = 'question_answered' AND properties.questionId IS NOT NULL AND timestamp >= now() - INTERVAL 30 DAY GROUP BY properties.questionId, properties.isCorrect",
   eventCounts:
     `SELECT event, count() FROM events WHERE event IN (${TRACKED_EVENTS.map((eventName) => `'${eventName}'`).join(", ")}) AND timestamp >= now() - INTERVAL 30 DAY GROUP BY event ORDER BY event ASC`
 };
@@ -62,18 +74,34 @@ export default async function handler(request, response) {
     const correct = getGroupedCount(correctnessRows, true);
     const incorrect = getGroupedCount(correctnessRows, false);
     const totalAnswers = correct + incorrect;
+    const visitors = getSingleCount(data.visitors);
+    const pageViews = getSingleCount(data.pageViews);
+    const questionsAnswered = getSingleCount(data.questionsAnswered);
+    const practiceStarts = getSingleCount(data.practiceStarts);
+    const practiceStarters = getSingleCount(data.practiceStarters);
+    const languageHelpToggles = getSingleCount(data.languageHelpToggles);
 
     return response.status(200).json({
       generatedAt: new Date().toISOString(),
       range: "Last 30 days",
       overview: {
-        visitors: getSingleCount(data.visitors),
-        pageViews: getSingleCount(data.pageViews),
-        questionsAnswered: getSingleCount(data.questionsAnswered),
-        practiceStarts: getSingleCount(data.practiceStarts),
+        visitors,
+        pageViews,
+        questionsAnswered,
+        practiceStarts,
+        practiceStarters,
         feedbackSubmissions: getSingleCount(data.feedbackSubmissions),
-        correctRate: totalAnswers > 0 ? Math.round((correct / totalAnswers) * 100) : 0
+        correctRate: totalAnswers > 0 ? Math.round((correct / totalAnswers) * 100) : 0,
+        startConversionRate: visitors > 0 ? Math.round((practiceStarters / visitors) * 100) : 0,
+        practiceDepth: practiceStarts > 0 ? roundOne(questionsAnswered / practiceStarts) : 0,
+        languageHelpUsageRate: questionsAnswered > 0 ? Math.round((languageHelpToggles / questionsAnswered) * 100) : 0,
+        averageVisitsPerUser: visitors > 0 ? roundOne(pageViews / visitors) : 0,
+        returningUsers: getSingleCount(data.returningUsers),
+        repeatVisitors: getSingleCount(data.repeatVisitors),
+        heavyUsers: getSingleCount(data.heavyUsers),
+        multiTopicUsers: getSingleCount(data.multiTopicUsers)
       },
+      difficultQuestions: toQuestionDifficulty(data.questionDifficulty),
       languages: toBreakdown(data.languages),
       topics: toBreakdown(data.topics),
       events: withMissingEvents(toBreakdown(data.eventCounts)),
@@ -118,6 +146,39 @@ function getSingleCount(data) {
 function getGroupedCount(rows, groupValue) {
   const row = rows.find(([value]) => value === groupValue || String(value) === String(groupValue));
   return Number(row?.[1] || 0);
+}
+
+function roundOne(value) {
+  return Math.round(value * 10) / 10;
+}
+
+function toQuestionDifficulty(data) {
+  const byQuestion = new Map();
+
+  for (const [questionId, isCorrect, count] of data?.results || []) {
+    const id = String(questionId || "unknown");
+    const current = byQuestion.get(id) || { correct: 0, name: id, total: 0, wrong: 0, wrongRate: 0 };
+    const numericCount = Number(count || 0);
+
+    current.total += numericCount;
+
+    if (isCorrect === true || String(isCorrect) === "true") {
+      current.correct += numericCount;
+    } else {
+      current.wrong += numericCount;
+    }
+
+    byQuestion.set(id, current);
+  }
+
+  return Array.from(byQuestion.values())
+    .map((item) => ({
+      ...item,
+      wrongRate: item.total > 0 ? Math.round((item.wrong / item.total) * 100) : 0
+    }))
+    .filter((item) => item.total >= 2)
+    .sort((a, b) => b.wrongRate - a.wrongRate || b.total - a.total)
+    .slice(0, 8);
 }
 
 function toBreakdown(data) {

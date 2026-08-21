@@ -1479,6 +1479,50 @@ function AdminDashboardPage({
   const productionTopic = adminStats?.topics[0];
   const maxProductionTopicCount = Math.max(...(adminStats?.topics.map((topic) => topic.count) || [0]));
   const maxProductionLanguageCount = Math.max(...(adminStats?.languages.map((item) => item.count) || [0]));
+  const productionInsights = adminStats
+    ? [
+        {
+          note: "Practice starters / unique visitors",
+          title: "Start conversion",
+          value: `${adminStats.overview.startConversionRate}%`
+        },
+        {
+          note: "Question answers per practice start",
+          title: "Practice depth",
+          value: String(adminStats.overview.practiceDepth)
+        },
+        {
+          note: "Translation toggles / questions answered",
+          title: "Language help usage",
+          value: `${adminStats.overview.languageHelpUsageRate}%`
+        },
+        {
+          note: "Page views / unique visitors",
+          title: "Average visits per user",
+          value: String(adminStats.overview.averageVisitsPerUser)
+        },
+        {
+          note: "Active on 2+ different days",
+          title: "Returning users",
+          value: String(adminStats.overview.returningUsers)
+        },
+        {
+          note: "Users with 2+ visits/page views",
+          title: "Repeat sessions",
+          value: String(adminStats.overview.repeatVisitors)
+        },
+        {
+          note: "Users who answered 10+ questions",
+          title: "Heavy users",
+          value: String(adminStats.overview.heavyUsers)
+        },
+        {
+          note: "Users who practiced more than one topic",
+          title: "Same-user topic spread",
+          value: String(adminStats.overview.multiTopicUsers)
+        }
+      ]
+    : [];
   const dashboardItems = [
     {
       title: "Product analytics",
@@ -1706,6 +1750,52 @@ function AdminDashboardPage({
       </section>
 
       {adminStats ? (
+        <section className="admin-panel admin-insights-panel">
+          <div className="admin-panel-heading">
+            <div>
+              <p className="eyebrow">Product behavior</p>
+              <h2>Conversion, depth, and returning browser users</h2>
+            </div>
+            <BarChart3 size={24} aria-hidden="true" />
+          </div>
+          <div className="admin-insight-metric-grid">
+            {productionInsights.map((item) => (
+              <AdminMetric key={item.title} title={item.title} value={item.value} note={item.note} />
+            ))}
+          </div>
+        </section>
+      ) : null}
+
+      {adminStats ? (
+        <section className="admin-panel admin-difficulty-panel">
+          <div className="admin-panel-heading">
+            <div>
+              <p className="eyebrow">Question difficulty</p>
+              <h2>Questions with the highest wrong-answer rate</h2>
+            </div>
+            <AlertTriangle size={24} aria-hidden="true" />
+          </div>
+          {adminStats.difficultQuestions.length > 0 ? (
+            <div className="admin-topic-list">
+              {adminStats.difficultQuestions.map((question) => (
+                <div className="admin-topic-row" key={question.name}>
+                  <div>
+                    <strong>{formatAdminQuestionLabel(question.name)}</strong>
+                    <span>{question.wrong} wrong / {question.total} answers</span>
+                  </div>
+                  <div className="admin-topic-meter" aria-hidden="true">
+                    <span style={{ width: `${question.wrongRate}%` }} />
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p className="admin-empty-state">No question has enough production answers yet. Difficulty appears after at least two answers per question.</p>
+          )}
+        </section>
+      ) : null}
+
+      {adminStats ? (
         <section className="admin-panel admin-language-panel">
           <div className="admin-panel-heading">
             <div>
@@ -1856,6 +1946,12 @@ function AdminMetric({ note, title, value }: { note: string; title: string; valu
   );
 }
 
+function formatAdminQuestionLabel(questionId: string) {
+  const question = QUESTIONS.find((item) => item.id === questionId);
+
+  return question ? questionId + ": " + question.questionSv : questionId;
+}
+
 function formatAdminLanguageName(languageId: string) {
   const language = SUPPORTED_LANGUAGES.find((item) => item.id === languageId);
   return language ? `${language.flag} ${language.nativeLabel} (${language.shortLabel})` : languageId;
@@ -2003,13 +2099,23 @@ type AdminStats = {
   generatedAt: string;
   range: string;
   overview: {
+    averageVisitsPerUser: number;
     correctRate: number;
     feedbackSubmissions: number;
+    heavyUsers: number;
+    languageHelpUsageRate: number;
+    multiTopicUsers: number;
     pageViews: number;
+    practiceDepth: number;
     practiceStarts: number;
+    practiceStarters: number;
     questionsAnswered: number;
+    repeatVisitors: number;
+    returningUsers: number;
+    startConversionRate: number;
     visitors: number;
   };
+  difficultQuestions: { correct: number; name: string; total: number; wrong: number; wrongRate: number }[];
   events: { count: number; name: string }[];
   languages: { count: number; name: string }[];
   topics: { count: number; name: string }[];

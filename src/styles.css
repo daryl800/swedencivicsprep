@@ -1666,7 +1666,9 @@ h3 {
   margin-bottom: var(--space-6);
 }
 
-.admin-language-panel {
+.admin-language-panel,
+.admin-insights-panel,
+.admin-difficulty-panel {
   margin-bottom: var(--space-6);
 }
 
@@ -1746,7 +1748,8 @@ h3 {
   font-weight: 850;
 }
 
-.admin-analytics-grid {
+.admin-analytics-grid,
+.admin-insight-metric-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: var(--space-4);
@@ -3014,7 +3017,8 @@ legend {
   .dashboard-stats,
   .admin-metric-grid,
   .admin-roadmap-grid,
-  .admin-analytics-grid {
+  .admin-analytics-grid,
+  .admin-insight-metric-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -3294,7 +3298,8 @@ legend {
   .admin-metric-grid,
   .admin-panel-grid,
   .admin-roadmap-grid,
-  .admin-analytics-grid {
+  .admin-analytics-grid,
+  .admin-insight-metric-grid {
     grid-template-columns: 1fr;
   }
 
