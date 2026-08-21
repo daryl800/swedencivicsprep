@@ -2,7 +2,7 @@ import { enUiText } from "./en";
 import { createLocalizedUiText } from "../uiTextUtils";
 
 export const faUiText = createLocalizedUiText(enUiText, {
-    eyebrow: "برای آزمون شهروندی سوئد آماده شوید",
+    eyebrow: "آزمون شهروندی سوئد، ساده‌تر",
     appTitle: "آمادگی آزمون جامعه‌شناسی سوئد",
     lead: "با پرسش‌هایی درباره جامعه سوئد تمرین کنید تا برای آزمون شهروندی/مدنی آماده شوید.",
     languageNote: "پرسش‌ها و گزینه‌ها به سوئدی می‌مانند. بقیه برنامه با زبان انتخابی شما نمایش داده می‌شود.",

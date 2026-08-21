@@ -619,8 +619,8 @@ function HomePage({
               {ui.eyebrow}
             </p>
             <h1>{ui.appTitle}</h1>
-            <p className="lead">{ui.lead}</p>
-            <p className="language-note">{ui.languageNote}</p>
+            <HeroSourcePill text={ui.lead} />
+            <HeroTrustBadge text={ui.heroTrustBadge} />
             <div className="hero-cta-row">
               <button className="hero-primary" type="button" onClick={handleStartPractice}>
                 {ui.heroPrimaryCta}
@@ -629,7 +629,6 @@ function HomePage({
                 {ui.heroSecondaryCta}
               </button>
             </div>
-            <p className="hero-trust">{ui.heroTrustBadge}</p>
           </div>
           <HeroArtwork />
         </section>
@@ -643,7 +642,6 @@ function HomePage({
         <IndependentGuideSection ui={ui} />
 
         <StudyPathSection ui={ui} />
-        <ChapterMapSection language={language} ui={ui} />
 
         <div id="study-modules" className="study-modules-anchor">
           <TopicSelector
@@ -684,12 +682,18 @@ function HomePage({
                   <p dir={getTextDirection(ui.topicDescriptions[topic.id] || topic.descriptionEn)}>
                     {ui.topicDescriptions[topic.id] || topic.descriptionEn}
                   </p>
-                  <div className="coverage-chips" aria-label={`${ui.topicCoverageLabel} ${topicName}`}>
-                    {chapterStats.map((chapter) => (
-                      <span key={chapter.id}>{chapter.number}</span>
-                    ))}
-                  </div>
-                  <ChapterProgressList compact stats={chapterStats} ui={ui} />
+                  {completed > 0 ? (
+                    <>
+                      <div className="coverage-chips" aria-label={`${ui.topicCoverageLabel} ${topicName}`}>
+                        {chapterStats.map((chapter) => (
+                          <span key={chapter.id}>{chapter.number}</span>
+                        ))}
+                      </div>
+                      <ChapterProgressList compact stats={chapterStats} ui={ui} />
+                    </>
+                  ) : (
+                    <p className="topic-card-note">{ui.startWarmup(count)}</p>
+                  )}
                 </div>
                 <div className="topic-progress">
                   <div className="topic-progress-row">
@@ -707,6 +711,8 @@ function HomePage({
             );
           })}
         </section>
+
+        <ChapterMapSection language={language} ui={ui} />
 
         <ComingNextSection onOpenFlashcards={onOpenFlashcards} onOpenProgress={onOpenProgress} ui={ui} />
         <FaqSection language={language} />
@@ -779,6 +785,26 @@ function AppNav({
         </div>
       </nav>
     </header>
+  );
+}
+
+function HeroSourcePill({ text }: { text: string }) {
+  return (
+    <p className="hero-source-pill">
+      <img className="hero-source-icon" src="/images/uhr-favicon-96.png" alt="" aria-hidden="true" />
+      <span>{text}</span>
+    </p>
+  );
+}
+
+function HeroTrustBadge({ text }: { text: string }) {
+  const [questions, explanations] = text.split(" • ");
+
+  return (
+    <p className="hero-trust">
+      {questions ? <span>✅ {questions}</span> : null}
+      {explanations ? <span>✅ {explanations}</span> : null}
+    </p>
   );
 }
 
@@ -2343,14 +2369,16 @@ function QuestionCard({
 }) {
   const translation = getQuestionTranslation(question, language);
   const showHelp = questionHelpVisible && translation;
+  const questionHelpButtonLabel = getQuestionHelpButtonLabel(questionHelpVisible, language, ui);
 
   return (
     <form className="question-form" dir="ltr">
       <fieldset>
         {translation ? (
           <div className="question-toolbar">
-            <button className="ghost help-toggle" type="button" onClick={onToggleQuestionHelp}>
-              {questionHelpVisible ? ui.hideQuestionHelp : ui.showQuestionHelp}
+            <button className="secondary help-toggle" type="button" onClick={onToggleQuestionHelp}>
+              <HelpCircle size={17} aria-hidden="true" />
+              {questionHelpButtonLabel}
             </button>
           </div>
         ) : null}
@@ -2402,6 +2430,20 @@ function QuestionCard({
       </fieldset>
     </form>
   );
+}
+
+function getQuestionHelpButtonLabel(questionHelpVisible: boolean, language: UiLanguage, ui: UiText) {
+  if (questionHelpVisible) {
+    return ui.hideQuestionHelp;
+  }
+
+  const selectedLanguage = SUPPORTED_LANGUAGES.find((item) => item.id === language);
+
+  if (!selectedLanguage || language === "sv") {
+    return ui.showQuestionHelp;
+  }
+
+  return `${ui.showQuestionHelp} · ${selectedLanguage.nativeLabel}`;
 }
 
 function getQuestionTranslation(question: Question, language: UiLanguage) {

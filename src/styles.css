@@ -346,6 +346,27 @@ button:disabled {
   font-weight: 400;
 }
 
+.hero-source-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(1rem, 1.5vw, 1.22rem);
+  font-weight: 760;
+}
+
+.hero-source-icon {
+  display: block;
+  width: 34px;
+  height: 34px;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.16);
+}
+
 .hero-banner .lead {
   font-size: clamp(1.05rem, 2vw, 1.22rem);
   font-weight: 680;
@@ -397,10 +418,16 @@ button:disabled {
 }
 
 .hero-trust {
+  display: grid;
+  gap: 3px;
   margin: -2px 0 0;
   color: rgba(255, 255, 255, 0.86);
   font-size: 0.94rem;
   font-weight: 800;
+}
+
+.hero-trust span {
+  display: block;
 }
 
 .hero-artwork {
@@ -528,6 +555,7 @@ button:disabled {
   left: 0;
   height: 3px;
 }
+
 
 .hero-banner .daily-prompt {
   border-color: rgba(254, 204, 0, 0.8);
@@ -2033,6 +2061,19 @@ h3 {
   color: var(--card-accent, #a8472a);
 }
 
+.topic-card-note {
+  display: inline-flex;
+  width: fit-content;
+  margin: 14px 0 0;
+  border: 1px solid color-mix(in srgb, var(--card-accent, var(--primary)) 24%, white);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.76);
+  padding: 7px 10px;
+  color: var(--card-accent, var(--primary));
+  font-size: 0.84rem;
+  font-weight: 900;
+}
+
 .coverage-chips {
   display: flex;
   flex-wrap: wrap;
@@ -2089,7 +2130,7 @@ h3 {
 .chapter-progress-list {
   display: grid;
   gap: 8px;
-  margin-top: 14px;
+  margin-top: 12px;
 }
 
 .chapter-progress-list.compact {
@@ -2929,6 +2970,17 @@ legend {
   margin-top: 20px;
 }
 
+.help-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  border-color: #b9d4ef;
+  background: #f7fbff;
+  color: var(--sweden-blue-dark);
+  box-shadow: 0 8px 18px rgba(0, 106, 167, 0.08);
+}
+
 .mobile-cta {
   display: none;
 }
@@ -3151,6 +3203,7 @@ legend {
 
   .hero-banner .lead,
   .hero-banner .language-note,
+  .hero-source-pill,
   .hero-trust {
     max-width: 100%;
     overflow-wrap: anywhere;
@@ -3193,6 +3246,13 @@ legend {
     margin: 0;
     object-fit: contain;
     object-position: right bottom;
+  }
+
+  .hero-source-pill {
+    align-items: flex-start;
+    border-radius: 18px;
+    padding: 8px 12px 8px 8px;
+    font-size: 0.98rem;
   }
 
   .hero-primary,
