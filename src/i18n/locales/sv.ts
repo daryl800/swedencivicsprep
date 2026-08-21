@@ -5,13 +5,13 @@ export const svUiText: UiText = {
     appTitle: "Träning inför medborgarskapsprovet",
     lead: "Svara på svenska frågor, förstå dina misstag och se vilka ämnen du bör läsa härnäst.",
     languageNote: "Frågorna är på svenska. Förklaringarna följer valt språk.",
-    dailyPrompt: "Börja med 10 minuter om dagen.",
+    dailyPrompt: "Börja med 5 frågor.",
     navStudyModules: "Studieområden",
     navPracticeTests: "Träningsfrågor",
     navAbout: "Om guiden",
-    navStartPractice: "Starta 10 minuters träning",
-    heroPrimaryCta: "Starta 10 minuters träning →",
-    heroSecondaryCta: "Se träningsområden",
+    navStartPractice: "Testa 5 frågor",
+    heroPrimaryCta: "Testa 5 svenska frågor →",
+    heroSecondaryCta: "Välj ämne",
     heroTrustBadge: "✓ Svenska frågor • Förklaringar på valt språk • Baserat på Sverige i fokus",
     heroMockLabel: "Exempel från träningen",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
@@ -23,7 +23,7 @@ export const svUiText: UiText = {
     proofStats: [
       { value: "48", label: "samhällsfrågor" },
       { value: "13", label: "officiella kapitel kartlagda" },
-      { value: "10 min/dag", label: "enkel studierutin" }
+      { value: "5 frågor", label: "snabb första träning" }
     ],
     earlyAccessTitle: "Oberoende guide",
     earlyAccessMessage: `Studera med Sverige i fokus
@@ -159,12 +159,14 @@ Använd Swedish Civics Test Preparation som en oberoende träningsguide: läs f�
     progressStrong: "Stark träningsdag.",
     topicNames: {
       democracy: "Demokrati och val",
+      "quick-start": "Snabbträning",
       rights: "Rättigheter och skyldigheter",
       everyday: "Vardagsliv i Sverige",
       authorities: "Myndigheter och tjänster"
     },
     topicFlavor: {
       democracy: "Val, röster och demokratins spelregler.",
+      "quick-start": "Fem blandade svenska frågor för att komma igång direkt.",
       rights: "Känn till dina friheter och det gemensamma ansvaret.",
       everyday: "Det praktiska Sverige du möter i vardagen.",
       authorities: "En snabb karta över vem som hjälper med vad."

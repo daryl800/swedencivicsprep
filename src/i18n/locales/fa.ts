@@ -6,7 +6,10 @@ export const faUiText = createLocalizedUiText(enUiText, {
     appTitle: "آمادگی آزمون جامعه‌شناسی سوئد",
     lead: "با پرسش‌هایی درباره جامعه سوئد تمرین کنید تا برای آزمون شهروندی/مدنی آماده شوید.",
     languageNote: "پرسش‌ها و گزینه‌ها به سوئدی می‌مانند. بقیه برنامه با زبان انتخابی شما نمایش داده می‌شود.",
-    dailyPrompt: "با روزی ۱۰ دقیقه شروع کنید.",
+    dailyPrompt: "با ۵ پرسش شروع کنید.",
+    navStartPractice: "۵ پرسش را امتحان کنید",
+    heroPrimaryCta: "۵ پرسش سوئدی را امتحان کنید →",
+    heroSecondaryCta: "انتخاب موضوع",
     earlyAccessTitle: "راهنمای مستقل",
     earlyAccessMessage: `با Sverige i fokus مطالعه کنید
 
@@ -130,12 +133,14 @@ export const faUiText = createLocalizedUiText(enUiText, {
     progressStrong: "روز تمرین عالی.",
     topicNames: {
       democracy: "دموکراسی و انتخابات",
+      "quick-start": "تمرین سریع",
       rights: "حقوق و وظایف",
       everyday: "زندگی روزمره در سوئد",
       authorities: "اداره‌ها و خدمات"
     },
     topicFlavor: {
       democracy: "رأی‌ها، صداها و قواعد بازی دموکراتیک.",
+      "quick-start": "پنج پرسش ترکیبی سوئدی برای شروع سریع.",
       rights: "آزادی‌های خود را بشناسید؛ مسئولیت‌های مشترک را هم.",
       everyday: "سوئد عملی که در یک روز عادی با آن روبه‌رو می‌شوید.",
       authorities: "نقشه سریع این‌که چه کسی در چه چیزی کمک می‌کند."

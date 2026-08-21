@@ -6,7 +6,10 @@ export const tiUiText = createLocalizedUiText(enUiText, {
     appTitle: "ምድላው ፈተና ማሕበረሰብ ሽወደን",
     lead: "ብዛዕባ ማሕበረሰብ ሽወደን ሕቶታት ተለማመዱ ንፈተና ዜግነት ክትዳለዉ።",
     languageNote: "ሕቶታትን ምርጫታት መልስን ብሽወደንኛ ይቕጽሉ። ዝተረፈ ክፋል ናይ app ብዝመረጽኩሞ ቋንቋ ይረአ።",
-    dailyPrompt: "ብ10 ደቓይቕ ኣብ መዓልቲ ጀምሩ።",
+    dailyPrompt: "ብ5 ሕቶታት ጀምሩ።",
+    navStartPractice: "5 ሕቶታት ፈትኑ",
+    heroPrimaryCta: "5 ሽወደንኛ ሕቶታት ፈትኑ →",
+    heroSecondaryCta: "ርእሰ-ጉዳይ ምረጹ",
     earlyAccessTitle: "ናጻ መምርሒ",
     earlyAccessMessage: `ብSverige i fokus ተማሃሩ
 
@@ -130,12 +133,14 @@ Swedish Civics Test Preparation ከም ናጻ መምርሒ ልምምድ ተጠ�
     progressStrong: "ጽቡቕ መዓልቲ ልምምድ።",
     topicNames: {
       democracy: "ዲሞክራሲን ምርጫታትን",
+      "quick-start": "ፈጣን ልምምድ",
       rights: "መሰላትን ግቡኣትን",
       everyday: "ዕለታዊ ህይወት ኣብ ሽወደን",
       authorities: "ትካላትን ኣገልግሎታትን"
     },
     topicFlavor: {
       democracy: "ድምጺ፣ ምርጫታት፣ እና ሕግታት ዲሞክራሲ።",
+      "quick-start": "ብቐጥታ ንምጅማር 5 ዝተሓዋወሱ ሽወደንኛ ሕቶታት።",
       rights: "ናጽነታትኩም ፍለጡ፣ ናይ ሓባር ሓላፍነታት እውን።",
       everyday: "ኣብ ሓደ መዓልቲ ዝትረኽብዎ ተግባራዊ ሽወደን።",
       authorities: "መን ኣብ እንታይ ከምዝሕግዝ ፈጣን ካርታ።"

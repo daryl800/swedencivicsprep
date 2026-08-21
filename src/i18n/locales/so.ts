@@ -6,7 +6,10 @@ export const soUiText = createLocalizedUiText(enUiText, {
     appTitle: "Diyaarinta Imtixaanka Bulshada Iswiidhan",
     lead: "Ku tababar su'aalo ku saabsan bulshada Iswiidhan si aad ugu diyaar garowdo imtixaanka jinsiyadda.",
     languageNote: "Su'aalaha iyo doorashooyinka jawaabta waxay ku sii jiraan af Iswiidhish. Qaybaha kale ee app-ku waxay raacaan luqadda aad doorato.",
-    dailyPrompt: "Ku bilow 10 daqiiqo maalintii.",
+    dailyPrompt: "Ku bilow 5 su’aalood.",
+    navStartPractice: "Tijaabi 5 su’aalood",
+    heroPrimaryCta: "Tijaabi 5 su’aalood oo Iswiidhish ah →",
+    heroSecondaryCta: "Dooro mawduuc",
     earlyAccessTitle: "Hage madax-bannaan",
     earlyAccessMessage: `Wax ku baro Sverige i fokus
 
@@ -130,12 +133,14 @@ U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka
     progressStrong: "Maalin tababar oo xooggan.",
     topicNames: {
       democracy: "Dimuqraadiyad & Doorashooyin",
+      "quick-start": "Tababar degdeg ah",
       rights: "Xuquuq & Waajibaad",
       everyday: "Nolosha Maalinlaha ah ee Iswiidhan",
       authorities: "Hay'adaha & Adeegyada"
     },
     topicFlavor: {
       democracy: "Codad, doorashooyin, iyo xeerarka dimuqraadiyadda.",
+      "quick-start": "Shan su’aalood oo Iswiidhish ah si toos ah u bilow.",
       rights: "Ogow xorriyadahaaga iyo masuuliyadaha la wadaago.",
       everyday: "Iswiidhan-ka aad la kulanto maalin caadi ah.",
       authorities: "Khariidad degdeg ah: yaa kaa caawinaya maxay?"

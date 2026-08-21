@@ -5,13 +5,13 @@ export const enUiText: UiText = {
     appTitle: "Practice for the Swedish citizenship test",
     lead: "Based on UHR's official study material",
     languageNote: "Questions stay in Swedish. Explanations use your selected language.",
-    dailyPrompt: "Start with 10 minutes a day.",
+    dailyPrompt: "Start with 5 questions.",
     navStudyModules: "Study Modules",
     navPracticeTests: "Practice Tests",
     navAbout: "About",
-    navStartPractice: "Start 10-minute practice",
-    heroPrimaryCta: "Start 10-minute practice →",
-    heroSecondaryCta: "See practice areas",
+    navStartPractice: "Try 5 questions",
+    heroPrimaryCta: "Try 5 Swedish questions →",
+    heroSecondaryCta: "Choose a topic",
     heroTrustBadge: "Questions in Swedish • Explanations in 7 languages • Based on Sverige i fokus",
     heroMockLabel: "Practice preview",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
@@ -23,7 +23,7 @@ export const enUiText: UiText = {
     proofStats: [
       { value: "48", label: "civics practice questions" },
       { value: "13", label: "official chapters mapped" },
-      { value: "10 min/day", label: "structured study loop" }
+      { value: "5 questions", label: "quick first practice" }
     ],
     earlyAccessTitle: "Independent guide",
     earlyAccessMessage: `Study with Sverige i fokus
@@ -159,12 +159,14 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
     progressStrong: "Strong practice day.",
     topicNames: {
       democracy: "Democracy & Elections",
+      "quick-start": "Quick practice",
       rights: "Rights & Duties",
       everyday: "Everyday Life in Sweden",
       authorities: "Authorities & Services"
     },
     topicFlavor: {
       democracy: "Ballots, voices, and the rules of the game.",
+      "quick-start": "Five mixed Swedish questions to start right away.",
       rights: "Know your freedoms. Know the shared responsibilities too.",
       everyday: "The practical Sweden you meet on a normal Tuesday.",
       authorities: "A quick map of who helps with what."

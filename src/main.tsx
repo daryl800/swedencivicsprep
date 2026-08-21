@@ -16,6 +16,7 @@ import "./styles.css";
 type Route =
   | { page: "home" }
   | { page: "topic"; topicId: string }
+  | { page: "quick" }
   | { page: "progress" }
   | { page: "flashcards" }
   | { page: "feedback" }
@@ -23,6 +24,18 @@ type Route =
   | { page: "admin" };
 
 type MobileNavTarget = "home" | "study" | "practice" | "progress";
+
+const QUICK_START_TOPIC_ID = "quick-start";
+const QUICK_START_QUESTION_IDS = ["democracy-001", "rights-001", "everyday-001", "authorities-001", "democracy-002"];
+const QUICK_START_TOPIC: Topic = {
+  id: QUICK_START_TOPIC_ID,
+  nameSv: "Snabbträning",
+  nameEn: "Quick practice",
+  descriptionEn: "Try five mixed Swedish questions."
+};
+const QUICK_START_QUESTIONS = QUICK_START_QUESTION_IDS
+  .map((questionId) => QUESTIONS.find((question) => question.id === questionId))
+  .filter((question): question is Question => Boolean(question));
 
 const TOPIC_VISUALS = {
   democracy: { icon: Landmark, accent: "blue" },
@@ -200,6 +213,15 @@ function App() {
   function goTopic(topicId: string) {
     trackEvent("topic_selected", { topicId, uiLanguage: language });
     setRoute({ page: "topic", topicId });
+    setSelectedIndex(null);
+    setChecked(false);
+    setQuestionHelpVisible(false);
+  }
+
+  function goQuickPractice() {
+    trackEvent("practice_started", { mode: "quick_start", questionCount: QUICK_START_QUESTIONS.length, topicId: QUICK_START_TOPIC_ID, uiLanguage: language });
+    setQuestionIndexByTopic((current) => ({ ...current, [QUICK_START_TOPIC_ID]: 0 }));
+    setRoute({ page: "quick" });
     setSelectedIndex(null);
     setChecked(false);
     setQuestionHelpVisible(false);
@@ -390,6 +412,37 @@ function App() {
     );
   }
 
+  if (route.page === "quick") {
+    return (
+      <TopicPracticePage
+        checked={checked}
+        feedbackPromptMilestone={feedbackPromptMilestone}
+        language={language}
+        lastWasCorrect={lastWasCorrect}
+        onDismissFeedbackPrompt={handleDismissFeedbackPrompt}
+        onFeedbackPromptShown={handleFeedbackPromptShown}
+        onOpenFeedback={handleFeedbackPromptClicked}
+        onBack={goHome}
+        onCheck={handleCheck}
+        onNext={handleNext}
+        onResetProgress={handleResetProgress}
+        onReviewLesson={handleReviewLesson}
+        onSelectAnswer={setSelectedIndex}
+        onSelectLanguage={handleLanguageChange}
+        onStartPractice={handleStartPractice}
+        practiceStarted
+        progress={progress}
+        questionHelpVisible={questionHelpVisible}
+        questionIndex={questionIndexByTopic[QUICK_START_TOPIC_ID] || 0}
+        questionsOverride={QUICK_START_QUESTIONS}
+        selectedIndex={selectedIndex}
+        onToggleQuestionHelp={handleToggleQuestionHelp}
+        topic={QUICK_START_TOPIC}
+        ui={ui}
+      />
+    );
+  }
+
   if (route.page === "topic") {
     const topic = TOPICS.find((item) => item.id === route.topicId);
 
@@ -434,6 +487,7 @@ function App() {
       onOpenFlashcards={goFlashcards}
       onOpenPrivacy={goPrivacy}
       onOpenProgress={goProgress}
+      onQuickPractice={goQuickPractice}
       onSelectLanguage={handleLanguageChange}
       onSelectTopic={goTopic}
       progress={progress}
@@ -509,6 +563,10 @@ function getInitialRoute(): Route {
     return { page: "privacy" };
   }
 
+  if (page === "quick") {
+    return { page: "quick" };
+  }
+
   if (page === "progress") {
     return { page: "progress" };
   }
@@ -546,7 +604,9 @@ function useHashRoute(): [Route, (route: Route) => void] {
         ? "/"
         : nextRoute.page === "privacy"
           ? "/privacy"
-          : nextRoute.page === "progress"
+          : nextRoute.page === "quick"
+            ? "/quick"
+            : nextRoute.page === "progress"
             ? "/progress"
             : nextRoute.page === "flashcards"
               ? "/flashcards"
@@ -567,6 +627,7 @@ function HomePage({
   onOpenFlashcards,
   onOpenPrivacy,
   onOpenProgress,
+  onQuickPractice,
   onSelectLanguage,
   onSelectTopic,
   progress,
@@ -577,6 +638,7 @@ function HomePage({
   onOpenFlashcards: () => void;
   onOpenPrivacy: () => void;
   onOpenProgress: () => void;
+  onQuickPractice: () => void;
   onSelectLanguage: (language: UiLanguage) => void;
   onSelectTopic: (topicId: string) => void;
   progress: Progress;
@@ -599,7 +661,7 @@ function HomePage({
   }
 
   function handleStartPractice() {
-    onSelectTopic(TOPICS[0]?.id || "democracy");
+    onQuickPractice();
   }
 
   return (
@@ -2140,6 +2202,7 @@ type TopicPracticePageProps = {
   onStartPractice: (topicId: string) => void;
   practiceStarted: boolean;
   progress: Progress;
+  questionsOverride?: Question[];
   questionHelpVisible: boolean;
   questionIndex: number;
   selectedIndex: number | null;
@@ -2168,6 +2231,7 @@ function TopicPracticePage({
   onToggleQuestionHelp,
   practiceStarted,
   progress,
+  questionsOverride,
   questionHelpVisible,
   questionIndex,
   selectedIndex,
@@ -2175,9 +2239,9 @@ function TopicPracticePage({
   ui
 }: TopicPracticePageProps) {
   const lessonQuestionIds = new Set(lesson?.questionIds || []);
-  const questions = lesson
+  const questions = questionsOverride || (lesson
     ? QUESTIONS.filter((question) => lessonQuestionIds.has(question.id))
-    : QUESTIONS.filter((question) => question.topicId === topic.id);
+    : QUESTIONS.filter((question) => question.topicId === topic.id));
   const question = questions[questionIndex];
   const topicName = ui.topicNames[topic.id] || topic.nameEn;
   const questionNumber = questionIndex + 1;

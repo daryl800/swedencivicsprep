@@ -5,13 +5,13 @@ export const zhUiText: UiText = {
     appTitle: "入籍社会知识练习",
     lead: "做瑞典语题目，看懂错在哪里，再知道下一步该复习哪个主题。",
     languageNote: "题目保持瑞典语，解释会使用你选择的语言。",
-    dailyPrompt: "每天先练10分钟。",
+    dailyPrompt: "先做5道题。",
     navStudyModules: "学习模块",
     navPracticeTests: "练习题",
     navAbout: "关于指南",
-    navStartPractice: "开始10分钟练习",
-    heroPrimaryCta: "开始10分钟练习 →",
-    heroSecondaryCta: "查看练习主题",
+    navStartPractice: "试做5题",
+    heroPrimaryCta: "试做5道瑞典语题 →",
+    heroSecondaryCta: "选择主题",
     heroTrustBadge: "✓ 瑞典语题目 • 使用你选择的语言解释 • 基于 Sverige i fokus",
     heroMockLabel: "练习预览",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
@@ -23,7 +23,7 @@ export const zhUiText: UiText = {
     proofStats: [
       { value: "48", label: "社会知识练习题" },
       { value: "13", label: "官方章节已映射" },
-      { value: "10分钟/天", label: "结构化学习节奏" }
+      { value: "5题", label: "快速开始练习" }
     ],
     earlyAccessTitle: "独立学习指南",
     earlyAccessMessage: `配合 Sverige i fokus 学习
@@ -159,12 +159,14 @@ export const zhUiText: UiText = {
     progressStrong: "今天练习很棒。",
     topicNames: {
       democracy: "民主与选举",
+      "quick-start": "快速练习",
       rights: "权利与义务",
       everyday: "瑞典日常生活",
       authorities: "机构与公共服务"
     },
     topicFlavor: {
       democracy: "选票、声音，以及民主游戏规则。",
+      "quick-start": "先做5道混合瑞典语题。",
       rights: "了解你的自由，也了解共同责任。",
       everyday: "普通星期二也会遇到的实用瑞典生活。",
       authorities: "快速了解谁负责什么。"

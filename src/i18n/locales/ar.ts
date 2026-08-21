@@ -5,13 +5,13 @@ export const arUiText: UiText = {
     appTitle: "الاستعداد لاختبار المجتمع السويدي",
     lead: "أجب عن أسئلة سويدية، افهم أخطاءك، واعرف ما يجب مراجعته بعد ذلك.",
     languageNote: "تبقى الأسئلة باللغة السويدية. تظهر الشروحات باللغة التي تختارها.",
-    dailyPrompt: "ابدأ بعشر دقائق يومياً.",
+    dailyPrompt: "ابدأ بخمسة أسئلة.",
     navStudyModules: "مجالات الدراسة",
     navPracticeTests: "أسئلة التدريب",
     navAbout: "عن الدليل",
-    navStartPractice: "ابدأ تدريب 10 دقائق",
-    heroPrimaryCta: "ابدأ تدريب 10 دقائق →",
-    heroSecondaryCta: "شاهد مجالات التدريب",
+    navStartPractice: "جرّب 5 أسئلة",
+    heroPrimaryCta: "جرّب 5 أسئلة سويدية →",
+    heroSecondaryCta: "اختر موضوعاً",
     heroTrustBadge: "✓ أسئلة سويدية • شروحات بلغتك • مبني على Sverige i fokus",
     heroMockLabel: "معاينة التدريب",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
@@ -23,7 +23,7 @@ export const arUiText: UiText = {
     proofStats: [
       { value: "48", label: "سؤالاً في نسخة المعاينة" },
       { value: "13", label: "فصلاً رسمياً مرتبطاً" },
-      { value: "10 دقائق/يوم", label: "روتين دراسة بسيط" }
+      { value: "5 أسئلة", label: "بداية تدريب سريعة" }
     ],
     earlyAccessTitle: "دليل مستقل",
     earlyAccessMessage: `ادرس مع Sverige i fokus
@@ -159,12 +159,14 @@ export const arUiText: UiText = {
     progressStrong: "يوم تدريب ممتاز.",
     topicNames: {
       democracy: "الديمقراطية والانتخابات",
+      "quick-start": "تدريب سريع",
       rights: "الحقوق والواجبات",
       everyday: "الحياة اليومية في السويد",
       authorities: "الجهات والخدمات"
     },
     topicFlavor: {
       democracy: "أصوات وانتخابات وقواعد اللعبة الديمقراطية.",
+      "quick-start": "خمسة أسئلة سويدية مختلطة للبدء مباشرة.",
       rights: "اعرف حرياتك، واعرف المسؤوليات المشتركة أيضاً.",
       everyday: "السويد العملية التي تقابلها في يوم عادي.",
       authorities: "خريطة سريعة: من يساعدك في ماذا؟"
