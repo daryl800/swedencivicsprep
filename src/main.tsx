@@ -1492,8 +1492,8 @@ function AdminDashboardPage({
           value: String(adminStats.overview.practiceDepth)
         },
         {
-          note: "Translation toggles / questions answered",
-          title: "Language help usage",
+          note: "Question help opens / answers",
+          title: "Question help opened",
           value: `${adminStats.overview.languageHelpUsageRate}%`
         },
         {
@@ -1799,8 +1799,8 @@ function AdminDashboardPage({
         <section className="admin-panel admin-language-panel">
           <div className="admin-panel-heading">
             <div>
-              <p className="eyebrow">Language usage</p>
-              <h2>Which help languages people choose</h2>
+              <p className="eyebrow">App language choices</p>
+              <h2>Which app languages people choose</h2>
             </div>
             <MessageSquare size={24} aria-hidden="true" />
           </div>
@@ -1810,7 +1810,7 @@ function AdminDashboardPage({
                 <div className="admin-topic-row" key={item.name}>
                   <div>
                     <strong>{formatAdminLanguageName(item.name)}</strong>
-                    <span>{item.count} language change events</span>
+                    <span>{item.count} app language change events</span>
                   </div>
                   <div className="admin-topic-meter" aria-hidden="true">
                     <span style={{ width: `${maxProductionLanguageCount > 0 ? Math.round((item.count / maxProductionLanguageCount) * 100) : 0}%` }} />
@@ -1819,7 +1819,7 @@ function AdminDashboardPage({
               ))}
             </div>
           ) : (
-            <p className="admin-empty-state">No language change events yet. Change language on the live site once, then refresh this page.</p>
+            <p className="admin-empty-state">No app language change events yet. Change language on the live site once, then refresh this page.</p>
           )}
         </section>
       ) : null}
