@@ -3,7 +3,7 @@ import type { UiText } from "../uiTextTypes";
 export const svUiText: UiText = {
     eyebrow: "Svenskt medborgarskapsprov, enkelt förklarat",
     appTitle: "Träning inför medborgarskapsprovet",
-    lead: "Svara på svenska frågor, förstå dina misstag och se vilka ämnen du bör läsa härnäst.",
+    lead: "Baserat på UHR:s officiella studiematerial",
     languageNote: "Frågorna är på svenska. Förklaringarna följer valt språk.",
     dailyPrompt: "Börja med 5 frågor.",
     navStudyModules: "Studieområden",
@@ -12,7 +12,7 @@ export const svUiText: UiText = {
     navStartPractice: "Testa 5 frågor",
     heroPrimaryCta: "Testa 5 svenska frågor →",
     heroSecondaryCta: "Välj ämne",
-    heroTrustBadge: "✓ Svenska frågor • Förklaringar på valt språk • Baserat på Sverige i fokus",
+    heroTrustBadge: "Svenska frågor • Förklaringar på valt språk • Baserat på Sverige i fokus",
     heroMockLabel: "Exempel från träningen",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",

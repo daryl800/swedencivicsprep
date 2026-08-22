@@ -3,7 +3,7 @@ import type { UiText } from "../uiTextTypes";
 export const arUiText: UiText = {
     eyebrow: "اختبار المواطنة السويدية بطريقة أبسط",
     appTitle: "الاستعداد لاختبار المجتمع السويدي",
-    lead: "أجب عن أسئلة سويدية، افهم أخطاءك، واعرف ما يجب مراجعته بعد ذلك.",
+    lead: "مبني على المادة الدراسية الرسمية من UHR",
     languageNote: "تبقى الأسئلة باللغة السويدية. تظهر الشروحات باللغة التي تختارها.",
     dailyPrompt: "ابدأ بخمسة أسئلة.",
     navStudyModules: "مجالات الدراسة",
@@ -12,7 +12,7 @@ export const arUiText: UiText = {
     navStartPractice: "جرّب 5 أسئلة",
     heroPrimaryCta: "جرّب 5 أسئلة سويدية →",
     heroSecondaryCta: "اختر موضوعاً",
-    heroTrustBadge: "✓ أسئلة سويدية • شروحات بلغتك • مبني على Sverige i fokus",
+    heroTrustBadge: "أسئلة سويدية • شروحات بلغتك • مبني على Sverige i fokus",
     heroMockLabel: "معاينة التدريب",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",

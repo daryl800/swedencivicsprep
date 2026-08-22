@@ -3,7 +3,7 @@ import type { UiText } from "../uiTextTypes";
 export const zhUiText: UiText = {
     eyebrow: "瑞典入籍考试，简单练习",
     appTitle: "入籍社会知识练习",
-    lead: "做瑞典语题目，看懂错在哪里，再知道下一步该复习哪个主题。",
+    lead: "基于 UHR 的官方学习材料",
     languageNote: "题目保持瑞典语，解释会使用你选择的语言。",
     dailyPrompt: "先做5道题。",
     navStudyModules: "学习模块",
@@ -12,7 +12,7 @@ export const zhUiText: UiText = {
     navStartPractice: "试做5题",
     heroPrimaryCta: "试做5道瑞典语题 →",
     heroSecondaryCta: "选择主题",
-    heroTrustBadge: "✓ 瑞典语题目 • 使用你选择的语言解释 • 基于 Sverige i fokus",
+    heroTrustBadge: "瑞典语题目 • 使用你选择的语言解释 • 基于 Sverige i fokus",
     heroMockLabel: "练习预览",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
