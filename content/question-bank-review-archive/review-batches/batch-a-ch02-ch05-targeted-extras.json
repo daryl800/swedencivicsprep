@@ -1,0 +1,1751 @@
+[
+  {
+    "id": "draft-batch-a-ch02-001",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "En journalist begär ut kommunens underlag för ett dyrt byggprojekt. Kommunen säger att vissa personuppgifter är sekretessbelagda. Vilken bedömning passar bäst med offentlighetsprincipen?",
+    "questionEn": "A journalist requests municipal documents for an expensive construction project. The municipality says some personal data is confidential. Which assessment best fits the principle of public access?",
+    "options": [
+      "Kommunen ska normalt lämna ut offentliga handlingar, men kan maskera uppgifter som skyddas av sekretess.",
+      "Kommunen får vägra lämna ut hela ärendet eftersom journalisten kan skriva kritiskt.",
+      "Alla kommunala handlingar är alltid offentliga, även känsliga personuppgifter.",
+      "Offentlighetsprincipen gäller bara riksdagen och inte kommunala projekt."
+    ],
+    "optionsEn": [
+      "The municipality should normally release public documents, but may redact information protected by secrecy.",
+      "The municipality may refuse the whole case because the journalist might write critically.",
+      "All municipal documents are always public, including sensitive personal data.",
+      "The principle of public access only applies to the Riksdag and not municipal projects."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public access supports scrutiny, while legally protected information can be redacted or withheld.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-002",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Ett parti vinner valet men vill förbjuda medier från att kritisera regeringen. Varför är detta odemokratiskt?",
+    "questionEn": "A party wins the election but wants to ban media from criticizing the government. Why is this undemocratic?",
+    "options": [
+      "Valvinst ger inte rätt att avskaffa grundläggande friheter och granskning.",
+      "Den största gruppen får alltid ta bort yttrandefriheten.",
+      "Medier får bara granska kommuner, inte regeringen.",
+      "Kritik mot regeringen är bara tillåten före valdagen."
+    ],
+    "optionsEn": [
+      "Winning an election does not give the right to abolish basic freedoms and scrutiny.",
+      "The largest group may always remove freedom of expression.",
+      "Media may only scrutinize municipalities, not the government.",
+      "Criticism of the government is only allowed before election day."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democracy includes elections, rights, free media, and limits on power.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-003",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Vad visar det att medborgare kan bilda föreningar för att påverka en lokal fråga?",
+    "questionEn": "What does it show that citizens can form associations to influence a local issue?",
+    "options": [
+      "Föreningsfrihet och möjlighet till demokratiskt deltagande.",
+      "Att föreningar får ersätta kommunfullmäktige.",
+      "Att bara föreningsmedlemmar får rösta.",
+      "Att lokala frågor aldrig får beslutas politiskt."
+    ],
+    "optionsEn": [
+      "Freedom of association and the possibility of democratic participation.",
+      "That associations may replace the municipal council.",
+      "That only association members may vote.",
+      "That local issues may never be decided politically."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Associations are one way people can organize and influence society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-004",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "En myndighet behandlar två liknande ärenden olika utan saklig förklaring. Vilket demokratiskt problem uppstår?",
+    "questionEn": "A public authority treats two similar cases differently without an objective explanation. What democratic problem arises?",
+    "options": [
+      "Rättssäkerhet och likabehandling försvagas.",
+      "Myndigheten får själv välja vilka ärenden som ska få samma svar.",
+      "Olikheten visar bara att riksdagen har ändrat lagen i det tysta.",
+      "Så länge båda parter får ett svar spelar det ingen roll om svaren skiljer sig."
+    ],
+    "optionsEn": [
+      "Legal certainty and equal treatment are weakened.",
+      "The authority may decide for itself which cases should get the same answer.",
+      "The difference only shows that the Riksdag has secretly changed the law.",
+      "As long as both parties get an answer, it does not matter if the answers differ."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rule of law requires authorities to act objectively, predictably, and equally in similar cases.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-005",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Varför kan lågt valdeltagande vara ett problem för demokratin?",
+    "questionEn": "Why can low voter turnout be a problem for democracy?",
+    "options": [
+      "Färre väljare påverkar vilka beslut som får demokratisk förankring.",
+      "Valdeltagandet avgör enbart hur lång tid rösträkningen tar.",
+      "Färre röster innebär att riksdagen automatiskt upplöses.",
+      "Lågt deltagande betyder att medborgarna förlorar sin rösträtt."
+    ],
+    "optionsEn": [
+      "Fewer voters influence which decisions get democratic legitimacy.",
+      "Turnout only decides how long vote counting takes.",
+      "Fewer votes mean the Riksdag is automatically dissolved.",
+      "Low participation means citizens lose their right to vote."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "When fewer people vote, elected bodies may reflect a smaller part of the population.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-006",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "En majoritet vill stoppa en minoritet från att hålla fredliga möten. Vilket svar passar bäst i en demokrati?",
+    "questionEn": "A majority wants to stop a minority from holding peaceful meetings. Which answer best fits a democracy?",
+    "options": [
+      "Majoritetsbeslut måste respektera grundläggande fri- och rättigheter.",
+      "Majoriteten får alltid begränsa minoriteters möten.",
+      "Mötesfrihet gäller bara grupper som redan har makt.",
+      "Minoriteter behöver tillstånd från majoritetspartiet."
+    ],
+    "optionsEn": [
+      "Majority decisions must respect basic freedoms and rights.",
+      "The majority may always limit minorities’ meetings.",
+      "Freedom of assembly only applies to groups already in power.",
+      "Minorities need permission from the majority party."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democracy combines majority rule with protection of individual and minority rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-007",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Vad är ett exempel på demokratisk ansvarsutkrävning?",
+    "questionEn": "What is an example of democratic accountability?",
+    "options": [
+      "Väljare kan rösta bort politiker som de inte längre har förtroende för.",
+      "Partierna granskar varandra och byter ledare internt utan val.",
+      "Myndigheterna avgör slutgiltigt om en politiker har gjort fel.",
+      "Media väljer vilka politiker som får fortsätta sitta kvar."
+    ],
+    "optionsEn": [
+      "Voters can vote out politicians they no longer trust.",
+      "Parties review each other and change leaders internally without elections.",
+      "Authorities make the final decision on whether a politician has done wrong.",
+      "Media choose which politicians may continue in office."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Elections let voters hold politicians accountable by replacing them.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-008",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "En politiker säger att domstolar bör döma efter regeringens program. Vad strider detta mot?",
+    "questionEn": "A politician says courts should judge according to the government’s programme. What does this conflict with?",
+    "options": [
+      "Domstolarnas oberoende och principen att döma enligt lag.",
+      "Kommunalt självstyre i skolfrågor.",
+      "Partiers rätt att trycka valsedlar.",
+      "Riksbankens ansvar för räntan."
+    ],
+    "optionsEn": [
+      "The independence of courts and the principle of judging according to law.",
+      "Municipal self-government in school matters.",
+      "Parties’ right to print ballot papers.",
+      "The central bank’s responsibility for interest rates."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Independent courts should apply law, not the government’s political programme.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-009",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Varför är offentlighetsprincipen viktig för medborgare?",
+    "questionEn": "Why is the principle of public access important for citizens?",
+    "options": [
+      "Den gör det lättare att granska myndigheter och politiska beslut.",
+      "Den gör alla privata mejl offentliga.",
+      "Den ersätter behovet av fria val.",
+      "Den ger medier rätt att döma i brottmål."
+    ],
+    "optionsEn": [
+      "It makes it easier to scrutinize authorities and political decisions.",
+      "It makes all private emails public.",
+      "It replaces the need for free elections.",
+      "It gives media the right to judge criminal cases."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public access supports insight into public power.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-010",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "En kommun vill hemlighålla alla avtal för att slippa kritik. Vilken invändning är starkast?",
+    "questionEn": "A municipality wants to keep all contracts secret to avoid criticism. What is the strongest objection?",
+    "options": [
+      "Offentlig verksamhet ska normalt kunna granskas, även om sekretess ibland kan gälla.",
+      "Alla avtal i kommuner måste alltid vara hemliga.",
+      "Kritik mot kommuner är förbjuden mellan val.",
+      "Sekretess bestäms fritt av varje politiker."
+    ],
+    "optionsEn": [
+      "Public activity should normally be open to scrutiny, even though secrecy can sometimes apply.",
+      "All municipal contracts must always be secret.",
+      "Criticism of municipalities is forbidden between elections.",
+      "Secrecy is decided freely by each politician."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Transparency is the rule in public administration, with specific legal exceptions for secrecy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-011",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Vad visar en fredlig demonstration mot ett regeringsbeslut?",
+    "questionEn": "What does a peaceful demonstration against a government decision show?",
+    "options": [
+      "Att människor kan använda grundläggande friheter för att påverka samhället.",
+      "Att regeringen automatiskt måste avgå samma dag.",
+      "Att demonstranter får skriva nya lagar direkt.",
+      "Att bara personer utan parti får ha åsikter."
+    ],
+    "optionsEn": [
+      "That people can use basic freedoms to influence society.",
+      "That the government must automatically resign the same day.",
+      "That demonstrators may write new laws directly.",
+      "That only people without a party may have opinions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Demonstrations are a democratic way to express opinions and influence debate.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-012",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "En vald majoritet vill ändra grundlagen snabbt före nästa val. Varför är grundlagar svårare att ändra?",
+    "questionEn": "An elected majority wants to change the constitution quickly before the next election. Why are constitutional laws harder to change?",
+    "options": [
+      "För att skydda demokratins spelregler från snabba maktbeslut.",
+      "För att bara regeringen ska kunna ändra dem i hemlighet.",
+      "För att domstolar ska kunna ändra dem varje år.",
+      "För att grundlagar saknar betydelse i praktiken."
+    ],
+    "optionsEn": [
+      "To protect the rules of democracy from quick power decisions.",
+      "So only the government can change them secretly.",
+      "So courts can change them every year.",
+      "Because constitutional laws have no practical importance."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Constitutional laws are harder to change because they protect fundamental democratic rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-013",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Vad betyder det att Sverige har representativ demokrati på kommunal nivå?",
+    "questionEn": "What does representative democracy mean at municipal level in Sweden?",
+    "options": [
+      "Invånarna väljer kommunfullmäktige som fattar lokala beslut.",
+      "Alla invånare röstar direkt om varje skolmatsedel.",
+      "Kommunens tjänstemän väljer vilka partier som får styra.",
+      "Regionen utser kommunfullmäktige efter varje vårdval."
+    ],
+    "optionsEn": [
+      "Residents elect the municipal council, which makes local decisions.",
+      "All residents vote directly on every school lunch menu.",
+      "Municipal officials choose which parties may govern.",
+      "The region appoints the municipal council after each healthcare election."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipal representative democracy means elected representatives decide local issues.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-014",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "En myndighet publicerar bara information som gynnar ett parti före valet. Vilken demokratisk princip hotas?",
+    "questionEn": "An authority publishes only information that benefits one party before an election. Which democratic principle is threatened?",
+    "options": [
+      "Myndigheters saklighet och opartiskhet.",
+      "Rätten att betala kommunalskatt.",
+      "Domstolarnas möjlighet att ge prejudikat.",
+      "Regionernas ansvar för sjukvård."
+    ],
+    "optionsEn": [
+      "The objectivity and impartiality of authorities.",
+      "The right to pay municipal tax.",
+      "Courts’ ability to create precedent.",
+      "Regions’ responsibility for healthcare."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Authorities must act objectively and impartially, especially around elections.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-015",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Varför behövs flera oberoende informationskällor i en demokrati?",
+    "questionEn": "Why are several independent sources of information needed in a democracy?",
+    "options": [
+      "För att människor ska kunna jämföra uppgifter och bilda egna åsikter.",
+      "För att staten ska välja en enda godkänd nyhetskälla.",
+      "För att partier ska slippa svara på kritik.",
+      "För att valhemligheten ska tas bort."
+    ],
+    "optionsEn": [
+      "So people can compare information and form their own opinions.",
+      "So the state can choose one approved news source.",
+      "So parties do not need to answer criticism.",
+      "So ballot secrecy can be removed."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Independent information helps citizens make informed democratic choices.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-001",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "government",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "En minister säger offentligt att en domstol bör döma en viss person hårdare. Varför är detta problematiskt i Sveriges statsskick?",
+    "questionEn": "A minister publicly says that a court should sentence a specific person more harshly. Why is this problematic in Sweden’s system of government?",
+    "options": [
+      "Domstolar ska döma självständigt enligt lag, utan politiska instruktioner i enskilda fall.",
+      "Ministrar får bara uttala sig om domar om riksdagen först röstar om saken.",
+      "Regeringen leder domstolarna och ska därför bestämma straffnivån i viktiga mål.",
+      "Domstolar får bara döma efter råd från Justitiedepartementet."
+    ],
+    "optionsEn": [
+      "Courts must judge independently according to law, without political instructions in individual cases.",
+      "Ministers may only comment on judgments if the Riksdag first votes on the matter.",
+      "The government leads the courts and should therefore decide penalties in important cases.",
+      "Courts may only judge after advice from the Ministry of Justice."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Separation of powers and judicial independence mean politicians must not direct courts in individual cases.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-002",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "Regeringen vill genomföra en reform men saknar stöd i riksdagen. Vad visar situationen?",
+    "questionEn": "The government wants to implement a reform but lacks support in the Riksdag. What does the situation show?",
+    "options": [
+      "Regeringen behöver riksdagens stöd för lagar och budgetbeslut.",
+      "Regeringen kan alltid skriva egna lagar utan riksdagen.",
+      "Myndigheter får rösta i riksdagen i stället.",
+      "Kungen avgör om reformen ska antas."
+    ],
+    "optionsEn": [
+      "The government needs Riksdag support for laws and budget decisions.",
+      "The government can always write its own laws without the Riksdag.",
+      "Authorities may vote in the Riksdag instead.",
+      "The king decides whether the reform is adopted."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The government governs, but the Riksdag makes laws and decides the budget.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-003",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "Vad är en statlig myndighets huvuduppgift?",
+    "questionEn": "What is the main task of a state authority?",
+    "options": [
+      "Att genomföra lagar och beslut inom sitt ansvarsområde.",
+      "Att bilda regering efter varje val.",
+      "Att skriva grundlagar utan riksdagen.",
+      "Att välja vilka partier som får delta i val."
+    ],
+    "optionsEn": [
+      "To implement laws and decisions within its area of responsibility.",
+      "To form government after every election.",
+      "To write constitutional laws without the Riksdag.",
+      "To choose which parties may participate in elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Authorities implement laws and government decisions in practice.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-004",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "En minister vill bestämma hur en myndighet ska besluta i ett enskilt ärende. Varför kan det vara problematiskt?",
+    "questionEn": "A minister wants to decide how an authority should decide an individual case. Why can this be problematic?",
+    "options": [
+      "Myndigheter ska fatta enskilda beslut enligt lag, inte ministerstyre.",
+      "Ministrar får alltid ändra enskilda beslut muntligt.",
+      "Myndigheter saknar ansvar inför lagar.",
+      "Enskilda ärenden avgörs alltid av partiledare."
+    ],
+    "optionsEn": [
+      "Authorities should make individual decisions according to law, not ministerial rule.",
+      "Ministers may always change individual decisions orally.",
+      "Authorities have no responsibility before laws.",
+      "Individual cases are always decided by party leaders."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish administration limits ministerial interference in individual authority decisions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-005",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "Vad gör riksdagens talman efter ett val när en regering ska bildas?",
+    "questionEn": "What does the Speaker of the Riksdag do after an election when a government is to be formed?",
+    "options": [
+      "Leder samtal och föreslår statsminister för riksdagen.",
+      "Utser själv alla ministrar utan omröstning.",
+      "Blir automatiskt statsminister.",
+      "Skriver partiernas valprogram."
+    ],
+    "optionsEn": [
+      "Leads talks and proposes a prime minister to the Riksdag.",
+      "Personally appoints all ministers without a vote.",
+      "Automatically becomes prime minister.",
+      "Writes the parties’ election programmes."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Speaker leads the process of proposing a prime minister.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-006",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "En regering består av partier som inte har egen majoritet. Hur kan den ändå styra?",
+    "questionEn": "A government consists of parties that do not have their own majority. How can it still govern?",
+    "options": [
+      "Om tillräckligt många riksdagsledamöter tolererar den och dess förslag kan få stöd.",
+      "Om regeringen förbjuder oppositionen att rösta.",
+      "Om domstolar ger regeringen extra mandat.",
+      "Om kungen röstar för regeringen i riksdagen."
+    ],
+    "optionsEn": [
+      "If enough members of the Riksdag tolerate it and its proposals can gain support.",
+      "If the government forbids the opposition from voting.",
+      "If courts give the government extra seats.",
+      "If the king votes for the government in the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Minority governments can govern when they are tolerated by the Riksdag and negotiate support.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-007",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "regional-government",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "En region vill prioritera fler vårdcentraler, men kommunen vill använda pengar till äldreomsorg. Varför kan båda frågorna vara politiska utan att samma nivå ansvarar för dem?",
+    "questionEn": "A region wants to prioritize more health centres, while the municipality wants to spend money on elderly care. Why can both issues be political even though the same level is not responsible for them?",
+    "options": [
+      "Regioner och kommuner har olika ansvarsområden och egna valda församlingar.",
+      "Kommunen bestämmer alltid över regionens sjukvårdsbudget.",
+      "Regionen ansvarar för alla lokala frågor utom riksdagsval.",
+      "Riksdagen utser varje kommuns och regions politiker efter valet."
+    ],
+    "optionsEn": [
+      "Regions and municipalities have different responsibilities and their own elected assemblies.",
+      "The municipality always controls the region’s healthcare budget.",
+      "The region is responsible for all local issues except parliamentary elections.",
+      "The Riksdag appoints each municipality’s and region’s politicians after the election."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish self-government is divided: regions mainly handle healthcare, while municipalities handle local services such as elderly care.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-008",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "En invånare klagar på att både kommun och region hänvisar till varandra. Vilken kunskap hjälper personen?",
+    "questionEn": "A resident complains that both municipality and region refer to each other. What knowledge helps the person?",
+    "options": [
+      "Att olika samhällsnivåer har olika ansvar, till exempel kommunal omsorg och regional vård.",
+      "Att kommun och region alltid är samma organisation.",
+      "Att staten förbjuder invånare att överklaga lokala beslut.",
+      "Att partier inte får arbeta i regioner."
+    ],
+    "optionsEn": [
+      "That different levels of society have different responsibilities, such as municipal care and regional healthcare.",
+      "That municipality and region are always the same organization.",
+      "That the state forbids residents from appealing local decisions.",
+      "That parties may not work in regions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Knowing responsibility levels helps people contact the right public body.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-009",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "Vad betyder kommunalt självstyre i praktiken?",
+    "questionEn": "What does municipal self-government mean in practice?",
+    "options": [
+      "Kommuner beslutar om många lokala frågor inom lagens ramar.",
+      "Kommuner står över Sveriges grundlagar.",
+      "Kommuner får driva egen utrikespolitik.",
+      "Kommuner väljer riksdagens talman."
+    ],
+    "optionsEn": [
+      "Municipalities decide many local issues within the limits of law.",
+      "Municipalities stand above Sweden’s constitutional laws.",
+      "Municipalities may conduct their own foreign policy.",
+      "Municipalities choose the Speaker of the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipal self-government gives local democratic responsibility within national law.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-010",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "Riksdagen riktar misstroende mot ett statsråd. Vad kan följden bli?",
+    "questionEn": "The Riksdag directs a motion of no confidence against a minister. What can be the consequence?",
+    "options": [
+      "Statsrådet kan tvingas avgå.",
+      "Statsrådet får automatiskt fler röster i riksdagen.",
+      "Riksdagen måste upplösas av domstol.",
+      "Kommunerna tar över departementet."
+    ],
+    "optionsEn": [
+      "The minister may be forced to resign.",
+      "The minister automatically gets more votes in the Riksdag.",
+      "The Riksdag must be dissolved by a court.",
+      "Municipalities take over the ministry."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A successful no-confidence vote can force a minister or government to resign.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-011",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "law-making",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "Regeringen vill ändra en lag men saknar stöd i riksdagen. Vad visar situationen om hur Sverige styrs?",
+    "questionEn": "The government wants to change a law but lacks support in the Riksdag. What does this show about how Sweden is governed?",
+    "options": [
+      "Regeringen kan föreslå lagar, men riksdagen beslutar om lagar.",
+      "Regeringen kan ändra lagen själv om statsministern håller presskonferens.",
+      "Myndigheter kan anta lagen tillfälligt tills riksdagen håller val.",
+      "Domstolarna ersätter riksdagen när regeringen saknar majoritet."
+    ],
+    "optionsEn": [
+      "The government can propose laws, but the Riksdag decides on laws.",
+      "The government can change the law itself if the prime minister holds a press conference.",
+      "Authorities can adopt the law temporarily until the Riksdag holds an election.",
+      "Courts replace the Riksdag when the government lacks a majority."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A government bill still needs support in the Riksdag because the Riksdag is the law-making body.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-012",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "Varför skickas många förslag på remiss innan beslut?",
+    "questionEn": "Why are many proposals sent for consultation before a decision?",
+    "options": [
+      "För att berörda aktörer och experter ska kunna lämna synpunkter.",
+      "För att domstolar ska rösta i riksdagen.",
+      "För att regeringen ska slippa offentlig debatt.",
+      "För att EU automatiskt ska skriva om förslaget."
+    ],
+    "optionsEn": [
+      "So affected actors and experts can submit comments.",
+      "So courts can vote in the Riksdag.",
+      "So the government can avoid public debate.",
+      "So the EU automatically rewrites the proposal."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Consultation helps decision-makers identify consequences and gather expertise.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-013",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "Vilken roll har kommunfullmäktige?",
+    "questionEn": "What role does the municipal council have?",
+    "options": [
+      "Det är kommunens högsta beslutande organ.",
+      "Det förbereder och genomför statliga myndigheters beslut i kommunen.",
+      "Det handlägger enskilda ärenden som rör skola och omsorg.",
+      "Det anställer kommunens tjänstemän och deras chefer."
+    ],
+    "optionsEn": [
+      "It is the municipality’s highest decision-making body.",
+      "It prepares and carries out central government authority decisions in the municipality.",
+      "It handles individual cases about school and care.",
+      "It hires the municipality’s officials and their managers."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The municipal council is elected by residents and makes the municipality’s main political decisions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-014",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "En region prioriterar vårdköer i sin budget. Vilken demokratisk koppling finns?",
+    "questionEn": "A region prioritizes healthcare queues in its budget. What is the democratic connection?",
+    "options": [
+      "Väljarna kan påverka regionala prioriteringar genom regionval.",
+      "Vårdbudgetar bestäms bara av privata sjukhus.",
+      "Regioner saknar valda politiker.",
+      "Riksbanken beslutar vårdköernas längd."
+    ],
+    "optionsEn": [
+      "Voters can influence regional priorities through regional elections.",
+      "Healthcare budgets are decided only by private hospitals.",
+      "Regions have no elected politicians.",
+      "The Riksbank decides the length of healthcare queues."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Regional elections influence political priorities in healthcare.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-015",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "Vad innebär att kungen är statschef men inte styr landet politiskt?",
+    "questionEn": "What does it mean that the king is head of state but does not govern politically?",
+    "options": [
+      "Kungen har ceremoniella uppgifter medan politiska beslut fattas demokratiskt.",
+      "Kungen kan stoppa alla lagar han ogillar.",
+      "Kungen väljer regering efter egen politisk vilja.",
+      "Kungen röstar i riksdagen vid lika resultat."
+    ],
+    "optionsEn": [
+      "The king has ceremonial duties while political decisions are made democratically.",
+      "The king can stop all laws he dislikes.",
+      "The king chooses government according to his own political will.",
+      "The king votes in the Riksdag when there is a tie."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden is a constitutional monarchy where political power is democratic.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-001",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Vad betyder personröstning i svenska val?",
+    "questionEn": "What does personal voting mean in Swedish elections?",
+    "options": [
+      "Väljaren kan markera en särskild kandidat på partiets lista.",
+      "Väljaren får rösta på två partier samtidigt.",
+      "Partiledaren får en extra röst i riksdagen.",
+      "Valmyndigheten väljer kandidat åt väljaren."
+    ],
+    "optionsEn": [
+      "The voter can mark a specific candidate on the party’s list.",
+      "The voter may vote for two parties at the same time.",
+      "The party leader gets an extra vote in the Riksdag.",
+      "The Election Authority chooses a candidate for the voter."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A personal vote lets a voter support a candidate while voting for a party.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-002",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "En väljare fotograferar sin valsedel för att visa sin chef hur hen röstat. Vilken princip blir relevant?",
+    "questionEn": "A voter photographs their ballot to show their boss how they voted. Which principle becomes relevant?",
+    "options": [
+      "Valhemligheten skyddar väljaren från kontroll och påtryckningar.",
+      "Arbetsgivaren har rätt att kontrollera alla anställdas röster.",
+      "Fotografering gör rösten automatiskt dubbelt värd.",
+      "Chefen måste godkänna valsedeln före valdagen."
+    ],
+    "optionsEn": [
+      "Ballot secrecy protects the voter from control and pressure.",
+      "The employer has the right to check all employees’ votes.",
+      "Taking a photo automatically makes the vote worth double.",
+      "The boss must approve the ballot before election day."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Ballot secrecy protects free voting without pressure.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-003",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Vem ansvarar för att organisera allmänna val i Sverige?",
+    "questionEn": "Who is responsible for organizing general elections in Sweden?",
+    "options": [
+      "Valmyndigheten tillsammans med kommunernas valnämnder.",
+      "Högsta domstolen och privata opinionsinstitut.",
+      "Riksbanken och arbetsmarknadens parter.",
+      "Public service och dagstidningarna."
+    ],
+    "optionsEn": [
+      "The Election Authority together with municipal election committees.",
+      "The Supreme Court and private polling institutes.",
+      "The Riksbank and labour market parties.",
+      "Public service and daily newspapers."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Election Authority and local election administration organize elections.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-004",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Ett parti får 3,9 procent nationellt men starkt stöd i en valkrets. Vad är viktigt att känna till?",
+    "questionEn": "A party gets 3.9 percent nationally but strong support in one constituency. What is important to know?",
+    "options": [
+      "Det finns en nationell fyraprocentsspärr och en valkretsregel på 12 procent.",
+      "Partiet får alltid exakt hälften av mandaten.",
+      "Alla röster under fyra procent ges till största partiet.",
+      "Valkretsar används bara i kommunval, inte riksdagsval."
+    ],
+    "optionsEn": [
+      "There is a national 4 percent threshold and a 12 percent constituency rule.",
+      "The party always gets exactly half of the seats.",
+      "All votes below four percent are given to the largest party.",
+      "Constituencies are only used in municipal elections, not Riksdag elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Riksdag representation normally requires 4% nationally or 12% in one constituency.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-005",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Vad är en blank röst?",
+    "questionEn": "What is a blank vote?",
+    "options": [
+      "En röst utan valt parti som räknas som avgiven men inte ger mandat.",
+      "En röst som automatiskt går till regeringen.",
+      "En röst som räknas två gånger vid lågt valdeltagande.",
+      "En röst som bara får lämnas av personer utan medborgarskap."
+    ],
+    "optionsEn": [
+      "A vote without a chosen party that counts as cast but gives no seat.",
+      "A vote that automatically goes to the government.",
+      "A vote counted twice when turnout is low.",
+      "A vote that may only be cast by people without citizenship."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A blank vote is a way to participate without choosing a party.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-006",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "En person med permanent uppehållstillstånd vill rösta i riksdagsvalet. Vad krävs?",
+    "questionEn": "A person with permanent residence wants to vote in the Riksdag election. What is required?",
+    "options": [
+      "Svenskt medborgarskap och ålder enligt rösträttsreglerna.",
+      "Bara att personen betalar kommunalskatt.",
+      "Medlemskap i ett svenskt parti.",
+      "Tillstånd från arbetsgivaren."
+    ],
+    "optionsEn": [
+      "Swedish citizenship and age according to voting-right rules.",
+      "Only that the person pays municipal tax.",
+      "Membership in a Swedish party.",
+      "Permission from the employer."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Riksdag voting rights require Swedish citizenship and meeting the age rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-007",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Varför har partier valmanifest eller partiprogram?",
+    "questionEn": "Why do parties have election manifestos or party programmes?",
+    "options": [
+      "För att visa vilka idéer och förslag de vill driva.",
+      "För att ersätta lagboken under valåret.",
+      "För att Valmyndigheten ska skriva deras politik.",
+      "För att domstolar ska välja partiledare."
+    ],
+    "optionsEn": [
+      "To show which ideas and proposals they want to pursue.",
+      "To replace the law book during election year.",
+      "So the Election Authority can write their politics.",
+      "So courts can choose party leaders."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Party programmes help voters compare political alternatives.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-008",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Två partier bildar regering men tycker olika i skattefrågor. Vad krävs ofta?",
+    "questionEn": "Two parties form a government but disagree on tax issues. What is often required?",
+    "options": [
+      "Förhandling och kompromisser.",
+      "Att ett parti förbjuds att rösta.",
+      "Att kungen skriver budgeten.",
+      "Att oppositionen förlorar yttrandefriheten."
+    ],
+    "optionsEn": [
+      "Negotiation and compromise.",
+      "That one party is forbidden from voting.",
+      "That the king writes the budget.",
+      "That the opposition loses freedom of expression."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Coalition politics often requires negotiation and compromise.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-009",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "parties",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Ett parti sitter inte i regeringen men ställer kritiska frågor i riksdagen och föreslår en annan budget. Vilken roll visar detta?",
+    "questionEn": "A party is not in government but asks critical questions in the Riksdag and proposes a different budget. What role does this show?",
+    "options": [
+      "Oppositionen granskar regeringen och visar politiska alternativ.",
+      "Partiet har lämnat demokratin eftersom det inte styr landet.",
+      "Partiet arbetar som domstol när regeringen fattar beslut.",
+      "Partiet får automatiskt ta över regeringen vid nästa sammanträde."
+    ],
+    "optionsEn": [
+      "The opposition scrutinizes the government and shows political alternatives.",
+      "The party has left democracy because it does not govern the country.",
+      "The party works as a court when the government makes decisions.",
+      "The party automatically takes over the government at the next meeting."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Opposition parties are important because they scrutinize those in power and present alternatives to voters.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-010",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Varför kan förtidsröstning öka valdeltagandet utan att ta bort valhemligheten?",
+    "questionEn": "Why can advance voting increase turnout without removing ballot secrecy?",
+    "options": [
+      "Fler får praktisk möjlighet att rösta, men rösten hanteras fortfarande enligt valregler.",
+      "Förtidsröster behöver inte räknas hemligt.",
+      "Partier får läsa förtidsröster innan valdagen.",
+      "Förtidsröstning gäller bara kommunpolitiker."
+    ],
+    "optionsEn": [
+      "More people get a practical chance to vote, but the vote is still handled under election rules.",
+      "Advance votes do not need to be counted secretly.",
+      "Parties may read advance votes before election day.",
+      "Advance voting only applies to municipal politicians."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Advance voting improves access while preserving election safeguards.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-011",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "elections",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Valdeltagandet sjunker i flera områden medan andra områden röstar mycket. Varför kan partier och myndigheter följa detta noga?",
+    "questionEn": "Turnout falls in several areas while other areas vote a lot. Why may parties and authorities follow this closely?",
+    "options": [
+      "Det kan visa skillnader i delaktighet och förtroende mellan grupper och platser.",
+      "Det avgör automatiskt vilka röster som ska räknas först.",
+      "Det betyder att områden med lågt deltagande förlorar sina mandat.",
+      "Det gör att kommuner får ändra valresultatet efteråt."
+    ],
+    "optionsEn": [
+      "It can show differences in participation and trust between groups and places.",
+      "It automatically decides which votes should be counted first.",
+      "It means areas with low turnout lose their seats.",
+      "It lets municipalities change the election result afterwards."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Turnout patterns can reveal whether democratic participation is broad or uneven.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-012",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "elections",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "I en valdebatt lovar ett parti både kortare vårdköer och mer resurser till grundskolan. Varför behöver väljaren förstå olika politiska nivåer?",
+    "questionEn": "In an election debate, a party promises both shorter healthcare queues and more resources for compulsory school. Why does the voter need to understand different political levels?",
+    "options": [
+      "Olika frågor beslutas på olika nivåer, så löften kan gälla region, kommun eller stat.",
+      "Alla sådana löften beslutas bara av EU efter svenska val.",
+      "Partier får inte prata om frågor som ligger på olika nivåer.",
+      "Väljaren röstar på en nivå, och den nivån bestämmer sedan allt annat."
+    ],
+    "optionsEn": [
+      "Different issues are decided at different levels, so promises may concern region, municipality, or state.",
+      "All such promises are decided only by the EU after Swedish elections.",
+      "Parties may not talk about issues that belong to different levels.",
+      "The voter votes at one level, and that level then decides everything else."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Election promises can concern different responsibilities, so voters need to know which level controls which issue.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-013",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Vilka val hålls normalt samtidigt i Sverige vart fjärde år?",
+    "questionEn": "Which elections are normally held at the same time in Sweden every four years?",
+    "options": [
+      "Val till riksdag, regionfullmäktige och kommunfullmäktige.",
+      "Val till riksdag och kommun, men regionvalen hålls varje år.",
+      "Endast riksdagsval; kommun och region utser sina politiker internt.",
+      "Riksdag, region och kommun väljs samtidigt, och EU-valen hålls samma dag."
+    ],
+    "optionsEn": [
+      "Elections to the Riksdag, regional councils, and municipal councils.",
+      "Elections to the Riksdag and municipality, but regional elections are held every year.",
+      "Only parliamentary elections; municipalities and regions appoint their politicians internally.",
+      "Riksdag, region, and municipality are elected together, and EU elections are held the same day."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "General elections to the Riksdag, regions, and municipalities are normally held on the same day every four years.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-014",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "En väljare väljer parti enbart efter en viral video. Vilken demokratisk färdighet blir viktig?",
+    "questionEn": "A voter chooses a party only based on a viral video. Which democratic skill becomes important?",
+    "options": [
+      "Källkritik och att jämföra flera uppgifter.",
+      "Att rösta flera gånger för säkerhets skull.",
+      "Att låta sociala medier fylla i valsedeln.",
+      "Att undvika all politisk information."
+    ],
+    "optionsEn": [
+      "Source criticism and comparing several pieces of information.",
+      "Voting several times just to be safe.",
+      "Letting social media fill in the ballot.",
+      "Avoiding all political information."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Source criticism helps voters make informed choices.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-015",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "elections",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Ett parti får många röster i hela landet men inte tillräckligt för att nå riksdagsspärren. Varför finns spärrar i proportionella val?",
+    "questionEn": "A party gets many votes across the country but not enough to pass the parliamentary threshold. Why do thresholds exist in proportional elections?",
+    "options": [
+      "De ska balansera representation med möjligheten att få ett fungerande parlament.",
+      "De gör att bara partier i regeringen får mandat.",
+      "De låter Valmyndigheten välja bort partier efter politiskt innehåll.",
+      "De betyder att röster på små partier aldrig räknas i valet."
+    ],
+    "optionsEn": [
+      "They balance representation with the possibility of having a functioning parliament.",
+      "They mean only parties in government receive seats.",
+      "They let the Election Authority exclude parties based on political content.",
+      "They mean votes for small parties are never counted in the election."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Thresholds limit fragmentation while proportional elections still aim to reflect voter support.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-001",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Vad betyder rättssäkerhet i kontakt med en myndighet?",
+    "questionEn": "What does rule of law mean in contact with an authority?",
+    "options": [
+      "Beslut ska följa lag, motiveras och ofta kunna överklagas.",
+      "Myndigheten får bestämma olika varje dag utan skäl.",
+      "Den som känner en tjänsteman får alltid förtur.",
+      "Lagar gäller bara i domstol, inte hos myndigheter."
+    ],
+    "optionsEn": [
+      "Decisions should follow law, be explained, and often be possible to appeal.",
+      "The authority may decide differently every day without reason.",
+      "Someone who knows an official always gets priority.",
+      "Laws only apply in court, not at authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rule of law protects individuals in contact with public power.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-002",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "En person blir straffad för något som inte var olagligt när det hände. Vilken princip hotas?",
+    "questionEn": "A person is punished for something that was not illegal when it happened. Which principle is threatened?",
+    "options": [
+      "Förbudet mot retroaktiv strafflag.",
+      "Valhemligheten.",
+      "Kommunalt självstyre.",
+      "Föreningsfriheten."
+    ],
+    "optionsEn": [
+      "The ban on retroactive criminal law.",
+      "Ballot secrecy.",
+      "Municipal self-government.",
+      "Freedom of association."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Criminal law should not punish acts that were not crimes when committed.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-003",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Vad är en åklagares roll i ett brottmål?",
+    "questionEn": "What is a prosecutor’s role in a criminal case?",
+    "options": [
+      "Att leda förundersökning och väcka åtal när bevis räcker.",
+      "Att försvara den misstänkte i domstol.",
+      "Att skriva domstolens dom.",
+      "Att bestämma riksdagens strafflagar ensam."
+    ],
+    "optionsEn": [
+      "To lead the preliminary investigation and bring charges when evidence is sufficient.",
+      "To defend the suspect in court.",
+      "To write the court’s judgment.",
+      "To decide the Riksdag’s criminal laws alone."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The prosecutor represents the public side and decides on prosecution.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-004",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Polisen misstänker ett brott men bevisen räcker inte. Vad visar detta om rättsstaten?",
+    "questionEn": "The police suspect a crime but the evidence is not enough. What does this show about the rule of law?",
+    "options": [
+      "Misstankar måste prövas med bevis och rättsliga regler.",
+      "Misstanke räcker alltid för fällande dom.",
+      "Polisen får själv bestämma straff utan domstol.",
+      "Medier kan döma när domstolen tvekar."
+    ],
+    "optionsEn": [
+      "Suspicions must be tested with evidence and legal rules.",
+      "Suspicion is always enough for conviction.",
+      "The police may decide punishment without a court.",
+      "Media can judge when the court hesitates."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rule of law requires evidence and legal process.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-005",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Vad innebär offentlig försvarare?",
+    "questionEn": "What does public defense counsel mean?",
+    "options": [
+      "En jurist som kan utses för att försvara en misstänkt eller åtalad.",
+      "En politiker som försvarar regeringen i debatt.",
+      "En polis som alltid talar för brottsoffret.",
+      "En journalist som skriver om rättegångar."
+    ],
+    "optionsEn": [
+      "A lawyer who can be appointed to defend a suspect or accused person.",
+      "A politician who defends the government in debate.",
+      "A police officer who always speaks for the victim.",
+      "A journalist who writes about trials."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A defense counsel protects the accused person’s rights in the legal process.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-006",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "En domare får instruktion från en minister om vilken dom som ska skrivas. Vad är problemet?",
+    "questionEn": "A judge receives instruction from a minister about what judgment to write. What is the problem?",
+    "options": [
+      "Domstolar ska vara oberoende och döma enligt lag.",
+      "Ministrar ska alltid godkänna alla domar.",
+      "Domare arbetar direkt under partiledare.",
+      "Rättegångar är bara rådgivande möten."
+    ],
+    "optionsEn": [
+      "Courts should be independent and judge according to law.",
+      "Ministers should always approve all judgments.",
+      "Judges work directly under party leaders.",
+      "Trials are only advisory meetings."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Court independence is central to the rule of law.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-007",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "courts",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Två liknande mål bedöms olika i olika domstolar. Varför kan ett prejudikat vara viktigt i en sådan situation?",
+    "questionEn": "Two similar cases are judged differently in different courts. Why can a precedent be important in such a situation?",
+    "options": [
+      "Det kan ge vägledning så att liknande fall bedöms mer enhetligt.",
+      "Det gör att regeringen kan ändra domen direkt.",
+      "Det betyder att tidigare domar alltid ersätter lagtexten.",
+      "Det gör att kommuner får bestämma vilken dom som gäller."
+    ],
+    "optionsEn": [
+      "It can provide guidance so similar cases are judged more consistently.",
+      "It lets the government change the judgment directly.",
+      "It means earlier judgments always replace the written law.",
+      "It lets municipalities decide which judgment applies."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Precedents guide courts and can make legal interpretation more consistent.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-008",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "En myndighet vägrar lämna ut en handling och hänvisar till sekretess. Vad är viktigt att veta?",
+    "questionEn": "An authority refuses to release a document and refers to secrecy. What is important to know?",
+    "options": [
+      "Sekretess måste ha stöd i lag; annars gäller normalt offentlighet.",
+      "Myndigheter får hemlighålla allt för att undvika kritik.",
+      "Alla dokument blir privata om en tjänsteman vill det.",
+      "Sekretess gäller bara domstolar, aldrig myndigheter."
+    ],
+    "optionsEn": [
+      "Secrecy must have support in law; otherwise openness normally applies.",
+      "Authorities may keep everything secret to avoid criticism.",
+      "All documents become private if an official wants it.",
+      "Secrecy only applies to courts, never authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public access is the rule, but legal secrecy can protect certain information.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-009",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Varför finns regler om jäv i domstolar och myndigheter?",
+    "questionEn": "Why are there conflict-of-interest rules in courts and public authorities?",
+    "options": [
+      "För att beslut ska tas opartiskt och människor ska kunna lita på processen.",
+      "För att släktingar alltid ska få snabbare beslut.",
+      "För att tjänstemän ska kunna döma i sina egna ärenden.",
+      "För att medier ska bestämma vilka fall som ska utredas."
+    ],
+    "optionsEn": [
+      "So decisions are made impartially and people can trust the process.",
+      "So relatives always get faster decisions.",
+      "So officials can judge their own cases.",
+      "So media can decide which cases should be investigated."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Conflict-of-interest rules protect impartiality and trust in courts and authorities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-010",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "En ung person begår brott. Varför kan ålder påverka rättens bedömning?",
+    "questionEn": "A young person commits a crime. Why can age affect the court’s assessment?",
+    "options": [
+      "Unga lagöverträdare kan behandlas annorlunda enligt särskilda regler.",
+      "Barn döms alltid hårdare än vuxna.",
+      "Ålder gör att brott aldrig utreds.",
+      "Kommunen bestämmer straff utifrån skolbetyg."
+    ],
+    "optionsEn": [
+      "Young offenders can be treated differently under special rules.",
+      "Children are always punished more severely than adults.",
+      "Age means crimes are never investigated.",
+      "The municipality decides punishment based on school grades."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The legal system has special rules for young offenders.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-011",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Varför är det viktigt att en misstänkt person får veta vad hen anklagas för?",
+    "questionEn": "Why is it important that a suspect is told what they are accused of?",
+    "options": [
+      "För att personen ska kunna förstå saken och försvara sig rättvist.",
+      "För att personen automatiskt ska bli frikänd.",
+      "För att polisen då måste avsluta utredningen direkt.",
+      "För att domstolen bara får lyssna på den misstänkte."
+    ],
+    "optionsEn": [
+      "So the person can understand the case and defend themselves fairly.",
+      "So the person is automatically acquitted.",
+      "So the police must immediately close the investigation.",
+      "So the court may only listen to the suspect."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Legal certainty requires that a suspect understands the accusation and has a real chance to respond.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-012",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "En person vill överklaga ett myndighetsbeslut. Vad är rätt första fråga?",
+    "questionEn": "A person wants to appeal an authority decision. What is the right first question?",
+    "options": [
+      "Vilka regler och tidsfrister gäller för överklagande i beslutet?",
+      "Vilket parti styrde när beslutet fattades?",
+      "Kan medier skriva en dom i stället?",
+      "Kan personen rösta igen i samma ärende?"
+    ],
+    "optionsEn": [
+      "Which rules and deadlines for appeal apply in the decision?",
+      "Which party governed when the decision was made?",
+      "Can media write a judgment instead?",
+      "Can the person vote again in the same case?"
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Appeals must follow the rules and deadlines stated for the decision.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-013",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Vad gör Kriminalvården?",
+    "questionEn": "What does the Swedish Prison and Probation Service do?",
+    "options": [
+      "Ansvarar för häkten, fängelser och vissa påföljder i frihet.",
+      "Skriver alla brottsutredningar åt polisen.",
+      "Bestämmer vilka lagar riksdagen ska anta.",
+      "Leder sjukvården i regionerna."
+    ],
+    "optionsEn": [
+      "It is responsible for remand prisons, prisons, and some non-custodial sanctions.",
+      "It writes all criminal investigations for the police.",
+      "It decides which laws the Riksdag should adopt.",
+      "It leads healthcare in the regions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Kriminalvården handles prisons, remand prisons, and some sanctions outside prison.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-014",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "En lag begränsar en persons frihet. Vad är viktigt i en rättsstat?",
+    "questionEn": "A law limits a person’s freedom. What is important in a rule-of-law state?",
+    "options": [
+      "Begränsningen ska ha lagstöd och kunna prövas rättsligt.",
+      "Begränsningen behöver bara kännas populär.",
+      "Myndigheter får begränsa friheter utan beslut.",
+      "Domstolar får inte pröva offentliga beslut."
+    ],
+    "optionsEn": [
+      "The limitation should have legal support and be possible to test legally.",
+      "The limitation only needs to feel popular.",
+      "Authorities may limit freedoms without decisions.",
+      "Courts may not review public decisions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Restrictions on freedom need legal support and legal safeguards.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-015",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Vad är skillnaden mellan lag och social norm?",
+    "questionEn": "What is the difference between law and social norm?",
+    "options": [
+      "Lagar är rättsligt bindande, medan normer är sociala förväntningar.",
+      "Normer beslutas alltid av Högsta domstolen.",
+      "Lagar gäller bara hemma hos människor.",
+      "Normer ger alltid fängelsestraff."
+    ],
+    "optionsEn": [
+      "Laws are legally binding, while norms are social expectations.",
+      "Norms are always decided by the Supreme Court.",
+      "Laws only apply inside people’s homes.",
+      "Norms always give prison sentences."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Laws and norms can both influence behaviour, but laws are legally enforceable.",
+    "status": "draft"
+  }
+]

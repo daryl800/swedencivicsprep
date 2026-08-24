@@ -1,0 +1,310 @@
+[
+  {
+    "id": "draft-batch-a-ch02-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch02-006",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch02-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-007",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-015",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-016",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-017",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-029",
+    "verdict": "needs_edit",
+    "issues": [
+      "Swedish wording (criterion 2): option 3 has a typo 'behudet' which should be 'behovet'."
+    ],
+    "suggestedOptions": [
+      "Det gör det lättare att jämföra påståenden och bilda en egen uppfattning.",
+      "Det betyder att alla källor alltid är lika trovärdiga.",
+      "Det gör att staten kan välja en enda tillåten nyhetskälla.",
+      "Det ersätter behovet av utbildning och debatt."
+    ],
+    "suggestedCorrectIndex": 0
+  },
+  {
+    "id": "draft-ch02-034",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-048",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-003",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-005",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractor quality (criterion 4): option 1 was a joke ('Statsministern väljs alltid genom lottdragning...') rather than a plausible misconception; replaced with a realistic misconception about the largest party automatically forming government."
+    ],
+    "suggestedOptions": [
+      "Partier behöver undersöka vilket regeringsalternativ som kan få stöd i riksdagen.",
+      "Det största partiet får alltid bilda regeringen automatiskt.",
+      "Domstolarna ska först godkänna alla partiprogram.",
+      "Kommunerna röstar om vilken regering riksdagen ska ha."
+    ],
+    "suggestedCorrectIndex": 0
+  },
+  {
+    "id": "draft-batch-a-ch03-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-012",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-015",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-003",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-005",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-008",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-010",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-013",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-015",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-006",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-d-ch05-003",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch05-030",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch05-039",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch05-046",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch05-049",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch06-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch06-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch06-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch07-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-d-ch07-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-d-ch07-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch07-019",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch08-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch08-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch08-003",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch08-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch08-005",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch08-007",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch08-012",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch08-014",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-d-ch08-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch09-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-extra-ch009-011",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch10-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch10-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch10-003",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch10-050",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-extra-ch010-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-008",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch12-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-extra-ch012-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-extra-ch012-015",
+    "verdict": "approve",
+    "issues": []
+  }
+]

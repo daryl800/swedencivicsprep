@@ -1,0 +1,525 @@
+[
+  {
+    "id": "draft-batch-a-ch02-015",
+    "file": "chapter-02-democratic-system.json",
+    "verdict": "replace",
+    "severity": "major",
+    "issueType": "duplicate",
+    "duplicateOf": "draft-ch02-029",
+    "issues": [
+      "Within-file near-duplicate of the human-approved replacement draft-ch02-029: 'Varför behövs flera oberoende informationskällor i en demokrati?' vs 'Varför är det viktigt att medborgare kan få information från flera olika källor?' — same keyed answer (compare information/claims and form one's own opinion) and even a shared distractor ('staten ska välja en enda godkänd/tillåten nyhetskälla'). The collision arose because 029 was replaced after pass 1. Since 029 was just human-approved, replace or re-angle this one."
+    ],
+    "suggestedQuestionSv": "Varför är det ett demokratiskt problem om staten kontrollerar all nyhetsrapportering?",
+    "suggestedQuestionEn": "Why is it a democratic problem if the state controls all news reporting?",
+    "suggestedOptions": [
+      "Medborgarna får svårare att granska makten och bilda sig en fri uppfattning.",
+      "Nyheterna blir automatiskt mer sanna när staten godkänner dem.",
+      "Valdeltagandet blir alltid högre med statlig nyhetskontroll.",
+      "Oppositionen får då mer utrymme i debatten."
+    ],
+    "suggestedOptionsEn": [
+      "It becomes harder for citizens to scrutinize power and form independent opinions.",
+      "News automatically becomes more truthful when the state approves it.",
+      "Voter turnout is always higher with state control of news.",
+      "The opposition then gets more space in the debate."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "If those in power control all news, citizens lose independent information needed to scrutinize power and make free democratic choices.",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-ch02-007",
+    "file": "chapter-02-democratic-system.json",
+    "verdict": "needs_edit",
+    "severity": "major",
+    "issueType": "duplicate",
+    "duplicateOf": "draft-ch02-006",
+    "issues": [
+      "This replacement item (new since pass 1) near-duplicates the adjacent draft-ch02-006: the keyed answers both state that citizens elect representatives who make decisions, and the explanations are essentially identical ('representative democracy means citizens choose/elect people who make decisions on their behalf'). The explanation also fails to address the actual question about 'folkstyre'. Re-angle to something the chapter does not yet test, e.g. the contrast between direct and representative democracy."
+    ],
+    "suggestedQuestionSv": "Vad är skillnaden mellan direktdemokrati och representativ demokrati?",
+    "suggestedQuestionEn": "What is the difference between direct democracy and representative democracy?",
+    "suggestedOptions": [
+      "I direktdemokrati röstar folket direkt i sakfrågor, i representativ demokrati beslutar valda företrädare.",
+      "I representativ demokrati får bara experter rösta.",
+      "Direktdemokrati betyder att domstolar fattar alla politiska beslut.",
+      "Det finns ingen skillnad mellan de två formerna."
+    ],
+    "suggestedOptionsEn": [
+      "In direct democracy the people vote directly on issues; in representative democracy elected representatives decide.",
+      "In representative democracy only experts may vote.",
+      "Direct democracy means courts make all political decisions.",
+      "There is no difference between the two forms."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "In direct democracy citizens vote directly on individual issues, for example in referendums. Sweden mainly uses representative democracy, where elected representatives make most decisions.",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-ch02-017",
+    "file": "chapter-02-democratic-system.json",
+    "verdict": "replace",
+    "severity": "major",
+    "issueType": "duplicate",
+    "duplicateOf": "draft-ch02-019",
+    "issues": [
+      "This replacement item (new since pass 1) is a within-file near-duplicate of draft-ch02-019: both use the same scenario (an authority/case officer gives faster service to favored people — personal contacts vs same-party supporters) and the same keyed answer, 'saklighet och likabehandling' in public administration threatened/violated. The replacement batch was reviewed in isolation, so this collision was never checked. Two items testing the identical fact with the identical scenario frame add no value and will read as a repeated question to learners."
+    ],
+    "suggestedQuestionSv": "En person anser att en myndighet har behandlat hens ärende felaktigt. Vilket är ett rättssäkert sätt att gå vidare?",
+    "suggestedQuestionEn": "A person believes an authority has handled their case incorrectly. What is a legally secure way to proceed?",
+    "suggestedOptions": [
+      "Att överklaga beslutet eller klaga till en granskande instans som Justitieombudsmannen (JO).",
+      "Att erbjuda handläggaren en gåva för ett nytt beslut.",
+      "Att be ett politiskt parti ändra beslutet direkt.",
+      "Att sprida rykten om handläggaren tills beslutet ändras."
+    ],
+    "suggestedOptionsEn": [
+      "To appeal the decision or complain to a supervisory body such as the Parliamentary Ombudsman (JO).",
+      "To offer the case officer a gift for a new decision.",
+      "To ask a political party to change the decision directly.",
+      "To spread rumors about the case officer until the decision changes."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "Legal certainty includes the right to appeal decisions and to complain to independent oversight bodies such as the Parliamentary Ombudsman (JO), rather than using bribes or political pressure.",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-ch03-020",
+    "file": "chapter-03-how-sweden-is-governed.json",
+    "verdict": "needs_edit",
+    "severity": "major",
+    "issueType": "distractor",
+    "issues": [
+      "The stem asks which 'riksdagsutskott' (Riksdag committee) scrutinizes the government, but only the keyed option (Konstitutionsutskottet) is actually a committee — JO, Lagrådet, and Riksrevisionen are separate institutions, not utskott. A learner can identify the correct answer purely by noticing which option matches the noun in the stem, without knowing anything about KU's actual role, which defeats the purpose of the item. This was already identified in the first-pass review (deferred, not applied) and remains unfixed in the compiled file."
+    ],
+    "suggestedOptions": [
+      "Konstitutionsutskottet.",
+      "Justitieutskottet.",
+      "Finansutskottet.",
+      "Utrikesutskottet."
+    ],
+    "suggestedOptionsEn": [
+      "The Committee on the Constitution.",
+      "The Committee on Justice.",
+      "The Committee on Finance.",
+      "The Committee on Foreign Affairs."
+    ],
+    "suggestedCorrectIndex": 0,
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-extra-ch003-008",
+    "file": "chapter-03-how-sweden-is-governed.json",
+    "verdict": "replace",
+    "severity": "major",
+    "issueType": "duplicate",
+    "issues": [
+      "Near-duplicate of draft-ch03-020: both items test the single fact that Konstitutionsutskottet (KU) scrutinizes how the government/ministers handle their duties, keyed on essentially the same statement in both Swedish and English. This was flagged in the first-pass review as an unresolved duplicate (deferred, not applied) and both items still remain in the compiled file, adding little additional value while consuming two question slots on one fact."
+    ],
+    "duplicateOf": "draft-ch03-020",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-batch-a-ch04-010",
+    "file": "chapter-04-political-elections-and-parties.json",
+    "verdict": "replace",
+    "severity": "major",
+    "issueType": "duplicate",
+    "duplicateOf": "draft-ch04-035",
+    "issues": [
+      "This replacement question (new since pass 1) is a near-duplicate of draft-ch04-035: its stem ('Varför kan personröster påverka vilka kandidater som får mandat?') presupposes exactly the fact that draft-ch04-035 tests ('Vad kan en personröst påverka?' keyed 'Vilken kandidat inom ett parti som får ett mandat'), and its key restates the same fact (personal votes affect which candidates within a party list are elected). The file now carries four personröstning items (batch-a-001, batch-a-010, ch04-035, ch04-036) on a theme the first pass already flagged as dense; this fourth one adds no new tested content and should be replaced with an uncovered chapter-4 fact."
+    ],
+    "suggestedQuestionSv": "När hålls ordinarie val till riksdagen i Sverige?",
+    "suggestedQuestionEn": "When are ordinary elections to the Riksdag held in Sweden?",
+    "suggestedOptions": [
+      "Den andra söndagen i september vart fjärde år.",
+      "Den första måndagen i juni varje år.",
+      "Vid ett datum som regeringen väljer fritt varje mandatperiod.",
+      "Den sista lördagen i december vart femte år."
+    ],
+    "suggestedOptionsEn": [
+      "On the second Sunday of September every four years.",
+      "On the first Monday of June every year.",
+      "On a date the government freely chooses each term.",
+      "On the last Saturday of December every five years."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "Ordinary elections to the Riksdag, regional councils, and municipal councils are held on the second Sunday of September every four years.",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-batch-a-ch04-013",
+    "file": "chapter-04-political-elections-and-parties.json",
+    "verdict": "replace",
+    "severity": "major",
+    "issueType": "duplicate",
+    "duplicateOf": "draft-batch-a-ch04-003",
+    "issues": [
+      "Two of the seven replacement questions in this chapter duplicate each other: batch-a-003 ('Varför finns regler för hur valsedlar, röstmottagning och rösträkning ska gå till?' keyed 'rättssäkert, kontrollerbart och lika') and batch-a-013 ('Varför är det viktigt att rösträkningen kan kontrolleras?' keyed 'stärker förtroendet för att valresultatet speglar rösterna') test the same fact (verifiable election procedure protects trust), with overlapping distractors ('partierna ska kunna ändra röster/resultatet efteråt', 'rösträkningen hålls hemlig' / 'rösterna behöver aldrig räknas öppet'). They also both overlap existing draft-ch04-023 (neutral administration builds trust). One of the two new items should be replaced with an uncovered fact."
+    ],
+    "suggestedQuestionSv": "Vad är ett extra val till riksdagen?",
+    "suggestedQuestionEn": "What is an extra (snap) election to the Riksdag?",
+    "suggestedOptions": [
+      "Ett riksdagsval som regeringen kan utlysa mellan de ordinarie valen.",
+      "Ett val som hålls varje gång en minister avgår.",
+      "En omröstning där bara riksdagens ledamöter får rösta.",
+      "Ett val som EU beslutar om när Sverige byter regering."
+    ],
+    "suggestedOptionsEn": [
+      "A Riksdag election that the government can call between the ordinary elections.",
+      "An election held every time a minister resigns.",
+      "A vote in which only members of the Riksdag may vote.",
+      "An election the EU decides on when Sweden changes government."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "The government can call an extra election between ordinary elections. The newly elected Riksdag then serves only the remainder of the ordinary four-year term.",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-batch-a-ch05-001",
+    "file": "chapter-05-law-and-justice.json",
+    "verdict": "needs_edit",
+    "severity": "major",
+    "issueType": "factual",
+    "issues": [
+      "English helper still mistranslates 'rättssäkerhet' as 'rule of law' (questionEn and explanationEn). 'Rule of law' is the established translation of 'rättsstat', which this same file uses in draft-ch05-001; 'rättssäkerhet' is rendered 'legal certainty' in draft-ch05-002. A learner therefore sees two different Swedish terms both labeled 'rule of law', which actively teaches the wrong term mapping for a distinction the material itself tests. This was flagged as major in pass 1 but deferred and never fixed; it is a production-blocking mislabel, not polish."
+    ],
+    "suggestedQuestionEn": "What does legal certainty (rättssäkerhet) mean in contact with an authority?",
+    "suggestedExplanationEn": "Legal certainty (rättssäkerhet) protects individuals in contact with public power: decisions must follow the law, be reasoned, and can often be appealed.",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-batch-d-ch05-003",
+    "file": "chapter-05-law-and-justice.json",
+    "verdict": "replace",
+    "severity": "major",
+    "issueType": "duplicate",
+    "duplicateOf": "draft-batch-d-ch05-001",
+    "issues": [
+      "This replacement question (new since pass 1) is a near-identical duplicate of draft-batch-d-ch05-001 in the same file. Keyed answers are near-verbatim the same sentence ('Domstolen ska döma efter lag och bevis, inte efter opinion' vs 'Domstolen ska döma enligt lag och bevisning, inte efter opinion eller rubriker'), the scenarios differ only in media vs social media, and the distractor sets share the same three ideas (media/opinion replaces the trial, follow online opinion, prosecutor changes/decides the judgment). It also overlaps draft-ch05-019. It adds no new testing value and should be replaced with a different hard courts item."
+    ],
+    "suggestedQuestionSv": "Varför får en domare inte själv ta reda på fakta om målet utanför rättegången, till exempel genom att kontakta vittnen privat?",
+    "suggestedQuestionEn": "Why may a judge not gather facts about the case outside the trial, for example by contacting witnesses privately?",
+    "suggestedOptions": [
+      "Domen ska bygga på det som lagts fram i rättegången, så att parterna kan bemöta all bevisning.",
+      "Domaren sparar tid åt domstolen genom egna undersökningar.",
+      "Privata kontakter gör bevisningen mer trovärdig.",
+      "Domaren måste alltid tro på den part som hörs först."
+    ],
+    "suggestedOptionsEn": [
+      "The judgment must rest on what was presented at trial, so the parties can respond to all evidence.",
+      "The judge saves the court time through private inquiries.",
+      "Private contacts make the evidence more credible.",
+      "The judge must always believe the party heard first."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "A fair trial requires that judgments rest only on material presented in the proceedings, which both parties have been able to see and respond to.",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-ch05-030",
+    "file": "chapter-05-law-and-justice.json",
+    "verdict": "replace",
+    "severity": "major",
+    "issueType": "duplicate",
+    "duplicateOf": "draft-ch05-012",
+    "issues": [
+      "This replacement question (new since pass 1, inserted for the removed Kriminalvården duplicate) is a near-duplicate of draft-ch05-012 in the same file. draft-ch05-012 keys on 'Att begära att en högre instans prövar domen enligt reglerna' and this item keys on 'En högre instans kan pröva om domen ska ändras enligt reglerna' — the same fact at the same medium difficulty, definition vs purpose framing only. The file additionally covers appeal mechanics in draft-batch-a-ch05-012 and draft-ch05-013. Adds little value; replace with a distinct appeals item."
+    ],
+    "suggestedQuestionSv": "En dom från tingsrätten överklagas inte inom tidsfristen. Vad händer normalt då?",
+    "suggestedQuestionEn": "A district court judgment is not appealed within the time limit. What normally happens then?",
+    "suggestedOptions": [
+      "Domen vinner laga kraft och gäller.",
+      "Domen upphör automatiskt att gälla.",
+      "Hovrätten prövar ändå alltid målet på nytt.",
+      "Polisen avgör om domen ska verkställas."
+    ],
+    "suggestedOptionsEn": [
+      "The judgment becomes legally final and applies.",
+      "The judgment automatically stops applying.",
+      "The court of appeal still always retries the case.",
+      "The police decide whether the judgment is enforced."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "If no appeal is made within the deadline, the judgment gains legal force (vinner laga kraft) and becomes final and enforceable.",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-batch-b-ch06-014",
+    "file": "chapter-06-role-of-media.json",
+    "verdict": "needs_edit",
+    "severity": "major",
+    "issueType": "other",
+    "issues": [
+      "Options do not answer the question stem, and this first-pass major finding was deferred and never fixed. The stem asks 'Vad hotas mest?' (What is most threatened?), but options 2-4 are free-standing claims ('Regeringen far enligt lag bestamma nyhetsinnehall vid allvarlig kris', 'Medierna far fortsatta som vanligt men forlorar statligt stod', 'Endast public service omfattas av yttrandefriheten') rather than things that could be threatened. Only the keyed option 1 fits the stem grammatically and semantically, which both confuses B1/B2 learners and gives the answer away. Option 2 is additionally a false legal claim presented as a standalone statement, risking that a skimming learner absorbs it as fact."
+    ],
+    "suggestedOptions": [
+      "Fri nyhetsförmedling och möjligheten att granska makten.",
+      "Rätten att rösta i allmänna val.",
+      "Domstolarnas oberoende i enskilda brottmål.",
+      "Kommunernas rätt att ta ut skatt."
+    ],
+    "suggestedOptionsEn": [
+      "Free news reporting and the ability to scrutinize power.",
+      "The right to vote in general elections.",
+      "The courts' independence in individual criminal cases.",
+      "Municipalities' right to levy taxes."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "If a government only allows positive news during a crisis, free and critical news reporting is what is most directly threatened. Voting rights, court independence, and municipal taxation are not what such a rule primarily attacks.",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-ch07-057",
+    "file": "chapter-07-human-rights.json",
+    "verdict": "needs_edit",
+    "severity": "major",
+    "issueType": "distractor",
+    "issues": [
+      "This 'hard' item is trivially solvable without any subject knowledge: the three distractors (Valprövningsnämnden/seat allocation, Länsstyrelsen/regional crisis management, Riksbanken/monetary policy) are from completely unrelated policy domains, so a learner can identify the keyed answer (DO) by elimination alone, defeating the purpose of a hard-difficulty item.",
+      "Also a near-duplicate of draft-ch07-055 in the same file: both reduce to the same fact ('DO is the body to contact about discrimination'), just at different difficulty labels, adding little distinct value.",
+      "This exact issue (with the same suggested fix) was already identified and deferred in the first-pass triage (triageId claude-125, severity major) but was never applied or replaced in this compiled file."
+    ],
+    "suggestedQuestionSv": "En person misstänker diskriminering vid rekrytering och vill veta vart man kan vända sig. Vilken aktör är mest relevant att känna till?",
+    "suggestedQuestionEn": "A person suspects discrimination in recruitment and wants to know where to turn. Which actor is most relevant to know about?",
+    "suggestedOptions": [
+      "Diskrimineringsombudsmannen, DO.",
+      "Justitiekanslern, som företräder staten i skadeståndsmål.",
+      "Skolinspektionen, som granskar skolor.",
+      "Arbetsförmedlingen, som förmedlar jobb."
+    ],
+    "suggestedOptionsEn": [
+      "The Equality Ombudsman, DO.",
+      "The Chancellor of Justice, who represents the state in damages cases.",
+      "The Schools Inspectorate, which supervises schools.",
+      "The Public Employment Service, which matches people with jobs."
+    ],
+    "suggestedCorrectIndex": 0,
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-batch-b-ch08-003",
+    "file": "chapter-08-work-economy.json",
+    "verdict": "replace",
+    "severity": "major",
+    "issueType": "duplicate",
+    "issues": [
+      "This replacement question (introduced after the first pass) is a near-duplicate of draft-ch08-051, still in the same file: both use the identical scenario of a seller pressuring a customer to buy/sign without reading the terms, and key the identical fact (the contract may hide costs/a binding period that the customer should check before committing). The replacement solved the original duplicate flag but recreated a new one against a different existing item, so it should be re-replaced with a genuinely different angle (e.g. door-to-door sales, ångerrätt/right of withdrawal specifics, or a subscription auto-renewal scenario)."
+    ],
+    "duplicateOf": "draft-ch08-051",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-batch-b-ch08-005",
+    "file": "chapter-08-work-economy.json",
+    "verdict": "replace",
+    "severity": "major",
+    "issueType": "duplicate",
+    "issues": [
+      "This replacement question is a near-duplicate of draft-ch08-037, still in the same file: both ask what happens when an invoice/bill goes unpaid, and key the same fact (the debt proceeds to debt collection and becomes more expensive), with the same 'municipality pays it' and 'bill just disappears' style distractors. As with draft-batch-b-ch08-003, the replacement recreated a duplicate against a different existing item rather than resolving it; needs a distinct angle (e.g. what a betalningsanmärkning specifically does, or comparing collection routes) or should be dropped in favor of ch08-037/ch08-045, which already cover this ground."
+    ],
+    "duplicateOf": "draft-ch08-037",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-batch-b-ch08-015",
+    "file": "chapter-08-work-economy.json",
+    "verdict": "replace",
+    "severity": "major",
+    "issueType": "duplicate",
+    "issues": [
+      "Still unresolved from the first-pass triage (triageId claude-135, action 'defer' — never applied): this item tests the same core fact already covered twice elsewhere in the file — employer responsibility for a safe work environment (draft-ch08-011: 'Vem har huvudansvar för arbetsmiljön?' → 'Arbetsgivaren.') and the employer's responsibility framing in draft-ch08-009 (stress/workload scenario). The 'missing protective equipment' scenario here does no real work: the question then pivots to an unrelated meta-question ('Varför är arbetsmiljö en samhällsfråga?'), and two of the three distractors are transparent throwaways ('arbetsmiljö gäller bara personer som arbetar hemma', 'arbetsgivaren har inget ansvar för den fysiska arbetsmiljön') that just restate the key's negation rather than testing a real misconception. With three items now clustered on the identical fact, this one adds no value and should be replaced with a distinct angle (e.g. the skyddsombud's role, or reporting channels for hazards) rather than reusing the 'employer is responsible for arbetsmiljö' key a third time."
+    ],
+    "duplicateOf": "draft-ch08-011",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-extra-ch010-001",
+    "file": "chapter-10-modern-history.json",
+    "verdict": "replace",
+    "severity": "major",
+    "issueType": "duplicate",
+    "issues": [
+      "Fourth Miljonprogrammet item in this file and a near-duplicate of the existing set: draft-ch10-028 already asks what the programme was (keyed: a major housing initiative), draft-ch10-029 asks why it was launched (keyed: housing shortage and low standards), and draft-ch10-030 covers it via scenario. This item's keyed answer ('Staten och kommunerna försökte möta bostadsbrist genom omfattande bostadsbyggande') simply restates the combined keyed content of 028+029, so it tests no new knowledge and adds little value in production."
+    ],
+    "duplicateOf": "draft-ch10-029",
+    "suggestedQuestionSv": "Vilken kritik har i efterhand riktats mot delar av miljonprogrammets bostadsområden?",
+    "suggestedQuestionEn": "What criticism has later been directed at parts of the Million Programme's housing areas?",
+    "suggestedOptions": [
+      "Vissa områden fick med tiden problem med ensidig bebyggelse, slitage och social segregation.",
+      "Områdena revs alla under 1980-talet eftersom ingen ville bo där.",
+      "Bostäderna fick aldrig el eller rinnande vatten.",
+      "Kritiken gällde att områdena bara byggdes för statligt anställda."
+    ],
+    "suggestedOptionsEn": [
+      "Some areas over time developed problems with uniform housing, wear, and social segregation.",
+      "The areas were all demolished in the 1980s because nobody wanted to live there.",
+      "The homes never received electricity or running water.",
+      "The criticism was that the areas were built only for state employees."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "The Million Programme solved an acute housing shortage, but some areas were later criticized for monotonous architecture and growing social segregation.",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-extra-ch010-013",
+    "file": "chapter-10-modern-history.json",
+    "verdict": "replace",
+    "severity": "major",
+    "issueType": "duplicate",
+    "issues": [
+      "Near-duplicate of existing neutrality items: its keyed answer ('höll sig utanför krig och militära allianser i fredstid för att kunna vara neutralt i krig') is essentially the same sentence as the keyed answer of draft-ch10-047 ('militär alliansfrihet ... för att kunna hålla sig neutralt vid krig') and restates the keyed content of draft-ch10-019 ('Neutralitet och militär alliansfrihet'). With six neutrality items already in the file, this one tests the identical formula and adds little value. Replacing it with the 2024 NATO shift would also fill a real gap: the chapter currently has no item on Sweden ending non-alignment."
+    ],
+    "duplicateOf": "draft-ch10-047",
+    "suggestedQuestionSv": "Vilken stor förändring skedde i Sveriges säkerhetspolitik år 2024?",
+    "suggestedQuestionEn": "What major change took place in Sweden's security policy in 2024?",
+    "suggestedOptions": [
+      "Sverige blev medlem i försvarsalliansen Nato och lämnade den militära alliansfriheten.",
+      "Sverige avskaffade sitt militära försvar och förlitade sig på FN.",
+      "Sverige lämnade EU för att kunna vara helt neutralt.",
+      "Sverige bildade en egen militär allians med enbart de nordiska länderna."
+    ],
+    "suggestedOptionsEn": [
+      "Sweden became a member of the defence alliance NATO and left military non-alignment.",
+      "Sweden abolished its military defence and relied on the UN.",
+      "Sweden left the EU in order to be fully neutral.",
+      "Sweden formed its own military alliance with only the Nordic countries."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "In March 2024 Sweden joined NATO, ending its long policy of military non-alignment that had characterized the 20th century.",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-batch-c-ch11-001",
+    "file": "chapter-11-sweden-and-world.json",
+    "verdict": "replace",
+    "severity": "major",
+    "issueType": "duplicate",
+    "duplicateOf": "draft-ch11-009",
+    "issues": [
+      "Still a near-duplicate of draft-ch11-009: both use the identical scenario 'a Swedish company sells goods within the EU' and both key on the internal market facilitating trade through common rules/free movement. First-pass triage marked this major and deferred it to the replacement phase, but it was never replaced. Two items with the same scenario and same tested fact add no value in one chapter."
+    ],
+    "suggestedQuestionSv": "Vad kan EU:s inre marknad innebära för konsumenter i Sverige?",
+    "suggestedQuestionEn": "What can the EU internal market mean for consumers in Sweden?",
+    "suggestedOptions": [
+      "Ett större utbud av varor och tjänster från andra EU-länder.",
+      "Att svenska butiker bara får sälja svensktillverkade varor.",
+      "Att alla priser i EU bestäms av Europaparlamentet.",
+      "Att konsumenter måste betala tull på varor från andra EU-länder."
+    ],
+    "suggestedOptionsEn": [
+      "A larger selection of goods and services from other EU countries.",
+      "That Swedish shops may only sell Swedish-made goods.",
+      "That all prices in the EU are decided by the European Parliament.",
+      "That consumers must pay customs duties on goods from other EU countries."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "The internal market removes customs duties and many barriers within the EU, which gives consumers access to a wider range of goods and services.",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-batch-c-ch11-002",
+    "file": "chapter-11-sweden-and-world.json",
+    "verdict": "replace",
+    "severity": "major",
+    "issueType": "duplicate",
+    "duplicateOf": "draft-ch11-014",
+    "issues": [
+      "Still a near-duplicate of draft-ch11-014 (and overlaps draft-ch11-013): the keyed option is essentially the same list ('countries cooperate on peace, security, development, and human rights') as ch11-014's key. First-pass triage marked this major and deferred it to the replacement phase, but no replacement was made. Same fact tested the same way twice in one chapter."
+    ],
+    "suggestedQuestionSv": "Vilket FN-organ har huvudansvaret för internationell fred och säkerhet?",
+    "suggestedQuestionEn": "Which UN body has the main responsibility for international peace and security?",
+    "suggestedOptions": [
+      "FN:s säkerhetsråd.",
+      "Europaparlamentet.",
+      "Nordiska rådet.",
+      "Världshandelsorganisationen."
+    ],
+    "suggestedOptionsEn": [
+      "The UN Security Council.",
+      "The European Parliament.",
+      "The Nordic Council.",
+      "The World Trade Organization."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "Under the UN Charter, the Security Council has the primary responsibility for maintaining international peace and security.",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-batch-c-ch11-012",
+    "file": "chapter-11-sweden-and-world.json",
+    "verdict": "replace",
+    "severity": "major",
+    "issueType": "duplicate",
+    "duplicateOf": "draft-ch11-041",
+    "issues": [
+      "Still a near-duplicate of draft-ch11-041: 'Varför kan migration vara både en nationell och internationell fråga?' vs 'Varför kan migration vara en internationell fråga?', with keys covering the same content (rules, conflicts, work, cooperation between countries). First-pass triage marked this major and deferred it to the replacement phase, but it was never replaced."
+    ],
+    "suggestedQuestionSv": "Vilken svensk myndighet prövar ansökningar om asyl och uppehållstillstånd?",
+    "suggestedQuestionEn": "Which Swedish authority examines applications for asylum and residence permits?",
+    "suggestedOptions": [
+      "Migrationsverket.",
+      "Skatteverket.",
+      "Försäkringskassan.",
+      "Arbetsförmedlingen."
+    ],
+    "suggestedOptionsEn": [
+      "The Swedish Migration Agency.",
+      "The Swedish Tax Agency.",
+      "The Swedish Social Insurance Agency.",
+      "The Swedish Public Employment Service."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "The Swedish Migration Agency (Migrationsverket) handles applications for asylum, residence permits, and citizenship.",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  },
+  {
+    "id": "draft-batch-c-ch11-013",
+    "file": "chapter-11-sweden-and-world.json",
+    "verdict": "replace",
+    "severity": "major",
+    "issueType": "duplicate",
+    "duplicateOf": "draft-ch11-047",
+    "issues": [
+      "Still a near-duplicate of draft-ch11-047: both test the same fact with nearly identical keys ('De representerar Sverige och kan ge visst stöd till svenskar utomlands' vs 'Viss konsulär hjälp till svenskar utomlands och kontakter med värdlandet'), and the topic is also covered by draft-ch11-046, draft-ch11-048, and draft-extra-ch011-019 (four other embassy items). First-pass triage marked this major and deferred it to the replacement phase, but it was never replaced."
+    ],
+    "suggestedQuestionSv": "Vad innebär Schengensamarbetet för resor mellan de flesta europeiska länder som deltar?",
+    "suggestedQuestionEn": "What does the Schengen cooperation mean for travel between most participating European countries?",
+    "suggestedOptions": [
+      "Man kan normalt resa mellan länderna utan gränskontroller.",
+      "Alla resenärer måste ansöka om visum för varje resa.",
+      "Bara affärsresor är tillåtna mellan länderna.",
+      "Länderna har avskaffat alla pass och id-handlingar."
+    ],
+    "suggestedOptionsEn": [
+      "You can normally travel between the countries without border controls.",
+      "All travellers must apply for a visa for every trip.",
+      "Only business trips are allowed between the countries.",
+      "The countries have abolished all passports and ID documents."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "The Schengen cooperation means that internal border controls between participating countries are normally removed, although you should still carry a valid ID or passport.",
+    "status": "fixed",
+    "resolution": "Applied to compiled file; included in claude-pass2-changes-21.json for review."
+  }
+]

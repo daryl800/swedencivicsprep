@@ -1,0 +1,438 @@
+[
+  {
+    "id": "draft-batch-a-ch05-001",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Vad betyder rättssäkerhet i kontakt med en myndighet?",
+    "questionEn": "What does rule of law mean in contact with an authority?",
+    "options": [
+      "Beslut ska följa lag, motiveras och ofta kunna överklagas.",
+      "Myndigheten får bestämma olika varje dag utan skäl.",
+      "Den som känner en tjänsteman får alltid förtur.",
+      "Lagar gäller bara i domstol, inte hos myndigheter."
+    ],
+    "optionsEn": [
+      "Decisions should follow law, be explained, and often be possible to appeal.",
+      "The authority may decide differently every day without reason.",
+      "Someone who knows an official always gets priority.",
+      "Laws only apply in court, not at authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rule of law protects individuals in contact with public power.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-002",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "En person blir straffad för något som inte var olagligt när det hände. Vilken princip hotas?",
+    "questionEn": "A person is punished for something that was not illegal when it happened. Which principle is threatened?",
+    "options": [
+      "Förbudet mot retroaktiv strafflag.",
+      "Valhemligheten.",
+      "Kommunalt självstyre.",
+      "Föreningsfriheten."
+    ],
+    "optionsEn": [
+      "The ban on retroactive criminal law.",
+      "Ballot secrecy.",
+      "Municipal self-government.",
+      "Freedom of association."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Criminal law should not punish acts that were not crimes when committed.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-003",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Vad är en åklagares roll i ett brottmål?",
+    "questionEn": "What is a prosecutor’s role in a criminal case?",
+    "options": [
+      "Att leda förundersökning och väcka åtal när bevis räcker.",
+      "Att försvara den misstänkte i domstol.",
+      "Att skriva domstolens dom.",
+      "Att bestämma riksdagens strafflagar ensam."
+    ],
+    "optionsEn": [
+      "To lead the preliminary investigation and bring charges when evidence is sufficient.",
+      "To defend the suspect in court.",
+      "To write the court’s judgment.",
+      "To decide the Riksdag’s criminal laws alone."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The prosecutor represents the public side and decides on prosecution.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-004",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Polisen misstänker ett brott men bevisen räcker inte. Vad visar detta om rättsstaten?",
+    "questionEn": "The police suspect a crime but the evidence is not enough. What does this show about the rule of law?",
+    "options": [
+      "Misstankar måste prövas med bevis och rättsliga regler.",
+      "Misstanke räcker alltid för fällande dom.",
+      "Polisen får själv bestämma straff utan domstol.",
+      "Medier kan döma när domstolen tvekar."
+    ],
+    "optionsEn": [
+      "Suspicions must be tested with evidence and legal rules.",
+      "Suspicion is always enough for conviction.",
+      "The police may decide punishment without a court.",
+      "Media can judge when the court hesitates."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rule of law requires evidence and legal process.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-005",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Vad innebär offentlig försvarare?",
+    "questionEn": "What does public defense counsel mean?",
+    "options": [
+      "En jurist som kan utses för att försvara en misstänkt eller åtalad.",
+      "En politiker som försvarar regeringen i debatt.",
+      "En polis som alltid talar för brottsoffret.",
+      "En journalist som skriver om rättegångar."
+    ],
+    "optionsEn": [
+      "A lawyer who can be appointed to defend a suspect or accused person.",
+      "A politician who defends the government in debate.",
+      "A police officer who always speaks for the victim.",
+      "A journalist who writes about trials."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A defense counsel protects the accused person’s rights in the legal process.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-006",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "En domare får instruktion från en minister om vilken dom som ska skrivas. Vad är problemet?",
+    "questionEn": "A judge receives instruction from a minister about what judgment to write. What is the problem?",
+    "options": [
+      "Domstolar ska vara oberoende och döma enligt lag.",
+      "Ministrar ska alltid godkänna alla domar.",
+      "Domare arbetar direkt under partiledare.",
+      "Rättegångar är bara rådgivande möten."
+    ],
+    "optionsEn": [
+      "Courts should be independent and judge according to law.",
+      "Ministers should always approve all judgments.",
+      "Judges work directly under party leaders.",
+      "Trials are only advisory meetings."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Court independence is central to the rule of law.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-007",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "courts",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Två liknande mål bedöms olika i olika domstolar. Varför kan ett prejudikat vara viktigt i en sådan situation?",
+    "questionEn": "Two similar cases are judged differently in different courts. Why can a precedent be important in such a situation?",
+    "options": [
+      "Det kan ge vägledning så att liknande fall bedöms mer enhetligt.",
+      "Det gör att regeringen kan ändra domen direkt.",
+      "Det betyder att tidigare domar alltid ersätter lagtexten.",
+      "Det gör att kommuner får bestämma vilken dom som gäller."
+    ],
+    "optionsEn": [
+      "It can provide guidance so similar cases are judged more consistently.",
+      "It lets the government change the judgment directly.",
+      "It means earlier judgments always replace the written law.",
+      "It lets municipalities decide which judgment applies."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Precedents guide courts and can make legal interpretation more consistent.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-008",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "En myndighet vägrar lämna ut en handling och hänvisar till sekretess. Vad är viktigt att veta?",
+    "questionEn": "An authority refuses to release a document and refers to secrecy. What is important to know?",
+    "options": [
+      "Sekretess måste ha stöd i lag; annars gäller normalt offentlighet.",
+      "Myndigheter får hemlighålla allt för att undvika kritik.",
+      "Alla dokument blir privata om en tjänsteman vill det.",
+      "Sekretess gäller bara domstolar, aldrig myndigheter."
+    ],
+    "optionsEn": [
+      "Secrecy must have support in law; otherwise openness normally applies.",
+      "Authorities may keep everything secret to avoid criticism.",
+      "All documents become private if an official wants it.",
+      "Secrecy only applies to courts, never authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public access is the rule, but legal secrecy can protect certain information.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-009",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Varför finns regler om jäv i domstolar och myndigheter?",
+    "questionEn": "Why are there conflict-of-interest rules in courts and public authorities?",
+    "options": [
+      "För att beslut ska tas opartiskt och människor ska kunna lita på processen.",
+      "För att släktingar alltid ska få snabbare beslut.",
+      "För att tjänstemän ska kunna döma i sina egna ärenden.",
+      "För att medier ska bestämma vilka fall som ska utredas."
+    ],
+    "optionsEn": [
+      "So decisions are made impartially and people can trust the process.",
+      "So relatives always get faster decisions.",
+      "So officials can judge their own cases.",
+      "So media can decide which cases should be investigated."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Conflict-of-interest rules protect impartiality and trust in courts and authorities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-010",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "En ung person begår brott. Varför kan ålder påverka rättens bedömning?",
+    "questionEn": "A young person commits a crime. Why can age affect the court’s assessment?",
+    "options": [
+      "Unga lagöverträdare kan behandlas annorlunda enligt särskilda regler.",
+      "Barn döms alltid hårdare än vuxna.",
+      "Ålder gör att brott aldrig utreds.",
+      "Kommunen bestämmer straff utifrån skolbetyg."
+    ],
+    "optionsEn": [
+      "Young offenders can be treated differently under special rules.",
+      "Children are always punished more severely than adults.",
+      "Age means crimes are never investigated.",
+      "The municipality decides punishment based on school grades."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The legal system has special rules for young offenders.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-011",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Varför är det viktigt att en misstänkt person får veta vad hen anklagas för?",
+    "questionEn": "Why is it important that a suspect is told what they are accused of?",
+    "options": [
+      "För att personen ska kunna förstå saken och försvara sig rättvist.",
+      "För att personen automatiskt ska bli frikänd.",
+      "För att polisen då måste avsluta utredningen direkt.",
+      "För att domstolen bara får lyssna på den misstänkte."
+    ],
+    "optionsEn": [
+      "So the person can understand the case and defend themselves fairly.",
+      "So the person is automatically acquitted.",
+      "So the police must immediately close the investigation.",
+      "So the court may only listen to the suspect."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Legal certainty requires that a suspect understands the accusation and has a real chance to respond.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-012",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "En person vill överklaga ett myndighetsbeslut. Vad är rätt första fråga?",
+    "questionEn": "A person wants to appeal an authority decision. What is the right first question?",
+    "options": [
+      "Vilka regler och tidsfrister gäller för överklagande i beslutet?",
+      "Vilket parti styrde när beslutet fattades?",
+      "Kan medier skriva en dom i stället?",
+      "Kan personen rösta igen i samma ärende?"
+    ],
+    "optionsEn": [
+      "Which rules and deadlines for appeal apply in the decision?",
+      "Which party governed when the decision was made?",
+      "Can media write a judgment instead?",
+      "Can the person vote again in the same case?"
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Appeals must follow the rules and deadlines stated for the decision.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-013",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Vad gör Kriminalvården?",
+    "questionEn": "What does the Swedish Prison and Probation Service do?",
+    "options": [
+      "Ansvarar för häkten, fängelser och vissa påföljder i frihet.",
+      "Skriver alla brottsutredningar åt polisen.",
+      "Bestämmer vilka lagar riksdagen ska anta.",
+      "Leder sjukvården i regionerna."
+    ],
+    "optionsEn": [
+      "It is responsible for remand prisons, prisons, and some non-custodial sanctions.",
+      "It writes all criminal investigations for the police.",
+      "It decides which laws the Riksdag should adopt.",
+      "It leads healthcare in the regions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Kriminalvården handles prisons, remand prisons, and some sanctions outside prison.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-014",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "En lag begränsar en persons frihet. Vad är viktigt i en rättsstat?",
+    "questionEn": "A law limits a person’s freedom. What is important in a rule-of-law state?",
+    "options": [
+      "Begränsningen ska ha lagstöd och kunna prövas rättsligt.",
+      "Begränsningen behöver bara kännas populär.",
+      "Myndigheter får begränsa friheter utan beslut.",
+      "Domstolar får inte pröva offentliga beslut."
+    ],
+    "optionsEn": [
+      "The limitation should have legal support and be possible to test legally.",
+      "The limitation only needs to feel popular.",
+      "Authorities may limit freedoms without decisions.",
+      "Courts may not review public decisions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Restrictions on freedom need legal support and legal safeguards.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch05-015",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Vad är skillnaden mellan lag och social norm?",
+    "questionEn": "What is the difference between law and social norm?",
+    "options": [
+      "Lagar är rättsligt bindande, medan normer är sociala förväntningar.",
+      "Normer beslutas alltid av Högsta domstolen.",
+      "Lagar gäller bara hemma hos människor.",
+      "Normer ger alltid fängelsestraff."
+    ],
+    "optionsEn": [
+      "Laws are legally binding, while norms are social expectations.",
+      "Norms are always decided by the Supreme Court.",
+      "Laws only apply inside people’s homes.",
+      "Norms always give prison sentences."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Laws and norms can both influence behaviour, but laws are legally enforceable.",
+    "status": "draft"
+  }
+]

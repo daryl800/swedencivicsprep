@@ -1,0 +1,1742 @@
+[
+  {
+    "id": "draft-ch01-001",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "geography"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vad heter Sveriges huvudstad?",
+    "questionEn": "What is the capital of Sweden?",
+    "options": [
+      "Stockholm.",
+      "Göteborg.",
+      "Malmö.",
+      "Uppsala."
+    ],
+    "optionsEn": [
+      "Stockholm.",
+      "Gothenburg.",
+      "Malmö.",
+      "Uppsala."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Stockholm is Sweden’s capital city.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-002",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "geography"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "I vilken del av Europa ligger Sverige?",
+    "questionEn": "In which part of Europe is Sweden located?",
+    "options": [
+      "I norra Europa.",
+      "I södra Europa.",
+      "I östra Europa.",
+      "I västra Europa."
+    ],
+    "optionsEn": [
+      "In northern Europe.",
+      "In southern Europe.",
+      "In eastern Europe.",
+      "In western Europe."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden is located in northern Europe.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-003",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "nordic"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vilka länder räknas ofta som Nordens länder?",
+    "questionEn": "Which countries are often counted as the Nordic countries?",
+    "options": [
+      "Sverige, Norge, Danmark, Finland och Island.",
+      "Sverige, Tyskland, Polen, Frankrike och Spanien.",
+      "Sverige, Estland, Lettland, Litauen och Polen.",
+      "Sverige, Storbritannien, Irland, Nederländerna och Belgien."
+    ],
+    "optionsEn": [
+      "Sweden, Norway, Denmark, Finland, and Iceland.",
+      "Sweden, Germany, Poland, France, and Spain.",
+      "Sweden, Estonia, Latvia, Lithuania, and Poland.",
+      "Sweden, the United Kingdom, Ireland, the Netherlands, and Belgium."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Nordic countries are Sweden, Norway, Denmark, Finland, and Iceland.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-004",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "neighbours"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vilka länder gränsar Sverige till på land?",
+    "questionEn": "Which countries share a land border with Sweden?",
+    "options": [
+      "Norge och Finland.",
+      "Danmark och Island.",
+      "Tyskland och Polen.",
+      "Estland och Lettland."
+    ],
+    "optionsEn": [
+      "Norway and Finland.",
+      "Denmark and Iceland.",
+      "Germany and Poland.",
+      "Estonia and Latvia."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden has land borders with Norway and Finland.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-005",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "population"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vad betyder befolkning?",
+    "questionEn": "What does population mean?",
+    "options": [
+      "De människor som bor i ett område eller land.",
+      "De varor som ett land exporterar.",
+      "De lagar som domstolar beslutar.",
+      "De skogar som staten äger."
+    ],
+    "optionsEn": [
+      "The people who live in an area or country.",
+      "The goods a country exports.",
+      "The laws decided by courts.",
+      "The forests owned by the state."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Population means the people living in a place.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-006",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "language"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vilket språk är Sveriges huvudspråk?",
+    "questionEn": "What is Sweden’s main language?",
+    "options": [
+      "Svenska.",
+      "Norska.",
+      "Tyska.",
+      "Finska."
+    ],
+    "optionsEn": [
+      "Swedish.",
+      "Norwegian.",
+      "German.",
+      "Finnish."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish is Sweden’s main language.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-007",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "minority-languages"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vad är ett nationellt minoritetsspråk?",
+    "questionEn": "What is a national minority language?",
+    "options": [
+      "Ett språk som har särskilt skydd i Sverige.",
+      "Ett språk som bara får talas i hemmet.",
+      "Ett språk som staten förbjuder i skolor.",
+      "Ett språk som används för att skriva alla lagar i EU."
+    ],
+    "optionsEn": [
+      "A language that has special protection in Sweden.",
+      "A language that may only be spoken at home.",
+      "A language the state bans in schools.",
+      "A language used to write all EU laws."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "National minority languages have special protection in Sweden.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-008",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "nature"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vilken naturtyp finns mycket av i Sverige?",
+    "questionEn": "Which type of nature is common in Sweden?",
+    "options": [
+      "Skog.",
+      "Öken.",
+      "Savann.",
+      "Vidsträckta vinodlingar."
+    ],
+    "optionsEn": [
+      "Forest.",
+      "Desert.",
+      "Savanna.",
+      "Extensive vineyards."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Forests cover a large part of Sweden.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-009",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "water"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vilket vattenområde ligger öster om Sverige?",
+    "questionEn": "Which body of water lies east of Sweden?",
+    "options": [
+      "Östersjön.",
+      "Nordsjön.",
+      "Kattegatt.",
+      "Norska havet."
+    ],
+    "optionsEn": [
+      "The Baltic Sea.",
+      "The North Sea.",
+      "The Kattegat.",
+      "The Norwegian Sea."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Baltic Sea lies east and southeast of Sweden.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-010",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "regions"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vad är en kommun i Sverige?",
+    "questionEn": "What is a municipality in Sweden?",
+    "options": [
+      "En lokal nivå som ansvarar för bland annat skola, omsorg och lokal service.",
+      "En statlig myndighet som leder landets försvar.",
+      "En regional nivå som enbart ansvarar för hälso- och sjukvård.",
+      "Ett privat företag som äger alla vägar."
+    ],
+    "optionsEn": [
+      "A local level responsible for things such as school, care, and local services.",
+      "A state authority that leads the country’s defense.",
+      "A regional level responsible only for healthcare.",
+      "A private company that owns all roads."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipalities are local self-government units with important public responsibilities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-011",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "regions"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vad är en region i Sverige?",
+    "questionEn": "What is a region in Sweden?",
+    "options": [
+      "En regional nivå som ansvarar för bland annat hälso- och sjukvård.",
+      "En lokal enhet som ansvarar för förskolor och renhållning.",
+      "En statlig myndighet som stiftar nationella lagar.",
+      "En frivilligförening för idrott och kultur."
+    ],
+    "optionsEn": [
+      "A regional level responsible for things such as healthcare.",
+      "A local unit responsible for preschools and sanitation.",
+      "A state authority that makes national laws.",
+      "A voluntary association for sports and culture."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Regions are responsible for healthcare and regional development, among other tasks.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-012",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "cities"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vilken av dessa är en stor stad i Sverige?",
+    "questionEn": "Which of these is a large city in Sweden?",
+    "options": [
+      "Göteborg.",
+      "Oslo.",
+      "Köpenhamn.",
+      "Helsingfors."
+    ],
+    "optionsEn": [
+      "Gothenburg.",
+      "Oslo.",
+      "Copenhagen.",
+      "Helsinki."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Gothenburg is one of Sweden’s largest cities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-013",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "climate"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Hur kan Sveriges klimat beskrivas jämfört med många länder längre söderut i Europa?",
+    "questionEn": "How can Sweden’s climate be described compared with many countries farther south in Europe?",
+    "options": [
+      "Det är ofta kallare och har tydliga årstider.",
+      "Det är varmt och tropiskt året runt.",
+      "Det saknar helt variation mellan årstiderna.",
+      "Det har extrem torka och ökenklimat året runt."
+    ],
+    "optionsEn": [
+      "It is often colder and has clear seasons.",
+      "It is warm and tropical all year.",
+      "It completely lacks variation between seasons.",
+      "It has extreme drought and desert climate all year."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden has clear seasons and is generally colder than southern Europe.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-014",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "sami"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vilket urfolk finns i Sverige?",
+    "questionEn": "Which Indigenous people live in Sweden?",
+    "options": [
+      "Samerna.",
+      "Inuiterna.",
+      "Maorierna.",
+      "Aboriginerna."
+    ],
+    "optionsEn": [
+      "The Sami.",
+      "The Inuit.",
+      "The Māori.",
+      "The Aboriginal peoples of Australia."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Sami are an Indigenous people in Sweden and the Nordic region.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-015",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "flag"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vilka färger har Sveriges flagga?",
+    "questionEn": "What colors does Sweden’s flag have?",
+    "options": [
+      "Blå och gul.",
+      "Röd och vit.",
+      "Grön och vit.",
+      "Svart och orange."
+    ],
+    "optionsEn": [
+      "Blue and yellow.",
+      "Red and white.",
+      "Green and white.",
+      "Black and orange."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Swedish flag is blue with a yellow cross.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-016",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "monarchy"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vad är Sverige enligt statsskicket?",
+    "questionEn": "What is Sweden according to its form of government?",
+    "options": [
+      "En demokrati och monarki.",
+      "En republik med en vald president som statschef.",
+      "En absolut monarki där kungen stiftar alla lagar.",
+      "En teokrati styrd av religiösa ledare."
+    ],
+    "optionsEn": [
+      "A democracy and monarchy.",
+      "A republic with an elected president as head of state.",
+      "An absolute monarchy where the king makes all laws.",
+      "A theocracy governed by religious leaders."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden is a democratic constitutional monarchy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-017",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "europe"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Är Sverige medlem i EU?",
+    "questionEn": "Is Sweden a member of the EU?",
+    "options": [
+      "Ja.",
+      "Nej, Sverige är bara medlem i FN.",
+      "Nej, Sverige ligger utanför Europa.",
+      "Ja, men bara kommunerna är medlemmar."
+    ],
+    "optionsEn": [
+      "Yes.",
+      "No, Sweden is only a member of the UN.",
+      "No, Sweden is outside Europe.",
+      "Yes, but only the municipalities are members."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden is a member of the European Union.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-018",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "currency"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vilken valuta används i Sverige?",
+    "questionEn": "Which currency is used in Sweden?",
+    "options": [
+      "Svensk krona.",
+      "Euro som enda valuta.",
+      "Dansk krona.",
+      "Norsk krona."
+    ],
+    "optionsEn": [
+      "Swedish krona.",
+      "Euro as the only currency.",
+      "Danish krone.",
+      "Norwegian krone."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden uses the Swedish krona.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-019",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "public-sector"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vad menas med offentlig sektor?",
+    "questionEn": "What does the public sector mean?",
+    "options": [
+      "Verksamhet som staten, regioner och kommuner ansvarar för.",
+      "Alla privata hushåll i landet.",
+      "Endast företag som exporterar varor.",
+      "Alla religiösa organisationer."
+    ],
+    "optionsEn": [
+      "Activities for which the state, regions, and municipalities are responsible.",
+      "All private households in the country.",
+      "Only companies that export goods.",
+      "All religious organizations."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The public sector includes state, regional, and municipal activities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-020",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "country",
+      "society"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vad menas med ett samhälle?",
+    "questionEn": "What is meant by a society?",
+    "options": [
+      "Människor, institutioner, regler och gemenskaper som fungerar tillsammans.",
+      "Enbart den fysiska miljön och naturen i ett land.",
+      "Endast det privata näringslivet och aktiebolag.",
+      "Bara statens högsta politiska ledning."
+    ],
+    "optionsEn": [
+      "People, institutions, rules, and communities that function together.",
+      "Only the physical environment and nature in a country.",
+      "Only the private business sector and limited companies.",
+      "Only the state’s highest political leadership."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Society includes people and the structures that organize shared life.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-021",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "geography"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Varför påverkar Sveriges geografi samhället?",
+    "questionEn": "Why does Sweden’s geography affect society?",
+    "options": [
+      "Avstånd, klimat, naturresurser och befolkningens fördelning påverkar arbete, resor och service.",
+      "Geografi gör att alla statliga myndigheter måste ligga i samma stad.",
+      "Geografi innebär att landets gränser ändras automatiskt vid varje årstidsskifte.",
+      "Geografi avgör direkt vilken yrkesutbildning varje person måste välja."
+    ],
+    "optionsEn": [
+      "Distances, climate, natural resources, and population distribution affect work, travel, and services.",
+      "Geography means all state authorities must be in the same city.",
+      "Geography means the country’s borders change automatically with each change of season.",
+      "Geography directly decides which vocational training each person must choose."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Geography shapes how people live, work, travel, and organize services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-022",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "population"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Varför bor många människor i södra Sverige och i större städer?",
+    "questionEn": "Why do many people live in southern Sweden and in larger cities?",
+    "options": [
+      "Där finns många arbeten, utbildningar, service och kommunikationer.",
+      "Det är enligt lag förbjudet att bygga bostäder på landsbygden.",
+      "Staten placerar alla invånare i städer genom obligatoriska tillstånd.",
+      "Klimatet gör det helt omöjligt att bedriva näringsverksamhet i norr."
+    ],
+    "optionsEn": [
+      "There are many jobs, education opportunities, services, and transport links there.",
+      "It is legally forbidden to build housing in the countryside.",
+      "The state places all residents in cities through mandatory permits.",
+      "The climate makes it completely impossible to run businesses in the north."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Population is often concentrated where work, education, and services are available.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-023",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "urban-rural"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vad är en skillnad mellan stad och landsbygd som kan påverka vardagen?",
+    "questionEn": "What is a difference between city and countryside that can affect everyday life?",
+    "options": [
+      "Tillgång till service och kollektivtrafik kan se olika ut.",
+      "Människor på landsbygden betalar ingen skatt till sin kommun.",
+      "Invånare i städer har andra grundlagsskyddade rättigheter.",
+      "Landsbygden tillämpar en helt egen strafflag."
+    ],
+    "optionsEn": [
+      "Access to services and public transport can differ.",
+      "People in the countryside pay no tax to their municipality.",
+      "Residents in cities have different constitutionally protected rights.",
+      "The countryside applies a completely separate criminal law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Everyday life can differ depending on distance, transport, and local services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-024",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "natural-resources"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Varför är naturresurser viktiga för Sverige?",
+    "questionEn": "Why are natural resources important for Sweden?",
+    "options": [
+      "De kan ge råvaror, energi, arbetstillfällen och exportinkomster.",
+      "De gör att staten inte behöver ta ut några skatter av medborgarna.",
+      "De ersätter helt behovet av internationell handel med andra länder.",
+      "De garanterar att hela befolkningen arbetar inom råvarusektorn."
+    ],
+    "optionsEn": [
+      "They can provide raw materials, energy, jobs, and export income.",
+      "They mean the state does not need to collect any taxes from citizens.",
+      "They completely replace the need for international trade with other countries.",
+      "They guarantee that the whole population works in the raw materials sector."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Natural resources have shaped Sweden’s economy and regional development.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-025",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "forests"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Hur har skogen varit viktig för Sverige?",
+    "questionEn": "How has the forest been important for Sweden?",
+    "options": [
+      "Den har gett råvaror till industri, energi och export.",
+      "Den har hindrat uppkomsten av alla större städer i Sverige.",
+      "Den styrs direkt av FN:s miljöorgan istället för svensk lag.",
+      "Den har gjort att jordbruk förbjudits i hela landet."
+    ],
+    "optionsEn": [
+      "It has provided raw materials for industry, energy, and export.",
+      "It has prevented all larger cities from developing in Sweden.",
+      "It is governed directly by the UN environmental agency instead of Swedish law.",
+      "It has caused agriculture to be banned throughout the country."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Forests have long been important for Swedish industry and economy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-026",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "mining"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Varför är gruvor och mineraler viktiga i vissa delar av Sverige?",
+    "questionEn": "Why are mines and minerals important in some parts of Sweden?",
+    "options": [
+      "De skapar arbeten och råvaror för industri.",
+      "De ger kommunerna rätt att trycka egna pengar.",
+      "De bestämmer hur många mandat varje parti får i riksdagen.",
+      "De ersätter det regionala ansvaret för sjukvården."
+    ],
+    "optionsEn": [
+      "They create jobs and raw materials for industry.",
+      "They give municipalities the right to print their own money.",
+      "They decide how many seats each party gets in the Riksdag.",
+      "They replace regional responsibility for healthcare."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Mining and minerals are important for jobs and industrial production in some regions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-027",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "water"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Varför är vatten viktigt i Sverige?",
+    "questionEn": "Why is water important in Sweden?",
+    "options": [
+      "Det används för dricksvatten, energi, transporter, natur och friluftsliv.",
+      "Det innebär att Sverige inte behöver någon infrastruktur på land.",
+      "Det avgör vilka som får rösta i kommunalvalen.",
+      "Det ersätter behovet av kommunal avfallshantering."
+    ],
+    "optionsEn": [
+      "It is used for drinking water, energy, transport, nature, and outdoor life.",
+      "It means Sweden does not need any infrastructure on land.",
+      "It decides who may vote in municipal elections.",
+      "It replaces the need for municipal waste management."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Water resources matter for everyday life, energy, nature, and society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-028",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "climate"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Hur påverkar årstiderna vardagen i Sverige?",
+    "questionEn": "How do the seasons affect everyday life in Sweden?",
+    "options": [
+      "De påverkar kläder, resor, arbete, fritid och energibehov.",
+      "De avgör vilket politiskt parti som leder regeringen.",
+      "De innebär att grundskolorna stänger under hela vintern.",
+      "De ändrar kommunernas juridiska skyldigheter varje månad."
+    ],
+    "optionsEn": [
+      "They affect clothing, travel, work, leisure, and energy needs.",
+      "They decide which political party leads the government.",
+      "They mean compulsory schools close for the whole winter.",
+      "They change municipalities’ legal duties every month."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The seasons affect daily routines and social planning.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-029",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "infrastructure"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Varför behövs vägar, järnvägar och digital infrastruktur i ett avlångt land som Sverige?",
+    "questionEn": "Why are roads, railways, and digital infrastructure needed in a long country like Sweden?",
+    "options": [
+      "För att människor, varor och information ska kunna röra sig över stora avstånd.",
+      "För att ersätta alla beslut i kommunfullmäktige.",
+      "För att förhindra att invånare flyttar mellan regioner.",
+      "För att enbart storstadsområden ska få tillgång till el och bredband."
+    ],
+    "optionsEn": [
+      "So people, goods, and information can move over long distances.",
+      "To replace all decisions in the municipal council.",
+      "To prevent residents from moving between regions.",
+      "So only metropolitan areas get access to electricity and broadband."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Infrastructure connects people and places across Sweden.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-030",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "migration"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Hur har migration påverkat Sveriges befolkning?",
+    "questionEn": "How has migration affected Sweden’s population?",
+    "options": [
+      "Den har bidragit till att befolkningen blivit mer mångkulturell.",
+      "Den har gjort att svenska språket slutat gälla i myndighetskontakter.",
+      "Den har lett till att kommunalt självstyre avskaffats.",
+      "Den har inneburit att alla invånare nu bor i samma tre storstäder."
+    ],
+    "optionsEn": [
+      "It has contributed to the population becoming more multicultural.",
+      "It has made the Swedish language stop applying in contacts with authorities.",
+      "It has led to municipal self-government being abolished.",
+      "It has meant that all residents now live in the same three large cities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Migration has shaped Sweden’s population and cultural diversity.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-031",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "minorities"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Varför är nationella minoriteter viktiga i Sveriges historia och samhälle?",
+    "questionEn": "Why are national minorities important in Sweden’s history and society?",
+    "options": [
+      "De har egna språk, kulturer och historiska erfarenheter som är en del av Sverige.",
+      "De har ensamrätt att stifta Sveriges grundlagar.",
+      "De ställs utanför det svenska rättssystemet.",
+      "De erkänns endast i äldre historia och har inga rättigheter idag."
+    ],
+    "optionsEn": [
+      "They have their own languages, cultures, and historical experiences that are part of Sweden.",
+      "They have sole right to make Sweden’s constitutional laws.",
+      "They are placed outside the Swedish legal system.",
+      "They are recognized only in older history and have no rights today."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "National minorities are part of Sweden’s history and present society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-032",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "sami"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Varför har samerna en särskild ställning i Sverige?",
+    "questionEn": "Why do the Sami have a special status in Sweden?",
+    "options": [
+      "De är ett urfolk med egen kultur, historia och språk.",
+      "De utgör Sveriges verkställande regering.",
+      "De bestämmer den statliga inkomstskatten för hela landet.",
+      "De bildar automatiskt ett parti i riksdagen."
+    ],
+    "optionsEn": [
+      "They are an Indigenous people with their own culture, history, and languages.",
+      "They make up Sweden’s executive government.",
+      "They decide state income tax for the whole country.",
+      "They automatically form a party in the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Sami are recognized as an Indigenous people.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-033",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "language"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Varför är språk viktigt för delaktighet i samhället?",
+    "questionEn": "Why is language important for participation in society?",
+    "options": [
+      "Språk behövs för information, utbildning, arbete och demokratiskt deltagande.",
+      "Språk är det enda kravet för att få svenskt pass.",
+      "Språk ersätter alla lagstiftade mänskliga rättigheter.",
+      "Kommuner får lagstiftande rätt att välja invånarnas modersmål."
+    ],
+    "optionsEn": [
+      "Language is needed for information, education, work, and democratic participation.",
+      "Language is the only requirement for getting a Swedish passport.",
+      "Language replaces all legislated human rights.",
+      "Municipalities get legislative power to choose residents’ mother tongue."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Language helps people understand information and participate in society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-034",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "welfare"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Varför är kommuner och regioner viktiga för människors vardag?",
+    "questionEn": "Why are municipalities and regions important for people’s everyday life?",
+    "options": [
+      "De ansvarar för många tjänster nära invånarna, till exempel skola, omsorg och vård.",
+      "De ersätter riksdagens roll som lagstiftare i riket.",
+      "De bestämmer vilka religionssamfund invånarna måste tillhöra.",
+      "De äger all privat mark och alla bostäder i Sverige."
+    ],
+    "optionsEn": [
+      "They are responsible for many services close to residents, such as school, care, and healthcare.",
+      "They replace the Riksdag’s role as national legislator.",
+      "They decide which religious communities residents must belong to.",
+      "They own all private land and all homes in Sweden."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipalities and regions deliver many everyday public services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-035",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "economy"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Hur kan Sveriges ekonomi påverkas av kontakt med omvärlden?",
+    "questionEn": "How can Sweden’s economy be affected by contact with the outside world?",
+    "options": [
+      "Handel, export, import och internationella företag påverkar jobb och inkomster.",
+      "Internationell handel gör att Sverige inte behöver ha en egen riksbank.",
+      "Omvärlden sätter direkt skattesatsen i svenska kommuner.",
+      "Utrikeshandel gör yrkesutbildningar i Sverige överflödiga."
+    ],
+    "optionsEn": [
+      "Trade, exports, imports, and international companies affect jobs and incomes.",
+      "International trade means Sweden does not need its own central bank.",
+      "The outside world directly sets the tax rate in Swedish municipalities.",
+      "Foreign trade makes vocational education in Sweden unnecessary."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden’s economy is connected to international trade and cooperation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-036",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "environment"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Varför är miljöfrågor viktiga i Sverige?",
+    "questionEn": "Why are environmental issues important in Sweden?",
+    "options": [
+      "Natur, klimat, vatten och resurser påverkar både människor och framtida generationer.",
+      "Miljöfrågor rör enbart privat turism och fritidsaktiviteter.",
+      "Miljöbeslut ersätter behovet av allmänna val.",
+      "Miljölagstiftningen gäller enbart för personer utan svenskt medborgarskap."
+    ],
+    "optionsEn": [
+      "Nature, climate, water, and resources affect both people and future generations.",
+      "Environmental issues concern only private tourism and leisure activities.",
+      "Environmental decisions replace the need for general elections.",
+      "Environmental legislation applies only to people without Swedish citizenship."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Environmental issues affect health, economy, nature, and future society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-037",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "housing"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Varför kan bostadsfrågor vara olika i olika delar av Sverige?",
+    "questionEn": "Why can housing issues differ in different parts of Sweden?",
+    "options": [
+      "Efterfrågan, arbete, befolkning och avstånd ser olika ut.",
+      "Det finns en statlig pristaxering som gör att alla bostäder kostar lika mycket.",
+      "Kommuner saknar helt rätt att bedriva samhällsplanering.",
+      "Bostadsmarknaden regleras exakt efter lokala väderförhållanden."
+    ],
+    "optionsEn": [
+      "Demand, jobs, population, and distances differ.",
+      "There is a state price tariff that makes all housing cost the same.",
+      "Municipalities completely lack the right to do community planning.",
+      "The housing market is regulated exactly according to local weather conditions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Housing conditions vary with local and regional circumstances.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-038",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "identity"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Hur kan plats och natur påverka människors identitet?",
+    "questionEn": "How can place and nature affect people’s identity?",
+    "options": [
+      "Människor kan känna tillhörighet till en ort, region, naturmiljö eller kultur.",
+      "Bostadsorten avgör automatiskt vilket parti en medborgare måste rösta på.",
+      "Geografisk plats gör att alla invånare i samma region delar exakt samma värderingar.",
+      "En persons identitet fastställs enbart av myndigheternas personnummer."
+    ],
+    "optionsEn": [
+      "People can feel belonging to a town, region, natural environment, or culture.",
+      "Place of residence automatically decides which party a citizen must vote for.",
+      "Geographic location means all residents in the same region share exactly the same values.",
+      "A person’s identity is determined only by the authorities’ personal identity number."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Identity can be connected to local places, landscapes, and experiences.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-039",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "nordic-cooperation"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Varför kan Sverige jämföras med andra nordiska länder?",
+    "questionEn": "Why can Sweden be compared with other Nordic countries?",
+    "options": [
+      "Länderna har geografisk närhet och många historiska, kulturella och politiska likheter.",
+      "Alla nordiska länder styrs av en och samma gemensamma regering.",
+      "Norden utgör en enda sammanslagen stat utan nationella gränser.",
+      "Sverige har direkt överhöghet och stiftar lagar för de övriga länderna."
+    ],
+    "optionsEn": [
+      "The countries are geographically close and have many historical, cultural, and political similarities.",
+      "All Nordic countries are governed by one and the same common government.",
+      "The Nordic region forms one merged state without national borders.",
+      "Sweden has direct supremacy and makes laws for the other countries."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Nordic countries share some similarities but remain separate states.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-040",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "country",
+      "change"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Hur har Sverige förändrats över tid?",
+    "questionEn": "How has Sweden changed over time?",
+    "options": [
+      "Från ett fattigare jordbrukssamhälle till ett industrialiserat och tjänsteinriktat välfärdssamhälle.",
+      "Från en demokratisk republik till en enväldig monarki.",
+      "Från ett modernt industriland till ett rent subsistensjordbruk utan städer.",
+      "Från en statlig planekonomi till ett samhälle helt utan offentlig sektor."
+    ],
+    "optionsEn": [
+      "From a poorer agricultural society to an industrialized and service-oriented welfare society.",
+      "From a democratic republic to an absolute monarchy.",
+      "From a modern industrial country to pure subsistence agriculture without cities.",
+      "From a state planned economy to a society completely without a public sector."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden has changed economically, socially, and politically over time.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-041",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "geography"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "En person säger att samma service borde finnas lika nära alla invånare i hela Sverige. Vad är en rimlig förklaring till att det kan vara svårt?",
+    "questionEn": "A person says the same services should be equally close to all residents across Sweden. What is a reasonable explanation for why that can be difficult?",
+    "options": [
+      "Sverige är avlångt och glest befolkat på många platser, vilket påverkar avstånd och resurser.",
+      "Svensk lag fördelar all offentlig service enbart till storstäder.",
+      "Invånare på landsbygden har inte samma grundläggande rättigheter till service.",
+      "Regionerna har endast skyldighet att erbjuda service i universitetsstäder."
+    ],
+    "optionsEn": [
+      "Sweden is long and sparsely populated in many places, which affects distance and resources.",
+      "Swedish law allocates all public services only to big cities.",
+      "Residents in rural areas do not have the same basic rights to services.",
+      "Regions only have a duty to offer services in university cities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Geography and population density affect how services can be organized.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-042",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "natural-resources"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Ett företag vill använda naturresurser för nya jobb, medan boende oroar sig för miljön. Vilken samhällsfråga syns tydligt?",
+    "questionEn": "A company wants to use natural resources for new jobs, while residents worry about the environment. Which social issue is clearly visible?",
+    "options": [
+      "Balansen mellan ekonomi, arbetstillfällen, miljö och lokal påverkan.",
+      "Principen om att ekonomisk tillväxt alltid har företräde framför miljölagar.",
+      "Regeln att naturresurser enbart får utvinnas av statliga bolag.",
+      "Principen att lokala invånare inte får yttra sig om näringslivsetableringar."
+    ],
+    "optionsEn": [
+      "The balance between economy, jobs, environment, and local impact.",
+      "The principle that economic growth always takes priority over environmental laws.",
+      "The rule that natural resources may only be extracted by state-owned companies.",
+      "The principle that local residents may not express opinions about business establishments."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Resource use can involve trade-offs between jobs, economy, environment, and local interests.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-043",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "migration-diversity"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "En kommun får fler invånare med olika språk och bakgrunder. Vilken planering kan bli extra viktig?",
+    "questionEn": "A municipality gets more residents with different languages and backgrounds. What planning can become especially important?",
+    "options": [
+      "Information, skola, integration, service och mötesplatser.",
+      "Krav på att endast ett språk får talas i privata hem.",
+      "Nedskärning av all kommunal service för att minska inflyttningen.",
+      "Förbud mot att bilda civilsamhällesföreningar i kommunen."
+    ],
+    "optionsEn": [
+      "Information, school, integration, services, and meeting places.",
+      "A requirement that only one language may be spoken in private homes.",
+      "Cuts to all municipal services to reduce migration into the municipality.",
+      "A ban on forming civil society associations in the municipality."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Population change can affect local planning and inclusion.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-044",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "urbanization"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "En ung person flyttar från en liten ort till en större stad för studier. Vilken samhällsförändring kan detta vara en del av?",
+    "questionEn": "A young person moves from a small town to a larger city for studies. Which social change can this be part of?",
+    "options": [
+      "Urbanisering och koncentration av utbildning och arbete.",
+      "Avveckling av det kommunala självstyret på landsbygden.",
+      "En statlig reform som kräver att högskolestudier sker i huvudstaden.",
+      "Minskning av den allmänna rösträtten för unga vuxna."
+    ],
+    "optionsEn": [
+      "Urbanization and concentration of education and work.",
+      "Dismantling municipal self-government in rural areas.",
+      "A state reform requiring higher education studies to take place in the capital.",
+      "Reduction of universal suffrage for young adults."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Urbanization means more people move to or live in urban areas.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-045",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "minority-rights"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "En elev undrar varför minoritetsspråk får särskilt skydd när svenska är huvudspråk. Vilket svar passar bäst?",
+    "questionEn": "A pupil wonders why minority languages receive special protection when Swedish is the main language. Which answer fits best?",
+    "options": [
+      "Skyddet handlar om historiska minoriteters rätt att bevara språk och kultur.",
+      "Skyddet innebär att majoritetsspråket svenska inte längre får undervisas i skolan.",
+      "Skyddet ger minoritetsspråk företräde framför Sveriges grundlagar.",
+      "Skyddet innebär att alla statliga myndigheter måste byta arbetsspråk."
+    ],
+    "optionsEn": [
+      "The protection concerns historical minorities’ right to preserve language and culture.",
+      "The protection means the majority language Swedish may no longer be taught in school.",
+      "The protection gives minority languages priority over Sweden’s constitutional laws.",
+      "The protection means all state authorities must change working language."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Minority language protection supports cultural rights and historical responsibility.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-046",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "sami-rights"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "En fråga om mark, renskötsel och naturresurser i norra Sverige diskuteras. Varför kan samiska perspektiv vara relevanta?",
+    "questionEn": "A question about land, reindeer husbandry, and natural resources in northern Sweden is debated. Why can Sami perspectives be relevant?",
+    "options": [
+      "Samerna är ett urfolk med historisk koppling till mark, kultur och näringar i området.",
+      "Sametinget beslutar ensamt över alla nationella miljölagar.",
+      "Samiska näringar är helt undantagna från svenska miljö- och byggregler.",
+      "Samiska perspektiv får enligt lag endast beaktas i kultur- och museifrågor."
+    ],
+    "optionsEn": [
+      "The Sami are an Indigenous people with historical connection to land, culture, and livelihoods in the area.",
+      "The Sami Parliament alone decides all national environmental laws.",
+      "Sami livelihoods are completely exempt from Swedish environmental and building rules.",
+      "Sami perspectives may by law only be considered in cultural and museum issues."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sami perspectives matter because of Indigenous status, history, culture, and land use.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-047",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "climate"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "En vinter blir ovanligt mild och en sommar mycket torr. Varför kan detta diskuteras som samhällsfråga?",
+    "questionEn": "A winter is unusually mild and a summer very dry. Why can this be discussed as a social issue?",
+    "options": [
+      "Klimat och väder kan påverka jordbruk, energi, hälsa, natur och ekonomi.",
+      "Extremväder berör enbart privata semesterplaner och turism.",
+      "Klimatförändringar påverkar inte den offentliga sektorns planering.",
+      "Väderhändelser leder automatiskt till extra insatta riksdagsval."
+    ],
+    "optionsEn": [
+      "Climate and weather can affect agriculture, energy, health, nature, and economy.",
+      "Extreme weather concerns only private holiday plans and tourism.",
+      "Climate change does not affect public sector planning.",
+      "Weather events automatically lead to extra parliamentary elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Climate and weather affect many parts of society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-048",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "infrastructure"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Ett tågproblem i en del av landet påverkar varor och resor långt bort. Vad visar det?",
+    "questionEn": "A train problem in one part of the country affects goods and travel far away. What does this show?",
+    "options": [
+      "Att infrastruktur binder ihop olika delar av landet.",
+      "Att järnvägstrafik enbart har betydelse för personresor i storstäder.",
+      "Att godstransporter är helt oberoende av nationella transportnät.",
+      "Att regioner saknar ansvar för kollektivtrafik och infrastruktur."
+    ],
+    "optionsEn": [
+      "That infrastructure connects different parts of the country.",
+      "That railway traffic only matters for passenger travel in big cities.",
+      "That freight transport is completely independent of national transport networks.",
+      "That regions lack responsibility for public transport and infrastructure."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Infrastructure connects regions, labour markets, and trade.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-049",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "public-sector"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "En invånare blandar ihop kommunens och regionens ansvar. Vilket exempel visar skillnaden bäst?",
+    "questionEn": "A resident confuses municipal and regional responsibility. Which example best shows the difference?",
+    "options": [
+      "Kommunen ansvarar ofta för grundskola, medan regionen ansvarar för sjukvård.",
+      "Regionen beslutar alla kommunala bygglov.",
+      "Kommunen ansvarar för alla sjukhus i landet.",
+      "Regionen väljer riksdagens talman."
+    ],
+    "optionsEn": [
+      "The municipality is often responsible for compulsory school, while the region is responsible for healthcare.",
+      "The region decides all municipal building permits.",
+      "The municipality is responsible for all hospitals in the country.",
+      "The region chooses the Speaker of the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipalities and regions have different responsibilities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-050",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "economy-trade"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Varför kan en global kris påverka priser och jobb i Sverige?",
+    "questionEn": "Why can a global crisis affect prices and jobs in Sweden?",
+    "options": [
+      "Sverige är beroende av handel, import, export och internationella leveranskedjor.",
+      "Svenska priser och löner fastställs enbart av kommunala beslut.",
+      "Globala ekonomiska svängningar påverkar enbart länder utanför EU.",
+      "Sveriges ekonomi är helt självförsörjande och opåverkad av omvärlden."
+    ],
+    "optionsEn": [
+      "Sweden depends on trade, imports, exports, and international supply chains.",
+      "Swedish prices and wages are set only by municipal decisions.",
+      "Global economic fluctuations affect only countries outside the EU.",
+      "Sweden’s economy is completely self-sufficient and unaffected by the outside world."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden’s economy is connected to the world economy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-051",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "identity"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "En person känner sig både svensk, samisk och nordisk. Vad visar det om identitet?",
+    "questionEn": "A person feels Swedish, Sami, and Nordic. What does this show about identity?",
+    "options": [
+      "Identitet kan ha flera nivåer samtidigt.",
+      "En person får enligt lag endast registrera en kulturell tillhörighet.",
+      "Kulturell identitet upphäver automatiskt nationellt medborgarskap.",
+      "Regional och nationell identitet utesluter alltid varandra."
+    ],
+    "optionsEn": [
+      "Identity can have several levels at the same time.",
+      "A person may by law only register one cultural belonging.",
+      "Cultural identity automatically cancels national citizenship.",
+      "Regional and national identity always exclude each other."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "People can belong to several communities and identities at once.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-052",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "regional-development"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "En mindre ort vill behålla unga invånare. Vilka frågor kan vara viktiga?",
+    "questionEn": "A smaller town wants to keep young residents. Which questions can be important?",
+    "options": [
+      "Arbete, utbildning, bostäder, service och kommunikationer.",
+      "Att införa flyttförbud för unga vuxna till andra kommuner.",
+      "Att avskaffa den lokala gymnasieskolan för att sänka skatten.",
+      "Att stänga av alla digitala kommunikationsnät i kommunen."
+    ],
+    "optionsEn": [
+      "Jobs, education, housing, services, and transport links.",
+      "Introducing a ban on young adults moving to other municipalities.",
+      "Abolishing the local upper secondary school to lower taxes.",
+      "Shutting down all digital communication networks in the municipality."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Local development often depends on jobs, education, housing, and connections.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-053",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "demography"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Om andelen äldre ökar i en kommun, vilken fråga kan kommunen behöva planera mer för?",
+    "questionEn": "If the share of older people increases in a municipality, what may the municipality need to plan more for?",
+    "options": [
+      "Äldreomsorg, tillgänglighet och personalbehov.",
+      "Ökad utbyggnad av grundskolor och förskoleplatser.",
+      "Fler platser i den högre akademiska utbildningen.",
+      "Ändring av rösträttsåldern i de allmänna valen."
+    ],
+    "optionsEn": [
+      "Elder care, accessibility, and staffing needs.",
+      "Increased expansion of compulsory schools and preschool places.",
+      "More places in higher academic education.",
+      "Changing the voting age in general elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Demographic change affects planning for care and local services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-054",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "nature-rights"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "En familj vill använda naturen för friluftsliv. Vilken princip är viktig att känna till?",
+    "questionEn": "A family wants to use nature for outdoor life. Which principle is important to know?",
+    "options": [
+      "Allemansrätten ger möjligheter men också ansvar att visa hänsyn.",
+      "Allemansrätten ger rätt att köra motorfordon fritt på alla privata markområden.",
+      "Allemansrätten innebär att man får slå läger på annans tomt utan begränsning.",
+      "Allemansrätten gäller enbart i statligt ägda nationalparker."
+    ],
+    "optionsEn": [
+      "The right of public access gives opportunities but also responsibility to show consideration.",
+      "The right of public access gives the right to drive motor vehicles freely on all private land.",
+      "The right of public access means one may camp on someone else’s home plot without limits.",
+      "The right of public access applies only in state-owned national parks."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The right of public access is important in Swedish outdoor life and includes responsibilities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-055",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "national-symbols"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "En person ser flaggan vid en ceremoni och frågar vad sådana symboler kan betyda. Vilket svar är mest nyanserat?",
+    "questionEn": "A person sees the flag at a ceremony and asks what such symbols can mean. Which answer is most nuanced?",
+    "options": [
+      "Nationella symboler kan skapa gemenskap, men människor kan tolka dem olika.",
+      "Symboler har enbart en juridisk funktion och saknar personlig betydelse.",
+      "Nationella symboler ersätter behovet av skrivna grundlagar.",
+      "Flaggans användning är strikt förbehållen statliga myndigheter."
+    ],
+    "optionsEn": [
+      "National symbols can create community, but people may interpret them differently.",
+      "Symbols have only a legal function and no personal meaning.",
+      "National symbols replace the need for written constitutional laws.",
+      "Use of the flag is strictly reserved for state authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "National symbols can carry shared meaning while being interpreted differently.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-056",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "service-access"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "En person på landsbygden har långt till vårdcentralen. Vilken samhällsutmaning visar det?",
+    "questionEn": "A person in the countryside has a long distance to the health centre. Which social challenge does this show?",
+    "options": [
+      "Att ge likvärdig service trots stora avstånd och olika befolkningstäthet.",
+      "Att sjukvård på landsbygden enbart ska drivas av privata hushåll.",
+      "Att regioner inte har något uppdrag att erbjuda hälso- och sjukvård.",
+      "Att avståndskriterier helt styr vem som omfattas av hälso- och sjukvårdslagen."
+    ],
+    "optionsEn": [
+      "Providing equal service despite long distances and different population density.",
+      "That healthcare in the countryside should only be run by private households.",
+      "That regions have no task to offer healthcare.",
+      "That distance criteria completely determine who is covered by healthcare law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Distance and population density affect access to services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-057",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "education-language"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "En nyanländ vuxen vill förstå myndighetsbrev och delta i arbetslivet. Varför är svenska språket viktigt?",
+    "questionEn": "A newly arrived adult wants to understand authority letters and participate in working life. Why is Swedish important?",
+    "options": [
+      "Språket ger tillgång till information, rättigheter, skyldigheter, arbete och utbildning.",
+      "Svenska är det enda tillåtna språket i privata sammanhang i Sverige.",
+      "Myndighetsbeslut gäller enbart personer som har svenska som modersmål.",
+      "Deltagande i arbetslivet kräver att man avsäger sig sitt ursprungliga modersmål."
+    ],
+    "optionsEn": [
+      "The language gives access to information, rights, duties, work, and education.",
+      "Swedish is the only permitted language in private contexts in Sweden.",
+      "Authority decisions apply only to people whose mother tongue is Swedish.",
+      "Participation in working life requires renouncing one’s original mother tongue."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish helps people participate and understand society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-058",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "municipal-planning"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "En kommun växer snabbt. Vilka frågor måste ofta planeras samtidigt?",
+    "questionEn": "A municipality grows quickly. Which questions often need to be planned at the same time?",
+    "options": [
+      "Bostäder, skolor, förskolor, lokaltrafik och annan kommunal service.",
+      "Bara vilka partier som får ställa upp i riksdagsvalet.",
+      "Enbart statliga skatter och utrikespolitik.",
+      "Endast vilka högtider invånarna firar i sina hem."
+    ],
+    "optionsEn": [
+      "Housing, schools, preschools, local transport, and other municipal services.",
+      "Only which parties may run in parliamentary elections.",
+      "Only state taxes and foreign policy.",
+      "Only which holidays residents celebrate in their homes."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipal planning involves housing, schools, preschools, local transport, and municipal services when a population grows.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-059",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "environment-economy"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "En ny industri kan ge jobb men också öka utsläpp. Vilket resonemang passar bäst?",
+    "questionEn": "A new industry can create jobs but also increase emissions. Which reasoning fits best?",
+    "options": [
+      "Beslut behöver väga ekonomi, miljö, hälsa och långsiktig hållbarhet.",
+      "Skapandet av arbetstillfällen innebär att miljölagstiftning inte behöver följas.",
+      "Industriutsläpp är enbart en fråga för enskilda markägare och inte för samhället.",
+      "Miljöhänsyn kräver att all industriell verksamhet avvecklas."
+    ],
+    "optionsEn": [
+      "Decisions need to weigh economy, environment, health, and long-term sustainability.",
+      "Creating jobs means environmental legislation does not need to be followed.",
+      "Industrial emissions are only a question for individual landowners and not society.",
+      "Environmental consideration requires all industrial activity to be shut down."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Society often has to balance different interests and long-term effects.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch01-060",
+    "chapterId": "country",
+    "chapterNumber": 1,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "country-overview"
+    ],
+    "source": "Sverige i fokus, chapter 1: Sverige som land",
+    "questionSv": "Vilket påstående beskriver bäst hur Sverige som land hänger ihop?",
+    "questionEn": "Which statement best describes how Sweden fits together as a country?",
+    "options": [
+      "Geografi, befolkning, naturresurser, historia och samhällsorganisation hänger ihop.",
+      "Sveriges samhällsstruktur styrs enbart av förhållandena i huvudstaden.",
+      "Naturresurser och geografiska avstånd saknar betydelse för samhällsutvecklingen.",
+      "Alla kommuner och regioner har exakt samma förutsättningar och utmaningar."
+    ],
+    "optionsEn": [
+      "Geography, population, natural resources, history, and social organization are connected.",
+      "Sweden’s social structure is governed only by conditions in the capital.",
+      "Natural resources and geographic distances have no importance for social development.",
+      "All municipalities and regions have exactly the same conditions and challenges."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Understanding Sweden as a country means seeing how place, people, resources, and institutions connect.",
+    "status": "draft"
+  }
+]

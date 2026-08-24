@@ -1,0 +1,31 @@
+[
+  {
+    "id": "draft-extra-ch007-020",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "extra",
+      "rättighetskonflikter"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (extra draft)",
+    "questionSv": "Vad händer när två grundläggande rättigheter kolliderar?",
+    "questionEn": "What happens when two fundamental rights conflict?",
+    "options": [
+      "Domstolar och myndigheter måste väga rättigheterna mot varandra i det enskilda fallet.",
+      "Den rättighet som tillkom senast upphäver alltid äldre rättigheter.",
+      "Yttrandefriheten väger alltid tyngre än alla andra rättigheter.",
+      "Konflikter mellan rättigheter avgörs genom en folkomröstning."
+    ],
+    "optionsEn": [
+      "Courts and authorities must weigh the rights against each other in the individual case.",
+      "The right created most recently always cancels older rights.",
+      "Freedom of expression always outweighs all other rights.",
+      "Conflicts between rights are decided by referendum."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "When rights conflict, courts and authorities weigh them against each other in the specific case; no right is automatically absolute, and conflicts are not decided by referendum.",
+    "status": "draft"
+  }
+]

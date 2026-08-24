@@ -1,0 +1,341 @@
+[
+  {
+    "id": "draft-ch01-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-003",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-005",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-006",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-007",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-008",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-010",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-011",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-012",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-013",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-014",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-015",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-016",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-017",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-018",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-019",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-020",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-021",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-022",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-023",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-024",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-025",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-026",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-027",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-028",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-029",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-030",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-031",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-032",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-033",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-034",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-035",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-036",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-037",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-038",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-039",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-040",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-041",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractors are obviously false rather than plausible misconceptions (e.g. 'Swedish law forbids services outside big cities'), so the item does not actually play at 'hard' difficulty — it reads as a medium/easy recognition question. Strengthen distractors to reflect plausible misunderstandings, or relabel difficulty to 'medium'."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch01-042",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-043",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractors are obviously false ('only one language may be used in all private communication', 'municipality abolishes all public services'), so the item does not play at 'hard'. Improve distractors to plausible misunderstandings or relabel to 'medium'."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch01-044",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractors are cartoonishly false ('the countryside becomes its own country', 'studies may only take place in the capital'), so the difficulty label 'hard' is not justified by the options. Strengthen distractors or relabel to 'medium'."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch01-045",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-046",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractors are obviously false ('the Sami alone decide all Swedish environmental laws', 'Sami perspectives may only be used in museums'), so the item does not play at 'hard'. Strengthen distractors or relabel to 'medium'."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch01-047",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractors are obviously false ('weather only affects private holiday plans', 'climate issues automatically decide election results'), so 'hard' is not justified by the options. Strengthen distractors or relabel to 'medium'."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch01-048",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractors are obviously false ('railways are only important in Stockholm', 'regions have no responsibility for everyday life'), so the item does not play at 'hard'. Strengthen distractors or relabel to 'medium'."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch01-049",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-050",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractors are obviously false ('Sweden has no contact with other economies', 'Swedish prices are decided only by the municipal council'), so 'hard' is not justified by the options. Strengthen distractors or relabel to 'medium'."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch01-051",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-052",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractors are obviously false ('banning moves to other municipalities', 'abolishing schools to save money'), so the item does not play at 'hard'. Strengthen distractors or relabel to 'medium'."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch01-053",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractors are obviously false ('parliamentary elections every other year', 'changing the national language'), so 'hard' is not justified by the options. Strengthen distractors or relabel to 'medium'."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch01-054",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-055",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-056",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractors are obviously false ('healthcare is only a private family matter', 'the countryside lacks the right to healthcare'), so the item does not play at 'hard'. Strengthen distractors or relabel to 'medium'."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch01-057",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch01-058",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractors are obviously false ('only the color of the municipality's flag', 'only which parties are in the Riksdag'), so 'hard' is not justified by the options. Strengthen distractors or relabel to 'medium'."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch01-059",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractors are obviously false ('jobs mean environmental rules are never needed', 'sustainability means no industry may exist'), so the item does not play at 'hard'. Strengthen distractors or relabel to 'medium'."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch01-060",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractors are obviously false ('Sweden can only be understood through one single city', 'all regions function exactly the same way'), so 'hard' is not justified by the options. Strengthen distractors or relabel to 'medium'."
+    ],
+    "difficultySuggestion": "medium"
+  }
+]

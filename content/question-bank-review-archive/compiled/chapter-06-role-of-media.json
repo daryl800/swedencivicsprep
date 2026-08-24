@@ -1,0 +1,2291 @@
+[
+  {
+    "id": "draft-batch-b-ch06-001",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "source-criticism",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "En artikel delas snabbt i sociala medier men saknar tydlig avsändare och källor. Vad är ett källkritiskt första steg?",
+    "questionEn": "An article is shared quickly on social media but has no clear sender or sources. What is a source-critical first step?",
+    "options": [
+      "Kontrollera vem som står bakom informationen och om andra trovärdiga källor bekräftar den.",
+      "Dela artikeln direkt eftersom många redan har gjort det.",
+      "Lita på texten om rubriken verkar säker och tydlig.",
+      "Anta att allt utan avsändare är myndighetsinformation."
+    ],
+    "optionsEn": [
+      "Check who is behind the information and whether other credible sources confirm it.",
+      "Share the article immediately because many others already have.",
+      "Trust the text if the headline seems confident and clear.",
+      "Assume everything without a sender is government information."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Source criticism means checking sender, evidence, purpose, and confirmation before trusting or sharing information.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-002",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "public-information",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Varför är det problematiskt om en kommun bara annonserar viktig information i en stängd privat grupp?",
+    "questionEn": "Why is it problematic if a municipality only announces important information in a closed private group?",
+    "options": [
+      "Invånare riskerar att inte få likvärdig tillgång till offentlig information.",
+      "Kommuner får bara informera personer som redan känner politiker.",
+      "Stängda grupper gör information automatiskt mer korrekt.",
+      "Offentlig information behöver aldrig nå alla berörda."
+    ],
+    "optionsEn": [
+      "Residents risk not getting equal access to public information.",
+      "Municipalities may only inform people who already know politicians.",
+      "Closed groups automatically make information more correct.",
+      "Public information never needs to reach everyone affected."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public communication should be accessible and fair to residents.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-003",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "freedom-of-expression",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "En person vill publicera hemliga uppgifter från en myndighet. Varför räcker det inte att hänvisa till yttrandefrihet?",
+    "questionEn": "A person wants to publish secret information from an authority. Why is it not enough to refer to freedom of expression?",
+    "options": [
+      "Yttrandefriheten är stark men kan begränsas av lag, till exempel sekretess och skydd för andra personer.",
+      "Yttrandefrihet gäller bara i tryckta tidningar och aldrig på internet.",
+      "Alla hemliga uppgifter får publiceras om syftet är politiskt.",
+      "Myndigheter får alltid stoppa all kritik innan den publiceras."
+    ],
+    "optionsEn": [
+      "Freedom of expression is strong but can be limited by law, for example secrecy and protection of others.",
+      "Freedom of expression only applies in printed newspapers and never online.",
+      "All secret information may be published if the purpose is political.",
+      "Authorities may always stop all criticism before publication."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Media freedoms are broad but not unlimited; legal rules can protect secrecy, privacy, and security.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-004",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "image-verification",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "En nyhet använder en bild från ett annat land men påstår att den visar Sverige. Vilken källkritisk fråga är viktig?",
+    "questionEn": "A news item uses a picture from another country but claims it shows Sweden. Which source-critical question is important?",
+    "options": [
+      "Var och när bilden faktiskt är tagen.",
+      "Om bilden har starka färger.",
+      "Om rubriken innehåller många utropstecken.",
+      "Om inlägget redan har många kommentarer."
+    ],
+    "optionsEn": [
+      "Where and when the picture was actually taken.",
+      "Whether the picture has strong colors.",
+      "Whether the headline contains many exclamation marks.",
+      "Whether the post already has many comments."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Images can be used misleadingly, so origin and context matter.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-005",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "media-democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Ett lokalt avslöjande visar att en kommun har brutit mot sina egna rutiner. Vilken demokratisk funktion visar journalistiken här?",
+    "questionEn": "A local investigation shows that a municipality has broken its own procedures. What democratic function does journalism show here?",
+    "options": [
+      "Medier kan granska makthavare och ge medborgare information för ansvarsutkrävande.",
+      "Medier kan upphäva kommunens beslut utan domstol.",
+      "Journalister kan ersätta kommunfullmäktige när rutiner bryts.",
+      "Medier får automatiskt besluta om nya kommunala regler."
+    ],
+    "optionsEn": [
+      "Media can scrutinize those in power and give citizens information for accountability.",
+      "Media can cancel the municipality’s decision without a court.",
+      "Journalists can replace the municipal council when procedures are broken.",
+      "Media automatically get to decide new municipal rules."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Investigative journalism can support democracy by exposing problems and enabling public scrutiny.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-006",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "disinformation",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Inför ett val sprids falska bilder som ska få väljare att misstro valprocessen. Varför är detta ett demokratiskt problem?",
+    "questionEn": "Before an election, false images are spread to make voters distrust the election process. Why is this a democratic problem?",
+    "options": [
+      "Desinformation kan påverka väljarnas förtroende och deras möjlighet att fatta informerade beslut.",
+      "Desinformation räknas alltid som officiell valinformation.",
+      "Falska bilder gör automatiskt valet juridiskt ogiltigt.",
+      "Väljare får inte prata om val om felaktig information finns på nätet."
+    ],
+    "optionsEn": [
+      "Disinformation can affect voters’ trust and their ability to make informed decisions.",
+      "Disinformation always counts as official election information.",
+      "False images automatically make the election legally invalid.",
+      "Voters may not talk about elections if incorrect information exists online."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democracy depends on voters having reliable information and trust in the process.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-007",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "source-criticism",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Varför bör man skilja mellan nyhetsartikel, debattartikel och reklam?",
+    "questionEn": "Why should one distinguish between a news article, opinion article, and advertisement?",
+    "options": [
+      "De har olika syften och kan påverka hur man bedömer innehållet.",
+      "Alla tre skrivs alltid av samma myndighet.",
+      "Reklam är alltid mer faktagranskad än nyheter.",
+      "Debattartiklar får aldrig innehålla fakta."
+    ],
+    "optionsEn": [
+      "They have different purposes and this can affect how one judges the content.",
+      "All three are always written by the same authority.",
+      "Advertisements are always more fact-checked than news.",
+      "Opinion articles may never contain facts."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Understanding genre helps readers judge purpose, bias, and reliability.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-008",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "press-freedom",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "En politiker vill att staten ska förhandsgranska tidningsartiklar om regeringen. Vilken princip talar starkast emot detta?",
+    "questionEn": "A politician wants the state to pre-approve newspaper articles about the government. Which principle speaks most strongly against this?",
+    "options": [
+      "Tryckfrihet och skydd mot censur.",
+      "Kommunalt självstyre i skolan.",
+      "Regionernas ansvar för sjukvård.",
+      "Riksbankens ansvar för inflation."
+    ],
+    "optionsEn": [
+      "Freedom of the press and protection against censorship.",
+      "Municipal self-government in schools.",
+      "Regions’ responsibility for healthcare.",
+      "The central bank’s responsibility for inflation."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish press freedom protects publication from state censorship.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-009",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "media-literacy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Varför kan rubriker vara missvisande även när artikeln innehåller korrekta fakta?",
+    "questionEn": "Why can headlines be misleading even when the article contains correct facts?",
+    "options": [
+      "Rubriken kan överdriva eller vinkla fakta för att väcka uppmärksamhet.",
+      "Rubriker är alltid mer noggranna än brödtext.",
+      "En korrekt artikel gör alla rubriker automatiskt neutrala.",
+      "Rubriker skrivs av domstolar före publicering."
+    ],
+    "optionsEn": [
+      "The headline can exaggerate or angle facts to attract attention.",
+      "Headlines are always more accurate than body text.",
+      "A correct article automatically makes all headlines neutral.",
+      "Headlines are written by courts before publication."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Source criticism includes comparing the headline with the actual content.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-010",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "algorithms",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "En person får nästan bara se politiska inlägg som bekräftar hens egna åsikter. Vilken risk kan detta skapa?",
+    "questionEn": "A person mostly sees political posts that confirm their own views. What risk can this create?",
+    "options": [
+      "Det kan göra det svårare att möta andra perspektiv och pröva information kritiskt.",
+      "Det betyder att alla inlägg automatiskt är sanna.",
+      "Det visar att personen inte längre omfattas av yttrandefrihet.",
+      "Det ger personen en mer nyanserad och balanserad bild av politiken."
+    ],
+    "optionsEn": [
+      "It can make it harder to encounter other perspectives and test information critically.",
+      "It means all posts are automatically true.",
+      "It shows the person is no longer covered by freedom of expression.",
+      "It gives the person a more nuanced and balanced view of politics."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Information bubbles can narrow perspective and make source criticism more important.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-011",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "media-ethics",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Varför kan medier välja att inte publicera namn på en misstänkt person?",
+    "questionEn": "Why may media choose not to publish the name of a suspected person?",
+    "options": [
+      "För att väga allmänintresse mot integritet och risken för skada.",
+      "För att misstänkta personer alltid är dömda i förväg.",
+      "För att domstolen förbjuder alla nyheter om brott.",
+      "För att namn bara får publiceras efter riksdagsval."
+    ],
+    "optionsEn": [
+      "To balance public interest against privacy and risk of harm.",
+      "Because suspects are always convicted in advance.",
+      "Because the court forbids all news about crime.",
+      "Because names may only be published after parliamentary elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Media ethics includes weighing public interest against individual privacy and harm.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-012",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "public-access",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "En reporter använder offentliga handlingar för att jämföra hur olika kommuner använder skattemedel. Varför är detta möjligt i Sverige?",
+    "questionEn": "A reporter uses public documents to compare how different municipalities use tax money. Why is this possible in Sweden?",
+    "options": [
+      "Offentlighetsprincipen ger insyn i många offentliga handlingar.",
+      "Offentlighetsprincipen gäller bara riksdagen och regeringen, inte kommuner.",
+      "Allmänna handlingar blir offentliga först efter flera års sekretess.",
+      "Endast svenska medborgare får ta del av allmänna handlingar."
+    ],
+    "optionsEn": [
+      "The principle of public access gives insight into many public documents.",
+      "The principle of public access only applies to the Riksdag and government, not municipalities.",
+      "Public documents only become public after several years of secrecy.",
+      "Only Swedish citizens may access public documents."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public access makes it possible to scrutinize how public bodies use resources.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-013",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "misinformation",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Vad är en viktig skillnad mellan misstag i information och avsiktlig desinformation?",
+    "questionEn": "What is an important difference between mistakes in information and intentional disinformation?",
+    "options": [
+      "Desinformation sprids med syfte att vilseleda, medan misstag kan ske utan sådan avsikt.",
+      "Misstag är alltid olagliga, medan desinformation alltid är laglig.",
+      "Desinformation finns bara i tryckta böcker.",
+      "Misstag kan bara göras av myndigheter."
+    ],
+    "optionsEn": [
+      "Disinformation is spread with the purpose of misleading, while mistakes can happen without that intent.",
+      "Mistakes are always illegal, while disinformation is always legal.",
+      "Disinformation exists only in printed books.",
+      "Mistakes can only be made by authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Intent matters: disinformation is deliberately misleading.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-014",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "En regering säger att bara positiva nyheter om landet får publiceras under en kris. Vad hotas mest?",
+    "questionEn": "A government says that only positive news about the country may be published during a crisis. What is most threatened?",
+    "options": [
+      "Fri nyhetsförmedling och möjligheten att granska makten.",
+      "Rätten att rösta i allmänna val.",
+      "Domstolarnas oberoende i enskilda brottmål.",
+      "Kommunernas rätt att ta ut skatt."
+    ],
+    "optionsEn": [
+      "Free news reporting and the ability to scrutinize power.",
+      "The right to vote in general elections.",
+      "The independence of courts in individual criminal cases.",
+      "Municipalities’ right to levy tax."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "If a government only allows positive news during a crisis, free and critical news reporting is what is most directly threatened. Voting rights, court independence, and municipal taxation are not what such a rule primarily attacks.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-015",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "digital-media",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Varför bör man vara försiktig med en skärmbild som påstås visa ett myndighetsbeslut?",
+    "questionEn": "Why should one be careful with a screenshot that claims to show an authority decision?",
+    "options": [
+      "Skärmbilder kan ändras eller sakna sammanhang, så originalkällan bör kontrolleras.",
+      "Skärmbilder från internet är alltid officiella dokument.",
+      "Myndigheter publicerar bara beslut som bilder.",
+      "En skärmbild ersätter alltid en offentlig handling."
+    ],
+    "optionsEn": [
+      "Screenshots can be altered or lack context, so the original source should be checked.",
+      "Screenshots from the internet are always official documents.",
+      "Authorities only publish decisions as images.",
+      "A screenshot always replaces a public document."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Digital material can be manipulated, so checking the original source is important.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch06-001",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "source-criticism",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch D gap-fill draft)",
+    "questionSv": "En myndighet publicerar statistik och en influencer gör en dramatisk tolkning utan länk. Vad bör en källkritisk läsare göra?",
+    "questionEn": "An authority publishes statistics and an influencer makes a dramatic interpretation without a link. What should a source-critical reader do?",
+    "options": [
+      "Kontrollera originalstatistiken och om tolkningen stöds av siffrorna.",
+      "Lita på influencern eftersom myndigheter alltid skriver svårt.",
+      "Anta att dramatisk tolkning alltid är mer sann.",
+      "Undvika originalkällan om många redan delat inlägget."
+    ],
+    "optionsEn": [
+      "Check the original statistics and whether the interpretation is supported by the numbers.",
+      "Trust the influencer because authorities always write in a difficult way.",
+      "Assume dramatic interpretation is always more true.",
+      "Avoid the original source if many have already shared the post."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Source criticism includes checking original sources and whether conclusions match the evidence.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch06-002",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "media-democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch D gap-fill draft)",
+    "questionSv": "Varför är lokala medier viktiga i en kommun?",
+    "questionEn": "Why are local media important in a municipality?",
+    "options": [
+      "De kan granska lokala beslut och informera invånare om frågor nära dem.",
+      "De beslutar vilka kommunpolitiker som får sitta kvar.",
+      "De ersätter kommunfullmäktige vid lågt valdeltagande.",
+      "De får skriva kommunens budget utan omröstning."
+    ],
+    "optionsEn": [
+      "They can scrutinize local decisions and inform residents about issues close to them.",
+      "They decide which municipal politicians may remain in office.",
+      "They replace the municipal council when turnout is low.",
+      "They may write the municipal budget without a vote."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Local journalism can support accountability and informed participation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-001",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "free-media"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad är en viktig uppgift för fria medier i en demokrati?",
+    "questionEn": "What is an important task for free media in a democracy?",
+    "options": [
+      "Att informera medborgare och granska makthavare.",
+      "Att alltid stödja regeringen.",
+      "Att välja vilka partier som får ställa upp i val.",
+      "Att döma personer som misstänks för brott."
+    ],
+    "optionsEn": [
+      "To inform citizens and scrutinize those in power.",
+      "To always support the government.",
+      "To choose which parties may run in elections.",
+      "To judge people suspected of crimes."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Free media help people get information and hold power accountable.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-002",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "free-media",
+      "scrutiny"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Varför kan granskande journalistik vara viktig för demokratin?",
+    "questionEn": "Why can investigative journalism be important for democracy?",
+    "options": [
+      "Den kan avslöja missbruk av makt och ge medborgare underlag för debatt.",
+      "Den ersätter domstolarnas arbete i brottmål.",
+      "Den gör att myndigheter aldrig behöver lämna ut handlingar.",
+      "Den bestämmer vilka lagar riksdagen ska anta."
+    ],
+    "optionsEn": [
+      "It can reveal misuse of power and give citizens a basis for debate.",
+      "It replaces the work of courts in criminal cases.",
+      "It means authorities never need to release documents.",
+      "It decides which laws the Riksdag should pass."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Journalism can scrutinize public and private power, but courts and public institutions still have their own roles.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-003",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "scrutiny",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "En tidning avslöjar att en kommun har gett kontrakt till en vän till en politiker. Vad är den demokratiska poängen med publiceringen?",
+    "questionEn": "A newspaper reveals that a municipality gave a contract to a politician’s friend. What is the democratic point of the publication?",
+    "options": [
+      "Medborgare får möjlighet att granska om offentlig makt använts sakligt.",
+      "Tidningen får automatiskt rätt att häva kontraktet.",
+      "Journalister kan döma politikern till straff.",
+      "Kommunen behöver inte längre följa upphandlingsregler."
+    ],
+    "optionsEn": [
+      "Citizens get a chance to scrutinize whether public power was used objectively.",
+      "The newspaper automatically gets the right to cancel the contract.",
+      "Journalists can sentence the politician to punishment.",
+      "The municipality no longer needs to follow procurement rules."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Media scrutiny can expose possible favoritism and create accountability, while legal consequences are handled through proper procedures.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-004",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "freedom-expression"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Varför är yttrandefrihet viktig för mediernas arbete?",
+    "questionEn": "Why is freedom of expression important for the work of media?",
+    "options": [
+      "Den gör det möjligt att publicera information, kritik och åsikter utan otillbörlig myndighetskontroll.",
+      "Den betyder att medier alltid måste publicera regeringens texter först.",
+      "Den gör att journalister får döma personer i brottmål.",
+      "Den innebär att varje läsare har rätt att ändra en artikel efter publicering."
+    ],
+    "optionsEn": [
+      "It makes it possible to publish information, criticism, and opinions without improper authority control.",
+      "It means media must always publish government texts first.",
+      "It means journalists may judge people in criminal cases.",
+      "It means every reader has the right to edit an article after publication."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Media freedom depends on the ability to publish and criticize power without prior control by authorities, while still following legal responsibility rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-005",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "freedom-expression",
+      "limits"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vilket påstående om yttrandefrihetens gränser är mest korrekt?",
+    "questionEn": "Which statement about the limits of freedom of expression is most correct?",
+    "options": [
+      "Friheten är stark, men hot, förtal och hets mot folkgrupp kan vara brottsligt.",
+      "Friheten gäller bara personer som arbetar i medier.",
+      "Friheten betyder att inga uttalanden kan få konsekvenser.",
+      "Friheten upphör automatiskt under valrörelser."
+    ],
+    "optionsEn": [
+      "The freedom is strong, but threats, defamation, and incitement against a group can be criminal.",
+      "The freedom only applies to people working in media.",
+      "The freedom means no statements can have consequences.",
+      "The freedom automatically ends during election campaigns."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rights can have legal limits when expression harms protected interests or violates criminal law, such as threats, defamation, or incitement against a group.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-006",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "freedom-expression",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "En person säger att medier får publicera vad som helst eftersom Sverige har yttrandefrihet. Vad är det bästa svaret?",
+    "questionEn": "A person says media may publish anything because Sweden has freedom of expression. What is the best answer?",
+    "options": [
+      "Medier har stark frihet men måste också följa lagar och ansvarssystem.",
+      "Det stämmer, medier kan aldrig bryta mot lagen.",
+      "Det stämmer bara om artikeln handlar om politik.",
+      "Yttrandefrihet gäller inte tryckta tidningar."
+    ],
+    "optionsEn": [
+      "Media have strong freedom but must also follow laws and systems of responsibility.",
+      "That is correct; media can never break the law.",
+      "That is correct only if the article concerns politics.",
+      "Freedom of expression does not apply to printed newspapers."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish media enjoy strong constitutional freedoms under the Freedom of the Press Act (Tryckfrihetsförordningen) and the Fundamental Law on Freedom of Expression (Yttrandefrihetsgrundlagen), but these are not unlimited. Media must still follow laws such as those on defamation, secrecy, and the rules of the responsible publisher (ansvarig utgivare). So 'media may publish anything' is incorrect: broad freedom comes with legal responsibility.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-007",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "freedom-press"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad skyddar tryckfriheten främst?",
+    "questionEn": "What does freedom of the press mainly protect?",
+    "options": [
+      "Möjligheten att ge ut tryckta skrifter utan förhandscensur.",
+      "Rätten för staten att godkänna alla artiklar före publicering.",
+      "Skyldigheten att bara läsa statliga nyheter.",
+      "Rätten att förbjuda kritik mot myndigheter."
+    ],
+    "optionsEn": [
+      "The possibility to publish printed material without prior censorship.",
+      "The state’s right to approve all articles before publication.",
+      "The obligation to read only state news.",
+      "The right to ban criticism of authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Freedom of the Press Act protects publication in printed media and is part of Sweden’s constitution.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-008",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "constitution",
+      "media-law"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vilka grundlagar är särskilt viktiga för mediernas frihet?",
+    "questionEn": "Which fundamental laws are especially important for media freedom?",
+    "options": [
+      "Tryckfrihetsförordningen och Yttrandefrihetsgrundlagen.",
+      "Brottsbalken och Skollagen.",
+      "Kommunallagen och Socialtjänstlagen.",
+      "Vallagen och Semesterlagen."
+    ],
+    "optionsEn": [
+      "The Freedom of the Press Act and the Fundamental Law on Freedom of Expression.",
+      "The Criminal Code and the Education Act.",
+      "The Local Government Act and Social Services Act.",
+      "The Elections Act and Annual Leave Act."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden has constitutional protection for press and expression in specific fundamental laws.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-009",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "constitution",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "En myndighet vill stoppa en kritisk artikel innan publicering bara för att den är obekväm. Vilken princip är mest relevant?",
+    "questionEn": "An authority wants to stop a critical article before publication only because it is uncomfortable. Which principle is most relevant?",
+    "options": [
+      "Förbud mot censur och skydd för fri publicering.",
+      "Myndigheters lojalitetsplikt mot regeringen.",
+      "Regelverket för offentlig upphandling.",
+      "Principen om myndighetsstyre utan insyn."
+    ],
+    "optionsEn": [
+      "Ban on censorship and protection for free publication.",
+      "Authorities’ duty of loyalty toward the government.",
+      "The rules for public procurement.",
+      "The principle of authority control without transparency."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Prior restraint by authorities is strongly limited in a free press system.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-010",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "public-access"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad innebär offentlighetsprincipen?",
+    "questionEn": "What does the principle of public access mean?",
+    "options": [
+      "Att allmänheten kan få insyn i många offentliga handlingar.",
+      "Att alla privata meddelanden blir offentliga.",
+      "Att myndigheter aldrig får sekretessbelägga något.",
+      "Att bara journalister får läsa myndighetsbeslut."
+    ],
+    "optionsEn": [
+      "That the public can access many official documents.",
+      "That all private messages become public.",
+      "That authorities may never keep anything confidential.",
+      "That only journalists may read authority decisions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public access lets citizens and media scrutinize public bodies, with some exceptions for confidentiality.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-011",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "public-access",
+      "documents"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vilket exempel passar bäst med offentlighetsprincipen?",
+    "questionEn": "Which example best fits the principle of public access?",
+    "options": [
+      "En person begär att få läsa ett beslut från en myndighet.",
+      "En arbetsgivare kräver att få se hur anställda röstat.",
+      "Ett parti kräver att få ändra en dom.",
+      "En tidning tvingar en privatperson att lämna dagbok."
+    ],
+    "optionsEn": [
+      "A person requests to read a decision from an authority.",
+      "An employer demands to see how employees voted.",
+      "A party demands to change a judgment.",
+      "A newspaper forces a private person to hand over a diary."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public access concerns official documents and public institutions, not unlimited access to private life.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-012",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "public-access",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "En reporter begär ut mejl som kommit in till en myndighet i ett ärende. Varför kan detta vara möjligt?",
+    "questionEn": "A reporter requests emails received by an authority in a case. Why can this be possible?",
+    "options": [
+      "Inkomna handlingar hos myndigheter kan vara allmänna handlingar.",
+      "Alla mejl i Sverige ägs av medierna.",
+      "Journalister har alltid större rättigheter än domstolar.",
+      "Myndigheter får aldrig skydda någon information."
+    ],
+    "optionsEn": [
+      "Documents received by authorities can be official documents.",
+      "All emails in Sweden are owned by the media.",
+      "Journalists always have greater rights than courts.",
+      "Authorities may never protect any information."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Documents received or created by authorities may be official documents, though secrecy rules can apply.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-013",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "secrecy"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Varför kan vissa uppgifter vara sekretessbelagda?",
+    "questionEn": "Why can some information be confidential?",
+    "options": [
+      "För att skydda till exempel privatliv, säkerhet eller känsliga utredningar.",
+      "För att myndigheter ska kunna dölja alla fel.",
+      "För att medier inte får granska staten.",
+      "För att alla handlingar alltid måste vara hemliga."
+    ],
+    "optionsEn": [
+      "To protect things such as privacy, security, or sensitive investigations.",
+      "So authorities can hide all mistakes.",
+      "Because media may not scrutinize the state.",
+      "Because all documents must always be secret."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public access is strong, but confidentiality can protect important interests.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-014",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "secrecy",
+      "public-access"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Hur kan offentlighetsprincip och sekretess fungera samtidigt?",
+    "questionEn": "How can public access and confidentiality work at the same time?",
+    "options": [
+      "En handling kan lämnas ut helt eller delvis, medan skyddade uppgifter maskas.",
+      "Sekretess betyder att offentlighetsprincipen aldrig gäller.",
+      "Offentlighetsprincipen betyder att sekretess är förbjuden.",
+      "Myndigheter får själva välja fritt utan lagregler."
+    ],
+    "optionsEn": [
+      "A document can be released fully or partly, while protected information is redacted.",
+      "Confidentiality means public access never applies.",
+      "Public access means confidentiality is forbidden.",
+      "Authorities may choose freely without legal rules."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Authorities must apply legal rules to decide what is public and what is protected.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-015",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "secrecy",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "En myndighet lämnar ut ett dokument men tar bort personnummer och känsliga hälsouppgifter. Vad är troligast?",
+    "questionEn": "An authority releases a document but removes personal identity numbers and sensitive health information. What is most likely?",
+    "options": [
+      "Myndigheten försöker kombinera insyn med skydd för personliga uppgifter.",
+      "Myndigheten har avskaffat offentlighetsprincipen.",
+      "Journalisten saknar rätt att få något dokument alls.",
+      "Alla uppgifter som maskas är politiska åsikter."
+    ],
+    "optionsEn": [
+      "The authority is trying to combine transparency with protection of personal data.",
+      "The authority has abolished public access.",
+      "The journalist has no right to any document at all.",
+      "All redacted information is political opinion."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Partial release is common when some parts are public and others are legally protected.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-016",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "source-criticism"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad betyder källkritik?",
+    "questionEn": "What does source criticism mean?",
+    "options": [
+      "Att granska vem som står bakom information och om den är trovärdig.",
+      "Att alltid tro på den första rubriken man ser.",
+      "Att bara dela nyheter som gör en arg.",
+      "Att undvika all samhällsinformation."
+    ],
+    "optionsEn": [
+      "To examine who is behind information and whether it is credible.",
+      "To always believe the first headline one sees.",
+      "To only share news that makes one angry.",
+      "To avoid all social information."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Source criticism means checking sender, purpose, evidence, context, and reliability.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-017",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "source-criticism",
+      "method"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vilken fråga är bra att ställa när man är källkritisk?",
+    "questionEn": "Which question is good to ask when being source-critical?",
+    "options": [
+      "Vem har publicerat detta och vilket syfte kan avsändaren ha?",
+      "Hur snabbt kan jag dela detta utan att läsa?",
+      "Vilken rubrik gör mig mest upprörd?",
+      "Passar detta alltid min tidigare åsikt?"
+    ],
+    "optionsEn": [
+      "Who published this and what purpose might the sender have?",
+      "How quickly can I share this without reading?",
+      "Which headline makes me most upset?",
+      "Does this always match my previous opinion?"
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sender and purpose are central questions in source criticism.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-018",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "source-criticism",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Ett inlägg påstår att en ny lag redan gäller, men länkar inte till någon myndighet eller nyhetskälla. Vad är ett källkritiskt agerande?",
+    "questionEn": "A post claims that a new law already applies, but links to no authority or news source. What is a source-critical action?",
+    "options": [
+      "Kontrollera uppgiften hos riksdag, regering eller trovärdiga nyhetskällor.",
+      "Dela inlägget direkt om många kommenterar.",
+      "Utgå från att det är sant om språket låter säkert.",
+      "Lita bara på inlägget om det har en bild."
+    ],
+    "optionsEn": [
+      "Check the information with the Riksdag, government, or credible news sources.",
+      "Share the post immediately if many people comment.",
+      "Assume it is true if the language sounds confident.",
+      "Trust the post only if it has an image."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Important civic claims should be checked against reliable sources before being shared or used.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-019",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "misinformation"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad är desinformation?",
+    "questionEn": "What is disinformation?",
+    "options": [
+      "Falsk eller vilseledande information som sprids avsiktligt.",
+      "All information som någon inte håller med om.",
+      "En domstols offentliga handling.",
+      "En vanlig opinionsundersökning med metodbeskrivning."
+    ],
+    "optionsEn": [
+      "False or misleading information spread intentionally.",
+      "All information someone disagrees with.",
+      "A court’s official document.",
+      "A normal opinion poll with method description."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Disinformation involves intentional misleading, not simply disagreement.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-020",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "misinformation",
+      "democracy"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Varför kan desinformation hota demokratin?",
+    "questionEn": "Why can disinformation threaten democracy?",
+    "options": [
+      "Den kan göra det svårare för människor att fatta informerade beslut.",
+      "Den gör automatiskt att fler röstar.",
+      "Den ersätter behovet av fria medier.",
+      "Den betyder att alla källor är lika trovärdiga."
+    ],
+    "optionsEn": [
+      "It can make it harder for people to make informed decisions.",
+      "It automatically makes more people vote.",
+      "It replaces the need for free media.",
+      "It means all sources are equally credible."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democracy depends on informed citizens and trustworthy public debate.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-021",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "misinformation",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Inför ett val sprids falska uppgifter om att röstdagen har flyttats. Vilken är den största demokratiska risken?",
+    "questionEn": "Before an election, false information spreads that election day has been moved. What is the biggest democratic risk?",
+    "options": [
+      "Väljare kan hindras från att delta genom vilseledande information.",
+      "Valresultatet ogiltigförklaras automatiskt av Valmyndigheten.",
+      "Riksdagen måste omedelbart samlas för att ändra valdatumet.",
+      "Medierna förlorar sin rätt att rapportera om valresultatet."
+    ],
+    "optionsEn": [
+      "Voters may be prevented from participating through misleading information.",
+      "The election result is automatically invalidated by the Election Authority.",
+      "The Riksdag must immediately meet to change the election date.",
+      "The media lose their right to report on the election result."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "False election information can suppress participation and undermine trust.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-022",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "propaganda"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad är propaganda i samhällsdebatt?",
+    "questionEn": "What is propaganda in public debate?",
+    "options": [
+      "Budskap som försöker påverka åsikter, ofta ensidigt eller manipulativt.",
+      "Alla nyheter som innehåller fakta.",
+      "Alla offentliga handlingar från myndigheter.",
+      "En röstsedel utan kandidatnamn."
+    ],
+    "optionsEn": [
+      "Messages that try to influence opinions, often one-sidedly or manipulatively.",
+      "All news that contains facts.",
+      "All official documents from authorities.",
+      "A ballot paper without candidate names."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Propaganda is communication designed to influence, often by selecting or distorting information.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-023",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "propaganda",
+      "source-criticism"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad kan vara ett tecken på propaganda?",
+    "questionEn": "What can be a sign of propaganda?",
+    "options": [
+      "Starka känslor används samtidigt som viktiga fakta utelämnas.",
+      "Texten anger tydligt källor och metod.",
+      "Flera perspektiv beskrivs sakligt.",
+      "Avsändaren rättar öppet tidigare fel."
+    ],
+    "optionsEn": [
+      "Strong emotions are used while important facts are omitted.",
+      "The text clearly states sources and method.",
+      "Several perspectives are described objectively.",
+      "The sender openly corrects earlier errors."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Propaganda often uses emotion, repetition, and selective facts to steer opinions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-024",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "propaganda",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "En film visar bara positiva bilder av ett parti och framställer alla kritiker som farliga utan bevis. Vad bör en källkritisk tittare tänka på?",
+    "questionEn": "A film shows only positive images of one party and portrays all critics as dangerous without evidence. What should a source-critical viewer consider?",
+    "options": [
+      "Avsändarens syfte, urval av fakta och om motbilder saknas.",
+      "Att filmen måste vara sann om den är välproducerad.",
+      "Att kritik mot partier alltid är olaglig.",
+      "Att stark musik gör politiska påståenden mer trovärdiga."
+    ],
+    "optionsEn": [
+      "The sender’s purpose, selection of facts, and whether opposing perspectives are missing.",
+      "That the film must be true if it is well produced.",
+      "That criticism of parties is always illegal.",
+      "That strong music makes political claims more credible."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Source criticism looks at purpose, evidence, framing, and omitted context.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-025",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "social-media"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad är en skillnad mellan sociala medier och traditionella nyhetsmedier?",
+    "questionEn": "What is one difference between social media and traditional news media?",
+    "options": [
+      "På sociala medier kan information spridas snabbt av många olika avsändare.",
+      "Sociala medier granskas alltid av domstol före publicering.",
+      "Traditionella medier får aldrig rätta fel.",
+      "Nyhetsmedier saknar ansvar för vad de publicerar."
+    ],
+    "optionsEn": [
+      "On social media, information can spread quickly from many different senders.",
+      "Social media are always reviewed by a court before publication.",
+      "Traditional media may never correct mistakes.",
+      "News media have no responsibility for what they publish."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Social platforms allow rapid sharing, which makes source criticism especially important.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-026",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "social-media",
+      "algorithms"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Varför kan sociala medier skapa en sned bild av samhällsdebatten?",
+    "questionEn": "Why can social media create a skewed picture of public debate?",
+    "options": [
+      "Algoritmer och delningar kan lyfta fram sådant som väcker stark reaktion.",
+      "Alla inlägg kontrolleras av riksdagen innan de visas.",
+      "Endast myndigheter får publicera politiska åsikter.",
+      "Kommentarer på sociala medier räknas som valresultat."
+    ],
+    "optionsEn": [
+      "Algorithms and sharing can highlight things that trigger strong reactions.",
+      "All posts are checked by the Riksdag before being shown.",
+      "Only authorities may publish political opinions.",
+      "Comments on social media count as election results."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The content people see online can be shaped by engagement, networks, and platform design.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-027",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "social-media",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "En person ser bara inlägg som bekräftar den egna åsikten och tror därför att nästan alla håller med. Vilket begrepp passar bäst?",
+    "questionEn": "A person only sees posts confirming their own view and therefore thinks almost everyone agrees. Which concept fits best?",
+    "options": [
+      "Filterbubbla eller ekokammare.",
+      "Censur eller förhandskontroll.",
+      "Ansvarigt utgivarskap.",
+      "Källskydd eller meddelarfrihet."
+    ],
+    "optionsEn": [
+      "Filter bubble or echo chamber.",
+      "Censorship or prior control.",
+      "Responsible publishership.",
+      "Source protection or freedom to communicate information."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Online environments can reinforce existing views and hide disagreement.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-028",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "public-service"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad menas ofta med public service-medier?",
+    "questionEn": "What is often meant by public service media?",
+    "options": [
+      "Radio och tv med ett samhällsuppdrag och krav på oberoende.",
+      "Medier som ägs av alla privata företag samtidigt.",
+      "Sociala medier där alla inlägg blir lagar.",
+      "Tidningar som bara får skriva om sport."
+    ],
+    "optionsEn": [
+      "Radio and TV with a public-service mission and requirements for independence.",
+      "Media owned by all private companies at the same time.",
+      "Social media where all posts become laws.",
+      "Newspapers that may only write about sports."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public service media have a public mission and are expected to operate independently.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-029",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "public-service",
+      "independence"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Varför är public service-mediernas oberoende viktigt?",
+    "questionEn": "Why is the independence of public service media important?",
+    "options": [
+      "De ska kunna informera och granska utan att styras partipolitiskt.",
+      "De ska alltid rapportera regeringens åsikt först.",
+      "De ska ersätta alla privata medier.",
+      "De ska bestämma vilka partier som får sitta i riksdagen."
+    ],
+    "optionsEn": [
+      "They should be able to inform and scrutinize without party-political control.",
+      "They should always report the government’s opinion first.",
+      "They should replace all private media.",
+      "They should decide which parties may sit in the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Independence supports trust and reduces the risk of political control over information.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-030",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "public-service",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "En regering vill detaljstyra vilka nyheter public service ska sända varje dag. Vilken demokratisk risk uppstår?",
+    "questionEn": "A government wants to micro-manage which news public service should broadcast every day. What democratic risk arises?",
+    "options": [
+      "Mediernas oberoende och fria nyhetsförmedling försvagas.",
+      "Public service blir automatiskt helt helg- och kvällsstängt.",
+      "Ansvarig utgivare förlorar sin straffrättsliga immunitet.",
+      "Presstödet till privata tidningar dras omedelbart in."
+    ],
+    "optionsEn": [
+      "Media independence and free news reporting are weakened.",
+      "Public service automatically becomes completely closed on weekends and evenings.",
+      "The responsible publisher loses criminal-law immunity.",
+      "Press support for private newspapers is immediately withdrawn."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "If government controls daily news content, media can become a political tool rather than an independent source.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-031",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "source-protection"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad innebär källskydd i journalistik?",
+    "questionEn": "What does source protection mean in journalism?",
+    "options": [
+      "Att en uppgiftslämnares identitet kan skyddas.",
+      "Att alla källor måste publiceras med namn.",
+      "Att journalister aldrig får tala med myndigheter.",
+      "Att bara regeringen får lämna tips till medier."
+    ],
+    "optionsEn": [
+      "That the identity of a source can be protected.",
+      "That all sources must be published by name.",
+      "That journalists may never speak with authorities.",
+      "That only the government may give tips to media."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Source protection can make it safer to reveal information of public interest.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-032",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "source-protection",
+      "whistleblowing"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Varför kan källskydd vara viktigt för granskning?",
+    "questionEn": "Why can source protection be important for scrutiny?",
+    "options": [
+      "Personer kan våga lämna uppgifter om missförhållanden utan att röjas.",
+      "Det gör att journalister aldrig behöver kontrollera fakta.",
+      "Det betyder att anonyma påståenden alltid är sanna.",
+      "Det låter medier döma personer utan domstol."
+    ],
+    "optionsEn": [
+      "People may dare to provide information about wrongdoing without being exposed.",
+      "It means journalists never need to check facts.",
+      "It means anonymous claims are always true.",
+      "It lets media judge people without a court."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Source protection supports scrutiny, but information still needs verification.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-033",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "source-protection",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "En anställd berättar anonymt för en journalist om allvarliga brister på en myndighet. Varför är källskydd relevant?",
+    "questionEn": "An employee anonymously tells a journalist about serious problems at an authority. Why is source protection relevant?",
+    "options": [
+      "Det kan skydda uppgiftslämnaren och möjliggöra granskning av missförhållanden.",
+      "Det gör att journalisten måste publicera allt utan kontroll.",
+      "Det ger den anställde rätt att själv ändra myndighetens beslut.",
+      "Det betyder att myndigheten inte får bemöta kritiken."
+    ],
+    "optionsEn": [
+      "It can protect the source and enable scrutiny of wrongdoing.",
+      "It means the journalist must publish everything without checking.",
+      "It gives the employee the right to change the authority’s decision.",
+      "It means the authority may not respond to the criticism."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Source protection can support accountability while journalism still has responsibility for accuracy and fairness.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-034",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "opinion-news"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad är skillnaden mellan nyhetsartikel och ledare/debattartikel?",
+    "questionEn": "What is the difference between a news article and an editorial/opinion article?",
+    "options": [
+      "Nyheter ska främst informera, medan ledare och debatt uttrycker åsikter.",
+      "Ledare är alltid domstolsbeslut.",
+      "Nyhetsartiklar får aldrig innehålla fakta.",
+      "Debattartiklar räknas som myndighetsbeslut."
+    ],
+    "optionsEn": [
+      "News should mainly inform, while editorials and debate articles express opinions.",
+      "Editorials are always court judgments.",
+      "News articles may never contain facts.",
+      "Debate articles count as authority decisions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Separating news and opinion helps readers understand the purpose of a text.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-035",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "opinion-news",
+      "source-criticism"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Varför är det viktigt att känna igen åsiktstext?",
+    "questionEn": "Why is it important to recognize opinion text?",
+    "options": [
+      "Läsaren kan då skilja mellan rapportering och argumentation.",
+      "Åsiktstext är alltid förbjuden i demokrati.",
+      "Åsiktstext är alltid mer sann än nyheter.",
+      "Läsaren behöver då aldrig kontrollera källor."
+    ],
+    "optionsEn": [
+      "The reader can distinguish between reporting and argumentation.",
+      "Opinion text is always forbidden in democracy.",
+      "Opinion text is always more true than news.",
+      "The reader then never needs to check sources."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Opinion texts are legitimate, but the reader should know when a text argues rather than reports.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-036",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "opinion-news",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "En text presenteras som nyhet men använder bara värderande ord och saknar källor. Vad bör läsaren göra?",
+    "questionEn": "A text is presented as news but uses only loaded words and lacks sources. What should the reader do?",
+    "options": [
+      "Vara källkritisk och kontrollera om texten är rapportering eller opinion.",
+      "Utgå från att texten är mer trovärdig eftersom den är starkt formulerad.",
+      "Dela texten snabbt innan andra medier hinner svara.",
+      "Anta att alla osignerade påståenden är myndighetsbeslut."
+    ],
+    "optionsEn": [
+      "Be source-critical and check whether the text is reporting or opinion.",
+      "Assume the text is more credible because it is strongly worded.",
+      "Share the text quickly before other media can respond.",
+      "Assume all unsigned claims are authority decisions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Style, sources, and labeling help determine whether content is news, opinion, advertising, or propaganda.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-037",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "advertising"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad är reklam?",
+    "questionEn": "What is advertising?",
+    "options": [
+      "Betald påverkan för att sälja eller marknadsföra något.",
+      "Oberoende journalistik som granskar företag.",
+      "Samhällsinformation som myndigheter måste publicera.",
+      "En debattartikel skriven av en privatperson."
+    ],
+    "optionsEn": [
+      "Paid influence to sell or promote something.",
+      "Independent journalism that scrutinizes companies.",
+      "Public information that authorities must publish.",
+      "An opinion article written by a private person."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Advertising tries to influence choices and should not be confused with independent journalism.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-038",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "advertising",
+      "native-ad"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Varför kan sponsrat innehåll vara källkritiskt svårt?",
+    "questionEn": "Why can sponsored content be difficult from a source-critical perspective?",
+    "options": [
+      "Det kan likna journalistik men ha ett kommersiellt syfte.",
+      "Det är alltid förbjudet att publicera.",
+      "Det är alltid mer opartiskt än nyheter.",
+      "Det skrivs alltid av domstolar."
+    ],
+    "optionsEn": [
+      "It can look like journalism but have a commercial purpose.",
+      "It is always forbidden to publish.",
+      "It is always more impartial than news.",
+      "It is always written by courts."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Readers need to notice labels and sender so they understand the purpose behind the content.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-039",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "advertising",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "En artikel om ett kosttillskott är märkt \"annons\" men ser ut som en nyhet. Vad är den viktigaste källkritiska slutsatsen?",
+    "questionEn": "An article about a supplement is marked \"advertisement\" but looks like news. What is the most important source-critical conclusion?",
+    "options": [
+      "Texten har ett marknadsföringssyfte även om den liknar journalistik.",
+      "Texten är automatiskt en myndighetsrekommendation.",
+      "Texten måste vara skriven av en domare.",
+      "Texten är mer trovärdig än forskning eftersom den är betald."
+    ],
+    "optionsEn": [
+      "The text has a marketing purpose even if it resembles journalism.",
+      "The text is automatically an authority recommendation.",
+      "The text must be written by a judge.",
+      "The text is more credible than research because it is paid."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sponsored material can be legitimate, but the reader should understand its purpose.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-040",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "media-diversity"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Varför är mediemångfald viktig?",
+    "questionEn": "Why is media diversity important?",
+    "options": [
+      "Flera röster och perspektiv kan bidra till bredare samhällsdebatt.",
+      "Alla medier måste ha samma ägare.",
+      "Bara ett perspektiv gör demokratin starkare.",
+      "Mångfald betyder att källkritik inte behövs."
+    ],
+    "optionsEn": [
+      "Several voices and perspectives can contribute to broader public debate.",
+      "All media must have the same owner.",
+      "Only one perspective makes democracy stronger.",
+      "Diversity means source criticism is unnecessary."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Media diversity reduces dependence on a single source or viewpoint.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-041",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "media-diversity",
+      "ownership"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Varför kan medieägande vara relevant att känna till?",
+    "questionEn": "Why can media ownership be relevant to know?",
+    "options": [
+      "Ägare och finansiering kan påverka prioriteringar och perspektiv.",
+      "Ägaren bestämmer alltid domstolarnas domar.",
+      "Alla medier med ägare är automatiskt falska.",
+      "Mediers ägare ersätter ansvarig utgivare i alla fall."
+    ],
+    "optionsEn": [
+      "Owners and funding can influence priorities and perspectives.",
+      "The owner always decides court judgments.",
+      "All media with owners are automatically false.",
+      "Media owners replace the responsible publisher in every case."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Ownership does not automatically decide truth, but it is part of understanding context and possible interests.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-042",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "media-diversity",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "I en stad ägs nästan alla lokala nyhetskanaler av samma företag. Vilken demokratisk fråga kan detta väcka?",
+    "questionEn": "In a city, almost all local news channels are owned by the same company. What democratic issue can this raise?",
+    "options": [
+      "Om invånarna får tillräcklig mångfald av perspektiv och granskning.",
+      "Om tidningarna förlorar sitt grundlagsskydd mot förtal.",
+      "Om journalister fortfarande omfattas av källskyddet.",
+      "Om ansvarig utgivare ersätts av bolagets aktieägare."
+    ],
+    "optionsEn": [
+      "Whether residents get enough diversity of perspectives and scrutiny.",
+      "Whether newspapers lose their constitutional protection against defamation.",
+      "Whether journalists are still covered by source protection.",
+      "Whether the responsible publisher is replaced by the company’s shareholders."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Concentrated ownership can affect plurality, especially in local public debate.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-043",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "public-debate"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad är en offentlig debatt?",
+    "questionEn": "What is public debate?",
+    "options": [
+      "Ett öppet samtal i samhället där olika åsikter kan mötas.",
+      "En hemlig rättegång utan parter.",
+      "En myndighets interna lönesamtal.",
+      "En automatisk rösträkning efter val."
+    ],
+    "optionsEn": [
+      "An open conversation in society where different views can meet.",
+      "A secret trial without parties.",
+      "An authority’s internal salary discussion.",
+      "An automatic vote count after an election."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public debate lets people exchange arguments and form opinions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-044",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "public-debate",
+      "democracy"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Varför behöver demokrati en öppen debatt?",
+    "questionEn": "Why does democracy need open debate?",
+    "options": [
+      "Medborgare behöver kunna jämföra argument och granska makt.",
+      "Alla måste bli överens innan ett val kan hållas.",
+      "Domstolar dömer bättre om medier är tysta.",
+      "Partier får bara finnas om debatten stängs."
+    ],
+    "optionsEn": [
+      "Citizens need to compare arguments and scrutinize power.",
+      "Everyone must agree before an election can be held.",
+      "Courts judge better if media are silent.",
+      "Parties may only exist if debate is closed."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democratic decisions are stronger when people can discuss, criticize, and compare alternatives.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-045",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "public-debate",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "En politiker vill förbjuda medier från att ställa kritiska frågor under valrörelsen. Vilken demokratisk funktion hotas?",
+    "questionEn": "A politician wants to ban media from asking critical questions during the election campaign. Which democratic function is threatened?",
+    "options": [
+      "Granskning och öppen debatt inför väljarnas beslut.",
+      "Principen om offentlighet i förvaltningsdomstolar.",
+      "Det straffrättsliga ansvaret för förtal i tryckt skrift.",
+      "Regeringens rätt att utse ansvariga utgivare."
+    ],
+    "optionsEn": [
+      "Scrutiny and open debate before voters make decisions.",
+      "The principle of public access in administrative courts.",
+      "Criminal responsibility for defamation in printed material.",
+      "The government’s right to appoint responsible publishers."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Critical questions help voters evaluate politicians and alternatives.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-046",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "responsible-publisher"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad är en ansvarig utgivare?",
+    "questionEn": "What is a responsible publisher?",
+    "options": [
+      "En person med juridiskt ansvar för publicering i vissa medier.",
+      "En väljare som ansvarar för kommunens budget.",
+      "En domare som godkänner alla artiklar före publicering.",
+      "En minister som bestämmer nyhetsrubriker."
+    ],
+    "optionsEn": [
+      "A person with legal responsibility for publication in certain media.",
+      "A voter responsible for the municipal budget.",
+      "A judge who approves all articles before publication.",
+      "A minister who decides news headlines."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The responsible publisher system is part of Swedish media law and accountability.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-047",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "responsible-publisher",
+      "accountability"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Varför finns systemet med ansvarig utgivare?",
+    "questionEn": "Why does the responsible publisher system exist?",
+    "options": [
+      "För att koppla publiceringsfrihet till tydligt juridiskt ansvar.",
+      "För att staten ska kunna förhandsgranska alla texter.",
+      "För att alla anonyma kommentarer ska bli myndighetsbeslut.",
+      "För att medieägare ska slippa allt ansvar i alla situationer."
+    ],
+    "optionsEn": [
+      "To connect publication freedom with clear legal responsibility.",
+      "So the state can pre-approve all texts.",
+      "So all anonymous comments become authority decisions.",
+      "So media owners avoid all responsibility in every situation."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Strong publication freedom is paired with defined responsibility after publication.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-048",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "responsible-publisher",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "En publicering misstänks vara förtal i en grundlagsskyddad tidning. Varför är ansvarig utgivare relevant?",
+    "questionEn": "A publication is suspected of defamation in a constitutionally protected newspaper. Why is the responsible publisher relevant?",
+    "options": [
+      "Det finns en bestämd person som kan bära ansvar för publiceringen enligt reglerna.",
+      "Alla läsare blir juridiskt ansvariga för att ha sett texten.",
+      "Regeringen dömer automatiskt utgivaren utan domstol.",
+      "Källor måste alltid offentliggöras med namn."
+    ],
+    "optionsEn": [
+      "There is a defined person who can bear responsibility for the publication under the rules.",
+      "All readers become legally responsible for having seen the text.",
+      "The government automatically sentences the publisher without a court.",
+      "Sources must always be publicly named."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The responsible publisher model clarifies accountability without prior censorship.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-049",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "checking-images"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad är ett problem med bilder och filmer på internet?",
+    "questionEn": "What is a problem with images and videos on the internet?",
+    "options": [
+      "De kan tas ur sitt sammanhang eller manipuleras.",
+      "De är alltid mer sanna än text.",
+      "De granskas alltid av myndigheter före publicering.",
+      "De kan aldrig användas som propaganda."
+    ],
+    "optionsEn": [
+      "They can be taken out of context or manipulated.",
+      "They are always more true than text.",
+      "They are always reviewed by authorities before publication.",
+      "They can never be used as propaganda."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Images can be powerful but still require context and verification.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-050",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "checking-images",
+      "source-criticism"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vilket är ett källkritiskt sätt att granska en dramatisk bild?",
+    "questionEn": "What is a source-critical way to examine a dramatic image?",
+    "options": [
+      "Söka efter ursprung, datum, plats och om bilden används i andra sammanhang.",
+      "Anta att bilden är sann om den väcker stark känsla.",
+      "Dela bilden utan text så att andra får tolka fritt.",
+      "Lita på bilden bara för att den är skarp."
+    ],
+    "optionsEn": [
+      "Search for origin, date, location, and whether the image is used in other contexts.",
+      "Assume the image is true if it creates strong feelings.",
+      "Share the image without text so others can interpret freely.",
+      "Trust the image just because it is sharp."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Reverse image search, context, and source checking can reveal old or misleading images.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-051",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "checking-images",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "En bild påstås visa en demonstration i Sverige i dag, men samma bild finns från ett annat land för fem år sedan. Vad visar det?",
+    "questionEn": "An image is claimed to show a demonstration in Sweden today, but the same image exists from another country five years ago. What does this show?",
+    "options": [
+      "Bilden används vilseledande och bör inte delas som bevis för påståendet.",
+      "Bilden blir mer trovärdig eftersom den är äldre.",
+      "Bilden måste automatiskt vara från Sverige också.",
+      "Datum och plats spelar ingen roll vid källkritik."
+    ],
+    "optionsEn": [
+      "The image is being used misleadingly and should not be shared as evidence for the claim.",
+      "The image becomes more credible because it is older.",
+      "The image must automatically also be from Sweden.",
+      "Date and place do not matter in source criticism."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Correct context is essential when images are used as evidence.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-052",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "rumors"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad är ett rykte?",
+    "questionEn": "What is a rumor?",
+    "options": [
+      "En uppgift som sprids utan säker bekräftelse.",
+      "Ett domstolsbeslut med lagstöd.",
+      "En offentlig handling från riksdagen.",
+      "En säker källa med full metodbeskrivning."
+    ],
+    "optionsEn": [
+      "A claim that spreads without reliable confirmation.",
+      "A court judgment with legal support.",
+      "An official document from the Riksdag.",
+      "A secure source with full method description."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rumors can be true or false, but should not be treated as verified without checking.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-053",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "rumors",
+      "responsibility"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Varför bör man vara försiktig med att sprida rykten?",
+    "questionEn": "Why should one be careful about spreading rumors?",
+    "options": [
+      "De kan skada människor och vilseleda debatten om de är falska.",
+      "De blir automatiskt sanna om många delar dem.",
+      "De räknas alltid som offentliga handlingar.",
+      "De är alltid skyddade från allt ansvar."
+    ],
+    "optionsEn": [
+      "They can harm people and mislead debate if false.",
+      "They automatically become true if many share them.",
+      "They always count as official documents.",
+      "They are always protected from all responsibility."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Responsible sharing matters because false claims can spread quickly and cause harm.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-054",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "rumors",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Ett anonymt konto anklagar en lokal politiker för brott utan bevis. Vad är mest ansvarsfullt?",
+    "questionEn": "An anonymous account accuses a local politician of a crime without evidence. What is most responsible?",
+    "options": [
+      "Vänta med att sprida och kontrollera om trovärdiga källor bekräftar uppgiften.",
+      "Dela anklagelsen direkt eftersom den gäller en politiker.",
+      "Anta att anonymitet alltid betyder att uppgiften är sann.",
+      "Kräva att politikern döms av kommunen samma dag."
+    ],
+    "optionsEn": [
+      "Wait to share and check whether credible sources confirm the claim.",
+      "Share the accusation immediately because it concerns a politician.",
+      "Assume anonymity always means the claim is true.",
+      "Demand that the politician be judged by the municipality the same day."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Serious allegations require careful verification and legal process.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-055",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "media",
+      "media-literacy"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad betyder medie- och informationskunnighet?",
+    "questionEn": "What does media and information literacy mean?",
+    "options": [
+      "Förmågan att hitta, förstå, värdera och använda information.",
+      "Att alltid tro på myndigheter utan frågor.",
+      "Att bara läsa nyheter från ett parti.",
+      "Att kunna rösta utan valsedel."
+    ],
+    "optionsEn": [
+      "The ability to find, understand, evaluate, and use information.",
+      "To always believe authorities without questions.",
+      "To only read news from one party.",
+      "To be able to vote without a ballot."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Media and information literacy helps people participate in society and democracy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-056",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "media-literacy",
+      "democracy"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Varför är mediekunnighet en demokratisk färdighet?",
+    "questionEn": "Why is media literacy a democratic skill?",
+    "options": [
+      "Den hjälper människor att bedöma information innan de formar åsikter och röstar.",
+      "Den gör att alla måste välja samma parti.",
+      "Den ersätter behovet av fria val.",
+      "Den gör att journalister aldrig behöver kontrolleras."
+    ],
+    "optionsEn": [
+      "It helps people assess information before forming opinions and voting.",
+      "It makes everyone choose the same party.",
+      "It replaces the need for free elections.",
+      "It means journalists never need to be scrutinized."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Citizens need reliable ways to handle information in order to participate meaningfully.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-057",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "media-literacy",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "En väljare får politiska budskap från reklam, nyheter, debattartiklar och vänner. Vad är en klok strategi?",
+    "questionEn": "A voter receives political messages from advertising, news, opinion articles, and friends. What is a wise strategy?",
+    "options": [
+      "Skilja på avsändare och syfte samt jämföra flera trovärdiga källor.",
+      "Lita på det budskap som upprepas flest gånger.",
+      "Bara läsa sådant som gör valet enklare.",
+      "Räkna alla budskap som lika neutrala nyheter."
+    ],
+    "optionsEn": [
+      "Distinguish sender and purpose and compare several credible sources.",
+      "Trust the message repeated the most times.",
+      "Only read things that make the choice easier.",
+      "Count all messages as equally neutral news."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Different information types have different purposes, so comparison and context matter.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-058",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "media-ethics"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vad kan pressetik handla om?",
+    "questionEn": "What can press ethics concern?",
+    "options": [
+      "Hur medier väger publicering mot saklighet, integritet och allmänintresse.",
+      "Hur regeringen väljer vilka rubriker som är tillåtna.",
+      "Hur domstolar bestämmer varje nyhetsvinkel.",
+      "Hur partier får censurera kritik."
+    ],
+    "optionsEn": [
+      "How media balance publication against accuracy, privacy, and public interest.",
+      "How the government chooses which headlines are allowed.",
+      "How courts decide every news angle.",
+      "How parties may censor criticism."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Press ethics concerns responsible journalism beyond minimum legal rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-059",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "media-ethics",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "En tidning har namn på en misstänkt person men bevisläget är oklart. Vilken avvägning är mest relevant?",
+    "questionEn": "A newspaper has the name of a suspected person but the evidence is unclear. Which balance is most relevant?",
+    "options": [
+      "Allmänintresse, risk för skada och kravet på saklig publicering.",
+      "Att publicering alltid är rätt om namnet ger många klick.",
+      "Att misstänkta personer saknar integritet före dom.",
+      "Att medier måste fråga regeringen innan varje namnpublicering."
+    ],
+    "optionsEn": [
+      "Public interest, risk of harm, and the requirement for factual publication.",
+      "That publication is always right if the name gets many clicks.",
+      "That suspects have no privacy before judgment.",
+      "That media must ask the government before every name publication."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Responsible journalism weighs public interest against privacy, accuracy, and potential harm.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch06-060",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "media",
+      "synthesis"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll",
+    "questionSv": "Vilken situation visar bäst mediernas demokratiska roll?",
+    "questionEn": "Which situation best shows the democratic role of media?",
+    "options": [
+      "Oberoende medier granskar ett beslut, redovisar källor och låter berörda bemöta kritiken.",
+      "Regeringen godkänner alla artiklar före publicering för att undvika debatt.",
+      "Ett anonymt konto sprider rykten och väljarna uppmanas att dela utan kontroll.",
+      "En myndighet vägrar lämna ut alla handlingar för att slippa kritik."
+    ],
+    "optionsEn": [
+      "Independent media scrutinize a decision, present sources, and allow those affected to respond.",
+      "The government approves all articles before publication to avoid debate.",
+      "An anonymous account spreads rumors and voters are urged to share without checking.",
+      "An authority refuses to release all documents to avoid criticism."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The democratic role of media combines freedom, scrutiny, transparency, source criticism, and responsibility.",
+    "status": "draft"
+  }
+]

@@ -1,0 +1,329 @@
+[
+  {
+    "id": "draft-ch09-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-003",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-005",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-006",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-007",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-008",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-010",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractor quality (criterion 4): Options B–D are cartoonish/absurd (a tax only doctors pay, a court fine for illness, a fee to vote) instead of realistic misconceptions; for an easy item prefer distractors that mix up real concepts, e.g. confusing patient fee with the healthcare tax or a monthly flat fee."
+    ],
+    "suggestedOptions": [
+      "En avgift patienten betalar för vissa vårdbesök.",
+      "En skatt som finansierar hela sjukvården.",
+      "En avgift som alla betalar varje månad oavsett om de besöker vården.",
+      "Ersättning som vården betalar ut till patienten vid besök."
+    ],
+    "suggestedCorrectIndex": 0
+  },
+  {
+    "id": "draft-ch09-011",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-012",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-013",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-014",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-015",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-016",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-017",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-018",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-019",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractor quality (criterion 4): All three distractors are cartoonish (deciding Riksdag seats, running all banks, issuing driving licences); replace with realistic institution-based misconceptions (Arbetsförmedlingen, Skatteverket, Pensionsmyndigheten) so the item tests the real scope of social services."
+    ],
+    "suggestedOptions": [
+      "Stöd till människor och familjer som behöver hjälp i svåra livssituationer.",
+      "Att ordna arbete åt alla som söker jobb.",
+      "Att besluta om skatt och folkbokföring.",
+      "Att betala ut pensioner till alla äldre."
+    ],
+    "suggestedCorrectIndex": 0
+  },
+  {
+    "id": "draft-ch09-020",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-021",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-022",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-023",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-024",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-025",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-026",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-027",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-028",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-029",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractor quality (criterion 4): Options B–D are cartoonish (child salary for school attendance, a region fee at birth, a repayable loan); replace with realistic misconceptions about child allowance (universal vs means-tested, one-off vs monthly, automatic vs applied-for). Note barnbidrag is universal and paid automatically by Försäkringskassan, so avoid distractors that state that fact as if wrong."
+    ],
+    "suggestedOptions": [
+      "Ett ekonomiskt stöd till barnfamiljer.",
+      "Ett bidrag som bara ges till familjer med låg inkomst.",
+      "En engångssumma som bara betalas ut när barnet fyller 18.",
+      "Ett bidrag som föräldrar måste söka med intyg varje månad."
+    ],
+    "suggestedCorrectIndex": 0
+  },
+  {
+    "id": "draft-ch09-030",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-031",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-032",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-033",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-034",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-035",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-036",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-037",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-038",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-039",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-040",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-041",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-042",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-043",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-044",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-045",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-046",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-047",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-048",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-049",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-050",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-051",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-052",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-053",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-054",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-055",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-056",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-057",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-058",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-059",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch09-060",
+    "verdict": "approve",
+    "issues": []
+  }
+]

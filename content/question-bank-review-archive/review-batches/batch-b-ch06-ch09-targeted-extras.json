@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "draft-batch-b-ch06-001",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "source-criticism",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "En artikel delas snabbt i sociala medier men saknar tydlig avsändare och källor. Vad är ett källkritiskt första steg?",
+    "questionEn": "An article is shared quickly on social media but has no clear sender or sources. What is a source-critical first step?",
+    "options": [
+      "Kontrollera vem som står bakom informationen och om andra trovärdiga källor bekräftar den.",
+      "Dela artikeln direkt eftersom många redan har gjort det.",
+      "Lita på texten om rubriken verkar säker och tydlig.",
+      "Anta att allt utan avsändare är myndighetsinformation."
+    ],
+    "optionsEn": [
+      "Check who is behind the information and whether other credible sources confirm it.",
+      "Share the article immediately because many others already have.",
+      "Trust the text if the headline seems confident and clear.",
+      "Assume everything without a sender is government information."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Source criticism means checking sender, evidence, purpose, and confirmation before trusting or sharing information.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-002",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "public-service",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Varför är det viktigt att public service ska vara oberoende från politisk styrning?",
+    "questionEn": "Why is it important that public service should be independent from political control?",
+    "options": [
+      "För att nyheter och samhällsinformation inte ska styras av regeringen eller partier.",
+      "För att public service ska slippa följa svensk lag.",
+      "För att bara regeringen ska kunna godkänna nyhetssändningar.",
+      "För att public service ska ersätta privata medier."
+    ],
+    "optionsEn": [
+      "So news and public information are not controlled by the government or parties.",
+      "So public service does not need to follow Swedish law.",
+      "So only the government can approve news broadcasts.",
+      "So public service replaces private media."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Independence protects trust and prevents public service from becoming a tool for those in power.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-003",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "freedom-of-expression",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "En person vill publicera hemliga uppgifter från en myndighet. Varför räcker det inte att hänvisa till yttrandefrihet?",
+    "questionEn": "A person wants to publish secret information from an authority. Why is it not enough to refer to freedom of expression?",
+    "options": [
+      "Yttrandefriheten är stark men kan begränsas av lag, till exempel sekretess och skydd för andra personer.",
+      "Yttrandefrihet gäller bara i tryckta tidningar och aldrig på internet.",
+      "Alla hemliga uppgifter får publiceras om syftet är politiskt.",
+      "Myndigheter får alltid stoppa all kritik innan den publiceras."
+    ],
+    "optionsEn": [
+      "Freedom of expression is strong but can be limited by law, for example secrecy and protection of others.",
+      "Freedom of expression only applies in printed newspapers and never online.",
+      "All secret information may be published if the purpose is political.",
+      "Authorities may always stop all criticism before publication."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Media freedoms are broad but not unlimited; legal rules can protect secrecy, privacy, and security.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-004",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "responsible-publisher",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Vad är tanken med en ansvarig utgivare för vissa medier?",
+    "questionEn": "What is the idea of a responsible publisher for certain media?",
+    "options": [
+      "Att det finns en person med särskilt juridiskt ansvar för publiceringen.",
+      "Att varje läsare blir ansvarig för alla artiklar hen läser.",
+      "Att staten väljer vilka åsikter mediet får publicera.",
+      "Att journalister slipper allt ansvar om texten är populär."
+    ],
+    "optionsEn": [
+      "That there is a person with special legal responsibility for the publication.",
+      "That every reader becomes responsible for all articles they read.",
+      "That the state chooses which opinions the medium may publish.",
+      "That journalists avoid all responsibility if the text is popular."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A responsible publisher creates clear accountability for publications under Swedish media rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-005",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "media-democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Ett lokalt avslöjande visar att en kommun har brutit mot sina egna rutiner. Vilken demokratisk funktion visar journalistiken här?",
+    "questionEn": "A local investigation shows that a municipality has broken its own procedures. What democratic function does journalism show here?",
+    "options": [
+      "Medier kan granska makthavare och ge medborgare information för ansvarsutkrävande.",
+      "Medier kan upphäva kommunens beslut utan domstol.",
+      "Journalister kan ersätta kommunfullmäktige när rutiner bryts.",
+      "Medier får automatiskt besluta om nya kommunala regler."
+    ],
+    "optionsEn": [
+      "Media can scrutinize those in power and give citizens information for accountability.",
+      "Media can cancel the municipality’s decision without a court.",
+      "Journalists can replace the municipal council when procedures are broken.",
+      "Media automatically get to decide new municipal rules."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Investigative journalism can support democracy by exposing problems and enabling public scrutiny.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-006",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "disinformation",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Inför ett val sprids falska bilder som ska få väljare att misstro valprocessen. Varför är detta ett demokratiskt problem?",
+    "questionEn": "Before an election, false images are spread to make voters distrust the election process. Why is this a democratic problem?",
+    "options": [
+      "Desinformation kan påverka väljarnas förtroende och deras möjlighet att fatta informerade beslut.",
+      "Desinformation räknas alltid som officiell valinformation.",
+      "Falska bilder gör automatiskt valet juridiskt ogiltigt.",
+      "Väljare får inte prata om val om felaktig information finns på nätet."
+    ],
+    "optionsEn": [
+      "Disinformation can affect voters’ trust and their ability to make informed decisions.",
+      "Disinformation always counts as official election information.",
+      "False images automatically make the election legally invalid.",
+      "Voters may not talk about elections if incorrect information exists online."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democracy depends on voters having reliable information and trust in the process.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-007",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "source-criticism",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Varför bör man skilja mellan nyhetsartikel, debattartikel och reklam?",
+    "questionEn": "Why should one distinguish between a news article, opinion article, and advertisement?",
+    "options": [
+      "De har olika syften och kan påverka hur man bedömer innehållet.",
+      "Alla tre skrivs alltid av samma myndighet.",
+      "Reklam är alltid mer faktagranskad än nyheter.",
+      "Debattartiklar får aldrig innehålla fakta."
+    ],
+    "optionsEn": [
+      "They have different purposes and this can affect how one judges the content.",
+      "All three are always written by the same authority.",
+      "Advertisements are always more fact-checked than news.",
+      "Opinion articles may never contain facts."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Understanding genre helps readers judge purpose, bias, and reliability.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-008",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "press-freedom",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "En politiker vill att staten ska förhandsgranska tidningsartiklar om regeringen. Vilken princip talar starkast emot detta?",
+    "questionEn": "A politician wants the state to pre-approve newspaper articles about the government. Which principle speaks most strongly against this?",
+    "options": [
+      "Tryckfrihet och skydd mot censur.",
+      "Kommunalt självstyre i skolan.",
+      "Regionernas ansvar för sjukvård.",
+      "Riksbankens ansvar för inflation."
+    ],
+    "optionsEn": [
+      "Freedom of the press and protection against censorship.",
+      "Municipal self-government in schools.",
+      "Regions’ responsibility for healthcare.",
+      "The central bank’s responsibility for inflation."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish press freedom protects publication from state censorship.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-009",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "source-protection",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Varför kan källskydd vara viktigt för journalistik?",
+    "questionEn": "Why can source protection be important for journalism?",
+    "options": [
+      "Det kan göra det möjligt för personer att lämna viktig information utan att avslöjas.",
+      "Det betyder att journalister aldrig behöver kontrollera uppgifter.",
+      "Det ger källor rätt att ljuga i domstol.",
+      "Det gör alla privata meddelanden offentliga."
+    ],
+    "optionsEn": [
+      "It can make it possible for people to provide important information without being exposed.",
+      "It means journalists never need to verify information.",
+      "It gives sources the right to lie in court.",
+      "It makes all private messages public."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Source protection can help reveal information of public interest while protecting informants.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-010",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "algorithms",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "En person får nästan bara se politiska inlägg som bekräftar hens egna åsikter. Vilken risk kan detta skapa?",
+    "questionEn": "A person mostly sees political posts that confirm their own views. What risk can this create?",
+    "options": [
+      "Det kan göra det svårare att möta andra perspektiv och pröva information kritiskt.",
+      "Det betyder att alla inlägg automatiskt är sanna.",
+      "Det visar att personen inte längre omfattas av yttrandefrihet.",
+      "Det ger personen en mer nyanserad och balanserad bild av politiken."
+    ],
+    "optionsEn": [
+      "It can make it harder to encounter other perspectives and test information critically.",
+      "It means all posts are automatically true.",
+      "It shows the person is no longer covered by freedom of expression.",
+      "It gives the person a more nuanced and balanced view of politics."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Information bubbles can narrow perspective and make source criticism more important.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-011",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "media-ethics",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Varför kan medier välja att inte publicera namn på en misstänkt person?",
+    "questionEn": "Why may media choose not to publish the name of a suspected person?",
+    "options": [
+      "För att väga allmänintresse mot integritet och risken för skada.",
+      "För att misstänkta personer alltid är dömda i förväg.",
+      "För att domstolen förbjuder alla nyheter om brott.",
+      "För att namn bara får publiceras efter riksdagsval."
+    ],
+    "optionsEn": [
+      "To balance public interest against privacy and risk of harm.",
+      "Because suspects are always convicted in advance.",
+      "Because the court forbids all news about crime.",
+      "Because names may only be published after parliamentary elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Media ethics includes weighing public interest against individual privacy and harm.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-012",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "public-access",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "En reporter använder offentliga handlingar för att jämföra hur olika kommuner använder skattemedel. Varför är detta möjligt i Sverige?",
+    "questionEn": "A reporter uses public documents to compare how different municipalities use tax money. Why is this possible in Sweden?",
+    "options": [
+      "Offentlighetsprincipen ger insyn i många offentliga handlingar.",
+      "Offentlighetsprincipen gäller bara riksdagen och regeringen, inte kommuner.",
+      "Allmänna handlingar blir offentliga först efter flera års sekretess.",
+      "Endast svenska medborgare får ta del av allmänna handlingar."
+    ],
+    "optionsEn": [
+      "The principle of public access gives insight into many public documents.",
+      "The principle of public access only applies to the Riksdag and government, not municipalities.",
+      "Public documents only become public after several years of secrecy.",
+      "Only Swedish citizens may access public documents."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public access makes it possible to scrutinize how public bodies use resources.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-013",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "misinformation",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Vad är en viktig skillnad mellan misstag i information och avsiktlig desinformation?",
+    "questionEn": "What is an important difference between mistakes in information and intentional disinformation?",
+    "options": [
+      "Desinformation sprids med syfte att vilseleda, medan misstag kan ske utan sådan avsikt.",
+      "Misstag är alltid olagliga, medan desinformation alltid är laglig.",
+      "Desinformation finns bara i tryckta böcker.",
+      "Misstag kan bara göras av myndigheter."
+    ],
+    "optionsEn": [
+      "Disinformation is spread with the purpose of misleading, while mistakes can happen without that intent.",
+      "Mistakes are always illegal, while disinformation is always legal.",
+      "Disinformation exists only in printed books.",
+      "Mistakes can only be made by authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Intent matters: disinformation is deliberately misleading.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-014",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "En regering säger att bara positiva nyheter om landet får publiceras under en kris. Vad hotas mest?",
+    "questionEn": "A government says that only positive news about the country may be published during a crisis. What is most threatened?",
+    "options": [
+      "Fri nyhetsförmedling och möjligheten att granska makten.",
+      "Regeringen får enligt lag bestämma nyhetsinnehåll vid allvarlig kris.",
+      "Medierna får fortsätta som vanligt men förlorar statligt stöd.",
+      "Endast public service omfattas av yttrandefriheten, inte andra medier."
+    ],
+    "optionsEn": [
+      "Free news reporting and the ability to scrutinize power.",
+      "The government is legally allowed to decide news content during a serious crisis.",
+      "Media may continue as usual but lose public funding.",
+      "Only public service is covered by freedom of expression, not other media."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Free media must be able to report critically, including during crises.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch06-015",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "digital-media",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "Varför bör man vara försiktig med en skärmbild som påstås visa ett myndighetsbeslut?",
+    "questionEn": "Why should one be careful with a screenshot that claims to show an authority decision?",
+    "options": [
+      "Skärmbilder kan ändras eller sakna sammanhang, så originalkällan bör kontrolleras.",
+      "Skärmbilder från internet är alltid officiella dokument.",
+      "Myndigheter publicerar bara beslut som bilder.",
+      "En skärmbild ersätter alltid en offentlig handling."
+    ],
+    "optionsEn": [
+      "Screenshots can be altered or lack context, so the original source should be checked.",
+      "Screenshots from the internet are always official documents.",
+      "Authorities only publish decisions as images.",
+      "A screenshot always replaces a public document."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Digital material can be manipulated, so checking the original source is important.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-001",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "equality",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En arbetsgivare väljer bort en sökande efter att ha hört att personen bär religiösa symboler. Vilken princip aktualiseras?",
+    "questionEn": "An employer rejects an applicant after hearing that the person wears religious symbols. Which principle is involved?",
+    "options": [
+      "Skydd mot diskriminering på grund av religion.",
+      "Rätten för arbetsgivare att välja bort alla religiösa personer.",
+      "Regeln att religion bara får utövas hemma.",
+      "Skyldigheten att berätta sin religion för arbetsgivaren."
+    ],
+    "optionsEn": [
+      "Protection against discrimination based on religion.",
+      "The right of employers to reject all religious people.",
+      "The rule that religion may only be practiced at home.",
+      "The obligation to tell the employer one’s religion."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Discrimination law protects people from unfair treatment connected to religion and other protected grounds.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-002",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "children-rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "Varför har barn särskilda rättigheter även om de också omfattas av mänskliga rättigheter?",
+    "questionEn": "Why do children have special rights even though they are also covered by human rights?",
+    "options": [
+      "Barn är beroende av vuxna och behöver särskilt skydd och inflytande utifrån sin ålder.",
+      "Barn har färre rättigheter eftersom de inte röstar.",
+      "Barns rättigheter gäller bara i skolan.",
+      "Föräldrar kan alltid välja bort barns rättigheter."
+    ],
+    "optionsEn": [
+      "Children depend on adults and need special protection and influence according to their age.",
+      "Children have fewer rights because they do not vote.",
+      "Children’s rights only apply in school.",
+      "Parents can always opt out of children’s rights."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Children’s rights recognize children’s vulnerability, development, and right to be heard.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-003",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "freedom-religion",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En person säger att religionsfrihet betyder att staten måste följa majoritetens religion. Vad är fel med det?",
+    "questionEn": "A person says freedom of religion means the state must follow the majority religion. What is wrong with that?",
+    "options": [
+      "Religionsfrihet skyddar både rätten att tro, byta tro och avstå från religion.",
+      "Religionsfrihet gäller bara den största religiösa gruppen.",
+      "Staten måste alltid göra religiösa regler till lag.",
+      "Den som inte är religiös saknar skydd."
+    ],
+    "optionsEn": [
+      "Freedom of religion protects the right to believe, change belief, and refrain from religion.",
+      "Freedom of religion only applies to the largest religious group.",
+      "The state must always make religious rules into law.",
+      "A person who is not religious has no protection."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of religion includes positive and negative freedom: to have, change, or not have a religion.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-004",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights-limits",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En demonstration planeras utanför ett sjukhus och riskerar att blockera ambulanser. Hur kan rättigheter behöva vägas?",
+    "questionEn": "A demonstration is planned outside a hospital and risks blocking ambulances. How may rights need to be balanced?",
+    "options": [
+      "Demonstrationsfrihet är viktig men kan begränsas praktiskt för att skydda säkerhet och vård.",
+      "Demonstrationsfrihet betyder att ambulansvägar alltid får blockeras.",
+      "Sjukhus får förbjuda alla politiska åsikter i kommunen.",
+      "Rätten att demonstrera gäller bara om alla håller med budskapet."
+    ],
+    "optionsEn": [
+      "Freedom to demonstrate is important but can be practically limited to protect safety and healthcare.",
+      "Freedom to demonstrate means ambulance routes may always be blocked.",
+      "Hospitals may ban all political opinions in the municipality.",
+      "The right to demonstrate only applies if everyone agrees with the message."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rights can sometimes be limited by law and practical conditions to protect others and public safety.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-005",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "minorities",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "Varför finns särskilt skydd för nationella minoriteter och minoritetsspråk?",
+    "questionEn": "Why is there special protection for national minorities and minority languages?",
+    "options": [
+      "För att bevara språk, kultur och möjlighet till delaktighet för grupper med historisk koppling till Sverige.",
+      "För att minoritetsspråk ska ersätta svenska i alla myndigheter.",
+      "För att bara minoriteter ska få rösta i vissa kommuner.",
+      "För att majoritetens kultur inte får nämnas i skolan."
+    ],
+    "optionsEn": [
+      "To preserve language, culture, and participation for groups with a historical connection to Sweden.",
+      "So minority languages replace Swedish in all authorities.",
+      "So only minorities may vote in certain municipalities.",
+      "So the majority culture may not be mentioned in school."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Minority rights protect cultural and linguistic identity and participation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-006",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "gender-equality",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En chef säger att småbarnsföräldrar inte bör få ansvar eftersom de kan vara hemma med sjuka barn. Vilket problem kan detta skapa?",
+    "questionEn": "A manager says parents of small children should not get responsibility because they may be home with sick children. What problem can this create?",
+    "options": [
+      "Det kan bli diskriminering och motverka jämställdhet i arbetslivet.",
+      "Det är alltid ett krav i svensk lag att föräldrar ska ha lägre lön.",
+      "Det visar att arbetsgivaren följer principen om lika behandling.",
+      "Enligt svensk lag får arbetsgivare välja bort föräldrar från ansvarsroller."
+    ],
+    "optionsEn": [
+      "It can become discrimination and work against gender equality in working life.",
+      "Swedish law always requires parents to have lower pay.",
+      "It shows the employer follows equal treatment.",
+      "Under Swedish law, employers may reject parents from responsibility roles."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Assumptions about family responsibilities can lead to unequal treatment and discrimination.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-007",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights-state",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "Vad betyder det att mänskliga rättigheter begränsar statens makt?",
+    "questionEn": "What does it mean that human rights limit state power?",
+    "options": [
+      "Staten måste respektera vissa grundläggande friheter och skydd för individer.",
+      "Staten får aldrig fatta beslut som påverkar människor.",
+      "Mänskliga rättigheter gäller bara medborgare, inte nyanlända.",
+      "En individ kan alltid välja bort svensk lag."
+    ],
+    "optionsEn": [
+      "The state must respect certain basic freedoms and protections for individuals.",
+      "The state may never make decisions that affect people.",
+      "Human rights only apply to citizens, not newly arrived people.",
+      "An individual can always opt out of Swedish law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Human rights set limits on how public power may treat individuals.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-008",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "expression",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En person uttrycker en obekväm politisk åsikt som många ogillar. Vad säger yttrandefrihetens demokratiska idé?",
+    "questionEn": "A person expresses an uncomfortable political opinion that many dislike. What does the democratic idea of freedom of expression say?",
+    "options": [
+      "Även obekväma åsikter ska i regel få uttryckas, så länge lagens gränser respekteras.",
+      "Bara populära åsikter skyddas av yttrandefrihet.",
+      "Yttrandefrihet gäller bara för medborgare, inte för nyanlända.",
+      "Den som kritiseras får automatiskt förbjuda uttalandet."
+    ],
+    "optionsEn": [
+      "Even uncomfortable opinions should generally be allowed, as long as legal limits are respected.",
+      "Only popular opinions are protected by freedom of expression.",
+      "Freedom of expression only applies to citizens, not newly arrived people.",
+      "The person being criticized may automatically ban the statement."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Free expression protects open debate, including views that others dislike, within legal limits.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-009",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "asylum",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "Varför prövas asylskäl individuellt?",
+    "questionEn": "Why are asylum reasons assessed individually?",
+    "options": [
+      "För att varje persons skyddsbehov och situation kan vara olika.",
+      "För att alla från samma land alltid får samma beslut.",
+      "För att kommuner bestämmer asyl efter bostadskö.",
+      "För att asyl aldrig har med mänskliga rättigheter att göra."
+    ],
+    "optionsEn": [
+      "Because each person’s need for protection and situation can be different.",
+      "Because everyone from the same country always receives the same decision.",
+      "Because municipalities decide asylum based on housing queues.",
+      "Because asylum never has anything to do with human rights."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Asylum decisions depend on the individual’s situation and protection needs.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-010",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "disability-rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En offentlig webbplats går inte att använda med skärmläsare. Vilket rättighetsperspektiv blir relevant?",
+    "questionEn": "A public website cannot be used with a screen reader. Which rights perspective becomes relevant?",
+    "options": [
+      "Tillgänglighet och möjlighet för personer med funktionsnedsättning att delta på lika villkor.",
+      "Att digital information bara behöver fungera för myndighetsanställda.",
+      "Att personer med funktionsnedsättning ska använda privata tjänster i stället.",
+      "Att webbplatser aldrig räknas som offentlig service."
+    ],
+    "optionsEn": [
+      "Accessibility and the ability of people with disabilities to participate on equal terms.",
+      "That digital information only needs to work for authority employees.",
+      "That people with disabilities should use private services instead.",
+      "That websites never count as public service."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Accessibility is part of equal participation in society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-011",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rule-of-law",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En person frihetsberövas utan att få veta varför eller kunna få saken prövad. Vilken rättighetsfråga väcks?",
+    "questionEn": "A person is detained without being told why or being able to have the matter reviewed. What rights issue is raised?",
+    "options": [
+      "Skydd mot godtyckligt frihetsberövande och rätt till rättssäker prövning.",
+      "Rätten för myndigheter att undvika domstol vid misstanke.",
+      "Skyldigheten för medborgare att acceptera alla beslut utan information.",
+      "Kommunens rätt att bestämma straff utan lag."
+    ],
+    "optionsEn": [
+      "Protection against arbitrary detention and the right to legal review.",
+      "The right of authorities to avoid courts when there is suspicion.",
+      "The obligation of citizens to accept all decisions without information.",
+      "The municipality’s right to decide punishments without law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Human rights and rule of law require legal grounds and review when liberty is restricted.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-012",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "privacy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "Varför räknas privatliv som en rättighetsfråga?",
+    "questionEn": "Why is privacy considered a rights issue?",
+    "options": [
+      "Människor ska ha skydd för personliga uppgifter, hem och privat kommunikation.",
+      "Privatliv betyder att ingen behöver följa lagar.",
+      "Privatliv gäller bara personer som äger bostad.",
+      "Myndigheter får alltid publicera människors privata uppgifter."
+    ],
+    "optionsEn": [
+      "People should have protection for personal data, home, and private communication.",
+      "Privacy means no one needs to follow laws.",
+      "Privacy only applies to people who own a home.",
+      "Authorities may always publish people’s private information."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Privacy protects personal life from unjustified intrusion.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-013",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "education",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "Ett barn hindras från att gå i skolan eftersom familjen inte har mycket pengar. Vilken princip talar emot detta?",
+    "questionEn": "A child is prevented from going to school because the family does not have much money. Which principle speaks against this?",
+    "options": [
+      "Rätten till utbildning och barns rätt till likvärdiga möjligheter.",
+      "Att utbildning bara är en frivillig privat tjänst.",
+      "Att skola i Sverige endast gäller barn till medborgare.",
+      "Att kommuner får sälja skolplatser till högstbjudande."
+    ],
+    "optionsEn": [
+      "The right to education and children’s right to equal opportunities.",
+      "That education is only a voluntary private service.",
+      "That school in Sweden only applies to children of citizens.",
+      "That municipalities may sell school places to the highest bidder."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Education is a fundamental right and children should have access regardless of family income.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-014",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "hate-speech",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En person säger att yttrandefrihet innebär rätt att hota en minoritetsgrupp. Vad är den bästa bedömningen?",
+    "questionEn": "A person says freedom of expression includes the right to threaten a minority group. What is the best assessment?",
+    "options": [
+      "Yttrandefrihet skyddar mycket, men hot och hets mot folkgrupp kan vara brottsligt.",
+      "Yttrandefrihet skyddar alltid hot om de skrivs på internet.",
+      "Hot är tillåtna om de riktas mot fler än en person.",
+      "Minoritetsgrupper omfattas inte av skydd i svensk rätt."
+    ],
+    "optionsEn": [
+      "Freedom of expression protects a lot, but threats and incitement against a group can be criminal.",
+      "Freedom of expression always protects threats if written online.",
+      "Threats are allowed if they target more than one person.",
+      "Minority groups are not covered by protection in Swedish law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Legal limits can protect people from threats and hate speech.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-015",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights-responsibility",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "Varför hänger rättigheter ofta ihop med ansvar för andra människors rättigheter?",
+    "questionEn": "Why are rights often connected to responsibility for other people’s rights?",
+    "options": [
+      "Ett öppet samhälle kräver att människor kan använda sina friheter utan att kränka andras skydd.",
+      "Den som har rättigheter får alltid bestämma över andra.",
+      "Ansvar betyder att staten tar bort alla individuella friheter.",
+      "Andras rättigheter gäller bara om man håller med dem."
+    ],
+    "optionsEn": [
+      "An open society requires people to use their freedoms without violating others’ protections.",
+      "A person with rights may always decide over others.",
+      "Responsibility means the state removes all individual freedoms.",
+      "Other people’s rights only apply if one agrees with them."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rights coexist; one person’s freedom must be balanced with others’ rights and safety.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-001",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "taxes",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "En person arbetar svart och får mer pengar direkt i handen. Vilken samhällseffekt missar personen?",
+    "questionEn": "A person works undeclared and gets more cash immediately. What social effect does the person miss?",
+    "options": [
+      "Skatteintäkter och trygghetssystem försvagas när inkomster inte redovisas.",
+      "Svartarbete stärker pensionen eftersom lönen inte beskattas.",
+      "Arbetsgivaren betalar automatiskt mer skatt om lönen är kontant.",
+      "Svartarbete ger alltid bättre försäkringsskydd vid olycka."
+    ],
+    "optionsEn": [
+      "Tax revenue and social security systems are weakened when income is not reported.",
+      "Undeclared work strengthens the pension because the wage is not taxed.",
+      "The employer automatically pays more tax if the wage is cash.",
+      "Undeclared work always gives better insurance protection after an accident."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Undeclared work harms public finances and can reduce worker protections and benefits.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-002",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "labor-market",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Varför är kollektivavtal viktiga på svensk arbetsmarknad?",
+    "questionEn": "Why are collective agreements important in the Swedish labour market?",
+    "options": [
+      "De reglerar ofta löner och villkor mellan arbetsgivare och fackliga organisationer.",
+      "De ersätter alla lagar som riksdagen beslutar.",
+      "De gör att bara fackmedlemmar får arbeta.",
+      "De beslutas av domstolar inför varje anställning."
+    ],
+    "optionsEn": [
+      "They often regulate wages and conditions between employers and trade unions.",
+      "They replace all laws decided by the Riksdag.",
+      "They mean only union members may work.",
+      "They are decided by courts before every employment."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Collective agreements are central to the Swedish labour market model.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-003",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "consumer-rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "En konsument köper en vara som visar sig vara felaktig efter några dagar. Vad är en rimlig första åtgärd?",
+    "questionEn": "A consumer buys a product that turns out to be faulty after a few days. What is a reasonable first step?",
+    "options": [
+      "Kontakta säljaren och reklamera felet.",
+      "Vänta tills garantin gått ut innan du reklamerar felet.",
+      "Kräv att kommunen byter ut varan utan att kontakta säljaren.",
+      "Stäm säljaren i domstol innan du kontaktar hen."
+    ],
+    "optionsEn": [
+      "Contact the seller and complain about the fault.",
+      "Wait until the warranty has expired before complaining about the fault.",
+      "Demand that the municipality replaces the product without contacting the seller.",
+      "Sue the seller in court before contacting them."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Consumer rights usually start with contacting the seller and making a complaint.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-004",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "budget",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Vad visar en privat budget bäst?",
+    "questionEn": "What does a personal budget best show?",
+    "options": [
+      "Hur inkomster och utgifter hänger ihop över tid.",
+      "Hur mycket skatt du ska betala nästa år.",
+      "Vilken minimilön lagen garanterar dig.",
+      "Hur stor pension du får automatiskt varje månad."
+    ],
+    "optionsEn": [
+      "How income and expenses are connected over time.",
+      "How much tax you will pay next year.",
+      "Which minimum wage the law guarantees you.",
+      "How much pension you automatically receive each month."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A budget helps a person plan and understand their financial situation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-005",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "debt",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "En person tar flera snabblån för att betala gamla lån. Vilken risk är störst?",
+    "questionEn": "A person takes several payday loans to pay old loans. What is the biggest risk?",
+    "options": [
+      "Skulder och kostnader kan växa så att ekonomin blir svår att hantera.",
+      "Räntan på snabblån är oftast mycket låg.",
+      "Nya lån kan lösa skuldproblemet en gång för alla.",
+      "Långivare måste enligt lag hjälpa dig ur skulden."
+    ],
+    "optionsEn": [
+      "Debts and costs can grow so the finances become hard to manage.",
+      "The interest on payday loans is usually very low.",
+      "New loans can solve the debt problem once and for all.",
+      "Lenders are legally required to help you out of debt."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "High-cost borrowing can create a debt spiral.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-006",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "work-rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "En anställd får ingen lönespecifikation och arbetsgivaren vill betala kontant utan avtal. Vad bör personen vara uppmärksam på?",
+    "questionEn": "An employee receives no payslip and the employer wants to pay cash without an agreement. What should the person watch out for?",
+    "options": [
+      "Det kan tyda på otrygga eller oredovisade arbetsvillkor.",
+      "Det är alltid ett tecken på högre pension och bättre försäkring.",
+      "Kontant lön utan uppgifter är den normala svenska modellen.",
+      "Arbetsgivaren behöver aldrig redovisa lön till myndigheter."
+    ],
+    "optionsEn": [
+      "It can indicate insecure or undeclared working conditions.",
+      "It is always a sign of higher pension and better insurance.",
+      "Cash pay without information is the normal Swedish model.",
+      "Employers never need to report wages to authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Transparent pay, taxes, and contracts protect both workers and the welfare system.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-007",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "unemployment",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Vilken roll har Arbetsförmedlingen framför allt?",
+    "questionEn": "What is mainly the role of the Swedish Public Employment Service?",
+    "options": [
+      "Att stödja arbetssökande och arbetsgivare på arbetsmarknaden.",
+      "Att besluta om domar i arbetsrättsliga mål.",
+      "Att betala ut a-kassa till alla arbetslösa.",
+      "Att bestämma lönen för alla anställda i landet."
+    ],
+    "optionsEn": [
+      "To support jobseekers and employers in the labour market.",
+      "To decide judgments in labour law cases.",
+      "To pay unemployment insurance to all unemployed people.",
+      "To decide the salary of all employees in the country."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Arbetsförmedlingen works with employment support, not courts or healthcare.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-008",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "pension",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Varför påverkar deklarerad inkomst ofta framtida pension?",
+    "questionEn": "Why does declared income often affect future pension?",
+    "options": [
+      "Pensionsrätter bygger bland annat på inkomster som redovisas och beskattas.",
+      "Pensionen bestäms bara av vilken kommun man bor i.",
+      "Svart lön ger alltid högre allmän pension.",
+      "Pensionen blir lika för alla oavsett inkomst."
+    ],
+    "optionsEn": [
+      "Pension rights are based partly on income that is reported and taxed.",
+      "The pension is decided only by which municipality one lives in.",
+      "Undeclared pay always gives a higher public pension.",
+      "The pension becomes the same for everyone regardless of income."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Reported income can contribute to pension rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-009",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "consumer-choice",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Varför är det klokt att jämföra effektiv ränta när man lånar pengar?",
+    "questionEn": "Why is it wise to compare effective interest when borrowing money?",
+    "options": [
+      "Den visar lånets totala kostnad på ett mer jämförbart sätt.",
+      "Den bestäms av Riksbanken och är lika för alla lån.",
+      "Den gör att lånet alltid blir gratis.",
+      "Den ersätter behovet av att läsa avtalet."
+    ],
+    "optionsEn": [
+      "It shows the total cost of the loan in a more comparable way.",
+      "It is set by the Riksbank and is the same for all loans.",
+      "It makes the loan always free.",
+      "It replaces the need to read the agreement."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Effective interest helps compare loan costs including fees.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-010",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "labor-rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "En arbetstagare blir uppsagd och tror att reglerna inte har följts. Vem kan ofta ge stöd eller råd?",
+    "questionEn": "An employee is dismissed and believes the rules were not followed. Who can often provide support or advice?",
+    "options": [
+      "Facket eller annan arbetsrättslig rådgivning kan hjälpa personen att förstå sina rättigheter.",
+      "Arbetsgivaren måste alltid förklara uppsägningen för polisen.",
+      "Domstolen avgör automatiskt alla uppsägningstvister.",
+      "Kommunen ansvarar för att anställa personen igen."
+    ],
+    "optionsEn": [
+      "A union or other labour law advice can help the person understand their rights.",
+      "The employer must always explain the dismissal to the police.",
+      "The court automatically decides all dismissal disputes.",
+      "The municipality is responsible for hiring the person again."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Workers can seek support to understand labour rights and agreements.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-011",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "welfare-finance",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Varför kan hög sysselsättning vara viktig för välfärden?",
+    "questionEn": "Why can high employment be important for welfare?",
+    "options": [
+      "Fler som arbetar bidrar med skatt och färre kan behöva ekonomiskt stöd.",
+      "Välfärden finansieras enbart av företagens vinst.",
+      "Fler jobb leder alltid till högre skatt för alla.",
+      "Arbete påverkar inte offentliga inkomster."
+    ],
+    "optionsEn": [
+      "More people working contribute taxes and fewer may need financial support.",
+      "Welfare is financed only by company profits.",
+      "More jobs always lead to higher tax for everyone.",
+      "Work does not affect public revenue."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Employment affects both tax revenue and need for benefits.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-012",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "household-economy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Vad betyder det oftast att ha en buffert i privatekonomin?",
+    "questionEn": "What does having a buffer in personal finances usually mean?",
+    "options": [
+      "Att ha sparade pengar för oväntade utgifter.",
+      "Att ha rätt att slippa betala hyra.",
+      "Att låna pengar utan ränta från kommunen.",
+      "Att du kan sluta arbeta helt utan inkomst i flera år."
+    ],
+    "optionsEn": [
+      "Having saved money for unexpected expenses.",
+      "Having the right to avoid paying rent.",
+      "Borrowing money interest-free from the municipality.",
+      "Being able to stop working completely without income for several years."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A buffer can reduce vulnerability when unexpected costs appear.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-013",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "tax-agency",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Varför är deklarationen viktig för många personer som arbetar?",
+    "questionEn": "Why is the tax return important for many people who work?",
+    "options": [
+      "Den hjälper till att fastställa rätt skatt på inkomster.",
+      "Den ersätter anställningsavtalet.",
+      "Den bestämmer om du får rösta i val.",
+      "Den visar om du har rätt till barnbidrag."
+    ],
+    "optionsEn": [
+      "It helps determine the correct tax on income.",
+      "It replaces the employment contract.",
+      "It decides whether you may vote in elections.",
+      "It shows whether you have the right to child allowance."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Tax returns are part of reporting income and calculating tax.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-014",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "insurance",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "En person tackar nej till hemförsäkring för att spara pengar. Vilken risk kan finnas?",
+    "questionEn": "A person declines home insurance to save money. What risk may exist?",
+    "options": [
+      "Oväntade skador eller ansvar kan bli mycket dyra för personen.",
+      "Skador i hemmet täcks alltid av den allmänna sjukförsäkringen.",
+      "Hyresvärden ansvarar alltid för alla dina ägodelar.",
+      "Kommunen måste alltid ersätta privata skador fullt ut."
+    ],
+    "optionsEn": [
+      "Unexpected damage or liability can become very expensive for the person.",
+      "Damage in the home is always covered by public sickness insurance.",
+      "The landlord is always responsible for all your belongings.",
+      "The municipality must always fully compensate private damage."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Insurance can protect against large unexpected costs.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-015",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "workplace-safety",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "En arbetsplats saknar skyddsutrustning trots risk för skador. Varför är arbetsmiljö en samhällsfråga?",
+    "questionEn": "A workplace lacks protective equipment despite risk of injury. Why is work environment a social issue?",
+    "options": [
+      "Arbetstagare ska kunna arbeta säkert och arbetsgivare har ansvar för arbetsmiljön.",
+      "Arbetsmiljö gäller bara personer som arbetar hemma.",
+      "Risker på jobbet är alltid den anställdes privata ansvar.",
+      "Arbetsgivaren har inget ansvar för den fysiska arbetsmiljön."
+    ],
+    "optionsEn": [
+      "Employees should be able to work safely and employers have responsibility for the work environment.",
+      "Work environment only applies to people working from home.",
+      "Workplace risks are always the employee’s private responsibility.",
+      "The employer has no responsibility for the physical work environment."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A safe work environment is part of worker protection and employer responsibility.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-001",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "healthcare",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "En person är sjuk men osäker på om det är akut. Varför kan 1177 vara rätt första kontakt?",
+    "questionEn": "A person is ill but unsure whether it is urgent. Why can 1177 be the right first contact?",
+    "options": [
+      "1177 ger sjukvårdsrådgivning och vägledning om vart personen kan vända sig.",
+      "1177 kan alltid skriva ut recept och sjukskriva direkt.",
+      "1177 beslutar om alla sjukpenningärenden.",
+      "1177 ersätter vårdcentraler och sjukhus helt."
+    ],
+    "optionsEn": [
+      "1177 gives healthcare advice and guidance on where the person can turn.",
+      "1177 can always prescribe medicine and issue sick leave directly.",
+      "1177 decides all sickness benefit cases.",
+      "1177 completely replaces health centres and hospitals."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "1177 is used for healthcare advice, while emergencies use 112.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-002",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "emergency",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "När passar det bäst att ringa 112?",
+    "questionEn": "When is it most appropriate to call 112?",
+    "options": [
+      "Vid akut fara för liv, hälsa, egendom eller miljö.",
+      "För att boka en vanlig tid på vårdcentralen.",
+      "För att fråga om öppettider på biblioteket.",
+      "För att ansöka om barnbidrag."
+    ],
+    "optionsEn": [
+      "In immediate danger to life, health, property, or the environment.",
+      "To book a normal appointment at a health centre.",
+      "To ask about library opening hours.",
+      "To apply for child allowance."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "112 is for emergencies requiring urgent help.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-003",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "social-insurance",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "En förälder är hemma med ett sjukt barn och söker ersättning. Vilken myndighet kopplas oftast till socialförsäkringen?",
+    "questionEn": "A parent is home with a sick child and applies for compensation. Which authority is usually connected to social insurance?",
+    "options": [
+      "Försäkringskassan.",
+      "Valmyndigheten.",
+      "Domstolsverket.",
+      "Riksbanken."
+    ],
+    "optionsEn": [
+      "The Swedish Social Insurance Agency.",
+      "The Election Authority.",
+      "The National Courts Administration.",
+      "The Riksbank."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Försäkringskassan handles several social insurance benefits, including parental-related compensation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-004",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "municipal-services",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "En äldre person behöver hjälp hemma med vardagliga sysslor. Vilken nivå ansvarar normalt för äldreomsorg?",
+    "questionEn": "An elderly person needs help at home with everyday tasks. Which level is normally responsible for elderly care?",
+    "options": [
+      "Kommunen.",
+      "Regionen.",
+      "Socialstyrelsen.",
+      "Försäkringskassan."
+    ],
+    "optionsEn": [
+      "The municipality.",
+      "The region.",
+      "The National Board of Health and Welfare.",
+      "The Swedish Social Insurance Agency."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipalities are normally responsible for elderly care and social services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-005",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "healthcare-regions",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "Varför betalar man ofta en patientavgift trots att vården till stor del finansieras med skatt?",
+    "questionEn": "Why does one often pay a patient fee even though healthcare is largely tax-funded?",
+    "options": [
+      "Avgiften täcker bara en del; skatter finansierar en stor del av vården.",
+      "Patientavgiften betyder att vården inte får skattepengar.",
+      "Avgiften går alltid direkt till läkaren privat.",
+      "Den som betalar avgift får automatiskt förtur i all vård."
+    ],
+    "optionsEn": [
+      "The fee covers only a part; taxes finance a large part of healthcare.",
+      "The patient fee means healthcare receives no tax money.",
+      "The fee always goes directly to the doctor privately.",
+      "Anyone who pays the fee automatically gets priority in all care."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Patient fees exist, but Swedish healthcare is heavily tax-funded.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-006",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "school",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "En familj flyttar till en ny kommun och barnen behöver skolplats. Varför är kommunen central i frågan?",
+    "questionEn": "A family moves to a new municipality and the children need school places. Why is the municipality central to the issue?",
+    "options": [
+      "Kommunen har ansvar för att barn får tillgång till grundskola.",
+      "Regionen bestämmer alltid varje barns klass.",
+      "Skolplats ges bara av Försäkringskassan.",
+      "Regionen ansvarar för alla grundskolor i kommunen."
+    ],
+    "optionsEn": [
+      "The municipality is responsible for children having access to compulsory school.",
+      "The region always decides every child’s class.",
+      "School places are only given by the Social Insurance Agency.",
+      "The region is responsible for all compulsory schools in the municipality."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipalities have major responsibility for compulsory school access.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-007",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "means-tested",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "Varför gör socialtjänsten ofta en individuell prövning innan ekonomiskt bistånd beslutas?",
+    "questionEn": "Why does social services often make an individual assessment before deciding financial assistance?",
+    "options": [
+      "Behov och egna möjligheter måste bedömas i det enskilda fallet.",
+      "Alla får automatiskt samma belopp oavsett situation.",
+      "Beloppet bestäms centralt av riksdagen lika för alla.",
+      "Socialtjänsten får bara hjälpa personer som arbetar heltid."
+    ],
+    "optionsEn": [
+      "Needs and one’s own possibilities must be assessed in the individual case.",
+      "Everyone automatically receives the same amount regardless of situation.",
+      "The amount is centrally decided by the Riksdag and is the same for everyone.",
+      "Social services may only help people who work full time."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Financial assistance is needs-tested and depends on the person’s situation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-008",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "welfare-finance",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "En person säger att välfärd är gratis eftersom man inte alltid betalar hela kostnaden vid besöket. Vad är mer korrekt?",
+    "questionEn": "A person says welfare is free because one does not always pay the full cost at the visit. What is more correct?",
+    "options": [
+      "Många välfärdstjänster finansieras gemensamt via skatter och ibland avgifter.",
+      "Välfärd saknar kostnader för samhället.",
+      "Alla välfärdstjänster betalas av privata donationer.",
+      "Kommuner får inte använda skatt till välfärd."
+    ],
+    "optionsEn": [
+      "Many welfare services are jointly financed through taxes and sometimes fees.",
+      "Welfare has no cost for society.",
+      "All welfare services are paid by private donations.",
+      "Municipalities may not use tax for welfare."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Welfare is often paid collectively, not cost-free.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-009",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "public-private",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "Kan välfärdstjänster utföras av privata aktörer i Sverige?",
+    "questionEn": "Can welfare services be provided by private actors in Sweden?",
+    "options": [
+      "Ja, ibland utför privata aktörer tjänster som finansieras eller regleras offentligt.",
+      "Nej, privata aktörer är förbjudna i all vård och skola.",
+      "Ja, men då upphör alla lagkrav och tillsyn.",
+      "Nej, kommunen måste alltid driva all vård och skola i egen regi."
+    ],
+    "optionsEn": [
+      "Yes, sometimes private actors provide services that are publicly funded or regulated.",
+      "No, private actors are forbidden in all healthcare and schools.",
+      "Yes, but then all legal requirements and supervision stop.",
+      "No, the municipality must always run all healthcare and schools itself."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Some welfare can be delivered by private providers, but public responsibility and rules can still apply.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-010",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "sick-leave",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "En person kan inte arbeta på grund av sjukdom under en längre tid. Varför är både arbetsgivare, vård och Försäkringskassan ibland inblandade?",
+    "questionEn": "A person cannot work because of illness for a longer period. Why may the employer, healthcare, and Försäkringskassan all be involved?",
+    "options": [
+      "Sjukdom kan påverka arbetsförmåga, vårdbehov och rätt till ersättning.",
+      "Arbetsgivaren sköter hela sjukpenningen utan Försäkringskassan.",
+      "Försäkringskassan driver vårdcentraler åt regionen.",
+      "Arbetsgivaren bestämmer alltid medicinsk diagnos."
+    ],
+    "optionsEn": [
+      "Illness can affect work ability, healthcare needs, and the right to compensation.",
+      "The employer handles all sickness benefit without the Social Insurance Agency.",
+      "The Social Insurance Agency runs health centres for the region.",
+      "The employer always decides the medical diagnosis."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Longer illness can involve several systems: work, healthcare, and social insurance.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-011",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "child-benefit",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "Vad visar barnbidraget som exempel på välfärd?",
+    "questionEn": "What does child allowance show as an example of welfare?",
+    "options": [
+      "Att vissa stöd kan vara generella och riktade till barnfamiljer.",
+      "Att barn måste ansöka om lön från kommunen.",
+      "Att bidrag alltid är lån som ska betalas tillbaka.",
+      "Att bara familjer med hög inkomst får stöd."
+    ],
+    "optionsEn": [
+      "That some support can be general and directed to families with children.",
+      "That children must apply for wages from the municipality.",
+      "That benefits are always loans that must be repaid.",
+      "That only high-income families receive support."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Child allowance is an example of broad financial support for families with children.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-012",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "care-choice",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "En person har svårt att förstå brev från vården och missar en tid. Varför är tydlig samhällsinformation viktig i välfärden?",
+    "questionEn": "A person has difficulty understanding letters from healthcare and misses an appointment. Why is clear public information important in welfare?",
+    "options": [
+      "Människor behöver förstå information för att kunna använda sina rättigheter och tjänster.",
+      "Svårigheter att förstå påverkar inte rätten till stöd.",
+      "Vården får bara informera personer som talar svenska perfekt.",
+      "Kommunen ansvarar inte för att informationen blir förstådd."
+    ],
+    "optionsEn": [
+      "People need to understand information to use their rights and services.",
+      "Difficulty understanding does not affect the right to support.",
+      "Healthcare may only inform people who speak perfect Swedish.",
+      "The municipality has no responsibility for information being understood."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Access to welfare depends not only on services existing, but also on people understanding how to use them.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-013",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "responsibility-levels",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "En invånare klagar på både förskola och sjukvård. Varför kan klagomålen behöva gå till olika ansvariga?",
+    "questionEn": "A resident complains about both preschool and healthcare. Why may the complaints need to go to different responsible bodies?",
+    "options": [
+      "Förskola är normalt kommunens ansvar, medan sjukvård normalt är regionens ansvar.",
+      "Båda frågorna hanteras alltid av staten, inte av kommun eller region.",
+      "Sjukvård är kommunens ansvar och förskola regionens ansvar i hela landet.",
+      "Inga välfärdstjänster har någon politiskt ansvarig nivå."
+    ],
+    "optionsEn": [
+      "Preschool is normally the municipality’s responsibility, while healthcare is normally the region’s responsibility.",
+      "Both issues are always handled by the state, not by municipality or region.",
+      "Healthcare is the municipality’s responsibility and preschool the region’s responsibility everywhere.",
+      "No welfare services have any politically responsible level."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Different welfare services belong to different public levels.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-014",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "welfare-rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "Varför är välfärd kopplad till jämlikhet?",
+    "questionEn": "Why is welfare connected to equality?",
+    "options": [
+      "Den kan ge människor grundläggande stöd och service även vid olika ekonomiska förutsättningar.",
+      "Den gör att alla människor får exakt samma liv och lön.",
+      "Den betyder att staten förbjuder privata val.",
+      "Den gäller bara personer som aldrig har arbetat."
+    ],
+    "optionsEn": [
+      "It can give people basic support and services even with different economic conditions.",
+      "It makes all people have exactly the same life and salary.",
+      "It means the state forbids private choices.",
+      "It only applies to people who have never worked."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Welfare can reduce the effect of unequal resources by providing shared support and services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-015",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "integration",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "Varför kan samhällsorientering vara viktig för en nyanländ person?",
+    "questionEn": "Why can civic orientation be important for a newly arrived person?",
+    "options": [
+      "Den kan ge kunskap om rättigheter, skyldigheter och hur samhällets service fungerar.",
+      "Den ersätter alla krav på att följa svensk lag.",
+      "Den ger automatiskt svenskt medborgarskap efter kursen.",
+      "Den är bara till för personer som redan arbetar i kommunen."
+    ],
+    "optionsEn": [
+      "It can provide knowledge about rights, obligations, and how public services work.",
+      "It replaces all requirements to follow Swedish law.",
+      "It automatically gives Swedish citizenship after the course.",
+      "It is only for people who already work in the municipality."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Civic orientation can help people understand society, services, rights, and responsibilities.",
+    "status": "draft"
+  }
+]

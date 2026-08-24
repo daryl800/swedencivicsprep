@@ -1,0 +1,60 @@
+[
+  {
+    "id": "draft-extra-ch010-001",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "industrialisering"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (extra draft)",
+    "questionSv": "Hur påverkade industrialiseringen Sverige under sent 1800-tal och tidigt 1900-tal?",
+    "questionEn": "How did industrialization affect Sweden in the late 1800s and early 1900s?",
+    "options": [
+      "Många människor flyttade från landsbygden till städerna för att arbeta i fabriker.",
+      "De flesta valde att flytta från städerna till landsbygden för att arbeta med modernt jordbruk.",
+      "Sverige stängde sina gränser för att skydda den inhemska hantverksproduktionen.",
+      "Befolkningen i landet minskade kraftigt eftersom de flesta fabriker lades ner."
+    ],
+    "optionsEn": [
+      "Many people moved from the countryside to cities to work in factories.",
+      "Most people chose to move from cities to the countryside to work with modern agriculture.",
+      "Sweden closed its borders to protect domestic craft production.",
+      "The country’s population fell sharply because most factories closed."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Industrialization caused a major demographic shift as people moved from the countryside to cities for factory jobs.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch010-013",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "neutralitetspolitik"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (extra draft)",
+    "questionSv": "Vad innebar Sveriges neutralitetspolitik under 1900-talet?",
+    "questionEn": "What did Sweden’s neutrality policy mean during the 20th century?",
+    "options": [
+      "Sverige höll sig utanför krig och militära allianser i fredstid för att kunna vara neutralt i krig.",
+      "Sverige var formellt allierat med de nordiska grannländerna mot stormakterna.",
+      "Sverige vägrade att bedriva internationell handel med länder som var inblandade i krig.",
+      "Sverige överlät sitt försvar helt till FN och avskaffade sin egen militär."
+    ],
+    "optionsEn": [
+      "Sweden stayed outside wars and military alliances in peacetime to be able to remain neutral in war.",
+      "Sweden was formally allied with its Nordic neighbours against the great powers.",
+      "Sweden refused to conduct international trade with countries involved in war.",
+      "Sweden handed over its defense completely to the UN and abolished its own military."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "During the 20th century, Sweden pursued a policy of non-alignment in peacetime aiming for neutrality in war. It did not form formal military alliances with its neighbors, nor did it stop trading or abolish its military.",
+    "status": "draft"
+  }
+]

@@ -1,0 +1,2279 @@
+[
+  {
+    "id": "draft-batch-c-ch12-001",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "secular-state",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "En myndighet fattar beslut om bidrag. Varför ska beslutet inte bygga på handläggarens religion?",
+    "questionEn": "An authority decides on a benefit. Why should the decision not be based on the caseworker’s religion?",
+    "options": [
+      "Offentliga beslut ska bygga på lag, saklighet och likabehandling.",
+      "Myndigheter ska följa den största religionens regler.",
+      "Handläggaren får alltid välja religiösa regler framför lag.",
+      "Bidrag beslutas av trossamfund, inte av myndigheter."
+    ],
+    "optionsEn": [
+      "Public decisions should be based on law, objectivity, and equal treatment.",
+      "Authorities should follow the rules of the largest religion.",
+      "The caseworker may always choose religious rules over law.",
+      "Benefits are decided by religious communities, not authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A secular rule-of-law state bases public decisions on law rather than religious authority.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-002",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "state-neutrality",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Vad betyder det att staten ska vara neutral mellan olika livsåskådningar?",
+    "questionEn": "What does it mean that the state should be neutral between different worldviews?",
+    "options": [
+      "Offentlig makt ska inte gynna eller missgynna människor på grund av tro eller icke-tro.",
+      "Staten ska förbjuda alla religiösa samfund.",
+      "Myndigheter ska välja en livsåskådning åt varje person.",
+      "Neutralitet betyder att religion aldrig får diskuteras offentligt."
+    ],
+    "optionsEn": [
+      "Public power should not favor or disadvantage people because of belief or non-belief.",
+      "The state should ban all religious communities.",
+      "Authorities should choose a worldview for each person.",
+      "Neutrality means religion may never be discussed publicly."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A secular state treats people equally regardless of religion or worldview.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-003",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "school",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Varför ska skolans undervisning om religion vara saklig och allsidig?",
+    "questionEn": "Why should the school's teaching about religion be factual and balanced?",
+    "options": [
+      "Skolan ska ge kunskap utan att tvinga elever att tro på en viss religion.",
+      "Skolan ska främst undervisa om den religion flest elever har.",
+      "Religion får nämnas i skolan bara som en privat åsikt.",
+      "Skolan ska undvika ämnet religion helt."
+    ],
+    "optionsEn": [
+      "School should provide knowledge without forcing pupils to believe in a certain religion.",
+      "School should mainly teach about the religion most pupils have.",
+      "Religion may be mentioned in school only as a private opinion.",
+      "School should avoid the subject of religion completely."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A secular school can teach about religions without religious coercion.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-004",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "traditions",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "En skola firar lucia men säger att deltagande ska vara frivilligt. Vilken balans visar detta?",
+    "questionEn": "A school celebrates Lucia but says participation should be voluntary. What balance does this show?",
+    "options": [
+      "Traditioner kan finnas i skolan utan att elever tvingas delta religiöst.",
+      "Alla elever måste delta eftersom tradition alltid är lag.",
+      "Luciafirande gör skolan till ett trossamfund.",
+      "Frivillighet betyder att skolan inte får ha traditioner alls."
+    ],
+    "optionsEn": [
+      "Traditions can exist in school without forcing pupils to participate religiously.",
+      "All pupils must participate because tradition is always law.",
+      "A Lucia celebration makes the school a religious community.",
+      "Voluntariness means school may not have traditions at all."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Schools may handle traditions while respecting freedom of religion and conscience.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-005",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "discrimination",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "En hyresvärd nekar en bostad på grund av en persons religion. Vilket problem uppstår?",
+    "questionEn": "A landlord denies housing because of a person’s religion. What problem arises?",
+    "options": [
+      "Det kan vara diskriminering.",
+      "Det är tillåtet eftersom uthyraren bestämmer fritt över sin bostad.",
+      "Det gäller bara om personen är svensk medborgare.",
+      "Det är ett problem enbart för myndigheter, inte vid privat uthyrning."
+    ],
+    "optionsEn": [
+      "It can be discrimination.",
+      "It is allowed because the landlord freely decides over their housing.",
+      "It only applies if the person is a Swedish citizen.",
+      "It is only a problem for authorities, not in private renting."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Discrimination protection can apply beyond public authorities, including housing and work.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-006",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "church-state",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Vad visar separationen mellan Svenska kyrkan och staten?",
+    "questionEn": "What does the separation between the Church of Sweden and the state show?",
+    "options": [
+      "Sverige har inte längre en statskyrka på samma sätt som tidigare.",
+      "Svenska kyrkan bestämmer fortfarande riksdagens lagar.",
+      "Religiösa samfund får inte längre verka i Sverige.",
+      "Endast staten får arrangera religiösa högtider."
+    ],
+    "optionsEn": [
+      "Sweden no longer has a state church in the same way as before.",
+      "The Church of Sweden still decides the Riksdag’s laws.",
+      "Religious communities may no longer operate in Sweden.",
+      "Only the state may arrange religious holidays."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The relationship changed so the church is no longer part of the state in the old way.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-007",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "law",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "En grupp vill att religiösa regler ska ersätta svensk familjerätt för dess medlemmar. Vad gäller i Sverige?",
+    "questionEn": "A group wants religious rules to replace Swedish family law for its members. What applies in Sweden?",
+    "options": [
+      "Svensk lag gäller och kan inte ersättas av privata religiösa regler.",
+      "Religiösa regler gäller alltid före svensk lag för medlemmar.",
+      "Kommunen väljer vilken religiös lag som gäller.",
+      "Familjerätt gäller bara personer utan religion."
+    ],
+    "optionsEn": [
+      "Swedish law applies and cannot be replaced by private religious rules.",
+      "Religious rules always take precedence over Swedish law for members.",
+      "The municipality chooses which religious law applies.",
+      "Family law only applies to people without religion."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A secular state applies common law regardless of religious affiliation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-008",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "pluralism",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Varför kan religionsfrihet skapa både frihet och konflikter i vardagen?",
+    "questionEn": "Why can freedom of religion create both freedom and conflicts in everyday life?",
+    "options": [
+      "Olika rättigheter och intressen kan behöva vägas mot varandra i konkreta situationer.",
+      "Religionsfrihet betyder att inga konflikter kan uppstå.",
+      "Alla religiösa krav går alltid före arbetsmiljö och skola.",
+      "Staten förbjuder automatiskt alla synliga religiösa uttryck."
+    ],
+    "optionsEn": [
+      "Different rights and interests may need to be balanced in concrete situations.",
+      "Freedom of religion means conflicts cannot arise.",
+      "All religious demands always take precedence over work environment and school.",
+      "The state automatically bans all visible religious expressions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Pluralism can require balancing freedom, equality, safety, and practical rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-009",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "holidays",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Varför kan vissa kristna högtider vara allmänna helgdagar trots att Sverige är sekulärt?",
+    "questionEn": "Why can some Christian holidays be public holidays even though Sweden is secular?",
+    "options": [
+      "De är också historiska och kulturella traditioner i samhället.",
+      "Sverige styrs fortfarande av kyrkans lagar.",
+      "Alla måste fira dem religiöst.",
+      "Andra religioner är förbjudna under helgdagar."
+    ],
+    "optionsEn": [
+      "They are also historical and cultural traditions in society.",
+      "Sweden is still governed by church laws.",
+      "Everyone must celebrate them religiously.",
+      "Other religions are forbidden during public holidays."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A secular society can have historical holidays without requiring religious belief.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-010",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "rights-limits",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "En religiös grupp vill neka barn nödvändig sjukvård. Hur kan staten agera?",
+    "questionEn": "A religious group wants to deny children necessary healthcare. How can the state act?",
+    "options": [
+      "Barns rätt till skydd och vård kan väga tyngre än vuxnas religiösa önskemål.",
+      "Religionsfrihet ger alltid vuxna rätt att neka barn all vård.",
+      "Staten får aldrig skydda barn i religiösa familjer.",
+      "Sjukvård gäller bara om barnet själv är myndigt."
+    ],
+    "optionsEn": [
+      "Children’s right to protection and healthcare can weigh more than adults’ religious wishes.",
+      "Freedom of religion always gives adults the right to deny children all care.",
+      "The state may never protect children in religious families.",
+      "Healthcare only applies if the child is legally an adult."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of religion can be limited to protect children’s rights, health, and safety.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-011",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "identity",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Varför kan människor ha flera identiteter samtidigt?",
+    "questionEn": "Why can people have several identities at the same time?",
+    "options": [
+      "En person kan till exempel känna tillhörighet genom språk, religion, plats och erfarenheter.",
+      "Svensk lag tillåter bara en identitet per person.",
+      "Identitet bestäms alltid av staten vid födseln.",
+      "Religion tar bort alla andra delar av identiteten."
+    ],
+    "optionsEn": [
+      "A person can feel belonging through language, religion, place, and experiences, for example.",
+      "Swedish law allows only one identity per person.",
+      "Identity is always decided by the state at birth.",
+      "Religion removes all other parts of identity."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Identity is complex and can include several forms of belonging.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-012",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "dialogue",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Varför kan kunskap om olika religioner minska fördomar?",
+    "questionEn": "Why can knowledge about different religions reduce prejudice?",
+    "options": [
+      "Kunskap kan göra det lättare att förstå skillnader och se variation inom grupper.",
+      "Kunskap gör att alla måste tycka lika.",
+      "Fördomar minskar bara om religion förbjuds.",
+      "Olika religioner får inte diskuteras i ett demokratiskt samhälle."
+    ],
+    "optionsEn": [
+      "Knowledge can make it easier to understand differences and see variation within groups.",
+      "Knowledge makes everyone have to think the same.",
+      "Prejudice only decreases if religion is banned.",
+      "Different religions may not be discussed in a democratic society."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Understanding diversity can reduce stereotypes and improve coexistence.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-013",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "workplace",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "En arbetsplats försöker planera scheman så att olika religiösa högtider kan respekteras när det är möjligt. Vad visar detta?",
+    "questionEn": "A workplace tries to plan schedules so that different religious holidays can be respected when possible. What does this show?",
+    "options": [
+      "Att arbetsgivare kan ta praktisk hänsyn till religiös mångfald inom ramen för verksamhetens behov och likabehandling.",
+      "Att arbetsgivaren måste stänga verksamheten vid alla religiösa högtider.",
+      "Att bara majoritetens högtider får uppmärksammas på arbetsplatsen.",
+      "Att anställda med en religion inte får arbeta helger."
+    ],
+    "optionsEn": [
+      "That employers can take practical account of religious diversity within business needs and equal treatment.",
+      "That the employer must close the business on all religious holidays.",
+      "That only the majority's holidays may be acknowledged at the workplace.",
+      "That employees with a religion may not work weekends."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Workplaces may handle diversity through reasonable planning while considering equal treatment and operations.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-014",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Varför är det viktigt att både troende och icke-troende kan delta i demokratin?",
+    "questionEn": "Why is it important that both believers and non-believers can participate in democracy?",
+    "options": [
+      "Demokratin bygger på lika politiska rättigheter oavsett religion eller livsåskådning.",
+      "Bara religiösa personer får bilda partier.",
+      "Icke-troende får bara rösta i kommunval.",
+      "Religion avgör hur många röster en person har."
+    ],
+    "optionsEn": [
+      "Democracy is based on equal political rights regardless of religion or worldview.",
+      "Only religious people may form parties.",
+      "Non-believers may only vote in municipal elections.",
+      "Religion decides how many votes a person has."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Political rights should not depend on religious belief.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-015",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "public-sector",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Vad betyder saklighet i kontakt med myndigheter?",
+    "questionEn": "What does objectivity mean in contact with public authorities?",
+    "options": [
+      "Att myndigheter ska bedöma ärenden utifrån relevanta regler och fakta.",
+      "Att handläggaren får följa sina personliga åsikter.",
+      "Att myndigheten bara hjälper personer med samma religion.",
+      "Att myndigheten väljer den snabbaste lösningen oavsett regler."
+    ],
+    "optionsEn": [
+      "That authorities should assess cases based on relevant rules and facts.",
+      "That the caseworker may follow their personal opinions.",
+      "That the authority only helps people with the same religion.",
+      "That the authority chooses the fastest solution regardless of rules."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Objectivity means public power should be exercised according to relevant law and facts.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-001",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "secular-state",
+      "definition"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vad betyder det att Sverige är en sekulär stat?",
+    "questionEn": "What does it mean that Sweden is a secular state?",
+    "options": [
+      "Staten styrs inte av en religion.",
+      "Svenska kyrkan bestämmer riksdagens lagar.",
+      "Alla invånare måste tillhöra samma trossamfund.",
+      "Religiösa ledare utser regeringen."
+    ],
+    "optionsEn": [
+      "The state is not governed by a religion.",
+      "The Church of Sweden decides the laws of the Riksdag.",
+      "All residents must belong to the same religious community.",
+      "Religious leaders appoint the government."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A secular state means political power and public law are not governed by or based on a specific religion.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-002",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "religion",
+      "freedom"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vad betyder religionsfrihet i Sverige?",
+    "questionEn": "What does freedom of religion mean in Sweden?",
+    "options": [
+      "Att man får ha en religion, byta religion eller inte ha någon religion.",
+      "Att staten väljer religion åt varje invånare.",
+      "Att bara gamla religioner är tillåtna.",
+      "Att religion alltid går före svensk lag."
+    ],
+    "optionsEn": [
+      "That a person may have a religion, change religion, or have no religion.",
+      "That the state chooses a religion for every resident.",
+      "That only old religions are allowed.",
+      "That religion always comes before Swedish law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of religion protects both belief and non-belief.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-003",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "religion",
+      "belief"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vilken rätt har en person som inte tror på någon religion?",
+    "questionEn": "What right does a person who does not believe in any religion have?",
+    "options": [
+      "Personen har rätt att inte ha någon religion.",
+      "Personen måste välja ett trossamfund vid 18 år.",
+      "Personen får inte delta i samhällsdebatt.",
+      "Personen måste betala extra skatt till kyrkan."
+    ],
+    "optionsEn": [
+      "The person has the right to have no religion.",
+      "The person must choose a religious community at age 18.",
+      "The person may not take part in public debate.",
+      "The person must pay extra tax to the church."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Religious freedom includes the right not to believe.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-004",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "church-state",
+      "history"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vad hände med Svenska kyrkans relation till staten år 2000?",
+    "questionEn": "What happened to the Church of Sweden’s relationship with the state in 2000?",
+    "options": [
+      "Svenska kyrkan skildes från staten och blev ett fristående trossamfund.",
+      "Svenska kyrkan övertog ansvaret för all kommunal skolverksamhet.",
+      "Alla andra trossamfund än Svenska kyrkan förbjöds i lag.",
+      "Staten övertog ägandet av alla religiösa byggnader i Sverige."
+    ],
+    "optionsEn": [
+      "The Church of Sweden was separated from the state and became an independent religious community.",
+      "The Church of Sweden took over responsibility for all municipal school activities.",
+      "All religious communities except the Church of Sweden were banned by law.",
+      "The state took ownership of all religious buildings in Sweden."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Since 2000, the Church of Sweden is no longer a state church.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-005",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "diversity",
+      "society"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vad menas med att Sverige är ett mångreligiöst land?",
+    "questionEn": "What does it mean that Sweden is a multi-religious country?",
+    "options": [
+      "Att människor i Sverige kan ha många olika religioner och livsåskådningar.",
+      "Att alla religioner har samma ledare.",
+      "Att staten kräver att alla firar samma religiösa högtid.",
+      "Att kommuner bestämmer vilka religioner som är sanna."
+    ],
+    "optionsEn": [
+      "That people in Sweden may have many different religions and life stances.",
+      "That all religions have the same leader.",
+      "That the state requires everyone to celebrate the same religious holiday.",
+      "That municipalities decide which religions are true."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Multi-religious means there is religious and worldview diversity in society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-006",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "law",
+      "limits"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vilken regel gäller för religiösa handlingar i Sverige?",
+    "questionEn": "What rule applies to religious actions in Sweden?",
+    "options": [
+      "De måste följa svensk lag.",
+      "De står alltid över domstolarnas beslut.",
+      "De får aldrig kritiseras i medier.",
+      "De bestäms av regeringen varje år."
+    ],
+    "optionsEn": [
+      "They must follow Swedish law.",
+      "They always stand above court decisions.",
+      "They may never be criticized in the media.",
+      "They are decided by the government each year."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of religion is protected, but actions must still follow the law.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-007",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "equality",
+      "discrimination"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vad betyder diskriminering på grund av religion?",
+    "questionEn": "What does discrimination because of religion mean?",
+    "options": [
+      "Att någon behandlas sämre på grund av sin religion eller tro.",
+      "Att någon får välja sin egen tro.",
+      "Att någon besöker en religiös byggnad.",
+      "Att någon läser om religion i skolan."
+    ],
+    "optionsEn": [
+      "That someone is treated worse because of their religion or belief.",
+      "That someone may choose their own belief.",
+      "That someone visits a religious building.",
+      "That someone studies religion in school."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Discrimination means unfair treatment linked to protected grounds, including religion or belief.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-008",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "school",
+      "education"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Varför läser elever om olika religioner i skolan?",
+    "questionEn": "Why do pupils learn about different religions in school?",
+    "options": [
+      "För att förstå samhället och olika livsåskådningar.",
+      "För att skolan ska göra elever religiösa.",
+      "För att alla elever ska byta religion.",
+      "För att ersätta svensk lag med religiösa regler."
+    ],
+    "optionsEn": [
+      "To understand society and different life stances.",
+      "So the school can make pupils religious.",
+      "So all pupils will change religion.",
+      "To replace Swedish law with religious rules."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "School education about religion is knowledge-based and helps pupils understand society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-009",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "public-sector",
+      "neutrality"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Hur ska en myndighet behandla människor med olika religion?",
+    "questionEn": "How should an authority treat people with different religions?",
+    "options": [
+      "Sakligt och likvärdigt enligt lagen.",
+      "Olika beroende på majoritetens religion.",
+      "Efter beslut från lokala religiösa ledare.",
+      "Bara om personen visar sin tro öppet."
+    ],
+    "optionsEn": [
+      "Objectively and equally according to the law.",
+      "Differently depending on the majority religion.",
+      "According to decisions by local religious leaders.",
+      "Only if the person shows their belief openly."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public authorities must act objectively and treat people equally.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-010",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "life-stance",
+      "definition"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vad är en livsåskådning?",
+    "questionEn": "What is a life stance?",
+    "options": [
+      "En syn på livet, människan och viktiga värderingar.",
+      "En statlig lag om vilka religioner som är godkända.",
+      "Ett medlemskap i ett politiskt parti eller fackförbund.",
+      "En religiös högtid som firas gemensamt i kommunen."
+    ],
+    "optionsEn": [
+      "A view of life, humanity, and important values.",
+      "A state law about which religions are approved.",
+      "Membership in a political party or trade union.",
+      "A religious holiday celebrated together in the municipality."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A life stance can be religious or non-religious and concerns basic views and values.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-011",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "religion",
+      "private-life"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vem bestämmer normalt om en vuxen person vill tillhöra ett trossamfund?",
+    "questionEn": "Who normally decides whether an adult wants to belong to a religious community?",
+    "options": [
+      "Personen själv.",
+      "Kommunfullmäktige.",
+      "Arbetsgivaren.",
+      "Skatteverket."
+    ],
+    "optionsEn": [
+      "The person themself.",
+      "The municipal council.",
+      "The employer.",
+      "The Swedish Tax Agency."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Adults decide for themselves whether they want to belong to a religious community.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-012",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "religion",
+      "minorities"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vilket påstående passar bäst i ett mångreligiöst samhälle?",
+    "questionEn": "Which statement fits best in a multi-religious society?",
+    "options": [
+      "Människor kan leva med olika tro och ändå ha samma demokratiska rättigheter.",
+      "Bara den största religionen får synas offentligt.",
+      "Medborgarskap kräver medlemskap i ett trossamfund.",
+      "Alla religiösa grupper måste ha samma traditioner."
+    ],
+    "optionsEn": [
+      "People can live with different beliefs and still have the same democratic rights.",
+      "Only the largest religion may be visible in public.",
+      "Citizenship requires membership in a religious community.",
+      "All religious groups must have the same traditions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democratic rights apply regardless of religion or belief.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-013",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "state",
+      "law"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vem beslutar lagar i Sverige?",
+    "questionEn": "Who decides laws in Sweden?",
+    "options": [
+      "Riksdagen.",
+      "Svenska kyrkan.",
+      "Ett råd av trossamfund.",
+      "Domkapitlet i varje kommun."
+    ],
+    "optionsEn": [
+      "The Riksdag.",
+      "The Church of Sweden.",
+      "A council of religious communities.",
+      "The cathedral chapter in each municipality."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "In Sweden, laws are decided by the Riksdag, not by religious institutions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-014",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "religion",
+      "choice"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vad innebär det att byta religion?",
+    "questionEn": "What does changing religion mean?",
+    "options": [
+      "Att en person lämnar en tro och väljer en annan.",
+      "Att staten byter officiell religion varje år.",
+      "Att en person förlorar sina medborgerliga rättigheter.",
+      "Att skolan beslutar om elevens personliga övertygelse."
+    ],
+    "optionsEn": [
+      "That a person leaves one belief and chooses another.",
+      "That the state changes official religion every year.",
+      "That a person loses their civil rights.",
+      "That the school decides the pupil’s personal conviction."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of religion includes the right to change religion.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-015",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "society",
+      "respect"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Varför är respekt för olika trosuppfattningar viktigt i en demokrati?",
+    "questionEn": "Why is respect for different beliefs important in a democracy?",
+    "options": [
+      "För att människor med olika bakgrund ska kunna leva tillsammans med lika rättigheter.",
+      "För att alla politiska beslut ska tas i religiösa lokaler.",
+      "För att bara troende personer ska få rösta.",
+      "För att domstolar ska ersättas av religiösa råd."
+    ],
+    "optionsEn": [
+      "So people with different backgrounds can live together with equal rights.",
+      "So all political decisions are made in religious buildings.",
+      "So only believers may vote.",
+      "So courts are replaced by religious councils."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Respect for different beliefs supports equality and peaceful coexistence.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-016",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "freedom",
+      "expression"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Får människor i Sverige uttrycka sin tro offentligt?",
+    "questionEn": "May people in Sweden express their belief publicly?",
+    "options": [
+      "Ja, så länge de följer lagen och respekterar andras rättigheter.",
+      "Nej, religion får bara finnas i hemmet.",
+      "Ja, men bara om kommunen godkänner varje mening.",
+      "Nej, endast politiska åsikter får uttryckas."
+    ],
+    "optionsEn": [
+      "Yes, as long as they follow the law and respect others’ rights.",
+      "No, religion may only exist at home.",
+      "Yes, but only if the municipality approves every sentence.",
+      "No, only political opinions may be expressed."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of expression and religion allow public expression within legal limits.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-017",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "religion",
+      "community"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vad är ett trossamfund?",
+    "questionEn": "What is a religious community?",
+    "options": [
+      "En organiserad gemenskap för människor med en religiös tro.",
+      "En statlig myndighet som övervakar kyrkor.",
+      "En politisk förening för valfrågor.",
+      "En kommunal nämnd för kulturfrågor."
+    ],
+    "optionsEn": [
+      "An organized community for people with a religious belief.",
+      "A state authority that supervises churches.",
+      "A political association for election issues.",
+      "A municipal committee for cultural issues."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A religious community organizes people around a religion.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-018",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "rights",
+      "children"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Har barn också rätt till religionsfrihet?",
+    "questionEn": "Do children also have freedom of religion?",
+    "options": [
+      "Ja, barns rättigheter ska respekteras utifrån ålder och mognad.",
+      "Nej, barn har inga egna rättigheter före 18 år.",
+      "Ja, men bara om de tillhör majoritetens religion.",
+      "Nej, skolan bestämmer alltid barnets religion."
+    ],
+    "optionsEn": [
+      "Yes, children’s rights should be respected according to age and maturity.",
+      "No, children have no rights of their own before age 18.",
+      "Yes, but only if they belong to the majority religion.",
+      "No, the school always decides the child’s religion."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Children have rights, including freedom of thought, conscience, and religion.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-019",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "public-sector",
+      "school"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vad innebär en konfessionell (religiös) inriktning för en fristående skola i Sverige?",
+    "questionEn": "What does a confessional (religious) orientation mean for an independent school in Sweden?",
+    "options": [
+      "Skolan får ha en religiös inriktning, men all undervisning ska ändå följa läroplanen och vara saklig.",
+      "Alla kommunala skolor måste ha samma religion.",
+      "Undervisningen i alla ämnen ersätts av bön.",
+      "Elever förlorar rätten att läsa om andra religioner."
+    ],
+    "optionsEn": [
+      "The school may have a religious orientation, but all teaching must still follow the curriculum and be objective.",
+      "All municipal schools must have the same religion.",
+      "Teaching in all subjects is replaced by prayer.",
+      "Pupils lose the right to learn about other religions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Independent schools in Sweden may have a confessional orientation, but teaching must still follow the curriculum and be objective.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-020",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "identity",
+      "diversity"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vilket ord beskriver bäst att människor i Sverige kan ha olika religioner, språk och bakgrunder?",
+    "questionEn": "Which word best describes that people in Sweden can have different religions, languages, and backgrounds?",
+    "options": [
+      "Mångfald.",
+      "Jämställdhet.",
+      "Folkomröstning.",
+      "Socialt skyddsnät."
+    ],
+    "optionsEn": [
+      "Diversity.",
+      "Gender equality.",
+      "Referendum.",
+      "Social safety net."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Diversity means differences in society, for example in religion, language, and background.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-021",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "secular-state",
+      "governance"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Varför är det viktigt att staten är religiöst neutral?",
+    "questionEn": "Why is it important that the state is religiously neutral?",
+    "options": [
+      "För att alla invånare ska kunna behandlas lika oavsett tro.",
+      "För att staten ska kunna välja en religion åt varje kommun.",
+      "För att religiösa organisationer ska skriva domstolarnas domar.",
+      "För att rösträtten ska bero på medlemskap i ett trossamfund."
+    ],
+    "optionsEn": [
+      "So all residents can be treated equally regardless of belief.",
+      "So the state can choose a religion for every municipality.",
+      "So religious organizations can write court judgments.",
+      "So voting rights depend on membership in a religious community."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Religious neutrality helps the state protect equal rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-022",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "law",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En person säger att religiösa regler alltid ska gälla före svensk lag. Vilket svar passar bäst?",
+    "questionEn": "A person says religious rules should always apply before Swedish law. Which answer fits best?",
+    "options": [
+      "Religionsfrihet finns, men svensk lag gäller för alla.",
+      "Religiösa regler ersätter automatiskt grundlagen.",
+      "Varje familj väljer själv vilka lagar som gäller i domstol.",
+      "Kommuner kan avskaffa lagar som inte passar en religion."
+    ],
+    "optionsEn": [
+      "Freedom of religion exists, but Swedish law applies to everyone.",
+      "Religious rules automatically replace the constitution.",
+      "Every family chooses which laws apply in court.",
+      "Municipalities can abolish laws that do not fit a religion."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Religious belief is protected, but it does not place a person outside Swedish law.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-023",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "school",
+      "objectivity"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vad är viktigt när skolan undervisar om religion?",
+    "questionEn": "What is important when school teaches about religion?",
+    "options": [
+      "Undervisningen ska vara saklig och ge kunskap om olika religioner och livsåskådningar.",
+      "Undervisningen ska bevisa att en religion är den enda rätta.",
+      "Undervisningen ska ersätta elevernas familjetraditioner med statens traditioner.",
+      "Undervisningen ska bara handla om religioner som finns i elevens kommun."
+    ],
+    "optionsEn": [
+      "Teaching should be objective and provide knowledge about different religions and life stances.",
+      "Teaching should prove that one religion is the only correct one.",
+      "Teaching should replace pupils’ family traditions with state traditions.",
+      "Teaching should only cover religions found in the pupil’s municipality."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "School should teach knowledge about religion, not force belief.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-024",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "religion",
+      "workplace"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En arbetsplats har anställda med olika religioner. Vad är en viktig demokratisk princip?",
+    "questionEn": "A workplace has employees with different religions. What is an important democratic principle?",
+    "options": [
+      "Ingen ska diskrimineras på grund av religion eller annan trosuppfattning.",
+      "Arbetsgivaren ska välja en gemensam religion för alla anställda.",
+      "Anställda med minoritetsreligioner ska ha lägre lön.",
+      "Kollektivavtal gäller bara personer utan religion."
+    ],
+    "optionsEn": [
+      "No one should be discriminated against because of religion or other belief.",
+      "The employer should choose a common religion for all employees.",
+      "Employees with minority religions should have lower pay.",
+      "Collective agreements only apply to people without religion."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Anti-discrimination is central in a society with equal rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-025",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "history",
+      "church-state"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Varför är separationen mellan Svenska kyrkan och staten viktig att känna till?",
+    "questionEn": "Why is the separation between the Church of Sweden and the state important to know?",
+    "options": [
+      "Den visar att Sverige inte längre har en statskyrka och att stat och kyrka är åtskilda.",
+      "Den visar att kyrkan fick ensamrätt att besluta lagar.",
+      "Den betyder att religionsfriheten avskaffades.",
+      "Den betyder att alla trossamfund blev myndigheter."
+    ],
+    "optionsEn": [
+      "It shows that Sweden no longer has a state church and that state and church are separated.",
+      "It shows that the church got exclusive right to decide laws.",
+      "It means freedom of religion was abolished.",
+      "It means all religious communities became public authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The separation in 2000 formally ended the state church system and clarified the institutional separation of state and church.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-026",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "religion",
+      "pluralism"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vad kan religiös mångfald innebära i vardagen?",
+    "questionEn": "What can religious diversity mean in everyday life?",
+    "options": [
+      "Att människor har olika högtider, matvanor, kläder eller sätt att uttrycka tro.",
+      "Att alla måste följa samma religiösa kalender.",
+      "Att staten kontrollerar varje persons privata bön.",
+      "Att kommuner förbjuder olika livsåskådningar."
+    ],
+    "optionsEn": [
+      "That people have different holidays, food habits, clothing, or ways to express belief.",
+      "That everyone must follow the same religious calendar.",
+      "That the state controls every person’s private prayer.",
+      "That municipalities ban different life stances."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Religious diversity can be visible in everyday habits and expressions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-027",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "rights",
+      "limits"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Var går en viktig gräns för religionsfrihet?",
+    "questionEn": "Where is an important limit for freedom of religion?",
+    "options": [
+      "Den får inte användas för att kränka andra personers rättigheter eller bryta mot lagen.",
+      "Den gör att en person aldrig behöver följa domstolsbeslut.",
+      "Den gäller bara i religiösa byggnader.",
+      "Den gäller bara för personer som är medborgare."
+    ],
+    "optionsEn": [
+      "It may not be used to violate other people’s rights or break the law.",
+      "It means a person never needs to follow court decisions.",
+      "It only applies in religious buildings.",
+      "It only applies to citizens."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rights are protected, but they must be balanced with law and other people’s rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-028",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "society",
+      "conflict"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Varför kan kunskap om religion och livsåskådningar minska konflikter?",
+    "questionEn": "Why can knowledge about religions and life stances reduce conflicts?",
+    "options": [
+      "För att människor lättare kan förstå varandras bakgrund och perspektiv.",
+      "För att alla konflikter då avgörs av ett trossamfund.",
+      "För att kunskap gör att alla får samma religion.",
+      "För att staten då kan förbjuda alla debatter om värderingar."
+    ],
+    "optionsEn": [
+      "Because people can more easily understand each other’s backgrounds and perspectives.",
+      "Because all conflicts are then decided by a religious community.",
+      "Because knowledge makes everyone have the same religion.",
+      "Because the state can then ban all debates about values."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Knowledge can reduce prejudice and make dialogue easier.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-029",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "democracy",
+      "minority-rights"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Hur hör religionsfrihet ihop med demokrati?",
+    "questionEn": "How is freedom of religion connected to democracy?",
+    "options": [
+      "Demokrati skyddar människors rätt att tänka, tro och uttrycka sig fritt.",
+      "Demokrati betyder att majoritetens religion styr alla lagar.",
+      "Demokrati förbjuder människor att ha olika livsåskådningar.",
+      "Demokrati kräver att alla religiösa grupper bildar partier."
+    ],
+    "optionsEn": [
+      "Democracy protects people’s right to think, believe, and express themselves freely.",
+      "Democracy means the majority religion controls all laws.",
+      "Democracy forbids people from having different life stances.",
+      "Democracy requires all religious groups to form parties."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of religion is part of democratic freedoms and rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-030",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "public-sector",
+      "services"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En person söker vård och bär religiösa symboler. Vad ska vården göra?",
+    "questionEn": "A person seeks healthcare and wears religious symbols. What should healthcare do?",
+    "options": [
+      "Ge vård enligt behov och behandla personen likvärdigt.",
+      "Vänta tills personen tar av alla religiösa symboler.",
+      "Skicka personen till en annan region automatiskt.",
+      "Låta andra patienter rösta om vården ska ges."
+    ],
+    "optionsEn": [
+      "Provide care according to need and treat the person equally.",
+      "Wait until the person removes all religious symbols.",
+      "Automatically send the person to another region.",
+      "Let other patients vote on whether care should be given."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public services should treat people equally and according to rules and need.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-031",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "children",
+      "parents"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Hur kan barns religionsfrihet och vårdnadshavares ansvar förstås tillsammans?",
+    "questionEn": "How can children’s freedom of religion and guardians’ responsibility be understood together?",
+    "options": [
+      "Vårdnadshavare vägleder barnet, men barnets rättigheter och mognad ska respekteras.",
+      "Vårdnadshavare får alltid upphäva alla barns rättigheter.",
+      "Barn måste alltid ha exakt samma tro som majoriteten i kommunen.",
+      "Barn har ingen rätt att uttrycka tankar om tro förrän de fyllt 18 år."
+    ],
+    "optionsEn": [
+      "Guardians guide the child, but the child’s rights and maturity should be respected.",
+      "Guardians may always cancel all children’s rights.",
+      "Children must always have exactly the same belief as the majority in the municipality.",
+      "Children have no right to express thoughts about belief until they turn 18."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Children have rights, while guardians have responsibility to guide and care for them.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-032",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "expression",
+      "criticism"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Får religion kritiseras i ett demokratiskt samhälle?",
+    "questionEn": "Can religion be criticized in a democratic society?",
+    "options": [
+      "Ja, yttrandefrihet tillåter kritik, men hot och hets mot folkgrupp är inte tillåtet.",
+      "Nej, all kritik mot religion är alltid förbjuden.",
+      "Ja, men bara statliga myndigheter får kritisera religion.",
+      "Nej, medier får bara skriva positivt om religion."
+    ],
+    "optionsEn": [
+      "Yes, freedom of expression allows criticism, but threats and incitement against a group are not allowed.",
+      "No, all criticism of religion is always forbidden.",
+      "Yes, but only public authorities may criticize religion.",
+      "No, media may only write positively about religion."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A democracy allows criticism, but the law sets limits against threats and hate crimes.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-033",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "identity",
+      "privacy"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Varför kan religion räknas som en privat fråga?",
+    "questionEn": "Why can religion be considered a private matter?",
+    "options": [
+      "För att varje person själv har rätt att forma sin tro eller icke-tro.",
+      "För att staten förbjuder all offentlig religion.",
+      "För att arbetsgivare måste registrera alla anställdas tro.",
+      "För att kommuner bestämmer familjers livsåskådning."
+    ],
+    "optionsEn": [
+      "Because each person has the right to form their own belief or non-belief.",
+      "Because the state bans all public religion.",
+      "Because employers must register all employees’ beliefs.",
+      "Because municipalities decide families’ life stances."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Belief belongs to personal freedom, even when people may also express it publicly.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-034",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "law",
+      "marriage"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vilket påstående om religiösa traditioner och äktenskap passar bäst i Sverige?",
+    "questionEn": "Which statement about religious traditions and marriage best fits Sweden?",
+    "options": [
+      "Äktenskap måste följa svensk lag även om ceremonin har religiösa inslag.",
+      "Religiösa ceremonier ersätter alltid äktenskapslagen.",
+      "Ett trossamfund kan själv avskaffa åldersgränser i lagen.",
+      "Kommuner bestämmer om äktenskap är religiöst giltiga."
+    ],
+    "optionsEn": [
+      "Marriage must follow Swedish law even if the ceremony has religious elements.",
+      "Religious ceremonies always replace marriage law.",
+      "A religious community can itself abolish age limits in the law.",
+      "Municipalities decide whether marriages are religiously valid."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Religious ceremonies may exist, but legal marriage follows Swedish law.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-035",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "public-sector",
+      "ceremonies"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vad visar en borgerlig ceremoni, till exempel borgerlig vigsel?",
+    "questionEn": "What does a civil ceremony, such as a civil wedding, show?",
+    "options": [
+      "Att viktiga livshändelser kan genomföras utan religiös form.",
+      "Att alla ceremonier måste ledas av präster.",
+      "Att staten väljer religion åt paret.",
+      "Att religiösa ceremonier är förbjudna."
+    ],
+    "optionsEn": [
+      "That important life events can be carried out without a religious form.",
+      "That all ceremonies must be led by priests.",
+      "That the state chooses a religion for the couple.",
+      "That religious ceremonies are forbidden."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Civil ceremonies are non-religious alternatives in a secular society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-036",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "minorities",
+      "participation"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Varför är det viktigt att religiösa minoriteter kan delta i samhället?",
+    "questionEn": "Why is it important that religious minorities can participate in society?",
+    "options": [
+      "För att demokrati bygger på lika rättigheter och delaktighet.",
+      "För att minoriteter ska få fler röster än andra i alla val.",
+      "För att religion ska ersätta kommunal demokrati.",
+      "För att bara religiösa grupper ska få starta föreningar."
+    ],
+    "optionsEn": [
+      "Because democracy is based on equal rights and participation.",
+      "So minorities get more votes than others in all elections.",
+      "So religion replaces municipal democracy.",
+      "So only religious groups may start associations."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Participation and equal rights apply to minorities as well as majorities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-037",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "society",
+      "integration"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Hur kan föreningar och trossamfund bidra till samhället?",
+    "questionEn": "How can associations and religious communities contribute to society?",
+    "options": [
+      "De kan skapa gemenskap, stöd och socialt arbete.",
+      "De kan ta över riksdagens lagstiftning.",
+      "De kan ersätta alla offentliga myndigheter.",
+      "De kan bestämma vem som får medborgarskap."
+    ],
+    "optionsEn": [
+      "They can create community, support, and social work.",
+      "They can take over the Riksdag’s lawmaking.",
+      "They can replace all public authorities.",
+      "They can decide who gets citizenship."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Civil society organizations can contribute socially, but they do not replace democratic institutions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-038",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "values",
+      "equality"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En religiös grupp vill behandla kvinnor och män olika i en offentlig tjänst. Vilken princip är viktigast?",
+    "questionEn": "A religious group wants women and men to be treated differently in a public service. Which principle is most important?",
+    "options": [
+      "Offentliga tjänster ska följa lagar om likabehandling och jämställdhet.",
+      "Religiösa regler gäller alltid före jämställdhet i offentlig verksamhet.",
+      "Kommunen får ta bort kvinnors rösträtt lokalt.",
+      "Myndigheter ska fråga gruppens ledare i varje ärende."
+    ],
+    "optionsEn": [
+      "Public services should follow laws on equal treatment and gender equality.",
+      "Religious rules always apply before gender equality in public activities.",
+      "The municipality may remove women’s voting rights locally.",
+      "Authorities should ask the group’s leaders in every case."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public services must follow law, equality, and non-discrimination.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-039",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "media",
+      "pluralism"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Varför kan medier rapportera om religion på olika sätt?",
+    "questionEn": "Why can media report about religion in different ways?",
+    "options": [
+      "För att yttrandefrihet och fri press ger utrymme för granskning och debatt.",
+      "För att staten godkänner varje artikel om religion i förväg.",
+      "För att religiösa samfund äger alla nyhetsredaktioner.",
+      "För att bara positiva religiösa nyheter får publiceras."
+    ],
+    "optionsEn": [
+      "Because freedom of expression and a free press allow scrutiny and debate.",
+      "Because the state approves every article about religion in advance.",
+      "Because religious communities own all newsrooms.",
+      "Because only positive religious news may be published."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Free media can examine and debate religion like other social issues.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-040",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "public-sector",
+      "neutrality"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En tjänsteman möter en person med en ovanlig livsåskådning. Vad är tjänstemannens uppgift?",
+    "questionEn": "A public official meets a person with an uncommon life stance. What is the official’s task?",
+    "options": [
+      "Att handlägga ärendet sakligt enligt reglerna.",
+      "Att först avgöra om livsåskådningen är riktig.",
+      "Att be personen byta livsåskådning.",
+      "Att låta majoritetens tro avgöra beslutet."
+    ],
+    "optionsEn": [
+      "To handle the case objectively according to the rules.",
+      "To first decide whether the life stance is correct.",
+      "To ask the person to change life stance.",
+      "To let the majority belief decide the decision."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Officials should apply rules objectively, not judge beliefs.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-041",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "school"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En elev vill av religiösa skäl slippa ett obligatoriskt moment i skolan. Vad är den bästa utgångspunkten?",
+    "questionEn": "A pupil wants to avoid a compulsory school activity for religious reasons. What is the best starting point?",
+    "options": [
+      "Skolan ska följa skollagen och samtidigt pröva situationen sakligt och respektfullt.",
+      "Eleven får alltid välja bort alla ämnen som känns svåra.",
+      "Religiösa skäl gör att skolans regler aldrig gäller.",
+      "Läraren ska låta andra elever rösta om elevens rättigheter."
+    ],
+    "optionsEn": [
+      "The school should follow school law and at the same time assess the situation objectively and respectfully.",
+      "The pupil may always opt out of all subjects that feel difficult.",
+      "Religious reasons mean school rules never apply.",
+      "The teacher should let other pupils vote on the pupil’s rights."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Schools must follow law and curriculum while handling individual situations carefully.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-042",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "law"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En förening säger att deras religiösa regler tillåter hot mot avhoppare. Vad är korrekt?",
+    "questionEn": "An association says its religious rules allow threats against people who leave. What is correct?",
+    "options": [
+      "Hot är inte tillåtet; svensk lag gäller även i religiösa sammanhang.",
+      "Hot är tillåtet om föreningen har gamla traditioner.",
+      "Polisen får inte ingripa i religiösa konflikter.",
+      "Domstolar måste följa föreningens interna regler."
+    ],
+    "optionsEn": [
+      "Threats are not allowed; Swedish law applies also in religious contexts.",
+      "Threats are allowed if the association has old traditions.",
+      "The police may not intervene in religious conflicts.",
+      "Courts must follow the association’s internal rules."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Religious freedom does not protect threats or violence.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-043",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "workplace"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En arbetsgivare vägrar anställa någon enbart på grund av personens religion. Hur bör det förstås?",
+    "questionEn": "An employer refuses to hire someone only because of the person’s religion. How should this be understood?",
+    "options": [
+      "Det kan vara diskriminering.",
+      "Det är alltid en normal del av religionsfrihet.",
+      "Det krävs för att Sverige ska vara sekulärt.",
+      "Det är bara förbjudet i offentliga myndigheter, aldrig på arbetsplatser."
+    ],
+    "optionsEn": [
+      "It may be discrimination.",
+      "It is always a normal part of freedom of religion.",
+      "It is required for Sweden to be secular.",
+      "It is only forbidden in public authorities, never in workplaces."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Treating someone worse because of religion can be discrimination.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-044",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "public-sector"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En kommun vill göra en religiös lära till grund för alla kommunala beslut. Vad är problemet?",
+    "questionEn": "A municipality wants to make a religious doctrine the basis for all municipal decisions. What is the problem?",
+    "options": [
+      "Kommunala beslut ska följa demokratiska lagar och vara religiöst neutrala.",
+      "Kommuner får alltid ersätta svensk lag med lokal religion.",
+      "Kommuner står över grundlagen i frågor om tro.",
+      "Invånare utan religion förlorar då automatiskt sin rösträtt."
+    ],
+    "optionsEn": [
+      "Municipal decisions should follow democratic laws and be religiously neutral.",
+      "Municipalities may always replace Swedish law with local religion.",
+      "Municipalities stand above the constitution in matters of belief.",
+      "Residents without religion then automatically lose their voting rights."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public power should be exercised under law, not under one religious doctrine.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-045",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "children"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En förälder vill att ett barn aldrig ska få höra om andra religioner i skolan. Vilket svar passar bäst?",
+    "questionEn": "A parent wants a child never to hear about other religions in school. Which answer fits best?",
+    "options": [
+      "Skolan ska ge saklig undervisning om religioner och livsåskådningar enligt styrdokumenten.",
+      "Föräldrar kan ta bort all undervisning de inte håller med om.",
+      "Barn får bara lära sig om familjens religion.",
+      "Kommunen ska ordna separata lagar för varje familjs tro."
+    ],
+    "optionsEn": [
+      "The school should provide objective teaching about religions and life stances according to governing documents.",
+      "Parents can remove all teaching they disagree with.",
+      "Children may only learn about the family’s religion.",
+      "The municipality should create separate laws for each family’s belief."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "School has a knowledge mission and should teach objectively about society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-046",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "expression"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En person sprider grovt nedsättande påståenden om en religiös grupp i en debatt. Vilken gräns kan vara särskilt relevant?",
+    "questionEn": "A person spreads grossly derogatory claims about a religious group in a debate. Which limit can be especially relevant?",
+    "options": [
+      "Hets mot folkgrupp, som är förbjudet enligt svensk lag.",
+      "Att någon blir ledsen av saklig kritik.",
+      "Att debatten publiceras i en tidning.",
+      "Att personen inte själv tillhör religionen."
+    ],
+    "optionsEn": [
+      "Incitement against a group, which is forbidden under Swedish law.",
+      "That someone becomes sad because of factual criticism.",
+      "That the debate is published in a newspaper.",
+      "That the person does not belong to the religion."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "While criticism of religion is allowed, hate speech against a group is illegal in Sweden.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-047",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "healthcare"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En patient vill av religiösa skäl påverka sin vård. Vad är vårdens bästa utgångspunkt?",
+    "questionEn": "A patient wants to influence their healthcare for religious reasons. What is the best starting point for healthcare?",
+    "options": [
+      "Vården ska respektera patienten så långt det går inom lag, medicinsk bedömning och patientsäkerhet.",
+      "Vården ska alltid låta religiösa regler ersätta medicinsk bedömning.",
+      "Vården ska vägra prata om religion med patienter.",
+      "Vården ska låta anhöriga fatta alla beslut utan patientens vilja."
+    ],
+    "optionsEn": [
+      "Healthcare should respect the patient as far as possible within law, medical judgment, and patient safety.",
+      "Healthcare should always let religious rules replace medical judgment.",
+      "Healthcare should refuse to talk about religion with patients.",
+      "Healthcare should let relatives make all decisions without the patient’s will."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public services can show respect while still following law and professional responsibility.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-048",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "democracy"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En majoritet vill att bara deras religion ska få offentligt stöd och lokaler. Vilken demokratisk invändning är starkast?",
+    "questionEn": "A majority wants only their religion to receive public support and premises. What is the strongest democratic objection?",
+    "options": [
+      "Offentliga beslut måste följa likabehandling och får inte diskriminera på grund av religion.",
+      "Majoriteten får alltid ta bort minoriteters rättigheter.",
+      "Religionsfrihet gäller bara när en grupp är störst.",
+      "Kommunala lokaler får aldrig användas av föreningar."
+    ],
+    "optionsEn": [
+      "Public decisions must follow equal treatment and may not discriminate because of religion.",
+      "The majority may always remove minorities’ rights.",
+      "Freedom of religion only applies when a group is the largest.",
+      "Municipal premises may never be used by associations."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democracy includes protection for minorities and equal treatment.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-049",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "conflict"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Två grupper har olika religiösa uppfattningar och hamnar i konflikt. Vilket svar passar ett demokratiskt samhälle bäst?",
+    "questionEn": "Two groups have different religious views and come into conflict. Which response best fits a democratic society?",
+    "options": [
+      "Dialog, rättssäkerhet och respekt för allas rättigheter.",
+      "Att staten förbjuder alla religioner som inte håller med majoriteten.",
+      "Att den största gruppen får bestämma över den minsta utan lagprövning.",
+      "Att konflikten avgörs genom privata straff."
+    ],
+    "optionsEn": [
+      "Dialogue, rule of law, and respect for everyone’s rights.",
+      "That the state bans all religions that disagree with the majority.",
+      "That the largest group may rule over the smallest without legal review.",
+      "That the conflict is settled through private punishments."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Conflicts should be handled through democratic methods and law.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-050",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "citizenship"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vad är den viktigaste kopplingen mellan en sekulär stat och demokratiska rättigheter i Sverige?",
+    "questionEn": "What is the most important connection between a secular state and democratic rights in Sweden?",
+    "options": [
+      "Att staten och lagstiftningen skyddar allas rättigheter oavsett religiös tro.",
+      "Att staten avgör vilka religiösa skrifter som får läsas i hemmet.",
+      "Att alla medborgare måste avsäga sig sin tro för att ha rösträtt.",
+      "Att domstolar styrs av majoritetens trossamfund."
+    ],
+    "optionsEn": [
+      "That the state and legislation protect everyone’s rights regardless of religious belief.",
+      "That the state decides which religious writings may be read at home.",
+      "That all citizens must renounce their belief in order to vote.",
+      "That courts are governed by the majority religious community."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "In a secular state, democracy guarantees equal rights and legal protection regardless of belief or non-belief.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-051",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "public-school"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En kommunal skola planerar en aktivitet med tydliga religiösa inslag. Vad behöver skolan tänka på?",
+    "questionEn": "A municipal school plans an activity with clear religious elements. What does the school need to consider?",
+    "options": [
+      "Aktiviteten måste hanteras enligt skolans krav på saklighet, frivillighet där det krävs och respekt för elevernas rättigheter.",
+      "Kommunala skolor får alltid kräva religiöst deltagande för betyg.",
+      "Elever utan religion får stängas av från undervisningen.",
+      "Religiösa inslag gör att skollagen inte gäller."
+    ],
+    "optionsEn": [
+      "The activity must be handled according to the school’s requirements for objectivity, voluntariness where required, and respect for pupils’ rights.",
+      "Municipal schools may always require religious participation for grades.",
+      "Pupils without religion may be suspended from teaching.",
+      "Religious elements mean school law does not apply."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public schools must be careful with religious elements and follow school rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-052",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "public-office"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En myndighet frågar efter religion utan tydlig anledning i ett ärende. Varför kan det vara problematiskt?",
+    "questionEn": "An authority asks about religion without a clear reason in a case. Why can that be problematic?",
+    "options": [
+      "Myndigheter ska bara samla relevanta uppgifter och behandla människor sakligt.",
+      "Myndigheter måste alltid registrera allas religion före beslut.",
+      "Religion är alltid den viktigaste uppgiften i offentliga ärenden.",
+      "Saklighet gäller bara i domstolar, inte hos myndigheter."
+    ],
+    "optionsEn": [
+      "Authorities should only collect relevant information and treat people objectively.",
+      "Authorities must always register everyone’s religion before decisions.",
+      "Religion is always the most important information in public cases.",
+      "Objectivity only applies in courts, not authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public administration should be relevant, objective, and respectful of personal integrity.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-053",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "association"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Ett trossamfund driver social hjälpverksamhet. Vad är viktigt om verksamheten får offentligt stöd?",
+    "questionEn": "A religious community runs social support work. What is important if the activity receives public support?",
+    "options": [
+      "Stödet ska hanteras enligt regler, insyn och krav på likabehandling.",
+      "Stödet gör att samfundet får skriva kommunens lagar.",
+      "Offentligt stöd betyder att bara medlemmar får hjälp.",
+      "Offentligt stöd avskaffar religionsfriheten för andra grupper."
+    ],
+    "optionsEn": [
+      "The support should be handled according to rules, transparency, and requirements for equal treatment.",
+      "The support means the community may write the municipality’s laws.",
+      "Public support means only members may receive help.",
+      "Public support abolishes freedom of religion for other groups."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public support requires rules and equal treatment even when civil society is involved.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-054",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "identity"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En person säger: “Om Sverige är sekulärt borde religion inte synas alls.” Vad är bästa svaret?",
+    "questionEn": "A person says: “If Sweden is secular, religion should not be visible at all.” What is the best answer?",
+    "options": [
+      "Sekularitet betyder att staten inte styrs av religion, inte att människor måste dölja sin tro.",
+      "Sekularitet betyder att religiösa symboler alltid är brottsliga.",
+      "Sekularitet betyder att bara statliga ceremonier får finnas.",
+      "Sekularitet betyder att medier inte får skriva om religion."
+    ],
+    "optionsEn": [
+      "Secularity means the state is not governed by religion, not that people must hide their belief.",
+      "Secularity means religious symbols are always criminal.",
+      "Secularity means only state ceremonies may exist.",
+      "Secularity means media may not write about religion."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A secular state can still have visible religious diversity in society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-055",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "law-conflict"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En religiös regel och en svensk lag pekar åt olika håll i en offentlig situation. Vem avgör vad som gäller?",
+    "questionEn": "A religious rule and a Swedish law point in different directions in a public situation. Who decides what applies?",
+    "options": [
+      "Behöriga myndigheter och domstolar enligt svensk lag.",
+      "Den religiösa ledaren som flest medlemmar följer.",
+      "Varje person väljer själv vilken lag som gäller.",
+      "Kommunens största trossamfund."
+    ],
+    "optionsEn": [
+      "Competent authorities and courts according to Swedish law.",
+      "The religious leader followed by the most members.",
+      "Each person chooses which law applies.",
+      "The municipality’s largest religious community."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "In public situations, competent authorities and courts apply Swedish law; religious rules do not override it.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-056",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "pluralism"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Varför kan ett mångreligiöst samhälle behöva både frihet och gemensamma regler?",
+    "questionEn": "Why can a multi-religious society need both freedom and common rules?",
+    "options": [
+      "Frihet skyddar olika livsåskådningar, medan gemensamma lagar gör att alla vet vilka rättigheter och skyldigheter som gäller.",
+      "Frihet betyder att ingen gemensam lag kan finnas.",
+      "Gemensamma regler betyder att alla måste ha samma religion.",
+      "Mångreligiöshet kräver att staten avskaffar domstolar."
+    ],
+    "optionsEn": [
+      "Freedom protects different life stances, while common laws make clear which rights and duties apply to everyone.",
+      "Freedom means no common law can exist.",
+      "Common rules mean everyone must have the same religion.",
+      "Multi-religious society requires the state to abolish courts."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A pluralistic society needs both individual rights and common legal rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-057",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "politics"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Ett politiskt parti har värderingar som inspireras av religion. Är det automatiskt förbjudet i Sverige?",
+    "questionEn": "A political party has values inspired by religion. Is that automatically forbidden in Sweden?",
+    "options": [
+      "Nej, partier får ha olika idéer, men politiken måste verka inom demokratins och lagens ramar.",
+      "Ja, alla religiöst inspirerade åsikter är förbjudna i politik.",
+      "Nej, sådana partier får automatiskt styra domstolarna.",
+      "Ja, bara ateistiska partier får ställa upp i val."
+    ],
+    "optionsEn": [
+      "No, parties may have different ideas, but politics must operate within democracy and law.",
+      "Yes, all religiously inspired opinions are forbidden in politics.",
+      "No, such parties may automatically govern the courts.",
+      "Yes, only atheist parties may run in elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A secular state does not ban religiously inspired opinions, but political power is exercised through democratic law.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-058",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "minority-rights"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "En minoritetsgrupp vill bygga en lokal för gudstjänst. Vilken princip är relevant när kommunen prövar frågan?",
+    "questionEn": "A minority group wants to build a place of worship. Which principle is relevant when the municipality assesses the issue?",
+    "options": [
+      "Kommunen ska pröva frågan enligt samma lagar och planregler som för andra.",
+      "Kommunen ska alltid säga nej till minoritetsreligioner.",
+      "Kommunen ska fråga majoritetsreligionen om tillstånd.",
+      "Kommunen ska bedöma om gruppens tro är teologiskt korrekt."
+    ],
+    "optionsEn": [
+      "The municipality should assess the issue according to the same laws and planning rules as for others.",
+      "The municipality should always say no to minority religions.",
+      "The municipality should ask the majority religion for permission.",
+      "The municipality should judge whether the group’s belief is theologically correct."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Authorities should apply general rules equally and objectively.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-059",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "scenario",
+      "history-society"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Varför är det möjligt att Sverige både har kristna historiska spår och är en sekulär stat?",
+    "questionEn": "Why can Sweden both have Christian historical traces and be a secular state?",
+    "options": [
+      "Historiska traditioner kan finnas kvar samtidigt som staten inte styrs av en religion.",
+      "Sekulär stat betyder att all historia före år 2000 är förbjuden.",
+      "Kristna historiska spår betyder att riksdagen lyder kyrkan.",
+      "En stat kan bara vara sekulär om inga invånare är religiösa."
+    ],
+    "optionsEn": [
+      "Historical traditions can remain while the state is not governed by a religion.",
+      "A secular state means all history before 2000 is forbidden.",
+      "Christian historical traces mean the Riksdag obeys the church.",
+      "A state can only be secular if no residents are religious."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A society can have religious history and still have secular public institutions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch12-060",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "scenario",
+      "rights-balance"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land",
+    "questionSv": "Vilket resonemang är bäst när olika rättigheter krockar, till exempel religionsfrihet och jämställdhet?",
+    "questionEn": "Which reasoning is best when different rights conflict, for example freedom of religion and gender equality?",
+    "options": [
+      "Samhället måste väga rättigheter mot varandra enligt lag, demokratiska principer och domstolars prövning.",
+      "Den rättighet som nämns först i debatten vinner alltid.",
+      "Religionsfrihet tar alltid bort alla andra rättigheter.",
+      "Jämställdhet gäller bara personer utan religiös tro."
+    ],
+    "optionsEn": [
+      "Society must balance rights according to law, democratic principles, and court review.",
+      "The right mentioned first in the debate always wins.",
+      "Freedom of religion always removes all other rights.",
+      "Gender equality only applies to people without religious belief."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democratic societies handle conflicts between rights through law and legal review.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch012-001",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "religion-discrimination",
+    "difficulty": "hard",
+    "tags": [
+      "extra",
+      "sekulär-stat"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (extra draft)",
+    "questionSv": "Varför kan religionsfrihet och diskrimineringsskydd höra ihop?",
+    "questionEn": "Why can freedom of religion and protection against discrimination be connected?",
+    "options": [
+      "Människor ska kunna ha eller sakna religion utan att behandlas sämre.",
+      "Religionsfrihet betyder att arbetsgivare får välja bort vissa trosgrupper.",
+      "Diskrimineringsskydd gäller bara politiska partier.",
+      "Den som byter religion förlorar skydd i svensk rätt."
+    ],
+    "optionsEn": [
+      "People should be able to have or not have religion without being treated worse.",
+      "Freedom of religion means employers may reject certain faith groups.",
+      "Discrimination protection only applies to political parties.",
+      "A person who changes religion loses protection in Swedish law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rights protect both belief and equal treatment in society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch012-002",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "religionsfrihet"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (extra draft)",
+    "questionSv": "Var i svensk rätt skyddas religionsfriheten?",
+    "questionEn": "Where in Swedish law is freedom of religion protected?",
+    "options": [
+      "I grundlagen (regeringsformen).",
+      "Bara i Svenska kyrkans egna regler.",
+      "I varje kommuns lokala ordningsföreskrifter.",
+      "Religionsfriheten har inget rättsligt skydd i Sverige."
+    ],
+    "optionsEn": [
+      "In the constitution (the Instrument of Government).",
+      "Only in the Church of Sweden's own rules.",
+      "In each municipality's local ordinances.",
+      "Freedom of religion has no legal protection in Sweden."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of religion is a constitutionally protected right in the Instrument of Government (regeringsformen), one of Sweden's fundamental laws.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch012-015",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "pluralism",
+    "difficulty": "hard",
+    "tags": [
+      "extra",
+      "vård-och-religiösa-önskemål"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (extra draft)",
+    "questionSv": "En offentlig ceremoni innehåller både religiösa och sekulära inslag. Vad är viktigt i ett pluralistiskt samhälle?",
+    "questionEn": "A public ceremony contains both religious and secular elements. What is important in a pluralistic society?",
+    "options": [
+      "Att människor inte tvingas delta i religiösa moment mot sin övertygelse.",
+      "Att alla ceremonier måste följa en enda religion.",
+      "Att sekulära personer inte får delta i traditioner.",
+      "Att kommunen bestämmer varje persons tro före ceremonin."
+    ],
+    "optionsEn": [
+      "That people are not forced to participate in religious elements against their conviction.",
+      "That all ceremonies must follow one single religion.",
+      "That secular people may not participate in traditions.",
+      "That the municipality decides each person’s belief before the ceremony."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Pluralism requires respect for different beliefs and freedom of conscience.",
+    "status": "draft"
+  }
+]

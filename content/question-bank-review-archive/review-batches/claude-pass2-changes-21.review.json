@@ -1,0 +1,107 @@
+[
+  {
+    "id": "draft-batch-a-ch02-015",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-007",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-017",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch03-020",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-extra-ch003-008",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-010",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-013",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-d-ch05-003",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch05-030",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch06-014",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch07-057",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch08-003",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch08-005",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-b-ch08-015",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-extra-ch010-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-extra-ch010-013",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-012",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-013",
+    "verdict": "approve",
+    "issues": []
+  }
+]

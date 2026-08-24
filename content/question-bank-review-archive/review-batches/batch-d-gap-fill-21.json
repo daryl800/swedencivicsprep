@@ -1,0 +1,632 @@
+[
+  {
+    "id": "draft-batch-d-ch02-001",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "rule-of-law",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch D gap-fill draft)",
+    "questionSv": "En myndighet ändrar sitt beslut efter att en politiker ringt och uttryckt missnöje med en enskild person. Vilken demokratisk princip hotas?",
+    "questionEn": "An authority changes its decision after a politician calls and expresses dissatisfaction with an individual person. Which democratic principle is threatened?",
+    "options": [
+      "Myndigheter ska vara sakliga och inte styras politiskt i enskilda ärenden.",
+      "Politiker får alltid ändra myndighetsbeslut om de fått många röster.",
+      "Myndigheter ska följa partiernas önskemål före lagens krav.",
+      "Enskilda beslut ska normalt avgöras av opinionsmätningar."
+    ],
+    "optionsEn": [
+      "Authorities should be objective and not politically directed in individual cases.",
+      "Politicians may always change authority decisions if they received many votes.",
+      "Authorities should follow parties’ wishes before legal requirements.",
+      "Individual decisions should normally be decided by opinion polls."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rule of law requires objective public administration and limits political interference in individual cases.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch02-002",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch D gap-fill draft)",
+    "questionSv": "Varför är det viktigt att oppositionen kan kritisera regeringen öppet?",
+    "questionEn": "Why is it important that the opposition can openly criticize the government?",
+    "options": [
+      "Det ger väljare information och gör makten möjlig att granska.",
+      "Det betyder att oppositionen automatiskt styr landet.",
+      "Det gör att regeringen inte behöver följa lagar.",
+      "Det är bara tillåtet året före ett val."
+    ],
+    "optionsEn": [
+      "It gives voters information and makes power possible to scrutinize.",
+      "It means the opposition automatically governs the country.",
+      "It means the government does not need to follow laws.",
+      "It is only allowed the year before an election."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Open criticism helps voters compare alternatives and hold those in power accountable.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch02-003",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch D gap-fill draft)",
+    "questionSv": "En majoritet vill begränsa en minoritets rätt att ordna fredliga möten. Varför är detta ett demokratiskt problem?",
+    "questionEn": "A majority wants to limit a minority’s right to organize peaceful meetings. Why is this a democratic problem?",
+    "options": [
+      "Demokrati skyddar också minoriteters grundläggande fri- och rättigheter.",
+      "Majoriteten får alltid ta bort minoriteters rättigheter.",
+      "Mötesfrihet gäller bara partier som sitter i regeringen.",
+      "Minoriteter måste söka tillstånd från majoriteten för varje åsikt."
+    ],
+    "optionsEn": [
+      "Democracy also protects minorities’ basic freedoms and rights.",
+      "The majority may always remove minorities’ rights.",
+      "Freedom of assembly only applies to parties in government.",
+      "Minorities must seek permission from the majority for every opinion."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democracy is not only majority rule; it also includes rights and protections.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch03-001",
+    "chapterId": "government",
+    "chapterNumber": 3,
+    "topicId": "municipal-government",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch D gap-fill draft)",
+    "questionSv": "En kommun vill spara pengar genom att minska biblioteksöppettider. Varför är detta en kommunpolitisk fråga?",
+    "questionEn": "A municipality wants to save money by reducing library opening hours. Why is this a municipal political issue?",
+    "options": [
+      "Kommunen ansvarar för många lokala verksamheter och prioriterar sin budget.",
+      "Regionen bestämmer alla lokala bibliotekstider.",
+      "Riksbanken godkänner varje kommunal besparing.",
+      "EU beslutar varje kommuns kulturutbud."
+    ],
+    "optionsEn": [
+      "The municipality is responsible for many local services and prioritizes its budget.",
+      "The region decides all local library hours.",
+      "The Riksbank approves every municipal saving.",
+      "The EU decides each municipality’s cultural services."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipal self-government includes local priorities and budgets.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch03-002",
+    "chapterId": "government",
+    "chapterNumber": 3,
+    "topicId": "state-authorities",
+    "difficulty": "medium",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch D gap-fill draft)",
+    "questionSv": "Vad är skillnaden mellan regeringen och en statlig myndighet i praktiken?",
+    "questionEn": "What is the practical difference between the government and a central government authority?",
+    "options": [
+      "Regeringen styr riket, medan myndigheter genomför uppgifter enligt lagar och instruktioner.",
+      "Myndigheter skriver grundlagar och regeringen följer dem privat.",
+      "Regeringen dömer i brottmål medan myndigheter väljer riksdag.",
+      "Det finns ingen skillnad; alla beslut tas av samma kontor."
+    ],
+    "optionsEn": [
+      "The government governs the country, while authorities carry out tasks according to laws and instructions.",
+      "Authorities write constitutional laws and the government follows them privately.",
+      "The government judges criminal cases while authorities elect the Riksdag.",
+      "There is no difference; all decisions are made by the same office."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Government sets direction and authorities implement public tasks within the legal framework.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch03-003",
+    "chapterId": "government",
+    "chapterNumber": 3,
+    "topicId": "budget",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch D gap-fill draft)",
+    "questionSv": "Regeringen vill genomföra en reform men riksdagen säger nej till pengarna. Vad visar detta?",
+    "questionEn": "The government wants to carry out a reform but the Riksdag refuses the funding. What does this show?",
+    "options": [
+      "Riksdagen har central makt över statens budget.",
+      "Regeringen kan alltid låna pengar utan riksdagens beslut.",
+      "Kommuner betalar automatiskt statliga reformer.",
+      "Domstolar beslutar vilka reformer som får budget."
+    ],
+    "optionsEn": [
+      "The Riksdag has central power over the state budget.",
+      "The government can always borrow money without the Riksdag’s decision.",
+      "Municipalities automatically pay for central government reforms.",
+      "Courts decide which reforms get a budget."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Riksdag decides the state budget and can limit government policy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch04-001",
+    "chapterId": "elections-parties",
+    "chapterNumber": 4,
+    "topicId": "elections",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch D gap-fill draft)",
+    "questionSv": "En väljare tycker att partiernas vallöften är otydliga. Vad är ett bra demokratiskt sätt att agera?",
+    "questionEn": "A voter thinks parties’ election promises are unclear. What is a good democratic way to act?",
+    "options": [
+      "Jämföra partiernas information, följa debatter och ställa frågor innan valet.",
+      "Låta kommunen välja parti åt väljaren.",
+      "Rösta flera gånger för att markera osäkerhet.",
+      "Kräva att Valmyndigheten förbjuder otydliga partier."
+    ],
+    "optionsEn": [
+      "Compare party information, follow debates, and ask questions before the election.",
+      "Let the municipality choose a party for the voter.",
+      "Vote several times to show uncertainty.",
+      "Demand that the Election Authority bans unclear parties."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Voters can use information, debate, and scrutiny to make informed choices.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch04-002",
+    "chapterId": "elections-parties",
+    "chapterNumber": 4,
+    "topicId": "parties",
+    "difficulty": "medium",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch D gap-fill draft)",
+    "questionSv": "Varför behöver partier ofta kompromissa efter ett val?",
+    "questionEn": "Why do parties often need to compromise after an election?",
+    "options": [
+      "Flera partier kan behöva stödja beslut för att få majoritet.",
+      "Det parti som får flest röster får alltid bestämma ensamt.",
+      "Kompromisser är förbjudna i proportionella val.",
+      "Valmyndigheten skriver partiernas kompromisser."
+    ],
+    "optionsEn": [
+      "Several parties may need to support decisions to get a majority.",
+      "The party with the most votes may always decide alone.",
+      "Compromises are forbidden in proportional elections.",
+      "The Election Authority writes the parties’ compromises."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "In a multi-party system, cooperation is often needed to govern or pass decisions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch04-003",
+    "chapterId": "elections-parties",
+    "chapterNumber": 4,
+    "topicId": "voting",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch D gap-fill draft)",
+    "questionSv": "En person säger att rösthemligheten inte spelar roll om valet ändå räknas korrekt. Vad missar personen?",
+    "questionEn": "A person says ballot secrecy does not matter if the vote is counted correctly. What does the person miss?",
+    "options": [
+      "Rösthemligheten skyddar väljare från press och gör valet friare.",
+      "Rösthemligheten behövs bara om valdeltagandet är lågt.",
+      "Val blir alltid ogiltiga om någon berättar vad hen röstat på.",
+      "Bara partimedlemmar omfattas av rösthemlighet."
+    ],
+    "optionsEn": [
+      "Ballot secrecy protects voters from pressure and makes elections freer.",
+      "Ballot secrecy is only needed if turnout is low.",
+      "Elections are always invalid if someone says how they voted.",
+      "Only party members are covered by ballot secrecy."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Secret ballots protect free choice and reduce coercion.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch05-001",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "courts",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch D gap-fill draft)",
+    "questionSv": "En person är misstänkt för brott och medier skriver mycket om fallet. Varför måste domstolen ändå pröva saken självständigt?",
+    "questionEn": "A person is suspected of a crime and media write a lot about the case. Why must the court still examine the case independently?",
+    "options": [
+      "Domstolen ska döma enligt lag och bevisning, inte efter opinion eller rubriker.",
+      "Mediernas rapportering ersätter rättegång om den är omfattande.",
+      "Domstolen ska följa den åsikt som flest delar på internet.",
+      "Åklagaren får bestämma domen när medier bevakar fallet."
+    ],
+    "optionsEn": [
+      "The court must judge according to law and evidence, not public opinion or headlines.",
+      "Media reporting replaces the trial if it is extensive.",
+      "The court should follow the opinion most shared online.",
+      "The prosecutor may decide the judgment when media cover the case."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Independent courts must base judgments on law and evidence.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch05-002",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch D gap-fill draft)",
+    "questionSv": "Vad innebär rätt till försvarare i ett rättssäkert system?",
+    "questionEn": "What does the right to a defense lawyer mean in a legally secure system?",
+    "options": [
+      "Den misstänkte ska kunna få juridisk hjälp att försvara sig.",
+      "Den misstänkte får automatiskt rätt i domstolen.",
+      "Försvararen bestämmer om polisen får utreda.",
+      "Bara svenska medborgare kan ha försvarare."
+    ],
+    "optionsEn": [
+      "The suspect should be able to get legal help to defend themselves.",
+      "The suspect automatically wins in court.",
+      "The defense lawyer decides whether the police may investigate.",
+      "Only Swedish citizens can have a defense lawyer."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Legal help supports a fair process but does not decide the outcome.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch05-003",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "legal-certainty",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch D gap-fill draft)",
+    "questionSv": "En ny straffregel införs i dag. Varför kan den normalt inte användas för att straffa något som gjordes förra året?",
+    "questionEn": "A new criminal rule is introduced today. Why can it normally not be used to punish something done last year?",
+    "options": [
+      "Människor ska kunna veta i förväg vad som är brottsligt.",
+      "Domstolar måste alltid använda den nyaste regeln bakåt i tiden.",
+      "Regeringen väljer fritt vilka gamla handlingar som ska straffas.",
+      "Kommuner bestämmer om straffregler gäller bakåt."
+    ],
+    "optionsEn": [
+      "People should be able to know in advance what is criminal.",
+      "Courts must always use the newest rule backwards in time.",
+      "The government freely chooses which old actions to punish.",
+      "Municipalities decide whether criminal rules apply backwards."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Non-retroactivity is part of legality and predictability in criminal law.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch06-001",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "source-criticism",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch D gap-fill draft)",
+    "questionSv": "En myndighet publicerar statistik och en influencer gör en dramatisk tolkning utan länk. Vad bör en källkritisk läsare göra?",
+    "questionEn": "An authority publishes statistics and an influencer makes a dramatic interpretation without a link. What should a source-critical reader do?",
+    "options": [
+      "Kontrollera originalstatistiken och om tolkningen stöds av siffrorna.",
+      "Lita på influencern eftersom myndigheter alltid skriver svårt.",
+      "Anta att dramatisk tolkning alltid är mer sann.",
+      "Undvika originalkällan om många redan delat inlägget."
+    ],
+    "optionsEn": [
+      "Check the original statistics and whether the interpretation is supported by the numbers.",
+      "Trust the influencer because authorities always write in a difficult way.",
+      "Assume dramatic interpretation is always more true.",
+      "Avoid the original source if many have already shared the post."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Source criticism includes checking original sources and whether conclusions match the evidence.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch06-002",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "media-democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch D gap-fill draft)",
+    "questionSv": "Varför är lokala medier viktiga i en kommun?",
+    "questionEn": "Why are local media important in a municipality?",
+    "options": [
+      "De kan granska lokala beslut och informera invånare om frågor nära dem.",
+      "De beslutar vilka kommunpolitiker som får sitta kvar.",
+      "De ersätter kommunfullmäktige vid lågt valdeltagande.",
+      "De får skriva kommunens budget utan omröstning."
+    ],
+    "optionsEn": [
+      "They can scrutinize local decisions and inform residents about issues close to them.",
+      "They decide which municipal politicians may remain in office.",
+      "They replace the municipal council when turnout is low.",
+      "They may write the municipal budget without a vote."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Local journalism can support accountability and informed participation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch07-001",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "discrimination",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch D gap-fill draft)",
+    "questionSv": "En person med funktionsnedsättning kan inte komma in i en offentlig lokal där ett möte hålls. Vilken rättighetsfråga blir relevant?",
+    "questionEn": "A person with a disability cannot enter a public venue where a meeting is held. Which rights issue becomes relevant?",
+    "options": [
+      "Tillgänglighet och möjlighet att delta på lika villkor.",
+      "Rätten för lokaler att välja bort vissa besökare utan skäl.",
+      "Skyldigheten att bara hålla möten utomhus.",
+      "Att funktionsnedsättning gör politiskt deltagande frivilligt för staten."
+    ],
+    "optionsEn": [
+      "Accessibility and the possibility to participate on equal terms.",
+      "The right of venues to exclude certain visitors without reason.",
+      "The obligation to only hold meetings outdoors.",
+      "That disability makes political participation optional for the state."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Accessibility affects equal participation in public and democratic life.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch07-002",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "children-rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch D gap-fill draft)",
+    "questionSv": "Varför ska barn få komma till tals i frågor som rör dem?",
+    "questionEn": "Why should children be heard in matters that concern them?",
+    "options": [
+      "Barn har rätt till inflytande utifrån ålder och mognad.",
+      "Barn bestämmer alltid själva i alla juridiska frågor.",
+      "Vuxna får aldrig fatta beslut om barn.",
+      "Barns åsikter gäller bara om de röstar i val."
+    ],
+    "optionsEn": [
+      "Children have the right to influence according to age and maturity.",
+      "Children always decide for themselves in all legal matters.",
+      "Adults may never make decisions about children.",
+      "Children’s opinions only matter if they vote in elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Children’s rights include being heard, while adults still carry responsibility.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch08-001",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "consumer-rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch D gap-fill draft)",
+    "questionSv": "En person skriver på ett avtal utan att förstå bindningstiden. Vad visar situationen om privatekonomi?",
+    "questionEn": "A person signs a contract without understanding the commitment period. What does the situation show about personal finance?",
+    "options": [
+      "Det är viktigt att läsa villkor och förstå kostnader innan man binder sig.",
+      "Avtal gäller aldrig om man ångrar sig efteråt.",
+      "Bindningstid betyder att säljaren betalar kunden.",
+      "Alla avtal kontrolleras i förväg av kommunen."
+    ],
+    "optionsEn": [
+      "It is important to read terms and understand costs before committing.",
+      "Contracts never apply if one regrets them afterwards.",
+      "A commitment period means the seller pays the customer.",
+      "All contracts are checked in advance by the municipality."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Understanding terms helps avoid unexpected costs and obligations.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch08-002",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "taxes",
+    "difficulty": "medium",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch D gap-fill draft)",
+    "questionSv": "Varför får man ofta både bruttolön och nettolön beskrivet?",
+    "questionEn": "Why are gross pay and net pay often both described?",
+    "options": [
+      "Bruttolön är före skatt och nettolön är det som betalas ut efter avdrag.",
+      "Bruttolön är alltid lägre än nettolön.",
+      "Nettolön är lön som inte behöver redovisas.",
+      "Bruttolön används bara av personer utan arbete."
+    ],
+    "optionsEn": [
+      "Gross pay is before tax and net pay is what is paid out after deductions.",
+      "Gross pay is always lower than net pay.",
+      "Net pay is salary that does not need to be reported.",
+      "Gross pay is only used by people without work."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The distinction helps people understand pay, tax, and take-home income.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch09-001",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "healthcare",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch D gap-fill draft)",
+    "questionSv": "En person söker akut hjälp för ett livshotande tillstånd men oroar sig för kostnaden. Vilken princip är viktig i svensk vård?",
+    "questionEn": "A person seeks emergency help for a life-threatening condition but worries about the cost. Which principle is important in Swedish healthcare?",
+    "options": [
+      "Akut vård ska utgå från vårdbehov, inte från personens betalningsförmåga i stunden.",
+      "Akut vård ges bara till personer som kan betala hela kostnaden direkt.",
+      "Regionen får vägra all vård om personen saknar arbete.",
+      "112 avgör patientens skatt innan ambulans skickas."
+    ],
+    "optionsEn": [
+      "Emergency care should be based on healthcare need, not the person’s immediate ability to pay.",
+      "Emergency care is only given to people who can pay the full cost immediately.",
+      "The region may refuse all care if the person has no job.",
+      "112 decides the patient’s tax before sending an ambulance."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish healthcare is based on medical need, especially in emergencies.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch09-002",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "social-services",
+    "difficulty": "medium",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch D gap-fill draft)",
+    "questionSv": "Varför kan socialtjänsten både ge stöd och ställa krav?",
+    "questionEn": "Why can social services both provide support and set requirements?",
+    "options": [
+      "Stödet bygger ofta på en bedömning av behov, ansvar och möjliga lösningar.",
+      "Socialtjänsten får bara ge pengar utan frågor.",
+      "Krav betyder att personen förlorar alla rättigheter.",
+      "Socialtjänsten arbetar bara med sjukvård i regionen."
+    ],
+    "optionsEn": [
+      "Support is often based on an assessment of needs, responsibility, and possible solutions.",
+      "Social services may only give money without questions.",
+      "Requirements mean the person loses all rights.",
+      "Social services only works with healthcare in the region."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Social assistance can combine help with individual assessment and responsibilities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch10-001",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "social-change",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch D gap-fill draft)",
+    "questionSv": "En person säger att dagens Sverige alltid har sett likadant ut. Vilket historiskt perspektiv visar varför det är fel?",
+    "questionEn": "A person says that today’s Sweden has always looked the same. Which historical perspective shows why this is wrong?",
+    "options": [
+      "Samhället har förändrats genom industrialisering, demokratisering, migration och välfärdsreformer.",
+      "Sverige har haft samma befolkning, lagar och ekonomi sedan 1800-talet.",
+      "Historiska förändringar påverkar bara kungahuset, inte vanliga människor.",
+      "Modern historia handlar bara om krig och inte om samhällsutveckling."
+    ],
+    "optionsEn": [
+      "Society has changed through industrialization, democratization, migration, and welfare reforms.",
+      "Sweden has had the same population, laws, and economy since the 1800s.",
+      "Historical changes only affect the royal family, not ordinary people.",
+      "Modern history is only about wars and not social development."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Modern Swedish history includes major changes in work, democracy, population, and welfare.",
+    "status": "draft"
+  }
+]

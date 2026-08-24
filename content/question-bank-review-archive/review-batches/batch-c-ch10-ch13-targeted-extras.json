@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "draft-batch-c-ch10-001",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "industrialisation",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "En familj lämnar landsbygden för arbete i en fabrik i början av 1900-talet. Vilken större samhällsförändring visar detta?",
+    "questionEn": "A family leaves the countryside for factory work in the early 20th century. Which larger social change does this show?",
+    "options": [
+      "Industrialisering och urbanisering förändrade arbete och boende.",
+      "Jordbruket förblev den vanligaste sysselsättningen och städerna växte knappt.",
+      "Förändringen drevs framför allt av lagar som tvingade folk att flytta till städer.",
+      "Urbaniseringen påverkade bara storstäderna, inte boende eller familjeliv."
+    ],
+    "optionsEn": [
+      "Industrialization and urbanization changed work and housing.",
+      "Agriculture remained the most common work and cities barely grew.",
+      "The change was mainly driven by laws forcing people to move to cities.",
+      "Urbanization only affected big cities, not housing or family life."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Industrialization moved many jobs from agriculture to factories and cities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-002",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "popular-movements",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Varför var folkrörelser viktiga för demokratins utveckling i Sverige?",
+    "questionEn": "Why were popular movements important for the development of democracy in Sweden?",
+    "options": [
+      "De lärde människor organisera sig, diskutera och påverka samhället.",
+      "De gav främst rika personer möjlighet att påverka politiken.",
+      "De var organisationer som styrde landet i stället för riksdagen.",
+      "De uppstod mest som hobbyverksamhet och betydde lite för demokratin."
+    ],
+    "optionsEn": [
+      "They taught people to organize, discuss, and influence society.",
+      "They mainly gave rich people a chance to influence politics.",
+      "They were organizations that governed the country instead of the Riksdag.",
+      "They arose mostly as hobbies and meant little for democracy."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Popular movements helped build participation, organization, and democratic culture.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-003",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "migration",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Många svenskar utvandrade till Amerika under 1800-talet. Vilka orsaker brukar kopplas till detta?",
+    "questionEn": "Many Swedes emigrated to America during the 19th century. Which causes are usually connected to this?",
+    "options": [
+      "Fattigdom, befolkningsökning och hopp om bättre möjligheter.",
+      "Sverige uppmuntrade utvandring för att minska antalet arbetare.",
+      "Utvandringen berodde mest på att Sverige förlorat ett krig.",
+      "De flesta utvandrade för att undvika den svenska skolplikten."
+    ],
+    "optionsEn": [
+      "Poverty, population growth, and hope for better opportunities.",
+      "Sweden encouraged emigration to reduce the number of workers.",
+      "Emigration was mainly because Sweden had lost a war.",
+      "Most emigrated to avoid Swedish compulsory schooling."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Emigration was linked to economic pressure and hopes for a better life.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-004",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "welfare-state",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Efter andra världskriget byggdes välfärden ut. Vad var en central idé bakom detta?",
+    "questionEn": "After the Second World War, welfare expanded. What was a central idea behind this?",
+    "options": [
+      "Att staten och kommunerna skulle ge fler människor trygghet och service.",
+      "Att välfärden skulle finansieras helt av privata försäkringsbolag.",
+      "Att bara personer med arbete skulle få tillgång till stöd.",
+      "Att staten skulle ta över alla företag i landet."
+    ],
+    "optionsEn": [
+      "That the state and municipalities should give more people security and services.",
+      "That welfare would be financed entirely by private insurance companies.",
+      "That only people with jobs would get access to support.",
+      "That the state would take over all companies in the country."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The welfare state expanded public security and services funded collectively.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-005",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "neutrality",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Sverige höll sig utanför världskrigen men påverkades ändå. Vad visar det?",
+    "questionEn": "Sweden stayed outside the world wars but was still affected. What does that show?",
+    "options": [
+      "Neutralitet betyder inte att ett land är opåverkat av krig i omvärlden.",
+      "Neutralitet betyder att landet saknar handel och diplomati.",
+      "Ett neutralt land måste alltid avskaffa sitt försvar.",
+      "Neutralitet gör att andra länders konflikter blir olagliga."
+    ],
+    "optionsEn": [
+      "Neutrality does not mean a country is unaffected by wars around it.",
+      "Neutrality means the country has no trade or diplomacy.",
+      "A neutral country must always abolish its defense.",
+      "Neutrality makes other countries’ conflicts illegal."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A neutral policy can keep a country out of war while economic, political, and humanitarian effects remain.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-006",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "labour-market",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Vad betyder Saltsjöbadsavtalet ofta som symbol i svensk historia?",
+    "questionEn": "What does the Saltsjöbaden Agreement often symbolize in Swedish history?",
+    "options": [
+      "Samarbete och förhandling mellan arbetsmarknadens parter.",
+      "Att lönerna bestämdes direkt av regeringen varje år.",
+      "Att arbetstagarna förlorade rätten att bilda fackföreningar.",
+      "Att riksdagen tog över alla förhandlingar mellan parterna."
+    ],
+    "optionsEn": [
+      "Cooperation and negotiation between labour market parties.",
+      "That wages were decided directly by the government every year.",
+      "That workers lost the right to form trade unions.",
+      "That the Riksdag took over all negotiations between the parties."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "It is associated with the Swedish labour market model and negotiated agreements.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-007",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "democratization",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Varför var allmän och lika rösträtt en stor förändring?",
+    "questionEn": "Why was universal and equal suffrage a major change?",
+    "options": [
+      "Fler vuxna fick samma politiska möjlighet att påverka val.",
+      "Rösträtten gällde nu bara personer med hög inkomst.",
+      "Kvinnor fick rösta, men män förlorade sin rösträtt.",
+      "Rösträtten beslutades fortfarande ensamt av kungen."
+    ],
+    "optionsEn": [
+      "More adults received the same political opportunity to influence elections.",
+      "Voting rights now only applied to people with high income.",
+      "Women got to vote, but men lost their voting rights.",
+      "Voting rights were still decided by the king alone."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Universal and equal suffrage broadened political participation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-008",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "gender-equality",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Kvinnors ökade deltagande i utbildning, arbete och politik förändrade Sverige. Vad visar detta historiskt?",
+    "questionEn": "Women’s increased participation in education, work, and politics changed Sweden. What does this show historically?",
+    "options": [
+      "Jämställdhet har utvecklats genom reformer, organisering och förändrade normer.",
+      "Jämställdhet uppnåddes främst genom att kvinnor fick rösta år 1921.",
+      "Förändringen berodde mest på att män frivilligt gav upp sina roller.",
+      "Lagstiftning spelade ingen roll, bara ekonomin förändrades."
+    ],
+    "optionsEn": [
+      "Gender equality has developed through reforms, organizing, and changed norms.",
+      "Gender equality was achieved mainly when women got the vote in 1921.",
+      "The change was mostly because men voluntarily gave up their roles.",
+      "Legislation played no role; only the economy changed."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Gender equality is a long historical process involving law, politics, work, and norms.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-009",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "migration",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Hur förändrades Sverige av arbetskraftsinvandring efter andra världskriget?",
+    "questionEn": "How was Sweden changed by labour migration after the Second World War?",
+    "options": [
+      "Människor från andra länder bidrog till arbetsmarknaden och samhällets mångfald.",
+      "Arbetskraftsinvandringen berodde på att svenskar slutade arbeta helt.",
+      "Invandringen var planerad enbart för att fylla tomma bostäder.",
+      "Sverige tog emot flyktingar från krig, inte arbetskraft från andra länder."
+    ],
+    "optionsEn": [
+      "People from other countries contributed to the labour market and social diversity.",
+      "Labour migration happened because Swedes stopped working completely.",
+      "Immigration was planned only to fill empty homes.",
+      "Sweden received refugees from war, not labour from other countries."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Post-war labour migration helped meet labour demand and changed Swedish society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-010",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "economic-change",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Varför kan ekonomiska kriser påverka politiska beslut?",
+    "questionEn": "Why can economic crises affect political decisions?",
+    "options": [
+      "De kan skapa arbetslöshet, press på offentliga finanser och krav på reformer.",
+      "Kriser påverkar främst företag, sällan vanliga hushåll.",
+      "Ekonomiska kriser löser sig alltid snabbt av sig själva.",
+      "Regeringen byter då alltid helt politisk inriktning, oavsett omständigheter."
+    ],
+    "optionsEn": [
+      "They can create unemployment, pressure on public finances, and demands for reforms.",
+      "Crises mainly affect companies, rarely ordinary households.",
+      "Economic crises always solve themselves quickly.",
+      "The government then always changes its whole political direction, regardless of circumstances."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Economic crises can shape policy because they affect jobs, taxes, welfare, and trust.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-011",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "education",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Varför har utbyggd utbildning varit viktig i det moderna Sverige?",
+    "questionEn": "Why has expanded education been important in modern Sweden?",
+    "options": [
+      "Den har gett fler människor kunskap och möjligheter på arbetsmarknaden.",
+      "Utbildning var viktig främst för att fler skulle bli lärare.",
+      "Den breda utbildningen gjorde att färre behövde arbeta.",
+      "Utbildning förändrade mest landsbygden, inte städerna."
+    ],
+    "optionsEn": [
+      "It has given more people knowledge and opportunities in the labour market.",
+      "Education was important mainly so more people would become teachers.",
+      "Broad education meant fewer people needed to work.",
+      "Education mostly changed the countryside, not cities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Education expansion is tied to equality, skills, and labour market change.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-012",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "housing",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Varför byggdes många bostäder under 1900-talets urbanisering?",
+    "questionEn": "Why were many homes built during 20th-century urbanization?",
+    "options": [
+      "När fler flyttade till städer behövdes bostäder och planerad samhällsservice.",
+      "Bostäder byggdes främst för att ersätta jordbruket på landsbygden.",
+      "Urbaniseringen minskade behovet av offentlig planering.",
+      "Städerna växte, men bostadsbrist var sällsynt."
+    ],
+    "optionsEn": [
+      "As more people moved to cities, housing and planned public services were needed.",
+      "Housing was built mainly to replace agriculture in the countryside.",
+      "Urbanization reduced the need for public planning.",
+      "Cities grew, but housing shortages were rare."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Urban growth created a need for housing, infrastructure, and public planning.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-013",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "eu-history",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Sverige gick med i EU 1995. Varför var det en viktig historisk förändring?",
+    "questionEn": "Sweden joined the EU in 1995. Why was this an important historical change?",
+    "options": [
+      "Sverige blev del av ett politiskt och ekonomiskt samarbete där EU-rätt påverkar Sverige.",
+      "Sverige blev medlem främst för att slippa handla med andra länder.",
+      "Medlemskapet innebar att Sverige lämnade det nordiska samarbetet.",
+      "EU-medlemskapet påverkade bara jordbruket, inte annat i samhället."
+    ],
+    "optionsEn": [
+      "Sweden became part of political and economic cooperation where EU law affects Sweden.",
+      "Sweden joined mainly to avoid trading with other countries.",
+      "Membership meant Sweden left Nordic cooperation.",
+      "EU membership only affected agriculture, not other parts of society."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "EU membership changed Sweden’s international cooperation and legal context.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-014",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "digitalisation",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Hur har digitalisering påverkat samhällsdeltagande?",
+    "questionEn": "How has digitalization affected participation in society?",
+    "options": [
+      "Den har skapat nya sätt att få information, kommunicera och påverka.",
+      "Digitaliseringen minskade behovet av utbildning i samhället.",
+      "Tekniken gjorde att alla fick exakt samma information automatiskt.",
+      "Digitaliseringen ersatte det demokratiska deltagandet helt."
+    ],
+    "optionsEn": [
+      "It has created new ways to get information, communicate, and influence.",
+      "Digitalization reduced the need for education in society.",
+      "Technology made everyone receive exactly the same information automatically.",
+      "Digitalization completely replaced democratic participation."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Digitalization changes access to information and participation, while source criticism remains important.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-015",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "identity",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Varför kan bilden av svenskhet förändras över tid?",
+    "questionEn": "Why can the idea of Swedishness change over time?",
+    "options": [
+      "Samhällen förändras genom migration, normer, politik och historiska erfarenheter.",
+      "Svenskhet bestäms en gång för alla av en myndighet.",
+      "Bara kungahuset får beskriva svensk kultur.",
+      "Historiska förändringar påverkar aldrig identitet."
+    ],
+    "optionsEn": [
+      "Societies change through migration, norms, politics, and historical experiences.",
+      "Swedishness is decided once and for all by an authority.",
+      "Only the royal family may describe Swedish culture.",
+      "Historical changes never affect identity."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "National identity and culture are shaped over time by people and social change.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-001",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "eu",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Ett svenskt företag säljer varor inom EU. Varför kan EU:s inre marknad vara viktig?",
+    "questionEn": "A Swedish company sells goods within the EU. Why can the EU internal market be important?",
+    "options": [
+      "Den gör handel och rörlighet lättare genom gemensamma regler.",
+      "Den gjorde att svenska företag förbjöds sälja utomlands.",
+      "Den införde att alla EU-länder måste använda euro.",
+      "Den bestämmer fortfarande alla svenska skatter."
+    ],
+    "optionsEn": [
+      "It makes trade and movement easier through common rules.",
+      "It meant Swedish companies were forbidden from selling abroad.",
+      "It introduced that all EU countries must use the euro.",
+      "It still decides all Swedish taxes."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The internal market is built on common rules that facilitate trade and movement.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-002",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "un",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Vad är en viktig idé bakom FN?",
+    "questionEn": "What is an important idea behind the UN?",
+    "options": [
+      "Länder samarbetar om fred, säkerhet, utveckling och mänskliga rättigheter.",
+      "FN fungerar som en världsregering som bestämmer i varje land.",
+      "FN ger främst rika länder rätt att bestämma över fattiga.",
+      "FN arbetar bara med miljö, inte med fred eller rättigheter."
+    ],
+    "optionsEn": [
+      "Countries cooperate on peace, security, development, and human rights.",
+      "The UN works as a world government that decides in every country.",
+      "The UN mainly gives rich countries the right to decide over poor countries.",
+      "The UN only works with the environment, not peace or rights."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The UN is an international organization for cooperation between states.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-003",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "nordic-cooperation",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Varför är nordiskt samarbete ofta praktiskt för Sverige?",
+    "questionEn": "Why is Nordic cooperation often practical for Sweden?",
+    "options": [
+      "Länderna ligger nära varandra och har många gemensamma samhällsfrågor.",
+      "Nordiskt samarbete gör att Sverige slipper följa egna lagar.",
+      "Det ersätter det svenska medborgarskapet.",
+      "Det bestämmer valutor och skatter för alla nordiska länder."
+    ],
+    "optionsEn": [
+      "The countries are close to each other and share many social issues.",
+      "Nordic cooperation means Sweden does not need to follow its own laws.",
+      "It replaces Swedish citizenship.",
+      "It decides currencies and taxes for all Nordic countries."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Nordic cooperation concerns practical issues between neighboring countries.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-004",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "eu-law",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "En svensk lag står i konflikt med EU-rätt på ett område där EU har beslutanderätt. Vad kan det innebära?",
+    "questionEn": "A Swedish law conflicts with EU law in an area where the EU has competence. What can this mean?",
+    "options": [
+      "EU-rätten kan få företräde och påverka hur Sverige måste tillämpa reglerna.",
+      "Sverige får då själv välja vilken EU-regel som ska gälla.",
+      "Svenska domstolar måste alltid välja svensk lag först.",
+      "Konflikter löses alltid av riksdagen, inte av EU."
+    ],
+    "optionsEn": [
+      "EU law may take precedence and affect how Sweden must apply the rules.",
+      "Sweden may then choose for itself which EU rule should apply.",
+      "Swedish courts must always choose Swedish law first.",
+      "Conflicts are always solved by the Riksdag, not by the EU."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "EU membership means EU law can affect Swedish law in areas covered by EU rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-005",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "foreign-policy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Varför kan konflikter i andra länder påverka Sverige?",
+    "questionEn": "Why can conflicts in other countries affect Sweden?",
+    "options": [
+      "Genom säkerhet, ekonomi, migration, energi och internationellt samarbete.",
+      "Konflikter påverkar bara länderna som gränsar till Sverige.",
+      "Sverige kan aldrig påverkas om konflikten är långt borta.",
+      "Endast krig som berör EU påverkar svensk politik."
+    ],
+    "optionsEn": [
+      "Through security, economy, migration, energy, and international cooperation.",
+      "Conflicts only affect countries that border Sweden.",
+      "Sweden can never be affected if the conflict is far away.",
+      "Only wars involving the EU affect Swedish politics."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Global interdependence means events abroad can affect Sweden in many ways.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-006",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "nato",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Vad innebär medlemskap i Nato i stora drag?",
+    "questionEn": "What does NATO membership broadly mean?",
+    "options": [
+      "Sverige ingår i en försvarsallians med gemensamma säkerhetsåtaganden.",
+      "Nato bestämmer hur Sverige ska styra sin inrikespolitik.",
+      "Medlemskapet innebär att Sverige inte längre har eget försvar.",
+      "Nato ersätter FN som Sveriges enda samarbete."
+    ],
+    "optionsEn": [
+      "Sweden is part of a defense alliance with common security commitments.",
+      "NATO decides how Sweden should govern its domestic policy.",
+      "Membership means Sweden no longer has its own defense.",
+      "NATO replaces the UN as Sweden’s only cooperation."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "NATO is a defense alliance; membership concerns security and defense cooperation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-007",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "sanctions",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Sverige deltar i internationella sanktioner mot ett land som bryter mot folkrätten. Vad är syftet med sådana sanktioner?",
+    "questionEn": "Sweden participates in international sanctions against a country that violates international law. What is the purpose of such sanctions?",
+    "options": [
+      "Att sätta politiskt och ekonomiskt tryck utan att använda militärt våld.",
+      "Att få konflikten att upphöra direkt och helt.",
+      "Att övertyga landet genom förhandling utan några begränsningar.",
+      "Att lösa problemet med militär insats i stället."
+    ],
+    "optionsEn": [
+      "To create political and economic pressure without using military force.",
+      "To make the conflict end immediately and completely.",
+      "To convince the country through negotiation without any restrictions.",
+      "To solve the problem with military action instead."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sanctions are a foreign-policy tool used to pressure states or actors, often through international cooperation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-008",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "climate",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Varför kräver klimatfrågor ofta internationellt samarbete?",
+    "questionEn": "Why do climate issues often require international cooperation?",
+    "options": [
+      "Utsläpp och miljöeffekter passerar nationsgränser.",
+      "Klimatförändringen beror bara på natur, inte på människor.",
+      "Varje land klarar klimatfrågan helt på egen hand.",
+      "Klimatsamarbete behövs bara inom EU, inte globalt."
+    ],
+    "optionsEn": [
+      "Emissions and environmental effects cross national borders.",
+      "Climate change is only caused by nature, not by humans.",
+      "Each country can handle the climate issue completely on its own.",
+      "Climate cooperation is only needed within the EU, not globally."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Climate problems are transboundary and need cooperation between countries.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-009",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "eu-citizenship",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Vad kan EU-medborgarskap ge en svensk medborgare?",
+    "questionEn": "What can EU citizenship give a Swedish citizen?",
+    "options": [
+      "Vissa rättigheter att resa, bo, studera och arbeta i andra EU-länder.",
+      "Rätt att rösta i alla nationella val i alla EU-länder.",
+      "Rätt att söka alla statliga jobb i vilket EU-land som helst.",
+      "Skyldighet att byta till ett annat EU-lands medborgarskap."
+    ],
+    "optionsEn": [
+      "Certain rights to travel, live, study, and work in other EU countries.",
+      "The right to vote in all national elections in all EU countries.",
+      "The right to apply for all government jobs in any EU country.",
+      "An obligation to change to another EU country’s citizenship."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "EU citizenship includes free movement and some political rights, but not all national rights everywhere.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-010",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "trade",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Ett importerat läkemedel blir svårt att få tag på på grund av störningar i världen. Vad visar situationen?",
+    "questionEn": "An imported medicine becomes hard to obtain because of disruptions in the world. What does the situation show?",
+    "options": [
+      "Sverige är beroende av internationella leveranskedjor och samarbete.",
+      "Sverige klarar all läkemedelsförsörjning helt själv.",
+      "Importproblem löser sig alltid snabbt inom landet.",
+      "Världshandel påverkar bara priser, inte tillgång."
+    ],
+    "optionsEn": [
+      "Sweden depends on international supply chains and cooperation.",
+      "Sweden handles all medicine supply completely by itself.",
+      "Import problems always solve themselves quickly inside the country.",
+      "World trade only affects prices, not access."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "International trade and supply chains can affect daily life and public services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-011",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "human-rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Varför kan Sverige kritisera människorättsbrott i andra länder?",
+    "questionEn": "Why can Sweden criticize human rights violations in other countries?",
+    "options": [
+      "Mänskliga rättigheter ses som internationella normer och en del av utrikespolitiken.",
+      "Sverige har alltid domsrätt över brott i andra länder.",
+      "Mänskliga rättigheter gäller bara inom EU.",
+      "Kritik av andra länder är förbjuden enligt svensk lag."
+    ],
+    "optionsEn": [
+      "Human rights are seen as international norms and part of foreign policy.",
+      "Sweden always has jurisdiction over crimes in other countries.",
+      "Human rights only apply within the EU.",
+      "Criticism of other countries is forbidden under Swedish law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Human rights are part of international cooperation and foreign policy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-012",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "migration",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Varför kan migration vara både en nationell och internationell fråga?",
+    "questionEn": "Why can migration be both a national and international issue?",
+    "options": [
+      "Människors rörelser påverkas av regler, konflikter, arbete och samarbete mellan länder.",
+      "Migration beslutas bara av enskilda kommuner.",
+      "Migration har inget samband med lagar eller mänskliga rättigheter.",
+      "Alla länder har alltid exakt samma migrationsregler."
+    ],
+    "optionsEn": [
+      "People’s movement is affected by rules, conflicts, work, and cooperation between countries.",
+      "Migration is decided only by individual municipalities.",
+      "Migration has no connection to laws or human rights.",
+      "All countries always have exactly the same migration rules."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Migration connects domestic policy with international events and agreements.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-013",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "embassies",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Vilken uppgift har svenska ambassader utomlands?",
+    "questionEn": "What task do Swedish embassies abroad have?",
+    "options": [
+      "De representerar Sverige och kan ge visst stöd till svenskar utomlands.",
+      "De beslutar om svenska lagar utomlands.",
+      "De ger alla svenskar permanent uppehåll i landet.",
+      "De ersätter Migrationsverket i alla ärenden."
+    ],
+    "optionsEn": [
+      "They represent Sweden and can provide some support to Swedes abroad.",
+      "They decide Swedish laws abroad.",
+      "They give all Swedes permanent residence in the country.",
+      "They replace the Swedish Migration Agency in all cases."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Embassies represent the country and handle diplomatic and consular tasks.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-014",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "eu-democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Varför röstar svenska väljare i val till Europaparlamentet?",
+    "questionEn": "Why do Swedish voters vote in elections to the European Parliament?",
+    "options": [
+      "EU fattar beslut som påverkar Sverige, och parlamentet är en vald del av EU:s beslutsprocess.",
+      "Europaparlamentet styr Sverige mer än riksdagen.",
+      "EU-valet avgör vem som blir svensk statsminister.",
+      "Svenska väljare röstar där i stället för i riksdagsval."
+    ],
+    "optionsEn": [
+      "The EU makes decisions that affect Sweden, and the Parliament is an elected part of the EU decision-making process.",
+      "The European Parliament governs Sweden more than the Riksdag.",
+      "The EU election decides who becomes Swedish prime minister.",
+      "Swedish voters vote there instead of in parliamentary elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "EU elections give citizens representation in one EU institution.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-015",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "security",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "En cyberattack från utlandet stör svenska myndighetstjänster. Varför är detta inte bara en teknisk fråga?",
+    "questionEn": "A cyberattack from abroad disrupts Swedish authority services. Why is this not only a technical issue?",
+    "options": [
+      "Det berör säkerhet, demokratiskt förtroende och samhällets motståndskraft.",
+      "Det är enbart ett tekniskt problem för IT-avdelningen.",
+      "Det påverkar bara privatpersoner, inte myndigheter.",
+      "Det får aldrig påverka hur samhället styrs."
+    ],
+    "optionsEn": [
+      "It concerns security, democratic trust, and society’s resilience.",
+      "It is only a technical problem for the IT department.",
+      "It only affects private individuals, not authorities.",
+      "It can never affect how society is governed."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Digital threats can affect public services, trust, and national security.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-001",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "secular-state",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "En myndighet fattar beslut om bidrag. Varför ska beslutet inte bygga på handläggarens religion?",
+    "questionEn": "An authority decides on a benefit. Why should the decision not be based on the caseworker’s religion?",
+    "options": [
+      "Offentliga beslut ska bygga på lag, saklighet och likabehandling.",
+      "Myndigheter ska följa den största religionens regler.",
+      "Handläggaren får alltid välja religiösa regler framför lag.",
+      "Bidrag beslutas av trossamfund, inte av myndigheter."
+    ],
+    "optionsEn": [
+      "Public decisions should be based on law, objectivity, and equal treatment.",
+      "Authorities should follow the rules of the largest religion.",
+      "The caseworker may always choose religious rules over law.",
+      "Benefits are decided by religious communities, not authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A secular rule-of-law state bases public decisions on law rather than religious authority.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-002",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "freedom-religion",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Vad betyder religionsfrihet i ett mångreligiöst samhälle?",
+    "questionEn": "What does freedom of religion mean in a multi-religious society?",
+    "options": [
+      "Människor får tro, byta religion eller avstå från religion inom lagens ramar.",
+      "Alla måste tillhöra samma trossamfund.",
+      "Bara historiska religioner får utövas.",
+      "Staten väljer varje persons religion."
+    ],
+    "optionsEn": [
+      "People may believe, change religion, or refrain from religion within the limits of law.",
+      "Everyone must belong to the same religious community.",
+      "Only historical religions may be practiced.",
+      "The state chooses each person’s religion."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of religion includes the right to have or not have a religion.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-003",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "school",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Varför ska undervisning i skolan om religion vara saklig och allsidig?",
+    "questionEn": "Why should school teaching about religion be factual and balanced?",
+    "options": [
+      "Skolan ska ge kunskap utan att tvinga elever att tro på en viss religion.",
+      "Skolan ska främst undervisa om den religion flest elever har.",
+      "Religion får nämnas i skolan bara som en privat åsikt.",
+      "Skolan ska undvika ämnet religion helt."
+    ],
+    "optionsEn": [
+      "School should provide knowledge without forcing pupils to believe in a certain religion.",
+      "School should mainly teach about the religion most pupils have.",
+      "Religion may be mentioned in school only as a private opinion.",
+      "School should avoid the subject of religion completely."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A secular school can teach about religions without religious coercion.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-004",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "traditions",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "En skola firar lucia men säger att deltagande ska vara frivilligt. Vilken balans visar detta?",
+    "questionEn": "A school celebrates Lucia but says participation should be voluntary. What balance does this show?",
+    "options": [
+      "Traditioner kan finnas i skolan utan att elever tvingas delta religiöst.",
+      "Alla elever måste delta eftersom tradition alltid är lag.",
+      "Luciafirande gör skolan till ett trossamfund.",
+      "Frivillighet betyder att skolan inte får ha traditioner alls."
+    ],
+    "optionsEn": [
+      "Traditions can exist in school without forcing pupils to participate religiously.",
+      "All pupils must participate because tradition is always law.",
+      "A Lucia celebration makes the school a religious community.",
+      "Voluntariness means school may not have traditions at all."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Schools may handle traditions while respecting freedom of religion and conscience.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-005",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "discrimination",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "En hyresvärd nekar en bostad på grund av en persons religion. Vilket problem uppstår?",
+    "questionEn": "A landlord denies housing because of a person’s religion. What problem arises?",
+    "options": [
+      "Det kan vara diskriminering.",
+      "Det är tillåtet eftersom uthyraren bestämmer fritt över sin bostad.",
+      "Det gäller bara om personen är svensk medborgare.",
+      "Det är ett problem enbart för myndigheter, inte vid privat uthyrning."
+    ],
+    "optionsEn": [
+      "It can be discrimination.",
+      "It is allowed because the landlord freely decides over their housing.",
+      "It only applies if the person is a Swedish citizen.",
+      "It is only a problem for authorities, not in private renting."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Discrimination protection can apply beyond public authorities, including housing and work.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-006",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "church-state",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Vad visar separationen mellan Svenska kyrkan och staten?",
+    "questionEn": "What does the separation between the Church of Sweden and the state show?",
+    "options": [
+      "Sverige har inte längre en statskyrka på samma sätt som tidigare.",
+      "Svenska kyrkan bestämmer fortfarande riksdagens lagar.",
+      "Religiösa samfund får inte längre verka i Sverige.",
+      "Endast staten får arrangera religiösa högtider."
+    ],
+    "optionsEn": [
+      "Sweden no longer has a state church in the same way as before.",
+      "The Church of Sweden still decides the Riksdag’s laws.",
+      "Religious communities may no longer operate in Sweden.",
+      "Only the state may arrange religious holidays."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The relationship changed so the church is no longer part of the state in the old way.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-007",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "law",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "En grupp vill att religiösa regler ska ersätta svensk familjerätt för dess medlemmar. Vad gäller i Sverige?",
+    "questionEn": "A group wants religious rules to replace Swedish family law for its members. What applies in Sweden?",
+    "options": [
+      "Svensk lag gäller och kan inte ersättas av privata religiösa regler.",
+      "Religiösa regler gäller alltid före svensk lag för medlemmar.",
+      "Kommunen väljer vilken religiös lag som gäller.",
+      "Familjerätt gäller bara personer utan religion."
+    ],
+    "optionsEn": [
+      "Swedish law applies and cannot be replaced by private religious rules.",
+      "Religious rules always take precedence over Swedish law for members.",
+      "The municipality chooses which religious law applies.",
+      "Family law only applies to people without religion."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A secular state applies common law regardless of religious affiliation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-008",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "pluralism",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Varför kan religionsfrihet skapa både frihet och konflikter i vardagen?",
+    "questionEn": "Why can freedom of religion create both freedom and conflicts in everyday life?",
+    "options": [
+      "Olika rättigheter och intressen kan behöva vägas mot varandra i konkreta situationer.",
+      "Religionsfrihet betyder att inga konflikter kan uppstå.",
+      "Alla religiösa krav går alltid före arbetsmiljö och skola.",
+      "Staten förbjuder automatiskt alla synliga religiösa uttryck."
+    ],
+    "optionsEn": [
+      "Different rights and interests may need to be balanced in concrete situations.",
+      "Freedom of religion means conflicts cannot arise.",
+      "All religious demands always take precedence over work environment and school.",
+      "The state automatically bans all visible religious expressions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Pluralism can require balancing freedom, equality, safety, and practical rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-009",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "holidays",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Varför kan vissa kristna högtider vara allmänna helgdagar trots att Sverige är sekulärt?",
+    "questionEn": "Why can some Christian holidays be public holidays even though Sweden is secular?",
+    "options": [
+      "De är också historiska och kulturella traditioner i samhället.",
+      "Sverige styrs fortfarande av kyrkans lagar.",
+      "Alla måste fira dem religiöst.",
+      "Andra religioner är förbjudna under helgdagar."
+    ],
+    "optionsEn": [
+      "They are also historical and cultural traditions in society.",
+      "Sweden is still governed by church laws.",
+      "Everyone must celebrate them religiously.",
+      "Other religions are forbidden during public holidays."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A secular society can have historical holidays without requiring religious belief.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-010",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "rights-limits",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "En religiös grupp vill neka barn nödvändig sjukvård. Hur kan staten agera?",
+    "questionEn": "A religious group wants to deny children necessary healthcare. How can the state act?",
+    "options": [
+      "Barns rätt till skydd och vård kan väga tyngre än vuxnas religiösa önskemål.",
+      "Religionsfrihet ger alltid vuxna rätt att neka barn all vård.",
+      "Staten får aldrig skydda barn i religiösa familjer.",
+      "Sjukvård gäller bara om barnet själv är myndigt."
+    ],
+    "optionsEn": [
+      "Children’s right to protection and healthcare can weigh more than adults’ religious wishes.",
+      "Freedom of religion always gives adults the right to deny children all care.",
+      "The state may never protect children in religious families.",
+      "Healthcare only applies if the child is legally an adult."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of religion can be limited to protect children’s rights, health, and safety.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-011",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "identity",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Varför kan människor ha flera identiteter samtidigt?",
+    "questionEn": "Why can people have several identities at the same time?",
+    "options": [
+      "En person kan till exempel känna tillhörighet genom språk, religion, plats och erfarenheter.",
+      "Svensk lag tillåter bara en identitet per person.",
+      "Identitet bestäms alltid av staten vid födseln.",
+      "Religion tar bort alla andra delar av identiteten."
+    ],
+    "optionsEn": [
+      "A person can feel belonging through language, religion, place, and experiences, for example.",
+      "Swedish law allows only one identity per person.",
+      "Identity is always decided by the state at birth.",
+      "Religion removes all other parts of identity."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Identity is complex and can include several forms of belonging.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-012",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "dialogue",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Varför kan kunskap om olika religioner minska fördomar?",
+    "questionEn": "Why can knowledge about different religions reduce prejudice?",
+    "options": [
+      "Kunskap kan göra det lättare att förstå skillnader och se variation inom grupper.",
+      "Kunskap gör att alla måste tycka lika.",
+      "Fördomar minskar bara om religion förbjuds.",
+      "Olika religioner får inte diskuteras i ett demokratiskt samhälle."
+    ],
+    "optionsEn": [
+      "Knowledge can make it easier to understand differences and see variation within groups.",
+      "Knowledge makes everyone have to think the same.",
+      "Prejudice only decreases if religion is banned.",
+      "Different religions may not be discussed in a democratic society."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Understanding diversity can reduce stereotypes and improve coexistence.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-013",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "workplace",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "En arbetsplats försöker planera scheman så att olika högtider kan respekteras när det fungerar. Vad visar detta?",
+    "questionEn": "A workplace tries to plan schedules so different holidays can be respected when possible. What does this show?",
+    "options": [
+      "Praktisk hänsyn kan ibland kombineras med verksamhetens behov och likabehandling.",
+      "Arbetsgivaren måste alltid stänga vid alla religiösa högtider.",
+      "Bara majoritetens högtider får nämnas på jobbet.",
+      "Den som har religion får inte arbeta helger."
+    ],
+    "optionsEn": [
+      "Practical consideration can sometimes be combined with business needs and equal treatment.",
+      "The employer must always close on all religious holidays.",
+      "Only the majority’s holidays may be mentioned at work.",
+      "A person with religion may not work weekends."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Workplaces may handle diversity through reasonable planning while considering equal treatment and operations.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-014",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Varför är det viktigt att både troende och icke-troende kan delta i demokratin?",
+    "questionEn": "Why is it important that both believers and non-believers can participate in democracy?",
+    "options": [
+      "Demokratin bygger på lika politiska rättigheter oavsett religion eller livsåskådning.",
+      "Bara religiösa personer får bilda partier.",
+      "Icke-troende får bara rösta i kommunval.",
+      "Religion avgör hur många röster en person har."
+    ],
+    "optionsEn": [
+      "Democracy is based on equal political rights regardless of religion or worldview.",
+      "Only religious people may form parties.",
+      "Non-believers may only vote in municipal elections.",
+      "Religion decides how many votes a person has."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Political rights should not depend on religious belief.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch12-015",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "public-sector",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (batch C extra draft)",
+    "questionSv": "Vad betyder saklighet i kontakt med myndigheter?",
+    "questionEn": "What does objectivity mean in contact with public authorities?",
+    "options": [
+      "Att myndigheter ska bedöma ärenden utifrån relevanta regler och fakta.",
+      "Att handläggaren får följa sina personliga åsikter.",
+      "Att myndigheten bara hjälper personer med samma religion.",
+      "Att myndigheten väljer den snabbaste lösningen oavsett regler."
+    ],
+    "optionsEn": [
+      "That authorities should assess cases based on relevant rules and facts.",
+      "That the caseworker may follow their personal opinions.",
+      "That the authority only helps people with the same religion.",
+      "That the authority chooses the fastest solution regardless of rules."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Objectivity means public power should be exercised according to relevant law and facts.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-001",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "national-day",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Vad kan Sveriges nationaldag vara ett tillfälle att uppmärksamma?",
+    "questionEn": "What can Sweden’s National Day be an occasion to mark?",
+    "options": [
+      "Sverige som land, demokratiska symboler och gemensam tillhörighet.",
+      "Det är en ledig dag där riksdagen väljer statsminister.",
+      "Alla måste bära svensk flagga enligt lag.",
+      "Nationaldagen firas bara av personer födda i Sverige."
+    ],
+    "optionsEn": [
+      "Sweden as a country, democratic symbols, and shared belonging.",
+      "It is a day off when the Riksdag elects the prime minister.",
+      "Everyone must carry the Swedish flag by law.",
+      "National Day is only celebrated by people born in Sweden."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "National Day is a civic and symbolic holiday, not a legal duty to celebrate in one way.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-002",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "midsummer",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför räknas midsommar ofta som en viktig svensk tradition?",
+    "questionEn": "Why is Midsummer often considered an important Swedish tradition?",
+    "options": [
+      "Den är en utbredd sommarhögtid med sociala och kulturella traditioner.",
+      "Den är Sveriges viktigaste religiösa högtid.",
+      "Den firas bara av personer födda i Sverige.",
+      "Den är en lagstadgad plikt för alla invånare."
+    ],
+    "optionsEn": [
+      "It is a widespread summer holiday with social and cultural traditions.",
+      "It is Sweden’s most important religious holiday.",
+      "It is only celebrated by people born in Sweden.",
+      "It is a legal duty for all residents."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Midsummer is culturally important and can be celebrated in different ways.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-003",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "lucia",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför kan valborg firas på olika sätt i Sverige?",
+    "questionEn": "Why can Walpurgis Night be celebrated in different ways in Sweden?",
+    "options": [
+      "Den är en vårtradition som kan firas socialt, lokalt och kulturellt utan ett enda obligatoriskt sätt.",
+      "Den är en religiös högtid som kräver kyrkobesök av alla invånare.",
+      "Valborg är bara en studenttradition och firas sällan av allmänheten.",
+      "Det är en lagstadgad plikt för alla kommuner att ordna majbrasor."
+    ],
+    "optionsEn": [
+      "It is a spring tradition that can be celebrated socially, locally, and culturally without one mandatory way.",
+      "It is a religious holiday that requires church attendance by all residents.",
+      "Walpurgis is only a student tradition and is rarely celebrated by the general public.",
+      "It is a legal duty for all municipalities to organize bonfires."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Walpurgis is a spring tradition with local and social forms; participation is not legally required.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-004",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "christmas",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför kan julen betyda olika saker för olika människor i Sverige?",
+    "questionEn": "Why can Christmas mean different things to different people in Sweden?",
+    "options": [
+      "Den kan vara religiös, kulturell, familjebaserad eller främst en ledighet.",
+      "Svensk lag bestämmer exakt hur varje person ska fira jul.",
+      "Julen får bara firas av medlemmar i Svenska kyrkan.",
+      "Julen saknar helt historisk betydelse i Sverige."
+    ],
+    "optionsEn": [
+      "It can be religious, cultural, family-based, or mainly time off.",
+      "Swedish law decides exactly how each person must celebrate Christmas.",
+      "Christmas may only be celebrated by members of the Church of Sweden.",
+      "Christmas has no historical meaning in Sweden."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Traditions can carry different meanings depending on belief, family, and culture.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-005",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "easter",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Vad visar påsken som exempel på svensk högtid?",
+    "questionEn": "What does Easter show as an example of a Swedish holiday?",
+    "options": [
+      "En högtid kan ha kristen bakgrund men firas på olika religiösa och sekulära sätt.",
+      "Påsken är bara en arbetsmarknadsregel utan kultur.",
+      "Alla måste gå i kyrkan för att få ledigt.",
+      "Påsken beslutas varje år av kommunen."
+    ],
+    "optionsEn": [
+      "A holiday can have a Christian background but be celebrated in different religious and secular ways.",
+      "Easter is only a labour-market rule without culture.",
+      "Everyone must go to church to get time off.",
+      "Easter is decided each year by the municipality."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Easter has Christian roots but is observed in many ways.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-006",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "new-year",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför kan nyårsfirande ses som mer samhälleligt än religiöst för många?",
+    "questionEn": "Why can New Year celebrations be seen as more civic/social than religious for many?",
+    "options": [
+      "Det markerar kalenderårsskifte och firas ofta socialt utan krav på religiös tro.",
+      "Nyår är en religiös högtid som kräver kyrkobesök.",
+      "Nyår firas bara av svenska medborgare.",
+      "Nyår bestämmer alltid när det svenska valet hålls."
+    ],
+    "optionsEn": [
+      "It marks the change of calendar year and is often celebrated socially without requiring religious belief.",
+      "New Year is a religious holiday that requires church attendance.",
+      "New Year is only celebrated by Swedish citizens.",
+      "New Year always determines when the Swedish election is held."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "New Year is tied to the calendar and social customs rather than one required belief.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-007",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "diversity",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "En arbetsplats vill uppmärksamma flera olika högtider under året. Vilken idé kan det stödja?",
+    "questionEn": "A workplace wants to acknowledge several different holidays during the year. What idea can this support?",
+    "options": [
+      "Inkludering och respekt för ett samhälle med olika traditioner.",
+      "Att alla anställda måste ha samma religion.",
+      "Att arbetsgivaren får ersätta svensk lag med traditioner.",
+      "Att bara nya traditioner får nämnas."
+    ],
+    "optionsEn": [
+      "Inclusion and respect for a society with different traditions.",
+      "That all employees must have the same religion.",
+      "That the employer may replace Swedish law with traditions.",
+      "That only new traditions may be mentioned."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Recognizing several traditions can support inclusion in a diverse society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-008",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "sami",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför är samiska traditioner viktiga i svensk samhällskunskap?",
+    "questionEn": "Why are Sami traditions important in Swedish civics?",
+    "options": [
+      "Samerna är ett urfolk med egen kultur, historia och språk i Sverige.",
+      "Samiska traditioner gäller bara i andra länder.",
+      "Samerna saknar koppling till svensk historia.",
+      "Samiska språk är förbjudna i offentlig verksamhet."
+    ],
+    "optionsEn": [
+      "The Sami are an Indigenous people with their own culture, history, and languages in Sweden.",
+      "Sami traditions only apply in other countries.",
+      "The Sami have no connection to Swedish history.",
+      "Sami languages are forbidden in public activities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sami culture and rights are part of Sweden’s history and society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-009",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "minority-culture",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför kan minoriteters högtider vara viktiga även om inte majoriteten firar dem?",
+    "questionEn": "Why can minority holidays be important even if the majority does not celebrate them?",
+    "options": [
+      "De kan bära språk, historia, identitet och tillhörighet för grupper i samhället.",
+      "En högtid räknas bara om majoriteten firar den.",
+      "Minoritetshögtider får inte nämnas i offentlig verksamhet.",
+      "Minoritetshögtider är privata och har ingen plats i skolan."
+    ],
+    "optionsEn": [
+      "They can carry language, history, identity, and belonging for groups in society.",
+      "A holiday only counts if the majority celebrates it.",
+      "Minority holidays may not be mentioned in public activities.",
+      "Minority holidays are private and have no place in school."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Traditions can be important for group identity and cultural continuity.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-010",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "customs-change",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför förändras traditioner över tid?",
+    "questionEn": "Why do traditions change over time?",
+    "options": [
+      "Människor, migration, generationer och samhällsförändringar påverkar hur traditioner firas.",
+      "Traditioner är juridiskt låsta och får aldrig ändras.",
+      "Bara staten får ändra privata traditioner.",
+      "Alla traditioner försvinner när nya människor flyttar in."
+    ],
+    "optionsEn": [
+      "People, migration, generations, and social change affect how traditions are celebrated.",
+      "Traditions are legally locked and may never change.",
+      "Only the state may change private traditions.",
+      "All traditions disappear when new people move in."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Traditions are living practices shaped by society over time.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-011",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "flag",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Vad kan den svenska flaggan symbolisera i offentliga sammanhang?",
+    "questionEn": "What can the Swedish flag symbolize in public contexts?",
+    "options": [
+      "Landet Sverige och gemensamma offentliga symboler.",
+      "Endast staten får använda eller visa flaggan.",
+      "Alla medborgare måste visa flaggan varje dag.",
+      "Flaggan visar att alla medborgare måste tycka likadant."
+    ],
+    "optionsEn": [
+      "The country Sweden and shared public symbols.",
+      "Only the state may use or display the flag.",
+      "All citizens must show the flag every day.",
+      "The flag shows that all citizens must think the same."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The flag is a national symbol, but people may relate to it in different ways.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-012",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "food",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför kan mat vara en del av traditioner?",
+    "questionEn": "Why can food be part of traditions?",
+    "options": [
+      "Mat kan koppla människor till familj, plats, högtider och minnen.",
+      "Mattraditioner bestämmer rösträtten.",
+      "Bara myndigheter får skapa mattraditioner.",
+      "Svensk lag kräver samma mat vid alla högtider."
+    ],
+    "optionsEn": [
+      "Food can connect people to family, place, holidays, and memories.",
+      "Food traditions decide voting rights.",
+      "Only authorities may create food traditions.",
+      "Swedish law requires the same food at all holidays."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Food is a common way traditions are practiced and remembered.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-013",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "funerals",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför kan begravningar se olika ut i Sverige?",
+    "questionEn": "Why can funerals look different in Sweden?",
+    "options": [
+      "Människor har olika religioner, livsåskådningar och familjetraditioner.",
+      "Alla begravningar måste följa exakt samma statliga ritual.",
+      "Begravningar får bara ordnas av kommunfullmäktige.",
+      "Personer utan religion får inte ha ceremoni."
+    ],
+    "optionsEn": [
+      "People have different religions, worldviews, and family traditions.",
+      "All funerals must follow exactly the same state ritual.",
+      "Funerals may only be arranged by the municipal council.",
+      "People without religion may not have a ceremony."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A plural society allows different ceremonies and customs around death.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-014",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "public-holidays",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Vad betyder det att en dag är allmän helgdag?",
+    "questionEn": "What does it mean that a day is a public holiday?",
+    "options": [
+      "Den är särskilt reglerad som ledig eller avvikande dag i samhällslivet.",
+      "Alla måste fira dagen på samma religiösa sätt.",
+      "Dagen gäller bara personer med fast arbete.",
+      "Helgdagar bestäms enbart av arbetsgivare, inte av lag."
+    ],
+    "optionsEn": [
+      "It is specially regulated as a day off or different day in social life.",
+      "Everyone must celebrate the day in the same religious way.",
+      "The day only applies to people with permanent work.",
+      "Public holidays are decided only by employers, not by law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public holidays affect work and public life but do not force one way of celebrating.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-015",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "belonging",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "En person deltar i midsommarfirande utan att känna sig “helt svensk”. Vad visar detta om traditioner?",
+    "questionEn": "A person participates in Midsummer celebrations without feeling “fully Swedish.” What does this show about traditions?",
+    "options": [
+      "Traditioner kan vara öppna sätt att delta och skapa tillhörighet över tid.",
+      "Man måste känna full nationell identitet innan man får delta.",
+      "Traditioner är bara för personer födda i landet.",
+      "Deltagande i traditioner ger automatiskt medborgarskap."
+    ],
+    "optionsEn": [
+      "Traditions can be open ways to participate and build belonging over time.",
+      "One must feel full national identity before participating.",
+      "Traditions are only for people born in the country.",
+      "Participating in traditions automatically gives citizenship."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Traditions can help people participate in society without requiring one fixed identity.",
+    "status": "draft"
+  }
+]

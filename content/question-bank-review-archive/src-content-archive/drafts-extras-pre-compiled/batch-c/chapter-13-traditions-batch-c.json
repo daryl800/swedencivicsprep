@@ -1,0 +1,452 @@
+[
+  {
+    "id": "draft-batch-c-ch13-001",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "national-day",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Vad kan Sveriges nationaldag vara ett tillfälle att uppmärksamma?",
+    "questionEn": "What can Sweden’s National Day be an occasion to mark?",
+    "options": [
+      "Sverige som land, demokratiska symboler och gemensam tillhörighet.",
+      "Det är en ledig dag där riksdagen väljer statsminister.",
+      "Alla måste bära svensk flagga enligt lag.",
+      "Nationaldagen firas bara av personer födda i Sverige."
+    ],
+    "optionsEn": [
+      "Sweden as a country, democratic symbols, and shared belonging.",
+      "It is a day off when the Riksdag elects the prime minister.",
+      "Everyone must carry the Swedish flag by law.",
+      "National Day is only celebrated by people born in Sweden."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "National Day is a civic and symbolic holiday, not a legal duty to celebrate in one way.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-002",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "midsummer",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför räknas midsommar ofta som en viktig svensk tradition?",
+    "questionEn": "Why is Midsummer often considered an important Swedish tradition?",
+    "options": [
+      "Den är en utbredd sommarhögtid med sociala och kulturella traditioner.",
+      "Den är Sveriges viktigaste religiösa högtid.",
+      "Den firas bara av personer födda i Sverige.",
+      "Den är en lagstadgad plikt för alla invånare."
+    ],
+    "optionsEn": [
+      "It is a widespread summer holiday with social and cultural traditions.",
+      "It is Sweden’s most important religious holiday.",
+      "It is only celebrated by people born in Sweden.",
+      "It is a legal duty for all residents."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Midsummer is culturally important and can be celebrated in different ways.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-003",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "lucia",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför kan valborg firas på olika sätt i Sverige?",
+    "questionEn": "Why can Walpurgis Night be celebrated in different ways in Sweden?",
+    "options": [
+      "Den är en vårtradition som kan firas socialt, lokalt och kulturellt utan ett enda obligatoriskt sätt.",
+      "Den är en religiös högtid som kräver kyrkobesök av alla invånare.",
+      "Valborg är bara en studenttradition och firas sällan av allmänheten.",
+      "Det är en lagstadgad plikt för alla kommuner att ordna majbrasor."
+    ],
+    "optionsEn": [
+      "It is a spring tradition that can be celebrated socially, locally, and culturally without one mandatory way.",
+      "It is a religious holiday that requires church attendance by all residents.",
+      "Walpurgis is only a student tradition and is rarely celebrated by the general public.",
+      "It is a legal duty for all municipalities to organize bonfires."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Walpurgis is a spring tradition with local and social forms; participation is not legally required.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-004",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "christmas",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför kan julen betyda olika saker för olika människor i Sverige?",
+    "questionEn": "Why can Christmas mean different things to different people in Sweden?",
+    "options": [
+      "Den kan vara religiös, kulturell, familjebaserad eller främst en ledighet.",
+      "Svensk lag bestämmer exakt hur varje person ska fira jul.",
+      "Julen får bara firas av medlemmar i Svenska kyrkan.",
+      "Julen saknar helt historisk betydelse i Sverige."
+    ],
+    "optionsEn": [
+      "It can be religious, cultural, family-based, or mainly time off.",
+      "Swedish law decides exactly how each person must celebrate Christmas.",
+      "Christmas may only be celebrated by members of the Church of Sweden.",
+      "Christmas has no historical meaning in Sweden."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Traditions can carry different meanings depending on belief, family, and culture.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-005",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "easter",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Vad visar påsken som exempel på svensk högtid?",
+    "questionEn": "What does Easter show as an example of a Swedish holiday?",
+    "options": [
+      "En högtid kan ha kristen bakgrund men firas på olika religiösa och sekulära sätt.",
+      "Påsken är bara en arbetsmarknadsregel utan kultur.",
+      "Alla måste gå i kyrkan för att få ledigt.",
+      "Påsken beslutas varje år av kommunen."
+    ],
+    "optionsEn": [
+      "A holiday can have a Christian background but be celebrated in different religious and secular ways.",
+      "Easter is only a labour-market rule without culture.",
+      "Everyone must go to church to get time off.",
+      "Easter is decided each year by the municipality."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Easter has Christian roots but is observed in many ways.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-006",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "new-year",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför kan nyårsfirande ses som mer samhälleligt än religiöst för många?",
+    "questionEn": "Why can New Year celebrations be seen as more civic/social than religious for many?",
+    "options": [
+      "Det markerar kalenderårsskifte och firas ofta socialt utan krav på religiös tro.",
+      "Nyår är en religiös högtid som kräver kyrkobesök.",
+      "Nyår firas bara av svenska medborgare.",
+      "Nyår bestämmer alltid när det svenska valet hålls."
+    ],
+    "optionsEn": [
+      "It marks the change of calendar year and is often celebrated socially without requiring religious belief.",
+      "New Year is a religious holiday that requires church attendance.",
+      "New Year is only celebrated by Swedish citizens.",
+      "New Year always determines when the Swedish election is held."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "New Year is tied to the calendar and social customs rather than one required belief.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-007",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "diversity",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "En arbetsplats vill uppmärksamma flera olika högtider under året. Vilken idé kan det stödja?",
+    "questionEn": "A workplace wants to acknowledge several different holidays during the year. What idea can this support?",
+    "options": [
+      "Inkludering och respekt för ett samhälle med olika traditioner.",
+      "Att alla anställda måste ha samma religion.",
+      "Att arbetsgivaren får ersätta svensk lag med traditioner.",
+      "Att bara nya traditioner får nämnas."
+    ],
+    "optionsEn": [
+      "Inclusion and respect for a society with different traditions.",
+      "That all employees must have the same religion.",
+      "That the employer may replace Swedish law with traditions.",
+      "That only new traditions may be mentioned."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Recognizing several traditions can support inclusion in a diverse society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-008",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "sami",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför är samiska traditioner viktiga i svensk samhällskunskap?",
+    "questionEn": "Why are Sami traditions important in Swedish civics?",
+    "options": [
+      "Samerna är ett urfolk med egen kultur, historia och språk i Sverige.",
+      "Samiska traditioner gäller bara i andra länder.",
+      "Samerna saknar koppling till svensk historia.",
+      "Samiska språk är förbjudna i offentlig verksamhet."
+    ],
+    "optionsEn": [
+      "The Sami are an Indigenous people with their own culture, history, and languages in Sweden.",
+      "Sami traditions only apply in other countries.",
+      "The Sami have no connection to Swedish history.",
+      "Sami languages are forbidden in public activities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sami culture and rights are part of Sweden’s history and society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-009",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "minority-culture",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför kan minoriteters högtider vara viktiga även om inte majoriteten firar dem?",
+    "questionEn": "Why can minority holidays be important even if the majority does not celebrate them?",
+    "options": [
+      "De kan bära språk, historia, identitet och tillhörighet för grupper i samhället.",
+      "En högtid räknas bara om majoriteten firar den.",
+      "Minoritetshögtider får inte nämnas i offentlig verksamhet.",
+      "Minoritetshögtider är privata och har ingen plats i skolan."
+    ],
+    "optionsEn": [
+      "They can carry language, history, identity, and belonging for groups in society.",
+      "A holiday only counts if the majority celebrates it.",
+      "Minority holidays may not be mentioned in public activities.",
+      "Minority holidays are private and have no place in school."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Traditions can be important for group identity and cultural continuity.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-010",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "customs-change",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför förändras traditioner över tid?",
+    "questionEn": "Why do traditions change over time?",
+    "options": [
+      "Människor, migration, generationer och samhällsförändringar påverkar hur traditioner firas.",
+      "Traditioner är juridiskt låsta och får aldrig ändras.",
+      "Bara staten får ändra privata traditioner.",
+      "Alla traditioner försvinner när nya människor flyttar in."
+    ],
+    "optionsEn": [
+      "People, migration, generations, and social change affect how traditions are celebrated.",
+      "Traditions are legally locked and may never change.",
+      "Only the state may change private traditions.",
+      "All traditions disappear when new people move in."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Traditions are living practices shaped by society over time.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-011",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "flag",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Vad kan den svenska flaggan symbolisera i offentliga sammanhang?",
+    "questionEn": "What can the Swedish flag symbolize in public contexts?",
+    "options": [
+      "Landet Sverige och gemensamma offentliga symboler.",
+      "Endast staten får använda eller visa flaggan.",
+      "Alla medborgare måste visa flaggan varje dag.",
+      "Flaggan visar att alla medborgare måste tycka likadant."
+    ],
+    "optionsEn": [
+      "The country Sweden and shared public symbols.",
+      "Only the state may use or display the flag.",
+      "All citizens must show the flag every day.",
+      "The flag shows that all citizens must think the same."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The flag is a national symbol, but people may relate to it in different ways.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-012",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "food",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför kan mat vara en del av traditioner?",
+    "questionEn": "Why can food be part of traditions?",
+    "options": [
+      "Mat kan koppla människor till familj, plats, högtider och minnen.",
+      "Mattraditioner bestämmer rösträtten.",
+      "Bara myndigheter får skapa mattraditioner.",
+      "Svensk lag kräver samma mat vid alla högtider."
+    ],
+    "optionsEn": [
+      "Food can connect people to family, place, holidays, and memories.",
+      "Food traditions decide voting rights.",
+      "Only authorities may create food traditions.",
+      "Swedish law requires the same food at all holidays."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Food is a common way traditions are practiced and remembered.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-013",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "funerals",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Varför kan begravningar se olika ut i Sverige?",
+    "questionEn": "Why can funerals look different in Sweden?",
+    "options": [
+      "Människor har olika religioner, livsåskådningar och familjetraditioner.",
+      "Alla begravningar måste följa exakt samma statliga ritual.",
+      "Begravningar får bara ordnas av kommunfullmäktige.",
+      "Personer utan religion får inte ha ceremoni."
+    ],
+    "optionsEn": [
+      "People have different religions, worldviews, and family traditions.",
+      "All funerals must follow exactly the same state ritual.",
+      "Funerals may only be arranged by the municipal council.",
+      "People without religion may not have a ceremony."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A plural society allows different ceremonies and customs around death.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-014",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "public-holidays",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "Vad betyder det att en dag är allmän helgdag?",
+    "questionEn": "What does it mean that a day is a public holiday?",
+    "options": [
+      "Den är särskilt reglerad som ledig eller avvikande dag i samhällslivet.",
+      "Alla måste fira dagen på samma religiösa sätt.",
+      "Dagen gäller bara personer med fast arbete.",
+      "Helgdagar bestäms enbart av arbetsgivare, inte av lag."
+    ],
+    "optionsEn": [
+      "It is specially regulated as a day off or different day in social life.",
+      "Everyone must celebrate the day in the same religious way.",
+      "The day only applies to people with permanent work.",
+      "Public holidays are decided only by employers, not by law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public holidays affect work and public life but do not force one way of celebrating.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch13-015",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "belonging",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (batch C extra draft)",
+    "questionSv": "En person deltar i midsommarfirande utan att känna sig “helt svensk”. Vad visar detta om traditioner?",
+    "questionEn": "A person participates in Midsummer celebrations without feeling “fully Swedish.” What does this show about traditions?",
+    "options": [
+      "Traditioner kan vara öppna sätt att delta och skapa tillhörighet över tid.",
+      "Man måste känna full nationell identitet innan man får delta.",
+      "Traditioner är bara för personer födda i landet.",
+      "Deltagande i traditioner ger automatiskt medborgarskap."
+    ],
+    "optionsEn": [
+      "Traditions can be open ways to participate and build belonging over time.",
+      "One must feel full national identity before participating.",
+      "Traditions are only for people born in the country.",
+      "Participating in traditions automatically gives citizenship."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Traditions can help people participate in society without requiring one fixed identity.",
+    "status": "draft"
+  }
+]

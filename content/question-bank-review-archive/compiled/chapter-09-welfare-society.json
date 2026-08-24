@@ -1,0 +1,2363 @@
+[
+  {
+    "id": "draft-batch-b-ch09-001",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "healthcare",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "En person är sjuk men osäker på om det är akut. Varför kan 1177 vara rätt första kontakt?",
+    "questionEn": "A person is ill but unsure whether it is urgent. Why can 1177 be the right first contact?",
+    "options": [
+      "1177 ger sjukvårdsrådgivning och vägledning om vart personen kan vända sig.",
+      "1177 kan alltid skriva ut recept och sjukskriva direkt.",
+      "1177 beslutar om alla sjukpenningärenden.",
+      "1177 ersätter vårdcentraler och sjukhus helt."
+    ],
+    "optionsEn": [
+      "1177 gives healthcare advice and guidance on where the person can turn.",
+      "1177 can always prescribe medicine and issue sick leave directly.",
+      "1177 decides all sickness benefit cases.",
+      "1177 completely replaces health centres and hospitals."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "1177 is used for healthcare advice, while emergencies use 112.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-002",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "emergency",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "När passar det bäst att ringa 112?",
+    "questionEn": "When is it most appropriate to call 112?",
+    "options": [
+      "Vid akut fara för liv, hälsa, egendom eller miljö.",
+      "För att boka en vanlig tid på vårdcentralen.",
+      "För att fråga om öppettider på biblioteket.",
+      "För att ansöka om barnbidrag."
+    ],
+    "optionsEn": [
+      "In immediate danger to life, health, property, or the environment.",
+      "To book a normal appointment at a health centre.",
+      "To ask about library opening hours.",
+      "To apply for child allowance."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "112 is for emergencies requiring urgent help.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-003",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "social-insurance",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "En förälder är hemma med ett sjukt barn och söker ersättning. Vilken myndighet kopplas oftast till socialförsäkringen?",
+    "questionEn": "A parent is home with a sick child and applies for compensation. Which authority is usually connected to social insurance?",
+    "options": [
+      "Försäkringskassan.",
+      "Valmyndigheten.",
+      "Domstolsverket.",
+      "Riksbanken."
+    ],
+    "optionsEn": [
+      "The Swedish Social Insurance Agency.",
+      "The Election Authority.",
+      "The National Courts Administration.",
+      "The Riksbank."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Försäkringskassan handles several social insurance benefits, including parental-related compensation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-004",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "elderly-care",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "En anhörig vårdar en äldre person hemma och behöver avlastning. Varför kan kommunen bli relevant?",
+    "questionEn": "A relative cares for an elderly person at home and needs relief support. Why can the municipality become relevant?",
+    "options": [
+      "Kommunen ansvarar för äldreomsorg och vissa stödinsatser i vardagen.",
+      "Regionen beslutar alltid om hemtjänstens schema.",
+      "Försäkringskassan driver alla äldreboenden.",
+      "Socialstyrelsen ger direkt hemtjänst i varje hem."
+    ],
+    "optionsEn": [
+      "The municipality is responsible for elderly care and some everyday support measures.",
+      "The region always decides the home care schedule.",
+      "The Social Insurance Agency runs all elderly homes.",
+      "The National Board of Health and Welfare directly provides home care in every home."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipalities handle elderly care and social support services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-005",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "healthcare-regions",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "Varför betalar man ofta en patientavgift trots att vården till stor del finansieras med skatt?",
+    "questionEn": "Why does one often pay a patient fee even though healthcare is largely tax-funded?",
+    "options": [
+      "Avgiften täcker bara en del; skatter finansierar en stor del av vården.",
+      "Patientavgiften betyder att vården inte får skattepengar.",
+      "Avgiften går alltid direkt till läkaren privat.",
+      "Den som betalar avgift får automatiskt förtur i all vård."
+    ],
+    "optionsEn": [
+      "The fee covers only a part; taxes finance a large part of healthcare.",
+      "The patient fee means healthcare receives no tax money.",
+      "The fee always goes directly to the doctor privately.",
+      "Anyone who pays the fee automatically gets priority in all care."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Patient fees exist, but Swedish healthcare is heavily tax-funded.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-006",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "school",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "En familj flyttar till en ny kommun och barnen behöver skolplats. Varför är kommunen central i frågan?",
+    "questionEn": "A family moves to a new municipality and the children need school places. Why is the municipality central to the issue?",
+    "options": [
+      "Kommunen har ansvar för att barn får tillgång till grundskola.",
+      "Regionen bestämmer alltid varje barns klass.",
+      "Skolplats ges bara av Försäkringskassan.",
+      "Regionen ansvarar för alla grundskolor i kommunen."
+    ],
+    "optionsEn": [
+      "The municipality is responsible for children having access to compulsory school.",
+      "The region always decides every child’s class.",
+      "School places are only given by the Social Insurance Agency.",
+      "The region is responsible for all compulsory schools in the municipality."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipalities have major responsibility for compulsory school access.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-007",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "means-tested",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "Varför gör socialtjänsten ofta en individuell prövning innan ekonomiskt bistånd beslutas?",
+    "questionEn": "Why does social services often make an individual assessment before deciding financial assistance?",
+    "options": [
+      "Behov och egna möjligheter måste bedömas i det enskilda fallet.",
+      "Alla får automatiskt samma belopp oavsett situation.",
+      "Beloppet bestäms centralt av riksdagen lika för alla.",
+      "Socialtjänsten får bara hjälpa personer som arbetar heltid."
+    ],
+    "optionsEn": [
+      "Needs and one’s own possibilities must be assessed in the individual case.",
+      "Everyone automatically receives the same amount regardless of situation.",
+      "The amount is centrally decided by the Riksdag and is the same for everyone.",
+      "Social services may only help people who work full time."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Financial assistance is needs-tested and depends on the person’s situation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-008",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "welfare-finance",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "En person säger att välfärd är gratis eftersom man inte alltid betalar hela kostnaden vid besöket. Vad är mer korrekt?",
+    "questionEn": "A person says welfare is free because one does not always pay the full cost at the visit. What is more correct?",
+    "options": [
+      "Många välfärdstjänster finansieras gemensamt via skatter och ibland avgifter.",
+      "Välfärd saknar kostnader för samhället.",
+      "Alla välfärdstjänster betalas av privata donationer.",
+      "Kommuner får inte använda skatt till välfärd."
+    ],
+    "optionsEn": [
+      "Many welfare services are jointly financed through taxes and sometimes fees.",
+      "Welfare has no cost for society.",
+      "All welfare services are paid by private donations.",
+      "Municipalities may not use tax for welfare."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Welfare is often paid collectively, not cost-free.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-009",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "public-private",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "Kan välfärdstjänster utföras av privata aktörer i Sverige?",
+    "questionEn": "Can welfare services be provided by private actors in Sweden?",
+    "options": [
+      "Ja, ibland utför privata aktörer tjänster som finansieras eller regleras offentligt.",
+      "Nej, privata aktörer är förbjudna i all vård och skola.",
+      "Ja, men då upphör alla lagkrav och tillsyn.",
+      "Nej, kommunen måste alltid driva all vård och skola i egen regi."
+    ],
+    "optionsEn": [
+      "Yes, sometimes private actors provide services that are publicly funded or regulated.",
+      "No, private actors are forbidden in all healthcare and schools.",
+      "Yes, but then all legal requirements and supervision stop.",
+      "No, the municipality must always run all healthcare and schools itself."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Some welfare can be delivered by private providers, but public responsibility and rules can still apply.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-010",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "sick-leave",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "En person kan inte arbeta på grund av sjukdom under en längre tid. Varför är både arbetsgivare, vård och Försäkringskassan ibland inblandade?",
+    "questionEn": "A person cannot work because of illness for a longer period. Why may the employer, healthcare, and Försäkringskassan all be involved?",
+    "options": [
+      "Sjukdom kan påverka arbetsförmåga, vårdbehov och rätt till ersättning.",
+      "Arbetsgivaren sköter hela sjukpenningen utan Försäkringskassan.",
+      "Försäkringskassan driver vårdcentraler åt regionen.",
+      "Arbetsgivaren bestämmer alltid medicinsk diagnos."
+    ],
+    "optionsEn": [
+      "Illness can affect work ability, healthcare needs, and the right to compensation.",
+      "The employer handles all sickness benefit without the Social Insurance Agency.",
+      "The Social Insurance Agency runs health centres for the region.",
+      "The employer always decides the medical diagnosis."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Longer illness can involve several systems: work, healthcare, and social insurance.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-011",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "child-benefit",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "Vad visar barnbidraget som exempel på välfärd?",
+    "questionEn": "What does child allowance show as an example of welfare?",
+    "options": [
+      "Att vissa stöd kan vara generella och riktade till barnfamiljer.",
+      "Att barn måste ansöka om lön från kommunen.",
+      "Att bidrag alltid är lån som ska betalas tillbaka.",
+      "Att bara familjer med hög inkomst får stöd."
+    ],
+    "optionsEn": [
+      "That some support can be general and directed to families with children.",
+      "That children must apply for wages from the municipality.",
+      "That benefits are always loans that must be repaid.",
+      "That only high-income families receive support."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Child allowance is an example of broad financial support for families with children.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-012",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "care-choice",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "En person har svårt att förstå brev från vården och missar en tid. Varför är tydlig samhällsinformation viktig i välfärden?",
+    "questionEn": "A person has difficulty understanding letters from healthcare and misses an appointment. Why is clear public information important in welfare?",
+    "options": [
+      "Människor behöver förstå information för att kunna använda sina rättigheter och tjänster.",
+      "Svårigheter att förstå påverkar inte rätten till stöd.",
+      "Vården får bara informera personer som talar svenska perfekt.",
+      "Kommunen ansvarar inte för att informationen blir förstådd."
+    ],
+    "optionsEn": [
+      "People need to understand information to use their rights and services.",
+      "Difficulty understanding does not affect the right to support.",
+      "Healthcare may only inform people who speak perfect Swedish.",
+      "The municipality has no responsibility for information being understood."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Access to welfare depends not only on services existing, but also on people understanding how to use them.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-013",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "responsibility-levels",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "En invånare klagar på både förskola och sjukvård. Varför kan klagomålen behöva gå till olika ansvariga?",
+    "questionEn": "A resident complains about both preschool and healthcare. Why may the complaints need to go to different responsible bodies?",
+    "options": [
+      "Förskola är normalt kommunens ansvar, medan sjukvård normalt är regionens ansvar.",
+      "Båda frågorna hanteras alltid av staten, inte av kommun eller region.",
+      "Sjukvård är kommunens ansvar och förskola regionens ansvar i hela landet.",
+      "Inga välfärdstjänster har någon politiskt ansvarig nivå."
+    ],
+    "optionsEn": [
+      "Preschool is normally the municipality’s responsibility, while healthcare is normally the region’s responsibility.",
+      "Both issues are always handled by the state, not by municipality or region.",
+      "Healthcare is the municipality’s responsibility and preschool the region’s responsibility everywhere.",
+      "No welfare services have any politically responsible level."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Different welfare services belong to different public levels.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-014",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "welfare-rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "Varför är välfärd kopplad till jämlikhet?",
+    "questionEn": "Why is welfare connected to equality?",
+    "options": [
+      "Den kan ge människor grundläggande stöd och service även vid olika ekonomiska förutsättningar.",
+      "Den gör att alla människor får exakt samma liv och lön.",
+      "Den betyder att staten förbjuder privata val.",
+      "Den gäller bara personer som aldrig har arbetat."
+    ],
+    "optionsEn": [
+      "It can give people basic support and services even with different economic conditions.",
+      "It makes all people have exactly the same life and salary.",
+      "It means the state forbids private choices.",
+      "It only applies to people who have never worked."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Welfare can reduce the effect of unequal resources by providing shared support and services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch09-015",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "integration",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch B extra draft)",
+    "questionSv": "Varför kan samhällsorientering vara viktig för en nyanländ person?",
+    "questionEn": "Why can civic orientation be important for a newly arrived person?",
+    "options": [
+      "Den kan ge kunskap om rättigheter, skyldigheter och hur samhällets service fungerar.",
+      "Den ersätter alla krav på att följa svensk lag.",
+      "Den ger automatiskt svenskt medborgarskap efter kursen.",
+      "Den är bara till för personer som redan arbetar i kommunen."
+    ],
+    "optionsEn": [
+      "It can provide knowledge about rights, obligations, and how public services work.",
+      "It replaces all requirements to follow Swedish law.",
+      "It automatically gives Swedish citizenship after the course.",
+      "It is only for people who already work in the municipality."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Civic orientation can help people understand society, services, rights, and responsibilities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch09-001",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "healthcare",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch D gap-fill draft)",
+    "questionSv": "En person söker akut hjälp för ett livshotande tillstånd men oroar sig för kostnaden. Vilken princip är viktig i svensk vård?",
+    "questionEn": "A person seeks emergency help for a life-threatening condition but worries about the cost. Which principle is important in Swedish healthcare?",
+    "options": [
+      "Akut vård ska utgå från vårdbehov, inte från personens betalningsförmåga i stunden.",
+      "Akut vård ges bara till personer som kan betala hela kostnaden direkt.",
+      "Regionen får vägra all vård om personen saknar arbete.",
+      "112 avgör patientens skatt innan ambulans skickas."
+    ],
+    "optionsEn": [
+      "Emergency care should be based on healthcare need, not the person’s immediate ability to pay.",
+      "Emergency care is only given to people who can pay the full cost immediately.",
+      "The region may refuse all care if the person has no job.",
+      "112 decides the patient’s tax before sending an ambulance."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish healthcare is based on medical need, especially in emergencies.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch09-002",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "social-services",
+    "difficulty": "medium",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (batch D gap-fill draft)",
+    "questionSv": "Varför kan socialtjänsten både ge stöd och ställa krav?",
+    "questionEn": "Why can social services both provide support and set requirements?",
+    "options": [
+      "Stödet bygger ofta på en bedömning av behov, ansvar och möjliga lösningar.",
+      "Socialtjänsten får bara ge pengar utan frågor.",
+      "Krav betyder att personen förlorar alla rättigheter.",
+      "Socialtjänsten arbetar bara med sjukvård i regionen."
+    ],
+    "optionsEn": [
+      "Support is often based on an assessment of needs, responsibility, and possible solutions.",
+      "Social services may only give money without questions.",
+      "Requirements mean the person loses all rights.",
+      "Social services only works with healthcare in the region."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Social assistance can combine help with individual assessment and responsibilities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-001",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "welfare-state"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad menas ofta med välfärdssamhället i Sverige?",
+    "questionEn": "What is often meant by the welfare society in Sweden?",
+    "options": [
+      "Att samhället erbjuder gemensamma tjänster och trygghetssystem som finansieras bland annat med skatter.",
+      "Att varje hushåll själv måste ordna all sjukvård och skola utan offentligt stöd.",
+      "Att bara personer med hög inkomst får använda offentliga tjänster.",
+      "Att kommuner inte har något ansvar för invånares vardag."
+    ],
+    "optionsEn": [
+      "That society offers shared services and security systems financed partly through taxes.",
+      "That every household must arrange all healthcare and school without public support.",
+      "That only people with high income may use public services.",
+      "That municipalities have no responsibility for residents’ everyday life."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The welfare society includes public services and social security financed largely through taxes.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-002",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "welfare-state",
+      "tax"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Varför kopplas skatter ofta till välfärd i Sverige?",
+    "questionEn": "Why are taxes often connected to welfare in Sweden?",
+    "options": [
+      "Skatter finansierar stora delar av vård, skola, omsorg och social trygghet.",
+      "Skatter gör att alla privata kostnader försvinner automatiskt.",
+      "Skatter betalas bara av personer som använder sjukhus.",
+      "Skatter ersätter behovet av kommuner och regioner."
+    ],
+    "optionsEn": [
+      "Taxes finance large parts of healthcare, school, care, and social security.",
+      "Taxes make all private costs disappear automatically.",
+      "Taxes are paid only by people who use hospitals.",
+      "Taxes replace the need for municipalities and regions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Taxes are a main source of funding for many public welfare services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-003",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "scenario",
+      "welfare-state"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En person säger att välfärd bara betyder ekonomiska bidrag. Vilken förklaring stämmer bäst?",
+    "questionEn": "A person says welfare only means financial benefits. Which explanation is best?",
+    "options": [
+      "Välfärd omfattar både ekonomisk trygghet och tjänster som vård, skola och omsorg.",
+      "Välfärd betyder bara kontanter från staten till alla vuxna varje månad.",
+      "Välfärd gäller endast privata försäkringar och inte offentliga verksamheter.",
+      "Välfärd handlar enbart om partiernas arbete under valrörelsen."
+    ],
+    "optionsEn": [
+      "Welfare includes both financial security and services such as healthcare, school, and care.",
+      "Welfare only means monthly cash from the state to all adults.",
+      "Welfare only concerns private insurance and not public activities.",
+      "Welfare is only about parties’ work during election campaigns."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Welfare is broader than benefits; it also includes services people use in everyday life.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-004",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "healthcare"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vilken nivå har stort ansvar för hälso- och sjukvård i Sverige?",
+    "questionEn": "Which level has major responsibility for healthcare in Sweden?",
+    "options": [
+      "Regionerna.",
+      "Kommunerna.",
+      "Staten.",
+      "Försäkringskassan."
+    ],
+    "optionsEn": [
+      "The regions.",
+      "The municipalities.",
+      "The state.",
+      "The Swedish Social Insurance Agency."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Regions are responsible for much of healthcare in Sweden.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-005",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "healthcare"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad är en vårdcentral?",
+    "questionEn": "What is a healthcare centre?",
+    "options": [
+      "En mottagning för många vanliga vårdbehov och första kontakt med sjukvården.",
+      "En akutmottagning för livshotande tillstånd.",
+      "En myndighet som beslutar om sjukskrivning.",
+      "En enhet på sjukhuset för planerade operationer."
+    ],
+    "optionsEn": [
+      "A clinic for many common healthcare needs and first contact with healthcare.",
+      "An emergency department for life-threatening conditions.",
+      "An authority that decides on sick leave.",
+      "A hospital unit for planned operations."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A healthcare centre is often the first point of contact for non-emergency medical needs.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-006",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "scenario",
+      "healthcare"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En person har långvariga besvär men inget akut livshotande tillstånd. Vilken kontakt är oftast mest rimlig först?",
+    "questionEn": "A person has long-term symptoms but no acute life-threatening condition. Which contact is usually most reasonable first?",
+    "options": [
+      "Vårdcentralen eller sjukvårdsrådgivningen 1177 för bedömning av nästa steg.",
+      "Akutmottagningen direkt, utan förhandskontakt.",
+      "Ringa 112 för att boka en planerad vårdtid.",
+      "Vänta tills symtomen går över av sig själva."
+    ],
+    "optionsEn": [
+      "The healthcare centre or healthcare advice line 1177 for assessment of next steps.",
+      "The emergency department directly, without prior contact.",
+      "Call 112 to book a planned healthcare appointment.",
+      "Wait until the symptoms go away by themselves."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Non-emergency care usually starts with primary care or advice rather than emergency services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-007",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "emergency"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vilket telefonnummer används vid akut fara för liv, hälsa eller egendom?",
+    "questionEn": "Which phone number is used for immediate danger to life, health, or property?",
+    "options": [
+      "112.",
+      "1177.",
+      "114 14.",
+      "113 13."
+    ],
+    "optionsEn": [
+      "112.",
+      "1177.",
+      "114 14.",
+      "113 13."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "112 is the emergency number for urgent situations.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-008",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "healthcare",
+      "1177"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad används 1177 ofta till?",
+    "questionEn": "What is 1177 often used for?",
+    "options": [
+      "Sjukvårdsrådgivning och information om vård.",
+      "Polisens nummer för icke-akuta brott.",
+      "Larmnumret vid akut fara för liv.",
+      "Beställning av personbevis hos Skatteverket."
+    ],
+    "optionsEn": [
+      "Healthcare advice and information about care.",
+      "The police number for non-urgent crimes.",
+      "The emergency number for immediate danger to life.",
+      "Ordering a population registration certificate from the Tax Agency."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "1177 provides healthcare advice and information in Sweden.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-009",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "scenario",
+      "emergency"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En person får plötsligt bröstsmärtor och svårt att andas. Vad passar bäst?",
+    "questionEn": "A person suddenly gets chest pain and difficulty breathing. What is most appropriate?",
+    "options": [
+      "Ringa 112 eftersom det kan vara akut.",
+      "Ringa 1177 och vänta på återuppringning.",
+      "Boka en vanlig tid på vårdcentralen inom några veckor.",
+      "Avvakta några dagar och se om symtomen går över."
+    ],
+    "optionsEn": [
+      "Call 112 because it may be an emergency.",
+      "Call 1177 and wait for a callback.",
+      "Book a regular healthcare-centre appointment in a few weeks.",
+      "Wait a few days and see if the symptoms go away."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Potentially life-threatening symptoms should be handled as urgent.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-010",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "patient-rights"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad innebär patientavgift?",
+    "questionEn": "What does patient fee mean?",
+    "options": [
+      "En avgift patienten betalar för vissa vårdbesök.",
+      "En skatt som finansierar hela sjukvården.",
+      "En avgift som alla betalar varje månad oavsett om de besöker vården.",
+      "Ersättning som vården betalar ut till patienten vid besök."
+    ],
+    "optionsEn": [
+      "A fee the patient pays for certain healthcare visits.",
+      "A tax that finances all healthcare.",
+      "A fee everyone pays every month regardless of whether they visit healthcare.",
+      "Compensation that healthcare pays to the patient at a visit."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Patients may pay fees, while healthcare is also publicly financed.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-011",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "patient-rights"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Varför finns högkostnadsskydd i vården?",
+    "questionEn": "Why does high-cost protection exist in healthcare?",
+    "options": [
+      "För att begränsa hur mycket en patient betalar för viss vård under en period.",
+      "För att alla vårdbesök ska bli dyrare ju mer man är sjuk.",
+      "För att regioner ska kunna neka vård efter första besöket.",
+      "För att ersätta behovet av sjuksköterskor."
+    ],
+    "optionsEn": [
+      "To limit how much a patient pays for certain care during a period.",
+      "So all healthcare visits become more expensive the more ill one is.",
+      "So regions can deny care after the first visit.",
+      "To replace the need for nurses."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "High-cost protection reduces the financial burden of repeated healthcare costs.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-012",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "welfare",
+      "scenario",
+      "patient-rights"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En patient förstår inte informationen inför en behandling. Vilken princip är viktig?",
+    "questionEn": "A patient does not understand information before a treatment. Which principle is important?",
+    "options": [
+      "Patienten behöver begriplig information för att kunna vara delaktig i beslut.",
+      "Vården behöver aldrig förklara behandlingar för patienter.",
+      "Anhöriga bestämmer alltid utan att patienten informeras.",
+      "Information ges bara om patienten betalar extra."
+    ],
+    "optionsEn": [
+      "The patient needs understandable information to participate in decisions.",
+      "Healthcare never needs to explain treatments to patients.",
+      "Relatives always decide without the patient being informed.",
+      "Information is only given if the patient pays extra."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Patient participation requires information that the patient can understand.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-013",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "school"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vilken nivå ansvarar oftast för grundskolan?",
+    "questionEn": "Which level usually has responsibility for compulsory school?",
+    "options": [
+      "Kommunen.",
+      "Regionen.",
+      "Riksbanken.",
+      "EU-domstolen."
+    ],
+    "optionsEn": [
+      "The municipality.",
+      "The region.",
+      "The Riksbank.",
+      "The Court of Justice of the EU."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipalities have major responsibility for compulsory school.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-014",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "school"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad innebär skolplikt i Sverige?",
+    "questionEn": "What does compulsory schooling mean in Sweden?",
+    "options": [
+      "Barn ska delta i utbildning under de år skolplikten gäller.",
+      "Barn får välja helt själva om de vill lära sig läsa.",
+      "Skolan gäller bara barn vars föräldrar arbetar heltid.",
+      "Skolplikt betyder att bara privata skolor får undervisa."
+    ],
+    "optionsEn": [
+      "Children must participate in education during the years compulsory schooling applies.",
+      "Children may choose entirely themselves whether they want to learn to read.",
+      "School only applies to children whose parents work full time.",
+      "Compulsory schooling means only private schools may teach."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Compulsory schooling means children have both a right and duty to receive education.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-015",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "welfare",
+      "scenario",
+      "school"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Ett barn är ofta borta från skolan utan giltig orsak. Varför blir detta en samhällsfråga?",
+    "questionEn": "A child is often absent from school without valid reason. Why does this become a social issue?",
+    "options": [
+      "Barnets rätt till utbildning och skolans ansvar att följa upp påverkas.",
+      "Barnets utbildning blir helt privat och saknar samhällsintresse.",
+      "Frånvaro ger automatiskt högre betyg om barnet är hemma.",
+      "Kommunen måste alltid avskaffa skolplikten för barnet."
+    ],
+    "optionsEn": [
+      "The child’s right to education and the school’s responsibility to follow up are affected.",
+      "The child’s education becomes completely private and has no social interest.",
+      "Absence automatically gives higher grades if the child stays home.",
+      "The municipality must always abolish compulsory schooling for the child."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "School absence can affect a child’s right to education and requires follow-up.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-016",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "preschool"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad är förskola?",
+    "questionEn": "What is preschool?",
+    "options": [
+      "Pedagogisk verksamhet för yngre barn före skolan.",
+      "Det obligatoriska första skolåret för sexåringar.",
+      "Verksamhet för skolbarn före och efter skoldagen.",
+      "En skola som bara drivs av privata företag."
+    ],
+    "optionsEn": [
+      "Educational activity for younger children before school.",
+      "The compulsory first school year for six-year-olds.",
+      "Activities for school children before and after the school day.",
+      "A school run only by private companies."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Preschool combines care, learning, and development for young children.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-017",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "preschool",
+      "work-family"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Varför är förskola viktig för många familjer?",
+    "questionEn": "Why is preschool important for many families?",
+    "options": [
+      "Den ger barn pedagogisk verksamhet och gör det lättare för vårdnadshavare att arbeta eller studera.",
+      "Den ersätter föräldrars ansvar i alla delar av barnets liv.",
+      "Den används främst för att bestämma familjens skatt.",
+      "Den ger barn automatiskt körkort när de blir vuxna."
+    ],
+    "optionsEn": [
+      "It gives children educational activities and makes it easier for guardians to work or study.",
+      "It replaces parents’ responsibility in every part of the child’s life.",
+      "It is mainly used to decide the family’s tax.",
+      "It automatically gives children a driving licence when they become adults."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Preschool supports both children’s development and parents’ participation in work or studies.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-018",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "scenario",
+      "preschool"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En ensamstående förälder får nytt arbete men saknar barnomsorg på dagtid. Vilken välfärdsfunktion blir särskilt relevant?",
+    "questionEn": "A single parent gets a new job but lacks daytime childcare. Which welfare function becomes especially relevant?",
+    "options": [
+      "Tillgång till förskola eller annan barnomsorg som gör arbete möjligt.",
+      "Försäkringskassans barnbidrag, som helt ersätter behovet av barnomsorg.",
+      "Arbetsgivarens ansvar att ordna all barnomsorg åt anställda.",
+      "Grundskolans ansvar för barn i förskoleåldern."
+    ],
+    "optionsEn": [
+      "Access to preschool or other childcare that makes work possible.",
+      "The Social Insurance Agency’s child allowance, which completely replaces the need for childcare.",
+      "The employer’s responsibility to arrange all childcare for employees.",
+      "Compulsory school’s responsibility for children of preschool age."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Childcare can be important for combining family responsibilities with work.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-019",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "social-services"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad arbetar socialtjänsten med?",
+    "questionEn": "What does social services work with?",
+    "options": [
+      "Stöd till människor och familjer som behöver hjälp i svåra livssituationer.",
+      "Att ordna arbete åt alla som söker jobb.",
+      "Att besluta om skatt och folkbokföring.",
+      "Att betala ut pensioner till alla äldre."
+    ],
+    "optionsEn": [
+      "Support for people and families who need help in difficult life situations.",
+      "Arranging work for everyone looking for a job.",
+      "Deciding on tax and population registration.",
+      "Paying pensions to all older people."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Social services are a municipal responsibility and support vulnerable individuals and families.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-020",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "social-services"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vilken nivå ansvarar för socialtjänsten?",
+    "questionEn": "Which level is responsible for social services?",
+    "options": [
+      "Kommunen.",
+      "Regionen.",
+      "Staten.",
+      "Försäkringskassan."
+    ],
+    "optionsEn": [
+      "The municipality.",
+      "The region.",
+      "The state.",
+      "The Swedish Social Insurance Agency."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipalities are responsible for social services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-021",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "welfare",
+      "scenario",
+      "social-services"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En familj har svårt att klara grundläggande behov och barnen påverkas. Vilken aktör kan bli viktig?",
+    "questionEn": "A family struggles to meet basic needs and the children are affected. Which actor can become important?",
+    "options": [
+      "Socialtjänsten, eftersom kommunen har ansvar för stöd i utsatta situationer.",
+      "Valmyndigheten, eftersom familjen behöver nya röstkort.",
+      "Riksbanken, eftersom den beslutar familjens hushållsbudget.",
+      "Tingsrätten, eftersom den alltid delar ut försörjningsstöd."
+    ],
+    "optionsEn": [
+      "Social services, because the municipality is responsible for support in vulnerable situations.",
+      "The Election Authority, because the family needs new voting cards.",
+      "The Riksbank, because it decides the family’s household budget.",
+      "The district court, because it always distributes income support."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Social services can assess support when families and children are in vulnerable situations.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-022",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "income-support"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad är ekonomiskt bistånd från socialtjänsten?",
+    "questionEn": "What is financial assistance from social services?",
+    "options": [
+      "Ett behovsprövat stöd när en person inte kan försörja sig på annat sätt.",
+      "En lön som alla får oavsett ekonomi.",
+      "En bankränta som betalas till företag.",
+      "Ett bidrag som bara betalas vid riksdagsval."
+    ],
+    "optionsEn": [
+      "Means-tested support when a person cannot support themselves in another way.",
+      "A salary everyone receives regardless of finances.",
+      "Bank interest paid to companies.",
+      "A benefit paid only during Riksdag elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Financial assistance is assessed based on need and individual circumstances.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-023",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "income-support"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad betyder behovsprövning?",
+    "questionEn": "What does means testing mean?",
+    "options": [
+      "Att rätten till stöd bedöms utifrån personens situation och behov.",
+      "Att alla får exakt samma stöd utan frågor.",
+      "Att stöd alltid ges till den med högst inkomst.",
+      "Att domstolar röstar om varje matinköp."
+    ],
+    "optionsEn": [
+      "That the right to support is assessed based on the person’s situation and needs.",
+      "That everyone gets exactly the same support without questions.",
+      "That support is always given to the person with the highest income.",
+      "That courts vote on every food purchase."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Means-tested support depends on the person’s actual needs and resources.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-024",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "welfare",
+      "scenario",
+      "income-support"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En person söker ekonomiskt bistånd men har samtidigt pengar på sparkonto. Varför kan detta påverka beslutet?",
+    "questionEn": "A person applies for financial assistance while also having money in a savings account. Why can this affect the decision?",
+    "options": [
+      "Stödet är behovsprövat och egna resurser kan behöva användas först.",
+      "Sparkonton gör alltid att personen får dubbelt bistånd.",
+      "Socialtjänsten får aldrig fråga om ekonomiska resurser.",
+      "Bistånd bestäms endast av personens ålder."
+    ],
+    "optionsEn": [
+      "The support is means-tested and own resources may need to be used first.",
+      "Savings accounts always mean the person receives double assistance.",
+      "Social services may never ask about financial resources.",
+      "Assistance is decided only by the person’s age."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Needs-based support considers whether the person can meet needs with their own resources.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-025",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "social-insurance"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vilken myndighet hanterar många delar av socialförsäkringen?",
+    "questionEn": "Which authority handles many parts of social insurance?",
+    "options": [
+      "Försäkringskassan.",
+      "Valmyndigheten.",
+      "Kronofogden.",
+      "Patent- och registreringsverket."
+    ],
+    "optionsEn": [
+      "The Swedish Social Insurance Agency.",
+      "The Election Authority.",
+      "The Swedish Enforcement Authority.",
+      "The Swedish Intellectual Property Office."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Försäkringskassan handles many social insurance benefits.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-026",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "social-insurance"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad är socialförsäkringens syfte?",
+    "questionEn": "What is the purpose of social insurance?",
+    "options": [
+      "Att ge ekonomisk trygghet vid vissa livssituationer, till exempel sjukdom eller föräldraskap.",
+      "Att ersätta alla löner med samma belopp för alla invånare.",
+      "Att ge domstolar ansvar för skolans schema.",
+      "Att bestämma vilka partier som får kampanja."
+    ],
+    "optionsEn": [
+      "To provide financial security in certain life situations, such as illness or parenthood.",
+      "To replace all wages with the same amount for all residents.",
+      "To give courts responsibility for school schedules.",
+      "To decide which parties may campaign."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Social insurance reduces financial insecurity in situations covered by the system.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-027",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "scenario",
+      "social-insurance"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En person blir sjuk länge och kan inte arbeta som vanligt. Vilken välfärdsdel kan bli aktuell?",
+    "questionEn": "A person becomes ill for a long time and cannot work as usual. Which welfare part may become relevant?",
+    "options": [
+      "Sjuklön eller sjukpenning beroende på situation och regler.",
+      "A-kassa, eftersom personen inte kan arbeta.",
+      "Ekonomiskt bistånd från socialtjänsten som första steg.",
+      "Semesterersättning från arbetsgivaren."
+    ],
+    "optionsEn": [
+      "Sick pay or sickness benefit depending on the situation and rules.",
+      "Unemployment insurance, because the person cannot work.",
+      "Financial assistance from social services as the first step.",
+      "Vacation compensation from the employer."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Illness can trigger income-security systems, depending on employment and eligibility rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-028",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "parental-insurance"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad kan föräldraförsäkring ge stöd för?",
+    "questionEn": "What can parental insurance support?",
+    "options": [
+      "Att vårdnadshavare kan vara hemma med barn under vissa perioder.",
+      "Att föräldrar aldrig behöver arbeta igen.",
+      "Att barn automatiskt får rösträtt från födseln.",
+      "Att skolor slipper ansvar för undervisning."
+    ],
+    "optionsEn": [
+      "That guardians can be home with children during certain periods.",
+      "That parents never need to work again.",
+      "That children automatically get voting rights from birth.",
+      "That schools avoid responsibility for teaching."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Parental insurance helps parents combine work and family life.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-029",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "child-benefit"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad är barnbidrag?",
+    "questionEn": "What is child allowance?",
+    "options": [
+      "Ett ekonomiskt stöd till barnfamiljer.",
+      "Ett bidrag som bara ges till familjer med låg inkomst.",
+      "En engångssumma som bara betalas ut när barnet fyller 18.",
+      "Ett bidrag som föräldrar måste söka med intyg varje månad."
+    ],
+    "optionsEn": [
+      "Financial support for families with children.",
+      "A benefit given only to families with low income.",
+      "A one-time sum paid only when the child turns 18.",
+      "A benefit parents must apply for with certificates every month."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Child allowance is a general financial support connected to having children.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-030",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "scenario",
+      "parental-insurance"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Två föräldrar planerar hur de ska vara hemma med ett litet barn och samtidigt behålla kontakt med arbetslivet. Vilket system är särskilt relevant?",
+    "questionEn": "Two parents plan how to stay home with a young child while keeping contact with working life. Which system is especially relevant?",
+    "options": [
+      "Föräldraförsäkringen och regler om föräldraledighet.",
+      "Barnbidraget, som ersätter hela inkomstbortfallet vid ledighet.",
+      "A-kassan, eftersom föräldrarna tillfälligt inte arbetar.",
+      "Bostadsbidraget, som automatiskt höjs när barn föds."
+    ],
+    "optionsEn": [
+      "Parental insurance and rules on parental leave.",
+      "Child allowance, which replaces the entire income loss during leave.",
+      "Unemployment insurance, because the parents temporarily do not work.",
+      "Housing allowance, which automatically increases when children are born."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Parental leave and parental insurance support care for children while parents remain connected to work.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-031",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "elderly-care"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vilken nivå ansvarar ofta för äldreomsorg?",
+    "questionEn": "Which level often has responsibility for elderly care?",
+    "options": [
+      "Kommunen.",
+      "Regionen.",
+      "Staten.",
+      "Försäkringskassan."
+    ],
+    "optionsEn": [
+      "The municipality.",
+      "The region.",
+      "The state.",
+      "The Swedish Social Insurance Agency."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipalities are responsible for much elderly care.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-032",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "elderly-care"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad kan äldreomsorg omfatta?",
+    "questionEn": "What can elderly care include?",
+    "options": [
+      "Hemtjänst, särskilt boende och stöd i vardagen beroende på behov.",
+      "Endast gratis resor till utlandet för pensionärer.",
+      "Att domstolar planerar alla måltider i hemmet.",
+      "Att staten tar över alla privata bostäder när någon fyller 65."
+    ],
+    "optionsEn": [
+      "Home-help services, special housing, and everyday support depending on needs.",
+      "Only free trips abroad for pensioners.",
+      "Courts planning all meals at home.",
+      "The state taking over all private homes when someone turns 65."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Elderly care is based on needs and can take different forms.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-033",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "welfare",
+      "scenario",
+      "elderly-care"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En äldre person klarar inte längre mat, hygien och mediciner hemma utan stöd. Vilken process är rimlig?",
+    "questionEn": "An older person can no longer manage food, hygiene, and medicines at home without support. What process is reasonable?",
+    "options": [
+      "Kommunen gör en behovsbedömning och kan besluta om stödinsatser.",
+      "Personen måste själv skapa en privat myndighet för omsorg.",
+      "Regionen måste alltid erbjuda riksdagsplats som stöd.",
+      "Hemtjänst ges bara om personen har heltidsarbete."
+    ],
+    "optionsEn": [
+      "The municipality makes a needs assessment and can decide on support measures.",
+      "The person must create a private authority for care.",
+      "The region must always offer a Riksdag seat as support.",
+      "Home-help services are only given if the person has full-time work."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipal elderly care is usually assessed based on the person’s needs.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-034",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "pension"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad är pension?",
+    "questionEn": "What is pension?",
+    "options": [
+      "Pengar som kan betalas ut när en person slutar arbeta på grund av ålder eller enligt pensionsregler.",
+      "En avgift för att gå i grundskolan.",
+      "Ett straff för den som inte röstar.",
+      "Ett lån som bara kommuner får ta."
+    ],
+    "optionsEn": [
+      "Money that can be paid when a person stops working because of age or under pension rules.",
+      "A fee for attending compulsory school.",
+      "A punishment for not voting.",
+      "A loan only municipalities may take."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Pension is part of economic security later in life.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-035",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "pension"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Varför påverkar arbetsliv och inkomst ofta pensionen?",
+    "questionEn": "Why do working life and income often affect pension?",
+    "options": [
+      "Pensionsrätter byggs ofta upp genom arbete, inkomst och skatter över tid.",
+      "Pensionen bestäms enbart av vilken kommun man bor i.",
+      "Alla får alltid exakt samma pension oavsett livssituation.",
+      "Pension betalas bara till personer som aldrig har arbetat."
+    ],
+    "optionsEn": [
+      "Pension rights are often built through work, income, and taxes over time.",
+      "Pension is decided only by which municipality one lives in.",
+      "Everyone always receives exactly the same pension regardless of life situation.",
+      "Pension is paid only to people who have never worked."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Income and work history can affect parts of the pension system.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-036",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "welfare",
+      "scenario",
+      "pension"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En person arbetar svart i många år utan redovisad inkomst. Hur kan detta påverka framtida trygghet?",
+    "questionEn": "A person works undeclared for many years without reported income. How can this affect future security?",
+    "options": [
+      "Det kan ge sämre pensionsgrundande inkomst och svagare socialt skydd.",
+      "Det ger alltid högre pension eftersom ingen skatt dragits.",
+      "Det påverkar bara möjligheten att rösta i regionval.",
+      "Det gör att kommunen automatiskt betalar extra pension."
+    ],
+    "optionsEn": [
+      "It can lead to lower pensionable income and weaker social protection.",
+      "It always gives a higher pension because no tax was deducted.",
+      "It only affects the possibility to vote in regional elections.",
+      "It means the municipality automatically pays extra pension."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Declared income matters for taxes and can affect future social insurance and pension rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-037",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "disability-support"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad kan stöd till personer med funktionsnedsättning handla om?",
+    "questionEn": "What can support for people with disabilities involve?",
+    "options": [
+      "Att skapa möjlighet till delaktighet, tillgänglighet och ett fungerande vardagsliv.",
+      "Att alltid placera personen utanför skola och arbete.",
+      "Att ta bort personens rätt att påverka beslut.",
+      "Att ersätta alla vårdkontakter med privata lån."
+    ],
+    "optionsEn": [
+      "Creating opportunities for participation, accessibility, and a functioning everyday life.",
+      "Always placing the person outside school and work.",
+      "Removing the person’s right to influence decisions.",
+      "Replacing all healthcare contacts with private loans."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Support for people with disabilities aims to increase participation and everyday functioning.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-038",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "disability-support"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Varför är tillgänglighet viktig i välfärden?",
+    "questionEn": "Why is accessibility important in welfare?",
+    "options": [
+      "För att människor med olika behov ska kunna använda samhällsservice på lika villkor.",
+      "För att offentliga tjänster bara ska passa personer utan stödbehov.",
+      "För att myndigheter ska kunna sluta ge information.",
+      "För att skolor ska välja bort elever som behöver anpassning."
+    ],
+    "optionsEn": [
+      "So people with different needs can use public services on equal terms.",
+      "So public services only fit people without support needs.",
+      "So authorities can stop giving information.",
+      "So schools can exclude pupils who need adaptations."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Accessibility helps make rights and services usable in practice.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-039",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "welfare",
+      "scenario",
+      "disability-support"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En kommun bygger en ny e-tjänst som många med synnedsättning inte kan använda. Vilken välfärdsfråga aktualiseras?",
+    "questionEn": "A municipality builds a new e-service that many people with visual impairments cannot use. Which welfare issue is raised?",
+    "options": [
+      "Tillgänglighet och likvärdig tillgång till kommunal service.",
+      "Kommunens rätt att bara ge service till personer med ny mobil.",
+      "Att digital service aldrig behöver följa rättighetsprinciper.",
+      "Att användare själva måste köpa all offentlig teknik."
+    ],
+    "optionsEn": [
+      "Accessibility and equal access to municipal services.",
+      "The municipality’s right to only give service to people with a new phone.",
+      "That digital services never need to follow rights principles.",
+      "That users themselves must buy all public technology."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Digital welfare services also need to be accessible.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-040",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "dental-care"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vilken del av välfärden gäller munhälsa?",
+    "questionEn": "Which part of welfare concerns oral health?",
+    "options": [
+      "Tandvård.",
+      "Hemsjukvård.",
+      "Habilitering.",
+      "Företagshälsovård."
+    ],
+    "optionsEn": [
+      "Dental care.",
+      "Home healthcare.",
+      "Habilitation services.",
+      "Occupational health services."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Dental care is part of health-related welfare services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-041",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "dental-care"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Hur skiljer sig tandvård ofta från annan sjukvård för vuxna?",
+    "questionEn": "How does dental care often differ from other healthcare for adults?",
+    "options": [
+      "Vuxna betalar ofta en större del själva, även om stöd och skydd kan finnas.",
+      "Tandvård är alltid helt gratis för alla vuxna utan undantag.",
+      "Tandvård sköts av domstolar och inte vårdgivare.",
+      "Tandvård ges bara till personer som arbetar i regionen."
+    ],
+    "optionsEn": [
+      "Adults often pay a larger part themselves, although support and protection can exist.",
+      "Dental care is always completely free for all adults without exception.",
+      "Dental care is handled by courts and not care providers.",
+      "Dental care is only given to people who work in the region."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Adult dental care often has different fees and support rules than ordinary healthcare.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-042",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "welfare",
+      "scenario",
+      "dental-care"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En vuxen person skjuter upp tandvård länge eftersom kostnaden känns hög. Vilken praktisk fråga bör personen undersöka?",
+    "questionEn": "An adult delays dental care for a long time because the cost feels high. What practical question should the person investigate?",
+    "options": [
+      "Vilket tandvårdsstöd eller högkostnadsskydd som kan gälla och vad behandlingen kostar.",
+      "Om tandläkaren kan ersätta alla andra vårdkontakter.",
+      "Om kommunen betalar all tandvård utan bedömning.",
+      "Om kostnaden försvinner om personen inte öppnar fakturan."
+    ],
+    "optionsEn": [
+      "Which dental care support or high-cost protection may apply and what the treatment costs.",
+      "Whether the dentist can replace all other healthcare contacts.",
+      "Whether the municipality pays all dental care without assessment.",
+      "Whether the cost disappears if the person does not open the invoice."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Dental care can be expensive, so information about fees and support matters.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-043",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "equality"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vilken idé är central i välfärdssamhället?",
+    "questionEn": "Which idea is central in the welfare society?",
+    "options": [
+      "Att människor ska ha grundläggande trygghet och tillgång till viktiga tjänster.",
+      "Att bara de rikaste ska få offentlig service.",
+      "Att vård och skola endast är privata familjefrågor.",
+      "Att staten ska sluta skydda barn."
+    ],
+    "optionsEn": [
+      "That people should have basic security and access to important services.",
+      "That only the richest should receive public services.",
+      "That healthcare and school are only private family matters.",
+      "That the state should stop protecting children."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Welfare is connected to security, equal access, and shared responsibility.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-044",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "equality"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Hur kan välfärd bidra till jämlikhet?",
+    "questionEn": "How can welfare contribute to equality?",
+    "options": [
+      "Genom att ge fler människor tillgång till utbildning, vård och stöd oavsett ekonomi.",
+      "Genom att alltid ge mer service till den som redan har högst inkomst.",
+      "Genom att avskaffa alla offentliga skolor och vårdcentraler.",
+      "Genom att låta varje arbetsgivare bestämma patientavgifter."
+    ],
+    "optionsEn": [
+      "By giving more people access to education, healthcare, and support regardless of finances.",
+      "By always giving more service to the person who already has the highest income.",
+      "By abolishing all public schools and healthcare centres.",
+      "By letting each employer decide patient fees."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Shared welfare services can reduce differences in life chances.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-045",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "welfare",
+      "scenario",
+      "equality"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En familj med låg inkomst har barn som behöver skola och vård. Vad visar detta om välfärdens roll?",
+    "questionEn": "A low-income family has children who need school and healthcare. What does this show about welfare’s role?",
+    "options": [
+      "Grundläggande tjänster ska inte bara vara tillgängliga för hushåll med hög betalningsförmåga.",
+      "Barnens rättigheter beror helt på familjens bankkonto.",
+      "Skolan ska alltid kräva full marknadsbetalning innan undervisning.",
+      "Regionen får neka all vård tills familjen får högre lön."
+    ],
+    "optionsEn": [
+      "Basic services should not only be available to households with high ability to pay.",
+      "Children’s rights depend entirely on the family’s bank account.",
+      "School should always demand full market payment before teaching.",
+      "The region may deny all care until the family gets higher wages."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The welfare model aims to make core services broadly accessible.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-046",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "public-sector"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad är offentlig sektor?",
+    "questionEn": "What is the public sector?",
+    "options": [
+      "Verksamheter som drivs eller finansieras av stat, regioner och kommuner.",
+      "Alla privata hushålls sparande.",
+      "Endast börsnoterade företag.",
+      "En samling idrottsföreningar utan samhällsuppdrag."
+    ],
+    "optionsEn": [
+      "Activities run or financed by the state, regions, and municipalities.",
+      "All private household savings.",
+      "Only publicly listed companies.",
+      "A group of sports associations without public tasks."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The public sector includes authorities and welfare services at different levels.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-047",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "public-sector"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vilka nivåer delar på många välfärdsuppgifter?",
+    "questionEn": "Which levels share many welfare tasks?",
+    "options": [
+      "Stat, regioner och kommuner.",
+      "Endast banker och försäkringsbolag.",
+      "Bara EU-domstolen och Riksbanken.",
+      "Enbart politiska partier."
+    ],
+    "optionsEn": [
+      "The state, regions, and municipalities.",
+      "Only banks and insurance companies.",
+      "Only the EU Court and the Riksbank.",
+      "Only political parties."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Welfare responsibilities are divided between national, regional, and local levels.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-048",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "welfare",
+      "scenario",
+      "public-sector"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En person blandar ihop vem som ansvarar för vård, skola och pensioner. Vilken förståelse är viktig?",
+    "questionEn": "A person confuses who is responsible for healthcare, school, and pensions. What understanding is important?",
+    "options": [
+      "Olika välfärdsområden sköts av olika nivåer och myndigheter.",
+      "Alla välfärdsfrågor avgörs av samma lokala vårdcentral.",
+      "Privata banker ansvarar för alla offentliga beslut.",
+      "Domstolar delar alltid ut alla socialförsäkringsförmåner."
+    ],
+    "optionsEn": [
+      "Different welfare areas are handled by different levels and authorities.",
+      "All welfare issues are decided by the same local healthcare centre.",
+      "Private banks are responsible for all public decisions.",
+      "Courts always distribute all social insurance benefits."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Understanding responsibility helps people contact the right service.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-049",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "rights-duties"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad kan en invånare behöva göra för att få rätt stöd?",
+    "questionEn": "What may a resident need to do to get the right support?",
+    "options": [
+      "Kontakta rätt myndighet eller verksamhet och lämna nödvändiga uppgifter.",
+      "Vänta på att stöd alltid kommer automatiskt utan kontakt.",
+      "Bara fråga grannar i stället för ansvarig aktör.",
+      "Skicka alla ärenden till riksdagen först."
+    ],
+    "optionsEn": [
+      "Contact the right authority or service and provide necessary information.",
+      "Wait for support to always arrive automatically without contact.",
+      "Only ask neighbors instead of the responsible actor.",
+      "Send all matters to the Riksdag first."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Accessing welfare services often requires contact, application, or information.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-050",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "rights-duties"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Varför måste myndigheter ofta få korrekta uppgifter i ett välfärdsärende?",
+    "questionEn": "Why do authorities often need correct information in a welfare case?",
+    "options": [
+      "För att kunna bedöma rätten till stöd och fatta rätt beslut.",
+      "För att kunna ge samma beslut utan att läsa ärendet.",
+      "För att ersätta alla lagar med muntliga löften.",
+      "För att göra personens röst i valet ogiltig."
+    ],
+    "optionsEn": [
+      "To assess the right to support and make the correct decision.",
+      "To give the same decision without reading the case.",
+      "To replace all laws with verbal promises.",
+      "To make the person’s vote in the election invalid."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Welfare decisions often depend on facts about income, health, family, or needs.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-051",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "welfare",
+      "scenario",
+      "rights-duties"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En person lämnar fel inkomstuppgifter för att få högre ersättning. Vilken risk finns?",
+    "questionEn": "A person gives incorrect income information to get higher compensation. What risk exists?",
+    "options": [
+      "Felaktiga utbetalningar kan krävas tillbaka och leda till rättsliga följder.",
+      "Ersättningen blir alltid permanent och kan aldrig kontrolleras.",
+      "Myndigheter får aldrig kontrollera uppgifter i välfärdssystem.",
+      "Fel uppgifter påverkar bara personens bibliotekskort."
+    ],
+    "optionsEn": [
+      "Incorrect payments may be reclaimed and lead to legal consequences.",
+      "The compensation always becomes permanent and can never be checked.",
+      "Authorities may never check information in welfare systems.",
+      "Incorrect information only affects the person’s library card."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Welfare systems depend on correct information and can respond to fraud or mistakes.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-052",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "sick-child"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad kan vab handla om?",
+    "questionEn": "What can 'vab' (care of a sick child) involve?",
+    "options": [
+      "Att en vårdnadshavare är hemma från arbete för att ta hand om sjukt barn.",
+      "Att barnet arbetar i stället för föräldern.",
+      "Att skolan betalar familjens hyra.",
+      "Att regionen alltid ordnar semesterresa."
+    ],
+    "optionsEn": [
+      "A guardian staying home from work to care for a sick child.",
+      "The child working instead of the parent.",
+      "The school paying the family’s rent.",
+      "The region always arranging a holiday trip."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Vab is connected to caring for a sick child and social insurance rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-053",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "sick-child",
+      "social-insurance"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vilken myndighet kopplas ofta till ersättning vid vab?",
+    "questionEn": "Which authority is often connected to compensation for care of a sick child?",
+    "options": [
+      "Försäkringskassan.",
+      "Skatteverkets folkbokföringsenhet.",
+      "Valmyndigheten.",
+      "Konsumentverket."
+    ],
+    "optionsEn": [
+      "The Swedish Social Insurance Agency.",
+      "The Tax Agency’s population registration unit.",
+      "The Election Authority.",
+      "The Swedish Consumer Agency."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Försäkringskassan handles several family-related social insurance benefits.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-054",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "welfare",
+      "scenario",
+      "sick-child"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Ett barn blir sjukt och föräldern behöver stanna hemma från jobbet. Vad behöver föräldern vanligtvis tänka på?",
+    "questionEn": "A child becomes ill and the parent needs to stay home from work. What does the parent usually need to consider?",
+    "options": [
+      "Att följa regler för frånvaro från arbetet och eventuell ersättning för vab.",
+      "Att barnet automatiskt får betyg utan skolkontakt.",
+      "Att arbetsgivaren tar över hela vårdansvaret för barnet.",
+      "Att vab alltid betalas av hyresvärden."
+    ],
+    "optionsEn": [
+      "Following rules for absence from work and possible compensation for care of a sick child.",
+      "That the child automatically receives grades without school contact.",
+      "That the employer takes over full care responsibility for the child.",
+      "That care-of-child compensation is always paid by the landlord."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Care of a sick child connects family responsibility, work absence, and social insurance.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-055",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "care"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad betyder omsorg i välfärdssammanhang?",
+    "questionEn": "What does care mean in a welfare context?",
+    "options": [
+      "Stöd och hjälp i vardagen för personer som behöver det.",
+      "Enbart privat underhållning på fritiden.",
+      "Ett annat ord för riksdagsdebatt.",
+      "En banktjänst för företag."
+    ],
+    "optionsEn": [
+      "Support and help in everyday life for people who need it.",
+      "Only private entertainment in leisure time.",
+      "Another word for Riksdag debate.",
+      "A banking service for companies."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Care can include practical support for children, older people, or people with disabilities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-056",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "care"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Varför görs ofta en behovsbedömning inom omsorg?",
+    "questionEn": "Why is a needs assessment often made in care?",
+    "options": [
+      "För att avgöra vilket stöd personen behöver och har rätt till.",
+      "För att alla alltid ska få exakt samma insats oavsett situation.",
+      "För att domstolen ska kunna välja personens läkare.",
+      "För att ersätta samtal med den som berörs."
+    ],
+    "optionsEn": [
+      "To decide what support the person needs and is entitled to.",
+      "So everyone always gets exactly the same measure regardless of situation.",
+      "So the court can choose the person’s doctor.",
+      "To replace conversations with the person concerned."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Care services are often adapted to individual needs.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-057",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "welfare",
+      "scenario",
+      "care"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En person får hemtjänst men upplever att stödet inte längre räcker. Vad är rimligt att göra?",
+    "questionEn": "A person receives home-help services but feels the support is no longer enough. What is reasonable to do?",
+    "options": [
+      "Kontakta kommunen för ny bedömning av behov och möjliga insatser.",
+      "Sluta betala alla räkningar tills stödet ändras.",
+      "Be banken besluta om mer omsorg.",
+      "Anta att beslut aldrig kan följas upp."
+    ],
+    "optionsEn": [
+      "Contact the municipality for a new assessment of needs and possible measures.",
+      "Stop paying all bills until the support changes.",
+      "Ask the bank to decide on more care.",
+      "Assume decisions can never be followed up."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "If needs change, the responsible municipality can reassess support.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-058",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "welfare",
+      "trust"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Vad bygger välfärdssystem ofta på för att fungera?",
+    "questionEn": "What do welfare systems often rely on to function?",
+    "options": [
+      "Att människor betalar skatt, lämnar korrekta uppgifter och använder stöd enligt reglerna.",
+      "Att ingen följer beslut från myndigheter.",
+      "Att alla tjänster bara ges genom privata gåvor.",
+      "Att skola och vård saknar planering."
+    ],
+    "optionsEn": [
+      "That people pay taxes, provide correct information, and use support according to rules.",
+      "That no one follows decisions from authorities.",
+      "That all services are only given through private gifts.",
+      "That school and healthcare lack planning."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Welfare systems need both public funding and responsible use.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-059",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "welfare",
+      "trust"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "Varför är tillit viktig i ett skattefinansierat välfärdssystem?",
+    "questionEn": "Why is trust important in a tax-funded welfare system?",
+    "options": [
+      "Människor behöver kunna lita på att resurser används rättvist och enligt regler.",
+      "Tillit gör att kontroller och regler aldrig behövs.",
+      "Tillit betyder att bara vissa grupper betalar skatt.",
+      "Tillit ersätter behovet av vårdpersonal."
+    ],
+    "optionsEn": [
+      "People need to trust that resources are used fairly and according to rules.",
+      "Trust means controls and rules are never needed.",
+      "Trust means only certain groups pay tax.",
+      "Trust replaces the need for healthcare staff."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Trust supports willingness to contribute and confidence in public services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch09-060",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "welfare",
+      "scenario",
+      "trust"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället",
+    "questionSv": "En person tycker att välfärd bara handlar om egna förmåner och inte om gemensamt ansvar. Vilket perspektiv saknas?",
+    "questionEn": "A person thinks welfare is only about personal benefits and not shared responsibility. Which perspective is missing?",
+    "options": [
+      "Att välfärd bygger på både rättigheter, skyldigheter, finansiering och solidaritet.",
+      "Att välfärd fungerar bäst när ingen betalar skatt.",
+      "Att offentliga tjänster bara är privata belöningar.",
+      "Att gemensamma system saknar koppling till demokratiska beslut."
+    ],
+    "optionsEn": [
+      "That welfare is based on rights, duties, financing, and solidarity.",
+      "That welfare works best when no one pays taxes.",
+      "That public services are only private rewards.",
+      "That shared systems have no connection to democratic decisions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The welfare model combines individual security with shared financing and responsibility.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch009-001",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "vårdcentral"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (extra draft)",
+    "questionSv": "Vart bör du i första hand vända dig om du blir sjuk och behöver träffa en läkare, men tillståndet inte är akut?",
+    "questionEn": "Where should you first turn if you are ill and need to see a doctor, but the condition is not an emergency?",
+    "options": [
+      "Till en vårdcentral.",
+      "Till sjukhusets akutmottagning.",
+      "Till socialtjänsten i din kommun.",
+      "Till Försäkringskassan."
+    ],
+    "optionsEn": [
+      "To a health centre.",
+      "To the hospital emergency department.",
+      "To social services in your municipality.",
+      "To the Swedish Social Insurance Agency."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A vårdcentral (health center) is the first point of contact for non-emergency medical issues in Sweden.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch009-011",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "means-tested-support",
+    "difficulty": "hard",
+    "tags": [
+      "extra",
+      "behovsprövning"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (extra draft)",
+    "questionSv": "Vad kan socialtjänsten räkna med vid en prövning av ekonomiskt bistånd?",
+    "questionEn": "What can social services consider when assessing financial assistance?",
+    "options": [
+      "Personens inkomster, tillgångar, nödvändiga kostnader och möjligheter att försörja sig.",
+      "Bara personens politiska åsikter.",
+      "Endast vilket land personen föddes i.",
+      "Hur många gånger personen har röstat i kommunval."
+    ],
+    "optionsEn": [
+      "The person’s income, assets, necessary costs, and possibilities to support themselves.",
+      "Only the person’s political opinions.",
+      "Only which country the person was born in.",
+      "How many times the person has voted in municipal elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Needs-tested support depends on the person’s financial situation and ability to support themselves.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch009-016",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "högkostnadsskydd"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (extra draft)",
+    "questionSv": "Vad är högkostnadsskydd inom svensk hälso- och sjukvård?",
+    "questionEn": "What is high-cost protection in Swedish healthcare?",
+    "options": [
+      "Ett tak som begränsar hur mycket du själv betalar för vård under ett år.",
+      "Ett tillägg som gör vården dyrare för den som tjänar mest.",
+      "Ett skydd som gäller endast privat vård, inte den offentliga.",
+      "En frivillig försäkring som betalar dina resor till vårdcentralen."
+    ],
+    "optionsEn": [
+      "A ceiling that limits how much you pay yourself for healthcare during a year.",
+      "An extra charge that makes healthcare more expensive for the highest earners.",
+      "Protection that applies only to private healthcare, not public healthcare.",
+      "A voluntary insurance that pays for your travel to the health centre."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Högkostnadsskydd caps how much you pay for healthcare within a period (usually a year). It is not an income surcharge, does not apply only to private care, and is not a travel insurance.",
+    "status": "draft"
+  }
+]

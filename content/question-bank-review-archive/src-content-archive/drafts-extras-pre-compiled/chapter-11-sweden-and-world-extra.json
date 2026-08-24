@@ -1,0 +1,60 @@
+[
+  {
+    "id": "draft-extra-ch011-001",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "authorities",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "eu-samarbete"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (extra draft)",
+    "questionSv": "Vilken påverkan har Sveriges medlemskap i EU på svensk lagstiftning?",
+    "questionEn": "What effect does Sweden’s EU membership have on Swedish legislation?",
+    "options": [
+      "Sverige måste följa EU:s gemensamma lagar, vilket påverkar en stor del av svensk lagstiftning.",
+      "EU har ingen påverkan på svensk lagstiftning, eftersom riksdagen beslutar helt oberoende i alla frågor.",
+      "Sveriges regering utses av EU-parlamentet i stället för av riksdagen.",
+      "Svenska domstolar får inte döma i brottmål utan godkännande från en EU-domstol."
+    ],
+    "optionsEn": [
+      "Sweden must follow common EU laws, which affects a large part of Swedish legislation.",
+      "The EU has no effect on Swedish legislation, because the Riksdag decides completely independently in all matters.",
+      "Sweden’s government is appointed by the European Parliament instead of by the Riksdag.",
+      "Swedish courts may not judge criminal cases without approval from an EU court."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "EU membership means Sweden must follow common EU laws, which significantly impact national legislation. The Riksdag does not act completely independently in areas where EU law applies.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch011-019",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "authorities",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "konsulär-hjälp"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (extra draft)",
+    "questionSv": "Vad ger svenska ambassader och konsulat dig som medborgare utomlands?",
+    "questionEn": "What can Swedish embassies and consulates give you as a citizen abroad?",
+    "options": [
+      "Hjälp vid nödsituationer, till exempel vid passförlust eller arrestering.",
+      "Rättslig immunitet så att du inte lyder värdlandets lag.",
+      "Ambassaden bokar och betalar alltid din hemresa vid reseproblem.",
+      "Du kan rösta i svenska val på ambassaden utan att vara folkbokförd."
+    ],
+    "optionsEn": [
+      "Help in emergencies, for example if you lose your passport or are arrested.",
+      "Legal immunity so you do not obey the host country’s law.",
+      "The embassy always books and pays for your trip home when travel problems happen.",
+      "You can vote in Swedish elections at the embassy without being registered."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Consular help from Swedish embassies/consulates assists citizens abroad in emergencies (e.g., lost passport, arrest). It does not exempt you from local law, does not guarantee a free ticket home, and voting abroad requires being registered.",
+    "status": "draft"
+  }
+]

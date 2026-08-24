@@ -1,0 +1,374 @@
+[
+  {
+    "id": "draft-ch07-001",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-002",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-003",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-004",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-005",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-006",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-007",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-008",
+    "verdict": "needs_edit",
+    "issues": [
+      "Factual accuracy: Sweden's Discrimination Act (Diskrimineringslagen) recognizes SEVEN protected grounds, not five. The correct option omits 'ålder' (age) and 'könsöverskridande identitet eller uttryck' (gender identity or expression). Presenting an incomplete list as 'the' protected grounds is misleading for a study app.",
+      "The explanation also enumerates only the five grounds. Note the Act's wording for religion is 'religion eller annan trosuppfattning'.",
+      "Difficulty mislabel: this is pure recall, comparable to the other list questions (025, 026), so 'easy' fits better than 'medium'."
+    ],
+    "suggestedOptions": [
+      "Kön, könsöverskridande identitet eller uttryck, etnisk tillhörighet, religion eller annan trosuppfattning, funktionsnedsättning, sexuell läggning och ålder.",
+      "Yrkesval, utbildningsnivå, inkomst och bostadsort.",
+      "Politiskt partisamhörighet, medlemskap i fackförbund och fritidsintressen.",
+      "Medborgarskapslängd, språkkunskaper i engelska och civilstånd."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "Swedish discrimination law protects seven specific grounds: sex, gender identity or expression, ethnic origin, religion or other belief, disability, sexual orientation, and age.",
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-009",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-010",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-011",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-012",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-013",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-014",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-015",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-016",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-017",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-018",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-019",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-020",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-021",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-022",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-023",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-024",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-025",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-026",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-027",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-028",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-029",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-030",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-031",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-032",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-033",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-034",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-035",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-036",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-037",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-038",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-039",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-040",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-041",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-042",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-043",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-044",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-045",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-046",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-047",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-048",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-049",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-050",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-051",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-052",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-053",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-054",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-055",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch07-056",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-057",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-058",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch07-059",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch07-060",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  }
+]

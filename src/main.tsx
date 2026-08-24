@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import { Analytics } from "@vercel/analytics/react";
 import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Home as HomeIcon, Landmark, Layers3, LockKeyhole, MessageSquare, Scale, Sparkles, Star, X, XCircle } from "lucide-react";
 import { LESSONS, MIGRATIONSVERKET_CITIZENSHIP_URL, OFFICIAL_CHAPTERS, OFFICIAL_STUDY_GUIDE_URL, QUESTIONS, TOPICS } from "./data";
+import { DRAFT_QUESTIONS, type DraftQuestion, type DraftQuestionStatus } from "./draftQuestions";
 import i18n from "./i18n";
 import { analyticsStatus, trackEvent, trackPageView } from "./analytics";
 import { CITIZENSHIP_UPDATE, FAQ_CONTENT, LEGAL_CONTENT } from "./i18n/content";
@@ -17,6 +18,7 @@ type Route =
   | { page: "home" }
   | { page: "topic"; topicId: string }
   | { page: "quick" }
+  | { page: "question-review" }
   | { page: "progress" }
   | { page: "flashcards" }
   | { page: "feedback" }
@@ -412,6 +414,10 @@ function App() {
     );
   }
 
+  if (route.page === "question-review") {
+    return <QuestionReviewPage onBack={goHome} />;
+  }
+
   if (route.page === "quick") {
     return (
       <TopicPracticePage
@@ -567,6 +573,10 @@ function getInitialRoute(): Route {
     return { page: "quick" };
   }
 
+  if (page === "question-review") {
+    return { page: "question-review" };
+  }
+
   if (page === "progress") {
     return { page: "progress" };
   }
@@ -606,7 +616,9 @@ function useHashRoute(): [Route, (route: Route) => void] {
           ? "/privacy"
           : nextRoute.page === "quick"
             ? "/quick"
-            : nextRoute.page === "progress"
+            : nextRoute.page === "question-review"
+              ? "/question-review"
+              : nextRoute.page === "progress"
             ? "/progress"
             : nextRoute.page === "flashcards"
               ? "/flashcards"
@@ -1508,6 +1520,209 @@ function getMobileNavLabels(language: UiLanguage, ui: UiText) {
     practice: ui.navPracticeTests,
     progress: ui.progressDashboardTitle
   };
+}
+
+const QUESTION_REVIEW_STORAGE_KEY = "swedencivicsprep-question-review-v1";
+
+type DraftQuestionReview = {
+  note: string;
+  status: DraftQuestionStatus;
+  updatedAt: string;
+};
+
+function QuestionReviewPage({ onBack }: { onBack: () => void }) {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [statusFilter, setStatusFilter] = useState<"all" | DraftQuestionStatus>("all");
+  const [searchQuery, setSearchQuery] = useState("");
+  const [reviews, setReviews] = useState<Record<string, DraftQuestionReview>>(() => loadDraftQuestionReviews());
+  const filteredQuestions = DRAFT_QUESTIONS.filter((question) => {
+    const review = reviews[question.id];
+    const status = review?.status || question.status;
+    const search = searchQuery.trim().toLowerCase();
+    const matchesStatus = statusFilter === "all" || status === statusFilter;
+    const matchesSearch = !search || [question.id, question.questionSv, question.questionEn, question.topicId, question.chapterId, question.difficulty, ...question.tags].some((item) => item.toLowerCase().includes(search));
+
+    return matchesStatus && matchesSearch;
+  });
+  const boundedIndex = Math.min(currentIndex, Math.max(filteredQuestions.length - 1, 0));
+  const question = filteredQuestions[boundedIndex];
+  const review = question ? reviews[question.id] : null;
+  const activeStatus = review?.status || question?.status || "draft";
+  const reviewedCount = DRAFT_QUESTIONS.filter((item) => (reviews[item.id]?.status || item.status) !== "draft").length;
+  const approvedCount = DRAFT_QUESTIONS.filter((item) => (reviews[item.id]?.status || item.status) === "approved").length;
+
+  useEffect(() => {
+    if (currentIndex !== boundedIndex) {
+      setCurrentIndex(boundedIndex);
+    }
+  }, [boundedIndex, currentIndex]);
+
+  function updateReview(questionId: string, next: Partial<DraftQuestionReview>) {
+    setReviews((current) => {
+      const existing = current[questionId] || { note: "", status: "draft", updatedAt: new Date().toISOString() };
+      const updated = {
+        ...current,
+        [questionId]: {
+          ...existing,
+          ...next,
+          updatedAt: new Date().toISOString()
+        }
+      };
+      localStorage.setItem(QUESTION_REVIEW_STORAGE_KEY, JSON.stringify(updated));
+      return updated;
+    });
+  }
+
+  function handleDecision(status: DraftQuestionStatus) {
+    if (!question) return;
+    updateReview(question.id, { status });
+  }
+
+  function handleExport() {
+    const payload = {
+      exportedAt: new Date().toISOString(),
+      summary: {
+        approved: approvedCount,
+        reviewed: reviewedCount,
+        total: DRAFT_QUESTIONS.length
+      },
+      reviews
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "question-review-decisions.json";
+    link.click();
+    URL.revokeObjectURL(url);
+  }
+
+  return (
+    <main className="shell question-review-page">
+      <nav className="topbar">
+        <button className="ghost" type="button" onClick={onBack}>Back to app</button>
+        <div className="topbar-tools">
+          <button className="secondary" type="button" onClick={handleExport}>Export review JSON</button>
+        </div>
+      </nav>
+
+      <section className="question-review-hero">
+        <p className="eyebrow">Local content review</p>
+        <h1>Draft question review</h1>
+        <p>Review generated Swedish civics questions before they become part of the public question bank.</p>
+        <div className="question-review-stats">
+          <span><strong>{DRAFT_QUESTIONS.length}</strong> draft questions</span>
+          <span><strong>{reviewedCount}</strong> reviewed</span>
+          <span><strong>{approvedCount}</strong> approved</span>
+        </div>
+      </section>
+
+      <section className="question-review-toolbar" aria-label="Review filters">
+        <label>
+          Search
+          <input value={searchQuery} onChange={(event) => setSearchQuery(event.target.value)} placeholder="question, tag, chapter, topic" />
+        </label>
+        <label>
+          Status
+          <select value={statusFilter} onChange={(event) => setStatusFilter(event.target.value as "all" | DraftQuestionStatus)}>
+            <option value="all">All</option>
+            <option value="draft">Draft</option>
+            <option value="approved">Approved</option>
+            <option value="needs_edit">Needs edit</option>
+            <option value="rejected">Rejected</option>
+          </select>
+        </label>
+      </section>
+
+      {question ? (
+        <section className="question-review-layout">
+          <article className="question-review-card">
+            <div className="question-review-meta">
+              <span>{boundedIndex + 1} / {filteredQuestions.length}</span>
+              <span>Chapter {question.chapterNumber}: {formatAdminChapterName(question.chapterId)}</span>
+              <span>{formatAdminTopicName(question.topicId, UI_TEXT.en)}</span>
+              <span>{question.difficulty}</span>
+              <span className={`review-status review-status-${activeStatus}`}>{formatDraftStatus(activeStatus)}</span>
+            </div>
+
+            <h2 lang="sv">{question.questionSv}</h2>
+            <p className="question-review-translation">{question.questionEn}</p>
+            <div className="question-review-options">
+              {question.options.map((option, index) => (
+                <div className={index === question.correctIndex ? "suggested-correct" : ""} key={option}>
+                  <strong>{String.fromCharCode(65 + index)}</strong>
+                  <span className="question-review-option-copy">
+                    <span lang="sv">{option}</span>
+                    <em>{question.optionsEn[index]}</em>
+                  </span>
+                  {index === question.correctIndex ? <small>Suggested answer</small> : null}
+                </div>
+              ))}
+            </div>
+
+            <div className="question-review-explanation">
+              <p className="eyebrow">Suggested explanation</p>
+              <p>{question.explanationEn}</p>
+            </div>
+
+            <div className="question-review-tags">
+              {question.tags.map((tag) => <span key={tag}>{tag}</span>)}
+            </div>
+          </article>
+
+          <aside className="question-review-side">
+            <div className="question-review-actions">
+              <button className="primary" type="button" onClick={() => handleDecision("approved")}>
+                <CheckCircle2 size={18} aria-hidden="true" />
+                Approve
+              </button>
+              <button className="secondary" type="button" onClick={() => handleDecision("needs_edit")}>Needs edit</button>
+              <button className="ghost" type="button" onClick={() => handleDecision("rejected")}>
+                <XCircle size={18} aria-hidden="true" />
+                Reject
+              </button>
+            </div>
+
+            <label className="question-review-note">
+              Review notes
+              <textarea
+                value={review?.note || ""}
+                onChange={(event) => updateReview(question.id, { note: event.target.value })}
+                placeholder="What should change before this question is approved?"
+                rows={8}
+              />
+            </label>
+
+            <div className="question-review-nav">
+              <button className="secondary" type="button" disabled={boundedIndex === 0} onClick={() => setCurrentIndex((index) => Math.max(index - 1, 0))}>Previous</button>
+              <button className="secondary" type="button" disabled={boundedIndex >= filteredQuestions.length - 1} onClick={() => setCurrentIndex((index) => Math.min(index + 1, filteredQuestions.length - 1))}>Next</button>
+            </div>
+          </aside>
+        </section>
+      ) : (
+        <section className="admin-panel"><p className="admin-empty-state">No draft questions match this filter.</p></section>
+      )}
+    </main>
+  );
+}
+
+function loadDraftQuestionReviews(): Record<string, DraftQuestionReview> {
+  try {
+    const raw = localStorage.getItem(QUESTION_REVIEW_STORAGE_KEY);
+    const parsed = raw ? JSON.parse(raw) : null;
+    return parsed && typeof parsed === "object" ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+function formatDraftStatus(status: DraftQuestionStatus) {
+  return status === "needs_edit" ? "Needs edit" : status.charAt(0).toUpperCase() + status.slice(1);
+}
+
+function formatAdminChapterName(chapterId: string) {
+  const chapter = OFFICIAL_CHAPTERS.find((item) => item.id === chapterId);
+  return chapter ? chapter.nameSv : chapterId;
 }
 
 function AdminDashboardPage({
@@ -2560,25 +2775,25 @@ function QuestionCard({
           </aside>
         ) : null}
         <div className="options">
-          {question.options.map((option, optionIndex) => {
-            const isSelected = selectedIndex === optionIndex;
-            const isCorrect = checked && optionIndex === question.correctIndex;
-            const isWrong = checked && isSelected && optionIndex !== question.correctIndex;
+          {getShuffledOptions(question).map(({ option, originalIndex }, displayIndex) => {
+            const isSelected = selectedIndex === originalIndex;
+            const isCorrect = checked && originalIndex === question.correctIndex;
+            const isWrong = checked && isSelected && originalIndex !== question.correctIndex;
             const statusClass = isCorrect ? "correct" : isWrong ? "wrong" : "";
             const statusLabel = isCorrect ? ui.correct : isWrong ? ui.incorrect : isSelected ? ui.selected : "";
-            const translatedOption = showHelp ? translation.options[optionIndex] : "";
+            const translatedOption = showHelp ? translation.options[originalIndex] : "";
 
             return (
-              <label className={`option ${isSelected ? "selected" : ""} ${statusClass}`} key={option}>
+              <label className={`option ${isSelected ? "selected" : ""} ${statusClass}`} key={`${question.id}-${originalIndex}`}>
                 <input
                   checked={isSelected}
                   disabled={checked}
                   name="answer"
-                  onChange={() => onSelectAnswer(optionIndex)}
+                  onChange={() => onSelectAnswer(originalIndex)}
                   type="radio"
-                  value={optionIndex}
+                  value={originalIndex}
                 />
-                <span className="option-letter" aria-hidden="true">{String.fromCharCode(65 + optionIndex)}</span>
+                <span className="option-letter" aria-hidden="true">{String.fromCharCode(65 + displayIndex)}</span>
                 <span className="option-text">
                   <span>{option}</span>
                   {translatedOption ? (
@@ -2602,6 +2817,28 @@ function QuestionCard({
   );
 }
 
+type ShuffledOption = {
+  option: string;
+  originalIndex: number;
+};
+
+function getShuffledOptions(question: Question): ShuffledOption[] {
+  return question.options
+    .map((option, originalIndex) => ({ option, originalIndex }))
+    .sort((left, right) => seededOptionRank(question.id, left.originalIndex) - seededOptionRank(question.id, right.originalIndex));
+}
+
+function seededOptionRank(questionId: string, optionIndex: number) {
+  const value = `${questionId}:${optionIndex}`;
+  let hash = 2166136261;
+
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+
+  return hash >>> 0;
+}
 function getQuestionHelpButtonLabel(questionHelpVisible: boolean, language: UiLanguage, ui: UiText) {
   if (questionHelpVisible) {
     return ui.hideQuestionHelp;

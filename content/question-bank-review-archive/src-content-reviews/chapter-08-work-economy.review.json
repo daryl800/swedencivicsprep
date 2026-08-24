@@ -1,0 +1,339 @@
+[
+  {
+    "id": "draft-ch08-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-003",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-005",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-006",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-007",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-008",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-010",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-011",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-012",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-013",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-014",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-015",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-016",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-017",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-018",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-019",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractor quality (criterion 4): options 2 and 3 ('Den som röstar åt andra människor', 'Den som skriver alla lagar i domstol') are absurd rather than plausible misconceptions, and option 1 ('Den som alltid är arbetslös') is also weak. Replace with realistic wrong definitions so the item actually discriminates at 'easy'."
+    ],
+    "suggestedOptions": [
+      "Den som anställer någon och leder arbetet.",
+      "Den som söker arbete hos ett företag.",
+      "Den som hyr ut en bostad till arbetstagaren.",
+      "En myndighet som fastställer alla löner i landet."
+    ],
+    "suggestedCorrectIndex": 0
+  },
+  {
+    "id": "draft-ch08-020",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-021",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-022",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractor quality (criterion 4): all three distractors are cartoonish ('alla ska få rösta två gånger', 'domstolar ska sälja privata bostäder', 'ingen ska behöva följa trafikregler'), making the 'easy' item fail to test understanding. Swap them for plausible misconceptions about what taxes fund or who sets them."
+    ],
+    "suggestedOptions": [
+      "För att finansiera gemensamma samhällsfunktioner som vård, skola och omsorg.",
+      "För att alla invånare ska få samma lön oavsett yrke.",
+      "För att staten ska kunna äga alla företag.",
+      "För att kommuner helt fritt ska bestämma skattesatserna själva."
+    ],
+    "suggestedCorrectIndex": 0
+  },
+  {
+    "id": "draft-ch08-023",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-024",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-025",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-026",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-027",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-028",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-029",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-030",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-031",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-032",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-033",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-034",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-035",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-036",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-037",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-038",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-039",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-040",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-041",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-042",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-043",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-044",
+    "verdict": "needs_edit",
+    "issues": [
+      "Ambiguity (criterion 6): option 2 ('Möjligheten att få svenskt medborgarskap vid ansökan') is not clearly wrong after study — poor financial conduct ('skötsamhet') can be a factor in a citizenship assessment, so the option reads as partially plausible. Replace it with a clearly unrelated distractor (e.g. voting rights) so exactly one option is clearly best."
+    ],
+    "suggestedOptions": [
+      "Möjligheten att få lån, hyreskontrakt eller vissa abonnemang.",
+      "Rätten att få ut sin sjukpenning från Försäkringskassan.",
+      "Rätten att rösta i allmänna val.",
+      "Rätten att starta och registrera ett enskilt bolag."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "A payment default record can make it harder to get loans, rental contracts, and certain subscriptions. It does not affect the right to vote or the right to start a business."
+  },
+  {
+    "id": "draft-ch08-045",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-046",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-047",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-048",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-049",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-050",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-051",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-052",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-053",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-054",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-055",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-056",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-057",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-058",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractor quality (criterion 4): options 1-3 ('Röstkortet', 'Domstolens sigill', 'Namnet på kommunen') are not even cost-related, so they cannot test whether the learner understands which household costs are typically largest. Use plausible everyday expenses as distractors."
+    ],
+    "suggestedOptions": [
+      "Boendekostnaden.",
+      "Utgifter för fritidsaktiviteter och resor.",
+      "Kostnader för kläder och livsmedel.",
+      "Avgifter för tidningar och småköp."
+    ],
+    "suggestedCorrectIndex": 0
+  },
+  {
+    "id": "draft-ch08-059",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch08-060",
+    "verdict": "approve",
+    "issues": []
+  }
+]

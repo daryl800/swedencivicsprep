@@ -1,0 +1,89 @@
+[
+  {
+    "id": "draft-extra-ch012-001",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "sekulär-stat"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (extra draft)",
+    "questionSv": "Sverige beskrivs ofta som en sekulär stat. Vad innebär det?",
+    "questionEn": "Sweden is often described as a secular state. What does that mean?",
+    "options": [
+      "Att staten och religionen är skilda åt och staten förhåller sig neutral i religiösa frågor.",
+      "Att all religion är förbjuden på offentliga platser och i skolan.",
+      "Att staten bestämmer vilken religion medborgarna ska tillhöra.",
+      "Att Svenska kyrkan har politisk makt över riksdagens lagstiftning."
+    ],
+    "optionsEn": [
+      "That state and religion are separated and the state is neutral in religious matters.",
+      "That all religion is forbidden in public places and in school.",
+      "That the state decides which religion citizens must belong to.",
+      "That the Church of Sweden has political power over Riksdag legislation."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A secular state means that religion and the state are separated, and the state remains neutral on religious matters.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch012-002",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "religionsfrihet"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (extra draft)",
+    "questionSv": "Vad innebär religionsfriheten i den svenska grundlagen?",
+    "questionEn": "What does freedom of religion in the Swedish constitution mean?",
+    "options": [
+      "Att varje individ har rätt att fritt utöva sin religion eller välja att inte ha någon religion alls.",
+      "Att man måste tillhöra ett registrerat trossamfund för att få arbeta i Sverige.",
+      "Att endast kristendomen får utövas öppet i det svenska samhället.",
+      "Att staten automatiskt registrerar alla nyfödda i Svenska kyrkan."
+    ],
+    "optionsEn": [
+      "That every individual has the right to freely practice their religion or choose not to have any religion at all.",
+      "That one must belong to a registered religious community to work in Sweden.",
+      "That only Christianity may be practiced openly in Swedish society.",
+      "That the state automatically registers all newborns in the Church of Sweden."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of religion means everyone has the right to practice their religion or choose not to have one at all.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch012-015",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "vård-och-religiösa-önskemål"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (extra draft)",
+    "questionSv": "Hur förhåller sig svensk vård till patienters religiösa önskemål?",
+    "questionEn": "How does Swedish healthcare relate to patients’ religious wishes?",
+    "options": [
+      "Vården ska så långt möjligt respektera önskemål som inte strider mot lag eller patientsäkerhet.",
+      "Vården måste alltid följa patientens religion framför den medicinska bedömningen.",
+      "Religiösa önskemål får aldrig nämnas i kontakt med vården.",
+      "Endast kristna önskemål behöver respekteras inom offentlig vård."
+    ],
+    "optionsEn": [
+      "Healthcare should respect wishes as far as possible when they do not conflict with law or patient safety.",
+      "Healthcare must always follow the patient’s religion before the medical assessment.",
+      "Religious wishes may never be mentioned in contact with healthcare.",
+      "Only Christian wishes need to be respected in public healthcare."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish healthcare should respect patients' religious wishes as far as possible without conflicting with law or patient safety. It is not absolute, is not banned from discussion, and is not limited to one religion.",
+    "status": "draft"
+  }
+]

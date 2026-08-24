@@ -1,0 +1,424 @@
+[
+  {
+    "id": "draft-ch13-001",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-002",
+    "verdict": "approve",
+    "issues": [
+      "Distractor 'Nej, högtider får bara firas i skolor' is grammatically fine but semantically odd; still clearly wrong after study, so acceptable. Two options start with 'Nej' (correct + this one) which could momentarily confuse; not a blocker."
+    ],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-003",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-004",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-005",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-006",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-007",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-008",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-009",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-010",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-011",
+    "verdict": "needs_edit",
+    "issues": [
+      "Typo in distractor option 2: 'Firarar skolavslutning.' should be 'Firar skolavslutning.' (extra 'ar')."
+    ],
+    "suggestedOptions": [
+      "Tänder ljus vid gravar och minns döda.",
+      "Dansar runt midsommarstången.",
+      "Firar skolavslutning.",
+      "Röstar i riksdagsval."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "All Saints’ Day is often a time to remember people who have died.",
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-012",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-013",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-014",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-015",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-016",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-017",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-018",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-019",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-020",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch13-021",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-022",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-023",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-024",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-025",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-026",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-027",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-028",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-029",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-030",
+    "verdict": "needs_edit",
+    "issues": [
+      "Typo in distractor option 3: 'Firarar första maj med demonstration.' should be 'Firar första maj med demonstration.' (extra 'ar')."
+    ],
+    "suggestedOptions": [
+      "Tänder adventsljus och förbereder julen.",
+      "Dansar runt midsommarstången.",
+      "Röstar i kommunalval.",
+      "Firar första maj med demonstration."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "Advent customs often include candles and preparation for Christmas.",
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-031",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-032",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-033",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-034",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-035",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-036",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-037",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-038",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-039",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-040",
+    "verdict": "approve",
+    "issues": [],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-041",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'the family loses the right to participate in society'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-042",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'the pupil must change religion to attend school'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-043",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'people who do not celebrate Christmas should be excluded from the workplace'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-044",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'discrimination is allowed if it is old'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-045",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'National Day removes minorities' rights'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-046",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'changed traditions automatically become illegal'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-047",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'it is forbidden to celebrate without religious belief'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-048",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'immigration makes traditions impossible'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-049",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'the municipality should decide which religion residents must have'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-050",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'Midsummer is mainly about grave candles'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-051",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'it is Sweden's largest religious Christmas holiday'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-052",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'the tradition automatically becomes a law'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-053",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'they automatically decide the child's citizenship'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-054",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'public holidays do not exist in Sweden'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-055",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'the state must choose one single version'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-056",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'they decide which judgments courts should write'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-057",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'to decide one mandatory culture for all residents'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-058",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'the state should register refusal as a crime'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-059",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'Lucia is Sweden's National Day'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch13-060",
+    "verdict": "approve",
+    "issues": [
+      "Distractors are very weak/absurd (e.g. 'they automatically decide who may vote'), so the item reads as easy despite the 'hard' label. Strengthen with more plausible distractors or relabel to medium."
+    ],
+    "difficultySuggestion": "medium"
+  }
+]

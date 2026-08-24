@@ -1,0 +1,60 @@
+[
+  {
+    "id": "draft-extra-ch008-007",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "svartarbete"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi (extra draft)",
+    "questionSv": "Vad menas med svartarbete i Sverige?",
+    "questionEn": "What is meant by undeclared work in Sweden?",
+    "options": [
+      "Att arbeta eller anlita någon utan att skatt och socialavgifter redovisas.",
+      "Att arbeta på kvällar och helger i stället för kontorstid.",
+      "Att ha ett jobb som saknar kollektivavtal.",
+      "Att få lön utbetald kontant i stället för till ett bankkonto."
+    ],
+    "optionsEn": [
+      "Working or hiring someone without reporting tax and social contributions.",
+      "Working evenings and weekends instead of office hours.",
+      "Having a job without a collective agreement.",
+      "Receiving salary in cash instead of to a bank account."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Svartarbete means work performed or hired without tax and social contributions being reported. Working evenings, lacking a collective agreement, or being paid in cash are not themselves svartarbete.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch008-010",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "betalningsanmärkning"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi (extra draft)",
+    "questionSv": "Vad är en betalningsanmärkning?",
+    "questionEn": "What is a payment default record?",
+    "options": [
+      "En notering om en obetald skuld som kan göra det svårare att få lån eller hyra.",
+      "Ett intyg som visar att alla skatter är betalda i tid.",
+      "En gratis kreditupplysning som alla får en gång per år.",
+      "En uppgift som raderas automatiskt efter en enda dag."
+    ],
+    "optionsEn": [
+      "A note about an unpaid debt that can make it harder to get loans or rent housing.",
+      "A certificate showing that all taxes were paid on time.",
+      "A free credit report that everyone receives once per year.",
+      "Information that is automatically deleted after one single day."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A betalningsanmärkning is a registered note that a debt was unpaid; it can make loans and rental contracts harder to get and stays on record for about three years.",
+    "status": "draft"
+  }
+]

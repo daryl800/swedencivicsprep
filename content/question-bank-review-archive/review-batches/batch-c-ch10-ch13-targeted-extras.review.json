@@ -1,0 +1,316 @@
+[
+  {
+    "id": "draft-batch-c-ch10-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch10-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch10-003",
+    "verdict": "needs_edit",
+    "issues": ["Difficulty (criterion 6): labeled 'hard' but is a recall/why question about emigration causes, not an applied scenario; the chapter ladder places this at 'medium'."],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-batch-c-ch10-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch10-005",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch10-006",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch10-007",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch10-008",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch10-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch10-010",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch10-011",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch10-012",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch10-013",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch10-014",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch10-015",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-003",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-005",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-006",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-007",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-008",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-010",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-011",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-012",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-013",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-014",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch11-015",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch12-001",
+    "verdict": "needs_edit",
+    "issues": ["Difficulty (criterion 6): labeled 'hard' but is a why/significance question about secular decision-making, not an applied scenario; the chapter ladder places this at 'medium'."],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-batch-c-ch12-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch12-003",
+    "verdict": "needs_edit",
+    "issues": ["Difficulty (criterion 6): labeled 'hard' but is a why/significance question about neutral teaching, not an applied scenario; the chapter ladder places this at 'medium'."],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-batch-c-ch12-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch12-005",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch12-006",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch12-007",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch12-008",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch12-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch12-010",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch12-011",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch12-012",
+    "verdict": "needs_edit",
+    "issues": ["Difficulty (criterion 6): labeled 'hard' but is a why/significance question about knowledge and prejudice, not an applied scenario; the chapter ladder places this at 'medium'."],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-batch-c-ch12-013",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch12-014",
+    "verdict": "needs_edit",
+    "issues": ["Difficulty (criterion 6): labeled 'hard' but is a why/significance question about democratic participation, not an applied scenario; the chapter ladder places this at 'medium'."],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-batch-c-ch12-015",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch13-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch13-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch13-003",
+    "verdict": "needs_edit",
+    "issues": ["Distractor quality (criterion 4/5): O1 'riksdagsritual där nya lagar beslutas varje år' and O3 'förbjuden i kommuner som inte har majbrasor' are cartoonish/absurd; the correct answer is obvious without knowledge. Replace with plausible misconceptions about Valborg."],
+    "suggestedOptions": [
+      "Den är en vårtradition som kan firas socialt, lokalt och kulturellt utan ett enda obligatoriskt sätt.",
+      "Den är en religiös högtid som kräver kyrkobesök av alla invånare.",
+      "Valborg är bara en studenttradition och firas sällan av allmänheten.",
+      "Det är en lagstadgad plikt för alla kommuner att ordna majbrasor."
+    ],
+    "suggestedCorrectIndex": 0
+  },
+  {
+    "id": "draft-batch-c-ch13-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch13-005",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch13-006",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch13-007",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch13-008",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch13-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch13-010",
+    "verdict": "needs_edit",
+    "issues": ["Difficulty (criterion 6): labeled 'hard' but is a why/significance question about how traditions change, not an applied scenario; the chapter ladder places this at 'medium'."],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-batch-c-ch13-011",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch13-012",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch13-013",
+    "verdict": "needs_edit",
+    "issues": ["Difficulty (criterion 6): labeled 'hard' but is a why/significance question about why funerals vary, not an applied scenario; the chapter ladder places this at 'medium'."],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-batch-c-ch13-014",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-c-ch13-015",
+    "verdict": "approve",
+    "issues": []
+  }
+]

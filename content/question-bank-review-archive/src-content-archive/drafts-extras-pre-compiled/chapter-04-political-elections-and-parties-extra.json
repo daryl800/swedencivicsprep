@@ -1,0 +1,31 @@
+[
+  {
+    "id": "draft-extra-ch004-004",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "fyraprocentsspärr"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (extra draft)",
+    "questionSv": "Vad innebär spärrregeln vid val till riksdagen?",
+    "questionEn": "What does the threshold rule mean in elections to the Riksdag?",
+    "options": [
+      "Ett parti måste få minst 4 procent av rösterna i hela landet för att få mandat.",
+      "Spärren gäller bara partier som står utanför riksdagen, inte sittande partier.",
+      "Riksdagen höjer spärren till 8 procent varje gång ett nytt parti kommer in.",
+      "Valmyndigheten bestämmer spärren från val till val efter valdeltagandet."
+    ],
+    "optionsEn": [
+      "A party must receive at least 4 percent of the votes nationwide to get seats.",
+      "The threshold only applies to parties outside the Riksdag, not sitting parties.",
+      "The Riksdag raises the threshold to 8 percent every time a new party enters.",
+      "The Election Authority decides the threshold from election to election based on turnout."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "To enter the Riksdag a party normally needs at least 4% of the national vote (or 12% in a single constituency). The threshold is fixed by law and applies to all parties.",
+    "status": "draft"
+  }
+]

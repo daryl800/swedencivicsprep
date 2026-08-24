@@ -1,0 +1,572 @@
+[
+  {
+    "sourceFile": "chapter-03-how-sweden-is-governed-extra.json",
+    "id": "draft-extra-ch003-008",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "ku-granskning"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (extra draft)",
+    "questionSv": "Vad gör Konstitutionsutskottet (KU)?",
+    "questionEn": "What does the Committee on the Constitution (KU) do?",
+    "options": [
+      "Det granskar hur regeringen och ministrarna följer lagar och riksdagens beslut.",
+      "Det stiftar nya lagar som går före regeringens beslut.",
+      "Det leder regeringens arbete när statsministern är frånvarande.",
+      "Det utser domare till Högsta domstolen."
+    ],
+    "optionsEn": [
+      "It scrutinizes how the government and ministers follow laws and Riksdag decisions.",
+      "It makes new laws that take priority over government decisions.",
+      "It leads the government’s work when the prime minister is absent.",
+      "It appoints judges to the Supreme Court."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Committee on the Constitution (Konstitutionsutskottet, KU) scrutinizes the government and ministers for compliance with laws and Riksdag decisions. It does not make laws, lead the government, or appoint judges.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-03-how-sweden-is-governed-extra.json",
+    "id": "draft-extra-ch003-012",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "misstroendeförklaring"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (extra draft)",
+    "questionSv": "Vad innebär ett misstroendevotum (misstroendeförklaring) i Sverige?",
+    "questionEn": "What does a vote of no confidence mean in Sweden?",
+    "options": [
+      "Riksdagen kan rösta bort en minister eller hela regeringen som den inte har förtroende för.",
+      "Regeringen kan upplösa riksdagen när den förlorar en omröstning.",
+      "Endast statsministern kan avsättas, aldrig enskilda ministrar.",
+      "Ett misstroendebeslut fattas av Högsta domstolen, inte av riksdagen."
+    ],
+    "optionsEn": [
+      "The Riksdag can vote out a minister or the whole government if it no longer has confidence in them.",
+      "The government can dissolve the Riksdag when it loses a vote.",
+      "Only the prime minister can be removed, never individual ministers.",
+      "A no-confidence decision is made by the Supreme Court, not by the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A motion of no confidence (misstroendeförklaring) lets the Riksdag remove a minister or the whole government if it loses confidence. The government cannot dissolve the Riksdag; individual ministers can be targeted; the decision is the Riksdag's, not the courts'.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-04-political-elections-and-parties-extra.json",
+    "id": "draft-extra-ch004-004",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "fyraprocentsspärr"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (extra draft)",
+    "questionSv": "Vad innebär spärrregeln vid val till riksdagen?",
+    "questionEn": "What does the threshold rule mean in elections to the Riksdag?",
+    "options": [
+      "Ett parti måste få minst 4 procent av rösterna i hela landet för att få mandat.",
+      "Spärren gäller bara partier som står utanför riksdagen, inte sittande partier.",
+      "Riksdagen höjer spärren till 8 procent varje gång ett nytt parti kommer in.",
+      "Valmyndigheten bestämmer spärren från val till val efter valdeltagandet."
+    ],
+    "optionsEn": [
+      "A party must receive at least 4 percent of the votes nationwide to get seats.",
+      "The threshold only applies to parties outside the Riksdag, not sitting parties.",
+      "The Riksdag raises the threshold to 8 percent every time a new party enters.",
+      "The Election Authority decides the threshold from election to election based on turnout."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "To enter the Riksdag a party normally needs at least 4% of the national vote (or 12% in a single constituency). The threshold is fixed by law and applies to all parties.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-05-law-and-justice-extra.json",
+    "id": "draft-extra-ch005-012",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "förbud-mot-retroaktiv-strafflag"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (extra draft)",
+    "questionSv": "Vad säger förbudet mot retroaktiv strafflag i Sverige?",
+    "questionEn": "What does the ban on retroactive criminal law mean in Sweden?",
+    "options": [
+      "Ingen kan dömas för en gärning som inte var brottslig när den begicks.",
+      "Straffet bestäms alltid enligt de lagar som gäller när domen faller.",
+      "Riksdagen får införa lagar som gäller bakåt i tiden för brott.",
+      "Förbudet gäller bara brott mot grundlagar, inte vanlig lag."
+    ],
+    "optionsEn": [
+      "No one can be convicted for an act that was not criminal when it was committed.",
+      "The penalty is always decided according to the laws in force when the judgment is issued.",
+      "The Riksdag may introduce laws that apply backwards in time to crimes.",
+      "The ban only applies to crimes against constitutional laws, not ordinary law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The ban on retroactive criminal law means no one can be punished for an act that was not a crime when committed. Parliament cannot enact laws that apply backwards to criminalize past conduct.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-07-human-rights-extra.json",
+    "id": "draft-extra-ch007-020",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "extra",
+      "rättighetskonflikter"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (extra draft)",
+    "questionSv": "Vad händer när två grundläggande rättigheter kolliderar?",
+    "questionEn": "What happens when two fundamental rights conflict?",
+    "options": [
+      "Domstolar och myndigheter måste väga rättigheterna mot varandra i det enskilda fallet.",
+      "Den rättighet som tillkom senast upphäver alltid äldre rättigheter.",
+      "Yttrandefriheten väger alltid tyngre än alla andra rättigheter.",
+      "Konflikter mellan rättigheter avgörs genom en folkomröstning."
+    ],
+    "optionsEn": [
+      "Courts and authorities must weigh the rights against each other in the individual case.",
+      "The right created most recently always cancels older rights.",
+      "Freedom of expression always outweighs all other rights.",
+      "Conflicts between rights are decided by referendum."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "When rights conflict, courts and authorities weigh them against each other in the specific case; no right is automatically absolute, and conflicts are not decided by referendum.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-08-work-economy-extra.json",
+    "id": "draft-extra-ch008-007",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "svartarbete"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi (extra draft)",
+    "questionSv": "Vad menas med svartarbete i Sverige?",
+    "questionEn": "What is meant by undeclared work in Sweden?",
+    "options": [
+      "Att arbeta eller anlita någon utan att skatt och socialavgifter redovisas.",
+      "Att arbeta på kvällar och helger i stället för kontorstid.",
+      "Att ha ett jobb som saknar kollektivavtal.",
+      "Att få lön utbetald kontant i stället för till ett bankkonto."
+    ],
+    "optionsEn": [
+      "Working or hiring someone without reporting tax and social contributions.",
+      "Working evenings and weekends instead of office hours.",
+      "Having a job without a collective agreement.",
+      "Receiving salary in cash instead of to a bank account."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Svartarbete means work performed or hired without tax and social contributions being reported. Working evenings, lacking a collective agreement, or being paid in cash are not themselves svartarbete.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-08-work-economy-extra.json",
+    "id": "draft-extra-ch008-010",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "betalningsanmärkning"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi (extra draft)",
+    "questionSv": "Vad är en betalningsanmärkning?",
+    "questionEn": "What is a payment default record?",
+    "options": [
+      "En notering om en obetald skuld som kan göra det svårare att få lån eller hyra.",
+      "Ett intyg som visar att alla skatter är betalda i tid.",
+      "En gratis kreditupplysning som alla får en gång per år.",
+      "En uppgift som raderas automatiskt efter en enda dag."
+    ],
+    "optionsEn": [
+      "A note about an unpaid debt that can make it harder to get loans or rent housing.",
+      "A certificate showing that all taxes were paid on time.",
+      "A free credit report that everyone receives once per year.",
+      "Information that is automatically deleted after one single day."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A betalningsanmärkning is a registered note that a debt was unpaid; it can make loans and rental contracts harder to get and stays on record for about three years.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-09-welfare-society-extra.json",
+    "id": "draft-extra-ch009-001",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "vårdcentral"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (extra draft)",
+    "questionSv": "Vart bör du i första hand vända dig om du blir sjuk och behöver träffa en läkare, men tillståndet inte är akut?",
+    "questionEn": "Where should you first turn if you are ill and need to see a doctor, but the condition is not an emergency?",
+    "options": [
+      "Till en vårdcentral.",
+      "Till sjukhusets akutmottagning.",
+      "Till socialtjänsten i din kommun.",
+      "Till Försäkringskassan."
+    ],
+    "optionsEn": [
+      "To a health centre.",
+      "To the hospital emergency department.",
+      "To social services in your municipality.",
+      "To the Swedish Social Insurance Agency."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A vårdcentral (health center) is the first point of contact for non-emergency medical issues in Sweden.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-09-welfare-society-extra.json",
+    "id": "draft-extra-ch009-011",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "behovsprövning"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (extra draft)",
+    "questionSv": "Vad betyder behovsprövning inom socialtjänsten?",
+    "questionEn": "What does means testing mean within social services?",
+    "options": [
+      "Stöd beviljas efter en bedömning av den sökandes ekonomi och behov.",
+      "Alla invånare får exakt samma stöd oavsett inkomst.",
+      "Stöd ges bara till den som aldrig har haft ett jobb.",
+      "Prövningen görs av Arbetsförmedlingen vid varje jobbsökande."
+    ],
+    "optionsEn": [
+      "Support is granted after an assessment of the applicant’s finances and needs.",
+      "All residents receive exactly the same support regardless of income.",
+      "Support is only given to someone who has never had a job.",
+      "The assessment is made by the Public Employment Service at every job search."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Behovsprövning means support is granted after assessing the applicant's financial situation and needs. It is not flat-rate for everyone, not limited to never-employed, and is done by social services, not the Public Employment Service.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-09-welfare-society-extra.json",
+    "id": "draft-extra-ch009-016",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "högkostnadsskydd"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (extra draft)",
+    "questionSv": "Vad är högkostnadsskydd inom svensk hälso- och sjukvård?",
+    "questionEn": "What is high-cost protection in Swedish healthcare?",
+    "options": [
+      "Ett tak som begränsar hur mycket du själv betalar för vård under ett år.",
+      "Ett tillägg som gör vården dyrare för den som tjänar mest.",
+      "Ett skydd som gäller endast privat vård, inte den offentliga.",
+      "En frivillig försäkring som betalar dina resor till vårdcentralen."
+    ],
+    "optionsEn": [
+      "A ceiling that limits how much you pay yourself for healthcare during a year.",
+      "An extra charge that makes healthcare more expensive for the highest earners.",
+      "Protection that applies only to private healthcare, not public healthcare.",
+      "A voluntary insurance that pays for your travel to the health centre."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Högkostnadsskydd caps how much you pay for healthcare within a period (usually a year). It is not an income surcharge, does not apply only to private care, and is not a travel insurance.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-10-modern-history-extra.json",
+    "id": "draft-extra-ch010-001",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "industrialisering"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (extra draft)",
+    "questionSv": "Hur påverkade industrialiseringen Sverige under sent 1800-tal och tidigt 1900-tal?",
+    "questionEn": "How did industrialization affect Sweden in the late 1800s and early 1900s?",
+    "options": [
+      "Många människor flyttade från landsbygden till städerna för att arbeta i fabriker.",
+      "De flesta valde att flytta från städerna till landsbygden för att arbeta med modernt jordbruk.",
+      "Sverige stängde sina gränser för att skydda den inhemska hantverksproduktionen.",
+      "Befolkningen i landet minskade kraftigt eftersom de flesta fabriker lades ner."
+    ],
+    "optionsEn": [
+      "Many people moved from the countryside to cities to work in factories.",
+      "Most people chose to move from cities to the countryside to work with modern agriculture.",
+      "Sweden closed its borders to protect domestic craft production.",
+      "The country’s population fell sharply because most factories closed."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Industrialization caused a major demographic shift as people moved from the countryside to cities for factory jobs.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-10-modern-history-extra.json",
+    "id": "draft-extra-ch010-013",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "neutralitetspolitik"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (extra draft)",
+    "questionSv": "Vad innebar Sveriges neutralitetspolitik under 1900-talet?",
+    "questionEn": "What did Sweden’s neutrality policy mean during the 20th century?",
+    "options": [
+      "Sverige höll sig utanför krig och militära allianser i fredstid för att kunna vara neutralt i krig.",
+      "Sverige var formellt allierat med de nordiska grannländerna mot stormakterna.",
+      "Sverige vägrade att bedriva internationell handel med länder som var inblandade i krig.",
+      "Sverige överlät sitt försvar helt till FN och avskaffade sin egen militär."
+    ],
+    "optionsEn": [
+      "Sweden stayed outside wars and military alliances in peacetime to be able to remain neutral in war.",
+      "Sweden was formally allied with its Nordic neighbours against the great powers.",
+      "Sweden refused to conduct international trade with countries involved in war.",
+      "Sweden handed over its defense completely to the UN and abolished its own military."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "During the 20th century, Sweden pursued a policy of non-alignment in peacetime aiming for neutrality in war. It did not form formal military alliances with its neighbors, nor did it stop trading or abolish its military.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-11-sweden-and-world-extra.json",
+    "id": "draft-extra-ch011-001",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "authorities",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "eu-samarbete"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (extra draft)",
+    "questionSv": "Vilken påverkan har Sveriges medlemskap i EU på svensk lagstiftning?",
+    "questionEn": "What effect does Sweden’s EU membership have on Swedish legislation?",
+    "options": [
+      "Sverige måste följa EU:s gemensamma lagar, vilket påverkar en stor del av svensk lagstiftning.",
+      "EU har ingen påverkan på svensk lagstiftning, eftersom riksdagen beslutar helt oberoende i alla frågor.",
+      "Sveriges regering utses av EU-parlamentet i stället för av riksdagen.",
+      "Svenska domstolar får inte döma i brottmål utan godkännande från en EU-domstol."
+    ],
+    "optionsEn": [
+      "Sweden must follow common EU laws, which affects a large part of Swedish legislation.",
+      "The EU has no effect on Swedish legislation, because the Riksdag decides completely independently in all matters.",
+      "Sweden’s government is appointed by the European Parliament instead of by the Riksdag.",
+      "Swedish courts may not judge criminal cases without approval from an EU court."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "EU membership means Sweden must follow common EU laws, which significantly impact national legislation. The Riksdag does not act completely independently in areas where EU law applies.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-11-sweden-and-world-extra.json",
+    "id": "draft-extra-ch011-019",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "authorities",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "konsulär-hjälp"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (extra draft)",
+    "questionSv": "Vad ger svenska ambassader och konsulat dig som medborgare utomlands?",
+    "questionEn": "What can Swedish embassies and consulates give you as a citizen abroad?",
+    "options": [
+      "Hjälp vid nödsituationer, till exempel vid passförlust eller arrestering.",
+      "Rättslig immunitet så att du inte lyder värdlandets lag.",
+      "Ambassaden bokar och betalar alltid din hemresa vid reseproblem.",
+      "Du kan rösta i svenska val på ambassaden utan att vara folkbokförd."
+    ],
+    "optionsEn": [
+      "Help in emergencies, for example if you lose your passport or are arrested.",
+      "Legal immunity so you do not obey the host country’s law.",
+      "The embassy always books and pays for your trip home when travel problems happen.",
+      "You can vote in Swedish elections at the embassy without being registered."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Consular help from Swedish embassies/consulates assists citizens abroad in emergencies (e.g., lost passport, arrest). It does not exempt you from local law, does not guarantee a free ticket home, and voting abroad requires being registered.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-12-secular-state-extra.json",
+    "id": "draft-extra-ch012-001",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "sekulär-stat"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (extra draft)",
+    "questionSv": "Sverige beskrivs ofta som en sekulär stat. Vad innebär det?",
+    "questionEn": "Sweden is often described as a secular state. What does that mean?",
+    "options": [
+      "Att staten och religionen är skilda åt och staten förhåller sig neutral i religiösa frågor.",
+      "Att all religion är förbjuden på offentliga platser och i skolan.",
+      "Att staten bestämmer vilken religion medborgarna ska tillhöra.",
+      "Att Svenska kyrkan har politisk makt över riksdagens lagstiftning."
+    ],
+    "optionsEn": [
+      "That state and religion are separated and the state is neutral in religious matters.",
+      "That all religion is forbidden in public places and in school.",
+      "That the state decides which religion citizens must belong to.",
+      "That the Church of Sweden has political power over Riksdag legislation."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A secular state means that religion and the state are separated, and the state remains neutral on religious matters.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-12-secular-state-extra.json",
+    "id": "draft-extra-ch012-002",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "religionsfrihet"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (extra draft)",
+    "questionSv": "Vad innebär religionsfriheten i den svenska grundlagen?",
+    "questionEn": "What does freedom of religion in the Swedish constitution mean?",
+    "options": [
+      "Att varje individ har rätt att fritt utöva sin religion eller välja att inte ha någon religion alls.",
+      "Att man måste tillhöra ett registrerat trossamfund för att få arbeta i Sverige.",
+      "Att endast kristendomen får utövas öppet i det svenska samhället.",
+      "Att staten automatiskt registrerar alla nyfödda i Svenska kyrkan."
+    ],
+    "optionsEn": [
+      "That every individual has the right to freely practice their religion or choose not to have any religion at all.",
+      "That one must belong to a registered religious community to work in Sweden.",
+      "That only Christianity may be practiced openly in Swedish society.",
+      "That the state automatically registers all newborns in the Church of Sweden."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of religion means everyone has the right to practice their religion or choose not to have one at all.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-12-secular-state-extra.json",
+    "id": "draft-extra-ch012-015",
+    "chapterId": "secular-state",
+    "chapterNumber": 12,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "vård-och-religiösa-önskemål"
+    ],
+    "source": "Sverige i fokus, chapter 12: En sekulär stat och ett mångreligiöst land (extra draft)",
+    "questionSv": "Hur förhåller sig svensk vård till patienters religiösa önskemål?",
+    "questionEn": "How does Swedish healthcare relate to patients’ religious wishes?",
+    "options": [
+      "Vården ska så långt möjligt respektera önskemål som inte strider mot lag eller patientsäkerhet.",
+      "Vården måste alltid följa patientens religion framför den medicinska bedömningen.",
+      "Religiösa önskemål får aldrig nämnas i kontakt med vården.",
+      "Endast kristna önskemål behöver respekteras inom offentlig vård."
+    ],
+    "optionsEn": [
+      "Healthcare should respect wishes as far as possible when they do not conflict with law or patient safety.",
+      "Healthcare must always follow the patient’s religion before the medical assessment.",
+      "Religious wishes may never be mentioned in contact with healthcare.",
+      "Only Christian wishes need to be respected in public healthcare."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish healthcare should respect patients' religious wishes as far as possible without conflicting with law or patient safety. It is not absolute, is not banned from discussion, and is not limited to one religion.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-13-traditions-extra.json",
+    "id": "draft-extra-ch013-001",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "midsommar"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (extra draft)",
+    "questionSv": "Hur firas traditionellt midsommar i Sverige?",
+    "questionEn": "How is Midsummer traditionally celebrated in Sweden?",
+    "options": [
+      "Genom att dansa runt en midsommarstång och äta sill med potatis.",
+      "Genom att tända stora majbrasor för att fira vårens ankomst.",
+      "Genom att gå i tåg med ljus i håret och sjunga sånger.",
+      "Genom att klä ut sig och fråga efter godis i grannskapet."
+    ],
+    "optionsEn": [
+      "By dancing around a maypole and eating herring with potatoes.",
+      "By lighting large bonfires to celebrate the arrival of spring.",
+      "By walking in a procession with candles in the hair and singing songs.",
+      "By dressing up and asking neighbours for candy."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Midsummer is traditionally celebrated by dancing around a maypole and eating herring and potatoes.",
+    "status": "draft"
+  },
+  {
+    "sourceFile": "chapter-13-traditions-extra.json",
+    "id": "draft-extra-ch013-002",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "lucia"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (extra draft)",
+    "questionSv": "Vad är syftet med Luciafirandet den 13 december?",
+    "questionEn": "What is the purpose of the Lucia celebration on 13 December?",
+    "options": [
+      "Att sprida ljus i vintermörkret med sång och ett luciatåg.",
+      "Att fira minnet av Sveriges första kung.",
+      "Att fira sommarens ankomst med dans och musik.",
+      "Att uppmärksamma Sveriges nationaldag."
+    ],
+    "optionsEn": [
+      "To bring light into the winter darkness with song and a Lucia procession.",
+      "To commemorate Sweden’s first king.",
+      "To celebrate the arrival of summer with dance and music.",
+      "To mark Sweden’s National Day."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Lucia is celebrated on December 13th with a choir procession to bring light into the winter darkness.",
+    "status": "draft"
+  }
+]

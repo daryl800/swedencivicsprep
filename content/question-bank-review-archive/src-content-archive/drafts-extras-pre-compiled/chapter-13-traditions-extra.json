@@ -1,0 +1,60 @@
+[
+  {
+    "id": "draft-extra-ch013-001",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "midsommar"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (extra draft)",
+    "questionSv": "Hur firas traditionellt midsommar i Sverige?",
+    "questionEn": "How is Midsummer traditionally celebrated in Sweden?",
+    "options": [
+      "Genom att dansa runt en midsommarstång och äta sill med potatis.",
+      "Genom att tända stora majbrasor för att fira vårens ankomst.",
+      "Genom att gå i tåg med ljus i håret och sjunga sånger.",
+      "Genom att klä ut sig och fråga efter godis i grannskapet."
+    ],
+    "optionsEn": [
+      "By dancing around a maypole and eating herring with potatoes.",
+      "By lighting large bonfires to celebrate the arrival of spring.",
+      "By walking in a procession with candles in the hair and singing songs.",
+      "By dressing up and asking neighbours for candy."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Midsummer is traditionally celebrated by dancing around a maypole and eating herring and potatoes.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch013-002",
+    "chapterId": "traditions",
+    "chapterNumber": 13,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "lucia"
+    ],
+    "source": "Sverige i fokus, chapter 13: Traditioner och högtider (extra draft)",
+    "questionSv": "Vad är syftet med Luciafirandet den 13 december?",
+    "questionEn": "What is the purpose of the Lucia celebration on 13 December?",
+    "options": [
+      "Att sprida ljus i vintermörkret med sång och ett luciatåg.",
+      "Att fira minnet av Sveriges första kung.",
+      "Att fira sommarens ankomst med dans och musik.",
+      "Att uppmärksamma Sveriges nationaldag."
+    ],
+    "optionsEn": [
+      "To bring light into the winter darkness with song and a Lucia procession.",
+      "To commemorate Sweden’s first king.",
+      "To celebrate the arrival of summer with dance and music.",
+      "To mark Sweden’s National Day."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Lucia is celebrated on December 13th with a choir procession to bring light into the winter darkness.",
+    "status": "draft"
+  }
+]

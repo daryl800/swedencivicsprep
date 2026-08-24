@@ -1,0 +1,646 @@
+[
+  {
+    "id": "draft-batch-a-ch02-015",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "media-freedom",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Varför är det ett demokratiskt problem om staten kontrollerar all nyhetsrapportering?",
+    "questionEn": "Why is it a democratic problem if the state controls all news reporting?",
+    "options": [
+      "Medborgarna får svårare att granska makten och bilda sig en fri uppfattning.",
+      "Nyheterna blir automatiskt mer sanna när staten godkänner dem.",
+      "Valdeltagandet blir alltid högre med statlig nyhetskontroll.",
+      "Oppositionen får då mer utrymme i debatten."
+    ],
+    "optionsEn": [
+      "Citizens have a harder time scrutinizing power and forming a free opinion.",
+      "The news automatically becomes more true when the state approves it.",
+      "Voter turnout always becomes higher with state news control.",
+      "The opposition then gets more space in the debate."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "If those in power control all news, citizens lose independent information needed to scrutinize power and make free democratic choices.",
+    "status": "draft",
+    "file": "chapter-02-democratic-system.json"
+  },
+  {
+    "id": "draft-ch02-007",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy-forms",
+    "difficulty": "medium",
+    "tags": [
+      "democratic-system",
+      "riksdag",
+      "government"
+    ],
+    "source": "Sverige i fokus, chapter 2: Sveriges demokratiska system",
+    "questionSv": "Vad är skillnaden mellan direktdemokrati och representativ demokrati?",
+    "questionEn": "What is the difference between direct democracy and representative democracy?",
+    "options": [
+      "I direktdemokrati röstar folket direkt i sakfrågor, i representativ demokrati beslutar valda företrädare.",
+      "I representativ demokrati får bara experter rösta.",
+      "Direktdemokrati betyder att domstolar fattar alla politiska beslut.",
+      "Det finns ingen skillnad mellan de två formerna."
+    ],
+    "optionsEn": [
+      "In direct democracy, the people vote directly on issues; in representative democracy, elected representatives decide.",
+      "In representative democracy, only experts may vote.",
+      "Direct democracy means courts make all political decisions.",
+      "There is no difference between the two forms."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "In direct democracy citizens vote directly on individual issues, for example in referendums. Sweden mainly uses representative democracy, where elected representatives make most decisions.",
+    "status": "draft",
+    "file": "chapter-02-democratic-system.json"
+  },
+  {
+    "id": "draft-ch02-017",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "appeals-oversight",
+    "difficulty": "hard",
+    "tags": [
+      "democratic-system",
+      "courts",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 2: Sveriges demokratiska system",
+    "questionSv": "En person anser att en myndighet har behandlat hens ärende felaktigt. Vilket är ett rättssäkert sätt att gå vidare?",
+    "questionEn": "A person believes an authority has handled their case incorrectly. What is a legally secure way to proceed?",
+    "options": [
+      "Att överklaga beslutet eller klaga till en granskande instans som Justitieombudsmannen (JO).",
+      "Att erbjuda handläggaren en gåva för ett nytt beslut.",
+      "Att be ett politiskt parti ändra beslutet direkt.",
+      "Att sprida rykten om handläggaren tills beslutet ändras."
+    ],
+    "optionsEn": [
+      "To appeal the decision or complain to an oversight body such as the Parliamentary Ombudsman (JO).",
+      "To offer the case officer a gift for a new decision.",
+      "To ask a political party to change the decision directly.",
+      "To spread rumors about the case officer until the decision changes."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Legal certainty includes the right to appeal decisions and to complain to independent oversight bodies such as the Parliamentary Ombudsman (JO), rather than using bribes or political pressure.",
+    "status": "draft",
+    "file": "chapter-02-democratic-system.json"
+  },
+  {
+    "id": "draft-ch03-020",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "parliamentary-control",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "scrutiny",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Hur kan riksdagsledamöter ställa regeringen till svars mellan val?",
+    "questionEn": "How can members of the Riksdag hold the government accountable between elections?",
+    "options": [
+      "Genom frågor och interpellationer till ministrar.",
+      "Genom att själva döma ministrar i domstol.",
+      "Genom att ta över myndigheters enskilda ärenden.",
+      "Genom att skriva om grundlagen utan omröstning."
+    ],
+    "optionsEn": [
+      "Through questions and interpellations to ministers.",
+      "By personally judging ministers in court.",
+      "By taking over authorities’ individual cases.",
+      "By rewriting the constitution without a vote."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Members of the Riksdag can use questions and interpellations to scrutinize ministers and make the government answer publicly.",
+    "status": "draft",
+    "file": "chapter-03-how-sweden-is-governed.json"
+  },
+  {
+    "id": "draft-extra-ch003-008",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "parliamentary-control",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "riksrevisionen",
+      "parliamentary-control"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (extra draft)",
+    "questionSv": "Varför kan Riksrevisionens granskningar vara viktiga för riksdagen?",
+    "questionEn": "Why can audits by the Swedish National Audit Office be important for the Riksdag?",
+    "options": [
+      "De ger underlag för att kontrollera hur statliga pengar och verksamheter sköts.",
+      "De ersätter riksdagens beslut om statsbudgeten.",
+      "De låter myndigheter välja vilka lagar som gäller.",
+      "De avgör vilka partier som får sitta i regeringen."
+    ],
+    "optionsEn": [
+      "They provide information for checking how state money and activities are managed.",
+      "They replace the Riksdag’s decision on the state budget.",
+      "They let authorities choose which laws apply.",
+      "They decide which parties may sit in government."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The National Audit Office supports parliamentary control by auditing central government activities and finances.",
+    "status": "draft",
+    "file": "chapter-03-how-sweden-is-governed.json"
+  },
+  {
+    "id": "draft-batch-a-ch04-010",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "election-date",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "När hålls ordinarie val till riksdagen i Sverige?",
+    "questionEn": "When are ordinary elections to the Riksdag held in Sweden?",
+    "options": [
+      "Den andra söndagen i september vart fjärde år.",
+      "Den första måndagen i juni varje år.",
+      "Vid ett datum som regeringen väljer fritt varje mandatperiod.",
+      "Den sista lördagen i december vart femte år."
+    ],
+    "optionsEn": [
+      "On the second Sunday in September every four years.",
+      "On the first Monday in June every year.",
+      "On a date the government freely chooses each electoral period.",
+      "On the last Saturday in December every five years."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Ordinary elections to the Riksdag, regional councils, and municipal councils are held on the second Sunday of September every four years.",
+    "status": "draft",
+    "file": "chapter-04-political-elections-and-parties.json"
+  },
+  {
+    "id": "draft-batch-a-ch04-013",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "extra-election",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Vad är ett extra val till riksdagen?",
+    "questionEn": "What is an extra election to the Riksdag?",
+    "options": [
+      "Ett riksdagsval som regeringen kan utlysa mellan de ordinarie valen.",
+      "Ett val som hålls varje gång en minister avgår.",
+      "En omröstning där bara riksdagens ledamöter får rösta.",
+      "Ett val som EU beslutar om när Sverige byter regering."
+    ],
+    "optionsEn": [
+      "A parliamentary election that the government can call between ordinary elections.",
+      "An election held every time a minister resigns.",
+      "A vote where only members of the Riksdag may vote.",
+      "An election that the EU decides when Sweden changes government."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The government can call an extra election between ordinary elections. The newly elected Riksdag then serves only the remainder of the ordinary four-year term.",
+    "status": "draft",
+    "file": "chapter-04-political-elections-and-parties.json"
+  },
+  {
+    "id": "draft-batch-a-ch05-001",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch A extra draft)",
+    "questionSv": "Vad betyder rättssäkerhet i kontakt med en myndighet?",
+    "questionEn": "What does legal certainty mean in contact with an authority?",
+    "options": [
+      "Beslut ska följa lag, motiveras och ofta kunna överklagas.",
+      "Myndigheten får bestämma olika varje dag utan skäl.",
+      "Den som känner en tjänsteman får alltid förtur.",
+      "Lagar gäller bara i domstol, inte hos myndigheter."
+    ],
+    "optionsEn": [
+      "Decisions should follow law, be explained, and often be possible to appeal.",
+      "The authority may decide differently every day without reason.",
+      "Someone who knows an official always gets priority.",
+      "Laws only apply in court, not at authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Legal certainty (rättssäkerhet) protects individuals in contact with public power: decisions must follow the law, be reasoned, and can often be appealed.",
+    "status": "draft",
+    "file": "chapter-05-law-and-justice.json"
+  },
+  {
+    "id": "draft-batch-d-ch05-003",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "fair-trial",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (batch D gap-fill draft)",
+    "questionSv": "Varför får en domare inte själv ta reda på fakta om målet utanför rättegången, till exempel genom att kontakta vittnen privat?",
+    "questionEn": "Why may a judge not investigate facts in a case outside the trial, for example by privately contacting witnesses?",
+    "options": [
+      "Domen ska bygga på det som lagts fram i rättegången, så att parterna kan bemöta all bevisning.",
+      "Domaren sparar tid åt domstolen genom egna undersökningar.",
+      "Privata kontakter gör bevisningen mer trovärdig.",
+      "Domaren måste alltid tro på den part som hörs först."
+    ],
+    "optionsEn": [
+      "The judgment should be based on what has been presented in the trial, so the parties can respond to all evidence.",
+      "The judge saves the court time through private investigations.",
+      "Private contacts make the evidence more credible.",
+      "The judge must always believe the party heard first."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A fair trial requires that judgments rest only on material presented in the proceedings, which both parties have been able to see and respond to.",
+    "status": "draft",
+    "file": "chapter-05-law-and-justice.json"
+  },
+  {
+    "id": "draft-ch05-030",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "appeals",
+    "difficulty": "medium",
+    "tags": [
+      "law",
+      "correctional-treatment"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt",
+    "questionSv": "En dom från tingsrätten överklagas inte inom tidsfristen. Vad händer normalt då?",
+    "questionEn": "A judgment from the district court is not appealed within the deadline. What normally happens then?",
+    "options": [
+      "Domen vinner laga kraft och gäller.",
+      "Domen upphör automatiskt att gälla.",
+      "Hovrätten prövar ändå alltid målet på nytt.",
+      "Polisen avgör om domen ska verkställas."
+    ],
+    "optionsEn": [
+      "The judgment gains legal force and applies.",
+      "The judgment automatically stops applying.",
+      "The court of appeal always reviews the case anyway.",
+      "The police decide whether the judgment should be enforced."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "If no appeal is made within the deadline, the judgment gains legal force (vinner laga kraft) and becomes final and enforceable.",
+    "status": "draft",
+    "file": "chapter-05-law-and-justice.json"
+  },
+  {
+    "id": "draft-batch-b-ch06-014",
+    "chapterId": "media",
+    "chapterNumber": 6,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 6: Mediernas roll (batch B extra draft)",
+    "questionSv": "En regering säger att bara positiva nyheter om landet får publiceras under en kris. Vad hotas mest?",
+    "questionEn": "A government says that only positive news about the country may be published during a crisis. What is most threatened?",
+    "options": [
+      "Fri nyhetsförmedling och möjligheten att granska makten.",
+      "Rätten att rösta i allmänna val.",
+      "Domstolarnas oberoende i enskilda brottmål.",
+      "Kommunernas rätt att ta ut skatt."
+    ],
+    "optionsEn": [
+      "Free news reporting and the ability to scrutinize power.",
+      "The right to vote in general elections.",
+      "The independence of courts in individual criminal cases.",
+      "Municipalities’ right to levy tax."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "If a government only allows positive news during a crisis, free and critical news reporting is what is most directly threatened. Voting rights, court independence, and municipal taxation are not what such a rule primarily attacks.",
+    "status": "draft",
+    "file": "chapter-06-role-of-media.json"
+  },
+  {
+    "id": "draft-ch07-057",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "discrimination",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "ombudsman",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En person misstänker diskriminering vid rekrytering och vill veta vart man kan vända sig. Vilken aktör är mest relevant att känna till?",
+    "questionEn": "A person suspects discrimination in recruitment and wants to know where to turn. Which actor is most relevant to know about?",
+    "options": [
+      "Diskrimineringsombudsmannen, DO.",
+      "Justitiekanslern, som företräder staten i skadeståndsmål.",
+      "Skolinspektionen, som granskar skolor.",
+      "Arbetsförmedlingen, som förmedlar jobb."
+    ],
+    "optionsEn": [
+      "The Equality Ombudsman, DO.",
+      "The Chancellor of Justice, who represents the state in damages cases.",
+      "The Swedish Schools Inspectorate, which reviews schools.",
+      "The Public Employment Service, which matches people with jobs."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Equality Ombudsman supervises discrimination law and can provide information about discrimination cases.",
+    "status": "draft",
+    "file": "chapter-07-human-rights.json"
+  },
+  {
+    "id": "draft-batch-b-ch08-003",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "consumer-rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "En konsument köper en prenumeration på nätet men ångrar sig efter några dagar. Vad bör personen kontrollera?",
+    "questionEn": "A consumer buys a subscription online but regrets it after a few days. What should the person check?",
+    "options": [
+      "Om ångerrätt gäller och hur prenumerationen kan avslutas enligt villkoren.",
+      "Om alla nätköp automatiskt är bindande för alltid.",
+      "Om kommunen måste säga upp prenumerationen åt kunden.",
+      "Om säljaren får fortsätta ta betalt utan att informera om villkor."
+    ],
+    "optionsEn": [
+      "Whether the right of withdrawal applies and how the subscription can be cancelled under the terms.",
+      "Whether all online purchases are automatically binding forever.",
+      "Whether the municipality must cancel the subscription for the customer.",
+      "Whether the seller may continue charging without informing about terms."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "For online purchases and subscriptions, consumers should check withdrawal rights, cancellation rules, and ongoing costs.",
+    "status": "draft",
+    "file": "chapter-08-work-economy.json"
+  },
+  {
+    "id": "draft-batch-b-ch08-005",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "debt-help",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Vart kan en person med växande skulder ofta vända sig för kostnadsfri rådgivning?",
+    "questionEn": "Where can a person with growing debts often turn for free advice?",
+    "options": [
+      "Kommunens budget- och skuldrådgivning.",
+      "Valmyndighetens lokala röstmottagning.",
+      "Riksbankens penningpolitiska avdelning.",
+      "Domstolen som automatiskt skriver av alla skulder."
+    ],
+    "optionsEn": [
+      "The municipality’s budget and debt counselling.",
+      "The Election Authority’s local vote reception.",
+      "The Riksbank’s monetary policy department.",
+      "The court that automatically writes off all debts."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipal budget and debt counselling can give free advice to people who need help managing debts.",
+    "status": "draft",
+    "file": "chapter-08-work-economy.json"
+  },
+  {
+    "id": "draft-batch-b-ch08-015",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "workplace-safety",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "En anställd upptäcker en allvarlig risk på arbetsplatsen. Vilken roll kan ett skyddsombud ha?",
+    "questionEn": "An employee discovers a serious risk at the workplace. What role can a safety representative have?",
+    "options": [
+      "Att företräda arbetstagare i arbetsmiljöfrågor och uppmärksamma risker.",
+      "Att bestämma företagets lönesättning varje månad.",
+      "Att ersätta arbetsgivaren som juridiskt ansvarig för hela arbetsmiljön.",
+      "Att avgöra alla tvister om uppsägningar i domstol."
+    ],
+    "optionsEn": [
+      "To represent employees in work environment issues and draw attention to risks.",
+      "To decide the company’s wage setting every month.",
+      "To replace the employer as legally responsible for the entire work environment.",
+      "To decide all dismissal disputes in court."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A safety representative works with employees’ work environment interests, while the employer still has main responsibility.",
+    "status": "draft",
+    "file": "chapter-08-work-economy.json"
+  },
+  {
+    "id": "draft-extra-ch010-001",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "housing-history",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "industrialisering"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (extra draft)",
+    "questionSv": "Vilken kritik har i efterhand riktats mot delar av miljonprogrammets bostadsområden?",
+    "questionEn": "What criticism has later been directed at parts of the Million Programme housing areas?",
+    "options": [
+      "Vissa områden fick med tiden problem med ensidig bebyggelse, slitage och social segregation.",
+      "Områdena revs alla under 1980-talet eftersom ingen ville bo där.",
+      "Bostäderna fick aldrig el eller rinnande vatten.",
+      "Kritiken gällde att områdena bara byggdes för statligt anställda."
+    ],
+    "optionsEn": [
+      "Some areas later developed problems with monotonous buildings, wear, and social segregation.",
+      "All the areas were demolished in the 1980s because no one wanted to live there.",
+      "The homes never had electricity or running water.",
+      "The criticism was that the areas were only built for government employees."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Million Programme solved an acute housing shortage, but some areas were later criticized for monotonous architecture and growing social segregation.",
+    "status": "draft",
+    "file": "chapter-10-modern-history.json"
+  },
+  {
+    "id": "draft-extra-ch010-013",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "security-policy",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "neutralitetspolitik"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (extra draft)",
+    "questionSv": "Vilken stor förändring skedde i Sveriges säkerhetspolitik år 2024?",
+    "questionEn": "What major change happened in Sweden’s security policy in 2024?",
+    "options": [
+      "Sverige blev medlem i försvarsalliansen Nato och lämnade den militära alliansfriheten.",
+      "Sverige avskaffade sitt militära försvar och förlitade sig på FN.",
+      "Sverige lämnade EU för att kunna vara helt neutralt.",
+      "Sverige bildade en egen militär allians med enbart de nordiska länderna."
+    ],
+    "optionsEn": [
+      "Sweden became a member of the NATO defense alliance and left military non-alignment.",
+      "Sweden abolished its military defense and relied on the UN.",
+      "Sweden left the EU to become completely neutral.",
+      "Sweden formed its own military alliance with only the Nordic countries."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "In March 2024 Sweden joined NATO, ending its long policy of military non-alignment that had characterized the 20th century.",
+    "status": "draft",
+    "file": "chapter-10-modern-history.json"
+  },
+  {
+    "id": "draft-batch-c-ch11-001",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "eu-internal-market",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Vad kan EU:s inre marknad innebära för konsumenter i Sverige?",
+    "questionEn": "What can the EU internal market mean for consumers in Sweden?",
+    "options": [
+      "Ett större utbud av varor och tjänster från andra EU-länder.",
+      "Att svenska butiker bara får sälja svensktillverkade varor.",
+      "Att alla priser i EU bestäms av Europaparlamentet.",
+      "Att konsumenter måste betala tull på varor från andra EU-länder."
+    ],
+    "optionsEn": [
+      "A wider range of goods and services from other EU countries.",
+      "That Swedish shops may only sell Swedish-made goods.",
+      "That all prices in the EU are decided by the European Parliament.",
+      "That consumers must pay customs duties on goods from other EU countries."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The internal market removes customs duties and many barriers within the EU, which gives consumers access to a wider range of goods and services.",
+    "status": "draft",
+    "file": "chapter-11-sweden-and-world.json"
+  },
+  {
+    "id": "draft-batch-c-ch11-002",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "un",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Vilket FN-organ har huvudansvaret för internationell fred och säkerhet?",
+    "questionEn": "Which UN body has the main responsibility for international peace and security?",
+    "options": [
+      "FN:s säkerhetsråd.",
+      "Europaparlamentet.",
+      "Nordiska rådet.",
+      "Världshandelsorganisationen."
+    ],
+    "optionsEn": [
+      "The UN Security Council.",
+      "The European Parliament.",
+      "The Nordic Council.",
+      "The World Trade Organization."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Under the UN Charter, the Security Council has the primary responsibility for maintaining international peace and security.",
+    "status": "draft",
+    "file": "chapter-11-sweden-and-world.json"
+  },
+  {
+    "id": "draft-batch-c-ch11-012",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "migration-agency",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Vilken svensk myndighet prövar ansökningar om asyl och uppehållstillstånd?",
+    "questionEn": "Which Swedish authority examines applications for asylum and residence permits?",
+    "options": [
+      "Migrationsverket.",
+      "Skatteverket.",
+      "Försäkringskassan.",
+      "Arbetsförmedlingen."
+    ],
+    "optionsEn": [
+      "The Swedish Migration Agency.",
+      "The Swedish Tax Agency.",
+      "The Swedish Social Insurance Agency.",
+      "The Public Employment Service."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Swedish Migration Agency (Migrationsverket) handles applications for asylum, residence permits, and citizenship.",
+    "status": "draft",
+    "file": "chapter-11-sweden-and-world.json"
+  },
+  {
+    "id": "draft-batch-c-ch11-013",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "schengen",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Vad innebär Schengensamarbetet för resor mellan de flesta europeiska länder som deltar?",
+    "questionEn": "What does the Schengen cooperation mean for travel between most participating European countries?",
+    "options": [
+      "Man kan normalt resa mellan länderna utan gränskontroller.",
+      "Alla resenärer måste ansöka om visum för varje resa.",
+      "Bara affärsresor är tillåtna mellan länderna.",
+      "Länderna har avskaffat alla pass och id-handlingar."
+    ],
+    "optionsEn": [
+      "One can normally travel between the countries without border controls.",
+      "All travelers must apply for a visa for every trip.",
+      "Only business travel is allowed between the countries.",
+      "The countries have abolished all passports and identity documents."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Schengen cooperation means that internal border controls between participating countries are normally removed, although you should still carry a valid ID or passport.",
+    "status": "draft",
+    "file": "chapter-11-sweden-and-world.json"
+  }
+]

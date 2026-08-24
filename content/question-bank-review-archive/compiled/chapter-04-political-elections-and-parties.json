@@ -1,0 +1,2333 @@
+[
+  {
+    "id": "draft-batch-a-ch04-001",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Vad betyder personröstning i svenska val?",
+    "questionEn": "What does personal voting mean in Swedish elections?",
+    "options": [
+      "Väljaren kan markera en särskild kandidat på partiets lista.",
+      "Väljaren får rösta på två partier samtidigt.",
+      "Partiledaren får en extra röst i riksdagen.",
+      "Valmyndigheten väljer kandidat åt väljaren."
+    ],
+    "optionsEn": [
+      "The voter can mark a specific candidate on the party’s list.",
+      "The voter may vote for two parties at the same time.",
+      "The party leader gets an extra vote in the Riksdag.",
+      "The Election Authority chooses a candidate for the voter."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A personal vote lets a voter support a candidate while voting for a party.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-002",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "accessible-voting",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "En väljare behöver hjälp att lägga sin röst på grund av funktionsnedsättning. Vad är viktigt för valets genomförande?",
+    "questionEn": "A voter needs help casting their vote because of a disability. What is important for carrying out the election?",
+    "options": [
+      "Väljaren ska kunna rösta med bevarad valhemlighet så långt det är möjligt.",
+      "Personen förlorar rösträtten om hen behöver praktisk hjälp.",
+      "Hjälparen får själv välja parti åt väljaren.",
+      "Rösten räknas bara om den visas offentligt."
+    ],
+    "optionsEn": [
+      "The voter should be able to vote while preserving ballot secrecy as far as possible.",
+      "The person loses voting rights if they need practical help.",
+      "The helper may choose the party for the voter.",
+      "The vote only counts if it is shown publicly."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Accessibility and ballot secrecy both matter in democratic elections.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-003",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "election-administration",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Varför finns regler för hur valsedlar, röstmottagning och rösträkning ska gå till?",
+    "questionEn": "Why are there rules for ballots, vote reception, and vote counting?",
+    "options": [
+      "För att valet ska vara rättssäkert, kontrollerbart och lika för väljare.",
+      "För att partierna ska kunna ändra röster efteråt.",
+      "För att rösträkningen ska hållas hemlig för allmänheten.",
+      "För att kommuner ska kunna välja olika rösträttsåldrar."
+    ],
+    "optionsEn": [
+      "So the election is legally secure, verifiable, and equal for voters.",
+      "So parties can change votes afterwards.",
+      "So vote counting is kept secret from the public.",
+      "So municipalities can choose different voting ages."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Election rules protect trust, equal treatment, and verifiable results.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-004",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Ett parti får 3,9 procent nationellt men starkt stöd i en valkrets. Vad är viktigt att känna till?",
+    "questionEn": "A party gets 3.9 percent nationally but strong support in one constituency. What is important to know?",
+    "options": [
+      "Det finns en nationell fyraprocentsspärr och en valkretsregel på 12 procent.",
+      "Partiet får alltid exakt hälften av mandaten.",
+      "Alla röster under fyra procent ges till största partiet.",
+      "Valkretsar används bara i kommunval, inte riksdagsval."
+    ],
+    "optionsEn": [
+      "There is a national 4 percent threshold and a 12 percent constituency rule.",
+      "The party always gets exactly half of the seats.",
+      "All votes below four percent are given to the largest party.",
+      "Constituencies are only used in municipal elections, not Riksdag elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Riksdag representation normally requires 4% nationally or 12% in one constituency.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-005",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "party-registration",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Vad innebär det att ett parti måste registrera sin partibeteckning för visst skydd?",
+    "questionEn": "What does it mean that a party must register its party name for certain protection?",
+    "options": [
+      "Det kan skydda partiets namn på valsedlar enligt valregler.",
+      "Det betyder att partiet automatiskt får mandat.",
+      "Det gör att partiet slipper få röster i valet.",
+      "Det innebär att Valmyndigheten skriver partiets program."
+    ],
+    "optionsEn": [
+      "It can protect the party name on ballots under election rules.",
+      "It means the party automatically receives seats.",
+      "It means the party does not need to receive votes in the election.",
+      "It means the Election Authority writes the party’s program."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Registration can protect party names, but voters still decide support.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-006",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "En person med permanent uppehållstillstånd vill rösta i riksdagsvalet. Vad krävs?",
+    "questionEn": "A person with permanent residence wants to vote in the Riksdag election. What is required?",
+    "options": [
+      "Svenskt medborgarskap och ålder enligt rösträttsreglerna.",
+      "Bara att personen betalar kommunalskatt.",
+      "Medlemskap i ett svenskt parti.",
+      "Tillstånd från arbetsgivaren."
+    ],
+    "optionsEn": [
+      "Swedish citizenship and age according to voting-right rules.",
+      "Only that the person pays municipal tax.",
+      "Membership in a Swedish party.",
+      "Permission from the employer."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Riksdag voting rights require Swedish citizenship and meeting the age rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-007",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Varför har partier valmanifest eller partiprogram?",
+    "questionEn": "Why do parties have election manifestos or party programmes?",
+    "options": [
+      "För att visa vilka idéer och förslag de vill driva.",
+      "För att ersätta lagboken under valåret.",
+      "För att Valmyndigheten ska skriva deras politik.",
+      "För att domstolar ska välja partiledare."
+    ],
+    "optionsEn": [
+      "To show which ideas and proposals they want to pursue.",
+      "To replace the law book during election year.",
+      "So the Election Authority can write their politics.",
+      "So courts can choose party leaders."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Party programmes help voters compare political alternatives.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-008",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "free-elections",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "En väljare byter parti mellan två val. Vad visar detta om fria val?",
+    "questionEn": "A voter changes party between two elections. What does this show about free elections?",
+    "options": [
+      "Väljare får ompröva sina åsikter och välja ett annat alternativ.",
+      "Väljare måste rösta på samma parti hela livet.",
+      "Partier äger rösterna från tidigare val.",
+      "Kommunen måste godkänna varje partibyte."
+    ],
+    "optionsEn": [
+      "Voters may reconsider their views and choose a different alternative.",
+      "Voters must vote for the same party for life.",
+      "Parties own the votes from previous elections.",
+      "The municipality must approve every party change."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Free elections allow voters to change their political choice.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-009",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "parties",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Ett parti sitter inte i regeringen men ställer kritiska frågor i riksdagen och föreslår en annan budget. Vilken roll visar detta?",
+    "questionEn": "A party is not in government but asks critical questions in the Riksdag and proposes a different budget. What role does this show?",
+    "options": [
+      "Oppositionen granskar regeringen och visar politiska alternativ.",
+      "Partiet har lämnat demokratin eftersom det inte styr landet.",
+      "Partiet arbetar som domstol när regeringen fattar beslut.",
+      "Partiet får automatiskt ta över regeringen vid nästa sammanträde."
+    ],
+    "optionsEn": [
+      "The opposition scrutinizes the government and shows political alternatives.",
+      "The party has left democracy because it does not govern the country.",
+      "The party works as a court when the government makes decisions.",
+      "The party automatically takes over the government at the next meeting."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Opposition parties are important because they scrutinize those in power and present alternatives to voters.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-010",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "election-date",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "När hålls ordinarie val till riksdagen i Sverige?",
+    "questionEn": "When are ordinary elections to the Riksdag held in Sweden?",
+    "options": [
+      "Den andra söndagen i september vart fjärde år.",
+      "Den första måndagen i juni varje år.",
+      "Vid ett datum som regeringen väljer fritt varje mandatperiod.",
+      "Den sista lördagen i december vart femte år."
+    ],
+    "optionsEn": [
+      "On the second Sunday in September every four years.",
+      "On the first Monday in June every year.",
+      "On a date the government freely chooses each electoral period.",
+      "On the last Saturday in December every five years."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Ordinary elections to the Riksdag, regional councils, and municipal councils are held on the second Sunday of September every four years.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-011",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "elections",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Valdeltagandet sjunker i flera områden medan andra områden röstar mycket. Varför kan partier och myndigheter följa detta noga?",
+    "questionEn": "Turnout falls in several areas while other areas vote a lot. Why may parties and authorities follow this closely?",
+    "options": [
+      "Det kan visa skillnader i delaktighet och förtroende mellan grupper och platser.",
+      "Det avgör automatiskt vilka röster som ska räknas först.",
+      "Det betyder att områden med lågt deltagande förlorar sina mandat.",
+      "Det gör att kommuner får ändra valresultatet efteråt."
+    ],
+    "optionsEn": [
+      "It can show differences in participation and trust between groups and places.",
+      "It automatically decides which votes should be counted first.",
+      "It means areas with low turnout lose their seats.",
+      "It lets municipalities change the election result afterwards."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Turnout patterns can reveal whether democratic participation is broad or uneven.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-012",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "elections",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "I en valdebatt lovar ett parti både kortare vårdköer och mer resurser till grundskolan. Varför behöver väljaren förstå olika politiska nivåer?",
+    "questionEn": "In an election debate, a party promises both shorter healthcare queues and more resources for compulsory school. Why does the voter need to understand different political levels?",
+    "options": [
+      "Olika frågor beslutas på olika nivåer, så löften kan gälla region, kommun eller stat.",
+      "Alla sådana löften beslutas bara av EU efter svenska val.",
+      "Partier får inte prata om frågor som ligger på olika nivåer.",
+      "Väljaren röstar på en nivå, och den nivån bestämmer sedan allt annat."
+    ],
+    "optionsEn": [
+      "Different issues are decided at different levels, so promises may concern region, municipality, or state.",
+      "All such promises are decided only by the EU after Swedish elections.",
+      "Parties may not talk about issues that belong to different levels.",
+      "The voter votes at one level, and that level then decides everything else."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Election promises can concern different responsibilities, so voters need to know which level controls which issue.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-013",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "extra-election",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Vad är ett extra val till riksdagen?",
+    "questionEn": "What is an extra election to the Riksdag?",
+    "options": [
+      "Ett riksdagsval som regeringen kan utlysa mellan de ordinarie valen.",
+      "Ett val som hålls varje gång en minister avgår.",
+      "En omröstning där bara riksdagens ledamöter får rösta.",
+      "Ett val som EU beslutar om när Sverige byter regering."
+    ],
+    "optionsEn": [
+      "A parliamentary election that the government can call between ordinary elections.",
+      "An election held every time a minister resigns.",
+      "A vote where only members of the Riksdag may vote.",
+      "An election that the EU decides when Sweden changes government."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The government can call an extra election between ordinary elections. The newly elected Riksdag then serves only the remainder of the ordinary four-year term.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-014",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "En väljare väljer parti enbart efter en viral video. Vilken demokratisk färdighet blir viktig?",
+    "questionEn": "A voter chooses a party only based on a viral video. Which democratic skill becomes important?",
+    "options": [
+      "Källkritik och att jämföra flera uppgifter.",
+      "Att rösta flera gånger för säkerhets skull.",
+      "Att låta sociala medier fylla i valsedeln.",
+      "Att undvika all politisk information."
+    ],
+    "optionsEn": [
+      "Source criticism and comparing several pieces of information.",
+      "Voting several times just to be safe.",
+      "Letting social media fill in the ballot.",
+      "Avoiding all political information."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Source criticism helps voters make informed choices.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch04-015",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "party-support",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch A extra draft)",
+    "questionSv": "Ett nytt parti vill ställa upp i val. Vad behöver partiet framför allt göra för att få politiskt inflytande?",
+    "questionEn": "A new party wants to run in an election. What does the party mainly need to do to gain political influence?",
+    "options": [
+      "Övertyga väljare och få tillräckligt stöd i valet.",
+      "Be Valmyndigheten ge partiet mandat före valet.",
+      "Få domstolen att skriva partiets vallöften.",
+      "Kräva att andra partier lämnar sina platser."
+    ],
+    "optionsEn": [
+      "Convince voters and receive enough support in the election.",
+      "Ask the Election Authority to give the party seats before the election.",
+      "Get the court to write the party’s election promises.",
+      "Demand that other parties give up their seats."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Parties gain influence through voter support and election results.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch04-001",
+    "chapterId": "elections-parties",
+    "chapterNumber": 4,
+    "topicId": "elections",
+    "difficulty": "medium",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch D gap-fill draft)",
+    "questionSv": "En väljare tycker att partiernas vallöften är otydliga. Vad är ett bra demokratiskt sätt att agera?",
+    "questionEn": "A voter thinks parties’ election promises are unclear. What is a good democratic way to act?",
+    "options": [
+      "Jämföra partiernas information, följa debatter och ställa frågor innan valet.",
+      "Låta kommunen välja parti åt väljaren.",
+      "Rösta flera gånger för att markera osäkerhet.",
+      "Kräva att Valmyndigheten förbjuder otydliga partier."
+    ],
+    "optionsEn": [
+      "Compare party information, follow debates, and ask questions before the election.",
+      "Let the municipality choose a party for the voter.",
+      "Vote several times to show uncertainty.",
+      "Demand that the Election Authority bans unclear parties."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Voters can use information, debate, and scrutiny to make informed choices.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch04-002",
+    "chapterId": "elections-parties",
+    "chapterNumber": 4,
+    "topicId": "parties",
+    "difficulty": "medium",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch D gap-fill draft)",
+    "questionSv": "Varför behöver partier ofta kompromissa efter ett val?",
+    "questionEn": "Why do parties often need to compromise after an election?",
+    "options": [
+      "Flera partier kan behöva stödja beslut för att få majoritet.",
+      "Det parti som får flest röster får alltid bestämma ensamt.",
+      "Kompromisser är förbjudna i proportionella val.",
+      "Valmyndigheten skriver partiernas kompromisser."
+    ],
+    "optionsEn": [
+      "Several parties may need to support decisions to get a majority.",
+      "The party with the most votes may always decide alone.",
+      "Compromises are forbidden in proportional elections.",
+      "The Election Authority writes the parties’ compromises."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "In a multi-party system, cooperation is often needed to govern or pass decisions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch04-003",
+    "chapterId": "elections-parties",
+    "chapterNumber": 4,
+    "topicId": "voting",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (batch D gap-fill draft)",
+    "questionSv": "En person säger att rösthemligheten inte spelar roll om valet ändå räknas korrekt. Vad missar personen?",
+    "questionEn": "A person says ballot secrecy does not matter if the vote is counted correctly. What does the person miss?",
+    "options": [
+      "Rösthemligheten skyddar väljare från press och gör valet friare.",
+      "Rösthemligheten behövs bara om valdeltagandet är lågt.",
+      "Val blir alltid ogiltiga om någon berättar vad hen röstat på.",
+      "Bara partimedlemmar omfattas av rösthemlighet."
+    ],
+    "optionsEn": [
+      "Ballot secrecy protects voters from pressure and makes elections freer.",
+      "Ballot secrecy is only needed if turnout is low.",
+      "Elections are always invalid if someone says how they voted.",
+      "Only party members are covered by ballot secrecy."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Secret ballots protect free choice and reduce coercion.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-001",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "general-elections"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vilka tre val hålls normalt samtidigt i Sverige vart fjärde år?",
+    "questionEn": "Which three elections are normally held at the same time in Sweden every four years?",
+    "options": [
+      "Val till riksdag, regionfullmäktige och kommunfullmäktige.",
+      "Val till regering, domstolar och polisen.",
+      "Val till kungen, riksbanken och medierna.",
+      "Val till EU, FN och Nordiska rådet."
+    ],
+    "optionsEn": [
+      "Elections to the Riksdag, regional council, and municipal council.",
+      "Elections to the government, courts, and police.",
+      "Elections to the king, central bank, and media.",
+      "Elections to the EU, UN, and Nordic Council."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish general elections normally include separate ballots for national, regional, and municipal democratic levels.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-002",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "ballots",
+      "levels"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Varför får väljare olika valsedlar i allmänna val?",
+    "questionEn": "Why do voters get different ballot papers in general elections?",
+    "options": [
+      "Olika valsedlar gäller olika demokratiska nivåer med olika ansvar.",
+      "En valsedel är för val av parti och en annan för val av statsminister.",
+      "Olika valsedlar används beroende på hur gammal väljaren är.",
+      "Det behövs separata valsedlar för att rösta på manliga och kvinnliga kandidater."
+    ],
+    "optionsEn": [
+      "Different ballot papers apply to different democratic levels with different responsibilities.",
+      "One ballot is for choosing a party and another for choosing the prime minister.",
+      "Different ballots are used depending on how old the voter is.",
+      "Separate ballots are needed to vote for male and female candidates."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Separate ballots help voters influence national, regional, and municipal politics independently.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-003",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "elections",
+      "scenario",
+      "levels"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "En väljare vill påverka både sjukvård och skola. Vilka val är särskilt relevanta?",
+    "questionEn": "A voter wants to influence both healthcare and school. Which elections are especially relevant?",
+    "options": [
+      "Regionvalet för sjukvård och kommunvalet för skola.",
+      "Riksdagsvalet för sjukvård och EU-valet för alla skolor.",
+      "Kommunvalet för sjukhus och regionvalet för grundskolor.",
+      "Valet till kyrkofullmäktige för båda frågorna."
+    ],
+    "optionsEn": [
+      "The regional election for healthcare and the municipal election for school.",
+      "The parliamentary election for healthcare and the EU election for all schools.",
+      "The municipal election for hospitals and the regional election for primary schools.",
+      "The church council election for both issues."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Regions handle much healthcare, while municipalities are central for schools and local services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-004",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "voting-rights"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vilken ålder måste man normalt ha uppnått för att rösta i svenska allmänna val?",
+    "questionEn": "What age must a person normally have reached to vote in Swedish general elections?",
+    "options": [
+      "18 år.",
+      "16 år.",
+      "20 år.",
+      "21 år."
+    ],
+    "optionsEn": [
+      "18 years.",
+      "16 years.",
+      "20 years.",
+      "21 years."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Voting age in Swedish general elections is 18.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-005",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "citizenship",
+      "voting-rights"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vilket val kräver svenskt medborgarskap för rösträtt?",
+    "questionEn": "Which election requires Swedish citizenship for voting rights?",
+    "options": [
+      "Riksdagsvalet.",
+      "Kommunvalet för alla som bor i kommunen.",
+      "Regionvalet för alla folkbokförda utan villkor.",
+      "Alla föreningsval i civilsamhället."
+    ],
+    "optionsEn": [
+      "The parliamentary election.",
+      "The municipal election for everyone who lives in the municipality.",
+      "The regional election for all registered residents without conditions.",
+      "All association elections in civil society."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Voting in Riksdag elections requires Swedish citizenship, while local and regional voting rights can also apply to some non-citizens under conditions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-006",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "elections",
+      "voting-rights",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "En EU-medborgare är folkbokförd i en svensk kommun men är inte svensk medborgare. Vilket påstående är mest korrekt?",
+    "questionEn": "An EU citizen is registered in a Swedish municipality but is not a Swedish citizen. Which statement is most correct?",
+    "options": [
+      "Personen kan ha rösträtt i kommun- och regionval men inte i riksdagsval.",
+      "Personen kan rösta i riksdagsval men aldrig i kommunval.",
+      "Personen kan bara rösta om regeringen ger särskilt tillstånd varje valdag.",
+      "Personen får rösta i alla svenska val utan begränsning."
+    ],
+    "optionsEn": [
+      "The person may have voting rights in municipal and regional elections but not in parliamentary elections.",
+      "The person may vote in parliamentary elections but never in municipal elections.",
+      "The person may only vote if the government gives special permission on each election day.",
+      "The person may vote in all Swedish elections without limitation."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Citizenship matters especially for Riksdag elections. Local and regional voting rights can include some non-citizens.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-007",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "secret-ballot"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad betyder att svenska val är hemliga?",
+    "questionEn": "What does it mean that Swedish elections are secret?",
+    "options": [
+      "Ingen ska kunna tvinga en väljare att visa hur hen röstar.",
+      "Valresultatet får aldrig publiceras.",
+      "Bara partierna får veta vem som röstat.",
+      "Röstmottagare bestämmer vilken valsedel väljaren ska ta."
+    ],
+    "optionsEn": [
+      "No one should be able to force a voter to show how they vote.",
+      "The election result may never be published.",
+      "Only the parties may know who voted.",
+      "Election workers decide which ballot the voter should take."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Ballot secrecy protects voters from pressure and makes free choice possible.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-008",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "free-elections"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad är ett kännetecken för fria val?",
+    "questionEn": "What is a characteristic of free elections?",
+    "options": [
+      "Väljare kan välja mellan alternativ utan hot eller tvång.",
+      "Det är obligatoriskt enligt lag för alla medborgare att rösta.",
+      "Endast riksdagspartierna får ställa upp med kandidater.",
+      "Regeringen har rätt att godkänna valresultatet innan det blir giltigt."
+    ],
+    "optionsEn": [
+      "Voters can choose between alternatives without threats or coercion.",
+      "It is legally mandatory for all citizens to vote.",
+      "Only parties already in the Riksdag may nominate candidates.",
+      "The government has the right to approve the result before it becomes valid."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Free elections require real alternatives and protection from coercion.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-009",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "elections",
+      "free-elections",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "En arbetsgivare kräver att anställda fotograferar sin röstsedel. Vilken princip hotas främst?",
+    "questionEn": "An employer demands that employees photograph their ballot paper. Which principle is mainly threatened?",
+    "options": [
+      "Valhemligheten och väljarnas frihet från påtryckningar.",
+      "Regionernas ansvar för sjukvård.",
+      "Riksdagens rätt att besluta budget.",
+      "Partiernas rätt att bilda föreningar."
+    ],
+    "optionsEn": [
+      "Ballot secrecy and voters’ freedom from pressure.",
+      "Regions’ responsibility for healthcare.",
+      "The Riksdag’s right to decide the budget.",
+      "Parties’ right to form associations."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "If someone can demand proof of how a person voted, the voter can be pressured or punished.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-010",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "parties"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad är ett politiskt parti?",
+    "questionEn": "What is a political party?",
+    "options": [
+      "En organisation som samlar människor kring politiska idéer och kandidater.",
+      "En statlig myndighet som ansvarar för att genomföra val.",
+      "En ideell förening som enbart fokuserar på lokala kulturfrågor.",
+      "En grupp tjänstepersoner som hjälper regeringen att skriva lagar."
+    ],
+    "optionsEn": [
+      "An organization that gathers people around political ideas and candidates.",
+      "A state authority responsible for carrying out elections.",
+      "A non-profit association focused only on local cultural issues.",
+      "A group of civil servants who help the government write laws."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Political parties organize ideas, candidates, campaigns, and representation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-011",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "parties",
+      "representation"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Varför är partier viktiga i representativ demokrati?",
+    "questionEn": "Why are parties important in representative democracy?",
+    "options": [
+      "De gör det lättare för väljare att välja mellan politiska alternativ.",
+      "De bestämmer vilka lagar domstolarna ska tillämpa.",
+      "De ersätter behovet av val och folkomröstningar.",
+      "De har rätt att ändra grundlagarna utan riksdagens godkännande."
+    ],
+    "optionsEn": [
+      "They make it easier for voters to choose between political alternatives.",
+      "They decide which laws courts should apply.",
+      "They replace the need for elections and referendums.",
+      "They have the right to change fundamental laws without Riksdag approval."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Parties group political views and present candidates who can be held accountable by voters.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-012",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "elections",
+      "parties",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Ett parti vill kandidera men har få resurser. Vilken demokratisk princip talar för att partiet ändå ska kunna delta om reglerna uppfylls?",
+    "questionEn": "A party wants to run but has few resources. Which democratic principle supports allowing it to participate if rules are met?",
+    "options": [
+      "Politisk pluralism och fria val.",
+      "Att staten ska välja ut de största partierna.",
+      "Att bara riksdagspartier får uttrycka åsikter.",
+      "Att medier ska bestämma vilka partier som får finnas."
+    ],
+    "optionsEn": [
+      "Political pluralism and free elections.",
+      "That the state should select the largest parties.",
+      "That only parliamentary parties may express opinions.",
+      "That media should decide which parties may exist."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democracy requires room for different political alternatives, within election rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-013",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "proportional-representation"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad innebär proportionella val i enkel mening?",
+    "questionEn": "What do proportional elections mean in simple terms?",
+    "options": [
+      "Mandat fördelas ungefär efter hur många röster partierna får.",
+      "Det parti som får flest röster i en valkrets vinner alla mandat där.",
+      "Alla partier som ställer upp får exakt lika många mandat.",
+      "Kommunerna får fördela sina mandat fritt oberoende av röstresultatet."
+    ],
+    "optionsEn": [
+      "Seats are distributed roughly according to how many votes parties receive.",
+      "The party with the most votes in a constituency wins all seats there.",
+      "All parties that run receive exactly the same number of seats.",
+      "Municipalities may distribute their seats freely regardless of the vote result."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Proportional representation aims to make the elected assembly reflect voters’ support for parties.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-014",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "threshold"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Varför finns en fyraprocentsspärr till riksdagen?",
+    "questionEn": "Why is there a four percent threshold for the Riksdag?",
+    "options": [
+      "För att undvika att för många små partier kommer in i riksdagen, vilket kan göra det svårt att bilda en stabil regering.",
+      "För att förhindra att mer än två partier sitter i regeringen.",
+      "För att garantera att alla Sveriges regioner får lika många mandat.",
+      "För att säkerställa att partier med lågt röstetal automatiskt får bilda koalition."
+    ],
+    "optionsEn": [
+      "To avoid too many small parties entering the Riksdag, which can make it difficult to form a stable government.",
+      "To prevent more than two parties from sitting in government.",
+      "To guarantee that all Swedish regions get the same number of seats.",
+      "To ensure that parties with a low number of votes automatically get to form a coalition."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A threshold can reduce fragmentation while still keeping a proportional system.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-015",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "elections",
+      "threshold",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Ett parti får många röster men hamnar strax under riksdagsspärren. Vad kan hända?",
+    "questionEn": "A party receives many votes but ends up just below the parliamentary threshold. What can happen?",
+    "options": [
+      "Partiet kan bli utan mandat i riksdagen trots stödet.",
+      "Partiets röster tillfaller automatiskt det största partiet.",
+      "Partiet får i stället extra mandat i kommunfullmäktige.",
+      "Partiet får rätt att lägga in veto mot regeringens budget."
+    ],
+    "optionsEn": [
+      "The party may get no Riksdag seats despite its support.",
+      "The party’s votes automatically go to the largest party.",
+      "The party instead receives extra seats in the municipal council.",
+      "The party gets the right to veto the government’s budget."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Threshold rules affect representation. A party below the 4% national threshold may get no Riksdag seats, unless it reaches the 12% constituency exception in at least one electoral district.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-016",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "mandates"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad är ett mandat i en folkvald församling?",
+    "questionEn": "What is a seat/mandate in an elected assembly?",
+    "options": [
+      "En plats som en vald ledamot har i församlingen.",
+      "Ett skriftligt tillstånd från kungen att kandidera i val.",
+      "En typ av valsedel som enbart används vid förtidsröstning.",
+      "Ett krav på att ledamöter i riksdagen måste rösta likadant."
+    ],
+    "optionsEn": [
+      "A seat held by an elected representative in the assembly.",
+      "A written permission from the king to run in an election.",
+      "A type of ballot used only in advance voting.",
+      "A requirement that members of the Riksdag must vote the same way."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Mandates are the seats distributed after an election.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-017",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "coalitions"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Varför bildar partier ibland koalitioner?",
+    "questionEn": "Why do parties sometimes form coalitions?",
+    "options": [
+      "För att samarbeta och få tillräckligt stöd för att styra eller besluta.",
+      "För att slå ihop sina partier permanent till ett enda parti.",
+      "För att hindra att nyval måste genomföras varje år.",
+      "För att alla partier i riksdagen måste ingå i samma regering."
+    ],
+    "optionsEn": [
+      "To cooperate and gain enough support to govern or decide.",
+      "To permanently merge their parties into one party.",
+      "To prevent extra elections from having to be held every year.",
+      "Because all parties in the Riksdag must be part of the same government."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "When no party has a majority alone, cooperation can be necessary.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-018",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "elections",
+      "coalitions",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Två partier tycker olika i flera frågor men bildar regering tillsammans. Vad visar det?",
+    "questionEn": "Two parties disagree on several issues but form a government together. What does this show?",
+    "options": [
+      "Kompromisser kan behövas för att skapa parlamentarisk majoritet eller stöd.",
+      "Partier måste tycka likadant i alla frågor för att få samarbeta.",
+      "Regeringen behöver inte bry sig om vad riksdagen beslutar.",
+      "Valresultatet saknar betydelse så länge partierna är överens."
+    ],
+    "optionsEn": [
+      "Compromises may be needed to create a parliamentary majority or support.",
+      "Parties must think the same on every issue to cooperate.",
+      "The government does not need to care what the Riksdag decides.",
+      "The election result has no meaning as long as parties agree."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Coalition politics often involves negotiation between different priorities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-019",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "campaigns"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad är en valrörelse?",
+    "questionEn": "What is an election campaign?",
+    "options": [
+      "Perioden när partier presenterar politik och försöker vinna väljarnas stöd.",
+      "Tidsperioden då Valmyndigheten granskar röstlängden inför nästa val.",
+      "Processen när den nya riksdagen röstar om statsministern.",
+      "Mötesperioden där regeringen förhandlar om statens budget."
+    ],
+    "optionsEn": [
+      "The period when parties present policies and try to win voters’ support.",
+      "The period when the Election Authority reviews the electoral roll before the next election.",
+      "The process when the new Riksdag votes on the prime minister.",
+      "The meeting period when the government negotiates the state budget."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Election campaigns allow voters to compare parties, ideas, and candidates.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-020",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "campaigns",
+      "source-criticism"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Varför är källkritik viktig under en valrörelse?",
+    "questionEn": "Why is source criticism important during an election campaign?",
+    "options": [
+      "Väljare behöver kunna bedöma påståenden, statistik och politiska budskap.",
+      "Alla valbudskap är alltid neutrala fakta.",
+      "Medier får inte rapportera om val.",
+      "Partier får aldrig kritisera varandra."
+    ],
+    "optionsEn": [
+      "Voters need to assess claims, statistics, and political messages.",
+      "All campaign messages are always neutral facts.",
+      "Media may not report on elections.",
+      "Parties may never criticize each other."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Campaign periods can include persuasion, selective facts, and misinformation, so source criticism matters.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-021",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "misinformation",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Ett falskt rykte sprids om att en vallokal är stängd. Vad är den demokratiska risken?",
+    "questionEn": "A false rumor spreads that a polling station is closed. What is the democratic risk?",
+    "options": [
+      "Väljare kan hindras från att rösta genom desinformation.",
+      "Partier får fler mandat automatiskt.",
+      "Valhemligheten blir för stark.",
+      "Kommunen får besluta om grundlagar."
+    ],
+    "optionsEn": [
+      "Voters may be prevented from voting through disinformation.",
+      "Parties automatically get more seats.",
+      "Ballot secrecy becomes too strong.",
+      "The municipality gets to decide fundamental laws."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "False information about voting can suppress participation and damage trust.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-022",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "election-authority"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vilken myndighet ansvarar för mycket av genomförandet av val i Sverige?",
+    "questionEn": "Which authority is responsible for much of the administration of elections in Sweden?",
+    "options": [
+      "Valmyndigheten.",
+      "Riksbanken.",
+      "Högsta domstolen.",
+      "Skatteverkets folkbokföring ensam."
+    ],
+    "optionsEn": [
+      "The Election Authority.",
+      "The central bank.",
+      "The Supreme Court.",
+      "The population registration office alone."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Election Authority has central responsibilities for Swedish elections, together with local election administration.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-023",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "election-administration"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Varför är oberoende och tydlig valadministration viktig?",
+    "questionEn": "Why is independent and clear election administration important?",
+    "options": [
+      "Den hjälper väljare att lita på att valet genomförs korrekt.",
+      "Den gör att regeringen kan styra vilka partier som får ställa upp.",
+      "Den gör att valresultatet snabbare kan ändras om regeringen vill.",
+      "Den innebär att rösterna inte behöver räknas offentligt."
+    ],
+    "optionsEn": [
+      "It helps voters trust that the election is carried out correctly.",
+      "It lets the government control which parties may stand.",
+      "It makes the election result faster to change if the government wants.",
+      "It means votes do not need to be counted publicly."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Trust in the election process depends on clear rules, neutral administration, and transparent counting.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-024",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "elections",
+      "election-administration",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "En röstmottagare försöker påverka väljare inne i vallokalen. Varför är detta allvarligt?",
+    "questionEn": "An election worker tries to influence voters inside the polling station. Why is this serious?",
+    "options": [
+      "Valadministrationen ska vara neutral och väljaren ska kunna rösta fritt.",
+      "Röstmottagare har rätt att rekommendera parti.",
+      "Det är bara problem om väljaren byter parti efteråt.",
+      "Det stärker valhemligheten."
+    ],
+    "optionsEn": [
+      "Election administration should be neutral and the voter should be able to vote freely.",
+      "Election workers have the right to recommend a party.",
+      "It is only a problem if the voter changes party afterwards.",
+      "It strengthens ballot secrecy."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The polling place must protect free and secret voting.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-025",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "turnout"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad betyder valdeltagande?",
+    "questionEn": "What does voter turnout mean?",
+    "options": [
+      "Andelen röstberättigade som röstar i ett val.",
+      "Andelen av de valda ledamöterna som är närvarande vid en omröstning.",
+      "Antalet kandidater som ställer upp i allmänna val.",
+      "Antalet personer som arbetar som röstmottagare på valdagen."
+    ],
+    "optionsEn": [
+      "The share of eligible voters who vote in an election.",
+      "The share of elected members present during a vote.",
+      "The number of candidates running in general elections.",
+      "The number of people working as election officers on election day."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Voter turnout measures participation among those entitled to vote.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-026",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "turnout",
+      "legitimacy"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Varför kan högt valdeltagande stärka demokratisk legitimitet?",
+    "questionEn": "Why can high voter turnout strengthen democratic legitimacy?",
+    "options": [
+      "Fler röstberättigade har då deltagit i valet av företrädare.",
+      "Det gör att alla beslut automatiskt blir rätt.",
+      "Det betyder att opposition inte behövs.",
+      "Det gör att valresultatet aldrig får kritiseras."
+    ],
+    "optionsEn": [
+      "More eligible voters have then participated in choosing representatives.",
+      "It means all decisions automatically become correct.",
+      "It means opposition is not needed.",
+      "It means the election result may never be criticized."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "High participation can make elected bodies more representative of the electorate.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-027",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "elections",
+      "turnout",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Ett område har mycket lågt valdeltagande under flera val. Vad kan vara en demokratisk konsekvens?",
+    "questionEn": "An area has very low voter turnout over several elections. What can be a democratic consequence?",
+    "options": [
+      "Gruppens intressen kan få svagare genomslag i politiken.",
+      "Valmyndigheten måste automatiskt ogiltigförklara hela valresultatet.",
+      "Alla partier blir skyldiga att flytta sina kontor till det området.",
+      "Invånarna i området mister sin rösträtt i nästa val."
+    ],
+    "optionsEn": [
+      "The group’s interests may have weaker influence in politics.",
+      "The Election Authority must automatically invalidate the whole election result.",
+      "All parties become required to move their offices to that area.",
+      "Residents in the area lose their voting rights in the next election."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Low participation can reduce political influence and representation for affected groups.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-028",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "referendum"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad är en folkomröstning?",
+    "questionEn": "What is a referendum?",
+    "options": [
+      "När väljare får rösta direkt i en särskild sakfråga.",
+      "När riksdagen röstar om en ny lagförändring.",
+      "När regeringen utser en ny myndighetschef.",
+      "När partierna väljer sina ledamöter till riksdagen."
+    ],
+    "optionsEn": [
+      "When voters vote directly on a specific issue.",
+      "When the Riksdag votes on a new legal change.",
+      "When the government appoints a new agency director.",
+      "When parties choose their members for the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A referendum lets voters take a direct position on a specific issue.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-029",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "referendum",
+      "representative-democracy"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Hur passar folkomröstningar ihop med representativ demokrati?",
+    "questionEn": "How do referendums fit with representative democracy?",
+    "options": [
+      "De kan komplettera representativ demokrati i vissa sakfrågor.",
+      "De ersätter helt behovet av valda politiker och riksdag.",
+      "De måste genomföras före varje ny lagändring i Sverige.",
+      "De innebär att endast experter får rösta i svåra frågor."
+    ],
+    "optionsEn": [
+      "They can complement representative democracy on some specific issues.",
+      "They completely replace the need for elected politicians and the Riksdag.",
+      "They must be held before every new legal change in Sweden.",
+      "They mean only experts may vote on difficult issues."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden is mainly representative, but referendums can be used in particular questions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-030",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "elections",
+      "referendum",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "En kommun håller folkomröstning om en lokal fråga. Varför måste politiker ändå förstå frågans lagliga ramar?",
+    "questionEn": "A municipality holds a referendum on a local issue. Why must politicians still understand the legal limits of the issue?",
+    "options": [
+      "Ett lokalt beslut måste fortfarande följa lagar och kommunens befogenheter.",
+      "En folkomröstning gör att kommunen inte längre behöver följa svenska lagar.",
+      "Riksdagen måste alltid ändra grundlagen efter en lokal folkomröstning.",
+      "Resultatet i en kommunal folkomröstning gäller automatiskt i hela landet."
+    ],
+    "optionsEn": [
+      "A local decision must still follow laws and the municipality’s powers.",
+      "A referendum means the municipality no longer needs to follow Swedish laws.",
+      "The Riksdag must always change the constitution after a local referendum.",
+      "The result of a municipal referendum automatically applies across the whole country."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Direct votes do not remove legal limits or the division of responsibilities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-031",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "european-parliament"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vilket val handlar om Sveriges ledamöter i Europaparlamentet?",
+    "questionEn": "Which election concerns Sweden’s members of the European Parliament?",
+    "options": [
+      "Europaparlamentsvalet.",
+      "Riksdagsvalet.",
+      "Kommunvalet.",
+      "Regionvalet."
+    ],
+    "optionsEn": [
+      "The European Parliament election.",
+      "The parliamentary election.",
+      "The municipal election.",
+      "The regional election."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "EU citizens vote in European Parliament elections to choose representatives at EU level.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-032",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "european-parliament",
+      "eu"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Varför är Europaparlamentsvalet relevant för svenska väljare?",
+    "questionEn": "Why is the European Parliament election relevant for Swedish voters?",
+    "options": [
+      "EU-beslut kan påverka regler och politik i Sverige.",
+      "Valet bestämmer vem som ska vara Sveriges statsminister.",
+      "Europaparlamentet beslutar om svenska kommunalskatter.",
+      "Svenska domstolar styrs direkt av Europaparlamentets ledamöter."
+    ],
+    "optionsEn": [
+      "EU decisions can affect rules and policy in Sweden.",
+      "The election decides who will be Sweden’s prime minister.",
+      "The European Parliament decides Swedish municipal taxes.",
+      "Swedish courts are directly governed by members of the European Parliament."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden is an EU member, so EU-level decisions can matter domestically.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-033",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "european-parliament",
+      "voting-rights"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "En svensk medborgare bor i ett annat EU-land. Vad gäller för rösträtten i Europaparlamentsvalet?",
+    "questionEn": "A Swedish citizen lives in another EU country. What applies to voting rights in the European Parliament election?",
+    "options": [
+      "Personen kan rösta i EU-valet, men bosättningen kan avgöra i vilket land rösten avges.",
+      "EU-val gäller bara kommunala skolfrågor.",
+      "Riksdagsval hålls av EU-kommissionen.",
+      "EU-medborgare får aldrig rösta i EU-val."
+    ],
+    "optionsEn": [
+      "The person can vote in the EU election, but residence can decide in which country the vote is cast.",
+      "EU elections only concern municipal school issues.",
+      "Riksdag elections are held by the European Commission.",
+      "EU citizens may never vote in EU elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "European Parliament voting rights are tied to EU citizenship and rules about where a person votes.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-034",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "candidate"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad är en kandidat i ett val?",
+    "questionEn": "What is a candidate in an election?",
+    "options": [
+      "En person som ställer upp för att bli vald.",
+      "En tjänsteperson som arbetar med att räkna röster i en vallokal.",
+      "En jurist som granskar att valresultatet följer lagen.",
+      "En väljare som har anmält att hen vill rösta i förtid."
+    ],
+    "optionsEn": [
+      "A person who stands for election.",
+      "A public official who works on counting votes in a polling station.",
+      "A lawyer who reviews whether the election result follows the law.",
+      "A voter who has registered that they want to vote in advance."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Candidates are people voters can help elect to a representative body.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-035",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "candidate",
+      "personal-vote"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad kan en personröst påverka?",
+    "questionEn": "What can a personal vote influence?",
+    "options": [
+      "Vilken kandidat inom ett parti som får ett mandat.",
+      "Vilket parti som får bilda regering.",
+      "Hur många mandat en kommun totalt har i riksdagen.",
+      "Om ett parti klarar fyraprocentsspärren till riksdagen."
+    ],
+    "optionsEn": [
+      "Which candidate within a party receives a seat.",
+      "Which party gets to form the government.",
+      "How many seats a municipality has in the Riksdag in total.",
+      "Whether a party passes the four percent threshold for the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "In Swedish elections, voters can express support for a specific candidate on a party list.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-036",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "candidate",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "En väljare gillar ett parti men vill särskilt stödja en kandidat på listan. Vilket verktyg används?",
+    "questionEn": "A voter likes a party but wants to especially support one candidate on the list. What tool is used?",
+    "options": [
+      "Personröst på kandidaten.",
+      "Att kryssa för alla kandidater på partisedeln.",
+      "Att lämna en blank röst i samma val.",
+      "Att skriva kandidatens namn på baksidan av kuvertet."
+    ],
+    "optionsEn": [
+      "A personal vote for the candidate.",
+      "Marking all candidates on the party ballot.",
+      "Casting a blank vote in the same election.",
+      "Writing the candidate’s name on the back of the envelope."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A personal vote lets the voter mark support for a specific candidate while voting for a party.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-037",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "blank-vote"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad betyder blank röst?",
+    "questionEn": "What does a blank vote mean?",
+    "options": [
+      "En röst utan valt parti eller kandidat.",
+      "En röst som automatiskt tillfaller det största partiet.",
+      "En röst som räknas dubbelt i slutresultatet.",
+      "En röst som enbart godkänns vid förtidsröstning."
+    ],
+    "optionsEn": [
+      "A vote without a chosen party or candidate.",
+      "A vote that automatically goes to the largest party.",
+      "A vote counted twice in the final result.",
+      "A vote that is only approved during advance voting."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A blank vote can show participation without choosing a party, but it does not give seats to a party.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-038",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "invalid-vote"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad kan göra en röst ogiltig?",
+    "questionEn": "What can make a vote invalid?",
+    "options": [
+      "Om rösten inte går att tolka enligt valreglerna.",
+      "Om väljaren har lagt två likadana valsedlar från samma parti i kuvertet.",
+      "Om väljaren personröstar på en kandidat längst ned på listan.",
+      "Om väljaren förtidsröstar på en helgdag."
+    ],
+    "optionsEn": [
+      "If the vote cannot be interpreted according to election rules.",
+      "If the voter has put two identical ballot papers from the same party in the envelope.",
+      "If the voter casts a personal vote for a candidate at the bottom of the list.",
+      "If the voter votes in advance on a public holiday."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Election rules decide how votes are counted and when they cannot be accepted as valid.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-039",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "blank-vote",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "En väljare vill protestera men ändå delta i valet. Vilket alternativ beskriver en möjlig handling?",
+    "questionEn": "A voter wants to protest but still participate in the election. Which option describes a possible action?",
+    "options": [
+      "Lämna en blank röst, med förståelsen att den inte ger mandat till ett parti.",
+      "Riva sönder andra väljares valsedlar.",
+      "Rösta flera gånger för att visa missnöje.",
+      "Fotografera andra väljares val för att bevisa protesten."
+    ],
+    "optionsEn": [
+      "Cast a blank vote, understanding that it does not give seats to a party.",
+      "Tear up other voters’ ballot papers.",
+      "Vote several times to show dissatisfaction.",
+      "Photograph other voters’ choices to prove the protest."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A blank vote is a lawful way to participate without choosing a party; interference with others’ voting is not.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-040",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "polling-station"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad är en vallokal?",
+    "questionEn": "What is a polling station?",
+    "options": [
+      "En plats där väljare kan rösta.",
+      "Ett kontor där partierna skriver sina valmanifest.",
+      "En domstol som hanterar överklaganden av valresultat.",
+      "Ett samlingsrum där enbart förtidsröster räknas."
+    ],
+    "optionsEn": [
+      "A place where voters can vote.",
+      "An office where parties write their election manifestos.",
+      "A court that handles appeals of election results.",
+      "A meeting room where only advance votes are counted."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Polling stations are organized places for voting.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-041",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "advance-voting"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad innebär förtidsröstning?",
+    "questionEn": "What does advance voting mean?",
+    "options": [
+      "Att rösta före valdagen enligt valreglerna.",
+      "Att rösta i riksdagsvalet innan man har fyllt 18 år.",
+      "Att partierna får sina mandat tilldelade före valdagen.",
+      "Att röstmottagarna fyller i valsedlarna åt väljaren."
+    ],
+    "optionsEn": [
+      "Voting before election day according to election rules.",
+      "Voting in the parliamentary election before turning 18.",
+      "That parties receive their seats before election day.",
+      "That election officers fill in ballot papers for the voter."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Advance voting makes participation easier for people who cannot vote in their polling station on election day.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-042",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "advance-voting",
+      "accessibility"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Varför kan förtidsröstning stärka deltagandet?",
+    "questionEn": "Why can advance voting strengthen participation?",
+    "options": [
+      "Den ger fler praktiska möjligheter att rösta trots arbete, resa eller andra hinder.",
+      "Den gör att vissa röster räknas mer än andra.",
+      "Den tar bort behovet av valhemlighet.",
+      "Den låter partier se hur alla har röstat före valdagen."
+    ],
+    "optionsEn": [
+      "It gives more practical opportunities to vote despite work, travel, or other obstacles.",
+      "It makes some votes count more than others.",
+      "It removes the need for ballot secrecy.",
+      "It lets parties see how everyone voted before election day."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Accessible voting procedures can increase participation while preserving election rules and secrecy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-043",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "opinion",
+      "polls"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad är en opinionsundersökning?",
+    "questionEn": "What is an opinion poll?",
+    "options": [
+      "En mätning av vad ett urval personer tycker eller tänker rösta på.",
+      "Det slutgiltiga och officiella valresultatet från Valmyndigheten.",
+      "En kontroll som granskar om partierna följer sina vallöften.",
+      "En förteckning över alla medborgare som har rösträtt."
+    ],
+    "optionsEn": [
+      "A measurement of what a sample of people think or intend to vote for.",
+      "The final and official election result from the Election Authority.",
+      "A check that reviews whether parties follow their campaign promises.",
+      "A register of all citizens who have voting rights."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Polls estimate opinions but are not the same as election results.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-044",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "polls",
+      "source-criticism"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Varför ska opinionsundersökningar tolkas försiktigt?",
+    "questionEn": "Why should opinion polls be interpreted carefully?",
+    "options": [
+      "De bygger på urval, metod och osäkerhet.",
+      "De är alltid exakta valresultat.",
+      "De ersätter rätten att rösta.",
+      "De gör att partier inte behöver presentera politik."
+    ],
+    "optionsEn": [
+      "They depend on sample, method, and uncertainty.",
+      "They are always exact election results.",
+      "They replace the right to vote.",
+      "They mean parties do not need to present policies."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Source criticism applies to polls: method, sample size, timing, and sender matter.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-045",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "elections",
+      "polls",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "En rubrik säger att ett parti \"vinner valet\" två månader före valdagen baserat på en mätning. Vad är mest källkritiskt?",
+    "questionEn": "A headline says a party \"wins the election\" two months before election day based on a poll. What is most source-critical?",
+    "options": [
+      "Kontrollera metod, osäkerhetsmarginal och att en mätning inte är ett valresultat.",
+      "Utgå från att valet redan är avgjort.",
+      "Dela rubriken som officiellt valresultat.",
+      "Kräva att riksdagen ändrar mandat direkt."
+    ],
+    "optionsEn": [
+      "Check method, margin of error, and that a poll is not an election result.",
+      "Assume the election is already decided.",
+      "Share the headline as the official election result.",
+      "Demand that the Riksdag changes seats immediately."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Polls can show trends, but they are uncertain and not official results.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-046",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "ideology"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad är politisk ideologi?",
+    "questionEn": "What is political ideology?",
+    "options": [
+      "En samling idéer om hur samhället bör organiseras.",
+      "En statlig regel för hur valsedlar ska tryckas.",
+      "Ett juridiskt avtal mellan partierna i en regering.",
+      "En lista över vilka frågor som får debatteras i riksdagen."
+    ],
+    "optionsEn": [
+      "A set of ideas about how society should be organized.",
+      "A state rule for how ballot papers should be printed.",
+      "A legal agreement between parties in a government.",
+      "A list of which issues may be debated in the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Ideologies help explain parties’ values and priorities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-047",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "left-right"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad beskriver ofta vänster-höger-skalan i politik?",
+    "questionEn": "What does the left-right scale in politics often describe?",
+    "options": [
+      "Olika syn på ekonomi, jämlikhet, skatt och statens roll.",
+      "Hur länge olika partier har funnits i riksdagen.",
+      "Fördelningen av mandat mellan män och kvinnor i partierna.",
+      "Skillnaden mellan partiets lokala och nationella organisation."
+    ],
+    "optionsEn": [
+      "Different views on economy, equality, taxes, and the role of the state.",
+      "How long different parties have been in the Riksdag.",
+      "The distribution of seats between men and women in parties.",
+      "The difference between the party’s local and national organization."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The left-right scale is a simplified way to describe political differences, especially about economy and welfare.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-048",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "ideology",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Två partier vill båda förbättra skolan men föreslår olika skatter och ansvarsfördelning. Vad visar detta?",
+    "questionEn": "Two parties both want to improve schools but propose different taxes and divisions of responsibility. What does this show?",
+    "options": [
+      "Partier kan dela mål men ha olika ideologiska vägar dit.",
+      "Partier får inte ha olika förslag i en demokrati.",
+      "Skolfrågor får bara beslutas av domstolar.",
+      "Väljare kan inte påverka skolpolitik."
+    ],
+    "optionsEn": [
+      "Parties can share goals but have different ideological ways to reach them.",
+      "Parties may not have different proposals in a democracy.",
+      "School issues may only be decided by courts.",
+      "Voters cannot influence school policy."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Political conflict is often about priorities and methods, not only final goals.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-049",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "opposition"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad kallas partier som inte ingår i eller stödjer den styrande sidan?",
+    "questionEn": "What are parties that are not part of or supporting the governing side often called?",
+    "options": [
+      "Opposition.",
+      "Koalition.",
+      "Regeringsunderlag.",
+      "Utskott."
+    ],
+    "optionsEn": [
+      "Opposition.",
+      "Coalition.",
+      "Government support base.",
+      "Committee."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Opposition parties can criticize, scrutinize, and offer alternatives.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-050",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "opposition",
+      "minority-government"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Varför kan oppositionen ändå påverka politiken?",
+    "questionEn": "Why can the opposition still influence politics?",
+    "options": [
+      "Den kan granska, väcka förslag och ibland samla majoritet i riksdagen.",
+      "Den har rätt att stoppa alla regeringens beslut utan omröstning.",
+      "Den utser domare som kontrollerar att regeringen följer lagen.",
+      "Den får ta över regeringsmakten automatiskt efter två år."
+    ],
+    "optionsEn": [
+      "It can scrutinize, raise proposals, and sometimes gather a majority in the Riksdag.",
+      "It has the right to stop all government decisions without a vote.",
+      "It appoints judges who check that the government follows the law.",
+      "It gets to take over government power automatically after two years."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Even outside government, parties can influence parliamentary decisions and public debate.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-051",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "elections",
+      "minority-government",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "En minoritetsregering får igenom sin budget. Vad kan det bero på?",
+    "questionEn": "A minority government gets its budget passed. What can this be due to?",
+    "options": [
+      "Andra partier tolererar eller stödjer budgeten tillräckligt för att den ska gå igenom.",
+      "En minoritetsregering behöver inte få sin budget godkänd av riksdagen.",
+      "Skatteverket kan godkänna budgeten om riksdagen röstar nej.",
+      "Regeringen har rätt att använda förra årets budget utan riksdagsbeslut."
+    ],
+    "optionsEn": [
+      "Other parties tolerate or support the budget enough for it to pass.",
+      "A minority government does not need its budget approved by the Riksdag.",
+      "The Tax Agency can approve the budget if the Riksdag votes no.",
+      "The government has the right to use last year’s budget without a Riksdag decision."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Minority governments can govern if enough members of parliament tolerate their proposals.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-052",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "political-influence"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vilket är ett lagligt sätt att påverka ett parti?",
+    "questionEn": "What is a lawful way to influence a party?",
+    "options": [
+      "Bli medlem, kontakta företrädare eller delta i debatt.",
+      "Hota partiets kandidater.",
+      "Förstöra andra partiers valsedlar.",
+      "Rösta åt någon annan utan tillstånd."
+    ],
+    "optionsEn": [
+      "Become a member, contact representatives, or participate in debate.",
+      "Threaten the party’s candidates.",
+      "Destroy other parties’ ballot papers.",
+      "Vote for someone else without permission."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "People can influence parties and politics through lawful participation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-053",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "campaign-rules"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Varför är det problematiskt att förstöra andra partiers valsedlar?",
+    "questionEn": "Why is it problematic to destroy other parties’ ballot papers?",
+    "options": [
+      "Det kan hindra väljare från att göra ett fritt val.",
+      "Det är ett normalt sätt att debattera politik.",
+      "Det stärker valhemligheten.",
+      "Det gör valet mer proportionellt."
+    ],
+    "optionsEn": [
+      "It can prevent voters from making a free choice.",
+      "It is a normal way to debate politics.",
+      "It strengthens ballot secrecy.",
+      "It makes the election more proportional."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Interfering with voting materials can undermine fair and free elections.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-054",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "elections",
+      "campaign-rules",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "En grupp blockerar entrén till en vallokal för väljare från ett visst område. Vilken demokratisk princip hotas?",
+    "questionEn": "A group blocks the entrance to a polling station for voters from a certain area. Which democratic principle is threatened?",
+    "options": [
+      "Allmän och fri rösträtt.",
+      "Partiernas rätt till budgetstöd.",
+      "Riksbankens självständighet.",
+      "Kommunalt självstyre i skolfrågor."
+    ],
+    "optionsEn": [
+      "Universal and free suffrage.",
+      "Parties’ right to budget support.",
+      "The central bank’s independence.",
+      "Municipal self-government in school matters."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Preventing eligible voters from voting attacks the foundation of democratic elections.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-055",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "elections",
+      "after-election"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vad händer efter att rösterna har räknats?",
+    "questionEn": "What happens after the votes have been counted?",
+    "options": [
+      "Mandat fördelas och valda församlingar kan börja sitt arbete.",
+      "Regeringen utser vilka kandidater som faktiskt får ta sina mandat.",
+      "Alla politiska partier måste upplösas och bildas på nytt.",
+      "Valmyndigheten bestämmer vilka lagar som ska gälla nästa mandatperiod."
+    ],
+    "optionsEn": [
+      "Seats are distributed and elected assemblies can begin their work.",
+      "The government appoints which candidates actually get to take their seats.",
+      "All political parties must dissolve and be formed again.",
+      "The Election Authority decides which laws apply next term."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Election results are translated into seats in assemblies such as the Riksdag, regions, and municipalities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-056",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "after-election",
+      "government-formation"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Varför kan regeringsbildning ta tid efter ett val?",
+    "questionEn": "Why can government formation take time after an election?",
+    "options": [
+      "Partier kan behöva förhandla om stöd, samarbete och politisk inriktning.",
+      "Valmyndigheten måste granska alla ministrars bakgrund innan regeringen bildas.",
+      "Grundlagen kräver att det alltid går tre månader mellan val och regeringsbildning.",
+      "Alla partier i riksdagen måste godkänna statsministern enhälligt."
+    ],
+    "optionsEn": [
+      "Parties may need to negotiate support, cooperation, and political direction.",
+      "The Election Authority must review all ministers’ backgrounds before a government is formed.",
+      "The constitution requires that three months always pass between the election and government formation.",
+      "All parties in the Riksdag must unanimously approve the prime minister."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "In a parliamentary system, the government must be able to function with enough parliamentary tolerance.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-057",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "elections",
+      "after-election",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Ett parti blir störst men får inte bilda regering. Hur kan det vara möjligt?",
+    "questionEn": "A party becomes the largest but does not form a government. How can that be possible?",
+    "options": [
+      "Andra partier kan tillsammans ha större stöd för en annan regeringslösning.",
+      "Det största partiet har inte rätt att ingå i en koalition.",
+      "Talmannen har rätt att utesluta det största partiet från regeringsförhandlingarna.",
+      "Det största partiet måste få över 50 % av rösterna för att få bilda regering."
+    ],
+    "optionsEn": [
+      "Other parties together may have stronger support for another government solution.",
+      "The largest party does not have the right to be part of a coalition.",
+      "The Speaker has the right to exclude the largest party from government negotiations.",
+      "The largest party must get over 50% of the votes to form a government."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The key issue is who can be tolerated by the Riksdag, not only which single party is largest.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-058",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "elections",
+      "trust",
+      "election-results"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Varför är det viktigt att acceptera valresultat som har tagits fram enligt reglerna?",
+    "questionEn": "Why is it important to accept election results produced according to the rules?",
+    "options": [
+      "Det skyddar fredlig maktväxling och förtroende för demokratin.",
+      "Det betyder att man aldrig får kritisera politiken efter valet.",
+      "Det gör oppositionen olaglig.",
+      "Det gör att röster inte behöver räknas öppet."
+    ],
+    "optionsEn": [
+      "It protects peaceful transfer of power and trust in democracy.",
+      "It means one may never criticize politics after the election.",
+      "It makes the opposition illegal.",
+      "It means votes do not need to be counted openly."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democracy depends on both fair competition and accepting legitimate results while continuing debate.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-059",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "elections",
+      "trust",
+      "misconception"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "En person säger: \"Om mitt parti förlorar måste valet vara odemokratiskt.\" Vilket är det bästa svaret?",
+    "questionEn": "A person says: \"If my party loses, the election must be undemocratic.\" What is the best answer?",
+    "options": [
+      "Ett demokratiskt val kan vinnas eller förloras; frågan är om reglerna varit fria, rättvisa och öppna.",
+      "Det stämmer, demokrati betyder att ens eget parti alltid vinner.",
+      "Förlorande väljare får inte delta i nästa val.",
+      "Domstolar ska ändra resultatet om någon blir besviken."
+    ],
+    "optionsEn": [
+      "A democratic election can be won or lost; the question is whether the rules were free, fair, and transparent.",
+      "That is correct; democracy means one’s own party always wins.",
+      "Losing voters may not participate in the next election.",
+      "Courts should change the result if someone is disappointed."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democratic legitimacy is about fair process, not whether one side likes the outcome.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch04-060",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "elections",
+      "synthesis"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier",
+    "questionSv": "Vilken situation visar bäst ett välfungerande demokratiskt val?",
+    "questionEn": "Which situation best shows a well-functioning democratic election?",
+    "options": [
+      "Flera partier kampanjar fritt, väljare röstar hemligt och resultatet räknas enligt tydliga regler.",
+      "Regeringen väljer vilka partier som får vinna och medier förbjuds granska valet.",
+      "Arbetsgivare kontrollerar hur anställda röstar för att undvika fel val.",
+      "Valsedlar från oppositionen tas bort så valet går snabbare."
+    ],
+    "optionsEn": [
+      "Several parties campaign freely, voters vote secretly, and the result is counted according to clear rules.",
+      "The government chooses which parties may win and media are forbidden to scrutinize the election.",
+      "Employers check how employees vote to avoid the wrong choice.",
+      "Opposition ballot papers are removed so the election is faster."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Free competition, secret voting, and trusted vote counting are central to democratic elections.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch004-004",
+    "chapterId": "elections",
+    "chapterNumber": 4,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "fyraprocentsspärr"
+    ],
+    "source": "Sverige i fokus, chapter 4: Politiska val och partier (extra draft)",
+    "questionSv": "Vad innebär spärrregeln vid val till riksdagen?",
+    "questionEn": "What does the threshold rule mean in elections to the Riksdag?",
+    "options": [
+      "Ett parti måste normalt få minst 4 procent av rösterna i hela landet för att få mandat.",
+      "Spärren gäller bara partier som står utanför riksdagen, inte sittande partier.",
+      "Riksdagen höjer spärren till 8 procent varje gång ett nytt parti kommer in.",
+      "Valmyndigheten bestämmer spärren från val till val efter valdeltagandet."
+    ],
+    "optionsEn": [
+      "A party must normally receive at least 4 percent of the votes nationwide to get seats.",
+      "The threshold only applies to parties outside the Riksdag, not sitting parties.",
+      "The Riksdag raises the threshold to 8 percent every time a new party enters.",
+      "The Election Authority decides the threshold from election to election based on turnout."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "To enter the Riksdag a party normally needs at least 4% of the national vote (or 12% in a single constituency). The threshold is fixed by law and applies to all parties.",
+    "status": "draft"
+  }
+]

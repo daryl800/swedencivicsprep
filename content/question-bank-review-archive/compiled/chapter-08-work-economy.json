@@ -1,0 +1,2336 @@
+[
+  {
+    "id": "draft-batch-b-ch08-001",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "employment-terms",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "En person får ett jobberbjudande utan tydlig arbetstid eller lön. Vad bör personen göra innan hen tackar ja?",
+    "questionEn": "A person receives a job offer without clear working hours or pay. What should the person do before accepting?",
+    "options": [
+      "Be om tydliga villkor skriftligt och kontrollera vad som gäller.",
+      "Tacka ja direkt eftersom otydliga villkor alltid gynnar arbetstagaren.",
+      "Anta att kommunen garanterar lönen automatiskt.",
+      "Börja arbeta först och fråga om lön efter flera månader."
+    ],
+    "optionsEn": [
+      "Ask for clear written terms and check what applies.",
+      "Accept immediately because unclear terms always benefit the employee.",
+      "Assume the municipality automatically guarantees the salary.",
+      "Start working first and ask about pay after several months."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Clear employment terms reduce risk and help protect the worker.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-002",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "employment",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Varför kan ett anställningsavtal vara viktigt?",
+    "questionEn": "Why can an employment contract be important?",
+    "options": [
+      "Det tydliggör villkor som lön, arbetstid och anställningsform.",
+      "Det ersätter alla arbetsmiljöregler.",
+      "Det gör att arbetsgivaren aldrig behöver betala skatt.",
+      "Det gäller bara om arbetstagaren är med i ett parti."
+    ],
+    "optionsEn": [
+      "It clarifies terms such as pay, working hours, and type of employment.",
+      "It replaces all work environment rules.",
+      "It means the employer never needs to pay tax.",
+      "It only applies if the employee is a member of a party."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "An agreement helps both sides know the terms of employment.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-003",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "consumer-rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "En konsument köper en prenumeration på nätet men ångrar sig efter några dagar. Vad bör personen kontrollera?",
+    "questionEn": "A consumer buys a subscription online but regrets it after a few days. What should the person check?",
+    "options": [
+      "Om ångerrätt gäller och hur prenumerationen kan avslutas enligt villkoren.",
+      "Om alla nätköp automatiskt är bindande för alltid.",
+      "Om kommunen måste säga upp prenumerationen åt kunden.",
+      "Om säljaren får fortsätta ta betalt utan att informera om villkor."
+    ],
+    "optionsEn": [
+      "Whether the right of withdrawal applies and how the subscription can be cancelled under the terms.",
+      "Whether all online purchases are automatically binding forever.",
+      "Whether the municipality must cancel the subscription for the customer.",
+      "Whether the seller may continue charging without informing about terms."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "For online purchases and subscriptions, consumers should check withdrawal rights, cancellation rules, and ongoing costs.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-004",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "budget",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Varför kan fasta och rörliga utgifter vara bra att skilja åt i en budget?",
+    "questionEn": "Why can it be useful to separate fixed and variable expenses in a budget?",
+    "options": [
+      "Det gör det lättare att se vilka kostnader som är svåra respektive möjliga att påverka.",
+      "Fasta utgifter behöver aldrig betalas.",
+      "Rörliga utgifter bestäms alltid av Skatteverket.",
+      "Budgetar får bara innehålla inkomster, inte kostnader."
+    ],
+    "optionsEn": [
+      "It makes it easier to see which costs are hard to change and which can be influenced.",
+      "Fixed expenses never need to be paid.",
+      "Variable expenses are always decided by the Tax Agency.",
+      "Budgets may only contain income, not costs."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Separating expenses can help with realistic financial planning.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-005",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "debt-help",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Vart kan en person med växande skulder ofta vända sig för kostnadsfri rådgivning?",
+    "questionEn": "Where can a person with growing debts often turn for free advice?",
+    "options": [
+      "Kommunens budget- och skuldrådgivning.",
+      "Valmyndighetens lokala röstmottagning.",
+      "Riksbankens penningpolitiska avdelning.",
+      "Domstolen som automatiskt skriver av alla skulder."
+    ],
+    "optionsEn": [
+      "The municipality’s budget and debt counselling.",
+      "The Election Authority’s local vote reception.",
+      "The Riksbank’s monetary policy department.",
+      "The court that automatically writes off all debts."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipal budget and debt counselling can give free advice to people who need help managing debts.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-006",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "work-rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "En anställd får ingen lönespecifikation och arbetsgivaren vill betala kontant utan avtal. Vad bör personen vara uppmärksam på?",
+    "questionEn": "An employee receives no payslip and the employer wants to pay cash without an agreement. What should the person watch out for?",
+    "options": [
+      "Det kan tyda på otrygga eller oredovisade arbetsvillkor.",
+      "Det är alltid ett tecken på högre pension och bättre försäkring.",
+      "Kontant lön utan uppgifter är den normala svenska modellen.",
+      "Arbetsgivaren behöver aldrig redovisa lön till myndigheter."
+    ],
+    "optionsEn": [
+      "It can indicate insecure or undeclared working conditions.",
+      "It is always a sign of higher pension and better insurance.",
+      "Cash pay without information is the normal Swedish model.",
+      "Employers never need to report wages to authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Transparent pay, taxes, and contracts protect both workers and the welfare system.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-007",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "jobseeking",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Varför kan det vara viktigt att registrera sig som arbetssökande när man söker stöd?",
+    "questionEn": "Why can it be important to register as a jobseeker when seeking support?",
+    "options": [
+      "Det kan vara ett krav för vissa stöd och hjälper myndigheter att följa jobbsökandet.",
+      "Registrering betyder att man automatiskt får ett jobb.",
+      "Bara registrerade personer får betala skatt.",
+      "Registrering ersätter alla krav på att söka arbete."
+    ],
+    "optionsEn": [
+      "It can be a requirement for some support and helps authorities follow job seeking.",
+      "Registration means one automatically gets a job.",
+      "Only registered people may pay tax.",
+      "Registration replaces all requirements to look for work."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Some labour-market support depends on being registered and actively seeking work.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-008",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "pension",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Varför påverkar deklarerad inkomst ofta framtida pension?",
+    "questionEn": "Why does declared income often affect future pension?",
+    "options": [
+      "Pensionsrätter bygger bland annat på inkomster som redovisas och beskattas.",
+      "Pensionen bestäms bara av vilken kommun man bor i.",
+      "Svart lön ger alltid högre allmän pension.",
+      "Pensionen blir lika för alla oavsett inkomst."
+    ],
+    "optionsEn": [
+      "Pension rights are based partly on income that is reported and taxed.",
+      "The pension is decided only by which municipality one lives in.",
+      "Undeclared pay always gives a higher public pension.",
+      "The pension becomes the same for everyone regardless of income."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Reported income can contribute to pension rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-009",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "consumer-choice",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Varför är det klokt att jämföra effektiv ränta när man lånar pengar?",
+    "questionEn": "Why is it wise to compare effective interest when borrowing money?",
+    "options": [
+      "Den visar lånets totala kostnad på ett mer jämförbart sätt.",
+      "Den bestäms av Riksbanken och är lika för alla lån.",
+      "Den gör att lånet alltid blir gratis.",
+      "Den ersätter behovet av att läsa avtalet."
+    ],
+    "optionsEn": [
+      "It shows the total cost of the loan in a more comparable way.",
+      "It is set by the Riksbank and is the same for all loans.",
+      "It makes the loan always free.",
+      "It replaces the need to read the agreement."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Effective interest helps compare loan costs including fees.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-010",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "labor-rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "En arbetstagare blir uppsagd och tror att reglerna inte har följts. Vem kan ofta ge stöd eller råd?",
+    "questionEn": "An employee is dismissed and believes the rules were not followed. Who can often provide support or advice?",
+    "options": [
+      "Facket eller annan arbetsrättslig rådgivning kan hjälpa personen att förstå sina rättigheter.",
+      "Arbetsgivaren måste alltid förklara uppsägningen för polisen.",
+      "Domstolen avgör automatiskt alla uppsägningstvister.",
+      "Kommunen ansvarar för att anställa personen igen."
+    ],
+    "optionsEn": [
+      "A union or other labour law advice can help the person understand their rights.",
+      "The employer must always explain the dismissal to the police.",
+      "The court automatically decides all dismissal disputes.",
+      "The municipality is responsible for hiring the person again."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Workers can seek support to understand labour rights and agreements.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-011",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "welfare-finance",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Varför kan hög sysselsättning vara viktig för välfärden?",
+    "questionEn": "Why can high employment be important for welfare?",
+    "options": [
+      "Fler som arbetar bidrar med skatt och färre kan behöva ekonomiskt stöd.",
+      "Välfärden finansieras enbart av företagens vinst.",
+      "Fler jobb leder alltid till högre skatt för alla.",
+      "Arbete påverkar inte offentliga inkomster."
+    ],
+    "optionsEn": [
+      "More people working contribute taxes and fewer may need financial support.",
+      "Welfare is financed only by company profits.",
+      "More jobs always lead to higher tax for everyone.",
+      "Work does not affect public revenue."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Employment affects both tax revenue and need for benefits.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-012",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "household-economy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Varför är det riskabelt att planera sin ekonomi utan marginal?",
+    "questionEn": "Why is it risky to plan personal finances without any margin?",
+    "options": [
+      "Oväntade kostnader kan göra det svårt att betala nödvändiga utgifter.",
+      "Marginal betyder att alla inkomster blir skattefria.",
+      "Utan marginal måste banken alltid ge bidrag.",
+      "Ekonomisk planering behövs bara för företag."
+    ],
+    "optionsEn": [
+      "Unexpected costs can make it hard to pay necessary expenses.",
+      "Margin means all income becomes tax-free.",
+      "Without margin the bank must always give benefits.",
+      "Financial planning is only needed for companies."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A margin helps handle unexpected expenses without immediate debt.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-013",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "tax-agency",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Varför är deklarationen viktig för många personer som arbetar?",
+    "questionEn": "Why is the tax return important for many people who work?",
+    "options": [
+      "Den hjälper till att fastställa rätt skatt på inkomster.",
+      "Den ersätter anställningsavtalet.",
+      "Den bestämmer om du får rösta i val.",
+      "Den visar om du har rätt till barnbidrag."
+    ],
+    "optionsEn": [
+      "It helps determine the correct tax on income.",
+      "It replaces the employment contract.",
+      "It decides whether you may vote in elections.",
+      "It shows whether you have the right to child allowance."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Tax returns are part of reporting income and calculating tax.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-014",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "consumer-choice",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "Varför kan jämförelse av avtal vara viktigt innan man väljer el, telefon eller försäkring?",
+    "questionEn": "Why can comparing contracts be important before choosing electricity, phone, or insurance?",
+    "options": [
+      "Pris, bindningstid och villkor kan skilja mycket mellan alternativ.",
+      "Alla avtal har alltid samma pris enligt lag.",
+      "Det dyraste avtalet är alltid det tryggaste.",
+      "Konsumenten får inte jämföra företag före köp."
+    ],
+    "optionsEn": [
+      "Price, commitment period, and terms can differ a lot between options.",
+      "All contracts always have the same price by law.",
+      "The most expensive contract is always the safest.",
+      "The consumer may not compare companies before buying."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Comparing terms can prevent unnecessary costs and unsuitable commitments.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch08-015",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "workplace-safety",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch B extra draft)",
+    "questionSv": "En anställd upptäcker en allvarlig risk på arbetsplatsen. Vilken roll kan ett skyddsombud ha?",
+    "questionEn": "An employee discovers a serious risk at the workplace. What role can a safety representative have?",
+    "options": [
+      "Att företräda arbetstagare i arbetsmiljöfrågor och uppmärksamma risker.",
+      "Att bestämma företagets lönesättning varje månad.",
+      "Att ersätta arbetsgivaren som juridiskt ansvarig för hela arbetsmiljön.",
+      "Att avgöra alla tvister om uppsägningar i domstol."
+    ],
+    "optionsEn": [
+      "To represent employees in work environment issues and draw attention to risks.",
+      "To decide the company’s wage setting every month.",
+      "To replace the employer as legally responsible for the entire work environment.",
+      "To decide all dismissal disputes in court."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A safety representative works with employees’ work environment interests, while the employer still has main responsibility.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch08-001",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "taxes",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch D gap-fill draft)",
+    "questionSv": "En person får lön men inget skatteavdrag syns på uppgifterna. Vad bör personen kontrollera?",
+    "questionEn": "A person receives pay but no tax deduction appears in the information. What should the person check?",
+    "options": [
+      "Om lönen redovisas korrekt och skatt hanteras enligt reglerna.",
+      "Om arbetsgivaren i stället betalar skatten till kommunen kontant.",
+      "Om nettolön alltid betyder lön utan skatt.",
+      "Om lön utan skatteavdrag automatiskt ger högre pension."
+    ],
+    "optionsEn": [
+      "Whether the wage is reported correctly and tax is handled according to the rules.",
+      "Whether the employer instead pays the tax to the municipality in cash.",
+      "Whether net pay always means pay without tax.",
+      "Whether pay without tax deduction automatically gives a higher pension."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Correct wage reporting matters for tax, benefits, and pension rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch08-002",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "taxes",
+    "difficulty": "medium",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbete och privatekonomi (batch D gap-fill draft)",
+    "questionSv": "Varför får man ofta både bruttolön och nettolön beskrivet?",
+    "questionEn": "Why are gross pay and net pay often both described?",
+    "options": [
+      "Bruttolön är före skatt och nettolön är det som betalas ut efter avdrag.",
+      "Bruttolön är alltid lägre än nettolön.",
+      "Nettolön är lön som inte behöver redovisas.",
+      "Bruttolön används bara av personer utan arbete."
+    ],
+    "optionsEn": [
+      "Gross pay is before tax and net pay is what is paid out after deductions.",
+      "Gross pay is always lower than net pay.",
+      "Net pay is salary that does not need to be reported.",
+      "Gross pay is only used by people without work."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The distinction helps people understand pay, tax, and take-home income.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-001",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "labour-market"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad betyder arbetsmarknaden?",
+    "questionEn": "What does the labour market mean?",
+    "options": [
+      "Den del av samhället där människor söker arbete och arbetsgivare söker arbetskraft.",
+      "En plats där bara kommuner får sälja varor.",
+      "Ett system där domstolar bestämmer alla löner.",
+      "En myndighet som äger alla företag."
+    ],
+    "optionsEn": [
+      "The part of society where people look for work and employers look for workers.",
+      "A place where only municipalities may sell goods.",
+      "A system where courts decide all wages.",
+      "An authority that owns all companies."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The labour market connects people who want work with employers who need workers.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-002",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "employment"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Varför är arbete viktigt för både individen och samhället?",
+    "questionEn": "Why is work important for both the individual and society?",
+    "options": [
+      "Arbete ger inkomst och bidrar genom skatter till gemensam välfärd.",
+      "Arbete gör att man automatiskt slipper betala statlig skatt.",
+      "Arbete är det enda sättet att få rösta i kommunalval.",
+      "Arbete behövs enbart för personer utan tidigare utbildning."
+    ],
+    "optionsEn": [
+      "Work provides income and contributes through taxes to shared welfare.",
+      "Work means you automatically avoid paying state income tax.",
+      "Work is the only way to get to vote in municipal elections.",
+      "Work is only needed for people without previous education."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Work supports personal independence and helps finance public services through taxation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-003",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "employment"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En nyanländ person vill snabbare komma in på arbetsmarknaden. Vilken kombination är mest relevant?",
+    "questionEn": "A newly arrived person wants to enter the labour market faster. Which combination is most relevant?",
+    "options": [
+      "Språkutveckling, utbildning, kontakter och aktivt jobbsökande.",
+      "Att vänta tills arbetsgivare automatiskt erbjuder arbete.",
+      "Att endast söka arbete i en enda bransch oavsett erfarenhet.",
+      "Att undvika myndigheter, utbildning och nätverk helt."
+    ],
+    "optionsEn": [
+      "Language development, education, contacts, and active job seeking.",
+      "Waiting until employers automatically offer work.",
+      "Only applying for work in one industry regardless of experience.",
+      "Completely avoiding authorities, education, and networks."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Language, skills, contacts, and active applications can all help a person enter working life.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-004",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "employment-contract"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad är ett anställningsavtal?",
+    "questionEn": "What is an employment contract?",
+    "options": [
+      "En överenskommelse mellan arbetsgivare och arbetstagare om arbetet och villkoren.",
+      "Ett intyg som alltid ger svenskt medborgarskap.",
+      "En dom från en domstol om kommunens budget.",
+      "Ett kvitto som visar att hyran är betald."
+    ],
+    "optionsEn": [
+      "An agreement between employer and employee about the work and conditions.",
+      "A certificate that always gives Swedish citizenship.",
+      "A court judgment about the municipal budget.",
+      "A receipt showing that rent has been paid."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "An employment contract sets out the job relationship and important conditions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-005",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "employment-contract"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Varför bör en anställd känna till sina anställningsvillkor?",
+    "questionEn": "Why should an employee know their employment conditions?",
+    "options": [
+      "För att förstå lön, arbetstid, uppgifter och uppsägningstid.",
+      "För att själv kunna bestämma sin egen skattesats varje månad.",
+      "För att säkerställa att arbetsgivaren inte kan kräva övertid under några omständigheter.",
+      "För att få rätt att automatiskt sitta i företagets styrelse."
+    ],
+    "optionsEn": [
+      "To understand pay, working hours, duties, and notice period.",
+      "To be able to decide one’s own tax rate every month.",
+      "To ensure the employer cannot require overtime under any circumstances.",
+      "To get the right to automatically sit on the company board."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Knowing employment conditions helps employees understand rights and obligations at work.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-006",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "employment-contract"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En person börjar arbeta utan att förstå om jobbet är tillsvidare, visstid eller provanställning. Vilken risk uppstår?",
+    "questionEn": "A person starts work without understanding whether the job is permanent, fixed-term, or probationary. What risk arises?",
+    "options": [
+      "Personen kan missförstå hur trygg anställningen är och vilka regler som gäller.",
+      "Personen får automatiskt högre lön än alla andra.",
+      "Arbetsgivaren förlorar genast sin rätt att leda arbetet.",
+      "Anställningsformen saknar betydelse i alla situationer."
+    ],
+    "optionsEn": [
+      "The person may misunderstand how secure the job is and which rules apply.",
+      "The person automatically receives higher pay than everyone else.",
+      "The employer immediately loses the right to direct the work.",
+      "The employment form has no importance in any situation."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Different employment forms can affect job security, notice, and expectations.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-007",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "workplace-rights"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad är arbetstid?",
+    "questionEn": "What is working time?",
+    "options": [
+      "Den tid då en anställd arbetar eller står till arbetsgivarens förfogande.",
+      "Den tid då riksdagen röstar om lagar.",
+      "Den tid då banker håller stängt.",
+      "Den tid då en hyresvärd visar lägenheter."
+    ],
+    "optionsEn": [
+      "The time when an employee works or is available to the employer.",
+      "The time when the Riksdag votes on laws.",
+      "The time when banks are closed.",
+      "The time when a landlord shows apartments."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Working time is part of employment conditions and is regulated by rules and agreements.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-008",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "workplace-rights"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad är semester i arbetslivet?",
+    "questionEn": "What is vacation in working life?",
+    "options": [
+      "Lagstadgad ledighet som ger arbetstagare möjlighet till vila.",
+      "En frivillig gåva som arbetsgivare aldrig behöver planera för.",
+      "En period då skatten alltid försvinner.",
+      "En rätt som bara gäller personer som äger företag."
+    ],
+    "optionsEn": [
+      "Statutory leave that gives employees the opportunity to rest.",
+      "A voluntary gift employers never need to plan for.",
+      "A period when tax always disappears.",
+      "A right that only applies to business owners."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Vacation is an important part of working-life protection and recovery.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-009",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "workplace-rights"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En arbetsplats har hög arbetsbelastning och flera anställda blir sjuka av stress. Vilken fråga blir central?",
+    "questionEn": "A workplace has high workload and several employees become ill from stress. Which issue becomes central?",
+    "options": [
+      "Arbetsmiljö och arbetsgivarens ansvar för en säker och hälsosam arbetsplats.",
+      "Arbetsförmedlingens skyldighet att direkt omplacera alla sjuka anställda.",
+      "Försäkringskassans rätt att bestämma arbetsplatsens scheman.",
+      "Fackföreningens skyldighet att ta över driftledningen av företaget."
+    ],
+    "optionsEn": [
+      "Work environment and the employer’s responsibility for a safe and healthy workplace.",
+      "The Public Employment Service’s duty to immediately reassign all sick employees.",
+      "The Social Insurance Agency’s right to decide workplace schedules.",
+      "The trade union’s duty to take over company operations."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Work environment includes physical and psychosocial conditions, and employers have responsibility for safety.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-010",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "work-environment"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad menas med arbetsmiljö?",
+    "questionEn": "What is meant by work environment?",
+    "options": [
+      "Förhållandena på arbetsplatsen som påverkar hälsa, säkerhet och trivsel.",
+      "Enbart färgen på väggarna hemma.",
+      "Regler för hur riksdagsval räknas.",
+      "Ett annat ord för privat sparande."
+    ],
+    "optionsEn": [
+      "Conditions at the workplace that affect health, safety, and well-being.",
+      "Only the color of the walls at home.",
+      "Rules for how Riksdag elections are counted.",
+      "Another word for private savings."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Work environment includes the conditions that affect people at work.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-011",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "work-environment"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vem har huvudansvar för arbetsmiljön på en arbetsplats?",
+    "questionEn": "Who has primary responsibility for the work environment at a workplace?",
+    "options": [
+      "Arbetsgivaren.",
+      "Skyddsombudet ensam.",
+      "Arbetsförmedlingen.",
+      "Kommunstyrelsen."
+    ],
+    "optionsEn": [
+      "The employer.",
+      "The safety representative alone.",
+      "The Public Employment Service.",
+      "The municipal executive board."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The employer has primary responsibility, while employees also participate by following rules and reporting risks.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-012",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "work-environment"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En anställd upptäcker en farlig maskin på jobbet. Vad är ett rimligt första steg?",
+    "questionEn": "An employee discovers a dangerous machine at work. What is a reasonable first step?",
+    "options": [
+      "Rapportera risken enligt arbetsplatsens rutiner så att den kan åtgärdas.",
+      "Fortsätta använda maskinen för att inte störa produktionen.",
+      "Säga upp sig omedelbart utan att informera kollegor eller chef.",
+      "Vänta med att säga något till den årliga medarbetarenkäten."
+    ],
+    "optionsEn": [
+      "Report the risk according to workplace routines so it can be addressed.",
+      "Continue using the machine to avoid disturbing production.",
+      "Resign immediately without informing colleagues or a manager.",
+      "Wait to say anything until the annual employee survey."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Risks at work should be reported and handled before people are harmed.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-013",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "unions"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad är en fackförening?",
+    "questionEn": "What is a trade union?",
+    "options": [
+      "En organisation där arbetstagare kan gå samman för att påverka arbetsvillkor.",
+      "En myndighet som dömer brottmål.",
+      "Ett företag som bestämmer statens budget.",
+      "En förening som bara ordnar allmänna val."
+    ],
+    "optionsEn": [
+      "An organization where employees can join together to influence working conditions.",
+      "An authority that judges criminal cases.",
+      "A company that decides the state budget.",
+      "An association that only organizes general elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Trade unions represent workers’ interests in working life.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-014",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "unions"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vilken roll har fackföreningar ofta på svensk arbetsmarknad?",
+    "questionEn": "What role do trade unions often have in the Swedish labour market?",
+    "options": [
+      "De förhandlar om villkor och stödjer medlemmar i arbetslivsfrågor.",
+      "De beslutar om skattesatser för privatpersoner.",
+      "De utfärdar arbetstillstånd för utländsk arbetskraft.",
+      "De kontrollerar att alla företag följer aktiebolagslagen."
+    ],
+    "optionsEn": [
+      "They negotiate conditions and support members in working-life issues.",
+      "They decide tax rates for private individuals.",
+      "They issue work permits for foreign workers.",
+      "They check that all companies follow the Companies Act."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Trade unions can negotiate and advise members about rights and conditions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-015",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "unions"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En arbetsgivare säger att anställda inte får diskutera fackligt medlemskap på arbetsplatsen. Vilken princip kan beröras?",
+    "questionEn": "An employer says employees may not discuss union membership at the workplace. Which principle may be involved?",
+    "options": [
+      "Föreningsfrihet och arbetstagares möjlighet att organisera sig.",
+      "Arbetsgivarens fria förfoganderätt över personalens fritid.",
+      "Riksdagens monopol på löneförhandlingar.",
+      "Tystnadsplikt gällande alla offentliga avtal."
+    ],
+    "optionsEn": [
+      "Freedom of association and employees’ ability to organize.",
+      "The employer’s free control over employees’ leisure time.",
+      "The Riksdag’s monopoly on wage negotiations.",
+      "Confidentiality concerning all public agreements."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Employees have a protected interest in being able to organize collectively.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-016",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "collective-agreement"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad är ett kollektivavtal?",
+    "questionEn": "What is a collective agreement?",
+    "options": [
+      "Ett avtal mellan arbetsgivare eller arbetsgivarorganisation och fackförening om arbetsvillkor.",
+      "Ett avtal mellan väljare och Valmyndigheten om röstkort.",
+      "En privat försäkring som ersätter alla lagar.",
+      "Ett beslut där en kommun skapar nya domstolar."
+    ],
+    "optionsEn": [
+      "An agreement between an employer or employer organization and a trade union about working conditions.",
+      "An agreement between voters and the Election Authority about voting cards.",
+      "A private insurance that replaces all laws.",
+      "A decision where a municipality creates new courts."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Collective agreements are important in the Swedish labour-market model.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-017",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "collective-agreement"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Varför är kollektivavtal viktiga i Sverige?",
+    "questionEn": "Why are collective agreements important in Sweden?",
+    "options": [
+      "De reglerar många frågor om lön, arbetstid, pension och andra villkor.",
+      "De gör att statliga lagar om arbetsmiljö slutar gälla.",
+      "De är obligatoriska för alla invånare att teckna privat.",
+      "De ersätter alla individuella anställningsavtal helt och hållet."
+    ],
+    "optionsEn": [
+      "They regulate many issues about pay, working hours, pension, and other conditions.",
+      "They make state work-environment laws stop applying.",
+      "They are mandatory for all residents to sign privately.",
+      "They completely replace all individual employment contracts."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Many workplace conditions in Sweden are shaped through collective bargaining.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-018",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "collective-agreement"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En person jämför två jobb med samma lön men bara ett har kollektivavtal. Vad kan vara viktigt att undersöka?",
+    "questionEn": "A person compares two jobs with the same pay, but only one has a collective agreement. What may be important to investigate?",
+    "options": [
+      "Om avtalet ger villkor som tjänstepension, försäkringar och reglerad övertid.",
+      "Om jobbet utan avtal automatiskt är olagligt i alla fall.",
+      "Om kollektivavtal gör att skatt inte behöver betalas.",
+      "Om arbetsgivaren med avtal bestämmer riksdagens lagar."
+    ],
+    "optionsEn": [
+      "Whether the agreement gives conditions such as occupational pension, insurance, and regulated overtime.",
+      "Whether the job without an agreement is automatically illegal in every case.",
+      "Whether collective agreements mean tax does not need to be paid.",
+      "Whether the employer with an agreement decides Riksdag laws."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A collective agreement can include important benefits and conditions beyond monthly salary.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-019",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "employers"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad är en arbetsgivare?",
+    "questionEn": "What is an employer?",
+    "options": [
+      "Den som anställer någon och leder arbetet.",
+      "Den som söker arbete hos ett företag.",
+      "Den som hyr ut en bostad till arbetstagaren.",
+      "En myndighet som fastställer alla löner i landet."
+    ],
+    "optionsEn": [
+      "The one who employs someone and directs the work.",
+      "Someone who applies for work at a company.",
+      "Someone who rents out housing to the employee.",
+      "An authority that sets all wages in the country."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "An employer has responsibilities toward employees and organizes the work.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-020",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "employers",
+      "employees"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad är en arbetstagares ansvar på jobbet?",
+    "questionEn": "What is an employee’s responsibility at work?",
+    "options": [
+      "Att utföra arbetet, följa rimliga instruktioner och bidra till en säker arbetsmiljö.",
+      "Att självständigt sänka eller höja företagets priser på produkter.",
+      "Att övervaka kollegornas privata ekonomiska situation.",
+      "Att garantera företagets årliga vinstmål."
+    ],
+    "optionsEn": [
+      "To perform the work, follow reasonable instructions, and contribute to a safe work environment.",
+      "To independently lower or raise the company’s product prices.",
+      "To monitor colleagues’ private financial situation.",
+      "To guarantee the company’s annual profit target."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Employees have duties as part of the employment relationship, alongside their rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-021",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "employers",
+      "employees"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En chef ger instruktioner som verkar bryta mot säkerhetsrutiner. Hur bör en anställd tänka?",
+    "questionEn": "A manager gives instructions that seem to break safety routines. How should an employee think?",
+    "options": [
+      "Arbetsledning gäller inte obegränsat; säkerhetsrisker bör tas upp enligt rutiner.",
+      "Chefers instruktioner gäller alltid även om människor riskerar skada.",
+      "Den anställde ska själv ändra lagen på arbetsplatsen.",
+      "Säkerhetsrutiner gäller bara under valår."
+    ],
+    "optionsEn": [
+      "Management authority is not unlimited; safety risks should be raised according to routines.",
+      "Managers’ instructions always apply even if people risk harm.",
+      "The employee should personally change the law at the workplace.",
+      "Safety routines only apply during election years."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Workplace instructions must be understood together with laws, safety rules, and responsibility.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-022",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "tax"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Varför betalar människor skatt i Sverige?",
+    "questionEn": "Why do people pay tax in Sweden?",
+    "options": [
+      "För att finansiera gemensamma samhällsfunktioner som vård, skola och omsorg.",
+      "För att alla invånare ska få samma lön oavsett yrke.",
+      "För att staten ska kunna äga alla företag.",
+      "För att kommuner helt fritt ska bestämma skattesatserna själva."
+    ],
+    "optionsEn": [
+      "To finance shared social functions such as healthcare, school, and care.",
+      "So all residents receive the same wage regardless of occupation.",
+      "So the state can own all companies.",
+      "So municipalities can decide tax rates completely freely by themselves."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Taxes are a major way to finance the welfare society and public services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-023",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "tax"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad innebär preliminär skatt på lön?",
+    "questionEn": "What does preliminary tax on salary mean?",
+    "options": [
+      "Skatt dras löpande från lönen innan pengarna betalas ut.",
+      "En frivillig skatt som man själv väljer att betala i slutet av året.",
+      "En skatt som enbart betalas vid försäljning av egendom.",
+      "En avgift som arbetsgivaren betalar till fackföreningen."
+    ],
+    "optionsEn": [
+      "Tax is deducted continuously from salary before the money is paid out.",
+      "A voluntary tax that you choose to pay at the end of the year.",
+      "A tax paid only when selling property.",
+      "A fee the employer pays to the trade union."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Employees usually receive salary after tax deductions have been made.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-024",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "tax"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En person får lön svart utan att skatt och avgifter redovisas. Vilken risk finns?",
+    "questionEn": "A person receives undeclared wages without tax and fees being reported. What risk exists?",
+    "options": [
+      "Personen kan få sämre skydd och samhället går miste om skatteintäkter.",
+      "Personen får automatiskt bättre pension än alla andra.",
+      "Arbetet blir alltid säkrare än vitt arbete.",
+      "Kommunen får fler röster i riksdagen."
+    ],
+    "optionsEn": [
+      "The person may get weaker protection and society loses tax revenue.",
+      "The person automatically gets a better pension than everyone else.",
+      "The work always becomes safer than declared work.",
+      "The municipality gets more votes in the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Undeclared work can harm both the worker’s security and public finances.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-025",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "salary"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad är bruttolön?",
+    "questionEn": "What is gross salary?",
+    "options": [
+      "Lönen före skatt.",
+      "Lönen efter att alla räkningar är betalda.",
+      "Ett bidrag från domstolen.",
+      "En typ av kommunalt val."
+    ],
+    "optionsEn": [
+      "Salary before tax.",
+      "Salary after all bills are paid.",
+      "A benefit from the court.",
+      "A type of municipal election."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Gross salary is the amount before taxes and deductions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-026",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "salary"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad är nettolön?",
+    "questionEn": "What is net salary?",
+    "options": [
+      "Den lön som betalas ut efter skatt.",
+      "Den lön som alltid är samma som bruttolön.",
+      "En skuld hos hyresvärden.",
+      "Ett avtal mellan två politiska partier."
+    ],
+    "optionsEn": [
+      "The salary paid out after tax.",
+      "Salary that is always the same as gross salary.",
+      "A debt to the landlord.",
+      "An agreement between two political parties."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Net salary is the amount a person receives after tax deductions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-027",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "salary"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En person planerar sin månadsbudget utifrån bruttolönen i stället för nettolönen. Vad kan gå fel?",
+    "questionEn": "A person plans their monthly budget based on gross salary instead of net salary. What can go wrong?",
+    "options": [
+      "Personen kan tro att mer pengar finns tillgängliga än vad som faktiskt betalas ut.",
+      "Personen får automatiskt tillbaka all skatt nästa dag.",
+      "Arbetsgivaren måste betala alla privata räkningar.",
+      "Budgeten blir alltid mer exakt med bruttolön."
+    ],
+    "optionsEn": [
+      "The person may think more money is available than is actually paid out.",
+      "The person automatically gets all tax back the next day.",
+      "The employer must pay all private bills.",
+      "The budget is always more accurate with gross salary."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A household budget should use money actually available, usually net income.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-028",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "unemployment"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vilken myndighet kan stödja personer som söker arbete?",
+    "questionEn": "Which authority can support people looking for work?",
+    "options": [
+      "Arbetsförmedlingen.",
+      "Försäkringskassan.",
+      "Skatteverket.",
+      "Migrationsverket."
+    ],
+    "optionsEn": [
+      "The Public Employment Service.",
+      "The Social Insurance Agency.",
+      "The Swedish Tax Agency.",
+      "The Swedish Migration Agency."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Arbetsförmedlingen supports jobseekers and labour-market entry.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-029",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "unemployment"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad kan Arbetsförmedlingen hjälpa till med?",
+    "questionEn": "What can the Public Employment Service help with?",
+    "options": [
+      "Stöd i jobbsökande och insatser för att komma in på arbetsmarknaden.",
+      "Att bevilja och betala ut sjukpenning till sjuka arbetstagare.",
+      "Att skriva ut skattsedlar och fastställa slutlig skatt.",
+      "Att erbjuda gratis juridiskt biträde vid alla privata tvister."
+    ],
+    "optionsEn": [
+      "Support in job seeking and measures to enter the labour market.",
+      "Granting and paying sickness benefit to sick employees.",
+      "Issuing tax cards and determining final tax.",
+      "Offering free legal counsel in all private disputes."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The agency can support people seeking work, though individuals must also be active.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-030",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "unemployment"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En arbetssökande missar möten och söker inte de jobb som planerats. Vad kan det påverka?",
+    "questionEn": "A jobseeker misses meetings and does not apply for the jobs that were planned. What can this affect?",
+    "options": [
+      "Möjligheten att få fortsatt stöd eller ersättning kopplad till jobbsökande.",
+      "Rätten att rösta i nästa riksdagsval.",
+      "Domstolarnas oberoende.",
+      "Kommunens skyldighet att bygga bostäder."
+    ],
+    "optionsEn": [
+      "The possibility of continued support or compensation linked to job seeking.",
+      "The right to vote in the next Riksdag election.",
+      "The independence of courts.",
+      "The municipality’s duty to build housing."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Support systems often require active participation and following agreed plans.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-031",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "education",
+      "skills"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Varför kan utbildning vara viktig på arbetsmarknaden?",
+    "questionEn": "Why can education be important in the labour market?",
+    "options": [
+      "Den kan ge kunskaper och kompetens som arbetsgivare efterfrågar.",
+      "Den gör att ingen behöver betala hyra.",
+      "Den ersätter alla arbetsmiljöregler.",
+      "Den gör att en person automatiskt blir minister."
+    ],
+    "optionsEn": [
+      "It can provide knowledge and skills employers demand.",
+      "It means no one needs to pay rent.",
+      "It replaces all work-environment rules.",
+      "It automatically makes a person a minister."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Education and skills can improve opportunities to find and keep work.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-032",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "education",
+      "skills"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad menas med kompetensutveckling?",
+    "questionEn": "What is meant by skills development?",
+    "options": [
+      "Att utveckla kunskaper och färdigheter som behövs i arbete eller studier.",
+      "Att byta yrkesbransch var femte år enligt lag.",
+      "Att arbetsgivaren automatiskt höjer lönen oavsett prestation.",
+      "Att skolan tar över ansvaret för den anställdes arbetstider."
+    ],
+    "optionsEn": [
+      "Developing knowledge and skills needed in work or studies.",
+      "Changing occupational field every five years by law.",
+      "The employer automatically raises pay regardless of performance.",
+      "The school takes over responsibility for the employee’s working hours."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Skills development can help people adapt as working life changes.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-033",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "education",
+      "skills"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Ett yrke förändras snabbt genom ny teknik. Vad är en rimlig strategi för arbetstagare?",
+    "questionEn": "An occupation changes quickly through new technology. What is a reasonable strategy for employees?",
+    "options": [
+      "Att vidareutveckla kompetens och vara beredd att lära nytt.",
+      "Att anta att gamla kunskaper alltid räcker i alla yrken.",
+      "Att kräva att tekniken förbjuds i hela landet.",
+      "Att sluta deklarera inkomst."
+    ],
+    "optionsEn": [
+      "To continue developing skills and be prepared to learn new things.",
+      "To assume old knowledge is always enough in every occupation.",
+      "To demand that the technology be banned nationwide.",
+      "To stop declaring income."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Working life changes, so lifelong learning and adaptation can be important.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-034",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "private-economy"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad ingår i privatekonomi?",
+    "questionEn": "What is included in private economy?",
+    "options": [
+      "Inkomster, utgifter, sparande, lån och betalningar.",
+      "Endast riksdagens budget.",
+      "Bara domstolarnas kostnader.",
+      "Endast kommunens valresultat."
+    ],
+    "optionsEn": [
+      "Income, expenses, savings, loans, and payments.",
+      "Only the state budget.",
+      "Only the courts’ costs.",
+      "Only the municipality’s election results."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Private economy is about managing money in everyday life.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-035",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "budget"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Varför är en hushållsbudget användbar?",
+    "questionEn": "Why is a household budget useful?",
+    "options": [
+      "Den hjälper hushållet att planera inkomster, utgifter och sparande.",
+      "Den gör att alla räkningar försvinner automatiskt.",
+      "Den ersätter behovet av bankkonto.",
+      "Den bestämmer statens skattepolitik."
+    ],
+    "optionsEn": [
+      "It helps the household plan income, expenses, and saving.",
+      "It makes all bills disappear automatically.",
+      "It replaces the need for a bank account.",
+      "It decides state tax policy."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A budget helps people see whether money will cover necessary costs.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-036",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "budget"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En familj får lägre inkomst men behåller samma utgifter. Vad är mest hållbart att göra först?",
+    "questionEn": "A family gets lower income but keeps the same expenses. What is most sustainable to do first?",
+    "options": [
+      "Gå igenom budgeten och prioritera nödvändiga kostnader som boende, mat och räkningar.",
+      "Ta flera snabba lån utan att jämföra kostnader.",
+      "Sluta öppna post från myndigheter och företag.",
+      "Anta att skulder automatiskt försvinner efter en månad."
+    ],
+    "optionsEn": [
+      "Review the budget and prioritize necessary costs such as housing, food, and bills.",
+      "Take several quick loans without comparing costs.",
+      "Stop opening mail from authorities and companies.",
+      "Assume debts automatically disappear after one month."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "When income changes, reviewing costs early can prevent debt problems.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-037",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "bills"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad kan hända om en räkning inte betalas i tid?",
+    "questionEn": "What can happen if a bill is not paid on time?",
+    "options": [
+      "Det kan tillkomma avgifter och skulden kan gå vidare till inkasso.",
+      "Räkningen blir alltid gratis.",
+      "Personen får automatiskt högre lön.",
+      "Kommunen betalar alltid privata räkningar."
+    ],
+    "optionsEn": [
+      "Fees may be added and the debt may move on to debt collection.",
+      "The bill always becomes free.",
+      "The person automatically receives higher pay.",
+      "The municipality always pays private bills."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Unpaid bills can become more expensive and lead to debt collection.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-038",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "bills"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad är en betalningspåminnelse?",
+    "questionEn": "What is a payment reminder?",
+    "options": [
+      "Ett meddelande om att en faktura inte har betalats i tid.",
+      "Ett kvitto på att en skuld har slutbetalats.",
+      "En bekräftelse från banken om beviljat lån.",
+      "Ett intyg från Kronofogden om skuldsanering."
+    ],
+    "optionsEn": [
+      "A message that an invoice has not been paid on time.",
+      "A receipt showing that a debt has been fully paid.",
+      "A confirmation from the bank that a loan has been granted.",
+      "A certificate from the Enforcement Authority about debt restructuring."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A payment reminder warns that payment is missing and may lead to extra costs.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-039",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "bills"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En person märker att hyran inte kan betalas före förfallodagen. Vad är ett klokt steg?",
+    "questionEn": "A person realizes the rent cannot be paid before the due date. What is a wise step?",
+    "options": [
+      "Kontakta hyresvärden tidigt och försöka hitta en lösning innan skulden växer.",
+      "Vänta med kontakt tills hyresvärden skickar ärendet till inkasso.",
+      "Ta ett snabblån utan att undersöka räntan för att dölja problemet.",
+      "Sluta öppna alla brev från hyresvärden."
+    ],
+    "optionsEn": [
+      "Contact the landlord early and try to find a solution before the debt grows.",
+      "Wait to make contact until the landlord sends the case to debt collection.",
+      "Take a payday loan without checking the interest to hide the problem.",
+      "Stop opening all letters from the landlord."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Early contact can sometimes prevent fees, debt collection, or more serious consequences.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-040",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "debt"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad är en skuld?",
+    "questionEn": "What is a debt?",
+    "options": [
+      "Pengar som en person eller ett hushåll är skyldig att betala.",
+      "Pengar som alltid är en gåva.",
+      "Ett röstkort från kommunen.",
+      "En regel om public service."
+    ],
+    "optionsEn": [
+      "Money that a person or household is obliged to pay.",
+      "Money that is always a gift.",
+      "A voting card from the municipality.",
+      "A rule about public service."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Debt means an obligation to pay money back or pay what is owed.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-041",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "debt"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Varför kan höga räntor och avgifter göra lån svåra?",
+    "questionEn": "Why can high interest and fees make loans difficult?",
+    "options": [
+      "Den totala kostnaden blir större än det belopp man först lånade.",
+      "Ränta betyder att lånet alltid blir gratis.",
+      "Avgifter gör att skulden automatiskt försvinner.",
+      "Lån påverkar aldrig hushållets ekonomi."
+    ],
+    "optionsEn": [
+      "The total cost becomes larger than the amount first borrowed.",
+      "Interest means the loan always becomes free.",
+      "Fees make the debt automatically disappear.",
+      "Loans never affect household finances."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Interest and fees can make borrowing expensive over time.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-042",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "debt"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En person tar ett nytt lån varje månad för att betala gamla lån. Vilken risk visar situationen?",
+    "questionEn": "A person takes a new loan every month to pay old loans. What risk does the situation show?",
+    "options": [
+      "En skuldfälla där kostnader och beroende av lån växer.",
+      "En säker metod för att slippa alla framtida räkningar.",
+      "Att lån alltid är billigare ju fler man tar.",
+      "Att banken automatiskt betalar tillbaka skatten."
+    ],
+    "optionsEn": [
+      "A debt trap where costs and dependence on loans grow.",
+      "A safe method to avoid all future bills.",
+      "That loans are always cheaper the more you take.",
+      "That the bank automatically refunds tax."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Borrowing to pay existing debts can create a cycle that becomes difficult to stop.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-043",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "kronofogden"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vilken myndighet arbetar bland annat med obetalda skulder?",
+    "questionEn": "Which authority works among other things with unpaid debts?",
+    "options": [
+      "Kronofogden.",
+      "Konsumentverket.",
+      "Skatteverket.",
+      "Finansinspektionen."
+    ],
+    "optionsEn": [
+      "The Swedish Enforcement Authority.",
+      "The Swedish Consumer Agency.",
+      "The Swedish Tax Agency.",
+      "The Swedish Financial Supervisory Authority."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Kronofogden can become involved when debts are not paid.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-044",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "kronofogden"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad kan en betalningsanmärkning påverka?",
+    "questionEn": "What can a payment default record affect?",
+    "options": [
+      "Möjligheten att få lån, hyreskontrakt eller vissa abonnemang.",
+      "Rätten att få ut sin sjukpenning från Försäkringskassan.",
+      "Rätten att rösta i allmänna val.",
+      "Rätten att starta och registrera ett enskilt bolag."
+    ],
+    "optionsEn": [
+      "The possibility of getting loans, rental contracts, or certain subscriptions.",
+      "The right to receive sickness benefit from the Social Insurance Agency.",
+      "The right to vote in general elections.",
+      "The right to start and register a sole proprietorship."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A payment default record can make it harder to get loans, rental contracts, and certain subscriptions. It does not affect the right to vote or the right to start a business.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-045",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "kronofogden"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En person ignorerar brev om en skuld eftersom hen skäms. Varför kan det förvärra situationen?",
+    "questionEn": "A person ignores letters about a debt because they feel ashamed. Why can this worsen the situation?",
+    "options": [
+      "Avgifter, ränta och rättsliga åtgärder kan fortsätta även om breven inte öppnas.",
+      "Skulden blir automatiskt betald när brevet är oöppnat.",
+      "Kronofogden arbetar bara med personer som saknar bankkonto.",
+      "Brev om skulder påverkar bara politiska partier."
+    ],
+    "optionsEn": [
+      "Fees, interest, and legal measures can continue even if the letters are not opened.",
+      "The debt is automatically paid when the letter is unopened.",
+      "The Enforcement Authority only works with people without bank accounts.",
+      "Letters about debts only affect political parties."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Ignoring debt information can reduce the chance to solve the problem early.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-046",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "saving"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad betyder sparande?",
+    "questionEn": "What does saving mean?",
+    "options": [
+      "Att lägga undan pengar för framtida behov eller mål.",
+      "Att alltid låna mer än man tjänar.",
+      "Att sluta betala hyra.",
+      "Att rösta i kommunalvalet."
+    ],
+    "optionsEn": [
+      "Putting money aside for future needs or goals.",
+      "Always borrowing more than one earns.",
+      "Stopping rent payments.",
+      "Voting in the municipal election."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Saving can create security for planned and unexpected expenses.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-047",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "saving"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Varför kan en buffert vara bra i privatekonomin?",
+    "questionEn": "Why can an emergency fund be good in private finances?",
+    "options": [
+      "Den kan hjälpa vid oväntade utgifter eller tillfälligt lägre inkomst.",
+      "Den gör att lån aldrig behöver betalas tillbaka.",
+      "Den ersätter alla försäkringar och lagar.",
+      "Den ger automatiskt rätt till medborgarskap."
+    ],
+    "optionsEn": [
+      "It can help with unexpected expenses or temporarily lower income.",
+      "It means loans never need to be repaid.",
+      "It replaces all insurance and laws.",
+      "It automatically gives the right to citizenship."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A buffer can reduce the need for expensive borrowing when something unexpected happens.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-048",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "saving"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En person vill köpa något dyrt men har ingen buffert. Vilken fråga bör personen väga in?",
+    "questionEn": "A person wants to buy something expensive but has no emergency fund. What question should the person consider?",
+    "options": [
+      "Om köpet kan vänta tills nödvändiga kostnader och ekonomisk säkerhet är tryggare.",
+      "Om det är bäst att alltid tömma kontot före hyran betalas.",
+      "Om alla dyra köp automatiskt höjer inkomsten.",
+      "Om kommunen måste betala köpet om pengarna tar slut."
+    ],
+    "optionsEn": [
+      "Whether the purchase can wait until necessary costs and financial security are safer.",
+      "Whether it is best to always empty the account before rent is paid.",
+      "Whether all expensive purchases automatically increase income.",
+      "Whether the municipality must pay for the purchase if money runs out."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Financial planning includes prioritizing essential costs and avoiding unnecessary risk.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-049",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "consumer-rights"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad innebär konsumenträttigheter?",
+    "questionEn": "What do consumer rights mean?",
+    "options": [
+      "Skydd och regler för personer som köper varor eller tjänster.",
+      "Regler för hur regeringen bildas.",
+      "En skyldighet att alltid köpa det billigaste.",
+      "En myndighets rätt att läsa privat post utan skäl."
+    ],
+    "optionsEn": [
+      "Protection and rules for people who buy goods or services.",
+      "Rules for how the government is formed.",
+      "An obligation to always buy the cheapest.",
+      "An authority’s right to read private mail without reason."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Consumer rights help buyers when goods or services are faulty or misleading.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-050",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "consumer-rights"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad bör en konsument göra om en vara är felaktig?",
+    "questionEn": "What should a consumer do if a product is faulty?",
+    "options": [
+      "Kontakta säljaren och reklamera felet inom rimlig tid.",
+      "Anmäla händelsen direkt till polisens nedläggningsenhet.",
+      "Vända sig till kommunens byggnadsnämnd.",
+      "Kräva att säljaren ersätter alla personliga utgifter under året."
+    ],
+    "optionsEn": [
+      "Contact the seller and complain about the fault within a reasonable time.",
+      "Report the event directly to the police closure unit.",
+      "Turn to the municipality’s building committee.",
+      "Demand that the seller compensate all personal expenses during the year."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Complaining to the seller is a normal first step when a product is faulty.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-051",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "consumer-rights"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En säljare pressar en kund att skriva på ett dyrt avtal utan att kunden hinner läsa villkoren. Vad bör kunden tänka på?",
+    "questionEn": "A seller pressures a customer to sign an expensive agreement before the customer has time to read the terms. What should the customer think about?",
+    "options": [
+      "Avtalets villkor, kostnader och ångerrätt bör kontrolleras innan man binder sig.",
+      "Ett avtal är alltid ogiltigt om det är dyrt.",
+      "Kunden måste skriva på allt som en säljare föreslår.",
+      "Muntliga löften ersätter alltid skriftliga villkor."
+    ],
+    "optionsEn": [
+      "The agreement’s terms, costs, and right of withdrawal should be checked before committing.",
+      "An agreement is always invalid if it is expensive.",
+      "The customer must sign everything a seller suggests.",
+      "Oral promises always replace written terms."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Consumers should understand obligations and costs before entering agreements.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-052",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "banking"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad används ett bankkonto ofta till?",
+    "questionEn": "What is a bank account often used for?",
+    "options": [
+      "Att ta emot lön, betala räkningar och hantera pengar.",
+      "Att rösta i riksdagsval.",
+      "Att ersätta sjukvård.",
+      "Att utfärda domar."
+    ],
+    "optionsEn": [
+      "Receiving salary, paying bills, and managing money.",
+      "Voting in Riksdag elections.",
+      "Replacing healthcare.",
+      "Issuing judgments."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Bank accounts are part of everyday economic life.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-053",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "banking"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Varför är BankID och e-legitimation viktiga i vardagen?",
+    "questionEn": "Why are BankID and electronic identification important in everyday life?",
+    "options": [
+      "De används ofta för att identifiera sig digitalt hos banker, myndigheter och tjänster.",
+      "De krävs för att kunna handla med kontanter i fysiska butiker.",
+      "De ger rätt till rabatt på kommunala tjänster och kollektivtrafik.",
+      "De ersätter behovet av fysiskt pass vid alla utlandsresor."
+    ],
+    "optionsEn": [
+      "They are often used to identify oneself digitally with banks, authorities, and services.",
+      "They are required to shop with cash in physical stores.",
+      "They give the right to discounts on municipal services and public transport.",
+      "They replace the need for a physical passport on all foreign travel."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Digital identification is common in Swedish banking and public services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-054",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "banking",
+      "fraud"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En person får ett samtal där någon ber om BankID-kod för att stoppa ett påstått bedrägeri. Vad är säkrast?",
+    "questionEn": "A person receives a call where someone asks for a BankID code to stop an alleged fraud. What is safest?",
+    "options": [
+      "Avsluta kontakten och själv kontakta banken via en säker kanal.",
+      "Lämna koden snabbt så att samtalet går fortare.",
+      "Ge även kortnummer om personen låter trovärdig.",
+      "Lita på samtalet om det sker på kvällen."
+    ],
+    "optionsEn": [
+      "End the contact and personally contact the bank through a secure channel.",
+      "Give the code quickly so the call goes faster.",
+      "Also give the card number if the person sounds trustworthy.",
+      "Trust the call if it happens in the evening."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "BankID and codes should be protected; suspected fraud should be checked through trusted channels.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-055",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "insurance"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vad är en försäkring?",
+    "questionEn": "What is insurance?",
+    "options": [
+      "Ett skydd som kan ge ersättning vid vissa skador eller händelser.",
+      "En garanti för att ingen olycka kan hända.",
+      "Ett sätt att slippa alla skatter.",
+      "Ett beslut om politiska partier."
+    ],
+    "optionsEn": [
+      "Protection that can provide compensation for certain damages or events.",
+      "A guarantee that no accident can happen.",
+      "A way to avoid all taxes.",
+      "A decision about political parties."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Insurance spreads economic risk for certain events.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-056",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "insurance"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Varför kan hemförsäkring vara viktig?",
+    "questionEn": "Why can home insurance be important?",
+    "options": [
+      "Den kan skydda ekonomi vid exempelvis skada, stöld eller ansvarskrav.",
+      "Den gör att hyran aldrig behöver betalas.",
+      "Den ersätter behovet av lagar i bostaden.",
+      "Den ger automatiskt arbete åt alla i hushållet."
+    ],
+    "optionsEn": [
+      "It can protect finances in cases such as damage, theft, or liability claims.",
+      "It means rent never needs to be paid.",
+      "It replaces the need for laws in the home.",
+      "It automatically gives work to everyone in the household."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Home insurance can reduce financial consequences when something happens.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-057",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "insurance"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En person hyr bostad men väljer bort hemförsäkring för att spara pengar. Vilken risk finns?",
+    "questionEn": "A person rents housing but chooses not to have home insurance to save money. What risk exists?",
+    "options": [
+      "En skada eller stöld kan bli mycket dyr för personen själv.",
+      "Hyresvärden måste alltid ersätta alla personliga saker.",
+      "Kommunen tar automatiskt över alla privata kostnader.",
+      "Utan försäkring blir hyran alltid lägre enligt lag."
+    ],
+    "optionsEn": [
+      "Damage or theft can become very expensive for the person themselves.",
+      "The landlord must always compensate all personal belongings.",
+      "The municipality automatically takes over all private costs.",
+      "Without insurance, rent is always lower by law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Skipping insurance may save money short term but can create large costs after damage or theft.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-058",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "work-economy",
+      "housing-economy"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Vilken utgift är oftast den största enskilda kostnaden i ett hushålls budget?",
+    "questionEn": "Which expense is usually the single largest cost in a household budget?",
+    "options": [
+      "Boendekostnaden.",
+      "Avgifter för mobilabonnemang.",
+      "Kostnader för streamingtjänster.",
+      "Utgifter för tidningar och småköp."
+    ],
+    "optionsEn": [
+      "Housing cost.",
+      "Fees for mobile phone subscriptions.",
+      "Costs for streaming services.",
+      "Expenses for newspapers and small purchases."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Housing is usually the single largest recurring cost in a household budget, larger than typical costs for subscriptions or small purchases.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-059",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "work-economy",
+      "housing-economy"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "Varför är det viktigt att förstå ett hyresavtal eller låneavtal för bostad?",
+    "questionEn": "Why is it important to understand a rental agreement or housing loan agreement?",
+    "options": [
+      "Avtalet styr kostnader, ansvar och vad som händer om betalningar missas.",
+      "Avtalet garanterar att hyran eller räntan aldrig kan förändras.",
+      "Avtalet innebär att banken eller hyresvärden tar över alla underhållskostnader.",
+      "Avtalet ger automatiskt rätt till statligt bostadsbidrag."
+    ],
+    "optionsEn": [
+      "The agreement controls costs, responsibilities, and what happens if payments are missed.",
+      "The agreement guarantees that rent or interest can never change.",
+      "The agreement means the bank or landlord takes over all maintenance costs.",
+      "The agreement automatically gives the right to state housing allowance."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Housing agreements often involve large costs and long-term responsibility.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch08-060",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "work-economy",
+      "scenario",
+      "private-economy"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi",
+    "questionSv": "En person får sitt första heltidsjobb och vill skapa stabil privatekonomi. Vilken helhet är mest rimlig?",
+    "questionEn": "A person gets their first full-time job and wants stable personal finances. Which overall approach is most reasonable?",
+    "options": [
+      "Planera nettolön, fasta kostnader, sparande, försäkring och betalning av räkningar i tid.",
+      "Använda hela lönen direkt och vänta med räkningar tills påminnelser kommer.",
+      "Ta lån för vardagsutgifter utan att räkna på ränta och avgifter.",
+      "Undvika bankkonto och bara hantera ekonomin genom muntliga löften."
+    ],
+    "optionsEn": [
+      "Plan net salary, fixed costs, savings, insurance, and paying bills on time.",
+      "Use the whole salary immediately and wait with bills until reminders arrive.",
+      "Take loans for everyday expenses without calculating interest and fees.",
+      "Avoid a bank account and manage finances only through verbal promises."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Stable private economy depends on planning income, necessary costs, risk protection, and timely payments.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch008-007",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "svartarbete"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi (extra draft)",
+    "questionSv": "Vad menas med svartarbete i Sverige?",
+    "questionEn": "What is meant by undeclared work in Sweden?",
+    "options": [
+      "Att arbeta eller anlita någon utan att skatt och socialavgifter redovisas.",
+      "Att arbeta på kvällar och helger i stället för kontorstid.",
+      "Att ha ett jobb som saknar kollektivavtal.",
+      "Att få lön utbetald kontant i stället för till ett bankkonto."
+    ],
+    "optionsEn": [
+      "Working or hiring someone without reporting tax and social contributions.",
+      "Working evenings and weekends instead of office hours.",
+      "Having a job without a collective agreement.",
+      "Receiving salary in cash instead of to a bank account."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Svartarbete means work performed or hired without tax and social contributions being reported. Working evenings, lacking a collective agreement, or being paid in cash are not themselves svartarbete.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch008-010",
+    "chapterId": "work-economy",
+    "chapterNumber": 8,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "betalningsanmärkning"
+    ],
+    "source": "Sverige i fokus, chapter 8: Arbetsmarknad och privatekonomi (extra draft)",
+    "questionSv": "Vad är en betalningsanmärkning?",
+    "questionEn": "What is a payment default record?",
+    "options": [
+      "En notering om en obetald skuld som kan göra det svårare att få lån eller hyra.",
+      "Ett intyg som visar att alla skatter är betalda i tid.",
+      "En gratis kreditupplysning som alla får en gång per år.",
+      "En uppgift som raderas automatiskt efter en enda dag."
+    ],
+    "optionsEn": [
+      "A note about an unpaid debt that can make it harder to get loans or rent housing.",
+      "A certificate showing that all taxes were paid on time.",
+      "A free credit report that everyone receives once per year.",
+      "Information that is automatically deleted after one single day."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A betalningsanmärkning is a registered note that a debt was unpaid; it can make loans and rental contracts harder to get and stays on record for about three years.",
+    "status": "draft"
+  }
+]

@@ -1,0 +1,438 @@
+[
+  {
+    "id": "draft-ch03-001",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch03-002",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-003",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-004",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-005",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch03-006",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-007",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-008",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-009",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch03-010",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-011",
+    "verdict": "approve",
+    "issues": [
+      "Difficulty may be overlabeled: the answer (elderly care is a municipal responsibility) is direct recall wrapped in a scenario. Consider 'medium'."
+    ],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-012",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch03-013",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-014",
+    "verdict": "approve",
+    "issues": [
+      "Difficulty may be overlabeled: the answer (healthcare is a regional responsibility) is direct recall in scenario clothing. Consider 'medium'."
+    ],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-015",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-016",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-017",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch03-018",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-019",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-020",
+    "verdict": "needs_edit",
+    "issues": [
+      "Ambiguity: the question asks 'vilken riksdagsfunktion kan granska regeringens arbete?' but both Konstitutionsutskottet (option 0, correct) and Justitieombudsmannen/JO (option 1) are Riksdag-linked bodies that can examine minister conduct. A well-prepared learner could reasonably pick JO, creating a near-tie. Narrow the question to a committee so only KU fits."
+    ],
+    "suggestedQuestionSv": "Vilket riksdagsutskott granskar hur ministrar och regeringen sköter sina uppgifter?",
+    "suggestedOptions": [
+      "Konstitutionsutskottet.",
+      "Justitieombudsmannen.",
+      "Lagrådet.",
+      "Riksrevisionen."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "The Committee on the Constitution (Konstitutionsutskottet, KU) is the Riksdag committee that scrutinizes how ministers and the government handle their duties. JO handles individual complaints about authorities; Lagrådet reviews the legality of bills; Riksrevisionen audits public finances.",
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-021",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch03-022",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-023",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-024",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-025",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-026",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch03-027",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-028",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-029",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch03-030",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-031",
+    "verdict": "approve",
+    "issues": [
+      "Data hygiene: the 'tags' array contains 'governance' twice (['governance','eu','governance']). Remove the duplicate."
+    ],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-032",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-033",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-034",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-035",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch03-036",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-037",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-038",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-039",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-040",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch03-041",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-042",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-043",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-044",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-045",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch03-046",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-047",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-048",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-049",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-050",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch03-051",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-052",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-053",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-054",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-055",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "easy"
+  },
+  {
+    "id": "draft-ch03-056",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-057",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-058",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch03-059",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  },
+  {
+    "id": "draft-ch03-060",
+    "verdict": "approve",
+    "issues": [],
+    "suggestedCorrectIndex": 0,
+    "difficultySuggestion": "hard"
+  }
+]

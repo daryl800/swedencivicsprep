@@ -1,0 +1,2316 @@
+[
+  {
+    "id": "draft-batch-b-ch07-001",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "equality",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En arbetsgivare väljer bort en sökande efter att ha hört att personen bär religiösa symboler. Vilken princip aktualiseras?",
+    "questionEn": "An employer rejects an applicant after hearing that the person wears religious symbols. Which principle is involved?",
+    "options": [
+      "Skydd mot diskriminering på grund av religion.",
+      "Rätten för arbetsgivare att välja bort alla religiösa personer.",
+      "Regeln att religion bara får utövas hemma.",
+      "Skyldigheten att berätta sin religion för arbetsgivaren."
+    ],
+    "optionsEn": [
+      "Protection against discrimination based on religion.",
+      "The right of employers to reject all religious people.",
+      "The rule that religion may only be practiced at home.",
+      "The obligation to tell the employer one’s religion."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Discrimination law protects people from unfair treatment connected to religion and other protected grounds.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-002",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "children-rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "Varför har barn särskilda rättigheter även om de också omfattas av mänskliga rättigheter?",
+    "questionEn": "Why do children have special rights even though they are also covered by human rights?",
+    "options": [
+      "Barn är beroende av vuxna och behöver särskilt skydd och inflytande utifrån sin ålder.",
+      "Barn har färre rättigheter eftersom de inte röstar.",
+      "Barns rättigheter gäller bara i skolan.",
+      "Föräldrar kan alltid välja bort barns rättigheter."
+    ],
+    "optionsEn": [
+      "Children depend on adults and need special protection and influence according to their age.",
+      "Children have fewer rights because they do not vote.",
+      "Children’s rights only apply in school.",
+      "Parents can always opt out of children’s rights."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Children’s rights recognize children’s vulnerability, development, and right to be heard.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-003",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "freedom-religion",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En person säger att religionsfrihet betyder att staten måste följa majoritetens religion. Vad är fel med det?",
+    "questionEn": "A person says freedom of religion means the state must follow the majority religion. What is wrong with that?",
+    "options": [
+      "Religionsfrihet skyddar både rätten att tro, byta tro och avstå från religion.",
+      "Religionsfrihet gäller bara den största religiösa gruppen.",
+      "Staten måste alltid göra religiösa regler till lag.",
+      "Den som inte är religiös saknar skydd."
+    ],
+    "optionsEn": [
+      "Freedom of religion protects the right to believe, change belief, and refrain from religion.",
+      "Freedom of religion only applies to the largest religious group.",
+      "The state must always make religious rules into law.",
+      "A person who is not religious has no protection."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of religion includes positive and negative freedom: to have, change, or not have a religion.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-004",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights-limits",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En demonstration planeras utanför ett sjukhus och riskerar att blockera ambulanser. Hur kan rättigheter behöva vägas?",
+    "questionEn": "A demonstration is planned outside a hospital and risks blocking ambulances. How may rights need to be balanced?",
+    "options": [
+      "Demonstrationsfrihet är viktig men kan begränsas praktiskt för att skydda säkerhet och vård.",
+      "Demonstrationsfrihet betyder att ambulansvägar alltid får blockeras.",
+      "Sjukhus får förbjuda alla politiska åsikter i kommunen.",
+      "Rätten att demonstrera gäller bara om alla håller med budskapet."
+    ],
+    "optionsEn": [
+      "Freedom to demonstrate is important but can be practically limited to protect safety and healthcare.",
+      "Freedom to demonstrate means ambulance routes may always be blocked.",
+      "Hospitals may ban all political opinions in the municipality.",
+      "The right to demonstrate only applies if everyone agrees with the message."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rights can sometimes be limited by law and practical conditions to protect others and public safety.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-005",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "minorities",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "Varför finns särskilt skydd för nationella minoriteter och minoritetsspråk?",
+    "questionEn": "Why is there special protection for national minorities and minority languages?",
+    "options": [
+      "För att bevara språk, kultur och möjlighet till delaktighet för grupper med historisk koppling till Sverige.",
+      "För att minoritetsspråk ska ersätta svenska i alla myndigheter.",
+      "För att bara minoriteter ska få rösta i vissa kommuner.",
+      "För att majoritetens kultur inte får nämnas i skolan."
+    ],
+    "optionsEn": [
+      "To preserve language, culture, and participation for groups with a historical connection to Sweden.",
+      "So minority languages replace Swedish in all authorities.",
+      "So only minorities may vote in certain municipalities.",
+      "So the majority culture may not be mentioned in school."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Minority rights protect cultural and linguistic identity and participation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-006",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "gender-equality",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En chef säger att småbarnsföräldrar inte bör få ansvar eftersom de kan vara hemma med sjuka barn. Vilket problem kan detta skapa?",
+    "questionEn": "A manager says parents of small children should not get responsibility because they may be home with sick children. What problem can this create?",
+    "options": [
+      "Det kan bli diskriminering och motverka jämställdhet i arbetslivet.",
+      "Det är tillåtet eftersom chefer fritt får väga in privatliv vid befordran.",
+      "Det visar att arbetsgivaren följer principen om lika behandling.",
+      "Enligt svensk lag får arbetsgivare välja bort föräldrar från ansvarsroller."
+    ],
+    "optionsEn": [
+      "It can become discrimination and work against gender equality in working life.",
+      "It is allowed because managers may freely weigh in private life when promoting.",
+      "It shows the employer follows equal treatment.",
+      "Under Swedish law, employers may reject parents from responsibility roles."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Assumptions about family responsibilities can lead to unequal treatment and discrimination.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-007",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights-state",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "Vad betyder det att mänskliga rättigheter begränsar statens makt?",
+    "questionEn": "What does it mean that human rights limit state power?",
+    "options": [
+      "Staten måste respektera vissa grundläggande friheter och skydd för individer.",
+      "Staten får aldrig fatta beslut som påverkar människor.",
+      "Mänskliga rättigheter gäller bara medborgare, inte nyanlända.",
+      "En individ kan alltid välja bort svensk lag."
+    ],
+    "optionsEn": [
+      "The state must respect certain basic freedoms and protections for individuals.",
+      "The state may never make decisions that affect people.",
+      "Human rights only apply to citizens, not newly arrived people.",
+      "An individual can always opt out of Swedish law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Human rights set limits on how public power may treat individuals.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-008",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "expression",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En person uttrycker en obekväm politisk åsikt som många ogillar. Vad säger yttrandefrihetens demokratiska idé?",
+    "questionEn": "A person expresses an uncomfortable political opinion that many dislike. What does the democratic idea of freedom of expression say?",
+    "options": [
+      "Även obekväma åsikter ska i regel få uttryckas, så länge lagens gränser respekteras.",
+      "Bara populära åsikter skyddas av yttrandefrihet.",
+      "Yttrandefrihet gäller bara för medborgare, inte för nyanlända.",
+      "Den som kritiseras får automatiskt förbjuda uttalandet."
+    ],
+    "optionsEn": [
+      "Even uncomfortable opinions should generally be allowed, as long as legal limits are respected.",
+      "Only popular opinions are protected by freedom of expression.",
+      "Freedom of expression only applies to citizens, not newly arrived people.",
+      "The person being criticized may automatically ban the statement."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Free expression protects open debate, including views that others dislike, within legal limits.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-009",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "asylum",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En person söker skydd men har svårt att visa dokument från hemlandet. Varför måste myndigheten ändå bedöma hela berättelsen?",
+    "questionEn": "A person seeks protection but has difficulty showing documents from the home country. Why must the authority still assess the whole story?",
+    "options": [
+      "Skyddsbehov kan behöva bedömas utifrån flera uppgifter, inte bara formella dokument.",
+      "Asyl kan aldrig prövas utan pass och arbetsintyg.",
+      "Myndigheten ska alltid avslå om dokument saknas.",
+      "Kommunen avgör trovärdigheten genom omröstning."
+    ],
+    "optionsEn": [
+      "Protection needs may need to be assessed from several pieces of information, not only formal documents.",
+      "Asylum can never be assessed without a passport and work certificate.",
+      "The authority should always reject if documents are missing.",
+      "The municipality decides credibility by voting."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Asylum assessment can involve an overall evaluation of the person’s situation and evidence.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-010",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "disability-rights",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En offentlig webbplats går inte att använda med skärmläsare. Vilket rättighetsperspektiv blir relevant?",
+    "questionEn": "A public website cannot be used with a screen reader. Which rights perspective becomes relevant?",
+    "options": [
+      "Tillgänglighet och möjlighet för personer med funktionsnedsättning att delta på lika villkor.",
+      "Att digital information bara behöver fungera för myndighetsanställda.",
+      "Att personer med funktionsnedsättning ska använda privata tjänster i stället.",
+      "Att webbplatser aldrig räknas som offentlig service."
+    ],
+    "optionsEn": [
+      "Accessibility and the ability of people with disabilities to participate on equal terms.",
+      "That digital information only needs to work for authority employees.",
+      "That people with disabilities should use private services instead.",
+      "That websites never count as public service."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Accessibility is part of equal participation in society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-011",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rule-of-law",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En person frihetsberövas utan att få veta varför eller kunna få saken prövad. Vilken rättighetsfråga väcks?",
+    "questionEn": "A person is detained without being told why or being able to have the matter reviewed. What rights issue is raised?",
+    "options": [
+      "Skydd mot godtyckligt frihetsberövande och rätt till rättssäker prövning.",
+      "Rätten för myndigheter att undvika domstol vid misstanke.",
+      "Skyldigheten för medborgare att acceptera alla beslut utan information.",
+      "Kommunens rätt att bestämma straff utan lag."
+    ],
+    "optionsEn": [
+      "Protection against arbitrary detention and the right to legal review.",
+      "The right of authorities to avoid courts when there is suspicion.",
+      "The obligation of citizens to accept all decisions without information.",
+      "The municipality’s right to decide punishments without law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Human rights and rule of law require legal grounds and review when liberty is restricted.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-012",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "privacy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "Varför räknas privatliv som en rättighetsfråga?",
+    "questionEn": "Why is privacy considered a rights issue?",
+    "options": [
+      "Människor ska ha skydd för personliga uppgifter, hem och privat kommunikation.",
+      "Privatliv betyder att ingen behöver följa lagar.",
+      "Privatliv gäller bara personer som äger bostad.",
+      "Myndigheter får alltid publicera människors privata uppgifter."
+    ],
+    "optionsEn": [
+      "People should have protection for personal data, home, and private communication.",
+      "Privacy means no one needs to follow laws.",
+      "Privacy only applies to people who own a home.",
+      "Authorities may always publish people’s private information."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Privacy protects personal life from unjustified intrusion.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-013",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "education",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "Ett barn hindras från att gå i skolan eftersom familjen inte har mycket pengar. Vilken princip talar emot detta?",
+    "questionEn": "A child is prevented from going to school because the family does not have much money. Which principle speaks against this?",
+    "options": [
+      "Rätten till utbildning och barns rätt till likvärdiga möjligheter.",
+      "Att utbildning bara är en frivillig privat tjänst.",
+      "Att skola i Sverige endast gäller barn till medborgare.",
+      "Att kommuner får sälja skolplatser till högstbjudande."
+    ],
+    "optionsEn": [
+      "The right to education and children’s right to equal opportunities.",
+      "That education is only a voluntary private service.",
+      "That school in Sweden only applies to children of citizens.",
+      "That municipalities may sell school places to the highest bidder."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Education is a fundamental right and children should have access regardless of family income.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-014",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "hate-speech",
+    "difficulty": "hard",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "En person säger att yttrandefrihet innebär rätt att hota en minoritetsgrupp. Vad är den bästa bedömningen?",
+    "questionEn": "A person says freedom of expression includes the right to threaten a minority group. What is the best assessment?",
+    "options": [
+      "Yttrandefrihet skyddar mycket, men hot och hets mot folkgrupp kan vara brottsligt.",
+      "Yttrandefrihet skyddar alltid hot om de skrivs på internet.",
+      "Hot är tillåtna om de riktas mot fler än en person.",
+      "Minoritetsgrupper omfattas inte av skydd i svensk rätt."
+    ],
+    "optionsEn": [
+      "Freedom of expression protects a lot, but threats and incitement against a group can be criminal.",
+      "Freedom of expression always protects threats if written online.",
+      "Threats are allowed if they target more than one person.",
+      "Minority groups are not covered by protection in Swedish law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Legal limits can protect people from threats and hate speech.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-b-ch07-015",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights-responsibility",
+    "difficulty": "medium",
+    "tags": [
+      "batch-b",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch B extra draft)",
+    "questionSv": "Varför hänger rättigheter ofta ihop med ansvar för andra människors rättigheter?",
+    "questionEn": "Why are rights often connected to responsibility for other people’s rights?",
+    "options": [
+      "Ett öppet samhälle kräver att människor kan använda sina friheter utan att kränka andras skydd.",
+      "Den som har rättigheter får alltid bestämma över andra.",
+      "Ansvar betyder att staten tar bort alla individuella friheter.",
+      "Andras rättigheter gäller bara om man håller med dem."
+    ],
+    "optionsEn": [
+      "An open society requires people to use their freedoms without violating others’ protections.",
+      "A person with rights may always decide over others.",
+      "Responsibility means the state removes all individual freedoms.",
+      "Other people’s rights only apply if one agrees with them."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rights coexist; one person’s freedom must be balanced with others’ rights and safety.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch07-001",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "hate-crime",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch D gap-fill draft)",
+    "questionSv": "Varför är hatbrott en rättighetsfråga?",
+    "questionEn": "Why are hate crimes a rights issue?",
+    "options": [
+      "De angriper både den utsatta personen och tryggheten för en grupp i samhället.",
+      "Hatbrott gäller bara om gärningspersonen är politiker.",
+      "Hatbrott är alltid tillåtna om de sker på internet.",
+      "Bara myndigheter kan utsättas för hatbrott."
+    ],
+    "optionsEn": [
+      "They attack both the victim and the security of a group in society.",
+      "Hate crimes only apply if the offender is a politician.",
+      "Hate crimes are always allowed if they happen online.",
+      "Only authorities can be victims of hate crimes."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Hate crimes can threaten equal dignity and security for protected groups.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch07-002",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "privacy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (batch D gap-fill draft)",
+    "questionSv": "Varför är personlig integritet viktig även i ett tryggt samhälle?",
+    "questionEn": "Why is personal privacy important even in a safe society?",
+    "options": [
+      "Människor behöver skydd mot onödig insyn i privatliv och personuppgifter.",
+      "Integritet gäller bara personer som inte använder internet.",
+      "Trygghet betyder att staten får publicera alla privata uppgifter.",
+      "Personuppgifter saknar betydelse för mänskliga rättigheter."
+    ],
+    "optionsEn": [
+      "People need protection against unnecessary intrusion into private life and personal data.",
+      "Privacy only applies to people who do not use the internet.",
+      "Safety means the state may publish all private information.",
+      "Personal data has no importance for human rights."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Privacy protects dignity and freedom in everyday life.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-001",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "universal-rights"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vad betyder att mänskliga rättigheter är universella?",
+    "questionEn": "What does it mean that human rights are universal?",
+    "options": [
+      "De gäller alla människor, oavsett land eller bakgrund.",
+      "De gäller bara medborgare i en viss stat.",
+      "De gäller bara personer som arbetar.",
+      "De gäller bara när en myndighet väljer det."
+    ],
+    "optionsEn": [
+      "They apply to all people, regardless of country or background.",
+      "They only apply to citizens of a certain state.",
+      "They only apply to people who work.",
+      "They only apply when an authority chooses so."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Human rights are based on the idea that every person has dignity and rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-002",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "state-responsibility"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vad innebär det att staten har ansvar för mänskliga rättigheter?",
+    "questionEn": "What does it mean that the state is responsible for human rights?",
+    "options": [
+      "Staten ska respektera, skydda och främja rättigheterna i sin verksamhet och lagstiftning.",
+      "Staten kan fritt välja bort rättigheter för grupper som saknar politiskt stöd.",
+      "Staten är endast skyldig att följa rättigheterna under valår.",
+      "Staten kan överlåta hela ansvaret för rättigheterna till privata företag."
+    ],
+    "optionsEn": [
+      "The state must respect, protect, and promote rights in its activities and legislation.",
+      "The state may freely remove rights for groups that lack political support.",
+      "The state is only required to follow rights during election years.",
+      "The state may transfer all responsibility for rights to private companies."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Human rights create obligations for public authorities to respect, protect, and promote rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-003",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "state-responsibility",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En kommun planerar en ny digital rutin som riskerar att utestänga personer med funktionsnedsättning från kommunal service. Vilket perspektiv måste vägas in?",
+    "questionEn": "A municipality plans a new digital process that risks excluding people with disabilities from municipal services. Which perspective must be considered?",
+    "options": [
+      "Tillgänglighet och alla invånares lika möjlighet att använda offentlig service.",
+      "Att kommunen har rätt att prioritera tekniska lösningar oavsett tillgänglighet.",
+      "Att rättigheter och tillgänglighet endast gäller i statliga myndigheters lokaler.",
+      "Att enskilda invånare själva bär hela ansvaret för att anpassa sig till kommunens system."
+    ],
+    "optionsEn": [
+      "Accessibility and all residents’ equal opportunity to use public services.",
+      "That the municipality has the right to prioritize technical solutions regardless of accessibility.",
+      "That rights and accessibility only apply inside state authority premises.",
+      "That individual residents carry all responsibility for adapting to the municipality’s system."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public services must consider accessibility and non-discrimination so people can use them in practice.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-004",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "equal-dignity"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vilken idé ligger bakom uttrycket alla människors lika värde?",
+    "questionEn": "Which idea is behind the expression equal value of all people?",
+    "options": [
+      "Att varje människa har samma grundläggande värdighet.",
+      "Att alla måste ha samma yrke.",
+      "Att alla måste tycka likadant politiskt.",
+      "Att bara majoriteten har rättigheter."
+    ],
+    "optionsEn": [
+      "That every person has the same basic dignity.",
+      "That everyone must have the same occupation.",
+      "That everyone must think the same politically.",
+      "That only the majority has rights."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Equal human dignity is a foundation for human rights and democracy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-005",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "equal-dignity",
+      "democracy"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Varför är alla människors lika värde viktigt i en demokrati?",
+    "questionEn": "Why is equal human dignity important in a democracy?",
+    "options": [
+      "Det motverkar att makt används för att göra vissa grupper rättslösa.",
+      "Det betyder att alla beslut måste vara enhälliga.",
+      "Det gör att domstolar inte behövs.",
+      "Det innebär att majoriteten alltid får begränsa minoriteter."
+    ],
+    "optionsEn": [
+      "It prevents power from being used to make certain groups without rights.",
+      "It means all decisions must be unanimous.",
+      "It makes courts unnecessary.",
+      "It means the majority may always restrict minorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democracy requires both majority decisions and protection of people’s basic rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-006",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "equal-dignity",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En majoritet i ett lokalt råd vill förbjuda en minoritetsgrupp att delta i den offentliga debatten. Vilken demokratisk princip kränks främst?",
+    "questionEn": "A majority in a local council wants to ban a minority group from taking part in public debate. Which democratic principle is mainly violated?",
+    "options": [
+      "Alla människors lika värde och rätten att uttrycka åsikter oavsett popularitet.",
+      "Principen om att majoritetsbeslut alltid upphäver individuella rättigheter.",
+      "Principen om att kommunen kan bestämma vilka medborgare som får yttra sig.",
+      "Regeln att politiska debatter endast får föras under valrörelser."
+    ],
+    "optionsEn": [
+      "Everyone’s equal dignity and the right to express opinions regardless of popularity.",
+      "The principle that majority decisions always cancel individual rights.",
+      "The principle that the municipality can decide which citizens may speak.",
+      "The rule that political debates may only take place during election campaigns."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democracy protects basic rights even for unpopular groups and opinions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-007",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "discrimination"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vad handlar diskriminering om i grunden?",
+    "questionEn": "What is discrimination basically about?",
+    "options": [
+      "Att någon missgynnas på ett otillåtet sätt kopplat till skyddad grund.",
+      "Att någon förlorar en politisk debatt.",
+      "Att alla behandlas efter samma tydliga regel.",
+      "Att en domstol prövar bevisning."
+    ],
+    "optionsEn": [
+      "That someone is disadvantaged in an unlawful way linked to a protected ground.",
+      "That someone loses a political debate.",
+      "That everyone is treated by the same clear rule.",
+      "That a court examines evidence."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Discrimination is unequal treatment connected to protected grounds such as sex, ethnicity, religion, disability, or sexual orientation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-008",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "discrimination-grounds"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vilka av följande utgör lagskyddade diskrimineringsgrunder i Sverige?",
+    "questionEn": "Which of the following are legally protected discrimination grounds in Sweden?",
+    "options": [
+      "Kön, könsöverskridande identitet eller uttryck, etnisk tillhörighet, religion eller annan trosuppfattning, funktionsnedsättning, sexuell läggning och ålder.",
+      "Yrkesval, utbildningsnivå, inkomst och bostadsort.",
+      "Politisk partitillhörighet, medlemskap i fackförbund och fritidsintressen.",
+      "Medborgarskapslängd, språkkunskaper i engelska och civilstånd."
+    ],
+    "optionsEn": [
+      "Sex, gender identity or expression, ethnic origin, religion or other belief, disability, sexual orientation, and age.",
+      "Choice of profession, education level, income, and place of residence.",
+      "Political party affiliation, union membership, and leisure interests.",
+      "Length of citizenship, English skills, and marital status."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish discrimination law protects seven specific grounds: sex, gender identity or expression, ethnic origin, religion or other belief, disability, sexual orientation, and age.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-009",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "discrimination",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En restaurang vägrar servera en gäst på grund av gästens etniska tillhörighet. Vad handlar denna situation främst om?",
+    "questionEn": "A restaurant refuses to serve a guest because of the guest’s ethnicity. What is this situation mainly about?",
+    "options": [
+      "Etnisk diskriminering vid tillhandahållande av varor och tjänster.",
+      "Restaurangens fria rätt att välja kunder oavsett lagstiftning.",
+      "En avtalstvist som endast rör näringsfriheten.",
+      "En fråga om gästens skyldighet att visa svenskt medborgarskap."
+    ],
+    "optionsEn": [
+      "Ethnic discrimination in the provision of goods and services.",
+      "The restaurant’s free right to choose customers regardless of legislation.",
+      "A contract dispute that only concerns freedom of enterprise.",
+      "A question about the guest’s obligation to show Swedish citizenship."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Refusing service because of ethnicity can violate anti-discrimination rules for goods and services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-010",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "gender-equality"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vad betyder jämställdhet?",
+    "questionEn": "What does gender equality mean?",
+    "options": [
+      "Att kvinnor och män ska ha samma rättigheter, skyldigheter och möjligheter.",
+      "Att bara kvinnor får delta i politik.",
+      "Att alla måste välja samma utbildning.",
+      "Att män och kvinnor aldrig får arbeta tillsammans."
+    ],
+    "optionsEn": [
+      "That women and men should have the same rights, obligations, and opportunities.",
+      "That only women may participate in politics.",
+      "That everyone must choose the same education.",
+      "That men and women may never work together."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Gender equality concerns equal power, rights, responsibilities, and opportunities regardless of gender.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-011",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "gender-equality",
+      "work"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vilket exempel kan visa bristande jämställdhet i arbetslivet?",
+    "questionEn": "Which example can show lack of gender equality in working life?",
+    "options": [
+      "Att personer med samma kompetens behandlas olika på grund av kön.",
+      "Att två kollegor har olika favoritämnen.",
+      "Att en arbetsplats har både unga och äldre anställda.",
+      "Att en person byter jobb frivilligt."
+    ],
+    "optionsEn": [
+      "That people with the same competence are treated differently because of gender.",
+      "That two colleagues have different favorite subjects.",
+      "That a workplace has both young and older employees.",
+      "That a person changes job voluntarily."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Unequal treatment because of gender can be a gender equality and discrimination issue.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-012",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "gender-equality",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En arbetsgivare ställer frågor om framtida familjeplanering enbart till kvinnliga sökande under anställningsintervjuer. Vilket rättsligt problem uppstår?",
+    "questionEn": "An employer asks questions about future family planning only to female applicants during job interviews. What legal problem arises?",
+    "options": [
+      "Det innebär en risk för könsdiskriminering och osaklig särbehandling i arbetslivet.",
+      "Det är tillåtet så länge alla sökande får arbeta övertid.",
+      "Det är enbart en fråga om arbetsgivarens rätt till fri information.",
+      "Det rör enbart skyddet för personuppgifter enligt dataskyddsförordningen."
+    ],
+    "optionsEn": [
+      "It creates a risk of gender discrimination and unjustified unequal treatment in working life.",
+      "It is allowed as long as all applicants may work overtime.",
+      "It is only a question of the employer’s right to free information.",
+      "It only concerns protection of personal data under the GDPR."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Targeting only female applicants with family-planning questions can amount to gender discrimination in recruitment.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-013",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "children-rights"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vad är en viktig grundtanke i barnets rättigheter?",
+    "questionEn": "What is an important basic idea in children’s rights?",
+    "options": [
+      "Barn är egna personer med rättigheter och behov av skydd.",
+      "Barn har inga rättigheter före de blivit myndiga.",
+      "Barns rättigheter gäller bara i idrottsföreningar.",
+      "Barn ska själva bära allt ansvar för vuxnas beslut."
+    ],
+    "optionsEn": [
+      "Children are individuals with rights and need protection.",
+      "Children have no rights before becoming adults.",
+      "Children’s rights only apply in sports associations.",
+      "Children should carry all responsibility for adults’ decisions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Children’s rights recognize children as rights holders who need care, protection, and participation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-014",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "children-rights",
+      "participation"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vad innebär det att barn ska få komma till tals i frågor som rör dem?",
+    "questionEn": "What does it mean that children should be heard in matters concerning them?",
+    "options": [
+      "Barnets åsikter ska beaktas utifrån ålder och mognad.",
+      "Barn ska alltid bestämma över alla vuxna beslut.",
+      "Barn får bara tala om skolmat.",
+      "Barns åsikter får aldrig påverka något beslut."
+    ],
+    "optionsEn": [
+      "The child’s views should be considered according to age and maturity.",
+      "Children should always decide all adult decisions.",
+      "Children may only speak about school lunches.",
+      "Children’s views may never affect any decision."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Children’s participation means their views matter, while adults still carry legal responsibility.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-015",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "children-rights",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Socialtjänsten utreder ett ärende angående ett barns uppväxtförhållanden. Varför ska principen om 'barnets bästa' tillämpas?",
+    "questionEn": "Social services are investigating a matter concerning a child’s living conditions. Why should the principle of the best interests of the child be applied?",
+    "options": [
+      "I alla beslut som rör barn ska barnets rättigheter, trygghet och utveckling vägas in främst.",
+      "Barnets önskemål ska alltid följas ovillkorligen oavsett konsekvenser.",
+      "Principen gäller endast vid domstolsförhandlingar, inte i kommunal verksamhet.",
+      "Vuxnas behov och prioriteringar väger alltid tyngre än barnets integritet."
+    ],
+    "optionsEn": [
+      "In all decisions concerning children, the child’s rights, safety, and development must be given primary consideration.",
+      "The child’s wishes must always be followed unconditionally regardless of consequences.",
+      "The principle only applies in court proceedings, not in municipal activities.",
+      "Adults’ needs and priorities always outweigh the child’s integrity."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The best interests of the child must be a primary consideration in decisions affecting children.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-016",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "violence-against-children"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vilket påstående om fysisk bestraffning av barn stämmer i Sverige?",
+    "questionEn": "Which statement about physical punishment of children is correct in Sweden?",
+    "options": [
+      "All kroppslig bestraffning av barn är förbjuden enligt svensk lag.",
+      "Föräldrar får alltid slå barn om det kallas uppfostran.",
+      "Våld mot barn är bara förbjudet i skolan.",
+      "Barns skydd mot våld gäller bara efter 15 års ålder."
+    ],
+    "optionsEn": [
+      "All corporal punishment of children is forbidden under Swedish law.",
+      "Parents may always hit children if it is called discipline.",
+      "Violence against children is only forbidden in school.",
+      "Children's protection against violence only applies after age 15."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden prohibits all corporal punishment of children; the ban in the Parental Code (1979) made Sweden the first country to outlaw it.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-017",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "violence-against-children",
+      "responsibility"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Varför är våld mot barn inte bara en privat familjefråga?",
+    "questionEn": "Why is violence against children not only a private family matter?",
+    "options": [
+      "Samhället har ansvar att skydda barn när de riskerar att fara illa.",
+      "Familjen får alltid bestämma bort barnets rättigheter.",
+      "Myndigheter får aldrig agera när barn utsätts för våld.",
+      "Barn måste själva väcka åtal för att få skydd."
+    ],
+    "optionsEn": [
+      "Society has responsibility to protect children when they risk harm.",
+      "The family may always remove the child’s rights.",
+      "Authorities may never act when children are exposed to violence.",
+      "Children must personally prosecute to receive protection."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Children’s rights create public responsibilities, including protection and support.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-018",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "violence-against-children",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En person misstänker att ett barn i grannskapet utsätts för våld eller vanvård i hemmet. Vilket tillvägagångssätt stämmer bäst överens med principen om barnets skydd?",
+    "questionEn": "A person suspects that a child in the neighborhood is exposed to violence or neglect at home. Which approach best matches the principle of child protection?",
+    "options": [
+      "Barnets säkerhet prioriteras och misstanken bör anmälas till socialtjänsten.",
+      "Familjeangelägenheter ska alltid hållas helt privata oavsett barnets situation.",
+      "Ingripande får endast ske om föräldrarna själva begär stöd från myndigheterna.",
+      "Grannar har inte rätt att reagera förrän barnet fyllt 15 år."
+    ],
+    "optionsEn": [
+      "The child’s safety is prioritized and the suspicion should be reported to social services.",
+      "Family matters must always remain completely private regardless of the child’s situation.",
+      "Intervention may only happen if the parents themselves ask the authorities for support.",
+      "Neighbors have no right to react before the child turns 15."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Protecting children from harm can require contacting social services when there is serious concern.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-019",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "equal-treatment",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "religious-freedom"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vad betyder likabehandling i kontakt med offentlig service?",
+    "questionEn": "What does equal treatment mean in contact with public services?",
+    "options": [
+      "Människor ska bemötas sakligt och utan diskriminering.",
+      "Alla ska få exakt samma beslut oavsett behov och regler.",
+      "Myndigheter får gynna personer med personliga kontakter.",
+      "Likabehandling gäller bara i domstolar."
+    ],
+    "optionsEn": [
+      "People should be treated objectively and without discrimination.",
+      "Everyone should receive exactly the same decision regardless of needs and rules.",
+      "Authorities may favor people with personal contacts.",
+      "Equal treatment only applies in courts."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Equal treatment means fair and objective handling, not identical outcomes in every case.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-020",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "religious-freedom",
+      "secular-state"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Hur kan religionsfrihet fungera i ett sekulärt samhälle?",
+    "questionEn": "How can freedom of religion work in a secular society?",
+    "options": [
+      "Staten ska inte tvinga fram en tro, men människor får utöva religion inom lagens ramar.",
+      "Staten ska förbjuda alla religioner.",
+      "Bara en religion får synas offentligt.",
+      "Religionsfrihet betyder att lagar inte gäller religiösa grupper."
+    ],
+    "optionsEn": [
+      "The state should not force a belief, but people may practice religion within the limits of law.",
+      "The state should ban all religions.",
+      "Only one religion may be visible publicly.",
+      "Freedom of religion means laws do not apply to religious groups."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A secular state can protect freedom of religion while public law applies to everyone.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-021",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "religious-freedom",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En myndighet vägrar att ta emot en besökare på grund av personens religiösa klädsel. Vilka rättighetsfrågor är mest relevanta?",
+    "questionEn": "A public authority refuses to receive a visitor because of the person’s religious clothing. Which rights issues are most relevant?",
+    "options": [
+      "Religionsfrihet och skydd mot diskriminering i offentlig verksamhet.",
+      "Myndighetens rätt att fritt välja sina besökare.",
+      "Enbart regler kring offentliga handlingar och sekretess.",
+      "Frågan om besökarens politiska tillhörighet och rösträtt."
+    ],
+    "optionsEn": [
+      "Freedom of religion and protection against discrimination in public activities.",
+      "The authority’s right to freely choose its visitors.",
+      "Only rules on public documents and secrecy.",
+      "The question of the visitor’s political affiliation and voting rights."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Denying public service because of religious clothing can involve both freedom of religion and anti-discrimination protection.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-022",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "lgbtq-rights"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vad handlar lika rättigheter för hbtqi-personer om?",
+    "questionEn": "What are equal rights for LGBTQI people about?",
+    "options": [
+      "Att människor ska kunna leva tryggt oavsett sexuell läggning, könsidentitet eller könsuttryck.",
+      "Att bara hbtqi-personer får rösta i vissa val.",
+      "Att alla måste beskriva sin identitet på samma sätt.",
+      "Att staten ska registrera privata åsikter."
+    ],
+    "optionsEn": [
+      "That people should be able to live safely regardless of sexual orientation, gender identity, or gender expression.",
+      "That only LGBTQI people may vote in certain elections.",
+      "That everyone must describe their identity in the same way.",
+      "That the state should register private opinions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Equal rights include safety, dignity, and protection against discrimination.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-023",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "lgbtq-rights",
+      "discrimination"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vilket exempel kan vara diskriminering kopplad till sexuell läggning?",
+    "questionEn": "Which example can be discrimination linked to sexual orientation?",
+    "options": [
+      "Att någon nekas service för att personen lever med en partner av samma kön.",
+      "Att två personer har olika politiska åsikter.",
+      "Att en elev väljer ett annat språkval än sina vänner.",
+      "Att en domstol prövar ett avtal."
+    ],
+    "optionsEn": [
+      "Someone is denied service because they live with a same-sex partner.",
+      "Two people have different political opinions.",
+      "A student chooses a different language option than friends.",
+      "A court examines a contract."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sexual orientation is a protected ground in anti-discrimination work.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-024",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "lgbtq-rights",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En skola förbjuder undervisning om samkönade familjekonstellationer och hävdar att endast traditionella familjer får nämnas. Vad strider detta synsätt mot?",
+    "questionEn": "A school bans teaching about same-sex family constellations and claims that only traditional families may be mentioned. What does this view conflict with?",
+    "options": [
+      "Skolans uppdrag att främja likabehandling och respekt för alla människors värde och identitet.",
+      "Skolstyrelsens rätt att självständigt forma skolans läroplan utan statlig tillsyn.",
+      "Principen om att alla elever ska ges identisk undervisning i samtliga ämnen.",
+      "Reglerna för hur föräldramöten ska organiseras i grundskolan."
+    ],
+    "optionsEn": [
+      "The school’s mission to promote equal treatment and respect for everyone’s dignity and identity.",
+      "The school board’s right to independently shape the curriculum without state oversight.",
+      "The principle that all pupils must receive identical teaching in all subjects.",
+      "The rules for how parent meetings should be organized in compulsory school."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Schools should promote equality, inclusion, and respect for different identities and family forms.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-025",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "national-minorities"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vilka är Sveriges nationella minoriteter?",
+    "questionEn": "Which are Sweden’s national minorities?",
+    "options": [
+      "Judar, romer, samer, sverigefinnar och tornedalingar.",
+      "Danskar, norrmän, tyskar, fransmän och spanjorer.",
+      "Studenter, pensionärer, turister, företagare och journalister.",
+      "Riksdag, regering, regioner, kommuner och domstolar."
+    ],
+    "optionsEn": [
+      "Jews, Roma, Sami, Swedish Finns, and Tornedalians.",
+      "Danes, Norwegians, Germans, French, and Spaniards.",
+      "Students, pensioners, tourists, business owners, and journalists.",
+      "Riksdag, government, regions, municipalities, and courts."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden recognizes five national minorities with historical presence and specific rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-026",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "minority-languages"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vilka är Sveriges nationella minoritetsspråk?",
+    "questionEn": "Which are Sweden’s national minority languages?",
+    "options": [
+      "Finska, jiddisch, meänkieli, romani chib och samiska.",
+      "Engelska, tyska, franska, spanska och italienska.",
+      "Danska, norska, isländska, färöiska och grönländska.",
+      "Latin, grekiska, esperanto, arabiska och persiska."
+    ],
+    "optionsEn": [
+      "Finnish, Yiddish, Meänkieli, Romani Chib, and Sami.",
+      "English, German, French, Spanish, and Italian.",
+      "Danish, Norwegian, Icelandic, Faroese, and Greenlandic.",
+      "Latin, Greek, Esperanto, Arabic, and Persian."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The national minority languages are protected and promoted in Swedish policy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-027",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "national-minorities",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En kommun tar fram en ny långsiktig plan för kulturlivet som berör en nationell minoritetsgrupp utan att samråda med gruppen. Vilket mål i minoritetspolitiken försummas?",
+    "questionEn": "A municipality creates a new long-term cultural plan that affects a national minority group without consulting the group. Which goal in minority policy is neglected?",
+    "options": [
+      "Rätten till delaktighet och inflytande i frågor som angår den nationella minoriteten.",
+      "Skyldigheten för minoriteter att anpassa sin kultur till majoritetsbefolkningen.",
+      "Kravet på att alla beslut i kommunen ska fattas genom lokala folkomröstningar.",
+      "Regeln att nationella minoriteter endast får yttra sig via statliga myndigheter."
+    ],
+    "optionsEn": [
+      "The right to participation and influence in matters concerning the national minority.",
+      "The obligation for minorities to adapt their culture to the majority population.",
+      "The requirement that all municipal decisions must be made through local referendums.",
+      "The rule that national minorities may only express views through state authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "National minority policy includes participation and influence in matters that affect the minority.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-028",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "sami"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vad är särskilt med samerna i Sverige?",
+    "questionEn": "What is special about the Sami in Sweden?",
+    "options": [
+      "Samerna är både en nationell minoritet och ett urfolk.",
+      "Samerna är en statlig myndighet.",
+      "Samerna är ett politiskt parti i riksdagen.",
+      "Samerna är bara en region i Sverige."
+    ],
+    "optionsEn": [
+      "The Sami are both a national minority and an Indigenous people.",
+      "The Sami are a state authority.",
+      "The Sami are a political party in the Riksdag.",
+      "The Sami are only a region in Sweden."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Sami have a special status as Indigenous people and national minority.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-029",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "sami",
+      "culture"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Varför är samisk kultur och språk en rättighetsfråga?",
+    "questionEn": "Why are Sami culture and language a rights issue?",
+    "options": [
+      "De rör skydd av ett urfolks och en nationell minoritets kultur och identitet.",
+      "De handlar bara om turistinformation.",
+      "De bestäms helt av privata företag.",
+      "De gäller endast val till Europaparlamentet."
+    ],
+    "optionsEn": [
+      "They concern protection of the culture and identity of an Indigenous people and national minority.",
+      "They are only about tourist information.",
+      "They are decided entirely by private companies.",
+      "They only apply to European Parliament elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rights for the Sami include culture, language, participation, and influence.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-030",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "sami",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Ett statligt beslut om skogsbruk eller gruvdrift påverkar samiska renskötselområden. Vilket rättighetsperspektiv är särskilt viktigt vid prövningen?",
+    "questionEn": "A state decision on forestry or mining affects Sami reindeer-herding areas. Which rights perspective is especially important in the review?",
+    "options": [
+      "Skyddet för urfolkets kultur, näringsliv och rätt till samråd vid markanvändning.",
+      "Principen om att ekonomiska intressen alltid har företräde framför kulturbevarande.",
+      "Regeln om att beslut om markanvändning fattas exklusivt av lokala markägare.",
+      "Kravet att alla svenska regioner ska ha identiska regler för markanvändning."
+    ],
+    "optionsEn": [
+      "Protection of Indigenous culture, livelihoods, and the right to consultation on land use.",
+      "The principle that economic interests always take priority over cultural preservation.",
+      "The rule that land-use decisions are made exclusively by local landowners.",
+      "The requirement that all Swedish regions must have identical land-use rules."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "As an Indigenous people and national minority, the Sami have protected interests in culture, livelihoods, and consultation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-031",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "refugee-rights"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vad betyder asyl i korthet?",
+    "questionEn": "What does asylum mean briefly?",
+    "options": [
+      "Skydd för en person som riskerar förföljelse eller allvarlig fara.",
+      "Ett automatiskt medborgarskap för alla turister.",
+      "En rätt att slippa alla svenska lagar.",
+      "Ett arbetstillstånd som alla besökare får direkt vid gränsen."
+    ],
+    "optionsEn": [
+      "Protection for a person who risks persecution or serious danger.",
+      "Automatic citizenship for all tourists.",
+      "A right to avoid all Swedish laws.",
+      "A work permit that all visitors receive directly at the border."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Asylum concerns protection needs under national and international rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-032",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "refugee-rights",
+      "process"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Varför måste asylärenden prövas individuellt?",
+    "questionEn": "Why must asylum cases be assessed individually?",
+    "options": [
+      "Skyddsbehov beror på personens situation, skäl och risker.",
+      "Alla från samma land har alltid exakt samma ärende.",
+      "Kommuner får lotta fram beslut utan utredning.",
+      "Medier ska avgöra varje asylansökan."
+    ],
+    "optionsEn": [
+      "Protection needs depend on the person’s situation, reasons, and risks.",
+      "Everyone from the same country always has exactly the same case.",
+      "Municipalities may decide by lottery without investigation.",
+      "Media should decide each asylum application."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Individual assessment is important for legal certainty and protection.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-033",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "refugee-rights",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En person säger att mänskliga rättigheter bara gäller svenska medborgare. Vad är mest korrekt?",
+    "questionEn": "A person says human rights only apply to Swedish citizens. What is most correct?",
+    "options": [
+      "Mänskliga rättigheter gäller människor, även om vissa politiska rättigheter kan vara knutna till medborgarskap.",
+      "Det stämmer, personer utan medborgarskap saknar alla rättigheter.",
+      "Det stämmer bara i kommuner men inte i regioner.",
+      "Rättigheter gäller bara personer som röstar."
+    ],
+    "optionsEn": [
+      "Human rights apply to people, although some political rights can be tied to citizenship.",
+      "That is correct; people without citizenship have no rights.",
+      "That is correct only in municipalities but not regions.",
+      "Rights only apply to people who vote."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Human rights are broader than citizenship, but some democratic rights, such as voting in certain elections, can depend on legal status.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-034",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "privacy"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vad handlar rätten till privatliv om?",
+    "questionEn": "What is the right to privacy about?",
+    "options": [
+      "Skydd för människors personliga liv och integritet.",
+      "Att alla myndighetsbeslut måste vara hemliga.",
+      "Att ingen får kritisera en offentlig person.",
+      "Att medier aldrig får publicera nyheter."
+    ],
+    "optionsEn": [
+      "Protection of people’s personal life and integrity.",
+      "That all authority decisions must be secret.",
+      "That no one may criticize a public person.",
+      "That media may never publish news."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Privacy protects personal integrity, while transparency and media freedom also have democratic roles.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-035",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "privacy",
+      "public-interest"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Hur kan privatliv och offentlig granskning komma i konflikt?",
+    "questionEn": "How can privacy and public scrutiny come into conflict?",
+    "options": [
+      "En publicering kan ha allmänintresse men också påverka en persons integritet.",
+      "Privatliv betyder att offentliga makthavare aldrig får granskas.",
+      "Allmänintresse betyder att allt privat alltid ska publiceras.",
+      "Konflikten avgörs genom kommunal skattesats."
+    ],
+    "optionsEn": [
+      "A publication can have public interest but also affect a person’s privacy.",
+      "Privacy means public power holders may never be scrutinized.",
+      "Public interest means everything private should always be published.",
+      "The conflict is decided through municipal tax rates."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rights and interests can require balancing, especially in media, public documents, and public debate.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-036",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "privacy",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En myndighet planerar att publicera en sökbar databas med känsliga personuppgifter om medborgare för att effektivisera sin handläggning. Vilket rättighetsskydd måste vägas in?",
+    "questionEn": "A public authority plans to publish a searchable database with sensitive personal data about citizens to make case handling more efficient. Which rights protection must be considered?",
+    "options": [
+      "Rätten till personlig integritet och lagstadgat skydd för personuppgifter.",
+      "Myndighetens rätt att fritt offentliggöra all information utan begränsning.",
+      "Regeln att alla personuppgifter per automatik är helt offentliga på internet.",
+      "Kravet på att alla myndighetsbeslut godkänns genom parlamentarisk omröstning."
+    ],
+    "optionsEn": [
+      "The right to personal integrity and legal protection of personal data.",
+      "The authority’s right to freely publish all information without limitation.",
+      "The rule that all personal data is automatically fully public on the internet.",
+      "The requirement that all authority decisions are approved by parliamentary vote."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Efficiency does not remove legal protection for personal data and privacy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-037",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "freedom-expression"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Varför är yttrandefrihet en mänsklig rättighet?",
+    "questionEn": "Why is freedom of expression a human right?",
+    "options": [
+      "Den ger människor möjlighet att uttrycka åsikter och delta i samhällsliv.",
+      "Den ger rätt att hota andra utan ansvar.",
+      "Den gäller bara journalister på tidningar.",
+      "Den gör att alla måste hålla med majoriteten."
+    ],
+    "optionsEn": [
+      "It gives people the possibility to express opinions and participate in society.",
+      "It gives the right to threaten others without responsibility.",
+      "It only applies to newspaper journalists.",
+      "It makes everyone agree with the majority."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of expression supports personal freedom, public debate, and democratic participation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-038",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "freedom-expression",
+      "limits"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vilket påstående visar en balans mellan yttrandefrihet och andra rättigheter?",
+    "questionEn": "Which statement shows a balance between freedom of expression and other rights?",
+    "options": [
+      "Man får uttrycka åsikter, men lagen kan begränsa hot och hets mot folkgrupp.",
+      "Man får alltid säga vad som helst utan konsekvens.",
+      "Staten får förbjuda alla obekväma åsikter.",
+      "Yttrandefrihet gäller bara när alla håller med."
+    ],
+    "optionsEn": [
+      "One may express opinions, but the law can limit threats and incitement against a group.",
+      "One may always say anything without consequence.",
+      "The state may ban all uncomfortable opinions.",
+      "Freedom of expression only applies when everyone agrees."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of expression is broad but can be limited to protect others’ rights and safety.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-039",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "freedom-expression",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En kontroversiell organisation vill anordna en fredlig sammankomst på en offentlig plats. Hur ska myndigheterna hantera situationen utifrån grundläggande rättigheter?",
+    "questionEn": "A controversial organization wants to arrange a peaceful gathering in a public place. How should authorities handle the situation from a fundamental rights perspective?",
+    "options": [
+      "Mötes- och yttrandefriheten gäller även för kontroversiella åsikter, så länge sammankomsten sker inom lagens ramar.",
+      "Myndigheterna bör stoppa mötet om organisationens åsikter inte delas av befolkningen.",
+      "Kommunen kan förbjuda sammankomsten om det råder politisk oenighet i kommunfullmäktige.",
+      "Mötesfriheten gäller endast för etablerade politiska partier och organisationer."
+    ],
+    "optionsEn": [
+      "Freedom of assembly and expression apply even to controversial opinions, as long as the gathering stays within the law.",
+      "Authorities should stop the meeting if the organization’s opinions are not shared by the population.",
+      "The municipality can ban the gathering if there is political disagreement in the municipal council.",
+      "Freedom of assembly only applies to established political parties and organizations."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Peaceful gatherings are protected even when the views are controversial, within legal limits.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-040",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "education"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Varför kan utbildning beskrivas som en rättighetsfråga?",
+    "questionEn": "Why can education be described as a rights issue?",
+    "options": [
+      "Utbildning ger människor kunskap och möjlighet att delta i samhället.",
+      "Utbildning ersätter alla andra rättigheter.",
+      "Utbildning gäller bara personer som redan har arbete.",
+      "Utbildning bestäms helt av privata medier."
+    ],
+    "optionsEn": [
+      "Education gives people knowledge and the possibility to participate in society.",
+      "Education replaces all other rights.",
+      "Education only applies to people who already have work.",
+      "Education is decided entirely by private media."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Education is connected to equality, participation, and children’s rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-041",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "education",
+      "equality"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Hur kan skolan bidra till lika möjligheter?",
+    "questionEn": "How can school contribute to equal opportunities?",
+    "options": [
+      "Genom att ge barn kunskap och stöd oavsett bakgrund.",
+      "Genom att bara undervisa barn från vissa familjer.",
+      "Genom att låta politiska partier bestämma varje betyg.",
+      "Genom att förbjuda elever att ställa frågor."
+    ],
+    "optionsEn": [
+      "By giving children knowledge and support regardless of background.",
+      "By only teaching children from certain families.",
+      "By letting political parties decide every grade.",
+      "By forbidding pupils from asking questions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "School can reduce differences in opportunity by giving all children access to learning and support.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-042",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "education",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En elev som behöver särskilt stöd på grund av en funktionsnedsättning vägras anpassningar i skolan. Vilken rättighetsprincip berörs i första hand?",
+    "questionEn": "A pupil who needs special support because of a disability is denied adaptations in school. Which rights principle is mainly involved?",
+    "options": [
+      "Rätten till tillgänglig utbildning och lika möjligheter i skolsystemet.",
+      "Skolans fria rätt att fördela sina resurser utan hänsyn till enskilda elevers behov.",
+      "Principen att särskilt stöd endast ges till elever som har fullföljt gymnasieutbildning.",
+      "Regeln att stöd bara ges om vårdnadshavarna betalar en extra avgift."
+    ],
+    "optionsEn": [
+      "The right to accessible education and equal opportunities in the school system.",
+      "The school's free right to allocate resources without regard to individual pupils' needs.",
+      "The principle that special support is only given to pupils who have completed upper-secondary education.",
+      "The rule that support is only given if the guardians pay an extra fee."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Equal access to education can require support and adaptations for pupils with disabilities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-043",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "work-rights"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vilken rättighet är kopplad till arbetslivet?",
+    "questionEn": "Which right is connected to working life?",
+    "options": [
+      "Rätten till rimliga arbetsvillkor och skydd mot diskriminering.",
+      "Rätten att alltid få exakt den lön man önskar.",
+      "Rätten att slippa alla arbetsuppgifter.",
+      "Rätten att förbjuda kollegor att ha åsikter."
+    ],
+    "optionsEn": [
+      "The right to reasonable working conditions and protection against discrimination.",
+      "The right to always get exactly the salary one wants.",
+      "The right to avoid all work tasks.",
+      "The right to forbid colleagues from having opinions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Human rights and labour rights include dignity, safety, and equal treatment at work.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-044",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "work-rights",
+      "unions"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Varför kan facklig organisering vara en rättighetsfråga?",
+    "questionEn": "Why can union organization be a rights issue?",
+    "options": [
+      "Människor ska kunna organisera sig för att påverka villkor i arbetslivet.",
+      "Fack får alltid döma arbetsgivare i domstol.",
+      "Fack ersätter riksdagen i alla arbetsfrågor.",
+      "Facklig organisering betyder att ingen behöver följa lagar."
+    ],
+    "optionsEn": [
+      "People should be able to organize to influence working conditions.",
+      "Unions may always judge employers in court.",
+      "Unions replace the Riksdag in all labour issues.",
+      "Union organization means no one needs to follow laws."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of association includes the ability to organize around shared interests, including work.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-045",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "work-rights",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En arbetsgivare meddelar sina anställda att personer som går med i en fackförening kommer att sägas upp. Vilken rättighet kränks genom detta uttalande?",
+    "questionEn": "An employer tells employees that anyone who joins a trade union will be dismissed. Which right is violated by this statement?",
+    "options": [
+      "Föreningsfriheten och arbetstagares rätt att organisera sig fackligt.",
+      "Arbetsgivarens fria rätt att själv utse fackliga representanter.",
+      "Regeln om att alla fackliga frågor måste avgöras i riksdagen.",
+      "Arbetstagarnas skyldighet att alltid följa företagsledningens beslut i alla frågor."
+    ],
+    "optionsEn": [
+      "Freedom of association and workers’ right to organize in trade unions.",
+      "The employer’s free right to appoint union representatives itself.",
+      "The rule that all union matters must be decided in the Riksdag.",
+      "Employees’ duty to always follow company management decisions in all matters."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Freedom of association protects employees’ right to join and form trade unions without retaliation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-046",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "elderly-rights"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Varför kan äldres rättigheter vara en samhällsfråga?",
+    "questionEn": "Why can the rights of older people be a social issue?",
+    "options": [
+      "Äldre ska kunna leva med värdighet, trygghet och delaktighet.",
+      "Äldre saknar rättigheter efter pension.",
+      "Äldre får aldrig påverka politiken.",
+      "Äldre måste alltid bo i samma kommun."
+    ],
+    "optionsEn": [
+      "Older people should be able to live with dignity, security, and participation.",
+      "Older people lose rights after retirement.",
+      "Older people may never influence politics.",
+      "Older people must always live in the same municipality."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Human rights apply throughout life, including old age.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-047",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "elderly-rights",
+      "care"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vilket exempel kan röra äldres rätt till värdig omsorg?",
+    "questionEn": "Which example can concern older people’s right to dignified care?",
+    "options": [
+      "Att omsorg ges med respekt för personens behov och integritet.",
+      "Att äldre aldrig får säga vad de tycker.",
+      "Att omsorg alltid ska sakna personalansvar.",
+      "Att äldre måste avstå från privatliv för att få hjälp."
+    ],
+    "optionsEn": [
+      "That care is provided with respect for the person’s needs and integrity.",
+      "That older people may never say what they think.",
+      "That care should always lack staff responsibility.",
+      "That older people must give up privacy to receive help."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Care should respect dignity, autonomy, and personal needs.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-048",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "elderly-rights",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En äldre person som står inför ett avgörande beslut om sin vård och omsorg får inte information anpassad efter sina förutsättningar. Vilken rättighetsaspekt förbises?",
+    "questionEn": "An older person facing an important decision about care does not receive information adapted to their situation. Which rights aspect is being overlooked?",
+    "options": [
+      "Rätten till delaktighet, självbestämmande och begriplig information i omsorgen.",
+      "Principen om att omsorgsbeslut alltid fattas över huvudet på den enskilde.",
+      "Kravet på att anhöriga övertar personens juridiska rättigheter vid pensionering.",
+      "Regeln att hälso- och sjukvårdsinformation endast behöver ges skriftligen."
+    ],
+    "optionsEn": [
+      "The right to participation, self-determination, and understandable information in care.",
+      "The principle that care decisions are always made over the individual’s head.",
+      "The requirement that relatives take over the person’s legal rights at retirement.",
+      "The rule that health and care information only needs to be provided in writing."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Participation and self-determination require clear, accessible information before important care decisions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-049",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "rights-and-duties"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Hur hänger rättigheter och skyldigheter ihop?",
+    "questionEn": "How are rights and obligations connected?",
+    "options": [
+      "Människor har rättigheter men måste också respektera lagar och andras rättigheter.",
+      "Rättigheter betyder att inga lagar gäller.",
+      "Skyldigheter gäller bara personer utan medborgarskap.",
+      "Rättigheter och skyldigheter kan aldrig finnas samtidigt."
+    ],
+    "optionsEn": [
+      "People have rights but must also respect laws and the rights of others.",
+      "Rights mean no laws apply.",
+      "Obligations only apply to people without citizenship.",
+      "Rights and obligations can never exist at the same time."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A democratic society protects rights while expecting people to follow laws and respect others.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-050",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "rights-conflict"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Varför kan rättigheter ibland behöva vägas mot varandra?",
+    "questionEn": "Why may rights sometimes need to be balanced against each other?",
+    "options": [
+      "En persons frihet kan påverka en annan persons säkerhet, integritet eller rättigheter.",
+      "Alla rättigheter har alltid exakt samma lösning i varje fall.",
+      "Domstolar får aldrig väga olika intressen.",
+      "Majoriteten får alltid ta bort den rättighet som är svårast."
+    ],
+    "optionsEn": [
+      "One person’s freedom can affect another person’s safety, privacy, or rights.",
+      "All rights always have exactly the same solution in every case.",
+      "Courts may never balance different interests.",
+      "The majority may always remove the right that is hardest."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rights can conflict, so law and institutions may need to balance them carefully.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-051",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "rights-conflict",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En tidning vill publicera känsliga och privata uppgifter om en enskild person med hänvisning till nyhetsvärdet. Vilka två väsentliga intressen ställs mot varandra?",
+    "questionEn": "A newspaper wants to publish sensitive and private information about an individual because it considers the information newsworthy. Which two important interests are weighed against each other?",
+    "options": [
+      "Yttrande- och tryckfriheten mot den enskildes rätt till privatliv och personlig integritet.",
+      "Mediernas rätt till vinst mot statens rätt att granska pressen.",
+      "Offentlighetsprincipen mot landets yttre säkerhet.",
+      "Rätten till fri konkurrens mot upphovsrättslig lagstiftning."
+    ],
+    "optionsEn": [
+      "Freedom of expression and press freedom against the individual’s right to private life and personal integrity.",
+      "The media’s right to profit against the state’s right to examine the press.",
+      "The principle of public access against national external security.",
+      "The right to free competition against copyright legislation."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Publishing private information can require balancing press freedom and public interest against privacy and personal integrity.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-052",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "international-commitments"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Varför nämns internationella konventioner när man talar om mänskliga rättigheter?",
+    "questionEn": "Why are international conventions mentioned when discussing human rights?",
+    "options": [
+      "De uttrycker gemensamma åtaganden mellan stater om rättigheter.",
+      "De ersätter alla svenska myndigheter.",
+      "De gäller bara vid sportevenemang.",
+      "De skrivs av privata tidningar."
+    ],
+    "optionsEn": [
+      "They express shared commitments between states about rights.",
+      "They replace all Swedish authorities.",
+      "They only apply at sports events.",
+      "They are written by private newspapers."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Human rights are protected through both national law and international commitments.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-053",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "international-commitments",
+      "sweden"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vad betyder Sveriges internationella åtaganden om mänskliga rättigheter?",
+    "questionEn": "What do Sweden’s international human rights commitments mean?",
+    "options": [
+      "Sverige har lovat att respektera och arbeta för rättigheter enligt avtal och konventioner.",
+      "Sverige kan välja bort rättigheter varje gång opinionen ändras.",
+      "Sverige behöver bara följa rättigheter utanför landet.",
+      "Sverige måste låta FN besluta varje kommunal budget."
+    ],
+    "optionsEn": [
+      "Sweden has promised to respect and work for rights under agreements and conventions.",
+      "Sweden can remove rights whenever public opinion changes.",
+      "Sweden only needs to follow rights outside the country.",
+      "Sweden must let the UN decide every municipal budget."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "International commitments guide laws, policy, and public responsibility.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-054",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "international-commitments",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En myndighet tillämpar en svensk regel på ett sätt som riskerar att kränka en internationell rättighetskonvention som Sverige tillträtt. Vad bör ske i rättstillämpningen?",
+    "questionEn": "An authority applies a Swedish rule in a way that risks violating an international rights convention that Sweden has joined. What should happen in legal application?",
+    "options": [
+      "Det görs en noggrann rättslig prövning där svensk lag tolkas så långt som möjligt i konformitet med konventionen.",
+      "Myndigheten kan bortse från internationella konventioner eftersom de saknar betydelse i Sverige.",
+      "Beslutet överlämnas per automatik till FN för slutgiltigt avgörande.",
+      "Svenska myndigheter får fritt välja om de vill följa konventionen eller inte i enskilda fall."
+    ],
+    "optionsEn": [
+      "A careful legal review is made, interpreting Swedish law as far as possible in conformity with the convention.",
+      "The authority can ignore international conventions because they have no significance in Sweden.",
+      "The decision is automatically handed over to the UN for final determination.",
+      "Swedish authorities may freely choose whether to follow the convention in individual cases."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish law should be applied with regard to Sweden’s international human-rights obligations.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-055",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "easy",
+    "tags": [
+      "human-rights",
+      "ombudsman"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vilken funktion kan hjälpa till att motverka diskriminering i Sverige?",
+    "questionEn": "Which function can help counter discrimination in Sweden?",
+    "options": [
+      "Diskrimineringsombudsmannen, DO.",
+      "Valmyndigheten som räknar röster.",
+      "Riksbanken som bestämmer ränta.",
+      "Talmannen som leder riksdagen."
+    ],
+    "optionsEn": [
+      "The Equality Ombudsman, DO.",
+      "The Election Authority that counts votes.",
+      "The central bank that sets interest rates.",
+      "The Speaker who leads the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Equality Ombudsman works against discrimination and for equal rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-056",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "ombudsman",
+      "do"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vad är en uppgift för Diskrimineringsombudsmannen?",
+    "questionEn": "What is one task of the Equality Ombudsman?",
+    "options": [
+      "Att arbeta mot diskriminering och främja lika rättigheter och möjligheter.",
+      "Att besluta om riksdagens budget.",
+      "Att döma alla brottmål i första instans.",
+      "Att välja public service-chefer varje år."
+    ],
+    "optionsEn": [
+      "To work against discrimination and promote equal rights and opportunities.",
+      "To decide the Riksdag’s budget.",
+      "To judge all criminal cases in first instance.",
+      "To choose public service managers every year."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "DO is an authority connected to anti-discrimination and equal rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-057",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "discrimination",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "ombudsman",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En person misstänker diskriminering vid rekrytering och vill veta vart man kan vända sig. Vilken aktör är mest relevant att känna till?",
+    "questionEn": "A person suspects discrimination in recruitment and wants to know where to turn. Which actor is most relevant to know about?",
+    "options": [
+      "Diskrimineringsombudsmannen, DO.",
+      "Justitiekanslern, som företräder staten i skadeståndsmål.",
+      "Skolinspektionen, som granskar skolor.",
+      "Arbetsförmedlingen, som förmedlar jobb."
+    ],
+    "optionsEn": [
+      "The Equality Ombudsman, DO.",
+      "The Chancellor of Justice, who represents the state in damages cases.",
+      "The Swedish Schools Inspectorate, which reviews schools.",
+      "The Public Employment Service, which matches people with jobs."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Equality Ombudsman supervises discrimination law and can provide information about discrimination cases.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-058",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "democratic-participation"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Hur kan jämlika möjligheter till inflytande kopplas till mänskliga rättigheter?",
+    "questionEn": "How can equal opportunities for influence be connected to human rights?",
+    "options": [
+      "Människor behöver kunna delta i samhället utan hinder som diskriminering eller hot.",
+      "Inflytande betyder att bara majoriteten får tala.",
+      "Rättigheter gör politiskt deltagande onödigt.",
+      "Alla måste påverka politiken på exakt samma sätt."
+    ],
+    "optionsEn": [
+      "People need to participate in society without barriers such as discrimination or threats.",
+      "Influence means only the majority may speak.",
+      "Rights make political participation unnecessary.",
+      "Everyone must influence politics in exactly the same way."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Human rights support real participation, dignity, and equal opportunity to influence society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-059",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "human-rights",
+      "democratic-participation",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "En föreningsrepresentant utsätts för allvarliga hot och trakasserier när hen deltar i den offentliga samhällsdebatten. Vilket demokratiskt problem uppstår i första hand?",
+    "questionEn": "An association representative is exposed to serious threats and harassment when participating in public debate. Which democratic problem arises first?",
+    "options": [
+      "Möjligheten till jämlikt deltagande försvagas om människor tystas genom hot.",
+      "Situationen leder automatiskt till att föreningen tilldelas fler politiska mandat.",
+      "Det innebär att domstolarna måste förbjuda alla debatter i det berörda ämnet.",
+      "Myndigheterna får rätt att permanent stänga av offentliga mötesplatser."
+    ],
+    "optionsEn": [
+      "The possibility for equal participation is weakened if people are silenced by threats.",
+      "The situation automatically leads to the association receiving more political seats.",
+      "It means courts must ban all debates on the topic concerned.",
+      "Authorities gain the right to permanently close public meeting places."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Threats and harassment can silence participation and weaken democratic debate.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch07-060",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "human-rights",
+      "synthesis"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter",
+    "questionSv": "Vilket av följande arbetssätt hos en offentlig aktör visar bäst ett praktiskt människorättsperspektiv?",
+    "questionEn": "Which of the following ways of working by a public actor best shows a practical human-rights perspective?",
+    "options": [
+      "Aktören utformar sin service så att alla behandlas jämlikt, får tillgänglig information och ges möjlighet till delaktighet.",
+      "Aktören erbjuder endast stöd till personer som kan påvisa långvarigt svenskt medborgarskap.",
+      "Aktören överlåter åt enskilda tjänstepersoner att avgöra vilka invånare som beviljas service.",
+      "Aktören begränsar sin information till digitala kanaler som kräver särskild behörighet."
+    ],
+    "optionsEn": [
+      "The actor designs its service so everyone is treated equally, receives accessible information, and can participate.",
+      "The actor only offers support to people who can prove long-term Swedish citizenship.",
+      "The actor leaves it to individual officials to decide which residents receive service.",
+      "The actor limits its information to digital channels that require special authorization."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A rights-based approach includes equality, accessibility, information, and participation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch007-020",
+    "chapterId": "human-rights",
+    "chapterNumber": 7,
+    "topicId": "rights",
+    "difficulty": "hard",
+    "tags": [
+      "extra",
+      "rättighetskonflikter"
+    ],
+    "source": "Sverige i fokus, chapter 7: Mänskliga rättigheter (extra draft)",
+    "questionSv": "Vad händer när två grundläggande rättigheter kolliderar?",
+    "questionEn": "What happens when two fundamental rights conflict?",
+    "options": [
+      "Domstolar och myndigheter måste väga rättigheterna mot varandra i det enskilda fallet.",
+      "Den rättighet som tillkom senast upphäver alltid äldre rättigheter.",
+      "Yttrandefriheten väger alltid tyngre än alla andra rättigheter.",
+      "Konflikter mellan rättigheter avgörs genom en folkomröstning."
+    ],
+    "optionsEn": [
+      "Courts and authorities must weigh the rights against each other in the individual case.",
+      "The right created most recently always cancels older rights.",
+      "Freedom of expression always outweighs all other rights.",
+      "Conflicts between rights are decided by referendum."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "When rights conflict, courts and authorities weigh them against each other in the specific case; no right is automatically absolute, and conflicts are not decided by referendum.",
+    "status": "draft"
+  }
+]

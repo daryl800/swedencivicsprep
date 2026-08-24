@@ -1,0 +1,89 @@
+[
+  {
+    "id": "draft-extra-ch009-001",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "vårdcentral"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (extra draft)",
+    "questionSv": "Vart bör du i första hand vända dig om du blir sjuk och behöver träffa en läkare, men tillståndet inte är akut?",
+    "questionEn": "Where should you first turn if you are ill and need to see a doctor, but the condition is not an emergency?",
+    "options": [
+      "Till en vårdcentral.",
+      "Till sjukhusets akutmottagning.",
+      "Till socialtjänsten i din kommun.",
+      "Till Försäkringskassan."
+    ],
+    "optionsEn": [
+      "To a health centre.",
+      "To the hospital emergency department.",
+      "To social services in your municipality.",
+      "To the Swedish Social Insurance Agency."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A vårdcentral (health center) is the first point of contact for non-emergency medical issues in Sweden.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch009-011",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "behovsprövning"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (extra draft)",
+    "questionSv": "Vad betyder behovsprövning inom socialtjänsten?",
+    "questionEn": "What does means testing mean within social services?",
+    "options": [
+      "Stöd beviljas efter en bedömning av den sökandes ekonomi och behov.",
+      "Alla invånare får exakt samma stöd oavsett inkomst.",
+      "Stöd ges bara till den som aldrig har haft ett jobb.",
+      "Prövningen görs av Arbetsförmedlingen vid varje jobbsökande."
+    ],
+    "optionsEn": [
+      "Support is granted after an assessment of the applicant’s finances and needs.",
+      "All residents receive exactly the same support regardless of income.",
+      "Support is only given to someone who has never had a job.",
+      "The assessment is made by the Public Employment Service at every job search."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Behovsprövning means support is granted after assessing the applicant's financial situation and needs. It is not flat-rate for everyone, not limited to never-employed, and is done by social services, not the Public Employment Service.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch009-016",
+    "chapterId": "welfare",
+    "chapterNumber": 9,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "extra",
+      "högkostnadsskydd"
+    ],
+    "source": "Sverige i fokus, chapter 9: Välfärdssamhället (extra draft)",
+    "questionSv": "Vad är högkostnadsskydd inom svensk hälso- och sjukvård?",
+    "questionEn": "What is high-cost protection in Swedish healthcare?",
+    "options": [
+      "Ett tak som begränsar hur mycket du själv betalar för vård under ett år.",
+      "Ett tillägg som gör vården dyrare för den som tjänar mest.",
+      "Ett skydd som gäller endast privat vård, inte den offentliga.",
+      "En frivillig försäkring som betalar dina resor till vårdcentralen."
+    ],
+    "optionsEn": [
+      "A ceiling that limits how much you pay yourself for healthcare during a year.",
+      "An extra charge that makes healthcare more expensive for the highest earners.",
+      "Protection that applies only to private healthcare, not public healthcare.",
+      "A voluntary insurance that pays for your travel to the health centre."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Högkostnadsskydd caps how much you pay for healthcare within a period (usually a year). It is not an income surcharge, does not apply only to private care, and is not a travel insurance.",
+    "status": "draft"
+  }
+]

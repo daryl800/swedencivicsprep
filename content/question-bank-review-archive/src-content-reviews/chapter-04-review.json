@@ -1,0 +1,333 @@
+[
+  {
+    "id": "draft-ch04-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-003",
+    "verdict": "approve",
+    "issues": [
+      "Correct and plausible. Difficulty 'hard' is borderline (it combines only two facts: regions=healthcare, municipalities=schools). Acceptable, but 'medium' is defensible."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch04-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-005",
+    "verdict": "approve",
+    "issues": [
+      "Correct: only the Riksdag requires Swedish citizenship. Distractors overstate municipal/regional openness ('alla som bor', 'utan villkor'), which is what makes them clearly wrong — fine for MC, just note the real rule is conditional, not universal."
+    ]
+  },
+  {
+    "id": "draft-ch04-006",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-007",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-008",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-010",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-011",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-012",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-013",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-014",
+    "verdict": "approve",
+    "issues": [
+      "Correct. Answer option is slightly abstract for B1/B2 ('balansera representativitet med möjlighet att bilda fungerande majoriteter'). A plainer phrasing such as 'för att undvika att för många små partier kommer in, vilket kan göra det svårt att bilda en stabil regering' would read more naturally."
+    ],
+    "suggestedOptions": [
+      "För att undvika att för många små partier kommer in i riksdagen, vilket kan göra det svårt att bilda en stabil regering.",
+      "För att förhindra att mer än två partier sitter i regeringen.",
+      "För att garantera att alla Sveriges regioner får lika många mandat.",
+      "För att säkerställa att partier med lågt röstetal automatiskt får bilda koalition."
+    ]
+  },
+  {
+    "id": "draft-ch04-015",
+    "verdict": "needs_edit",
+    "issues": [
+      "Correct as far as it goes, but the explanation omits the 12%-rule: a party below the 4% national threshold can still win seats if it gets at least 12% in a single constituency (uddatalsmetoden). The option says 'kan' (can), so it is accurate, but the explanation should mention the exception so learners are not later confused."
+    ],
+    "suggestedExplanationEn": "Threshold rules affect representation. A party below the 4% national threshold may get no Riksdag seats, unless it reaches the 12% constituency exception in at least one electoral district."
+  },
+  {
+    "id": "draft-ch04-016",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-017",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-018",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-019",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-020",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-021",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-022",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-023",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-024",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-025",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-026",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-027",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-028",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-029",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-030",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-031",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-032",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-033",
+    "verdict": "approve",
+    "issues": [
+      "Correct, but this is a single-concept question (residence/citizenship determines where you vote in EP elections), not a multi-factor scenario. 'medium' fits the cognitive load better than 'hard'."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch04-034",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-035",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-036",
+    "verdict": "approve",
+    "issues": [
+      "Correct and directly applies the personröst concept. This is a single-concept application rather than a complex scenario; 'medium' is a better fit than 'hard'."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch04-037",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-038",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-039",
+    "verdict": "approve",
+    "issues": [
+      "Correct. Single-concept application of blank-vote-as-protest; 'medium' reads more naturally than 'hard' for the difficulty band."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch04-040",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-041",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-042",
+    "verdict": "approve",
+    "issues": [
+      "Correct. Asks a single 'why' reason about advance voting; this belongs in the 'medium' band rather than 'hard'."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch04-043",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-044",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-045",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-046",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-047",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-048",
+    "verdict": "approve",
+    "issues": [
+      "Correct. Single-concept application (shared goals, different ideological paths); 'medium' fits better than 'hard'."
+    ],
+    "difficultySuggestion": "medium"
+  },
+  {
+    "id": "draft-ch04-049",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-050",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-051",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-052",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-053",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-054",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-055",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-056",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-057",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-058",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-059",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch04-060",
+    "verdict": "approve",
+    "issues": []
+  }
+]

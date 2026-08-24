@@ -1,0 +1,347 @@
+[
+  {
+    "id": "draft-ch02-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-003",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-005",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-006",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractor quality (criterion 4): option 3 'Att kungen bestämmer vilka lagar som gäller' is cartoonishly extreme and makes the question too easy. Replace the weakest distractor with a plausible confusion (direct democracy) so the item actually discriminates."
+    ],
+    "suggestedOptions": [
+      "Att medborgare väljer företrädare som fattar beslut.",
+      "Att medborgare röstar direkt om de flesta lagar i folkomröstningar.",
+      "Att myndigheter utser partiernas ledare.",
+      "Att kungen bestämmer vilka lagar som gäller."
+    ],
+    "suggestedCorrectIndex": 0
+  },
+  {
+    "id": "draft-ch02-007",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-008",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-010",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-011",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-012",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractor quality (criterion 4): option 3 'EU bestämmer varje enskild skolmatsedel' is absurd and lowers the item below its 'medium' difficulty. Swap it for a plausible centralization misconception."
+    ],
+    "suggestedOptions": [
+      "Kommunen beslutar om lokala frågor inom lagens ramar.",
+      "Regeringen styr varje kommun direkt utan lokalt självstyre.",
+      "Domstolarna skriver kommunens budget varje år.",
+      "EU bestämmer varje enskild skolmatsedel."
+    ],
+    "suggestedCorrectIndex": 0
+  },
+  {
+    "id": "draft-ch02-013",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-014",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-015",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-016",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractor quality (criterion 4): option 3 'De kan skriva om grundlagen varje månad' is extreme and clearly wrong even before study, defeating the 'medium' label. Replace with a plausible wrong view about courts following the government's political will."
+    ],
+    "suggestedOptions": [
+      "De kan döma enligt lag utan otillbörlig politisk påverkan.",
+      "De ska följa regeringens politiska vilja i varje mål.",
+      "De kan välja vilket parti som ska styra.",
+      "De kan skriva om grundlagen varje månad."
+    ],
+    "suggestedCorrectIndex": 0
+  },
+  {
+    "id": "draft-ch02-017",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-018",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-019",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-020",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-021",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-022",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-023",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-024",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-025",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-026",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-027",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-028",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-029",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-030",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-031",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-032",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-033",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-034",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-035",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-036",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-037",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractor quality (criterion 4): all three distractors are extreme/absurd ('myndigheter tar pengar utan regler', 'domstolar bestämmer skolbudgetar', 'medier slipper granska'). Replace at least one with a plausible-but-wrong answer (e.g. no public accounting) so the 'easy' item still teaches."
+    ],
+    "suggestedOptions": [
+      "För att användningen av gemensamma resurser ska ha demokratisk förankring.",
+      "För att skatteintäkter ska kunna användas utan offentlig redovisning.",
+      "För att domstolar ska bestämma alla skolbudgetar.",
+      "För att medier ska slippa granska staten."
+    ],
+    "suggestedCorrectIndex": 0
+  },
+  {
+    "id": "draft-ch02-038",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-039",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-040",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-041",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-042",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-043",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-044",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-045",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-046",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-047",
+    "verdict": "needs_edit",
+    "issues": [
+      "Distractor quality (criterion 4): options 1 and 3 ('myndigheter får ändra beslut utan regler', 'lagar hålls hemliga') are extreme. Two of the distractors should be plausible misconceptions (authorities always right; fast process regardless of evidence) to match the 'medium' difficulty."
+    ],
+    "suggestedOptions": [
+      "Att beslut ska följa lag, kunna motiveras och ofta kunna överklagas.",
+      "Att myndigheter alltid har rätt gentemot enskilda.",
+      "Att en person alltid får rätt i domstol.",
+      "Att domstolsprocesser ska vara snabba oavsett bevis."
+    ],
+    "suggestedCorrectIndex": 0
+  },
+  {
+    "id": "draft-ch02-048",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-049",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-050",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-051",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-052",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-053",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-054",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-055",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-056",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-057",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-058",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-059",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-ch02-060",
+    "verdict": "approve",
+    "issues": []
+  }
+]

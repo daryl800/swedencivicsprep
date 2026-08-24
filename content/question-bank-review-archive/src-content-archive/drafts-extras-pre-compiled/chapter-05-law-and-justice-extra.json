@@ -1,0 +1,31 @@
+[
+  {
+    "id": "draft-extra-ch005-012",
+    "chapterId": "law",
+    "chapterNumber": 5,
+    "topicId": "rights",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "förbud-mot-retroaktiv-strafflag"
+    ],
+    "source": "Sverige i fokus, chapter 5: Lag och rätt (extra draft)",
+    "questionSv": "Vad säger förbudet mot retroaktiv strafflag i Sverige?",
+    "questionEn": "What does the ban on retroactive criminal law mean in Sweden?",
+    "options": [
+      "Ingen kan dömas för en gärning som inte var brottslig när den begicks.",
+      "Straffet bestäms alltid enligt de lagar som gäller när domen faller.",
+      "Riksdagen får införa lagar som gäller bakåt i tiden för brott.",
+      "Förbudet gäller bara brott mot grundlagar, inte vanlig lag."
+    ],
+    "optionsEn": [
+      "No one can be convicted for an act that was not criminal when it was committed.",
+      "The penalty is always decided according to the laws in force when the judgment is issued.",
+      "The Riksdag may introduce laws that apply backwards in time to crimes.",
+      "The ban only applies to crimes against constitutional laws, not ordinary law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The ban on retroactive criminal law means no one can be punished for an act that was not a crime when committed. Parliament cannot enact laws that apply backwards to criminalize past conduct.",
+    "status": "draft"
+  }
+]

@@ -1,0 +1,2370 @@
+[
+  {
+    "id": "draft-batch-a-ch03-001",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "government",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "En minister säger offentligt att en domstol bör döma en viss person hårdare. Varför är detta problematiskt i Sveriges statsskick?",
+    "questionEn": "A minister publicly says that a court should sentence a specific person more harshly. Why is this problematic in Sweden’s system of government?",
+    "options": [
+      "Domstolar ska döma självständigt enligt lag, utan politiska instruktioner i enskilda fall.",
+      "Ministrar får bara uttala sig om domar om riksdagen först röstar om saken.",
+      "Regeringen leder domstolarna och ska därför bestämma straffnivån i viktiga mål.",
+      "Domstolar får bara döma efter råd från Justitiedepartementet."
+    ],
+    "optionsEn": [
+      "Courts must judge independently according to law, without political instructions in individual cases.",
+      "Ministers may only comment on judgments if the Riksdag first votes on the matter.",
+      "The government leads the courts and should therefore decide penalties in important cases.",
+      "Courts may only judge after advice from the Ministry of Justice."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Separation of powers and judicial independence mean politicians must not direct courts in individual cases.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-002",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "law-making",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "En statlig utredning föreslår en reform, men flera remissinstanser varnar för praktiska problem. Vad kan regeringen göra innan den går vidare?",
+    "questionEn": "A government inquiry proposes a reform, but several consultation bodies warn about practical problems. What can the government do before moving forward?",
+    "options": [
+      "Bearbeta förslaget och väga synpunkterna innan en proposition läggs fram.",
+      "Låta remissinstanserna rösta igenom lagen direkt.",
+      "Skicka förslaget till kungen för slutlig dom.",
+      "Införa lagen utan riksdagen eftersom utredningen är klar."
+    ],
+    "optionsEn": [
+      "Revise the proposal and weigh the comments before submitting a bill.",
+      "Let the consultation bodies vote the law through directly.",
+      "Send the proposal to the king for final judgment.",
+      "Introduce the law without the Riksdag because the inquiry is finished."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Consultation can improve proposals before the government presents a bill.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-003",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "public-administration",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "En myndighet måste följa både lag och sin instruktion. Vad visar detta om svensk förvaltning?",
+    "questionEn": "An authority must follow both law and its instructions. What does this show about Swedish administration?",
+    "options": [
+      "Myndigheter har egna uppgifter men arbetar inom regler som riksdag och regering beslutat.",
+      "Myndigheter bestämmer själva vilka lagar som gäller.",
+      "Regeringen får ge hemliga domar i varje ärende.",
+      "Kommuner leder alla statliga myndigheter."
+    ],
+    "optionsEn": [
+      "Authorities have their own tasks but work within rules decided by the Riksdag and government.",
+      "Authorities decide for themselves which laws apply.",
+      "The government may issue secret judgments in each case.",
+      "Municipalities lead all central government authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Authorities implement public tasks within a legal and political framework.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-004",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "authorities",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "Varför kan det vara viktigt att en myndighet har expertkunskap inom sitt område?",
+    "questionEn": "Why can it be important that an authority has expert knowledge in its field?",
+    "options": [
+      "Den kan fatta och förbereda beslut med saklig kunskap inom sitt ansvar.",
+      "Expertkunskap gör att myndigheten får strunta i lagar.",
+      "Experter ersätter alltid valda politiker i riksdagen.",
+      "Myndigheter med experter behöver aldrig granskas."
+    ],
+    "optionsEn": [
+      "It can make and prepare decisions with objective knowledge in its area of responsibility.",
+      "Expert knowledge means the authority may ignore laws.",
+      "Experts always replace elected politicians in the Riksdag.",
+      "Authorities with experts never need scrutiny."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Specialized authorities can support informed and lawful administration.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-005",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "parliamentarism",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "Efter ett val tar regeringsbildningen tid. Varför kan det vara normalt i ett parlamentariskt system?",
+    "questionEn": "After an election, forming a government takes time. Why can this be normal in a parliamentary system?",
+    "options": [
+      "Partier behöver undersöka vilket regeringsalternativ som kan få stöd i riksdagen.",
+      "Det största partiet får alltid bilda regeringen automatiskt.",
+      "Domstolarna ska först godkänna alla partiprogram.",
+      "Kommunerna röstar om vilken regering riksdagen ska ha."
+    ],
+    "optionsEn": [
+      "Parties need to explore which government alternative can get support in the Riksdag.",
+      "The largest party always gets to form the government automatically.",
+      "Courts must first approve all party programs.",
+      "Municipalities vote on which government the Riksdag should have."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Parliamentarism means a government must be able to tolerate the Riksdag’s composition.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-006",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "En regering består av partier som inte har egen majoritet. Hur kan den ändå styra?",
+    "questionEn": "A government consists of parties that do not have their own majority. How can it still govern?",
+    "options": [
+      "Om tillräckligt många riksdagsledamöter tolererar den och dess förslag kan få stöd.",
+      "Om regeringen förbjuder oppositionen att rösta.",
+      "Om domstolar ger regeringen extra mandat.",
+      "Om kungen röstar för regeringen i riksdagen."
+    ],
+    "optionsEn": [
+      "If enough members of the Riksdag tolerate it and its proposals can gain support.",
+      "If the government forbids the opposition from voting.",
+      "If courts give the government extra seats.",
+      "If the king votes for the government in the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Minority governments can govern when they are tolerated by the Riksdag and negotiate support.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-007",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "regional-government",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "En region vill prioritera fler vårdcentraler, men kommunen vill använda pengar till äldreomsorg. Varför kan båda frågorna vara politiska utan att samma nivå ansvarar för dem?",
+    "questionEn": "A region wants to prioritize more health centres, while the municipality wants to spend money on elderly care. Why can both issues be political even though the same level is not responsible for them?",
+    "options": [
+      "Regioner och kommuner har olika ansvarsområden och egna valda församlingar.",
+      "Kommunen bestämmer alltid över regionens sjukvårdsbudget.",
+      "Regionen ansvarar för alla lokala frågor utom riksdagsval.",
+      "Riksdagen utser varje kommuns och regions politiker efter valet."
+    ],
+    "optionsEn": [
+      "Regions and municipalities have different responsibilities and their own elected assemblies.",
+      "The municipality always controls the region’s healthcare budget.",
+      "The region is responsible for all local issues except parliamentary elections.",
+      "The Riksdag appoints each municipality’s and region’s politicians after the election."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish self-government is divided: regions mainly handle healthcare, while municipalities handle local services such as elderly care.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-008",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "En invånare klagar på att både kommun och region hänvisar till varandra. Vilken kunskap hjälper personen?",
+    "questionEn": "A resident complains that both municipality and region refer to each other. What knowledge helps the person?",
+    "options": [
+      "Att olika samhällsnivåer har olika ansvar, till exempel kommunal omsorg och regional vård.",
+      "Att kommun och region alltid är samma organisation.",
+      "Att staten förbjuder invånare att överklaga lokala beslut.",
+      "Att partier inte får arbeta i regioner."
+    ],
+    "optionsEn": [
+      "That different levels of society have different responsibilities, such as municipal care and regional healthcare.",
+      "That municipality and region are always the same organization.",
+      "That the state forbids residents from appealing local decisions.",
+      "That parties may not work in regions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Knowing responsibility levels helps people contact the right public body.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-009",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "municipal-budget",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "En kommun vill prioritera fler förskoleplatser framför en ny idrottshall. Vad visar detta om kommunal politik?",
+    "questionEn": "A municipality wants to prioritize more preschool places instead of a new sports hall. What does this show about municipal politics?",
+    "options": [
+      "Kommunen måste göra lokala prioriteringar inom ansvar och budget.",
+      "Regionen bestämmer alltid kommunens investeringar.",
+      "Alla lokala prioriteringar avgörs av riksdagen varje vecka.",
+      "Kommunal budget gäller bara statliga myndigheter."
+    ],
+    "optionsEn": [
+      "The municipality must make local priorities within its responsibilities and budget.",
+      "The region always decides the municipality’s investments.",
+      "All local priorities are decided by the Riksdag every week.",
+      "A municipal budget only applies to central government authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipal politics often concerns prioritizing local services and resources.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-010",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "Riksdagen riktar misstroende mot ett statsråd. Vad kan följden bli?",
+    "questionEn": "The Riksdag directs a motion of no confidence against a minister. What can be the consequence?",
+    "options": [
+      "Statsrådet kan tvingas avgå.",
+      "Statsrådet får automatiskt fler röster i riksdagen.",
+      "Riksdagen måste upplösas av domstol.",
+      "Kommunerna tar över departementet."
+    ],
+    "optionsEn": [
+      "The minister may be forced to resign.",
+      "The minister automatically gets more votes in the Riksdag.",
+      "The Riksdag must be dissolved by a court.",
+      "Municipalities take over the ministry."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A successful no-confidence vote can force a minister or government to resign.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-011",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "law-making",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "Regeringen vill ändra en lag men saknar stöd i riksdagen. Vad visar situationen om hur Sverige styrs?",
+    "questionEn": "The government wants to change a law but lacks support in the Riksdag. What does this show about how Sweden is governed?",
+    "options": [
+      "Regeringen kan föreslå lagar, men riksdagen beslutar om lagar.",
+      "Regeringen kan ändra lagen själv om statsministern håller presskonferens.",
+      "Myndigheter kan anta lagen tillfälligt tills riksdagen håller val.",
+      "Domstolarna ersätter riksdagen när regeringen saknar majoritet."
+    ],
+    "optionsEn": [
+      "The government can propose laws, but the Riksdag decides on laws.",
+      "The government can change the law itself if the prime minister holds a press conference.",
+      "Authorities can adopt the law temporarily until the Riksdag holds an election.",
+      "Courts replace the Riksdag when the government lacks a majority."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A government bill still needs support in the Riksdag because the Riksdag is the law-making body.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-012",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "law-making",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "Varför kan Lagrådet ibland granska lagförslag innan riksdagen beslutar?",
+    "questionEn": "Why can the Council on Legislation sometimes review bills before the Riksdag decides?",
+    "options": [
+      "För att bedöma hur förslaget fungerar juridiskt och i förhållande till grundlagar.",
+      "För att ersätta riksdagens omröstning med en dom.",
+      "För att välja vilka partier som får lägga motioner.",
+      "För att bestämma kommunernas skattesats."
+    ],
+    "optionsEn": [
+      "To assess how the proposal works legally and in relation to constitutional laws.",
+      "To replace the Riksdag’s vote with a judgment.",
+      "To choose which parties may submit motions.",
+      "To decide municipal tax rates."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Legal review can identify problems before a law is adopted.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-013",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "Vilken roll har kommunfullmäktige?",
+    "questionEn": "What role does the municipal council have?",
+    "options": [
+      "Det är kommunens högsta beslutande organ.",
+      "Det förbereder och genomför statliga myndigheters beslut i kommunen.",
+      "Det handlägger enskilda ärenden som rör skola och omsorg.",
+      "Det anställer kommunens tjänstemän och deras chefer."
+    ],
+    "optionsEn": [
+      "It is the municipality’s highest decision-making body.",
+      "It prepares and carries out central government authority decisions in the municipality.",
+      "It handles individual cases about school and care.",
+      "It hires the municipality’s officials and their managers."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The municipal council is elected by residents and makes the municipality’s main political decisions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-014",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "En region prioriterar vårdköer i sin budget. Vilken demokratisk koppling finns?",
+    "questionEn": "A region prioritizes healthcare queues in its budget. What is the democratic connection?",
+    "options": [
+      "Väljarna kan påverka regionala prioriteringar genom regionval.",
+      "Vårdbudgetar bestäms bara av privata sjukhus.",
+      "Regioner saknar valda politiker.",
+      "Riksbanken beslutar vårdköernas längd."
+    ],
+    "optionsEn": [
+      "Voters can influence regional priorities through regional elections.",
+      "Healthcare budgets are decided only by private hospitals.",
+      "Regions have no elected politicians.",
+      "The Riksbank decides the length of healthcare queues."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Regional elections influence political priorities in healthcare.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch03-015",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "governance-levels",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch A extra draft)",
+    "questionSv": "Vad visar det att Sverige har både statliga myndigheter och kommunalt självstyre?",
+    "questionEn": "What does it show that Sweden has both central government authorities and municipal self-government?",
+    "options": [
+      "Ansvar är fördelat mellan olika nivåer och organ i den offentliga sektorn.",
+      "Alla offentliga beslut tas av samma lokala kontor.",
+      "Kommuner får inte fatta beslut inom några egna områden.",
+      "Statliga myndigheter väljs direkt i kommunval."
+    ],
+    "optionsEn": [
+      "Responsibility is divided between different levels and bodies in the public sector.",
+      "All public decisions are made by the same local office.",
+      "Municipalities may not make decisions in any areas of their own.",
+      "Central government authorities are directly elected in municipal elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish governance divides responsibilities between state, regions, and municipalities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch03-001",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "municipal-government",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch D gap-fill draft)",
+    "questionSv": "En kommun vill spara pengar genom att minska biblioteksöppettider. Varför är detta en kommunpolitisk fråga?",
+    "questionEn": "A municipality wants to save money by reducing library opening hours. Why is this a municipal political issue?",
+    "options": [
+      "Kommunen ansvarar för många lokala verksamheter och prioriterar sin budget.",
+      "Regionen bestämmer alla lokala bibliotekstider.",
+      "Riksbanken godkänner varje kommunal besparing.",
+      "EU beslutar varje kommuns kulturutbud."
+    ],
+    "optionsEn": [
+      "The municipality is responsible for many local services and prioritizes its budget.",
+      "The region decides all local library hours.",
+      "The Riksbank approves every municipal saving.",
+      "The EU decides each municipality’s cultural services."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipal self-government includes local priorities and budgets.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch03-002",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "state-authorities",
+    "difficulty": "medium",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch D gap-fill draft)",
+    "questionSv": "Vad är skillnaden mellan regeringen och en statlig myndighet i praktiken?",
+    "questionEn": "What is the practical difference between the government and a central government authority?",
+    "options": [
+      "Regeringen styr riket, medan myndigheter genomför uppgifter enligt lagar och instruktioner.",
+      "Myndigheter skriver grundlagar och regeringen följer dem privat.",
+      "Regeringen dömer i brottmål medan myndigheter väljer riksdag.",
+      "Det finns ingen skillnad; alla beslut tas av samma kontor."
+    ],
+    "optionsEn": [
+      "The government governs the country, while authorities carry out tasks according to laws and instructions.",
+      "Authorities write constitutional laws and the government follows them privately.",
+      "The government judges criminal cases while authorities elect the Riksdag.",
+      "There is no difference; all decisions are made by the same office."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Government sets direction and authorities implement public tasks within the legal framework.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch03-003",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "budget",
+    "difficulty": "hard",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (batch D gap-fill draft)",
+    "questionSv": "Regeringen vill genomföra en reform men riksdagen säger nej till pengarna. Vad visar detta?",
+    "questionEn": "The government wants to carry out a reform but the Riksdag refuses the funding. What does this show?",
+    "options": [
+      "Riksdagen har central makt över statens budget.",
+      "Regeringen kan alltid låna pengar utan riksdagens beslut.",
+      "Kommuner betalar automatiskt statliga reformer.",
+      "Domstolar beslutar vilka reformer som får budget."
+    ],
+    "optionsEn": [
+      "The Riksdag has central power over the state budget.",
+      "The government can always borrow money without the Riksdag’s decision.",
+      "Municipalities automatically pay for central government reforms.",
+      "Courts decide which reforms get a budget."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Riksdag decides the state budget and can limit government policy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-001",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "governance",
+      "riksdag",
+      "institution"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vilken är riksdagens huvuduppgift?",
+    "questionEn": "What is the Riksdag’s main task?",
+    "options": [
+      "Att besluta om lagar och statens budget.",
+      "Att döma i brottmål.",
+      "Att leda kommunernas dagliga arbete.",
+      "Att kontrollera vilka nyheter medier får publicera."
+    ],
+    "optionsEn": [
+      "To decide on laws and the state budget.",
+      "To judge criminal cases.",
+      "To lead municipalities’ daily work.",
+      "To control which news media may publish."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Riksdag is Sweden’s parliament. It makes laws, decides the state budget, and checks the government.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-002",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "riksdag",
+      "government"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad är en viktig skillnad mellan riksdag och regering?",
+    "questionEn": "What is an important difference between the Riksdag and the government?",
+    "options": [
+      "Riksdagen beslutar om lagar, medan regeringen styr landet och genomför riksdagens beslut.",
+      "Regeringen skriver domar, medan riksdagen leder domstolarna.",
+      "Riksdagen sköter sjukvården direkt, medan regeringen väljer kommunfullmäktige.",
+      "Regeringen väljs direkt av väljarna i separata regeringsval."
+    ],
+    "optionsEn": [
+      "The Riksdag decides laws, while the government governs the country and implements Riksdag decisions.",
+      "The government writes judgments, while the Riksdag leads the courts.",
+      "The Riksdag directly runs healthcare, while the government chooses municipal councils.",
+      "The government is directly elected by voters in separate government elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Voters elect the Riksdag. The government governs, but it depends on parliamentary support or tolerance.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-003",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "prime-minister",
+      "parliamentarism"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Hur utses statsministern i Sverige?",
+    "questionEn": "How is the prime minister appointed in Sweden?",
+    "options": [
+      "Talmannen föreslår en statsminister som riksdagen tar ställning till.",
+      "Kungen väljer statsminister efter eget beslut.",
+      "Högsta domstolen utser statsminister efter valet.",
+      "Kommunerna röstar fram statsminister i kommunfullmäktige."
+    ],
+    "optionsEn": [
+      "The Speaker proposes a prime minister for the Riksdag to consider.",
+      "The king chooses the prime minister by personal decision.",
+      "The Supreme Court appoints the prime minister after the election.",
+      "Municipalities vote for the prime minister in municipal councils."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "In Sweden, forming a government is handled through the Riksdag. The Speaker has a key role in proposing a prime minister.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-004",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "parliamentarism",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Efter ett val får inget parti egen majoritet. Vad är mest typiskt i svensk parlamentarism?",
+    "questionEn": "After an election, no party has its own majority. What is most typical in Swedish parliamentarism?",
+    "options": [
+      "Partier förhandlar för att hitta en regering som riksdagen kan tolerera.",
+      "Domstolarna bestämmer vilka partier som ska bilda regering.",
+      "Kungen tar över regeringens uppgifter tills nästa val.",
+      "Alla kommuner måste godkänna statsministern var för sig."
+    ],
+    "optionsEn": [
+      "Parties negotiate to find a government the Riksdag can tolerate.",
+      "Courts decide which parties should form the government.",
+      "The king takes over government duties until the next election.",
+      "All municipalities must approve the prime minister separately."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Coalitions, cooperation, and tolerance agreements can be needed when no party has a majority.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-005",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "governance",
+      "government",
+      "ministers"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad består regeringen av?",
+    "questionEn": "What does the government consist of?",
+    "options": [
+      "Statsministern och andra ministrar.",
+      "Riksdagens alla ledamöter.",
+      "Alla kommunstyrelsers ordförande.",
+      "Domare från Sveriges domstolar."
+    ],
+    "optionsEn": [
+      "The prime minister and other ministers.",
+      "All members of the Riksdag.",
+      "The chairs of all municipal executive boards.",
+      "Judges from Swedish courts."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The government consists of the prime minister and ministers who lead different policy areas.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-006",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "government",
+      "administration"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad betyder det att regeringen styr riket?",
+    "questionEn": "What does it mean that the government governs the country?",
+    "options": [
+      "Regeringen leder statens arbete och ser till att riksdagens beslut genomförs.",
+      "Regeringen dömer i tvister mellan privatpersoner.",
+      "Regeringen väljer själv alla riksdagsledamöter.",
+      "Regeringen beslutar alltid utan lagar eller budget."
+    ],
+    "optionsEn": [
+      "The government leads state work and makes sure Riksdag decisions are implemented.",
+      "The government judges disputes between private individuals.",
+      "The government chooses all members of the Riksdag itself.",
+      "The government always decides without laws or a budget."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The government has executive responsibility, but it must work within laws and budget decisions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-007",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "government",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "En minister vill personligen ändra ett myndighetsbeslut i ett enskilt ärende. Varför kan det vara problematiskt?",
+    "questionEn": "A minister wants to personally change an authority decision in an individual case. Why can that be problematic?",
+    "options": [
+      "Myndigheter ska fatta beslut enligt lag och saklighet, inte efter ministerstyre i enskilda ärenden.",
+      "Ministrar får aldrig ha åsikter om politik.",
+      "Myndigheter står alltid över alla lagar.",
+      "Riksdagen måste godkänna varje myndighetsbeslut i förväg."
+    ],
+    "optionsEn": [
+      "Authorities should make decisions according to law and objectivity, not ministerial rule in individual cases.",
+      "Ministers may never have political opinions.",
+      "Authorities are always above all laws.",
+      "The Riksdag must approve every authority decision in advance."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish administration separates political steering from individual case handling to protect legality and objectivity.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-008",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "public-authorities"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vilken roll har statliga myndigheter?",
+    "questionEn": "What role do state authorities have?",
+    "options": [
+      "De genomför lagar och beslut inom sina ansvarsområden.",
+      "De ersätter riksdagen när valresultatet är oklart.",
+      "De väljer regeringspartier efter varje val.",
+      "De bestämmer vilka medborgare som får läsa nyheter."
+    ],
+    "optionsEn": [
+      "They implement laws and decisions within their areas of responsibility.",
+      "They replace the Riksdag when the election result is unclear.",
+      "They choose government parties after each election.",
+      "They decide which citizens may read news."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Authorities carry out public tasks such as administration, supervision, and services under the law.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-009",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "governance",
+      "municipality"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad ansvarar kommuner ofta för?",
+    "questionEn": "What are municipalities often responsible for?",
+    "options": [
+      "Lokala frågor som skola, äldreomsorg och socialtjänst.",
+      "Sveriges utrikespolitik.",
+      "Domstolarnas domar i brottmål.",
+      "Beslut om vilka partier som får ställa upp i riksdagsval."
+    ],
+    "optionsEn": [
+      "Local matters such as school, elderly care, and social services.",
+      "Sweden’s foreign policy.",
+      "Court judgments in criminal cases.",
+      "Decisions on which parties may stand in parliamentary elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipalities handle many services close to everyday life, within national laws.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-010",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "municipality",
+      "self-government"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad innebär kommunalt självstyre?",
+    "questionEn": "What does municipal self-government mean?",
+    "options": [
+      "Kommuner kan fatta beslut i många lokala frågor inom lagens ramar.",
+      "Kommuner behöver aldrig följa svensk lag.",
+      "Kommuner väljer statsminister efter varje val.",
+      "Kommuner kan avskaffa riksdagen lokalt."
+    ],
+    "optionsEn": [
+      "Municipalities can make decisions on many local matters within the limits of the law.",
+      "Municipalities never need to follow Swedish law.",
+      "Municipalities choose the prime minister after every election.",
+      "Municipalities can abolish the Riksdag locally."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Local self-government gives local elected bodies responsibility, but not unlimited power.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-011",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "municipality",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "En kommun vill prioritera fler resurser till äldreomsorg i sin budget. Vilken demokratisk nivå är främst ansvarig?",
+    "questionEn": "A municipality wants to prioritize more resources for elderly care in its budget. Which democratic level is mainly responsible?",
+    "options": [
+      "Kommunen, genom kommunfullmäktige och kommunala beslut.",
+      "Regionen, eftersom regionfullmäktige beslutar om all äldreomsorg.",
+      "Staten, eftersom regeringen beslutar varje kommuns äldreomsorgsbudget.",
+      "Länsstyrelsen, eftersom den prioriterar kommunens omsorgsverksamhet."
+    ],
+    "optionsEn": [
+      "The municipality, through the municipal council and municipal decisions.",
+      "The region, because the regional council decides all elderly care.",
+      "The state, because the government decides every municipality’s elderly care budget.",
+      "The county administrative board, because it prioritizes the municipality’s care services."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Elderly care is a typical municipal responsibility, financed and prioritized through local democratic decisions within law.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-012",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "governance",
+      "region"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad ansvarar regioner ofta för?",
+    "questionEn": "What are regions often responsible for?",
+    "options": [
+      "Hälso- och sjukvård och kollektivtrafik.",
+      "Att skriva Sveriges grundlagar.",
+      "Att välja alla kommunfullmäktige.",
+      "Att döma brottmål i tingsrätten."
+    ],
+    "optionsEn": [
+      "Healthcare and public transport.",
+      "Writing Sweden’s fundamental laws.",
+      "Choosing all municipal councils.",
+      "Judging criminal cases in district courts."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Regions are elected regional bodies with responsibilities such as healthcare and often public transport.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-013",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "region",
+      "municipality"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vilken skillnad mellan kommun och region är mest korrekt?",
+    "questionEn": "Which difference between municipality and region is most correct?",
+    "options": [
+      "Kommuner ansvarar ofta för lokala välfärdstjänster, regioner ofta för sjukvård.",
+      "Kommuner styr utrikespolitiken, regioner stiftar grundlagar.",
+      "Regioner väljer riksdagen, kommuner väljer domstolar.",
+      "Kommuner finns bara i Stockholm, regioner finns bara på landsbygden."
+    ],
+    "optionsEn": [
+      "Municipalities often handle local welfare services, regions often handle healthcare.",
+      "Municipalities run foreign policy, regions make fundamental laws.",
+      "Regions elect the Riksdag, municipalities elect courts.",
+      "Municipalities only exist in Stockholm, regions only exist in rural areas."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Both are elected levels, but they have different responsibilities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-014",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "region",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Väntetiderna i sjukvården diskuteras inför ett val. Vilken politisk nivå är särskilt relevant?",
+    "questionEn": "Waiting times in healthcare are debated before an election. Which political level is especially relevant?",
+    "options": [
+      "Regionen, eftersom regioner ansvarar för mycket av sjukvården.",
+      "Kommunen, eftersom kommuner har huvudansvaret för sjukhusens vårdköer.",
+      "Staten, eftersom regeringen fattar alla operativa beslut om vårdplatser.",
+      "Länsstyrelsen, eftersom den styr regionernas sjukvårdsbudgetar."
+    ],
+    "optionsEn": [
+      "The region, because regions are responsible for much healthcare.",
+      "The municipality, because municipalities have the main responsibility for hospital waiting lists.",
+      "The state, because the government makes all operational decisions about healthcare capacity.",
+      "The county administrative board, because it controls regional healthcare budgets."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Healthcare is a central regional responsibility, so regional elections can matter for healthcare policy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-015",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "taxes",
+      "municipality-region"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Varför har kommuner och regioner rätt att ta ut skatt?",
+    "questionEn": "Why do municipalities and regions have the right to levy tax?",
+    "options": [
+      "För att finansiera demokratiskt beslutade lokala och regionala uppgifter.",
+      "För att privata företag ska slippa betala lön.",
+      "För att domstolar ska kunna välja regeringen.",
+      "För att medier ska finansiera partiernas valkampanjer."
+    ],
+    "optionsEn": [
+      "To finance democratically decided local and regional responsibilities.",
+      "So private companies do not need to pay wages.",
+      "So courts can choose the government.",
+      "So media can finance parties’ election campaigns."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Local and regional taxes fund services such as schools, care, healthcare, and transport.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-016",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "taxes",
+      "accountability"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Varför är budgetbeslut demokratiskt viktiga?",
+    "questionEn": "Why are budget decisions democratically important?",
+    "options": [
+      "De visar hur gemensamma resurser prioriteras och vem som kan hållas ansvarig.",
+      "De gör att medborgare inte längre behöver rösta.",
+      "De avgör vilka domare som får döma i mål.",
+      "De gör att alla partier måste tycka samma sak."
+    ],
+    "optionsEn": [
+      "They show how shared resources are prioritized and who can be held accountable.",
+      "They mean citizens no longer need to vote.",
+      "They decide which judges may hear cases.",
+      "They make all parties think the same thing."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Budgets turn political priorities into concrete choices, which voters can later evaluate.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-017",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "governance",
+      "levels-of-government"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vilka tre demokratiskt valda nivåer finns i Sverige?",
+    "questionEn": "Which three democratically elected levels exist in Sweden?",
+    "options": [
+      "Stat, region och kommun.",
+      "Stat, länsstyrelse och kommun.",
+      "Riksdag, domstol och kommun.",
+      "Stat, region och EU-kommissionen."
+    ],
+    "optionsEn": [
+      "State, region, and municipality.",
+      "State, county administrative board, and municipality.",
+      "Riksdag, courts, and municipality.",
+      "State, region, and the European Commission."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden has elected bodies at national, regional, and municipal levels.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-018",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "levels-of-government",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "En person vill påverka skolans resurser i sin hemkommun. Var börjar hen mest rimligt?",
+    "questionEn": "A person wants to influence school resources in their municipality. Where is the most reasonable place to start?",
+    "options": [
+      "Hos kommunpolitiker eller kommunens demokratiska processer.",
+      "Hos EU:s utrikesminister.",
+      "Hos Högsta domstolen utan ett rättsfall.",
+      "Hos kungen genom ett privat brev."
+    ],
+    "optionsEn": [
+      "With municipal politicians or the municipality’s democratic processes.",
+      "With the EU foreign minister.",
+      "With the Supreme Court without a legal case.",
+      "With the king through a private letter."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "School resources are largely handled by municipalities, so local democratic channels are relevant.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-019",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "riksdag",
+      "scrutiny"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Hur kan riksdagen granska regeringen?",
+    "questionEn": "How can the Riksdag scrutinize the government?",
+    "options": [
+      "Genom frågor, debatter, utskott och konstitutionsutskottets granskning.",
+      "Genom att domare röstar om regeringens popularitet.",
+      "Genom att kommuner stänger riksdagen.",
+      "Genom att medier förbjuds rapportera om ministrar."
+    ],
+    "optionsEn": [
+      "Through questions, debates, committees, and scrutiny by the Committee on the Constitution.",
+      "By judges voting on the government’s popularity.",
+      "By municipalities closing the Riksdag.",
+      "By media being forbidden to report on ministers."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Parliamentary scrutiny is a key part of accountability in a democracy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-020",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "parliamentary-control",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "scrutiny",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Hur kan riksdagsledamöter ställa regeringen till svars mellan val?",
+    "questionEn": "How can members of the Riksdag hold the government accountable between elections?",
+    "options": [
+      "Genom frågor och interpellationer till ministrar.",
+      "Genom att själva döma ministrar i domstol.",
+      "Genom att ta över myndigheters enskilda ärenden.",
+      "Genom att skriva om grundlagen utan omröstning."
+    ],
+    "optionsEn": [
+      "Through questions and interpellations to ministers.",
+      "By personally judging ministers in court.",
+      "By taking over authorities’ individual cases.",
+      "By rewriting the constitution without a vote."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Members of the Riksdag can use questions and interpellations to scrutinize ministers and make the government answer publicly.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-021",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "governance",
+      "speaker"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad kallas riksdagens ordförande?",
+    "questionEn": "What is the chair of the Riksdag called?",
+    "options": [
+      "Talmannen.",
+      "Statsministern.",
+      "Justitiekanslern.",
+      "Kommunalrådet."
+    ],
+    "optionsEn": [
+      "The Speaker.",
+      "The prime minister.",
+      "The Chancellor of Justice.",
+      "The municipal commissioner."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Speaker leads the work of the Riksdag and has a central role after elections.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-022",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "speaker",
+      "government-formation"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Varför är talmannen viktig efter ett riksdagsval?",
+    "questionEn": "Why is the Speaker important after a parliamentary election?",
+    "options": [
+      "Talmannen leder arbetet med att föreslå statsminister.",
+      "Talmannen räknar alla röster själv hemma.",
+      "Talmannen väljer vilka domar som ska gälla.",
+      "Talmannen bestämmer kommunalskatten i alla kommuner."
+    ],
+    "optionsEn": [
+      "The Speaker leads the work of proposing a prime minister.",
+      "The Speaker counts all votes personally at home.",
+      "The Speaker chooses which judgments apply.",
+      "The Speaker sets municipal tax in all municipalities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Speaker talks with party leaders and proposes a prime minister to the Riksdag.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-023",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "speaker",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Varför är det viktigt att talmannen agerar opartiskt när en regering ska bildas?",
+    "questionEn": "Why is it important that the Speaker acts impartially when a government is to be formed?",
+    "options": [
+      "Processen ska bygga på riksdagens sammansättning, inte talmannens privata partival.",
+      "Talmannen ska alltid gynna sitt tidigare parti.",
+      "Talmannen ska ersätta väljarna om valresultatet är svårt.",
+      "Talmannen ska själv skriva regeringens politik."
+    ],
+    "optionsEn": [
+      "The process should be based on the composition of the Riksdag, not the Speaker’s private party choice.",
+      "The Speaker should always favor their former party.",
+      "The Speaker should replace voters if the election result is difficult.",
+      "The Speaker should personally write the government’s policy."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Government formation needs legitimacy, so the Speaker’s role must be trusted and tied to parliamentary support.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-024",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "committees"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad gör riksdagens utskott?",
+    "questionEn": "What do the Riksdag committees do?",
+    "options": [
+      "De bereder frågor och förslag inom olika sakområden.",
+      "De dömer i brottmål.",
+      "De väljer kommunernas skolchefer.",
+      "De kontrollerar privata familjers ekonomi."
+    ],
+    "optionsEn": [
+      "They prepare issues and proposals in different subject areas.",
+      "They judge criminal cases.",
+      "They choose municipal school managers.",
+      "They control private families’ finances."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Committees work with matters before the Riksdag makes decisions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-025",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "committees",
+      "law-making"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Varför behandlas lagförslag ofta i utskott innan riksdagen beslutar?",
+    "questionEn": "Why are bills often handled in committees before the Riksdag decides?",
+    "options": [
+      "För att ledamöter ska kunna granska detaljer och förbereda beslut.",
+      "För att väljare inte ska få veta vad som diskuteras.",
+      "För att domstolar ska slippa följa lagen.",
+      "För att regeringen ska kunna undvika riksdagen."
+    ],
+    "optionsEn": [
+      "So members can examine details and prepare decisions.",
+      "So voters do not learn what is discussed.",
+      "So courts do not need to follow the law.",
+      "So the government can avoid the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Committee work helps parliament examine proposals more carefully before final decisions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-026",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "governance",
+      "law-making"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vem stiftar lagar i Sverige?",
+    "questionEn": "Who makes laws in Sweden?",
+    "options": [
+      "Riksdagen.",
+      "Kungen ensam.",
+      "Varje myndighet utan begränsning.",
+      "Privata banker."
+    ],
+    "optionsEn": [
+      "The Riksdag.",
+      "The king alone.",
+      "Every authority without limits.",
+      "Private banks."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Riksdag is Sweden’s law-making parliament.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-027",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "law-making",
+      "government"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vilken roll kan regeringen ha i lagstiftningsprocessen?",
+    "questionEn": "What role can the government have in the law-making process?",
+    "options": [
+      "Regeringen kan lämna propositioner med lagförslag till riksdagen.",
+      "Regeringen dömer om lagen är rätt efter varje mål.",
+      "Regeringen röstar i riksdagen med 349 röster.",
+      "Regeringen kan avskaffa grundlagar utan riksdagen."
+    ],
+    "optionsEn": [
+      "The government can submit bills with legal proposals to the Riksdag.",
+      "The government judges whether the law is correct after every case.",
+      "The government votes in the Riksdag with 349 votes.",
+      "The government can abolish fundamental laws without the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The government often prepares proposals, but the Riksdag decides on laws.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-028",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "law-making",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Ett nytt lagförslag påverkar många människor. Varför skickas förslag ofta på remiss?",
+    "questionEn": "A new legal proposal affects many people. Why are proposals often sent for consultation?",
+    "options": [
+      "För att myndigheter, organisationer och andra kan lämna synpunkter före beslut.",
+      "För att undvika all offentlig debatt.",
+      "För att låta domstolar rösta om partier.",
+      "För att kommuner ska kunna bryta mot grundlagen."
+    ],
+    "optionsEn": [
+      "So authorities, organizations, and others can give views before a decision.",
+      "To avoid all public debate.",
+      "To let courts vote on parties.",
+      "So municipalities can break fundamental law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Consultation can improve decision-making by gathering knowledge and viewpoints before laws are finalized.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-029",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "governance",
+      "monarchy"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vilken roll har kungen i Sveriges statsskick i dag?",
+    "questionEn": "What role does the king have in Sweden’s form of government today?",
+    "options": [
+      "Kungen är statschef men har inte politisk makt att styra landet.",
+      "Kungen väljer regering efter egen vilja.",
+      "Kungen skriver alla lagar.",
+      "Kungen leder domstolarna."
+    ],
+    "optionsEn": [
+      "The king is head of state but does not have political power to govern the country.",
+      "The king chooses the government as he wishes.",
+      "The king writes all laws.",
+      "The king leads the courts."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden is a constitutional monarchy. The monarch has ceremonial duties, while political power is democratic.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-030",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "monarchy",
+      "misconception"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "En person tror att Sverige styrs av kungen eftersom Sverige är en monarki. Vad är det bästa svaret?",
+    "questionEn": "A person thinks Sweden is governed by the king because Sweden is a monarchy. What is the best answer?",
+    "options": [
+      "Sverige är en parlamentarisk demokrati där folkvalda organ styr politiken.",
+      "Det stämmer, kungen bestämmer regeringens politik.",
+      "Kungen leder riksdagens alla omröstningar.",
+      "Monarki betyder att val inte spelar någon roll."
+    ],
+    "optionsEn": [
+      "Sweden is a parliamentary democracy where elected bodies govern politics.",
+      "That is correct; the king decides government policy.",
+      "The king leads all Riksdag votes.",
+      "Monarchy means elections do not matter."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden has a monarch as head of state, but democratic institutions make political decisions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-031",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "eu",
+      "governance"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Hur påverkar EU Sveriges styrning?",
+    "questionEn": "How does the EU affect Sweden’s governance?",
+    "options": [
+      "Sverige deltar i EU och påverkas av EU-regler inom vissa områden.",
+      "EU ersätter alla svenska kommuner.",
+      "EU väljer Sveriges statsminister.",
+      "EU förbjuder svenska riksdagsval."
+    ],
+    "optionsEn": [
+      "Sweden participates in the EU and is affected by EU rules in certain areas.",
+      "The EU replaces all Swedish municipalities.",
+      "The EU chooses Sweden’s prime minister.",
+      "The EU bans Swedish parliamentary elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "As an EU member, Sweden shares decision-making in some areas and must follow applicable EU law.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-032",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "eu",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "En svensk lag måste ändras eftersom den strider mot bindande EU-regler. Vad visar detta?",
+    "questionEn": "A Swedish law must be changed because it conflicts with binding EU rules. What does this show?",
+    "options": [
+      "EU-medlemskapet påverkar svensk rätt inom områden där EU har befogenhet.",
+      "EU bestämmer alltid alla lokala skolfrågor.",
+      "Sverige har inga egna val längre.",
+      "Kommuner kan ignorera både svensk och EU-rätt."
+    ],
+    "optionsEn": [
+      "EU membership affects Swedish law in areas where the EU has competence.",
+      "The EU always decides all local school matters.",
+      "Sweden no longer has its own elections.",
+      "Municipalities can ignore both Swedish and EU law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "EU law can take precedence in relevant areas, but Sweden still has national, regional, and local democracy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-033",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "county-administrative-board"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vilken uppgift har länsstyrelsen?",
+    "questionEn": "What task does the county administrative board have?",
+    "options": [
+      "Att företräda staten regionalt och samordna vissa statliga uppgifter i länet.",
+      "Att vara regionens folkvalda parlament.",
+      "Att döma alla kommunala brottmål.",
+      "Att välja ledamöter till Europaparlamentet."
+    ],
+    "optionsEn": [
+      "To represent the state regionally and coordinate certain state tasks in the county.",
+      "To be the region’s elected parliament.",
+      "To judge all municipal criminal cases.",
+      "To choose members of the European Parliament."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "County administrative boards are state authorities at regional level, different from elected regions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-034",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "county-administrative-board",
+      "region"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad är en viktig skillnad mellan region och länsstyrelse?",
+    "questionEn": "What is an important difference between a region and a county administrative board?",
+    "options": [
+      "Regionen är demokratiskt vald, länsstyrelsen är en statlig myndighet.",
+      "Länsstyrelsen väljs i kommunalvalet, regionen utses av kungen.",
+      "Regionen dömer i domstol, länsstyrelsen stiftar lagar.",
+      "Det finns ingen skillnad."
+    ],
+    "optionsEn": [
+      "The region is democratically elected, the county administrative board is a state authority.",
+      "The county administrative board is elected in municipal elections, the region is appointed by the king.",
+      "The region judges in court, the county administrative board makes laws.",
+      "There is no difference."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "This distinction matters because elected regional politics and state administration have different roles.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-035",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "governance",
+      "municipal-council"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad heter kommunens högsta beslutande församling?",
+    "questionEn": "What is the municipality’s highest decision-making assembly called?",
+    "options": [
+      "Kommunfullmäktige.",
+      "Riksbanken.",
+      "Högsta domstolen.",
+      "Regeringskansliet."
+    ],
+    "optionsEn": [
+      "The municipal council.",
+      "The central bank.",
+      "The Supreme Court.",
+      "The Government Offices."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipal councils are elected by local voters and decide major municipal matters.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-036",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "regional-council"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad heter regionens högsta beslutande församling?",
+    "questionEn": "What is the region’s highest decision-making assembly called?",
+    "options": [
+      "Regionfullmäktige.",
+      "Kommunstyrelsen.",
+      "Riksdagens talmanskonferens.",
+      "EU-kommissionen i Sverige."
+    ],
+    "optionsEn": [
+      "The regional council.",
+      "The municipal executive board.",
+      "The Riksdag Speaker’s conference.",
+      "The European Commission in Sweden."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Regional councils are elected and decide regional matters such as healthcare priorities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-037",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "local-democracy",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "En invånare vill påverka kollektivtrafiken i sin region. Vilken kanal är mest relevant?",
+    "questionEn": "A resident wants to influence public transport in their region. Which channel is most relevant?",
+    "options": [
+      "Kontakta regionpolitiker eller delta i regionala demokratiska processer.",
+      "Kontakta kommunstyrelsen, eftersom kommunen alltid ansvarar för regional kollektivtrafik.",
+      "Lämna ett förslag till riksdagen, eftersom riksdagen beslutar regionala tidtabeller.",
+      "Överklaga till länsstyrelsen, eftersom länsstyrelsen planerar kollektivtrafikens linjer."
+    ],
+    "optionsEn": [
+      "Contact regional politicians or participate in regional democratic processes.",
+      "Contact the municipal executive board, because the municipality always handles regional public transport.",
+      "Submit a proposal to the Riksdag, because the Riksdag decides regional timetables.",
+      "Appeal to the county administrative board, because it plans public transport routes."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public transport is often a regional responsibility, so regional politics is relevant.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-038",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "delegation"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Varför fattas inte alla beslut av riksdagen direkt?",
+    "questionEn": "Why are not all decisions made directly by the Riksdag?",
+    "options": [
+      "Samhället kräver många detaljerade beslut på olika nivåer och inom myndigheter.",
+      "Riksdagen får inte fatta några beslut alls.",
+      "Kommuner och myndigheter står över demokratin.",
+      "Domstolar måste alltid bestämma politiska prioriteringar."
+    ],
+    "optionsEn": [
+      "Society requires many detailed decisions at different levels and within authorities.",
+      "The Riksdag may not make any decisions at all.",
+      "Municipalities and authorities are above democracy.",
+      "Courts must always decide political priorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democratic systems divide tasks so national, regional, local, and administrative decisions can be handled effectively.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-039",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "delegation",
+      "accountability"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad är en demokratisk risk om ansvarsfördelningen mellan stat, region och kommun är oklar?",
+    "questionEn": "What is a democratic risk if responsibility between state, region, and municipality is unclear?",
+    "options": [
+      "Medborgare kan få svårare att veta vem de ska påverka eller hålla ansvarig.",
+      "Alla beslut blir automatiskt mer rättvisa.",
+      "Valhemligheten försvinner direkt.",
+      "Domstolar blir alltid politiska partier."
+    ],
+    "optionsEn": [
+      "Citizens may find it harder to know whom to influence or hold accountable.",
+      "All decisions automatically become fairer.",
+      "Ballot secrecy disappears immediately.",
+      "Courts always become political parties."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Clear responsibilities help citizens understand where decisions are made and who can be held accountable.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-040",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "governance",
+      "ombudsman"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad är Justitieombudsmannen, JO, kopplad till?",
+    "questionEn": "What is the Parliamentary Ombudsman, JO, connected to?",
+    "options": [
+      "Riksdagens kontroll av myndigheter och offentliga tjänstemän.",
+      "Kungens privata ekonomi.",
+      "Partiernas valkampanjer.",
+      "Kommunernas skolmat."
+    ],
+    "optionsEn": [
+      "The Riksdag’s supervision of authorities and public officials.",
+      "The king’s private finances.",
+      "Parties’ election campaigns.",
+      "Municipal school lunches."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "JO is an ombudsman under the Riksdag that supervises public authorities and officials.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-041",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "ombudsman",
+      "rights"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Varför kan JO vara viktigt för enskilda personer?",
+    "questionEn": "Why can JO be important for individuals?",
+    "options": [
+      "JO kan granska om myndigheter har följt regler i sin handläggning.",
+      "JO kan alltid ändra alla domstolsdomar direkt.",
+      "JO väljer regering efter varje val.",
+      "JO bestämmer kommunalskatten."
+    ],
+    "optionsEn": [
+      "JO can examine whether authorities followed rules in their handling.",
+      "JO can always directly change all court judgments.",
+      "JO chooses the government after every election.",
+      "JO sets municipal tax."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Ombudsman supervision helps protect legality and trust in public administration.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-042",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "ombudsman",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "En person anser att en myndighet behandlat ärendet osakligt. Vilken funktion kan vara relevant att känna till?",
+    "questionEn": "A person believes an authority handled their case without objectivity. Which function may be relevant to know about?",
+    "options": [
+      "JO, som kan granska myndigheters handläggning.",
+      "Talmannen, som dömer i alla myndighetsärenden.",
+      "Kungen, som skriver om beslutet.",
+      "Valmyndigheten, som betalar skadestånd i alla fall."
+    ],
+    "optionsEn": [
+      "JO, which can review authorities’ handling.",
+      "The Speaker, who judges all authority cases.",
+      "The king, who rewrites the decision.",
+      "The Election Authority, which pays compensation in all cases."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "JO does not replace every appeal route, but can review whether public bodies acted correctly.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-043",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "government-offices"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad är Regeringskansliet?",
+    "questionEn": "What are the Government Offices?",
+    "options": [
+      "Myndigheten som hjälper regeringen att bereda och genomföra regeringens arbete.",
+      "Riksdagens plenisal.",
+      "Alla kommuners gemensamma domstol.",
+      "En privat organisation för partiernas kampanjer."
+    ],
+    "optionsEn": [
+      "The authority that helps the government prepare and carry out government work.",
+      "The Riksdag chamber.",
+      "All municipalities’ shared court.",
+      "A private organization for party campaigns."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Government Offices support the government and ministries with preparation, coordination, and administration.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-044",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "government-offices",
+      "minister"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad är skillnaden mellan ett departement och en självständig domstol?",
+    "questionEn": "What is the difference between a ministry and an independent court?",
+    "options": [
+      "Ett departement bereder regeringens politik, medan en domstol dömer självständigt enligt lag.",
+      "Ett departement dömer brottmål, medan domstolar skriver partiprogram.",
+      "Båda leds direkt av kommunfullmäktige.",
+      "Det finns ingen skillnad i en demokrati."
+    ],
+    "optionsEn": [
+      "A ministry prepares government policy, while a court judges independently according to law.",
+      "A ministry judges criminal cases, while courts write party platforms.",
+      "Both are directly led by municipal councils.",
+      "There is no difference in a democracy."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Executive policy work and independent judicial decision-making have different democratic roles.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-045",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "governance",
+      "elections",
+      "levels"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vilka väljer kommunfullmäktige?",
+    "questionEn": "Who elects the municipal council?",
+    "options": [
+      "Väljarna i kommunen.",
+      "Riksdagens talman.",
+      "Regeringens ministrar.",
+      "Domstolarna i regionen."
+    ],
+    "optionsEn": [
+      "The voters in the municipality.",
+      "The Speaker of the Riksdag.",
+      "Government ministers.",
+      "The courts in the region."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipal councils are elected locally.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-046",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "elections",
+      "regions"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vilka väljer regionfullmäktige?",
+    "questionEn": "Who elects the regional council?",
+    "options": [
+      "Väljarna i regionen.",
+      "Kommunala tjänstemän.",
+      "Kungen och talmannen tillsammans.",
+      "EU-kommissionen."
+    ],
+    "optionsEn": [
+      "The voters in the region.",
+      "Municipal officials.",
+      "The king and the Speaker together.",
+      "The European Commission."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Regional councils are elected by voters in the region.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-047",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "elections",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "En väljare vill påverka både skola, sjukvård och rikspolitik. Varför spelar flera val samma dag roll?",
+    "questionEn": "A voter wants to influence school, healthcare, and national politics. Why do several elections on the same day matter?",
+    "options": [
+      "Olika valsedlar påverkar olika nivåer: kommun, region och riksdag.",
+      "Kommunvalet avgör automatiskt vilket parti som bildar regering.",
+      "Regionvalet bestämmer vilka lagar som ska gälla i hela landet.",
+      "Alla tre valen går till samma församling men med olika mandatperioder."
+    ],
+    "optionsEn": [
+      "Different ballots affect different levels: municipality, region, and Riksdag.",
+      "The municipal election automatically decides which party forms the government.",
+      "The regional election decides which laws apply throughout the country.",
+      "All three elections go to the same assembly but with different term lengths."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish general elections include separate democratic levels with different responsibilities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-048",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "public-sector",
+      "responsibility"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad betyder offentlig sektor?",
+    "questionEn": "What does the public sector mean?",
+    "options": [
+      "Verksamhet som drivs eller finansieras av stat, regioner och kommuner.",
+      "Alla privata företag i Sverige.",
+      "Endast föreningar utan medlemmar.",
+      "Bara hushållens privata ekonomi."
+    ],
+    "optionsEn": [
+      "Activities run or financed by the state, regions, and municipalities.",
+      "All private companies in Sweden.",
+      "Only associations without members.",
+      "Only households’ private economy."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The public sector includes democratic institutions, authorities, and publicly financed services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-049",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "public-sector",
+      "private-sector"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Varför är det viktigt att skilja mellan offentlig makt och privata aktörer?",
+    "questionEn": "Why is it important to distinguish between public power and private actors?",
+    "options": [
+      "Offentlig makt måste följa särskilda krav på laglighet, saklighet och insyn.",
+      "Privata aktörer får alltid stifta lagar.",
+      "Offentlig makt behöver aldrig granskas.",
+      "Alla privata beslut är automatiskt demokratiska beslut."
+    ],
+    "optionsEn": [
+      "Public power must follow special requirements for legality, objectivity, and transparency.",
+      "Private actors may always make laws.",
+      "Public power never needs scrutiny.",
+      "All private decisions are automatically democratic decisions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public institutions exercise power on behalf of society and are therefore bound by democratic and legal standards.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-050",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "governance",
+      "constitution"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vilken grundlag beskriver hur Sverige styrs?",
+    "questionEn": "Which fundamental law describes how Sweden is governed?",
+    "options": [
+      "Regeringsformen.",
+      "Köplagen.",
+      "Semesterlagen.",
+      "Skollagens kursplaner."
+    ],
+    "optionsEn": [
+      "The Instrument of Government.",
+      "The Sale of Goods Act.",
+      "The Annual Leave Act.",
+      "The school curriculum rules."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Instrument of Government is central to Sweden’s constitutional order.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-051",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "constitution",
+      "public-power"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad betyder uttrycket att all offentlig makt utgår från folket?",
+    "questionEn": "What does the expression that all public power proceeds from the people mean?",
+    "options": [
+      "Demokratisk legitimitet kommer från medborgarnas inflytande genom val och demokratiska institutioner.",
+      "Myndigheter får göra vad de vill utan lag.",
+      "Kungen bestämmer politiken eftersom han är statschef.",
+      "Domstolar ska välja väljare före varje val."
+    ],
+    "optionsEn": [
+      "Democratic legitimacy comes from citizens’ influence through elections and democratic institutions.",
+      "Authorities may do whatever they want without law.",
+      "The king decides politics because he is head of state.",
+      "Courts should choose voters before every election."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "This constitutional principle connects public power to popular sovereignty and democratic institutions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-052",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "constitution",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "En myndighet säger att den inte behöver följa riksdagens lagar eftersom den är expertmyndighet. Vad är rätt princip?",
+    "questionEn": "An authority says it does not need to follow Riksdag laws because it is an expert authority. What is the correct principle?",
+    "options": [
+      "Myndigheter har expertkunskap men måste följa lagar och regler.",
+      "Expertmyndigheter står över riksdagen.",
+      "Myndigheter får bara följa mediaopinionen.",
+      "Kommunerna kan avskaffa myndighetens ansvar."
+    ],
+    "optionsEn": [
+      "Authorities have expertise but must follow laws and rules.",
+      "Expert authorities are above the Riksdag.",
+      "Authorities may only follow media opinion.",
+      "Municipalities can abolish the authority’s responsibility."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Expertise does not remove legality. Public authorities act under law.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-053",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "accountability"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad innebär politiskt ansvar?",
+    "questionEn": "What does political accountability mean?",
+    "options": [
+      "Väljare och riksdag kan granska, stödja eller byta ut politiska företrädare.",
+      "Politiker får aldrig kritiseras efter ett val.",
+      "Domare måste rösta på regeringen.",
+      "Myndigheter ska hemlighålla alla beslut."
+    ],
+    "optionsEn": [
+      "Voters and the Riksdag can scrutinize, support, or replace political representatives.",
+      "Politicians may never be criticized after an election.",
+      "Judges must vote for the government.",
+      "Authorities should keep all decisions secret."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Political accountability links power to scrutiny, elections, and parliamentary control.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-054",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "accountability",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Ett parti lovar en sak i valrörelsen men prioriterar annorlunda i budgeten. Vad är ett demokratiskt sätt för väljare att reagera?",
+    "questionEn": "A party promises one thing in the campaign but prioritizes differently in the budget. What is a democratic way for voters to react?",
+    "options": [
+      "Granska beslutet, debattera och rösta annorlunda nästa gång.",
+      "Hindra andra väljare från att rösta.",
+      "Kräva att domstolen skriver partiets budget.",
+      "Hota politiker tills de ändrar sig."
+    ],
+    "optionsEn": [
+      "Scrutinize the decision, debate, and vote differently next time.",
+      "Prevent other voters from voting.",
+      "Demand that a court write the party’s budget.",
+      "Threaten politicians until they change."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democratic accountability works through debate, scrutiny, organization, and elections, not threats.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-055",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "easy",
+    "tags": [
+      "governance",
+      "civil-servants"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad är en tjänsteman i offentlig sektor?",
+    "questionEn": "What is a civil servant/public official in the public sector?",
+    "options": [
+      "En anställd som arbetar med offentliga uppgifter enligt lag och beslut.",
+      "En person som alltid är folkvald politiker.",
+      "En privat influencer som kommenterar politik.",
+      "En domare som skriver partiprogram."
+    ],
+    "optionsEn": [
+      "An employee who works with public tasks according to law and decisions.",
+      "A person who is always an elected politician.",
+      "A private influencer commenting on politics.",
+      "A judge who writes party programs."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public officials carry out public administration and must follow rules for objectivity and legality.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-056",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "civil-servants",
+      "politicians"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vad är skillnaden mellan politiker och tjänstemän?",
+    "questionEn": "What is the difference between politicians and civil servants?",
+    "options": [
+      "Politiker fattar politiska beslut, tjänstemän bereder och genomför beslut sakligt.",
+      "Tjänstemän väljs alltid i riksdagsval, politiker anställs av domstolar.",
+      "Politiker får aldrig ha ansvar för budget, tjänstemän får stifta lagar.",
+      "Det finns ingen skillnad i offentlig sektor."
+    ],
+    "optionsEn": [
+      "Politicians make political decisions; civil servants prepare and implement decisions objectively.",
+      "Civil servants are always elected in parliamentary elections; politicians are employed by courts.",
+      "Politicians may never be responsible for budgets; civil servants may make laws.",
+      "There is no difference in the public sector."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "This distinction helps separate democratic policy choices from impartial administration.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-057",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "civil-servants",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "En tjänsteman ändrar ett beslut för att gynna en släkting. Vilken princip hotas?",
+    "questionEn": "A public official changes a decision to benefit a relative. Which principle is threatened?",
+    "options": [
+      "Saklighet, opartiskhet och förtroende för offentlig förvaltning.",
+      "Valhemligheten i riksdagsval.",
+      "Riksdagens rätt att ha talman.",
+      "Regionernas ansvar för kollektivtrafik."
+    ],
+    "optionsEn": [
+      "Objectivity, impartiality, and trust in public administration.",
+      "Ballot secrecy in parliamentary elections.",
+      "The Riksdag’s right to have a Speaker.",
+      "Regions’ responsibility for public transport."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Favoritism in public administration undermines equal treatment and democratic trust.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-058",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "governance",
+      "crisis-governance"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Varför behövs tydlig styrning även vid kriser?",
+    "questionEn": "Why is clear governance needed even during crises?",
+    "options": [
+      "För att ansvar, laglighet och information ska fungera när beslut måste fattas snabbt.",
+      "För att demokratiska regler automatiskt slutar gälla.",
+      "För att medier inte ska få ställa frågor.",
+      "För att kommuner ska ersätta alla myndigheter."
+    ],
+    "optionsEn": [
+      "So responsibility, legality, and information work when decisions must be made quickly.",
+      "Because democratic rules automatically stop applying.",
+      "So media may not ask questions.",
+      "So municipalities replace all authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Crises can require fast decisions, but democratic responsibility and legality still matter.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-059",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "crisis-governance",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Under en kris ger olika nivåer motstridiga besked. Vad är en demokratisk risk?",
+    "questionEn": "During a crisis, different levels give conflicting messages. What is a democratic risk?",
+    "options": [
+      "Medborgare kan få svårt att förstå ansvar, regler och vem som ska granskas.",
+      "Alla myndigheter blir mer opartiska automatiskt.",
+      "Valhemligheten stärks alltid av förvirring.",
+      "Riksdagen får fler ledamöter utan val."
+    ],
+    "optionsEn": [
+      "Citizens may struggle to understand responsibility, rules, and who should be scrutinized.",
+      "All authorities automatically become more impartial.",
+      "Ballot secrecy is always strengthened by confusion.",
+      "The Riksdag gets more members without an election."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Clear communication and responsibility are important for trust and accountability.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch03-060",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "governance",
+      "synthesis"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige",
+    "questionSv": "Vilken situation visar bäst hur Sveriges styrning bygger på flera nivåer?",
+    "questionEn": "Which situation best shows how Sweden’s governance is built on several levels?",
+    "options": [
+      "Riksdagen beslutar lag, regeringen styr statliga myndigheter, regionen ansvarar för sjukvård och kommunen för skola.",
+      "Kungen beslutar lag, medier dömer brott och EU väljer kommunfullmäktige.",
+      "Domstolar skriver budget, kommuner utser statsminister och regioner förbjuder val.",
+      "Privata företag ersätter alla folkvalda organ."
+    ],
+    "optionsEn": [
+      "The Riksdag decides law, the government directs state authorities, the region handles healthcare, and the municipality handles school.",
+      "The king decides law, media judge crimes, and the EU chooses municipal councils.",
+      "Courts write the budget, municipalities appoint the prime minister, and regions ban elections.",
+      "Private companies replace all elected bodies."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish governance is divided across democratic levels and institutions with different responsibilities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch003-008",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "parliamentary-control",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "riksrevisionen",
+      "parliamentary-control"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (extra draft)",
+    "questionSv": "Varför kan Riksrevisionens granskningar vara viktiga för riksdagen?",
+    "questionEn": "Why can audits by the Swedish National Audit Office be important for the Riksdag?",
+    "options": [
+      "De ger underlag för att kontrollera hur statliga pengar och verksamheter sköts.",
+      "De ersätter riksdagens beslut om statsbudgeten.",
+      "De låter myndigheter välja vilka lagar som gäller.",
+      "De avgör vilka partier som får sitta i regeringen."
+    ],
+    "optionsEn": [
+      "They provide information for checking how state money and activities are managed.",
+      "They replace the Riksdag’s decision on the state budget.",
+      "They let authorities choose which laws apply.",
+      "They decide which parties may sit in government."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The National Audit Office supports parliamentary control by auditing central government activities and finances.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch003-012",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "misstroendeförklaring"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (extra draft)",
+    "questionSv": "Vad innebär ett misstroendevotum (misstroendeförklaring) i Sverige?",
+    "questionEn": "What does a vote of no confidence mean in Sweden?",
+    "options": [
+      "Riksdagen kan rösta bort en minister eller hela regeringen som den inte har förtroende för.",
+      "Regeringen kan upplösa riksdagen när den förlorar en omröstning.",
+      "Endast statsministern kan avsättas, aldrig enskilda ministrar.",
+      "Ett misstroendebeslut fattas av Högsta domstolen, inte av riksdagen."
+    ],
+    "optionsEn": [
+      "The Riksdag can vote out a minister or the whole government if it no longer has confidence in them.",
+      "The government can dissolve the Riksdag when it loses a vote.",
+      "Only the prime minister can be removed, never individual ministers.",
+      "A no-confidence decision is made by the Supreme Court, not by the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A motion of no confidence (misstroendeförklaring) lets the Riksdag remove a minister or the whole government if it loses confidence. The government cannot dissolve the Riksdag; individual ministers can be targeted; the decision is the Riksdag's, not the courts'.",
+    "status": "draft"
+  }
+]

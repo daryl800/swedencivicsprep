@@ -1,0 +1,60 @@
+[
+  {
+    "id": "draft-extra-ch003-008",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "ku-granskning"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (extra draft)",
+    "questionSv": "Vad gör Konstitutionsutskottet (KU)?",
+    "questionEn": "What does the Committee on the Constitution (KU) do?",
+    "options": [
+      "Det granskar hur regeringen och ministrarna följer lagar och riksdagens beslut.",
+      "Det stiftar nya lagar som går före regeringens beslut.",
+      "Det leder regeringens arbete när statsministern är frånvarande.",
+      "Det utser domare till Högsta domstolen."
+    ],
+    "optionsEn": [
+      "It scrutinizes how the government and ministers follow laws and Riksdag decisions.",
+      "It makes new laws that take priority over government decisions.",
+      "It leads the government’s work when the prime minister is absent.",
+      "It appoints judges to the Supreme Court."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Committee on the Constitution (Konstitutionsutskottet, KU) scrutinizes the government and ministers for compliance with laws and Riksdag decisions. It does not make laws, lead the government, or appoint judges.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch003-012",
+    "chapterId": "governance",
+    "chapterNumber": 3,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "misstroendeförklaring"
+    ],
+    "source": "Sverige i fokus, chapter 3: Så styrs Sverige (extra draft)",
+    "questionSv": "Vad innebär ett misstroendevotum (misstroendeförklaring) i Sverige?",
+    "questionEn": "What does a vote of no confidence mean in Sweden?",
+    "options": [
+      "Riksdagen kan rösta bort en minister eller hela regeringen som den inte har förtroende för.",
+      "Regeringen kan upplösa riksdagen när den förlorar en omröstning.",
+      "Endast statsministern kan avsättas, aldrig enskilda ministrar.",
+      "Ett misstroendebeslut fattas av Högsta domstolen, inte av riksdagen."
+    ],
+    "optionsEn": [
+      "The Riksdag can vote out a minister or the whole government if it no longer has confidence in them.",
+      "The government can dissolve the Riksdag when it loses a vote.",
+      "Only the prime minister can be removed, never individual ministers.",
+      "A no-confidence decision is made by the Supreme Court, not by the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A motion of no confidence (misstroendeförklaring) lets the Riksdag remove a minister or the whole government if it loses confidence. The government cannot dissolve the Riksdag; individual ministers can be targeted; the decision is the Riksdag's, not the courts'.",
+    "status": "draft"
+  }
+]

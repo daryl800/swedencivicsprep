@@ -1,0 +1,438 @@
+[
+  {
+    "id": "draft-batch-a-ch02-001",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "En journalist begär ut kommunens underlag för ett dyrt byggprojekt. Kommunen säger att vissa personuppgifter är sekretessbelagda. Vilken bedömning passar bäst med offentlighetsprincipen?",
+    "questionEn": "A journalist requests municipal documents for an expensive construction project. The municipality says some personal data is confidential. Which assessment best fits the principle of public access?",
+    "options": [
+      "Kommunen ska normalt lämna ut offentliga handlingar, men kan maskera uppgifter som skyddas av sekretess.",
+      "Kommunen får vägra lämna ut hela ärendet eftersom journalisten kan skriva kritiskt.",
+      "Alla kommunala handlingar är alltid offentliga, även känsliga personuppgifter.",
+      "Offentlighetsprincipen gäller bara riksdagen och inte kommunala projekt."
+    ],
+    "optionsEn": [
+      "The municipality should normally release public documents, but may redact information protected by secrecy.",
+      "The municipality may refuse the whole case because the journalist might write critically.",
+      "All municipal documents are always public, including sensitive personal data.",
+      "The principle of public access only applies to the Riksdag and not municipal projects."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public access supports scrutiny, while legally protected information can be redacted or withheld.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-002",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Ett parti vinner valet men vill förbjuda medier från att kritisera regeringen. Varför är detta odemokratiskt?",
+    "questionEn": "A party wins the election but wants to ban media from criticizing the government. Why is this undemocratic?",
+    "options": [
+      "Valvinst ger inte rätt att avskaffa grundläggande friheter och granskning.",
+      "Den största gruppen får alltid ta bort yttrandefriheten.",
+      "Medier får bara granska kommuner, inte regeringen.",
+      "Kritik mot regeringen är bara tillåten före valdagen."
+    ],
+    "optionsEn": [
+      "Winning an election does not give the right to abolish basic freedoms and scrutiny.",
+      "The largest group may always remove freedom of expression.",
+      "Media may only scrutinize municipalities, not the government.",
+      "Criticism of the government is only allowed before election day."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democracy includes elections, rights, free media, and limits on power.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-003",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Vad visar det att medborgare kan bilda föreningar för att påverka en lokal fråga?",
+    "questionEn": "What does it show that citizens can form associations to influence a local issue?",
+    "options": [
+      "Föreningsfrihet och möjlighet till demokratiskt deltagande.",
+      "Att föreningar får ersätta kommunfullmäktige.",
+      "Att bara föreningsmedlemmar får rösta.",
+      "Att lokala frågor aldrig får beslutas politiskt."
+    ],
+    "optionsEn": [
+      "Freedom of association and the possibility of democratic participation.",
+      "That associations may replace the municipal council.",
+      "That only association members may vote.",
+      "That local issues may never be decided politically."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Associations are one way people can organize and influence society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-004",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "En myndighet behandlar två liknande ärenden olika utan saklig förklaring. Vilket demokratiskt problem uppstår?",
+    "questionEn": "A public authority treats two similar cases differently without an objective explanation. What democratic problem arises?",
+    "options": [
+      "Rättssäkerhet och likabehandling försvagas.",
+      "Myndigheten får själv välja vilka ärenden som ska få samma svar.",
+      "Olikheten visar bara att riksdagen har ändrat lagen i det tysta.",
+      "Så länge båda parter får ett svar spelar det ingen roll om svaren skiljer sig."
+    ],
+    "optionsEn": [
+      "Legal certainty and equal treatment are weakened.",
+      "The authority may decide for itself which cases should get the same answer.",
+      "The difference only shows that the Riksdag has secretly changed the law.",
+      "As long as both parties get an answer, it does not matter if the answers differ."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Rule of law requires authorities to act objectively, predictably, and equally in similar cases.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-005",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Varför kan lågt valdeltagande vara ett problem för demokratin?",
+    "questionEn": "Why can low voter turnout be a problem for democracy?",
+    "options": [
+      "Färre väljare påverkar vilka beslut som får demokratisk förankring.",
+      "Valdeltagandet avgör enbart hur lång tid rösträkningen tar.",
+      "Färre röster innebär att riksdagen automatiskt upplöses.",
+      "Lågt deltagande betyder att medborgarna förlorar sin rösträtt."
+    ],
+    "optionsEn": [
+      "Fewer voters influence which decisions get democratic legitimacy.",
+      "Turnout only decides how long vote counting takes.",
+      "Fewer votes mean the Riksdag is automatically dissolved.",
+      "Low participation means citizens lose their right to vote."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "When fewer people vote, elected bodies may reflect a smaller part of the population.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-006",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "En majoritet vill stoppa en minoritet från att hålla fredliga möten. Vilket svar passar bäst i en demokrati?",
+    "questionEn": "A majority wants to stop a minority from holding peaceful meetings. Which answer best fits a democracy?",
+    "options": [
+      "Majoritetsbeslut måste respektera grundläggande fri- och rättigheter.",
+      "Majoriteten får alltid begränsa minoriteters möten.",
+      "Mötesfrihet gäller bara grupper som redan har makt.",
+      "Minoriteter behöver tillstånd från majoritetspartiet."
+    ],
+    "optionsEn": [
+      "Majority decisions must respect basic freedoms and rights.",
+      "The majority may always limit minorities’ meetings.",
+      "Freedom of assembly only applies to groups already in power.",
+      "Minorities need permission from the majority party."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Democracy combines majority rule with protection of individual and minority rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-007",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Vad är ett exempel på demokratisk ansvarsutkrävning?",
+    "questionEn": "What is an example of democratic accountability?",
+    "options": [
+      "Väljare kan rösta bort politiker som de inte längre har förtroende för.",
+      "Partierna granskar varandra och byter ledare internt utan val.",
+      "Myndigheterna avgör slutgiltigt om en politiker har gjort fel.",
+      "Media väljer vilka politiker som får fortsätta sitta kvar."
+    ],
+    "optionsEn": [
+      "Voters can vote out politicians they no longer trust.",
+      "Parties review each other and change leaders internally without elections.",
+      "Authorities make the final decision on whether a politician has done wrong.",
+      "Media choose which politicians may continue in office."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Elections let voters hold politicians accountable by replacing them.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-008",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "En politiker säger att domstolar bör döma efter regeringens program. Vad strider detta mot?",
+    "questionEn": "A politician says courts should judge according to the government’s programme. What does this conflict with?",
+    "options": [
+      "Domstolarnas oberoende och principen att döma enligt lag.",
+      "Kommunalt självstyre i skolfrågor.",
+      "Partiers rätt att trycka valsedlar.",
+      "Riksbankens ansvar för räntan."
+    ],
+    "optionsEn": [
+      "The independence of courts and the principle of judging according to law.",
+      "Municipal self-government in school matters.",
+      "Parties’ right to print ballot papers.",
+      "The central bank’s responsibility for interest rates."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Independent courts should apply law, not the government’s political programme.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-009",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Varför är offentlighetsprincipen viktig för medborgare?",
+    "questionEn": "Why is the principle of public access important for citizens?",
+    "options": [
+      "Den gör det lättare att granska myndigheter och politiska beslut.",
+      "Den gör alla privata mejl offentliga.",
+      "Den ersätter behovet av fria val.",
+      "Den ger medier rätt att döma i brottmål."
+    ],
+    "optionsEn": [
+      "It makes it easier to scrutinize authorities and political decisions.",
+      "It makes all private emails public.",
+      "It replaces the need for free elections.",
+      "It gives media the right to judge criminal cases."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Public access supports insight into public power.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-010",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "En kommun vill hemlighålla alla avtal för att slippa kritik. Vilken invändning är starkast?",
+    "questionEn": "A municipality wants to keep all contracts secret to avoid criticism. What is the strongest objection?",
+    "options": [
+      "Offentlig verksamhet ska normalt kunna granskas, även om sekretess ibland kan gälla.",
+      "Alla avtal i kommuner måste alltid vara hemliga.",
+      "Kritik mot kommuner är förbjuden mellan val.",
+      "Sekretess bestäms fritt av varje politiker."
+    ],
+    "optionsEn": [
+      "Public activity should normally be open to scrutiny, even though secrecy can sometimes apply.",
+      "All municipal contracts must always be secret.",
+      "Criticism of municipalities is forbidden between elections.",
+      "Secrecy is decided freely by each politician."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Transparency is the rule in public administration, with specific legal exceptions for secrecy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-011",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Vad visar en fredlig demonstration mot ett regeringsbeslut?",
+    "questionEn": "What does a peaceful demonstration against a government decision show?",
+    "options": [
+      "Att människor kan använda grundläggande friheter för att påverka samhället.",
+      "Att regeringen automatiskt måste avgå samma dag.",
+      "Att demonstranter får skriva nya lagar direkt.",
+      "Att bara personer utan parti får ha åsikter."
+    ],
+    "optionsEn": [
+      "That people can use basic freedoms to influence society.",
+      "That the government must automatically resign the same day.",
+      "That demonstrators may write new laws directly.",
+      "That only people without a party may have opinions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Demonstrations are a democratic way to express opinions and influence debate.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-012",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "En vald majoritet vill ändra grundlagen snabbt före nästa val. Varför är grundlagar svårare att ändra?",
+    "questionEn": "An elected majority wants to change the constitution quickly before the next election. Why are constitutional laws harder to change?",
+    "options": [
+      "För att skydda demokratins spelregler från snabba maktbeslut.",
+      "För att bara regeringen ska kunna ändra dem i hemlighet.",
+      "För att domstolar ska kunna ändra dem varje år.",
+      "För att grundlagar saknar betydelse i praktiken."
+    ],
+    "optionsEn": [
+      "To protect the rules of democracy from quick power decisions.",
+      "So only the government can change them secretly.",
+      "So courts can change them every year.",
+      "Because constitutional laws have no practical importance."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Constitutional laws are harder to change because they protect fundamental democratic rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-013",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Vad betyder det att Sverige har representativ demokrati på kommunal nivå?",
+    "questionEn": "What does representative democracy mean at municipal level in Sweden?",
+    "options": [
+      "Invånarna väljer kommunfullmäktige som fattar lokala beslut.",
+      "Alla invånare röstar direkt om varje skolmatsedel.",
+      "Kommunens tjänstemän väljer vilka partier som får styra.",
+      "Regionen utser kommunfullmäktige efter varje vårdval."
+    ],
+    "optionsEn": [
+      "Residents elect the municipal council, which makes local decisions.",
+      "All residents vote directly on every school lunch menu.",
+      "Municipal officials choose which parties may govern.",
+      "The region appoints the municipal council after each healthcare election."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Municipal representative democracy means elected representatives decide local issues.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-014",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "hard",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "En myndighet publicerar bara information som gynnar ett parti före valet. Vilken demokratisk princip hotas?",
+    "questionEn": "An authority publishes only information that benefits one party before an election. Which democratic principle is threatened?",
+    "options": [
+      "Myndigheters saklighet och opartiskhet.",
+      "Rätten att betala kommunalskatt.",
+      "Domstolarnas möjlighet att ge prejudikat.",
+      "Regionernas ansvar för sjukvård."
+    ],
+    "optionsEn": [
+      "The objectivity and impartiality of authorities.",
+      "The right to pay municipal tax.",
+      "Courts’ ability to create precedent.",
+      "Regions’ responsibility for healthcare."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Authorities must act objectively and impartially, especially around elections.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-a-ch02-015",
+    "chapterId": "democratic-system",
+    "chapterNumber": 2,
+    "topicId": "democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-a",
+      "targeted"
+    ],
+    "source": "Sverige i fokus, chapter 2: Det demokratiska systemet (batch A extra draft)",
+    "questionSv": "Varför behövs flera oberoende informationskällor i en demokrati?",
+    "questionEn": "Why are several independent sources of information needed in a democracy?",
+    "options": [
+      "För att människor ska kunna jämföra uppgifter och bilda egna åsikter.",
+      "För att staten ska välja en enda godkänd nyhetskälla.",
+      "För att partier ska slippa svara på kritik.",
+      "För att valhemligheten ska tas bort."
+    ],
+    "optionsEn": [
+      "So people can compare information and form their own opinions.",
+      "So the state can choose one approved news source.",
+      "So parties do not need to answer criticism.",
+      "So ballot secrecy can be removed."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Independent information helps citizens make informed democratic choices.",
+    "status": "draft"
+  }
+]

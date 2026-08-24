@@ -1,0 +1,452 @@
+[
+  {
+    "id": "draft-batch-c-ch11-001",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "eu",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Ett svenskt företag säljer varor inom EU. Varför kan EU:s inre marknad vara viktig?",
+    "questionEn": "A Swedish company sells goods within the EU. Why can the EU internal market be important?",
+    "options": [
+      "Den gör handel och rörlighet lättare genom gemensamma regler.",
+      "Den gjorde att svenska företag förbjöds sälja utomlands.",
+      "Den införde att alla EU-länder måste använda euro.",
+      "Den bestämmer fortfarande alla svenska skatter."
+    ],
+    "optionsEn": [
+      "It makes trade and movement easier through common rules.",
+      "It meant Swedish companies were forbidden from selling abroad.",
+      "It introduced that all EU countries must use the euro.",
+      "It still decides all Swedish taxes."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The internal market is built on common rules that facilitate trade and movement.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-002",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "un",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Vad är en viktig idé bakom FN?",
+    "questionEn": "What is an important idea behind the UN?",
+    "options": [
+      "Länder samarbetar om fred, säkerhet, utveckling och mänskliga rättigheter.",
+      "FN fungerar som en världsregering som bestämmer i varje land.",
+      "FN ger främst rika länder rätt att bestämma över fattiga.",
+      "FN arbetar bara med miljö, inte med fred eller rättigheter."
+    ],
+    "optionsEn": [
+      "Countries cooperate on peace, security, development, and human rights.",
+      "The UN works as a world government that decides in every country.",
+      "The UN mainly gives rich countries the right to decide over poor countries.",
+      "The UN only works with the environment, not peace or rights."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The UN is an international organization for cooperation between states.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-003",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "nordic-cooperation",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Varför är nordiskt samarbete ofta praktiskt för Sverige?",
+    "questionEn": "Why is Nordic cooperation often practical for Sweden?",
+    "options": [
+      "Länderna ligger nära varandra och har många gemensamma samhällsfrågor.",
+      "Nordiskt samarbete gör att Sverige slipper följa egna lagar.",
+      "Det ersätter det svenska medborgarskapet.",
+      "Det bestämmer valutor och skatter för alla nordiska länder."
+    ],
+    "optionsEn": [
+      "The countries are close to each other and share many social issues.",
+      "Nordic cooperation means Sweden does not need to follow its own laws.",
+      "It replaces Swedish citizenship.",
+      "It decides currencies and taxes for all Nordic countries."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Nordic cooperation concerns practical issues between neighboring countries.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-004",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "eu-law",
+    "difficulty": "hard",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "En svensk lag står i konflikt med EU-rätt på ett område där EU har beslutanderätt. Vad kan det innebära?",
+    "questionEn": "A Swedish law conflicts with EU law in an area where the EU has competence. What can this mean?",
+    "options": [
+      "EU-rätten kan få företräde och påverka hur Sverige måste tillämpa reglerna.",
+      "Sverige får då själv välja vilken EU-regel som ska gälla.",
+      "Svenska domstolar måste alltid välja svensk lag först.",
+      "Konflikter löses alltid av riksdagen, inte av EU."
+    ],
+    "optionsEn": [
+      "EU law may take precedence and affect how Sweden must apply the rules.",
+      "Sweden may then choose for itself which EU rule should apply.",
+      "Swedish courts must always choose Swedish law first.",
+      "Conflicts are always solved by the Riksdag, not by the EU."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "EU membership means EU law can affect Swedish law in areas covered by EU rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-005",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "foreign-policy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Varför kan konflikter i andra länder påverka Sverige?",
+    "questionEn": "Why can conflicts in other countries affect Sweden?",
+    "options": [
+      "Genom säkerhet, ekonomi, migration, energi och internationellt samarbete.",
+      "Konflikter påverkar bara länderna som gränsar till Sverige.",
+      "Sverige kan aldrig påverkas om konflikten är långt borta.",
+      "Endast krig som berör EU påverkar svensk politik."
+    ],
+    "optionsEn": [
+      "Through security, economy, migration, energy, and international cooperation.",
+      "Conflicts only affect countries that border Sweden.",
+      "Sweden can never be affected if the conflict is far away.",
+      "Only wars involving the EU affect Swedish politics."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Global interdependence means events abroad can affect Sweden in many ways.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-006",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "nato",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Vad innebär medlemskap i Nato i stora drag?",
+    "questionEn": "What does NATO membership broadly mean?",
+    "options": [
+      "Sverige ingår i en försvarsallians med gemensamma säkerhetsåtaganden.",
+      "Nato bestämmer hur Sverige ska styra sin inrikespolitik.",
+      "Medlemskapet innebär att Sverige inte längre har eget försvar.",
+      "Nato ersätter FN som Sveriges enda samarbete."
+    ],
+    "optionsEn": [
+      "Sweden is part of a defense alliance with common security commitments.",
+      "NATO decides how Sweden should govern its domestic policy.",
+      "Membership means Sweden no longer has its own defense.",
+      "NATO replaces the UN as Sweden’s only cooperation."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "NATO is a defense alliance; membership concerns security and defense cooperation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-007",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "sanctions",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Sverige deltar i internationella sanktioner mot ett land som bryter mot folkrätten. Vad är syftet med sådana sanktioner?",
+    "questionEn": "Sweden participates in international sanctions against a country that violates international law. What is the purpose of such sanctions?",
+    "options": [
+      "Att sätta politiskt och ekonomiskt tryck utan att använda militärt våld.",
+      "Att få konflikten att upphöra direkt och helt.",
+      "Att övertyga landet genom förhandling utan några begränsningar.",
+      "Att lösa problemet med militär insats i stället."
+    ],
+    "optionsEn": [
+      "To create political and economic pressure without using military force.",
+      "To make the conflict end immediately and completely.",
+      "To convince the country through negotiation without any restrictions.",
+      "To solve the problem with military action instead."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sanctions are a foreign-policy tool used to pressure states or actors, often through international cooperation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-008",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "climate",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Varför kräver klimatfrågor ofta internationellt samarbete?",
+    "questionEn": "Why do climate issues often require international cooperation?",
+    "options": [
+      "Utsläpp och miljöeffekter passerar nationsgränser.",
+      "Klimatförändringen beror bara på natur, inte på människor.",
+      "Varje land klarar klimatfrågan helt på egen hand.",
+      "Klimatsamarbete behövs bara inom EU, inte globalt."
+    ],
+    "optionsEn": [
+      "Emissions and environmental effects cross national borders.",
+      "Climate change is only caused by nature, not by humans.",
+      "Each country can handle the climate issue completely on its own.",
+      "Climate cooperation is only needed within the EU, not globally."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Climate problems are transboundary and need cooperation between countries.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-009",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "eu-citizenship",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Vad kan EU-medborgarskap ge en svensk medborgare?",
+    "questionEn": "What can EU citizenship give a Swedish citizen?",
+    "options": [
+      "Vissa rättigheter att resa, bo, studera och arbeta i andra EU-länder.",
+      "Rätt att rösta i alla nationella val i alla EU-länder.",
+      "Rätt att söka alla statliga jobb i vilket EU-land som helst.",
+      "Skyldighet att byta till ett annat EU-lands medborgarskap."
+    ],
+    "optionsEn": [
+      "Certain rights to travel, live, study, and work in other EU countries.",
+      "The right to vote in all national elections in all EU countries.",
+      "The right to apply for all government jobs in any EU country.",
+      "An obligation to change to another EU country’s citizenship."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "EU citizenship includes free movement and some political rights, but not all national rights everywhere.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-010",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "trade",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Ett importerat läkemedel blir svårt att få tag på på grund av störningar i världen. Vad visar situationen?",
+    "questionEn": "An imported medicine becomes hard to obtain because of disruptions in the world. What does the situation show?",
+    "options": [
+      "Sverige är beroende av internationella leveranskedjor och samarbete.",
+      "Sverige klarar all läkemedelsförsörjning helt själv.",
+      "Importproblem löser sig alltid snabbt inom landet.",
+      "Världshandel påverkar bara priser, inte tillgång."
+    ],
+    "optionsEn": [
+      "Sweden depends on international supply chains and cooperation.",
+      "Sweden handles all medicine supply completely by itself.",
+      "Import problems always solve themselves quickly inside the country.",
+      "World trade only affects prices, not access."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "International trade and supply chains can affect daily life and public services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-011",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "human-rights",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Varför kan Sverige kritisera människorättsbrott i andra länder?",
+    "questionEn": "Why can Sweden criticize human rights violations in other countries?",
+    "options": [
+      "Mänskliga rättigheter ses som internationella normer och en del av utrikespolitiken.",
+      "Sverige har alltid domsrätt över brott i andra länder.",
+      "Mänskliga rättigheter gäller bara inom EU.",
+      "Kritik av andra länder är förbjuden enligt svensk lag."
+    ],
+    "optionsEn": [
+      "Human rights are seen as international norms and part of foreign policy.",
+      "Sweden always has jurisdiction over crimes in other countries.",
+      "Human rights only apply within the EU.",
+      "Criticism of other countries is forbidden under Swedish law."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Human rights are part of international cooperation and foreign policy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-012",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "migration",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Varför kan migration vara både en nationell och internationell fråga?",
+    "questionEn": "Why can migration be both a national and international issue?",
+    "options": [
+      "Människors rörelser påverkas av regler, konflikter, arbete och samarbete mellan länder.",
+      "Migration beslutas bara av enskilda kommuner.",
+      "Migration har inget samband med lagar eller mänskliga rättigheter.",
+      "Alla länder har alltid exakt samma migrationsregler."
+    ],
+    "optionsEn": [
+      "People’s movement is affected by rules, conflicts, work, and cooperation between countries.",
+      "Migration is decided only by individual municipalities.",
+      "Migration has no connection to laws or human rights.",
+      "All countries always have exactly the same migration rules."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Migration connects domestic policy with international events and agreements.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-013",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "embassies",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Vilken uppgift har svenska ambassader utomlands?",
+    "questionEn": "What task do Swedish embassies abroad have?",
+    "options": [
+      "De representerar Sverige och kan ge visst stöd till svenskar utomlands.",
+      "De beslutar om svenska lagar utomlands.",
+      "De ger alla svenskar permanent uppehåll i landet.",
+      "De ersätter Migrationsverket i alla ärenden."
+    ],
+    "optionsEn": [
+      "They represent Sweden and can provide some support to Swedes abroad.",
+      "They decide Swedish laws abroad.",
+      "They give all Swedes permanent residence in the country.",
+      "They replace the Swedish Migration Agency in all cases."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Embassies represent the country and handle diplomatic and consular tasks.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-014",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "eu-democracy",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "Varför röstar svenska väljare i val till Europaparlamentet?",
+    "questionEn": "Why do Swedish voters vote in elections to the European Parliament?",
+    "options": [
+      "EU fattar beslut som påverkar Sverige, och parlamentet är en vald del av EU:s beslutsprocess.",
+      "Europaparlamentet styr Sverige mer än riksdagen.",
+      "EU-valet avgör vem som blir svensk statsminister.",
+      "Svenska väljare röstar där i stället för i riksdagsval."
+    ],
+    "optionsEn": [
+      "The EU makes decisions that affect Sweden, and the Parliament is an elected part of the EU decision-making process.",
+      "The European Parliament governs Sweden more than the Riksdag.",
+      "The EU election decides who becomes Swedish prime minister.",
+      "Swedish voters vote there instead of in parliamentary elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "EU elections give citizens representation in one EU institution.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch11-015",
+    "chapterId": "world",
+    "chapterNumber": 11,
+    "topicId": "security",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 11: Sverige och omvärlden (batch C extra draft)",
+    "questionSv": "En cyberattack från utlandet stör svenska myndighetstjänster. Varför är detta inte bara en teknisk fråga?",
+    "questionEn": "A cyberattack from abroad disrupts Swedish authority services. Why is this not only a technical issue?",
+    "options": [
+      "Det berör säkerhet, demokratiskt förtroende och samhällets motståndskraft.",
+      "Det är enbart ett tekniskt problem för IT-avdelningen.",
+      "Det påverkar bara privatpersoner, inte myndigheter.",
+      "Det får aldrig påverka hur samhället styrs."
+    ],
+    "optionsEn": [
+      "It concerns security, democratic trust, and society’s resilience.",
+      "It is only a technical problem for the IT department.",
+      "It only affects private individuals, not authorities.",
+      "It can never affect how society is governed."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Digital threats can affect public services, trust, and national security.",
+    "status": "draft"
+  }
+]

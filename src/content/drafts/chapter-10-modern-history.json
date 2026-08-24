@@ -1,0 +1,2301 @@
+[
+  {
+    "id": "draft-batch-c-ch10-001",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "welfare-history",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Hur påverkade folkhemstanken synen på statens ansvar?",
+    "questionEn": "How did the folkhem idea affect views of the state’s responsibility?",
+    "options": [
+      "Den betonade trygghet, jämlikhet och gemensamt ansvar i samhället.",
+      "Den innebar att staten inte skulle ha någon roll i välfärden.",
+      "Den handlade främst om att avskaffa alla kommuner.",
+      "Den betydde att bara familjen fick ge stöd vid sjukdom."
+    ],
+    "optionsEn": [
+      "It emphasized security, equality, and shared responsibility in society.",
+      "It meant the state should have no role in welfare.",
+      "It was mainly about abolishing all municipalities.",
+      "It meant only the family could give support during illness."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The folkhem idea is linked to welfare, solidarity, and social reform.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-002",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "labour-history",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Varför blev fackföreningar viktiga under industrialiseringen?",
+    "questionEn": "Why did trade unions become important during industrialization?",
+    "options": [
+      "Arbetare organiserade sig för bättre villkor, lön och inflytande.",
+      "Fackföreningar bildades för att ersätta alla arbetsgivare.",
+      "De bestämde ensamma vilka lagar riksdagen skulle anta.",
+      "De var främst föreningar för jordägare som ville stoppa städer."
+    ],
+    "optionsEn": [
+      "Workers organized for better conditions, pay, and influence.",
+      "Trade unions were formed to replace all employers.",
+      "They alone decided which laws the Riksdag would adopt.",
+      "They were mainly associations for landowners who wanted to stop cities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Industrial work created new conflicts and organization on the labour market.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-003",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "democratization",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Varför är 1921 ett viktigt årtal i svensk demokratisering?",
+    "questionEn": "Why is 1921 an important year in Swedish democratization?",
+    "options": [
+      "Det var första riksdagsvalet där kvinnor kunde rösta på samma villkor som män.",
+      "Det var året då Sverige gick med i EU.",
+      "Det var då kommunerna fick ensam rätt att stifta lagar.",
+      "Det var första gången kungen utsåg alla riksdagsledamöter."
+    ],
+    "optionsEn": [
+      "It was the first parliamentary election where women could vote on the same terms as men.",
+      "It was the year Sweden joined the EU.",
+      "It was when municipalities got sole right to make laws.",
+      "It was the first time the king appointed all members of the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Women’s suffrage was a major step in Swedish democracy.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-004",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "welfare-state",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Efter andra världskriget byggdes välfärden ut. Vad var en central idé bakom detta?",
+    "questionEn": "After the Second World War, welfare expanded. What was a central idea behind this?",
+    "options": [
+      "Att staten och kommunerna skulle ge fler människor trygghet och service.",
+      "Att välfärden skulle finansieras helt av privata försäkringsbolag.",
+      "Att bara personer med arbete skulle få tillgång till stöd.",
+      "Att staten skulle ta över alla företag i landet."
+    ],
+    "optionsEn": [
+      "That the state and municipalities should give more people security and services.",
+      "That welfare would be financed entirely by private insurance companies.",
+      "That only people with jobs would get access to support.",
+      "That the state would take over all companies in the country."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The welfare state expanded public security and services funded collectively.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-005",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "neutrality",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Sverige höll sig utanför världskrigen men påverkades ändå. Vad visar det?",
+    "questionEn": "Sweden stayed outside the world wars but was still affected. What does that show?",
+    "options": [
+      "Neutralitet betyder inte att ett land är opåverkat av krig i omvärlden.",
+      "Neutralitet betyder att landet saknar handel och diplomati.",
+      "Ett neutralt land måste alltid avskaffa sitt försvar.",
+      "Neutralitet gör att andra länders konflikter blir olagliga."
+    ],
+    "optionsEn": [
+      "Neutrality does not mean a country is unaffected by wars around it.",
+      "Neutrality means the country has no trade or diplomacy.",
+      "A neutral country must always abolish its defense.",
+      "Neutrality makes other countries’ conflicts illegal."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "A neutral policy can keep a country out of war while economic, political, and humanitarian effects remain.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-006",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "labour-market",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Vad betyder Saltsjöbadsavtalet ofta som symbol i svensk historia?",
+    "questionEn": "What does the Saltsjöbaden Agreement often symbolize in Swedish history?",
+    "options": [
+      "Samarbete och förhandling mellan arbetsmarknadens parter.",
+      "Att lönerna bestämdes direkt av regeringen varje år.",
+      "Att arbetstagarna förlorade rätten att bilda fackföreningar.",
+      "Att riksdagen tog över alla förhandlingar mellan parterna."
+    ],
+    "optionsEn": [
+      "Cooperation and negotiation between labour market parties.",
+      "That wages were decided directly by the government every year.",
+      "That workers lost the right to form trade unions.",
+      "That the Riksdag took over all negotiations between the parties."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "It is associated with the Swedish labour market model and negotiated agreements.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-007",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "democratization",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Varför var allmän och lika rösträtt en stor förändring?",
+    "questionEn": "Why was universal and equal suffrage a major change?",
+    "options": [
+      "Fler vuxna fick samma politiska möjlighet att påverka val.",
+      "Rösträtten gällde nu bara personer med hög inkomst.",
+      "Kvinnor fick rösta, men män förlorade sin rösträtt.",
+      "Rösträtten beslutades fortfarande ensamt av kungen."
+    ],
+    "optionsEn": [
+      "More adults received the same political opportunity to influence elections.",
+      "Voting rights now only applied to people with high income.",
+      "Women got to vote, but men lost their voting rights.",
+      "Voting rights were still decided by the king alone."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Universal and equal suffrage broadened political participation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-008",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "gender-equality",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Kvinnors ökade deltagande i utbildning, arbete och politik förändrade Sverige. Vad visar detta historiskt?",
+    "questionEn": "Women’s increased participation in education, work, and politics changed Sweden. What does this show historically?",
+    "options": [
+      "Jämställdhet har utvecklats genom reformer, organisering och förändrade normer.",
+      "Jämställdhet uppnåddes främst genom att kvinnor fick rösta år 1921.",
+      "Förändringen berodde mest på att män frivilligt gav upp sina roller.",
+      "Lagstiftning spelade ingen roll, bara ekonomin förändrades."
+    ],
+    "optionsEn": [
+      "Gender equality has developed through reforms, organizing, and changed norms.",
+      "Gender equality was achieved mainly when women got the vote in 1921.",
+      "The change was mostly because men voluntarily gave up their roles.",
+      "Legislation played no role; only the economy changed."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Gender equality is a long historical process involving law, politics, work, and norms.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-009",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "migration",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Hur förändrades Sverige av arbetskraftsinvandring efter andra världskriget?",
+    "questionEn": "How was Sweden changed by labour migration after the Second World War?",
+    "options": [
+      "Människor från andra länder bidrog till arbetsmarknaden och samhällets mångfald.",
+      "Arbetskraftsinvandringen berodde på att svenskar slutade arbeta helt.",
+      "Invandringen var planerad enbart för att fylla tomma bostäder.",
+      "Sverige tog emot flyktingar från krig, inte arbetskraft från andra länder."
+    ],
+    "optionsEn": [
+      "People from other countries contributed to the labour market and social diversity.",
+      "Labour migration happened because Swedes stopped working completely.",
+      "Immigration was planned only to fill empty homes.",
+      "Sweden received refugees from war, not labour from other countries."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Post-war labour migration helped meet labour demand and changed Swedish society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-010",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "economic-change",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Varför kan ekonomiska kriser påverka politiska beslut?",
+    "questionEn": "Why can economic crises affect political decisions?",
+    "options": [
+      "De kan skapa arbetslöshet, press på offentliga finanser och krav på reformer.",
+      "Kriser påverkar främst företag, sällan vanliga hushåll.",
+      "Ekonomiska kriser löser sig alltid snabbt av sig själva.",
+      "Regeringen byter då alltid helt politisk inriktning, oavsett omständigheter."
+    ],
+    "optionsEn": [
+      "They can create unemployment, pressure on public finances, and demands for reforms.",
+      "Crises mainly affect companies, rarely ordinary households.",
+      "Economic crises always solve themselves quickly.",
+      "The government then always changes its whole political direction, regardless of circumstances."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Economic crises can shape policy because they affect jobs, taxes, welfare, and trust.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-011",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "education",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Varför har utbyggd utbildning varit viktig i det moderna Sverige?",
+    "questionEn": "Why has expanded education been important in modern Sweden?",
+    "options": [
+      "Den har gett fler människor kunskap och möjligheter på arbetsmarknaden.",
+      "Utbildning var viktig främst för att fler skulle bli lärare.",
+      "Den breda utbildningen gjorde att färre behövde arbeta.",
+      "Utbildning förändrade mest landsbygden, inte städerna."
+    ],
+    "optionsEn": [
+      "It has given more people knowledge and opportunities in the labour market.",
+      "Education was important mainly so more people would become teachers.",
+      "Broad education meant fewer people needed to work.",
+      "Education mostly changed the countryside, not cities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Education expansion is tied to equality, skills, and labour market change.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-012",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "housing",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Varför byggdes många bostäder under 1900-talets urbanisering?",
+    "questionEn": "Why were many homes built during 20th-century urbanization?",
+    "options": [
+      "När fler flyttade till städer behövdes bostäder och planerad samhällsservice.",
+      "Bostäder byggdes främst för att ersätta jordbruket på landsbygden.",
+      "Urbaniseringen minskade behovet av offentlig planering.",
+      "Städerna växte, men bostadsbrist var sällsynt."
+    ],
+    "optionsEn": [
+      "As more people moved to cities, housing and planned public services were needed.",
+      "Housing was built mainly to replace agriculture in the countryside.",
+      "Urbanization reduced the need for public planning.",
+      "Cities grew, but housing shortages were rare."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Urban growth created a need for housing, infrastructure, and public planning.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-013",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "eu-history",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Sverige gick med i EU 1995. Varför var det en viktig historisk förändring?",
+    "questionEn": "Sweden joined the EU in 1995. Why was this an important historical change?",
+    "options": [
+      "Sverige blev del av ett politiskt och ekonomiskt samarbete där EU-rätt påverkar Sverige.",
+      "Sverige blev medlem främst för att slippa handla med andra länder.",
+      "Medlemskapet innebar att Sverige lämnade det nordiska samarbetet.",
+      "EU-medlemskapet påverkade bara jordbruket, inte annat i samhället."
+    ],
+    "optionsEn": [
+      "Sweden became part of political and economic cooperation where EU law affects Sweden.",
+      "Sweden joined mainly to avoid trading with other countries.",
+      "Membership meant Sweden left Nordic cooperation.",
+      "EU membership only affected agriculture, not other parts of society."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "EU membership changed Sweden’s international cooperation and legal context.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-014",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "digitalisation",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Hur har digitalisering påverkat samhällsdeltagande?",
+    "questionEn": "How has digitalization affected participation in society?",
+    "options": [
+      "Den har skapat nya sätt att få information, kommunicera och påverka.",
+      "Digitaliseringen minskade behovet av utbildning i samhället.",
+      "Tekniken gjorde att alla fick exakt samma information automatiskt.",
+      "Digitaliseringen ersatte det demokratiska deltagandet helt."
+    ],
+    "optionsEn": [
+      "It has created new ways to get information, communicate, and influence.",
+      "Digitalization reduced the need for education in society.",
+      "Technology made everyone receive exactly the same information automatically.",
+      "Digitalization completely replaced democratic participation."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Digitalization changes access to information and participation, while source criticism remains important.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-c-ch10-015",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "identity",
+    "difficulty": "medium",
+    "tags": [
+      "batch-c",
+      "targeted",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch C extra draft)",
+    "questionSv": "Varför kan bilden av svenskhet förändras över tid?",
+    "questionEn": "Why can the idea of Swedishness change over time?",
+    "options": [
+      "Samhällen förändras genom migration, normer, politik och historiska erfarenheter.",
+      "Svenskhet bestäms en gång för alla av en myndighet.",
+      "Bara kungahuset får beskriva svensk kultur.",
+      "Historiska förändringar påverkar aldrig identitet."
+    ],
+    "optionsEn": [
+      "Societies change through migration, norms, politics, and historical experiences.",
+      "Swedishness is decided once and for all by an authority.",
+      "Only the royal family may describe Swedish culture.",
+      "Historical changes never affect identity."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "National identity and culture are shaped over time by people and social change.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-batch-d-ch10-001",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "social-change",
+    "difficulty": "medium",
+    "tags": [
+      "batch-d",
+      "gap-fill",
+      "scenario"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (batch D gap-fill draft)",
+    "questionSv": "En person säger att dagens Sverige alltid har sett likadant ut. Vilket historiskt perspektiv visar varför det är fel?",
+    "questionEn": "A person says that today’s Sweden has always looked the same. Which historical perspective shows why this is wrong?",
+    "options": [
+      "Samhället har förändrats genom industrialisering, demokratisering, migration och välfärdsreformer.",
+      "Sverige har haft samma befolkning, lagar och ekonomi sedan 1800-talet.",
+      "Historiska förändringar påverkar bara kungahuset, inte vanliga människor.",
+      "Modern historia handlar bara om krig och inte om samhällsutveckling."
+    ],
+    "optionsEn": [
+      "Society has changed through industrialization, democratization, migration, and welfare reforms.",
+      "Sweden has had the same population, laws, and economy since the 1800s.",
+      "Historical changes only affect the royal family, not ordinary people.",
+      "Modern history is only about wars and not social development."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Modern Swedish history includes major changes in work, democracy, population, and welfare.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-001",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "industrialization"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vad var Sverige till stor del före industrialiseringen?",
+    "questionEn": "What was Sweden largely before industrialization?",
+    "options": [
+      "Ett jordbrukssamhälle där många levde av lantbruk.",
+      "Ett samhälle där de flesta redan arbetade i fabriker på 1700-talet.",
+      "Ett land där nästan all mat importerades och jordbruk var obetydligt.",
+      "Ett feodalt samhälle styrt av adeln utan bönder."
+    ],
+    "optionsEn": [
+      "An agricultural society where many lived from farming.",
+      "A society where most people already worked in factories in the 1700s.",
+      "A country where almost all food was imported and farming was insignificant.",
+      "A feudal society ruled by nobles without peasants."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Before industrialization, Sweden was mainly rural and agricultural.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-002",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "industrialization"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vad innebar industrialiseringen för Sverige?",
+    "questionEn": "What did industrialization mean for Sweden?",
+    "options": [
+      "Fler människor började arbeta i fabriker och städerna växte snabbt.",
+      "Jordbruket lades ned helt och hållet i hela landet.",
+      "Sverige slutade exportera varor till andra länder.",
+      "Staten förbjöd privat ägande av företag och mark."
+    ],
+    "optionsEn": [
+      "More people began working in factories and cities grew quickly.",
+      "Agriculture was completely shut down throughout the country.",
+      "Sweden stopped exporting goods to other countries.",
+      "The state banned private ownership of companies and land."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Industrialization shifted work from farms toward factories and helped cities grow.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-003",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "industrialization"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "En familj lämnar landsbygden för arbete i en växande industristad under 1900-talets början. Vilken samhällsförändring visar detta?",
+    "questionEn": "A family leaves the countryside for work in a growing industrial city in the early 1900s. Which social change does this show?",
+    "options": [
+      "Urbanisering kopplad till industrialisering och nya arbetstillfällen.",
+      "En tillbakagång till ståndssamhälle och skråväsen.",
+      "Regionalisering genom avskaffande av kommunal självstyrelse.",
+      "Avkriminalisering av olovlig bosättning på statlig mark."
+    ],
+    "optionsEn": [
+      "Urbanization connected to industrialization and new jobs.",
+      "A return to an estate society and guild system.",
+      "Regionalization through abolishing municipal self-government.",
+      "Decriminalization of unauthorized settlement on state land."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Moving from countryside to industrial cities is a classic example of urbanization.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-004",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "emigration"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Under 1800-talet och början av 1900-talet emigrerade många svenskar. Vart reste de flesta?",
+    "questionEn": "During the 1800s and early 1900s many Swedes emigrated. Where did most go?",
+    "options": [
+      "Till Nordamerika, särskilt USA.",
+      "Till Storbritannien i mycket större antal än till USA.",
+      "Till Tyskland som den vanligaste destinationen.",
+      "Till Frankrike på statens uppdrag."
+    ],
+    "optionsEn": [
+      "To North America, especially the United States.",
+      "To Britain in much larger numbers than to the United States.",
+      "To Germany as the most common destination.",
+      "To France on assignment from the state."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Most Swedish emigrants during this period went to North America.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-005",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "emigration"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Varför emigrerade många människor från Sverige under 1800-talet?",
+    "questionEn": "Why did many people emigrate from Sweden during the 1800s?",
+    "options": [
+      "Fattigdom, missväxt, befolkningsökning och brist på jordbruksmark var viktiga orsaker.",
+      "Staten tvångsförflyttade arbetslösa till kolonier utomlands.",
+      "Utdragna krig med grannländerna gjorde Sverige osäkert att bo i.",
+      "Svenskar uppmanades av riksdagen att emigrera för att starta nya industrier."
+    ],
+    "optionsEn": [
+      "Poverty, crop failures, population growth, and lack of farmland were important reasons.",
+      "The state forcibly relocated unemployed people to colonies abroad.",
+      "Prolonged wars with neighbouring countries made Sweden unsafe to live in.",
+      "Swedes were encouraged by the Riksdag to emigrate to start new industries."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Poverty and limited opportunities were major reasons for emigration.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-006",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "emigration"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "En person jämför Sveriges historiska utvandring på 1800-talet med senare tiders invandring. Vilken slutsats är mest korrekt ur ett historiskt perspektiv?",
+    "questionEn": "A person compares Sweden’s historical emigration in the 1800s with later immigration. Which conclusion is most correct historically?",
+    "options": [
+      "Migration har i olika perioder varit en viktig del av Sveriges historia, både som utvandrings- och invandringsland.",
+      "Utvandringen på 1800-talet berodde enbart på politiskt förtryck, medan senare invandring enbart varit arbetskraftsrelaterad.",
+      "Sverige var ett helt slutet land fram till EU-inträdet 1995.",
+      "Invandringen på 1900-talet översteg aldrig den historiska emigrationens omfattning."
+    ],
+    "optionsEn": [
+      "Migration has in different periods been an important part of Sweden’s history, both as a country of emigration and immigration.",
+      "Emigration in the 1800s was only due to political oppression, while later immigration was only labour-related.",
+      "Sweden was a completely closed country until joining the EU in 1995.",
+      "Immigration in the 1900s never exceeded the scale of historical emigration."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Swedish history includes both major emigration and later immigration.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-007",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "democracy-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "När genomfördes det första riksdagsvalet där både kvinnor och män hade allmän och lika rösträtt?",
+    "questionEn": "When was the first Riksdag election held where both women and men had universal and equal suffrage?",
+    "options": [
+      "1921.",
+      "1866.",
+      "1945.",
+      "1974."
+    ],
+    "optionsEn": [
+      "1921.",
+      "1866.",
+      "1945.",
+      "1974."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Women first voted in a Swedish Riksdag election in 1921.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-008",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "democracy-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vad innebar de demokratiska rösträttsreformerna i början av 1900-talet?",
+    "questionEn": "What did the democratic suffrage reforms in the early 1900s mean?",
+    "options": [
+      "Att rösträtten inte längre var beroende av inkomst, egendom eller kön.",
+      "Att rösträttsåldern sänktes direkt till 15 år för alla medborgare.",
+      "Att folkomröstningar ersatte alla val till riksdagen.",
+      "Att endast statligt anställda fick kandidera i val."
+    ],
+    "optionsEn": [
+      "That voting rights were no longer dependent on income, property, or gender.",
+      "That the voting age was immediately lowered to 15 for all citizens.",
+      "That referendums replaced all Riksdag elections.",
+      "That only state employees could stand as candidates in elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Suffrage reforms broadened democratic participation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-009",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "democracy-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "När demokratiska reformer genomförs så att fler grupper får rösträtt och politiska rättigheter, hur beskrivs denna process bäst?",
+    "questionEn": "When democratic reforms give more groups voting rights and political rights, how is this process best described?",
+    "options": [
+      "En demokratisering som innebär ett breddat politiskt medborgarskap.",
+      "En parlamentarisk kris som försvagar folkstyret.",
+      "En övergång till ett korporativt styrelseskick utan val.",
+      "En decentralisering där lokala myndigheter övertar lagstiftningen."
+    ],
+    "optionsEn": [
+      "Democratization that means broadened political citizenship.",
+      "A parliamentary crisis that weakens popular rule.",
+      "A transition to a corporatist system without elections.",
+      "Decentralization where local authorities take over lawmaking."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Expanding voting rights is a central part of democratization.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-010",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "popular-movements"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vad var folkrörelserna i Sverige under sent 1800-tal och tidigt 1900-tal?",
+    "questionEn": "What were the popular movements in Sweden in the late 1800s and early 1900s?",
+    "options": [
+      "Organisationer där människor samlades för att påverka samhälle och livsvillkor.",
+      "Lokala myndigheter som skötte den kommunala servicen.",
+      "Politiska partier som styrde riksdagen direkt.",
+      "Ekonomiska föreningar som enbart drev banker."
+    ],
+    "optionsEn": [
+      "Organizations where people gathered to influence society and living conditions.",
+      "Local authorities that handled municipal services.",
+      "Political parties that directly governed the Riksdag.",
+      "Economic associations that only ran banks."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Popular movements helped citizens organize and influence society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-011",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "popular-movements"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Varför spelade folkrörelserna en viktig roll för Sveriges demokratisering?",
+    "questionEn": "Why did popular movements play an important role in Sweden’s democratization?",
+    "options": [
+      "De gav vanliga människor praktisk erfarenhet av demokratiskt beslutsfattande och föreningsliv.",
+      "De övertog domstolarnas roll i lokala tvister under 1900-talets början.",
+      "De ersatte politiska partier i samband med grundlagsändringen 1974.",
+      "De stiftade lagar direkt utan inblandning av riksdagen."
+    ],
+    "optionsEn": [
+      "They gave ordinary people practical experience of democratic decision-making and association life.",
+      "They took over the courts' role in local disputes in the early 1900s.",
+      "They replaced political parties during the constitutional reform of 1974.",
+      "They made laws directly without involvement from the Riksdag."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Popular movements became practical schools in democracy and organization.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-012",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "popular-movements"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Arbetare och tjänstemän går samman i föreningar för att förhandla om villkor och påverka samhället. Vilken historisk rörelse förknippas starkt med denna utveckling?",
+    "questionEn": "Workers and salaried employees join associations to negotiate conditions and influence society. Which historical movement is strongly connected to this development?",
+    "options": [
+      "Arbetarrörelsen och fackföreningsrörelsen.",
+      "Nykterhetsrörelsen och godtemplarna.",
+      "Frikyrkorörelsen och samfundsrörelsen.",
+      "Hushållningssällskapen och lantbrukskooperationen."
+    ],
+    "optionsEn": [
+      "The labour movement and trade union movement.",
+      "The temperance movement and Good Templars.",
+      "The free church movement and religious community movement.",
+      "Agricultural societies and farming cooperatives."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The labour and trade union movements focused on workers’ conditions and influence.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-013",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "labour-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vad var arbetarrörelsen i svensk historia?",
+    "questionEn": "What was the labour movement in Swedish history?",
+    "options": [
+      "En rörelse där arbetare organiserade sig för bättre villkor och politiskt inflytande.",
+      "En statlig myndighet som styrde arbetsmarknaden.",
+      "En grupp arbetsgivare som bestämde alla löner.",
+      "En religiös rörelse utan politiska mål."
+    ],
+    "optionsEn": [
+      "A movement where workers organized for better conditions and political influence.",
+      "A state authority that controlled the labour market.",
+      "A group of employers that decided all wages.",
+      "A religious movement without political goals."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The labour movement organized workers around rights, wages, and political influence.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-014",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "labour-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vilka var viktiga krav för den tidiga arbetarrörelsen i Sverige?",
+    "questionEn": "What were important demands of the early labour movement in Sweden?",
+    "options": [
+      "Åtta timmars arbetsdag, bättre arbetsmiljö och allmän rösträtt.",
+      "Avskaffande av den allmänna skolplikten och fri handel.",
+      "Införande av obligatorisk militärtjänst för alla yrkesgrupper.",
+      "Förbud mot privat företagande inom alla branscher."
+    ],
+    "optionsEn": [
+      "An eight-hour workday, better work environment, and universal suffrage.",
+      "Abolition of compulsory schooling and free trade.",
+      "Introduction of mandatory military service for all occupational groups.",
+      "Ban on private enterprise in all industries."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The labour movement pushed for better working conditions and democratic rights.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-015",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "labour-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Historiska avtal och konflikter mellan parterna på arbetsmarknaden gällande lön, arbetstid och trygghet utgör grunden för vilken svensk modell?",
+    "questionEn": "Historical agreements and conflicts between labour-market parties on pay, working hours, and security form the basis of which Swedish model?",
+    "options": [
+      "Den svenska arbetsmarknadsmodellen med kollektivavtal mellan arbetsmarknadens parter.",
+      "Det svenska skråväsendet och hantverksordningen.",
+      "Det statliga pris- och löneregleringssystemet under krisår.",
+      "Den kommunala skatteutjämningsmodellen."
+    ],
+    "optionsEn": [
+      "The Swedish labour-market model with collective agreements between labour-market parties.",
+      "The Swedish guild system and craft order.",
+      "The state price and wage regulation system during crisis years.",
+      "The municipal tax equalization model."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Swedish labour-market model is based on negotiation between employers and unions.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-016",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "folkhemmet"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vad syftar begreppet folkhemmet framför allt på i svensk 1900-talshistoria?",
+    "questionEn": "What does the concept folkhemmet mainly refer to in Swedish 20th-century history?",
+    "options": [
+      "En idé om ett samhälle med större social trygghet och gemenskap.",
+      "Ett politiskt parti grundat på 1800-talet.",
+      "En specifik byggnad där regeringen samlades.",
+      "Ett ekonomiskt system baserat på kolonier."
+    ],
+    "optionsEn": [
+      "An idea of a society with greater social security and community.",
+      "A political party founded in the 1800s.",
+      "A specific building where the government gathered.",
+      "An economic system based on colonies."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Folkhemmet is associated with equality, social security, and welfare reforms.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-017",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "folkhemmet",
+      "welfare-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Hur kopplas idén om folkhemmet till välfärdsstatens uppbyggnad?",
+    "questionEn": "How is the idea of folkhemmet connected to building the welfare state?",
+    "options": [
+      "Genom sociala reformer som barnbidrag, folkpension och sjukförsäkring.",
+      "Genom att överlämna all sjukvård och skolgång till privata välgörenhetsorganisationer.",
+      "Genom avskaffande av kommunal beskattning till förmån för statliga avgifter.",
+      "Genom att förbjuda fackföreningar att förhandla om löner."
+    ],
+    "optionsEn": [
+      "Through social reforms such as child allowance, public pension, and sickness insurance.",
+      "By handing all healthcare and schooling to private charities.",
+      "By abolishing municipal taxation in favour of state fees.",
+      "By banning trade unions from negotiating wages."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The folkhem idea is linked to expanded social reforms and public welfare.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-018",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "folkhemmet"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Reformer under 1900-talet gav medborgare ekonomiskt stöd vid sjukdom, arbetslöshet och ålderdom. Vilken historisk utveckling beskriver detta?",
+    "questionEn": "Reforms during the 1900s gave citizens financial support during illness, unemployment, and old age. Which historical development does this describe?",
+    "options": [
+      "Välfärdsstatens och socialförsäkringssystemets framväxt.",
+      "Övergången till ett renodlat marknadsekonomiskt system utan statligt stöd.",
+      "Införandet av skråväsende och gilleskassor.",
+      "Avskaffandet av den offentliga sektorn."
+    ],
+    "optionsEn": [
+      "The emergence of the welfare state and social insurance system.",
+      "A transition to a purely market-economic system without state support.",
+      "The introduction of guild systems and guild funds.",
+      "The abolition of the public sector."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Social security reforms were central to the growth of the Swedish welfare state.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-019",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "war-neutrality"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vilken utrikes- och säkerhetspolitisk linje präglade Sverige under största delen av 1900-talet?",
+    "questionEn": "Which foreign and security policy line characterized Sweden during most of the 1900s?",
+    "options": [
+      "Neutralitet och militär alliansfrihet.",
+      "Ett försvarsförbund med NATO sedan 1945.",
+      "Att Sverige alltid deltog som krigförande part.",
+      "En politik där FN bestämde Sveriges utrikespolitik."
+    ],
+    "optionsEn": [
+      "Neutrality and military non-alignment.",
+      "A defence alliance with NATO since 1945.",
+      "That Sweden always participated as a belligerent party.",
+      "A policy where the UN decided Sweden’s foreign policy."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden’s 20th-century line is often described as non-alignment aiming at neutrality.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-020",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "war-neutrality"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vad innebär principen om neutralitet under ett krig?",
+    "questionEn": "What does the principle of neutrality mean during a war?",
+    "options": [
+      "Att staten inte deltar i den väpnade konflikten och förblir opartisk gentemot de krigförande parterna.",
+      "Att staten automatiskt avbryter all diplomatisk kontakt med grannländer.",
+      "Att staten stänger sina gränser för all form av humanitärt bistånd.",
+      "Att statens militära försvar läggs ned under konflikttiden."
+    ],
+    "optionsEn": [
+      "That the state does not take part in the armed conflict and remains impartial toward the warring parties.",
+      "That the state automatically cuts all diplomatic contact with neighbouring countries.",
+      "That the state closes its borders to all forms of humanitarian aid.",
+      "That the state’s military defence is shut down during the conflict."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Neutrality means not taking part in a war between other parties.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-021",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "war-neutrality"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Varför diskuteras Sveriges agerande under andra världskriget ofta i historisk debatt?",
+    "questionEn": "Why is Sweden’s conduct during the Second World War often discussed in historical debate?",
+    "options": [
+      "Sverige behöll formell neutralitet men tvingades till kompromisser och avvägningar gentemot de krigförande stormakterna.",
+      "Sverige gick tidigt med i de allierades militära stabsledning.",
+      "Sverige avbröt all handel med omvärlden under hela kriget.",
+      "Sverige deltog aktivt med trupper på västfronten."
+    ],
+    "optionsEn": [
+      "Sweden kept formal neutrality but was forced into compromises and trade-offs toward the warring great powers.",
+      "Sweden joined the Allied military command early.",
+      "Sweden cut off all trade with the outside world throughout the war.",
+      "Sweden actively participated with troops on the Western Front."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden was formally neutral, but its wartime choices remain historically debated.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-022",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "postwar"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Hur utvecklades Sveriges ekonomi under decennierna närmast efter andra världskriget?",
+    "questionEn": "How did Sweden’s economy develop in the decades just after the Second World War?",
+    "options": [
+      "Den växte starkt och industrin utvecklades.",
+      "Den förblev ett fattigt jordbruksland utan industri.",
+      "Den stagnerade på grund av isolering från omvärlden.",
+      "Den styrdes helt av utländska företag."
+    ],
+    "optionsEn": [
+      "It grew strongly and industry developed.",
+      "It remained a poor agricultural country without industry.",
+      "It stagnated because of isolation from the outside world.",
+      "It was completely controlled by foreign companies."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden’s intact industry helped support strong post-war growth.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-023",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "postwar"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Varför har exportindustrin varit viktig för Sveriges välstånd i modern tid?",
+    "questionEn": "Why has export industry been important for Sweden’s prosperity in modern times?",
+    "options": [
+      "Sverige har en liten hemmamarknad och är beroende av att sälja varor och tjänster utomlands.",
+      "Exportinkomster är den enda tillåtna källan till statlig skatt enligt grundlagen.",
+      "Exporten gör att Sverige inte behöver importera råvaror från andra länder.",
+      "Exportföretag är enligt lag befriade från arbetsgivaravgifter."
+    ],
+    "optionsEn": [
+      "Sweden has a small domestic market and depends on selling goods and services abroad.",
+      "Export income is the only permitted source of state tax under the constitution.",
+      "Exports mean Sweden does not need to import raw materials from other countries.",
+      "Export companies are legally exempt from employer contributions."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Exports have been important for jobs, growth, and tax revenues.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-024",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "postwar"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Ett svenskt verkstadsföretag säljer maskiner globalt och nyanställer hundratals personer i svenska fabriker. Vilket ekonomiskt samband visar detta?",
+    "questionEn": "A Swedish engineering company sells machines globally and hires hundreds of people in Swedish factories. Which economic connection does this show?",
+    "options": [
+      "Exportberoende och internationell handel skapar sysselsättning och tillväxt i Sverige.",
+      "Statlig protektionism som skyddar inhemska företag från utländsk konkurrens.",
+      "Avindustrialisering där tillverkningsindustrin ersätts av offentlig administration.",
+      "En övergång till en självförsörjande ekonomi utan utrikeshandel."
+    ],
+    "optionsEn": [
+      "Export dependence and international trade create employment and growth in Sweden.",
+      "State protectionism that shields domestic companies from foreign competition.",
+      "Deindustrialization where manufacturing is replaced by public administration.",
+      "A transition to a self-sufficient economy without foreign trade."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "International sales can support Swedish employment and growth.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-025",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "urbanization"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vad innebär begreppet urbanisering?",
+    "questionEn": "What does the concept urbanization mean?",
+    "options": [
+      "Att fler människor bor i städer och tätorter.",
+      "Att befolkningen minskar i hela landet.",
+      "Att fler människor flyttar till glesbygd.",
+      "Att städerna avvecklas till förmån för landsbygd."
+    ],
+    "optionsEn": [
+      "That more people live in cities and urban areas.",
+      "That the population decreases throughout the country.",
+      "That more people move to sparsely populated areas.",
+      "That cities are dismantled in favour of rural areas."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Urbanization means a larger share of people live in urban areas.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-026",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "urbanization"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vilka utmaningar och behov skapade den snabba urbaniseringen i Sverige under 1900-talet?",
+    "questionEn": "What challenges and needs did rapid urbanization create in Sweden during the 1900s?",
+    "options": [
+      "Stort behov av nya bostäder, utbyggd kollektivtrafik och skolor i städerna.",
+      "Ett överskott på bostäder på landsbygden och avskaffad kommunalskatt.",
+      "Behov av att förbjuda privat bilägande i hela landet.",
+      "Ett krav på att alla stadsbor måste äga en jordbruksfastighet."
+    ],
+    "optionsEn": [
+      "A large need for new housing, expanded public transport, and schools in cities.",
+      "A surplus of housing in rural areas and abolished municipal tax.",
+      "A need to ban private car ownership throughout the country.",
+      "A requirement that all city residents must own a farm property."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Growing cities created needs for housing, transport, schools, and services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-027",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "urbanization"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "En kommun drabbas av akut bostadsbrist när nya industrier etablerar sig och befolkningen ökar snabbt. Vilken samhällsprocess kräver då aktiv kommunal planering?",
+    "questionEn": "A municipality faces an acute housing shortage when new industries are established and the population grows quickly. Which social process then requires active municipal planning?",
+    "options": [
+      "Urbaniseringens effekter på infrastruktur, bostadsbyggande och välfärdsservice.",
+      "Avfolkning av stadsområden till förmån för glesbygdsstöd.",
+      "Avreglering av den statliga utrikespolitiken.",
+      "Regionalisering av rättsväsendet och domstolarna."
+    ],
+    "optionsEn": [
+      "The effects of urbanization on infrastructure, housing construction, and welfare services.",
+      "Depopulation of urban areas in favour of rural support.",
+      "Deregulation of state foreign policy.",
+      "Regionalization of the judiciary and courts."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Urbanization affects municipal planning for housing and services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-028",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "housing-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vad var Miljonprogrammet som genomfördes i Sverige mellan 1965 och 1974?",
+    "questionEn": "What was the Million Programme carried out in Sweden between 1965 and 1974?",
+    "options": [
+      "En stor bostadssatsning under 1960- och 1970-talen.",
+      "En reform som gav alla medborgare ett eget hus.",
+      "Ett program för att bygga en miljon skolor.",
+      "En skattereform från 1980-talet."
+    ],
+    "optionsEn": [
+      "A major housing initiative during the 1960s and 1970s.",
+      "A reform that gave every citizen their own house.",
+      "A programme to build one million schools.",
+      "A tax reform from the 1980s."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Million Programme was a major housing construction initiative.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-029",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "housing-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Varför lanserades Miljonprogrammet under 1960-talet?",
+    "questionEn": "Why was the Million Programme launched during the 1960s?",
+    "options": [
+      "Det rådde stor bostadsbrist och många befintliga bostäder höll låg standard.",
+      "Det skulle ersätta alla äldre trästäder som hade drabbats av krigsskador.",
+      "Det skulle bygga kaserner åt ett utökat värnpliktsförsvar.",
+      "Det skulle bygga nya kontor åt alla statliga myndigheter."
+    ],
+    "optionsEn": [
+      "There was a large housing shortage and many existing homes had low standards.",
+      "It was to replace all older wooden towns damaged by war.",
+      "It was to build barracks for an expanded conscription defence.",
+      "It was to build new offices for all state authorities."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Housing shortage and low housing standards drove the programme.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-030",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "housing-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "En familj flyttar in i ett nytt bostadsområde byggt under 1970-talet med skolor, service och kollektivtrafik nära. Vilken historisk satsning kan detta kopplas till?",
+    "questionEn": "A family moves into a new housing area built in the 1970s with schools, services, and public transport nearby. Which historical initiative can this be connected to?",
+    "options": [
+      "Miljonprogrammet och modern stadsplanering.",
+      "Det kommunala bostadsbyggandet före rekordåren.",
+      "En skolreform som främst gällde läroplaner.",
+      "Sveriges EU-medlemskap och den inre marknaden."
+    ],
+    "optionsEn": [
+      "The Million Programme and modern urban planning.",
+      "Municipal housing construction before the record years.",
+      "A school reform that mainly concerned curricula.",
+      "Sweden’s EU membership and the internal market."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Many Million Programme areas were part of large-scale planning for housing and services.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-031",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "education-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Hur förändrades utbildningssystemet i Sverige under 1900-talet?",
+    "questionEn": "How did the education system change in Sweden during the 1900s?",
+    "options": [
+      "Utbildning blev viktigare och mer tillgänglig för fler.",
+      "Utbildning förblev en privilegierad fråga för få.",
+      "Skolgång avskaffades i samband med industrialiseringen.",
+      "Endast religiös undervisning blev tillåten."
+    ],
+    "optionsEn": [
+      "Education became more important and more accessible to more people.",
+      "Education remained a privilege for a few.",
+      "Schooling was abolished in connection with industrialization.",
+      "Only religious instruction became allowed."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Education became more accessible and important in modern Sweden.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-032",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "education-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Varför ökade behovet av högre utbildning och yrkeskunskap under 1900-talets industrialisering?",
+    "questionEn": "Why did the need for higher education and vocational knowledge increase during 20th-century industrialization?",
+    "options": [
+      "Ny teknik, komplicerade maskiner och en växande tjänstesektor krävde mer teoretisk och praktisk kunskap.",
+      "Staten krävde universitetsexamen för alla manuella industriarbeten.",
+      "Jordbruket krävde mer akademisk utbildning än fabriksarbete.",
+      "Utländska företag fick bara etablera sig om alla anställda var forskare."
+    ],
+    "optionsEn": [
+      "New technology, complex machines, and a growing service sector required more theoretical and practical knowledge.",
+      "The state required a university degree for all manual industrial jobs.",
+      "Agriculture required more academic education than factory work.",
+      "Foreign companies could only establish themselves if all employees were researchers."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Modern work created greater need for education and skills.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-033",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "education-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "När ett samhälles ekonomi ställs om från enklare manuell tillverkning till avancerad kunskapsintensiv industri, vilken politisk satsning blir avgörande?",
+    "questionEn": "When a society’s economy shifts from simpler manual production to advanced knowledge-intensive industry, which policy investment becomes crucial?",
+    "options": [
+      "Satsningar på utbildning, forskning och kompetensutveckling för hela befolkningen.",
+      "Höjda tullar mot omvärlden för att förhindra teknisk import.",
+      "Minskade anslag till grundskolan till förmån för subventionerad tung industri.",
+      "Införande av skråtvång för alla nya yrkesgrupper."
+    ],
+    "optionsEn": [
+      "Investment in education, research, and skills development for the whole population.",
+      "Higher tariffs against the outside world to prevent technological imports.",
+      "Reduced funding for compulsory school in favour of subsidized heavy industry.",
+      "Introduction of compulsory guild membership for all new occupations."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Knowledge-intensive economies depend on education, research, and skills.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-034",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "gender-equality-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vilken övergripande förändring har skett avseende jämställdhet i Sverige under 1900-talet?",
+    "questionEn": "What overall change occurred regarding gender equality in Sweden during the 1900s?",
+    "options": [
+      "Kvinnor har fått större juridiska, politiska och ekonomiska möjligheter.",
+      "Kvinnors rättigheter minskade successivt efter 1921.",
+      "Kvinnor förbjöds att rösta i kommunala val.",
+      "Endast ogifta kvinnor fick några rättigheter."
+    ],
+    "optionsEn": [
+      "Women have gained greater legal, political, and economic opportunities.",
+      "Women’s rights gradually decreased after 1921.",
+      "Women were forbidden to vote in municipal elections.",
+      "Only unmarried women received any rights."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Modern Swedish history includes major reforms for women’s rights and equality.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-035",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "gender-equality-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Varför var införandet av kvinnlig rösträtt ett avgörande steg för den svenska demokratin?",
+    "questionEn": "Why was the introduction of women’s suffrage a decisive step for Swedish democracy?",
+    "options": [
+      "Det innebar att valresultaten utgick från hela den vuxna befolkningens deltagande.",
+      "Det ledde till att politiska partier endast fick ha kvinnliga kandidater.",
+      "Det gjorde att riksdagen avskaffade tvåkammarsystemet direkt.",
+      "Det gav gifta par två röster vardera i kommunalvalen."
+    ],
+    "optionsEn": [
+      "It meant election results were based on participation by the whole adult population.",
+      "It led to political parties only being allowed to have female candidates.",
+      "It made the Riksdag abolish the bicameral system immediately.",
+      "It gave married couples two votes each in municipal elections."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Women’s suffrage made democracy more representative.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-036",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "gender-equality-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Utbyggd förskola, särbeskattning och föräldraförsäkring under 1970-talet underlättade för både män och kvinnor att förvärvsarbeta. Vad kännetecknar denna utveckling?",
+    "questionEn": "Expanded preschool, individual taxation, and parental insurance in the 1970s made it easier for both men and women to work. What characterizes this development?",
+    "options": [
+      "En jämställdhets- och familjepolitik inriktad på dubbelarbetande familjer och ökat yrkesdeltagande.",
+      "En tillbakagång till traditionella hemmafruideal.",
+      "En privatiseringsvåg av all offentlig barnomsorg.",
+      "Ett avskaffande av föräldraledigheten till förmån för längre arbetstid."
+    ],
+    "optionsEn": [
+      "Gender-equality and family policy aimed at dual-earner families and increased labour-force participation.",
+      "A return to traditional housewife ideals.",
+      "A privatization wave of all public childcare.",
+      "Abolition of parental leave in favour of longer working hours."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Family policy and equality reforms changed work and family life.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-037",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "immigration-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vad karaktäriserade invandringen till Sverige under de första decennierna efter andra världskriget?",
+    "questionEn": "What characterized immigration to Sweden during the first decades after the Second World War?",
+    "options": [
+      "Arbetskraftsinvandring och senare flykt från krig eller förföljelse.",
+      "Huvudsakligen tillfälliga gästarbetare som alltid återvände efter några år.",
+      "Endast akademiker som sökte forskningstjänster vid svenska universitet.",
+      "En massiv asylinvandring från grannländerna i Norden."
+    ],
+    "optionsEn": [
+      "Labour immigration and later flight from war or persecution.",
+      "Mainly temporary guest workers who always returned after a few years.",
+      "Only academics seeking research positions at Swedish universities.",
+      "Massive asylum immigration from neighbouring Nordic countries."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Post-war immigration was strongly connected to labour demand.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-038",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "immigration-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Hur förändrades invandringens karaktär till Sverige från och med 1970- och 1980-talen?",
+    "questionEn": "How did the character of immigration to Sweden change from the 1970s and 1980s onward?",
+    "options": [
+      "Den gick från att främst vara arbetskraftsinvandring till att i högre grad omfatta flyktingar och anhöriga.",
+      "Den upphörde helt till följd av nya grundlagsändringar.",
+      "Den ersattes helt av utvandring till andra nordiska länder.",
+      "Den begränsades till att endast gälla studerande vid universitet."
+    ],
+    "optionsEn": [
+      "It shifted from mainly labour immigration to more refugees and family members.",
+      "It stopped completely because of new constitutional amendments.",
+      "It was completely replaced by emigration to other Nordic countries.",
+      "It was limited to only university students."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Later immigration included more refugees and family reunification.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-039",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "immigration-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Under 1950- och 1960-talen rekryterade svenska företag arbetare från andra länder till fabriker i Sverige. Vilken historisk företeelse beskriver detta?",
+    "questionEn": "During the 1950s and 1960s Swedish companies recruited workers from other countries to factories in Sweden. Which historical phenomenon does this describe?",
+    "options": [
+      "Arbetskraftsinvandring driven av industrins behov under rekordåren.",
+      "Den stora utvandringsvågen till Nordamerika.",
+      "Införandet av den fria rörligheten genom EU-medlemskapet.",
+      "En statlig kampanj för utflyttning av svensk industri till låglöneländer."
+    ],
+    "optionsEn": [
+      "Labour immigration driven by industry’s needs during the record years.",
+      "The large emigration wave to North America.",
+      "The introduction of free movement through EU membership.",
+      "A state campaign to move Swedish industry to low-wage countries."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Industry recruited foreign labour during the post-war boom.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-040",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "minorities-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vilket folk är erkänt som urfolk i Sverige?",
+    "questionEn": "Which people are recognized as Indigenous in Sweden?",
+    "options": [
+      "Samerna.",
+      "Tornedalingarna.",
+      "Sverigefinnarna.",
+      "Romerna."
+    ],
+    "optionsEn": [
+      "The Sami.",
+      "The Tornedalians.",
+      "The Sweden Finns.",
+      "The Roma."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Sami are Sweden’s Indigenous people; the others listed are national minorities.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-041",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "minorities-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Varför uppmärksammas samers och nationella minoriteters historia i dagens Sverige?",
+    "questionEn": "Why is the history of the Sami and national minorities highlighted in Sweden today?",
+    "options": [
+      "För att belysa språk, kultur och statens historiska behandling av minoriteter.",
+      "För att förklara hur Sverige byggde upp sina handelsförbindelser med Amerika.",
+      "För att fördela rösträttsandelar vid val till Europaparlamentet.",
+      "För att visa hur gränsdragningen mot Norge och Finland avgjordes."
+    ],
+    "optionsEn": [
+      "To highlight language, culture, and the state’s historical treatment of minorities.",
+      "To explain how Sweden built trade relations with America.",
+      "To distribute voting shares in European Parliament elections.",
+      "To show how the border with Norway and Finland was decided."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Minority history is connected to language, culture, rights, and historical treatment.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-042",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "minorities-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Sannings- och försoningskommissioner har granskat statens historiska övergrepp mot urfolk och minoriteter. Vilket syfte har detta arbete?",
+    "questionEn": "Truth and reconciliation commissions have examined the state’s historical abuses against Indigenous peoples and minorities. What is the purpose of this work?",
+    "options": [
+      "Att ge upprättelse, öka kunskapen och stärka minoriteters rättigheter i rättsstaten.",
+      "Att avskaffa de nationella minoritetsspråken i skolan.",
+      "Att överföra all markäganderätt i norra Sverige till staten.",
+      "Att ersätta Sametinget med en vanlig kommunstyrelse."
+    ],
+    "optionsEn": [
+      "To provide redress, increase knowledge, and strengthen minority rights in the rule-of-law state.",
+      "To abolish the national minority languages in school.",
+      "To transfer all land ownership in northern Sweden to the state.",
+      "To replace the Sami Parliament with an ordinary municipal board."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Truth and reconciliation work addresses historical wrongs and supports rights recognition.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-043",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "eu-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "När blev Sverige medlem i Europeiska unionen?",
+    "questionEn": "When did Sweden become a member of the European Union?",
+    "options": [
+      "1995.",
+      "1921.",
+      "1945.",
+      "2009."
+    ],
+    "optionsEn": [
+      "1995.",
+      "1921.",
+      "1945.",
+      "2009."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden joined the European Union in 1995.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-044",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "eu-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vad innebar Sveriges medlemskap i Europeiska unionen?",
+    "questionEn": "What did Sweden’s membership in the European Union mean?",
+    "options": [
+      "Sverige blev del av EU:s gemensamma marknad, lagstiftning och politiska samarbete.",
+      "Sverige upphörde att vara en självständig stat och avskaffade sin grundlag.",
+      "Sverige tvingades direkt att ersätta kronan med euron som valuta.",
+      "Sverige förlorade sin rätt att ha ett eget nationellt försvar."
+    ],
+    "optionsEn": [
+      "Sweden became part of the EU’s internal market, legislation, and political cooperation.",
+      "Sweden stopped being an independent state and abolished its constitution.",
+      "Sweden was immediately forced to replace the krona with the euro.",
+      "Sweden lost its right to have its own national defence."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "EU membership connects Sweden to shared European cooperation and rules.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-045",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "eu-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "En svensk lagstiftare behöver ta hänsyn till gemensamma europeiska regler. Vilken historisk förändring ligger bakom detta?",
+    "questionEn": "A Swedish lawmaker needs to consider common European rules. Which historical change lies behind this?",
+    "options": [
+      "Sveriges medlemskap i EU.",
+      "Sveriges medlemskap i FN.",
+      "Det nordiska samarbetet.",
+      "Rösträttsreformen 1921."
+    ],
+    "optionsEn": [
+      "Sweden’s membership in the EU.",
+      "Sweden’s membership in the UN.",
+      "Nordic cooperation.",
+      "The suffrage reform of 1921."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "EU membership means Swedish politics and law are affected by European cooperation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-046",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "cold-war"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vad var kalla kriget som pågick under andra hälften av 1900-talet?",
+    "questionEn": "What was the Cold War that took place during the second half of the 1900s?",
+    "options": [
+      "En period av spänningar mellan öst och väst efter andra världskriget.",
+      "Ett inbördeskrig inom Sverige på 1950-talet.",
+      "Ett handelskrig mellan svenska regioner.",
+      "En militär allians som Sverige ledde."
+    ],
+    "optionsEn": [
+      "A period of tensions between East and West after the Second World War.",
+      "A civil war within Sweden in the 1950s.",
+      "A trade war between Swedish regions.",
+      "A military alliance led by Sweden."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Cold War was the geopolitical conflict between Western and Eastern blocs after 1945.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-047",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "cold-war"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Hur utformade Sverige sin säkerhetspolitik under kalla kriget?",
+    "questionEn": "How did Sweden shape its security policy during the Cold War?",
+    "options": [
+      "Genom militär alliansfrihet och ett starkt eget försvar för att kunna hålla sig neutralt vid krig.",
+      "Genom ett hemligt fullvärdigt medlemskap i Warszawapakten.",
+      "Genom att lägga ned hela sitt försvar och förlita sig enbart på FN.",
+      "Genom att ingå i en formell militärunion med de övriga nordiska länderna."
+    ],
+    "optionsEn": [
+      "Through military non-alignment and a strong national defence to be able to remain neutral in war.",
+      "Through secret full membership in the Warsaw Pact.",
+      "By shutting down its entire defence and relying only on the UN.",
+      "By entering a formal military union with the other Nordic countries."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden’s Cold War policy combined non-alignment with national defence.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-048",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "cold-war"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Sverige var militärt alliansfritt under kalla kriget men hade nära samarbete med västmakterna. Vilken beskrivning stämmer bäst på denna balansgång?",
+    "questionEn": "Sweden was militarily non-aligned during the Cold War but had close cooperation with Western powers. Which description best fits this balancing act?",
+    "options": [
+      "Sverige stod utanför militära allianser men delade demokratiska värderingar och hade säkerhetskontakter med väst.",
+      "Sverige var officiellt medlem i NATO men deltog inte på några möten.",
+      "Sverige hade identiska handels- och försvarssamarbeten med Sovjetunionen och USA.",
+      "Sverige tillät utländska militärbaser på svensk mark under hela perioden."
+    ],
+    "optionsEn": [
+      "Sweden stood outside military alliances but shared democratic values and had security contacts with the West.",
+      "Sweden was officially a NATO member but did not attend meetings.",
+      "Sweden had identical trade and defence cooperation with the Soviet Union and the USA.",
+      "Sweden allowed foreign military bases on Swedish territory throughout the period."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden’s non-alignment existed alongside Western orientation and contacts.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-049",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "secularization"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vad innebär begreppet sekularisering?",
+    "questionEn": "What does the concept secularization mean?",
+    "options": [
+      "Att religion får mindre direkt betydelse för staten och många samhällsbeslut.",
+      "Att staten bestämmer en enda tillåten religion.",
+      "Att alla religiösa uttryck förbjöds i det offentliga.",
+      "Att kyrkan övertog statens lagstiftande makt."
+    ],
+    "optionsEn": [
+      "That religion has less direct importance for the state and many social decisions.",
+      "That the state decides one single permitted religion.",
+      "That all religious expressions were banned in public.",
+      "That the church took over the state’s legislative power."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Secularization means religion has less direct authority over state and society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-050",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "postwar-growth",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "secularization"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Hur förändrades Sverige under efterkrigstidens ekonomiska tillväxt?",
+    "questionEn": "How did Sweden change during post-war economic growth?",
+    "options": [
+      "Levnadsstandard, bostäder, utbildning och välfärd byggdes ut för många.",
+      "Sverige avskaffade industrin och återgick till jordbruk.",
+      "Alla offentliga tjänster flyttades till kungahuset.",
+      "Ekonomisk tillväxt gjorde demokratiska val onödiga."
+    ],
+    "optionsEn": [
+      "Living standards, housing, education, and welfare expanded for many people.",
+      "Sweden abolished industry and returned to agriculture.",
+      "All public services were moved to the royal family.",
+      "Economic growth made democratic elections unnecessary."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Post-war growth helped finance welfare expansion and social change.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-051",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "secularization"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "En person påstår att ett sekulärt samhälle innebär att troende personer förlorar sina rättigheter. Hur bemöts detta påstående bäst?",
+    "questionEn": "A person claims that a secular society means religious people lose their rights. How is this claim best answered?",
+    "options": [
+      "Ett sekulärt samhälle skiljer stat och religion, men religionsfriheten skyddar individens rätt att utöva eller inte utöva religion.",
+      "Sekularisering kräver att all religiös yrkesutövning sker i hemlighet.",
+      "Religionsfrihet gäller enbart för statens officiella majoritetsreligion.",
+      "Ett sekulärt samhälle tillåter inte religiösa organisationer att äga fastigheter."
+    ],
+    "optionsEn": [
+      "A secular society separates state and religion, but freedom of religion protects the individual’s right to practise or not practise religion.",
+      "Secularization requires all religious professional activity to happen in secret.",
+      "Freedom of religion only applies to the state’s official majority religion.",
+      "A secular society does not allow religious organizations to own property."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Secularism can coexist with strong freedom of religion.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-052",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "technology"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vad innebär digitaliseringen av det moderna svenska samhället?",
+    "questionEn": "What does digitalization of modern Swedish society mean?",
+    "options": [
+      "Många tjänster, arbeten och kontakter sker mer digitalt.",
+      "Alla fysiska möten och papperstjänster försvann helt.",
+      "Sverige slutade använda internet av säkerhetsskäl.",
+      "Endast unga använder digitala tjänster."
+    ],
+    "optionsEn": [
+      "Many services, jobs, and contacts happen more digitally.",
+      "All physical meetings and paper services disappeared completely.",
+      "Sweden stopped using the internet for security reasons.",
+      "Only young people use digital services."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Digitalization changes services, work, communication, and daily life.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-053",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "technology"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Varför kan den snabba digitaliseringen av samhällstjänster skapa demokratiutmaningar?",
+    "questionEn": "Why can rapid digitalization of public services create democratic challenges?",
+    "options": [
+      "Vissa grupper, exempelvis äldre eller personer utan digital vana, riskerar att hamna i digitalt utanförskap.",
+      "Digitaliseringen gör att valen inte längre kan genomföras med hemlig rösträtt.",
+      "Myndigheter får inte längre tillhandahålla information på svenska.",
+      "Det blir omöjligt att stifta nya lagar om personlig integritet."
+    ],
+    "optionsEn": [
+      "Some groups, such as older people or people without digital experience, risk digital exclusion.",
+      "Digitalization means elections can no longer be held with secret voting.",
+      "Authorities may no longer provide information in Swedish.",
+      "It becomes impossible to make new laws about personal integrity."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Digital services can improve access but also exclude people without access or skills.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-054",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "technology"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "En myndighet flyttar nästan all service till internet. Äldre personer och personer utan digital vana får svårt att delta. Vilken historisk nutidsförändring syns?",
+    "questionEn": "An authority moves almost all service online. Older people and people without digital experience struggle to participate. Which modern historical change is visible?",
+    "options": [
+      "Digitaliseringens möjligheter och risk för digitalt utanförskap.",
+      "Den demografiska omställningen med fler äldre.",
+      "Välfärdsstatens utbyggnad på 1960-talet.",
+      "Industrialiseringens första fas."
+    ],
+    "optionsEn": [
+      "Digitalization’s opportunities and the risk of digital exclusion.",
+      "The demographic transition with more older people.",
+      "The expansion of the welfare state in the 1960s.",
+      "The first phase of industrialization."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Digital services can create new access but also new barriers.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-055",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "environment-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vilka frågor har fått en alltmer central roll i svensk och global samhällsdebatt under de senaste decennierna?",
+    "questionEn": "Which issues have gained an increasingly central role in Swedish and global public debate in recent decades?",
+    "options": [
+      "Miljö, klimat och hållbar utveckling.",
+      "Ekonomisk tillväxt utan några miljöhänsyn.",
+      "Att alla miljölagar avskaffades.",
+      "Endast lokal sophantering."
+    ],
+    "optionsEn": [
+      "Environment, climate, and sustainable development.",
+      "Economic growth without any environmental consideration.",
+      "That all environmental laws were abolished.",
+      "Only local waste management."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Climate and sustainability have become central public issues.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-056",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "environment-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Hur hänger Sveriges moderna industriella utveckling ihop med dagens miljöutmaningar?",
+    "questionEn": "How is Sweden’s modern industrial development connected to today’s environmental challenges?",
+    "options": [
+      "Industrialisering och ökad konsumtion skapade högt välstånd men också utsläpp och resurspåverkan.",
+      "Industrins utveckling minskade automatiskt Sveriges totala resursförbrukning.",
+      "Miljöfrågor blev aktuella för svensk industri först genom EU-direktiv på 2000-talet.",
+      "Svensk basindustri var under hela perioden strikt reglerad för att helt undvika miljöpåverkan."
+    ],
+    "optionsEn": [
+      "Industrialization and increased consumption created high prosperity but also emissions and resource impact.",
+      "Industrial development automatically reduced Sweden’s total resource use.",
+      "Environmental issues became relevant for Swedish industry only through EU directives in the 2000s.",
+      "Swedish basic industry was strictly regulated throughout the period to completely avoid environmental impact."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Modern prosperity and industrial growth also created environmental consequences.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-057",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "environment-history"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "En kommun ställs inför beslutet att tillåta en ny gruva som ger många jobb men påverkar lokalmiljön negativt. Vilken samhällelig målkonflikt illustrerar detta?",
+    "questionEn": "A municipality faces a decision on allowing a new mine that creates many jobs but negatively affects the local environment. Which social goal conflict does this illustrate?",
+    "options": [
+      "Avvägningen mellan kortsiktig ekonomisk tillväxt och långsiktig miljömässig hållbarhet.",
+      "Motsättningen mellan statlig beskattning och kommunal självstyrelse.",
+      "Konflikten mellan militärt försvar och civil krishantering.",
+      "Målkonflikten mellan parlamentarism och direkt demokrati."
+    ],
+    "optionsEn": [
+      "The balance between short-term economic growth and long-term environmental sustainability.",
+      "The conflict between state taxation and municipal self-government.",
+      "The conflict between military defence and civil crisis management.",
+      "The goal conflict between parliamentarism and direct democracy."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Modern decisions often balance jobs, growth, environment, and sustainability.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-058",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "easy",
+    "tags": [
+      "modern-history",
+      "historical-change"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vilken övergripande historisk resa beskriver Sveriges utveckling från mitten av 1800-talet till idag?",
+    "questionEn": "Which overall historical journey describes Sweden’s development from the mid-1800s to today?",
+    "options": [
+      "Från ett fattigt jordbruksland till ett demokratiskt, industrialiserat välfärdssamhälle.",
+      "Från ett stormaktsvälde med kolonier till en avskild östat.",
+      "Från en absolut monarki till en militärdiktatur.",
+      "Från ett högteknologiskt samhälle till en renodlad råvaruekonomi."
+    ],
+    "optionsEn": [
+      "From a poor agricultural country to a democratic, industrialized welfare society.",
+      "From a great-power empire with colonies to an isolated island state.",
+      "From an absolute monarchy to a military dictatorship.",
+      "From a high-tech society to a purely raw-material economy."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Modern Swedish history is often described as a transformation from agrarian poverty to democratic welfare society.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-059",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "medium",
+    "tags": [
+      "modern-history",
+      "historical-change"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Varför är kunskap om modern svensk historia viktig för att förstå dagens samhälle?",
+    "questionEn": "Why is knowledge of modern Swedish history important for understanding today’s society?",
+    "options": [
+      "Den förklarar hur dagens rättigheter, välfärdssystem, institutioner och politiska debatter har vuxit fram.",
+      "Den visar att alla nuvarande lagar stiftades före år 1900.",
+      "Den bevisar att samhället inte har förändrats under de senaste 200 åren.",
+      "Den ersätter behovet av att förstå statsrätt och demokrati."
+    ],
+    "optionsEn": [
+      "It explains how today’s rights, welfare systems, institutions, and political debates developed.",
+      "It shows that all current laws were made before 1900.",
+      "It proves that society has not changed over the last 200 years.",
+      "It replaces the need to understand constitutional law and democracy."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Modern history helps explain current Swedish institutions and debates.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-ch10-060",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "everyday",
+    "difficulty": "hard",
+    "tags": [
+      "modern-history",
+      "scenario",
+      "historical-change"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia",
+    "questionSv": "Vilken sammanfattning fångar bäst de viktigaste krafterna bakom Sveriges moderna samhällsomvandling?",
+    "questionEn": "Which summary best captures the most important forces behind Sweden’s modern social transformation?",
+    "options": [
+      "Samverkan mellan industrialisering, folkrörelser, demokratiska reformer, välfärdssatsningar och internationellt utbyte.",
+      "Statens starka centralstyrning utan någon större inblandning från civilsamhället.",
+      "Utländskt kapital som helt övertog ägandet och förvaltningen av svenska naturresurser.",
+      "Sveriges snabba integrering i den europeiska marknaden under slutet av 1990-talet."
+    ],
+    "optionsEn": [
+      "Interaction between industrialization, popular movements, democratic reforms, welfare investments, and international exchange.",
+      "Strong state central control without much involvement from civil society.",
+      "Foreign capital that completely took over ownership and management of Swedish natural resources.",
+      "Sweden’s rapid integration into the European market in the late 1990s."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "Sweden’s modern transformation came from several connected social, economic, and political forces.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch010-001",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "housing-history",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "industrialisering"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (extra draft)",
+    "questionSv": "Vilken kritik har i efterhand riktats mot delar av miljonprogrammets bostadsområden?",
+    "questionEn": "What criticism has later been directed at parts of the Million Programme housing areas?",
+    "options": [
+      "Vissa områden fick med tiden problem med ensidig bebyggelse, slitage och social segregation.",
+      "Områdena revs alla under 1980-talet eftersom ingen ville bo där.",
+      "Bostäderna fick aldrig el eller rinnande vatten.",
+      "Kritiken gällde att områdena bara byggdes för statligt anställda."
+    ],
+    "optionsEn": [
+      "Some areas later developed problems with monotonous buildings, wear, and social segregation.",
+      "All the areas were demolished in the 1980s because no one wanted to live there.",
+      "The homes never had electricity or running water.",
+      "The criticism was that the areas were only built for government employees."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "The Million Programme solved an acute housing shortage, but some areas were later criticized for monotonous architecture and growing social segregation.",
+    "status": "draft"
+  },
+  {
+    "id": "draft-extra-ch010-013",
+    "chapterId": "modern-history",
+    "chapterNumber": 10,
+    "topicId": "security-policy",
+    "difficulty": "medium",
+    "tags": [
+      "extra",
+      "neutralitetspolitik"
+    ],
+    "source": "Sverige i fokus, chapter 10: Sveriges moderna historia (extra draft)",
+    "questionSv": "Vilken stor förändring skedde i Sveriges säkerhetspolitik år 2024?",
+    "questionEn": "What major change happened in Sweden’s security policy in 2024?",
+    "options": [
+      "Sverige blev medlem i försvarsalliansen Nato och lämnade den militära alliansfriheten.",
+      "Sverige avskaffade sitt militära försvar och förlitade sig på FN.",
+      "Sverige lämnade EU för att kunna vara helt neutralt.",
+      "Sverige bildade en egen militär allians med enbart de nordiska länderna."
+    ],
+    "optionsEn": [
+      "Sweden became a member of the NATO defense alliance and left military non-alignment.",
+      "Sweden abolished its military defense and relied on the UN.",
+      "Sweden left the EU to become completely neutral.",
+      "Sweden formed its own military alliance with only the Nordic countries."
+    ],
+    "correctIndex": 0,
+    "explanationEn": "In March 2024 Sweden joined NATO, ending its long policy of military non-alignment that had characterized the 20th century.",
+    "status": "draft"
+  }
+]

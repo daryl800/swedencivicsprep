@@ -1,0 +1,341 @@
+[
+  {
+    "id": "draft-batch-a-ch02-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch02-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch02-003",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch02-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch02-005",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch02-006",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch02-007",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch02-008",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch02-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch02-010",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch02-011",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch02-012",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch02-013",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch02-014",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch02-015",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-001",
+    "verdict": "needs_edit",
+    "issues": [
+      "Duplication (criterion 8): near-duplicate of draft-batch-a-ch05-006 — both test 'a politician/minister must not direct a court', just framed as public pressure vs direct instruction. Strong overlap on the same principle.",
+      "Suggested: rework to a distinct facet of judicial independence (e.g. security of tenure / judges cannot be replaced for their rulings) so it is not redundant with ch05-006. Keep correct answer at index 0."
+    ],
+    "duplicateOf": "draft-batch-a-ch05-006",
+    "suggestedQuestionSv": "En minister säger att en domare som dömer annorlunda än regeringen vill ska bytas ut. Vad strider detta mot?",
+    "suggestedOptions": [
+      "Domstolarnas oberoende och att domare inte får avsättas för sina domar.",
+      "Regeringen ska utse vilka domare som får döma i varje mål.",
+      "Riksdagen får bestämma utfallet i enskilda domar.",
+      "Domare utses av partierna inför varje val."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "Judges must be independent and cannot be removed or replaced for how they rule; political pressure on individual rulings undermines the rule of law."
+  },
+  {
+    "id": "draft-batch-a-ch03-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-003",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-005",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-006",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-007",
+    "verdict": "needs_edit",
+    "issues": [
+      "Duplication (criterion 8): near-duplicate of draft-batch-a-ch03-008 — both conclude that municipality and region have different responsibilities. Redundant within the same chapter.",
+      "Suggested: sharpen to a distinct angle (e.g. who actually sets each level's priorities via its own elected assembly and budget) rather than repeating the responsibility split. Keep correct answer at index 0."
+    ],
+    "duplicateOf": "draft-batch-a-ch03-008",
+    "suggestedQuestionSv": "En region satsar på vårdcentraler medan kommunen satsar på äldreomsorg. Vem bestämmer i slutänden hur de offentliga prioriteringarna ser ut?",
+    "suggestedOptions": [
+      "De folkvalda i region respektive kommun, utifrån sina egna budgetar och val.",
+      "Regeringen bestämmer i detalj hur varje kommun och region ska spendera.",
+      "Riksbanken fördelar pengarna mellan kommuner och regioner.",
+      "Medborgarna röstar bara i riksdagsvalet och har inget inflytande lokalt."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "Regional and municipal priorities are set by their own elected representatives through their own budgets and elections, not by central government."
+  },
+  {
+    "id": "draft-batch-a-ch03-008",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-010",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-011",
+    "verdict": "needs_edit",
+    "issues": [
+      "Duplication (criterion 8): near-duplicate of draft-batch-a-ch03-002 — both use 'government wants X but lacks Riksdag support' and test that the government needs the Riksdag for legislation. Very close setup and principle.",
+      "Suggested: rework to a distinct step of the legislative process (e.g. the Riksdag's power to amend a government bill) so it is not redundant with ch03-002. Keep correct answer at index 0."
+    ],
+    "duplicateOf": "draft-batch-a-ch03-002",
+    "suggestedQuestionSv": "Regeringen lägger en proposition, men riksdagsledamöter från flera partier vill ändra förslaget. Vad händer normalt i riksdagen?",
+    "suggestedOptions": [
+      "Riksdagen kan granska, ändra och anta en egen version av förslaget.",
+      "Regeringen bestämmer slutgiltigt hur lagen ska lyta oavsett riksdagen.",
+      "Förslaget blir automatiskt lag utan omröstning.",
+      "Domstolarna skriver om förslaget till en lag."
+    ],
+    "suggestedCorrectIndex": 0,
+    "suggestedExplanationEn": "The Riksdag reviews, amends, and adopts its own version of government proposals; the government cannot unilaterally decide the final wording of a law."
+  },
+  {
+    "id": "draft-batch-a-ch03-012",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-013",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-014",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch03-015",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-003",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-005",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-006",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-007",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-008",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-010",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-011",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-012",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-013",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-014",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch04-015",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-001",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-002",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-003",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-004",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-005",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-006",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-007",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-008",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-009",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-010",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-011",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-012",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-013",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-014",
+    "verdict": "approve",
+    "issues": []
+  },
+  {
+    "id": "draft-batch-a-ch05-015",
+    "verdict": "approve",
+    "issues": []
+  }
+]
