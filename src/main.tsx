@@ -1688,11 +1688,14 @@ function ProgressDashboardPage({
   const chapterStats = getChapterDashboardStats(progress, ui);
   const recentMistakes = getRecentMistakes(progress, ui);
   const accessibleQuestionCount = getAccessibleQuestions(QUESTIONS).length;
-  const practicedQuestions = progress.answeredIds.filter((questionId) => QUESTIONS.some((question) => question.id === questionId)).length;
-  const totalKnownAnswers = Object.values(progress.answers || {});
-  const correct = totalKnownAnswers.reduce((sum, answer) => sum + answer.correct, 0);
-  const attempts = totalKnownAnswers.reduce((sum, answer) => sum + answer.attempts, 0);
-  const wrong = totalKnownAnswers.reduce((sum, answer) => sum + answer.wrong, 0);
+  const currentQuestionIds = new Set(QUESTIONS.map((question) => question.id));
+  const practicedQuestions = progress.answeredIds.filter((questionId) => currentQuestionIds.has(questionId)).length;
+  const currentKnownAnswers = Object.entries(progress.answers || {})
+    .filter(([questionId]) => currentQuestionIds.has(questionId))
+    .map(([, answer]) => answer);
+  const correct = currentKnownAnswers.reduce((sum, answer) => sum + answer.correct, 0);
+  const attempts = currentKnownAnswers.reduce((sum, answer) => sum + answer.attempts, 0);
+  const wrong = currentKnownAnswers.reduce((sum, answer) => sum + answer.wrong, 0);
   const accuracy = attempts > 0 ? Math.round((correct / attempts) * 100) : 0;
   const weakChapters = chapterStats
     .filter((chapter) => chapter.attempts > 0 && chapter.wrong > 0)
