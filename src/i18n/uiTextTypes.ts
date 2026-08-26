@@ -70,6 +70,18 @@ export type UiText = {
   progressDashboardIntro: string;
   flashcardsTitle: string;
   flashcardsPreview: string;
+  flashcardsIntro: string;
+  flashcardsAllChapters: string;
+  flashcardsChapterFilter: string;
+  flashcardsShuffle: string;
+  flashcardsQuestionSide: string;
+  flashcardsAnswerSide: string;
+  flashcardsKnown: string;
+  flashcardsReviewAgain: string;
+  flashcardsKnownCount: (count: number) => string;
+  flashcardsReviewCount: (count: number) => string;
+  flashcardsCardProgress: (current: number, total: number) => string;
+  flashcardsDeckEmpty: string;
   feedbackTitle: string;
   feedbackIntro: string;
   feedbackPromptTitle: string;

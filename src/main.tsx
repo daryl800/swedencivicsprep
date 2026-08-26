@@ -2860,6 +2860,10 @@ function getMockExamResult(questions: Question[], answers: MockExamAnswerMap, ui
   return { correct, percent, weakChapters };
 }
 
+type FlashcardMark = "known" | "review";
+
+type FlashcardSessionMarks = Record<string, FlashcardMark>;
+
 function FlashcardsPreviewPage({
   language,
   onBack,
@@ -2871,20 +2875,45 @@ function FlashcardsPreviewPage({
   onSelectLanguage: (language: UiLanguage) => void;
   ui: UiText;
 }) {
-  const cards = LESSONS.flatMap((lesson) =>
-    lesson.vocabulary.map((item) => ({
-      topic: ui.topicNames[lesson.topicId] || lesson.topicId,
-      sv: item.sv,
-      translation: item.translations[language] || item.translations.en
-    }))
-  );
+  const [chapterId, setChapterId] = useState("all");
+  const [cards, setCards] = useState<Question[]>(() => createFlashcardDeck("all"));
   const [cardIndex, setCardIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
+  const [marks, setMarks] = useState<FlashcardSessionMarks>({});
   const card = cards[cardIndex];
+  const currentChapter = card ? OFFICIAL_CHAPTERS.find((chapter) => chapter.id === card.chapterId) : undefined;
+  const selectedChapter = chapterId === "all" ? undefined : OFFICIAL_CHAPTERS.find((chapter) => chapter.id === chapterId);
+  const knownCount = Object.values(marks).filter((mark) => mark === "known").length;
+  const reviewCount = Object.values(marks).filter((mark) => mark === "review").length;
+
+  function refreshDeck(nextChapterId = chapterId) {
+    const nextCards = createFlashcardDeck(nextChapterId);
+    setCards(nextCards);
+    setCardIndex(0);
+    setFlipped(false);
+  }
+
+  function handleChapterChange(nextChapterId: string) {
+    setChapterId(nextChapterId);
+    refreshDeck(nextChapterId);
+    trackEvent("flashcards_filter_changed", { chapterId: nextChapterId, uiLanguage: language });
+  }
+
+  function previousCard() {
+    setFlipped(false);
+    setCardIndex((current) => (current - 1 + cards.length) % cards.length);
+  }
 
   function nextCard() {
     setFlipped(false);
     setCardIndex((current) => (current + 1) % cards.length);
+  }
+
+  function markCard(mark: FlashcardMark) {
+    if (!card) return;
+    setMarks((current) => ({ ...current, [card.id]: mark }));
+    trackEvent("flashcard_marked", { chapterId: card.chapterId, mark, questionId: card.id, uiLanguage: language });
+    nextCard();
   }
 
   return (
@@ -2897,29 +2926,95 @@ function FlashcardsPreviewPage({
       </nav>
 
       <section className="flashcard-page">
-        <div className="section-heading">
-          <p className="eyebrow">{ui.flashcardsPreview}</p>
-          <h1>{ui.flashcardsTitle}</h1>
-          <p>{ui.comingNextItems[0].body}</p>
+        <div className="section-heading flashcard-heading">
+          <div>
+            <p className="eyebrow">{ui.flashcardsPreview}</p>
+            <h1>{ui.flashcardsTitle}</h1>
+            <p dir={getTextDirection(ui.flashcardsIntro)}>{ui.flashcardsIntro}</p>
+          </div>
+          <div className="flashcard-stats" aria-label={ui.flashcardsTitle}>
+            <span>{ui.flashcardsKnownCount(knownCount)}</span>
+            <span>{ui.flashcardsReviewCount(reviewCount)}</span>
+            <span>{HAS_FULL_ACCESS ? ui.fullAccessBadge : ui.freeTierBadge}</span>
+          </div>
         </div>
 
-        <button className={`flashcard ${flipped ? "flipped" : ""}`} type="button" onClick={() => setFlipped((current) => !current)}>
-          <span>{card.topic}</span>
-          <strong lang="sv">{flipped ? card.translation : card.sv}</strong>
-          <small>{flipped ? card.sv : ui.flipCard}</small>
-        </button>
-
-        <div className="actions">
-          <button className="primary" type="button" onClick={() => setFlipped((current) => !current)}>
-            {ui.flipCard}
-          </button>
-          <button className="secondary" type="button" onClick={nextCard}>
-            {ui.nextCard}
+        <div className="flashcard-controls">
+          <label>
+            <span>{ui.flashcardsChapterFilter}</span>
+            <select value={chapterId} onChange={(event) => handleChapterChange(event.target.value)}>
+              <option value="all">{ui.flashcardsAllChapters}</option>
+              {OFFICIAL_CHAPTERS.map((chapter) => (
+                <option key={chapter.id} value={chapter.id}>
+                  {chapter.number}. {ui.chapterNames[chapter.id] || chapter.nameSv}
+                </option>
+              ))}
+            </select>
+          </label>
+          <button className="secondary" type="button" onClick={() => refreshDeck()}>
+            {ui.flashcardsShuffle}
           </button>
         </div>
+
+        {card ? (
+          <>
+            <button className={"flashcard question-flashcard" + (flipped ? " flipped" : "")} type="button" onClick={() => setFlipped((current) => !current)}>
+              <span className="flashcard-side-label">{flipped ? ui.flashcardsAnswerSide : ui.flashcardsQuestionSide}</span>
+              <small>
+                {currentChapter ? currentChapter.number + ". " + (ui.chapterNames[currentChapter.id] || currentChapter.nameSv) : selectedChapter?.nameSv || ui.flashcardsAllChapters}
+              </small>
+              {flipped ? (
+                <span className="flashcard-answer-content">
+                  <strong lang="sv">{card.options[card.correctIndex]}</strong>
+                  <em>{getExplanation(card, language, ui)}</em>
+                </span>
+              ) : (
+                <strong lang="sv">{card.questionSv}</strong>
+              )}
+            </button>
+
+            <div className="flashcard-progress-row">
+              <span>{ui.flashcardsCardProgress(cardIndex + 1, cards.length)}</span>
+              <div className="topic-progress-track" aria-hidden="true">
+                <span style={{ width: ((cardIndex + 1) / cards.length) * 100 + "%" }} />
+              </div>
+            </div>
+
+            <div className="actions flashcard-actions">
+              <button className="secondary" type="button" onClick={previousCard}>
+                {ui.mockExamPrevious}
+              </button>
+              <button className="primary" type="button" onClick={() => setFlipped((current) => !current)}>
+                {ui.flipCard}
+              </button>
+              <button className="secondary" type="button" onClick={nextCard}>
+                {ui.nextCard}
+              </button>
+            </div>
+
+            <div className="flashcard-rating-actions">
+              <button className="review" type="button" disabled={!flipped} onClick={() => markCard("review")}>
+                {ui.flashcardsReviewAgain}
+              </button>
+              <button className="known" type="button" disabled={!flipped} onClick={() => markCard("known")}>
+                {ui.flashcardsKnown}
+              </button>
+            </div>
+          </>
+        ) : (
+          <div className="flashcard-empty">
+            <p>{ui.flashcardsDeckEmpty}</p>
+          </div>
+        )}
       </section>
     </main>
   );
+}
+
+function createFlashcardDeck(chapterId: string) {
+  const pool = getAccessibleQuestions(QUESTIONS).filter((question) => chapterId === "all" || question.chapterId === chapterId);
+  const seed = Date.now();
+  return [...pool].sort((left, right) => seededQuestionRank(left.id, seed) - seededQuestionRank(right.id, seed));
 }
 
 function getTopicStats(topic: Topic, progress: Progress, ui: UiText) {

@@ -2129,6 +2129,154 @@ h3 {
   font-weight: 700;
 }
 
+.flashcard-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-5);
+}
+
+.flashcard-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+  min-width: 240px;
+}
+
+.flashcard-stats span {
+  border: 1px solid #cbdced;
+  border-radius: 999px;
+  background: #ffffff;
+  padding: 8px 12px;
+  color: var(--color-gray-700);
+  font-size: 0.9rem;
+  font-weight: 850;
+}
+
+.flashcard-controls {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-top: var(--space-5);
+}
+
+.flashcard-controls label {
+  display: grid;
+  gap: 6px;
+  width: min(100%, 460px);
+  color: var(--color-gray-700);
+  font-size: 0.86rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.flashcard-controls select {
+  min-height: 48px;
+  border: 1px solid #cbdced;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 0 14px;
+  color: var(--color-gray-900);
+  font-weight: 800;
+}
+
+.question-flashcard {
+  gap: 14px;
+  width: min(100%, 820px);
+  min-height: 360px;
+  align-content: center;
+  background:
+    linear-gradient(135deg, rgba(254, 204, 0, 0.12), transparent 34%),
+    linear-gradient(145deg, #eef7ff 0%, #ffffff 62%);
+}
+
+.question-flashcard.flipped {
+  background:
+    linear-gradient(135deg, rgba(22, 163, 74, 0.11), transparent 36%),
+    linear-gradient(145deg, #f0fdf4 0%, #ffffff 62%);
+}
+
+.question-flashcard .flashcard-side-label {
+  display: inline-flex;
+  width: fit-content;
+  place-self: center;
+  border-radius: 999px;
+  background: var(--sweden-blue);
+  padding: 6px 12px;
+  color: #ffffff;
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
+.question-flashcard strong {
+  display: block;
+  max-width: 760px;
+  color: #103e83;
+  font-size: clamp(1.65rem, 4vw, 2.8rem);
+  line-height: 1.18;
+}
+
+.flashcard-answer-content {
+  display: grid;
+  gap: var(--space-4);
+  justify-items: center;
+}
+
+.flashcard-answer-content em {
+  display: block;
+  max-width: 720px;
+  color: var(--color-gray-700);
+  font-size: 1.04rem;
+  font-style: normal;
+  font-weight: 650;
+}
+
+.flashcard-progress-row {
+  display: grid;
+  gap: 8px;
+  width: min(100%, 820px);
+  margin: var(--space-4) auto 0;
+  color: var(--muted);
+  font-weight: 850;
+}
+
+.flashcard-actions,
+.flashcard-rating-actions {
+  justify-content: center;
+  margin-top: var(--space-4);
+}
+
+.flashcard-rating-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.flashcard-rating-actions button {
+  min-width: 170px;
+  color: #ffffff;
+}
+
+.flashcard-rating-actions .review {
+  background: linear-gradient(135deg, #c2416b, #e11d48);
+}
+
+.flashcard-rating-actions .known {
+  background: linear-gradient(135deg, #15803d, #16a34a);
+}
+
+.flashcard-empty {
+  margin-top: var(--space-6);
+  border: 1px solid #d9e5f2;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: var(--space-6);
+  color: var(--muted);
+  font-weight: 750;
+}
+
 .topic-card,
 .practice {
   border: 1px solid var(--border);
