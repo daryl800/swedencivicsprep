@@ -419,6 +419,7 @@ function App() {
         language={language}
         onBack={goHome}
         onSelectLanguage={handleLanguageChange}
+        onSelectChapter={goChapter}
         onSelectTopic={goTopic}
         progress={progress}
         ui={ui}
@@ -1669,6 +1670,7 @@ function PrivacyPage({
 function ProgressDashboardPage({
   language,
   onBack,
+  onSelectChapter,
   onSelectLanguage,
   onSelectTopic,
   progress,
@@ -1676,22 +1678,30 @@ function ProgressDashboardPage({
 }: {
   language: UiLanguage;
   onBack: () => void;
+  onSelectChapter: (chapterId: string) => void;
   onSelectLanguage: (language: UiLanguage) => void;
   onSelectTopic: (topicId: string) => void;
   progress: Progress;
   ui: UiText;
 }) {
   const topicStats = TOPICS.map((topic) => getTopicStats(topic, progress, ui));
-  const practicedQuestions = progress.answeredIds.length;
-  const totalQuestions = QUESTIONS.length;
+  const chapterStats = getChapterDashboardStats(progress, ui);
+  const recentMistakes = getRecentMistakes(progress, ui);
+  const accessibleQuestionCount = getAccessibleQuestions(QUESTIONS).length;
+  const practicedQuestions = progress.answeredIds.filter((questionId) => QUESTIONS.some((question) => question.id === questionId)).length;
   const totalKnownAnswers = Object.values(progress.answers || {});
   const correct = totalKnownAnswers.reduce((sum, answer) => sum + answer.correct, 0);
   const attempts = totalKnownAnswers.reduce((sum, answer) => sum + answer.attempts, 0);
+  const wrong = totalKnownAnswers.reduce((sum, answer) => sum + answer.wrong, 0);
   const accuracy = attempts > 0 ? Math.round((correct / attempts) * 100) : 0;
+  const weakChapters = chapterStats
+    .filter((chapter) => chapter.attempts > 0 && chapter.wrong > 0)
+    .sort((left, right) => left.accuracy - right.accuracy || right.wrong - left.wrong)
+    .slice(0, 5);
   const weakTopic = [...topicStats]
     .filter((topic) => topic.attempts > 0)
     .sort((a, b) => a.accuracy - b.accuracy || b.wrong - a.wrong)[0];
-  const recommended = weakTopic || [...topicStats].sort((a, b) => a.completedPercent - b.completedPercent)[0];
+  const recommendedChapter = weakChapters[0] || [...chapterStats].sort((a, b) => a.completedPercent - b.completedPercent || a.number - b.number)[0];
 
   function handleOpenStudy() {
     onBack();
@@ -1701,6 +1711,11 @@ function ProgressDashboardPage({
   }
 
   function handleOpenPractice() {
+    if (recommendedChapter) {
+      onSelectChapter(recommendedChapter.id);
+      return;
+    }
+
     onSelectTopic(TOPICS[0]?.id || "democracy");
   }
 
@@ -1715,47 +1730,111 @@ function ProgressDashboardPage({
         </nav>
 
         <section className="dashboard-page">
-          <div className="section-heading">
-            <p className="eyebrow">{ui.overallProgress}</p>
-            <h1>{ui.progressDashboardTitle}</h1>
-            <p>{ui.progressDashboardIntro}</p>
+          <div className="section-heading dashboard-heading">
+            <div>
+              <p className="eyebrow">{ui.overallProgress}</p>
+              <h1>{ui.progressDashboardTitle}</h1>
+              <p>{ui.progressDashboardIntro}</p>
+            </div>
+            <p className="dashboard-local-note">{ui.progressLocalOnlyNote}</p>
           </div>
 
-        <div className="dashboard-stats">
-          <article>
-            <strong>{practicedQuestions}/{totalQuestions}</strong>
-            <span>{ui.topicProgress(practicedQuestions, totalQuestions)}</span>
-          </article>
-          <article>
-            <strong>{progress.today}</strong>
-            <span>{ui.today}</span>
-          </article>
-          <article>
-            <strong>{accuracy}%</strong>
-            <span>{ui.topicAccuracy}</span>
-          </article>
-          <article>
-            <strong>{recommended?.name || "-"}</strong>
-            <span>{ui.recommendedNext}</span>
-          </article>
-        </div>
+          <div className="dashboard-stats dashboard-stats-expanded">
+            <article>
+              <strong>{practicedQuestions}/{QUESTIONS.length}</strong>
+              <span>{ui.progressAnsweredMetric}</span>
+            </article>
+            <article>
+              <strong>{accessibleQuestionCount}/{QUESTIONS.length}</strong>
+              <span>{ui.progressAccessibleMetric}</span>
+            </article>
+            <article>
+              <strong>{accuracy}%</strong>
+              <span>{ui.progressAccuracyMetric}</span>
+            </article>
+            <article>
+              <strong>{progress.today}</strong>
+              <span>{ui.progressTodayMetric}</span>
+            </article>
+          </div>
 
-        {weakTopic ? (
-          <section className="weak-topic">
-            <p className="eyebrow">{ui.weakTopic}</p>
-            <h2>{weakTopic.name}</h2>
-            <p>{ui.weakTopicAdvice(weakTopic.wrong)}</p>
-            <button className="primary" type="button" onClick={() => onSelectTopic(weakTopic.id)}>
-              {ui.continuePractice}
-            </button>
-          </section>
-        ) : null}
+          {recommendedChapter ? (
+            <section className="dashboard-recommendation">
+              <div>
+                <p className="eyebrow">{ui.recommendedNext}</p>
+                <h2>{recommendedChapter.number}. {recommendedChapter.name}</h2>
+                <p>{recommendedChapter.wrong > 0 ? ui.progressWrongCount(recommendedChapter.wrong) : ui.topicProgress(recommendedChapter.completed, recommendedChapter.total)}</p>
+              </div>
+              <button className="primary" type="button" onClick={() => onSelectChapter(recommendedChapter.id)}>
+                {ui.progressReviewNow}
+              </button>
+            </section>
+          ) : null}
+
+          <div className="dashboard-insight-grid">
+            <section className="dashboard-panel weak-chapter-panel">
+              <div className="dashboard-panel-heading">
+                <h2>{ui.progressWeakChaptersTitle}</h2>
+                <span>{wrong > 0 ? ui.progressWrongCount(wrong) : ui.topicAccuracy}</span>
+              </div>
+              {weakChapters.length > 0 ? (
+                <div className="weak-chapter-list">
+                  {weakChapters.map((chapter) => (
+                    <article className="weak-chapter-item" key={chapter.id}>
+                      <div>
+                        <strong>{chapter.number}. {chapter.name}</strong>
+                        <span>{ui.progressAttempts(chapter.attempts)} · {ui.progressWrongCount(chapter.wrong)}</span>
+                      </div>
+                      <button className="secondary" type="button" onClick={() => onSelectChapter(chapter.id)}>
+                        {ui.progressReviewNow}
+                      </button>
+                    </article>
+                  ))}
+                </div>
+              ) : (
+                <p className="dashboard-empty">{ui.progressNoWeakChapters}</p>
+              )}
+            </section>
+
+            <section className="dashboard-panel recent-mistakes-panel">
+              <div className="dashboard-panel-heading">
+                <h2>{ui.progressRecentMistakesTitle}</h2>
+                <span>{recentMistakes.length}</span>
+              </div>
+              {recentMistakes.length > 0 ? (
+                <div className="recent-mistake-list">
+                  {recentMistakes.map((item) => (
+                    <article className="recent-mistake-item" key={item.id}>
+                      <p>{item.chapterNumber}. {item.chapterName}</p>
+                      <strong lang="sv">{item.questionSv}</strong>
+                      <button className="secondary" type="button" onClick={() => onSelectChapter(item.chapterId)}>
+                        {ui.progressReviewNow}
+                      </button>
+                    </article>
+                  ))}
+                </div>
+              ) : (
+                <p className="dashboard-empty">{ui.progressNoRecentMistakes}</p>
+              )}
+            </section>
+          </div>
+
+          {weakTopic ? (
+            <section className="weak-topic">
+              <p className="eyebrow">{ui.weakTopic}</p>
+              <h2>{weakTopic.name}</h2>
+              <p>{ui.weakTopicAdvice(weakTopic.wrong)}</p>
+              <button className="primary" type="button" onClick={() => onSelectTopic(weakTopic.id)}>
+                {ui.continuePractice}
+              </button>
+            </section>
+          ) : null}
 
           <div className="topic-dashboard-grid">
             {topicStats.map((topic) => {
               const visual = TOPIC_VISUALS[topic.id as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
               const Icon = visual.icon;
-              const chapterStats = getChapterStatsForTopic(topic.id, progress, ui);
+              const chapterStatsForTopic = getChapterStatsForTopic(topic.id, progress, ui);
               const status =
                 topic.completedPercent === 100
                   ? { label: ui.moduleMastered, className: "mastered" }
@@ -1764,7 +1843,7 @@ function ProgressDashboardPage({
                     : { label: ui.moduleNotStarted, className: "not-started" };
 
               return (
-                <article className={`topic-dashboard-card accent-${visual.accent}`} key={topic.id}>
+                <article className={"topic-dashboard-card accent-" + visual.accent} key={topic.id}>
                   <div className="topic-dashboard-heading">
                     <span className="topic-icon" aria-hidden="true">
                       <Icon size={24} strokeWidth={2.2} />
@@ -1773,7 +1852,7 @@ function ProgressDashboardPage({
                       <h2>{topic.name}</h2>
                       <p dir="ltr">{topic.nameSv}</p>
                     </div>
-                    <span className={`module-status ${status.className}`}>{status.label}</span>
+                    <span className={"module-status " + status.className}>{status.label}</span>
                   </div>
                   <div className="topic-progress">
                     <div className="topic-progress-row">
@@ -1781,13 +1860,15 @@ function ProgressDashboardPage({
                       <strong>{topic.completedPercent}%</strong>
                     </div>
                     <div className="topic-progress-track" aria-hidden="true">
-                      <span style={{ width: `${topic.completedPercent}%` }} />
+                      <span style={{ width: topic.completedPercent + "%" }} />
                     </div>
                   </div>
-                  <ChapterProgressList stats={chapterStats} ui={ui} />
-                  <p>
-                    {ui.topicAccuracy}: <strong>{topic.accuracy}%</strong>
-                  </p>
+                  <div className="dashboard-topic-meta">
+                    <span>{ui.progressAttempts(topic.attempts)}</span>
+                    <span>{ui.topicAccuracy}: {topic.accuracy}%</span>
+                    <span>{ui.progressWrongCount(topic.wrong)}</span>
+                  </div>
+                  <ChapterProgressList stats={chapterStatsForTopic} ui={ui} />
                   <button className="secondary" type="button" onClick={() => onSelectTopic(topic.id)}>
                     {topic.completed > 0 ? ui.continuePractice : ui.startPractice}
                   </button>
@@ -1808,6 +1889,63 @@ function ProgressDashboardPage({
       />
     </>
   );
+}
+
+type ChapterDashboardStat = {
+  id: string;
+  number: number;
+  name: string;
+  total: number;
+  completed: number;
+  completedPercent: number;
+  attempts: number;
+  correct: number;
+  wrong: number;
+  accuracy: number;
+};
+
+function getChapterDashboardStats(progress: Progress, ui: UiText): ChapterDashboardStat[] {
+  return OFFICIAL_CHAPTERS.map((chapter) => {
+    const questions = getAccessibleQuestions(QUESTIONS.filter((question) => question.chapterId === chapter.id));
+    const questionIds = new Set(questions.map((question) => question.id));
+    const answers = questions.map((question) => progress.answers?.[question.id]).filter(Boolean);
+    const attempts = answers.reduce((sum, answer) => sum + answer.attempts, 0);
+    const correct = answers.reduce((sum, answer) => sum + answer.correct, 0);
+    const wrong = answers.reduce((sum, answer) => sum + answer.wrong, 0);
+    const completed = progress.answeredIds.filter((questionId) => questionIds.has(questionId)).length;
+
+    return {
+      id: chapter.id,
+      number: chapter.number,
+      name: ui.chapterNames[chapter.id] || chapter.nameSv,
+      total: questions.length,
+      completed,
+      completedPercent: questions.length > 0 ? Math.round((completed / questions.length) * 100) : 0,
+      attempts,
+      correct,
+      wrong,
+      accuracy: attempts > 0 ? Math.round((correct / attempts) * 100) : 0
+    };
+  });
+}
+
+function getRecentMistakes(progress: Progress, ui: UiText) {
+  return [...progress.answeredIds]
+    .reverse()
+    .map((questionId) => QUESTIONS.find((question) => question.id === questionId))
+    .filter((question): question is Question => Boolean(question && progress.answers?.[question.id]?.lastCorrect === false))
+    .slice(0, 5)
+    .map((question) => {
+      const chapter = OFFICIAL_CHAPTERS.find((item) => item.id === question.chapterId);
+
+      return {
+        id: question.id,
+        chapterId: question.chapterId,
+        chapterName: chapter ? ui.chapterNames[chapter.id] || chapter.nameSv : question.chapterId,
+        chapterNumber: chapter?.number || 0,
+        questionSv: question.questionSv
+      };
+    });
 }
 
 function getMobileNavLabels(language: UiLanguage, ui: UiText) {

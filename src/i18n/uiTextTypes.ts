@@ -68,6 +68,18 @@ export type UiText = {
   mockExamRestart: string;
   progressDashboardTitle: string;
   progressDashboardIntro: string;
+  progressAnsweredMetric: string;
+  progressAccessibleMetric: string;
+  progressAccuracyMetric: string;
+  progressTodayMetric: string;
+  progressWeakChaptersTitle: string;
+  progressNoWeakChapters: string;
+  progressRecentMistakesTitle: string;
+  progressNoRecentMistakes: string;
+  progressReviewNow: string;
+  progressAttempts: (attempts: number) => string;
+  progressWrongCount: (wrong: number) => string;
+  progressLocalOnlyNote: string;
   flashcardsTitle: string;
   flashcardsPreview: string;
   flashcardsIntro: string;
