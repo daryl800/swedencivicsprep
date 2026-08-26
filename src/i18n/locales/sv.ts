@@ -12,7 +12,7 @@ export const svUiText: UiText = {
     navStartPractice: "Testa 5 frågor",
     heroPrimaryCta: "Testa 5 svenska frågor →",
     heroSecondaryCta: "Välj ämne",
-    heroTrustBadge: "Svenska frågor • Förklaringar på valt språk • Baserat på Sverige i fokus",
+    heroTrustBadge: "Svenska frågor • engelska förklaringar först • Baserat på Sverige i fokus",
     heroMockLabel: "Exempel från träningen",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -21,10 +21,15 @@ export const svUiText: UiText = {
     heroMockExplanationLabel: "Kort förklaring",
     heroMockExplanation: "Demokrati betyder att människor kan påverka samhället genom val, yttrandefrihet och delaktighet.",
     proofStats: [
-      { value: "48", label: "samhällsfrågor" },
+      { value: "1 000", label: "granskade träningsfrågor" },
       { value: "13", label: "officiella kapitel kartlagda" },
-      { value: "5 frågor", label: "snabb första träning" }
+      { value: "65", label: "planerade gratisfrågor" }
     ],
+    freeTierBadge: "Gratisprov",
+    fullAccessBadge: "Full åtkomst",
+    freeSampleSummary: (freeCount, totalCount) => `${freeCount} gratis / ${totalCount}`,
+    upgradePromptTitle: "Hela frågebanken är låst",
+    upgradePromptBody: (lockedCount, totalCount) => `${lockedCount} av ${totalCount} frågor sparas till fullversionen. Betalning kopplas in i nästa steg.`,
     earlyAccessTitle: "Oberoende guide",
     earlyAccessMessage: `Studera med Sverige i fokus
 
@@ -77,6 +82,8 @@ Använd Swedish Civics Test Preparation som en oberoende träningsguide: läs f�
     takeawaysTitle: "Viktiga punkter",
     vocabularyTitle: "Viktiga svenska ord",
     chaptersLabel: "Officiella kapitel",
+    viewChapters: "Visa kapitel",
+    chooseOtherArea: "Välj annat område",
     topicSelectorLabel: "Välj träningsområde",
     allTopics: "Alla ämnen",
     roadmapStep: (current, total) => `Steg ${current} av ${total}`,

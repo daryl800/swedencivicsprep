@@ -11,12 +11,14 @@ import { analyticsStatus, trackEvent, trackPageView } from "./analytics";
 import { CITIZENSHIP_UPDATE, FAQ_CONTENT, LEGAL_CONTENT } from "./i18n/content";
 import { SUPPORTED_LANGUAGES, UI_TEXT, type UiText } from "./i18n/uiText";
 import { loadProgress, recordAnswered, resetProgress } from "./progress";
-import type { ExplanationLanguage, Lesson, Progress, Question, Topic, UiLanguage } from "./types";
+import type { Chapter, ExplanationLanguage, Lesson, Progress, Question, Topic, UiLanguage } from "./types";
 import "./styles.css";
 
 type Route =
   | { page: "home" }
   | { page: "topic"; topicId: string }
+  | { page: "area"; topicId: string }
+  | { page: "chapter"; chapterId: string }
   | { page: "quick" }
   | { page: "question-review" }
   | { page: "progress" }
@@ -28,7 +30,13 @@ type Route =
 type MobileNavTarget = "home" | "study" | "practice" | "progress";
 
 const QUICK_START_TOPIC_ID = "quick-start";
-const QUICK_START_QUESTION_IDS = ["democracy-001", "rights-001", "everyday-001", "authorities-001", "democracy-002"];
+const QUICK_START_QUESTION_IDS = [
+  "draft-batch-a-ch02-001",
+  "draft-batch-a-ch05-001",
+  "draft-batch-b-ch09-001",
+  "draft-batch-a-ch03-001",
+  "draft-batch-b-ch06-001"
+];
 const QUICK_START_TOPIC: Topic = {
   id: QUICK_START_TOPIC_ID,
   nameSv: "Snabbträning",
@@ -38,6 +46,16 @@ const QUICK_START_TOPIC: Topic = {
 const QUICK_START_QUESTIONS = QUICK_START_QUESTION_IDS
   .map((questionId) => QUESTIONS.find((question) => question.id === questionId))
   .filter((question): question is Question => Boolean(question));
+const FREE_QUESTIONS_PER_CHAPTER = 5;
+const HAS_FULL_ACCESS = import.meta.env.VITE_FULL_ACCESS === "true";
+const FREE_SAMPLE_QUESTION_IDS = new Set(
+  OFFICIAL_CHAPTERS.flatMap((chapter) =>
+    QUESTIONS
+      .filter((question) => question.chapterId === chapter.id)
+      .slice(0, FREE_QUESTIONS_PER_CHAPTER)
+      .map((question) => question.id)
+  )
+);
 
 const TOPIC_VISUALS = {
   democracy: { icon: Landmark, accent: "blue" },
@@ -201,7 +219,8 @@ function App() {
   useEffect(() => {
     trackPageView(getRouteName(route), {
       uiLanguage: language,
-      topicId: route.page === "topic" ? route.topicId : undefined
+      topicId: route.page === "topic" || route.page === "area" ? route.topicId : undefined,
+      chapterId: route.page === "chapter" ? route.chapterId : undefined
     });
   }, [language, route]);
 
@@ -215,6 +234,24 @@ function App() {
   function goTopic(topicId: string) {
     trackEvent("topic_selected", { topicId, uiLanguage: language });
     setRoute({ page: "topic", topicId });
+    setSelectedIndex(null);
+    setChecked(false);
+    setQuestionHelpVisible(false);
+  }
+
+  function goArea(topicId: string) {
+    trackEvent("practice_area_selected", { topicId, uiLanguage: language });
+    setRoute({ page: "area", topicId });
+    setSelectedIndex(null);
+    setChecked(false);
+    setQuestionHelpVisible(false);
+  }
+
+  function goChapter(chapterId: string) {
+    const chapter = OFFICIAL_CHAPTERS.find((item) => item.id === chapterId);
+    trackEvent("chapter_selected", { chapterId, topicId: chapter?.topicId, uiLanguage: language });
+    setRoute({ page: "chapter", chapterId });
+    setQuestionIndexByTopic((current) => ({ ...current, [chapterId]: current[chapterId] || 0 }));
     setSelectedIndex(null);
     setChecked(false);
     setQuestionHelpVisible(false);
@@ -309,7 +346,7 @@ function App() {
       uiLanguage: language
     });
 
-    const topicQuestionIds = QUESTIONS.filter((item) => item.topicId === question.topicId).map((item) => item.id);
+    const topicQuestionIds = getAccessibleQuestions(QUESTIONS.filter((item) => item.topicId === question.topicId)).map((item) => item.id);
     const completedTopicQuestions = topicQuestionIds.filter((questionId) => nextProgress.answeredIds.includes(questionId));
 
     if (!wasAlreadyAnswered && topicQuestionIds.length > 0 && completedTopicQuestions.length === topicQuestionIds.length) {
@@ -418,6 +455,29 @@ function App() {
     return <QuestionReviewPage onBack={goHome} />;
   }
 
+  if (route.page === "area") {
+    const topic = TOPICS.find((item) => item.id === route.topicId);
+
+    if (topic) {
+      return (
+        <AreaPage
+          language={language}
+          onBack={goHome}
+          onOpenFeedback={goFeedback}
+          onOpenFlashcards={goFlashcards}
+          onOpenPrivacy={goPrivacy}
+          onOpenProgress={goProgress}
+          onQuickPractice={goQuickPractice}
+          onSelectChapter={goChapter}
+          onSelectLanguage={handleLanguageChange}
+          progress={progress}
+          topic={topic}
+          ui={ui}
+        />
+      );
+    }
+  }
+
   if (route.page === "quick") {
     return (
       <TopicPracticePage
@@ -447,6 +507,51 @@ function App() {
         ui={ui}
       />
     );
+  }
+
+  if (route.page === "chapter") {
+    const chapter = OFFICIAL_CHAPTERS.find((item) => item.id === route.chapterId);
+    const topic = chapter ? TOPICS.find((item) => item.id === chapter.topicId) : undefined;
+
+    if (chapter && topic) {
+      const chapterName = ui.chapterNames[chapter.id] || chapter.nameSv;
+      const chapterTopic: Topic = {
+        id: chapter.id,
+        nameSv: chapter.nameSv,
+        nameEn: chapterName,
+        descriptionEn: ui.chapterSummaries[chapter.id] || topic.descriptionEn
+      };
+
+      return (
+        <TopicPracticePage
+          checked={checked}
+          chapterId={chapter.id}
+          feedbackPromptMilestone={feedbackPromptMilestone}
+          language={language}
+          lastWasCorrect={lastWasCorrect}
+          onDismissFeedbackPrompt={handleDismissFeedbackPrompt}
+          onFeedbackPromptShown={handleFeedbackPromptShown}
+          onOpenFeedback={handleFeedbackPromptClicked}
+          onBack={goHome}
+          onCheck={handleCheck}
+          onNext={handleNext}
+          onResetProgress={handleResetProgress}
+          onReviewLesson={handleReviewLesson}
+          onSelectAnswer={setSelectedIndex}
+          onSelectLanguage={handleLanguageChange}
+          onStartPractice={handleStartPractice}
+          practiceId={chapter.id}
+          practiceStarted
+          progress={progress}
+          questionHelpVisible={questionHelpVisible}
+          questionIndex={questionIndexByTopic[chapter.id] || 0}
+          selectedIndex={selectedIndex}
+          onToggleQuestionHelp={handleToggleQuestionHelp}
+          topic={chapterTopic}
+          ui={ui}
+        />
+      );
+    }
   }
 
   if (route.page === "topic") {
@@ -494,8 +599,8 @@ function App() {
       onOpenPrivacy={goPrivacy}
       onOpenProgress={goProgress}
       onQuickPractice={goQuickPractice}
+      onSelectArea={goArea}
       onSelectLanguage={handleLanguageChange}
-      onSelectTopic={goTopic}
       progress={progress}
       ui={ui}
     />
@@ -554,7 +659,19 @@ function formatStudyIntroItem(item: string) {
 }
 
 function getRouteName(route: Route) {
-  return route.page === "topic" ? `topic:${route.topicId}` : route.page;
+  if (route.page === "topic") {
+    return `topic:${route.topicId}`;
+  }
+
+  if (route.page === "area") {
+    return `area:${route.topicId}`;
+  }
+
+  if (route.page === "chapter") {
+    return `chapter:${route.chapterId}`;
+  }
+
+  return route.page;
 }
 
 function getInitialRoute(): Route {
@@ -563,6 +680,14 @@ function getInitialRoute(): Route {
 
   if (page === "topic" && topicId) {
     return { page: "topic", topicId };
+  }
+
+  if (page === "area" && topicId) {
+    return { page: "area", topicId };
+  }
+
+  if (page === "chapter" && topicId) {
+    return { page: "chapter", chapterId: topicId };
   }
 
   if (page === "privacy") {
@@ -620,6 +745,10 @@ function useHashRoute(): [Route, (route: Route) => void] {
               ? "/question-review"
               : nextRoute.page === "progress"
             ? "/progress"
+            : nextRoute.page === "area"
+              ? "/area/" + nextRoute.topicId
+            : nextRoute.page === "chapter"
+              ? "/chapter/" + nextRoute.chapterId
             : nextRoute.page === "flashcards"
               ? "/flashcards"
               : nextRoute.page === "feedback"
@@ -640,8 +769,8 @@ function HomePage({
   onOpenPrivacy,
   onOpenProgress,
   onQuickPractice,
+  onSelectArea,
   onSelectLanguage,
-  onSelectTopic,
   progress,
   ui
 }: {
@@ -651,17 +780,15 @@ function HomePage({
   onOpenPrivacy: () => void;
   onOpenProgress: () => void;
   onQuickPractice: () => void;
+  onSelectArea: (topicId: string) => void;
   onSelectLanguage: (language: UiLanguage) => void;
-  onSelectTopic: (topicId: string) => void;
   progress: Progress;
   ui: UiText;
 }) {
-  const [selectedTopicFilter, setSelectedTopicFilter] = useState<string>("all");
   const [showCitizenshipUpdate, setShowCitizenshipUpdate] = useState(
     () => localStorage.getItem(CITIZENSHIP_UPDATE_DISMISSED_KEY) !== "true"
   );
-  const visibleTopics =
-    selectedTopicFilter === "all" ? TOPICS : TOPICS.filter((topic) => topic.id === selectedTopicFilter);
+  const visibleTopics = TOPICS;
 
   function handleDismissCitizenshipUpdate() {
     localStorage.setItem(CITIZENSHIP_UPDATE_DISMISSED_KEY, "true");
@@ -717,18 +844,15 @@ function HomePage({
 
         <StudyPathSection ui={ui} />
 
-        <div id="study-modules" className="study-modules-anchor">
-          <TopicSelector
-            selectedTopicId={selectedTopicFilter}
-            onSelectTopic={setSelectedTopicFilter}
-            ui={ui}
-          />
-        </div>
+        <div id="study-modules" className="study-modules-anchor" />
 
-        <section className="topic-list" aria-label="Topics">
+        <section className="topic-list topic-list-primary" aria-label={ui.topicSelectorLabel}>
           {visibleTopics.map((topic) => {
-            const topicQuestions = QUESTIONS.filter((question) => question.topicId === topic.id);
+            const allTopicQuestions = QUESTIONS.filter((question) => question.topicId === topic.id);
+            const topicQuestions = getAccessibleQuestions(allTopicQuestions);
             const count = topicQuestions.length;
+            const fullCount = allTopicQuestions.length;
+            const lockedCount = getLockedQuestionCount(allTopicQuestions);
             const completed = topicQuestions.filter((question) => progress.answeredIds.includes(question.id)).length;
             const percent = count > 0 ? Math.round((completed / count) * 100) : 0;
             const visual = TOPIC_VISUALS[topic.id as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
@@ -743,13 +867,18 @@ function HomePage({
                   : { label: ui.moduleNotStarted, className: "not-started" };
 
             return (
-              <article className={`topic-card accent-${visual.accent}`} key={topic.id}>
+              <article
+                className={`topic-card accent-${visual.accent}`}
+                key={topic.id}
+              >
                 <div>
                   <div className="topic-card-topline">
                     <div className="topic-icon" aria-hidden="true">
                       <Icon size={24} strokeWidth={2.2} />
                     </div>
-                    <span className={`module-status ${moduleStatus.className}`}>{moduleStatus.label}</span>
+                    <span className={`module-status ${moduleStatus.className}`}>
+                      {HAS_FULL_ACCESS ? ui.fullAccessBadge : ui.freeTierBadge}
+                    </span>
                   </div>
                   {language !== "sv" ? <p className="topic-sv" dir="ltr">{topic.nameSv}</p> : null}
                   <h2>{topicName}</h2>
@@ -766,7 +895,9 @@ function HomePage({
                       <ChapterProgressList compact stats={chapterStats} ui={ui} />
                     </>
                   ) : (
-                    <p className="topic-card-note">{ui.startWarmup(count)}</p>
+                    <p className="topic-card-note">
+                      {lockedCount > 0 ? ui.freeSampleSummary(count, fullCount) : ui.startWarmup(count)}
+                    </p>
                   )}
                 </div>
                 <div className="topic-progress">
@@ -778,15 +909,13 @@ function HomePage({
                     <span style={{ width: `${percent}%` }} />
                   </div>
                 </div>
-                <button className="primary" type="button" onClick={() => onSelectTopic(topic.id)}>
-                  {completed > 0 ? ui.continuePractice : ui.startWarmup(count)}
+                <button className="primary" type="button" onClick={() => onSelectArea(topic.id)}>
+                  {ui.viewChapters}
                 </button>
               </article>
             );
           })}
         </section>
-
-        <ChapterMapSection language={language} ui={ui} />
 
         <ComingNextSection onOpenFlashcards={onOpenFlashcards} onOpenProgress={onOpenProgress} ui={ui} />
         <FaqSection language={language} />
@@ -799,6 +928,108 @@ function HomePage({
         onOpenPractice={handleStartPractice}
         onOpenProgress={onOpenProgress}
         onOpenStudy={handleExploreModules}
+        ui={ui}
+      />
+    </>
+  );
+}
+
+function AreaPage({
+  language,
+  onBack,
+  onOpenFeedback,
+  onOpenFlashcards,
+  onOpenPrivacy,
+  onOpenProgress,
+  onQuickPractice,
+  onSelectChapter,
+  onSelectLanguage,
+  progress,
+  topic,
+  ui
+}: {
+  language: UiLanguage;
+  onBack: () => void;
+  onOpenFeedback: () => void;
+  onOpenFlashcards: () => void;
+  onOpenPrivacy: () => void;
+  onOpenProgress: () => void;
+  onQuickPractice: () => void;
+  onSelectChapter: (chapterId: string) => void;
+  onSelectLanguage: (language: UiLanguage) => void;
+  progress: Progress;
+  topic: Topic;
+  ui: UiText;
+}) {
+  const allTopicQuestions = QUESTIONS.filter((question) => question.topicId === topic.id);
+  const topicQuestions = getAccessibleQuestions(allTopicQuestions);
+  const completed = topicQuestions.filter((question) => progress.answeredIds.includes(question.id)).length;
+  const percent = topicQuestions.length > 0 ? Math.round((completed / topicQuestions.length) * 100) : 0;
+  const visual = TOPIC_VISUALS[topic.id as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
+  const Icon = visual.icon;
+  const topicName = ui.topicNames[topic.id] || topic.nameEn;
+
+  function handleStartPractice() {
+    onQuickPractice();
+  }
+
+  return (
+    <>
+      <AppNav
+        onExploreModules={onBack}
+        onSelectLanguage={onSelectLanguage}
+        onStartPractice={handleStartPractice}
+        ui={ui}
+        value={language}
+      />
+      <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
+        <section className={`area-layer accent-${visual.accent}`} aria-label={topicName}>
+          <button className="ghost area-back" type="button" onClick={onBack}>
+            {ui.chooseOtherArea}
+          </button>
+          <div className="area-layer-heading">
+            <div className="topic-icon" aria-hidden="true">
+              <Icon size={28} strokeWidth={2.2} />
+            </div>
+            <div>
+              {language !== "sv" ? <p className="topic-sv" dir="ltr">{topic.nameSv}</p> : null}
+              <h1>{topicName}</h1>
+              <p dir={getTextDirection(ui.topicDescriptions[topic.id] || topic.descriptionEn)}>
+                {ui.topicDescriptions[topic.id] || topic.descriptionEn}
+              </p>
+            </div>
+          </div>
+          <div className="topic-progress">
+            <div className="topic-progress-row">
+              <span>{ui.freeSampleSummary(topicQuestions.length, allTopicQuestions.length)}</span>
+              <strong>{percent}%</strong>
+            </div>
+            <div className="topic-progress-track" aria-hidden="true">
+              <span style={{ width: `${percent}%` }} />
+            </div>
+            <span className="area-progress-detail">{ui.topicProgress(completed, topicQuestions.length)}</span>
+          </div>
+        </section>
+
+        <ChapterMapSection
+          language={language}
+          onSelectChapter={onSelectChapter}
+          progress={progress}
+          selectedTopicId={topic.id}
+          ui={ui}
+        />
+
+        <ComingNextSection onOpenFlashcards={onOpenFlashcards} onOpenProgress={onOpenProgress} ui={ui} />
+        <FaqSection language={language} />
+        <SiteFooter language={language} onOpenFeedback={onOpenFeedback} onOpenPrivacy={onOpenPrivacy} />
+      </main>
+      <MobileBottomNav
+        active="study"
+        language={language}
+        onGoHome={onBack}
+        onOpenPractice={handleStartPractice}
+        onOpenProgress={onOpenProgress}
+        onOpenStudy={onBack}
         ui={ui}
       />
     </>
@@ -1119,17 +1350,37 @@ function StudyPathSection({ ui }: { ui: UiText }) {
   );
 }
 
-function ChapterMapSection({ language, ui }: { language: UiLanguage; ui: UiText }) {
+function ChapterMapSection({
+  language,
+  onSelectChapter,
+  progress,
+  selectedTopicId,
+  ui
+}: {
+  language: UiLanguage;
+  onSelectChapter: (chapterId: string) => void;
+  progress: Progress;
+  selectedTopicId: string;
+  ui: UiText;
+}) {
+  const selectedTopicName = ui.topicNames[selectedTopicId] || TOPICS.find((topic) => topic.id === selectedTopicId)?.nameEn || ui.chapterMapTitle;
+
   return (
     <section className="chapter-map" aria-label={ui.chapterMapTitle}>
       <div className="section-heading">
+        <p className="eyebrow">{selectedTopicName}</p>
         <h2>{ui.chapterMapTitle}</h2>
         <p dir={getTextDirection(ui.chapterMapIntro)}>{ui.chapterMapIntro}</p>
       </div>
       <div className="chapter-grid">
-        {OFFICIAL_CHAPTERS.map((chapter) => {
+        {OFFICIAL_CHAPTERS.filter((chapter) => chapter.topicId === selectedTopicId).map((chapter) => {
           const chapterName = ui.chapterNames[chapter.id];
           const visual = TOPIC_VISUALS[chapter.topicId as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
+          const allQuestions = QUESTIONS.filter((question) => question.chapterId === chapter.id);
+          const accessibleQuestions = getAccessibleQuestions(allQuestions);
+          const completed = accessibleQuestions.filter((question) => progress.answeredIds.includes(question.id)).length;
+          const lockedCount = getLockedQuestionCount(allQuestions);
+          const percent = accessibleQuestions.length > 0 ? Math.round((completed / accessibleQuestions.length) * 100) : 0;
 
           return (
             <article className={`chapter-card accent-${visual.accent}`} key={chapter.id}>
@@ -1144,6 +1395,15 @@ function ChapterMapSection({ language, ui }: { language: UiLanguage; ui: UiText 
                   </>
                 )}
                 <p dir={getTextDirection(ui.chapterSummaries[chapter.id])}>{ui.chapterSummaries[chapter.id]}</p>
+              </div>
+              <div className="chapter-card-footer">
+                <span>{lockedCount > 0 ? ui.freeSampleSummary(accessibleQuestions.length, allQuestions.length) : ui.topicProgress(completed, accessibleQuestions.length)}</span>
+                <button className="secondary" type="button" onClick={() => onSelectChapter(chapter.id)}>
+                  {completed > 0 ? ui.continuePractice : ui.startPractice}
+                </button>
+              </div>
+              <div className="chapter-progress-track" aria-hidden="true">
+                <span style={{ width: `${percent}%` }} />
               </div>
             </article>
           );
@@ -2213,6 +2473,28 @@ function AdminDashboardPage({
   );
 }
 
+function AccessGateNotice({ lockedCount, totalCount, ui }: { lockedCount: number; totalCount: number; ui: UiText }) {
+  return (
+    <aside className="access-gate-notice" aria-label={ui.upgradePromptTitle}>
+      <span>{ui.freeTierBadge}</span>
+      <strong>{ui.upgradePromptTitle}</strong>
+      <p>{ui.upgradePromptBody(lockedCount, totalCount)}</p>
+    </aside>
+  );
+}
+
+function getAccessibleQuestions(questions: Question[]) {
+  if (HAS_FULL_ACCESS) {
+    return questions;
+  }
+
+  return questions.filter((question) => FREE_SAMPLE_QUESTION_IDS.has(question.id));
+}
+
+function getLockedQuestionCount(questions: Question[]) {
+  return Math.max(questions.length - getAccessibleQuestions(questions).length, 0);
+}
+
 function AdminMetric({ note, title, value }: { note: string; title: string; value: string }) {
   return (
     <article className="admin-metric-card">
@@ -2301,7 +2583,7 @@ function FlashcardsPreviewPage({
 }
 
 function getTopicStats(topic: Topic, progress: Progress, ui: UiText) {
-  const questions = QUESTIONS.filter((question) => question.topicId === topic.id);
+  const questions = getAccessibleQuestions(QUESTIONS.filter((question) => question.topicId === topic.id));
   const answers = questions.map((question) => progress.answers?.[question.id]).filter(Boolean);
   const attempts = answers.reduce((sum, answer) => sum + answer.attempts, 0);
   const correct = answers.reduce((sum, answer) => sum + answer.correct, 0);
@@ -2324,7 +2606,8 @@ function getTopicStats(topic: Topic, progress: Progress, ui: UiText) {
 
 function getChapterStatsForTopic(topicId: string, progress: Progress, ui: UiText) {
   return OFFICIAL_CHAPTERS.map((chapter) => {
-    const questions = QUESTIONS.filter((question) => question.topicId === topicId && question.chapterId === chapter.id);
+    const allQuestions = QUESTIONS.filter((question) => question.topicId === topicId && question.chapterId === chapter.id);
+    const questions = getAccessibleQuestions(allQuestions);
     const completed = questions.filter((question) => progress.answeredIds.includes(question.id)).length;
     const percent = questions.length > 0 ? Math.round((completed / questions.length) * 100) : 0;
 
@@ -2333,6 +2616,8 @@ function getChapterStatsForTopic(topicId: string, progress: Progress, ui: UiText
       number: chapter.number,
       name: ui.chapterNames[chapter.id] || chapter.nameSv,
       total: questions.length,
+      fullTotal: allQuestions.length,
+      locked: getLockedQuestionCount(allQuestions),
       completed,
       percent
     };
@@ -2360,7 +2645,7 @@ function ChapterProgressList({
             <strong>
               {chapter.number}. {chapter.name}
             </strong>
-            <span>{ui.topicProgress(chapter.completed, chapter.total)}</span>
+            <span>{chapter.locked > 0 ? ui.freeSampleSummary(chapter.total, chapter.fullTotal) : ui.topicProgress(chapter.completed, chapter.total)}</span>
           </div>
           <div className="chapter-progress-track" aria-hidden="true">
             <span style={{ width: `${chapter.percent}%` }} />
@@ -2400,6 +2685,7 @@ type AdminStats = {
 
 type TopicPracticePageProps = {
   checked: boolean;
+  chapterId?: string;
   feedbackPromptMilestone: number | null;
   language: UiLanguage;
   lastWasCorrect: boolean;
@@ -2415,6 +2701,7 @@ type TopicPracticePageProps = {
   onSelectAnswer: (index: number) => void;
   onSelectLanguage: (language: UiLanguage) => void;
   onStartPractice: (topicId: string) => void;
+  practiceId?: string;
   practiceStarted: boolean;
   progress: Progress;
   questionsOverride?: Question[];
@@ -2428,6 +2715,7 @@ type TopicPracticePageProps = {
 
 function TopicPracticePage({
   checked,
+  chapterId,
   feedbackPromptMilestone,
   language,
   lastWasCorrect,
@@ -2444,6 +2732,7 @@ function TopicPracticePage({
   onSelectLanguage,
   onStartPractice,
   onToggleQuestionHelp,
+  practiceId,
   practiceStarted,
   progress,
   questionsOverride,
@@ -2454,12 +2743,22 @@ function TopicPracticePage({
   ui
 }: TopicPracticePageProps) {
   const lessonQuestionIds = new Set(lesson?.questionIds || []);
-  const questions = questionsOverride || (lesson
-    ? QUESTIONS.filter((question) => lessonQuestionIds.has(question.id))
-    : QUESTIONS.filter((question) => question.topicId === topic.id));
-  const question = questions[questionIndex];
+  const lessonChapterIds = new Set(
+    OFFICIAL_CHAPTERS
+      .filter((chapter) => lesson?.chapterNumbers.includes(chapter.number))
+      .map((chapter) => chapter.id)
+  );
+  const allQuestions = questionsOverride || (chapterId
+    ? QUESTIONS.filter((question) => question.chapterId === chapterId)
+    : lesson
+      ? QUESTIONS.filter((question) => lessonQuestionIds.has(question.id) || lessonChapterIds.has(question.chapterId))
+      : QUESTIONS.filter((question) => question.topicId === topic.id));
+  const questions = questionsOverride ? allQuestions : getAccessibleQuestions(allQuestions);
+  const lockedQuestionCount = questionsOverride ? 0 : getLockedQuestionCount(allQuestions);
+  const safeQuestionIndex = questions.length > 0 ? questionIndex % questions.length : 0;
+  const question = questions[safeQuestionIndex];
   const topicName = ui.topicNames[topic.id] || topic.nameEn;
-  const questionNumber = questionIndex + 1;
+  const questionNumber = safeQuestionIndex + 1;
   const questionPercent = questions.length > 0 ? Math.round((questionNumber / questions.length) * 100) : 0;
   const chapter = OFFICIAL_CHAPTERS.find((item) => item.id === question.chapterId);
   const chapterName = chapter ? ui.chapterNames[chapter.id] || chapter.nameSv : "";
@@ -2468,9 +2767,10 @@ function TopicPracticePage({
   const shouldShowFeedbackPrompt = checked && feedbackMilestone !== null;
   const mobileActionDisabled = checked ? false : selectedIndex === null;
   const mobileActionLabel = checked ? ui.nextQuestion : ui.checkAnswer;
+  const currentPracticeId = practiceId || topic.id;
   const handleMobileAction = () => {
     if (checked) {
-      onNext(topic.id, questions.length);
+      onNext(currentPracticeId, questions.length);
       return;
     }
 
@@ -2523,7 +2823,7 @@ function TopicPracticePage({
                 {chapter.number}. {chapterName}
               </p>
             ) : null}
-            <p className="question-count">{ui.questionProgress(questionIndex + 1, questions.length)}</p>
+            <p className="question-count">{ui.questionProgress(safeQuestionIndex + 1, questions.length)}</p>
           </div>
         </div>
 
@@ -2534,6 +2834,10 @@ function TopicPracticePage({
         />
 
         <p className="coach-note">{ui.coachNote}</p>
+
+        {lockedQuestionCount > 0 ? (
+          <AccessGateNotice lockedCount={lockedQuestionCount} totalCount={allQuestions.length} ui={ui} />
+        ) : null}
 
         <QuestionCard
           checked={checked}
@@ -2560,7 +2864,7 @@ function TopicPracticePage({
           <button className="primary" type="button" disabled={selectedIndex === null || checked} onClick={() => onCheck(question)}>
             {ui.checkAnswer}
           </button>
-          <button className="secondary" type="button" disabled={!checked} onClick={() => onNext(topic.id, questions.length)}>
+          <button className="secondary" type="button" disabled={!checked} onClick={() => onNext(currentPracticeId, questions.length)}>
             {ui.nextQuestion}
           </button>
           <button className="ghost" type="button" onClick={onResetProgress}>

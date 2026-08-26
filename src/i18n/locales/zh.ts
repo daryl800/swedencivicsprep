@@ -12,7 +12,7 @@ export const zhUiText: UiText = {
     navStartPractice: "试做5题",
     heroPrimaryCta: "试做5道瑞典语题 →",
     heroSecondaryCta: "选择主题",
-    heroTrustBadge: "瑞典语题目 • 使用你选择的语言解释 • 基于 Sverige i fokus",
+    heroTrustBadge: "瑞典语题目 • 先提供英文解释 • 基于 Sverige i fokus",
     heroMockLabel: "练习预览",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -21,10 +21,15 @@ export const zhUiText: UiText = {
     heroMockExplanationLabel: "即时解释",
     heroMockExplanation: "民主表示人们可以通过选举、言论自由和参与来影响社会。",
     proofStats: [
-      { value: "48", label: "社会知识练习题" },
+      { value: "1,000", label: "已审核练习题" },
       { value: "13", label: "官方章节已映射" },
-      { value: "5题", label: "快速开始练习" }
+      { value: "65", label: "计划免费样题" }
     ],
+    freeTierBadge: "免费样题",
+    fullAccessBadge: "完整访问",
+    freeSampleSummary: (freeCount, totalCount) => `免费 ${freeCount} / ${totalCount}`,
+    upgradePromptTitle: "完整题库暂未开放",
+    upgradePromptBody: (lockedCount, totalCount) => `${totalCount} 道题中有 ${lockedCount} 道将保留给完整版。下一步会接入付费权限。`,
     earlyAccessTitle: "独立学习指南",
     earlyAccessMessage: `配合 Sverige i fokus 学习
 
@@ -77,6 +82,8 @@ export const zhUiText: UiText = {
     takeawaysTitle: "重点总结",
     vocabularyTitle: "重要瑞典语词汇",
     chaptersLabel: "官方章节",
+    viewChapters: "查看章节",
+    chooseOtherArea: "选择其他范围题目",
     topicSelectorLabel: "选择练习方向",
     allTopics: "全部主题",
     roadmapStep: (current, total) => `学习路线第 ${current} / ${total} 步`,

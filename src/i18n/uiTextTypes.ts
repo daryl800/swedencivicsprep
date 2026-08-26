@@ -19,6 +19,11 @@ export type UiText = {
   heroMockExplanationLabel: string;
   heroMockExplanation: string;
   proofStats: { value: string; label: string }[];
+  freeTierBadge: string;
+  fullAccessBadge: string;
+  freeSampleSummary: (freeCount: number, totalCount: number) => string;
+  upgradePromptTitle: string;
+  upgradePromptBody: (lockedCount: number, totalCount: number) => string;
   earlyAccessTitle: string;
   earlyAccessMessage: string;
   officialGuideLink: string;
@@ -35,6 +40,8 @@ export type UiText = {
   takeawaysTitle: string;
   vocabularyTitle: string;
   chaptersLabel: string;
+  viewChapters: string;
+  chooseOtherArea: string;
   topicSelectorLabel: string;
   allTopics: string;
   roadmapStep: (current: number, total: number) => string;

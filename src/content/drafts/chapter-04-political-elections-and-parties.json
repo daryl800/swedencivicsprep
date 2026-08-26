@@ -440,7 +440,7 @@
   },
   {
     "id": "draft-batch-d-ch04-001",
-    "chapterId": "elections-parties",
+    "chapterId": "elections",
     "chapterNumber": 4,
     "topicId": "elections",
     "difficulty": "medium",
@@ -470,7 +470,7 @@
   },
   {
     "id": "draft-batch-d-ch04-002",
-    "chapterId": "elections-parties",
+    "chapterId": "elections",
     "chapterNumber": 4,
     "topicId": "parties",
     "difficulty": "medium",
@@ -500,7 +500,7 @@
   },
   {
     "id": "draft-batch-d-ch04-003",
-    "chapterId": "elections-parties",
+    "chapterId": "elections",
     "chapterNumber": 4,
     "topicId": "voting",
     "difficulty": "hard",

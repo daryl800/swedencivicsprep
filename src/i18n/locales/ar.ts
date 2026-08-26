@@ -12,7 +12,7 @@ export const arUiText: UiText = {
     navStartPractice: "جرّب 5 أسئلة",
     heroPrimaryCta: "جرّب 5 أسئلة سويدية →",
     heroSecondaryCta: "اختر موضوعاً",
-    heroTrustBadge: "أسئلة سويدية • شروحات بلغتك • مبني على Sverige i fokus",
+    heroTrustBadge: "أسئلة سويدية • شروحات إنجليزية أولاً • مبني على Sverige i fokus",
     heroMockLabel: "معاينة التدريب",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -21,10 +21,15 @@ export const arUiText: UiText = {
     heroMockExplanationLabel: "شرح فوري",
     heroMockExplanation: "الديمقراطية تعني أن الناس يمكنهم التأثير في المجتمع عبر الانتخابات وحرية التعبير والمشاركة.",
     proofStats: [
-      { value: "48", label: "سؤالاً في نسخة المعاينة" },
+      { value: "1,000", label: "سؤال تدريب تمت مراجعته" },
       { value: "13", label: "فصلاً رسمياً مرتبطاً" },
-      { value: "5 أسئلة", label: "بداية تدريب سريعة" }
+      { value: "65", label: "سؤالاً مجانياً مخططاً" }
     ],
+    freeTierBadge: "عينة مجانية",
+    fullAccessBadge: "وصول كامل",
+    freeSampleSummary: (freeCount, totalCount) => `${freeCount} مجاني / ${totalCount}`,
+    upgradePromptTitle: "بنك الأسئلة الكامل مقفل",
+    upgradePromptBody: (lockedCount, totalCount) => `${lockedCount} من أصل ${totalCount} سؤالاً مخصصة للنسخة الكاملة. سيتم ربط الدفع في الخطوة التالية.`,
     earlyAccessTitle: "دليل مستقل",
     earlyAccessMessage: `ادرس مع Sverige i fokus
 
@@ -77,6 +82,8 @@ export const arUiText: UiText = {
     takeawaysTitle: "النقاط المهمة",
     vocabularyTitle: "كلمات سويدية مهمة",
     chaptersLabel: "الفصول الرسمية",
+    viewChapters: "عرض الفصول",
+    chooseOtherArea: "اختر مجالاً آخر",
     topicSelectorLabel: "اختر مجال التدريب",
     allTopics: "كل الموضوعات",
     roadmapStep: (current, total) => `خطوة الخطة ${current} من ${total}`,

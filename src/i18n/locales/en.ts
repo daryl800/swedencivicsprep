@@ -12,7 +12,7 @@ export const enUiText: UiText = {
     navStartPractice: "Try 5 questions",
     heroPrimaryCta: "Try 5 Swedish questions →",
     heroSecondaryCta: "Choose a topic",
-    heroTrustBadge: "Questions in Swedish • Explanations in 7 languages • Based on Sverige i fokus",
+    heroTrustBadge: "Questions in Swedish • English explanations first • Based on Sverige i fokus",
     heroMockLabel: "Practice preview",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -21,10 +21,15 @@ export const enUiText: UiText = {
     heroMockExplanationLabel: "Instant explanation",
     heroMockExplanation: "Democracy means people can influence society through elections, free speech, and participation.",
     proofStats: [
-      { value: "48", label: "civics practice questions" },
+      { value: "1,000", label: "reviewed practice questions" },
       { value: "13", label: "official chapters mapped" },
-      { value: "5 questions", label: "quick first practice" }
+      { value: "65", label: "planned free sample questions" }
     ],
+    freeTierBadge: "Free sample",
+    fullAccessBadge: "Full access",
+    freeSampleSummary: (freeCount, totalCount) => `${freeCount} free / ${totalCount}`,
+    upgradePromptTitle: "Full question bank is locked",
+    upgradePromptBody: (lockedCount, totalCount) => `${lockedCount} of ${totalCount} questions are reserved for the full version. Payment access will be connected next.`,
     earlyAccessTitle: "Independent guide",
     earlyAccessMessage: `Study with Sverige i fokus
 
@@ -77,6 +82,8 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
     takeawaysTitle: "Takeaway points",
     vocabularyTitle: "Key Swedish words",
     chaptersLabel: "Official chapters",
+    viewChapters: "View chapters",
+    chooseOtherArea: "Choose another area",
     topicSelectorLabel: "Choose a practice area",
     allTopics: "All topics",
     roadmapStep: (current, total) => `Roadmap step ${current} of ${total}`,
