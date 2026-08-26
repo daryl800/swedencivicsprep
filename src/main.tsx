@@ -20,6 +20,7 @@ type Route =
   | { page: "area"; topicId: string }
   | { page: "chapter"; chapterId: string }
   | { page: "quick" }
+  | { page: "mock-exam" }
   | { page: "question-review" }
   | { page: "progress" }
   | { page: "flashcards" }
@@ -257,6 +258,14 @@ function App() {
     setQuestionHelpVisible(false);
   }
 
+  function goMockExam() {
+    trackEvent("mock_exam_opened", { uiLanguage: language });
+    setRoute({ page: "mock-exam" });
+    setSelectedIndex(null);
+    setChecked(false);
+    setQuestionHelpVisible(false);
+  }
+
   function goQuickPractice() {
     trackEvent("practice_started", { mode: "quick_start", questionCount: QUICK_START_QUESTIONS.length, topicId: QUICK_START_TOPIC_ID, uiLanguage: language });
     setQuestionIndexByTopic((current) => ({ ...current, [QUICK_START_TOPIC_ID]: 0 }));
@@ -455,6 +464,17 @@ function App() {
     return <QuestionReviewPage onBack={goHome} />;
   }
 
+  if (route.page === "mock-exam") {
+    return (
+      <MockExamPage
+        language={language}
+        onBack={goHome}
+        onSelectLanguage={handleLanguageChange}
+        ui={ui}
+      />
+    );
+  }
+
   if (route.page === "area") {
     const topic = TOPICS.find((item) => item.id === route.topicId);
 
@@ -467,6 +487,7 @@ function App() {
           onOpenFlashcards={goFlashcards}
           onOpenPrivacy={goPrivacy}
           onOpenProgress={goProgress}
+          onOpenMockExam={goMockExam}
           onQuickPractice={goQuickPractice}
           onSelectChapter={goChapter}
           onSelectLanguage={handleLanguageChange}
@@ -597,6 +618,7 @@ function App() {
       onOpenFeedback={goFeedback}
       onOpenFlashcards={goFlashcards}
       onOpenPrivacy={goPrivacy}
+      onOpenMockExam={goMockExam}
       onOpenProgress={goProgress}
       onQuickPractice={goQuickPractice}
       onSelectArea={goArea}
@@ -667,6 +689,10 @@ function getRouteName(route: Route) {
     return `area:${route.topicId}`;
   }
 
+  if (route.page === "mock-exam") {
+    return "mock-exam";
+  }
+
   if (route.page === "chapter") {
     return `chapter:${route.chapterId}`;
   }
@@ -696,6 +722,10 @@ function getInitialRoute(): Route {
 
   if (page === "quick") {
     return { page: "quick" };
+  }
+
+  if (page === "mock-exam") {
+    return { page: "mock-exam" };
   }
 
   if (page === "question-review") {
@@ -743,6 +773,8 @@ function useHashRoute(): [Route, (route: Route) => void] {
             ? "/quick"
             : nextRoute.page === "question-review"
               ? "/question-review"
+              : nextRoute.page === "mock-exam"
+                ? "/mock-exam"
               : nextRoute.page === "progress"
             ? "/progress"
             : nextRoute.page === "area"
@@ -766,6 +798,7 @@ function HomePage({
   language,
   onOpenFeedback,
   onOpenFlashcards,
+  onOpenMockExam,
   onOpenPrivacy,
   onOpenProgress,
   onQuickPractice,
@@ -777,6 +810,7 @@ function HomePage({
   language: UiLanguage;
   onOpenFeedback: () => void;
   onOpenFlashcards: () => void;
+  onOpenMockExam: () => void;
   onOpenPrivacy: () => void;
   onOpenProgress: () => void;
   onQuickPractice: () => void;
@@ -807,6 +841,7 @@ function HomePage({
     <>
       <AppNav
         onExploreModules={handleExploreModules}
+        onOpenMockExam={onOpenMockExam}
         onSelectLanguage={onSelectLanguage}
         onStartPractice={handleStartPractice}
         ui={ui}
@@ -917,7 +952,7 @@ function HomePage({
           })}
         </section>
 
-        <ComingNextSection onOpenFlashcards={onOpenFlashcards} onOpenProgress={onOpenProgress} ui={ui} />
+        <ComingNextSection onOpenFlashcards={onOpenFlashcards} onOpenMockExam={onOpenMockExam} onOpenProgress={onOpenProgress} ui={ui} />
         <FaqSection language={language} />
         <SiteFooter language={language} onOpenFeedback={onOpenFeedback} onOpenPrivacy={onOpenPrivacy} />
       </main>
@@ -939,6 +974,7 @@ function AreaPage({
   onBack,
   onOpenFeedback,
   onOpenFlashcards,
+  onOpenMockExam,
   onOpenPrivacy,
   onOpenProgress,
   onQuickPractice,
@@ -952,6 +988,7 @@ function AreaPage({
   onBack: () => void;
   onOpenFeedback: () => void;
   onOpenFlashcards: () => void;
+  onOpenMockExam: () => void;
   onOpenPrivacy: () => void;
   onOpenProgress: () => void;
   onQuickPractice: () => void;
@@ -977,6 +1014,7 @@ function AreaPage({
     <>
       <AppNav
         onExploreModules={onBack}
+        onOpenMockExam={onOpenMockExam}
         onSelectLanguage={onSelectLanguage}
         onStartPractice={handleStartPractice}
         ui={ui}
@@ -1019,7 +1057,12 @@ function AreaPage({
           ui={ui}
         />
 
-        <ComingNextSection onOpenFlashcards={onOpenFlashcards} onOpenProgress={onOpenProgress} ui={ui} />
+        <ComingNextSection
+          onOpenFlashcards={onOpenFlashcards}
+          onOpenMockExam={onOpenMockExam}
+          onOpenProgress={onOpenProgress}
+          ui={ui}
+        />
         <FaqSection language={language} />
         <SiteFooter language={language} onOpenFeedback={onOpenFeedback} onOpenPrivacy={onOpenPrivacy} />
       </main>
@@ -1038,12 +1081,14 @@ function AreaPage({
 
 function AppNav({
   onExploreModules,
+  onOpenMockExam,
   onSelectLanguage,
   onStartPractice,
   ui,
   value
 }: {
   onExploreModules: () => void;
+  onOpenMockExam: () => void;
   onSelectLanguage: (language: UiLanguage) => void;
   onStartPractice: () => void;
   ui: UiText;
@@ -1067,7 +1112,7 @@ function AppNav({
           <button type="button" onClick={onExploreModules}>
             {ui.navStudyModules}
           </button>
-          <button type="button" onClick={onStartPractice}>
+          <button type="button" onClick={onOpenMockExam}>
             {ui.navPracticeTests}
           </button>
           <button type="button" onClick={handleAboutClick}>
@@ -1415,10 +1460,12 @@ function ChapterMapSection({
 
 function ComingNextSection({
   onOpenFlashcards,
+  onOpenMockExam,
   onOpenProgress,
   ui
 }: {
   onOpenFlashcards: () => void;
+  onOpenMockExam: () => void;
   onOpenProgress: () => void;
   ui: UiText;
 }) {
@@ -1431,8 +1478,8 @@ function ComingNextSection({
       <div className="coming-grid">
         {ui.comingNextItems.map((item, index) => {
           const Icon = index === 0 ? Sparkles : index === 1 ? CheckCircle2 : HeartPulse;
-          const isAvailable = index === 0 || index === 2;
-          const onClick = index === 0 ? onOpenFlashcards : index === 2 ? onOpenProgress : undefined;
+          const isAvailable = true;
+          const onClick = index === 0 ? onOpenFlashcards : index === 1 ? onOpenMockExam : onOpenProgress;
 
           return (
             <article className={`coming-card ${isAvailable ? "preview-available" : ""}`} key={item.title}>
@@ -1443,7 +1490,7 @@ function ComingNextSection({
               <p dir={getTextDirection(item.body)}>{item.body}</p>
               {isAvailable ? (
                 <button className="secondary coming-action" type="button" onClick={onClick}>
-                  {index === 0 ? ui.flashcardsPreview : ui.continuePractice}
+                  {index === 0 ? ui.flashcardsPreview : index === 1 ? ui.mockExamStart : ui.continuePractice}
                 </button>
               ) : null}
             </article>
@@ -2518,6 +2565,299 @@ function formatAdminLanguageName(languageId: string) {
 
 function formatAdminTopicName(topicId: string, ui: UiText) {
   return ui.topicNames[topicId] || TOPICS.find((topic) => topic.id === topicId)?.nameEn || topicId;
+}
+
+type MockExamAnswerMap = Record<string, number>;
+
+function MockExamPage({
+  language,
+  onBack,
+  onSelectLanguage,
+  ui
+}: {
+  language: UiLanguage;
+  onBack: () => void;
+  onSelectLanguage: (language: UiLanguage) => void;
+  ui: UiText;
+}) {
+  const [questions, setQuestions] = useState<Question[]>(() => createMockExamQuestions());
+  const [started, setStarted] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [answers, setAnswers] = useState<MockExamAnswerMap>({});
+  const [questionHelpVisible, setQuestionHelpVisible] = useState(false);
+  const question = questions[currentIndex];
+  const answeredCount = questions.filter((item) => answers[item.id] !== undefined).length;
+  const percent = questions.length > 0 ? Math.round(((currentIndex + 1) / questions.length) * 100) : 0;
+  const result = submitted ? getMockExamResult(questions, answers, ui) : null;
+  const selectedIndex = question ? answers[question.id] ?? null : null;
+
+  function startExam() {
+    trackEvent("mock_exam_started", { questionCount: questions.length, fullAccess: HAS_FULL_ACCESS, uiLanguage: language });
+    setStarted(true);
+    setSubmitted(false);
+    setCurrentIndex(0);
+    setAnswers({});
+    setQuestionHelpVisible(false);
+  }
+
+  function restartExam() {
+    const nextQuestions = createMockExamQuestions();
+    trackEvent("mock_exam_restarted", { questionCount: nextQuestions.length, fullAccess: HAS_FULL_ACCESS, uiLanguage: language });
+    setQuestions(nextQuestions);
+    setStarted(true);
+    setSubmitted(false);
+    setCurrentIndex(0);
+    setAnswers({});
+    setQuestionHelpVisible(false);
+  }
+
+  function submitExam() {
+    const nextResult = getMockExamResult(questions, answers, ui);
+    trackEvent("mock_exam_submitted", {
+      correct: nextResult.correct,
+      percent: nextResult.percent,
+      questionCount: questions.length,
+      uiLanguage: language
+    });
+    setSubmitted(true);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function selectAnswer(index: number) {
+    if (!question || submitted) return;
+    setAnswers((current) => ({ ...current, [question.id]: index }));
+  }
+
+  function goPrevious() {
+    setCurrentIndex((current) => Math.max(current - 1, 0));
+    setQuestionHelpVisible(false);
+  }
+
+  function goNext() {
+    setCurrentIndex((current) => Math.min(current + 1, questions.length - 1));
+    setQuestionHelpVisible(false);
+  }
+
+  if (!started) {
+    return (
+      <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
+        <nav className="topbar">
+          <button className="ghost" type="button" onClick={onBack}>
+            {ui.backToHome}
+          </button>
+          <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
+        </nav>
+
+        <section className="mock-exam-start">
+          <p className="eyebrow">{ui.mockExamBadge}</p>
+          <h1>{ui.mockExamTitle}</h1>
+          <p dir={getTextDirection(ui.mockExamIntro)}>{ui.mockExamIntro}</p>
+          <div className="mock-exam-start-grid">
+            <span>{ui.mockExamLength(questions.length)}</span>
+            <span>{HAS_FULL_ACCESS ? ui.fullAccessBadge : ui.freeTierBadge}</span>
+            <span>{ui.chaptersLabel}: {OFFICIAL_CHAPTERS.length}</span>
+          </div>
+          <button className="hero-primary" type="button" onClick={startExam}>
+            {ui.mockExamStart}
+          </button>
+        </section>
+      </main>
+    );
+  }
+
+  if (submitted && result) {
+    return (
+      <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
+        <nav className="topbar">
+          <button className="ghost" type="button" onClick={onBack}>
+            {ui.backToHome}
+          </button>
+          <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
+        </nav>
+
+        <section className="mock-exam-result">
+          <div className="mock-score-card">
+            <p className="eyebrow">{ui.mockExamResultTitle}</p>
+            <strong>{ui.mockExamScore(result.correct, questions.length, result.percent)}</strong>
+            <p>{ui.mockExamResultIntro}</p>
+          </div>
+
+          <section className="mock-weak-card" aria-label={ui.mockExamWeakChapters}>
+            <h2>{ui.mockExamWeakChapters}</h2>
+            {result.weakChapters.length > 0 ? (
+              <div className="mock-weak-list">
+                {result.weakChapters.map((chapter) => (
+                  <div className="mock-weak-item" key={chapter.id}>
+                    <strong>{chapter.number}. {chapter.name}</strong>
+                    <span>{chapter.correct}/{chapter.total}</span>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p>{ui.mockExamNoWeakChapters}</p>
+            )}
+          </section>
+
+          <details className="mock-review-panel">
+            <summary>
+              <span>{ui.mockExamReviewAnswers}</span>
+              <ChevronDown size={18} aria-hidden="true" />
+            </summary>
+            <div className="mock-review-list">
+              {questions.map((item, index) => {
+                const answer = answers[item.id];
+                const isCorrect = answer === item.correctIndex;
+                const chapter = OFFICIAL_CHAPTERS.find((chapterItem) => chapterItem.id === item.chapterId);
+
+                return (
+                  <article className={"mock-review-item " + (isCorrect ? "correct" : "wrong")} key={item.id}>
+                    <p className="eyebrow">{index + 1}. {chapter ? ui.chapterNames[chapter.id] || chapter.nameSv : item.chapterId}</p>
+                    <h3 lang="sv">{item.questionSv}</h3>
+                    <p><strong>{ui.bestAnswer}:</strong> <span lang="sv">{item.options[item.correctIndex]}</span></p>
+                    <p>{getExplanation(item, language, ui)}</p>
+                  </article>
+                );
+              })}
+            </div>
+          </details>
+
+          <div className="actions">
+            <button className="primary" type="button" onClick={restartExam}>
+              {ui.mockExamRestart}
+            </button>
+            <button className="secondary" type="button" onClick={onBack}>
+              {ui.backToHome}
+            </button>
+          </div>
+        </section>
+      </main>
+    );
+  }
+
+  return (
+    <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
+      <nav className="topbar">
+        <button className="ghost" type="button" onClick={onBack}>
+          {ui.backToHome}
+        </button>
+        <div className="topbar-tools">
+          <span className="level-pill">{ui.mockExamBadge}</span>
+          <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
+        </div>
+      </nav>
+
+      <section className="practice mock-exam-session">
+        <div className="practice-header">
+          <div>
+            <p className="topic-sv" dir="ltr">Medborgarskapsprovet</p>
+            <h1>{ui.mockExamTitle}</h1>
+            <p className="topic-flavor">{ui.mockExamIntro}</p>
+          </div>
+          <div className="practice-meta">
+            <p className="level-pill">{ui.mockExamAnswered(answeredCount, questions.length)}</p>
+            <p className="question-count">{ui.questionProgress(currentIndex + 1, questions.length)}</p>
+          </div>
+        </div>
+
+        <QuizProgressHeader
+          percent={percent}
+          questionLabel={ui.questionProgress(currentIndex + 1, questions.length)}
+          studyModeLabel={ui.mockExamBadge}
+        />
+
+        <QuestionCard
+          checked={false}
+          language={language}
+          onSelectAnswer={selectAnswer}
+          onToggleQuestionHelp={() => setQuestionHelpVisible((current) => !current)}
+          question={question}
+          questionHelpVisible={questionHelpVisible}
+          selectedIndex={selectedIndex}
+          ui={ui}
+        />
+
+        <div className="actions practice-actions mock-exam-actions">
+          <button className="secondary" type="button" disabled={currentIndex === 0} onClick={goPrevious}>
+            {ui.mockExamPrevious}
+          </button>
+          {currentIndex < questions.length - 1 ? (
+            <button className="primary" type="button" onClick={goNext}>
+              {ui.mockExamNext}
+            </button>
+          ) : (
+            <button className="primary" type="button" disabled={answeredCount === 0} onClick={submitExam}>
+              {ui.mockExamSubmit}
+            </button>
+          )}
+          <button className="ghost" type="button" onClick={submitExam} disabled={answeredCount === 0}>
+            {ui.mockExamAnswered(answeredCount, questions.length)}
+          </button>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+function createMockExamQuestions() {
+  const pool = getAccessibleQuestions(QUESTIONS);
+  const seed = Date.now();
+  const examLength = Math.min(HAS_FULL_ACCESS ? 60 : 40, pool.length);
+  const selected: Question[] = [];
+  const chapters = OFFICIAL_CHAPTERS.map((chapter) => ({
+    chapter,
+    questions: pool
+      .filter((question) => question.chapterId === chapter.id)
+      .sort((left, right) => seededQuestionRank(left.id, seed) - seededQuestionRank(right.id, seed))
+  }));
+
+  let round = 0;
+  while (selected.length < examLength && chapters.some((item) => item.questions[round])) {
+    chapters.forEach((item) => {
+      const nextQuestion = item.questions[round];
+      if (nextQuestion && selected.length < examLength) {
+        selected.push(nextQuestion);
+      }
+    });
+    round += 1;
+  }
+
+  return selected.sort((left, right) => seededQuestionRank(left.id, seed + 1) - seededQuestionRank(right.id, seed + 1));
+}
+
+function seededQuestionRank(questionId: string, seed: number) {
+  const value = questionId + ":" + seed;
+  let hash = 2166136261;
+
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+
+  return hash >>> 0;
+}
+
+function getMockExamResult(questions: Question[], answers: MockExamAnswerMap, ui: UiText) {
+  const correct = questions.filter((question) => answers[question.id] === question.correctIndex).length;
+  const percent = questions.length > 0 ? Math.round((correct / questions.length) * 100) : 0;
+  const chapterResults = OFFICIAL_CHAPTERS.map((chapter) => {
+    const chapterQuestions = questions.filter((question) => question.chapterId === chapter.id);
+    const chapterCorrect = chapterQuestions.filter((question) => answers[question.id] === question.correctIndex).length;
+
+    return {
+      id: chapter.id,
+      number: chapter.number,
+      name: ui.chapterNames[chapter.id] || chapter.nameSv,
+      total: chapterQuestions.length,
+      correct: chapterCorrect
+    };
+  }).filter((chapter) => chapter.total > 0);
+  const weakChapters = chapterResults
+    .filter((chapter) => chapter.correct < chapter.total)
+    .sort((left, right) => (left.correct / left.total) - (right.correct / right.total))
+    .slice(0, 4);
+
+  return { correct, percent, weakChapters };
 }
 
 function FlashcardsPreviewPage({
