@@ -115,7 +115,7 @@ export const zhUiText: UiText = {
     progressDashboardTitle: "进度面板",
     progressDashboardIntro: "这是本浏览器中的本地进度。此预览版本会记录正确和错误答案。",
     progressAnsweredMetric: "已答题",
-    progressAccessibleMetric: "可用题库",
+    progressAccessibleMetric: "免费题库",
     progressAccuracyMetric: "正确率",
     progressTodayMetric: "今日",
     progressWeakChaptersTitle: "薄弱章节",
