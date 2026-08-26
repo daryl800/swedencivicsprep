@@ -165,23 +165,23 @@ Använd Swedish Civics Test Preparation som en oberoende träningsguide: läs f�
     progressSolid: "Stabilt pass.",
     progressStrong: "Stark träningsdag.",
     topicNames: {
-      democracy: "Demokrati och val",
+      democracy: "Demokrati, val och medier",
       "quick-start": "Snabbträning",
       rights: "Rättigheter och skyldigheter",
       everyday: "Vardagsliv i Sverige",
-      authorities: "Myndigheter och tjänster"
+      authorities: "Sverige, staten och tjänster"
     },
     topicFlavor: {
-      democracy: "Val, röster och demokratins spelregler.",
+      democracy: "Röster, fria medier och demokratins regler.",
       "quick-start": "Fem blandade svenska frågor för att komma igång direkt.",
       rights: "Känn till dina friheter och det gemensamma ansvaret.",
-      everyday: "Det praktiska Sverige du möter i vardagen.",
-      authorities: "En snabb karta över vem som hjälper med vad."
+      everyday: "Arbete, välfärd, skola, vård och traditioner.",
+      authorities: "Sverige som land, staten, historia och tjänster."
     },
     topicDescriptions: {
-      democracy: "Bli tryggare med val, riksdag och hur människor kan påverka i Sverige.",
-      rights: "Lär dig balansen mellan friheter, ansvar och allas lika värde.",
-      everyday: "Träna på vardagliga frågor: arbete, hyra, skola, vård och rutiner.",
-      authorities: "Lär dig vem du kontaktar, när du ska ringa och vilken service som hjälper med vad."
+      democracy: "Träna på val, partier, fria medier och hur människor kan påverka i Sverige.",
+      rights: "Lär dig balansen mellan friheter, ansvar, religionsfrihet och allas lika värde.",
+      everyday: "Träna på arbete, pengar, skola, sjukvård, välfärd, vardagsrutiner och traditioner.",
+      authorities: "Träna på Sverige som land, hur staten är organiserad, modern historia, internationellt samarbete och offentliga tjänster."
     }
   };

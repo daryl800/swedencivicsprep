@@ -7,18 +7,18 @@ const draftsDir = path.join(rootDir, "src", "content", "drafts");
 const expectedChapterCount = 13;
 const expectedQuestionCount = 1000;
 const chapterTopicIds = new Map([
-  ["country", "everyday"],
+  ["country", "authorities"],
   ["democratic-system", "democracy"],
   ["governance", "authorities"],
   ["elections", "democracy"],
   ["law", "rights"],
-  ["media", "rights"],
+  ["media", "democracy"],
   ["human-rights", "rights"],
   ["work-economy", "everyday"],
   ["welfare", "everyday"],
-  ["modern-history", "everyday"],
+  ["modern-history", "authorities"],
   ["world", "authorities"],
-  ["secular-state", "everyday"],
+  ["secular-state", "rights"],
   ["traditions", "everyday"]
 ]);
 const expectedPublicTopicIds = new Set(["democracy", "rights", "everyday", "authorities"]);

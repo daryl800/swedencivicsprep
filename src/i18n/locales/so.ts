@@ -132,23 +132,23 @@ U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka
     progressSolid: "Tababar adag.",
     progressStrong: "Maalin tababar oo xooggan.",
     topicNames: {
-      democracy: "Dimuqraadiyad & Doorashooyin",
+      democracy: "Dimuqraadiyad, Doorashooyin & Warbaahin",
       "quick-start": "Tababar degdeg ah",
       rights: "Xuquuq & Waajibaad",
       everyday: "Nolosha Maalinlaha ah ee Iswiidhan",
-      authorities: "Hay'adaha & Adeegyada"
+      authorities: "Iswiidhan, Dawlad & Adeegyo"
     },
     topicFlavor: {
       democracy: "Codad, doorashooyin, iyo xeerarka dimuqraadiyadda.",
       "quick-start": "Shan su’aalood oo Iswiidhish ah si toos ah u bilow.",
       rights: "Ogow xorriyadahaaga iyo masuuliyadaha la wadaago.",
       everyday: "Iswiidhan-ka aad la kulanto maalin caadi ah.",
-      authorities: "Khariidad degdeg ah: yaa kaa caawinaya maxay?"
+      authorities: "Iswiidhan dal ahaan, dawlad, taariikh, iyo adeegyo."
     },
     topicDescriptions: {
       democracy: "Ku tababar codbixinta, Riksdag, iyo sida dadka saamayn ugu yeelan karaan Iswiidhan.",
       rights: "Baro xorriyadaha, masuuliyadaha, iyo qiimaha sinnaanta ee nolol maalmeedka.",
       everyday: "Ku tababar shaqo, guri, dugsi, caafimaad, iyo caadooyin maalinle ah.",
-      authorities: "Baro goorta iyo meesha lala xiriirayo hay'adaha iyo adeegyada muhiimka ah."
+      authorities: "Ku tababar Iswiidhan dal ahaan, sida dawladdu u dhisan tahay, taariikh casri ah, iskaashi caalami ah, iyo adeegyo dadweyne."
     }
   });

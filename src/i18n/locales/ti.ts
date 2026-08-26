@@ -132,23 +132,23 @@ Swedish Civics Test Preparation ከም ናጻ መምርሒ ልምምድ ተጠ�
     progressSolid: "ጽኑዕ ልምምድ።",
     progressStrong: "ጽቡቕ መዓልቲ ልምምድ።",
     topicNames: {
-      democracy: "ዲሞክራሲን ምርጫታትን",
+      democracy: "ዲሞክራሲ፣ ምርጫታትን ሚድያን",
       "quick-start": "ፈጣን ልምምድ",
       rights: "መሰላትን ግቡኣትን",
       everyday: "ዕለታዊ ህይወት ኣብ ሽወደን",
-      authorities: "ትካላትን ኣገልግሎታትን"
+      authorities: "ሽወደን፣ መንግስትን ኣገልግሎታትን"
     },
     topicFlavor: {
       democracy: "ድምጺ፣ ምርጫታት፣ እና ሕግታት ዲሞክራሲ።",
       "quick-start": "ብቐጥታ ንምጅማር 5 ዝተሓዋወሱ ሽወደንኛ ሕቶታት።",
       rights: "ናጽነታትኩም ፍለጡ፣ ናይ ሓባር ሓላፍነታት እውን።",
       everyday: "ኣብ ሓደ መዓልቲ ዝትረኽብዎ ተግባራዊ ሽወደን።",
-      authorities: "መን ኣብ እንታይ ከምዝሕግዝ ፈጣን ካርታ።"
+      authorities: "ሽወደን ከም ሃገር፣ መንግስቲ፣ ታሪኽን ኣገልግሎታትን።"
     },
     topicDescriptions: {
       democracy: "ብዛዕባ ድምጺ ምሃብ፣ Riksdag፣ እና ሰባት ኣብ ሽወደን ከመይ ጽልዋ ከምዝገብሩ ተለማመዱ።",
       rights: "ናጽነታት፣ ሓላፍነታት፣ ማዕርነትን ሓባራዊ ክብርን ተማሃሩ።",
       everyday: "ስራሕ፣ ክራይ ገዛ፣ ቤት ትምህርቲ፣ ጥዕና፣ ዕለታዊ ልምድታት ተለማመዱ።",
-      authorities: "መዓስ ናብ ኣየናይ ትካል ወይ ኣገልግሎት ክትራኸቡ ከምዘለኩም ተማሃሩ።"
+      authorities: "ሽወደን ከም ሃገር፣ ኣወዳድባ መንግስቲ፣ ዘመናዊ ታሪኽ፣ ዓለምለኻዊ ትሕብብርን ህዝባዊ ኣገልግሎታትን ተለማመዱ።"
     }
   });

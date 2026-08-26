@@ -165,23 +165,23 @@ export const zhUiText: UiText = {
     progressSolid: "练得很稳。",
     progressStrong: "今天练习很棒。",
     topicNames: {
-      democracy: "民主与选举",
+      democracy: "民主、选举与媒体",
       "quick-start": "快速练习",
       rights: "权利与义务",
       everyday: "瑞典日常生活",
-      authorities: "机构与公共服务"
+      authorities: "瑞典、国家与公共服务"
     },
     topicFlavor: {
-      democracy: "选票、声音，以及民主游戏规则。",
+      democracy: "选票、自由媒体和民主规则。",
       "quick-start": "先做5道混合瑞典语题。",
       rights: "了解你的自由，也了解共同责任。",
-      everyday: "普通星期二也会遇到的实用瑞典生活。",
-      authorities: "快速了解谁负责什么。"
+      everyday: "工作、福利、学校、医疗和传统。",
+      authorities: "瑞典这个国家、国家制度、历史和公共服务。"
     },
     topicDescriptions: {
-      democracy: "练习投票、瑞典国会，以及人们如何在瑞典发声。",
-      rights: "学习日常生活中的自由、责任、平等和共同价值。",
-      everyday: "练习工作休息、租房、学校、医疗和日常习惯。",
-      authorities: "学习什么时候联系哪些瑞典机构和公共服务。"
+      democracy: "练习投票、政党、自由媒体，以及人们如何在瑞典发声。",
+      rights: "学习日常生活中的自由、责任、宗教自由、平等和共同价值。",
+      everyday: "练习工作、金钱、学校、医疗、福利、日常习惯和传统。",
+      authorities: "练习瑞典这个国家、国家如何组织、现代历史、国际合作和公共服务。"
     }
   };

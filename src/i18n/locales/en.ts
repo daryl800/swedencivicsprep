@@ -165,23 +165,23 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
     progressSolid: "Solid session.",
     progressStrong: "Strong practice day.",
     topicNames: {
-      democracy: "Democracy & Elections",
+      democracy: "Democracy, Elections & Media",
       "quick-start": "Quick practice",
       rights: "Rights & Duties",
       everyday: "Everyday Life in Sweden",
-      authorities: "Authorities & Services"
+      authorities: "Sweden, State & Services"
     },
     topicFlavor: {
-      democracy: "Ballots, voices, and the rules of the game.",
+      democracy: "Votes, free media, and the rules of democracy.",
       "quick-start": "Five mixed Swedish questions to start right away.",
       rights: "Know your freedoms. Know the shared responsibilities too.",
-      everyday: "The practical Sweden you meet on a normal Tuesday.",
-      authorities: "A quick map of who helps with what."
+      everyday: "Work, welfare, school, healthcare, and traditions.",
+      authorities: "Sweden as a country, state, history, and services."
     },
     topicDescriptions: {
-      democracy: "Get comfortable with voting, the Riksdag, and how people can have a voice in Sweden.",
-      rights: "Learn the everyday balance: your freedoms, your responsibilities, and everyone's equal value.",
-      everyday: "Practice the practical stuff: work breaks, renting, school, healthcare, and daily routines.",
-      authorities: "Know who to contact, when to call, and which service helps with what."
+      democracy: "Get comfortable with voting, political parties, free media, and how people can have a voice in Sweden.",
+      rights: "Learn the everyday balance: your freedoms, your responsibilities, religious freedom, and everyone's equal value.",
+      everyday: "Practice the practical stuff: work, money, school, healthcare, welfare, daily routines, and traditions.",
+      authorities: "Practice Sweden as a country, how the state is organized, modern history, international cooperation, and public services."
     }
   };
