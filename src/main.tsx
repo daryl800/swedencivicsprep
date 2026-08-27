@@ -1,9 +1,9 @@
-import { StrictMode, useEffect, useState } from "react";
-import type { FormEvent } from "react";
+import { StrictMode, useEffect, useRef, useState } from "react";
+import type { FormEvent, MouseEvent } from "react";
 import { createRoot } from "react-dom/client";
 import { useTranslation } from "react-i18next";
 import { Analytics } from "@vercel/analytics/react";
-import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Home as HomeIcon, Landmark, Layers3, LockKeyhole, MessageSquare, Scale, Sparkles, Star, X, XCircle } from "lucide-react";
+import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Home as HomeIcon, Landmark, Layers3, LockKeyhole, MessageSquare, Scale, Sparkles, Star, Volume2, X, XCircle } from "lucide-react";
 import { LESSONS, MIGRATIONSVERKET_CITIZENSHIP_URL, OFFICIAL_CHAPTERS, OFFICIAL_STUDY_GUIDE_URL, QUESTIONS, TOPICS } from "./data";
 import { DRAFT_QUESTIONS, type DraftQuestion, type DraftQuestionStatus } from "./draftQuestions";
 import i18n from "./i18n";
@@ -380,11 +380,13 @@ function App() {
   }
 
   function handleResetProgress() {
+    stopBrowserAudio();
     trackEvent("progress_reset", { uiLanguage: language });
     setProgress(resetProgress());
   }
 
   function handleLanguageChange(nextLanguage: UiLanguage) {
+    stopBrowserAudio();
     trackEvent("language_changed", { fromLanguage: language, toLanguage: nextLanguage, uiLanguage: nextLanguage });
     setLanguage(nextLanguage);
     localStorage.setItem(LANGUAGE_STORAGE_KEY, nextLanguage);
@@ -766,6 +768,7 @@ function useHashRoute(): [Route, (route: Route) => void] {
   }, []);
 
   function setRoute(nextRoute: Route) {
+    stopBrowserAudio();
     window.location.hash =
       nextRoute.page === "home"
         ? "/"
@@ -2736,6 +2739,7 @@ function MockExamPage({
   const selectedIndex = question ? answers[question.id] ?? null : null;
 
   function startExam() {
+    stopBrowserAudio();
     trackEvent("mock_exam_started", { questionCount: questions.length, fullAccess: HAS_FULL_ACCESS, uiLanguage: language });
     setStarted(true);
     setSubmitted(false);
@@ -2745,6 +2749,7 @@ function MockExamPage({
   }
 
   function restartExam() {
+    stopBrowserAudio();
     const nextQuestions = createMockExamQuestions();
     trackEvent("mock_exam_restarted", { questionCount: nextQuestions.length, fullAccess: HAS_FULL_ACCESS, uiLanguage: language });
     setQuestions(nextQuestions);
@@ -2756,6 +2761,7 @@ function MockExamPage({
   }
 
   function submitExam() {
+    stopBrowserAudio();
     const nextResult = getMockExamResult(questions, answers, ui);
     trackEvent("mock_exam_submitted", {
       correct: nextResult.correct,
@@ -2773,11 +2779,13 @@ function MockExamPage({
   }
 
   function goPrevious() {
+    stopBrowserAudio();
     setCurrentIndex((current) => Math.max(current - 1, 0));
     setQuestionHelpVisible(false);
   }
 
   function goNext() {
+    stopBrowserAudio();
     setCurrentIndex((current) => Math.min(current + 1, questions.length - 1));
     setQuestionHelpVisible(false);
   }
@@ -3028,8 +3036,11 @@ function FlashcardsPreviewPage({
   const selectedChapter = chapterId === "all" ? undefined : OFFICIAL_CHAPTERS.find((chapter) => chapter.id === chapterId);
   const knownCount = Object.values(marks).filter((mark) => mark === "known").length;
   const reviewCount = Object.values(marks).filter((mark) => mark === "review").length;
+  const cardTranslation = card ? getQuestionTranslation(card, language) : null;
+  const cardAnswerExplanation = card ? getExplanation(card, language, ui) : "";
 
   function refreshDeck(nextChapterId = chapterId) {
+    stopBrowserAudio();
     const nextCards = createFlashcardDeck(nextChapterId);
     setCards(nextCards);
     setCardIndex(0);
@@ -3043,20 +3054,28 @@ function FlashcardsPreviewPage({
   }
 
   function previousCard() {
+    stopBrowserAudio();
     setFlipped(false);
     setCardIndex((current) => (current - 1 + cards.length) % cards.length);
   }
 
   function nextCard() {
+    stopBrowserAudio();
     setFlipped(false);
     setCardIndex((current) => (current + 1) % cards.length);
   }
 
   function markCard(mark: FlashcardMark) {
     if (!card) return;
+    stopBrowserAudio();
     setMarks((current) => ({ ...current, [card.id]: mark }));
     trackEvent("flashcard_marked", { chapterId: card.chapterId, mark, questionId: card.id, uiLanguage: language });
     nextCard();
+  }
+
+  function toggleCardSide() {
+    stopBrowserAudio();
+    setFlipped((current) => !current);
   }
 
   return (
@@ -3101,7 +3120,11 @@ function FlashcardsPreviewPage({
 
         {card ? (
           <>
-            <button className={"flashcard question-flashcard" + (flipped ? " flipped" : "")} type="button" onClick={() => setFlipped((current) => !current)}>
+            <div className="flashcard-audio-tools">
+              <AudioButton label={getAudioLabel("sv")} language="sv" text={card.questionSv} />
+              {cardTranslation ? <AudioButton label={getAudioLabel(language)} language={language} text={flipped ? cardAnswerExplanation : cardTranslation.question} /> : null}
+            </div>
+            <button className={"flashcard question-flashcard" + (flipped ? " flipped" : "")} type="button" onClick={toggleCardSide}>
               <span className="flashcard-side-label">{flipped ? ui.flashcardsAnswerSide : ui.flashcardsQuestionSide}</span>
               <small>
                 {currentChapter ? currentChapter.number + ". " + (ui.chapterNames[currentChapter.id] || currentChapter.nameSv) : selectedChapter?.nameSv || ui.flashcardsAllChapters}
@@ -3127,7 +3150,7 @@ function FlashcardsPreviewPage({
               <button className="secondary" type="button" onClick={previousCard}>
                 {ui.mockExamPrevious}
               </button>
-              <button className="primary" type="button" onClick={() => setFlipped((current) => !current)}>
+              <button className="primary" type="button" onClick={toggleCardSide}>
                 {ui.flipCard}
               </button>
               <button className="secondary" type="button" onClick={nextCard}>
@@ -3346,9 +3369,17 @@ function TopicPracticePage({
   const mobileActionDisabled = checked ? false : selectedIndex === null;
   const mobileActionLabel = checked ? ui.nextQuestion : ui.checkAnswer;
   const currentPracticeId = practiceId || topic.id;
+  const handleNextQuestion = () => {
+    stopBrowserAudio();
+    onNext(currentPracticeId, questions.length);
+  };
+  const handleResetPracticeProgress = () => {
+    stopBrowserAudio();
+    onResetProgress();
+  };
   const handleMobileAction = () => {
     if (checked) {
-      onNext(currentPracticeId, questions.length);
+      handleNextQuestion();
       return;
     }
 
@@ -3442,10 +3473,10 @@ function TopicPracticePage({
           <button className="primary" type="button" disabled={selectedIndex === null || checked} onClick={() => onCheck(question)}>
             {ui.checkAnswer}
           </button>
-          <button className="secondary" type="button" disabled={!checked} onClick={() => onNext(currentPracticeId, questions.length)}>
+          <button className="secondary" type="button" disabled={!checked} onClick={handleNextQuestion}>
             {ui.nextQuestion}
           </button>
-          <button className="ghost" type="button" onClick={onResetProgress}>
+          <button className="ghost" type="button" onClick={handleResetPracticeProgress}>
             {ui.resetProgress}
           </button>
           {lesson ? (
@@ -3615,6 +3646,175 @@ function LessonCard({
   );
 }
 
+const AUDIO_STOP_EVENT = "swedencivicsprep-audio-stop";
+
+function stopBrowserAudio() {
+  if (typeof window === "undefined" || !("speechSynthesis" in window)) {
+    return;
+  }
+
+  window.speechSynthesis.cancel();
+  window.dispatchEvent(new CustomEvent(AUDIO_STOP_EVENT));
+}
+
+function AudioButton({
+  label,
+  language,
+  text
+}: {
+  label: string;
+  language: UiLanguage | ExplanationLanguage;
+  text: string;
+}) {
+  const [playing, setPlaying] = useState(false);
+  const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
+  const canSpeak = typeof window !== "undefined" && "speechSynthesis" in window && typeof SpeechSynthesisUtterance !== "undefined";
+  const buttonLabel = playing ? getAudioStopLabel(language) : label;
+
+  useEffect(() => {
+    if (!canSpeak) {
+      return;
+    }
+
+    function handleStop() {
+      utteranceRef.current = null;
+      setPlaying(false);
+    }
+
+    window.addEventListener(AUDIO_STOP_EVENT, handleStop);
+    return () => {
+      window.removeEventListener(AUDIO_STOP_EVENT, handleStop);
+      if (utteranceRef.current) {
+        window.speechSynthesis.cancel();
+      }
+    };
+  }, [canSpeak]);
+
+  function handleClick(event: MouseEvent<HTMLButtonElement>) {
+    event.stopPropagation();
+
+    if (!canSpeak || !text.trim()) {
+      return;
+    }
+
+    if (playing) {
+      stopBrowserAudio();
+      return;
+    }
+
+    stopBrowserAudio();
+    const utterance = new SpeechSynthesisUtterance(text);
+    const preferredVoice = getPreferredSpeechVoice(language);
+    if (preferredVoice) {
+      utterance.voice = preferredVoice;
+    }
+    utterance.lang = preferredVoice?.lang || getSpeechLanguage(language);
+    utterance.rate = language === "sv" ? 0.86 : 0.92;
+    utterance.onend = () => {
+      if (utteranceRef.current === utterance) {
+        utteranceRef.current = null;
+        setPlaying(false);
+      }
+    };
+    utterance.onerror = utterance.onend;
+    utteranceRef.current = utterance;
+    setPlaying(true);
+    window.speechSynthesis.speak(utterance);
+    trackEvent("audio_played", { language, source: "browser_tts" });
+  }
+
+  return (
+    <button
+      className={"secondary audio-button" + (playing ? " playing" : "")}
+      type="button"
+      disabled={!canSpeak || !text.trim()}
+      onClick={handleClick}
+      aria-label={buttonLabel}
+      aria-pressed={playing}
+      title={buttonLabel}
+    >
+      <Volume2 size={17} aria-hidden="true" />
+      <span>{buttonLabel}</span>
+    </button>
+  );
+}
+
+function buildQuestionSpeechText(questionText: string, options: Pick<ShuffledOption, "option" | "originalIndex">[], language: UiLanguage | ExplanationLanguage) {
+  const optionText = options
+    .map(({ option }, index) => getOptionSpeechLabel(language, index) + " " + option)
+    .join(" ");
+
+  return (questionText + " " + optionText).trim();
+}
+
+function getOptionSpeechLabel(language: UiLanguage | ExplanationLanguage, index: number) {
+  const letter = String.fromCharCode(65 + index);
+
+  if (language === "sv") return "Alternativ " + letter + ".";
+  if (language === "zh") return "选项" + letter + "。";
+  if (language === "zh-Hant") return "選項" + letter + "。";
+
+  return "Option " + letter + ".";
+}
+
+function getAudioLabel(language: UiLanguage | ExplanationLanguage) {
+  if (language === "sv") return "Lyssna";
+  if (language === "zh") return "听简中";
+  if (language === "zh-Hant") return "聽繁中";
+  if (language === "en") return "Listen";
+  return "Listen";
+}
+
+function getAudioStopLabel(language: UiLanguage | ExplanationLanguage) {
+  if (language === "sv") return "Stoppa";
+  if (language === "zh") return "停止";
+  if (language === "zh-Hant") return "停止";
+  return "Stop";
+}
+
+function getSpeechLanguage(language: UiLanguage | ExplanationLanguage) {
+  return getSpeechLanguageCandidates(language)[0] || "en-US";
+}
+
+function getSpeechLanguageCandidates(language: UiLanguage | ExplanationLanguage) {
+  const languages: Record<string, string[]> = {
+    sv: ["sv-SE", "sv"],
+    en: ["en-US", "en-GB", "en"],
+    zh: ["zh-CN", "zh"],
+    "zh-Hant": ["zh-HK", "zh-TW", "zh"],
+    ar: ["ar"],
+    fa: ["fa-IR", "fa"],
+    so: ["so-SO", "so"],
+    ti: ["ti-ER", "ti"]
+  };
+
+  return languages[language] || ["en-US", "en"];
+}
+
+function getPreferredSpeechVoice(language: UiLanguage | ExplanationLanguage) {
+  if (typeof window === "undefined" || !("speechSynthesis" in window)) {
+    return null;
+  }
+
+  const voices = window.speechSynthesis.getVoices();
+  if (voices.length === 0) {
+    return null;
+  }
+
+  const candidates = getSpeechLanguageCandidates(language).map((candidate) => candidate.toLowerCase());
+  const exactMatch = voices.find((voice) => candidates.includes(voice.lang.toLowerCase()) && voice.localService);
+  if (exactMatch) {
+    return exactMatch;
+  }
+
+  const exactRemoteMatch = voices.find((voice) => candidates.includes(voice.lang.toLowerCase()));
+  if (exactRemoteMatch) {
+    return exactRemoteMatch;
+  }
+
+  return voices.find((voice) => candidates.some((candidate) => voice.lang.toLowerCase().startsWith(candidate))) || null;
+}
+
 function QuestionCard({
   checked,
   language,
@@ -3637,18 +3837,34 @@ function QuestionCard({
   const translation = getQuestionTranslation(question, language);
   const showHelp = questionHelpVisible && translation;
   const questionHelpButtonLabel = getQuestionHelpButtonLabel(questionHelpVisible, language, ui);
+  const shuffledOptions = getShuffledOptions(question);
+  const translatedSpeech = translation
+    ? buildQuestionSpeechText(translation.question, translation.options.map((option, index) => ({ option, originalIndex: index })), language)
+    : "";
 
   return (
     <form className="question-form" dir="ltr">
       <fieldset>
-        {translation ? (
-          <div className="question-toolbar">
-            <button className="secondary help-toggle" type="button" onClick={onToggleQuestionHelp}>
-              <HelpCircle size={17} aria-hidden="true" />
-              {questionHelpButtonLabel}
-            </button>
-          </div>
-        ) : null}
+        <div className="question-toolbar">
+          <AudioButton
+            label={getAudioLabel("sv")}
+            language="sv"
+            text={buildQuestionSpeechText(question.questionSv, shuffledOptions, "sv")}
+          />
+          {translation ? (
+            <>
+              <AudioButton
+                label={getAudioLabel(language)}
+                language={language}
+                text={translatedSpeech}
+              />
+              <button className="secondary help-toggle" type="button" onClick={onToggleQuestionHelp}>
+                <HelpCircle size={17} aria-hidden="true" />
+                {questionHelpButtonLabel}
+              </button>
+            </>
+          ) : null}
+        </div>
         <legend>{question.questionSv}</legend>
         {showHelp ? (
           <aside className="question-help" dir={isRtl(language) ? "rtl" : "ltr"}>
@@ -3657,7 +3873,7 @@ function QuestionCard({
           </aside>
         ) : null}
         <div className="options">
-          {getShuffledOptions(question).map(({ option, originalIndex }, displayIndex) => {
+          {shuffledOptions.map(({ option, originalIndex }, displayIndex) => {
             const isSelected = selectedIndex === originalIndex;
             const isCorrect = checked && originalIndex === question.correctIndex;
             const isWrong = checked && isSelected && originalIndex !== question.correctIndex;
@@ -3770,6 +3986,7 @@ function ResultPanel({
   ui: UiText;
 }) {
   const explanation = getExplanation(question, language, ui);
+  const speechLanguage = getExplanationSpeechLanguage(question, language);
 
   return (
     <details className={`result ${lastWasCorrect ? "result-correct" : "result-wrong"}`} open aria-live="polite">
@@ -3781,9 +3998,24 @@ function ResultPanel({
       <p>
         <strong>{ui.bestAnswer}:</strong> <span dir="ltr">{question.options[question.correctIndex]}</span>
       </p>
-      <p dir={isRtl(language) ? "rtl" : "ltr"}>{explanation}</p>
+      <div className="result-explanation-row" dir={isRtl(language) ? "rtl" : "ltr"}>
+        <p>{explanation}</p>
+        <AudioButton label={getAudioLabel(speechLanguage)} language={speechLanguage} text={explanation} />
+      </div>
     </details>
   );
+}
+
+function getExplanationSpeechLanguage(question: Question, language: ExplanationLanguage) {
+  if (question.explanations[language]?.trim()) {
+    return language;
+  }
+
+  if (language === "zh-Hant" && question.explanations.zh?.trim()) {
+    return "zh-Hant";
+  }
+
+  return "en";
 }
 
 function getExplanation(question: Question, language: ExplanationLanguage, ui: UiText) {
