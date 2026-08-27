@@ -27,7 +27,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "1177 is used for healthcare advice, while emergencies use 112.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人生病，但不确定病情是否紧急。为什么 1177 可以是合适的第一联系渠道？",
+    "optionsZh": [
+      "1177 提供医疗咨询，并指引当事人应该去哪里求助。",
+      "1177 总是可以直接开药并出具病假证明。",
+      "1177 决定所有病假津贴相关事宜。",
+      "1177 完全取代医疗中心和医院。"
+    ],
+    "explanationZh": "1177 是瑞典的医疗咨询热线，帮助人们判断病情轻重、了解应去何处就医；紧急危及生命的情况则应拨打 112。1177 本身不开具处方、不决定病假津贴，也不替代医疗机构。",
+    "questionZhHant": "有人生病，但不確定病情是否緊急。為什麼 1177 可以是合適的第一聯系渠道？",
+    "optionsZhHant": [
+      "1177 提供醫療諮詢，並指引當事人應該去哪裡求助。",
+      "1177 總是可以直接開藥並出具病假證明。",
+      "1177 決定所有病假津貼相關事宜。",
+      "1177 完全取代醫療中心和醫院。"
+    ],
+    "explanationZhHant": "1177 是瑞典的醫療諮詢熱線，幫助人們判斷病情輕重、了解應去何處就醫；緊急危及生命的情況則應撥打 112。1177 本身不開具處方、不決定病假津貼，也不替代醫療機構。"
   },
   {
     "id": "draft-batch-b-ch09-002",
@@ -57,7 +73,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "112 is for emergencies requiring urgent help.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在什么情况下最适合拨打 112？",
+    "optionsZh": [
+      "当生命、健康、财产或环境面临紧急危险时。",
+      "为了去医疗中心预约普通门诊。",
+      "为了询问图书馆的开放时间。",
+      "为了申请儿童津贴。"
+    ],
+    "explanationZh": "112 是紧急号码，用于需要立即救助的危急情况，如危及生命、健康、财产或环境安全的事件。预约门诊、询问图书馆或申请补贴都应联系相应机构，而非拨打急救电话。",
+    "questionZhHant": "在什麼情況下最適合撥打 112？",
+    "optionsZhHant": [
+      "當生命、健康、財產或環境面臨緊急危險時。",
+      "為了去醫療中心預約普通門診。",
+      "為了詢問圖書館的開放時間。",
+      "為了申請兒童津貼。"
+    ],
+    "explanationZhHant": "112 是緊急號碼，用於需要立即救助的危急情況，如危及生命、健康、財產或環境安全的事件。預約門診、詢問圖書館或申請補貼都應聯系相應機構，而非撥打急救電話。"
   },
   {
     "id": "draft-batch-b-ch09-003",
@@ -87,7 +119,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Försäkringskassan handles several social insurance benefits, including parental-related compensation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位家长在家照顾生病的孩子并申请补偿。哪个机构通常与社会保险相关？",
+    "optionsZh": [
+      "社会保险局（Försäkringskassan）。",
+      "选举管理局（Valmyndigheten）。",
+      "法院行政署（Domstolsverket）。",
+      "瑞典中央银行（Riksbanken）。"
+    ],
+    "explanationZh": "社会保险局（Försäkringskassan）负责多项社会保险待遇，包括与父母育儿相关的补偿，例如照顾生病孩子的 vab。其他机构分别负责选举、法院行政和货币政策，与社会保险无关。",
+    "questionZhHant": "一位家長在家照顧生病的孩子並申請補償。哪個機構通常與社會保險相關？",
+    "optionsZhHant": [
+      "社會保險局（Försäkringskassan）。",
+      "選舉管理局（Valmyndigheten）。",
+      "法院行政署（Domstolsverket）。",
+      "瑞典中央銀行（Riksbanken）。"
+    ],
+    "explanationZhHant": "社會保險局（Försäkringskassan）負責多項社會保險待遇，包括與父母育兒相關的補償，例如照顧生病孩子的 vab。其他機構分別負責選舉、法院行政和貨幣政策，與社會保險無關。"
   },
   {
     "id": "draft-batch-b-ch09-004",
@@ -117,7 +165,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipalities handle elderly care and social support services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位亲属在家中照顾老人，需要喘息性支援。为什么市政当局（kommun）可能与此相关？",
+    "optionsZh": [
+      "市镇（kommun）负责老年人照护以及日常生活中的某些支援措施。",
+      "大区（region）始终决定居家照护的排班。",
+      "社会保险局（Försäkringskassan）经营所有养老院。",
+      "国家卫生与福利委员会（Socialstyrelsen）直接为每个家庭提供居家照护。"
+    ],
+    "explanationZh": "在瑞典，老年人照护（äldreomsorg）主要由市镇（kommun）负责，包括居家照护等日常支援。大区主要负责医疗，社会保险局负责社会保险待遇而不经营养老院；卫生福利委员会是监管指导机构，并不直接上门提供照护。",
+    "questionZhHant": "一位親屬在家中照顧老人，需要喘息性支援。為什麼市政當局（kommun）可能與此相關？",
+    "optionsZhHant": [
+      "市鎮（kommun）負責老年人照護以及日常生活中的某些支援措施。",
+      "大區（region）始終決定居家照護的排班。",
+      "社會保險局（Försäkringskassan）經營所有養老院。",
+      "國家衛生與福利委員會（Socialstyrelsen）直接為每個家庭提供居家照護。"
+    ],
+    "explanationZhHant": "在瑞典，老年人照護（äldreomsorg）主要由市鎮（kommun）負責，包括居家照護等日常支援。大區主要負責醫療，社會保險局負責社會保險待遇而不經營養老院；衛生福利委員會是監管指導機構，並不直接上門提供照護。"
   },
   {
     "id": "draft-batch-b-ch09-005",
@@ -147,7 +211,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Patient fees exist, but Swedish healthcare is heavily tax-funded.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "既然医疗很大程度上由税收资助，为什么看病通常还要支付一笔患者自付费用？",
+    "optionsZh": [
+      "这笔费用只覆盖一部分；税收资助了医疗的很大一部分。",
+      "患者自付费用意味着医疗完全拿不到税款。",
+      "这笔费用总是直接归医生个人所有。",
+      "支付费用的人在所有医疗中自动优先。"
+    ],
+    "explanationZh": "瑞典医疗主要由税收资助，但就诊时患者通常仍需支付小额自付费用（patientavgift）。这笔费用只是成本的一小部分，并非意味着医疗没有公共资金，也不会让人插队或优先。",
+    "questionZhHant": "既然醫療很大程度上由稅收資助，為什麼看病通常還要支付一筆患者自付費用？",
+    "optionsZhHant": [
+      "這筆費用只覆蓋一部分；稅收資助了醫療的很大一部分。",
+      "患者自付費用意味着醫療完全拿不到稅款。",
+      "這筆費用總是直接歸醫生個人所有。",
+      "支付費用的人在所有醫療中自動優先。"
+    ],
+    "explanationZhHant": "瑞典醫療主要由稅收資助，但就診時患者通常仍需支付小額自付費用（patientavgift）。這筆費用只是成本的一小部分，並非意味着醫療沒有公共資金，也不會讓人插隊或優先。"
   },
   {
     "id": "draft-batch-b-ch09-006",
@@ -177,7 +257,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipalities have major responsibility for compulsory school access.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一家人搬到一个新市镇，孩子需要入学名额。为什么市政当局（kommun）在这件事上处于中心地位？",
+    "optionsZh": [
+      "市镇（kommun）负责让儿童获得义务教育（grundskola）的机会。",
+      "大区（region）始终决定每个孩子的班级。",
+      "入学名额只由社会保险局（Försäkringskassan）发放。",
+      "大区（region）负责市镇内所有义务教育学校。"
+    ],
+    "explanationZh": "义务教育（小学和初中阶段的 grundskola）主要由市镇（kommun）负责，包括保障儿童入学。大区负责医疗和牙科等，不负责普通中小学；社会保险局与入学无关。",
+    "questionZhHant": "一家人搬到一個新市鎮，孩子需要入學名額。為什麼市政當局（kommun）在這件事上處於中心地位？",
+    "optionsZhHant": [
+      "市鎮（kommun）負責讓兒童獲得義務教育（grundskola）的機會。",
+      "大區（region）始終決定每個孩子的班級。",
+      "入學名額只由社會保險局（Försäkringskassan）發放。",
+      "大區（region）負責市鎮內所有義務教育學校。"
+    ],
+    "explanationZhHant": "義務教育（小學和初中階段的 grundskola）主要由市鎮（kommun）負責，包括保障兒童入學。大區負責醫療和牙科等，不負責普通中小學；社會保險局與入學無關。"
   },
   {
     "id": "draft-batch-b-ch09-007",
@@ -207,7 +303,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Financial assistance is needs-tested and depends on the person’s situation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么社会服务（socialtjänsten）在决定经济援助前通常要做个案审查？",
+    "optionsZh": [
+      "需要结合具体情况评估当事人的需求及其自身的能力。",
+      "所有人无论情况如何都自动获得相同金额。",
+      "金额由瑞典国会（Riksdagen）统一决定，对所有人相同。",
+      "社会服务只能帮助全职工作的人。"
+    ],
+    "explanationZh": "经济援助（försörjningsstöd）属于需求审查型福利，需根据申请人具体的生活状况、收入和自谋生路的可能来决定。它不是全国统一固定金额，也不限于仅全职工作者。",
+    "questionZhHant": "為什麼社會服務（socialtjänsten）在決定經濟援助前通常要做個案審查？",
+    "optionsZhHant": [
+      "需要結合具體情況評估當事人的需求及其自身的能力。",
+      "所有人無論情況如何都自動獲得相同金額。",
+      "金額由瑞典國會（Riksdagen）統一決定，對所有人相同。",
+      "社會服務只能幫助全職工作的人。"
+    ],
+    "explanationZhHant": "經濟援助（försörjningsstöd）屬於需求審查型福利，需根據申請人具體的生活狀況、收入和自謀生路的可能來決定。它不是全國統一固定金額，也不限於僅全職工作者。"
   },
   {
     "id": "draft-batch-b-ch09-008",
@@ -237,7 +349,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Welfare is often paid collectively, not cost-free.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人说福利是免费的，因为看病时并不总是支付全额费用。哪种说法更准确？",
+    "optionsZh": [
+      "许多福利服务是通过税收以及有时通过收费共同筹资的。",
+      "福利对社会没有任何成本。",
+      "所有福利服务都由私人捐赠支付。",
+      "市镇不得用税收提供福利。"
+    ],
+    "explanationZh": "福利并非“免费”——它的成本由全社会通过税收共同承担，有时还需自付部分费用。说福利没有成本、或只靠私人捐款是不对的。",
+    "questionZhHant": "有人說福利是免費的，因為看病時並不總是支付全額費用。哪種說法更準確？",
+    "optionsZhHant": [
+      "許多福利服務是通過稅收以及有時通過收費共同籌資的。",
+      "福利對社會沒有任何成本。",
+      "所有福利服務都由私人捐贈支付。",
+      "市鎮不得用稅收提供福利。"
+    ],
+    "explanationZhHant": "福利並非“免費”——它的成本由全社會通過稅收共同承擔，有時還需自付部分費用。說福利沒有成本、或只靠私人捐款是不對的。"
   },
   {
     "id": "draft-batch-b-ch09-009",
@@ -267,7 +395,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Some welfare can be delivered by private providers, but public responsibility and rules can still apply.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，福利服务可以由私营机构提供吗？",
+    "optionsZh": [
+      "可以，私营机构有时会提供由公共财政资助或受公共监管的服务。",
+      "不行，私营机构在所有医疗和教育领域都被禁止。",
+      "可以，但那样所有法律要求和监管都会停止。",
+      "不行，市镇必须始终亲自经营所有医疗和教育。"
+    ],
+    "explanationZh": "在瑞典，私营机构可以承办部分福利服务，例如私立学校、私立诊所，但这些服务通常仍由公共财政资助并受法律法规和监管约束。并非完全禁止，也并非脱离监管。",
+    "questionZhHant": "在瑞典，福利服務可以由私營機構提供嗎？",
+    "optionsZhHant": [
+      "可以，私營機構有時會提供由公共財政資助或受公共監管的服務。",
+      "不行，私營機構在所有醫療和教育領域都被禁止。",
+      "可以，但那樣所有法律要求和監管都會停止。",
+      "不行，市鎮必須始終親自經營所有醫療和教育。"
+    ],
+    "explanationZhHant": "在瑞典，私營機構可以承辦部分福利服務，例如私立學校、私立診所，但這些服務通常仍由公共財政資助並受法律法規和監管約束。並非完全禁止，也並非脫離監管。"
   },
   {
     "id": "draft-batch-b-ch09-010",
@@ -297,7 +441,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Longer illness can involve several systems: work, healthcare, and social insurance.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人因长期生病无法工作。为什么雇主、医疗机构和保险局有时会同时牵涉其中？",
+    "optionsZh": [
+      "疾病可能影响工作能力、医疗需求以及领取补偿的权利。",
+      "雇主在保险局不参与的情况下全权处理病假津贴。",
+      "社会保险局（Försäkringskassan）为大区经营医疗中心。",
+      "雇主始终决定医学诊断。"
+    ],
+    "explanationZh": "长期生病会牵涉多个系统：雇主负责病假工资（sjuklön）和工作安排，医疗方评估病情，社会保险局在病假持续时可能发放病假津贴。诊断由医疗方而非雇主作出。",
+    "questionZhHant": "一個人因長期生病無法工作。為什麼僱主、醫療機構和保險局有時會同時牽涉其中？",
+    "optionsZhHant": [
+      "疾病可能影響工作能力、醫療需求以及領取補償的權利。",
+      "僱主在保險局不參與的情況下全權處理病假津貼。",
+      "社會保險局（Försäkringskassan）為大區經營醫療中心。",
+      "僱主始終決定醫學診斷。"
+    ],
+    "explanationZhHant": "長期生病會牽涉多個系統：僱主負責病假工資（sjuklön）和工作安排，醫療方評估病情，社會保險局在病假持續時可能發放病假津貼。診斷由醫療方而非僱主作出。"
   },
   {
     "id": "draft-batch-b-ch09-011",
@@ -327,7 +487,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Child allowance is an example of broad financial support for families with children.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "儿童津贴（barnbidrag）作为福利的例子，说明了什么？",
+    "optionsZh": [
+      "某些支持可以是普惠性的，并面向有子女的家庭。",
+      "儿童必须向市镇申请工资。",
+      "补贴始终是必须偿还的贷款。",
+      "只有高收入家庭才能获得支持。"
+    ],
+    "explanationZh": "儿童津贴是一项面向所有有子女家庭的普惠性现金支持，体现福利可以广泛惠及家庭，而非仅限高收入者或须偿还的贷款。",
+    "questionZhHant": "兒童津貼（barnbidrag）作為福利的例子，說明了什麼？",
+    "optionsZhHant": [
+      "某些支持可以是普惠性的，並面向有子女的家庭。",
+      "兒童必須向市鎮申請工資。",
+      "補貼始終是必須償還的貸款。",
+      "只有高收入家庭才能獲得支持。"
+    ],
+    "explanationZhHant": "兒童津貼是一項面向所有有子女家庭的普惠性現金支持，體現福利可以廣泛惠及家庭，而非僅限高收入者或須償還的貸款。"
   },
   {
     "id": "draft-batch-b-ch09-012",
@@ -357,7 +533,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Access to welfare depends not only on services existing, but also on people understanding how to use them.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人看不懂医疗机构的信件，因而错过预约。为什么清晰的公共信息在福利中很重要？",
+    "optionsZh": [
+      "人们需要理解信息，才能行使自己的权利并使用各项服务。",
+      "理解困难不影响获得支持的权利。",
+      "医疗只可告知瑞典语完美的人。",
+      "市镇不负责让信息被理解。"
+    ],
+    "explanationZh": "福利不仅要有服务存在，还取决于人们能否理解并使用这些服务。公共信息清晰易懂，才能保障弱势群体的权利。医疗沟通不应只面向母语者。",
+    "questionZhHant": "一個人看不懂醫療機構的信件，因而錯過預約。為什麼清晰的公共資訊在福利中很重要？",
+    "optionsZhHant": [
+      "人們需要理解資訊，才能行使自己的權利並使用各項服務。",
+      "理解困難不影響獲得支持的權利。",
+      "醫療只可告知瑞典語完美的人。",
+      "市鎮不負責讓資訊被理解。"
+    ],
+    "explanationZhHant": "福利不僅要有服務存在，還取決於人們能否理解並使用這些服務。公共資訊清晰易懂，才能保障弱勢羣體的權利。醫療溝通不應只面向母語者。"
   },
   {
     "id": "draft-batch-b-ch09-013",
@@ -387,7 +579,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Different welfare services belong to different public levels.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位居民同时投诉幼儿园和医疗。为什么投诉可能需要找不同的负责方？",
+    "optionsZh": [
+      "幼儿园通常归市镇（kommun）负责，而医疗通常归大区（region）负责。",
+      "这两件事始终都由国家处理，而非市镇或大区。",
+      "医疗是市镇的职责、幼儿园是大区的职责，全国如此。",
+      "任何福利服务都没有政治负责的层级。"
+    ],
+    "explanationZh": "瑞典不同福利分属不同公共层级：幼儿园（förskola）和义务教育由市镇负责，医疗由大区负责。因此投诉应分别向相应层级提出。",
+    "questionZhHant": "一位居民同時投訴幼兒園和醫療。為什麼投訴可能需要找不同的負責方？",
+    "optionsZhHant": [
+      "幼兒園通常歸市鎮（kommun）負責，而醫療通常歸大區（region）負責。",
+      "這兩件事始終都由國家處理，而非市鎮或大區。",
+      "醫療是市鎮的職責、幼兒園是大區的職責，全國如此。",
+      "任何福利服務都沒有政治負責的層級。"
+    ],
+    "explanationZhHant": "瑞典不同福利分屬不同公共層級：幼兒園（förskola）和義務教育由市鎮負責，醫療由大區負責。因此投訴應分別向相應層級提出。"
   },
   {
     "id": "draft-batch-b-ch09-014",
@@ -417,7 +625,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Welfare can reduce the effect of unequal resources by providing shared support and services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么福利与社会平等（jämlikhet）相关？",
+    "optionsZh": [
+      "它能在人们经济条件不同的情况下，仍为其提供基本支持和公共服务。",
+      "它让所有人拥有完全一样的生活和工资。",
+      "它意味着国家禁止私人选择。",
+      "它只适用于从未工作过的人。"
+    ],
+    "explanationZh": "福利通过共享的公共服务和收入保障，缩小因资源不均造成的生活机会差距，但不等于强制所有人收入或生活完全相同。",
+    "questionZhHant": "為什麼福利與社會平等（jämlikhet）相關？",
+    "optionsZhHant": [
+      "它能在人們經濟條件不同的情況下，仍為其提供基本支持和公共服務。",
+      "它讓所有人擁有完全一樣的生活和工資。",
+      "它意味着國家禁止私人選擇。",
+      "它只適用於從未工作過的人。"
+    ],
+    "explanationZhHant": "福利通過共享的公共服務和收入保障，縮小因資源不均造成的生活機會差距，但不等於強制所有人收入或生活完全相同。"
   },
   {
     "id": "draft-batch-b-ch09-015",
@@ -447,7 +671,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Civic orientation can help people understand society, services, rights, and responsibilities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么社会导向（samhällsorientering）对刚到瑞典的人很重要？",
+    "optionsZh": [
+      "它可以让人了解权利、义务以及社会服务的运作方式。",
+      "它取代所有遵守瑞典法律的要求。",
+      "完成课程后自动获得瑞典公民身份。",
+      "它只面向已在市镇工作的人。"
+    ],
+    "explanationZh": "社会导向课程帮助新移民了解瑞典社会的运作、自身权利与义务，从而更好融入并使用公共服务。它不赋予公民身份，也不免除守法义务。",
+    "questionZhHant": "為什麼社會導向（samhällsorientering）對剛到瑞典的人很重要？",
+    "optionsZhHant": [
+      "它可以讓人了解權利、義務以及社會服務的運作方式。",
+      "它取代所有遵守瑞典法律的要求。",
+      "完成課程後自動獲得瑞典公民身份。",
+      "它只面向已在市鎮工作的人。"
+    ],
+    "explanationZhHant": "社會導向課程幫助新移民了解瑞典社會的運作、自身權利與義務，從而更好融入並使用公共服務。它不賦予公民身份，也不免除守法義務。"
   },
   {
     "id": "draft-batch-d-ch09-001",
@@ -477,7 +717,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish healthcare is based on medical need, especially in emergencies.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人因危及生命的情况寻求紧急救助，但担心费用。瑞典医疗中的哪项原则很重要？",
+    "optionsZh": [
+      "紧急救治应基于医疗需求，而非当事人当时的支付能力。",
+      "紧急救治只给能立即全额付费的人。",
+      "大区可以拒绝向无业者提供一切医疗。",
+      "112 在派救护车前先核定患者的税。"
+    ],
+    "explanationZh": "瑞典医疗以医疗需求为基础，尤其在急救中，不会因为当事人暂时付不起钱而拒绝救治。费用是后续按规则处理的事。",
+    "questionZhHant": "一個人因危及生命的情況尋求緊急救助，但擔心費用。瑞典醫療中的哪項原則很重要？",
+    "optionsZhHant": [
+      "緊急救治應基於醫療需求，而非當事人當時的支付能力。",
+      "緊急救治只給能立即全額付費的人。",
+      "大區可以拒絕向無業者提供一切醫療。",
+      "112 在派救護車前先核定患者的稅。"
+    ],
+    "explanationZhHant": "瑞典醫療以醫療需求為基礎，尤其在急救中，不會因為當事人暫時付不起錢而拒絕救治。費用是後續按規則處理的事。"
   },
   {
     "id": "draft-batch-d-ch09-002",
@@ -507,7 +763,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Social assistance can combine help with individual assessment and responsibilities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么社会服务（socialtjänsten）既能提供支持，又能提出要求？",
+    "optionsZh": [
+      "支持往往建立在对需求、责任与可行方案的评估之上。",
+      "社会服务只能不问缘由地发钱。",
+      "提出要求意味着当事人丧失所有权利。",
+      "社会服务只和大区的医疗打交道。"
+    ],
+    "explanationZh": "社会服务的帮助通常伴随个案评估，既提供支持也要求当事人配合，例如积极寻找工作。这不是剥夺权利，而是帮助其恢复自立。",
+    "questionZhHant": "為什麼社會服務（socialtjänsten）既能提供支持，又能提出要求？",
+    "optionsZhHant": [
+      "支持往往建立在對需求、責任與可行方案的評估之上。",
+      "社會服務只能不問緣由地發錢。",
+      "提出要求意味着當事人喪失所有權利。",
+      "社會服務只和大區的醫療打交道。"
+    ],
+    "explanationZhHant": "社會服務的幫助通常伴隨個案評估，既提供支持也要求當事人配合，例如積極尋找工作。這不是剝奪權利，而是幫助其恢複自立。"
   },
   {
     "id": "draft-ch09-001",
@@ -536,7 +808,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The welfare society includes public services and social security financed largely through taxes.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典语境下，“福利社会”（välfärdssamhälle）通常指什么？",
+    "optionsZh": [
+      "社会提供共同的公共服务与保障体系，部分由税收筹资。",
+      "每个家庭都必须自行安排所有医疗和教育，没有公共支持。",
+      "只有高收入者才能使用公共服务。",
+      "市镇对居民的日常生活不承担责任。"
+    ],
+    "explanationZh": "福利社会指社会通过税收等共同筹资，提供医疗、教育、照护和社会保障等公共服务，保障居民基本生活，而非仅由家庭自理或只服务富人。",
+    "questionZhHant": "瑞典語境下，“福利社會”（välfärdssamhälle）通常指什麼？",
+    "optionsZhHant": [
+      "社會提供共同的公共服務與保障體系，部分由稅收籌資。",
+      "每個家庭都必須自行安排所有醫療和教育，沒有公共支持。",
+      "只有高收入者才能使用公共服務。",
+      "市鎮對居民的日常生活不承擔責任。"
+    ],
+    "explanationZhHant": "福利社會指社會通過稅收等共同籌資，提供醫療、教育、照護和社會保障等公共服務，保障居民基本生活，而非僅由家庭自理或只服務富人。"
   },
   {
     "id": "draft-ch09-002",
@@ -566,7 +854,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Taxes are a main source of funding for many public welfare services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，为什么税收常与福利挂钩？",
+    "optionsZh": [
+      "税收为医疗、教育、照护和社会保障的大部分提供资金。",
+      "税收让所有私人开支自动消失。",
+      "税收只由使用医院的人缴纳。",
+      "税收取代了市镇和大区的存在必要。"
+    ],
+    "explanationZh": "瑞典福利体系主要依靠税收筹资，包括医疗、学校、养老照护和社会保险等。税收是公共福利的主要财源，并非只由特定人群缴纳。",
+    "questionZhHant": "在瑞典，為什麼稅收常與福利掛鉤？",
+    "optionsZhHant": [
+      "稅收為醫療、教育、照護和社會保障的大部分提供資金。",
+      "稅收讓所有私人開支自動消失。",
+      "稅收只由使用醫院的人繳納。",
+      "稅收取代了市鎮和大區的存在必要。"
+    ],
+    "explanationZhHant": "瑞典福利體系主要依靠稅收籌資，包括醫療、學校、養老照護和社會保險等。稅收是公共福利的主要財源，並非只由特定人羣繳納。"
   },
   {
     "id": "draft-ch09-003",
@@ -596,7 +900,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Welfare is broader than benefits; it also includes services people use in everyday life.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人说福利只指经济补贴。哪种解释最准确？",
+    "optionsZh": [
+      "福利既包含经济保障，也包含医疗、教育、照护等服务。",
+      "福利只意味着国家每月给所有成年人发现金。",
+      "福利只涉及私人保险，与公共事业无关。",
+      "福利纯粹是政党在竞选期间的工作。"
+    ],
+    "explanationZh": "福利的范围比补贴更广，既包括现金福利，也包括人们日常生活中使用的公共服务，例如医疗、学校、养老照护。",
+    "questionZhHant": "有人說福利只指經濟補貼。哪種解釋最準確？",
+    "optionsZhHant": [
+      "福利既包含經濟保障，也包含醫療、教育、照護等服務。",
+      "福利只意味着國家每月給所有成年人發現金。",
+      "福利只涉及私人保險，與公共事業無關。",
+      "福利純粹是政黨在競選期間的工作。"
+    ],
+    "explanationZhHant": "福利的範圍比補貼更廣，既包括現金福利，也包括人們日常生活中使用的公共服務，例如醫療、學校、養老照護。"
   },
   {
     "id": "draft-ch09-004",
@@ -625,7 +945,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Regions are responsible for much of healthcare in Sweden.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，哪个层级对医疗（hälso- och sjukvård）负有重大责任？",
+    "optionsZh": [
+      "大区（region）。",
+      "市镇（kommun）。",
+      "国家（staten）。",
+      "社会保险局（Försäkringskassan）。"
+    ],
+    "explanationZh": "瑞典的医疗主要由大区（region）负责，包括医院和医疗中心。市镇负责老年人和残疾人照护，社会保险局负责保险待遇，国家制定框架法律。",
+    "questionZhHant": "在瑞典，哪個層級對醫療（hälso- och sjukvård）負有重大責任？",
+    "optionsZhHant": [
+      "大區（region）。",
+      "市鎮（kommun）。",
+      "國家（staten）。",
+      "社會保險局（Försäkringskassan）。"
+    ],
+    "explanationZhHant": "瑞典的醫療主要由大區（region）負責，包括醫院和醫療中心。市鎮負責老年人和殘疾人照護，社會保險局負責保險待遇，國家制定框架法律。"
   },
   {
     "id": "draft-ch09-005",
@@ -654,7 +990,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A healthcare centre is often the first point of contact for non-emergency medical needs.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是医疗中心（vårdcentral）？",
+    "optionsZh": [
+      "处理许多常见医疗需求、作为就医第一接触点的诊所。",
+      "处理危及生命状况的急诊科。",
+      "决定病假批准的政府机构。",
+      "医院里负责计划手术的科室。"
+    ],
+    "explanationZh": "医疗中心（vårdcentral）是处理常见病、慢性病的基层医疗机构，通常是非紧急就医的第一站；危重情况应去急诊，病假由医疗方评估。",
+    "questionZhHant": "什麼是醫療中心（vårdcentral）？",
+    "optionsZhHant": [
+      "處理許多常見醫療需求、作為就醫第一接觸點的診所。",
+      "處理危及生命狀況的急診科。",
+      "決定病假批準的政府機構。",
+      "醫院裡負責計劃手術的科室。"
+    ],
+    "explanationZhHant": "醫療中心（vårdcentral）是處理常見病、慢性病的基層醫療機構，通常是非緊急就醫的第一站；危重情況應去急診，病假由醫療方評估。"
   },
   {
     "id": "draft-ch09-006",
@@ -684,7 +1036,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Non-emergency care usually starts with primary care or advice rather than emergency services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人有长期不适，但没有危及生命的急性状况。通常最合理的第一步联系是？",
+    "optionsZh": [
+      "医疗中心（vårdcentral）或医疗咨询热线 1177，由它们评估下一步。",
+      "不预先联系，直接去急诊。",
+      "打 112 预约计划中的住院。",
+      "等症状自行消失。"
+    ],
+    "explanationZh": "非紧急的慢性病或不适，通常应先看医疗中心或拨打 1177 咨询评估，而不是占用急救资源或拖延不理。",
+    "questionZhHant": "一個人有長期不適，但沒有危及生命的急性狀況。通常最合理的第一步聯系是？",
+    "optionsZhHant": [
+      "醫療中心（vårdcentral）或醫療諮詢熱線 1177，由它們評估下一步。",
+      "不預先聯系，直接去急診。",
+      "打 112 預約計劃中的住院。",
+      "等症狀自行消失。"
+    ],
+    "explanationZhHant": "非緊急的慢性病或不適，通常應先看醫療中心或撥打 1177 諮詢評估，而不是佔用急救資源或拖延不理。"
   },
   {
     "id": "draft-ch09-007",
@@ -713,7 +1081,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "112 is the emergency number for urgent situations.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "当生命、健康或财产面临紧急危险时，应使用哪个电话号码？",
+    "optionsZh": [
+      "112。",
+      "1177。",
+      "114 14。",
+      "113 13。"
+    ],
+    "explanationZh": "112 是瑞典的紧急号码，用于危及生命、健康、财产或环境的紧急情况。1177 是医疗咨询，114 14 是警方非紧急号码，113 13 是民防与应急信息。",
+    "questionZhHant": "當生命、健康或財產面臨緊急危險時，應使用哪個電話號碼？",
+    "optionsZhHant": [
+      "112。",
+      "1177。",
+      "114 14。",
+      "113 13。"
+    ],
+    "explanationZhHant": "112 是瑞典的緊急號碼，用於危及生命、健康、財產或環境的緊急情況。1177 是醫療諮詢，114 14 是警方非緊急號碼，113 13 是民防與應急資訊。"
   },
   {
     "id": "draft-ch09-008",
@@ -743,7 +1127,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "1177 provides healthcare advice and information in Sweden.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "1177 通常用来做什么？",
+    "optionsZh": [
+      "医疗咨询以及关于医疗服务的信息。",
+      "警方处理非紧急罪案的号码。",
+      "危及生命危险的报警号码。",
+      "向税务局（Skatteverket）订购个人证明。"
+    ],
+    "explanationZh": "1177 是瑞典医疗咨询与信息热线，解答就医疑问、指导去哪看病。警方非紧急用 114 14，急救用 112，个人证明由税务局办理。",
+    "questionZhHant": "1177 通常用來做什麼？",
+    "optionsZhHant": [
+      "醫療諮詢以及關於醫療服務的資訊。",
+      "警方處理非緊急罪案的號碼。",
+      "危及生命危險的報警號碼。",
+      "向稅務局（Skatteverket）訂購個人證明。"
+    ],
+    "explanationZhHant": "1177 是瑞典醫療諮詢與資訊熱線，解答就醫疑問、指導去哪看病。警方非緊急用 114 14，急救用 112，個人證明由稅務局辦理。"
   },
   {
     "id": "draft-ch09-009",
@@ -773,7 +1173,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Potentially life-threatening symptoms should be handled as urgent.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人突然胸痛、呼吸困难。最合适的做法是？",
+    "optionsZh": [
+      "拨打 112，因为情况可能紧急。",
+      "拨打 1177 等待回电。",
+      "几周后在医疗中心预约普通门诊。",
+      "等几天看症状是否消失。"
+    ],
+    "explanationZh": "突发胸痛伴呼吸困难可能是危及生命的急症，应立即拨打 112。等待或预约门诊可能延误救治。",
+    "questionZhHant": "一個人突然胸痛、呼吸困難。最合適的做法是？",
+    "optionsZhHant": [
+      "撥打 112，因為情況可能緊急。",
+      "撥打 1177 等待回電。",
+      "幾周後在醫療中心預約普通門診。",
+      "等幾天看症狀是否消失。"
+    ],
+    "explanationZhHant": "突發胸痛伴呼吸困難可能是危及生命的急症，應立即撥打 112。等待或預約門診可能延誤救治。"
   },
   {
     "id": "draft-ch09-010",
@@ -802,7 +1218,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Patients may pay fees, while healthcare is also publicly financed.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“患者自付费用”（patientavgift）指什么？",
+    "optionsZh": [
+      "患者为某些就医项目支付的费用。",
+      "资助整个医疗体系的税。",
+      "无论是否就医，所有人每月都交的固定费。",
+      "就医时医疗方向患者支付的补偿。"
+    ],
+    "explanationZh": "患者自付费用是看病时患者直接支付的小额费用，只覆盖部分成本；医疗主要仍由公共财政承担。它不是税，也不是发给患者的补偿。",
+    "questionZhHant": "“患者自付費用”（patientavgift）指什麼？",
+    "optionsZhHant": [
+      "患者為某些就醫項目支付的費用。",
+      "資助整個醫療體系的稅。",
+      "無論是否就醫，所有人每月都交的固定費。",
+      "就醫時醫療方向患者支付的補償。"
+    ],
+    "explanationZhHant": "患者自付費用是看病時患者直接支付的小額費用，只覆蓋部分成本；醫療主要仍由公共財政承擔。它不是稅，也不是發給患者的補償。"
   },
   {
     "id": "draft-ch09-011",
@@ -831,7 +1263,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "High-cost protection reduces the financial burden of repeated healthcare costs.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "医疗中为什么设有“高额费用保护”（högkostnadsskydd）？",
+    "optionsZh": [
+      "为了限制患者在一段时间内为某些医疗自付的金额上限。",
+      "为了让看病越多费用越高。",
+      "为了让大区在首次就诊后拒绝提供医疗。",
+      "为了取代对护士的需求。"
+    ],
+    "explanationZh": "高额费用保护为一定时期（通常一年）内患者自付的医疗总费用设上限，防止重病患者负担过重。它不是惩罚性收费，也不削弱医疗供给。",
+    "questionZhHant": "醫療中為什麼設有“高額費用保護”（högkostnadsskydd）？",
+    "optionsZhHant": [
+      "為了限制患者在一段時間內為某些醫療自付的金額上限。",
+      "為了讓看病越多費用越高。",
+      "為了讓大區在首次就診後拒絕提供醫療。",
+      "為了取代對護士的需求。"
+    ],
+    "explanationZhHant": "高額費用保護為一定時期（通常一年）內患者自付的醫療總費用設上限，防止重病患者負擔過重。它不是懲罰性收費，也不削弱醫療供給。"
   },
   {
     "id": "draft-ch09-012",
@@ -861,7 +1309,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Patient participation requires information that the patient can understand.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位患者在治疗前看不懂相关信息。哪项原则很重要？",
+    "optionsZh": [
+      "患者需要有可理解的信息，才能参与医疗决策。",
+      "医疗方从不需要向患者解释治疗。",
+      "家属总是不经患者知情就替其决定。",
+      "只有额外付费才提供信息。"
+    ],
+    "explanationZh": "医疗伦理强调患者知情与共同参与决策（patientdelaktighet），信息必须让患者能够理解，而非只给家属或额外收费。",
+    "questionZhHant": "一位患者在治療前看不懂相關資訊。哪項原則很重要？",
+    "optionsZhHant": [
+      "患者需要有可理解的資訊，才能參與醫療決策。",
+      "醫療方從不需要向患者解釋治療。",
+      "家屬總是不經患者知情就替其決定。",
+      "只有額外付費才提供資訊。"
+    ],
+    "explanationZhHant": "醫療倫理強調患者知情與共同參與決策（patientdelaktighet），資訊必須讓患者能夠理解，而非只給家屬或額外收費。"
   },
   {
     "id": "draft-ch09-013",
@@ -890,7 +1354,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipalities have major responsibility for compulsory school.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个层级通常对义务教育（grundskola）负责？",
+    "optionsZh": [
+      "市镇（kommun）。",
+      "大区（region）。",
+      "瑞典中央银行（Riksbanken）。",
+      "欧盟法院（EU-domstolen）。"
+    ],
+    "explanationZh": "义务教育学校主要由市镇（kommun）负责开办和管理。大区负责医疗，中央银行负责货币政策，欧盟法院与瑞典中小学无关。",
+    "questionZhHant": "哪個層級通常對義務教育（grundskola）負責？",
+    "optionsZhHant": [
+      "市鎮（kommun）。",
+      "大區（region）。",
+      "瑞典中央銀行（Riksbanken）。",
+      "歐盟法院（EU-domstolen）。"
+    ],
+    "explanationZhHant": "義務教育學校主要由市鎮（kommun）負責開辦和管理。大區負責醫療，中央銀行負責貨幣政策，歐盟法院與瑞典中小學無關。"
   },
   {
     "id": "draft-ch09-014",
@@ -919,7 +1399,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Compulsory schooling means children have both a right and duty to receive education.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典的“义务教育”（skolplikt）意味着什么？",
+    "optionsZh": [
+      "在义务教育适用的年限内，儿童应接受教育。",
+      "儿童可完全自行决定是否学认字。",
+      "义务教育只适用于父母全职工作的孩子。",
+      "义务教育意味着只有私立学校可以教学。"
+    ],
+    "explanationZh": "义务教育既是一项权利也是一项义务：在法定年限内，儿童必须接受教育。它并非让家长随意放弃，也不限于特定群体或学校类型。",
+    "questionZhHant": "瑞典的“義務教育”（skolplikt）意味着什麼？",
+    "optionsZhHant": [
+      "在義務教育適用的年限內，兒童應接受教育。",
+      "兒童可完全自行決定是否學認字。",
+      "義務教育只適用於父母全職工作的孩子。",
+      "義務教育意味着只有私立學校可以教學。"
+    ],
+    "explanationZhHant": "義務教育既是一項權利也是一項義務：在法定年限內，兒童必須接受教育。它並非讓家長隨意放棄，也不限於特定羣體或學校類型。"
   },
   {
     "id": "draft-ch09-015",
@@ -949,7 +1445,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "School absence can affect a child’s right to education and requires follow-up.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个孩子常无故缺课。为什么这会成为社会问题？",
+    "optionsZh": [
+      "儿童受教育的权利以及学校跟进的责任都受到影响。",
+      "孩子的教育完全变成私事，没有社会关注。",
+      "缺勤会让孩子自动获得更高分数。",
+      "市镇必须永远取消该孩子的义务教育。"
+    ],
+    "explanationZh": "持续无故缺课损害儿童的教育权，学校也有责任跟进并联系家庭。这关乎公共教育义务，而非私事或自动加分。",
+    "questionZhHant": "一個孩子常無故缺課。為什麼這會成為社會問題？",
+    "optionsZhHant": [
+      "兒童受教育的權利以及學校跟進的責任都受到影響。",
+      "孩子的教育完全變成私事，沒有社會關注。",
+      "缺勤會讓孩子自動獲得更高分數。",
+      "市鎮必須永遠取消該孩子的義務教育。"
+    ],
+    "explanationZhHant": "持續無故缺課損害兒童的教育權，學校也有責任跟進並聯系家庭。這關乎公共教育義務，而非私事或自動加分。"
   },
   {
     "id": "draft-ch09-016",
@@ -978,7 +1490,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Preschool combines care, learning, and development for young children.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是幼儿园（förskola）？",
+    "optionsZh": [
+      "儿童入学前面向低龄儿童的教育活动。",
+      "六岁儿童强制的第一学年。",
+      "为学龄儿童在课前课后提供的活动。",
+      "只由私人企业开办的学校。"
+    ],
+    "explanationZh": "幼儿园（förskola）是为尚未到入学年龄的儿童提供的保育与早期教育活动。六岁起有可选的小学前班（förskoleklass），课后托管是另一回事，且幼儿园也可由公共举办。",
+    "questionZhHant": "什麼是幼兒園（förskola）？",
+    "optionsZhHant": [
+      "兒童入學前面向低齡兒童的教育活動。",
+      "六歲兒童強制的第一學年。",
+      "為學齡兒童在課前課後提供的活動。",
+      "只由私人企業開辦的學校。"
+    ],
+    "explanationZhHant": "幼兒園（förskola）是為尚未到入學年齡的兒童提供的保育與早期教育活動。六歲起有可選的小學前班（förskoleklass），課後托管是另一回事，且幼兒園也可由公共舉辦。"
   },
   {
     "id": "draft-ch09-017",
@@ -1008,7 +1536,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Preschool supports both children’s development and parents’ participation in work or studies.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么幼儿园对许多家庭很重要？",
+    "optionsZh": [
+      "它提供儿童教育活动，也让监护人更容易工作 or 学习。",
+      "它取代父母在孩子生活中的一切责任。",
+      "它主要用于决定家庭的税额。",
+      "它让孩子成年后自动获得驾照。"
+    ],
+    "explanationZh": "幼儿园既促进儿童发展，又使家长能兼顾工作与学习，是社会支持家庭与工作平衡的重要环节。它不取代父母责任，也不涉税务或驾照。",
+    "questionZhHant": "為什麼幼兒園對許多家庭很重要？",
+    "optionsZhHant": [
+      "它提供兒童教育活動，也讓監護人更容易工作 or 學習。",
+      "它取代父母在孩子生活中的一切責任。",
+      "它主要用於決定家庭的稅額。",
+      "它讓孩子成年後自動獲得駕照。"
+    ],
+    "explanationZhHant": "幼兒園既促進兒童發展，又使家長能兼顧工作與學習，是社會支持家庭與工作平衡的重要環節。它不取代父母責任，也不涉稅務或駕照。"
   },
   {
     "id": "draft-ch09-018",
@@ -1038,7 +1582,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Childcare can be important for combining family responsibilities with work.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位单亲家长找到新工作，但白天没有儿童看护。哪项福利功能尤为相关？",
+    "optionsZh": [
+      "获得幼儿园或其他儿童看护，使工作成为可能。",
+      "社会保险局（Försäkringskassan）的儿童津贴，完全取代看护需求。",
+      "雇主负责为员工安排所有看护。",
+      "义务教育学校负责学前年龄儿童。"
+    ],
+    "explanationZh": "儿童看护（如幼儿园）是帮助家长兼顾工作与育儿的关键福利。儿童津贴是现金补贴，不能替代实际看护；雇主无义务包办看护，义务教育也不收学前儿童。",
+    "questionZhHant": "一位單親家長找到新工作，但白天沒有兒童看護。哪項福利功能尤為相關？",
+    "optionsZhHant": [
+      "獲得幼兒園或其他兒童看護，使工作成為可能。",
+      "社會保險局（Försäkringskassan）的兒童津貼，完全取代看護需求。",
+      "僱主負責為員工安排所有看護。",
+      "義務教育學校負責學前年齡兒童。"
+    ],
+    "explanationZhHant": "兒童看護（如幼兒園）是幫助家長兼顧工作與育兒的關鍵福利。兒童津貼是現金補貼，不能替代實際看護；僱主無義務包辦看護，義務教育也不收學前兒童。"
   },
   {
     "id": "draft-ch09-019",
@@ -1067,7 +1627,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Social services are a municipal responsibility and support vulnerable individuals and families.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "社会服务（socialtjänsten）负责什么工作？",
+    "optionsZh": [
+      "为身处困境的个人和家庭提供支持。",
+      "为所有求职者安排工作。",
+      "决定税收和户籍登记。",
+      "向所有老人发放养老金。"
+    ],
+    "explanationZh": "社会服务由市镇负责，主要帮助陷入困境的个人与家庭，例如经济援助、儿童保护。安排工作由公共就业服务局负责，税务户籍归税务局，养老金归社会保险局。",
+    "questionZhHant": "社會服務（socialtjänsten）負責什麼工作？",
+    "optionsZhHant": [
+      "為身處困境的個人和家庭提供支持。",
+      "為所有求職者安排工作。",
+      "決定稅收和戶籍登記。",
+      "向所有老人發放養老金。"
+    ],
+    "explanationZhHant": "社會服務由市鎮負責，主要幫助陷入困境的個人與家庭，例如經濟援助、兒童保護。安排工作由公共就業服務局負責，稅務戶籍歸稅務局，養老金歸社會保險局。"
   },
   {
     "id": "draft-ch09-020",
@@ -1096,7 +1672,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipalities are responsible for social services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个层级对社会服务（socialtjänsten）负责？",
+    "optionsZh": [
+      "市镇（kommun）。",
+      "大区（region）。",
+      "国家（staten）。",
+      "社会保险局（Försäkringskassan）。"
+    ],
+    "explanationZh": "社会服务是市镇（kommun）的职责。大区负责医疗，国家制定法律框架，社会保险局负责社会保险待遇。",
+    "questionZhHant": "哪個層級對社會服務（socialtjänsten）負責？",
+    "optionsZhHant": [
+      "市鎮（kommun）。",
+      "大區（region）。",
+      "國家（staten）。",
+      "社會保險局（Försäkringskassan）。"
+    ],
+    "explanationZhHant": "社會服務是市鎮（kommun）的職責。大區負責醫療，國家制定法律框架，社會保險局負責社會保險待遇。"
   },
   {
     "id": "draft-ch09-021",
@@ -1126,7 +1718,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Social services can assess support when families and children are in vulnerable situations.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个家庭难以维持基本生活，孩子也受影响。哪个机构会变得重要？",
+    "optionsZh": [
+      "社会服务（socialtjänsten），因为市镇对在困境中的人负有支援责任。",
+      "选举管理局（Valmyndigheten），因为家庭需要新投票卡。",
+      "瑞典中央银行（Riksbanken），因为它决定家庭预算。",
+      "地区法院（tingsrätten），因为它总是发放生活补助。"
+    ],
+    "explanationZh": "当家庭陷入困境、儿童受影响时，市镇的社会服务可进行需求评估并提供援助，例如经济援助、儿童保护。选举、央行和法院都不负责发放生活补助。",
+    "questionZhHant": "一個家庭難以維持基本生活，孩子也受影響。哪個機構會變得重要？",
+    "optionsZhHant": [
+      "社會服務（socialtjänsten），因為市鎮對在困境中的人負有支援責任。",
+      "選舉管理局（Valmyndigheten），因為家庭需要新投票卡。",
+      "瑞典中央銀行（Riksbanken），因為它決定家庭預算。",
+      "地區法院（tingsrätten），因為它總是發放生活補助。"
+    ],
+    "explanationZhHant": "當家庭陷入困境、兒童受影響時，市鎮的社會服務可進行需求評估並提供援助，例如經濟援助、兒童保護。選舉、央行和法院都不負責發放生活補助。"
   },
   {
     "id": "draft-ch09-022",
@@ -1155,7 +1763,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Financial assistance is assessed based on need and individual circumstances.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "来自社会服务的“经济援助”（ekonomiskt bistånd）是什么？",
+    "optionsZh": [
+      "当个人无法以其他方式维持生活时，提供的需求审查型支持。",
+      "不论经济状况、人人都领的工资。",
+      "支付给企业的银行利息。",
+      "只在国会选举时发放的一次性补贴。"
+    ],
+    "explanationZh": "经济援助（即生活补助 försörjningsstöd）是经需求审查的最后保障，面向确实无法自谋生路者，并非固定工资或选举福利。",
+    "questionZhHant": "來自社會服務的“經濟援助”（ekonomiskt bistånd）是什麼？",
+    "optionsZhHant": [
+      "當個人無法以其他方式維持生活時，提供的需求審查型支持。",
+      "不論經濟狀況、人人都領的工資。",
+      "支付給企業的銀行利息。",
+      "只在國會選舉時發放的一次性補貼。"
+    ],
+    "explanationZhHant": "經濟援助（即生活補助 försörjningsstöd）是經需求審查的最後保障，面向確實無法自謀生路者，並非固定工資或選舉福利。"
   },
   {
     "id": "draft-ch09-023",
@@ -1184,7 +1808,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Means-tested support depends on the person’s actual needs and resources.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“需求审查”（behovsprövning）是什么意思？",
+    "optionsZh": [
+      "根据当事人的具体情况和需求来判定其是否有权获得支持。",
+      "人人不问缘由都得到完全相同的支持。",
+      "支持总是给收入最高的人。",
+      "由法院对每个食品采购投票。"
+    ],
+    "explanationZh": "需求审查指福利发放前评估申请人的实际收入、资产和需要，而非人人等额或只给富人。司法不介入日常采购。",
+    "questionZhHant": "“需求審查”（behovsprövning）是什麼意思？",
+    "optionsZhHant": [
+      "根據當事人的具體情況和需求來判定其是否有權獲得支持。",
+      "人人不問緣由都得到完全相同的支持。",
+      "支持總是給收入最高的人。",
+      "由法院對每個食品採購投票。"
+    ],
+    "explanationZhHant": "需求審查指福利發放前評估申請人的實際收入、資產和需要，而非人人等額或只給富人。司法不介入日常採購。"
   },
   {
     "id": "draft-ch09-024",
@@ -1214,7 +1854,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Needs-based support considers whether the person can meet needs with their own resources.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人申请经济援助，但储蓄账户里有钱。为什么这会影响决定？",
+    "optionsZh": [
+      "援助是需求审查型的，自己的资源可能需先用。",
+      "有储蓄账户总是让当事人拿到双倍援助。",
+      "社会服务绝不可询问经济资源。",
+      "援助只由年龄决定。"
+    ],
+    "explanationZh": "经济援助以需求审查为基础，若申请人有可动用的储蓄等自有资源，通常应先使用，再视缺口给予补助。机构有权了解经济状况。",
+    "questionZhHant": "一個人申請經濟援助，但儲蓄賬戶裡有錢。為什麼這會影響決定？",
+    "optionsZhHant": [
+      "援助是需求審查型的，自己的資源可能需先用。",
+      "有儲蓄賬戶總是讓當事人拿到雙倍援助。",
+      "社會服務絕不可詢問經濟資源。",
+      "援助只由年齡決定。"
+    ],
+    "explanationZhHant": "經濟援助以需求審查為基礎，若申請人有可動用的儲蓄等自有資源，通常應先使用，再視缺口給予補助。機構有權了解經濟狀況。"
   },
   {
     "id": "draft-ch09-025",
@@ -1243,7 +1899,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Försäkringskassan handles many social insurance benefits.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个机构负责社会保险（socialförsäkring）的许多部分？",
+    "optionsZh": [
+      "社会保险局（Försäkringskassan）。",
+      "选举管理局（Valmyndigheten）。",
+      "瑞典执行局（Kronofogden）。",
+      "专利与登记局（PRV）。"
+    ],
+    "explanationZh": "社会保险局（Försäkringskassan）管理病假津贴、父母保险、养老金等多项社会保险待遇。选举、债务执行和专利登记由其他机构负责。",
+    "questionZhHant": "哪個機構負責社會保險（socialförsäkring）的許多部分？",
+    "optionsZhHant": [
+      "社會保險局（Försäkringskassan）。",
+      "選舉管理局（Valmyndigheten）。",
+      "瑞典執行局（Kronofogden）。",
+      "專利與登記局（PRV）。"
+    ],
+    "explanationZhHant": "社會保險局（Försäkringskassan）管理病假津貼、父母保險、養老金等多項社會保險待遇。選舉、債務執行和專利登記由其他機構負責。"
   },
   {
     "id": "draft-ch09-026",
@@ -1272,7 +1944,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Social insurance reduces financial insecurity in situations covered by the system.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "社会保险（socialförsäkring）的目的是什么？",
+    "optionsZh": [
+      "在疾病、育儿等特定生活状况下提供经济保障。",
+      "用相同金额取代所有人的工资。",
+      "让法院负责学校排课。",
+      "决定哪些政党可以竞选。"
+    ],
+    "explanationZh": "社会保险在失业、生病、生育、养老等生活风险中提供收入保障，降低个人财务不安全感，而不是统一发薪或干预教育政治。",
+    "questionZhHant": "社會保險（socialförsäkring）的目的是什麼？",
+    "optionsZhHant": [
+      "在疾病、育兒等特定生活狀況下提供經濟保障。",
+      "用相同金額取代所有人的工資。",
+      "讓法院負責學校排課。",
+      "決定哪些政黨可以競選。"
+    ],
+    "explanationZhHant": "社會保險在失業、生病、生育、養老等生活風險中提供收入保障，降低個人財務不安全感，而不是統一發薪或幹預教育政治。"
   },
   {
     "id": "draft-ch09-027",
@@ -1302,7 +1990,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Illness can trigger income-security systems, depending on employment and eligibility rules.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人长期生病，无法像往常一样工作。哪项福利可能适用？",
+    "optionsZh": [
+      "视情况与规定，可能是病假工资（sjuklön）或病假津贴（sjukpenning）。",
+      "失业救济金（a-kassa），因为当事人不能工作。",
+      "以社会服务经济援助为第一步。",
+      "雇主支付的休假补偿。"
+    ],
+    "explanationZh": "因病无法工作触发的是疾病保障：雇主先付病假工资，之后社会保险局可能发放病假津贴。失业救济金针对失业而非疾病；经济援助是最后手段。",
+    "questionZhHant": "一個人長期生病，無法像往常一樣工作。哪項福利可能適用？",
+    "optionsZhHant": [
+      "視情況與規定，可能是病假工資（sjuklön）或病假津貼（sjukpenning）。",
+      "失業救濟金（a-kassa），因為當事人不能工作。",
+      "以社會服務經濟援助為第一步。",
+      "僱主支付的休假補償。"
+    ],
+    "explanationZhHant": "因病無法工作觸發的是疾病保障：僱主先付病假工資，之後社會保險局可能發放病假津貼。失業救濟金針對失業而非疾病；經濟援助是最後手段。"
   },
   {
     "id": "draft-ch09-028",
@@ -1331,7 +2035,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Parental insurance helps parents combine work and family life.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“父母保险”（föräldraförsäkring）可以提供什么支持？",
+    "optionsZh": [
+      "让监护人在特定时期内留在家里照顾孩子。",
+      "让父母从此再也不必工作。",
+      "让孩子一出生自动获得选举权。",
+      "让学校免于教学责任。"
+    ],
+    "explanationZh": "父母保险让父母在育儿假期间获得津贴并照顾幼儿，帮助平衡工作与家庭。它不免除终身工作义务，也不涉及选举权或学校职责。",
+    "questionZhHant": "“父母保險”（föräldraförsäkring）可以提供什麼支持？",
+    "optionsZhHant": [
+      "讓監護人在特定時期內留在家裡照顧孩子。",
+      "讓父母從此再也不必工作。",
+      "讓孩子一出生自動獲得選舉權。",
+      "讓學校免於教學責任。"
+    ],
+    "explanationZhHant": "父母保險讓父母在育兒假期間獲得津貼並照顧幼兒，幫助平衡工作與家庭。它不免除終身工作義務，也不涉及選舉權或學校職責。"
   },
   {
     "id": "draft-ch09-029",
@@ -1360,7 +2080,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Child allowance is a general financial support connected to having children.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是儿童津贴（barnbidrag）？",
+    "optionsZh": [
+      "面向有子女家庭的经济支持。",
+      "只发给低收入家庭的补贴。",
+      "只在孩子满 18 岁时一次性发放。",
+      "父母每月须凭证明申请的补贴。"
+    ],
+    "explanationZh": "儿童津贴是面向所有有子女家庭的普惠性现金支持，不需逐月申请，也不仅限低收入家庭，而是随子女自动发放。",
+    "questionZhHant": "什麼是兒童津貼（barnbidrag）？",
+    "optionsZhHant": [
+      "面向有子女家庭的經濟支持。",
+      "只發給低收入家庭的補貼。",
+      "只在孩子滿 18 歲時一次性發放。",
+      "父母每月須憑證明申請的補貼。"
+    ],
+    "explanationZhHant": "兒童津貼是面向所有有子女家庭的普惠性現金支持，不需逐月申請，也不僅限低收入家庭，而是隨子女自動發放。"
   },
   {
     "id": "draft-ch09-030",
@@ -1390,7 +2126,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Parental leave and parental insurance support care for children while parents remain connected to work.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "两位家长计划如何在家照顾幼童，同时保持与职场的联系。哪项制度尤为相关？",
+    "optionsZh": [
+      "父母保险（föräldraförsäkring）和育儿假相关规定。",
+      "儿童津贴，它弥补休假期间的全部收入损失。",
+      "失业救济金（a-kassa），因为家长暂时不工作。",
+      "住房补贴，孩子出生会自动提高。"
+    ],
+    "explanationZh": "父母保险与育儿假制度让父母分阶段休假照顾孩子，同时保留与工作的联系。儿童津贴数额有限不能替代全部收入，失业救济金针对失业，住房补贴不会自动随生育提高。",
+    "questionZhHant": "兩位家長計劃如何在家照顧幼童，同時保持與職場的聯系。哪項制度尤為相關？",
+    "optionsZhHant": [
+      "父母保險（föräldraförsäkring）和育兒假相關規定。",
+      "兒童津貼，它彌補休假期間的全部收入損失。",
+      "失業救濟金（a-kassa），因為家長暫時不工作。",
+      "住房補貼，孩子出生會自動提高。"
+    ],
+    "explanationZhHant": "父母保險與育兒假制度讓父母分階段休假照顧孩子，同時保留與工作的聯系。兒童津貼數額有限不能替代全部收入，失業救濟金針對失業，住房補貼不會自動隨生育提高。"
   },
   {
     "id": "draft-ch09-031",
@@ -1419,7 +2171,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipalities are responsible for much elderly care.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个层级通常对老年人照护（äldreomsorg）负责？",
+    "optionsZh": [
+      "市镇（kommun）。",
+      "大区（region）。",
+      "国家（staten）。",
+      "社会保险局（Försäkringskassan）。"
+    ],
+    "explanationZh": "老年人照护主要由市镇（kommun）负责，例如居家照护、养老院。大区管医疗，社会保险局管保险待遇。",
+    "questionZhHant": "哪個層級通常對老年人照護（äldreomsorg）負責？",
+    "optionsZhHant": [
+      "市鎮（kommun）。",
+      "大區（region）。",
+      "國家（staten）。",
+      "社會保險局（Försäkringskassan）。"
+    ],
+    "explanationZhHant": "老年人照護主要由市鎮（kommun）負責，例如居家照護、養老院。大區管醫療，社會保險局管保險待遇。"
   },
   {
     "id": "draft-ch09-032",
@@ -1448,7 +2216,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Elderly care is based on needs and can take different forms.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "老年人照护（äldreomsorg）可能包含什么？",
+    "optionsZh": [
+      "根据需求提供居家照护、特殊住房以及日常支持。",
+      "只为退休者提供免费出国旅行。",
+      "由法院规划所有家常饭菜。",
+      "年满 65 岁国家接管所有私人住房。"
+    ],
+    "explanationZh": "老年人照护按需求提供居家服务、特殊养老住房和日常协助。它不涉及出国旅游、法院配餐或没收房产。",
+    "questionZhHant": "老年人照護（äldreomsorg）可能包含什麼？",
+    "optionsZhHant": [
+      "根據需求提供居家照護、特殊住房以及日常支持。",
+      "只為退休者提供免費出國旅行。",
+      "由法院規劃所有家常飯菜。",
+      "年滿 65 歲國家接管所有私人住房。"
+    ],
+    "explanationZhHant": "老年人照護按需求提供居家服務、特殊養老住房和日常協助。它不涉及出國旅遊、法院配餐或沒收房產。"
   },
   {
     "id": "draft-ch09-033",
@@ -1478,7 +2262,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipal elderly care is usually assessed based on the person’s needs.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位老人独自在家已无法料理饮食、卫生和用药。合理的流程是？",
+    "optionsZh": [
+      "市镇进行需求评估，并可以决定支援措施。",
+      "当事人必须自己设立一个私人照护机构。",
+      "大区必须始终提供国会席位作为支持。",
+      "只有全职工作者才给居家照护。"
+    ],
+    "explanationZh": "市镇会对老年人的照护需求做评估，再决定提供居家照护或其他支援。无需当事人自设机构，也不取决于工作或政治席位。",
+    "questionZhHant": "一位老人獨自在家已無法料理飲食、衛生和用藥。合理的流程是？",
+    "optionsZhHant": [
+      "市鎮進行需求評估，並可以決定支援措施。",
+      "當事人必須自己設立一個私人照護機構。",
+      "大區必須始終提供國會席位作為支持。",
+      "只有全職工作者才給居家照護。"
+    ],
+    "explanationZhHant": "市鎮會對老年人的照護需求做評估，再決定提供居家照護或其他支援。無需當事人自設機構，也不取決於工作或政治席位。"
   },
   {
     "id": "draft-ch09-034",
@@ -1507,7 +2307,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Pension is part of economic security later in life.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是养老金（pension）？",
+    "optionsZh": [
+      "当一个人因年龄或按养老规定停止工作时，可能发放的款项。",
+      "上义务教育的费用。",
+      "对不投票者的惩罚。",
+      "只有市镇能借的贷款。"
+    ],
+    "explanationZh": "养老金是老年或符合养老规定、退出工作后获得的收入保障，是晚年经济安全的一部分，与上学、投票或借贷无关。",
+    "questionZhHant": "什麼是養老金（pension）？",
+    "optionsZhHant": [
+      "當一個人因年齡或按養老規定停止工作時，可能發放的款項。",
+      "上義務教育的費用。",
+      "對不投票者的懲罰。",
+      "只有市鎮能借的貸款。"
+    ],
+    "explanationZhHant": "養老金是老年或符合養老規定、退出工作後獲得的收入保障，是晚年經濟安全的一部分，與上學、投票或借貸無關。"
   },
   {
     "id": "draft-ch09-035",
@@ -1536,7 +2352,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Income and work history can affect parts of the pension system.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么职业生涯和收入通常影响养老金？",
+    "optionsZh": [
+      "养老金权利通常通过长期的工作、收入和税收积累起来。",
+      "养老金只由所住市镇决定。",
+      "所有人无论生活状况都总拿完全相同养老金。",
+      "养老金只发给从未工作的人。"
+    ],
+    "explanationZh": "瑞典养老金（尤其收入型）与工作年限、收入和缴费相关，长期就业与如实申报收入有助于积累养老金权利。它并非人人等额或仅发给无工作者。",
+    "questionZhHant": "為什麼職業生涯和收入通常影響養老金？",
+    "optionsZhHant": [
+      "養老金權利通常通過長期的工作、收入和稅收積累起來。",
+      "養老金只由所住市鎮決定。",
+      "所有人無論生活狀況都總拿完全相同養老金。",
+      "養老金只發給從未工作的人。"
+    ],
+    "explanationZhHant": "瑞典養老金（尤其收入型）與工作年限、收入和繳費相關，長期就業與如實申報收入有助於積累養老金權利。它並非人人等額或僅發給無工作者。"
   },
   {
     "id": "draft-ch09-036",
@@ -1566,7 +2398,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Declared income matters for taxes and can affect future social insurance and pension rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人多年打黑工、没有申报收入。这会如何影响未来的保障？",
+    "optionsZh": [
+      "可能导致养老金计算收入更低、社会保障更弱。",
+      "因为没扣税，所以养老金总是更高。",
+      "只影响在地区选举中投票的可能。",
+      "意味着市镇自动多发养老金。"
+    ],
+    "explanationZh": "未申报的“黑工”收入不会被计入养老金基数，也影响失业、病假等社会保险权利，长期削弱保障。并非免税就多得养老金。",
+    "questionZhHant": "一個人多年打黑工、沒有申報收入。這會如何影響未來的保障？",
+    "optionsZhHant": [
+      "可能導致養老金計算收入更低、社會保障更弱。",
+      "因為沒扣稅，所以養老金總是更高。",
+      "只影響在地區選舉中投票的可能。",
+      "意味着市鎮自動多發養老金。"
+    ],
+    "explanationZhHant": "未申報的“黑工”收入不會被計入養老金基數，也影響失業、病假等社會保險權利，長期削弱保障。並非免稅就多得養老金。"
   },
   {
     "id": "draft-ch09-037",
@@ -1595,7 +2443,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Support for people with disabilities aims to increase participation and everyday functioning.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "对残障人士的支持（stöd till personer med funktionsnedsättning）可能涉及什么？",
+    "optionsZh": [
+      "创造参与、无障碍和正常生活的可能。",
+      "总是把当事人排除在学校和工作之外。",
+      "剥夺当事人影响决策的权利。",
+      "用私人贷款取代所有医疗接触。"
+    ],
+    "explanationZh": "残障支持旨在促进参与、改善无障碍环境，让当事人过上正常日常生活，而非隔离或剥夺权利。",
+    "questionZhHant": "對殘障人士的支持（stöd till personer med funktionsnedsättning）可能涉及什麼？",
+    "optionsZhHant": [
+      "創造參與、無障礙和正常生活的可能。",
+      "總是把當事人排除在學校和工作之外。",
+      "剝奪當事人影響決策的權利。",
+      "用私人貸款取代所有醫療接觸。"
+    ],
+    "explanationZhHant": "殘障支持旨在促進參與、改善無障礙環境，讓當事人過上正常日常生活，而非隔離或剝奪權利。"
   },
   {
     "id": "draft-ch09-038",
@@ -1624,7 +2488,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Accessibility helps make rights and services usable in practice.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么“无障碍”（tillgänglighet）在福利中很重要？",
+    "optionsZh": [
+      "让有不同需求的人能平等使用公共服务。",
+      "让公共服务只适合没有支持需求的人。",
+      "让政府机构可以停止提供信息。",
+      "让学校淘汰需要适应的学生。"
+    ],
+    "explanationZh": "无障碍确保不同能力的人都能平等获得公共服务与权利，是福利平等性的体现，而非排斥特定群体。",
+    "questionZhHant": "為什麼“無障礙”（tillgänglighet）在福利中很重要？",
+    "optionsZhHant": [
+      "讓有不同需求的人能平等使用公共服務。",
+      "讓公共服務只適合沒有支持需求的人。",
+      "讓政府機構可以停止提供資訊。",
+      "讓學校淘汰需要適應的學生。"
+    ],
+    "explanationZhHant": "無障礙確保不同能力的人都能平等獲得公共服務與權利，是福利平等性的體現，而非排斥特定羣體。"
   },
   {
     "id": "draft-ch09-039",
@@ -1654,7 +2534,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Digital welfare services also need to be accessible.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个市镇建了新的电子服务，许多视障人士无法使用。这引发了哪项福利议题？",
+    "optionsZh": [
+      "无障碍以及平等获取市镇服务的问题。",
+      "市镇只向有新手機的人提供服务的权利。",
+      "数字服务从不需要遵循权利原则。",
+      "用户必须自购所有公共技术。"
+    ],
+    "explanationZh": "数字化福利服务也必须可访问，否则会排斥残障群体，违反平等获取公共服务的原则。并非只服务新手机用户或无需遵循权利。",
+    "questionZhHant": "一個市鎮建了新的電子服務，許多視障人士無法使用。這引發了哪項福利議題？",
+    "optionsZhHant": [
+      "無障礙以及平等獲取市鎮服務的問題。",
+      "市鎮只向有新手機的人提供服務的權利。",
+      "數字服務從不需要遵循權利原則。",
+      "使用者必須自購所有公共技術。"
+    ],
+    "explanationZhHant": "數字化福利服務也必須可訪問，否則會排斥殘障羣體，違反平等獲取公共服務的原則。並非只服務新手機使用者或無需遵循權利。"
   },
   {
     "id": "draft-ch09-040",
@@ -1683,7 +2579,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Dental care is part of health-related welfare services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "福利的哪一部分涉及口腔健康？",
+    "optionsZh": [
+      "牙科护理（tandvård）。",
+      "居家医疗（hemsjukvård）。",
+      "康复服务（habilitering）。",
+      "职业健康服务（företagshälsovård）。"
+    ],
+    "explanationZh": "牙科护理（tandvård）属于与口腔健康相关的福利服务。居家医疗、康复和职业健康是其他范畴。",
+    "questionZhHant": "福利的哪一部分涉及口腔健康？",
+    "optionsZhHant": [
+      "牙科護理（tandvård）。",
+      "居家醫療（hemsjukvård）。",
+      "康複服務（habilitering）。",
+      "職業健康服務（företagshälsovård）。"
+    ],
+    "explanationZhHant": "牙科護理（tandvård）屬於與口腔健康相關的福利服務。居家醫療、康複和職業健康是其他範疇。"
   },
   {
     "id": "draft-ch09-041",
@@ -1712,7 +2624,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Adult dental care often has different fees and support rules than ordinary healthcare.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "对成年人而言，牙科护理通常与普通医疗有何不同？",
+    "optionsZh": [
+      "成年人往往需自付较大部分，尽管也有政府补贴和保护机制。",
+      "牙科对所有成年人永远完全免费，毫无例外。",
+      "牙科由法院而非医疗机构负责。",
+      "牙科只给在大区工作的人。"
+    ],
+    "explanationZh": "成人牙科通常自付比例较高，但也有政府补贴和高额费用保护。它并非完全免费，也不由法院负责，更不限特定职业。",
+    "questionZhHant": "對成年人而言，牙科護理通常與普通醫療有何不同？",
+    "optionsZhHant": [
+      "成年人往往需自付較大部分，盡管也有政府補貼和保護機制。",
+      "牙科對所有成年人永遠完全免費，毫無例外。",
+      "牙科由法院而非醫療機構負責。",
+      "牙科只給在大區工作的人。"
+    ],
+    "explanationZhHant": "成人牙科通常自付比例較高，但也有政府補貼和高額費用保護。它並非完全免費，也不由法院負責，更不限特定職業。"
   },
   {
     "id": "draft-ch09-042",
@@ -1742,7 +2670,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Dental care can be expensive, so information about fees and support matters.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位成年人因觉得费用高而长期拖延牙科治疗。他应搞清楚什么实际问题？",
+    "optionsZh": [
+      "有哪些牙科补贴或高额费用保护适用，以及治疗费用是多少。",
+      "牙医是否能取代所有其他医疗接触。",
+      "市镇是否不经评估就支付全部牙科费用。",
+      "只要不开账单，费用就会消失。"
+    ],
+    "explanationZh": "成人牙科可能较贵，但政府设有补贴和高额费用保护。拖延前应先了解适用支持和实际费用，而非误以为账单不开就无需付。",
+    "questionZhHant": "一位成年人因覺得費用高而長期拖延牙科治療。他應搞清楚什麼實際問題？",
+    "optionsZhHant": [
+      "有哪些牙科補貼或高額費用保護適用，以及治療費用是多少。",
+      "牙醫是否能取代所有其他醫療接觸。",
+      "市鎮是否不經評估就支付全部牙科費用。",
+      "只要不開賬單，費用就會消失。"
+    ],
+    "explanationZhHant": "成人牙科可能較貴，但政府設有補貼和高額費用保護。拖延前應先了解適用支持和實際費用，而非誤以為賬單不開就無需付。"
   },
   {
     "id": "draft-ch09-043",
@@ -1771,7 +2715,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Welfare is connected to security, equal access, and shared responsibility.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "福利社会的核心观念是什么？",
+    "optionsZh": [
+      "人们应享有基本保障，并能获得重要公共服务。",
+      "只有最富有的人才配得到公共服务。",
+      "医疗和教育纯属私人家庭事务。",
+      "国家应停止保护儿童。"
+    ],
+    "explanationZh": "福利社会以普遍保障、平等获得服务和共同责任为核心，而非仅服务富人、放弃儿童保护或把教育医疗完全私有化。",
+    "questionZhHant": "福利社會的核心觀念是什麼？",
+    "optionsZhHant": [
+      "人們應享有基本保障，並能獲得重要公共服務。",
+      "只有最富有的人才配得到公共服務。",
+      "醫療和教育純屬私人家庭事務。",
+      "國家應停止保護兒童。"
+    ],
+    "explanationZhHant": "福利社會以普遍保障、平等獲得服務和共同責任為核心，而非僅服務富人、放棄兒童保護或把教育醫療完全私有化。"
   },
   {
     "id": "draft-ch09-044",
@@ -1800,7 +2760,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Shared welfare services can reduce differences in life chances.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "福利如何促进社会平等（jämlikhet）？",
+    "optionsZh": [
+      "让更多人不论经济状况都能获得教育、医疗和支持。",
+      "总是给收入最高者更多服务。",
+      "废除所有公立学校和医疗中心。",
+      "让每个雇主自行决定患者费用。"
+    ],
+    "explanationZh": "共享的福利服务降低出身和收入对人生机会的影响，扩大弱势群体获得教育、医疗的机会，而非反向优待富人。",
+    "questionZhHant": "福利如何促進社會平等（jämlikhet）？",
+    "optionsZhHant": [
+      "讓更多人不論經濟狀況都能獲得教育、醫療和支持。",
+      "總是給收入最高者更多服務。",
+      "廢除所有公立學校和醫療中心。",
+      "讓每個僱主自行決定患者費用。"
+    ],
+    "explanationZhHant": "共享的福利服務降低出身和收入對人生機會的影響，擴大弱勢羣體獲得教育、醫療的機會，而非反向優待富人。"
   },
   {
     "id": "draft-ch09-045",
@@ -1830,7 +2806,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The welfare model aims to make core services broadly accessible.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个低收入家庭有孩子需要上学和看病。这体现了福利的什么作用？",
+    "optionsZh": [
+      "基本服务不应只向有高支付能力的家庭开放。",
+      "儿童权利完全取决于家庭银行账户。",
+      "学校应总在授课前要求全额市场付费。",
+      "大区可拒绝提供一切医疗，直到家庭收入提高。"
+    ],
+    "explanationZh": "福利模式旨在让核心公共服务（教育、医疗）广泛可及，不因家庭贫富而差别对待。儿童权利不取决于存款，医疗也不因低收入被拒。",
+    "questionZhHant": "一個低收入家庭有孩子需要上學和看病。這體現了福利的什麼作用？",
+    "optionsZhHant": [
+      "基本服務不應只向有高支付能力的家庭開放。",
+      "兒童權利完全取決於家庭銀行賬戶。",
+      "學校應總在授課前要求全額市場付費。",
+      "大區可拒絕提供一切醫療，直到家庭收入提高。"
+    ],
+    "explanationZhHant": "福利模式旨在讓核心公共服務（教育、醫療）廣泛可及，不因家庭貧富而差別對待。兒童權利不取決於存款，醫療也不因低收入被拒。"
   },
   {
     "id": "draft-ch09-046",
@@ -1859,7 +2851,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The public sector includes authorities and welfare services at different levels.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是公共部门（offentlig sektor）？",
+    "optionsZh": [
+      "由国家、大区和市镇运营或资助的活动。",
+      "所有私人家庭的储蓄。",
+      "仅上市公司。",
+      "一群没有公共使命的体育协会。"
+    ],
+    "explanationZh": "公共部门包括国家、大区和市镇所运营或资助的机构与服务，例如学校、医疗、福利。它不同于私人储蓄、企业或纯社团。",
+    "questionZhHant": "什麼是公共部門（offentlig sektor）？",
+    "optionsZhHant": [
+      "由國家、大區和市鎮運營或資助的活動。",
+      "所有私人家庭的儲蓄。",
+      "僅上市公司。",
+      "一羣沒有公共使命的體育協會。"
+    ],
+    "explanationZhHant": "公共部門包括國家、大區和市鎮所運營或資助的機構與服務，例如學校、醫療、福利。它不同於私人儲蓄、企業或純社團。"
   },
   {
     "id": "draft-ch09-047",
@@ -1888,7 +2896,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Welfare responsibilities are divided between national, regional, and local levels.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪些层级分担许多福利任务？",
+    "optionsZh": [
+      "国家、大区和市镇。",
+      "只有银行和保险公司。",
+      "只有欧盟法院和瑞典中央银行。",
+      "仅政党。"
+    ],
+    "explanationZh": "瑞典福利职责在三个层级间分配：国家制定法律框架，大区管医疗，市镇管教育、照护和社会服务。银行、法院或政党并不承担这些公共服务。",
+    "questionZhHant": "哪些層級分擔許多福利任務？",
+    "optionsZhHant": [
+      "國家、大區和市鎮。",
+      "只有銀行和保險公司。",
+      "只有歐盟法院和瑞典中央銀行。",
+      "僅政黨。"
+    ],
+    "explanationZhHant": "瑞典福利職責在三個層級間分配：國家制定法律框架，大區管醫療，市鎮管教育、照護和社會服務。銀行、法院或政黨並不承擔這些公共服務。"
   },
   {
     "id": "draft-ch09-048",
@@ -1918,7 +2942,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Understanding responsibility helps people contact the right service.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人搞不清谁负责医疗、学校和养老金。哪种认知很重要？",
+    "optionsZh": [
+      "不同的福利领域由不同层级和机构管理。",
+      "所有福利问题都由同一家本地医疗中心决定。",
+      "私人银行负责所有公共决策。",
+      "法院总是发放所有社会保险待遇。"
+    ],
+    "explanationZh": "理解职责划分有助于找对求助对象：医疗归大区、义务教育归市镇、养老金属社会保险局等。不同事务并非由单一机构包办。",
+    "questionZhHant": "一個人搞不清誰負責醫療、學校和養老金。哪種認知很重要？",
+    "optionsZhHant": [
+      "不同的福利領域由不同層級和機構管理。",
+      "所有福利問題都由同一家本地醫療中心決定。",
+      "私人銀行負責所有公共決策。",
+      "法院總是發放所有社會保險待遇。"
+    ],
+    "explanationZhHant": "理解職責劃分有助於找對求助對象：醫療歸大區、義務教育歸市鎮、養老金屬社會保險局等。不同事務並非由單一機構包辦。"
   },
   {
     "id": "draft-ch09-049",
@@ -1947,7 +2987,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Accessing welfare services often requires contact, application, or information.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "居民为获得恰当的支援，可能需要做什么？",
+    "optionsZh": [
+      "联系正确的机构或部门，并提供必要的信息。",
+      "等待支援总是自动到来，无需联系。",
+      "只问邻居而非负责方。",
+      "先把所有事项都寄给瑞典国会（Riksdagen）。"
+    ],
+    "explanationZh": "使用福利服务通常需要主动联系相应机构、提交申请或提供信息，并非自动发放。国会负责立法，不处理个案。",
+    "questionZhHant": "居民為獲得恰當的支援，可能需要做什麼？",
+    "optionsZhHant": [
+      "聯系正確的機構或部門，並提供必要的資訊。",
+      "等待支援總是自動到來，無需聯系。",
+      "只問鄰居而非負責方。",
+      "先把所有事項都寄給瑞典國會（Riksdagen）。"
+    ],
+    "explanationZhHant": "使用福利服務通常需要主動聯系相應機構、提交申請或提供資訊，並非自動發放。國會負責立法，不處理個案。"
   },
   {
     "id": "draft-ch09-050",
@@ -1976,7 +3032,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Welfare decisions often depend on facts about income, health, family, or needs.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么机构在福利案件中常需要准确的信息？",
+    "optionsZh": [
+      "以便评估领取资格并做出正确决定。",
+      "以便不读案子就给相同决定。",
+      "以便用口头承诺取代所有法律。",
+      "以便使当事人的选票无效。"
+    ],
+    "explanationZh": "福利决定依赖真实情况（收入、健康、家庭、需求等）来判断资格，错误信息会导致错发或拒发。机构需核实事据，这与选票无关。",
+    "questionZhHant": "為什麼機構在福利案件中常需要準確的資訊？",
+    "optionsZhHant": [
+      "以便評估領取資格並做出正確決定。",
+      "以便不讀案子就給相同決定。",
+      "以便用口頭承諾取代所有法律。",
+      "以便使當事人的選票無效。"
+    ],
+    "explanationZhHant": "福利決定依賴真實情況（收入、健康、家庭、需求等）來判斷資格，錯誤資訊會導致錯發或拒發。機構需核實事據，這與選票無關。"
   },
   {
     "id": "draft-ch09-051",
@@ -2006,7 +3078,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Welfare systems depend on correct information and can respond to fraud or mistakes.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人提供错误的收入信息以骗取更高补偿。存在什么风险？",
+    "optionsZh": [
+      "错误发放的金额可能被追回，并带来法律后果。",
+      "补偿永远固定，永远无法核查。",
+      "机构永远不得核查福利系统信息。",
+      "错误信息只影响当事人的借书证。"
+    ],
+    "explanationZh": "福利系统依赖真实信息，欺诈或失误会被追回款项并可能受罚，例如罚款或刑事追责。机构有权也确实会核查。",
+    "questionZhHant": "一個人提供錯誤的收入資訊以騙取更高補償。存在什麼風險？",
+    "optionsZhHant": [
+      "錯誤發放的金額可能被追回，並帶來法律後果。",
+      "補償永遠固定，永遠無法核查。",
+      "機構永遠不得核查福利系統資訊。",
+      "錯誤資訊只影響當事人的借書證。"
+    ],
+    "explanationZhHant": "福利系統依賴真實資訊，欺詐或失誤會被追回款項並可能受罰，例如罰款或刑事追責。機構有權也確實會核查。"
   },
   {
     "id": "draft-ch09-052",
@@ -2035,7 +3123,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Vab is connected to caring for a sick child and social insurance rules.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“vab”（照顾病孩）可能涉及什么？",
+    "optionsZh": [
+      "监护人请假在家照顾生病的孩子。",
+      "孩子代替父母去工作。",
+      "学校支付家庭房租。",
+      "大区总安排度假旅行。"
+    ],
+    "explanationZh": "vab 是 “vård av barn” 的简称，指家长为照顾生病孩子而请护理假，相关补偿由社会保险局发放。它与孩子打工、房租或旅游无关。",
+    "questionZhHant": "“vab”（照顧病孩）可能涉及什麼？",
+    "optionsZhHant": [
+      "監護人請假在家照顧生病的孩子。",
+      "孩子代替父母去工作。",
+      "學校支付家庭房租。",
+      "大區總安排度假旅行。"
+    ],
+    "explanationZhHant": "vab 是 “vård av barn” 的簡稱，指家長為照顧生病孩子而請護理假，相關補償由社會保險局發放。它與孩子打工、房租或旅遊無關。"
   },
   {
     "id": "draft-ch09-053",
@@ -2065,7 +3169,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Försäkringskassan handles several family-related social insurance benefits.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "照顾病孩（vab）的补偿通常与哪个机构相关？",
+    "optionsZh": [
+      "社会保险局（Försäkringskassan）。",
+      "税务局（Skatteverket）的户籍登记部门。",
+      "选举管理局（Valmyndigheten）。",
+      "消费者局（Konsumentverket）。"
+    ],
+    "explanationZh": "vab 补偿由社会保险局（Försäkringskassan）发放。税务、选举和消费者保护机构不负责此项家庭保险待遇。",
+    "questionZhHant": "照顧病孩（vab）的補償通常與哪個機構相關？",
+    "optionsZhHant": [
+      "社會保險局（Försäkringskassan）。",
+      "稅務局（Skatteverket）的戶籍登記部門。",
+      "選舉管理局（Valmyndigheten）。",
+      "消費者局（Konsumentverket）。"
+    ],
+    "explanationZhHant": "vab 補償由社會保險局（Försäkringskassan）發放。稅務、選舉和消費者保護機構不負責此項家庭保險待遇。"
   },
   {
     "id": "draft-ch09-054",
@@ -2095,7 +3215,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Care of a sick child connects family responsibility, work absence, and social insurance.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "孩子生病，家长需要请假在家。家长通常需要注意什么？",
+    "optionsZh": [
+      "遵守请假规定，以及照顾病孩（vab）可能享有的补偿。",
+      "孩子自动获得成绩，无需联系学校。",
+      "雇主接管孩子的全部照护责任。",
+      "vab 补偿总由房东支付。"
+    ],
+    "explanationZh": "家长请假照顾病孩须遵循工作请假规定，并可向社会保险局申请 vab 补偿。学校沟通、孩子照护和补偿来源都有明确规则，并非自动或第三方承担。",
+    "questionZhHant": "孩子生病，家長需要請假在家。家長通常需要注意什麼？",
+    "optionsZhHant": [
+      "遵守請假規定，以及照顧病孩（vab）可能享有的補償。",
+      "孩子自動獲得成績，無需聯系學校。",
+      "僱主接管孩子的全部照護責任。",
+      "vab 補償總由房東支付。"
+    ],
+    "explanationZhHant": "家長請假照顧病孩須遵循工作請假規定，並可向社會保險局申請 vab 補償。學校溝通、孩子照護和補償來源都有明確規則，並非自動或第三方承擔。"
   },
   {
     "id": "draft-ch09-055",
@@ -2124,7 +3260,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Care can include practical support for children, older people, or people with disabilities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在福利语境中，“照护”（omsorg）指什么？",
+    "optionsZh": [
+      "为需要帮助的人提供日常生活中的支持与协助。",
+      "仅指闲暇时的私人娱乐。",
+      "瑞典国会（Riksdagen）辩论的别称。",
+      "面向企业的银行服务。"
+    ],
+    "explanationZh": "照护（omsorg）指对他人日常生活的实际支持，如幼儿、老人或残障人士的照料，是福利的重要组成部分，而非娱乐或金融术语。",
+    "questionZhHant": "在福利語境中，“照護”（omsorg）指什麼？",
+    "optionsZhHant": [
+      "為需要幫助的人提供日常生活中的支持與協助。",
+      "僅指閒暇時的私人娛樂。",
+      "瑞典國會（Riksdagen）辯論的別稱。",
+      "面向企業的銀行服務。"
+    ],
+    "explanationZhHant": "照護（omsorg）指對他人日常生活的實際支持，如幼兒、老人或殘障人士的照料，是福利的重要組成部分，而非娛樂或金融術語。"
   },
   {
     "id": "draft-ch09-056",
@@ -2153,7 +3305,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Care services are often adapted to individual needs.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么照护中通常要做需求评估？",
+    "optionsZh": [
+      "为确定当事人需要并有权获得何种支持。",
+      "让所有人无论情况都得到完全相同措施。",
+      "让法院选择当事人的医生。",
+      "以取代与当事人的沟通。"
+    ],
+    "explanationZh": "照护服务依个人需求量身定制，需求评估才能判明应提供何种帮助及权利范围。它不取消个别化，也不由法院指定医生。",
+    "questionZhHant": "為什麼照護中通常要做需求評估？",
+    "optionsZhHant": [
+      "為確定當事人需要並有權獲得何種支持。",
+      "讓所有人無論情況都得到完全相同措施。",
+      "讓法院選擇當事人的醫生。",
+      "以取代與當事人的溝通。"
+    ],
+    "explanationZhHant": "照護服務依個人需求量身定制，需求評估才能判明應提供何種幫助及權利範圍。它不取消個別化，也不由法院指定醫生。"
   },
   {
     "id": "draft-ch09-057",
@@ -2183,7 +3351,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "If needs change, the responsible municipality can reassess support.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人接受居家照护，但觉得支持已不够。合理的做法是？",
+    "optionsZh": [
+      "联系市镇，重新评估需求与可能的措施。",
+      "停止支付所有账单直到支持改变。",
+      "请银行决定增加照护。",
+      "认定决定永远无法复核。"
+    ],
+    "explanationZh": "当需求变化、现有照护不足时，负责的市镇可重新评估并调整支援，而非拒付账单或找无关机构。福利决定是可以复核跟进的。",
+    "questionZhHant": "一個人接受居家照護，但覺得支持已不夠。合理的做法是？",
+    "optionsZhHant": [
+      "聯系市鎮，重新評估需求與可能的措施。",
+      "停止支付所有賬單直到支持改變。",
+      "請銀行決定增加照護。",
+      "認定決定永遠無法複核。"
+    ],
+    "explanationZhHant": "當需求變化、現有照護不足時，負責的市鎮可重新評估並調整支援，而非拒付賬單或找無關機構。福利決定是可以複核跟進的。"
   },
   {
     "id": "draft-ch09-058",
@@ -2212,7 +3396,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Welfare systems need both public funding and responsible use.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "福利体系要运转，通常依赖什么？",
+    "optionsZh": [
+      "人们纳税、提供准确信息，并按规则使用支持。",
+      "无人遵守机构决定。",
+      "所有服务只靠私人赠与。",
+      "学校医疗毫无规划。"
+    ],
+    "explanationZh": "福利体系既靠公共筹资（税收），也靠个人如实申报、按规定使用。没有遵守与诚信，体系难以持续。",
+    "questionZhHant": "福利體系要運轉，通常依賴什麼？",
+    "optionsZhHant": [
+      "人們納稅、提供準確資訊，並按規則使用支持。",
+      "無人遵守機構決定。",
+      "所有服務只靠私人贈與。",
+      "學校醫療毫無規劃。"
+    ],
+    "explanationZhHant": "福利體系既靠公共籌資（稅收），也靠個人如實申報、按規定使用。沒有遵守與誠信，體系難以持續。"
   },
   {
     "id": "draft-ch09-059",
@@ -2241,7 +3441,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Trust supports willingness to contribute and confidence in public services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在税收筹资的福利体系中，为什么“信任”（tillit）很重要？",
+    "optionsZh": [
+      "人们需要相信资源被公平、依规使用。",
+      "信任意味着永远不需要监督和规则。",
+      "信任意味着只有某些群体纳税。",
+      "信任取代了医疗人员的必要。"
+    ],
+    "explanationZh": "税收筹资的福利依靠公众信任：相信税款被公平用于公共利益，才愿意持续贡献。信任不否定监督的必要性，也不等于只让部分人纳税。",
+    "questionZhHant": "在稅收籌資的福利體系中，為什麼“信任”（tillit）很重要？",
+    "optionsZhHant": [
+      "人們需要相信資源被公平、依規使用。",
+      "信任意味着永遠不需要監督和規則。",
+      "信任意味着只有某些羣體納稅。",
+      "信任取代了醫療人員的必要。"
+    ],
+    "explanationZhHant": "稅收籌資的福利依靠公眾信任：相信稅款被公平用於公共利益，才願意持續貢獻。信任不否定監督的必要性，也不等於只讓部分人納稅。"
   },
   {
     "id": "draft-ch09-060",
@@ -2271,7 +3487,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The welfare model combines individual security with shared financing and responsibility.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人认为福利只关乎个人好处，而非共同责任。他缺少哪种视角？",
+    "optionsZh": [
+      "福利建立在权利、义务、筹资与团结之上。",
+      "福利在无人纳税时运转最好。",
+      "公共服务只是私人奖赏。",
+      "共同体系与民主决策无关。"
+    ],
+    "explanationZh": "瑞典福利模式结合个人保障与共同筹资、责任与团结（solidaritet），并通过民主决定。仅看个人收益而忽视共同责任是片面的。",
+    "questionZhHant": "一個人認為福利只關乎個人好處，而非共同責任。他缺少哪種視角？",
+    "optionsZhHant": [
+      "福利建立在權利、義務、籌資與團結之上。",
+      "福利在無人納稅時運轉最好。",
+      "公共服務只是私人獎賞。",
+      "共同體系與民主決策無關。"
+    ],
+    "explanationZhHant": "瑞典福利模式結合個人保障與共同籌資、責任與團結（solidaritet），並通過民主決定。僅看個人收益而忽視共同責任是片面的。"
   },
   {
     "id": "draft-extra-ch009-001",
@@ -2300,7 +3532,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A vårdcentral (health center) is the first point of contact for non-emergency medical issues in Sweden.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "如果你生病需要看医生，但情况不紧急，首先应找哪里？",
+    "optionsZh": [
+      "去医疗中心（vårdcentral）。",
+      "去医院的急诊科。",
+      "去所在市镇的社会服务。",
+      "去社会保险局（Försäkringskassan）。"
+    ],
+    "explanationZh": "非紧急的看病需求，第一站通常是医疗中心（vårdcentral）。急诊用于危急情况，社会服务和保险局不提供普通诊疗。",
+    "questionZhHant": "如果你生病需要看醫生，但情況不緊急，首先應找哪裡？",
+    "optionsZhHant": [
+      "去醫療中心（vårdcentral）。",
+      "去醫院的急診科。",
+      "去所在市鎮的社會服務。",
+      "去社會保險局（Försäkringskassan）。"
+    ],
+    "explanationZhHant": "非緊急的看病需求，第一站通常是醫療中心（vårdcentral）。急診用於危急情況，社會服務和保險局不提供普通診療。"
   },
   {
     "id": "draft-extra-ch009-011",
@@ -2329,7 +3577,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Needs-tested support depends on the person’s financial situation and ability to support themselves.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "社会服务（socialtjänsten）审查经济援助时，会考量什么？",
+    "optionsZh": [
+      "当事人的收入、资产、必要开支以及自谋生路的可能。",
+      "只看当事人的政治观点。",
+      "只看当事人的出生国。",
+      "只看当事人在市镇选举中投过几次票。"
+    ],
+    "explanationZh": "经济援助的需求审查基于真实财务状况：收入、存款、必要生活开支及就业能力，而非政治立场、国籍或投票次数。",
+    "questionZhHant": "社會服務（socialtjänsten）審查經濟援助時，會考量什麼？",
+    "optionsZhHant": [
+      "當事人的收入、資產、必要開支以及自謀生路的可能。",
+      "只看當事人的政治觀點。",
+      "只看當事人的出生國。",
+      "只看當事人在市鎮選舉中投過幾次票。"
+    ],
+    "explanationZhHant": "經濟援助的需求審查基於真實財務狀況：收入、存款、必要生活開支及就業能力，而非政治立場、國籍或投票次數。"
   },
   {
     "id": "draft-extra-ch009-016",
@@ -2358,6 +3622,22 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Högkostnadsskydd caps how much you pay for healthcare within a period (usually a year). It is not an income surcharge, does not apply only to private care, and is not a travel insurance.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典医疗中的“高额费用保护”（högkostnadsskydd）是什么？",
+    "optionsZh": [
+      "为一年内你自付的医疗总费用设定上限。",
+      "对收入最高者加收、使医疗更贵的附加费。",
+      "只适用于私人医疗、不适用于公共医疗的保护。",
+      "支付你去医疗中心路费的自愿保险。"
+    ],
+    "explanationZh": "高额费用保护为一定时期（通常一年）内个人自付的医疗总费用封顶，防止重病者负担过重。它并非按收入加价的收费，也不只限私人医疗，更不是路费保险。",
+    "questionZhHant": "瑞典醫療中的“高額費用保護”（högkostnadsskydd）是什麼？",
+    "optionsZhHant": [
+      "為一年內你自付的醫療總費用設定上限。",
+      "對收入最高者加收、使醫療更貴的附加費。",
+      "只適用於私人醫療、不適用於公共醫療的保護。",
+      "支付你去醫療中心路費的自願保險。"
+    ],
+    "explanationZhHant": "高額費用保護為一定時期（通常一年）內個人自付的醫療總費用封頂，防止重病者負擔過重。它並非按收入加價的收費，也不只限私人醫療，更不是路費保險。"
   }
 ]

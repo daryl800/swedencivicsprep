@@ -27,7 +27,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Source criticism means checking sender, evidence, purpose, and confirmation before trusting or sharing information.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一篇文章在社交媒体上被快速转发，但缺少明确的发布者和消息来源。从信息来源批判的角度看，第一步该怎么做？",
+    "optionsZh": [
+      "核实信息的背后是谁，以及是否有其他可信来源加以证实。",
+      "直接转发文章，因为已经有很多人转了。",
+      "如果标题看起来自信且清楚，就相信文中内容。",
+      "认为所有没有发布者的内容都是政府发布的信息。"
+    ],
+    "explanationZh": "信息来源批判（källkritik）要求在相信或转发信息之前，先核查发布者、证据、目的，以及是否有其他来源佐证。缺少发布者和来源的内容尤其需要警惕。",
+    "questionZhHant": "一篇文章在社交媒體上被快速轉發，但缺少明確的發布者和消息來源。從資訊來源批判的角度看，第一步該怎麼做？",
+    "optionsZhHant": [
+      "核實資訊的背後是誰，以及是否有其他可信來源加以證實。",
+      "直接轉發文章，因為已經有很多人轉了。",
+      "如果標題看起來自信且清楚，就相信文中內容。",
+      "認為所有沒有發布者的內容都是政府發布的資訊。"
+    ],
+    "explanationZhHant": "資訊來源批判（källkritik）要求在相信或轉發資訊之前，先核查發布者、證據、目的，以及是否有其他來源佐證。缺少發布者和來源的內容尤其需要警惕。"
   },
   {
     "id": "draft-batch-b-ch06-002",
@@ -57,7 +73,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public communication should be accessible and fair to residents.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "如果一个市镇（kommun）只在一个封闭的私人群组里发布重要信息，这种做法为什么有问题？",
+    "optionsZh": [
+      "居民可能无法平等地获取公共信息。",
+      "市镇只能向已经认识政客的人通报信息。",
+      "封闭群组会自动让信息更准确。",
+      "公共信息根本不需要让所有相关人士看到。"
+    ],
+    "explanationZh": "公共信息应当让居民都能平等、便利地获取。如果只发布在封闭的私人群组，部分居民就会被排除在外，这会损害政务公开和平等获取信息的原则。",
+    "questionZhHant": "如果一個市鎮（kommun）只在一個封閉的私人羣組裡發布重要資訊，這種做法為什麼有問題？",
+    "optionsZhHant": [
+      "居民可能無法平等地獲取公共資訊。",
+      "市鎮只能向已經認識政客的人通報資訊。",
+      "封閉羣組會自動讓資訊更準確。",
+      "公共資訊根本不需要讓所有相關人士看到。"
+    ],
+    "explanationZhHant": "公共資訊應當讓居民都能平等、便利地獲取。如果只發布在封閉的私人羣組，部分居民就會被排除在外，這會損害政務公開和平等獲取資訊的原則。"
   },
   {
     "id": "draft-batch-b-ch06-003",
@@ -87,7 +119,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Media freedoms are broad but not unlimited; legal rules can protect secrecy, privacy, and security.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人想公开一份来自政府机关的机密信息。为什么光靠言论自由作为理由还不够？",
+    "optionsZh": [
+      "言论自由虽然有力，但会受到法律的限制，例如保密规定和保护他人。",
+      "言论自由只适用于纸质报纸，从不适用于互联网。",
+      "只要出于政治目的，所有机密信息都可以公开。",
+      "政府机关总能在批评发布前将其全部封杀。"
+    ],
+    "explanationZh": "媒体自由的范围很广，但并非没有限制。法律可以在保密、隐私和安全等方面对言论自由加以约束，因此不能以言论自由为由公开所有机密信息。",
+    "questionZhHant": "有人想公開一份來自政府機關的機密資訊。為什麼光靠言論自由作為理由還不夠？",
+    "optionsZhHant": [
+      "言論自由雖然有力，但會受到法律的限制，例如保密規定和保護他人。",
+      "言論自由只適用於紙質報紙，從不適用於互聯網。",
+      "只要出於政治目的，所有機密資訊都可以公開。",
+      "政府機關總能在批評發布前將其全部封殺。"
+    ],
+    "explanationZhHant": "媒體自由的範圍很廣，但並非沒有限制。法律可以在保密、隱私和安全等方面對言論自由加以約束，因此不能以言論自由為由公開所有機密資訊。"
   },
   {
     "id": "draft-batch-b-ch06-004",
@@ -117,7 +165,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Images can be used misleadingly, so origin and context matter.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一则新闻使用了一张来自其他国家的图片，却声称它拍的是瑞典。从信息来源批判的角度，哪个问题很重要？",
+    "optionsZh": [
+      "这张图片实际上是在哪里、何时拍摄的。",
+      "图片是否颜色鲜艳。",
+      "标题里是否有很多感叹号。",
+      "这条内容是否已经有大量评论。"
+    ],
+    "explanationZh": "图片可能被移花接木地用来误导读者，因此必须核实其真实出处和背景。只凭颜色、标点符号或评论数量无法判断图片真假。",
+    "questionZhHant": "一則新聞使用了一張來自其他國家的圖片，卻聲稱它拍的是瑞典。從資訊來源批判的角度，哪個問題很重要？",
+    "optionsZhHant": [
+      "這張圖片實際上是在哪裡、何時拍攝的。",
+      "圖片是否顏色鮮豔。",
+      "標題裡是否有很多感嘆號。",
+      "這條內容是否已經有大量評論。"
+    ],
+    "explanationZhHant": "圖片可能被移花接木地用來誤導讀者，因此必須核實其真實出處和背景。只憑顏色、標點符號或評論數量無法判斷圖片真假。"
   },
   {
     "id": "draft-batch-b-ch06-005",
@@ -147,7 +211,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Investigative journalism can support democracy by exposing problems and enabling public scrutiny.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一则地方曝光报道披露某市镇违反了自身的办事规程。这里的新闻调查体现了哪种民主功能？",
+    "optionsZh": [
+      "媒体可以监督当权者，并为公民提供问责所需的信息。",
+      "媒体可以不经法院就撤销市镇的决定。",
+      "规程被破坏时，记者可以取代市议会。",
+      "媒体会自动获得制定新市政规则的权力。"
+    ],
+    "explanationZh": "调查性新闻可以揭露问题、支持问责，从而发挥民主监督功能。但媒体本身没有权力撤销决定或取代民选机构，法律后果仍由正当程序处理。",
+    "questionZhHant": "一則地方曝光報道披露某市鎮違反了自身的辦事規程。這裡的新聞調查體現了哪種民主功能？",
+    "optionsZhHant": [
+      "媒體可以監督當權者，並為公民提供問責所需的資訊。",
+      "媒體可以不經法院就撤銷市鎮的決定。",
+      "規程被破壞時，記者可以取代市議會。",
+      "媒體會自動獲得制定新市政規則的權力。"
+    ],
+    "explanationZhHant": "調查性新聞可以揭露問題、支持問責，從而發揮民主監督功能。但媒體本身沒有權力撤銷決定或取代民選機構，法律後果仍由正當程序處理。"
   },
   {
     "id": "draft-batch-b-ch06-006",
@@ -177,7 +257,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democracy depends on voters having reliable information and trust in the process.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在选举前夕，有人散布伪造的图片，意图让选民不信任选举程序。为什么这是民主方面的问题？",
+    "optionsZh": [
+      "虚假信息会影响选民的信任，以及他们作出知情决策的能力。",
+      "虚假信息总是被算作官方选举信息。",
+      "伪造图片会自动使选举在法律上无效。",
+      "如果网上有错误信息，选民就不得讨论选举。"
+    ],
+    "explanationZh": "民主依赖于选民掌握可靠信息并对程序抱有信心。散布假图会削弱信任并干扰知情决策，但这并不自动使选举无效，也不限制讨论。",
+    "questionZhHant": "在選舉前夕，有人散布偽造的圖片，意圖讓選民不信任選舉程序。為什麼這是民主方面的問題？",
+    "optionsZhHant": [
+      "虛假資訊會影響選民的信任，以及他們作出知情決策的能力。",
+      "虛假資訊總是被算作官方選舉資訊。",
+      "偽造圖片會自動使選舉在法律上無效。",
+      "如果網上有錯誤資訊，選民就不得討論選舉。"
+    ],
+    "explanationZhHant": "民主依賴於選民掌握可靠資訊並對程序抱有信心。散布假圖會削弱信任並幹擾知情決策，但這並不自動使選舉無效，也不限制討論。"
   },
   {
     "id": "draft-batch-b-ch06-007",
@@ -207,7 +303,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Understanding genre helps readers judge purpose, bias, and reliability.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么应当区分新闻文章、评论文章和广告？",
+    "optionsZh": [
+      "它们的目的不同，会影响你如何判断内容。",
+      "这三类总是由同一个政府机关撰写。",
+      "广告总是比新闻经过更严格的事实核查。",
+      "评论文章绝不可以包含事实。"
+    ],
+    "explanationZh": "不同类型的内容目的不同：新闻重在告知，评论表达观点，广告旨在推销。认清体裁有助于读者判断内容的意图、倾向和可信度。",
+    "questionZhHant": "為什麼應當區分新聞文章、評論文章和廣告？",
+    "optionsZhHant": [
+      "它們的目的不同，會影響你如何判斷內容。",
+      "這三類總是由同一個政府機關撰寫。",
+      "廣告總是比新聞經過更嚴格的事實核查。",
+      "評論文章絕不可以包含事實。"
+    ],
+    "explanationZhHant": "不同類型的內容目的不同：新聞重在告知，評論表達觀點，廣告旨在推銷。認清體裁有助於讀者判斷內容的意圖、傾向和可信度。"
   },
   {
     "id": "draft-batch-b-ch06-008",
@@ -237,7 +349,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish press freedom protects publication from state censorship.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有政客希望由国家预先审查有关政府的报纸文章。哪个原则最有力地反对这种做法？",
+    "optionsZh": [
+      "出版自由以及对审查的禁止。",
+      "学校领域的市镇自治。",
+      "大区对医疗的责任。",
+      "瑞典中央银行（Riksbanken）对通胀的责任。"
+    ],
+    "explanationZh": "瑞典的出版自由保护媒体免于国家的事前审查。让国家预先批准文章，等于恢复审查制度，违反了新闻自由的基本原则。",
+    "questionZhHant": "有政客希望由國家預先審查有關政府的報紙文章。哪個原則最有力地反對這種做法？",
+    "optionsZhHant": [
+      "出版自由以及對審查的禁止。",
+      "學校領域的市鎮自治。",
+      "大區對醫療的責任。",
+      "瑞典中央銀行（Riksbanken）對通脹的責任。"
+    ],
+    "explanationZhHant": "瑞典的出版自由保護媒體免於國家的事前審查。讓國家預先批準文章，等於恢複審查制度，違反了新聞自由的基本原則。"
   },
   {
     "id": "draft-batch-b-ch06-009",
@@ -267,7 +395,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Source criticism includes comparing the headline with the actual content.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么即便文章含有准确的事实，标题仍可能具有误导性？",
+    "optionsZh": [
+      "标题可能为了吸引眼球而夸大或扭曲事实。",
+      "标题总是比正文更准确。",
+      "只要文章内容准确，所有标题就自动保持中立。",
+      "标题在发布前由法院撰写。"
+    ],
+    "explanationZh": "信息来源批判要求把标题和正文内容对照着看。标题为了吸引注意，可能夸张或带有倾向，即便正文事实无误。",
+    "questionZhHant": "為什麼即便文章含有準確的事實，標題仍可能具有誤導性？",
+    "optionsZhHant": [
+      "標題可能為了吸引眼球而誇大或扭曲事實。",
+      "標題總是比正文更準確。",
+      "只要文章內容準確，所有標題就自動保持中立。",
+      "標題在發布前由法院撰寫。"
+    ],
+    "explanationZhHant": "資訊來源批判要求把標題和正文內容對照着看。標題為了吸引注意，可能誇張或帶有傾向，即便正文事實無誤。"
   },
   {
     "id": "draft-batch-b-ch06-010",
@@ -297,7 +441,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Information bubbles can narrow perspective and make source criticism more important.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人看到的几乎全是印证自己观点的政治帖子。这可能带来什么风险？",
+    "optionsZh": [
+      "这会使人更难接触其他视角，也难以对信息进行批判性质疑。",
+      "这意味着所有帖子自动都是真实的。",
+      "这表明此人不再受言论自由保护。",
+      "这让人对政治形成更细致、更平衡的认识。"
+    ],
+    "explanationZh": "这种“信息茧房”会收窄视野，让人误以为大家都同意自己，并削弱批判性思维能力。接触多元视角对民主讨论很重要。",
+    "questionZhHant": "一個人看到的幾乎全是印證自己觀點的政治帖子。這可能帶來什麼風險？",
+    "optionsZhHant": [
+      "這會使人更難接觸其他視角，也難以對資訊進行批判性質疑。",
+      "這意味着所有帖子自動都是真實的。",
+      "這表明此人不再受言論自由保護。",
+      "這讓人對政治形成更細致、更平衡的認識。"
+    ],
+    "explanationZhHant": "這種“資訊繭房”會收窄視野，讓人誤以為大家都同意自己，並削弱批判性思維能力。接觸多元視角對民主討論很重要。"
   },
   {
     "id": "draft-batch-b-ch06-011",
@@ -327,7 +487,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Media ethics includes weighing public interest against individual privacy and harm.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "媒体为什么会选择不公开涉嫌违法者的姓名？",
+    "optionsZh": [
+      "为了在公共利益与个人隐私、以及造成伤害的风险之间权衡。",
+      "因为涉嫌者总是已被预先定罪。",
+      "因为法院禁止所有关于犯罪的新闻。",
+      "因为姓名只能在议会选举之后公开。"
+    ],
+    "explanationZh": "媒体伦理要求在公共利益与个人隐私、潜在伤害之间进行权衡。在证据未明时公开姓名可能损害无辜者，因此媒体不一定公布。",
+    "questionZhHant": "媒體為什麼會選擇不公開涉嫌違法者的姓名？",
+    "optionsZhHant": [
+      "為了在公共利益與個人隱私、以及造成傷害的風險之間權衡。",
+      "因為涉嫌者總是已被預先定罪。",
+      "因為法院禁止所有關於犯罪的新聞。",
+      "因為姓名只能在議會選舉之後公開。"
+    ],
+    "explanationZhHant": "媒體倫理要求在公共利益與個人隱私、潛在傷害之間進行權衡。在證據未明時公開姓名可能損害無辜者，因此媒體不一定公布。"
   },
   {
     "id": "draft-batch-b-ch06-012",
@@ -357,7 +533,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public access makes it possible to scrutinize how public bodies use resources.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名记者利用公开文件，比较不同市镇如何使用税款。这在瑞典为什么可行？",
+    "optionsZh": [
+      "公开原则（政务公开原则）让人们可以查阅许多公开文件。",
+      "公开原则只适用于瑞典国会（Riksdagen）和政府，不适用于市镇。",
+      "公开文件要保密数年之后才公开。",
+      "只有瑞典公民才能查阅公开文件。"
+    ],
+    "explanationZh": "瑞典的公开原则赋予公民和媒体查阅公共机构文件的权利，从而可以监督公共资金如何使用。该原则适用于各级政府（包括市镇），也不仅限于瑞典公民。",
+    "questionZhHant": "一名記者利用公開文件，比較不同市鎮如何使用稅款。這在瑞典為什麼可行？",
+    "optionsZhHant": [
+      "公開原則（政務公開原則）讓人們可以查閱許多公開文件。",
+      "公開原則只適用於瑞典國會（Riksdagen）和政府，不適用於市鎮。",
+      "公開文件要保密數年之後才公開。",
+      "只有瑞典公民才能查閱公開文件。"
+    ],
+    "explanationZhHant": "瑞典的公開原則賦予公民和媒體查閱公共機構文件的權利，從而可以監督公共資金如何使用。該原則適用於各級政府（包括市鎮），也不僅限於瑞典公民。"
   },
   {
     "id": "draft-batch-b-ch06-013",
@@ -387,7 +579,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Intent matters: disinformation is deliberately misleading.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "信息中的失误与蓄意的虚假信息之间，一个重要区别是什么？",
+    "optionsZh": [
+      "虚假信息是出于误导目的而传播的，而失误可能没有这种意图。",
+      "失误永远违法，而虚假信息永远合法。",
+      "虚假信息只存在于纸质书中。",
+      "失误只能由政府部门造成。"
+    ],
+    "explanationZh": "关键区别在意图：虚假信息是有意误导他人；失误则可能只是无心之失。两者都可能产生错误，但责任和法律评价不同。",
+    "questionZhHant": "資訊中的失誤與蓄意的虛假資訊之間，一個重要區別是什麼？",
+    "optionsZhHant": [
+      "虛假資訊是出於誤導目的而傳播的，而失誤可能沒有這種意圖。",
+      "失誤永遠違法，而虛假資訊永遠合法。",
+      "虛假資訊只存在於紙質書中。",
+      "失誤只能由政府部門造成。"
+    ],
+    "explanationZhHant": "關鍵區別在意圖：虛假資訊是有意誤導他人；失誤則可能只是無心之失。兩者都可能產生錯誤，但責任和法律評價不同。"
   },
   {
     "id": "draft-batch-b-ch06-014",
@@ -417,7 +625,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "If a government only allows positive news during a crisis, free and critical news reporting is what is most directly threatened. Voting rights, court independence, and municipal taxation are not what such a rule primarily attacks.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某国政府宣称，危机期间只允许刊登对本国正面的新闻。最受威胁的是什么？",
+    "optionsZh": [
+      "自由的新闻报道，以及监督当权者的可能性。",
+      "参与全国大选的投票权。",
+      "法院在具体刑事案件中的独立性。",
+      "市镇征税的权利。"
+    ],
+    "explanationZh": "只许报喜不许报忧，直接打击的是自由新闻报道和舆论监督。投票权、法院独立和市镇征税权并非这类规定首要攻击的对象。",
+    "questionZhHant": "某國政府宣稱，危機期間只允許刊登對本國正面的新聞。最受威脅的是什麼？",
+    "optionsZhHant": [
+      "自由的新聞報道，以及監督當權者的可能性。",
+      "參與全國大選的投票權。",
+      "法院在具體刑事案件中的獨立性。",
+      "市鎮徵稅的權利。"
+    ],
+    "explanationZhHant": "只許報喜不許報憂，直接打擊的是自由新聞報道和輿論監督。投票權、法院獨立和市鎮徵稅權並非這類規定首要攻擊的對象。"
   },
   {
     "id": "draft-batch-b-ch06-015",
@@ -447,7 +671,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Digital material can be manipulated, so checking the original source is important.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么应当谨慎对待一张声称显示政府机关决定的截图？",
+    "optionsZh": [
+      "截图可能被篡改或脱离上下文，因此应核实原始来源。",
+      "网上的截图总是官方文件。",
+      "政府机关只以图片形式发布决定。",
+      "截图总是可以取代公开文件。"
+    ],
+    "explanationZh": "数字材料很容易被修改，截图也可能断章取义。要确认真实性，应当回到原始出处（如公开文件）进行核对。",
+    "questionZhHant": "為什麼應當謹慎對待一張聲稱顯示政府機關決定的截圖？",
+    "optionsZhHant": [
+      "截圖可能被篡改或脫離上下文，因此應核實原始來源。",
+      "網上的截圖總是官方文件。",
+      "政府機關只以圖片形式發布決定。",
+      "截圖總是可以取代公開文件。"
+    ],
+    "explanationZhHant": "數字材料很容易被修改，截圖也可能斷章取義。要確認真實性，應當回到原始出處（如公開文件）進行核對。"
   },
   {
     "id": "draft-batch-d-ch06-001",
@@ -477,7 +717,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Source criticism includes checking original sources and whether conclusions match the evidence.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某政府部门发布了统计数据，一位网红做出夸张解读却没有附上链接。具有信息来源批判意识的读者该怎么做？",
+    "optionsZh": [
+      "核对原始统计，看解读是否有数据支持。",
+      "相信网红，因为政府部门写的文字总是很难懂。",
+      "认为夸张的解读总是更真实。",
+      "如果已经很多人转发，就避开原始来源。"
+    ],
+    "explanationZh": "信息来源批判要求回到原始资料，并确认结论是否与证据相符。网红的二手解读即使引人注目，也需要用原始数据验证。",
+    "questionZhHant": "某政府部門發布了統計數據，一位網紅做出誇張解讀卻沒有附上鏈接。具有資訊來源批判意識的讀者該怎麼做？",
+    "optionsZhHant": [
+      "核對原始統計，看解讀是否有數據支持。",
+      "相信網紅，因為政府部門寫的文字總是很難懂。",
+      "認為誇張的解讀總是更真實。",
+      "如果已經很多人轉發，就避開原始來源。"
+    ],
+    "explanationZhHant": "資訊來源批判要求回到原始資料，並確認結論是否與證據相符。網紅的二手解讀即使引人注目，也需要用原始數據驗證。"
   },
   {
     "id": "draft-batch-d-ch06-002",
@@ -507,7 +763,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Local journalism can support accountability and informed participation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "地方媒体在一个市镇里为什么重要？",
+    "optionsZh": [
+      "它们可以监督地方决策，并就贴近居民的事务提供信息。",
+      "它们决定哪些市镇政客可以留任。",
+      "投票率低时，它们取代市议会。",
+      "它们可以不经表决就制定市镇预算。"
+    ],
+    "explanationZh": "地方新闻有助于问责和居民知情参与。但媒体无权决定官员去留或预算，这些属于民选机构的职责。",
+    "questionZhHant": "地方媒體在一個市鎮裡為什麼重要？",
+    "optionsZhHant": [
+      "它們可以監督地方決策，並就貼近居民的事務提供資訊。",
+      "它們決定哪些市鎮政客可以留任。",
+      "投票率低時，它們取代市議會。",
+      "它們可以不經表決就制定市鎮預算。"
+    ],
+    "explanationZhHant": "地方新聞有助於問責和居民知情參與。但媒體無權決定官員去留或預算，這些屬於民選機構的職責。"
   },
   {
     "id": "draft-ch06-001",
@@ -536,7 +808,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Free media help people get information and hold power accountable.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在民主制度中，自由媒体的一项重要职责是什么？",
+    "optionsZh": [
+      "向公民提供信息并监督当权者。",
+      "始终支持政府。",
+      "选择哪些政党可以参选。",
+      "审判涉嫌犯罪的人。"
+    ],
+    "explanationZh": "自由媒体帮助人们获取信息并让权力受到问责。媒体既不应一味支持政府，也无权决定谁能参选或给人定罪。",
+    "questionZhHant": "在民主制度中，自由媒體的一項重要職責是什麼？",
+    "optionsZhHant": [
+      "向公民提供資訊並監督當權者。",
+      "始終支持政府。",
+      "選擇哪些政黨可以參選。",
+      "審判涉嫌犯罪的人。"
+    ],
+    "explanationZhHant": "自由媒體幫助人們獲取資訊並讓權力受到問責。媒體既不應一味支持政府，也無權決定誰能參選或給人定罪。"
   },
   {
     "id": "draft-ch06-002",
@@ -566,7 +854,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Journalism can scrutinize public and private power, but courts and public institutions still have their own roles.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "调查性新闻为什么对民主很重要？",
+    "optionsZh": [
+      "它能揭露权力滥用，并为公民提供讨论的依据。",
+      "它取代法院在刑事案件中的工作。",
+      "它使政府部门再也不必公开文件。",
+      "它决定瑞典国会（Riksdagen）应通过哪些法律。"
+    ],
+    "explanationZh": "新闻可以监督公共和私人权力，但法院与公共机构仍各有其职责。调查报道不是要取代它们，而是提供问责所需的信息。",
+    "questionZhHant": "調查性新聞為什麼對民主很重要？",
+    "optionsZhHant": [
+      "它能揭露權力濫用，並為公民提供討論的依據。",
+      "它取代法院在刑事案件中的工作。",
+      "它使政府部門再也不必公開文件。",
+      "它決定瑞典國會（Riksdagen）應通過哪些法律。"
+    ],
+    "explanationZhHant": "新聞可以監督公共和私人權力，但法院與公共機構仍各有其職責。調查報道不是要取代它們，而是提供問責所需的資訊。"
   },
   {
     "id": "draft-ch06-003",
@@ -596,7 +900,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Media scrutiny can expose possible favoritism and create accountability, while legal consequences are handled through proper procedures.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一家报纸披露某市镇把一个合同给了某位政客的朋友。这篇报道的民主意义何在？",
+    "optionsZh": [
+      "公民得以审查公共权力是否被客观公正地使用。",
+      "报纸自动获得撤销该合同的权利。",
+      "记者可以给政客定罪量刑。",
+      "市镇从此无需遵守采购规则。"
+    ],
+    "explanationZh": "媒体监督能暴露可能的裙带关系并促成问责，而法律后果需通过正当程序处理。报道本身并不直接产生法律处罚。",
+    "questionZhHant": "一家報紙披露某市鎮把一個合同給了某位政客的朋友。這篇報道的民主意義何在？",
+    "optionsZhHant": [
+      "公民得以審查公共權力是否被客觀公正地使用。",
+      "報紙自動獲得撤銷該合同的權利。",
+      "記者可以給政客定罪量刑。",
+      "市鎮從此無需遵守採購規則。"
+    ],
+    "explanationZhHant": "媒體監督能暴露可能的裙帶關系並促成問責，而法律後果需通過正當程序處理。報道本身並不直接產生法律處罰。"
   },
   {
     "id": "draft-ch06-004",
@@ -625,7 +945,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Media freedom depends on the ability to publish and criticize power without prior control by authorities, while still following legal responsibility rules.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "言论自由为什么对媒体工作很重要？",
+    "optionsZh": [
+      "它使媒体能在不受不当政府控制的情况下发布信息、批评和观点。",
+      "它意味着媒体必须总是先刊登政府文稿。",
+      "它让记者可以在刑事案件中给人定罪。",
+      "它意味着每位读者都有权在文章发布后修改它。"
+    ],
+    "explanationZh": "媒体自由依赖于不经政府事前控制即可发布和批评的能力，同时仍须遵守法律责任规则。言论自由不赋予媒体定罪的权力。",
+    "questionZhHant": "言論自由為什麼對媒體工作很重要？",
+    "optionsZhHant": [
+      "它使媒體能在不受不當政府控制的情況下發布資訊、批評和觀點。",
+      "它意味着媒體必須總是先刊登政府文稿。",
+      "它讓記者可以在刑事案件中給人定罪。",
+      "它意味着每位讀者都有權在文章發布後修改它。"
+    ],
+    "explanationZhHant": "媒體自由依賴於不經政府事前控制即可發布和批評的能力，同時仍須遵守法律責任規則。言論自由不賦予媒體定罪的權力。"
   },
   {
     "id": "draft-ch06-005",
@@ -655,7 +991,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Rights can have legal limits when expression harms protected interests or violates criminal law, such as threats, defamation, or incitement against a group.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "关于言论自由的界限，哪种说法最准确？",
+    "optionsZh": [
+      "自由虽强，但威胁、诽谤和煽动族群仇恨等行为可能构成犯罪。",
+      "自由只适用于在媒体工作的人。",
+      "自由意味着任何言论都不会有后果。",
+      "自由在竞选期间自动终止。"
+    ],
+    "explanationZh": "当言论侵害受保护的利益或违反刑法（如威胁、诽谤、煽动族群仇恨）时，权利会受到法律限制。言论自由并非毫无边界。",
+    "questionZhHant": "關於言論自由的界限，哪種說法最準確？",
+    "optionsZhHant": [
+      "自由雖強，但威脅、誹謗和煽動族羣仇恨等行為可能構成犯罪。",
+      "自由只適用於在媒體工作的人。",
+      "自由意味着任何言論都不會有後果。",
+      "自由在競選期間自動終止。"
+    ],
+    "explanationZhHant": "當言論侵害受保護的利益或違反刑法（如威脅、誹謗、煽動族羣仇恨）時，權利會受到法律限制。言論自由並非毫無邊界。"
   },
   {
     "id": "draft-ch06-006",
@@ -685,7 +1037,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish media enjoy strong constitutional freedoms under the Freedom of the Press Act (Tryckfrihetsförordningen) and the Fundamental Law on Freedom of Expression (Yttrandefrihetsgrundlagen), but these are not unlimited. Media must still follow laws such as those on defamation, secrecy, and the rules of the responsible publisher (ansvarig utgivare). So 'media may publish anything' is incorrect: broad freedom comes with legal responsibility.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人说，因为瑞典有言论自由，媒体想发什么就发什么。最好的回应是什么？",
+    "optionsZh": [
+      "媒体享有很强的自由，但也必须遵守法律和责任体系。",
+      "没错，媒体永远不可能违法。",
+      "只对政治类文章才成立。",
+      "言论自由不适用于纸质报纸。"
+    ],
+    "explanationZh": "瑞典媒体在《出版自由法》（Tryckfrihetsförordningen）和《言论自由基本法》（Yttrandefrihetsgrundlagen）下享有强大的宪法性自由，但并非无限。媒体仍须遵守关于诽谤、保密以及“责任出版人（ansvarig utgivare）”等规则。所以“媒体什么都能发”并不正确：广泛自由伴随法律责任。",
+    "questionZhHant": "有人說，因為瑞典有言論自由，媒體想發什麼就發什麼。最好的回應是什麼？",
+    "optionsZhHant": [
+      "媒體享有很強的自由，但也必須遵守法律和責任體系。",
+      "沒錯，媒體永遠不可能違法。",
+      "只對政治類文章才成立。",
+      "言論自由不適用於紙質報紙。"
+    ],
+    "explanationZhHant": "瑞典媒體在《出版自由法》（Tryckfrihetsförordningen）和《言論自由基本法》（Yttrandefrihetsgrundlagen）下享有強大的憲法性自由，但並非無限。媒體仍須遵守關於誹謗、保密以及“責任出版人（ansvarig utgivare）”等規則。所以“媒體什麼都能發”並不正確：廣泛自由伴隨法律責任。"
   },
   {
     "id": "draft-ch06-007",
@@ -714,7 +1082,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Freedom of the Press Act protects publication in printed media and is part of Sweden’s constitution.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "出版自由主要保护什么？",
+    "optionsZh": [
+      "在不受事前审查的情况下出版印刷品的可能。",
+      "国家在所有文章发布前予以批准的权利。",
+      "只读国有新闻的义务。",
+      "禁止批评政府机关的权利。"
+    ],
+    "explanationZh": "《出版自由法》保护印刷媒体的出版自由，是瑞典宪法的一部分。它禁止事前审查，而不是赋予国家批准权。",
+    "questionZhHant": "出版自由主要保護什麼？",
+    "optionsZhHant": [
+      "在不受事前審查的情況下出版印刷品的可能。",
+      "國家在所有文章發布前予以批準的權利。",
+      "只讀國有新聞的義務。",
+      "禁止批評政府機關的權利。"
+    ],
+    "explanationZhHant": "《出版自由法》保護印刷媒體的出版自由，是瑞典憲法的一部分。它禁止事前審查，而不是賦予國家批準權。"
   },
   {
     "id": "draft-ch06-008",
@@ -744,7 +1128,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden has constitutional protection for press and expression in specific fundamental laws.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪些基本法对媒体自由特别重要？",
+    "optionsZh": [
+      "《出版自由法》（Tryckfrihetsförordningen）与《言论自由基本法》（Yttrandefrihetsgrundlagen）。",
+      "《刑法典》与《学校法》。",
+      "《地方政府法》与《社会服务法》。",
+      "《选举法》与《休假法》。"
+    ],
+    "explanationZh": "瑞典通过专门的基本法对出版与表达自由给予宪法性保护，即《出版自由法》和《言论自由基本法》。",
+    "questionZhHant": "哪些基本法對媒體自由特別重要？",
+    "optionsZhHant": [
+      "《出版自由法》（Tryckfrihetsförordningen）與《言論自由基本法》（Yttrandefrihetsgrundlagen）。",
+      "《刑法典》與《學校法》。",
+      "《地方政府法》與《社會服務法》。",
+      "《選舉法》與《休假法》。"
+    ],
+    "explanationZhHant": "瑞典通過專門的基本法對出版與表達自由給予憲法性保護，即《出版自由法》和《言論自由基本法》。"
   },
   {
     "id": "draft-ch06-009",
@@ -774,7 +1174,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Prior restraint by authorities is strongly limited in a free press system.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某政府机关只想叫停一篇批评性文章，仅仅因为它让人难堪。最相关的原则是什么？",
+    "optionsZh": [
+      "禁止审查与保护自由出版。",
+      "政府机关对政府的忠诚义务。",
+      "公共采购的规则体系。",
+      "不受监督的机关统治原则。"
+    ],
+    "explanationZh": "在自由出版制度下，政府机关的事前禁令受到严格限制。仅仅因内容令人难堪就加以封杀，违反禁止审查的原则。",
+    "questionZhHant": "某政府機關只想叫停一篇批評性文章，僅僅因為它讓人難堪。最相關的原則是什麼？",
+    "optionsZhHant": [
+      "禁止審查與保護自由出版。",
+      "政府機關對政府的忠誠義務。",
+      "公共採購的規則體系。",
+      "不受監督的機關統治原則。"
+    ],
+    "explanationZhHant": "在自由出版制度下，政府機關的事前禁令受到嚴格限制。僅僅因內容令人難堪就加以封殺，違反禁止審查的原則。"
   },
   {
     "id": "draft-ch06-010",
@@ -803,7 +1219,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public access lets citizens and media scrutinize public bodies, with some exceptions for confidentiality.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "公开原则（政务公开原则）是什么意思？",
+    "optionsZh": [
+      "公众可以查阅许多公开文件。",
+      "所有私人通信都变成公开的。",
+      "政府机关永远不得对任何信息保密。",
+      "只有记者可以阅读政府机关决定。"
+    ],
+    "explanationZh": "公开原则让公民和媒体可以监督公共机构，但保密也有例外。它不意味着私人信息自动公开，也不限于记者。",
+    "questionZhHant": "公開原則（政務公開原則）是什麼意思？",
+    "optionsZhHant": [
+      "公眾可以查閱許多公開文件。",
+      "所有私人通信都變成公開的。",
+      "政府機關永遠不得對任何資訊保密。",
+      "只有記者可以閱讀政府機關決定。"
+    ],
+    "explanationZhHant": "公開原則讓公民和媒體可以監督公共機構，但保密也有例外。它不意味着私人資訊自動公開，也不限於記者。"
   },
   {
     "id": "draft-ch06-011",
@@ -833,7 +1265,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public access concerns official documents and public institutions, not unlimited access to private life.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "以下哪个例子最符合公开原则？",
+    "optionsZh": [
+      "某人要求阅读一份政府机关的决定。",
+      "雇主要求查看员工如何投票。",
+      "某政党要求修改一项判决。",
+      "某报纸强迫一个普通人交出日记。"
+    ],
+    "explanationZh": "公开原则针对的是公共机构的公开文件，而非对个人生活的无限访问。查阅机关决定是典型体现。",
+    "questionZhHant": "以下哪個例子最符合公開原則？",
+    "optionsZhHant": [
+      "某人要求閱讀一份政府機關的決定。",
+      "僱主要求查看員工如何投票。",
+      "某政黨要求修改一項判決。",
+      "某報紙強迫一個普通人交出日記。"
+    ],
+    "explanationZhHant": "公開原則針對的是公共機構的公開文件，而非對個人生活的無限訪問。查閱機關決定是典型體現。"
   },
   {
     "id": "draft-ch06-012",
@@ -863,7 +1311,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Documents received or created by authorities may be official documents, though secrecy rules can apply.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名记者要求调阅某政府机关在某事务中收到的电子邮件。为什么这可能可行？",
+    "optionsZh": [
+      "政府机关收到的文件可能属于公开文件。",
+      "瑞典所有的电子邮件都归媒体所有。",
+      "记者总是比法院拥有更大的权利。",
+      "政府机关永远不得保护任何信息。"
+    ],
+    "explanationZh": "政府机关收到或制作的文件可能构成公开文件，不过保密规则也可能适用。媒体并非拥有所有邮件，机关也可依法保密。",
+    "questionZhHant": "一名記者要求調閱某政府機關在某事務中收到的電子郵件。為什麼這可能可行？",
+    "optionsZhHant": [
+      "政府機關收到的文件可能屬於公開文件。",
+      "瑞典所有的電子郵件都歸媒體所有。",
+      "記者總是比法院擁有更大的權利。",
+      "政府機關永遠不得保護任何資訊。"
+    ],
+    "explanationZhHant": "政府機關收到或制作的文件可能構成公開文件，不過保密規則也可能適用。媒體並非擁有所有郵件，機關也可依法保密。"
   },
   {
     "id": "draft-ch06-013",
@@ -892,7 +1356,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public access is strong, but confidentiality can protect important interests.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么某些信息会被列为机密？",
+    "optionsZh": [
+      "例如为了保护个人隐私、安全或敏感调查。",
+      "为了让政府机关能掩盖所有错误。",
+      "因为媒体不得监督国家。",
+      "因为所有文件总是必须保密。"
+    ],
+    "explanationZh": "公开原则很强，但保密可以保护重要的利益，如隐私、安全和正在进行的调查。保密不能用来随意掩盖错误。",
+    "questionZhHant": "為什麼某些資訊會被列為機密？",
+    "optionsZhHant": [
+      "例如為了保護個人隱私、安全或敏感調查。",
+      "為了讓政府機關能掩蓋所有錯誤。",
+      "因為媒體不得監督國家。",
+      "因為所有文件總是必須保密。"
+    ],
+    "explanationZhHant": "公開原則很強，但保密可以保護重要的利益，如隱私、安全和正在進行的調查。保密不能用來隨意掩蓋錯誤。"
   },
   {
     "id": "draft-ch06-014",
@@ -922,7 +1402,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Authorities must apply legal rules to decide what is public and what is protected.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "公开原则和保密如何能同时运作？",
+    "optionsZh": [
+      "一份文件可以全部或部分公开，受保护的信息则被涂去。",
+      "保密意味着公开原则永不适用。",
+      "公开原则意味着保密被禁止。",
+      "政府机关可不受法律约束地自由选择。"
+    ],
+    "explanationZh": "机关必须依法决定哪些公开、哪些受保护。文件可整体或局部公开，受保护部分会被涂黑（maskas）。",
+    "questionZhHant": "公開原則和保密如何能同時運作？",
+    "optionsZhHant": [
+      "一份文件可以全部或部分公開，受保護的資訊則被塗去。",
+      "保密意味着公開原則永不適用。",
+      "公開原則意味着保密被禁止。",
+      "政府機關可不受法律約束地自由選擇。"
+    ],
+    "explanationZhHant": "機關必須依法決定哪些公開、哪些受保護。文件可整體或局部公開，受保護部分會被塗黑（maskas）。"
   },
   {
     "id": "draft-ch06-015",
@@ -952,7 +1448,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Partial release is common when some parts are public and others are legally protected.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某政府机关公开了一份文件，但删去了个人身份号码和敏感的健康信息。最可能的情况是？",
+    "optionsZh": [
+      "该机关试图在透明公开与保护个人数据之间取得平衡。",
+      "该机关已废除公开原则。",
+      "记者根本无权获得任何文件。",
+      "所有被涂去的信息都是政治观点。"
+    ],
+    "explanationZh": "当部分内容可公开、部分受法律保护的，局部公开很常见。删去敏感个人信息正是兼顾透明与隐私的做法。",
+    "questionZhHant": "某政府機關公開了一份文件，但刪去了個人身份號碼和敏感的健康資訊。最可能的情況是？",
+    "optionsZhHant": [
+      "該機關試圖在透明公開與保護個人數據之間取得平衡。",
+      "該機關已廢除公開原則。",
+      "記者根本無權獲得任何文件。",
+      "所有被塗去的資訊都是政治觀點。"
+    ],
+    "explanationZhHant": "當部分內容可公開、部分受法律保護的，局部公開很常見。刪去敏感個人資訊正是兼顧透明與隱私的做法。"
   },
   {
     "id": "draft-ch06-016",
@@ -981,7 +1493,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Source criticism means checking sender, purpose, evidence, context, and reliability.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“信息来源批判”（källkritik）是什么意思？",
+    "optionsZh": [
+      "审查信息由谁发布，以及它是否可信。",
+      "总是相信看到的第一条标题。",
+      "只转发让自己生气的新闻。",
+      "回避一切社会信息。"
+    ],
+    "explanationZh": "信息来源批判要求核查发布者、目的、证据、背景和可信度，而不是轻信表面内容。",
+    "questionZhHant": "“資訊來源批判”（källkritik）是什麼意思？",
+    "optionsZhHant": [
+      "審查資訊由誰發布，以及它是否可信。",
+      "總是相信看到的第一條標題。",
+      "只轉發讓自己生氣的新聞。",
+      "回避一切社會資訊。"
+    ],
+    "explanationZhHant": "資訊來源批判要求核查發布者、目的、證據、背景和可信度，而不是輕信表面內容。"
   },
   {
     "id": "draft-ch06-017",
@@ -1011,7 +1539,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sender and purpose are central questions in source criticism.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在进行信息来源批判时，提出哪个问题比较好？",
+    "optionsZh": [
+      "这是谁发布的，发布者可能有什么目的？",
+      "我能在不读的情况下多快把它转出去？",
+      "哪个标题最让我愤怒？",
+      "这是否总是符合我以往的观点？"
+    ],
+    "explanationZh": "发布者和目的是信息来源批判的核心问题。凭情绪或预设观点判断，恰恰是不具批判性的做法。",
+    "questionZhHant": "在進行資訊來源批判時，提出哪個問題比較好？",
+    "optionsZhHant": [
+      "這是誰發布的，發布者可能有什麼目的？",
+      "我能在不讀的情況下多快把它轉出去？",
+      "哪個標題最讓我憤怒？",
+      "這是否總是符合我以往的觀點？"
+    ],
+    "explanationZhHant": "發布者和目的是資訊來源批判的核心問題。憑情緒或預設觀點判斷，恰恰是不具批判性的做法。"
   },
   {
     "id": "draft-ch06-018",
@@ -1041,7 +1585,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Important civic claims should be checked against reliable sources before being shared or used.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一条帖子声称某项新法律已经生效，却没有链接到任何政府机关或新闻来源。具有信息来源批判意识的做法是？",
+    "optionsZh": [
+      "向瑞典国会（Riksdagen）、政府或可信新闻来源核实该信息。",
+      "只要评论多就直接转发。",
+      "如果措辞显得肯定，就假定是真的。",
+      "只有带图片才相信。"
+    ],
+    "explanationZh": "重要的公民信息在转发或使用前，应先用可靠来源核实。仅凭评论数、语气或有无图片无法判断真伪。",
+    "questionZhHant": "一條帖子聲稱某項新法律已經生效，卻沒有鏈接到任何政府機關或新聞來源。具有資訊來源批判意識的做法是？",
+    "optionsZhHant": [
+      "向瑞典國會（Riksdagen）、政府或可信新聞來源核實該資訊。",
+      "只要評論多就直接轉發。",
+      "如果措辭顯得肯定，就假定是真的。",
+      "只有帶圖片才相信。"
+    ],
+    "explanationZhHant": "重要的公民資訊在轉發或使用前，應先用可靠來源核實。僅憑評論數、語氣或有無圖片無法判斷真偽。"
   },
   {
     "id": "draft-ch06-019",
@@ -1070,7 +1630,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Disinformation involves intentional misleading, not simply disagreement.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是虚假信息（desinformation）？",
+    "optionsZh": [
+      "被蓄意散布的虚假或误导性信息。",
+      "任何有人不同意的信息。",
+      "法院的一份公开文件。",
+      "一份附有方法说明的普通民意调查。"
+    ],
+    "explanationZh": "虚假信息的关键在于蓄意误导，而不仅仅是有人不同意。它与正常的民调或司法文件不同。",
+    "questionZhHant": "什麼是虛假資訊（desinformation）？",
+    "optionsZhHant": [
+      "被蓄意散布的虛假或誤導性資訊。",
+      "任何有人不同意的資訊。",
+      "法院的一份公開文件。",
+      "一份附有方法說明的普通民意調查。"
+    ],
+    "explanationZhHant": "虛假資訊的關鍵在於蓄意誤導，而不僅僅是有人不同意。它與正常的民調或司法文件不同。"
   },
   {
     "id": "draft-ch06-020",
@@ -1100,7 +1676,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democracy depends on informed citizens and trustworthy public debate.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "虚假信息为什么会威胁民主？",
+    "optionsZh": [
+      "它会使人们更难作出知情决策。",
+      "它会自动让更多人投票。",
+      "它取代了对自由媒体的需求。",
+      "它意味着所有来源都同样可信。"
+    ],
+    "explanationZh": "民主依赖知情的公民和可信的公共讨论。虚假信息干扰判断，却不能替代自由媒体，也不表示所有来源同等可信。",
+    "questionZhHant": "虛假資訊為什麼會威脅民主？",
+    "optionsZhHant": [
+      "它會使人們更難作出知情決策。",
+      "它會自動讓更多人投票。",
+      "它取代了對自由媒體的需求。",
+      "它意味着所有來源都同樣可信。"
+    ],
+    "explanationZhHant": "民主依賴知情的公民和可信的公共討論。虛假資訊幹擾判斷，卻不能替代自由媒體，也不表示所有來源同等可信。"
   },
   {
     "id": "draft-ch06-021",
@@ -1130,7 +1722,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "False election information can suppress participation and undermine trust.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "选举前夕，有人散布假消息称投票日已被改期。最大的民主风险是什么？",
+    "optionsZh": [
+      "选民可能因误导性信息而无法参与投票。",
+      "选举结果会被选举管理局（Valmyndigheten）自动宣布无效。",
+      "瑞典国会（Riksdagen）必须立即开会更改投票日期。",
+      "媒体失去报道选举结果的权利。"
+    ],
+    "explanationZh": "伪造的选举信息会抑制参与并破坏信任，从而妨碍选民行使权利。它并不自动使结果无效，也不剥夺媒体报道权。",
+    "questionZhHant": "選舉前夕，有人散布假消息稱投票日已被改期。最大的民主風險是什麼？",
+    "optionsZhHant": [
+      "選民可能因誤導性資訊而無法參與投票。",
+      "選舉結果會被選舉管理局（Valmyndigheten）自動宣布無效。",
+      "瑞典國會（Riksdagen）必須立即開會更改投票日期。",
+      "媒體失去報道選舉結果的權利。"
+    ],
+    "explanationZhHant": "偽造的選舉資訊會抑制參與並破壞信任，從而妨礙選民行使權利。它並不自動使結果無效，也不剝奪媒體報道權。"
   },
   {
     "id": "draft-ch06-022",
@@ -1159,7 +1767,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Propaganda is communication designed to influence, often by selecting or distorting information.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在公共讨论中，宣传（propaganda）是什么？",
+    "optionsZh": [
+      "试图影响观点的信息，往往片面或带有操纵性。",
+      "所有含有事实的新闻。",
+      "政府机关的所有公开文件。",
+      "一张没有候选人姓名的选票。"
+    ],
+    "explanationZh": "宣传是为影响人而设计的传播，常通过筛选或扭曲信息来实现。它与事实性新闻或公开文件不是一回事。",
+    "questionZhHant": "在公共討論中，宣傳（propaganda）是什麼？",
+    "optionsZhHant": [
+      "試圖影響觀點的資訊，往往片面或帶有操縱性。",
+      "所有含有事實的新聞。",
+      "政府機關的所有公開文件。",
+      "一張沒有候選人姓名的選票。"
+    ],
+    "explanationZhHant": "宣傳是為影響人而設計的傳播，常通過篩選或扭曲資訊來實現。它與事實性新聞或公開文件不是一回事。"
   },
   {
     "id": "draft-ch06-023",
@@ -1189,7 +1813,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Propaganda often uses emotion, repetition, and selective facts to steer opinions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么可能是宣传的迹象？",
+    "optionsZh": [
+      "在调动强烈情绪的同时，却省略重要事实。",
+      "文中清楚列出来源和方法。",
+      "客观描述多种视角。",
+      "发布者公开更正以往错误。"
+    ],
+    "explanationZh": "宣传常用情绪、重复和选择性事实来引导观点。清楚标注来源、客观呈现多视角、公开纠错，反而是可信文本的特征。",
+    "questionZhHant": "什麼可能是宣傳的跡象？",
+    "optionsZhHant": [
+      "在調動強烈情緒的同時，卻省略重要事實。",
+      "文中清楚列出來源和方法。",
+      "客觀描述多種視角。",
+      "發布者公開更正以往錯誤。"
+    ],
+    "explanationZhHant": "宣傳常用情緒、重複和選擇性事實來引導觀點。清楚標注來源、客觀呈現多視角、公開糾錯，反而是可信文本的特徵。"
   },
   {
     "id": "draft-ch06-024",
@@ -1219,7 +1859,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Source criticism looks at purpose, evidence, framing, and omitted context.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一部影片只展现某政党正面形象，并在没有证据的情况下把所有批评者描绘成危险人物。具有信息来源批判意识的观众应注意什么？",
+    "optionsZh": [
+      "发布者的目的、对事实的取舍，以及是否缺失相反画面。",
+      "影片制作精良就一定真实。",
+      "批评政党永远违法。",
+      "强劲音乐会让政治说法更可信。"
+    ],
+    "explanationZh": "信息来源批判要看目的、证据、叙事框架和被省略的背景。制作水平或配乐不能证明内容真实。",
+    "questionZhHant": "一部影片只展現某政黨正面形象，並在沒有證據的情況下把所有批評者描繪成危險人物。具有資訊來源批判意識的觀眾應注意什麼？",
+    "optionsZhHant": [
+      "發布者的目的、對事實的取舍，以及是否缺失相反畫面。",
+      "影片制作精良就一定真實。",
+      "批評政黨永遠違法。",
+      "強勁音樂會讓政治說法更可信。"
+    ],
+    "explanationZhHant": "資訊來源批判要看目的、證據、敘事框架和被省略的背景。制作水平或配樂不能證明內容真實。"
   },
   {
     "id": "draft-ch06-025",
@@ -1248,7 +1904,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Social platforms allow rapid sharing, which makes source criticism especially important.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "社交媒体与传统新闻媒體之间，一个区别是什么？",
+    "optionsZh": [
+      "在社交媒体上，信息可由许多不同发布者快速传播。",
+      "社交媒体在发布前总由法院审查。",
+      "传统媒体永远不得更正错误。",
+      "新闻媒體对自己发布的内容不承担责任。"
+    ],
+    "explanationZh": "社交平台让信息快速、多源传播，因此信息来源批判尤为重要。传统媒体同样要更正错误并承担责任。",
+    "questionZhHant": "社交媒體與傳統新聞媒體之間，一個區別是什麼？",
+    "optionsZhHant": [
+      "在社交媒體上，資訊可由許多不同發布者快速傳播。",
+      "社交媒體在發布前總由法院審查。",
+      "傳統媒體永遠不得更正錯誤。",
+      "新聞媒體對自己發布的內容不承擔責任。"
+    ],
+    "explanationZhHant": "社交平台讓資訊快速、多源傳播，因此資訊來源批判尤為重要。傳統媒體同樣要更正錯誤並承擔責任。"
   },
   {
     "id": "draft-ch06-026",
@@ -1278,7 +1950,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The content people see online can be shaped by engagement, networks, and platform design.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "社交媒体为什么会让人对社会讨论产生偏颇印象？",
+    "optionsZh": [
+      "算法和转发会把引发强烈反应的内容推到前面。",
+      "所有帖子在显示前都由瑞典国会（Riksdagen）审查。",
+      "只有政府机关可以发表政治观点。",
+      "社交媒体上的评论算作选举结果。"
+    ],
+    "explanationZh": "人们看到的线上内容会被互动量、社交网络和传播平台的设计所塑造，因此可能放大极端或情绪化内容，造成偏颇印象。",
+    "questionZhHant": "社交媒體為什麼會讓人對社會討論產生偏頗印象？",
+    "optionsZhHant": [
+      "算法和轉發會把引發強烈反應的內容推到前面。",
+      "所有帖子在顯示前都由瑞典國會（Riksdagen）審查。",
+      "只有政府機關可以發表政治觀點。",
+      "社交媒體上的評論算作選舉結果。"
+    ],
+    "explanationZhHant": "人們看到的線上內容會被互動量、社交網絡和傳播平台的設計所塑造，因此可能放大極端或情緒化內容，造成偏頗印象。"
   },
   {
     "id": "draft-ch06-027",
@@ -1308,7 +1996,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Online environments can reinforce existing views and hide disagreement.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人只看到印证自己观点的帖子，因而以为几乎人人都同意。最符合的概念是什么？",
+    "optionsZh": [
+      "过滤气泡或回音室。",
+      "审查或事前控制。",
+      "责任出版人制度。",
+      "消息来源保护或举报自由。"
+    ],
+    "explanationZh": "线上环境会强化既有观点并掩盖分歧，形成“过滤气泡”或“回音室”。这与审查或消息来源保护不是同一概念。",
+    "questionZhHant": "一個人只看到印證自己觀點的帖子，因而以為幾乎人人都同意。最符合的概念是什麼？",
+    "optionsZhHant": [
+      "過濾氣泡或回音室。",
+      "審查或事前控制。",
+      "責任出版人制度。",
+      "消息來源保護或舉報自由。"
+    ],
+    "explanationZhHant": "線上環境會強化既有觀點並掩蓋分歧，形成“過濾氣泡”或“回音室”。這與審查或消息來源保護不是同一概念。"
   },
   {
     "id": "draft-ch06-028",
@@ -1337,7 +2041,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public service media have a public mission and are expected to operate independently.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“公共服务媒体（public service）”通常指什么？",
+    "optionsZh": [
+      "带有社会使命、并被要求保持独立的广播电视媒体。",
+      "由所有私人企业同时拥有的媒体。",
+      "所有帖子变成法律的社会媒体。",
+      "只能写体育的报纸。"
+    ],
+    "explanationZh": "公共服务媒体承担公共使命，并被期望保持独立运作。它不是由私营企业共有，也不限题材。",
+    "questionZhHant": "“公共服務媒體（public service）”通常指什麼？",
+    "optionsZhHant": [
+      "帶有社會使命、並被要求保持獨立的廣播電視媒體。",
+      "由所有私人企業同時擁有的媒體。",
+      "所有帖子變成法律的社會媒體。",
+      "只能寫體育的報紙。"
+    ],
+    "explanationZhHant": "公共服務媒體承擔公共使命，並被期望保持獨立運作。它不是由私營企業共有，也不限題材。"
   },
   {
     "id": "draft-ch06-029",
@@ -1367,7 +2087,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Independence supports trust and reduces the risk of political control over information.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "公共服务媒体保持独立为什么重要？",
+    "optionsZh": [
+      "它们应当能在不受政党政治操控的情况下提供信息和监督。",
+      "它们应当总是先报道政府的观点。",
+      "它们应取代所有私人媒体。",
+      "它们应决定哪些政党进入瑞典国会（Riksdagen）。"
+    ],
+    "explanationZh": "独立性有助于建立信任，并降低信息受政治控制的风险。公共服务媒体不应成为政府喉舌，也不决定选举结果。",
+    "questionZhHant": "公共服務媒體保持獨立為什麼重要？",
+    "optionsZhHant": [
+      "它們應當能在不受政黨政治操控的情況下提供資訊和監督。",
+      "它們應當總是先報道政府的觀點。",
+      "它們應取代所有私人媒體。",
+      "它們應決定哪些政黨進入瑞典國會（Riksdagen）。"
+    ],
+    "explanationZhHant": "獨立性有助於建立信任，並降低資訊受政治控制的風險。公共服務媒體不應成為政府喉舌，也不決定選舉結果。"
   },
   {
     "id": "draft-ch06-030",
@@ -1397,7 +2133,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "If government controls daily news content, media can become a political tool rather than an independent source.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某政府想逐日微观管控公共服务媒体应播送哪些新闻。这会产生什么民主风险？",
+    "optionsZh": [
+      "媒体的独立性和自由新闻报道被削弱。",
+      "公共服务媒体会自动在周末和晚间完全停播。",
+      "责任出版人失去其刑法上的免责地位。",
+      "对私营报纸的报刊补贴立即被取消。"
+    ],
+    "explanationZh": "如果政府控制每日新闻内容，媒体就可能沦为政治工具，而非独立信源。其他几项与这种管控无直接关系。",
+    "questionZhHant": "某政府想逐日微觀管控公共服務媒體應播送哪些新聞。這會產生什麼民主風險？",
+    "optionsZhHant": [
+      "媒體的獨立性和自由新聞報道被削弱。",
+      "公共服務媒體會自動在周末和晚間完全停播。",
+      "責任出版人失去其刑法上的免責地位。",
+      "對私營報紙的報刊補貼立即被取消。"
+    ],
+    "explanationZhHant": "如果政府控制每日新聞內容，媒體就可能淪為政治工具，而非獨立信源。其他幾項與這種管控無直接關系。"
   },
   {
     "id": "draft-ch06-031",
@@ -1426,7 +2178,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Source protection can make it safer to reveal information of public interest.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "新闻业中的“消息来源保护（källskydd）”是什么意思？",
+    "optionsZh": [
+      "提供信息者的身份可以得到保护。",
+      "所有来源都必须具名公开。",
+      "记者永远不得与政府机关交谈。",
+      "只有政府可以向媒体爆料。"
+    ],
+    "explanationZh": "消息来源保护能让爆料更安全，从而有助于披露涉及公共利益的信息。它并不意味着必须公开所有来源姓名。",
+    "questionZhHant": "新聞業中的“消息來源保護（källskydd）”是什麼意思？",
+    "optionsZhHant": [
+      "提供資訊者的身份可以得到保護。",
+      "所有來源都必須具名公開。",
+      "記者永遠不得與政府機關交談。",
+      "只有政府可以向媒體爆料。"
+    ],
+    "explanationZhHant": "消息來源保護能讓爆料更安全，從而有助於披露涉及公共利益的資訊。它並不意味着必須公開所有來源姓名。"
   },
   {
     "id": "draft-ch06-032",
@@ -1456,7 +2224,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Source protection supports scrutiny, but information still needs verification.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "消息来源保护为什么对监督很重要？",
+    "optionsZh": [
+      "人们可以敢于举报问题，而不必担心身份暴露。",
+      "它让记者再也不必核实事实。",
+      "它意味着匿名说法永远为真。",
+      "它让媒体可以未经法院给人定罪。"
+    ],
+    "explanationZh": "消息来源保护支持问责，但信息仍需核实。匿名不等于真实，媒体也不能代替法院裁判。",
+    "questionZhHant": "消息來源保護為什麼對監督很重要？",
+    "optionsZhHant": [
+      "人們可以敢於舉報問題，而不必擔心身份暴露。",
+      "它讓記者再也不必核實事實。",
+      "它意味着匿名說法永遠為真。",
+      "它讓媒體可以未經法院給人定罪。"
+    ],
+    "explanationZhHant": "消息來源保護支持問責，但資訊仍需核實。匿名不等於真實，媒體也不能代替法院裁判。"
   },
   {
     "id": "draft-ch06-033",
@@ -1486,7 +2270,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Source protection can support accountability while journalism still has responsibility for accuracy and fairness.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名雇员匿名向记者透露某政府机关存在严重问题。为什么消息来源保护与此相关？",
+    "optionsZh": [
+      "它可以保护爆料人，并使对问题的监督成为可能。",
+      "它让记者必须不经核查地全部发布。",
+      "它赋予该雇员自行修改机关决定的权利。",
+      "它意味着该机关无权回应批评。"
+    ],
+    "explanationZh": "消息来源保护能在保护爆料人的同时支持问责，但新闻仍对准确性和公正负有责任。机关也有权回应。",
+    "questionZhHant": "一名僱員匿名向記者透露某政府機關存在嚴重問題。為什麼消息來源保護與此相關？",
+    "optionsZhHant": [
+      "它可以保護爆料人，並使對問題的監督成為可能。",
+      "它讓記者必須不經核查地全部發布。",
+      "它賦予該僱員自行修改機關決定的權利。",
+      "它意味着該機關無權回應批評。"
+    ],
+    "explanationZhHant": "消息來源保護能在保護爆料人的同時支持問責，但新聞仍對準確性和公正負有責任。機關也有權回應。"
   },
   {
     "id": "draft-ch06-034",
@@ -1515,7 +2315,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Separating news and opinion helps readers understand the purpose of a text.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "新闻文章与社论/评论文章的区别是什么？",
+    "optionsZh": [
+      "新闻重在告知，而社论和评论表达观点。",
+      "社论总是法院裁决。",
+      "新闻文章绝不可包含事实。",
+      "评论文章算作政府机关决定。"
+    ],
+    "explanationZh": "区分新闻与观点，有助于读者理解文本的目的。社论和评论不是法院判决，也不具行政效力。",
+    "questionZhHant": "新聞文章與社論/評論文章的區別是什麼？",
+    "optionsZhHant": [
+      "新聞重在告知，而社論和評論表達觀點。",
+      "社論總是法院裁決。",
+      "新聞文章絕不可包含事實。",
+      "評論文章算作政府機關決定。"
+    ],
+    "explanationZhHant": "區分新聞與觀點，有助於讀者理解文本的目的。社論和評論不是法院判決，也不具行政效力。"
   },
   {
     "id": "draft-ch06-035",
@@ -1545,7 +2361,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Opinion texts are legitimate, but the reader should know when a text argues rather than reports.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么识别“观点性文字”很重要？",
+    "optionsZh": [
+      "读者由此可以区分报道与论证。",
+      "观点性文字在民主中永远被禁止。",
+      "观点性文字总比新闻更真实。",
+      "读者此后便无需核查来源。"
+    ],
+    "explanationZh": "观点文字本身合法，但读者应知道一篇文字是在论证还是在报道。识别体裁有助于妥善处理信息。",
+    "questionZhHant": "為什麼識別“觀點性文字”很重要？",
+    "optionsZhHant": [
+      "讀者由此可以區分報道與論證。",
+      "觀點性文字在民主中永遠被禁止。",
+      "觀點性文字總比新聞更真實。",
+      "讀者此後便無需核查來源。"
+    ],
+    "explanationZhHant": "觀點文字本身合法，但讀者應知道一篇文字是在論證還是在報道。識別體裁有助於妥善處理資訊。"
   },
   {
     "id": "draft-ch06-036",
@@ -1575,7 +2407,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Style, sources, and labeling help determine whether content is news, opinion, advertising, or propaganda.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一篇文字被当作新闻呈现，却只用语带价值的词汇且缺少来源。读者该怎么做？",
+    "optionsZh": [
+      "保持信息来源批判，核查该文究竟是报道还是观点。",
+      "因其措辞强烈，就认为它更可信。",
+      "在其他媒体回应前快速转发。",
+      "假定所有未署名说法都是政府机关决定。"
+    ],
+    "explanationZh": "文风、来源和标注有助于判断内容是新闻、观点、广告还是宣传。只用语义强烈词汇且无来源，应引起警觉。",
+    "questionZhHant": "一篇文字被當作新聞呈現，卻只用語帶價值的詞彙且缺少來源。讀者該怎麼做？",
+    "optionsZhHant": [
+      "保持資訊來源批判，核查該文究竟是報道還是觀點。",
+      "因其措辭強烈，就認為它更可信。",
+      "在其他媒體回應前快速轉發。",
+      "假定所有未署名說法都是政府機關決定。"
+    ],
+    "explanationZhHant": "文風、來源和標注有助於判斷內容是新聞、觀點、廣告還是宣傳。只用語義強烈詞彙且無來源，應引起警覺。"
   },
   {
     "id": "draft-ch06-037",
@@ -1604,7 +2452,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Advertising tries to influence choices and should not be confused with independent journalism.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是广告（reklam）？",
+    "optionsZh": [
+      "为销售或推广某物而付费的影响行为。",
+      "监督企业的独立新闻业。",
+      "政府机关必须发布的公共信息。",
+      "由私人撰写的评论文章。"
+    ],
+    "explanationZh": "广告旨在影响选择，不应与独立新闻混淆。公共信息或评论文章都不是广告。",
+    "questionZhHant": "什麼是廣告（reklam）？",
+    "optionsZhHant": [
+      "為銷售或推廣某物而付費的影響行為。",
+      "監督企業的獨立新聞業。",
+      "政府機關必須發布的公共資訊。",
+      "由私人撰寫的評論文章。"
+    ],
+    "explanationZhHant": "廣告旨在影響選擇，不應與獨立新聞混淆。公共資訊或評論文章都不是廣告。"
   },
   {
     "id": "draft-ch06-038",
@@ -1634,7 +2498,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Readers need to notice labels and sender so they understand the purpose behind the content.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "赞助内容为什么在信息来源批判上可能棘手？",
+    "optionsZh": [
+      "它可能很像新闻，却带有商业目的。",
+      "它总是被禁止发布。",
+      "它总是比新闻更客观。",
+      "它总是由法院撰写。"
+    ],
+    "explanationZh": "读者需要留意标注和发布者，以理解内容背后的目的。赞助内容可能披着新闻外衣，却意在推销。",
+    "questionZhHant": "讚助內容為什麼在資訊來源批判上可能棘手？",
+    "optionsZhHant": [
+      "它可能很像新聞，卻帶有商業目的。",
+      "它總是被禁止發布。",
+      "它總是比新聞更客觀。",
+      "它總是由法院撰寫。"
+    ],
+    "explanationZhHant": "讀者需要留意標注和發布者，以理解內容背後的目的。讚助內容可能披着新聞外衣，卻意在推銷。"
   },
   {
     "id": "draft-ch06-039",
@@ -1664,7 +2544,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sponsored material can be legitimate, but the reader should understand its purpose.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一篇关于保健品（膳食补充剂）的文章标注为“广告”，却看起来像新闻。最重要的信息来源批判结论是什么？",
+    "optionsZh": [
+      "即便它像新闻，该文仍带有营销目的。",
+      "该文自动成为政府机关的推荐。",
+      "该文一定由法官撰写。",
+      "因为付费，它比研究更可信。"
+    ],
+    "explanationZh": "赞助内容本身可以合法，但读者应认清其目的。标注“广告”说明它是营销，而非独立报道或官方建议。",
+    "questionZhHant": "一篇關於保健品（膳食補充劑）的文章標注為“廣告”，卻看起來像新聞。最重要的資訊來源批判結論是什麼？",
+    "optionsZhHant": [
+      "即便它像新聞，該文仍帶有營銷目的。",
+      "該文自動成為政府機關的推薦。",
+      "該文一定由法官撰寫。",
+      "因為付費，它比研究更可信。"
+    ],
+    "explanationZhHant": "讚助內容本身可以合法，但讀者應認清其目的。標注“廣告”說明它是營銷，而非獨立報道或官方建議。"
   },
   {
     "id": "draft-ch06-040",
@@ -1693,7 +2589,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Media diversity reduces dependence on a single source or viewpoint.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "媒体多元化为什么重要？",
+    "optionsZh": [
+      "多种声音和视角有助于更广泛的社会讨论。",
+      "所有媒体必须归同一所有者。",
+      "只有一种视角才让民主更强。",
+      "多元化意味着无需信息来源批判。"
+    ],
+    "explanationZh": "媒体多元化降低对单一信源或单一观点的依赖。它不取消批判思考的必要性。",
+    "questionZhHant": "媒體多元化為什麼重要？",
+    "optionsZhHant": [
+      "多種聲音和視角有助於更廣泛的社會討論。",
+      "所有媒體必須歸同一所有者。",
+      "只有一種視角才讓民主更強。",
+      "多元化意味着無需資訊來源批判。"
+    ],
+    "explanationZhHant": "媒體多元化降低對單一信源或單一觀點的依賴。它不取消批判思考的必要性。"
   },
   {
     "id": "draft-ch06-041",
@@ -1723,7 +2635,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Ownership does not automatically decide truth, but it is part of understanding context and possible interests.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么了解媒体所有权可能有用？",
+    "optionsZh": [
+      "所有者和资金来源可能影响报道的优先事项和视角。",
+      "所有者总决定法院裁决。",
+      "所有有所有者的媒体都自动虚假。",
+      "媒体所有者总是取代责任出版人。"
+    ],
+    "explanationZh": "所有权不自动决定真假，但它是理解背景和潜在利益的一部分。媒体仍由责任出版人对内容负责。",
+    "questionZhHant": "為什麼了解媒體所有權可能有用？",
+    "optionsZhHant": [
+      "所有者和資金來源可能影響報道的優先事項和視角。",
+      "所有者總決定法院裁決。",
+      "所有有所有者的媒體都自動虛假。",
+      "媒體所有者總是取代責任出版人。"
+    ],
+    "explanationZhHant": "所有權不自動決定真假，但它是理解背景和潛在利益的一部分。媒體仍由責任出版人對內容負責。"
   },
   {
     "id": "draft-ch06-042",
@@ -1753,7 +2681,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Concentrated ownership can affect plurality, especially in local public debate.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在某座城市，几乎全部地方新闻渠道都归同一家公司所有。这会引发什么民主问题？",
+    "optionsZh": [
+      "居民是否能获得足够多元的视角和监督。",
+      "报纸是否失去其针对诽谤的宪法保护。",
+      "记者是否仍受消息来源保护。",
+      "责任出版人是否被公司股东取代。"
+    ],
+    "explanationZh": "所有权集中会影响多元性，尤其在地方公共讨论中。其他几项并非所有权集中直接带来的问题。",
+    "questionZhHant": "在某座城市，幾乎全部地方新聞渠道都歸同一家公司所有。這會引發什麼民主問題？",
+    "optionsZhHant": [
+      "居民是否能獲得足夠多元的視角和監督。",
+      "報紙是否失去其針對誹謗的憲法保護。",
+      "記者是否仍受消息來源保護。",
+      "責任出版人是否被公司股東取代。"
+    ],
+    "explanationZhHant": "所有權集中會影響多元性，尤其在地方公共討論中。其他幾項並非所有權集中直接帶來的問題。"
   },
   {
     "id": "draft-ch06-043",
@@ -1782,7 +2726,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public debate lets people exchange arguments and form opinions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是公共辩论？",
+    "optionsZh": [
+      "社会中不同观点得以交汇的公开对话。",
+      "没有当事人的秘密审判。",
+      "政府机关内部的薪资谈话。",
+      "选后的自动计票。"
+    ],
+    "explanationZh": "公共辩论让民众交换论点、形成意见。它不是秘密审判或内部讨论。",
+    "questionZhHant": "什麼是公共辯論？",
+    "optionsZhHant": [
+      "社會中不同觀點得以交彙的公開對話。",
+      "沒有當事人的祕密審判。",
+      "政府機關內部的薪資談話。",
+      "選後的自動計票。"
+    ],
+    "explanationZhHant": "公共辯論讓民眾交換論點、形成意見。它不是祕密審判或內部討論。"
   },
   {
     "id": "draft-ch06-044",
@@ -1812,7 +2772,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democratic decisions are stronger when people can discuss, criticize, and compare alternatives.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "民主为什么需要公开的辩论？",
+    "optionsZh": [
+      "公民需要能够比较论点并监督权力。",
+      "选举前所有人必须达成一致。",
+      "媒体沉默时法院判得更好。",
+      "只有辩论关闭，政党才能存在。"
+    ],
+    "explanationZh": "当人们能够讨论、批评并比较方案时，民主决策才更稳固。公开辩论不是要消灭分歧。",
+    "questionZhHant": "民主為什麼需要公開的辯論？",
+    "optionsZhHant": [
+      "公民需要能夠比較論點並監督權力。",
+      "選舉前所有人必須達成一致。",
+      "媒體沉默時法院判得更好。",
+      "只有辯論關閉，政黨才能存在。"
+    ],
+    "explanationZhHant": "當人們能夠討論、批評並比較方案時，民主決策才更穩固。公開辯論不是要消滅分歧。"
   },
   {
     "id": "draft-ch06-045",
@@ -1842,7 +2818,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Critical questions help voters evaluate politicians and alternatives.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某政客想在竞选期间禁止媒体提出批评性问题。受到威胁的是哪种民主功能？",
+    "optionsZh": [
+      "在选民做出决定之前的监督与公开辩论。",
+      "行政法院中的公开原则。",
+      "印刷品中诽谤的刑事责任。",
+      "政府任命责任出版人的权利。"
+    ],
+    "explanationZh": "批评性问题帮助选民评估政客和替代方案。禁止媒体提问，损害的是监督与公开辩论这一功能。",
+    "questionZhHant": "某政客想在競選期間禁止媒體提出批評性問題。受到威脅的是哪種民主功能？",
+    "optionsZhHant": [
+      "在選民做出決定之前的監督與公開辯論。",
+      "行政法院中的公開原則。",
+      "印刷品中誹謗的刑事責任。",
+      "政府任命責任出版人的權利。"
+    ],
+    "explanationZhHant": "批評性問題幫助選民評估政客和替代方案。禁止媒體提問，損害的是監督與公開辯論這一功能。"
   },
   {
     "id": "draft-ch06-046",
@@ -1871,7 +2863,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The responsible publisher system is part of Swedish media law and accountability.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是“责任出版人（ansvarig utgivare）”？",
+    "optionsZh": [
+      "对部分媒体的出版承担法律责任的人。",
+      "对市镇预算负责的选民。",
+      "在发布前批准所有文章的法官。",
+      "决定新闻标题的大臣。"
+    ],
+    "explanationZh": "责任出版人制度是瑞典媒体法与问责体系的一部分。责任出版人承担法律责任，而非由选民、法官或大臣担任。",
+    "questionZhHant": "什麼是“責任出版人（ansvarig utgivare）”？",
+    "optionsZhHant": [
+      "對部分媒體的出版承擔法律責任的人。",
+      "對市鎮預算負責的選民。",
+      "在發布前批準所有文章的法官。",
+      "決定新聞標題的大臣。"
+    ],
+    "explanationZhHant": "責任出版人制度是瑞典媒體法與問責體系的一部分。責任出版人承擔法律責任，而非由選民、法官或大臣擔任。"
   },
   {
     "id": "draft-ch06-047",
@@ -1901,7 +2909,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Strong publication freedom is paired with defined responsibility after publication.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么设有责任出版人制度？",
+    "optionsZh": [
+      "为了把出版自由与明确的法律责任联系起来。",
+      "为了让国家能预先审查所有文本。",
+      "为了让所有匿名评论变成政府机关决定。",
+      "为了让媒体所有者逃避一切责任。"
+    ],
+    "explanationZh": "强大的出版自由与明确的出版后责任相配套。责任出版人制度不是事前审查，也非让所有者免责。",
+    "questionZhHant": "為什麼設有責任出版人制度？",
+    "optionsZhHant": [
+      "為了把出版自由與明確的法律責任聯系起來。",
+      "為了讓國家能預先審查所有文本。",
+      "為了讓所有匿名評論變成政府機關決定。",
+      "為了讓媒體所有者逃避一切責任。"
+    ],
+    "explanationZhHant": "強大的出版自由與明確的出版後責任相配套。責任出版人制度不是事前審查，也非讓所有者免責。"
   },
   {
     "id": "draft-ch06-048",
@@ -1931,7 +2955,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The responsible publisher model clarifies accountability without prior censorship.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一份受宪法保护的报纸上的内容涉嫌诽谤。为什么责任出版人相关？",
+    "optionsZh": [
+      "按规则，有特定的人可以对出版承担责任。",
+      "所有看过该文的读者都依法担责。",
+      "政府不经法院就自动判决出版人。",
+      "来源必须总是具名公开。"
+    ],
+    "explanationZh": "责任出版人模式明确了问责对象，且不含事前审查。并非读者担责，也非政府直接处罚。",
+    "questionZhHant": "一份受憲法保護的報紙上的內容涉嫌誹謗。為什麼責任出版人相關？",
+    "optionsZhHant": [
+      "按規則，有特定的人可以對出版承擔責任。",
+      "所有看過該文的讀者都依法擔責。",
+      "政府不經法院就自動判決出版人。",
+      "來源必須總是具名公開。"
+    ],
+    "explanationZhHant": "責任出版人模式明確了問責對象，且不含事前審查。並非讀者擔責，也非政府直接處罰。"
   },
   {
     "id": "draft-ch06-049",
@@ -1960,7 +3000,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Images can be powerful but still require context and verification.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "网上的图片和视频有什么问题？",
+    "optionsZh": [
+      "它们可能被断章取义或遭篡改。",
+      "它们总比文字更真实。",
+      "它们在发布前总由政府部门审查。",
+      "它们绝不会被用作宣传。"
+    ],
+    "explanationZh": "图片和视频很有说服力，但仍需背景和核实。它们可能被移花接木或伪造，并非天然更真实。",
+    "questionZhHant": "網上的圖片和視頻有什麼問題？",
+    "optionsZhHant": [
+      "它們可能被斷章取義或遭篡改。",
+      "它們總比文字更真實。",
+      "它們在發布前總由政府部門審查。",
+      "它們絕不會被用作宣傳。"
+    ],
+    "explanationZhHant": "圖片和視頻很有說服力，但仍需背景和核實。它們可能被移花接木或偽造，並非天然更真實。"
   },
   {
     "id": "draft-ch06-050",
@@ -1990,7 +3046,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Reverse image search, context, and source checking can reveal old or misleading images.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "用信息来源批判的方式审视一张刺激性图片，哪种做法正确？",
+    "optionsZh": [
+      "查找其来源、日期、地点，以及是否被用于其他语境。",
+      "若它引发强烈情绪，就假定为真。",
+      "不带文字转发，让别人自由解读。",
+      "只因清晰就相信它。"
+    ],
+    "explanationZh": "反向图片搜索、核查背景和来源，可以揭示陈旧或被误导的图片。清晰度或情绪都不能证明真实性。",
+    "questionZhHant": "用資訊來源批判的方式審視一張刺激性圖片，哪種做法正確？",
+    "optionsZhHant": [
+      "查找其來源、日期、地點，以及是否被用於其他語境。",
+      "若它引發強烈情緒，就假定為真。",
+      "不帶文字轉發，讓別人自由解讀。",
+      "只因清晰就相信它。"
+    ],
+    "explanationZhHant": "反向圖片搜索、核查背景和來源，可以揭示陳舊或被誤導的圖片。清晰度或情緒都不能證明真實性。"
   },
   {
     "id": "draft-ch06-051",
@@ -2020,7 +3092,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Correct context is essential when images are used as evidence.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一张图片声称展示今天瑞典的一场示威，但同一张图五年前来自另一个国家。这说明了什么？",
+    "optionsZh": [
+      "该图被误导性地使用，不应作为该说法的证据转发。",
+      "因为更旧，图片反而更可信。",
+      "图片定然也来自瑞典。",
+      "在信息来源批判中，日期和地点无关紧要。"
+    ],
+    "explanationZh": "当图片被当作证据时，正确的背景至关重要。同一图早年出自他国，说明此处的使用是误导性的。",
+    "questionZhHant": "一張圖片聲稱展示今天瑞典的一場示威，但同一張圖五年前來自另一個國家。這說明了什麼？",
+    "optionsZhHant": [
+      "該圖被誤導性地使用，不應作為該說法的證據轉發。",
+      "因為更舊，圖片反而更可信。",
+      "圖片定然也來自瑞典。",
+      "在資訊來源批判中，日期和地點無關緊要。"
+    ],
+    "explanationZhHant": "當圖片被當作證據時，正確的背景至關重要。同一圖早年出自他國，說明此處的使用是誤導性的。"
   },
   {
     "id": "draft-ch06-052",
@@ -2049,7 +3137,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Rumors can be true or false, but should not be treated as verified without checking.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是谣言（rykte）？",
+    "optionsZh": [
+      "在未有可靠证实的情况下传播的说法。",
+      "有法律依据的法院裁决。",
+      "来自瑞典国会（Riksdagen）的公开文件。",
+      "有完整方法说明的可靠来源。"
+    ],
+    "explanationZh": "谣言可能真也可能假，但不经核实不应当作已证实的信息。它与司法裁决或公开文件不同。",
+    "questionZhHant": "什麼是謠言（rykte）？",
+    "optionsZhHant": [
+      "在未有可靠證實的情況下傳播的說法。",
+      "有法律依據的法院裁決。",
+      "來自瑞典國會（Riksdagen）的公開文件。",
+      "有完整方法說明的可靠來源。"
+    ],
+    "explanationZhHant": "謠言可能真也可能假，但不經核實不應當作已證實的資訊。它與司法裁決或公開文件不同。"
   },
   {
     "id": "draft-ch06-053",
@@ -2079,7 +3183,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Responsible sharing matters because false claims can spread quickly and cause harm.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么应当谨慎传播谣言？",
+    "optionsZh": [
+      "若属虚假，它们可能伤害他人并误导讨论。",
+      "转发得多就自动成真。",
+      "它们总算作公开文件。",
+      "它们总免于一切责任。"
+    ],
+    "explanationZh": "负责任地分享很重要，因为虚假说法会迅速传播并造成伤害。转发数量不决定真假。",
+    "questionZhHant": "為什麼應當謹慎傳播謠言？",
+    "optionsZhHant": [
+      "若屬虛假，它們可能傷害他人並誤導討論。",
+      "轉發得多就自動成真。",
+      "它們總算作公開文件。",
+      "它們總免於一切責任。"
+    ],
+    "explanationZhHant": "負責任地分享很重要，因為虛假說法會迅速傳播並造成傷害。轉發數量不決定真假。"
   },
   {
     "id": "draft-ch06-054",
@@ -2109,7 +3229,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Serious allegations require careful verification and legal process.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个匿名账号在毫无证据的情况下指控某地政客犯罪。最负责任的做法是？",
+    "optionsZh": [
+      "暂缓转发，并核查是否有可信来源证实该说法。",
+      "因为涉及政客就直接转发指控。",
+      "认为匿名总意味着说法为真。",
+      "要求市镇当天就给政客定罪。"
+    ],
+    "explanationZh": "严重的指控需要仔细核实并走法律程序。匿名不等于真实，市镇也无权给人定罪。",
+    "questionZhHant": "一個匿名帳號在毫無證據的情況下指控某地政客犯罪。最負責任的做法是？",
+    "optionsZhHant": [
+      "暫緩轉發，並核查是否有可信來源證實該說法。",
+      "因為涉及政客就直接轉發指控。",
+      "認為匿名總意味着說法為真。",
+      "要求市鎮當天就給政客定罪。"
+    ],
+    "explanationZhHant": "嚴重的指控需要仔細核實並走法律程序。匿名不等於真實，市鎮也無權給人定罪。"
   },
   {
     "id": "draft-ch06-055",
@@ -2138,7 +3274,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Media and information literacy helps people participate in society and democracy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“媒体与信息素养（medie- och informationskunnighet）”是什么意思？",
+    "optionsZh": [
+      "寻找、理解、评估和使用信息的能力。",
+      "总是毫无疑问地相信政府机关。",
+      "只读某一政党的新闻。",
+      "能在没有选票的情况下投票。"
+    ],
+    "explanationZh": "媒体与信息素养帮助人们参与社会和民主。它不意味着盲信或只听一方。",
+    "questionZhHant": "“媒體與資訊素養（medie- och informationskunnighet）”是什麼意思？",
+    "optionsZhHant": [
+      "尋找、理解、評估和使用資訊的能力。",
+      "總是毫無疑問地相信政府機關。",
+      "只讀某一政黨的新聞。",
+      "能在沒有選票的情況下投票。"
+    ],
+    "explanationZhHant": "媒體與資訊素養幫助人們參與社會和民主。它不意味着盲信或只聽一方。"
   },
   {
     "id": "draft-ch06-056",
@@ -2168,7 +3320,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Citizens need reliable ways to handle information in order to participate meaningfully.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么媒体素养是一项民主技能？",
+    "optionsZh": [
+      "它帮助人们在形成观点和投票前评估信息。",
+      "它让所有人必须选同一政党。",
+      "它取代对自由选举的需要。",
+      "它意味着记者永远无需被监督。"
+    ],
+    "explanationZh": "公民需要可靠的方式来应对信息，才能有效参与。媒体素养支撑知情参与，而非取代选举。",
+    "questionZhHant": "為什麼媒體素養是一項民主技能？",
+    "optionsZhHant": [
+      "它幫助人們在形成觀點和投票前評估資訊。",
+      "它讓所有人必須選同一政黨。",
+      "它取代對自由選舉的需要。",
+      "它意味着記者永遠無需被監督。"
+    ],
+    "explanationZhHant": "公民需要可靠的方式來應對資訊，才能有效參與。媒體素養支撐知情參與，而非取代選舉。"
   },
   {
     "id": "draft-ch06-057",
@@ -2198,7 +3366,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Different information types have different purposes, so comparison and context matter.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名选民从广告、新闻、评论文章和朋友处接收到政治信息。明智的策略是什么？",
+    "optionsZh": [
+      "区分发布者与目的，并比较多个可信来源。",
+      "相信被重复最多的信息。",
+      "只读让选择变容易的内容。",
+      "把所有信息都当作同样中立的新闻。"
+    ],
+    "explanationZh": "不同信息类型目的不同，因此比较和背景分析很重要。重复次数或让人舒服，都不能代替核查。",
+    "questionZhHant": "一名選民從廣告、新聞、評論文章和朋友處接收到政治資訊。明智的策略是什麼？",
+    "optionsZhHant": [
+      "區分發布者與目的，並比較多個可信來源。",
+      "相信被重複最多的資訊。",
+      "只讀讓選擇變容易的內容。",
+      "把所有資訊都當作同樣中立的新聞。"
+    ],
+    "explanationZhHant": "不同資訊類型目的不同，因此比較和背景分析很重要。重複次數或讓人舒服，都不能代替核查。"
   },
   {
     "id": "draft-ch06-058",
@@ -2227,7 +3411,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Press ethics concerns responsible journalism beyond minimum legal rules.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "新闻伦理（pressetik）可能涉及什么？",
+    "optionsZh": [
+      "媒体如何在出版与客观、隐私和公共利益之间权衡。",
+      "政府如何选择允许哪些标题。",
+      "法院如何决定每个新闻角度。",
+      "政党如何审查批评。"
+    ],
+    "explanationZh": "新闻伦理关乎负责任的报道，超越最低法律要求。它不由政府或法院决定，也不允许政党审查。",
+    "questionZhHant": "新聞倫理（pressetik）可能涉及什麼？",
+    "optionsZhHant": [
+      "媒體如何在出版與客觀、隱私和公共利益之間權衡。",
+      "政府如何選擇允許哪些標題。",
+      "法院如何決定每個新聞角度。",
+      "政黨如何審查批評。"
+    ],
+    "explanationZhHant": "新聞倫理關乎負責任的報道，超越最低法律要求。它不由政府或法院決定，也不允許政黨審查。"
   },
   {
     "id": "draft-ch06-059",
@@ -2257,7 +3457,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Responsible journalism weighs public interest against privacy, accuracy, and potential harm.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一家报纸掌握了涉嫌者的姓名，但证据情况不明。最相关的权衡是什么？",
+    "optionsZh": [
+      "公共利益、造成伤害的风险，以及对客观报道的要求。",
+      "只要姓名能带来大量点击，发布就总是对的。",
+      "涉嫌者在判决前没有隐私。",
+      "媒体每次公布姓名前都必须请示政府。"
+    ],
+    "explanationZh": "负责任的报道会权衡公共利益、隐私、准确性和潜在伤害。点击量不能决定对错，涉嫌者也有隐私权，且无需政府批准。",
+    "questionZhHant": "一家報紙掌握了涉嫌者的姓名，但證據情況不明。最相關的權衡是什麼？",
+    "optionsZhHant": [
+      "公共利益、造成傷害的風險，以及對客觀報道的要求。",
+      "只要姓名能帶來大量點擊，發布就總是對的。",
+      "涉嫌者在判決前沒有隱私。",
+      "媒體每次公布姓名前都必須請示政府。"
+    ],
+    "explanationZhHant": "負責任的報道會權衡公共利益、隱私、準確性和潛在傷害。點擊量不能決定對錯，涉嫌者也有隱私權，且無需政府批準。"
   },
   {
     "id": "draft-ch06-060",
@@ -2286,6 +3502,22 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The democratic role of media combines freedom, scrutiny, transparency, source criticism, and responsibility.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪种情形最好地体现了媒体的民主角色？",
+    "optionsZh": [
+      "独立媒体监督一项决定，列明来源，并让相关方回应批评。",
+      "政府为免生讨论而在发布前批准所有文章。",
+      "匿名账号散布谣言，并鼓动选民不经核查就转发。",
+      "某机关为逃避批评而拒绝公开任何文件。"
+    ],
+    "explanationZh": "媒体的民主角色结合了自由、监督、透明、来源批判与责任。选项一所描述的正是这种理想状态，其余各项皆削弱民主。",
+    "questionZhHant": "哪種情形最好地體現了媒體的民主角色？",
+    "optionsZhHant": [
+      "獨立媒體監督一項決定，列明來源，並讓相關方回應批評。",
+      "政府為免生討論而在發布前批準所有文章。",
+      "匿名帳號散布謠言，並鼓動選民不經核查就轉發。",
+      "某機關為逃避批評而拒絕公開任何文件。"
+    ],
+    "explanationZhHant": "媒體的民主角色結合了自由、監督、透明、來源批判與責任。選項一所描述的正是這種理想狀態，其餘各項皆削弱民主。"
   }
 ]

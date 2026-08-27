@@ -10,6 +10,7 @@ import i18n from "./i18n";
 import { analyticsStatus, trackEvent, trackPageView } from "./analytics";
 import { CITIZENSHIP_UPDATE, FAQ_CONTENT, LEGAL_CONTENT } from "./i18n/content";
 import { SUPPORTED_LANGUAGES, UI_TEXT, type UiText } from "./i18n/uiText";
+import { toTraditionalChinese } from "./i18n/locales/zhHantConvert";
 import { loadProgress, recordAnswered, resetProgress } from "./progress";
 import type { Chapter, ExplanationLanguage, Lesson, Progress, Question, Topic, UiLanguage } from "./types";
 import "./styles.css";
@@ -1956,6 +1957,7 @@ function getMobileNavLabels(language: UiLanguage, ui: UiText) {
     sv: { home: "Hem", study: "Studera", practice: "Träna", progress: "Framsteg" },
     en: { home: "Home", study: "Study", practice: "Practice", progress: "Progress" },
     zh: { home: "首页", study: "学习", practice: "练习", progress: "进度" },
+    "zh-Hant": { home: "首頁", study: "學習", practice: "練習", progress: "進度" },
     ar: { home: "الرئيسية", study: "الدراسة", practice: "التدريب", progress: "التقدم" },
     so: { home: "Hore", study: "Baro", practice: "Tababar", progress: "Horumar" },
     fa: { home: "خانه", study: "مطالعه", practice: "تمرین", progress: "پیشرفت" },
@@ -3539,9 +3541,9 @@ function LessonCard({
 }) {
   const lessonIndex = LESSONS.findIndex((item) => item.id === lesson.id);
   const lessonNumber = lessonIndex >= 0 ? lessonIndex + 1 : 1;
-  const lessonTitle = lesson.titles[language] || lesson.titles.en;
-  const studyText = lesson.studyText[language] || lesson.studyText.en;
-  const takeaways = lesson.takeaways[language] || lesson.takeaways.en;
+  const lessonTitle = getLocalizedLessonText(lesson.titles, language);
+  const studyText = getLocalizedLessonText(lesson.studyText, language);
+  const takeaways = getLocalizedLessonText(lesson.takeaways, language);
 
   return (
     <section className="lesson-card" aria-label={ui.studyCardLabel}>
@@ -3594,7 +3596,7 @@ function LessonCard({
           {lesson.vocabulary.map((item) => (
             <div className="vocabulary-item" key={item.sv}>
               <strong lang="sv">{item.sv}</strong>
-              <span>{item.translations[language] || item.translations.en}</span>
+              <span>{getLocalizedLessonText(item.translations, language)}</span>
             </div>
           ))}
         </div>
@@ -3734,7 +3736,26 @@ function getQuestionHelpButtonLabel(questionHelpVisible: boolean, language: UiLa
 }
 
 function getQuestionTranslation(question: Question, language: UiLanguage) {
-  return question.translations?.[language] || QUESTION_TRANSLATIONS[question.id]?.[language] || null;
+  const directTranslation = question.translations?.[language] || QUESTION_TRANSLATIONS[question.id]?.[language];
+
+  if (directTranslation) {
+    return directTranslation;
+  }
+
+  if (language === "zh-Hant") {
+    const simplifiedTranslation = question.translations?.zh || QUESTION_TRANSLATIONS[question.id]?.zh;
+    return simplifiedTranslation ? toTraditionalChinese(simplifiedTranslation) : null;
+  }
+
+  return null;
+}
+
+function getLocalizedLessonText<T extends string | string[]>(
+  translations: Partial<Record<UiLanguage, T>> & { en: T },
+  language: UiLanguage
+): T {
+  const value = translations[language] || (language === "zh-Hant" ? translations.zh : undefined) || translations.en;
+  return language === "zh-Hant" ? toTraditionalChinese(value) : value;
 }
 
 function ResultPanel({
@@ -3766,7 +3787,20 @@ function ResultPanel({
 }
 
 function getExplanation(question: Question, language: ExplanationLanguage, ui: UiText) {
-  return question.explanations[language]?.trim() || question.explanations.en || ui.explanationFallback;
+  const directExplanation = question.explanations[language]?.trim();
+
+  if (directExplanation) {
+    return directExplanation;
+  }
+
+  if (language === "zh-Hant") {
+    const simplifiedExplanation = question.explanations.zh?.trim();
+    if (simplifiedExplanation) {
+      return toTraditionalChinese(simplifiedExplanation);
+    }
+  }
+
+  return question.explanations.en || ui.explanationFallback;
 }
 
 function LanguageSelector({

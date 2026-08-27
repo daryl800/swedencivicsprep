@@ -27,7 +27,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public access supports scrutiny, while legally protected information can be redacted or withheld.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名记者要求查阅市镇某个昂贵建筑项目的材料。市镇称部分个人数据属于保密范围。哪种判断最符合公开原则（政务公开原则）？",
+    "optionsZh": [
+      "市镇通常应公开公共文件，但可以对受保密规定保护的信息进行遮盖处理。",
+      "因为记者可能撰写批评性报道，市镇可以拒绝公开整个案件。",
+      "所有市镇文件始终都是公开的，包括敏感的个人数据。",
+      "公开原则只适用于瑞典国会（Riksdagen），不适用于市镇项目。"
+    ],
+    "explanationZh": "公开原则保障公众和媒体对公共权力的监督，但依法受保护的敏感信息（如某些个人数据）可以遮盖或不予公开。监督与保密之间需要依法取得平衡，不能以保护为由全面封锁。",
+    "questionZhHant": "一名記者要求查閱市鎮某個昂貴建築項目的材料。市鎮稱部分個人數據屬於保密範圍。哪種判斷最符合公開原則（政務公開原則）？",
+    "optionsZhHant": [
+      "市鎮通常應公開公共文件，但可以對受保密規定保護的資訊進行遮蓋處理。",
+      "因為記者可能撰寫批評性報道，市鎮可以拒絕公開整個案件。",
+      "所有市鎮文件始終都是公開的，包括敏感的個人數據。",
+      "公開原則只適用於瑞典國會（Riksdagen），不適用於市鎮項目。"
+    ],
+    "explanationZhHant": "公開原則保障公眾和媒體對公共權力的監督，但依法受保護的敏感資訊（如某些個人數據）可以遮蓋或不予公開。監督與保密之間需要依法取得平衡，不能以保護為由全面封鎖。"
   },
   {
     "id": "draft-batch-a-ch02-002",
@@ -56,7 +72,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Constitutional rights limit all public power, including municipalities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某市镇想推行一条与宪法（基本法）所保护自由相冲突的地方规定。最恰当的判断是什么？",
+    "optionsZh": [
+      "市镇必须遵守宪法（基本法），不能让地方规定凌驾于其上。",
+      "对于地方事务，市镇随时可以对宪法（基本法）作出例外。",
+      "宪法（基本法）只适用于国家层面，不适用于市镇。",
+      "市镇议会（kommunfullmäktige）可以用地方秩序规定取代宪法（基本法）。"
+    ],
+    "explanationZh": "宪法（基本法）所保障的权利与自由约束所有公共权力，包括市镇。地方规定不得违反更高位阶的基本法，宪法至上原则是法治的基础。",
+    "questionZhHant": "某市鎮想推行一條與憲法（基本法）所保護自由相衝突的地方規定。最恰當的判斷是什麼？",
+    "optionsZhHant": [
+      "市鎮必須遵守憲法（基本法），不能讓地方規定凌駕於其上。",
+      "對於地方事務，市鎮隨時可以對憲法（基本法）作出例外。",
+      "憲法（基本法）只適用於國家層面，不適用於市鎮。",
+      "市鎮議會（kommunfullmäktige）可以用地方秩序規定取代憲法（基本法）。"
+    ],
+    "explanationZhHant": "憲法（基本法）所保障的權利與自由約束所有公共權力，包括市鎮。地方規定不得違反更高位階的基本法，憲法至上原則是法治的基礎。"
   },
   {
     "id": "draft-batch-a-ch02-003",
@@ -85,7 +117,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Associations are one way people can organize and influence society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "公民能够成立社团来影响地方事务，这体现了什么？",
+    "optionsZh": [
+      "结社自由以及参与民主的可能性。",
+      "社团可以取代市镇议会（kommunfullmäktige）。",
+      "只有社团成员才有投票权。",
+      "地方事务永远不得通过政治方式决定。"
+    ],
+    "explanationZh": "结社自由是民主参与的重要形式之一。公民通过成立社团、组织起来表达诉求，是民主社会影响公共事务的合法途径，但社团并不取代民选机构的决策权。",
+    "questionZhHant": "公民能夠成立社團來影響地方事務，這體現了什麼？",
+    "optionsZhHant": [
+      "結社自由以及參與民主的可能性。",
+      "社團可以取代市鎮議會（kommunfullmäktige）。",
+      "只有社團成員才有投票權。",
+      "地方事務永遠不得通過政治方式決定。"
+    ],
+    "explanationZhHant": "結社自由是民主參與的重要形式之一。公民通過成立社團、組織起來表達訴求，是民主社會影響公共事務的合法途徑，但社團並不取代民選機構的決策權。"
   },
   {
     "id": "draft-batch-a-ch02-004",
@@ -114,7 +162,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Rule of law requires authorities to act objectively, predictably, and equally in similar cases.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某政府机关（公共机构）在没有客观理由的情况下，对两个类似案件作出了不同处理。这引发了什么民主问题？",
+    "optionsZh": [
+      "法律保障（司法安全）与平等对待遭到削弱。",
+      "政府机关（公共机构）可以自行决定哪些案件应得到相同答复。",
+      "这种差异只是说明瑞典国会（Riksdagen）暗中修改了法律。",
+      "只要双方都得到了答复，答复是否不同无关紧要。"
+    ],
+    "explanationZh": "法治（法律保障）要求政府机关（公共机构）在类似案件中客观、可预期且平等地行事。随意区别对待会损害公众对公共权力的信任，也违背平等原则。",
+    "questionZhHant": "某政府機關（公共機構）在沒有客觀理由的情況下，對兩個類似案件作出了不同處理。這引發了什麼民主問題？",
+    "optionsZhHant": [
+      "法律保障（司法安全）與平等對待遭到削弱。",
+      "政府機關（公共機構）可以自行決定哪些案件應得到相同答複。",
+      "這種差異只是說明瑞典國會（Riksdagen）暗中修改了法律。",
+      "只要雙方都得到了答複，答複是否不同無關緊要。"
+    ],
+    "explanationZhHant": "法治（法律保障）要求政府機關（公共機構）在類似案件中客觀、可預期且平等地行事。隨意區別對待會損害公眾對公共權力的信任，也違背平等原則。"
   },
   {
     "id": "draft-batch-a-ch02-005",
@@ -143,7 +207,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "When fewer people vote, elected bodies may reflect a smaller part of the population.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么低投票率会对民主构成问题？",
+    "optionsZh": [
+      "当选者可能只代表人口中较小的一部分。",
+      "投票率只决定计票需要多长时间。",
+      "选票减少意味着瑞典国会（Riksdagen）自动解散。",
+      "投票率低意味着公民丧失选举权。"
+    ],
+    "explanationZh": "投票率低时，当选机构可能只反映人口中一部分人的意愿，代表性下降。高参与率有助于让决策更贴近全体民众，选举结果也更具合法性。",
+    "questionZhHant": "為什麼低投票率會對民主構成問題？",
+    "optionsZhHant": [
+      "當選者可能只代表人口中較小的一部分。",
+      "投票率只決定計票需要多長時間。",
+      "選票減少意味着瑞典國會（Riksdagen）自動解散。",
+      "投票率低意味着公民喪失選舉權。"
+    ],
+    "explanationZhHant": "投票率低時，當選機構可能只反映人口中一部分人的意願，代表性下降。高參與率有助於讓決策更貼近全體民眾，選舉結果也更具合法性。"
   },
   {
     "id": "draft-batch-a-ch02-006",
@@ -172,7 +252,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democracy includes voting, but also lawful civic engagement between elections.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一群人在两次选举之间征集签名以影响一项市镇事务。这体现了民主参与的什么特点？",
+    "optionsZh": [
+      "人们也可以通过在选举之间采取合法形式的参与来施加影响。",
+      "民主参与只能在选举日当天进行。",
+      "征集签名会自动取代市镇议会（kommunfullmäktige）的决定。",
+      "只有进入瑞典国会（Riksdagen）的政党才能影响市镇事务。"
+    ],
+    "explanationZh": "民主不仅体现在投票上，也体现在两次选举之间以合法方式参与公共事务，如请愿、社团活动、意见征询以及与议员联系等。",
+    "questionZhHant": "一羣人在兩次選舉之間徵集籤名以影響一項市鎮事務。這體現了民主參與的什麼特點？",
+    "optionsZhHant": [
+      "人們也可以通過在選舉之間採取合法形式的參與來施加影響。",
+      "民主參與只能在選舉日當天進行。",
+      "徵集籤名會自動取代市鎮議會（kommunfullmäktige）的決定。",
+      "只有進入瑞典國會（Riksdagen）的政黨才能影響市鎮事務。"
+    ],
+    "explanationZhHant": "民主不僅體現在投票上，也體現在兩次選舉之間以合法方式參與公共事務，如請願、社團活動、意見徵詢以及與議員聯系等。"
   },
   {
     "id": "draft-batch-a-ch02-007",
@@ -201,7 +297,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Elections let voters hold politicians accountable by replacing them.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是“民主问责”的一个例子？",
+    "optionsZh": [
+      "选民可以把不再信任的政客选下台。",
+      "政党相互审查并在不经过选举的情况下内部更换领导人。",
+      "政府机关（公共机构）最终裁定某位政客是否做错。",
+      "媒体决定哪些政客可以继续留任。"
+    ],
+    "explanationZh": "选举让选民能够通过更换不称职或不被信任的代表来追究政治责任，这是代议制民主问责的核心机制。",
+    "questionZhHant": "什麼是“民主問責”的一個例子？",
+    "optionsZhHant": [
+      "選民可以把不再信任的政客選下台。",
+      "政黨相互審查並在不經過選舉的情況下內部更換領導人。",
+      "政府機關（公共機構）最終裁定某位政客是否做錯。",
+      "媒體決定哪些政客可以繼續留任。"
+    ],
+    "explanationZhHant": "選舉讓選民能夠通過更換不稱職或不被信任的代表來追究政治責任，這是代議制民主問責的核心機制。"
   },
   {
     "id": "draft-batch-a-ch02-008",
@@ -230,7 +342,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Independent courts should apply law, not the government’s political programme.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某政客说，法院应当依据政府的施政纲领来判决。这违背了什么？",
+    "optionsZh": [
+      "法院的独立以及“依法裁判”的原则。",
+      "市镇在教育事务上的地方自治。",
+      "政党印制选票的权利。",
+      "瑞典中央银行（Riksbanken）对利率的职责。"
+    ],
+    "explanationZh": "法院应当独立、依据法律而非政府的政治纲领作出裁判。政治干预司法会破坏司法独立这一法治基石。",
+    "questionZhHant": "某政客說，法院應當依據政府的施政綱領來判決。這違背了什麼？",
+    "optionsZhHant": [
+      "法院的獨立以及“依法裁判”的原則。",
+      "市鎮在教育事務上的地方自治。",
+      "政黨印制選票的權利。",
+      "瑞典中央銀行（Riksbanken）對利率的職責。"
+    ],
+    "explanationZhHant": "法院應當獨立、依據法律而非政府的政治綱領作出裁判。政治幹預司法會破壞司法獨立這一法治基石。"
   },
   {
     "id": "draft-batch-a-ch02-009",
@@ -259,7 +387,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A refusal must be based on legal rules, not convenience or politics.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某政府机关（公共机构）拒绝了查阅一份文件的请求。该决定通常应当能够依据什么来接受审查？",
+    "optionsZh": [
+      "是否存在支持保密的法律依据，以及该文件是否应当公开。",
+      "政府机关（公共机构）是否觉得这个问题在政治上棘手。",
+      "申请人是否投票支持“正确的”政党。",
+      "媒体是否已经报道过同一案件。"
+    ],
+    "explanationZh": "拒绝公开必须有法律依据，不能基于便利或政治考量。公开原则要求公共机构依法处理文件查阅请求，且该决定可被审查。",
+    "questionZhHant": "某政府機關（公共機構）拒絕了查閱一份文件的請求。該決定通常應當能夠依據什麼來接受審查？",
+    "optionsZhHant": [
+      "是否存在支持保密的法律依據，以及該文件是否應當公開。",
+      "政府機關（公共機構）是否覺得這個問題在政治上棘手。",
+      "申請人是否投票支持“正確的”政黨。",
+      "媒體是否已經報道過同一案件。"
+    ],
+    "explanationZhHant": "拒絕公開必須有法律依據，不能基於便利或政治考量。公開原則要求公共機構依法處理文件查閱請求，且該決定可被審查。"
   },
   {
     "id": "draft-batch-a-ch02-010",
@@ -288,7 +432,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Transparency is the rule in public administration, with specific legal exceptions for secrecy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某市镇想把全部合同保密以免受批评。最强的反对理由是什么？",
+    "optionsZh": [
+      "公共活动通常应当可以被监督，尽管有时保密可以适用。",
+      "市镇的所有合同必须始终保密。",
+      "选举之间批评市镇是被禁止的。",
+      "保密由每位政客自由决定。"
+    ],
+    "explanationZh": "公共行政以透明为原则，仅在法律明确规定的情形下才允许保密。以规避批评为由全面保密违背公开原则。",
+    "questionZhHant": "某市鎮想把全部合同保密以免受批評。最強的反對理由是什麼？",
+    "optionsZhHant": [
+      "公共活動通常應當可以被監督，盡管有時保密可以適用。",
+      "市鎮的所有合同必須始終保密。",
+      "選舉之間批評市鎮是被禁止的。",
+      "保密由每位政客自由決定。"
+    ],
+    "explanationZhHant": "公共行政以透明為原則，僅在法律明確規定的情形下才允許保密。以規避批評為由全面保密違背公開原則。"
   },
   {
     "id": "draft-batch-a-ch02-011",
@@ -317,7 +477,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Demonstrations are a democratic way to express opinions and influence debate.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一场反对政府决定的和平示威体现了什么？",
+    "optionsZh": [
+      "人们可以运用基本自由来影响社会。",
+      "政府必须在当天自动辞职。",
+      "示威者可以直接制定新法律。",
+      "只有无党派人士才可以持有观点。"
+    ],
+    "explanationZh": "和平示威是公民行使集会自由和言论自由、表达意见并影响公共讨论的民主方式，但它本身并不直接改变法律或政府。",
+    "questionZhHant": "一場反對政府決定的和平示威體現了什麼？",
+    "optionsZhHant": [
+      "人們可以運用基本自由來影響社會。",
+      "政府必須在當天自動辭職。",
+      "示威者可以直接制定新法律。",
+      "只有無黨派人士才可以持有觀點。"
+    ],
+    "explanationZhHant": "和平示威是公民行使集會自由和言論自由、表達意見並影響公共討論的民主方式，但它本身並不直接改變法律或政府。"
   },
   {
     "id": "draft-batch-a-ch02-012",
@@ -346,7 +522,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Constitutional laws are harder to change because they protect fundamental democratic rules.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "当选多数派想在下次选举前迅速修改宪法（基本法）。为什么宪法（基本法）更难修改？",
+    "optionsZh": [
+      "是为了保护民主的“游戏规则”免受仓促的权力决定影响。",
+      "是为了只有政府能在秘密中修改它们。",
+      "是为了法院每年都能修改它们。",
+      "是因为宪法（基本法）在实践中无关紧要。"
+    ],
+    "explanationZh": "宪法（基本法）确立民主的基本规则与权利，修改门槛更高（如需在两届议会任期间隔、并经议会连续通过或辅以公民投票确认），以防掌权者轻易改动游戏规则。",
+    "questionZhHant": "當選多數派想在下次選舉前迅速修改憲法（基本法）。為什麼憲法（基本法）更難修改？",
+    "optionsZhHant": [
+      "是為了保護民主的“遊戲規則”免受倉促的權力決定影響。",
+      "是為了只有政府能在祕密中修改它們。",
+      "是為了法院每年都能修改它們。",
+      "是因為憲法（基本法）在實踐中無關緊要。"
+    ],
+    "explanationZhHant": "憲法（基本法）確立民主的基本規則與權利，修改門檻更高（如需在兩屆議會任期間隔、並經議會連續通過或輔以公民投票確認），以防掌權者輕易改動遊戲規則。"
   },
   {
     "id": "draft-batch-a-ch02-013",
@@ -375,7 +567,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipal representative democracy means elected representatives decide local issues.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典在市镇层面实行代议制民主，这意味着什么？",
+    "optionsZh": [
+      "居民选举产生市镇议会（kommunfullmäktige），由其作出地方决策。",
+      "所有居民就每一份学校餐单直接投票。",
+      "市镇的公务员选择哪些政党可以执政。",
+      "大区（region）每次医疗选择后任命市镇议会（kommunfullmäktige）。"
+    ],
+    "explanationZh": "市镇层面的代议制民主指居民选举代表（市镇议员）来决策地方事务，而非对每件事项都直接投票。",
+    "questionZhHant": "瑞典在市鎮層面實行代議制民主，這意味着什麼？",
+    "optionsZhHant": [
+      "居民選舉產生市鎮議會（kommunfullmäktige），由其作出地方決策。",
+      "所有居民就每一份學校餐單直接投票。",
+      "市鎮的公務員選擇哪些政黨可以執政。",
+      "大區（region）每次醫療選擇後任命市鎮議會（kommunfullmäktige）。"
+    ],
+    "explanationZhHant": "市鎮層面的代議制民主指居民選舉代表（市鎮議員）來決策地方事務，而非對每件事項都直接投票。"
   },
   {
     "id": "draft-batch-a-ch02-014",
@@ -404,7 +612,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Authorities must act objectively and impartially, especially around elections.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某政府机关（公共机构）在选举前只发布对某一政党有利的信息。哪种民主原则受到威胁？",
+    "optionsZh": [
+      "政府机关（公共机构）的客观性与中立性。",
+      "缴纳市镇税的权利。",
+      "法院作出判例的可能性。",
+      "大区（region）对医疗的责任。"
+    ],
+    "explanationZh": "政府机关（公共机构）必须客观、中立，尤其在选举期间不得偏袒任何政党。利用公共资源为特定政党宣传会破坏公共行政的公正。",
+    "questionZhHant": "某政府機關（公共機構）在選舉前只發布對某一政黨有利的資訊。哪種民主原則受到威脅？",
+    "optionsZhHant": [
+      "政府機關（公共機構）的客觀性與中立性。",
+      "繳納市鎮稅的權利。",
+      "法院作出判例的可能性。",
+      "大區（region）對醫療的責任。"
+    ],
+    "explanationZhHant": "政府機關（公共機構）必須客觀、中立，尤其在選舉期間不得偏袒任何政黨。利用公共資源為特定政黨宣傳會破壞公共行政的公正。"
   },
   {
     "id": "draft-batch-a-ch02-015",
@@ -433,7 +657,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "If those in power control all news, citizens lose independent information needed to scrutinize power and make free democratic choices.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "如果国家控制全部新闻报道，为什么这是一个民主问题？",
+    "optionsZh": [
+      "公民更难监督权力，也难以形成独立的看法。",
+      "国家批准后，新闻自动变得更真实。",
+      "国家控制新闻总会提高投票率。",
+      "反对派因此在讨论中获得更多空间。"
+    ],
+    "explanationZh": "当掌权者控制所有新闻，公民就失去独立信息来源，难以监督权力和作出自由民主的选择。新闻多元是民主的必要条件。",
+    "questionZhHant": "如果國家控制全部新聞報道，為什麼這是一個民主問題？",
+    "optionsZhHant": [
+      "公民更難監督權力，也難以形成獨立的看法。",
+      "國家批準後，新聞自動變得更真實。",
+      "國家控制新聞總會提高投票率。",
+      "反對派因此在討論中獲得更多空間。"
+    ],
+    "explanationZhHant": "當掌權者控制所有新聞，公民就失去獨立資訊來源，難以監督權力和作出自由民主的選擇。新聞多元是民主的必要條件。"
   },
   {
     "id": "draft-batch-d-ch02-001",
@@ -463,7 +703,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Rule of law requires objective public administration and limits political interference in individual cases.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某政府机关（公共机构）在一位政客打电话表达对某位个人的不满后，更改了原决定。哪种民主原则受到威胁？",
+    "optionsZh": [
+      "政府机关（公共机构）应当客观，不能在具体个案中受政治干预。",
+      "政客一旦获得很多选票，就随时可以更改政府机关（公共机构）的决定。",
+      "政府机关（公共机构）应优先遵从政党的意愿，而非法律要求。",
+      "具体个案通常应由民意调查来决定。"
+    ],
+    "explanationZh": "法治要求公共行政客观、独立，限制政治力量对个别案件的不当干预。政客不得通过对个案施压来左右行政机关的决定。",
+    "questionZhHant": "某政府機關（公共機構）在一位政客打電話表達對某位個人的不滿後，更改了原決定。哪種民主原則受到威脅？",
+    "optionsZhHant": [
+      "政府機關（公共機構）應當客觀，不能在具體個案中受政治幹預。",
+      "政客一旦獲得很多選票，就隨時可以更改政府機關（公共機構）的決定。",
+      "政府機關（公共機構）應優先遵從政黨的意願，而非法律要求。",
+      "具體個案通常應由民意調查來決定。"
+    ],
+    "explanationZhHant": "法治要求公共行政客觀、獨立，限制政治力量對個別案件的不當幹預。政客不得通過對個案施壓來左右行政機關的決定。"
   },
   {
     "id": "draft-batch-d-ch02-002",
@@ -493,7 +749,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Open criticism helps voters compare alternatives and hold those in power accountable.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么反对派能够公开批评政府很重要？",
+    "optionsZh": [
+      "它为选民提供信息，并使权力可被监督。",
+      "这意味着反对派自动执掌国家。",
+      "这使得政府无需遵守法律。",
+      "这只在选举前一年才被允许。"
+    ],
+    "explanationZh": "公开批评帮助选民比较不同政治方案，并追究当权者的责任。反对派的存在是民主制衡的重要组成部分。",
+    "questionZhHant": "為什麼反對派能夠公開批評政府很重要？",
+    "optionsZhHant": [
+      "它為選民提供資訊，並使權力可被監督。",
+      "這意味着反對派自動執掌國家。",
+      "這使得政府無需遵守法律。",
+      "這只在選舉前一年才被允許。"
+    ],
+    "explanationZhHant": "公開批評幫助選民比較不同政治方案，並追究當權者的責任。反對派的存在是民主制衡的重要組成部分。"
   },
   {
     "id": "draft-batch-d-ch02-003",
@@ -523,7 +795,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democracy is not only majority rule; it also includes rights and protections.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "多数派想限制少数派组织和平集会的权利。为什么这是一个民主问题？",
+    "optionsZh": [
+      "民主也保护少数派的基本自由与权利。",
+      "多数派随时可以剥夺少数派的权利。",
+      "集会自由只适用于执政党。",
+      "少数派每表达一种观点都必须向多数派申请许可。"
+    ],
+    "explanationZh": "民主不仅是多数决，也包括对少数派权利与自由的保护。多数派不能仅凭人数优势剥夺少数派的集会自由等基本权利。",
+    "questionZhHant": "多數派想限制少數派組織和平集會的權利。為什麼這是一個民主問題？",
+    "optionsZhHant": [
+      "民主也保護少數派的基本自由與權利。",
+      "多數派隨時可以剝奪少數派的權利。",
+      "集會自由只適用於執政黨。",
+      "少數派每表達一種觀點都必須向多數派申請許可。"
+    ],
+    "explanationZhHant": "民主不僅是多數決，也包括對少數派權利與自由的保護。多數派不能僅憑人數優勢剝奪少數派的集會自由等基本權利。"
   },
   {
     "id": "draft-ch02-001",
@@ -553,7 +841,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A basic democratic principle is that public power is based on the people, who influence society through elections and other lawful participation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪一项原则是民主的基础？",
+    "optionsZh": [
+      "一切公共权力都来自人民。",
+      "政府机关（公共机构）始终可以不受监督地自行决定。",
+      "由法院来选择哪些政党执政。",
+      "只有专家可以影响政治决定。"
+    ],
+    "explanationZh": "民主的基本原则是公共权力基于人民，人民通过选举及其他合法参与方式影响社会。权力来自人民，并须对人民负责。",
+    "questionZhHant": "哪一項原則是民主的基礎？",
+    "optionsZhHant": [
+      "一切公共權力都來自人民。",
+      "政府機關（公共機構）始終可以不受監督地自行決定。",
+      "由法院來選擇哪些政黨執政。",
+      "只有專家可以影響政治決定。"
+    ],
+    "explanationZhHant": "民主的基本原則是公共權力基於人民，人民通過選舉及其他合法參與方式影響社會。權力來自人民，並須對人民負責。"
   },
   {
     "id": "draft-ch02-002",
@@ -583,7 +887,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Regular elections make political power accountable to voters.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么自由和定期的选举在民主中很重要？",
+    "optionsZh": [
+      "它们让公民有反复的机会去选择并更换政治代表。",
+      "它们迫使同一政党必须不间断地执政。",
+      "它们取代对言论自由和媒体的需求。",
+      "它们意味着由政府机关（公共机构）来决定哪些政党获胜。"
+    ],
+    "explanationZh": "定期选举使政治权力对选民负责，公民可借此定期更换代表，防止权力长期不受制约。",
+    "questionZhHant": "為什麼自由和定期的選舉在民主中很重要？",
+    "optionsZhHant": [
+      "它們讓公民有反複的機會去選擇並更換政治代表。",
+      "它們迫使同一政黨必須不間斷地執政。",
+      "它們取代對言論自由和媒體的需求。",
+      "它們意味着由政府機關（公共機構）來決定哪些政黨獲勝。"
+    ],
+    "explanationZhHant": "定期選舉使政治權力對選民負責，公民可借此定期更換代表，防止權力長期不受制約。"
   },
   {
     "id": "draft-ch02-003",
@@ -613,7 +933,23 @@
     ],
     "correctIndex": 1,
     "explanationEn": "In a democracy, people can influence politics through elections, parties, public debate, contacting representatives, and lawful civic engagement.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位选民对瑞典国会（Riksdagen）的决定不满。以下哪种是影响下一次决定的民主方式？",
+    "optionsZh": [
+      "威胁一位民选政客。",
+      "参与某个政党或联系一位国会议员。",
+      "拒绝遵守所有法律，直到决定被改变。",
+      "要求法院更换政府。"
+    ],
+    "explanationZh": "在民主中，人们可以通过选举、参与政党、公开辩论、联系代表以及合法的社会参与来影响政治。威胁、违法或要求法院干预政府都不属于民主途径。",
+    "questionZhHant": "一位選民對瑞典國會（Riksdagen）的決定不滿。以下哪種是影響下一次決定的民主方式？",
+    "optionsZhHant": [
+      "威脅一位民選政客。",
+      "參與某個政黨或聯系一位國會議員。",
+      "拒絕遵守所有法律，直到決定被改變。",
+      "要求法院更換政府。"
+    ],
+    "explanationZhHant": "在民主中，人們可以通過選舉、參與政黨、公開辯論、聯系代表以及合法的社會參與來影響政治。威脅、違法或要求法院幹預政府都不屬於民主途徑。"
   },
   {
     "id": "draft-ch02-004",
@@ -643,7 +979,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democracy includes majority rule, but also rights, legal limits, minority protection, and accountability.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么说“民主只意味着多数决”这种说法不够充分？",
+    "optionsZh": [
+      "因为少数派的权利和法治国家的规则也必须得到尊重。",
+      "因为多数派永远无权作决定。",
+      "因为法院应始终决定政治。",
+      "因为所有决定都必须一致通过。"
+    ],
+    "explanationZh": "民主包含多数决，但同时也要尊重权利、法律限制、少数派保护以及问责机制。多数决不能凌驾于基本权利与法治之上。",
+    "questionZhHant": "為什麼說“民主只意味着多數決”這種說法不夠充分？",
+    "optionsZhHant": [
+      "因為少數派的權利和法治國家的規則也必須得到尊重。",
+      "因為多數派永遠無權作決定。",
+      "因為法院應始終決定政治。",
+      "因為所有決定都必須一致通過。"
+    ],
+    "explanationZhHant": "民主包含多數決，但同時也要尊重權利、法律限制、少數派保護以及問責機制。多數決不能凌駕於基本權利與法治之上。"
   },
   {
     "id": "draft-ch02-005",
@@ -673,7 +1025,23 @@
     ],
     "correctIndex": 1,
     "explanationEn": "Elected power must still respect democratic rights. Opposition and criticism are normal and necessary parts of democracy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位政客说：“我们赢了选举，因此我们可以限制反对派批评我们的权利。”以下哪项回答最准确？",
+    "optionsZh": [
+      "这很合理，因为胜者可以为所欲为。",
+      "这违背了民主对反对派、言论自由与监督的要求。",
+      "选择反对派是法院的职责。",
+      "这仅适用于政府得票不足一半的情况。"
+    ],
+    "explanationZh": "当选权力仍须尊重民主权利。反对派与批评是民主正常且必要的组成部分，胜选不意味着可以压制异见。",
+    "questionZhHant": "一位政客說：“我們贏了選舉，因此我們可以限制反對派批評我們的權利。”以下哪項回答最準確？",
+    "optionsZhHant": [
+      "這很合理，因為勝者可以為所欲為。",
+      "這違背了民主對反對派、言論自由與監督的要求。",
+      "選擇反對派是法院的職責。",
+      "這僅適用於政府得票不足一半的情況。"
+    ],
+    "explanationZhHant": "當選權力仍須尊重民主權利。反對派與批評是民主正常且必要的組成部分，勝選不意味着可以壓制異見。"
   },
   {
     "id": "draft-ch02-006",
@@ -702,7 +1070,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "In a representative democracy, voters elect representatives who make political decisions on their behalf.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是代议制民主？",
+    "optionsZh": [
+      "公民选举代表来作出决策。",
+      "公民就大多数法律直接通过公民投票（全民公决）表决。",
+      "由政府机关（公共机构）任命政党领导人。",
+      "由国王批准每一项政治决定。"
+    ],
+    "explanationZh": "在代议制民主中，选民选出代表，由其代表选民作出政治决定。瑞典主要实行代议制民主。",
+    "questionZhHant": "什麼是代議制民主？",
+    "optionsZhHant": [
+      "公民選舉代表來作出決策。",
+      "公民就大多數法律直接通過公民投票（全民公決）表決。",
+      "由政府機關（公共機構）任命政黨領導人。",
+      "由國王批準每一項政治決定。"
+    ],
+    "explanationZhHant": "在代議制民主中，選民選出代表，由其代表選民作出政治決定。瑞典主要實行代議制民主。"
   },
   {
     "id": "draft-ch02-007",
@@ -732,7 +1116,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "In direct democracy citizens vote directly on individual issues, for example in referendums. Sweden mainly uses representative democracy, where elected representatives make most decisions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "直接民主与代议制民主的区别是什么？",
+    "optionsZh": [
+      "在直接民主中，人民就具体事项直接投票；在代议制民主中，由当选代表决策。",
+      "在代议制民主中，只有专家可以投票。",
+      "直接民主意味着所有政治决定都由法院作出。",
+      "这两种形式没有区别。"
+    ],
+    "explanationZh": "直接民主中公民就个别议题直接投票（例如公民投票），而瑞典主要采用代议制民主，由当选代表作出大多数决策。",
+    "questionZhHant": "直接民主與代議制民主的區別是什麼？",
+    "optionsZhHant": [
+      "在直接民主中，人民就具體事項直接投票；在代議制民主中，由當選代表決策。",
+      "在代議制民主中，只有專家可以投票。",
+      "直接民主意味着所有政治決定都由法院作出。",
+      "這兩種形式沒有區別。"
+    ],
+    "explanationZhHant": "直接民主中公民就個別議題直接投票（例如公民投票），而瑞典主要採用代議制民主，由當選代表作出大多數決策。"
   },
   {
     "id": "draft-ch02-008",
@@ -762,7 +1162,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Parliamentarism means the government must be able to function with the support or tolerance of parliament.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "议会制（parlamentarism）描述的是政府（Regeringen）与瑞典国会（Riksdagen）之间的什么关系？",
+    "optionsZh": [
+      "政府（Regeringen）需要瑞典国会（Riksdagen）的支持或容忍。",
+      "政府（Regeringen）由法院任命。",
+      "瑞典国会（Riksdagen）必须始终按政府的意愿投票。",
+      "市镇每四年任命首相（statsminister）。"
+    ],
+    "explanationZh": "议会制意味着政府必须能在瑞典国会（Riksdagen）的支持或容忍下运作；若无法获得容忍，政府须辞职或重新组阁。",
+    "questionZhHant": "議會制（parlamentarism）描述的是政府（Regeringen）與瑞典國會（Riksdagen）之間的什麼關系？",
+    "optionsZhHant": [
+      "政府（Regeringen）需要瑞典國會（Riksdagen）的支持或容忍。",
+      "政府（Regeringen）由法院任命。",
+      "瑞典國會（Riksdagen）必須始終按政府的意願投票。",
+      "市鎮每四年任命首相（statsminister）。"
+    ],
+    "explanationZhHant": "議會制意味着政府必須能在瑞典國會（Riksdagen）的支持或容忍下運作；若無法獲得容忍，政府須辭職或重新組閣。"
   },
   {
     "id": "draft-ch02-009",
@@ -792,7 +1208,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The government depends on parliament. This accountability is central to parliamentary democracy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "如果政府（Regeringen）不再被瑞典国会（Riksdagen）所容忍，这体现了瑞典议会制的什么特点？",
+    "optionsZh": [
+      "政府（Regeringen）对瑞典国会（Riksdagen）承担政治责任。",
+      "法院自动接管政府（Regeringen）。",
+      "市镇必须制定一部新宪法（基本法）。",
+      "下一次选举结果将无效。"
+    ],
+    "explanationZh": "政府依赖于议会。当政府失去议会容忍，即表明政府须对议会负责，这是议会制民主问责的核心。",
+    "questionZhHant": "如果政府（Regeringen）不再被瑞典國會（Riksdagen）所容忍，這體現了瑞典議會制的什麼特點？",
+    "optionsZhHant": [
+      "政府（Regeringen）對瑞典國會（Riksdagen）承擔政治責任。",
+      "法院自動接管政府（Regeringen）。",
+      "市鎮必須制定一部新憲法（基本法）。",
+      "下一次選舉結果將無效。"
+    ],
+    "explanationZhHant": "政府依賴於議會。當政府失去議會容忍，即表明政府須對議會負責，這是議會制民主問責的核心。"
   },
   {
     "id": "draft-ch02-010",
@@ -821,7 +1253,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Fundamental laws protect the democratic system and important rights. They are harder to change than ordinary laws.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是宪法（基本法）？",
+    "optionsZh": [
+      "一部具有特殊重要性且更难修改的法律。",
+      "适用于某所学校的地方规定。",
+      "选举前的政党纲领。",
+      "只在一个法院内适用的决定。"
+    ],
+    "explanationZh": "宪法（基本法）保护民主制度与重要权利。瑞典有四部基本法（《政府宪章》《出版自由法》《新闻自由法》《王位继承法》），其修改门槛高于普通法律。",
+    "questionZhHant": "什麼是憲法（基本法）？",
+    "optionsZhHant": [
+      "一部具有特殊重要性且更難修改的法律。",
+      "適用於某所學校的地方規定。",
+      "選舉前的政黨綱領。",
+      "只在一個法院內適用的決定。"
+    ],
+    "explanationZhHant": "憲法（基本法）保護民主制度與重要權利。瑞典有四部基本法（《政府憲章》《出版自由法》《新聞自由法》《王位繼承法》），其修改門檻高於普通法律。"
   },
   {
     "id": "draft-ch02-011",
@@ -851,7 +1299,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Constitutions and fundamental laws create stability and protect democracy from sudden abuse of power.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么宪法（基本法）对民主很重要？",
+    "optionsZh": [
+      "它们保护关于权力、自由与权利的规则，使其不被轻易修改。",
+      "它们让政府（Regeringen）可以直接修改所有规则。",
+      "它们取代对选举的需要。",
+      "它们赋予媒体任命大臣（部长）的权利。"
+    ],
+    "explanationZh": "宪法（基本法）提供制度稳定性，防止民主规则与基本权利因一时掌权者而遭到滥用。",
+    "questionZhHant": "為什麼憲法（基本法）對民主很重要？",
+    "optionsZhHant": [
+      "它們保護關於權力、自由與權利的規則，使其不被輕易修改。",
+      "它們讓政府（Regeringen）可以直接修改所有規則。",
+      "它們取代對選舉的需要。",
+      "它們賦予媒體任命大臣（部長）的權利。"
+    ],
+    "explanationZhHant": "憲法（基本法）提供制度穩定性，防止民主規則與基本權利因一時掌權者而遭到濫用。"
   },
   {
     "id": "draft-ch02-012",
@@ -881,7 +1345,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipal self-government means municipalities have democratic responsibility for many local matters, while still following national law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "以下哪个例子最符合市镇自治（地方自治）？",
+    "optionsZh": [
+      "市镇在法律框架内决定地方事务。",
+      "政府（Regeringen）在没有地方自治的情况下直接管理每个市镇。",
+      "法院每年编写市镇预算。",
+      "大区（region）始终决定市镇的学校事务。"
+    ],
+    "explanationZh": "市镇自治意味着市镇在遵守国家法律的前提下，对本地方诸多事务承担民主责任，自主决策。",
+    "questionZhHant": "以下哪個例子最符合市鎮自治（地方自治）？",
+    "optionsZhHant": [
+      "市鎮在法律框架內決定地方事務。",
+      "政府（Regeringen）在沒有地方自治的情況下直接管理每個市鎮。",
+      "法院每年編寫市鎮預算。",
+      "大區（region）始終決定市鎮的學校事務。"
+    ],
+    "explanationZhHant": "市鎮自治意味着市鎮在遵守國家法律的前提下，對本地方諸多事務承擔民主責任，自主決策。"
   },
   {
     "id": "draft-ch02-013",
@@ -911,7 +1391,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Local democracy gives people influence over matters close to everyday life, such as local services and regional responsibilities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "市镇与大区（region）背后的重要民主理念是什么？",
+    "optionsZh": [
+      "贴近民众的决策通常应能在地方层面被影响。",
+      "地方选举应取代议会选举。",
+      "只有国家层面才能作所有决定。",
+      "市镇可在必要时违反宪法（基本法）。"
+    ],
+    "explanationZh": "地方民主让民众能对贴近日常生活的事务（如地方服务、大区的医疗责任）施加影响，是分权与就近治理的体现。",
+    "questionZhHant": "市鎮與大區（region）背後的重要民主理念是什麼？",
+    "optionsZhHant": [
+      "貼近民眾的決策通常應能在地方層面被影響。",
+      "地方選舉應取代議會選舉。",
+      "只有國家層面才能作所有決定。",
+      "市鎮可在必要時違反憲法（基本法）。"
+    ],
+    "explanationZhHant": "地方民主讓民眾能對貼近日常生活的事務（如地方服務、大區的醫療責任）施加影響，是分權與就近治理的體現。"
   },
   {
     "id": "draft-ch02-014",
@@ -941,7 +1437,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Peaceful demonstrations and criticism of those in power are protected parts of democratic participation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某市镇想禁止一场和平示威，只因它批评市镇领导层。最受影响的民主原则是什么？",
+    "optionsZh": [
+      "集会自由与言论自由。",
+      "市镇征税权。",
+      "无记名投票原则（投票保密）。",
+      "预算平衡。"
+    ],
+    "explanationZh": "批评当权者的和平示威属于民主参与的受保护形式。禁止此类示威侵犯集会自由与言论自由。",
+    "questionZhHant": "某市鎮想禁止一場和平示威，只因它批評市鎮領導層。最受影響的民主原則是什麼？",
+    "optionsZhHant": [
+      "集會自由與言論自由。",
+      "市鎮徵稅權。",
+      "無記名投票原則（投票保密）。",
+      "預算平衡。"
+    ],
+    "explanationZhHant": "批評當權者的和平示威屬於民主參與的受保護形式。禁止此類示威侵犯集會自由與言論自由。"
   },
   {
     "id": "draft-ch02-015",
@@ -970,7 +1482,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Checks and scrutiny are central to democratic trust.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么在民主中需要对权力进行监督？",
+    "optionsZh": [
+      "为了降低权力滥用的风险，并增进对决策的信任。",
+      "为了让任何政府机关（公共机构）都不必遵守法律。",
+      "为了让政府（Regeringen）无需回答问题。",
+      "为了让选民只能通过法院施加影响。"
+    ],
+    "explanationZh": "监督与制衡是民主信任的核心。对权力的检查可减少滥权，并提升决策的合法性。",
+    "questionZhHant": "為什麼在民主中需要對權力進行監督？",
+    "optionsZhHant": [
+      "為了降低權力濫用的風險，並增進對決策的信任。",
+      "為了讓任何政府機關（公共機構）都不必遵守法律。",
+      "為了讓政府（Regeringen）無需回答問題。",
+      "為了讓選民只能通過法院施加影響。"
+    ],
+    "explanationZhHant": "監督與制衡是民主信任的核心。對權力的檢查可減少濫權，並提升決策的合法性。"
   },
   {
     "id": "draft-ch02-016",
@@ -1000,7 +1528,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Reasoned decisions support legal certainty and accountability.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "公共行政中的决定“应当可被说明理由”，这意味着什么？",
+    "optionsZh": [
+      "受影响者应当能够理解决定所依据的规则与理由。",
+      "政府机关（公共机构）可以援引秘密的政治指令。",
+      "省略理由会使决定更民主。",
+      "只有在决定涉及大臣（部长）时才需要说明理由。"
+    ],
+    "explanationZh": "说明理由的决定有助于法律保障与问责，使公民能够判断决定是否合法，并可据此提出上诉。",
+    "questionZhHant": "公共行政中的決定“應當可被說明理由”，這意味着什麼？",
+    "optionsZhHant": [
+      "受影響者應當能夠理解決定所依據的規則與理由。",
+      "政府機關（公共機構）可以援引祕密的政治指令。",
+      "省略理由會使決定更民主。",
+      "只有在決定涉及大臣（部長）時才需要說明理由。"
+    ],
+    "explanationZhHant": "說明理由的決定有助於法律保障與問責，使公民能夠判斷決定是否合法，並可據此提出上訴。"
   },
   {
     "id": "draft-ch02-017",
@@ -1030,7 +1574,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Legal certainty includes the right to appeal decisions and to complain to independent oversight bodies such as the Parliamentary Ombudsman (JO), rather than using bribes or political pressure.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某人认为某政府机关（公共机构）错误处理了其案件。哪种方式具有法律保障（司法安全）？",
+    "optionsZh": [
+      "对决定提出上诉，或向议会监察专员（JO）这类监督机构投诉。",
+      "向办案人员赠送礼物以换取新决定。",
+      "请求某政党直接更改决定。",
+      "散布关于办案人员的谣言，直到决定被更改。"
+    ],
+    "explanationZh": "法律保障包括对决定提出上诉、向独立的监督机构（如议会监察专员 JO）投诉的权利，而非使用贿赂或政治施压。",
+    "questionZhHant": "某人認為某政府機關（公共機構）錯誤處理了其案件。哪種方式具有法律保障（司法安全）？",
+    "optionsZhHant": [
+      "對決定提出上訴，或向議會監察專員（JO）這類監督機構投訴。",
+      "向辦案人員贈送禮物以換取新決定。",
+      "請求某政黨直接更改決定。",
+      "散布關於辦案人員的謠言，直到決定被更改。"
+    ],
+    "explanationZhHant": "法律保障包括對決定提出上訴、向獨立的監督機構（如議會監察專員 JO）投訴的權利，而非使用賄賂或政治施壓。"
   },
   {
     "id": "draft-ch02-018",
@@ -1060,7 +1620,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public authorities must act according to law, objectivity, and equal treatment.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "民主中对政府机关（公共机构）有什么要求？",
+    "optionsZh": [
+      "它们应当客观，并平等对待类似案件。",
+      "它们应始终帮助最大政党。",
+      "它们应向公民隐瞒所有决定。",
+      "它们应优先遵从私人企业的意愿而非法律。"
+    ],
+    "explanationZh": "政府机关（公共机构）必须依法、客观、平等地行事，不受政党或私人利益左右。",
+    "questionZhHant": "民主中對政府機關（公共機構）有什麼要求？",
+    "optionsZhHant": [
+      "它們應當客觀，並平等對待類似案件。",
+      "它們應始終幫助最大政黨。",
+      "它們應向公民隱瞞所有決定。",
+      "它們應優先遵從私人企業的意願而非法律。"
+    ],
+    "explanationZhHant": "政府機關（公共機構）必須依法、客觀、平等地行事，不受政黨或私人利益左右。"
   },
   {
     "id": "draft-ch02-019",
@@ -1090,7 +1666,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Authorities must not favor people because of political opinion. Equal treatment is central to trust in democracy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位办案人员对支持同一政党的人给予更快的服务。这主要违反了哪项民主原则？",
+    "optionsZh": [
+      "公共行政中的客观性与平等对待。",
+      "全国大选中的无记名投票原则（投票保密）。",
+      "瑞典国会（Riksdagen）的预算权。",
+      "媒体发布新闻的权利。"
+    ],
+    "explanationZh": "政府机关（公共机构）不得因政治立场偏袒任何人。平等对待是公众对民主信任的核心。",
+    "questionZhHant": "一位辦案人員對支持同一政黨的人給予更快的服務。這主要違反了哪項民主原則？",
+    "optionsZhHant": [
+      "公共行政中的客觀性與平等對待。",
+      "全國大選中的無記名投票原則（投票保密）。",
+      "瑞典國會（Riksdagen）的預算權。",
+      "媒體發布新聞的權利。"
+    ],
+    "explanationZhHant": "政府機關（公共機構）不得因政治立場偏袒任何人。平等對待是公眾對民主信任的核心。"
   },
   {
     "id": "draft-ch02-020",
@@ -1120,7 +1712,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Voting is one of the most important ways citizens influence democratic decisions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "公民影响政治的一种常见方式是什么？",
+    "optionsZh": [
+      "在选举中投票。",
+      "由法院任命选民。",
+      "由政府机关（公共机构）禁止讨论。",
+      "只有政府（Regeringen）可以阅读新闻。"
+    ],
+    "explanationZh": "投票是公民影响民主决策最重要的方式之一，但民主参与还包括更多合法形式。",
+    "questionZhHant": "公民影響政治的一種常見方式是什麼？",
+    "optionsZhHant": [
+      "在選舉中投票。",
+      "由法院任命選民。",
+      "由政府機關（公共機構）禁止討論。",
+      "只有政府（Regeringen）可以閱讀新聞。"
+    ],
+    "explanationZhHant": "投票是公民影響民主決策最重要的方式之一，但民主參與還包括更多合法形式。"
   },
   {
     "id": "draft-ch02-021",
@@ -1150,7 +1758,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Parties organize political alternatives and allow voters to choose representatives and policies.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "政党在民主中扮演什么角色？",
+    "optionsZh": [
+      "它们汇集理念与候选人，使选民可以选择政治方向。",
+      "它们取代法院的工作。",
+      "它们决定每位选民必须如何投票。",
+      "它们在出版前控制所有报纸。"
+    ],
+    "explanationZh": "政党组织政治备选方案，让选民选择代表与政策，是代议制民主运转的重要环节。",
+    "questionZhHant": "政黨在民主中扮演什麼角色？",
+    "optionsZhHant": [
+      "它們彙集理念與候選人，使選民可以選擇政治方向。",
+      "它們取代法院的工作。",
+      "它們決定每位選民必須如何投票。",
+      "它們在出版前控制所有報紙。"
+    ],
+    "explanationZhHant": "政黨組織政治備選方案，讓選民選擇代表與政策，是代議制民主運轉的重要環節。"
   },
   {
     "id": "draft-ch02-022",
@@ -1180,7 +1804,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Opposition helps voters compare alternatives and holds those in power accountable.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么反对派在民主中很重要？",
+    "optionsZh": [
+      "它可以监督权力并提供政治替代方案。",
+      "它应不加区分地阻止所有决定。",
+      "它应由政府（Regeringen）控制。",
+      "它取代自由媒体。"
+    ],
+    "explanationZh": "反对派帮助选民比较不同方案，并追究当权者的责任，是民主制衡的一部分。",
+    "questionZhHant": "為什麼反對派在民主中很重要？",
+    "optionsZhHant": [
+      "它可以監督權力並提供政治替代方案。",
+      "它應不加區分地阻止所有決定。",
+      "它應由政府（Regeringen）控制。",
+      "它取代自由媒體。"
+    ],
+    "explanationZhHant": "反對派幫助選民比較不同方案，並追究當權者的責任，是民主制衡的一部分。"
   },
   {
     "id": "draft-ch02-023",
@@ -1210,7 +1850,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democracy needs debate and scrutiny. Silencing opposition weakens accountability.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "多数派想修改议事规则，使反对派在瑞典国会（Riksdagen）中几乎无法发言。最大的民主风险是什么？",
+    "optionsZh": [
+      "监督与政治辩论被削弱。",
+      "无记名投票原则（投票保密）变得过强。",
+      "市镇获得过多自治权。",
+      "法院变得更加独立。"
+    ],
+    "explanationZh": "民主需要辩论与监督。让反对派噤声会削弱问责，破坏议会内的制衡。",
+    "questionZhHant": "多數派想修改議事規則，使反對派在瑞典國會（Riksdagen）中幾乎無法發言。最大的民主風險是什麼？",
+    "optionsZhHant": [
+      "監督與政治辯論被削弱。",
+      "無記名投票原則（投票保密）變得過強。",
+      "市鎮獲得過多自治權。",
+      "法院變得更加獨立。"
+    ],
+    "explanationZhHant": "民主需要辯論與監督。讓反對派噤聲會削弱問責，破壞議會內的制衡。"
   },
   {
     "id": "draft-ch02-024",
@@ -1239,7 +1895,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom of expression is broad, but it exists within legal limits such as rules against threats and certain hate crimes.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "言论自由意味着什么？",
+    "optionsZh": [
+      "在法律框架内表达意见的权利。",
+      "永远免受批评的权利。",
+      "强迫他人同意的权利。",
+      "毫无后果地威胁他人的权利。"
+    ],
+    "explanationZh": "言论自由范围广泛，但存在于法律界限之内，例如禁止威胁和某些仇恨犯罪的相关规则。",
+    "questionZhHant": "言論自由意味着什麼？",
+    "optionsZhHant": [
+      "在法律框架內表達意見的權利。",
+      "永遠免受批評的權利。",
+      "強迫他人同意的權利。",
+      "毫無後果地威脅他人的權利。"
+    ],
+    "explanationZhHant": "言論自由範圍廣泛，但存在於法律界限之內，例如禁止威脅和某些仇恨犯罪的相關規則。"
   },
   {
     "id": "draft-ch02-025",
@@ -1269,7 +1941,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democratic rights can have legal limits. Freedom of expression does not protect illegal threats or similar crimes.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "以下哪项陈述最能说明言论自由的边界？",
+    "optionsZh": [
+      "自由虽强，但不意味着有权利实施犯罪。",
+      "自由只适用于记者。",
+      "自由只适用于国家喜欢的看法。",
+      "自由意味着所有人都能在任意报纸上发表。"
+    ],
+    "explanationZh": "民主权利可以有法律限制。言论自由不保护非法威胁或类似的犯罪行为。",
+    "questionZhHant": "以下哪項陳述最能說明言論自由的邊界？",
+    "optionsZhHant": [
+      "自由雖強，但不意味着有權利實施犯罪。",
+      "自由只適用於記者。",
+      "自由只適用於國家喜歡的看法。",
+      "自由意味着所有人都能在任意報紙上發表。"
+    ],
+    "explanationZhHant": "民主權利可以有法律限制。言論自由不保護非法威脅或類似的犯罪行為。"
   },
   {
     "id": "draft-ch02-026",
@@ -1299,7 +1987,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom of assembly protects peaceful gatherings and demonstrations, which are important democratic tools.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "以下哪个例子体现了集会自由？",
+    "optionsZh": [
+      "人们和平聚集以讨论或示威。",
+      "政府机关（公共机构）决定哪些观点可以被允许。",
+      "雇主可以查看雇员如何投票。",
+      "法院撰写某政党的竞选纲领。"
+    ],
+    "explanationZh": "集会自由保护和平的聚集与示威，是民主的重要工具。",
+    "questionZhHant": "以下哪個例子體現了集會自由？",
+    "optionsZhHant": [
+      "人們和平聚集以討論或示威。",
+      "政府機關（公共機構）決定哪些觀點可以被允許。",
+      "僱主可以查看僱員如何投票。",
+      "法院撰寫某政黨的競選綱領。"
+    ],
+    "explanationZhHant": "集會自由保護和平的聚集與示威，是民主的重要工具。"
   },
   {
     "id": "draft-ch02-027",
@@ -1329,7 +2033,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Associations, unions, parties, and civil society groups are important ways for people to participate.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "结社自由意味着什么？",
+    "optionsZh": [
+      "人们可以成立并加入社团。",
+      "国家必须批准所有私人谈话。",
+      "只有政党可以组织聚会。",
+      "所有人必须加入同一组织。"
+    ],
+    "explanationZh": "社团、工会、政党及公民社会组织是人们参与公共事务的重要方式，结社自由保障其存在。",
+    "questionZhHant": "結社自由意味着什麼？",
+    "optionsZhHant": [
+      "人們可以成立並加入社團。",
+      "國家必須批準所有私人談話。",
+      "只有政黨可以組織聚會。",
+      "所有人必須加入同一組織。"
+    ],
+    "explanationZhHant": "社團、工會、政黨及公民社會組織是人們參與公共事務的重要方式，結社自由保障其存在。"
   },
   {
     "id": "draft-ch02-028",
@@ -1359,7 +2079,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Creating an association to express views and influence debate is protected democratic participation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某人想成立一个批评市镇决定的社团。这主要受到哪项民主权利保护？",
+    "optionsZh": [
+      "结社自由与言论自由。",
+      "在市镇获得工作的权利。",
+      "在市镇表决中永远获胜的权利。",
+      "免于遵守市镇合法决定的权利。"
+    ],
+    "explanationZh": "成立社团以表达观点、影响讨论，属于受保护的民主参与，受结社自由与言论自由共同保障。",
+    "questionZhHant": "某人想成立一個批評市鎮決定的社團。這主要受到哪項民主權利保護？",
+    "optionsZhHant": [
+      "結社自由與言論自由。",
+      "在市鎮獲得工作的權利。",
+      "在市鎮表決中永遠獲勝的權利。",
+      "免於遵守市鎮合法決定的權利。"
+    ],
+    "explanationZhHant": "成立社團以表達觀點、影響討論，屬於受保護的民主參與，受結社自由與言論自由共同保障。"
   },
   {
     "id": "draft-ch02-029",
@@ -1388,7 +2124,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Plural information sources help citizens evaluate claims critically.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么公民能够从多个不同来源获取信息很重要？",
+    "optionsZh": [
+      "这便于比较各种说法并形成自己的看法。",
+      "这意味着所有来源始终同样可信。",
+      "这让国家可以选择唯一被允许的新闻来源。",
+      "这取代对教育与辩论的需要。"
+    ],
+    "explanationZh": "多元信息来源帮助公民批判性地评估各种说法，是独立判断的前提。",
+    "questionZhHant": "為什麼公民能夠從多個不同來源獲取資訊很重要？",
+    "optionsZhHant": [
+      "這便於比較各種說法並形成自己的看法。",
+      "這意味着所有來源始終同樣可信。",
+      "這讓國家可以選擇唯一被允許的新聞來源。",
+      "這取代對教育與辯論的需要。"
+    ],
+    "explanationZhHant": "多元資訊來源幫助公民批判性地評估各種說法，是獨立判斷的前提。"
   },
   {
     "id": "draft-ch02-030",
@@ -1418,7 +2170,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom of the press does not mean that accuracy is unimportant. Credible media work with sources and responsibility.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某人说：“自由媒体意味着新闻永远不需要被核查。”以下哪项回答最恰当？",
+    "optionsZh": [
+      "自由媒体享有自由，但也有维护可信度与事实核查的责任。",
+      "说得对，事实在自由媒体中无关紧要。",
+      "自由媒体只能使用政府机关（公共机构）的文本。",
+      "自由媒体应避免一切对权力的监督。"
+    ],
+    "explanationZh": "新闻自由不意味着准确无关紧要。可信的媒体会以消息来源与责任为准则运作。",
+    "questionZhHant": "某人說：“自由媒體意味着新聞永遠不需要被核查。”以下哪項回答最恰當？",
+    "optionsZhHant": [
+      "自由媒體享有自由，但也有維護可信度與事實核查的責任。",
+      "說得對，事實在自由媒體中無關緊要。",
+      "自由媒體只能使用政府機關（公共機構）的文本。",
+      "自由媒體應避免一切對權力的監督。"
+    ],
+    "explanationZhHant": "新聞自由不意味着準確無關緊要。可信的媒體會以消息來源與責任為準則運作。"
   },
   {
     "id": "draft-ch02-031",
@@ -1448,7 +2216,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Investigative journalism can reveal misuse of power, but claims still need fair handling and legal process.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一家地方报纸揭露某市镇主管可能滥用税款。为什么这在民主上很重要？",
+    "optionsZh": [
+      "它帮助公民监督公共权力如何被使用。",
+      "这表明媒体应当管理市镇。",
+      "这使得法院不再需要。",
+      "这意味着所有指控永远都是真实的。"
+    ],
+    "explanationZh": "调查性报道能揭露权力滥用，但相关指控仍须经过公正处理与法律程序。",
+    "questionZhHant": "一家地方報紙揭露某市鎮主管可能濫用稅款。為什麼這在民主上很重要？",
+    "optionsZhHant": [
+      "它幫助公民監督公共權力如何被使用。",
+      "這表明媒體應當管理市鎮。",
+      "這使得法院不再需要。",
+      "這意味着所有指控永遠都是真實的。"
+    ],
+    "explanationZhHant": "調查性報道能揭露權力濫用，但相關指控仍須經過公正處理與法律程序。"
   },
   {
     "id": "draft-ch02-032",
@@ -1477,7 +2261,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Source criticism means evaluating sources, purpose, evidence, and reliability.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是“来源批判”（信息甄别）？",
+    "optionsZh": [
+      "核查信息背后的发布者以及其是否可信。",
+      "相信所有被多次分享的内容。",
+      "只读标题。",
+      "回避所有新闻。"
+    ],
+    "explanationZh": "来源批判意味着评估消息来源、目的、证据与可靠性。在民主中，它能帮助人们避免被操纵和虚假信息误导。",
+    "questionZhHant": "什麼是“來源批判”（資訊甄別）？",
+    "optionsZhHant": [
+      "核查資訊背後的發布者以及其是否可信。",
+      "相信所有被多次分享的內容。",
+      "只讀標題。",
+      "回避所有新聞。"
+    ],
+    "explanationZhHant": "來源批判意味着評估消息來源、目的、證據與可靠性。在民主中，它能幫助人們避免被操縱和虛假資訊誤導。"
   },
   {
     "id": "draft-ch02-033",
@@ -1507,7 +2307,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "In democratic debate, source criticism helps people avoid manipulation and disinformation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "你在社交媒体上看到一条关于选举的惊人说法。具有来源批判意识的第一步是什么？",
+    "optionsZh": [
+      "核查发布者，并与多个可信来源进行比较。",
+      "趁别人还没看到，立刻转发。",
+      "若很多人愤怒，就假定它是真的。",
+      "只有当内容符合自己观点时才相信。"
+    ],
+    "explanationZh": "在民主讨论中，来源批判帮助人们避免操纵与虚假信息。先核实来源、交叉比对，是负责任的做法。",
+    "questionZhHant": "你在社交媒體上看到一條關於選舉的驚人說法。具有來源批判意識的第一步是什麼？",
+    "optionsZhHant": [
+      "核查發布者，並與多個可信來源進行比較。",
+      "趁別人還沒看到，立刻轉發。",
+      "若很多人憤怒，就假定它是真的。",
+      "只有當內容符合自己觀點時才相信。"
+    ],
+    "explanationZhHant": "在民主討論中，來源批判幫助人們避免操縱與虛假資訊。先核實來源、交叉比對，是負責任的做法。"
   },
   {
     "id": "draft-ch02-034",
@@ -1537,7 +2353,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Knowing who is behind a message is part of critical democratic judgment.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某组织试图影响舆论，却不公开谁为这场宣传付费。为什么公开发布者身份很重要？",
+    "optionsZh": [
+      "选民能更好地判断信息背后的利益与可信度。",
+      "秘密发布者会自动让信息更客观。",
+      "只有政府机关（公共机构）才有权知道谁付费。",
+      "发布者在政治传播中永远无关紧要。"
+    ],
+    "explanationZh": "了解信息背后的主体，是公民作出批判性民主判断的一部分。隐藏资助方会削弱公众判断力。",
+    "questionZhHant": "某組織試圖影響輿論，卻不公開誰為這場宣傳付費。為什麼公開發布者身份很重要？",
+    "optionsZhHant": [
+      "選民能更好地判斷資訊背後的利益與可信度。",
+      "祕密發布者會自動讓資訊更客觀。",
+      "只有政府機關（公共機構）才有權知道誰付費。",
+      "發布者在政治傳播中永遠無關緊要。"
+    ],
+    "explanationZhHant": "了解資訊背後的主體，是公民作出批判性民主判斷的一部分。隱藏資助方會削弱公眾判斷力。"
   },
   {
     "id": "draft-ch02-035",
@@ -1567,7 +2399,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public access supports transparency and makes it easier to scrutinize public power.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "公开原则（政务公开原则）的民主意义是什么？",
+    "optionsZh": [
+      "公民和媒体能够了解公共活动的内部情况。",
+      "政府机关（公共机构）可以保密所有决定。",
+      "私人企业必须公开所有商业秘密。",
+      "瑞典国会（Riksdagen）无需被监督。"
+    ],
+    "explanationZh": "公开原则保障透明，使公众更容易监督公共权力。",
+    "questionZhHant": "公開原則（政務公開原則）的民主意義是什麼？",
+    "optionsZhHant": [
+      "公民和媒體能夠了解公共活動的內部情況。",
+      "政府機關（公共機構）可以保密所有決定。",
+      "私人企業必須公開所有商業祕密。",
+      "瑞典國會（Riksdagen）無需被監督。"
+    ],
+    "explanationZhHant": "公開原則保障透明，使公眾更容易監督公共權力。"
   },
   {
     "id": "draft-ch02-036",
@@ -1597,7 +2445,15 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Transparency allows the public and media to check whether power is used correctly.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名记者向某政府机关（公共机构）申请文件以监督一项决定。这主要涉及哪种民主功能？",
+    "optionsZh": [
+      "监督与问责。",
+      "记者接管政府机关（公共机构）的决定。",
+      "政府机关（公共机构）无需再说明理由。",
+      "无记名投票原则（投票保密）被削弱。"
+    ],
+    "explanationZh": "透明使公众与媒体能够核查权力是否被正确使用，这正是公开原则与问责的体现。"
   },
   {
     "id": "draft-ch02-037",
@@ -1627,7 +2483,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Taxes and public spending affect everyone, so democratic decision-making and accountability matter.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么由民选政客来决定税收与公共支出？",
+    "optionsZh": [
+      "因为共用资源的使用应当具有民主合法性。",
+      "以便税收可在无公共核算的情况下使用。",
+      "以便政府机关（公共机构）可自行决定新税。",
+      "以便媒体无需监督国家。"
+    ],
+    "explanationZh": "税收与公共支出影响所有人，因此须经民主决策与问责，使用须公开可查。",
+    "questionZhHant": "為什麼由民選政客來決定稅收與公共支出？",
+    "optionsZhHant": [
+      "因為共用資源的使用應當具有民主合法性。",
+      "以便稅收可在無公共核算的情況下使用。",
+      "以便政府機關（公共機構）可自行決定新稅。",
+      "以便媒體無需監督國家。"
+    ],
+    "explanationZhHant": "稅收與公共支出影響所有人，因此須經民主決策與問責，使用須公開可查。"
   },
   {
     "id": "draft-ch02-038",
@@ -1657,7 +2529,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Elections allow voters to reward, replace, or pressure elected representatives.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "选举如何让政客对公民负责？",
+    "optionsZh": [
+      "选民可以支持或淘汰政党与候选人。",
+      "选民必须一生投票给同一政党。",
+      "政客若愿意，可以无视选举结果。",
+      "法院按政治立场计票。"
+    ],
+    "explanationZh": "选举让选民奖励、更换或施压于当选代表，是实现政治问责的途径。",
+    "questionZhHant": "選舉如何讓政客對公民負責？",
+    "optionsZhHant": [
+      "選民可以支持或淘汰政黨與候選人。",
+      "選民必須一生投票給同一政黨。",
+      "政客若願意，可以無視選舉結果。",
+      "法院按政治立場計票。"
+    ],
+    "explanationZhHant": "選舉讓選民獎勵、更換或施壓於當選代表，是實現政治問責的途徑。"
   },
   {
     "id": "draft-ch02-039",
@@ -1687,7 +2575,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "When no single party controls everything, negotiation and compromise can be part of democratic decision-making.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在议会制民主中，为什么妥协可能是必要的？",
+    "optionsZh": [
+      "因为多个政党常需合作才能获得对决定的支持。",
+      "因为所有政党必须有完全相同的看法。",
+      "因为反对派不得存在。",
+      "因为法院要求所有预算一致通过。"
+    ],
+    "explanationZh": "当没有任何单一政党掌控全部权力时，谈判与妥协是民主决策的一部分。",
+    "questionZhHant": "在議會制民主中，為什麼妥協可能是必要的？",
+    "optionsZhHant": [
+      "因為多個政黨常需合作才能獲得對決定的支持。",
+      "因為所有政黨必須有完全相同的看法。",
+      "因為反對派不得存在。",
+      "因為法院要求所有預算一致通過。"
+    ],
+    "explanationZhHant": "當沒有任何單一政黨掌控全部權力時，談判與妥協是民主決策的一部分。"
   },
   {
     "id": "draft-ch02-040",
@@ -1716,7 +2620,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Pluralism means democratic society allows different views and organized interests.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是政治多元主义？",
+    "optionsZh": [
+      "多种观点、政党与利益可以并存并相互竞争。",
+      "只有一种政治理念可以被表达。",
+      "所有媒体必须有相同标题。",
+      "选民不得改变看法。"
+    ],
+    "explanationZh": "多元主义意味着民主社会允许不同观点和有组织的利益并存。",
+    "questionZhHant": "什麼是政治多元主義？",
+    "optionsZhHant": [
+      "多種觀點、政黨與利益可以並存並相互競爭。",
+      "只有一種政治理念可以被表達。",
+      "所有媒體必須有相同標題。",
+      "選民不得改變看法。"
+    ],
+    "explanationZhHant": "多元主義意味着民主社會允許不同觀點和有組織的利益並存。"
   },
   {
     "id": "draft-ch02-041",
@@ -1745,7 +2665,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Equal human value is connected to human rights, non-discrimination, and democratic equality.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪种理念最符合“人人价值平等”？",
+    "optionsZh": [
+      "权利不应取决于性别、宗教或出身等因素。",
+      "某些群体应始终拥有更多选票。",
+      "只计算多数派的权利。",
+      "国家可以任意对待人民。"
+    ],
+    "explanationZh": "人的平等价值与人权、反歧视及民主平等相关。",
+    "questionZhHant": "哪種理念最符合“人人價值平等”？",
+    "optionsZhHant": [
+      "權利不應取決於性別、宗教或出身等因素。",
+      "某些羣體應始終擁有更多選票。",
+      "只計算多數派的權利。",
+      "國家可以任意對待人民。"
+    ],
+    "explanationZhHant": "人的平等價值與人權、反歧視及民主平等相關。"
   },
   {
     "id": "draft-ch02-042",
@@ -1775,7 +2711,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Human rights protect individuals and minorities and prevent democratic power from becoming arbitrary.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "人权与民主有何联系？",
+    "optionsZh": [
+      "它们约束权力，并在多数派另有意愿时仍保护个人。",
+      "它们使选举变得不必要。",
+      "它们只适用于为国家工作的人。",
+      "它们随时可被市镇多数派废除。"
+    ],
+    "explanationZh": "人权保护个人与少数派，防止民主权力沦为专断。",
+    "questionZhHant": "人權與民主有何聯系？",
+    "optionsZhHant": [
+      "它們約束權力，並在多數派另有意願時仍保護個人。",
+      "它們使選舉變得不必要。",
+      "它們只適用於為國家工作的人。",
+      "它們隨時可被市鎮多數派廢除。"
+    ],
+    "explanationZhHant": "人權保護個人與少數派，防止民主權力淪為專斷。"
   },
   {
     "id": "draft-ch02-043",
@@ -1805,7 +2757,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public bodies must respect equal treatment and rights. Majority rule does not remove protection against discrimination.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某市镇的多数派仅因宗教原因，想拒绝向一宗教少数派出租公共场地。最相关的原则是什么？",
+    "optionsZh": [
+      "平等对待与反歧视保护。",
+      "多数派永远不受限制地决定。",
+      "市镇可以无视基本权利。",
+      "宗教永远不得在公共场合讨论。"
+    ],
+    "explanationZh": "公共机构须尊重平等对待与权利。多数决不能取消反歧视保护。",
+    "questionZhHant": "某市鎮的多數派僅因宗教原因，想拒絕向一宗教少數派出租公共場地。最相關的原則是什麼？",
+    "optionsZhHant": [
+      "平等對待與反歧視保護。",
+      "多數派永遠不受限制地決定。",
+      "市鎮可以無視基本權利。",
+      "宗教永遠不得在公共場合討論。"
+    ],
+    "explanationZhHant": "公共機構須尊重平等對待與權利。多數決不能取消反歧視保護。"
   },
   {
     "id": "draft-ch02-044",
@@ -1834,7 +2802,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democratic participation happens between elections too, for example through debate, associations, consultations, and contacting politicians.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "以下哪种是在两次选举之间施加影响的合法方式？",
+    "optionsZh": [
+      "写读者来信或参与意见征询。",
+      "破坏投票站。",
+      "威胁公务员。",
+      "向其他选民购买选票。"
+    ],
+    "explanationZh": "民主参与也发生在选举之间，例如通过辩论、社团、意见征询以及与政客联系。",
+    "questionZhHant": "以下哪種是在兩次選舉之間施加影響的合法方式？",
+    "optionsZhHant": [
+      "寫讀者來信或參與意見徵詢。",
+      "破壞投票站。",
+      "威脅公務員。",
+      "向其他選民購買選票。"
+    ],
+    "explanationZhHant": "民主參與也發生在選舉之間，例如通過辯論、社團、意見徵詢以及與政客聯系。"
   },
   {
     "id": "draft-ch02-045",
@@ -1864,7 +2848,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "People can participate in civil society and debate in many ways, while voting rights and eligibility depend on the type of election and legal status.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某人说：“如果我不是瑞典公民，就永远无法影响社会。”以下哪项回答最为周全？",
+    "optionsZh": [
+      "有多种影响途径，但某些选举与职务要求公民身份。",
+      "说得对，只有公民可以表达意见。",
+      "说得对，非公民不得加入社团。",
+      "这是错的，因为公民身份在选举中永远无关紧要。"
+    ],
+    "explanationZh": "人们可以通过多种途径参与公民社会与讨论，而选举权与被选举权则取决于选举类型与法律身份（如议会选举需为瑞典公民；地方选举中符合条件的长期居住非公民也可投票）。",
+    "questionZhHant": "某人說：“如果我不是瑞典公民，就永遠無法影響社會。”以下哪項回答最為周全？",
+    "optionsZhHant": [
+      "有多種影響途徑，但某些選舉與職務要求公民身份。",
+      "說得對，只有公民可以表達意見。",
+      "說得對，非公民不得加入社團。",
+      "這是錯的，因為公民身份在選舉中永遠無關緊要。"
+    ],
+    "explanationZhHant": "人們可以通過多種途徑參與公民社會與討論，而選舉權與被選舉權則取決於選舉類型與法律身份（如議會選舉需為瑞典公民；地方選舉中符合條件的長期居住非公民也可投票）。"
   },
   {
     "id": "draft-ch02-046",
@@ -1893,7 +2893,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Equality before the law is part of legal certainty and democratic trust.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“法律面前人人平等”意味着什么？",
+    "optionsZh": [
+      "法律应当平等适用于所有人。",
+      "富人适用另一种法律。",
+      "政客永远无法被监督。",
+      "法院只审判某些职业。"
+    ],
+    "explanationZh": "法律面前人人平等是法律保障与民主信任的一部分。",
+    "questionZhHant": "“法律面前人人平等”意味着什麼？",
+    "optionsZhHant": [
+      "法律應當平等適用於所有人。",
+      "富人適用另一種法律。",
+      "政客永遠無法被監督。",
+      "法院只審判某些職業。"
+    ],
+    "explanationZhHant": "法律面前人人平等是法律保障與民主信任的一部分。"
   },
   {
     "id": "draft-ch02-047",
@@ -1922,7 +2938,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Legal certainty means predictable and lawful handling by courts and authorities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "对个人而言，法律保障（司法安全）意味着什么？",
+    "optionsZh": [
+      "决定应遵循法律、能够被说明理由，并且通常可以上诉。",
+      "政府机关（公共机构）对个人永远正确。",
+      "个人在法院永远胜诉。",
+      "法院程序无论证据如何都必须迅速。"
+    ],
+    "explanationZh": "法律保障意味着法院与政府机关（公共机构）可预期、依法地处理事务。",
+    "questionZhHant": "對個人而言，法律保障（司法安全）意味着什麼？",
+    "optionsZhHant": [
+      "決定應遵循法律、能夠被說明理由，並且通常可以上訴。",
+      "政府機關（公共機構）對個人永遠正確。",
+      "個人在法院永遠勝訴。",
+      "法院程序無論證據如何都必須迅速。"
+    ],
+    "explanationZhHant": "法律保障意味着法院與政府機關（公共機構）可預期、依法地處理事務。"
   },
   {
     "id": "draft-ch02-048",
@@ -1952,7 +2984,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Predictability is part of legal certainty and trust in public power.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么公共规则应当事先确定、而不能在个案间任意更改很重要？",
+    "optionsZh": [
+      "人们应能预见政府机关（公共机构）如何行事。",
+      "政府机关（公共机构）应能根据个人背景选择规则。",
+      "规则只需对法律人士清晰。",
+      "任意专断是地方自治的要求。"
+    ],
+    "explanationZh": "可预期性是法律保障与对公共权力信任的一部分。",
+    "questionZhHant": "為什麼公共規則應當事先確定、而不能在個案間任意更改很重要？",
+    "optionsZhHant": [
+      "人們應能預見政府機關（公共機構）如何行事。",
+      "政府機關（公共機構）應能根據個人背景選擇規則。",
+      "規則只需對法律人士清晰。",
+      "任意專斷是地方自治的要求。"
+    ],
+    "explanationZhHant": "可預期性是法律保障與對公共權力信任的一部分。"
   },
   {
     "id": "draft-ch02-049",
@@ -1981,7 +3029,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Scrutiny can come from parliament, media, courts, authorities, and citizens.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "以下哪个例子体现了瑞典的权力可被监督？",
+    "optionsZh": [
+      "瑞典国会（Riksdagen）监督政府（Regeringen），媒体监督公共决定。",
+      "政府（Regeringen）禁止反对派的质询。",
+      "政府机关（公共机构）永远无需提供信息。",
+      "法院按政党意愿判决。"
+    ],
+    "explanationZh": "监督可来自议会、媒体、法院、政府机关（公共机构）与公民多个层面。",
+    "questionZhHant": "以下哪個例子體現了瑞典的權力可被監督？",
+    "optionsZhHant": [
+      "瑞典國會（Riksdagen）監督政府（Regeringen），媒體監督公共決定。",
+      "政府（Regeringen）禁止反對派的質詢。",
+      "政府機關（公共機構）永遠無需提供資訊。",
+      "法院按政黨意願判決。"
+    ],
+    "explanationZhHant": "監督可來自議會、媒體、法院、政府機關（公共機構）與公民多個層面。"
   },
   {
     "id": "draft-ch02-050",
@@ -2011,7 +3075,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democracy needs independent institutions and scrutiny so power cannot be concentrated without limits.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "如果同一政治领导层同时控制立法、法院与媒体，为什么这构成民主问题？",
+    "optionsZh": [
+      "那样就更难约束与监督权力。",
+      "那样所有选举自动变得更自由。",
+      "那样公民获得更多独立来源。",
+      "那样法院独立性得到加强。"
+    ],
+    "explanationZh": "民主需要独立的机构与监督，以防权力不受限制地集中。",
+    "questionZhHant": "如果同一政治領導層同時控制立法、法院與媒體，為什麼這構成民主問題？",
+    "optionsZhHant": [
+      "那樣就更難約束與監督權力。",
+      "那樣所有選舉自動變得更自由。",
+      "那樣公民獲得更多獨立來源。",
+      "那樣法院獨立性得到加強。"
+    ],
+    "explanationZhHant": "民主需要獨立的機構與監督，以防權力不受限制地集中。"
   },
   {
     "id": "draft-ch02-051",
@@ -2041,7 +3121,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Trust supports cooperation, but democratic trust should exist together with transparency and scrutiny.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么信任在民主社会中很重要？",
+    "optionsZh": [
+      "它使人更容易接受决定并相互合作。",
+      "它意味着公民永远不应监督权力。",
+      "它取代对法律的需要。",
+      "它使所有人都投票给同一政党。"
+    ],
+    "explanationZh": "信任促进合作，但民主信任应与透明和监督并存。",
+    "questionZhHant": "為什麼信任在民主社會中很重要？",
+    "optionsZhHant": [
+      "它使人更容易接受決定並相互合作。",
+      "它意味着公民永遠不應監督權力。",
+      "它取代對法律的需要。",
+      "它使所有人都投票給同一政黨。"
+    ],
+    "explanationZhHant": "信任促進合作，但民主信任應與透明和監督並存。"
   },
   {
     "id": "draft-ch02-052",
@@ -2071,7 +3167,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Corruption undermines equal treatment, trust, and lawful public decision-making.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "腐败如何损害民主？",
+    "optionsZh": [
+      "它使决定可能被私人利益而非公共利益与法律所左右。",
+      "它使无记名投票原则（投票保密）更强。",
+      "它使政府机关（公共机构）更客观。",
+      "它保证人人被平等对待。"
+    ],
+    "explanationZh": "腐败破坏平等对待、信任与依法的公共决策。",
+    "questionZhHant": "腐敗如何損害民主？",
+    "optionsZhHant": [
+      "它使決定可能被私人利益而非公共利益與法律所左右。",
+      "它使無記名投票原則（投票保密）更強。",
+      "它使政府機關（公共機構）更客觀。",
+      "它保證人人被平等對待。"
+    ],
+    "explanationZhHant": "腐敗破壞平等對待、信任與依法的公共決策。"
   },
   {
     "id": "draft-ch02-053",
@@ -2101,7 +3213,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Bribery and favoritism threaten trust, equal treatment, and responsible use of public resources.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名企业主向一位市镇政客提供私人好处以换取合同。为什么这是一个民主问题？",
+    "optionsZh": [
+      "这可能使公共决定被“买断”而非客观作出。",
+      "这在市镇采购中始终是常态。",
+      "它增强公民的监督。",
+      "它使反对派获得更多权力。"
+    ],
+    "explanationZh": "贿赂与偏袒威胁信任、平等对待以及对公共资源的负责使用。",
+    "questionZhHant": "一名企業主向一位市鎮政客提供私人好處以換取合同。為什麼這是一個民主問題？",
+    "optionsZhHant": [
+      "這可能使公共決定被“買斷”而非客觀作出。",
+      "這在市鎮採購中始終是常態。",
+      "它增強公民的監督。",
+      "它使反對派獲得更多權力。"
+    ],
+    "explanationZhHant": "賄賂與偏袒威脅信任、平等對待以及對公共資源的負責使用。"
   },
   {
     "id": "draft-ch02-054",
@@ -2130,7 +3258,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democracy needs disagreement, but debate should be possible without threats and manipulation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是“民主讨论文化”的一个例子？",
+    "optionsZh": [
+      "即使意见不同，也倾听论点并客观地回应。",
+      "让所有持不同意见者噤声。",
+      "散布谣言以赢得辩论。",
+      "威胁提出疑问的人。"
+    ],
+    "explanationZh": "民主需要分歧，但讨论应可在无威胁与操纵的情况下进行。",
+    "questionZhHant": "什麼是“民主討論文化”的一個例子？",
+    "optionsZhHant": [
+      "即使意見不同，也傾聽論點並客觀地回應。",
+      "讓所有持不同意見者噤聲。",
+      "散布謠言以贏得辯論。",
+      "威脅提出疑問的人。"
+    ],
+    "explanationZhHant": "民主需要分歧，但討論應可在無威脅與操縱的情況下進行。"
   },
   {
     "id": "draft-ch02-055",
@@ -2160,7 +3304,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Open debate helps people compare claims, test arguments, and form opinions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个讨论小组删除了所有有理有据的反方论点，只让一种观点出现。最受削弱的民主品质是什么？",
+    "optionsZh": [
+      "公开讨论与检验不同论点的可能性。",
+      "投票时的无记名投票原则（投票保密）。",
+      "市镇征税权。",
+      "法院作出判决的权利。"
+    ],
+    "explanationZh": "公开讨论帮助人们比较说法、检验论点并形成看法。",
+    "questionZhHant": "一個討論小組刪除了所有有理有據的反方論點，只讓一種觀點出現。最受削弱的民主品質是什麼？",
+    "optionsZhHant": [
+      "公開討論與檢驗不同論點的可能性。",
+      "投票時的無記名投票原則（投票保密）。",
+      "市鎮徵稅權。",
+      "法院作出判決的權利。"
+    ],
+    "explanationZhHant": "公開討論幫助人們比較說法、檢驗論點並形成看法。"
   },
   {
     "id": "draft-ch02-056",
@@ -2190,7 +3350,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democracy works better when people stay informed, respect others’ rights, and participate lawfully.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪种责任最符合民主中“公民”的角色？",
+    "optionsZh": [
+      "保持了解信息并以合法方式参与。",
+      "始终与政府（Regeringen）保持一致。",
+      "回避所有社会信息。",
+      "阻止他人投票。"
+    ],
+    "explanationZh": "当人民保持知情、尊重他人权利并依法参与时，民主运转得更好。",
+    "questionZhHant": "哪種責任最符合民主中“公民”的角色？",
+    "optionsZhHant": [
+      "保持了解資訊並以合法方式參與。",
+      "始終與政府（Regeringen）保持一致。",
+      "回避所有社會資訊。",
+      "阻止他人投票。"
+    ],
+    "explanationZhHant": "當人民保持知情、尊重他人權利並依法參與時，民主運轉得更好。"
   },
   {
     "id": "draft-ch02-057",
@@ -2220,7 +3396,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Digital platforms can spread both reliable information and false claims very quickly.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么在数字环境中来源批判尤其重要？",
+    "optionsZh": [
+      "信息可在未经核实的情况下迅速传播。",
+      "网上所有信息总经政府机关（公共机构）审查。",
+      "数字媒体永远不得包含宣传。",
+      "网上图片与文字无法被篡改。"
+    ],
+    "explanationZh": "数字平台可极快传播可靠信息与虚假说法。",
+    "questionZhHant": "為什麼在數字環境中來源批判尤其重要？",
+    "optionsZhHant": [
+      "資訊可在未經核實的情況下迅速傳播。",
+      "網上所有資訊總經政府機關（公共機構）審查。",
+      "數字媒體永遠不得包含宣傳。",
+      "網上圖片與文字無法被篡改。"
+    ],
+    "explanationZhHant": "數字平台可極快傳播可靠資訊與虛假說法。"
   },
   {
     "id": "draft-ch02-058",
@@ -2250,7 +3442,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "False election information can damage trust. Responsible source checking is part of democratic participation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "选举前，出现据称显示舞弊的虚假图片在传播。哪种做法是负责任的民主行为？",
+    "optionsZh": [
+      "核查来源并等待来自可信来源的确认。",
+      "为保险起见迅速转发图片。",
+      "假定一切引发强烈情绪的内容都是真的。",
+      "利用图片威胁选举工作人员。"
+    ],
+    "explanationZh": "虚假选举信息会损害信任。负责任的来源核查是民主参与的一部分。",
+    "questionZhHant": "選舉前，出現據稱顯示舞弊的虛假圖片在傳播。哪種做法是負責任的民主行為？",
+    "optionsZhHant": [
+      "核查來源並等待來自可信來源的確認。",
+      "為保險起見迅速轉發圖片。",
+      "假定一切引發強烈情緒的內容都是真的。",
+      "利用圖片威脅選舉工作人員。"
+    ],
+    "explanationZhHant": "虛假選舉資訊會損害信任。負責任的來源核查是民主參與的一部分。"
   },
   {
     "id": "draft-ch02-059",
@@ -2279,7 +3487,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Threats and violence can silence democratic participation and weaken representation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "以下哪项是民主的明显威胁？",
+    "optionsZh": [
+      "对民选代表的威胁，使其不敢履行职责。",
+      "人们投票给不同政党。",
+      "媒体提出批评性问题。",
+      "社团组织公开会议。"
+    ],
+    "explanationZh": "威胁与暴力会使民主参与噤声，削弱代表性。",
+    "questionZhHant": "以下哪項是民主的明顯威脅？",
+    "optionsZhHant": [
+      "對民選代表的威脅，使其不敢履行職責。",
+      "人們投票給不同政黨。",
+      "媒體提出批評性問題。",
+      "社團組織公開會議。"
+    ],
+    "explanationZhHant": "威脅與暴力會使民主參與噤聲，削弱代表性。"
   },
   {
     "id": "draft-ch02-060",
@@ -2309,6 +3533,22 @@
     ],
     "correctIndex": 0,
     "explanationEn": "This combines disinformation, threats to free media, and voter intimidation, all of which can undermine democracy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪种情况最能体现多个民主原则同时受到威胁？",
+    "optionsZh": [
+      "一个群体散布虚假谣言、威胁记者，并试图恐吓选民不去投票。",
+      "多个政党在电视上辩论税收政策。",
+      "一家法院依法审查政府机关（公共机构）的决定。",
+      "公民组织和平示威。"
+    ],
+    "explanationZh": "这同时结合了虚假信息、对自由媒体的威胁以及恐吓选民，均会侵蚀民主。",
+    "questionZhHant": "哪種情況最能體現多個民主原則同時受到威脅？",
+    "optionsZhHant": [
+      "一個羣體散布虛假謠言、威脅記者，並試圖恐嚇選民不去投票。",
+      "多個政黨在電視上辯論稅收政策。",
+      "一家法院依法審查政府機關（公共機構）的決定。",
+      "公民組織和平示威。"
+    ],
+    "explanationZhHant": "這同時結合了虛假資訊、對自由媒體的威脅以及恐嚇選民，均會侵蝕民主。"
   }
 ]

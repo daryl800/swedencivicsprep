@@ -26,7 +26,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Legal certainty (rättssäkerhet) protects individuals in contact with public power: decisions must follow the law, be reasoned, and can often be appealed.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在与政府机关打交道时，“法律保障”（rättssäkerhet）是什么意思？",
+    "optionsZh": [
+      "决定应当依照法律作出、说明理由，并且通常可以提出上诉。",
+      "政府机关可以每天毫无理由地作出不同的决定。",
+      "认识某位公务员的人总能优先办理。",
+      "法律只在法院适用，不适用于政府机关。"
+    ],
+    "explanationZh": "法律保障（rättssäkerhet）保护个人在与公共权力打交道时的权利：政府机关的决定必须依法依规、说明理由，并且通常可以上诉。这样个人才能理解并监督决定，必要时通过上诉维护自身权益。",
+    "questionZhHant": "在與政府機關打交道時，“法律保障”（rättssäkerhet）是什麼意思？",
+    "optionsZhHant": [
+      "決定應當依照法律作出、說明理由，並且通常可以提出上訴。",
+      "政府機關可以每天毫無理由地作出不同的決定。",
+      "認識某位公務員的人總能優先辦理。",
+      "法律只在法院適用，不適用於政府機關。"
+    ],
+    "explanationZhHant": "法律保障（rättssäkerhet）保護個人在與公共權力打交道時的權利：政府機關的決定必須依法依規、說明理由，並且通常可以上訴。這樣個人才能理解並監督決定，必要時通過上訴維護自身權益。"
   },
   {
     "id": "draft-batch-a-ch05-002",
@@ -55,7 +71,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Criminal law should not punish acts that were not crimes when committed.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人因某行为发生时并不违法的事情而受到惩罚。这威胁到哪项原则？",
+    "optionsZh": [
+      "禁止刑法溯及既往（retroaktiv strafflag）。",
+      "无记名投票原则（Valhemligheten）。",
+      "市镇自治（kommunalt självstyre）。",
+      "结社自由（föreningsfriheten）。"
+    ],
+    "explanationZh": "刑法不应对行为发生时并不构成犯罪的行为进行惩罚。禁止溯及既往是法治的重要保障，确保人们能够预先知道什么行为构成犯罪，不会被“事后立法”追究。",
+    "questionZhHant": "一個人因某行為發生時並不違法的事情而受到懲罰。這威脅到哪項原則？",
+    "optionsZhHant": [
+      "禁止刑法溯及既往（retroaktiv strafflag）。",
+      "無記名投票原則（Valhemligheten）。",
+      "市鎮自治（kommunalt självstyre）。",
+      "結社自由（föreningsfriheten）。"
+    ],
+    "explanationZhHant": "刑法不應對行為發生時並不構成犯罪的行為進行懲罰。禁止溯及既往是法治的重要保障，確保人們能夠預先知道什麼行為構成犯罪，不會被“事後立法”追究。"
   },
   {
     "id": "draft-batch-a-ch05-003",
@@ -84,7 +116,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The prosecutor represents the public side and decides on prosecution.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "检察官（åklagare）在刑事案件中的职责是什么？",
+    "optionsZh": [
+      "在证据充足时领导预审并提起公诉。",
+      "在法庭上为嫌疑人辩护。",
+      "撰写法院的判决。",
+      "单独决定瑞典国会（Riksdagen）的刑事法律。"
+    ],
+    "explanationZh": "检察官代表公共一方，负责领导刑事案件的预审（förundersökning），并在证据充分时决定是否提起公诉；辩护由辩护律师负责，判决由法院作出。三者角色必须分开。",
+    "questionZhHant": "檢察官（åklagare）在刑事案件中的職責是什麼？",
+    "optionsZhHant": [
+      "在證據充足時領導預審並提起公訴。",
+      "在法庭上為嫌疑人辯護。",
+      "撰寫法院的判決。",
+      "單獨決定瑞典國會（Riksdagen）的刑事法律。"
+    ],
+    "explanationZhHant": "檢察官代表公共一方，負責領導刑事案件的預審（förundersökning），並在證據充分時決定是否提起公訴；辯護由辯護律師負責，判決由法院作出。三者角色必須分開。"
   },
   {
     "id": "draft-batch-a-ch05-004",
@@ -113,7 +161,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Rule of law requires evidence and legal process.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "警方怀疑有犯罪行为，但证据不足。这说明了法治国家（rättsstat）的什么？",
+    "optionsZh": [
+      "怀疑必须经过证据和法律规则的检验。",
+      "只要有怀疑就足以定罪。",
+      "警方可以在没有法院的情况下自行决定刑罚。",
+      "当法院犹豫时，媒体可以定罪。"
+    ],
+    "explanationZh": "法治国家要求定罪必须建立在证据和法定程序之上。仅凭怀疑不能剥夺人的自由或定罪，这正是法律保障与无罪推定的体现。",
+    "questionZhHant": "警方懷疑有犯罪行為，但證據不足。這說明了法治國家（rättsstat）的什麼？",
+    "optionsZhHant": [
+      "懷疑必須經過證據和法律規則的檢驗。",
+      "只要有懷疑就足以定罪。",
+      "警方可以在沒有法院的情況下自行決定刑罰。",
+      "當法院猶豫時，媒體可以定罪。"
+    ],
+    "explanationZhHant": "法治國家要求定罪必須建立在證據和法定程序之上。僅憑懷疑不能剝奪人的自由或定罪，這正是法律保障與無罪推定的體現。"
   },
   {
     "id": "draft-batch-a-ch05-005",
@@ -142,7 +206,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A defense counsel protects the accused person’s rights in the legal process.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“公设辩护人”（offentlig försvarare）是什么意思？",
+    "optionsZh": [
+      "可以由法院指定来为嫌疑人和被告人辩护的法律专业人士。",
+      "在辩论中捍卫政府的政治家。",
+      "总是代表受害人的警察。",
+      "撰写审判报道的记者。"
+    ],
+    "explanationZh": "公设辩护人是保护被告人在法律程序中权利的律师。即使当事人无力聘请，也可以由法院指定辩护律师，以保证审判公平——这与政治家、警察或记者都不是同一角色。",
+    "questionZhHant": "“公設辯護人”（offentlig försvarare）是什麼意思？",
+    "optionsZhHant": [
+      "可以由法院指定來為嫌疑人和被告人辯護的法律專業人士。",
+      "在辯論中捍衛政府的政治家。",
+      "總是代表受害人的警察。",
+      "撰寫審判報道的記者。"
+    ],
+    "explanationZhHant": "公設辯護人是保護被告人在法律程序中權利的律師。即使當事人無力聘請，也可以由法院指定辯護律師，以保證審判公平——這與政治家、警察或記者都不是同一角色。"
   },
   {
     "id": "draft-batch-a-ch05-006",
@@ -171,7 +251,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Separate roles support fairness and legal certainty in criminal proceedings.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么检察官和法院应当分工不同？",
+    "optionsZh": [
+      "检察官负责起诉，而法院审查证据并作出判决。",
+      "检察官撰写判决，法院执行刑罚。",
+      "法院在审判前为警方侦查犯罪。",
+      "这两个职责总应由同一人承担。"
+    ],
+    "explanationZh": "分工明确有助于刑事程序的公正与法律保障：检察官主导指控，法院独立审查证据并定罪，二者不能混同，否则审判就有可能失去中立性。",
+    "questionZhHant": "為什麼檢察官和法院應當分工不同？",
+    "optionsZhHant": [
+      "檢察官負責起訴，而法院審查證據並作出判決。",
+      "檢察官撰寫判決，法院執行刑罰。",
+      "法院在審判前為警方偵查犯罪。",
+      "這兩個職責總應由同一人承擔。"
+    ],
+    "explanationZhHant": "分工明確有助於刑事程序的公正與法律保障：檢察官主導指控，法院獨立審查證據並定罪，二者不能混同，否則審判就有可能失去中立性。"
   },
   {
     "id": "draft-batch-a-ch05-007",
@@ -201,7 +297,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Precedents guide courts and can make legal interpretation more consistent.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "两个类似的案件在不同法院得到不同判决。在这种情况下，为什么判例（prejudikat）可能很重要？",
+    "optionsZh": [
+      "它可以提供指导，使类似案件得到更统一的评判。",
+      "它让政府可以直接改判。",
+      "它意味着先前的判决总是取代法律条文。",
+      "它让市镇有权决定适用哪个判决。"
+    ],
+    "explanationZh": "判例（prejudikat）由最高法院等确立，指导各级法院对类似案件作出一致的裁判，增强法律适用的统一性和可预见性；但它并不取代法律，也不能由行政或地方任意改变。",
+    "questionZhHant": "兩個類似的案件在不同法院得到不同判決。在這種情況下，為什麼判例（prejudikat）可能很重要？",
+    "optionsZhHant": [
+      "它可以提供指導，使類似案件得到更統一的評判。",
+      "它讓政府可以直接改判。",
+      "它意味着先前的判決總是取代法律條文。",
+      "它讓市鎮有權決定適用哪個判決。"
+    ],
+    "explanationZhHant": "判例（prejudikat）由最高法院等確立，指導各級法院對類似案件作出一致的裁判，增強法律適用的統一性和可預見性；但它並不取代法律，也不能由行政或地方任意改變。"
   },
   {
     "id": "draft-batch-a-ch05-008",
@@ -230,7 +342,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public access is the rule, but legal secrecy can protect certain information.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某政府机关以保密为由拒绝公开一份文件。重要的是要知道什么？",
+    "optionsZh": [
+      "保密必须有法律依据；否则通常适用公开原则。",
+      "政府机关可以为避免批评而隐瞒一切。",
+      "如果某位公务员愿意，所有文件都变成私人的。",
+      "保密只适用于法院，从不适用于政府机关。"
+    ],
+    "explanationZh": "瑞典的公开原则（offentlighetsprincipen）是常态，但法律也规定某些信息（如个人隐私、国家安全、敏感调查）可以保密。保密必须有明确法律依据，不能随意扩大或出于回避批评的目的。",
+    "questionZhHant": "某政府機關以保密為由拒絕公開一份文件。重要的是要知道什麼？",
+    "optionsZhHant": [
+      "保密必須有法律依據；否則通常適用公開原則。",
+      "政府機關可以為避免批評而隱瞞一切。",
+      "如果某位公務員願意，所有文件都變成私人的。",
+      "保密只適用於法院，從不適用於政府機關。"
+    ],
+    "explanationZhHant": "瑞典的公開原則（offentlighetsprincipen）是常態，但法律也規定某些資訊（如個人隱私、國家安全、敏感調查）可以保密。保密必須有明確法律依據，不能隨意擴大或出於回避批評的目的。"
   },
   {
     "id": "draft-batch-a-ch05-009",
@@ -259,7 +387,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Conflict-of-interest rules protect impartiality and trust in courts and authorities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么法院和政府机关要有关于“回避”（jäv，利益冲突）的规定？",
+    "optionsZh": [
+      "为了使决定公正作出，并使人们能够信任程序。",
+      "为了让亲属总能更快拿到决定。",
+      "为了让公务员可以审判自己的案件。",
+      "为了让媒体决定调查哪些案件。"
+    ],
+    "explanationZh": "回避制度（jäv）防止有利益冲突的人参与决策，保障决定的客观公正，维护公众对司法和行政程序的信任；它与偏袒、自审或媒体干预都截然相反。",
+    "questionZhHant": "為什麼法院和政府機關要有關於“回避”（jäv，利益衝突）的規定？",
+    "optionsZhHant": [
+      "為了使決定公正作出，並使人們能夠信任程序。",
+      "為了讓親屬總能更快拿到決定。",
+      "為了讓公務員可以審判自己的案件。",
+      "為了讓媒體決定調查哪些案件。"
+    ],
+    "explanationZhHant": "回避制度（jäv）防止有利益衝突的人參與決策，保障決定的客觀公正，維護公眾對司法和行政程序的信任；它與偏袒、自審或媒體幹預都截然相反。"
   },
   {
     "id": "draft-batch-a-ch05-010",
@@ -288,7 +432,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The legal system has special rules for young offenders.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名年轻人犯罪。为什么年龄会影响法院的评判？",
+    "optionsZh": [
+      "未成年违法者可能受到较轻的制裁并有特殊规定；15 岁以下儿童不会被判处刑罚。",
+      "儿童总是比成年人受到更重的惩罚。",
+      "年龄意味着案件根本不被调查。",
+      "年轻人总是由一个特殊的“青年国会”审判。"
+    ],
+    "explanationZh": "瑞典法律对年轻违法者有特殊规定：15 岁以下儿童不负刑事责任（不会被判处刑罚），青少年案件也侧重教育和矫治，适用更轻的制裁。年龄影响的是程序与处罚，而非是否调查。",
+    "questionZhHant": "一名年輕人犯罪。為什麼年齡會影響法院的評判？",
+    "optionsZhHant": [
+      "未成年違法者可能受到較輕的制裁並有特殊規定；15 歲以下兒童不會被判處刑罰。",
+      "兒童總是比成年人受到更重的懲罰。",
+      "年齡意味着案件根本不被調查。",
+      "年輕人總是由一個特殊的“青年國會”審判。"
+    ],
+    "explanationZhHant": "瑞典法律對年輕違法者有特殊規定：15 歲以下兒童不負刑事責任（不會被判處刑罰），青少年案件也側重教育和矯治，適用更輕的制裁。年齡影響的是程序與處罰，而非是否調查。"
   },
   {
     "id": "draft-batch-a-ch05-011",
@@ -317,7 +477,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Legal certainty requires that a suspect understands the accusation and has a real chance to respond.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么让嫌疑人知道自己被指控什么很重要？",
+    "optionsZh": [
+      "为了让当事人能够理解案情并公平地为自己辩护。",
+      "为了让当事人自动被宣告无罪。",
+      "为了让警方必须立即终止调查。",
+      "为了让法院只能听嫌疑人的话。"
+    ],
+    "explanationZh": "法律保障要求嫌疑人清楚了解指控内容，才能有效回应和辩护；不了解指控就审判，违背了公平程序。告知指控并不等于自动无罪，也不中止调查。",
+    "questionZhHant": "為什麼讓嫌疑人知道自己被指控什麼很重要？",
+    "optionsZhHant": [
+      "為了讓當事人能夠理解案情並公平地為自己辯護。",
+      "為了讓當事人自動被宣告無罪。",
+      "為了讓警方必須立即終止調查。",
+      "為了讓法院只能聽嫌疑人的話。"
+    ],
+    "explanationZhHant": "法律保障要求嫌疑人清楚了解指控內容，才能有效回應和辯護；不了解指控就審判，違背了公平程序。告知指控並不等於自動無罪，也不中止調查。"
   },
   {
     "id": "draft-batch-a-ch05-012",
@@ -346,7 +522,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Appeals must follow the rules and deadlines stated for the decision.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人想对政府机关的决定提出上诉。正确的首要问题是什么？",
+    "optionsZh": [
+      "该决定中适用于上诉的规则和期限是什么？",
+      "作出决定时是哪个政党执政？",
+      "媒体能否代写一个判决？",
+      "该人能否就同一事项再次投票？"
+    ],
+    "explanationZh": "上诉必须遵循决定载明的规则和期限（tidsfrist）。错过上诉期限，决定通常会产生法律效力，因此首先要弄清能否上诉以及何时截止。",
+    "questionZhHant": "一個人想對政府機關的決定提出上訴。正確的首要問題是什麼？",
+    "optionsZhHant": [
+      "該決定中適用於上訴的規則和期限是什麼？",
+      "作出決定時是哪個政黨執政？",
+      "媒體能否代寫一個判決？",
+      "該人能否就同一事項再次投票？"
+    ],
+    "explanationZhHant": "上訴必須遵循決定載明的規則和期限（tidsfrist）。錯過上訴期限，決定通常會產生法律效力，因此首先要弄清能否上訴以及何時截止。"
   },
   {
     "id": "draft-batch-a-ch05-013",
@@ -375,7 +567,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Kriminalvården handles prisons, remand prisons, and some sanctions outside prison.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典监狱及缓刑管理局（Kriminalvården）的职责是什么？",
+    "optionsZh": [
+      "负责看守所、监狱以及某些非监禁性质的制裁。",
+      "为警方撰写所有犯罪调查报告。",
+      "决定瑞典国会应通过哪些法律。",
+      "领导各大区的医疗卫生工作。"
+    ],
+    "explanationZh": "Kriminalvården（瑞典监狱及缓刑管理局）负责看守所（häkten）、监狱以及缓刑等非监禁制裁的执行。它是刑罚执行机关，不参与立法、侦查或医疗。",
+    "questionZhHant": "瑞典監獄及緩刑管理局（Kriminalvården）的職責是什麼？",
+    "optionsZhHant": [
+      "負責看守所、監獄以及某些非監禁性質的制裁。",
+      "為警方撰寫所有犯罪調查報告。",
+      "決定瑞典國會應通過哪些法律。",
+      "領導各大區的醫療衛生工作。"
+    ],
+    "explanationZhHant": "Kriminalvården（瑞典監獄及緩刑管理局）負責看守所（häkten）、監獄以及緩刑等非監禁制裁的執行。它是刑罰執行機關，不參與立法、偵查或醫療。"
   },
   {
     "id": "draft-batch-a-ch05-014",
@@ -404,7 +612,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Restrictions on freedom need legal support and legal safeguards.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一部法律限制个人自由。在法治国家什么很重要？",
+    "optionsZh": [
+      "限制必须有法律依据，并可以接受司法审查。",
+      "限制只需感觉上受欢迎即可。",
+      "政府机关可以在没有决定的情况下限制自由。",
+      "法院不得审查公共决定。"
+    ],
+    "explanationZh": "在法治国家，对个人自由的限制必须基于法律，并受到司法监督，防止公权力任意侵犯个人权利。限制不能仅凭“受欢迎”或行政机关的随意决定。",
+    "questionZhHant": "一部法律限制個人自由。在法治國家什麼很重要？",
+    "optionsZhHant": [
+      "限制必須有法律依據，並可以接受司法審查。",
+      "限制只需感覺上受歡迎即可。",
+      "政府機關可以在沒有決定的情況下限制自由。",
+      "法院不得審查公共決定。"
+    ],
+    "explanationZhHant": "在法治國家，對個人自由的限制必須基於法律，並受到司法監督，防止公權力任意侵犯個人權利。限制不能僅憑“受歡迎”或行政機關的隨意決定。"
   },
   {
     "id": "draft-batch-a-ch05-015",
@@ -433,7 +657,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Laws and norms can both influence behaviour, but laws are legally enforceable.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "法律与社会规范（social norm）有什么区别？",
+    "optionsZh": [
+      "法律具有法律约束力，而规范是社会的期望。",
+      "规范总是由最高法院决定。",
+      "法律只适用于人们家中。",
+      "规范总会判处监禁。"
+    ],
+    "explanationZh": "法律由国家强制力保障实施，违反会有法律后果；社会规范是约定俗成的期望，通常没有法律制裁，但二者都会影响人的行为。",
+    "questionZhHant": "法律與社會規範（social norm）有什麼區別？",
+    "optionsZhHant": [
+      "法律具有法律約束力，而規範是社會的期望。",
+      "規範總是由最高法院決定。",
+      "法律只適用於人們家中。",
+      "規範總會判處監禁。"
+    ],
+    "explanationZhHant": "法律由國家強制力保障實施，違反會有法律後果；社會規範是約定俗成的期望，通常沒有法律制裁，但二者都會影響人的行為。"
   },
   {
     "id": "draft-batch-d-ch05-001",
@@ -463,7 +703,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Independent courts must base judgments on law and evidence.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人涉嫌犯罪，媒体对该案有大量报道。为什么法院仍必须独立审查案件？",
+    "optionsZh": [
+      "法院应根据法律和证据判决，而不是根据舆论或标题。",
+      "如果报道广泛，媒体的报道可以取代审判。",
+      "法院应遵循互联网上大多数人分享的观点。",
+      "当媒体关注该案时，检察官可以决定判决。"
+    ],
+    "explanationZh": "独立的法院必须依据法律和证据作出裁判。舆论压力和媒体报道不等于法律上的定罪，法院不受舆论左右，检察官也无权代行判决。",
+    "questionZhHant": "一個人涉嫌犯罪，媒體對該案有大量報道。為什麼法院仍必須獨立審查案件？",
+    "optionsZhHant": [
+      "法院應根據法律和證據判決，而不是根據輿論或標題。",
+      "如果報道廣泛，媒體的報道可以取代審判。",
+      "法院應遵循互聯網上大多數人分享的觀點。",
+      "當媒體關注該案時，檢察官可以決定判決。"
+    ],
+    "explanationZhHant": "獨立的法院必須依據法律和證據作出裁判。輿論壓力和媒體報道不等於法律上的定罪，法院不受輿論左右，檢察官也無權代行判決。"
   },
   {
     "id": "draft-batch-d-ch05-002",
@@ -493,7 +749,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Legal help supports a fair process but does not decide the outcome.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在保障法律安全（rättssäkerhet）的体系中，“获得辩护律师的权利”意味着什么？",
+    "optionsZh": [
+      "嫌疑人应当能够获得法律援助来为自己辩护。",
+      "嫌疑人在法庭上自动胜诉。",
+      "辩护律师决定警方是否可以调查。",
+      "只有瑞典公民才能有辩护律师。"
+    ],
+    "explanationZh": "获得辩护律师的权利保障嫌疑人得到法律帮助，使程序公平，但它并不决定案件结果，也不限于公民身份。辩护律师无权叫停警方的合法调查。",
+    "questionZhHant": "在保障法律安全（rättssäkerhet）的體系中，“獲得辯護律師的權利”意味着什麼？",
+    "optionsZhHant": [
+      "嫌疑人應當能夠獲得法律援助來為自己辯護。",
+      "嫌疑人在法庭上自動勝訴。",
+      "辯護律師決定警方是否可以調查。",
+      "只有瑞典公民才能有辯護律師。"
+    ],
+    "explanationZhHant": "獲得辯護律師的權利保障嫌疑人得到法律幫助，使程序公平，但它並不決定案件結果，也不限於公民身份。辯護律師無權叫停警方的合法調查。"
   },
   {
     "id": "draft-batch-d-ch05-003",
@@ -523,7 +795,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A fair trial requires that judgments rest only on material presented in the proceedings, which both parties have been able to see and respond to.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么法官不能在庭审之外自行查明案件事实，例如私下联系证人？",
+    "optionsZh": [
+      "判决应建立在庭审中呈现的材料之上，以便双方当事人都能对证据作出回应。",
+      "法官通过自行调查为法院节省时间。",
+      "私下接触使证据更可信。",
+      "法官必须始终相信最先听取的一方。"
+    ],
+    "explanationZh": "公平审判要求判决只能基于诉讼双方都能看到并回应的证据。法官若私下取证，当事人无法质询，会损害程序公正，反而降低可信度。",
+    "questionZhHant": "為什麼法官不能在庭審之外自行查明案件事實，例如私下聯系證人？",
+    "optionsZhHant": [
+      "判決應建立在庭審中呈現的材料之上，以便雙方當事人都能對證據作出回應。",
+      "法官通過自行調查為法院節省時間。",
+      "私下接觸使證據更可信。",
+      "法官必須始終相信最先聽取的一方。"
+    ],
+    "explanationZhHant": "公平審判要求判決只能基於訴訟雙方都能看到並回應的證據。法官若私下取證，當事人無法質詢，會損害程序公正，反而降低可信度。"
   },
   {
     "id": "draft-ch05-001",
@@ -552,7 +840,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The rule of law means that public power is limited by law and must be predictable and lawful.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "简单地说，“法治国家”（rättsstat）是什么意思？",
+    "optionsZh": [
+      "公共权力应当依法规和规则行使。",
+      "政府可以审判刑事案件。",
+      "只有瑞典国会需要遵守法律。",
+      "政府机关可以根据个案任意更改规则。"
+    ],
+    "explanationZh": "法治意味着公共权力受法律约束，必须可预见、依法行使。无论政府还是国会，都应在法律框架内行动，而不是由谁来当“法官”。",
+    "questionZhHant": "簡單地說，“法治國家”（rättsstat）是什麼意思？",
+    "optionsZhHant": [
+      "公共權力應當依法規和規則行使。",
+      "政府可以審判刑事案件。",
+      "只有瑞典國會需要遵守法律。",
+      "政府機關可以根據個案任意更改規則。"
+    ],
+    "explanationZhHant": "法治意味着公共權力受法律約束，必須可預見、依法行使。無論政府還是國會，都應在法律框架內行動，而不是由誰來當“法官”。"
   },
   {
     "id": "draft-ch05-002",
@@ -581,7 +885,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Legal certainty protects people by requiring lawful, objective, and reviewable decisions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "对个人而言，“法律保障”（rättssäkerhet）意味着什么？",
+    "optionsZh": [
+      "规则被可预见、客观且可审查地适用。",
+      "个人总能胜诉对抗政府机关。",
+      "法院向政府询问该如何判决。",
+      "法律在动用之前保密。"
+    ],
+    "explanationZh": "法律保障通过要求依法、客观且可审查的决定来保护个人，使人能够预期并监督公权力的行使。它不保证个人“总是赢”，也不允许法律秘密运作。",
+    "questionZhHant": "對個人而言，“法律保障”（rättssäkerhet）意味着什麼？",
+    "optionsZhHant": [
+      "規則被可預見、客觀且可審查地適用。",
+      "個人總能勝訴對抗政府機關。",
+      "法院向政府詢問該如何判決。",
+      "法律在動用之前保密。"
+    ],
+    "explanationZhHant": "法律保障通過要求依法、客觀且可審查的決定來保護個人，使人能夠預期並監督公權力的行使。它不保證個人“總是贏”，也不允許法律祕密運作。"
   },
   {
     "id": "draft-ch05-003",
@@ -611,7 +931,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "People need reasons and legal grounds to understand decisions and use appeal or review rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某政府机关在没有援引任何规定、也没有说明理由的情况下驳回了一份申请。这主要威胁到哪项原则？",
+    "optionsZh": [
+      "法律保障，因为决定应当可被理解和审查。",
+      "无记名投票原则，因为所有选票应匿名投出。",
+      "市镇自治，因为市镇拥有独立征税权。",
+      "结社自由，因为公民可以组建组织。"
+    ],
+    "explanationZh": "决定须有法律依据、可理解并可上诉，这是法律保障的核心。无法说明理由和依据的申请驳回，使当事人无法行使审查和上诉权，与选举保密、市镇自治等无关。",
+    "questionZhHant": "某政府機關在沒有援引任何規定、也沒有說明理由的情況下駁回了一份申請。這主要威脅到哪項原則？",
+    "optionsZhHant": [
+      "法律保障，因為決定應當可被理解和審查。",
+      "無記名投票原則，因為所有選票應匿名投出。",
+      "市鎮自治，因為市鎮擁有獨立徵稅權。",
+      "結社自由，因為公民可以組建組織。"
+    ],
+    "explanationZhHant": "決定須有法律依據、可理解並可上訴，這是法律保障的核心。無法說明理由和依據的申請駁回，使當事人無法行使審查和上訴權，與選舉保密、市鎮自治等無關。"
   },
   {
     "id": "draft-ch05-004",
@@ -640,7 +976,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Equal treatment means relevant facts and legal rules should guide decisions, not favoritism or social position.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "法院和政府机关“同类案件同等对待”意味着什么？",
+    "optionsZh": [
+      "决定不应取决于个人的地位、关系或背景。",
+      "所有案件无论事实如何必须得到完全相同的判决。",
+      "政府机关可以偏袒他们此前认识的人。",
+      "政客可以选择法律适用于哪些人。"
+    ],
+    "explanationZh": "平等对待要求以相关事实和法律规则为导向，而非偏袒或社会地位。注意这不是说所有案件结果必须一模一样，而是不能因身份差别对待；事实不同的案件判决本可不同。",
+    "questionZhHant": "法院和政府機關“同類案件同等對待”意味着什麼？",
+    "optionsZhHant": [
+      "決定不應取決於個人的地位、關系或背景。",
+      "所有案件無論事實如何必須得到完全相同的判決。",
+      "政府機關可以偏袒他們此前認識的人。",
+      "政客可以選擇法律適用於哪些人。"
+    ],
+    "explanationZhHant": "平等對待要求以相關事實和法律規則為導向，而非偏袒或社會地位。注意這不是說所有案件結果必須一模一樣，而是不能因身份差別對待；事實不同的案件判決本可不同。"
   },
   {
     "id": "draft-ch05-005",
@@ -670,7 +1022,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Authorities and courts must treat people objectively and equally under the law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位名人仅因身份而受到某政府机关更宽厚的对待。问题在哪里？",
+    "optionsZh": [
+      "这违反了平等对待和客观原则。",
+      "这很正常，因为公共权力可以偏袒某些人。",
+      "如果决定不能上诉，这就被允许。",
+      "只有当事项涉及法院时才是问题。"
+    ],
+    "explanationZh": "政府机关和法院必须依法客观、平等地对待每个人。因身份给予优待破坏了平等和公正，与是否可上诉、是否涉及法院无关。",
+    "questionZhHant": "一位名人僅因身份而受到某政府機關更寬厚的對待。問題在哪裡？",
+    "optionsZhHant": [
+      "這違反了平等對待和客觀原則。",
+      "這很正常，因為公共權力可以偏袒某些人。",
+      "如果決定不能上訴，這就被允許。",
+      "只有當事項涉及法院時才是問題。"
+    ],
+    "explanationZhHant": "政府機關和法院必須依法客觀、平等地對待每個人。因身份給予優待破壞了平等和公正，與是否可上訴、是否涉及法院無關。"
   },
   {
     "id": "draft-ch05-006",
@@ -699,7 +1067,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Courts resolve legal disputes and criminal cases by applying the law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "法院的职责是什么？",
+    "optionsZh": [
+      "审查案件并依法作出判决。",
+      "在议会选举后选择政府。",
+      "撰写各政党的竞选纲领。",
+      "决定每个市镇的学校预算。"
+    ],
+    "explanationZh": "法院通过适用法律来解决法律争议和刑事案件。选择政府、制定竞选纲领和决定市镇预算属于立法与行政范畴，不是法院的职能。",
+    "questionZhHant": "法院的職責是什麼？",
+    "optionsZhHant": [
+      "審查案件並依法作出判決。",
+      "在議會選舉後選擇政府。",
+      "撰寫各政黨的競選綱領。",
+      "決定每個市鎮的學校預算。"
+    ],
+    "explanationZhHant": "法院通過適用法律來解決法律爭議和刑事案件。選擇政府、制定競選綱領和決定市鎮預算屬於立法與行政範疇，不是法院的職能。"
   },
   {
     "id": "draft-ch05-007",
@@ -729,7 +1113,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Independent courts protect legal certainty and prevent abuse of political power.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么法院应当独立？",
+    "optionsZh": [
+      "以便它们能在没有不当政治影响的情况下依法判决。",
+      "以便法官可以自己制定新法律。",
+      "以便政府无需遵守判决。",
+      "以便媒体可以在受关注案件中决定刑罚。"
+    ],
+    "explanationZh": "独立的法院保障法律安全，防止政治权力滥用。法院适用法律，但不自行立法，政府也必须遵守判决，媒体也不能代行刑罚。",
+    "questionZhHant": "為什麼法院應當獨立？",
+    "optionsZhHant": [
+      "以便它們能在沒有不當政治影響的情況下依法判決。",
+      "以便法官可以自己制定新法律。",
+      "以便政府無需遵守判決。",
+      "以便媒體可以在受關注案件中決定刑罰。"
+    ],
+    "explanationZhHant": "獨立的法院保障法律安全，防止政治權力濫用。法院適用法律，但不自行立法，政府也必須遵守判決，媒體也不能代行刑罰。"
   },
   {
     "id": "draft-ch05-008",
@@ -759,7 +1159,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Political actors must not control judgments in individual cases.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位大臣要求法官在某个具体案件中按某种方式判决。主要问题是什么？",
+    "optionsZh": [
+      "这威胁到法院的独立性和法治。",
+      "这很正常，因为大臣领导法院。",
+      "只有当法官同意大臣时才成问题。",
+      "这加强了瑞典国会的预算权。"
+    ],
+    "explanationZh": "政治人物不得干预具体案件的判决。行政干预司法破坏法院独立和法治，与大臣是否“领导法院”或国会预算权无关。",
+    "questionZhHant": "一位大臣要求法官在某個具體案件中按某種方式判決。主要問題是什麼？",
+    "optionsZhHant": [
+      "這威脅到法院的獨立性和法治。",
+      "這很正常，因為大臣領導法院。",
+      "只有當法官同意大臣時才成問題。",
+      "這加強了瑞典國會的預算權。"
+    ],
+    "explanationZhHant": "政治人物不得幹預具體案件的判決。行政幹預司法破壞法院獨立和法治，與大臣是否“領導法院”或國會預算權無關。"
   },
   {
     "id": "draft-ch05-009",
@@ -788,7 +1204,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "District courts are generally the first level for many criminal and civil cases.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在许多刑事案件中，哪类法院通常是第一审级？",
+    "optionsZh": [
+      "地区法院（tingsrätten）。",
+      "上诉法院（hovrätten）。",
+      "最高法院（Högsta domstolen）。",
+      "宪法委员会（Konstitutionsutskottet）。"
+    ],
+    "explanationZh": "地区法院（tingsrätten）是许多刑事和民事案件的第一审法院。上诉法院和最高法院是更高层级，宪法委员会是瑞典国会内部机构，不是审判法院。",
+    "questionZhHant": "在許多刑事案件中，哪類法院通常是第一審級？",
+    "optionsZhHant": [
+      "地區法院（tingsrätten）。",
+      "上訴法院（hovrätten）。",
+      "最高法院（Högsta domstolen）。",
+      "憲法委員會（Konstitutionsutskottet）。"
+    ],
+    "explanationZhHant": "地區法院（tingsrätten）是許多刑事和民事案件的第一審法院。上訴法院和最高法院是更高層級，憲法委員會是瑞典國會內部機構，不是審判法院。"
   },
   {
     "id": "draft-ch05-010",
@@ -817,7 +1249,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The court of appeal is an appellate court and can review judgments from district courts.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "上诉法院（hovrätten）做什么？",
+    "optionsZh": [
+      "审查从地区法院上诉的某些案件。",
+      "根据政府提案制定法律。",
+      "任命检察官为警察局长。",
+      "决定市镇的税率。"
+    ],
+    "explanationZh": "上诉法院（hovrätten）是二审法院，可复核地区法院的判决。立法、人事任命和税收都不属于其职责。",
+    "questionZhHant": "上訴法院（hovrätten）做什麼？",
+    "optionsZhHant": [
+      "審查從地區法院上訴的某些案件。",
+      "根據政府提案制定法律。",
+      "任命檢察官為警察局長。",
+      "決定市鎮的稅率。"
+    ],
+    "explanationZhHant": "上訴法院（hovrätten）是二審法院，可複核地區法院的判決。立法、人事任命和稅收都不屬於其職責。"
   },
   {
     "id": "draft-ch05-011",
@@ -846,7 +1294,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Supreme Court mainly hears cases that can guide future interpretation of the law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "最高法院（Högsta domstolen）最重要的职责是什么？",
+    "optionsZh": [
+      "在法律适用上重要的议题中确立判例（prejudikat）。",
+      "自动地第三次审理每个刑事案件。",
+      "选择哪些大臣可以留任。",
+      "统计市镇选举的选票。"
+    ],
+    "explanationZh": "最高法院主要审理能指导未来法律解释的案件，通过判例统一法律适用。它不是所有案件的“第三次审理”，也不负责大臣去留或选票统计。",
+    "questionZhHant": "最高法院（Högsta domstolen）最重要的職責是什麼？",
+    "optionsZhHant": [
+      "在法律適用上重要的議題中確立判例（prejudikat）。",
+      "自動地第三次審理每個刑事案件。",
+      "選擇哪些大臣可以留任。",
+      "統計市鎮選舉的選票。"
+    ],
+    "explanationZhHant": "最高法院主要審理能指導未來法律解釋的案件，通過判例統一法律適用。它不是所有案件的“第三次審理”，也不負責大臣去留或選票統計。"
   },
   {
     "id": "draft-ch05-012",
@@ -875,7 +1339,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Appeal rules are part of legal process and legal certainty.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“对判决提出上诉”是什么意思？",
+    "optionsZh": [
+      "请求更高级别依照规则审查该判决。",
+      "请同一法院对判决再投一次票。",
+      "向警方举报该判决以便重新调查。",
+      "等到判决一年后会自动失效。"
+    ],
+    "explanationZh": "上诉是请求更高审级依法复核判决的程序权利。并非同一法院重投，也不是自动失效，更不是向警方“举报”判决。",
+    "questionZhHant": "“對判決提出上訴”是什麼意思？",
+    "optionsZhHant": [
+      "請求更高級別依照規則審查該判決。",
+      "請同一法院對判決再投一次票。",
+      "向警方舉報該判決以便重新調查。",
+      "等到判決一年後會自動失效。"
+    ],
+    "explanationZhHant": "上訴是請求更高審級依法複核判決的程序權利。並非同一法院重投，也不是自動失效，更不是向警方“舉報”判決。"
   },
   {
     "id": "draft-ch05-013",
@@ -905,7 +1385,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Legal appeals must follow procedural rules, including deadlines and permission requirements in some cases.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人对地区法院的判决不满意。如果这个人想继续走法律途径，最正确的第一步是什么？",
+    "optionsZh": [
+      "查明该判决是否可以上诉，并遵守期限。",
+      "联系政府，请其改判。",
+      "在下次市镇选举中投空白票。",
+      "写信给最高法院，要求自动审查。"
+    ],
+    "explanationZh": "上诉须遵循程序规则，包括期限和某些案件的许可要求。政府不能改判，最高法院也不会自动审查，选举投票更不能替代法律救济。",
+    "questionZhHant": "一個人對地區法院的判決不滿意。如果這個人想繼續走法律途徑，最正確的第一步是什麼？",
+    "optionsZhHant": [
+      "查明該判決是否可以上訴，並遵守期限。",
+      "聯系政府，請其改判。",
+      "在下次市鎮選舉中投空白票。",
+      "寫信給最高法院，要求自動審查。"
+    ],
+    "explanationZhHant": "上訴須遵循程序規則，包括期限和某些案件的許可要求。政府不能改判，最高法院也不會自動審查，選舉投票更不能替代法律救濟。"
   },
   {
     "id": "draft-ch05-014",
@@ -934,7 +1430,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The police work with crime prevention, interventions, and investigations, but courts judge guilt.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "警察（Polisen）的职责是什么？",
+    "optionsZh": [
+      "预防、调查并介入制止犯罪。",
+      "判处刑罚。",
+      "决定新法律。",
+      "为法院挑选法官。"
+    ],
+    "explanationZh": "警方负责预防、介入和侦查犯罪，但定罪由法院作出。立法和为法院选任法官都不属于警方职责。",
+    "questionZhHant": "警察（Polisen）的職責是什麼？",
+    "optionsZhHant": [
+      "預防、調查並介入制止犯罪。",
+      "判處刑罰。",
+      "決定新法律。",
+      "為法院挑選法官。"
+    ],
+    "explanationZhHant": "警方負責預防、介入和偵查犯罪，但定罪由法院作出。立法和為法院選任法官都不屬於警方職責。"
   },
   {
     "id": "draft-ch05-015",
@@ -964,7 +1476,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Police and prosecutors have different roles in criminal investigations and prosecution.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "警察和检察官之间的一项重要区别是什么？",
+    "optionsZh": [
+      "警方通常侦查犯罪，而检察官在许多案件中领导预审并决定是否起诉。",
+      "警方在法庭判决，检察官写市镇预算。",
+      "检察官选择瑞典国会，警方制定法律。",
+      "司法系统中没有区别。"
+    ],
+    "explanationZh": "警方和检察官在刑事侦查与起诉中角色不同：警方侦查，检察官主导预审并决定是否提起公诉。二者都不会去“判决”或“制定法律”。",
+    "questionZhHant": "警察和檢察官之間的一項重要區別是什麼？",
+    "optionsZhHant": [
+      "警方通常偵查犯罪，而檢察官在許多案件中領導預審並決定是否起訴。",
+      "警方在法庭判決，檢察官寫市鎮預算。",
+      "檢察官選擇瑞典國會，警方制定法律。",
+      "司法系統中沒有區別。"
+    ],
+    "explanationZhHant": "警方和檢察官在刑事偵查與起訴中角色不同：警方偵查，檢察官主導預審並決定是否提起公訴。二者都不會去“判決”或“制定法律”。"
   },
   {
     "id": "draft-ch05-016",
@@ -994,7 +1522,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A prosecutor must assess evidence and legal grounds before bringing charges.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "警方怀疑犯罪但证据薄弱。在可能起诉前，检察官的角色是什么？",
+    "optionsZh": [
+      "根据法律要求评估证据是否足以起诉。",
+      "如果媒体要求，就判定当事人有罪。",
+      "请政府选择刑罚。",
+      "让受害人单独决定判决。"
+    ],
+    "explanationZh": "检察官须在起诉前依法评估证据和法律根据。定罪不能由媒体、政府或受害人决定，否则就背离了法治。",
+    "questionZhHant": "警方懷疑犯罪但證據薄弱。在可能起訴前，檢察官的角色是什麼？",
+    "optionsZhHant": [
+      "根據法律要求評估證據是否足以起訴。",
+      "如果媒體要求，就判定當事人有罪。",
+      "請政府選擇刑罰。",
+      "讓受害人單獨決定判決。"
+    ],
+    "explanationZhHant": "檢察官須在起訴前依法評估證據和法律根據。定罪不能由媒體、政府或受害人決定，否則就背離了法治。"
   },
   {
     "id": "draft-ch05-017",
@@ -1023,7 +1567,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Prosecution means the case is brought before a court for trial.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“起诉”（åtal）是什么意思？",
+    "optionsZh": [
+      "检察官将刑事案件提交法院。",
+      "法院制定一部新法律。",
+      "警方当场直接决定刑罚。",
+      "瑞典国会就罪责投票。"
+    ],
+    "explanationZh": "起诉是将案件提交法院审判。制定法律和定罪都不属于起诉的含义，警方也无权当场科刑。",
+    "questionZhHant": "“起訴”（åtal）是什麼意思？",
+    "optionsZhHant": [
+      "檢察官將刑事案件提交法院。",
+      "法院制定一部新法律。",
+      "警方當場直接決定刑罰。",
+      "瑞典國會就罪責投票。"
+    ],
+    "explanationZhHant": "起訴是將案件提交法院審判。制定法律和定罪都不屬於起訴的含義，警方也無權當場科刑。"
   },
   {
     "id": "draft-ch05-018",
@@ -1052,7 +1612,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The presumption of innocence protects people from being treated as guilty before legal proof and judgment.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“无罪推定”（oskuldspresumtion）是什么意思？",
+    "optionsZh": [
+      "嫌疑人在依法证明有罪之前应被视为无罪。",
+      "警方永远不得调查犯罪。",
+      "所有嫌疑人总须被宣告无罪。",
+      "由媒体决定谁有罪。"
+    ],
+    "explanationZh": "无罪推定保护个人在法定证明和判决之前不被当作罪犯对待。它不意味着永远不判罪，也不禁止警方调查或由媒体审判。",
+    "questionZhHant": "“無罪推定”（oskuldspresumtion）是什麼意思？",
+    "optionsZhHant": [
+      "嫌疑人在依法證明有罪之前應被視為無罪。",
+      "警方永遠不得調查犯罪。",
+      "所有嫌疑人總須被宣告無罪。",
+      "由媒體決定誰有罪。"
+    ],
+    "explanationZhHant": "無罪推定保護個人在法定證明和判決之前不被當作罪犯對待。它不意味着永遠不判罪，也不禁止警方調查或由媒體審判。"
   },
   {
     "id": "draft-ch05-019",
@@ -1082,7 +1658,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public accusations are not the same as legal guilt. Courts must examine evidence under legal rules.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人在审判前在社交媒体上被指认。哪个法律视角很重要？",
+    "optionsZh": [
+      "由法院而非社交媒体，根据证明标准判定有罪。",
+      "大量转发就足以当作判决。",
+      "如果舆论强烈，检察官无需证据。",
+      "嫌疑人自动丧失其权利。"
+    ],
+    "explanationZh": "公开指控不等于法律上的有罪。法院必须依法审查证据，舆论不能取代司法判定，嫌疑人也不会自动丧失权利。",
+    "questionZhHant": "一個人在審判前在社交媒體上被指認。哪個法律視角很重要？",
+    "optionsZhHant": [
+      "由法院而非社交媒體，根據證明標準判定有罪。",
+      "大量轉發就足以當作判決。",
+      "如果輿論強烈，檢察官無需證據。",
+      "嫌疑人自動喪失其權利。"
+    ],
+    "explanationZhHant": "公開指控不等於法律上的有罪。法院必須依法審查證據，輿論不能取代司法判定，嫌疑人也不會自動喪失權利。"
   },
   {
     "id": "draft-ch05-020",
@@ -1111,7 +1703,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A trial is the formal legal process where a court examines a case.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是“审判”（rättegång）？",
+    "optionsZh": [
+      "法院对案件的审理。",
+      "瑞典国会中的政治会议。",
+      "政府机关的记者会。",
+      "某政党的内部表决。"
+    ],
+    "explanationZh": "审判是法院正式审理案件的程序，不同于政治会议、行政记者会或政党内部表决。",
+    "questionZhHant": "什麼是“審判”（rättegång）？",
+    "optionsZhHant": [
+      "法院對案件的審理。",
+      "瑞典國會中的政治會議。",
+      "政府機關的記者會。",
+      "某政黨的內部表決。"
+    ],
+    "explanationZhHant": "審判是法院正式審理案件的程序，不同於政治會議、行政記者會或政黨內部表決。"
   },
   {
     "id": "draft-ch05-021",
@@ -1140,7 +1748,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Fair trial rights require impartial handling and possibilities to respond to claims and evidence.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "公平审判（rättvis rättegång）的重要部分是什么？",
+    "optionsZh": [
+      "当事人能够陈述己方，且法院保持中立。",
+      "政府事先决定判决。",
+      "只有一方可以发言。",
+      "法官遵循最流行的舆论。"
+    ],
+    "explanationZh": "公平审判权要求中立处理，并让各方都能对主张和证据作出回应。政府预先定调、只允许一方发言或迎合舆论都违背公平。",
+    "questionZhHant": "公平審判（rättvis rättegång）的重要部分是什麼？",
+    "optionsZhHant": [
+      "當事人能夠陳述己方，且法院保持中立。",
+      "政府事先決定判決。",
+      "只有一方可以發言。",
+      "法官遵循最流行的輿論。"
+    ],
+    "explanationZhHant": "公平審判權要求中立處理，並讓各方都能對主張和證據作出回應。政府預先定調、只允許一方發言或迎合輿論都違背公平。"
   },
   {
     "id": "draft-ch05-022",
@@ -1170,7 +1794,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Courts must be impartial. Conflicts of interest can undermine legal certainty.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名法官与案件一方有密切私人关系。为什么这可能是个问题？",
+    "optionsZh": [
+      "这会损害中立性和对审判的信任。",
+      "这自动使判决更具民主性。",
+      "这意味着瑞典国会必须审判该案。",
+      "只有案件涉及选举时才有关系。"
+    ],
+    "explanationZh": "法院必须中立。利益冲突会损害法律保障，因此存在回避（jäv）制度。它与民主性、国会审判或是否涉及选举都无关。",
+    "questionZhHant": "一名法官與案件一方有密切私人關系。為什麼這可能是個問題？",
+    "optionsZhHant": [
+      "這會損害中立性和對審判的信任。",
+      "這自動使判決更具民主性。",
+      "這意味着瑞典國會必須審判該案。",
+      "只有案件涉及選舉時才有關系。"
+    ],
+    "explanationZhHant": "法院必須中立。利益衝突會損害法律保障，因此存在回避（jäv）制度。它與民主性、國會審判或是否涉及選舉都無關。"
   },
   {
     "id": "draft-ch05-023",
@@ -1199,7 +1839,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Witnesses can provide information, but the court evaluates all evidence.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "审判中的“证人”（vittne）是什么？",
+    "optionsZh": [
+      "一个讲述其知道的、与案件相关事实的人。",
+      "一个总是决定刑罚的人。",
+      "撰写判决的政治家。",
+      "就罪责投票的记者。"
+    ],
+    "explanationZh": "证人提供与案件相关的信息，但法院评估全部证据，刑罚不由证人决定，证人也不是政治家或记者。",
+    "questionZhHant": "審判中的“證人”（vittne）是什麼？",
+    "optionsZhHant": [
+      "一個講述其知道的、與案件相關事實的人。",
+      "一個總是決定刑罰的人。",
+      "撰寫判決的政治家。",
+      "就罪責投票的記者。"
+    ],
+    "explanationZhHant": "證人提供與案件相關的資訊，但法院評估全部證據，刑罰不由證人決定，證人也不是政治家或記者。"
   },
   {
     "id": "draft-ch05-024",
@@ -1228,7 +1884,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Evidence can include witness statements, documents, technical evidence, and other relevant material.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "案件中的“证据”（bevisning）是什么？",
+    "optionsZh": [
+      "用于查明发生了什么的信息或材料。",
+      "各政党的选举海报。",
+      "瑞典国会的席位分配。",
+      "市镇的年度税率。"
+    ],
+    "explanationZh": "证据用于查明事实，可包括证人证言、文件、技术鉴定等。选举海报、席位分配、税率与查明案件事实无关。",
+    "questionZhHant": "案件中的“證據”（bevisning）是什麼？",
+    "optionsZhHant": [
+      "用於查明發生了什麼的資訊或材料。",
+      "各政黨的選舉海報。",
+      "瑞典國會的席位分配。",
+      "市鎮的年度稅率。"
+    ],
+    "explanationZhHant": "證據用於查明事實，可包括證人證言、文件、技術鑑定等。選舉海報、席位分配、稅率與查明案件事實無關。"
   },
   {
     "id": "draft-ch05-025",
@@ -1258,7 +1930,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Courts must assess evidence carefully and give reasons for judgments.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "两个人对同一事件讲述不同。法院应当怎么做？",
+    "optionsZh": [
+      "根据规则评估全部证据，并说明其判断。",
+      "选择社交媒体粉丝最多的人。",
+      "询问政府哪个说法最合适。",
+      "不经审查就把两种说法视为同样真实。"
+    ],
+    "explanationZh": "法院必须审慎评估证据并说明裁判理由，不能凭人气、政府指示或简单“等量齐观”来决定。",
+    "questionZhHant": "兩個人對同一事件講述不同。法院應當怎麼做？",
+    "optionsZhHant": [
+      "根據規則評估全部證據，並說明其判斷。",
+      "選擇社交媒體粉絲最多的人。",
+      "詢問政府哪個說法最合適。",
+      "不經審查就把兩種說法視為同樣真實。"
+    ],
+    "explanationZhHant": "法院必須審慎評估證據並說明裁判理由，不能憑人氣、政府指示或簡單“等量齊觀”來決定。"
   },
   {
     "id": "draft-ch05-026",
@@ -1287,7 +1975,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A crime requires legal support: the act must be punishable under law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是“犯罪”（brott）？",
+    "optionsZh": [
+      "依法应受惩罚的行为。",
+      "任何有人认为不道德的事。",
+      "市镇作出的所有决定。",
+      "两方之间的冲突。"
+    ],
+    "explanationZh": "犯罪须有法律根据：行为必须依法应受惩罚。单纯道德反感或行政决定本身不构成犯罪，普通民事冲突也未必是犯罪。",
+    "questionZhHant": "什麼是“犯罪”（brott）？",
+    "optionsZhHant": [
+      "依法應受懲罰的行為。",
+      "任何有人認為不道德的事。",
+      "市鎮作出的所有決定。",
+      "兩方之間的衝突。"
+    ],
+    "explanationZhHant": "犯罪須有法律根據：行為必須依法應受懲罰。單純道德反感或行政決定本身不構成犯罪，普通民事衝突也未必是犯罪。"
   },
   {
     "id": "draft-ch05-027",
@@ -1317,7 +2021,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The principle protects people from arbitrary punishment.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么“合法性原则”（legalitetsprincipen）在刑法中很重要？",
+    "optionsZh": [
+      "任何人不得在没有法律依据的情况下受惩罚。",
+      "法院应当能在事后创设犯罪。",
+      "警方可以在无法律的情况下自行选择刑罚。",
+      "媒体可以决定哪些行为构成犯罪。"
+    ],
+    "explanationZh": "合法性原则保护人们不受任意惩罚：只有法律明确规定的犯罪才能处罚。法院不能事后造法，警方也不能自行定刑。",
+    "questionZhHant": "為什麼“合法性原則”（legalitetsprincipen）在刑法中很重要？",
+    "optionsZhHant": [
+      "任何人不得在沒有法律依據的情況下受懲罰。",
+      "法院應當能在事後創設犯罪。",
+      "警方可以在無法律的情況下自行選擇刑罰。",
+      "媒體可以決定哪些行為構成犯罪。"
+    ],
+    "explanationZhHant": "合法性原則保護人們不受任意懲罰：只有法律明確規定的犯罪才能處罰。法院不能事後造法，警方也不能自行定刑。"
   },
   {
     "id": "draft-ch05-028",
@@ -1347,7 +2067,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Criminal law is tied to legality and predictability; retroactive punishment is generally not allowed.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个行为发生时并不被禁止，但后来被禁止。合法性思想怎么说？",
+    "optionsZh": [
+      "通常不应因当时不是犯罪的行为而受到溯及既往的惩罚。",
+      "法院总应将新法溯及适用。",
+      "政府可以根据舆论选择刑罚。",
+      "市镇可以决定法律是否存在。"
+    ],
+    "explanationZh": "刑法遵循合法性和可预见性，一般禁止溯及既往的惩罚（事后法不罚）。法院不应把新法倒推适用，政府和市镇也无权决定。",
+    "questionZhHant": "一個行為發生時並不被禁止，但後來被禁止。合法性思想怎麼說？",
+    "optionsZhHant": [
+      "通常不應因當時不是犯罪的行為而受到溯及既往的懲罰。",
+      "法院總應將新法溯及適用。",
+      "政府可以根據輿論選擇刑罰。",
+      "市鎮可以決定法律是否存在。"
+    ],
+    "explanationZhHant": "刑法遵循合法性和可預見性，一般禁止溯及既往的懲罰（事後法不罰）。法院不應把新法倒推適用，政府和市鎮也無權決定。"
   },
   {
     "id": "draft-ch05-029",
@@ -1376,7 +2112,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sanctions are legal consequences decided by courts after conviction.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是“制裁/刑罚”（påföljd）？",
+    "optionsZh": [
+      "某人被判犯罪后的法律后果。",
+      "议会选举中的选票。",
+      "组建政府的一种方式。",
+      "一份市镇学校计划。"
+    ],
+    "explanationZh": "制裁（påföljd）是法院定罪后决定的法律后果，如罚金、缓刑、监禁等，与选票、组阁或学校计划都不是一回事。",
+    "questionZhHant": "什麼是“制裁/刑罰”（påföljd）？",
+    "optionsZhHant": [
+      "某人被判犯罪後的法律後果。",
+      "議會選舉中的選票。",
+      "組建政府的一種方式。",
+      "一份市鎮學校計劃。"
+    ],
+    "explanationZhHant": "制裁（påföljd）是法院定罪後決定的法律後果，如罰金、緩刑、監禁等，與選票、組閣或學校計劃都不是一回事。"
   },
   {
     "id": "draft-ch05-030",
@@ -1405,7 +2157,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "If no appeal is made within the deadline, the judgment gains legal force (vinner laga kraft) and becomes final and enforceable.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "地区法院的判决未在期限内上诉。通常发生什么？",
+    "optionsZh": [
+      "判决产生法律效力（laga kraft）并生效。",
+      "判决自动停止生效。",
+      "上诉法院总会再次审查该案。",
+      "警方决定是否执行判决。"
+    ],
+    "explanationZh": "若未在期限内上诉，判决即产生法律效力（vinner laga kraft），成为终局并可执行。上诉法院不会自动再审，执行也不由警方决定。",
+    "questionZhHant": "地區法院的判決未在期限內上訴。通常發生什麼？",
+    "optionsZhHant": [
+      "判決產生法律效力（laga kraft）並生效。",
+      "判決自動停止生效。",
+      "上訴法院總會再次審查該案。",
+      "警方決定是否執行判決。"
+    ],
+    "explanationZhHant": "若未在期限內上訴，判決即產生法律效力（vinner laga kraft），成為終局並可執行。上訴法院不會自動再審，執行也不由警方決定。"
   },
   {
     "id": "draft-ch05-031",
@@ -1435,7 +2203,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Modern criminal justice includes punishment, public safety, prevention, and reintegration.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么制裁不只是为了惩罚？",
+    "optionsZh": [
+      "它们还可以旨在安全、责任和再适应（重返社会）。",
+      "它们应总使人失业。",
+      "它们由受害人未经法院决定。",
+      "它们取代了法律和证据的需要。"
+    ],
+    "explanationZh": "现代刑事司法兼顾惩罚、公共安全、预防和再社会化（återanpassning）等多重目标。制裁不是要让人失业，也不由受害人私定、取代法律。",
+    "questionZhHant": "為什麼制裁不只是為了懲罰？",
+    "optionsZhHant": [
+      "它們還可以旨在安全、責任和再適應（重返社會）。",
+      "它們應總使人失業。",
+      "它們由受害人未經法院決定。",
+      "它們取代了法律和證據的需要。"
+    ],
+    "explanationZhHant": "現代刑事司法兼顧懲罰、公共安全、預防和再社會化（återanpassning）等多重目標。制裁不是要讓人失業，也不由受害人私定、取代法律。"
   },
   {
     "id": "draft-ch05-032",
@@ -1464,7 +2248,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Crime victims can have rights to support, information, and sometimes compensation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“犯罪受害者”（brottsoffer）是什么意思？",
+    "optionsZh": [
+      "遭受犯罪侵害的人。",
+      "总被定罪的某人。",
+      "刑事案件中的法官。",
+      "提议新法律的政治家。"
+    ],
+    "explanationZh": "犯罪受害者是遭受犯罪侵害的人，可能享有获得支持、信息和赔偿等权利。它不是指罪犯、法官或立法者。",
+    "questionZhHant": "“犯罪受害者”（brottsoffer）是什麼意思？",
+    "optionsZhHant": [
+      "遭受犯罪侵害的人。",
+      "總被定罪的某人。",
+      "刑事案件中的法官。",
+      "提議新法律的政治家。"
+    ],
+    "explanationZhHant": "犯罪受害者是遭受犯罪侵害的人，可能享有獲得支持、資訊和賠償等權利。它不是指罪犯、法官或立法者。"
   },
   {
     "id": "draft-ch05-033",
@@ -1493,7 +2293,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A justice system must handle both suspects’ rights and victims’ needs.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么对犯罪受害人的支持是法治社会的一部分？",
+    "optionsZh": [
+      "犯罪受害者可能在事后需要保护、信息和帮助。",
+      "犯罪受害者应自行决定刑罚。",
+      "犯罪受害者取代所有案件中的检察官。",
+      "犯罪受害者从不需要遵守法律。"
+    ],
+    "explanationZh": "司法制度既要保障嫌疑人权利，也要回应受害人的需求，包括保护、信息与协助。但受害人不决定刑罚、不取代检察官，也仍需守法。",
+    "questionZhHant": "為什麼對犯罪受害人的支持是法治社會的一部分？",
+    "optionsZhHant": [
+      "犯罪受害者可能在事後需要保護、資訊和幫助。",
+      "犯罪受害者應自行決定刑罰。",
+      "犯罪受害者取代所有案件中的檢察官。",
+      "犯罪受害者從不需要遵守法律。"
+    ],
+    "explanationZhHant": "司法制度既要保障嫌疑人權利，也要回應受害人的需求，包括保護、資訊與協助。但受害人不決定刑罰、不取代檢察官，也仍需守法。"
   },
   {
     "id": "draft-ch05-034",
@@ -1523,7 +2339,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Legal systems should provide routes for reporting, support, and protection, while each case is handled under law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人遭受犯罪侵害但不敢报案。哪个回答最符合法律保障？",
+    "optionsZh": [
+      "该人可就其权利和报案程序寻求支持与信息。",
+      "该人必须自己审判犯罪人。",
+      "若报案拖延，该人丧失所有权利。",
+      "只有媒体报道此案时该人才得到帮助。"
+    ],
+    "explanationZh": "法律制度应提供报案、支持与保护的途径，每个案件都依法处理。报案与否不剥夺基本权利，个人也无需自行“审判”犯罪人。",
+    "questionZhHant": "一個人遭受犯罪侵害但不敢報案。哪個回答最符合法律保障？",
+    "optionsZhHant": [
+      "該人可就其權利和報案程序尋求支持與資訊。",
+      "該人必須自己審判犯罪人。",
+      "若報案拖延，該人喪失所有權利。",
+      "只有媒體報道此案時該人才得到幫助。"
+    ],
+    "explanationZhHant": "法律制度應提供報案、支持與保護的途徑，每個案件都依法處理。報案與否不剝奪基本權利，個人也無需自行“審判”犯罪人。"
   },
   {
     "id": "draft-ch05-035",
@@ -1552,7 +2384,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Civil cases concern disputes such as contracts, family matters, or claims, not criminal prosecution.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“民事诉讼”（tvistemål）可能涉及什么？",
+    "optionsZh": [
+      "个人或组织之间的法律冲突。",
+      "检察官提起刑事指控。",
+      "瑞典国会选举议长。",
+      "警方统计选票。"
+    ],
+    "explanationZh": "民事诉讼（tvistemål）处理合同、家庭、索赔等当事人之间的纠纷，不同于刑事追诉、议会选举或选票统计。",
+    "questionZhHant": "“民事訴訟”（tvistemål）可能涉及什麼？",
+    "optionsZhHant": [
+      "個人或組織之間的法律衝突。",
+      "檢察官提起刑事指控。",
+      "瑞典國會選舉議長。",
+      "警方統計選票。"
+    ],
+    "explanationZhHant": "民事訴訟（tvistemål）處理合同、家庭、索賠等當事人之間的糾紛，不同於刑事追訴、議會選舉或選票統計。"
   },
   {
     "id": "draft-ch05-036",
@@ -1581,7 +2429,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The type of case affects parties, process, and legal questions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "刑事案件与民事诉讼之间的一项重要区别是什么？",
+    "optionsZh": [
+      "刑事案件涉及对犯罪的责任，民事诉讼涉及当事人之间的法律冲突。",
+      "民事诉讼总决定谁应进入政府。",
+      "刑事案件只由市镇议会处理。",
+      "法院里没有区别。"
+    ],
+    "explanationZh": "案件类型影响当事人、程序和审理问题：刑事关乎国家追诉犯罪，民事关乎私人之间的权利义务。二者都不会去决定组阁，也不由市镇议会审理。",
+    "questionZhHant": "刑事案件與民事訴訟之間的一項重要區別是什麼？",
+    "optionsZhHant": [
+      "刑事案件涉及對犯罪的責任，民事訴訟涉及當事人之間的法律衝突。",
+      "民事訴訟總決定誰應進入政府。",
+      "刑事案件只由市鎮議會處理。",
+      "法院裡沒有區別。"
+    ],
+    "explanationZhHant": "案件類型影響當事人、程序和審理問題：刑事關乎國家追訴犯罪，民事關乎私人之間的權利義務。二者都不會去決定組閣，也不由市鎮議會審理。"
   },
   {
     "id": "draft-ch05-037",
@@ -1611,7 +2475,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Many everyday legal conflicts are civil disputes unless there is a suspected crime.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "房东和租客就一份协议发生争议。为什么这通常不是刑事案件？",
+    "optionsZh": [
+      "这主要属于当事人之间的民事法律冲突。",
+      "所有租赁纠纷都自动是严重犯罪。",
+      "检察官必须总决定租金。",
+      "瑞典国会直接判决租赁协议。"
+    ],
+    "explanationZh": "许多日常法律纠纷是民事争议，除非涉嫌犯罪（如诈骗、暴力），否则不走刑事程序。检察官不管租金，国会也不直接判协议。",
+    "questionZhHant": "房東和租客就一份協議發生爭議。為什麼這通常不是刑事案件？",
+    "optionsZhHant": [
+      "這主要屬於當事人之間的民事法律衝突。",
+      "所有租賃糾紛都自動是嚴重犯罪。",
+      "檢察官必須總決定租金。",
+      "瑞典國會直接判決租賃協議。"
+    ],
+    "explanationZhHant": "許多日常法律糾紛是民事爭議，除非涉嫌犯罪（如詐騙、暴力），否則不走刑事程序。檢察官不管租金，國會也不直接判協議。"
   },
   {
     "id": "draft-ch05-038",
@@ -1640,7 +2520,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Riksdag enacts Swedish laws. Courts apply law and authorities implement decisions within their responsibilities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个机构负有决定瑞典新法律的民主责任？",
+    "optionsZh": [
+      "瑞典国会（Riksdagen），在适用的立法程序之后。",
+      "警方，在犯罪调查之后。",
+      "最高法院，每次需要判例时。",
+      "选举管理局（Valmyndigheten），在选民名册就绪时。"
+    ],
+    "explanationZh": "瑞典国会（Riksdagen）制定瑞典法律。法院适用法律，政府机关（包括选举管理局）在职责范围内执行决定，都不拥有立法权。",
+    "questionZhHant": "哪個機構負有決定瑞典新法律的民主責任？",
+    "optionsZhHant": [
+      "瑞典國會（Riksdagen），在適用的立法程序之後。",
+      "警方，在犯罪調查之後。",
+      "最高法院，每次需要判例時。",
+      "選舉管理局（Valmyndigheten），在選民名冊就緒時。"
+    ],
+    "explanationZhHant": "瑞典國會（Riksdagen）制定瑞典法律。法院適用法律，政府機關（包括選舉管理局）在職責範圍內執行決定，都不擁有立法權。"
   },
   {
     "id": "draft-ch05-039",
@@ -1670,7 +2566,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Fair trial rights apply even when accusations are serious.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么即使一个人涉嫌严重犯罪，公设辩护人也可能很重要？",
+    "optionsZh": [
+      "辩护权适用于此，以使程序公平。",
+      "严重怀疑意味着不需要辩护律师。",
+      "辩护律师应帮助当事人回避所有问题。",
+      "法院在严重案件中只能听检察官。"
+    ],
+    "explanationZh": "公平审判权在指控严重时同样适用。获得辩护是保障程序公正，而非自动免责；辩护律师不应教唆回避，法院也须听取双方。",
+    "questionZhHant": "為什麼即使一個人涉嫌嚴重犯罪，公設辯護人也可能很重要？",
+    "optionsZhHant": [
+      "辯護權適用於此，以使程序公平。",
+      "嚴重懷疑意味着不需要辯護律師。",
+      "辯護律師應幫助當事人回避所有問題。",
+      "法院在嚴重案件中只能聽檢察官。"
+    ],
+    "explanationZhHant": "公平審判權在指控嚴重時同樣適用。獲得辯護是保障程序公正，而非自動免責；辯護律師不應教唆回避，法院也須聽取雙方。"
   },
   {
     "id": "draft-ch05-040",
@@ -1700,7 +2612,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Consultation can improve law-making, but elected bodies still make political decisions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一份法律提案在“征询意见”（remiss）期间受到政府机关和组织强烈批评。征询程序说明了什么？",
+    "optionsZh": [
+      "在瑞典国会决定之前，可以汇集知识与意见。",
+      "征询机构可以自行阻止所有法律。",
+      "法院总改写政府的提案。",
+      "选民不再有影响力。"
+    ],
+    "explanationZh": "征询意见（remiss）让相关机关和公众在立法前提供反馈，改善立法质量，但政治决定仍由民选机构作出。征询机构无权否决法律，法院也不改写提案。",
+    "questionZhHant": "一份法律提案在“徵詢意見”（remiss）期間受到政府機關和組織強烈批評。徵詢程序說明了什麼？",
+    "optionsZhHant": [
+      "在瑞典國會決定之前，可以彙集知識與意見。",
+      "徵詢機構可以自行阻止所有法律。",
+      "法院總改寫政府的提案。",
+      "選民不再有影響力。"
+    ],
+    "explanationZhHant": "徵詢意見（remiss）讓相關機關和公眾在立法前提供反饋，改善立法質量，但政治決定仍由民選機構作出。徵詢機構無權否決法律，法院也不改寫提案。"
   },
   {
     "id": "draft-ch05-041",
@@ -1729,7 +2657,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Fundamental laws form Sweden’s constitutional framework and are deliberately harder to change than ordinary laws.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，基本法（grundlag）与普通法律有什么区别？",
+    "optionsZh": [
+      "基本法有特别保护，并通过更严格程序修改。",
+      "基本法只适用于市镇和大区。",
+      "基本法由法院在每次审判后撰写。",
+      "基本法比普通法律改得更快。"
+    ],
+    "explanationZh": "瑞典有四部基本法（宪法性法律），构成宪法框架，修改比普通法律更困难，须经两届议会决定且中间经选举。它适用于全国，而非由法院“撰写”。",
+    "questionZhHant": "在瑞典，基本法（grundlag）與普通法律有什麼區別？",
+    "optionsZhHant": [
+      "基本法有特別保護，並通過更嚴格程序修改。",
+      "基本法只適用於市鎮和大區。",
+      "基本法由法院在每次審判後撰寫。",
+      "基本法比普通法律改得更快。"
+    ],
+    "explanationZhHant": "瑞典有四部基本法（憲法性法律），構成憲法框架，修改比普通法律更困難，須經兩屆議會決定且中間經選舉。它適用於全國，而非由法院“撰寫”。"
   },
   {
     "id": "draft-ch05-042",
@@ -1758,7 +2702,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden’s constitution consists of four fundamental laws.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪些属于瑞典的四部基本法？",
+    "optionsZh": [
+      "《政府宪章》（Regeringsformen）、《王位继承法》（Successionsordningen）、《出版自由法》（Tryckfrihetsförordningen）和《言论自由基本法》（Yttrandefrihetsgrundlagen）。",
+      "《刑法典》、《教育法》、《年假法》和《地方政府法》。",
+      "《议会法》、欧盟条约、《警察法》和《选举法》。",
+      "《市镇税法》、《社会服务法》、《租赁法》和《合同法》。"
+    ],
+    "explanationZh": "瑞典宪法由四部基本法构成：Regeringsformen、Successionsordningen、Tryckfrihetsförordningen、Yttrandefrihetsgrundlagen。其余选项列举的都是普通法律或别的文件。",
+    "questionZhHant": "哪些屬於瑞典的四部基本法？",
+    "optionsZhHant": [
+      "《政府憲章》（Regeringsformen）、《王位繼承法》（Successionsordningen）、《出版自由法》（Tryckfrihetsförordningen）和《言論自由基本法》（Yttrandefrihetsgrundlagen）。",
+      "《刑法典》、《教育法》、《年假法》和《地方政府法》。",
+      "《議會法》、歐盟條約、《警察法》和《選舉法》。",
+      "《市鎮稅法》、《社會服務法》、《租賃法》和《合同法》。"
+    ],
+    "explanationZhHant": "瑞典憲法由四部基本法構成：Regeringsformen、Successionsordningen、Tryckfrihetsförordningen、Yttrandefrihetsgrundlagen。其餘選項列舉的都是普通法律或別的文件。"
   },
   {
     "id": "draft-ch05-043",
@@ -1788,7 +2748,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Fundamental laws are harder to change to protect the democratic system from sudden changes.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么修改基本法通常需要两届瑞典国会决定且中间经过一次选举？",
+    "optionsZh": [
+      "为了使修改更缓慢，并给选民作出反应的机会。",
+      "以便法院选择哪些政党可以投票。",
+      "以便政府能在不透明的情况下修改基本法。",
+      "以便市镇对所有法律拥有否决权。"
+    ],
+    "explanationZh": "基本法修改更严格，是为防止民主制度被突然改变，并让选民在两次议会决定之间通过选举表达态度。它不涉及法院选党、政府暗箱或市镇否决。",
+    "questionZhHant": "為什麼修改基本法通常需要兩屆瑞典國會決定且中間經過一次選舉？",
+    "optionsZhHant": [
+      "為了使修改更緩慢，並給選民作出反應的機會。",
+      "以便法院選擇哪些政黨可以投票。",
+      "以便政府能在不透明的情況下修改基本法。",
+      "以便市鎮對所有法律擁有否決權。"
+    ],
+    "explanationZhHant": "基本法修改更嚴格，是為防止民主制度被突然改變，並讓選民在兩次議會決定之間通過選舉表達態度。它不涉及法院選黨、政府暗箱或市鎮否決。"
   },
   {
     "id": "draft-ch05-044",
@@ -1818,7 +2794,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Rights are fundamental, but democratic societies also regulate threats, violence, discrimination, and public order.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "关于自由与权利，哪个说法最准确？",
+    "optionsZh": [
+      "它们很强大，但可以有法律上的限制，例如在威胁或犯罪的情况下。",
+      "它们意味着所有人可以为所欲为而不负责任。",
+      "它们只适用于在议会选举中投票的人。",
+      "它们总可以被某个政府机关取消。"
+    ],
+    "explanationZh": "权利是根本性的，但民主社会也会对威胁、暴力、歧视和公共秩序加以法律限制，并非绝对无限。权利不限于投票者，也不能被某一机关随意取消。",
+    "questionZhHant": "關於自由與權利，哪個說法最準確？",
+    "optionsZhHant": [
+      "它們很強大，但可以有法律上的限制，例如在威脅或犯罪的情況下。",
+      "它們意味着所有人可以為所欲為而不負責任。",
+      "它們只適用於在議會選舉中投票的人。",
+      "它們總可以被某個政府機關取消。"
+    ],
+    "explanationZhHant": "權利是根本性的，但民主社會也會對威脅、暴力、歧視和公共秩序加以法律限制，並非絕對無限。權利不限於投票者，也不能被某一機關隨意取消。"
   },
   {
     "id": "draft-ch05-045",
@@ -1848,7 +2840,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom of expression is protected, but it does not remove criminal responsibility for threats or similar acts.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人说言论自由赋予其威胁他人的权利。最佳回答是什么？",
+    "optionsZh": [
+      "言论自由保护观点，但不赋予实施威胁等犯罪的权利。",
+      "如果威胁发生在网上就成立。",
+      "只有当威胁针对政治家时才成立。",
+      "言论自由在瑞典不适用。"
+    ],
+    "explanationZh": "言论自由受保护，但并不免除对威胁等行为的刑事责任。网上威胁同样可能构成犯罪，与是否针对政治家、是否在瑞典无关。",
+    "questionZhHant": "一個人說言論自由賦予其威脅他人的權利。最佳回答是什麼？",
+    "optionsZhHant": [
+      "言論自由保護觀點，但不賦予實施威脅等犯罪的權利。",
+      "如果威脅發生在網上就成立。",
+      "只有當威脅針對政治家時才成立。",
+      "言論自由在瑞典不適用。"
+    ],
+    "explanationZhHant": "言論自由受保護，但並不免除對威脅等行為的刑事責任。網上威脅同樣可能構成犯罪，與是否針對政治家、是否在瑞典無關。"
   },
   {
     "id": "draft-ch05-046",
@@ -1877,7 +2885,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "State measures must not be more intrusive than justified.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "当国家使用强制措施时，“相称性”（proportionalitet）是什么意思？",
+    "optionsZh": [
+      "措施应与目的和情境保持合理比例。",
+      "政府机关总应先选择最严厉的措施。",
+      "相称性只适用于税收，不适用于司法。",
+      "嫌疑人自行决定使用哪些强制措施。"
+    ],
+    "explanationZh": "比例原则要求国家措施不得过度侵扰，手段须与目的相称。它是限制公权力的关键原则，适用于司法强制措施，而非只管税收，更不能由嫌疑人自选。",
+    "questionZhHant": "當國家使用強制措施時，“相稱性”（proportionalitet）是什麼意思？",
+    "optionsZhHant": [
+      "措施應與目的和情境保持合理比例。",
+      "政府機關總應先選擇最嚴厲的措施。",
+      "相稱性只適用於稅收，不適用於司法。",
+      "嫌疑人自行決定使用哪些強制措施。"
+    ],
+    "explanationZhHant": "比例原則要求國家措施不得過度侵擾，手段須與目的相稱。它是限制公權力的關鍵原則，適用於司法強制措施，而非只管稅收，更不能由嫌疑人自選。"
   },
   {
     "id": "draft-ch05-047",
@@ -1907,7 +2931,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Transparency is important, but secrecy rules can protect privacy, security, and investigations.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "尽管有公开原则，为什么还存在保密？",
+    "optionsZh": [
+      "为了保护某些利益，例如个人信息、安全或敏感调查。",
+      "以便政府机关能隐瞒所有错误。",
+      "以便选民不能监督国家。",
+      "以便法院永不公开。"
+    ],
+    "explanationZh": "透明很重要，但保密规则可保护隐私、安全和调查，平衡公开与个体权益。保密有法定边界，不能用来掩盖一切错误或关闭监督。",
+    "questionZhHant": "盡管有公開原則，為什麼還存在保密？",
+    "optionsZhHant": [
+      "為了保護某些利益，例如個人資訊、安全或敏感調查。",
+      "以便政府機關能隱瞞所有錯誤。",
+      "以便選民不能監督國家。",
+      "以便法院永不公開。"
+    ],
+    "explanationZhHant": "透明很重要，但保密規則可保護隱私、安全和調查，平衡公開與個體權益。保密有法定邊界，不能用來掩蓋一切錯誤或關閉監督。"
   },
   {
     "id": "draft-ch05-048",
@@ -1937,7 +2977,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A document can be partly public and partly confidential depending on legal rules.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名记者向某政府机关索要文件，但某些信息被涂黑。什么可能是正确的解释？",
+    "optionsZh": [
+      "即使文件的其余部分被公开，某些信息仍可能属于保密范围。",
+      "政府机关总可删除一切政治上不便的内容。",
+      "公开原则只在选举年适用。",
+      "记者无权索要文件。"
+    ],
+    "explanationZh": "一份文件可能部分公开、部分保密，取决于法律规定。涂黑（maskning）通常基于法定保密理由，而非政治便利；公开原则和记者申请权常年有效。",
+    "questionZhHant": "一名記者向某政府機關索要文件，但某些資訊被塗黑。什麼可能是正確的解釋？",
+    "optionsZhHant": [
+      "即使文件的其餘部分被公開，某些資訊仍可能屬於保密範圍。",
+      "政府機關總可刪除一切政治上不便的內容。",
+      "公開原則只在選舉年適用。",
+      "記者無權索要文件。"
+    ],
+    "explanationZhHant": "一份文件可能部分公開、部分保密，取決於法律規定。塗黑（maskning）通常基於法定保密理由，而非政治便利；公開原則和記者申請權常年有效。"
   },
   {
     "id": "draft-ch05-049",
@@ -1966,7 +3022,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Legal review means applying legal rules through the proper procedure.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是“法律审查”（rättslig prövning）？",
+    "optionsZh": [
+      "由一个有管辖权的机关根据法律规则对某项事务作出评判。",
+      "由媒体投票决定谁对。",
+      "由市镇选择哪部法律感觉合理。",
+      "由当事人谈判后自行决定判决。"
+    ],
+    "explanationZh": "法律审查指通过正当程序，由适格机关依法裁判。它不属于舆论投票、地方任意选法或私下和解，而是法定的审查机制。",
+    "questionZhHant": "什麼是“法律審查”（rättslig prövning）？",
+    "optionsZhHant": [
+      "由一個有管轄權的機關根據法律規則對某項事務作出評判。",
+      "由媒體投票決定誰對。",
+      "由市鎮選擇哪部法律感覺合理。",
+      "由當事人談判後自行決定判決。"
+    ],
+    "explanationZhHant": "法律審查指通過正當程序，由適格機關依法裁判。它不屬於輿論投票、地方任意選法或私下和解，而是法定的審查機制。"
   },
   {
     "id": "draft-ch05-050",
@@ -1996,7 +3068,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Religion is one of the protected grounds in discrimination law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位雇主因宗教信仰拒绝面试一位合格的求职者。这引发了什么法律问题？",
+    "optionsZh": [
+      "可能的歧视（diskriminering）。",
+      "无记名投票原则。",
+      "瑞典国会的预算权。",
+      "上诉法院的判例角色。"
+    ],
+    "explanationZh": "宗教是反歧视法中的受保护理由之一。因宗教拒绝录用可能构成就业歧视，与投票保密、预算权或判例角色无关。",
+    "questionZhHant": "一位僱主因宗教信仰拒絕面試一位合格的求職者。這引發了什麼法律問題？",
+    "optionsZhHant": [
+      "可能的歧視（diskriminering）。",
+      "無記名投票原則。",
+      "瑞典國會的預算權。",
+      "上訴法院的判例角色。"
+    ],
+    "explanationZhHant": "宗教是反歧視法中的受保護理由之一。因宗教拒絕錄用可能構成就業歧視，與投票保密、預算權或判例角色無關。"
   },
   {
     "id": "draft-ch05-051",
@@ -2026,7 +3114,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democracy depends on equal dignity, equal treatment, and access to rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么反歧视保护对民主很重要？",
+    "optionsZh": [
+      "它强化平等权利和实际参与社会的可能。",
+      "它使所有人必须有相同政治观点。",
+      "它意味着法院无需审查案件。",
+      "它只适用于为国家工作的人。"
+    ],
+    "explanationZh": "民主依赖于平等尊严、平等对待和权利可及。反歧视保护促进人人平等参与社会，并不强制统一政见，也不限于公职人员。",
+    "questionZhHant": "為什麼反歧視保護對民主很重要？",
+    "optionsZhHant": [
+      "它強化平等權利和實際參與社會的可能。",
+      "它使所有人必須有相同政治觀點。",
+      "它意味着法院無需審查案件。",
+      "它只適用於為國家工作的人。"
+    ],
+    "explanationZhHant": "民主依賴於平等尊嚴、平等對待和權利可及。反歧視保護促進人人平等參與社會，並不強制統一政見，也不限於公職人員。"
   },
   {
     "id": "draft-ch05-052",
@@ -2055,7 +3159,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Children have legal rights and Sweden prohibits corporal punishment.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "关于瑞典的儿童，哪个说法正确？",
+    "optionsZh": [
+      "儿童拥有权利，并应受到保护免受暴力和侵犯。",
+      "儿童在满 18 岁前完全没有任何自己的权利。",
+      "父母总可以使用暴力作为管教。",
+      "儿童权利只在学校适用。"
+    ],
+    "explanationZh": "儿童拥有法律权利，瑞典禁止对儿童使用体罚（kroppslig bestraffning）。权利不限于学校，父母也不得以管教为名施暴。",
+    "questionZhHant": "關於瑞典的兒童，哪個說法正確？",
+    "optionsZhHant": [
+      "兒童擁有權利，並應受到保護免受暴力和侵犯。",
+      "兒童在滿 18 歲前完全沒有任何自己的權利。",
+      "父母總可以使用暴力作為管教。",
+      "兒童權利只在學校適用。"
+    ],
+    "explanationZhHant": "兒童擁有法律權利，瑞典禁止對兒童使用體罰（kroppslig bestraffning）。權利不限於學校，父母也不得以管教為名施暴。"
   },
   {
     "id": "draft-ch05-053",
@@ -2085,7 +3205,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish law protects children from violence and degrading treatment.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位成年人说对孩子的体罚是私人家庭事务。瑞典最准确的说法是什么？",
+    "optionsZh": [
+      "儿童即使在家中也受到保护，免受体罚。",
+      "如果目的是管教，父母总可以打孩子。",
+      "这只在公立学校被禁止。",
+      "市镇对每个家庭的规则投票决定。"
+    ],
+    "explanationZh": "瑞典法律保护儿童免受暴力和有辱人格的对待，体罚在家中同样被禁止，不是“家庭私事”，也不由市镇表决。",
+    "questionZhHant": "一位成年人說對孩子的體罰是私人家庭事務。瑞典最準確的說法是什麼？",
+    "optionsZhHant": [
+      "兒童即使在家中也受到保護，免受體罰。",
+      "如果目的是管教，父母總可以打孩子。",
+      "這只在公立學校被禁止。",
+      "市鎮對每個家庭的規則投票決定。"
+    ],
+    "explanationZhHant": "瑞典法律保護兒童免受暴力和有辱人格的對待，體罰在家中同樣被禁止，不是“家庭私事”，也不由市鎮表決。"
   },
   {
     "id": "draft-ch05-054",
@@ -2115,7 +3251,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Children are individuals with rights, and public institutions can have duties to protect them.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么儿童权利既是家庭问题也是社会问题？",
+    "optionsZh": [
+      "儿童是权利主体，社会有责任保护他们。",
+      "儿童权利只在父母批准时适用。",
+      "儿童可自己为家庭写基本法。",
+      "当儿童受害时社会绝不可介入。"
+    ],
+    "explanationZh": "儿童是独立的权利主体，公共机构负有保护职责，可在儿童受伤害时依法介入。儿童权利不取决于父母批准，也不排斥社会保护。",
+    "questionZhHant": "為什麼兒童權利既是家庭問題也是社會問題？",
+    "optionsZhHant": [
+      "兒童是權利主體，社會有責任保護他們。",
+      "兒童權利只在父母批準時適用。",
+      "兒童可自己為家庭寫基本法。",
+      "當兒童受害時社會絕不可介入。"
+    ],
+    "explanationZhHant": "兒童是獨立的權利主體，公共機構負有保護職責，可在兒童受傷害時依法介入。兒童權利不取決於父母批準，也不排斥社會保護。"
   },
   {
     "id": "draft-ch05-055",
@@ -2144,7 +3296,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Rights and freedoms exist together with legal obligations.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在法治社会中，什么是“义务”的一个例子？",
+    "optionsZh": [
+      "遵守法律。",
+      "总为最大政党投票。",
+      "只读国有新闻。",
+      "在所有情况下都拒绝作证。"
+    ],
+    "explanationZh": "权利与自由伴随法律义务。遵守法律是基本义务；投票、阅读新闻和作证都有相应规则，并非无条件的强制或禁止。",
+    "questionZhHant": "在法治社會中，什麼是“義務”的一個例子？",
+    "optionsZhHant": [
+      "遵守法律。",
+      "總為最大政黨投票。",
+      "只讀國有新聞。",
+      "在所有情況下都拒絕作證。"
+    ],
+    "explanationZhHant": "權利與自由伴隨法律義務。遵守法律是基本義務；投票、閱讀新聞和作證都有相應規則，並非無條件的強制或禁止。"
   },
   {
     "id": "draft-ch05-056",
@@ -2174,7 +3342,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Tax obligations must have legal support and democratic legitimacy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么税收与法治社会相关？",
+    "optionsZh": [
+      "税收依民主规则决定，并为共同任务提供资金。",
+      "税收只有在一同意政府时才支付。",
+      "法院为每个人编造税收。",
+      "市镇可在无法律依据下征税。"
+    ],
+    "explanationZh": "纳税义务须有法律依据和民主合法性，税收用于资助公共职能（如教育、医疗、治安）。不同意政府、法院臆造或市镇无据征税都违背法治。",
+    "questionZhHant": "為什麼稅收與法治社會相關？",
+    "optionsZhHant": [
+      "稅收依民主規則決定，並為共同任務提供資金。",
+      "稅收只有在一同意政府時才支付。",
+      "法院為每個人編造稅收。",
+      "市鎮可在無法律依據下徵稅。"
+    ],
+    "explanationZhHant": "納稅義務須有法律依據和民主合法性，稅收用於資助公共職能（如教育、醫療、治安）。不同意政府、法院臆造或市鎮無據徵稅都違背法治。"
   },
   {
     "id": "draft-ch05-057",
@@ -2204,7 +3388,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A democracy allows criticism and change efforts, but law-breaking can still have legal consequences.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人认为法律不公，因此拒绝遵守所有交通规则。更可持续的民主做法是什么？",
+    "optionsZh": [
+      "遵守现行法律，并试图通过民主渠道影响改变。",
+      "自行决定哪些法律适用于他人。",
+      "让社交媒体就刑罚投票。",
+      "无瑞典国会决定就要求废除警方。"
+    ],
+    "explanationZh": "民主允许批评和推动变革，但仍须守法；违法仍可能产生法律后果。改变应通过民主程序，而非个人擅定规则或诉诸舆论投票。",
+    "questionZhHant": "一個人認為法律不公，因此拒絕遵守所有交通規則。更可持續的民主做法是什麼？",
+    "optionsZhHant": [
+      "遵守現行法律，並試圖通過民主渠道影響改變。",
+      "自行決定哪些法律適用於他人。",
+      "讓社交媒體就刑罰投票。",
+      "無瑞典國會決定就要求廢除警方。"
+    ],
+    "explanationZhHant": "民主允許批評和推動變革，但仍須守法；違法仍可能產生法律後果。改變應通過民主程序，而非個人擅定規則或訴諸輿論投票。"
   },
   {
     "id": "draft-ch05-058",
@@ -2233,7 +3433,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Trust helps people accept legal decisions, but scrutiny and legal safeguards remain important.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么对司法系统的信任很重要？",
+    "optionsZh": [
+      "人们需要相信规则被客观、公正地适用。",
+      "这意味着法院永不可被批评。",
+      "这意味着不需要证据。",
+      "它取代所有民主选举。"
+    ],
+    "explanationZh": "信任帮助人们接受法律决定，但监督和法定保障仍然重要。信任不等于放弃批评、放弃证据，也不能替代选举。",
+    "questionZhHant": "為什麼對司法系統的信任很重要？",
+    "optionsZhHant": [
+      "人們需要相信規則被客觀、公正地適用。",
+      "這意味着法院永不可被批評。",
+      "這意味着不需要證據。",
+      "它取代所有民主選舉。"
+    ],
+    "explanationZhHant": "信任幫助人們接受法律決定，但監督和法定保障仍然重要。信任不等於放棄批評、放棄證據，也不能替代選舉。"
   },
   {
     "id": "draft-ch05-059",
@@ -2263,7 +3479,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Perceived corruption or partiality can damage trust in the rule of law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "如果人们认为判决由金钱或政治关系决定，主要受到威胁的是什么？",
+    "optionsZh": [
+      "对法律面前平等和法院中立的信任。",
+      "在选举中投个人票（personröst）的权利。",
+      "大区对公共交通的责任。",
+      "市镇安排学校午餐的权利。"
+    ],
+    "explanationZh": "感知到的腐败或偏袒会损害对法治的信任，削弱法律面前人人平等和法院中立。它与个人投票权、交通或学校午餐都无关。",
+    "questionZhHant": "如果人們認為判決由金錢或政治關系決定，主要受到威脅的是什麼？",
+    "optionsZhHant": [
+      "對法律面前平等和法院中立的信任。",
+      "在選舉中投個人票（personröst）的權利。",
+      "大區對公共交通的責任。",
+      "市鎮安排學校午餐的權利。"
+    ],
+    "explanationZhHant": "感知到的腐敗或偏袒會損害對法治的信任，削弱法律面前人人平等和法院中立。它與個人投票權、交通或學校午餐都無關。"
   },
   {
     "id": "draft-ch05-060",
@@ -2292,7 +3524,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A rule-of-law system has separated roles, legal procedure, impartial courts, and lawful enforcement.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪种情况最能显示一个运转良好的法治社会？",
+    "optionsZh": [
+      "警方侦查犯罪，检察官审查起诉，法院独立判决，制裁依法执行。",
+      "政府决定罪责，媒体选择刑罚，法院确认决定。",
+      "市镇通过政治投票决定刑事案件。",
+      "一位名人因地位重于法律而免于审查。"
+    ],
+    "explanationZh": "法治体系有分工明确的角色、法定程序、中立法院和依法执行。权力不分立、媒体定罪或地位凌驾法律，都会破坏法治。",
+    "questionZhHant": "哪種情況最能顯示一個運轉良好的法治社會？",
+    "optionsZhHant": [
+      "警方偵查犯罪，檢察官審查起訴，法院獨立判決，制裁依法執行。",
+      "政府決定罪責，媒體選擇刑罰，法院確認決定。",
+      "市鎮通過政治投票決定刑事案件。",
+      "一位名人因地位重於法律而免於審查。"
+    ],
+    "explanationZhHant": "法治體系有分工明確的角色、法定程序、中立法院和依法執行。權力不分立、媒體定罪或地位凌駕法律，都會破壞法治。"
   },
   {
     "id": "draft-extra-ch005-012",
@@ -2321,6 +3569,22 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The ban on retroactive criminal law means no one can be punished for an act that was not a crime when committed. Parliament cannot enact laws that apply backwards to criminalize past conduct.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典的“禁止刑法溯及既往”（förbudet mot retroaktiv strafflag）是怎么规定的？",
+    "optionsZh": [
+      "任何人都不能因行为发生时并不构成犯罪的行为而被定罪。",
+      "刑罚总根据判决作出时生效的法律决定。",
+      "瑞典国会可以制定对犯罪溯及既往适用的法律。",
+      "该禁止只适用于危害基本法的犯罪，不适用于普通法律。"
+    ],
+    "explanationZh": "禁止刑法溯及既往意味着不能惩罚行为发生时并非犯罪的行为。议会不得制定溯及既往、将过去行为定为犯罪的法律；该原则适用于所有犯罪，而不仅仅涉及基本法。",
+    "questionZhHant": "瑞典的“禁止刑法溯及既往”（förbudet mot retroaktiv strafflag）是怎麼規定的？",
+    "optionsZhHant": [
+      "任何人都不能因行為發生時並不構成犯罪的行為而被定罪。",
+      "刑罰總根據判決作出時生效的法律決定。",
+      "瑞典國會可以制定對犯罪溯及既往適用的法律。",
+      "該禁止只適用於危害基本法的犯罪，不適用於普通法律。"
+    ],
+    "explanationZhHant": "禁止刑法溯及既往意味着不能懲罰行為發生時並非犯罪的行為。議會不得制定溯及既往、將過去行為定為犯罪的法律；該原則適用於所有犯罪，而不僅僅涉及基本法。"
   }
 ]

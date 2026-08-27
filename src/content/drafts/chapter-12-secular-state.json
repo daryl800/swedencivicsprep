@@ -27,7 +27,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A secular rule-of-law state bases public decisions on law rather than religious authority.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某政府部门要决定一笔补助金的发放。为什么这个决定不应依据经办人的宗教信仰来做出？",
+    "optionsZh": [
+      "公共部门的决定应当基于法律、客观公正和平等对待。",
+      "政府部门应当遵循人数最多宗教的规条。",
+      "经办人始终可以用宗教规条取代法律。",
+      "补助金由宗教团体而非政府部门来决定。"
+    ],
+    "explanationZh": "在世俗的法治国家，公共决定基于法律而非宗教权威。宗教中立意味着经办补助金时必须依据法律与事实，不能以经办人个人信仰来决定谁该得到帮助。",
+    "questionZhHant": "某政府部門要決定一筆補助金的發放。為什麼這個決定不應依據經辦人的宗教信仰來做出？",
+    "optionsZhHant": [
+      "公共部門的決定應當基於法律、客觀公正和平等對待。",
+      "政府部門應當遵循人數最多宗教的規條。",
+      "經辦人始終可以用宗教規條取代法律。",
+      "補助金由宗教團體而非政府部門來決定。"
+    ],
+    "explanationZhHant": "在世俗的法治國家，公共決定基於法律而非宗教權威。宗教中立意味着經辦補助金時必須依據法律與事實，不能以經辦人個人信仰來決定誰該得到幫助。"
   },
   {
     "id": "draft-batch-c-ch12-002",
@@ -57,7 +73,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A secular state treats people equally regardless of religion or worldview.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "国家在对待不同世界观（人生观）时应当保持中立，这是什么意思？",
+    "optionsZh": [
+      "公共权力不应因为某人信教或不信教而给予优待或不利。",
+      "国家应禁止所有宗教团体。",
+      "政府部门应为每个人选定一种世界观。",
+      "中立意味着宗教永远不得在公共场合讨论。"
+    ],
+    "explanationZh": "世俗国家不论宗教或世界观如何，都平等对待每个人。国家不在各种信仰之间站队，也不强迫任何人接受某种人生观。",
+    "questionZhHant": "國家在對待不同世界觀（人生觀）時應當保持中立，這是什麼意思？",
+    "optionsZhHant": [
+      "公共權力不應因為某人信教或不信教而給予優待或不利。",
+      "國家應禁止所有宗教團體。",
+      "政府部門應為每個人選定一種世界觀。",
+      "中立意味着宗教永遠不得在公共場合討論。"
+    ],
+    "explanationZhHant": "世俗國家不論宗教或世界觀如何，都平等對待每個人。國家不在各種信仰之間站隊，也不強迫任何人接受某種人生觀。"
   },
   {
     "id": "draft-batch-c-ch12-003",
@@ -87,7 +119,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A secular school can teach about religions without religious coercion.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么学校关于宗教的教学应当客观、全面？",
+    "optionsZh": [
+      "学校应当传授知识，而不是强迫学生信仰某一宗教。",
+      "学校主要应讲授大多数学生所信的宗教。",
+      "宗教在学校里只能当作个人看法提及。",
+      "学校应完全避开宗教这一主题。"
+    ],
+    "explanationZh": "世俗学校可以讲授宗教知识，但不应进行宗教灌输。教学以传授事实、增进理解为目的，而非让学生皈依某一信仰。",
+    "questionZhHant": "為什麼學校關於宗教的教學應當客觀、全面？",
+    "optionsZhHant": [
+      "學校應當傳授知識，而不是強迫學生信仰某一宗教。",
+      "學校主要應講授大多數學生所信的宗教。",
+      "宗教在學校裡只能當作個人看法提及。",
+      "學校應完全避開宗教這一主題。"
+    ],
+    "explanationZhHant": "世俗學校可以講授宗教知識，但不應進行宗教灌輸。教學以傳授事實、增進理解為目的，而非讓學生皈依某一信仰。"
   },
   {
     "id": "draft-batch-c-ch12-004",
@@ -117,7 +165,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Schools may handle traditions while respecting freedom of religion and conscience.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某所学校庆祝露西亚节（Lucia），但声明参与应出于自愿。这体现了怎样的平衡？",
+    "optionsZh": [
+      "学校可以保留传统，同时不强迫学生以宗教方式参与。",
+      "所有学生都必须参加，因为传统永远是法律。",
+      "庆祝露西亚节会使学校变成宗教团体。",
+      "自愿原则意味着学校根本不能有任何传统。"
+    ],
+    "explanationZh": "学校可以在尊重宗教与良心自由的前提下保留一些文化传统。露西亚节等节庆可作为文化内容存在，但学生不应被强制以宗教方式参与。",
+    "questionZhHant": "某所學校慶祝露西亞節（Lucia），但聲明參與應出於自願。這體現了怎樣的平衡？",
+    "optionsZhHant": [
+      "學校可以保留傳統，同時不強迫學生以宗教方式參與。",
+      "所有學生都必須參加，因為傳統永遠是法律。",
+      "慶祝露西亞節會使學校變成宗教團體。",
+      "自願原則意味着學校根本不能有任何傳統。"
+    ],
+    "explanationZhHant": "學校可以在尊重宗教與良心自由的前提下保留一些文化傳統。露西亞節等節慶可作為文化內容存在，但學生不應被強制以宗教方式參與。"
   },
   {
     "id": "draft-batch-c-ch12-005",
@@ -147,7 +211,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Discrimination protection can apply beyond public authorities, including housing and work.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "房东因某人的宗教信仰而拒绝出租房屋。这会产生什么问题？",
+    "optionsZh": [
+      "这可能构成歧视。",
+      "这是允许的，因为房东对自己的房屋有自由处置权。",
+      "这只在当事人是瑞典公民时才适用。",
+      "这只是政府部门的问题，私人出租不涉及。"
+    ],
+    "explanationZh": "反歧视保护不仅适用于公共部门，也同样适用于住房、就业等私人领域。因宗教而拒绝出租房屋可能属于歧视行为。",
+    "questionZhHant": "房東因某人的宗教信仰而拒絕出租房屋。這會產生什麼問題？",
+    "optionsZhHant": [
+      "這可能構成歧視。",
+      "這是允許的，因為房東對自己的房屋有自由處置權。",
+      "這只在當事人是瑞典公民時才適用。",
+      "這只是政府部門的問題，私人出租不涉及。"
+    ],
+    "explanationZhHant": "反歧視保護不僅適用於公共部門，也同樣適用於住房、就業等私人領域。因宗教而拒絕出租房屋可能屬於歧視行為。"
   },
   {
     "id": "draft-batch-c-ch12-006",
@@ -177,7 +257,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The relationship changed so the church is no longer part of the state in the old way.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典教会（Svenska kyrkan）与国家的分离说明了什么？",
+    "optionsZh": [
+      "瑞典不再像以前那样拥有国家教会。",
+      "瑞典教会仍决定瑞典国会（Riksdagen）的法律。",
+      "宗教团体不再被允许在瑞典活动。",
+      "只有国家才能举办宗教节日。"
+    ],
+    "explanationZh": "2000年政教分离后，瑞典教会不再是国教（国家教会），国家与教会成为相互独立的机构。宗教团体仍可自由活动。",
+    "questionZhHant": "瑞典教會（Svenska kyrkan）與國家的分離說明了什麼？",
+    "optionsZhHant": [
+      "瑞典不再像以前那樣擁有國家教會。",
+      "瑞典教會仍決定瑞典國會（Riksdagen）的法律。",
+      "宗教團體不再被允許在瑞典活動。",
+      "只有國家才能舉辦宗教節日。"
+    ],
+    "explanationZhHant": "2000年政教分離後，瑞典教會不再是國教（國家教會），國家與教會成為相互獨立的機構。宗教團體仍可自由活動。"
   },
   {
     "id": "draft-batch-c-ch12-007",
@@ -207,7 +303,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A secular state applies common law regardless of religious affiliation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某个群体希望用宗教规条取代瑞典家庭法来约束其成员。在瑞典，适用什么规则？",
+    "optionsZh": [
+      "瑞典法律适用，且不能被私人宗教规条所取代。",
+      "对其成员而言，宗教规条始终优先于瑞典法律。",
+      "由市镇决定适用哪种宗教法律。",
+      "家庭法只适用于无宗教信仰的人。"
+    ],
+    "explanationZh": "在世俗国家，法律对所有人都一视同仁。无论宗教归属如何，瑞典法律（包括家庭法）都有效，私人宗教规则不能凌驾于国家法律之上。",
+    "questionZhHant": "某個羣體希望用宗教規條取代瑞典家庭法來約束其成員。在瑞典，適用什麼規則？",
+    "optionsZhHant": [
+      "瑞典法律適用，且不能被私人宗教規條所取代。",
+      "對其成員而言，宗教規條始終優先於瑞典法律。",
+      "由市鎮決定適用哪種宗教法律。",
+      "家庭法只適用於無宗教信仰的人。"
+    ],
+    "explanationZhHant": "在世俗國家，法律對所有人都一視同仁。無論宗教歸屬如何，瑞典法律（包括家庭法）都有效，私人宗教規則不能凌駕於國家法律之上。"
   },
   {
     "id": "draft-batch-c-ch12-008",
@@ -237,7 +349,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Pluralism can require balancing freedom, equality, safety, and practical rules.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么宗教自由在日常生活中既带来自由、也可能引发冲突？",
+    "optionsZh": [
+      "在具体情境中，不同权利与利益可能需要相互权衡。",
+      "宗教自由意味着不可能发生冲突。",
+      "一切宗教要求都始终优先于工作环境和学校。",
+      "国家会自动禁止一切可见的宗教表达。"
+    ],
+    "explanationZh": "宗教自由是权利，但当它与平等、安全、工作环境、学校规定等其他权利或规则相碰时，就需要在具体情况下加以平衡。多元社会正因如此才既保障自由、又需要化解冲突。",
+    "questionZhHant": "為什麼宗教自由在日常生活中既帶來自由、也可能引發衝突？",
+    "optionsZhHant": [
+      "在具體情境中，不同權利與利益可能需要相互權衡。",
+      "宗教自由意味着不可能發生衝突。",
+      "一切宗教要求都始終優先於工作環境和學校。",
+      "國家會自動禁止一切可見的宗教表達。"
+    ],
+    "explanationZhHant": "宗教自由是權利，但當它與平等、安全、工作環境、學校規定等其他權利或規則相碰時，就需要在具體情況下加以平衡。多元社會正因如此才既保障自由、又需要化解衝突。"
   },
   {
     "id": "draft-batch-c-ch12-009",
@@ -267,7 +395,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A secular society can have historical holidays without requiring religious belief.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典虽是世俗国家，为什么某些基督教节日仍可以是公共假日？",
+    "optionsZh": [
+      "它们同时也是社会中的历史与文化传统。",
+      "瑞典仍由教会的法律统治。",
+      "所有人必须以宗教方式庆祝它们。",
+      "其他宗教在假日期间被禁止。"
+    ],
+    "explanationZh": "世俗社会可以有历史性的节日，而不要求公民必须信教。像圣诞节等基督教节日如今更多作为文化与传统被社会共同享有，放假并不等于强制信仰。",
+    "questionZhHant": "瑞典雖是世俗國家，為什麼某些基督教節日仍可以是公共假日？",
+    "optionsZhHant": [
+      "它們同時也是社會中的歷史與文化傳統。",
+      "瑞典仍由教會的法律統治。",
+      "所有人必須以宗教方式慶祝它們。",
+      "其他宗教在假日期間被禁止。"
+    ],
+    "explanationZhHant": "世俗社會可以有歷史性的節日，而不要求公民必須信教。像聖誕節等基督教節日如今更多作為文化與傳統被社會共同享有，放假並不等於強制信仰。"
   },
   {
     "id": "draft-batch-c-ch12-010",
@@ -297,7 +441,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom of religion can be limited to protect children’s rights, health, and safety.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某宗教团体想拒绝为孩子提供必要的医疗救治。国家可以采取什么立场？",
+    "optionsZh": [
+      "儿童受保护与受照料的权利，可以重于成年人的宗教意愿。",
+      "宗教自由始终赋予成年人拒绝给孩子一切医疗的权利。",
+      "国家永远不得保护宗教家庭中的儿童。",
+      "医疗只在儿童本人成年时才适用。"
+    ],
+    "explanationZh": "儿童权利（包括健康与安全）受到法律保护。宗教自由并非绝对，当它危及儿童的生命健康时，国家可限制该自由，优先保护儿童。",
+    "questionZhHant": "某宗教團體想拒絕為孩子提供必要的醫療救治。國家可以採取什麼立場？",
+    "optionsZhHant": [
+      "兒童受保護與受照料的權利，可以重於成年人的宗教意願。",
+      "宗教自由始終賦予成年人拒絕給孩子一切醫療的權利。",
+      "國家永遠不得保護宗教家庭中的兒童。",
+      "醫療只在兒童本人成年時才適用。"
+    ],
+    "explanationZhHant": "兒童權利（包括健康與安全）受到法律保護。宗教自由並非絕對，當它危及兒童的生命健康時，國家可限制該自由，優先保護兒童。"
   },
   {
     "id": "draft-batch-c-ch12-011",
@@ -327,7 +487,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Identity is complex and can include several forms of belonging.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么一个人可以同时拥有多重身份认同？",
+    "optionsZh": [
+      "例如，一个人可以通过语言、宗教、地域和经历而产生归属感。",
+      "瑞典法律每人只允许有一种身份。",
+      "身份总是由国家出生时决定。",
+      "宗教会抹去身份的所有其他部分。"
+    ],
+    "explanationZh": "身份认同是复杂的，可以由语言、宗教、地域、经历等多种归属感共同构成。一个人既可以是某国人，也可能同时是某宗教的信徒、某地区的居民等。",
+    "questionZhHant": "為什麼一個人可以同時擁有多重身份認同？",
+    "optionsZhHant": [
+      "例如，一個人可以通過語言、宗教、地域和經歷而產生歸屬感。",
+      "瑞典法律每人只允許有一種身份。",
+      "身份總是由國家出生時決定。",
+      "宗教會抹去身份的所有其他部分。"
+    ],
+    "explanationZhHant": "身份認同是複雜的，可以由語言、宗教、地域、經歷等多種歸屬感共同構成。一個人既可以是某國人，也可能同時是某宗教的信徒、某地區的居民等。"
   },
   {
     "id": "draft-batch-c-ch12-012",
@@ -357,7 +533,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Understanding diversity can reduce stereotypes and improve coexistence.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么了解不同宗教可以减少偏见？",
+    "optionsZh": [
+      "知识能让人更容易理解差异，并看到群体内部的多样性。",
+      "知识会让所有人想法一致。",
+      "只有禁止宗教才能减少偏见。",
+      "民主社会不得讨论不同宗教。"
+    ],
+    "explanationZh": "了解宗教有助于理解差异，并认识到同一宗教群体内部也有许多不同，从而减少以偏概全的刻板印象，促进共处。",
+    "questionZhHant": "為什麼了解不同宗教可以減少偏見？",
+    "optionsZhHant": [
+      "知識能讓人更容易理解差異，並看到羣體內部的多樣性。",
+      "知識會讓所有人想法一致。",
+      "只有禁止宗教才能減少偏見。",
+      "民主社會不得討論不同宗教。"
+    ],
+    "explanationZhHant": "了解宗教有助於理解差異，並認識到同一宗教羣體內部也有許多不同，從而減少以偏概全的刻板印象，促進共處。"
   },
   {
     "id": "draft-batch-c-ch12-013",
@@ -387,7 +579,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Workplaces may handle diversity through reasonable planning while considering equal treatment and operations.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某工作场所尝试安排班次，以便在不同宗教节日时尽量予以尊重。这体现了什么？",
+    "optionsZh": [
+      "雇主可以在业务需要和平等对待的框架内，对宗教多样性给予务实的考虑。",
+      "雇主必须在所有宗教节日停业。",
+      "工作场所只可关注多数群体的节日。",
+      "有宗教信仰的员工不得上周末班。"
+    ],
+    "explanationZh": "工作场所可以在不违背运营需要与平等原则的前提下，通过合理排班来兼顾宗教多样性。这不等于必须停工，也不等于只尊重多数宗教。",
+    "questionZhHant": "某工作場所嘗試安排班次，以便在不同宗教節日時盡量予以尊重。這體現了什麼？",
+    "optionsZhHant": [
+      "僱主可以在業務需要和平等對待的框架內，對宗教多樣性給予務實的考慮。",
+      "僱主必須在所有宗教節日停業。",
+      "工作場所只可關注多數羣體的節日。",
+      "有宗教信仰的員工不得上周末班。"
+    ],
+    "explanationZhHant": "工作場所可以在不違背運營需要與平等原則的前提下，通過合理排班來兼顧宗教多樣性。這不等於必須停工，也不等於只尊重多數宗教。"
   },
   {
     "id": "draft-batch-c-ch12-014",
@@ -417,7 +625,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Political rights should not depend on religious belief.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么信教者与不信教者都能参与民主生活很重要？",
+    "optionsZh": [
+      "民主建立在平等的政治权利之上，不论宗教或世界观如何。",
+      "只有信教者才能组建政党。",
+      "不信教者只能在市镇选举中投票。",
+      "宗教决定一个人有多少张选票。"
+    ],
+    "explanationZh": "民主的政治权利不取决于宗教信仰。无论信教与否，公民都享有同等的选举权、被选举权与结社等政治权利。",
+    "questionZhHant": "為什麼信教者與不信教者都能參與民主生活很重要？",
+    "optionsZhHant": [
+      "民主建立在平等的政治權利之上，不論宗教或世界觀如何。",
+      "只有信教者才能組建政黨。",
+      "不信教者只能在市鎮選舉中投票。",
+      "宗教決定一個人有多少張選票。"
+    ],
+    "explanationZhHant": "民主的政治權利不取決於宗教信仰。無論信教與否，公民都享有同等的選舉權、被選舉權與結社等政治權利。"
   },
   {
     "id": "draft-batch-c-ch12-015",
@@ -447,7 +671,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Objectivity means public power should be exercised according to relevant law and facts.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "与政府部门打交道时，“客观公正”（saklighet）是什么意思？",
+    "optionsZh": [
+      "政府部门应依据相关规则与事实来审理事项。",
+      "经办人可依照个人观点行事。",
+      "部门只帮助与其同宗教的人。",
+      "部门可不顾规则选择最快捷的方案。"
+    ],
+    "explanationZh": "客观公正是公共权力的基本原则：部门须依据相关法律和事实处理事务，不受经办人个人好恶或宗教信仰影响。",
+    "questionZhHant": "與政府部門打交道時，“客觀公正”（saklighet）是什麼意思？",
+    "optionsZhHant": [
+      "政府部門應依據相關規則與事實來審理事項。",
+      "經辦人可依照個人觀點行事。",
+      "部門只幫助與其同宗教的人。",
+      "部門可不顧規則選擇最快捷的方案。"
+    ],
+    "explanationZhHant": "客觀公正是公共權力的基本原則：部門須依據相關法律和事實處理事務，不受經辦人個人好惡或宗教信仰影響。"
   },
   {
     "id": "draft-ch12-001",
@@ -476,7 +716,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A secular state means political power and public law are not governed by or based on a specific religion.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典是一个世俗国家，这意味着什么？",
+    "optionsZh": [
+      "国家不受某一宗教统治。",
+      "瑞典教会（Svenska kyrkan）决定瑞典国会（Riksdagen）的法律。",
+      "所有居民必须同属一个宗教团体。",
+      "宗教领袖任命政府。"
+    ],
+    "explanationZh": "世俗国家指政治权力与公共法律不由某一宗教主导。瑞典的国家权力基于民主与法律，而非宗教信仰。",
+    "questionZhHant": "瑞典是一個世俗國家，這意味着什麼？",
+    "optionsZhHant": [
+      "國家不受某一宗教統治。",
+      "瑞典教會（Svenska kyrkan）決定瑞典國會（Riksdagen）的法律。",
+      "所有居民必須同屬一個宗教團體。",
+      "宗教領袖任命政府。"
+    ],
+    "explanationZhHant": "世俗國家指政治權力與公共法律不由某一宗教主導。瑞典的國家權力基於民主與法律，而非宗教信仰。"
   },
   {
     "id": "draft-ch12-002",
@@ -505,7 +761,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom of religion protects both belief and non-belief.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，宗教自由意味着什么？",
+    "optionsZh": [
+      "可以拥有某种宗教、改信其他宗教，或完全不信教。",
+      "由国家为每位居民选定宗教。",
+      "只有古老宗教才被允许。",
+      "宗教始终优先于瑞典法律。"
+    ],
+    "explanationZh": "宗教自由保护信仰与不信仰两方面：人人有权选择信教、改宗或保持无信仰，国家不替个人决定。",
+    "questionZhHant": "在瑞典，宗教自由意味着什麼？",
+    "optionsZhHant": [
+      "可以擁有某種宗教、改信其他宗教，或完全不信教。",
+      "由國家為每位居民選定宗教。",
+      "只有古老宗教才被允許。",
+      "宗教始終優先於瑞典法律。"
+    ],
+    "explanationZhHant": "宗教自由保護信仰與不信仰兩方面：人人有權選擇信教、改宗或保持無信仰，國家不替個人決定。"
   },
   {
     "id": "draft-ch12-003",
@@ -534,7 +806,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Religious freedom includes the right not to believe.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "不信仰任何宗教的人拥有什么权利？",
+    "optionsZh": [
+      "该人有权不信奉任何宗教。",
+      "该人须在18岁时选定一个宗教团体。",
+      "该人不得参与社会讨论。",
+      "该人必须向教会额外纳税。"
+    ],
+    "explanationZh": "宗教自由也包括不信教的权利。国家不强迫任何人加入宗教团体，也不因无信仰而施加惩罚或额外税负。",
+    "questionZhHant": "不信仰任何宗教的人擁有什麼權利？",
+    "optionsZhHant": [
+      "該人有權不信奉任何宗教。",
+      "該人須在18歲時選定一個宗教團體。",
+      "該人不得參與社會討論。",
+      "該人必須向教會額外納稅。"
+    ],
+    "explanationZhHant": "宗教自由也包括不信教的權利。國家不強迫任何人加入宗教團體，也不因無信仰而施加懲罰或額外稅負。"
   },
   {
     "id": "draft-ch12-004",
@@ -563,7 +851,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Since 2000, the Church of Sweden is no longer a state church.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "2000年，瑞典教会（Svenska kyrkan）与国家的关系发生了什么变化？",
+    "optionsZh": [
+      "瑞典教会与国家分离，成为一个独立的宗教团体。",
+      "瑞典教会接管了所有市镇学校事务。",
+      "法律禁止了除瑞典教会外的所有其他宗教团体。",
+      "国家接管了瑞典所有宗教建筑的所有权。"
+    ],
+    "explanationZh": "自2000年起，瑞典教会不再具有国教（国家教会）地位，与国家正式分离，成为独立的宗教团体。其他宗教团体此前就已合法存在。",
+    "questionZhHant": "2000年，瑞典教會（Svenska kyrkan）與國家的關系發生了什麼變化？",
+    "optionsZhHant": [
+      "瑞典教會與國家分離，成為一個獨立的宗教團體。",
+      "瑞典教會接管了所有市鎮學校事務。",
+      "法律禁止了除瑞典教會外的所有其他宗教團體。",
+      "國家接管了瑞典所有宗教建築的所有權。"
+    ],
+    "explanationZhHant": "自2000年起，瑞典教會不再具有國教（國家教會）地位，與國家正式分離，成為獨立的宗教團體。其他宗教團體此前就已合法存在。"
   },
   {
     "id": "draft-ch12-005",
@@ -592,7 +896,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Multi-religious means there is religious and worldview diversity in society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "说瑞典是一个多宗教国家，是什么意思？",
+    "optionsZh": [
+      "瑞典人可以拥有多种不同的宗教与世界观。",
+      "所有宗教有同一位领袖。",
+      "国家要求所有人庆祝同一宗教节日。",
+      "市镇决定哪些宗教是“真”的。"
+    ],
+    "explanationZh": "多宗教社会指社会中存在宗教与世界观的多样性。瑞典既有基督教传统，也有大量其他宗教和无信仰者。",
+    "questionZhHant": "說瑞典是一個多宗教國家，是什麼意思？",
+    "optionsZhHant": [
+      "瑞典人可以擁有多種不同的宗教與世界觀。",
+      "所有宗教有同一位領袖。",
+      "國家要求所有人慶祝同一宗教節日。",
+      "市鎮決定哪些宗教是“真”的。"
+    ],
+    "explanationZhHant": "多宗教社會指社會中存在宗教與世界觀的多樣性。瑞典既有基督教傳統，也有大量其他宗教和無信仰者。"
   },
   {
     "id": "draft-ch12-006",
@@ -621,7 +941,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom of religion is protected, but actions must still follow the law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，关于宗教行为适用什么规则？",
+    "optionsZh": [
+      "宗教行为必须遵守瑞典法律。",
+      "它们始终凌驾于法院判决之上。",
+      "媒体永远不得批评它们。",
+      "它们每年由ZF决定。"
+    ],
+    "explanationZh": "宗教自由受保护，但宗教行为仍须在法律框架内进行。宗教规条不能凌驾于法律与法院裁决。",
+    "questionZhHant": "在瑞典，關於宗教行為適用什麼規則？",
+    "optionsZhHant": [
+      "宗教行為必須遵守瑞典法律。",
+      "它們始終凌駕於法院判決之上。",
+      "媒體永遠不得批評它們。",
+      "它們每年由ZF決定。"
+    ],
+    "explanationZhHant": "宗教自由受保護，但宗教行為仍須在法律框架內進行。宗教規條不能凌駕於法律與法院裁決。"
   },
   {
     "id": "draft-ch12-007",
@@ -650,7 +986,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Discrimination means unfair treatment linked to protected grounds, including religion or belief.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "因宗教而受歧视是什么意思？",
+    "optionsZh": [
+      "某人因其宗教或信仰而受到较差的对待。",
+      "某人可以选择自己的信仰。",
+      "某人去一处宗教建筑。",
+      "某人在学校学习宗教。"
+    ],
+    "explanationZh": "歧视指因受保护的特征（包括宗教或信仰）而对人作出不公平对待。因宗教而区别对待属于歧视。",
+    "questionZhHant": "因宗教而受歧視是什麼意思？",
+    "optionsZhHant": [
+      "某人因其宗教或信仰而受到較差的對待。",
+      "某人可以選擇自己的信仰。",
+      "某人去一處宗教建築。",
+      "某人在學校學習宗教。"
+    ],
+    "explanationZhHant": "歧視指因受保護的特徵（包括宗教或信仰）而對人作出不公平對待。因宗教而區別對待屬於歧視。"
   },
   {
     "id": "draft-ch12-008",
@@ -679,7 +1031,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "School education about religion is knowledge-based and helps pupils understand society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么学生在学校要学习不同的宗教？",
+    "optionsZh": [
+      "为了理解社会与不同的世界观。",
+      "为了让学校把学生变成信徒。",
+      "为了让所有学生改宗。",
+      "为了用宗教规条取代瑞典法律。"
+    ],
+    "explanationZh": "学校讲授宗教知识以增进学生对社会的理解，属于知识性教学，而非宗教灌输。",
+    "questionZhHant": "為什麼學生在學校要學習不同的宗教？",
+    "optionsZhHant": [
+      "為了理解社會與不同的世界觀。",
+      "為了讓學校把學生變成信徒。",
+      "為了讓所有學生改宗。",
+      "為了用宗教規條取代瑞典法律。"
+    ],
+    "explanationZhHant": "學校講授宗教知識以增進學生對社會的理解，屬於知識性教學，而非宗教灌輸。"
   },
   {
     "id": "draft-ch12-009",
@@ -708,7 +1076,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public authorities must act objectively and treat people equally.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "政府部门应如何对待持不同宗教的人？",
+    "optionsZh": [
+      "依法客观、平等地对待。",
+      "依多数宗教不同而区别对待。",
+      "依地方宗教领袖的决定。",
+      "仅当此人公开表明信仰时。"
+    ],
+    "explanationZh": "公共部门须依法客观、平等地对待所有人，不因宗教归属而区别。",
+    "questionZhHant": "政府部門應如何對待持不同宗教的人？",
+    "optionsZhHant": [
+      "依法客觀、平等地對待。",
+      "依多數宗教不同而區別對待。",
+      "依地方宗教領袖的決定。",
+      "僅當此人公開表明信仰時。"
+    ],
+    "explanationZhHant": "公共部門須依法客觀、平等地對待所有人，不因宗教歸屬而區別。"
   },
   {
     "id": "draft-ch12-010",
@@ -737,7 +1121,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A life stance can be religious or non-religious and concerns basic views and values.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是世界观（人生观）？",
+    "optionsZh": [
+      "对生命、人及重要价值的看法。",
+      "关于哪些宗教被批准的国家法律。",
+      "某政党或工会的会员身份。",
+      "市镇共同庆祝的宗教节日。"
+    ],
+    "explanationZh": "世界观（人生观）指一个人对人生、人性与根本价值的看法，可以是宗教性的，也可以是非宗教性的。",
+    "questionZhHant": "什麼是世界觀（人生觀）？",
+    "optionsZhHant": [
+      "對生命、人及重要價值的看法。",
+      "關於哪些宗教被批準的國家法律。",
+      "某政黨或工會的會員身份。",
+      "市鎮共同慶祝的宗教節日。"
+    ],
+    "explanationZhHant": "世界觀（人生觀）指一個人對人生、人性與根本價值的看法，可以是宗教性的，也可以是非宗教性的。"
   },
   {
     "id": "draft-ch12-011",
@@ -766,7 +1166,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Adults decide for themselves whether they want to belong to a religious community.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "通常谁来决定一个成年人是否愿意加入宗教团体？",
+    "optionsZh": [
+      "本人。",
+      "市镇议会。",
+      "雇主。",
+      "税务局（Skatteverket）。"
+    ],
+    "explanationZh": "成年人有权自行决定是否加入宗教团体，国家、雇主或税务机构都无权替其决定。",
+    "questionZhHant": "通常誰來決定一個成年人是否願意加入宗教團體？",
+    "optionsZhHant": [
+      "本人。",
+      "市鎮議會。",
+      "僱主。",
+      "稅務局（Skatteverket）。"
+    ],
+    "explanationZhHant": "成年人有權自行決定是否加入宗教團體，國家、僱主或稅務機構都無權替其決定。"
   },
   {
     "id": "draft-ch12-012",
@@ -795,7 +1211,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democratic rights apply regardless of religion or belief.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在多宗教社会中，哪一说法最贴切？",
+    "optionsZh": [
+      "人们可以秉持不同信仰，却仍享有同等的民主权利。",
+      "只有最大宗教可在公共场合出现。",
+      "公民身份要求加入宗教团体。",
+      "所有宗教群体必须有相同传统。"
+    ],
+    "explanationZh": "民主权利与宗教或信仰无关。在多宗教社会中，不同信仰者享有同等权利。",
+    "questionZhHant": "在多宗教社會中，哪一說法最貼切？",
+    "optionsZhHant": [
+      "人們可以秉持不同信仰，卻仍享有同等的民主權利。",
+      "只有最大宗教可在公共場合出現。",
+      "公民身份要求加入宗教團體。",
+      "所有宗教羣體必須有相同傳統。"
+    ],
+    "explanationZhHant": "民主權利與宗教或信仰無關。在多宗教社會中，不同信仰者享有同等權利。"
   },
   {
     "id": "draft-ch12-013",
@@ -824,7 +1256,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "In Sweden, laws are decided by the Riksdag, not by religious institutions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，谁来决定法律？",
+    "optionsZh": [
+      "瑞典国会（Riksdagen）。",
+      "瑞典教会（Svenska kyrkan）。",
+      "宗教团体委员会。",
+      "各市镇的教务会议。"
+    ],
+    "explanationZh": "瑞典法律由瑞典国会（Riksdagen）制定，而非由宗教机构决定。",
+    "questionZhHant": "在瑞典，誰來決定法律？",
+    "optionsZhHant": [
+      "瑞典國會（Riksdagen）。",
+      "瑞典教會（Svenska kyrkan）。",
+      "宗教團體委員會。",
+      "各市鎮的教務會議。"
+    ],
+    "explanationZhHant": "瑞典法律由瑞典國會（Riksdagen）制定，而非由宗教機構決定。"
   },
   {
     "id": "draft-ch12-014",
@@ -853,7 +1301,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom of religion includes the right to change religion.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "改宗意味着什么？",
+    "optionsZh": [
+      "某人离开一种信仰并选择另一种。",
+      "国家每年更换官方宗教。",
+      "某人丧失公民权利。",
+      "由学校决定学生的个人信念。"
+    ],
+    "explanationZh": "改宗指个人放弃原有信仰、选择另一信仰。宗教自由包含改宗的权利，且改宗不导致丧失任何公民权利。",
+    "questionZhHant": "改宗意味着什麼？",
+    "optionsZhHant": [
+      "某人離開一種信仰並選擇另一種。",
+      "國家每年更換官方宗教。",
+      "某人喪失公民權利。",
+      "由學校決定學生的個人信念。"
+    ],
+    "explanationZhHant": "改宗指個人放棄原有信仰、選擇另一信仰。宗教自由包含改宗的權利，且改宗不導致喪失任何公民權利。"
   },
   {
     "id": "draft-ch12-015",
@@ -882,7 +1346,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Respect for different beliefs supports equality and peaceful coexistence.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在民主制度中，为什么尊重不同信仰很重要？",
+    "optionsZh": [
+      "为使不同背景的人能在平等权利下共同生活。",
+      "为使所有政治决定都在宗教场所作出。",
+      "为使只有信教者能投票。",
+      "为使法院被宗教委员会取代。"
+    ],
+    "explanationZh": "尊重不同信仰支持平等与和平共处。民主不因信仰差异而剥夺任何人的权利。",
+    "questionZhHant": "在民主制度中，為什麼尊重不同信仰很重要？",
+    "optionsZhHant": [
+      "為使不同背景的人能在平等權利下共同生活。",
+      "為使所有政治決定都在宗教場所作出。",
+      "為使只有信教者能投票。",
+      "為使法院被宗教委員會取代。"
+    ],
+    "explanationZhHant": "尊重不同信仰支持平等與和平共處。民主不因信仰差異而剝奪任何人的權利。"
   },
   {
     "id": "draft-ch12-016",
@@ -911,7 +1391,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom of expression and religion allow public expression within legal limits.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，人们可以公开表达自己的信仰吗？",
+    "optionsZh": [
+      "可以，只要遵守法律并尊重他人权利。",
+      "不可以，宗教只可存在于家中。",
+      "可以，但须经市镇逐句批准。",
+      "不可以，只有政治观点可表达。"
+    ],
+    "explanationZh": "宗教自由与言论自由允许在公共场合表达信仰，但须在法律限度内，且不得侵犯他人权利或构成仇恨言论。",
+    "questionZhHant": "在瑞典，人們可以公開表達自己的信仰嗎？",
+    "optionsZhHant": [
+      "可以，只要遵守法律並尊重他人權利。",
+      "不可以，宗教只可存在於家中。",
+      "可以，但須經市鎮逐句批準。",
+      "不可以，只有政治觀點可表達。"
+    ],
+    "explanationZhHant": "宗教自由與言論自由允許在公共場合表達信仰，但須在法律限度內，且不得侵犯他人權利或構成仇恨言論。"
   },
   {
     "id": "draft-ch12-017",
@@ -940,7 +1436,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A religious community organizes people around a religion.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是宗教团体？",
+    "optionsZh": [
+      "由有宗教信仰的人组成的组织化群体。",
+      "监督教会的国家机构。",
+      "处理选举议题的政治社团。",
+      "处理文化事务的市镇委员会。"
+    ],
+    "explanationZh": "宗教团体指围绕某一宗教信仰组织起来的人群共同体，如教会、清真寺团体、犹太会堂等。它并非国家机构。",
+    "questionZhHant": "什麼是宗教團體？",
+    "optionsZhHant": [
+      "由有宗教信仰的人組成的組織化羣體。",
+      "監督教會的國家機構。",
+      "處理選舉議題的政治社團。",
+      "處理文化事務的市鎮委員會。"
+    ],
+    "explanationZhHant": "宗教團體指圍繞某一宗教信仰組織起來的人羣共同體，如教會、清真寺團體、猶太會堂等。它並非國家機構。"
   },
   {
     "id": "draft-ch12-018",
@@ -969,7 +1481,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Children have rights, including freedom of thought, conscience, and religion.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "儿童也享有宗教自由吗？",
+    "optionsZh": [
+      "有，儿童的权利应根据其年龄和成熟度予以尊重。",
+      "没有，18岁前儿童无任何自身权利。",
+      "有，但仅当他们属于多数宗教时。",
+      "没有，学校总决定儿童的宗教。"
+    ],
+    "explanationZh": "儿童也享有权利，包括思想、良心和宗教自由。其行使须结合年龄与成熟度，并受监护人引导与国家保护。",
+    "questionZhHant": "兒童也享有宗教自由嗎？",
+    "optionsZhHant": [
+      "有，兒童的權利應根據其年齡和成熟度予以尊重。",
+      "沒有，18歲前兒童無任何自身權利。",
+      "有，但僅當他們屬於多數宗教時。",
+      "沒有，學校總決定兒童的宗教。"
+    ],
+    "explanationZhHant": "兒童也享有權利，包括思想、良心和宗教自由。其行使須結合年齡與成熟度，並受監護人引導與國家保護。"
   },
   {
     "id": "draft-ch12-019",
@@ -998,7 +1526,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Independent schools in Sweden may have a confessional orientation, but teaching must still follow the curriculum and be objective.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "对瑞典的一所私立（独立）学校而言，带有宗教倾向意味着什么？",
+    "optionsZh": [
+      "学校可以有宗教倾向，但所有教学仍须遵循课程大纲并保持客观。",
+      "所有公立学校须信奉同一宗教。",
+      "所有科目的教学都被祈祷取代。",
+      "学生丧失了解其他宗教的权利。"
+    ],
+    "explanationZh": "瑞典的私立（独立）学校可以带有宗教倾向，但仍须遵循国家课程大纲，且教学应客观、不强迫学生皈依。",
+    "questionZhHant": "對瑞典的一所私立（獨立）學校而言，帶有宗教傾向意味着什麼？",
+    "optionsZhHant": [
+      "學校可以有宗教傾向，但所有教學仍須遵循課程大綱並保持客觀。",
+      "所有公立學校須信奉同一宗教。",
+      "所有科目的教學都被祈禱取代。",
+      "學生喪失了解其他宗教的權利。"
+    ],
+    "explanationZhHant": "瑞典的私立（獨立）學校可以帶有宗教傾向，但仍須遵循國家課程大綱，且教學應客觀、不強迫學生皈依。"
   },
   {
     "id": "draft-ch12-020",
@@ -1027,7 +1571,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Diversity means differences in society, for example in religion, language, and background.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个词最能描述瑞典人可以拥有不同宗教、语言与背景？",
+    "optionsZh": [
+      "多样性（Mångfald）。",
+      "性别平等。",
+      "公民投票。",
+      "社会安全网。"
+    ],
+    "explanationZh": "多样性指社会中在宗教、语言、背景等方面的差异。瑞典是一个多元社会。",
+    "questionZhHant": "哪個詞最能描述瑞典人可以擁有不同宗教、語言與背景？",
+    "optionsZhHant": [
+      "多樣性（Mångfald）。",
+      "性別平等。",
+      "公民投票。",
+      "社會安全網。"
+    ],
+    "explanationZhHant": "多樣性指社會中在宗教、語言、背景等方面的差異。瑞典是一個多元社會。"
   },
   {
     "id": "draft-ch12-021",
@@ -1056,7 +1616,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Religious neutrality helps the state protect equal rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么国家保持宗教中立很重要？",
+    "optionsZh": [
+      "为使所有居民不论信仰都能被平等对待。",
+      "为使国家能为每个市镇选一种宗教。",
+      "为使宗教组织能撰写法院判决。",
+      "为使选举权取决于是否加入宗教团体。"
+    ],
+    "explanationZh": "宗教中立使国家能平等保护所有人权利，不因信仰而偏袒或歧视。",
+    "questionZhHant": "為什麼國家保持宗教中立很重要？",
+    "optionsZhHant": [
+      "為使所有居民不論信仰都能被平等對待。",
+      "為使國家能為每個市鎮選一種宗教。",
+      "為使宗教組織能撰寫法院判決。",
+      "為使選舉權取決於是否加入宗教團體。"
+    ],
+    "explanationZhHant": "宗教中立使國家能平等保護所有人權利，不因信仰而偏袒或歧視。"
   },
   {
     "id": "draft-ch12-022",
@@ -1085,7 +1661,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Religious belief is protected, but it does not place a person outside Swedish law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人说宗教规条应始终优先于瑞典法律。哪个回答最贴切？",
+    "optionsZh": [
+      "宗教自由存在，但瑞典法律对所有人适用。",
+      "宗教规条自动取代宪法。",
+      "每个家庭自行决定法院适用哪条法律。",
+      "市镇可废除不符合某宗教的法律。"
+    ],
+    "explanationZh": "宗教自由受保护，但它不把人置于瑞典法律之外。无论信仰如何，国家法律对所有人有效。",
+    "questionZhHant": "有人說宗教規條應始終優先於瑞典法律。哪個回答最貼切？",
+    "optionsZhHant": [
+      "宗教自由存在，但瑞典法律對所有人適用。",
+      "宗教規條自動取代憲法。",
+      "每個家庭自行決定法院適用哪條法律。",
+      "市鎮可廢除不符合某宗教的法律。"
+    ],
+    "explanationZhHant": "宗教自由受保護，但它不把人置於瑞典法律之外。無論信仰如何，國家法律對所有人有效。"
   },
   {
     "id": "draft-ch12-023",
@@ -1114,7 +1706,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "School should teach knowledge about religion, not force belief.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "学校讲授宗教时，什么很重要？",
+    "optionsZh": [
+      "教学应客观，并传授关于不同宗教与世界观的知识。",
+      "教学应证明某宗教是唯一正确的。",
+      "教学应以国家传统取代学生的家庭传统。",
+      "教学只应涉及学生所在市镇的宗教。"
+    ],
+    "explanationZh": "学校应客观传授宗教知识，而非证明某一信仰正确，也不能以国家传统取代家庭传统。",
+    "questionZhHant": "學校講授宗教時，什麼很重要？",
+    "optionsZhHant": [
+      "教學應客觀，並傳授關於不同宗教與世界觀的知識。",
+      "教學應證明某宗教是唯一正確的。",
+      "教學應以國家傳統取代學生的家庭傳統。",
+      "教學只應涉及學生所在市鎮的宗教。"
+    ],
+    "explanationZhHant": "學校應客觀傳授宗教知識，而非證明某一信仰正確，也不能以國家傳統取代家庭傳統。"
   },
   {
     "id": "draft-ch12-024",
@@ -1143,7 +1751,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Anti-discrimination is central in a society with equal rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某工作场所的雇员信仰不同宗教。哪一条重要的民主原则适用？",
+    "optionsZh": [
+      "任何人都不应因宗教或其他信仰而受歧视。",
+      "雇主应为所有员工选定共同宗教。",
+      "少数宗教的员工应拿更低工资。",
+      "集体协议只适用于无信仰者。"
+    ],
+    "explanationZh": "反歧视是平等社会的核心。雇员无论宗教均不应受差别对待，宗教也不应影响工资或集体协议。",
+    "questionZhHant": "某工作場所的僱員信仰不同宗教。哪一條重要的民主原則適用？",
+    "optionsZhHant": [
+      "任何人都不應因宗教或其他信仰而受歧視。",
+      "僱主應為所有員工選定共同宗教。",
+      "少數宗教的員工應拿更低工資。",
+      "集體協議只適用於無信仰者。"
+    ],
+    "explanationZhHant": "反歧視是平等社會的核心。僱員無論宗教均不應受差別對待，宗教也不應影響工資或集體協議。"
   },
   {
     "id": "draft-ch12-025",
@@ -1172,7 +1796,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The separation in 2000 formally ended the state church system and clarified the institutional separation of state and church.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么了解瑞典教会（Svenska kyrkan）与国家的分离很重要？",
+    "optionsZh": [
+      "它表明瑞典不再有国教，国家与教会相分离。",
+      "它表明教会获得决定法律的专属权。",
+      "它意味着宗教自由被废除。",
+      "它意味着所有宗教团体都成了政府机构。"
+    ],
+    "explanationZh": "2000年的政教分离正式终结了国教制度，明确了国家与教会在制度上的分立。这与废除宗教自由恰恰相反。",
+    "questionZhHant": "為什麼了解瑞典教會（Svenska kyrkan）與國家的分離很重要？",
+    "optionsZhHant": [
+      "它表明瑞典不再有國教，國家與教會相分離。",
+      "它表明教會獲得決定法律的專屬權。",
+      "它意味着宗教自由被廢除。",
+      "它意味着所有宗教團體都成了政府機構。"
+    ],
+    "explanationZhHant": "2000年的政教分離正式終結了國教制度，明確了國家與教會在制度上的分立。這與廢除宗教自由恰恰相反。"
   },
   {
     "id": "draft-ch12-026",
@@ -1201,7 +1841,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Religious diversity can be visible in everyday habits and expressions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "宗教多样性在日常生活中可能意味着什么？",
+    "optionsZh": [
+      "人们有不同的节日、饮食习惯、服饰或表达信仰的方式。",
+      "所有人必须遵循同一宗教日历。",
+      "国家监控每个人的私人祈祷。",
+      "市镇禁止不同世界观。"
+    ],
+    "explanationZh": "宗教多样性体现在日常习惯与表达中：不同节日、饮食、服饰等。国家不强制统一，也不监控私人信仰。",
+    "questionZhHant": "宗教多樣性在日常生活中可能意味着什麼？",
+    "optionsZhHant": [
+      "人們有不同的節日、飲食習慣、服飾或表達信仰的方式。",
+      "所有人必須遵循同一宗教日歷。",
+      "國家監控每個人的私人祈禱。",
+      "市鎮禁止不同世界觀。"
+    ],
+    "explanationZhHant": "宗教多樣性體現在日常習慣與表達中：不同節日、飲食、服飾等。國家不強制統一，也不監控私人信仰。"
   },
   {
     "id": "draft-ch12-027",
@@ -1230,7 +1886,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Rights are protected, but they must be balanced with law and other people’s rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "宗教自由的一条重要界限在哪里？",
+    "optionsZh": [
+      "它不得用来侵犯他人权利或违反法律。",
+      "它让人永远不必遵守法院判决。",
+      "它只适用于宗教建筑内。",
+      "它只适用于公民。"
+    ],
+    "explanationZh": "权利须受法律与他人权利约束。宗教自由不能成为侵犯他人或违法的借口，也不仅限于宗教场所或公民。",
+    "questionZhHant": "宗教自由的一條重要界限在哪裡？",
+    "optionsZhHant": [
+      "它不得用來侵犯他人權利或違反法律。",
+      "它讓人永遠不必遵守法院判決。",
+      "它只適用於宗教建築內。",
+      "它只適用於公民。"
+    ],
+    "explanationZhHant": "權利須受法律與他人權利約束。宗教自由不能成為侵犯他人或違法的借口，也不僅限於宗教場所或公民。"
   },
   {
     "id": "draft-ch12-028",
@@ -1259,7 +1931,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Knowledge can reduce prejudice and make dialogue easier.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么了解宗教与世界观可以减少冲突？",
+    "optionsZh": [
+      "因为人们能更容易理解彼此的背景与视角。",
+      "因为所有冲突都由一个宗教团体裁决。",
+      "因为知识让人人都信同一宗教。",
+      "因为国家可禁止所有价值观讨论。"
+    ],
+    "explanationZh": "了解宗教与世界观有助于理解彼此，减少成见、便利对话，从而缓和冲突。",
+    "questionZhHant": "為什麼了解宗教與世界觀可以減少衝突？",
+    "optionsZhHant": [
+      "因為人們能更容易理解彼此的背景與視角。",
+      "因為所有衝突都由一個宗教團體裁決。",
+      "因為知識讓人人都信同一宗教。",
+      "因為國家可禁止所有價值觀討論。"
+    ],
+    "explanationZhHant": "了解宗教與世界觀有助於理解彼此，減少成見、便利對話，從而緩和衝突。"
   },
   {
     "id": "draft-ch12-029",
@@ -1288,7 +1976,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom of religion is part of democratic freedoms and rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "宗教自由与民主有何关联？",
+    "optionsZh": [
+      "民主保护人们自由思考、信仰和表达的权利。",
+      "民主意味着多数宗教支配一切法律。",
+      "民主禁止人们拥有不同世界观。",
+      "民主要求所有宗教群体组建政党。"
+    ],
+    "explanationZh": "宗教自由是民主自由与权利的一部分。民主保护思想、信仰与表达自由，而非由多数宗教统治。",
+    "questionZhHant": "宗教自由與民主有何關聯？",
+    "optionsZhHant": [
+      "民主保護人們自由思考、信仰和表達的權利。",
+      "民主意味着多數宗教支配一切法律。",
+      "民主禁止人們擁有不同世界觀。",
+      "民主要求所有宗教羣體組建政黨。"
+    ],
+    "explanationZhHant": "宗教自由是民主自由與權利的一部分。民主保護思想、信仰與表達自由，而非由多數宗教統治。"
   },
   {
     "id": "draft-ch12-030",
@@ -1317,7 +2021,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public services should treat people equally and according to rules and need.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人求医并佩戴宗教标志。医疗方应该怎么做？",
+    "optionsZh": [
+      "按需求提供医疗，并平等对待该人。",
+      "等到该人摘下所有宗教标志。",
+      "自动将该人转到另一大区。",
+      "让其他患者投票决定是否给其治疗。"
+    ],
+    "explanationZh": "公共服务应按需求与规则平等待人。医疗不因宗教标志而延迟、拒绝或差别对待。",
+    "questionZhHant": "有人求醫並佩戴宗教標志。醫療方應該怎麼做？",
+    "optionsZhHant": [
+      "按需求提供醫療，並平等對待該人。",
+      "等到該人摘下所有宗教標志。",
+      "自動將該人轉到另一大區。",
+      "讓其他患者投票決定是否給其治療。"
+    ],
+    "explanationZhHant": "公共服務應按需求與規則平等待人。醫療不因宗教標志而延遲、拒絕或差別對待。"
   },
   {
     "id": "draft-ch12-031",
@@ -1346,7 +2066,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Children have rights, while guardians have responsibility to guide and care for them.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "如何同时理解儿童的宗教自由与监护人的责任？",
+    "optionsZh": [
+      "监护人引导儿童，但应尊重儿童的权利与成熟度。",
+      "监护人总可取消儿童的一切权利。",
+      "儿童必须始终与市镇多数信仰完全相同。",
+      "儿童在18岁前无权表达对信仰的想法。"
+    ],
+    "explanationZh": "监护人有引导与照顾儿童的责任，但儿童自身的权利（包括宗教自由）与随年龄增长的成熟度也应被尊重。",
+    "questionZhHant": "如何同時理解兒童的宗教自由與監護人的責任？",
+    "optionsZhHant": [
+      "監護人引導兒童，但應尊重兒童的權利與成熟度。",
+      "監護人總可取消兒童的一切權利。",
+      "兒童必須始終與市鎮多數信仰完全相同。",
+      "兒童在18歲前無權表達對信仰的想法。"
+    ],
+    "explanationZhHant": "監護人有引導與照顧兒童的責任，但兒童自身的權利（包括宗教自由）與隨年齡增長的成熟度也應被尊重。"
   },
   {
     "id": "draft-ch12-032",
@@ -1375,7 +2111,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A democracy allows criticism, but the law sets limits against threats and hate crimes.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在民主社会中，宗教可以受到批评吗？",
+    "optionsZh": [
+      "可以，言论自由允许批评，但威胁与煽动族群仇恨不被允许。",
+      "不可以，一切对宗教的批评都被禁止。",
+      "可以，但只有国家机构能批评宗教。",
+      "不可以，媒体只能正面描写宗教。"
+    ],
+    "explanationZh": "民主允许批评宗教，但法律禁止威胁与针对族群的仇恨言论（hets mot folkgrupp）。",
+    "questionZhHant": "在民主社會中，宗教可以受到批評嗎？",
+    "optionsZhHant": [
+      "可以，言論自由允許批評，但威脅與煽動族羣仇恨不被允許。",
+      "不可以，一切對宗教的批評都被禁止。",
+      "可以，但只有國家機構能批評宗教。",
+      "不可以，媒體只能正面描寫宗教。"
+    ],
+    "explanationZhHant": "民主允許批評宗教，但法律禁止威脅與針對族羣的仇恨言論（hets mot folkgrupp）。"
   },
   {
     "id": "draft-ch12-033",
@@ -1404,7 +2156,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Belief belongs to personal freedom, even when people may also express it publicly.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么宗教可以被视为私人事务？",
+    "optionsZh": [
+      "因为每个人都有权自行形成其信仰或不信仰。",
+      "因为国家禁止一切公共宗教。",
+      "因为雇主必须登记所有员工的信仰。",
+      "因为市镇决定家庭的世界观。"
+    ],
+    "explanationZh": "信仰属于个人自由，由本人自主决定，即便人也可公开表达。国家不替人决定信仰，也不强制登记。",
+    "questionZhHant": "為什麼宗教可以被視為私人事務？",
+    "optionsZhHant": [
+      "因為每個人都有權自行形成其信仰或不信仰。",
+      "因為國家禁止一切公共宗教。",
+      "因為僱主必須登記所有員工的信仰。",
+      "因為市鎮決定家庭的世界觀。"
+    ],
+    "explanationZhHant": "信仰屬於個人自由，由本人自主決定，即便人也可公開表達。國家不替人決定信仰，也不強制登記。"
   },
   {
     "id": "draft-ch12-034",
@@ -1433,7 +2201,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Religious ceremonies may exist, but legal marriage follows Swedish law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "关于宗教传统与婚姻，哪一说法在瑞典最贴切？",
+    "optionsZh": [
+      "婚姻必须遵守瑞典法律，即便仪式含有宗教成分。",
+      "宗教仪式总能取代婚姻法。",
+      "宗教团体可自行废除法律中的年龄限制。",
+      "市镇决定婚姻在宗教上是否有效。"
+    ],
+    "explanationZh": "宗教婚礼仪式可以存在，但法律上的婚姻须符合瑞典法律（如最低结婚年龄）。宗教团体无权改动法律。",
+    "questionZhHant": "關於宗教傳統與婚姻，哪一說法在瑞典最貼切？",
+    "optionsZhHant": [
+      "婚姻必須遵守瑞典法律，即便儀式含有宗教成分。",
+      "宗教儀式總能取代婚姻法。",
+      "宗教團體可自行廢除法律中的年齡限制。",
+      "市鎮決定婚姻在宗教上是否有效。"
+    ],
+    "explanationZhHant": "宗教婚禮儀式可以存在，但法律上的婚姻須符合瑞典法律（如最低結婚年齡）。宗教團體無權改動法律。"
   },
   {
     "id": "draft-ch12-035",
@@ -1462,7 +2246,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Civil ceremonies are non-religious alternatives in a secular society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一场民事仪式，例如民事婚礼，说明了什么？",
+    "optionsZh": [
+      "重要的人生事件可以不以宗教形式进行。",
+      "所有仪式须由牧师主持。",
+      "国家为伴侣选定宗教。",
+      "宗教仪式被禁止。"
+    ],
+    "explanationZh": "民事仪式（如民事婚礼）是非宗教的选择，体现世俗社会中人生大事也可脱离宗教形式办理。",
+    "questionZhHant": "一場民事儀式，例如民事婚禮，說明了什麼？",
+    "optionsZhHant": [
+      "重要的人生事件可以不以宗教形式進行。",
+      "所有儀式須由牧師主持。",
+      "國家為伴侶選定宗教。",
+      "宗教儀式被禁止。"
+    ],
+    "explanationZhHant": "民事儀式（如民事婚禮）是非宗教的選擇，體現世俗社會中人生大事也可脫離宗教形式辦理。"
   },
   {
     "id": "draft-ch12-036",
@@ -1491,7 +2291,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Participation and equal rights apply to minorities as well as majorities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么宗教少数群体能够参与社会很重要？",
+    "optionsZh": [
+      "因为民主建立在平等权利与参与之上。",
+      "为使少数群体在所有选举中比他人多得选票。",
+      "为使宗教取代市镇民主。",
+      "为使只有宗教群体能组建社团。"
+    ],
+    "explanationZh": "民主的参与权与平等适用于少数与多数群体。宗教少数群体同样有参与社会的权利。",
+    "questionZhHant": "為什麼宗教少數羣體能夠參與社會很重要？",
+    "optionsZhHant": [
+      "因為民主建立在平等權利與參與之上。",
+      "為使少數羣體在所有選舉中比他人多得選票。",
+      "為使宗教取代市鎮民主。",
+      "為使只有宗教羣體能組建社團。"
+    ],
+    "explanationZhHant": "民主的參與權與平等適用於少數與多數羣體。宗教少數羣體同樣有參與社會的權利。"
   },
   {
     "id": "draft-ch12-037",
@@ -1520,7 +2336,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Civil society organizations can contribute socially, but they do not replace democratic institutions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "社团与宗教团体如何为社会作出贡献？",
+    "optionsZh": [
+      "它们能创造社群、互助与社会服务。",
+      "它们能接管瑞典国会（Riksdagen）的立法。",
+      "它们能取代所有公共部门。",
+      "它们能决定谁获得公民身份。"
+    ],
+    "explanationZh": "公民社会中的社团与宗教团体可提供社群、支持与社工服务，但不取代民主体制或公共权力。",
+    "questionZhHant": "社團與宗教團體如何為社會作出貢獻？",
+    "optionsZhHant": [
+      "它們能創造社羣、互助與社會服務。",
+      "它們能接管瑞典國會（Riksdagen）的立法。",
+      "它們能取代所有公共部門。",
+      "它們能決定誰獲得公民身份。"
+    ],
+    "explanationZhHant": "公民社會中的社團與宗教團體可提供社羣、支持與社工服務，但不取代民主體制或公共權力。"
   },
   {
     "id": "draft-ch12-038",
@@ -1549,7 +2381,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public services must follow law, equality, and non-discrimination.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某宗教群体希望在公共服务中区别对待男女。哪条原则最重要？",
+    "optionsZh": [
+      "公共服务应遵守平等对待与性别平等的法律。",
+      "宗教规条在公共事务中始终优先于性别平等。",
+      "市镇可在本地剥夺妇女选举权。",
+      "部门每件事都须询问该团体领袖。"
+    ],
+    "explanationZh": "公共服务须遵守法律、平等与非歧视原则。宗教规条不能凌驾于公共领域的性别平等法。",
+    "questionZhHant": "某宗教羣體希望在公共服務中區別對待男女。哪條原則最重要？",
+    "optionsZhHant": [
+      "公共服務應遵守平等對待與性別平等的法律。",
+      "宗教規條在公共事務中始終優先於性別平等。",
+      "市鎮可在本地剝奪婦女選舉權。",
+      "部門每件事都須詢問該團體領袖。"
+    ],
+    "explanationZhHant": "公共服務須遵守法律、平等與非歧視原則。宗教規條不能凌駕於公共領域的性別平等法。"
   },
   {
     "id": "draft-ch12-039",
@@ -1578,7 +2426,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Free media can examine and debate religion like other social issues.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么媒体可以用不同方式报道宗教？",
+    "optionsZh": [
+      "因为言论自由与新闻自由为监督和讨论提供了空间。",
+      "因为国家事先批准每篇宗教文章。",
+      "因为宗教团体拥有所有新闻编辑部。",
+      "因为只可发表正面的宗教新闻。"
+    ],
+    "explanationZh": "自由媒体可像报道其他社会议题一样审视和讨论宗教，无需国家事先审查，也可发表批评。",
+    "questionZhHant": "為什麼媒體可以用不同方式報道宗教？",
+    "optionsZhHant": [
+      "因為言論自由與新聞自由為監督和討論提供了空間。",
+      "因為國家事先批準每篇宗教文章。",
+      "因為宗教團體擁有所有新聞編輯部。",
+      "因為只可發表正面的宗教新聞。"
+    ],
+    "explanationZhHant": "自由媒體可像報道其他社會議題一樣審視和討論宗教，無需國家事先審查，也可發表批評。"
   },
   {
     "id": "draft-ch12-040",
@@ -1607,7 +2471,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Officials should apply rules objectively, not judge beliefs.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名公务人员遇到持不常见世界观的人。该公务人员的职责是什么？",
+    "optionsZh": [
+      "依规则客观处理该事项。",
+      "先判定该世界观是否正确。",
+      "要求该人改换世界观。",
+      "让多数信仰决定结果。"
+    ],
+    "explanationZh": "公务人员须依法客观处理事务，不应评判信仰真伪，也不应依从多数信仰。",
+    "questionZhHant": "一名公務人員遇到持不常見世界觀的人。該公務人員的職責是什麼？",
+    "optionsZhHant": [
+      "依規則客觀處理該事項。",
+      "先判定該世界觀是否正確。",
+      "要求該人改換世界觀。",
+      "讓多數信仰決定結果。"
+    ],
+    "explanationZhHant": "公務人員須依法客觀處理事務，不應評判信仰真偽，也不應依從多數信仰。"
   },
   {
     "id": "draft-ch12-041",
@@ -1636,7 +2516,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Schools must follow law and curriculum while handling individual situations carefully.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名学生因宗教理由想免修学校的一项必修内容。最好的出发点是什么？",
+    "optionsZh": [
+      "学校应遵循学校法，同时客观、尊重地审查具体情况。",
+      "学生总可放弃所有觉得难的科目。",
+      "宗教理由使校规永不生效。",
+      "教师应让其他学生投票决定该生权利。"
+    ],
+    "explanationZh": "学校须遵循学校法与课程要求，同时针对个别情况谨慎、客观地权衡，而非一概豁免或交由同学投票。",
+    "questionZhHant": "一名學生因宗教理由想免修學校的一項必修內容。最好的出發點是什麼？",
+    "optionsZhHant": [
+      "學校應遵循學校法，同時客觀、尊重地審查具體情況。",
+      "學生總可放棄所有覺得難的科目。",
+      "宗教理由使校規永不生效。",
+      "教師應讓其他學生投票決定該生權利。"
+    ],
+    "explanationZhHant": "學校須遵循學校法與課程要求，同時針對個別情況謹慎、客觀地權衡，而非一概豁免或交由同學投票。"
   },
   {
     "id": "draft-ch12-042",
@@ -1665,7 +2561,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Religious freedom does not protect threats or violence.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某团体称其宗教规条允许威胁退教者。哪种说法正确？",
+    "optionsZh": [
+      "威胁不被允许；瑞典法律在宗教语境中也适用。",
+      "若团体传统古老，威胁即被允许。",
+      "警察不得介入宗教冲突。",
+      "法院须遵循该团体的内部规条。"
+    ],
+    "explanationZh": "宗教自由不保护威胁或暴力。瑞典法律（包括禁止威胁）在宗教场合同样有效，警方与法院可依法介入。",
+    "questionZhHant": "某團體稱其宗教規條允許威脅退教者。哪種說法正確？",
+    "optionsZhHant": [
+      "威脅不被允許；瑞典法律在宗教語境中也適用。",
+      "若團體傳統古老，威脅即被允許。",
+      "警察不得介入宗教衝突。",
+      "法院須遵循該團體的內部規條。"
+    ],
+    "explanationZhHant": "宗教自由不保護威脅或暴力。瑞典法律（包括禁止威脅）在宗教場合同樣有效，警方與法院可依法介入。"
   },
   {
     "id": "draft-ch12-043",
@@ -1694,7 +2606,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Treating someone worse because of religion can be discrimination.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "雇主仅因某人的宗教而拒绝录用。应如何理解？",
+    "optionsZh": [
+      "这可能构成歧视。",
+      "这始终是宗教自由的正常部分。",
+      "这是瑞典保持世俗所必需的。",
+      "这只在公共部门被禁，职场从不禁止。"
+    ],
+    "explanationZh": "仅因宗教而拒绝雇人可能属于歧视。反歧视法适用于职场，不限于公共部门。",
+    "questionZhHant": "僱主僅因某人的宗教而拒絕錄用。應如何理解？",
+    "optionsZhHant": [
+      "這可能構成歧視。",
+      "這始終是宗教自由的正常部分。",
+      "這是瑞典保持世俗所必需的。",
+      "這只在公共部門被禁，職場從不禁止。"
+    ],
+    "explanationZhHant": "僅因宗教而拒絕僱人可能屬於歧視。反歧視法適用於職場，不限於公共部門。"
   },
   {
     "id": "draft-ch12-044",
@@ -1723,7 +2651,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public power should be exercised under law, not under one religious doctrine.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某市镇想把一种宗教教义作为所有市镇决策的基础。问题在哪里？",
+    "optionsZh": [
+      "市镇决定应遵循民主法律，并保持宗教中立。",
+      "市镇总可用地方宗教取代瑞典法律。",
+      "市镇在信仰问题上凌驾于宪法。",
+      "无信仰居民会因此自动丧失选举权。"
+    ],
+    "explanationZh": "公共权力须依法行使、保持宗教中立。市镇不能把某一教义作为决策基础，也不能将居民置于法律之上。",
+    "questionZhHant": "某市鎮想把一種宗教教義作為所有市鎮決策的基礎。問題在哪裡？",
+    "optionsZhHant": [
+      "市鎮決定應遵循民主法律，並保持宗教中立。",
+      "市鎮總可用地方宗教取代瑞典法律。",
+      "市鎮在信仰問題上凌駕於憲法。",
+      "無信仰居民會因此自動喪失選舉權。"
+    ],
+    "explanationZhHant": "公共權力須依法行使、保持宗教中立。市鎮不能把某一教義作為決策基礎，也不能將居民置於法律之上。"
   },
   {
     "id": "draft-ch12-045",
@@ -1752,7 +2696,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "School has a knowledge mission and should teach objectively about society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有家长希望孩子在学校里永远听不到其他宗教。哪个回答最贴切？",
+    "optionsZh": [
+      "学校应依管理文件客观讲授宗教与世界观。",
+      "父母可取消所有他们不认同的教学。",
+      "儿童只可学习家庭的宗教。",
+      "市镇应为每个家庭的信仰制定单独法律。"
+    ],
+    "explanationZh": "学校有法定义务传授关于宗教与世界观的客观知识，家长不能据此取消全部相关教学。",
+    "questionZhHant": "有家長希望孩子在學校裡永遠聽不到其他宗教。哪個回答最貼切？",
+    "optionsZhHant": [
+      "學校應依管理文件客觀講授宗教與世界觀。",
+      "父母可取消所有他們不認同的教學。",
+      "兒童只可學習家庭的宗教。",
+      "市鎮應為每個家庭的信仰制定單獨法律。"
+    ],
+    "explanationZhHant": "學校有法定義務傳授關於宗教與世界觀的客觀知識，家長不能據此取消全部相關教學。"
   },
   {
     "id": "draft-ch12-046",
@@ -1781,7 +2741,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "While criticism of religion is allowed, hate speech against a group is illegal in Sweden.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某人在辩论中散布针对某一宗教群体的严重贬损言论。哪条界限可能特别相关？",
+    "optionsZh": [
+      "煽动族群仇恨，依瑞典法律被禁止。",
+      "有人因客观批评而难过。",
+      "辩论发表在报纸上。",
+      "该人本身不属于该宗教。"
+    ],
+    "explanationZh": "批评宗教是被允许的，但针对某一族群（包括宗教群体）的仇恨言论（hets mot folkgrupp）在瑞典属违法。",
+    "questionZhHant": "某人在辯論中散布針對某一宗教羣體的嚴重貶損言論。哪條界限可能特別相關？",
+    "optionsZhHant": [
+      "煽動族羣仇恨，依瑞典法律被禁止。",
+      "有人因客觀批評而難過。",
+      "辯論發表在報紙上。",
+      "該人本身不屬於該宗教。"
+    ],
+    "explanationZhHant": "批評宗教是被允許的，但針對某一族羣（包括宗教羣體）的仇恨言論（hets mot folkgrupp）在瑞典屬違法。"
   },
   {
     "id": "draft-ch12-047",
@@ -1810,7 +2786,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public services can show respect while still following law and professional responsibility.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名患者想出于宗教理由影响自己的治疗。医疗方最好的出发点是什么？",
+    "optionsZh": [
+      "医疗应在法律、医学判断与患者安全的范围内，尽量尊重患者。",
+      "医疗应总让宗教规条取代医学判断。",
+      "医疗应拒绝与患者谈宗教。",
+      "医疗应让家属违背患者意愿作所有决定。"
+    ],
+    "explanationZh": "公共服务可在法律、专业责任与患者安全框架内尊重患者意愿，但不能以宗教规条取代医学判断。",
+    "questionZhHant": "一名患者想出於宗教理由影響自己的治療。醫療方最好的出發點是什麼？",
+    "optionsZhHant": [
+      "醫療應在法律、醫學判斷與患者安全的範圍內，盡量尊重患者。",
+      "醫療應總讓宗教規條取代醫學判斷。",
+      "醫療應拒絕與患者談宗教。",
+      "醫療應讓家屬違背患者意願作所有決定。"
+    ],
+    "explanationZhHant": "公共服務可在法律、專業責任與患者安全框架內尊重患者意願，但不能以宗教規條取代醫學判斷。"
   },
   {
     "id": "draft-ch12-048",
@@ -1839,7 +2831,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democracy includes protection for minorities and equal treatment.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "多数群体希望只有他们的宗教能获得公共支持与场地。最强的民主反对理由是什么？",
+    "optionsZh": [
+      "公共决定须遵循平等对待，不得因宗教而歧视。",
+      "多数群体总可剥夺少数群体权利。",
+      "宗教自由只在群体最大时才适用。",
+      "市镇场所永不得由社团使用。"
+    ],
+    "explanationZh": "民主包含对少数群体的保护与平等对待。多数群体不能仅凭人数剥夺他人权利或独占公共资源。",
+    "questionZhHant": "多數羣體希望只有他們的宗教能獲得公共支持與場地。最強的民主反對理由是什麼？",
+    "optionsZhHant": [
+      "公共決定須遵循平等對待，不得因宗教而歧視。",
+      "多數羣體總可剝奪少數羣體權利。",
+      "宗教自由只在羣體最大時才適用。",
+      "市鎮場所永不得由社團使用。"
+    ],
+    "explanationZhHant": "民主包含對少數羣體的保護與平等對待。多數羣體不能僅憑人數剝奪他人權利或獨佔公共資源。"
   },
   {
     "id": "draft-ch12-049",
@@ -1868,7 +2876,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Conflicts should be handled through democratic methods and law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "两个群体持有不同宗教观点并发生冲突。哪一回应最契合民主社会？",
+    "optionsZh": [
+      "对话、法律保障与尊重所有人权利。",
+      "国家禁止所有不认同多数的宗教。",
+      "最大群体可在无法律审查下统治最小群体。",
+      "冲突通过私人惩罚解决。"
+    ],
+    "explanationZh": "民主社会以对话、法治与尊重权利的方式处理冲突，而非禁止异见或私刑。",
+    "questionZhHant": "兩個羣體持有不同宗教觀點並發生衝突。哪一回應最契合民主社會？",
+    "optionsZhHant": [
+      "對話、法律保障與尊重所有人權利。",
+      "國家禁止所有不認同多數的宗教。",
+      "最大羣體可在無法律審查下統治最小羣體。",
+      "衝突通過私人懲罰解決。"
+    ],
+    "explanationZhHant": "民主社會以對話、法治與尊重權利的方式處理衝突，而非禁止異見或私刑。"
   },
   {
     "id": "draft-ch12-050",
@@ -1897,7 +2921,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "In a secular state, democracy guarantees equal rights and legal protection regardless of belief or non-belief.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，世俗国家与民主权利之间最重要的联系是什么？",
+    "optionsZh": [
+      "国家与立法保护所有人权利，不论宗教信念。",
+      "国家决定家中可读哪些宗教典籍。",
+      "所有公民须放弃信仰才有选举权。",
+      "法院由多数宗教团体掌控。"
+    ],
+    "explanationZh": "在世俗国家，民主保障平等权利与法律保障，与信仰或无信仰无关。国家不替人决定信仰。",
+    "questionZhHant": "在瑞典，世俗國家與民主權利之間最重要的聯系是什麼？",
+    "optionsZhHant": [
+      "國家與立法保護所有人權利，不論宗教信念。",
+      "國家決定家中可讀哪些宗教典籍。",
+      "所有公民須放棄信仰才有選舉權。",
+      "法院由多數宗教團體掌控。"
+    ],
+    "explanationZhHant": "在世俗國家，民主保障平等權利與法律保障，與信仰或無信仰無關。國家不替人決定信仰。"
   },
   {
     "id": "draft-ch12-051",
@@ -1926,7 +2966,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public schools must be careful with religious elements and follow school rules.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一所公立学校计划一项带有明显宗教成分的活动。学校需要注意什么？",
+    "optionsZh": [
+      "活动须按学校对客观、必要时的自愿原则及尊重学生权利的要求处理。",
+      "公立学校总可要求宗教参与以换取成绩。",
+      "无信仰学生可被停课。",
+      "宗教成分使学校法失效。"
+    ],
+    "explanationZh": "公立学校对宗教成分须格外谨慎，遵循校规：保持客观、在需要时自愿参与、尊重学生权利，而非强制或免责。",
+    "questionZhHant": "一所公立學校計劃一項帶有明顯宗教成分的活動。學校需要注意什麼？",
+    "optionsZhHant": [
+      "活動須按學校對客觀、必要時的自願原則及尊重學生權利的要求處理。",
+      "公立學校總可要求宗教參與以換取成績。",
+      "無信仰學生可被停課。",
+      "宗教成分使學校法失效。"
+    ],
+    "explanationZhHant": "公立學校對宗教成分須格外謹慎，遵循校規：保持客觀、在需要時自願參與、尊重學生權利，而非強制或免責。"
   },
   {
     "id": "draft-ch12-052",
@@ -1955,7 +3011,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public administration should be relevant, objective, and respectful of personal integrity.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某部门在一宗事项中无故询问当事人的宗教。为什么这可能成问题？",
+    "optionsZh": [
+      "部门只应收集相关信息，并客观待人。",
+      "部门须总是在决定前登记所有人宗教。",
+      "宗教始终是公共事项中最重要的信息。",
+      "客观只适用于法院，不适用于部门。"
+    ],
+    "explanationZh": "公共管理应相关、客观并尊重个人尊严。无明确理由收集宗教信息既可能不当，也违背客观原则。",
+    "questionZhHant": "某部門在一宗事項中無故詢問當事人的宗教。為什麼這可能成問題？",
+    "optionsZhHant": [
+      "部門只應收集相關資訊，並客觀待人。",
+      "部門須總是在決定前登記所有人宗教。",
+      "宗教始終是公共事項中最重要的資訊。",
+      "客觀只適用於法院，不適用於部門。"
+    ],
+    "explanationZhHant": "公共管理應相關、客觀並尊重個人尊嚴。無明確理由收集宗教資訊既可能不當，也違背客觀原則。"
   },
   {
     "id": "draft-ch12-053",
@@ -1984,7 +3056,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public support requires rules and equal treatment even when civil society is involved.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某宗教团体经营社会救助活动。若该项活动获得公共资助，什么是关键？",
+    "optionsZh": [
+      "资助须按规则、公开透明与平等对待要求管理。",
+      "资助使该团体能撰写市镇法律。",
+      "公共资助意味着只有成员可得帮助。",
+      "公共资助废除他群的宗教自由。"
+    ],
+    "explanationZh": "即便公民社会团体获公共资助，也须遵守规则、透明并接受平等对待要求，不能借此取代公共权力或排斥他人。",
+    "questionZhHant": "某宗教團體經營社會救助活動。若該項活動獲得公共資助，什麼是關鍵？",
+    "optionsZhHant": [
+      "資助須按規則、公開透明與平等對待要求管理。",
+      "資助使該團體能撰寫市鎮法律。",
+      "公共資助意味着只有成員可得幫助。",
+      "公共資助廢除他羣的宗教自由。"
+    ],
+    "explanationZhHant": "即便公民社會團體獲公共資助，也須遵守規則、透明並接受平等對待要求，不能借此取代公共權力或排斥他人。"
   },
   {
     "id": "draft-ch12-054",
@@ -2013,7 +3101,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A secular state can still have visible religious diversity in society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人说：“如果瑞典是世俗的，宗教就根本不应出现。”最好的回答是什么？",
+    "optionsZh": [
+      "世俗指国家不受宗教统治，而非人们必须隐藏信仰。",
+      "世俗意味着宗教标志始终犯罪。",
+      "世俗意味着只可有国家仪式。",
+      "世俗意味着媒体不得写宗教。"
+    ],
+    "explanationZh": "世俗国家分离的是国家与宗教，而不是禁止个人公开信仰。宗教多样性在社会中仍可见。",
+    "questionZhHant": "有人說：“如果瑞典是世俗的，宗教就根本不應出現。”最好的回答是什麼？",
+    "optionsZhHant": [
+      "世俗指國家不受宗教統治，而非人們必須隱藏信仰。",
+      "世俗意味着宗教標志始終犯罪。",
+      "世俗意味着只可有國家儀式。",
+      "世俗意味着媒體不得寫宗教。"
+    ],
+    "explanationZhHant": "世俗國家分離的是國家與宗教，而不是禁止個人公開信仰。宗教多樣性在社會中仍可見。"
   },
   {
     "id": "draft-ch12-055",
@@ -2042,7 +3146,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "In public situations, competent authorities and courts apply Swedish law; religious rules do not override it.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在公共场合，一条宗教规条与一条瑞典法律指向相反。谁来决定适用什么？",
+    "optionsZh": [
+      "主管政府部门与法院依瑞典法律决定。",
+      "追随者最多的宗教领袖。",
+      "每人自选适用哪条法律。",
+      "市镇最大宗教团体。"
+    ],
+    "explanationZh": "在公共场合，主管当局与法院适用瑞典法律；宗教规条不能凌驾其上。",
+    "questionZhHant": "在公共場合，一條宗教規條與一條瑞典法律指向相反。誰來決定適用什麼？",
+    "optionsZhHant": [
+      "主管政府部門與法院依瑞典法律決定。",
+      "追隨者最多的宗教領袖。",
+      "每人自選適用哪條法律。",
+      "市鎮最大宗教團體。"
+    ],
+    "explanationZhHant": "在公共場合，主管當局與法院適用瑞典法律；宗教規條不能凌駕其上。"
   },
   {
     "id": "draft-ch12-056",
@@ -2071,7 +3191,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A pluralistic society needs both individual rights and common legal rules.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么多宗教社会既需要自由、也需要共同的规则？",
+    "optionsZh": [
+      "自由保护不同世界观，而共同法律让所有人明确权利与义务。",
+      "自由意味着不能存在共同法律。",
+      "共同规则意味着人人须同宗教。",
+      "多宗教要求国家废除法院。"
+    ],
+    "explanationZh": "多元社会既需保护个人权利，也需共同法律界定权利与义务，二者互补而非对立。",
+    "questionZhHant": "為什麼多宗教社會既需要自由、也需要共同的規則？",
+    "optionsZhHant": [
+      "自由保護不同世界觀，而共同法律讓所有人明確權利與義務。",
+      "自由意味着不能存在共同法律。",
+      "共同規則意味着人人須同宗教。",
+      "多宗教要求國家廢除法院。"
+    ],
+    "explanationZhHant": "多元社會既需保護個人權利，也需共同法律界定權利與義務，二者互補而非對立。"
   },
   {
     "id": "draft-ch12-057",
@@ -2100,7 +3236,15 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A secular state does not ban religiously inspired opinions, but political power is exercised through democratic law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某政党的价值观受宗教启发。这在瑞典是否自动被禁止？",
+    "optionsZh": [
+      "不，政党可有不同理念，但政治须在民主与法律框架内运作。",
+      "是，所有受宗教启发的观点在政治上都被禁。",
+      "不，这类政党可自动掌控法院。",
+      "是，只有无神论政党可参选。"
+    ],
+    "explanationZh": "世俗国家不禁止受宗教启发的观点，但政治权力须通过民主与法律行使。政党须尊重民主秩序。"
   },
   {
     "id": "draft-ch12-058",
@@ -2129,7 +3273,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Authorities should apply general rules equally and objectively.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某少数群体想建造一处礼拜场所。市镇审查此事时，哪条原则相关？",
+    "optionsZh": [
+      "市镇须依与其他情况相同的法律与规划规则审查。",
+      "市镇总应拒绝少数宗教。",
+      "市镇须征询多数宗教许可。",
+      "市镇须判定该群体信仰在神学上是否正确。"
+    ],
+    "explanationZh": "当局应平等、客观地适用一般规则，不替人评判信仰真伪，也不应仅因属少数宗教而拒绝。",
+    "questionZhHant": "某少數羣體想建造一處禮拜場所。市鎮審查此事時，哪條原則相關？",
+    "optionsZhHant": [
+      "市鎮須依與其他情況相同的法律與規劃規則審查。",
+      "市鎮總應拒絕少數宗教。",
+      "市鎮須徵詢多數宗教許可。",
+      "市鎮須判定該羣體信仰在神學上是否正確。"
+    ],
+    "explanationZhHant": "當局應平等、客觀地適用一般規則，不替人評判信仰真偽，也不應僅因屬少數宗教而拒絕。"
   },
   {
     "id": "draft-ch12-059",
@@ -2158,7 +3318,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A society can have religious history and still have secular public institutions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么瑞典既可以有基督教的历史痕迹，又是一个世俗国家？",
+    "optionsZh": [
+      "历史传统可以留存，同时国家不受宗教统治。",
+      "世俗国家意味着2000年前历史全被禁。",
+      "基督教历史痕迹意味着瑞典国会（Riksdagen）听命于教会。",
+      "只有无居民信教，国家才算世俗。"
+    ],
+    "explanationZh": "社会可保留宗教历史，公共制度仍保持世俗。历史传统与世俗体制并不矛盾。",
+    "questionZhHant": "為什麼瑞典既可以有基督教的歷史痕跡，又是一個世俗國家？",
+    "optionsZhHant": [
+      "歷史傳統可以留存，同時國家不受宗教統治。",
+      "世俗國家意味着2000年前歷史全被禁。",
+      "基督教歷史痕跡意味着瑞典國會（Riksdagen）聽命於教會。",
+      "只有無居民信教，國家才算世俗。"
+    ],
+    "explanationZhHant": "社會可保留宗教歷史，公共制度仍保持世俗。歷史傳統與世俗體制並不矛盾。"
   },
   {
     "id": "draft-ch12-060",
@@ -2187,7 +3363,15 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democratic societies handle conflicts between rights through law and legal review.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "当不同权利相冲突（例如宗教自由与性别平等）时，哪种思路最好？",
+    "optionsZh": [
+      "社会须依法律、民主原则与法院审查来权衡权利。",
+      "辩论中最先提到的权利总胜出。",
+      "宗教自由总取消其他权利。",
+      "平等只适用于无信仰者。"
+    ],
+    "explanationZh": "民主社会通过法律与司法审查来平衡冲突的权利，而非简单让某一项权利压倒其他。"
   },
   {
     "id": "draft-extra-ch012-001",
@@ -2216,7 +3400,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Rights protect both belief and equal treatment in society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "宗教自由与反歧视保护为何可以联系在一起？",
+    "optionsZh": [
+      "人们应能信教或不信教，而不受较差对待。",
+      "宗教自由意味着雇主可剔除某些信仰群体。",
+      "歧视保护只适用于政党。",
+      "改宗者丧失瑞典法律保护。"
+    ],
+    "explanationZh": "宗教自由与反歧视保护共同作用：既保障信教或不信教的权利，也防止因此受到不公平对待。",
+    "questionZhHant": "宗教自由與反歧視保護為何可以聯系在一起？",
+    "optionsZhHant": [
+      "人們應能信教或不信教，而不受較差對待。",
+      "宗教自由意味着僱主可剔除某些信仰羣體。",
+      "歧視保護只適用於政黨。",
+      "改宗者喪失瑞典法律保護。"
+    ],
+    "explanationZhHant": "宗教自由與反歧視保護共同作用：既保障信教或不信教的權利，也防止因此受到不公平對待。"
   },
   {
     "id": "draft-extra-ch012-002",
@@ -2245,7 +3445,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom of religion is a constitutionally protected right in the Instrument of Government (regeringsformen), one of Sweden's fundamental laws.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典法律在哪里保护宗教自由？",
+    "optionsZh": [
+      "在宪法（《政府约法》，regeringsformen）中。",
+      "只在瑞典教会（Svenska kyrkan）自身规条中。",
+      "在各市镇的地方秩序条例中。",
+      "宗教自由在瑞典无法律保护。"
+    ],
+    "explanationZh": "宗教自由是宪法性权利，规定于《政府约法》（regeringsformen）——瑞典四部基本法之一。它不仅存在于教会规条，而是国家根本法的保护对象。",
+    "questionZhHant": "瑞典法律在哪裡保護宗教自由？",
+    "optionsZhHant": [
+      "在憲法（《政府約法》，regeringsformen）中。",
+      "只在瑞典教會（Svenska kyrkan）自身規條中。",
+      "在各市鎮的地方秩序條例中。",
+      "宗教自由在瑞典無法律保護。"
+    ],
+    "explanationZhHant": "宗教自由是憲法性權利，規定於《政府約法》（regeringsformen）——瑞典四部基本法之一。它不僅存在於教會規條，而是國家根本法的保護對象。"
   },
   {
     "id": "draft-extra-ch012-015",
@@ -2274,6 +3490,22 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Pluralism requires respect for different beliefs and freedom of conscience.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一场公开仪式同时含有宗教与世俗成分。在多元社会中，什么是重要的？",
+    "optionsZh": [
+      "人们不应被迫违背自身信念参与宗教环节。",
+      "所有仪式须遵循单一宗教。",
+      "世俗者不得参与传统。",
+      "市镇须在仪式前决定每人信仰。"
+    ],
+    "explanationZh": "多元主义要求尊重不同信仰与良心自由。公开仪式可含宗教与世俗成分，但任何人都不应被强迫以违背信念的方式参与宗教环节。",
+    "questionZhHant": "一場公開儀式同時含有宗教與世俗成分。在多元社會中，什麼是重要的？",
+    "optionsZhHant": [
+      "人們不應被迫違背自身信念參與宗教環節。",
+      "所有儀式須遵循單一宗教。",
+      "世俗者不得參與傳統。",
+      "市鎮須在儀式前決定每人信仰。"
+    ],
+    "explanationZhHant": "多元主義要求尊重不同信仰與良心自由。公開儀式可含宗教與世俗成分，但任何人都不應被強迫以違背信念的方式參與宗教環節。"
   }
 ]

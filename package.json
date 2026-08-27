@@ -8,7 +8,12 @@
     "build": "tsc -b && vite build",
     "check:drafts": "node scripts/check-draft-duplicates.mjs",
     "preview": "vite preview --host 127.0.0.1",
-    "check:questions": "node scripts/check-question-bank.mjs"
+    "check:questions": "node scripts/check-question-bank.mjs",
+    "export:zh-batches": "node scripts/export-chinese-translation-batches.mjs",
+    "apply:zh-translations": "node scripts/apply-chinese-translations.mjs",
+    "check:zh-translations": "node scripts/check-chinese-translations.mjs",
+    "apply:zh-hant-corrections": "node scripts/apply-traditional-chinese-corrections.mjs",
+    "check:zh-hant-translations": "node scripts/check-traditional-chinese-translations.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

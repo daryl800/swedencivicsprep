@@ -27,7 +27,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Discrimination law protects people from unfair treatment connected to religion and other protected grounds.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名雇主在听说某求职者佩戴宗教标志后，将其淘汰。这涉及哪项原则？",
+    "optionsZh": [
+      "免受基于宗教的歧视的保护。",
+      "雇主有权拒绝所有信教人士。",
+      "宗教只允许在家里实践的规则。",
+      "必须向雇主告知自己宗教信仰的义务。"
+    ],
+    "explanationZh": "反歧视法保护人们免受与宗教及其他受保护理由相关的不公正待遇。雇主因宗教标志而拒绝求职者，属于基于宗教的歧视，是被禁止的。",
+    "questionZhHant": "一名僱主在聽說某求職者佩戴宗教標志後，將其淘汰。這涉及哪項原則？",
+    "optionsZhHant": [
+      "免受基於宗教的歧視的保護。",
+      "僱主有權拒絕所有信教人士。",
+      "宗教只允許在家裡實踐的規則。",
+      "必須向僱主告知自己宗教信仰的義務。"
+    ],
+    "explanationZhHant": "反歧視法保護人們免受與宗教及其他受保護理由相關的不公正待遇。僱主因宗教標志而拒絕求職者，屬於基於宗教的歧視，是被禁止的。"
   },
   {
     "id": "draft-batch-b-ch07-002",
@@ -57,7 +73,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Children’s rights recognize children’s vulnerability, development, and right to be heard.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么儿童即使已被纳入人权范畴，仍拥有特殊权利？",
+    "optionsZh": [
+      "儿童依赖成年人，需要根据其年龄获得特殊保护和影响力。",
+      "儿童因为不投票所以权利更少。",
+      "儿童权利只在学校里适用。",
+      "父母随时可以放弃儿童的权利。"
+    ],
+    "explanationZh": "儿童权利承认儿童的脆弱性、发展需要以及被倾听的权利。《儿童权利公约》单独列出儿童权利，是因为儿童尚不能像成人一样自我保护，需要额外的特殊保护。",
+    "questionZhHant": "為什麼兒童即使已被納入人權範疇，仍擁有特殊權利？",
+    "optionsZhHant": [
+      "兒童依賴成年人，需要根據其年齡獲得特殊保護和影響力。",
+      "兒童因為不投票所以權利更少。",
+      "兒童權利只在學校裡適用。",
+      "父母隨時可以放棄兒童的權利。"
+    ],
+    "explanationZhHant": "兒童權利承認兒童的脆弱性、發展需要以及被傾聽的權利。《兒童權利公約》單獨列出兒童權利，是因為兒童尚不能像成人一樣自我保護，需要額外的特殊保護。"
   },
   {
     "id": "draft-batch-b-ch07-003",
@@ -87,7 +119,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom of religion includes positive and negative freedom: to have, change, or not have a religion.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人说宗教自由意味着国家必须遵从多数人的宗教。这种说法错在哪里？",
+    "optionsZh": [
+      "宗教自由保护信仰、改变信仰以及不信仰宗教的权利。",
+      "宗教自由只适用于最大的宗教群体。",
+      "国家必须始终把宗教规定变为法律。",
+      "不信仰宗教的人不受保护。"
+    ],
+    "explanationZh": "宗教自由包含积极与消极两面：既保护拥有和改变信仰的权利，也保护不信仰宗教的权利。国家是世俗的，不能把某一宗教强加于人。",
+    "questionZhHant": "有人說宗教自由意味着國家必須遵從多數人的宗教。這種說法錯在哪裡？",
+    "optionsZhHant": [
+      "宗教自由保護信仰、改變信仰以及不信仰宗教的權利。",
+      "宗教自由只適用於最大的宗教羣體。",
+      "國家必須始終把宗教規定變為法律。",
+      "不信仰宗教的人不受保護。"
+    ],
+    "explanationZhHant": "宗教自由包含積極與消極兩面：既保護擁有和改變信仰的權利，也保護不信仰宗教的權利。國家是世俗的，不能把某一宗教強加於人。"
   },
   {
     "id": "draft-batch-b-ch07-004",
@@ -117,7 +165,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Rights can sometimes be limited by law and practical conditions to protect others and public safety.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一场示威计划在医院外举行，可能阻断救护车通道。权利如何需要被权衡？",
+    "optionsZh": [
+      "示威自由很重要，但为了保护安全和医疗，可在实际中受到限制。",
+      "示威自由意味着救护车通道总可以被阻断。",
+      "医院可以禁止市镇里所有政治观点。",
+      "示威权只在所有人认同其主张时才适用。"
+    ],
+    "explanationZh": "权利有时可依法及实际条件受到限制，以保护他人和公共安全。集会自由虽受保护，但当示威危及急救通道和他人生命时，可受到合理限制。",
+    "questionZhHant": "一場示威計劃在醫院外舉行，可能阻斷救護車通道。權利如何需要被權衡？",
+    "optionsZhHant": [
+      "示威自由很重要，但為了保護安全和醫療，可在實際中受到限制。",
+      "示威自由意味着救護車通道總可以被阻斷。",
+      "醫院可以禁止市鎮裡所有政治觀點。",
+      "示威權只在所有人認同其主張時才適用。"
+    ],
+    "explanationZhHant": "權利有時可依法及實際條件受到限制，以保護他人和公共安全。集會自由雖受保護，但當示威危及急救通道和他人生命時，可受到合理限制。"
   },
   {
     "id": "draft-batch-b-ch07-005",
@@ -147,7 +211,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Minority rights protect cultural and linguistic identity and participation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么对国家少数民族和少数民族语言有特别保护？",
+    "optionsZh": [
+      "为了保留与瑞典有历史渊源的群体的语言、文化以及参与权。",
+      "为了让少数民族语言在所有政府机关取代瑞典语。",
+      "为了只让少数民族在某些市镇投票。",
+      "为了让主流文化在学校里不被提及。"
+    ],
+    "explanationZh": "少数群体权利保护文化和语言认同以及参与权。瑞典承认五个国家少数民族，对其语言和文化给予特别保护，以维护其历史传承和公共参与。",
+    "questionZhHant": "為什麼對國家少數民族和少數民族語言有特別保護？",
+    "optionsZhHant": [
+      "為了保留與瑞典有歷史淵源的羣體的語言、文化以及參與權。",
+      "為了讓少數民族語言在所有政府機關取代瑞典語。",
+      "為了只讓少數民族在某些市鎮投票。",
+      "為了讓主流文化在學校裡不被提及。"
+    ],
+    "explanationZhHant": "少數羣體權利保護文化和語言認同以及參與權。瑞典承認五個國家少數民族，對其語言和文化給予特別保護，以維護其歷史傳承和公共參與。"
   },
   {
     "id": "draft-batch-b-ch07-006",
@@ -177,7 +257,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Assumptions about family responsibilities can lead to unequal treatment and discrimination.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位经理说，抚养幼儿的父母不应被委以责任，因为他们可能因孩子生病而请假。这会造成什么问题？",
+    "optionsZh": [
+      "可能构成歧视并妨碍职场中的性别平等。",
+      "这是允许的，因为经理在晋升时可自由考虑私人生活。",
+      "这表明雇主遵循了平等对待原则。",
+      "根据瑞典法律，雇主可以让父母退出责任岗位。"
+    ],
+    "explanationZh": "对家庭责任的假定可能导致不平等待遇和歧视。以育儿请假为由排除父母承担职责，本质上是基于性别角色的成见，会损害性别平等。",
+    "questionZhHant": "一位經理說，撫養幼兒的父母不應被委以責任，因為他們可能因孩子生病而請假。這會造成什麼問題？",
+    "optionsZhHant": [
+      "可能構成歧視並妨礙職場中的性別平等。",
+      "這是允許的，因為經理在晉升時可自由考慮私人生活。",
+      "這表明僱主遵循了平等對待原則。",
+      "根據瑞典法律，僱主可以讓父母退出責任崗位。"
+    ],
+    "explanationZhHant": "對家庭責任的假定可能導致不平等待遇和歧視。以育兒請假為由排除父母承擔職責，本質上是基於性別角色的成見，會損害性別平等。"
   },
   {
     "id": "draft-batch-b-ch07-007",
@@ -207,7 +303,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Human rights set limits on how public power may treat individuals.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "人权限制国家权力的含义是什么？",
+    "optionsZh": [
+      "国家必须尊重某些基本自由和对个人的保护。",
+      "国家绝不可以做出影响人的决定。",
+      "人权只适用于公民，不适用于新近抵达者。",
+      "个人总可以放弃遵守瑞典法律。"
+    ],
+    "explanationZh": "人权为公共权力如何对待个人设定了界限。国家可以在法律范围内治理，但不得侵犯个人基本自由；人权适用于所有人，不限于公民。",
+    "questionZhHant": "人權限制國家權力的含義是什麼？",
+    "optionsZhHant": [
+      "國家必須尊重某些基本自由和對個人的保護。",
+      "國家絕不可以做出影響人的決定。",
+      "人權只適用於公民，不適用於新近抵達者。",
+      "個人總可以放棄遵守瑞典法律。"
+    ],
+    "explanationZhHant": "人權為公共權力如何對待個人設定了界限。國家可以在法律範圍內治理，但不得侵犯個人基本自由；人權適用於所有人，不限於公民。"
   },
   {
     "id": "draft-batch-b-ch07-008",
@@ -237,7 +349,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Free expression protects open debate, including views that others dislike, within legal limits.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人表达了许多人反感的、令人不安的政治观点。言论自由的民主理念怎么说？",
+    "optionsZh": [
+      "即便是令人不舒服的观点，一般也应被允许表达，只要遵守法律界限。",
+      "只有受欢迎的观点受言论自由保护。",
+      "言论自由只适用于公民，不适用于新移民。",
+      "被批评的人可自动禁止该言论。"
+    ],
+    "explanationZh": "自由表达保护开放的辩论，包括他人不喜欢的看法，但在法律界限之内。言论自由的价值恰恰在于保护不受欢迎的观点，而非只保护主流意见。",
+    "questionZhHant": "一個人表達了許多人反感的、令人不安的政治觀點。言論自由的民主理念怎麼說？",
+    "optionsZhHant": [
+      "即便是令人不舒服的觀點，一般也應被允許表達，只要遵守法律界限。",
+      "只有受歡迎的觀點受言論自由保護。",
+      "言論自由只適用於公民，不適用於新移民。",
+      "被批評的人可自動禁止該言論。"
+    ],
+    "explanationZhHant": "自由表達保護開放的辯論，包括他人不喜歡的看法，但在法律界限之內。言論自由的價值恰恰在於保護不受歡迎的觀點，而非只保護主流意見。"
   },
   {
     "id": "draft-batch-b-ch07-009",
@@ -267,7 +395,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Asylum assessment can involve an overall evaluation of the person’s situation and evidence.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人寻求保护，但难以出示原籍国的文件。为什么机关仍必须评估整段经历？",
+    "optionsZh": [
+      "保护需求可能需要根据多种信息而非仅正式文件来评估。",
+      "没有护照和工作证明就永远无法审查庇护申请。",
+      "缺少文件时机关应一律驳回。",
+      "市镇通过投票来决定可信度。"
+    ],
+    "explanationZh": "庇护审查可包括对当事人处境和证据的整体评估。许多寻求庇护者因受迫害而无法取得正式文件，机关须综合考量其陈述与其他信息来判断保护需求。",
+    "questionZhHant": "一個人尋求保護，但難以出示原籍國的文件。為什麼機關仍必須評估整段經歷？",
+    "optionsZhHant": [
+      "保護需求可能需要根據多種資訊而非僅正式文件來評估。",
+      "沒有護照和工作證明就永遠無法審查庇護申請。",
+      "缺少文件時機關應一律駁回。",
+      "市鎮通過投票來決定可信度。"
+    ],
+    "explanationZhHant": "庇護審查可包括對當事人處境和證據的整體評估。許多尋求庇護者因受迫害而無法取得正式文件，機關須綜合考量其陳述與其他資訊來判斷保護需求。"
   },
   {
     "id": "draft-batch-b-ch07-010",
@@ -297,7 +441,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Accessibility is part of equal participation in society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个公共网站无法用读屏软件访问。这涉及哪种权利视角？",
+    "optionsZh": [
+      "残障人士在平等条件下参与的能力和可及性。",
+      "数字信息只需对机关雇员有效。",
+      "残障人士应使用私人服务替代。",
+      "网站从不算作公共服务。"
+    ],
+    "explanationZh": "可及性是社会平等参与的一部分。公共数字服务必须让残障人士（如使用读屏软件的视障者）也能使用，否则等于将其排除在公共服务之外。",
+    "questionZhHant": "一個公共網站無法用讀屏軟件訪問。這涉及哪種權利視角？",
+    "optionsZhHant": [
+      "殘障人士在平等條件下參與的能力和可及性。",
+      "數字資訊只需對機關僱員有效。",
+      "殘障人士應使用私人服務替代。",
+      "網站從不算作公共服務。"
+    ],
+    "explanationZhHant": "可及性是社會平等參與的一部分。公共數字服務必須讓殘障人士（如使用讀屏軟件的視障者）也能使用，否則等於將其排除在公共服務之外。"
   },
   {
     "id": "draft-batch-b-ch07-011",
@@ -327,7 +487,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Human rights and rule of law require legal grounds and review when liberty is restricted.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人被拘留，既不知原因，也无法让事情得到审查。这引发什么权利问题？",
+    "optionsZh": [
+      "免受任意拘留的保护以及获得法律审查的权利。",
+      "机关在怀疑时避开法院的权利。",
+      "公民被动接受所有决定而无需知情信息的义务。",
+      "市镇在无法律依据下决定处罚的权利。"
+    ],
+    "explanationZh": "人权和法治要求在限制自由时有法律依据并可审查。被拘留者有权知道理由，并有权让法院审查拘留是否合法，以防任意羁押。",
+    "questionZhHant": "一個人被拘留，既不知原因，也無法讓事情得到審查。這引發什麼權利問題？",
+    "optionsZhHant": [
+      "免受任意拘留的保護以及獲得法律審查的權利。",
+      "機關在懷疑時避開法院的權利。",
+      "公民被動接受所有決定而無需知情資訊的義務。",
+      "市鎮在無法律依據下決定處罰的權利。"
+    ],
+    "explanationZhHant": "人權和法治要求在限制自由時有法律依據並可審查。被拘留者有權知道理由，並有權讓法院審查拘留是否合法，以防任意羈押。"
   },
   {
     "id": "draft-batch-b-ch07-012",
@@ -357,7 +533,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Privacy protects personal life from unjustified intrusion.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么私人生活被视为权利问题？",
+    "optionsZh": [
+      "人们应得到对个人资料、家庭和私人通信的保护。",
+      "私人生活意味着没人需要守法。",
+      "私人生活只适用于拥有住房的人。",
+      "机关总可以公布人们的私人信息。"
+    ],
+    "explanationZh": "隐私保护个人生活免受无端侵扰。隐私权涵盖个人资料、家庭和通信，是人格尊严的体现，与是否拥有住房或是否守法无关。",
+    "questionZhHant": "為什麼私人生活被視為權利問題？",
+    "optionsZhHant": [
+      "人們應得到對個人資料、家庭和私人通信的保護。",
+      "私人生活意味着沒人需要守法。",
+      "私人生活只適用於擁有住房的人。",
+      "機關總可以公布人們的私人資訊。"
+    ],
+    "explanationZhHant": "隱私保護個人生活免受無端侵擾。隱私權涵蓋個人資料、家庭和通信，是人格尊嚴的體現，與是否擁有住房或是否守法無關。"
   },
   {
     "id": "draft-batch-b-ch07-013",
@@ -387,7 +579,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Education is a fundamental right and children should have access regardless of family income.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个孩子因家庭缺钱而无法上学。哪项原则反对这种情况？",
+    "optionsZh": [
+      "受教育的权利以及儿童获得平等机会的权利。",
+      "教育只是自愿的私人服务。",
+      "瑞典的学校只适用于公民子女。",
+      "市镇可以把学位卖给出价最高者。"
+    ],
+    "explanationZh": "教育是一项基本权利，儿童无论家庭收入如何都应能获得。瑞典实行免费义务教育，不让贫困成为儿童失学的障碍，体现教育平等。",
+    "questionZhHant": "一個孩子因家庭缺錢而無法上學。哪項原則反對這種情況？",
+    "optionsZhHant": [
+      "受教育的權利以及兒童獲得平等機會的權利。",
+      "教育只是自願的私人服務。",
+      "瑞典的學校只適用於公民子女。",
+      "市鎮可以把學位賣給出價最高者。"
+    ],
+    "explanationZhHant": "教育是一項基本權利，兒童無論家庭收入如何都應能獲得。瑞典實行免費義務教育，不讓貧困成為兒童失學的障礙，體現教育平等。"
   },
   {
     "id": "draft-batch-b-ch07-014",
@@ -417,7 +625,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Legal limits can protect people from threats and hate speech.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人说言论自由包括威胁少数群体的权利。最佳判断是什么？",
+    "optionsZh": [
+      "言论自由保护很多内容，但针对族群的威胁和煽动可能是犯罪。",
+      "言论自由在网络上写下时总保护威胁。",
+      "只要针对超过一人，威胁就允许。",
+      "少数群体在瑞典法律中不受保护。"
+    ],
+    "explanationZh": "法律界限可保护人们免受威胁和仇恨言论侵害。言论自由并非绝对，威胁或煽动仇恨（hets mot folkgrupp）在瑞典属刑事犯罪，不受言论自由保护。",
+    "questionZhHant": "一個人說言論自由包括威脅少數羣體的權利。最佳判斷是什麼？",
+    "optionsZhHant": [
+      "言論自由保護很多內容，但針對族羣的威脅和煽動可能是犯罪。",
+      "言論自由在網絡上寫下時總保護威脅。",
+      "只要針對超過一人，威脅就允許。",
+      "少數羣體在瑞典法律中不受保護。"
+    ],
+    "explanationZhHant": "法律界限可保護人們免受威脅和仇恨言論侵害。言論自由並非絕對，威脅或煽動仇恨（hets mot folkgrupp）在瑞典屬刑事犯罪，不受言論自由保護。"
   },
   {
     "id": "draft-batch-b-ch07-015",
@@ -447,7 +671,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Rights coexist; one person’s freedom must be balanced with others’ rights and safety.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么权利常常与对他人权利的责任相联系？",
+    "optionsZh": [
+      "开放社会要求人们行使自由时不侵犯他人的保护。",
+      "拥有权利的人总可以决定他人。",
+      "责任意味着国家剥夺所有个人自由。",
+      "他人的权利只在你认同他们时才适用。"
+    ],
+    "explanationZh": "权利共存；一个人的自由必须与他人权利和安全相平衡。没有无义务的权利，行使自身自由时不能损害他人的同等自由与安全。",
+    "questionZhHant": "為什麼權利常常與對他人權利的責任相聯系？",
+    "optionsZhHant": [
+      "開放社會要求人們行使自由時不侵犯他人的保護。",
+      "擁有權利的人總可以決定他人。",
+      "責任意味着國家剝奪所有個人自由。",
+      "他人的權利只在你認同他們時才適用。"
+    ],
+    "explanationZhHant": "權利共存；一個人的自由必須與他人權利和安全相平衡。沒有無義務的權利，行使自身自由時不能損害他人的同等自由與安全。"
   },
   {
     "id": "draft-batch-d-ch07-001",
@@ -477,7 +717,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Hate crimes can threaten equal dignity and security for protected groups.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么仇恨犯罪是权利问题？",
+    "optionsZh": [
+      "它们既攻击受害者本人，也攻击社会中某一群体的安全感。",
+      "仇恨犯罪只在施害者是政客时才适用。",
+      "仇恨犯罪发生在网络上就总被允许。",
+      "只有机关才能成为仇恨犯罪的受害者。"
+    ],
+    "explanationZh": "仇恨犯罪会威胁受保护群体的平等尊严和安全。这类犯罪不仅伤害个人，还会使整个群体感到不安全，因此被视作对公共平等秩序的侵犯。",
+    "questionZhHant": "為什麼仇恨犯罪是權利問題？",
+    "optionsZhHant": [
+      "它們既攻擊受害者本人，也攻擊社會中某一羣體的安全感。",
+      "仇恨犯罪只在施害者是政客時才適用。",
+      "仇恨犯罪發生在網絡上就總被允許。",
+      "只有機關才能成為仇恨犯罪的受害者。"
+    ],
+    "explanationZhHant": "仇恨犯罪會威脅受保護羣體的平等尊嚴和安全。這類犯罪不僅傷害個人，還會使整個羣體感到不安全，因此被視作對公共平等秩序的侵犯。"
   },
   {
     "id": "draft-batch-d-ch07-002",
@@ -507,7 +763,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Privacy protects dignity and freedom in everyday life.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么即使在安全的社会里，个人隐私也很重要？",
+    "optionsZh": [
+      "人们需要免受对个人生活和私人数据不必要的窥探。",
+      "隐私只适用于不使用互联网的人。",
+      "安全意味着国家可公布所有私人信息。",
+      "个人资料对人权无关紧要。"
+    ],
+    "explanationZh": "隐私保护日常生活中的尊严和自由。即便社会总体安全，个人仍应免受对个人生活和数据的无端监视与公开，这是人的基本尊严所系。",
+    "questionZhHant": "為什麼即使在安全的社會裡，個人隱私也很重要？",
+    "optionsZhHant": [
+      "人們需要免受對個人生活和私人數據不必要的窺探。",
+      "隱私只適用於不使用互聯網的人。",
+      "安全意味着國家可公布所有私人資訊。",
+      "個人資料對人權無關緊要。"
+    ],
+    "explanationZhHant": "隱私保護日常生活中的尊嚴和自由。即便社會總體安全，個人仍應免受對個人生活和數據的無端監視與公開，這是人的基本尊嚴所系。"
   },
   {
     "id": "draft-ch07-001",
@@ -536,7 +808,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Human rights are based on the idea that every person has dignity and rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "人权具有普遍性是什么意思？",
+    "optionsZh": [
+      "它们适用于所有人，无论国家或背景。",
+      "它们只适用于某一国家的公民。",
+      "它们只适用于工作的人。",
+      "它们只在机关选择适用时才适用。"
+    ],
+    "explanationZh": "人权基于每个人都具有尊严和权利的理念。普遍性意味着人权不分国籍、种族、贫富或是否工作，赋予每一个具体的人。",
+    "questionZhHant": "人權具有普遍性是什麼意思？",
+    "optionsZhHant": [
+      "它們適用於所有人，無論國家或背景。",
+      "它們只適用於某一國家的公民。",
+      "它們只適用於工作的人。",
+      "它們只在機關選擇適用時才適用。"
+    ],
+    "explanationZhHant": "人權基於每個人都具有尊嚴和權利的理念。普遍性意味着人權不分國籍、種族、貧富或是否工作，賦予每一個具體的人。"
   },
   {
     "id": "draft-ch07-002",
@@ -565,7 +853,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Human rights create obligations for public authorities to respect, protect, and promote rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "国家对人权负有责任意味着什么？",
+    "optionsZh": [
+      "国家应在其活动和立法中尊重、保护和促进这些权利。",
+      "国家可自由取消缺乏政治支持群体的权利。",
+      "国家只在选举年份才有义务遵守权利。",
+      "国家可把权利的全部责任转嫁给私人企业。"
+    ],
+    "explanationZh": "人权为公共机关设定了尊重、保护和促进权利的义务。国家有持续义务通过立法与施政落实人权，不能因政治风向或外包而免除。",
+    "questionZhHant": "國家對人權負有責任意味着什麼？",
+    "optionsZhHant": [
+      "國家應在其活動和立法中尊重、保護和促進這些權利。",
+      "國家可自由取消缺乏政治支持羣體的權利。",
+      "國家只在選舉年份才有義務遵守權利。",
+      "國家可把權利的全部責任轉嫁給私人企業。"
+    ],
+    "explanationZhHant": "人權為公共機關設定了尊重、保護和促進權利的義務。國家有持續義務通過立法與施政落實人權，不能因政治風向或外包而免除。"
   },
   {
     "id": "draft-ch07-003",
@@ -595,7 +899,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public services must consider accessibility and non-discrimination so people can use them in practice.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个市镇计划推行新的数字流程，可能将残障人士排除在市镇服务之外。必须考虑哪种视角？",
+    "optionsZh": [
+      "可及性以及所有居民平等使用公共服务的可能。",
+      "市镇有权优先采用技术解决方案而不顾可及性。",
+      "权利和可及性只适用于国家机关的场所内。",
+      "个别居民自行承担适应市镇系统的全部责任。"
+    ],
+    "explanationZh": "公共服务必须考虑可及性和不歧视，使人们能在实践中使用。市镇作为公共机构，有义务确保数字服务不将残障居民排除在外。",
+    "questionZhHant": "一個市鎮計劃推行新的數字流程，可能將殘障人士排除在市鎮服務之外。必須考慮哪種視角？",
+    "optionsZhHant": [
+      "可及性以及所有居民平等使用公共服務的可能。",
+      "市鎮有權優先採用技術解決方案而不顧可及性。",
+      "權利和可及性只適用於國家機關的場所內。",
+      "個別居民自行承擔適應市鎮系統的全部責任。"
+    ],
+    "explanationZhHant": "公共服務必須考慮可及性和不歧視，使人們能在實踐中使用。市鎮作為公共機構，有義務確保數字服務不將殘障居民排除在外。"
   },
   {
     "id": "draft-ch07-004",
@@ -624,7 +944,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Equal human dignity is a foundation for human rights and democracy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“所有人有同等价值”这一表述背后的理念是什么？",
+    "optionsZh": [
+      "每个人都有同样的基本尊严。",
+      "所有人必须有相同职业。",
+      "所有人必须在政治上想法一致。",
+      "只有多数群体拥有权利。"
+    ],
+    "explanationZh": "平等的人类尊严是人权与民主的基础。它指每个人内在价值平等，并不意味着职业、观点或身份必须相同。",
+    "questionZhHant": "“所有人有同等價值”這一表述背後的理念是什麼？",
+    "optionsZhHant": [
+      "每個人都有同樣的基本尊嚴。",
+      "所有人必須有相同職業。",
+      "所有人必須在政治上想法一致。",
+      "只有多數羣體擁有權利。"
+    ],
+    "explanationZhHant": "平等的人類尊嚴是人權與民主的基礎。它指每個人內在價值平等，並不意味着職業、觀點或身份必須相同。"
   },
   {
     "id": "draft-ch07-005",
@@ -654,7 +990,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democracy requires both majority decisions and protection of people’s basic rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么所有人同等价值在民主中重要？",
+    "optionsZh": [
+      "它防止权力被用来使某些群体失去法律权利。",
+      "它意味着所有决定必须一致通过。",
+      "它使法院不再需要。",
+      "它意味着多数总可以限制少数。"
+    ],
+    "explanationZh": "民主既需要多数决定，也需要保护人们的基本权利。平等尊严防止以民主多数之名剥夺少数群体的基本权利，使权力不被滥用。",
+    "questionZhHant": "為什麼所有人同等價值在民主中重要？",
+    "optionsZhHant": [
+      "它防止權力被用來使某些羣體失去法律權利。",
+      "它意味着所有決定必須一致通過。",
+      "它使法院不再需要。",
+      "它意味着多數總可以限制少數。"
+    ],
+    "explanationZhHant": "民主既需要多數決定，也需要保護人們的基本權利。平等尊嚴防止以民主多數之名剝奪少數羣體的基本權利，使權力不被濫用。"
   },
   {
     "id": "draft-ch07-006",
@@ -684,7 +1036,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democracy protects basic rights even for unpopular groups and opinions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "地方议会中的多数想禁止一个少数群体参与公共辩论。这主要侵犯了哪项民主原则？",
+    "optionsZh": [
+      "所有人同等价值以及无论受欢迎与否都表达观点的权利。",
+      "多数决定总取消个人权利的原则。",
+      "市镇可以决定哪些公民可发言的原则。",
+      "政治辩论只可在竞选期间进行的规则。"
+    ],
+    "explanationZh": "民主保护基本权利，即使对不受欢迎的群体和观点也一样。公共辩论应向所有人开放，不能由多数投票剥夺少数的发言权。",
+    "questionZhHant": "地方議會中的多數想禁止一個少數羣體參與公共辯論。這主要侵犯了哪項民主原則？",
+    "optionsZhHant": [
+      "所有人同等價值以及無論受歡迎與否都表達觀點的權利。",
+      "多數決定總取消個人權利的原則。",
+      "市鎮可以決定哪些公民可發言的原則。",
+      "政治辯論只可在競選期間進行的規則。"
+    ],
+    "explanationZhHant": "民主保護基本權利，即使對不受歡迎的羣體和觀點也一樣。公共辯論應向所有人開放，不能由多數投票剝奪少數的發言權。"
   },
   {
     "id": "draft-ch07-007",
@@ -713,7 +1081,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Discrimination is unequal treatment connected to protected grounds such as sex, ethnicity, religion, disability, or sexual orientation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "歧视的根本是什么？",
+    "optionsZh": [
+      "某人因与受保护理由相关的方式受到非法不利对待。",
+      "某人输掉一场政治辩论。",
+      "所有人按同一明确规则对待。",
+      "法院审查证据。"
+    ],
+    "explanationZh": "歧视是与受保护理由（如性别、族裔、宗教、残障或性取向）相关的不平等待遇。关键在于不利对待与受保护特征之间的非法关联，而非一般的输赢或依规办事。",
+    "questionZhHant": "歧視的根本是什麼？",
+    "optionsZhHant": [
+      "某人因與受保護理由相關的方式受到非法不利對待。",
+      "某人輸掉一場政治辯論。",
+      "所有人按同一明確規則對待。",
+      "法院審查證據。"
+    ],
+    "explanationZhHant": "歧視是與受保護理由（如性別、族裔、宗教、殘障或性取向）相關的不平等待遇。關鍵在於不利對待與受保護特徵之間的非法關聯，而非一般的輸贏或依規辦事。"
   },
   {
     "id": "draft-ch07-008",
@@ -742,7 +1126,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish discrimination law protects seven specific grounds: sex, gender identity or expression, ethnic origin, religion or other belief, disability, sexual orientation, and age.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "以下哪些在瑞典属于受法律保护的歧视理由？",
+    "optionsZh": [
+      "性别、跨性别身份或表达、族裔归属、宗教或其他信仰、残障、性取向和年龄。",
+      "职业选择、教育程度、收入和居住地。",
+      "政党归属、工会会员身份和业余爱好。",
+      "公民身份年限、英语能力和婚姻状况。"
+    ],
+    "explanationZh": "瑞典反歧视法保护七个具体理由：性别、性别身份或表达、族裔归属、宗教或其他信仰、残障、性取向和年龄。其他如收入、爱好等不在法定受保护理由之列。",
+    "questionZhHant": "以下哪些在瑞典屬於受法律保護的歧視理由？",
+    "optionsZhHant": [
+      "性別、跨性別身份或表達、族裔歸屬、宗教或其他信仰、殘障、性取向和年齡。",
+      "職業選擇、教育程度、收入和居住地。",
+      "政黨歸屬、工會會員身份和業餘愛好。",
+      "公民身份年限、英語能力和婚姻狀況。"
+    ],
+    "explanationZhHant": "瑞典反歧視法保護七個具體理由：性別、性別身份或表達、族裔歸屬、宗教或其他信仰、殘障、性取向和年齡。其他如收入、愛好等不在法定受保護理由之列。"
   },
   {
     "id": "draft-ch07-009",
@@ -772,7 +1172,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Refusing service because of ethnicity can violate anti-discrimination rules for goods and services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一家餐厅因客人族裔而拒绝为其服务。这种情况主要涉及什么？",
+    "optionsZh": [
+      "在提供商品和服务时的族裔歧视。",
+      "餐厅不论法律如何自由选择顾客的权利。",
+      "只涉及营业自由的合同纠纷。",
+      "关于客人须出示瑞典公民身份的问题。"
+    ],
+    "explanationZh": "因族裔拒绝服务可能违反商品和服务的反歧视规定。瑞典反歧视法禁止在提供商品和服务时基于族裔等原因拒绝顾客，这并非商家的绝对营业自由。",
+    "questionZhHant": "一家餐廳因客人族裔而拒絕為其服務。這種情況主要涉及什麼？",
+    "optionsZhHant": [
+      "在提供商品和服務時的族裔歧視。",
+      "餐廳不論法律如何自由選擇顧客的權利。",
+      "只涉及營業自由的合同糾紛。",
+      "關於客人須出示瑞典公民身份的問題。"
+    ],
+    "explanationZhHant": "因族裔拒絕服務可能違反商品和服務的反歧視規定。瑞典反歧視法禁止在提供商品和服務時基於族裔等原因拒絕顧客，這並非商家的絕對營業自由。"
   },
   {
     "id": "draft-ch07-010",
@@ -801,7 +1217,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Gender equality concerns equal power, rights, responsibilities, and opportunities regardless of gender.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "性别平等是什么意思？",
+    "optionsZh": [
+      "女性和男性应拥有相同的权利、义务和机会。",
+      "只有女性可以参与政治。",
+      "所有人必须选择相同的教育。",
+      "男女绝不可一起工作。"
+    ],
+    "explanationZh": "性别平等关乎不论性别的平等权力、权利、责任与机会。它追求男女在权力、资源和发展上的平等，而非强制一致的选择。",
+    "questionZhHant": "性別平等是什麼意思？",
+    "optionsZhHant": [
+      "女性和男性應擁有相同的權利、義務和機會。",
+      "只有女性可以參與政治。",
+      "所有人必須選擇相同的教育。",
+      "男女絕不可一起工作。"
+    ],
+    "explanationZhHant": "性別平等關乎不論性別的平等權力、權利、責任與機會。它追求男女在權力、資源和發展上的平等，而非強制一致的選擇。"
   },
   {
     "id": "draft-ch07-011",
@@ -831,7 +1263,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Unequal treatment because of gender can be a gender equality and discrimination issue.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个例子可以显示职场中性别平等的缺失？",
+    "optionsZh": [
+      "能力相同的人因性别受到不同对待。",
+      "两位同事喜欢不同科目。",
+      "一个职场同时有年轻和年长雇员。",
+      "一个人自愿换工作。"
+    ],
+    "explanationZh": "因性别造成的不平等待遇可成为性别平等和歧视问题。在相同能力下因性别而区别对待，正是性别歧视的典型表现；其他情形与性别平等无关。",
+    "questionZhHant": "哪個例子可以顯示職場中性別平等的缺失？",
+    "optionsZhHant": [
+      "能力相同的人因性別受到不同對待。",
+      "兩位同事喜歡不同科目。",
+      "一個職場同時有年輕和年長僱員。",
+      "一個人自願換工作。"
+    ],
+    "explanationZhHant": "因性別造成的不平等待遇可成為性別平等和歧視問題。在相同能力下因性別而區別對待，正是性別歧視的典型表現；其他情形與性別平等無關。"
   },
   {
     "id": "draft-ch07-012",
@@ -861,7 +1309,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Targeting only female applicants with family-planning questions can amount to gender discrimination in recruitment.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "雇主在招聘面试中仅向女性求职者询问未来家庭规划问题。这引发什么法律问题？",
+    "optionsZh": [
+      "它在职场中构成性别歧视和不合理差别对待的风险。",
+      "只要所有求职者都可加班就允许。",
+      "这只是雇主自由获取信息权的问题。",
+      "它只涉及根据数据保护条例对个人资料的保护。"
+    ],
+    "explanationZh": "仅向女性求职者询问家庭规划问题可构成招聘中的性别歧视。这类问题基于性别预设，可能用于不合理排除女性，超出合理招聘信息需求。",
+    "questionZhHant": "僱主在招聘面試中僅向女性求職者詢問未來家庭規劃問題。這引發什麼法律問題？",
+    "optionsZhHant": [
+      "它在職場中構成性別歧視和不合理差別對待的風險。",
+      "只要所有求職者都可加班就允許。",
+      "這只是僱主自由獲取資訊權的問題。",
+      "它只涉及根據數據保護條例對個人資料的保護。"
+    ],
+    "explanationZhHant": "僅向女性求職者詢問家庭規劃問題可構成招聘中的性別歧視。這類問題基於性別預設，可能用於不合理排除女性，超出合理招聘資訊需求。"
   },
   {
     "id": "draft-ch07-013",
@@ -890,7 +1354,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Children’s rights recognize children as rights holders who need care, protection, and participation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "儿童权利中的一个重要基本理念是什么？",
+    "optionsZh": [
+      "儿童是拥有权利和受保护需求的独立个人。",
+      "儿童在成年前没有权利。",
+      "儿童权利只适用于体育协会。",
+      "儿童应为成人的决定承担全部责任。"
+    ],
+    "explanationZh": "儿童权利承认儿童是享有权利的主体，需要照顾、保护和参与。儿童不是成人的附属品，而是独立的权利拥有者。",
+    "questionZhHant": "兒童權利中的一個重要基本理念是什麼？",
+    "optionsZhHant": [
+      "兒童是擁有權利和受保護需求的獨立個人。",
+      "兒童在成年前沒有權利。",
+      "兒童權利只適用於體育協會。",
+      "兒童應為成人的決定承擔全部責任。"
+    ],
+    "explanationZhHant": "兒童權利承認兒童是享有權利的主體，需要照顧、保護和參與。兒童不是成人的附屬品，而是獨立的權利擁有者。"
   },
   {
     "id": "draft-ch07-014",
@@ -920,7 +1400,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Children’s participation means their views matter, while adults still carry legal responsibility.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "儿童在涉及自身的事务中应被听取意见，这意味着什么？",
+    "optionsZh": [
+      "儿童的意见应根据其年龄和成熟度被考虑。",
+      "儿童应总决定所有成人决定。",
+      "儿童只能谈论学校午餐。",
+      "儿童的意见绝不可影响任何决定。"
+    ],
+    "explanationZh": "儿童参与意味着他们的意见很重要，但成人仍承担法律责任。听取儿童意见须依其年龄与成熟度权衡，并非让儿童替代成人作最终决定。",
+    "questionZhHant": "兒童在涉及自身的事務中應被聽取意見，這意味着什麼？",
+    "optionsZhHant": [
+      "兒童的意見應根據其年齡和成熟度被考慮。",
+      "兒童應總決定所有成人決定。",
+      "兒童只能談論學校午餐。",
+      "兒童的意見絕不可影響任何決定。"
+    ],
+    "explanationZhHant": "兒童參與意味着他們的意見很重要，但成人仍承擔法律責任。聽取兒童意見須依其年齡與成熟度權衡，並非讓兒童替代成人作最終決定。"
   },
   {
     "id": "draft-ch07-015",
@@ -950,7 +1446,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The best interests of the child must be a primary consideration in decisions affecting children.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "社会服务机构调查一宗涉及儿童成长环境的事务。为什么要适用“儿童最佳利益”原则？",
+    "optionsZh": [
+      "在所有涉及儿童的决定中，应首要权衡儿童的权利、安全和成长。",
+      "不论后果如何，儿童愿望总必须无条件遵从。",
+      "该原则只适用于法庭程序，不适用于市镇事务。",
+      "成人的需求和优先事项总重于儿童的尊严。"
+    ],
+    "explanationZh": "在影响儿童的决定中，儿童最佳利益必须是首要考量。这适用于包括市镇社会工作在内的所有儿童相关事务，但不等于无条件满足儿童一切愿望。",
+    "questionZhHant": "社會服務機構調查一宗涉及兒童成長環境的事務。為什麼要適用“兒童最佳利益”原則？",
+    "optionsZhHant": [
+      "在所有涉及兒童的決定中，應首要權衡兒童的權利、安全和成長。",
+      "不論後果如何，兒童願望總必須無條件遵從。",
+      "該原則只適用於法庭程序，不適用於市鎮事務。",
+      "成人的需求和優先事項總重於兒童的尊嚴。"
+    ],
+    "explanationZhHant": "在影響兒童的決定中，兒童最佳利益必須是首要考量。這適用於包括市鎮社會工作在內的所有兒童相關事務，但不等於無條件滿足兒童一切願望。"
   },
   {
     "id": "draft-ch07-016",
@@ -979,7 +1491,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden prohibits all corporal punishment of children; the ban in the Parental Code (1979) made Sweden the first country to outlaw it.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "关于对儿童的体罚，瑞典的哪项说法正确？",
+    "optionsZh": [
+      "根据瑞典法律，所有对儿童的体罚都被禁止。",
+      "父母若称为管教就总可打孩子。",
+      "对儿童的暴力只在学校被禁止。",
+      "对儿童的保护只适用于15岁之后。"
+    ],
+    "explanationZh": "瑞典禁止一切对儿童体罚；《父母法》（1979年）使瑞典成为首个将其定为非法的国家。无论称为管教与否，无论场所，对儿童的任何体罚均违法。",
+    "questionZhHant": "關於對兒童的體罰，瑞典的哪項說法正確？",
+    "optionsZhHant": [
+      "根據瑞典法律，所有對兒童的體罰都被禁止。",
+      "父母若稱為管教就總可打孩子。",
+      "對兒童的暴力只在學校被禁止。",
+      "對兒童的保護只適用於15歲之後。"
+    ],
+    "explanationZhHant": "瑞典禁止一切對兒童體罰；《父母法》（1979年）使瑞典成為首個將其定為非法的國家。無論稱為管教與否，無論場所，對兒童的任何體罰均違法。"
   },
   {
     "id": "draft-ch07-017",
@@ -1009,7 +1537,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Children’s rights create public responsibilities, including protection and support.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么针对儿童的暴力不只是私人家庭事务？",
+    "optionsZh": [
+      "社会有责任在儿童面临受害风险时保护他们。",
+      "家庭总可以取消儿童的权利。",
+      "机关在儿童遭受暴力时绝不可行动。",
+      "儿童必须自己提起控告才能获得保护。"
+    ],
+    "explanationZh": "儿童权利产生公共责任，包括保护和支援。当儿童可能在家中受伤害时，国家和市镇有责任介入，不能借口“家务事”而坐视。",
+    "questionZhHant": "為什麼針對兒童的暴力不只是私人家庭事務？",
+    "optionsZhHant": [
+      "社會有責任在兒童面臨受害風險時保護他們。",
+      "家庭總可以取消兒童的權利。",
+      "機關在兒童遭受暴力時絕不可行動。",
+      "兒童必須自己提起控告才能獲得保護。"
+    ],
+    "explanationZhHant": "兒童權利產生公共責任，包括保護和支援。當兒童可能在家中受傷害時，國家和市鎮有責任介入，不能借口“家務事”而坐視。"
   },
   {
     "id": "draft-ch07-018",
@@ -1039,7 +1583,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Protecting children from harm can require contacting social services when there is serious concern.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人怀疑邻里的儿童在家中遭受暴力或忽视。哪种做法最符合儿童保护原则？",
+    "optionsZh": [
+      "应优先考虑儿童安全，并应向社会工作服务报告怀疑。",
+      "无论儿童处境如何，家庭事务应始终完全保密。",
+      "只有在父母自己请求机关支援时才可介入。",
+      "邻居在儿童满15岁前无权反应。"
+    ],
+    "explanationZh": "保护儿童免受伤害，可在有严重担忧时联系社会工作服务。儿童安全优先于家庭隐私，任何人发现可疑情形都可向社工部门报告。",
+    "questionZhHant": "一個人懷疑鄰裡的兒童在家中遭受暴力或忽視。哪種做法最符合兒童保護原則？",
+    "optionsZhHant": [
+      "應優先考慮兒童安全，並應向社會工作服務報告懷疑。",
+      "無論兒童處境如何，家庭事務應始終完全保密。",
+      "只有在父母自己請求機關支援時才可介入。",
+      "鄰居在兒童滿15歲前無權反應。"
+    ],
+    "explanationZhHant": "保護兒童免受傷害，可在有嚴重擔憂時聯系社會工作服務。兒童安全優先於家庭隱私，任何人發現可疑情形都可向社工部門報告。"
   },
   {
     "id": "draft-ch07-019",
@@ -1068,7 +1628,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Equal treatment means fair and objective handling, not identical outcomes in every case.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在接触公共服务时，平等对待是什么意思？",
+    "optionsZh": [
+      "人们应被客观对待，不受歧视。",
+      "所有人无论需求和规则都应得到完全相同决定。",
+      "机关可偏袒有私人关系的人。",
+      "平等对待只适用于法院。"
+    ],
+    "explanationZh": "平等对待意味着公平、客观的处理，而非每案结果相同。它要求不因私人关系或受保护特征而偏袒或歧视，但实际决定须依规则和个人情况而定。",
+    "questionZhHant": "在接觸公共服務時，平等對待是什麼意思？",
+    "optionsZhHant": [
+      "人們應被客觀對待，不受歧視。",
+      "所有人無論需求和規則都應得到完全相同決定。",
+      "機關可偏袒有私人關系的人。",
+      "平等對待只適用於法院。"
+    ],
+    "explanationZhHant": "平等對待意味着公平、客觀的處理，而非每案結果相同。它要求不因私人關系或受保護特徵而偏袒或歧視，但實際決定須依規則和個人情況而定。"
   },
   {
     "id": "draft-ch07-020",
@@ -1098,7 +1674,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A secular state can protect freedom of religion while public law applies to everyone.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在一个世俗社会里，宗教自由如何运作？",
+    "optionsZh": [
+      "国家不应强迫信仰，但人们可在法律框架内实践宗教。",
+      "国家应禁止所有宗教。",
+      "只有一种宗教可公开出现。",
+      "宗教自由意味着法律不适用于宗教群体。"
+    ],
+    "explanationZh": "世俗国家可保护宗教自由，同时公共法律适用于所有人。国家保持宗教中立，既不强制也不禁止宗教，宗教活动仍须在法律范围内。",
+    "questionZhHant": "在一個世俗社會裡，宗教自由如何運作？",
+    "optionsZhHant": [
+      "國家不應強迫信仰，但人們可在法律框架內實踐宗教。",
+      "國家應禁止所有宗教。",
+      "只有一種宗教可公開出現。",
+      "宗教自由意味着法律不適用於宗教羣體。"
+    ],
+    "explanationZhHant": "世俗國家可保護宗教自由，同時公共法律適用於所有人。國家保持宗教中立，既不強制也不禁止宗教，宗教活動仍須在法律範圍內。"
   },
   {
     "id": "draft-ch07-021",
@@ -1128,7 +1720,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Denying public service because of religious clothing can involve both freedom of religion and anti-discrimination protection.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个机关因来访者的宗教服饰而拒绝接待。哪些权利问题最相关？",
+    "optionsZh": [
+      "宗教自由以及公共活动中的反歧视保护。",
+      "机关自由选择来访者的权利。",
+      "仅关于公共文件和保密的规则。",
+      "关于来访者政治归属和选举权的问题。"
+    ],
+    "explanationZh": "因宗教服饰拒绝公共服务可涉及宗教自由和反歧视保护两方面。公共机关在履职时不得基于宗教特征拒绝服务，这侵犯当事人的宗教自由与平等权。",
+    "questionZhHant": "一個機關因來訪者的宗教服飾而拒絕接待。哪些權利問題最相關？",
+    "optionsZhHant": [
+      "宗教自由以及公共活動中的反歧視保護。",
+      "機關自由選擇來訪者的權利。",
+      "僅關於公共文件和保密的規則。",
+      "關於來訪者政治歸屬和選舉權的問題。"
+    ],
+    "explanationZhHant": "因宗教服飾拒絕公共服務可涉及宗教自由和反歧視保護兩方面。公共機關在履職時不得基於宗教特徵拒絕服務，這侵犯當事人的宗教自由與平等權。"
   },
   {
     "id": "draft-ch07-022",
@@ -1157,7 +1765,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Equal rights include safety, dignity, and protection against discrimination.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "对 hbtqi 群体的平等权利是关于什么？",
+    "optionsZh": [
+      "人们应能安全生活，不论性取向、性别认同或性别表达。",
+      "只有 hbtqi 群体可在某些选举中投票。",
+      "所有人必须以相同方式描述自己的身份。",
+      "国家应登记私人观点。"
+    ],
+    "explanationZh": "平等权利包括安全、尊严和免受歧视的保护。hbtqi 群体应与其他人一样在不受威胁与歧视的环境中生活，这与投票权或身份登记无关。",
+    "questionZhHant": "對 hbtqi 羣體的平等權利是關於什麼？",
+    "optionsZhHant": [
+      "人們應能安全生活，不論性取向、性別認同或性別表達。",
+      "只有 hbtqi 羣體可在某些選舉中投票。",
+      "所有人必須以相同方式描述自己的身份。",
+      "國家應登記私人觀點。"
+    ],
+    "explanationZhHant": "平等權利包括安全、尊嚴和免受歧視的保護。hbtqi 羣體應與其他人一樣在不受威脅與歧視的環境中生活，這與投票權或身份登記無關。"
   },
   {
     "id": "draft-ch07-023",
@@ -1187,7 +1811,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sexual orientation is a protected ground in anti-discrimination work.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个例子可能是与性取向相关的歧视？",
+    "optionsZh": [
+      "某人因与同性伴侣共同生活而被拒绝服务。",
+      "两人有不同政治观点。",
+      "一名学生选择与朋友不同的语言课。",
+      "法院审查一份合同。"
+    ],
+    "explanationZh": "性取向是反歧视工作中的受保护理由。因伴侣的性别而拒绝提供服务，正是基于性取向的歧视；其他情形与此无关。",
+    "questionZhHant": "哪個例子可能是與性取向相關的歧視？",
+    "optionsZhHant": [
+      "某人因與同性伴侶共同生活而被拒絕服務。",
+      "兩人有不同政治觀點。",
+      "一名學生選擇與朋友不同的語言課。",
+      "法院審查一份合同。"
+    ],
+    "explanationZhHant": "性取向是反歧視工作中的受保護理由。因伴侶的性別而拒絕提供服務，正是基於性取向的歧視；其他情形與此無關。"
   },
   {
     "id": "draft-ch07-024",
@@ -1217,7 +1857,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Schools should promote equality, inclusion, and respect for different identities and family forms.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一所学校禁止讲授同性家庭结构，并声称只能提及传统家庭。这种观点与什么相悖？",
+    "optionsZh": [
+      "学校促进平等对待和尊重所有人尊严与身份的任务。",
+      "校董会不受国家监督自行制定课程的权利。",
+      "所有学生必须接受各科完全相同教学的原则。",
+      "义务学校组织家长会议的规则。"
+    ],
+    "explanationZh": "学校应促进平等、包容以及对不同身份和家庭形式的尊重。公立学校有义务呈现多元现实并尊重所有学生的身份，而非只宣扬单一家庭模式。",
+    "questionZhHant": "一所學校禁止講授同性家庭結構，並聲稱只能提及傳統家庭。這種觀點與什麼相悖？",
+    "optionsZhHant": [
+      "學校促進平等對待和尊重所有人尊嚴與身份的任務。",
+      "校董會不受國家監督自行制定課程的權利。",
+      "所有學生必須接受各科完全相同教學的原則。",
+      "義務學校組織家長會議的規則。"
+    ],
+    "explanationZhHant": "學校應促進平等、包容以及對不同身份和家庭形式的尊重。公立學校有義務呈現多元現實並尊重所有學生的身份，而非只宣揚單一家庭模式。"
   },
   {
     "id": "draft-ch07-025",
@@ -1246,7 +1902,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden recognizes five national minorities with historical presence and specific rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典的国家少数民族有哪些？",
+    "optionsZh": [
+      "犹太人、罗姆人、萨米人（Sami）、瑞典芬兰人和托尔讷河谷人。",
+      "丹麦人、挪威人、德国人、法国人和西班牙人。",
+      "学生、退休者、游客、企业家和记者。",
+      "瑞典国会、政府、大区、市镇和法院。"
+    ],
+    "explanationZh": "瑞典承认五个具有历史存在和特定权利的国家少数民族：犹太人、罗姆人、萨米人、瑞典芬兰人和托尔讷河谷人。这与外国人或职业群体不同。",
+    "questionZhHant": "瑞典的國家少數民族有哪些？",
+    "optionsZhHant": [
+      "猶太人、羅姆人、薩米人（Sami）、瑞典芬蘭人和托爾訥河谷人。",
+      "丹麥人、挪威人、德國人、法國人和西班牙人。",
+      "學生、退休者、遊客、企業家和記者。",
+      "瑞典國會、政府、大區、市鎮和法院。"
+    ],
+    "explanationZhHant": "瑞典承認五個具有歷史存在和特定權利的國家少數民族：猶太人、羅姆人、薩米人、瑞典芬蘭人和托爾訥河谷人。這與外國人或職業羣體不同。"
   },
   {
     "id": "draft-ch07-026",
@@ -1275,7 +1947,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The national minority languages are protected and promoted in Swedish policy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典的少数民族语言有哪些？",
+    "optionsZh": [
+      "芬兰语、意第绪语、梅安语、罗姆语和萨米语。",
+      "英语、德语、法语、西班牙语和意大利语。",
+      "丹麦语、挪威语、冰岛语、法罗语和格陵兰语。",
+      "拉丁语、希腊语、世界语、阿拉伯语和波斯语。"
+    ],
+    "explanationZh": "国家少数民族语言在瑞典政策中受到保护和推广，即芬兰语、意第绪语、梅安语（meänkieli）、罗姆语（romani chib）和萨米语。其他语言虽有人使用，但不属法定少数民族语言。",
+    "questionZhHant": "瑞典的少數民族語言有哪些？",
+    "optionsZhHant": [
+      "芬蘭語、意第緒語、梅安語、羅姆語和薩米語。",
+      "英語、德語、法語、西班牙語和意大利語。",
+      "丹麥語、挪威語、冰島語、法羅語和格陵蘭語。",
+      "拉丁語、希臘語、世界語、阿拉伯語和波斯語。"
+    ],
+    "explanationZhHant": "國家少數民族語言在瑞典政策中受到保護和推廣，即芬蘭語、意第緒語、梅安語（meänkieli）、羅姆語（romani chib）和薩米語。其他語言雖有人使用，但不屬法定少數民族語言。"
   },
   {
     "id": "draft-ch07-027",
@@ -1305,7 +1993,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "National minority policy includes participation and influence in matters that affect the minority.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个市镇制定影响某国家少数民族群体的文化长期规划，却未与该群体协商。这忽视了少数群体政策中的哪个目标？",
+    "optionsZh": [
+      "在涉及国家少数民族事务中的参与和影响力权利。",
+      "少数群体使其文化适应多数人口的义务。",
+      "市镇所有决定须通过地方全民公决的要求。",
+      "国家少数民族只能通过国家机器表达意见的规则。"
+    ],
+    "explanationZh": "国家少数民族政策包括在影响其的事务中的参与和影响力。市镇制定相关规划时有义务征求该群体意见，而非强求其同化或绕过协商。",
+    "questionZhHant": "一個市鎮制定影響某國家少數民族羣體的文化長期規劃，卻未與該羣體協商。這忽視了少數羣體政策中的哪個目標？",
+    "optionsZhHant": [
+      "在涉及國家少數民族事務中的參與和影響力權利。",
+      "少數羣體使其文化適應多數人口的義務。",
+      "市鎮所有決定須通過地方全民公決的要求。",
+      "國家少數民族只能通過國家機器表達意見的規則。"
+    ],
+    "explanationZhHant": "國家少數民族政策包括在影響其的事務中的參與和影響力。市鎮制定相關規劃時有義務徵求該羣體意見，而非強求其同化或繞過協商。"
   },
   {
     "id": "draft-ch07-028",
@@ -1334,7 +2038,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Sami have a special status as Indigenous people and national minority.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典的萨米人有什么特别之处？",
+    "optionsZh": [
+      "萨米人既是国家少数民族，也是原住民。",
+      "萨米人是一个国家机器。",
+      "萨米人是瑞典国会中的一个政党。",
+      "萨米人只是瑞典的一个大区。"
+    ],
+    "explanationZh": "萨米人作为原住民和国家少数民族具有特殊地位。这赋予其在文化、语言与土地使用等方面的特定权利，并非一般行政或政治实体。",
+    "questionZhHant": "瑞典的薩米人有什麼特別之處？",
+    "optionsZhHant": [
+      "薩米人既是國家少數民族，也是原住民。",
+      "薩米人是一個國家機器。",
+      "薩米人是瑞典國會中的一個政黨。",
+      "薩米人只是瑞典的一個大區。"
+    ],
+    "explanationZhHant": "薩米人作為原住民和國家少數民族具有特殊地位。這賦予其在文化、語言與土地使用等方面的特定權利，並非一般行政或政治實體。"
   },
   {
     "id": "draft-ch07-029",
@@ -1364,7 +2084,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Rights for the Sami include culture, language, participation, and influence.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么萨米人的文化和语言是权利问题？",
+    "optionsZh": [
+      "它们涉及对原住民和国家少数民族的文化与认同的保护。",
+      "它们只关乎旅游信息。",
+      "它们完全由私人企业决定。",
+      "它们仅适用于欧洲议会选举。"
+    ],
+    "explanationZh": "萨米人的权利包括文化、语言、参与和影响力。其文化与语言是原住民认同的核心，受国家和国际法保护，并非旅游或商业私事。",
+    "questionZhHant": "為什麼薩米人的文化和語言是權利問題？",
+    "optionsZhHant": [
+      "它們涉及對原住民和國家少數民族的文化與認同的保護。",
+      "它們只關乎旅遊資訊。",
+      "它們完全由私人企業決定。",
+      "它們僅適用於歐洲議會選舉。"
+    ],
+    "explanationZhHant": "薩米人的權利包括文化、語言、參與和影響力。其文化與語言是原住民認同的核心，受國家和國際法保護，並非旅遊或商業私事。"
   },
   {
     "id": "draft-ch07-030",
@@ -1394,7 +2130,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "As an Indigenous people and national minority, the Sami have protected interests in culture, livelihoods, and consultation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一项关于林业或采矿的国家决定影响萨米人的驯鹿放牧区。在审查时哪个权利视角特别重要？",
+    "optionsZh": [
+      "对原住民文化、生计以及在土地使用上被协商权利的保护。",
+      "经济利益总优先于文化保护的原则。",
+      "土地使用决定完全由地方土地所有者作出的规则。",
+      "所有瑞典大区必须有相同土地使用规则的要求。"
+    ],
+    "explanationZh": "作为原住民和国家少数民族，萨米人在文化、生计和协商方面拥有受保护利益。涉及驯鹿放牧区的开发须考虑其咨询权与文化存续，经济利益并非自动优先。",
+    "questionZhHant": "一項關於林業或採礦的國家決定影響薩米人的馴鹿放牧區。在審查時哪個權利視角特別重要？",
+    "optionsZhHant": [
+      "對原住民文化、生計以及在土地使用上被協商權利的保護。",
+      "經濟利益總優先於文化保護的原則。",
+      "土地使用決定完全由地方土地所有者作出的規則。",
+      "所有瑞典大區必須有相同土地使用規則的要求。"
+    ],
+    "explanationZhHant": "作為原住民和國家少數民族，薩米人在文化、生計和協商方面擁有受保護利益。涉及馴鹿放牧區的開發須考慮其諮詢權與文化存續，經濟利益並非自動優先。"
   },
   {
     "id": "draft-ch07-031",
@@ -1423,7 +2175,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Asylum concerns protection needs under national and international rules.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "庇护（asyl）简要指什么？",
+    "optionsZh": [
+      "对面临迫害或严重危险者的保护。",
+      "给所有游客的自动公民身份。",
+      "免除所有瑞典法律的权利。",
+      "所有访客在边境直接获得的工作许可。"
+    ],
+    "explanationZh": "庇护涉及根据国家与国际规则的保护需求。它保护因种族、宗教、政治见解等遭受迫害的人，是临时保护而非自动公民身份或免责。",
+    "questionZhHant": "庇護（asyl）簡要指什麼？",
+    "optionsZhHant": [
+      "對面臨迫害或嚴重危險者的保護。",
+      "給所有遊客的自動公民身份。",
+      "免除所有瑞典法律的權利。",
+      "所有訪客在邊境直接獲得的工作許可。"
+    ],
+    "explanationZhHant": "庇護涉及根據國家與國際規則的保護需求。它保護因種族、宗教、政治見解等遭受迫害的人，是臨時保護而非自動公民身份或免責。"
   },
   {
     "id": "draft-ch07-032",
@@ -1453,7 +2221,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Individual assessment is important for legal certainty and protection.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么庇护案件必须个别审查？",
+    "optionsZh": [
+      "保护需求取决于当事人的处境、原因和风险。",
+      "来自同一国家的人总是有完全相同的案件。",
+      "市镇可在无调查下抽签决定。",
+      "媒体应决定每个庇护申请。"
+    ],
+    "explanationZh": "个别评估对法律保障和保护很重要。即使来源国相同，每个人的迫害理由和风险也不同，须根据具体事实审查，而非一概而论或随机决定。",
+    "questionZhHant": "為什麼庇護案件必須個別審查？",
+    "optionsZhHant": [
+      "保護需求取決於當事人的處境、原因和風險。",
+      "來自同一國家的人總是有完全相同的案件。",
+      "市鎮可在無調查下抽籤決定。",
+      "媒體應決定每個庇護申請。"
+    ],
+    "explanationZhHant": "個別評估對法律保障和保護很重要。即使來源國相同，每個人的迫害理由和風險也不同，須根據具體事實審查，而非一概而論或隨機決定。"
   },
   {
     "id": "draft-ch07-033",
@@ -1483,7 +2267,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Human rights are broader than citizenship, but some democratic rights, such as voting in certain elections, can depend on legal status.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人说人权只适用于瑞典公民。什么最正确？",
+    "optionsZh": [
+      "人权适用于人，尽管某些政治权利可与公民身份挂钩。",
+      "对，无公民身份者没有任何权利。",
+      "这只在市镇而非大区正确。",
+      "权利只适用于投票的人。"
+    ],
+    "explanationZh": "人权比公民身份更广泛，但某些民主权利（如某些选举的投票权）可取决于法律身份。基本人权赋予所有人，而参政等政治权利可限于公民。",
+    "questionZhHant": "一個人說人權只適用於瑞典公民。什麼最正確？",
+    "optionsZhHant": [
+      "人權適用於人，盡管某些政治權利可與公民身份掛鉤。",
+      "對，無公民身份者沒有任何權利。",
+      "這只在市鎮而非大區正確。",
+      "權利只適用於投票的人。"
+    ],
+    "explanationZhHant": "人權比公民身份更廣泛，但某些民主權利（如某些選舉的投票權）可取決於法律身份。基本人權賦予所有人，而參政等政治權利可限於公民。"
   },
   {
     "id": "draft-ch07-034",
@@ -1512,7 +2312,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Privacy protects personal integrity, while transparency and media freedom also have democratic roles.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "隐私权是关于什么？",
+    "optionsZh": [
+      "对个人生活和尊严的保护。",
+      "所有机关决定必须保密。",
+      "无人可批评公众人物。",
+      "媒体永不可发布新闻。"
+    ],
+    "explanationZh": "隐私保护个人尊严，而透明和媒体自由也有民主作用。隐私权不等于掩盖公共决策或禁止批评，它保护的是私人生活领域。",
+    "questionZhHant": "隱私權是關於什麼？",
+    "optionsZhHant": [
+      "對個人生活和尊嚴的保護。",
+      "所有機關決定必須保密。",
+      "無人可批評公眾人物。",
+      "媒體永不可發布新聞。"
+    ],
+    "explanationZhHant": "隱私保護個人尊嚴，而透明和媒體自由也有民主作用。隱私權不等於掩蓋公共決策或禁止批評，它保護的是私人生活領域。"
   },
   {
     "id": "draft-ch07-035",
@@ -1542,7 +2358,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Rights and interests can require balancing, especially in media, public documents, and public debate.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "隐私和公共监督如何可能冲突？",
+    "optionsZh": [
+      "一份发布可能具有公共利益，但也会影响个人尊严。",
+      "隐私意味着公众掌权者永不可被监督。",
+      "公共利益意味着一切私事总应被公开。",
+      "冲突通过市镇税率解决。"
+    ],
+    "explanationZh": "权利和利益可能需要平衡，尤其在媒体、公共文件和公共辩论中。报道可能涉及公共利益，但公开私人信息会侵犯尊严，须在两者间权衡。",
+    "questionZhHant": "隱私和公共監督如何可能衝突？",
+    "optionsZhHant": [
+      "一份發布可能具有公共利益，但也會影響個人尊嚴。",
+      "隱私意味着公眾掌權者永不可被監督。",
+      "公共利益意味着一切私事總應被公開。",
+      "衝突通過市鎮稅率解決。"
+    ],
+    "explanationZhHant": "權利和利益可能需要平衡，尤其在媒體、公共文件和公共辯論中。報道可能涉及公共利益，但公開私人資訊會侵犯尊嚴，須在兩者間權衡。"
   },
   {
     "id": "draft-ch07-036",
@@ -1572,7 +2404,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Efficiency does not remove legal protection for personal data and privacy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个机关计划发布含公民敏感个人资料的、可检索的数据库，以提高办理效率。必须考虑哪种权利保护？",
+    "optionsZh": [
+      "个人尊严权以及法律规定的个人资料保护。",
+      "机关不受限制自由公开所有信息的权利。",
+      "所有个人资料自动完全公开于互联网的规则。",
+      "所有机关决定须经议会投票批准的要求。"
+    ],
+    "explanationZh": "效率并不能取消对个人资料和隐私的法律保护。敏感个人资料受数据保护法制约，机关不能仅以效率为由将其公开供检索。",
+    "questionZhHant": "一個機關計劃發布含公民敏感個人資料的、可檢索的資料庫，以提高辦理效率。必須考慮哪種權利保護？",
+    "optionsZhHant": [
+      "個人尊嚴權以及法律規定的個人資料保護。",
+      "機關不受限制自由公開所有資訊的權利。",
+      "所有個人資料自動完全公開於互聯網的規則。",
+      "所有機關決定須經議會投票批準的要求。"
+    ],
+    "explanationZhHant": "效率並不能取消對個人資料和隱私的法律保護。敏感個人資料受數據保護法制約，機關不能僅以效率為由將其公開供檢索。"
   },
   {
     "id": "draft-ch07-037",
@@ -1601,7 +2449,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom of expression supports personal freedom, public debate, and democratic participation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么言论自由是一项人权？",
+    "optionsZh": [
+      "它让人们能表达观点并参与社会生活。",
+      "它赋予无责任威胁他人的权利。",
+      "它只适用于报社记者。",
+      "它使所有人必须认同多数。"
+    ],
+    "explanationZh": "言论自由支持个人自由、公共辩论和民主参与。它让个人能发表意见、监督权力，但须在法律界限内行使，不等于可无责威胁他人。",
+    "questionZhHant": "為什麼言論自由是一項人權？",
+    "optionsZhHant": [
+      "它讓人們能表達觀點並參與社會生活。",
+      "它賦予無責任威脅他人的權利。",
+      "它只適用於報社記者。",
+      "它使所有人必須認同多數。"
+    ],
+    "explanationZhHant": "言論自由支持個人自由、公共辯論和民主參與。它讓個人能發表意見、監督權力，但須在法律界限內行使，不等於可無責威脅他人。"
   },
   {
     "id": "draft-ch07-038",
@@ -1631,7 +2495,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom of expression is broad but can be limited to protect others’ rights and safety.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个说法显示了言论自由与其他权利之间的平衡？",
+    "optionsZh": [
+      "可以表达观点，但法律可限制威胁和煽动针对族群。",
+      "总可无后果地说任何话。",
+      "国家可禁止所有令人不安的观点。",
+      "言论自由只在所有人同意时适用。"
+    ],
+    "explanationZh": "言论自由广泛，但可为保护他人权利和安全而受限。法律允许表达观点，同时禁止威胁与煽动仇恨，这正是自由与保护之间的平衡。",
+    "questionZhHant": "哪個說法顯示了言論自由與其他權利之間的平衡？",
+    "optionsZhHant": [
+      "可以表達觀點，但法律可限制威脅和煽動針對族羣。",
+      "總可無後果地說任何話。",
+      "國家可禁止所有令人不安的觀點。",
+      "言論自由只在所有人同意時適用。"
+    ],
+    "explanationZhHant": "言論自由廣泛，但可為保護他人權利和安全而受限。法律允許表達觀點，同時禁止威脅與煽動仇恨，這正是自由與保護之間的平衡。"
   },
   {
     "id": "draft-ch07-039",
@@ -1661,7 +2541,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Peaceful gatherings are protected even when the views are controversial, within legal limits.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个有争议的组织想在公共场所举行和平集会。从基本权利角度，机关应如何处理？",
+    "optionsZh": [
+      "集会自由和言论自由也适用于有争议的观点，只要集会在法律框架内进行。",
+      "若组织观点不被民众认同，机关应阻止会议。",
+      "若市议会有政治分歧，市镇可禁止集会。",
+      "集会自由只适用于既有的政党和组织。"
+    ],
+    "explanationZh": "和平集会受到保护，即使观点有争议，也在法律界限之内。机关不能因观点不受欢迎或议会分歧而禁止合法和平集会。",
+    "questionZhHant": "一個有爭議的組織想在公共場所舉行和平集會。從基本權利角度，機關應如何處理？",
+    "optionsZhHant": [
+      "集會自由和言論自由也適用於有爭議的觀點，只要集會在法律框架內進行。",
+      "若組織觀點不被民眾認同，機關應阻止會議。",
+      "若市議會有政治分歧，市鎮可禁止集會。",
+      "集會自由只適用於既有的政黨和組織。"
+    ],
+    "explanationZhHant": "和平集會受到保護，即使觀點有爭議，也在法律界限之內。機關不能因觀點不受歡迎或議會分歧而禁止合法和平集會。"
   },
   {
     "id": "draft-ch07-040",
@@ -1690,7 +2586,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Education is connected to equality, participation, and children’s rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么教育可被称为权利问题？",
+    "optionsZh": [
+      "教育给人知识以及参与社会的可能。",
+      "教育取代所有其他权利。",
+      "教育只适用于已有工作的人。",
+      "教育完全由私人媒体决定。"
+    ],
+    "explanationZh": "教育与平等、参与和儿童权利相关。受教育使人具备参与社会所需的能力，是其他权利得以实现的基础，并非只服务已就业者。",
+    "questionZhHant": "為什麼教育可被稱為權利問題？",
+    "optionsZhHant": [
+      "教育給人知識以及參與社會的可能。",
+      "教育取代所有其他權利。",
+      "教育只適用於已有工作的人。",
+      "教育完全由私人媒體決定。"
+    ],
+    "explanationZhHant": "教育與平等、參與和兒童權利相關。受教育使人具備參與社會所需的能力，是其他權利得以實現的基礎，並非只服務已就業者。"
   },
   {
     "id": "draft-ch07-041",
@@ -1720,7 +2632,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "School can reduce differences in opportunity by giving all children access to learning and support.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "学校如何促进平等机会？",
+    "optionsZh": [
+      "通过不论背景给予儿童知识和支持。",
+      "只教某些家庭的孩子。",
+      "让政党决定每个成绩。",
+      "禁止学生提问。"
+    ],
+    "explanationZh": "学校通过让所有儿童获得学习机会和支持，可减少机会差异。不论出身提供教育与帮助，是缩小社会不平等的关键机制。",
+    "questionZhHant": "學校如何促進平等機會？",
+    "optionsZhHant": [
+      "通過不論背景給予兒童知識和支持。",
+      "只教某些家庭的孩子。",
+      "讓政黨決定每個成績。",
+      "禁止學生提問。"
+    ],
+    "explanationZhHant": "學校通過讓所有兒童獲得學習機會和支持，可減少機會差異。不論出身提供教育與幫助，是縮小社會不平等的關鍵機制。"
   },
   {
     "id": "draft-ch07-042",
@@ -1750,7 +2678,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Equal access to education can require support and adaptations for pupils with disabilities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名因残障需要特殊支持的学童被拒绝在校内获得调整。这主要涉及哪项权利原则？",
+    "optionsZh": [
+      "获得可及教育和在学校系统中平等机会的权利。",
+      "学校自由分配资源而无视个别学生需求的权利。",
+      "特殊支持只给已完成高中的学生的原则。",
+      "只有监护人支付额外费用才给予支持的规则。"
+    ],
+    "explanationZh": "平等受教育可能要求为残障学生提供支持和调整。学校有义务作出合理调整，让残障儿童也能使用教育，而非以资源或费用为由拒绝。",
+    "questionZhHant": "一名因殘障需要特殊支持的學童被拒絕在校內獲得調整。這主要涉及哪項權利原則？",
+    "optionsZhHant": [
+      "獲得可及教育和在學校系統中平等機會的權利。",
+      "學校自由分配資源而無視個別學生需求的權利。",
+      "特殊支持只給已完成高中的學生的原則。",
+      "只有監護人支付額外費用才給予支持的規則。"
+    ],
+    "explanationZhHant": "平等受教育可能要求為殘障學生提供支持和調整。學校有義務作出合理調整，讓殘障兒童也能使用教育，而非以資源或費用為由拒絕。"
   },
   {
     "id": "draft-ch07-043",
@@ -1779,7 +2723,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Human rights and labour rights include dignity, safety, and equal treatment at work.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪项权利与工作生活相关？",
+    "optionsZh": [
+      "合理工作条件以及免受歧视的保护。",
+      "总得到所期望的准确工资的权利。",
+      "免除所有工作任务的权利。",
+      "禁止同事拥有观点的权利。"
+    ],
+    "explanationZh": "人权和劳动权利包括工作中的尊严、安全和平等对待。工人享有合理工作条件与不受歧视的权利，但工资等仍依合同与市场而定。",
+    "questionZhHant": "哪項權利與工作生活相關？",
+    "optionsZhHant": [
+      "合理工作條件以及免受歧視的保護。",
+      "總得到所期望的準確工資的權利。",
+      "免除所有工作任務的權利。",
+      "禁止同事擁有觀點的權利。"
+    ],
+    "explanationZhHant": "人權和勞動權利包括工作中的尊嚴、安全和平等對待。工人享有合理工作條件與不受歧視的權利，但工資等仍依合同與市場而定。"
   },
   {
     "id": "draft-ch07-044",
@@ -1809,7 +2769,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom of association includes the ability to organize around shared interests, including work.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么工会组织可能是权利问题？",
+    "optionsZh": [
+      "人们应能组织起来以影响工作条件。",
+      "工会总可在法院审判雇主。",
+      "工会在所有劳工事务中取代瑞典国会。",
+      "工会组织意味着没人需要守法。"
+    ],
+    "explanationZh": "结社自由包括围绕共同利益（包括工作）组织起来的能力。劳动者通过工会集体争取更好条件，是结社自由的体现，并不取代立法或司法。",
+    "questionZhHant": "為什麼工會組織可能是權利問題？",
+    "optionsZhHant": [
+      "人們應能組織起來以影響工作條件。",
+      "工會總可在法院審判僱主。",
+      "工會在所有勞工事務中取代瑞典國會。",
+      "工會組織意味着沒人需要守法。"
+    ],
+    "explanationZhHant": "結社自由包括圍繞共同利益（包括工作）組織起來的能力。勞動者通過工會集體爭取更好條件，是結社自由的體現，並不取代立法或司法。"
   },
   {
     "id": "draft-ch07-045",
@@ -1839,7 +2815,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom of association protects employees’ right to join and form trade unions without retaliation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名雇主告知雇员，加入工会者将被解雇。这一表态侵犯了哪项权利？",
+    "optionsZh": [
+      "结社自由以及雇员组织工会的权利。",
+      "雇主自行任命工会代表的权利。",
+      "所有工会事务须在瑞典国会决定的规则。",
+      "雇员在所有事务中总须遵从公司管理层决定的义务。"
+    ],
+    "explanationZh": "结社自由保护雇员加入和组建工会而不受报复的权利。以解雇相威胁阻止入会，是对结社自由的典型侵犯。",
+    "questionZhHant": "一名僱主告知僱員，加入工會者將被解僱。這一表態侵犯了哪項權利？",
+    "optionsZhHant": [
+      "結社自由以及僱員組織工會的權利。",
+      "僱主自行任命工會代表的權利。",
+      "所有工會事務須在瑞典國會決定的規則。",
+      "僱員在所有事務中總須遵從公司管理層決定的義務。"
+    ],
+    "explanationZhHant": "結社自由保護僱員加入和組建工會而不受報複的權利。以解僱相威脅阻止入會，是對結社自由的典型侵犯。"
   },
   {
     "id": "draft-ch07-046",
@@ -1868,7 +2860,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Human rights apply throughout life, including old age.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么老年人的权利可以是社会问题？",
+    "optionsZh": [
+      "老年人应能有尊严、安全和参与地生活。",
+      "老年人退休后失去权利。",
+      "老年人永不可影响政治。",
+      "老年人总须住在同一市镇。"
+    ],
+    "explanationZh": "人权贯穿一生，包括老年。老年人同样享有尊严、安全、参与等权利，退休或年迈并不剥夺其权利。",
+    "questionZhHant": "為什麼老年人的權利可以是社會問題？",
+    "optionsZhHant": [
+      "老年人應能有尊嚴、安全和參與地生活。",
+      "老年人退休後失去權利。",
+      "老年人永不可影響政治。",
+      "老年人總須住在同一市鎮。"
+    ],
+    "explanationZhHant": "人權貫穿一生，包括老年。老年人同樣享有尊嚴、安全、參與等權利，退休或年邁並不剝奪其權利。"
   },
   {
     "id": "draft-ch07-047",
@@ -1898,7 +2906,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Care should respect dignity, autonomy, and personal needs.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个例子涉及老年人获得有尊严照护的权利？",
+    "optionsZh": [
+      "照护以提供时尊重个人需求和尊严的方式进行。",
+      "老年人永不可表达想法。",
+      "照护应总无人员责任。",
+      "老年人须放弃隐私才能获得帮助。"
+    ],
+    "explanationZh": "照护应尊重尊严、自主和个人需求。有尊严的照护意味着听取老人意见、保护其隐私，而非剥夺其表达或自主。",
+    "questionZhHant": "哪個例子涉及老年人獲得有尊嚴照護的權利？",
+    "optionsZhHant": [
+      "照護以提供時尊重個人需求和尊嚴的方式進行。",
+      "老年人永不可表達想法。",
+      "照護應總無人員責任。",
+      "老年人須放棄隱私才能獲得幫助。"
+    ],
+    "explanationZhHant": "照護應尊重尊嚴、自主和個人需求。有尊嚴的照護意味着聽取老人意見、保護其隱私，而非剝奪其表達或自主。"
   },
   {
     "id": "draft-ch07-048",
@@ -1928,7 +2952,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Participation and self-determination require clear, accessible information before important care decisions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名面临重要照护决定的老年人未获得根据其自身情况调整的信息。这忽略了哪方面权利？",
+    "optionsZh": [
+      "在照护中获得参与、自主和易懂信息的权利。",
+      "照护决定总在个人头上作出的原则。",
+      "亲属在退休时接管其法律权利的要求。",
+      "健康与照护信息只须书面提供的规则。"
+    ],
+    "explanationZh": "参与和自主要求在重要照护决定前提供清晰、可及的信息。老人有权理解并参与关乎自身的决定，信息须依其能力调整，而非仅以书面形式敷衍。",
+    "questionZhHant": "一名面臨重要照護決定的老年人未獲得根據其自身情況調整的資訊。這忽略了哪方面權利？",
+    "optionsZhHant": [
+      "在照護中獲得參與、自主和易懂資訊的權利。",
+      "照護決定總在個人頭上作出的原則。",
+      "親屬在退休時接管其法律權利的要求。",
+      "健康與照護資訊只須書面提供的規則。"
+    ],
+    "explanationZhHant": "參與和自主要求在重要照護決定前提供清晰、可及的資訊。老人有權理解並參與關乎自身的決定，資訊須依其能力調整，而非僅以書面形式敷衍。"
   },
   {
     "id": "draft-ch07-049",
@@ -1957,7 +2997,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A democratic society protects rights while expecting people to follow laws and respect others.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "权利和义务如何相关？",
+    "optionsZh": [
+      "人们拥有权利，但也须尊重法律及他人权利。",
+      "权利意味着无法律适用。",
+      "义务只适用于无公民身份者。",
+      "权利和义务绝不可同时存在。"
+    ],
+    "explanationZh": "民主社会保护权利，同时期望人们守法并尊重他人。权利与义务并存，行使权利时不得侵犯法律与他人同等权利。",
+    "questionZhHant": "權利和義務如何相關？",
+    "optionsZhHant": [
+      "人們擁有權利，但也須尊重法律及他人權利。",
+      "權利意味着無法律適用。",
+      "義務只適用於無公民身份者。",
+      "權利和義務絕不可同時存在。"
+    ],
+    "explanationZhHant": "民主社會保護權利，同時期望人們守法並尊重他人。權利與義務並存，行使權利時不得侵犯法律與他人同等權利。"
   },
   {
     "id": "draft-ch07-050",
@@ -1986,7 +3042,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Rights can conflict, so law and institutions may need to balance them carefully.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么权利有时需要相互权衡？",
+    "optionsZh": [
+      "一个人的自由可能影响另一个人的安全、隐私或权利。",
+      "所有权利在每案总有完全相同解决方案。",
+      "法院永不可权衡不同利益。",
+      "多数总可取消最困难的权利。"
+    ],
+    "explanationZh": "权利可能冲突，因此法律与机构需谨慎平衡。当一项自由危及他人安全或隐私时，须在法律框架内相称地权衡，而非由多数随意取消。",
+    "questionZhHant": "為什麼權利有時需要相互權衡？",
+    "optionsZhHant": [
+      "一個人的自由可能影響另一個人的安全、隱私或權利。",
+      "所有權利在每案總有完全相同解決方案。",
+      "法院永不可權衡不同利益。",
+      "多數總可取消最困難的權利。"
+    ],
+    "explanationZhHant": "權利可能衝突，因此法律與機構需謹慎平衡。當一項自由危及他人安全或隱私時，須在法律框架內相稱地權衡，而非由多數隨意取消。"
   },
   {
     "id": "draft-ch07-051",
@@ -2016,7 +3088,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Publishing private information can require balancing press freedom and public interest against privacy and personal integrity.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一家报纸想以新闻价值为由发布某人的敏感私人信息。哪两项重要利益相互对立？",
+    "optionsZh": [
+      "言论自由和出版自由，对抗个人的隐私和个人尊严权。",
+      "媒体的营利权，对抗国家审查媒体的权利。",
+      "公开原则，对抗国家外部安全。",
+      "自由竞争权，对抗著作权立法。"
+    ],
+    "explanationZh": "发布私人信息可能需要在出版自由与公共利益同隐私和个人尊严之间平衡。这里的核心冲突是媒体的表达/出版自由与当事人隐私权，而非营利、外部安全或版权问题。",
+    "questionZhHant": "一家報紙想以新聞價值為由發布某人的敏感私人資訊。哪兩項重要利益相互對立？",
+    "optionsZhHant": [
+      "言論自由和出版自由，對抗個人的隱私和個人尊嚴權。",
+      "媒體的營利權，對抗國家審查媒體的權利。",
+      "公開原則，對抗國家外部安全。",
+      "自由競爭權，對抗著作權立法。"
+    ],
+    "explanationZhHant": "發布私人資訊可能需要在出版自由與公共利益同隱私和個人尊嚴之間平衡。這裡的核心衝突是媒體的表達/出版自由與當事人隱私權，而非營利、外部安全或版權問題。"
   },
   {
     "id": "draft-ch07-052",
@@ -2045,7 +3133,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Human rights are protected through both national law and international commitments.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "谈及人权时为何会提到国际公约？",
+    "optionsZh": [
+      "它们表达了各国之间关于权利的共同承诺。",
+      "它们取代所有瑞典机关。",
+      "它们只适用于体育赛事。",
+      "它们由私人报纸撰写。"
+    ],
+    "explanationZh": "人权通过国内法和国际承诺共同保护。国际公约（如《公民权利和政治权利国际公约》）是各国共同承诺，指引国内立法，而非取代本国机关。",
+    "questionZhHant": "談及人權時為何會提到國際公約？",
+    "optionsZhHant": [
+      "它們表達了各國之間關於權利的共同承諾。",
+      "它們取代所有瑞典機關。",
+      "它們只適用於體育賽事。",
+      "它們由私人報紙撰寫。"
+    ],
+    "explanationZhHant": "人權通過國內法和國際承諾共同保護。國際公約（如《公民權利和政治權利國際公約》）是各國共同承諾，指引國內立法，而非取代本國機關。"
   },
   {
     "id": "draft-ch07-053",
@@ -2075,7 +3179,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "International commitments guide laws, policy, and public responsibility.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典在国际人权方面的承诺意味着什么？",
+    "optionsZh": [
+      "瑞典承诺根据协议和公约尊重并致力实现权利。",
+      "瑞典可在舆论每次变化时取消权利。",
+      "瑞典只须在境外遵守权利。",
+      "瑞典须让联合国决定每个市镇预算。"
+    ],
+    "explanationZh": "国际承诺指引法律、政策和公共责任。瑞典签署公约后即受约束，须在国内落实，但日常治理（如市镇预算）仍由本国机构负责。",
+    "questionZhHant": "瑞典在國際人權方面的承諾意味着什麼？",
+    "optionsZhHant": [
+      "瑞典承諾根據協議和公約尊重並致力實現權利。",
+      "瑞典可在輿論每次變化時取消權利。",
+      "瑞典只須在境外遵守權利。",
+      "瑞典須讓聯合國決定每個市鎮預算。"
+    ],
+    "explanationZhHant": "國際承諾指引法律、政策和公共責任。瑞典籤署公約後即受約束，須在國內落實，但日常治理（如市鎮預算）仍由本國機構負責。"
   },
   {
     "id": "draft-ch07-054",
@@ -2105,7 +3225,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish law should be applied with regard to Sweden’s international human-rights obligations.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个机关以可能侵犯瑞典已加入的国际权利公约的方式适用一项瑞典规则。在适用法律时应当怎样？",
+    "optionsZh": [
+      "应作细致法律审查，尽可能按与公约一致的方式解释瑞典法律。",
+      "机关可无视国际公约，因其在瑞典无意义。",
+      "决定自动移交联合国作最终裁定。",
+      "瑞典机关可在个案中自由选择是否遵循公约。"
+    ],
+    "explanationZh": "瑞典法律适用时应顾及瑞典的国际人权义务。机关须尽量以符合公约的方式解释国内法，而非随意无视公约或把决定推给联合国。",
+    "questionZhHant": "一個機關以可能侵犯瑞典已加入的國際權利公約的方式適用一項瑞典規則。在適用法律時應當怎樣？",
+    "optionsZhHant": [
+      "應作細致法律審查，盡可能按與公約一致的方式解釋瑞典法律。",
+      "機關可無視國際公約，因其在瑞典無意義。",
+      "決定自動移交聯合國作最終裁定。",
+      "瑞典機關可在個案中自由選擇是否遵循公約。"
+    ],
+    "explanationZhHant": "瑞典法律適用時應顧及瑞典的國際人權義務。機關須盡量以符合公約的方式解釋國內法，而非隨意無視公約或把決定推給聯合國。"
   },
   {
     "id": "draft-ch07-055",
@@ -2134,7 +3270,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Equality Ombudsman works against discrimination and for equal rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典哪个机构可帮助遏制歧视？",
+    "optionsZh": [
+      "平等监察专员（DO，Diskrimineringsombudsmannen）。",
+      "计票的选举管理局（Valmyndigheten）。",
+      "决定利率的瑞典中央银行（Riksbanken）。",
+      "主持瑞典国会的议长（Talmannen）。"
+    ],
+    "explanationZh": "平等监察专员（DO）致力于反对歧视、促进平等权利。其他机构各有专门职能，与反歧视无直接关系。",
+    "questionZhHant": "瑞典哪個機構可幫助遏制歧視？",
+    "optionsZhHant": [
+      "平等監察專員（DO，Diskrimineringsombudsmannen）。",
+      "計票的選舉管理局（Valmyndigheten）。",
+      "決定利率的瑞典中央銀行（Riksbanken）。",
+      "主持瑞典國會的議長（Talmannen）。"
+    ],
+    "explanationZhHant": "平等監察專員（DO）致力於反對歧視、促進平等權利。其他機構各有專門職能，與反歧視無直接關系。"
   },
   {
     "id": "draft-ch07-056",
@@ -2164,7 +3316,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "DO is an authority connected to anti-discrimination and equal rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "平等监察专员的任务之一是什么？",
+    "optionsZh": [
+      "致力于反对歧视并促进平等权利和机会。",
+      "决定瑞典国会预算。",
+      "在初审中审判所有刑事案件。",
+      "每年挑选公共服务媒体负责人。"
+    ],
+    "explanationZh": "DO 是负责反歧视和平等权利的机关。预算、审判刑事案件、任命媒体负责人分属政府、法院和另行程序，不在 DO 职责内。",
+    "questionZhHant": "平等監察專員的任務之一是什麼？",
+    "optionsZhHant": [
+      "致力於反對歧視並促進平等權利和機會。",
+      "決定瑞典國會預算。",
+      "在初審中審判所有刑事案件。",
+      "每年挑選公共服務媒體負責人。"
+    ],
+    "explanationZhHant": "DO 是負責反歧視和平等權利的機關。預算、審判刑事案件、任命媒體負責人分屬政府、法院和另行程序，不在 DO 職責內。"
   },
   {
     "id": "draft-ch07-057",
@@ -2194,7 +3362,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Equality Ombudsman supervises discrimination law and can provide information about discrimination cases.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人怀疑招聘中的歧视，想知道该向何处求助。哪个机构最值得了解？",
+    "optionsZh": [
+      "平等监察专员（DO）。",
+      "代表国家在损害赔偿案件中出庭的司法大臣（Justitiekanslern）。",
+      "审查学校的瑞典学校督察局（Skolinspektionen）。",
+      "介绍工作的公共就业服务局（Arbetsförmedlingen）。"
+    ],
+    "explanationZh": "平等监察专员监督反歧视法，并可提供歧视案件的信息。其他机构分别处理国家赔偿、学校监督与就业介绍，不直接管招聘歧视投诉。",
+    "questionZhHant": "一個人懷疑招聘中的歧視，想知道該向何處求助。哪個機構最值得了解？",
+    "optionsZhHant": [
+      "平等監察專員（DO）。",
+      "代表國家在損害賠償案件中出庭的司法大臣（Justitiekanslern）。",
+      "審查學校的瑞典學校督察局（Skolinspektionen）。",
+      "介紹工作的公共就業服務局（Arbetsförmedlingen）。"
+    ],
+    "explanationZhHant": "平等監察專員監督反歧視法，並可提供歧視案件的資訊。其他機構分別處理國家賠償、學校監督與就業介紹，不直接管招聘歧視投訴。"
   },
   {
     "id": "draft-ch07-058",
@@ -2223,7 +3407,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Human rights support real participation, dignity, and equal opportunity to influence society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "平等的影响力机会如何与人权相联系？",
+    "optionsZh": [
+      "人们需要能不受歧视或威胁等障碍地参与社会。",
+      "影响力意味着只有多数可发言。",
+      "权利使政治参与变得不必要。",
+      "所有人必须以完全相同方式影响政治。"
+    ],
+    "explanationZh": "人权支持真正的参与、尊严和平等影响社会的机会。平等参与要求消除歧视与威胁等障碍，而非只让多数发声或强制一致方式。",
+    "questionZhHant": "平等的影響力機會如何與人權相聯系？",
+    "optionsZhHant": [
+      "人們需要能不受歧視或威脅等障礙地參與社會。",
+      "影響力意味着只有多數可發言。",
+      "權利使政治參與變得不必要。",
+      "所有人必須以完全相同方式影響政治。"
+    ],
+    "explanationZhHant": "人權支持真正的參與、尊嚴和平等影響社會的機會。平等參與要求消除歧視與威脅等障礙，而非只讓多數發聲或強制一致方式。"
   },
   {
     "id": "draft-ch07-059",
@@ -2253,7 +3453,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Threats and harassment can silence participation and weaken democratic debate.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名社团代表在参与公共社会辩论时遭受严重威胁和骚扰。这首先产生什么民主问题？",
+    "optionsZh": [
+      "若人们被威胁噤声，平等参与的可能就会被削弱。",
+      "情况自动导致该社团获得更多政治席位。",
+      "这意味着法院必须禁止该主题的所有辩论。",
+      "机关有权永久关闭公共集会场所。"
+    ],
+    "explanationZh": "威胁和骚扰可使参与噤声，削弱民主辩论。当代表因恐惧而不敢发声，公众的平等参与受损；这并不自动带来席位变化或全面禁言。",
+    "questionZhHant": "一名社團代表在參與公共社會辯論時遭受嚴重威脅和騷擾。這首先產生什麼民主問題？",
+    "optionsZhHant": [
+      "若人們被威脅噤聲，平等參與的可能就會被削弱。",
+      "情況自動導致該社團獲得更多政治席位。",
+      "這意味着法院必須禁止該主題的所有辯論。",
+      "機關有權永久關閉公共集會場所。"
+    ],
+    "explanationZhHant": "威脅和騷擾可使參與噤聲，削弱民主辯論。當代表因恐懼而不敢發聲，公眾的平等參與受損；這並不自動帶來席位變化或全面禁言。"
   },
   {
     "id": "draft-ch07-060",
@@ -2282,7 +3498,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A rights-based approach includes equality, accessibility, information, and participation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "公共行为者的下列哪种工作方式最能体现务实的人权视角？",
+    "optionsZh": [
+      "该行为者将其服务设计为使所有人被平等对待、获得可及信息并有参与机会。",
+      "该行为者只对能证明长期瑞典公民身份者提供支持。",
+      "该行为者把决定哪些居民获得服务留给个别公务人员。",
+      "该行为者将其信息限于需特殊授权的数字渠道。"
+    ],
+    "explanationZh": "以权利为本的方法包括平等、可及性、信息和参与。真正的实务人权视角要求服务普惠、信息可达、人人可参与，而非以身份、随意裁量或技术壁垒设限。",
+    "questionZhHant": "公共行為者的下列哪種工作方式最能體現務實的人權視角？",
+    "optionsZhHant": [
+      "該行為者將其服務設計為使所有人被平等對待、獲得可及資訊並有參與機會。",
+      "該行為者只對能證明長期瑞典公民身份者提供支持。",
+      "該行為者把決定哪些居民獲得服務留給個別公務人員。",
+      "該行為者將其資訊限於需特殊授權的數字渠道。"
+    ],
+    "explanationZhHant": "以權利為本的方法包括平等、可及性、資訊和參與。真正的實務人權視角要求服務普惠、資訊可達、人人可參與，而非以身份、隨意裁量或技術壁壘設限。"
   },
   {
     "id": "draft-extra-ch007-020",
@@ -2311,6 +3543,22 @@
     ],
     "correctIndex": 0,
     "explanationEn": "When rights conflict, courts and authorities weigh them against each other in the specific case; no right is automatically absolute, and conflicts are not decided by referendum.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "当两个基本权利冲突时会发生什么？",
+    "optionsZh": [
+      "法院和机关必须在具体个案中权衡这些权利。",
+      "最晚产生的权利总取消较早的权利。",
+      "言论自由总重于所有其他权利。",
+      "权利之间的冲突通过全民公决决定。"
+    ],
+    "explanationZh": "当权利冲突时，法院和机关在个案中相互权衡；没有权利自动绝对优先，冲突也不由公决决定。权衡须基于相称性与具体情形，而非以时间先后或票数裁定。",
+    "questionZhHant": "當兩個基本權利衝突時會發生什麼？",
+    "optionsZhHant": [
+      "法院和機關必須在具體個案中權衡這些權利。",
+      "最晚產生的權利總取消較早的權利。",
+      "言論自由總重於所有其他權利。",
+      "權利之間的衝突通過全民公決決定。"
+    ],
+    "explanationZhHant": "當權利衝突時，法院和機關在個案中相互權衡；沒有權利自動絕對優先，衝突也不由公決決定。權衡須基於相稱性與具體情形，而非以時間先後或票數裁定。"
   }
 ]

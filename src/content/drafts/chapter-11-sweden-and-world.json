@@ -27,7 +27,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The internal market removes customs duties and many barriers within the EU, which gives consumers access to a wider range of goods and services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "欧盟（EU）的单一市场（内部市场）对瑞典的消费者意味着什么？",
+    "optionsZh": [
+      "来自其他欧盟国家的商品和服务种类更加丰富。",
+      "瑞典商店只能销售瑞典制造的本国商品。",
+      "欧盟内所有价格都由欧洲议会（Europaparlamentet）决定。",
+      "消费者必须为来自其他欧盟国家的商品支付关税。"
+    ],
+    "explanationZh": "单一市场（内部市场）取消了欧盟内部的关税和许多贸易壁垒，使消费者能够获得更丰富多样的商品和服务。",
+    "questionZhHant": "歐盟（EU）的單一市場（內部市場）對瑞典的消費者意味着什麼？",
+    "optionsZhHant": [
+      "來自其他歐盟國家的商品和服務種類更加豐富。",
+      "瑞典商店只能銷售瑞典制造的本國商品。",
+      "歐盟內所有價格都由歐洲議會（Europaparlamentet）決定。",
+      "消費者必須為來自其他歐盟國家的商品支付關稅。"
+    ],
+    "explanationZhHant": "單一市場（內部市場）取消了歐盟內部的關稅和許多貿易壁壘，使消費者能夠獲得更豐富多樣的商品和服務。"
   },
   {
     "id": "draft-batch-c-ch11-002",
@@ -57,7 +73,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Under the UN Charter, the Security Council has the primary responsibility for maintaining international peace and security.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "联合国（FN）哪个机构主要负责国际和平与安全？",
+    "optionsZh": [
+      "联合国安理会。",
+      "欧洲议会（Europaparlamentet）。",
+      "北欧理事会（Nordiska rådet）。",
+      "世界贸易组织。"
+    ],
+    "explanationZh": "根据《联合国宪章》，安理会对维护国际和平与安全负有主要责任。",
+    "questionZhHant": "聯合國（FN）哪個機構主要負責國際和平與安全？",
+    "optionsZhHant": [
+      "聯合國安理會。",
+      "歐洲議會（Europaparlamentet）。",
+      "北歐理事會（Nordiska rådet）。",
+      "世界貿易組織。"
+    ],
+    "explanationZhHant": "根據《聯合國憲章》，安理會對維護國際和平與安全負有主要責任。"
   },
   {
     "id": "draft-batch-c-ch11-003",
@@ -87,7 +119,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Nordic cooperation concerns practical issues between neighboring countries.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么北欧（Norden）合作对瑞典往往很实用？",
+    "optionsZh": [
+      "这些国家地理位置相近，并有许多共同的社会议题。",
+      "北欧合作让瑞典无需遵守本国法律。",
+      "它取代了瑞典公民身份。",
+      "它为所有北欧国家决定货币和税收。"
+    ],
+    "explanationZh": "北欧合作涉及邻国之间的务实议题。由于国家相近、面临许多相似的社会问题，在就业、社保、应急等方面协调起来更有效率，但并非取代本国法律或公民身份。",
+    "questionZhHant": "為什麼北歐（Norden）合作對瑞典往往很實用？",
+    "optionsZhHant": [
+      "這些國家地理位置相近，並有許多共同的社會議題。",
+      "北歐合作讓瑞典無需遵守本國法律。",
+      "它取代了瑞典公民身份。",
+      "它為所有北歐國家決定貨幣和稅收。"
+    ],
+    "explanationZhHant": "北歐合作涉及鄰國之間的務實議題。由於國家相近、面臨許多相似的社會問題，在就業、社會保險、應急等方面協調起來更有效率，但並非取代本國法律或公民身份。"
   },
   {
     "id": "draft-batch-c-ch11-004",
@@ -117,7 +165,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "EU membership means EU law can affect Swedish law in areas covered by EU rules.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某项瑞典法律与欧盟法律在欧盟拥有决策权的领域发生冲突。这可能意味着什么？",
+    "optionsZh": [
+      "欧盟法律可能具有优先地位，并影响瑞典必须如何适用相关规则。",
+      "瑞典可以自行选择适用哪条欧盟规则。",
+      "瑞典法院必须始终优先选择瑞典法律。",
+      "冲突总是由瑞典国会（Riksdagen）解决，而非欧盟。"
+    ],
+    "explanationZh": "欧盟成员资格意味着，在欧盟规则所涵盖的领域，欧盟法律可以优先于瑞典国内法，从而影响瑞典如何适用相关规则。瑞典法院在相关领域须考虑欧盟法律。",
+    "questionZhHant": "某項瑞典法律與歐盟法律在歐盟擁有決策權的領域發生衝突。這可能意味着什麼？",
+    "optionsZhHant": [
+      "歐盟法律可能具有優先地位，並影響瑞典必須如何適用相關規則。",
+      "瑞典可以自行選擇適用哪條歐盟規則。",
+      "瑞典法院必須始終優先選擇瑞典法律。",
+      "衝突總是由瑞典國會（Riksdagen）解決，而非歐盟。"
+    ],
+    "explanationZhHant": "歐盟成員資格意味着，在歐盟規則所涵蓋的領域，歐盟法律可以優先於瑞典國內法，從而影響瑞典如何適用相關規則。瑞典法院在相關領域須考慮歐盟法律。"
   },
   {
     "id": "draft-batch-c-ch11-005",
@@ -147,7 +211,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Global interdependence means events abroad can affect Sweden in many ways.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么其他国家的冲突会影响到瑞典？",
+    "optionsZh": [
+      "通过安全、经济、移民、能源和国际合作等方面。",
+      "冲突只会影响与瑞典接壤的国家。",
+      "如果冲突发生在很远的地方，瑞典绝不会受到影响。",
+      "只有涉及欧盟的战争才会影响瑞典的政治。"
+    ],
+    "explanationZh": "全球相互依存意味着，国外的事件可以通过安全、经济、移民、能源及国际合作等多种途径影响瑞典，并非只与邻国或欧盟相关。",
+    "questionZhHant": "為什麼其他國家的衝突會影響到瑞典？",
+    "optionsZhHant": [
+      "通過安全、經濟、移民、能源和國際合作等方面。",
+      "衝突只會影響與瑞典接壤的國家。",
+      "如果衝突發生在很遠的地方，瑞典絕不會受到影響。",
+      "只有涉及歐盟的戰爭才會影響瑞典的政治。"
+    ],
+    "explanationZhHant": "全球相互依存意味着，國外的事件可以通過安全、經濟、移民、能源及國際合作等多種途徑影響瑞典，並非只與鄰國或歐盟相關。"
   },
   {
     "id": "draft-batch-c-ch11-006",
@@ -177,7 +257,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "NATO is a defense alliance; membership concerns security and defense cooperation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "加入北约（Nato）大致意味着什么？",
+    "optionsZh": [
+      "瑞典加入了一个拥有共同安全承诺的防御联盟。",
+      "北约决定瑞典应如何治理其国内政策。",
+      "加入北约意味着瑞典不再拥有自己的国防。",
+      "北约取代联合国，成为瑞典唯一的合作对象。"
+    ],
+    "explanationZh": "北约是一个防御联盟；加入意味着瑞典在安全和防务上承担共同的安全承诺，但并不取代本国政府、国防或与其他国际组织（如联合国）的合作。",
+    "questionZhHant": "加入北約（Nato）大致意味着什麼？",
+    "optionsZhHant": [
+      "瑞典加入了一個擁有共同安全承諾的防御聯盟。",
+      "北約決定瑞典應如何治理其國內政策。",
+      "加入北約意味着瑞典不再擁有自己的國防。",
+      "北約取代聯合國，成為瑞典唯一的合作對象。"
+    ],
+    "explanationZhHant": "北約是一個防御聯盟；加入意味着瑞典在安全和防務上承擔共同的安全承諾，但並不取代本國政府、國防或與其他國際組織（如聯合國）的合作。"
   },
   {
     "id": "draft-batch-c-ch11-007",
@@ -207,7 +303,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sanctions are a foreign-policy tool used to pressure states or actors, often through international cooperation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典参与了针对某个违反国际法（folkrätten）国家的国际制裁。这类制裁的目的是什么？",
+    "optionsZh": [
+      "在不使用军事武力的情况下施加政治和经济压力。",
+      "使冲突立即彻底停止。",
+      "在不施加任何限制的情况下通过谈判说服该国。",
+      "改为通过军事行动解决问题。"
+    ],
+    "explanationZh": "制裁是外交政策的工具，通常通过国际合作对有关国家或行为者施加政治和经济压力，用以推动其改变行为，而非使用武力，也未必能立刻结束冲突。",
+    "questionZhHant": "瑞典參與了針對某個違反國際法（folkrätten）國家的國際制裁。這類制裁的目的是什麼？",
+    "optionsZhHant": [
+      "在不使用軍事武力的情況下施加政治和經濟壓力。",
+      "使衝突立即徹底停止。",
+      "在不施加任何限制的情況下通過談判說服該國。",
+      "改為通過軍事行動解決問題。"
+    ],
+    "explanationZhHant": "制裁是外交政策的工具，通常通過國際合作對有關國家或行為者施加政治和經濟壓力，用以推動其改變行為，而非使用武力，也未必能立刻結束衝突。"
   },
   {
     "id": "draft-batch-c-ch11-008",
@@ -237,7 +349,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Climate and environmental agreements can shape national policy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "国际协议能够影响瑞典环境政策的一个例子是什么？",
+    "optionsZh": [
+      "瑞典可能需要将本国目标和措施调整以适应共同的气候承诺。",
+      "国际协议使市镇无法开展环境工作。",
+      "环境协议只适用于私营企业，从不适用于国家。",
+      "只有当所有市镇分别投票时，瑞典才能遵守协议。"
+    ],
+    "explanationZh": "气候与环境协议可以塑造国家政策，瑞典往往需要把本国目标与措施调整到符合共同承诺。这适用于国家和地方层面，并非只约束企业。",
+    "questionZhHant": "國際協議能夠影響瑞典環境政策的一個例子是什麼？",
+    "optionsZhHant": [
+      "瑞典可能需要將本國目標和措施調整以適應共同的氣候承諾。",
+      "國際協議使市鎮無法開展環境工作。",
+      "環境協議只適用於私營企業，從不適用於國家。",
+      "只有當所有市鎮分別投票時，瑞典才能遵守協議。"
+    ],
+    "explanationZhHant": "氣候與環境協議可以塑造國家政策，瑞典往往需要把本國目標與措施調整到符合共同承諾。這適用於國家和地方層面，並非只約束企業。"
   },
   {
     "id": "draft-batch-c-ch11-009",
@@ -267,7 +395,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "EU citizenship includes free movement and some political rights, but not all national rights everywhere.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "欧盟公民身份能给瑞典公民带来什么？",
+    "optionsZh": [
+      "在其他欧盟国家旅行、居住、学习和工作的某些权利。",
+      "在所有欧盟国家的所有全国选举中投票的权利。",
+      "可在任何欧盟国家申请所有政府工作的权利。",
+      "必须更换为另一个欧盟国家公民身份的义务。"
+    ],
+    "explanationZh": "欧盟公民身份包含人员自由流动等权利，瑞典公民因此在其他欧盟国家享有旅行、居住、学习、工作的部分权利。但这并不等于在所有成员国都享有全部本国权利（如全国选举权、所有政府职位）。",
+    "questionZhHant": "歐盟公民身份能給瑞典公民帶來什麼？",
+    "optionsZhHant": [
+      "在其他歐盟國家旅行、居住、學習和工作的某些權利。",
+      "在所有歐盟國家的所有全國選舉中投票的權利。",
+      "可在任何歐盟國家申請所有政府工作的權利。",
+      "必須更換為另一個歐盟國家公民身份的義務。"
+    ],
+    "explanationZhHant": "歐盟公民身份包含人員自由流動等權利，瑞典公民因此在其他歐盟國家享有旅行、居住、學習、工作的部分權利。但這並不等於在所有成員國都享有全部本國權利（如全國選舉權、所有政府職位）。"
   },
   {
     "id": "draft-batch-c-ch11-010",
@@ -297,7 +441,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "International trade and supply chains can affect daily life and public services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一种进口药品因世界范围内的供应链中断而变得难以获得。这种情况说明了什么？",
+    "optionsZh": [
+      "瑞典依赖国际供应链与合作。",
+      "瑞典能完全依靠自身满足所有药品供应。",
+      "进口问题总能在国内迅速解决。",
+      "全球贸易只影响价格，不影响供应。"
+    ],
+    "explanationZh": "国际贸易和供应链会影响日常生活与公共服务。瑞典在很多药品和基本物资上依赖国际供应，因此国外的中断会波及本国。",
+    "questionZhHant": "一種進口藥品因世界範圍內的供應鏈中斷而變得難以獲得。這種情況說明了什麼？",
+    "optionsZhHant": [
+      "瑞典依賴國際供應鏈與合作。",
+      "瑞典能完全依靠自身滿足所有藥品供應。",
+      "進口問題總能在國內迅速解決。",
+      "全球貿易只影響價格，不影響供應。"
+    ],
+    "explanationZhHant": "國際貿易和供應鏈會影響日常生活與公共服務。瑞典在很多藥品和基本物資上依賴國際供應，因此國外的中斷會波及本國。"
   },
   {
     "id": "draft-batch-c-ch11-011",
@@ -327,7 +487,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Human rights are part of international cooperation and foreign policy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么瑞典可以批评其他国家侵犯人权的行为？",
+    "optionsZh": [
+      "人权被视为国际规范，也是外交政策的一部分。",
+      "瑞典对其他国家境内的犯罪行为始终拥有司法管辖权。",
+      "人权只适用于欧盟内部。",
+      "根据瑞典法律，批评其他国家是被禁止的。"
+    ],
+    "explanationZh": "人权是国际合作与外交政策的一部分，被视为普适的国际规范，因此瑞典可以在国际场合就人权问题表达立场。批评不等于拥有司法管辖权。",
+    "questionZhHant": "為什麼瑞典可以批評其他國家侵犯人權的行為？",
+    "optionsZhHant": [
+      "人權被視為國際規範，也是外交政策的一部分。",
+      "瑞典對其他國家境內的犯罪行為始終擁有司法管轄權。",
+      "人權只適用於歐盟內部。",
+      "根據瑞典法律，批評其他國家是被禁止的。"
+    ],
+    "explanationZhHant": "人權是國際合作與外交政策的一部分，被視為普適的國際規範，因此瑞典可以在國際場合就人權問題表達立場。批評不等於擁有司法管轄權。"
   },
   {
     "id": "draft-batch-c-ch11-012",
@@ -357,7 +533,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Swedish Migration Agency (Migrationsverket) handles applications for asylum, residence permits, and citizenship.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典哪个政府机关（公共机构）负责审理庇护和居留许可申请？",
+    "optionsZh": [
+      "移民局（Migrationsverket）。",
+      "税务局（Skatteverket）。",
+      "社会保险局（Försäkringskassan）。",
+      "公共就业服务局（Arbetsförmedlingen）。"
+    ],
+    "explanationZh": "移民局（Migrationsverket）负责处理庇护、居留许可和公民身份申请。税务局负责税收，社会保险局负责社会保险，公共就业服务局负责就业服务。",
+    "questionZhHant": "瑞典哪個政府機關（公共機構）負責審理庇護和居留許可申請？",
+    "optionsZhHant": [
+      "移民局（Migrationsverket）。",
+      "稅務局（Skatteverket）。",
+      "社會保險局（Försäkringskassan）。",
+      "公共就業服務局（Arbetsförmedlingen）。"
+    ],
+    "explanationZhHant": "移民局（Migrationsverket）負責處理庇護、居留許可和公民身份申請。稅務局負責稅收，社會保險局負責社會保險，公共就業服務局負責就業服務。"
   },
   {
     "id": "draft-batch-c-ch11-013",
@@ -387,7 +579,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Schengen cooperation means that internal border controls between participating countries are normally removed, although you should still carry a valid ID or passport.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "申根合作（Schengensamarbetet）对大多数参与国之间的旅行意味着什么？",
+    "optionsZh": [
+      "通常可以在这些国家之间无需边境检查地旅行。",
+      "所有旅客每次出行都必须申请签证。",
+      "国家之间只允许商务旅行。",
+      "这些国家已废除所有护照和身份证件。"
+    ],
+    "explanationZh": "申根合作通常取消了参与国之间的内部边境检查，旅客可更自由地通行，但仍需随身携带有效的身份证件（如护照）。",
+    "questionZhHant": "申根合作（Schengensamarbetet）對大多數參與國之間的旅行意味着什麼？",
+    "optionsZhHant": [
+      "通常可以在這些國家之間無需邊境檢查地旅行。",
+      "所有旅客每次出行都必須申請籤證。",
+      "國家之間只允許商務旅行。",
+      "這些國家已廢除所有護照和身份證件。"
+    ],
+    "explanationZhHant": "申根合作通常取消了參與國之間的內部邊境檢查，旅客可更自由地通行，但仍需隨身攜帶有效的身份證件（如護照）。"
   },
   {
     "id": "draft-batch-c-ch11-014",
@@ -417,7 +625,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "EU elections give citizens representation in one EU institution.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么瑞典选民要投票选举欧洲议会（Europaparlamentet）？",
+    "optionsZh": [
+      "欧盟作出的决定会影响瑞典，而欧洲议会是欧盟决策过程中由选举产生的机构。",
+      "欧洲议会对瑞典的治理权力超过瑞典国会。",
+      "欧盟选举决定谁成为瑞典首相。",
+      "瑞典选民在那里投票，而不是在议会选举中投票。"
+    ],
+    "explanationZh": "欧盟选举让公民在欧盟机构中获得代表权。欧盟的决策会影响瑞典，而欧洲议会是其中由民众选举产生的组成部分。它并不取代瑞典国会或决定瑞典首相人选。",
+    "questionZhHant": "為什麼瑞典選民要投票選舉歐洲議會（Europaparlamentet）？",
+    "optionsZhHant": [
+      "歐盟作出的決定會影響瑞典，而歐洲議會是歐盟決策過程中由選舉產生的機構。",
+      "歐洲議會對瑞典的治理權力超過瑞典國會。",
+      "歐盟選舉決定誰成為瑞典首相。",
+      "瑞典選民在那裡投票，而不是在議會選舉中投票。"
+    ],
+    "explanationZhHant": "歐盟選舉讓公民在歐盟機構中獲得代表權。歐盟的決策會影響瑞典，而歐洲議會是其中由民眾選舉產生的組成部分。它並不取代瑞典國會或決定瑞典首相人選。"
   },
   {
     "id": "draft-batch-c-ch11-015",
@@ -447,7 +671,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Digital threats can affect public services, trust, and national security.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "来自国外的网络攻击扰乱了瑞典政府机关的服务。为什么这不仅仅是技术问题？",
+    "optionsZh": [
+      "它涉及安全、民主信任和社会的抗风险能力。",
+      "这纯粹是 IT 部门的技术问题。",
+      "它只影响个人，不影响政府机关。",
+      "这永远不应影响社会的治理方式。"
+    ],
+    "explanationZh": "数字威胁会影响公共服务、民众对制度的信任以及国家安全，因此不仅是技术问题，也关乎社会的抗风险能力与民主运作。",
+    "questionZhHant": "來自國外的網絡攻擊擾亂了瑞典政府機關的服務。為什麼這不僅僅是技術問題？",
+    "optionsZhHant": [
+      "它涉及安全、民主信任和社會的抗風險能力。",
+      "這純粹是 IT 部門的技術問題。",
+      "它只影響個人，不影響政府機關。",
+      "這永遠不應影響社會的治理方式。"
+    ],
+    "explanationZhHant": "數字威脅會影響公共服務、民眾對制度的信任以及國家安全，因此不僅是技術問題，也關乎社會的抗風險能力與民主運作。"
   },
   {
     "id": "draft-ch11-001",
@@ -476,7 +716,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "International cooperation means states work together on shared problems and interests.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是国际合作？",
+    "optionsZh": [
+      "各国在贸易、安全、环境和人权等问题上开展合作。",
+      "每个国家替其他国家做所有决定。",
+      "由市镇取代国家制定外交政策。",
+      "国际协议始终只适用于个人。"
+    ],
+    "explanationZh": "国际合作指各国就共同面临的问题和共同利益携手努力，例如贸易、安全、环境和人权，而不是由一国替他国决策。",
+    "questionZhHant": "什麼是國際合作？",
+    "optionsZhHant": [
+      "各國在貿易、安全、環境和人權等問題上開展合作。",
+      "每個國家替其他國家做所有決定。",
+      "由市鎮取代國家制定外交政策。",
+      "國際協議始終只適用於個人。"
+    ],
+    "explanationZhHant": "國際合作指各國就共同面臨的問題和共同利益攜手努力，例如貿易、安全、環境和人權，而不是由一國替他國決策。"
   },
   {
     "id": "draft-ch11-002",
@@ -505,7 +761,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Some problems cannot be solved effectively by one country alone.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么瑞典需要与其他国家合作？",
+    "optionsZh": [
+      "许多问题——如贸易、气候、安全和移民——都跨越国界。",
+      "瑞典必须始终无条件遵守欧盟和联合国作出的每一项决定。",
+      "瑞典完全靠自己解决大多数跨境问题最为有效。",
+      "国际合作只惠及大国，不惠及瑞典这样的小国。"
+    ],
+    "explanationZh": "有些问题（如贸易、气候、安全、移民）无法仅靠一个国家单独有效解决，因此需要国际合作。但成员资格并不等于无条件接受每一项决定。",
+    "questionZhHant": "為什麼瑞典需要與其他國家合作？",
+    "optionsZhHant": [
+      "許多問題——如貿易、氣候、安全和移民——都跨越國界。",
+      "瑞典必須始終無條件遵守歐盟和聯合國作出的每一項決定。",
+      "瑞典完全靠自己解決大多數跨境問題最為有效。",
+      "國際合作只惠及大國，不惠及瑞典這樣的小國。"
+    ],
+    "explanationZhHant": "有些問題（如貿易、氣候、安全、移民）無法僅靠一個國家單獨有效解決，因此需要國際合作。但成員資格並不等於無條件接受每一項決定。"
   },
   {
     "id": "draft-ch11-003",
@@ -535,7 +807,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Environmental issues often cross borders and require cooperation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某国的排放影响到多个邻国的海洋和空气。以下哪项结论最贴切？",
+    "optionsZh": [
+      "环境问题往往需要国际协议和共同责任。",
+      "环境问题最好由每个国家完全独立处理，无需协调。",
+      "跨境环境问题主要是企业的技术性问题，而非政治问题。",
+      "国际组织只处理贸易，不处理环境。"
+    ],
+    "explanationZh": "环境问题往往跨越国界，因此需要各国通过合作与共同责任来应对，并非仅靠本国单独处理。",
+    "questionZhHant": "某國的排放影響到多個鄰國的海洋和空氣。以下哪項結論最貼切？",
+    "optionsZhHant": [
+      "環境問題往往需要國際協議和共同責任。",
+      "環境問題最好由每個國家完全獨立處理，無需協調。",
+      "跨境環境問題主要是企業的技術性問題，而非政治問題。",
+      "國際組織只處理貿易，不處理環境。"
+    ],
+    "explanationZhHant": "環境問題往往跨越國界，因此需要各國通過合作與共同責任來應對，並非僅靠本國單獨處理。"
   },
   {
     "id": "draft-ch11-004",
@@ -564,7 +852,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Nordic region includes Sweden, Denmark, Norway, Finland, Iceland, and autonomous areas.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "北欧（Norden）通常包括哪些国家？",
+    "optionsZh": [
+      "瑞典、丹麦、挪威、芬兰和冰岛，以及各自治地区。",
+      "瑞典、德国、法国、意大利和西班牙。",
+      "只有瑞典和挪威。",
+      "所有使用欧元的国家。"
+    ],
+    "explanationZh": "北欧地区包括瑞典、丹麦、挪威、芬兰、冰岛及其自治地区（如法罗群岛、奥兰群岛、格陵兰）。它并不等同于使用欧元的国家。",
+    "questionZhHant": "北歐（Norden）通常包括哪些國家？",
+    "optionsZhHant": [
+      "瑞典、丹麥、挪威、芬蘭和冰島，以及各自治地區。",
+      "瑞典、德國、法國、意大利和西班牙。",
+      "只有瑞典和挪威。",
+      "所有使用歐元的國家。"
+    ],
+    "explanationZhHant": "北歐地區包括瑞典、丹麥、挪威、芬蘭、冰島及其自治地區（如法羅羣島、奧蘭羣島、格陵蘭）。它並不等同於使用歐元的國家。"
   },
   {
     "id": "draft-ch11-005",
@@ -593,7 +897,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Nordic cooperation covers practical issues where neighbouring countries benefit from coordination.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "北欧合作可以涉及哪些方面？",
+    "optionsZh": [
+      "跨境议题，如就业、教育、文化、环境和应急准备。",
+      "由一个北欧国家为其他所有北欧国家制定法律。",
+      "北欧像一个拥有共同国会的单一国家。",
+      "所有北欧国家拥有相同货币和相同政府。"
+    ],
+    "explanationZh": "北欧合作涵盖邻国通过协调而获益的务实议题，如就业、教育、文化、环境和应急。北欧并非一个统一国家，各国仍保留自己的政府、货币和立法。",
+    "questionZhHant": "北歐合作可以涉及哪些方面？",
+    "optionsZhHant": [
+      "跨境議題，如就業、教育、文化、環境和應急準備。",
+      "由一個北歐國家為其他所有北歐國家制定法律。",
+      "北歐像一個擁有共同國會的單一國家。",
+      "所有北歐國家擁有相同貨幣和相同政府。"
+    ],
+    "explanationZhHant": "北歐合作涵蓋鄰國通過協調而獲益的務實議題，如就業、教育、文化、環境和應急。北歐並非一個統一國家，各國仍保留自己的政府、貨幣和立法。"
   },
   {
     "id": "draft-ch11-006",
@@ -623,7 +943,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Nordic cooperation can make cross-border work and daily life easier, but national rules still matter.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人居住在瑞典，但定期在另一个北欧国家工作。哪种合作可能与此相关？",
+    "optionsZh": [
+      "关于就业、税收、社会保障和跨境通勤的规则与信息。",
+      "取代瑞典公民身份的共同北欧公民身份。",
+      "由另一个国家的雇主决定瑞典的市政税。",
+      "此人自动获得在所有北欧国家议会选举中的投票权。"
+    ],
+    "explanationZh": "北欧合作可以让跨境工作和日常生活更便利，例如就就业、税收、社保和通勤提供规则与信息，但各国的国内规则（如税收、选举权）仍然适用。",
+    "questionZhHant": "一個人居住在瑞典，但定期在另一個北歐國家工作。哪種合作可能與此相關？",
+    "optionsZhHant": [
+      "關於就業、稅收、社會保障和跨境通勤的規則與資訊。",
+      "取代瑞典公民身份的共同北歐公民身份。",
+      "由另一個國家的僱主決定瑞典的市政稅。",
+      "此人自動獲得在所有北歐國家議會選舉中的投票權。"
+    ],
+    "explanationZhHant": "北歐合作可以讓跨境工作和日常生活更便利，例如就就業、稅收、社會保險和通勤提供規則與資訊，但各國的國內規則（如稅收、選舉權）仍然適用。"
   },
   {
     "id": "draft-ch11-007",
@@ -652,7 +988,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "EU membership made Sweden part of broad European political and economic cooperation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "通过加入欧盟，瑞典参与的是哪种合作？",
+    "optionsZh": [
+      "一个在欧洲多个领域拥有共同规则的政治与经济合作。",
+      "取代瑞典国会的北欧防御联盟。",
+      "一个由欧盟决定所有成员国宪法的全球联合国项目。",
+      "一项仅适用于瑞典出口企业的临时贸易协定。"
+    ],
+    "explanationZh": "加入欧盟使瑞典成为广泛的欧洲政治与经济合作的一部分，在多个领域拥有共同规则。它既不是北欧防御联盟，也不是临时协定或联合国项目。",
+    "questionZhHant": "通過加入歐盟，瑞典參與的是哪種合作？",
+    "optionsZhHant": [
+      "一個在歐洲多個領域擁有共同規則的政治與經濟合作。",
+      "取代瑞典國會的北歐防御聯盟。",
+      "一個由歐盟決定所有成員國憲法的全球聯合國項目。",
+      "一項僅適用於瑞典出口企業的臨時貿易協定。"
+    ],
+    "explanationZhHant": "加入歐盟使瑞典成為廣泛的歐洲政治與經濟合作的一部分，在多個領域擁有共同規則。它既不是北歐防御聯盟，也不是臨時協定或聯合國項目。"
   },
   {
     "id": "draft-ch11-008",
@@ -681,7 +1033,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The EU is a union of member states cooperating politically and economically.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是欧洲联盟（欧盟）？",
+    "optionsZh": [
+      "欧洲成员国之间的政治与经济合作。",
+      "决定市镇预算的瑞典政府机关。",
+      "只从事防务的军事联盟。",
+      "取代所有国家议会的法院。"
+    ],
+    "explanationZh": "欧盟是由成员国组成的、在政治和经济上开展合作的联盟，并非单一国家机构、军事联盟或法院。",
+    "questionZhHant": "什麼是歐洲聯盟（歐盟）？",
+    "optionsZhHant": [
+      "歐洲成員國之間的政治與經濟合作。",
+      "決定市鎮預算的瑞典政府機關。",
+      "只從事防務的軍事聯盟。",
+      "取代所有國家議會的法院。"
+    ],
+    "explanationZhHant": "歐盟是由成員國組成的、在政治和經濟上開展合作的聯盟，並非單一國家機構、軍事聯盟或法院。"
   },
   {
     "id": "draft-ch11-009",
@@ -711,7 +1079,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The EU internal market is about free movement of goods, services, people, and capital.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一家瑞典企业向多个欧盟国家的客户销售商品，在单一市场内无需缴纳关税。最明显体现的是欧盟哪方面的合作？",
+    "optionsZh": [
+      "单一市场和商品自由流动。",
+      "北约框架内的欧盟共同防务规划。",
+      "联合国安理会关于贸易的决定。",
+      "北欧理事会的文化交流工作。"
+    ],
+    "explanationZh": "欧盟单一市场的核心是商品、服务、人员和资本的自由流动。无关税跨境销售正体现了商品自由流动，与北约、联合国或北欧理事会无关。",
+    "questionZhHant": "一家瑞典企業向多個歐盟國家的客戶銷售商品，在單一市場內無需繳納關稅。最明顯體現的是歐盟哪方面的合作？",
+    "optionsZhHant": [
+      "單一市場和商品自由流動。",
+      "北約框架內的歐盟共同防務規劃。",
+      "聯合國安理會關於貿易的決定。",
+      "北歐理事會的文化交流工作。"
+    ],
+    "explanationZhHant": "歐盟單一市場的核心是商品、服務、人員和資本的自由流動。無關稅跨境銷售正體現了商品自由流動，與北約、聯合國或北歐理事會無關。"
   },
   {
     "id": "draft-ch11-010",
@@ -740,7 +1124,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden is an EU member but uses the Swedish krona.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "尽管是欧盟成员国，瑞典使用哪种货币？",
+    "optionsZh": [
+      "瑞典克朗。",
+      "作为唯一法定货币的欧元。",
+      "挪威克朗。",
+      "丹麦克朗。"
+    ],
+    "explanationZh": "瑞典是欧盟成员国，但使用本国货币瑞典克朗，尚未加入欧元区。挪威克朗和丹麦克朗是其他北欧国家的货币。",
+    "questionZhHant": "盡管是歐盟成員國，瑞典使用哪種貨幣？",
+    "optionsZhHant": [
+      "瑞典克朗。",
+      "作為唯一法定貨幣的歐元。",
+      "挪威克朗。",
+      "丹麥克朗。"
+    ],
+    "explanationZhHant": "瑞典是歐盟成員國，但使用本國貨幣瑞典克朗，尚未加入歐元區。挪威克朗和丹麥克朗是其他北歐國家的貨幣。"
   },
   {
     "id": "draft-ch11-011",
@@ -769,7 +1169,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Free movement is a central part of the EU internal market.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "欧盟内部的自由流动大致指什么？",
+    "optionsZh": [
+      "人员、商品、服务和资本可以在成员国之间更自由地流动。",
+      "所有欧盟国家必须有完全相同的税率。",
+      "由市镇决定欧盟的外交政策。",
+      "所有居住在欧盟的人都能在所有全国选举中投票。"
+    ],
+    "explanationZh": "自由流动是欧盟单一市场的核心，指人员、商品、服务和资本在成员国之间更便利地流动。它并不要求相同税率或赋予所有全国选举的投票权。",
+    "questionZhHant": "歐盟內部的自由流動大致指什麼？",
+    "optionsZhHant": [
+      "人員、商品、服務和資本可以在成員國之間更自由地流動。",
+      "所有歐盟國家必須有完全相同的稅率。",
+      "由市鎮決定歐盟的外交政策。",
+      "所有居住在歐盟的人都能在所有全國選舉中投票。"
+    ],
+    "explanationZhHant": "自由流動是歐盟單一市場的核心，指人員、商品、服務和資本在成員國之間更便利地流動。它並不要求相同稅率或賦予所有全國選舉的投票權。"
   },
   {
     "id": "draft-ch11-012",
@@ -799,7 +1215,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "EU cooperation can make studying and moving within Europe easier, though rules still apply.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位瑞典公民想去另一个欧盟国家留学，想知道为什么流程往往比在欧盟外更简便。与此相关的是哪项原则？",
+    "optionsZh": [
+      "欧盟的人员自由流动，以及关于教育和学历互认的合作。",
+      "瑞典与该国自动拥有相同政府。",
+      "欧盟公民总是可以免除所有入学要求。",
+      "由瑞典大学决定所有欧盟国家的招生。"
+    ],
+    "explanationZh": "欧盟合作可以让在欧洲内部的学习和流动更便利，例如人员自由流动以及学历互认。具体入学要求仍需遵守，并非自动免除。",
+    "questionZhHant": "一位瑞典公民想去另一個歐盟國家留學，想知道為什麼流程往往比在歐盟外更簡便。與此相關的是哪項原則？",
+    "optionsZhHant": [
+      "歐盟的人員自由流動，以及關於教育和學歷互認的合作。",
+      "瑞典與該國自動擁有相同政府。",
+      "歐盟公民總是可以免除所有入學要求。",
+      "由瑞典大學決定所有歐盟國家的招生。"
+    ],
+    "explanationZhHant": "歐盟合作可以讓在歐洲內部的學習和流動更便利，例如人員自由流動以及學歷互認。具體入學要求仍需遵守，並非自動免除。"
   },
   {
     "id": "draft-ch11-013",
@@ -828,7 +1260,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The UN is a global organization for cooperation between states.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是联合国（FN）？",
+    "optionsZh": [
+      "世界上许多国家开展合作的全球性组织。",
+      "拥有共同军事防御的国际防御联盟。",
+      "只面向欧洲国家的经济自由贸易区。",
+      "为所有国家制定强制性法律的全球法院。"
+    ],
+    "explanationZh": "联合国是各国之间开展合作的全球性组织，并非防御联盟、自贸区或制定强制性法律的全球法院。",
+    "questionZhHant": "什麼是聯合國（FN）？",
+    "optionsZhHant": [
+      "世界上許多國家開展合作的全球性組織。",
+      "擁有共同軍事防御的國際防御聯盟。",
+      "只面向歐洲國家的經濟自由貿易區。",
+      "為所有國家制定強制性法律的全球法院。"
+    ],
+    "explanationZhHant": "聯合國是各國之間開展合作的全球性組織，並非防御聯盟、自貿區或制定強制性法律的全球法院。"
   },
   {
     "id": "draft-ch11-014",
@@ -857,7 +1305,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The UN works with global issues such as peace, rights, development, and humanitarian action.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "联合国通常处理哪些议题？",
+    "optionsZh": [
+      "和平与安全、人权、发展和人道主义援助。",
+      "为个别成员国制定国家刑法。",
+      "管理个别成员国的市镇税收。",
+      "规范私营企业内部的工作环境协议。"
+    ],
+    "explanationZh": "联合国处理和平、权利、发展和人道主义行动等全球性议题，并不替成员国制定国内刑法、税收或企业内部协议。",
+    "questionZhHant": "聯合國通常處理哪些議題？",
+    "optionsZhHant": [
+      "和平與安全、人權、發展和人道主義援助。",
+      "為個別成員國制定國家刑法。",
+      "管理個別成員國的市鎮稅收。",
+      "規範私營企業內部的工作環境協議。"
+    ],
+    "explanationZhHant": "聯合國處理和平、權利、發展和人道主義行動等全球性議題，並不替成員國制定國內刑法、稅收或企業內部協議。"
   },
   {
     "id": "draft-ch11-015",
@@ -887,7 +1351,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The UN and humanitarian actors often coordinate support in crises.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某国陷入战争，平民需要保护、食物和医疗。哪个国际行为者可以协调人道工作？",
+    "optionsZh": [
+      "联合国系统和人道主义组织。",
+      "直接负责医疗的国际货币基金组织。",
+      "作为武装干预力量的世界贸易组织。",
+      "东道国的个别私营保险公司。"
+    ],
+    "explanationZh": "在危机中，联合国和人道主义行为者常常负责协调和提供援助。国际货币基金组织负责金融稳定，世界贸易组织负责贸易，均不负责医疗或武装干预。",
+    "questionZhHant": "某國陷入戰爭，平民需要保護、食物和醫療。哪個國際行為者可以協調人道工作？",
+    "optionsZhHant": [
+      "聯合國系統和人道主義組織。",
+      "直接負責醫療的國際貨幣基金組織。",
+      "作為武裝幹預力量的世界貿易組織。",
+      "東道國的個別私營保險公司。"
+    ],
+    "explanationZhHant": "在危機中，聯合國和人道主義行為者常常負責協調和提供援助。國際貨幣基金組織負責金融穩定，世界貿易組織負責貿易，均不負責醫療或武裝幹預。"
   },
   {
     "id": "draft-ch11-016",
@@ -917,7 +1397,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Universal Declaration of Human Rights was adopted by the UN in 1948.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "联合国在 1948 年通过了哪份重要文件？",
+    "optionsZh": [
+      "《世界人权宣言》。",
+      "瑞典的政府组织法（宪法）。",
+      "欧盟《里斯本条约》。",
+      "北欧护照联盟的第一部市镇法。"
+    ],
+    "explanationZh": "《世界人权宣言》于 1948 年由联合国通过，是国际社会对人权的重要共同宣言。瑞典的宪法、欧盟条约等均非联合国 1948 年通过。",
+    "questionZhHant": "聯合國在 1948 年通過了哪份重要文件？",
+    "optionsZhHant": [
+      "《世界人權宣言》。",
+      "瑞典的政府組織法（憲法）。",
+      "歐盟《裡斯本條約》。",
+      "北歐護照聯盟的第一部市鎮法。"
+    ],
+    "explanationZhHant": "《世界人權宣言》於 1948 年由聯合國通過，是國際社會對人權的重要共同宣言。瑞典的憲法、歐盟條約等均非聯合國 1948 年通過。"
   },
   {
     "id": "draft-ch11-017",
@@ -947,7 +1443,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden can contribute to the UN through funding, diplomacy, and personnel.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典可以怎样为联合国的工作做出贡献？",
+    "optionsZh": [
+      "通过经济支持、外交、人员派遣和国际行动。",
+      "通过推行取代本国立法的共同刑法。",
+      "派遣瑞典军队去统治东道国的政府。",
+      "要求在联合国大会所有决定中拥有否决权。"
+    ],
+    "explanationZh": "瑞典可以通过资金、外交和派遣人员（如维和人员、专家）等方式为联合国做贡献。联合国大会决定一般不以否决权方式作出。",
+    "questionZhHant": "瑞典可以怎樣為聯合國的工作做出貢獻？",
+    "optionsZhHant": [
+      "通過經濟支持、外交、人員派遣和國際行動。",
+      "通過推行取代本國立法的共同刑法。",
+      "派遣瑞典軍隊去統治東道國的政府。",
+      "要求在聯合國大會所有決定中擁有否決權。"
+    ],
+    "explanationZhHant": "瑞典可以通過資金、外交和派遣人員（如維和人員、專家）等方式為聯合國做貢獻。聯合國大會決定一般不以否決權方式作出。"
   },
   {
     "id": "draft-ch11-018",
@@ -977,7 +1489,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Foreign policy often involves defending international law, human rights, and cooperation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典在联合国主张人权和尊重国际法。这体现了外交政策的哪一部分？",
+    "optionsZh": [
+      "以规则为基础的国际合作，以及对国家间法律秩序的维护。",
+      "瑞典福利事务中的市镇自治。",
+      "私营企业决定外交政策的权利。",
+      "欧盟关于地方学校组织的规则。"
+    ],
+    "explanationZh": "外交政策通常涉及维护国际法、人权和国际合作，体现以规则为基础的秩序，与市镇自治或企业无关。",
+    "questionZhHant": "瑞典在聯合國主張人權和尊重國際法。這體現了外交政策的哪一部分？",
+    "optionsZhHant": [
+      "以規則為基礎的國際合作，以及對國家間法律秩序的維護。",
+      "瑞典福利事務中的市鎮自治。",
+      "私營企業決定外交政策的權利。",
+      "歐盟關於地方學校組織的規則。"
+    ],
+    "explanationZhHant": "外交政策通常涉及維護國際法、人權和國際合作，體現以規則為基礎的秩序，與市鎮自治或企業無關。"
   },
   {
     "id": "draft-ch11-019",
@@ -1006,7 +1534,15 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden became a NATO member on 7 March 2024.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典何时成为北约（Nato）成员国？",
+    "optionsZh": [
+      "2024 年。",
+      "1995 年。",
+      "1949 年。",
+      "2000 年。"
+    ],
+    "explanationZh": "瑞典于 2024 年 3 月 7 日正式成为北约成员国。1949 年是北约成立之年，1995 年是瑞典加入欧盟之年。"
   },
   {
     "id": "draft-ch11-020",
@@ -1035,7 +1571,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "NATO is a political and military defence alliance.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是北约（Nato）？",
+    "optionsZh": [
+      "欧洲和北美成员国之间的防御联盟。",
+      "为所有国家决定关税的全球贸易组织。",
+      "负责市镇民防的瑞典政府机关。",
+      "审理所有侵犯人权罪的法院。"
+    ],
+    "explanationZh": "北约是一个政治和军事防御联盟，成员主要来自欧洲和北美。它并非贸易组织、瑞典机关或人权法院。",
+    "questionZhHant": "什麼是北約（Nato）？",
+    "optionsZhHant": [
+      "歐洲和北美成員國之間的防御聯盟。",
+      "為所有國家決定關稅的全球貿易組織。",
+      "負責市鎮民防的瑞典政府機關。",
+      "審理所有侵犯人權罪的法院。"
+    ],
+    "explanationZhHant": "北約是一個政治和軍事防御聯盟，成員主要來自歐洲和北美。它並非貿易組織、瑞典機關或人權法院。"
   },
   {
     "id": "draft-ch11-021",
@@ -1065,7 +1617,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Collective defence is a core principle of NATO membership.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典加入北约后，集体防御被频繁提及。它大致是什么意思？",
+    "optionsZh": [
+      "成员国将针对任一成员国的攻击视为整个联盟的事务。",
+      "战争时每个市镇都有自己的外交政策。",
+      "北约取代联合国的人道主义工作。",
+      "欧盟自动决定北约的军事事务。"
+    ],
+    "explanationZh": "集体防御是北约成员资格的核心原则：对一国的攻击被视为对全联盟的攻击。它与市镇外交、联合国或欧盟指挥无关。",
+    "questionZhHant": "瑞典加入北約後，集體防御被頻繁提及。它大致是什麼意思？",
+    "optionsZhHant": [
+      "成員國將針對任一成員國的攻擊視為整個聯盟的事務。",
+      "戰爭時每個市鎮都有自己的外交政策。",
+      "北約取代聯合國的人道主義工作。",
+      "歐盟自動決定北約的軍事事務。"
+    ],
+    "explanationZhHant": "集體防御是北約成員資格的核心原則：對一國的攻擊被視為對全聯盟的攻擊。它與市鎮外交、聯合國或歐盟指揮無關。"
   },
   {
     "id": "draft-ch11-022",
@@ -1094,7 +1662,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Security policy concerns protection of the country and its population.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "安全政策涉及什么？",
+    "optionsZh": [
+      "一个国家如何保护自身的自由、安全和独立。",
+      "一个国家如何仅处理其国内税收和福利预算。",
+      "市镇如何规划地方公共交通和住房建设。",
+      "私营企业如何谈判国际关税。"
+    ],
+    "explanationZh": "安全政策涉及对本国及其居民的保护，包括防范外部威胁、维护自由与安全，并非仅限国内预算或地方事务。",
+    "questionZhHant": "安全政策涉及什麼？",
+    "optionsZhHant": [
+      "一個國家如何保護自身的自由、安全和獨立。",
+      "一個國家如何僅處理其國內稅收和福利預算。",
+      "市鎮如何規劃地方公共交通和住房建設。",
+      "私營企業如何談判國際關稅。"
+    ],
+    "explanationZhHant": "安全政策涉及對本國及其居民的保護，包括防範外部威脅、維護自由與安全，並非僅限國內預算或地方事務。"
   },
   {
     "id": "draft-ch11-023",
@@ -1123,7 +1707,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Total defence includes both military defence and civilian preparedness.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，“总体防御”（totalförsvar）可以指什么？",
+    "optionsZh": [
+      "军事防御与民事防御共同协作，在危机或战争时保护社会。",
+      "只有武装部队负责所有医疗和教育。",
+      "防务政策只涉及国际贸易。",
+      "个人在社会危机中毫无作用。"
+    ],
+    "explanationZh": "总体防御包括军事防御和民事应急准备两大部分，二者共同在危机或战争时保护社会的关键功能。",
+    "questionZhHant": "在瑞典，“總體防御”（totalförsvar）可以指什麼？",
+    "optionsZhHant": [
+      "軍事防御與民事防御共同協作，在危機或戰爭時保護社會。",
+      "只有武裝部隊負責所有醫療和教育。",
+      "防務政策只涉及國際貿易。",
+      "個人在社會危機中毫無作用。"
+    ],
+    "explanationZhHant": "總體防御包括軍事防御和民事應急準備兩大部分，二者共同在危機或戰爭時保護社會的關鍵功能。"
   },
   {
     "id": "draft-ch11-024",
@@ -1153,7 +1753,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Civil defence protects essential functions and resilience.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一场重大的社会危机影响了电力、交通和医疗。为什么需要民事防御？",
+    "optionsZh": [
+      "为了让重要的社会功能在危机或战争期间仍能正常运转。",
+      "为了取代所有民主选举，直到危机结束。",
+      "为了让企业决定国际制裁。",
+      "为了让欧盟接管瑞典市镇的所有职责。"
+    ],
+    "explanationZh": "民事防御保护关键社会功能和抗风险能力，使电力、交通、医疗等在危机期间仍可运转，并非取代民主选举或让欧盟接管。",
+    "questionZhHant": "一場重大的社會危機影響了電力、交通和醫療。為什麼需要民事防御？",
+    "optionsZhHant": [
+      "為了讓重要的社會功能在危機或戰爭期間仍能正常運轉。",
+      "為了取代所有民主選舉，直到危機結束。",
+      "為了讓企業決定國際制裁。",
+      "為了讓歐盟接管瑞典市鎮的所有職責。"
+    ],
+    "explanationZhHant": "民事防御保護關鍵社會功能和抗風險能力，使電力、交通、醫療等在危機期間仍可運轉，並非取代民主選舉或讓歐盟接管。"
   },
   {
     "id": "draft-ch11-025",
@@ -1182,7 +1798,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "International law includes treaties and rules between states.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是国际法（folkrätten）？",
+    "optionsZh": [
+      "规范国家之间及某些国际行为者之间关系的规则和协议。",
+      "只在一个市镇适用的瑞典市镇法。",
+      "房东与租客之间的私人协议。",
+      "工作场所安全规则的另一种说法。"
+    ],
+    "explanationZh": "国际法包括国家之间的条约和规则，规范国家及某些国际行为者之间的关系，并非国内市镇法或私人合同。",
+    "questionZhHant": "什麼是國際法（folkrätten）？",
+    "optionsZhHant": [
+      "規範國家之間及某些國際行為者之間關系的規則和協議。",
+      "只在一個市鎮適用的瑞典市鎮法。",
+      "房東與租客之間的私人協議。",
+      "工作場所安全規則的另一種說法。"
+    ],
+    "explanationZhHant": "國際法包括國家之間的條約和規則，規範國家及某些國際行為者之間的關系，並非國內市鎮法或私人合同。"
   },
   {
     "id": "draft-ch11-026",
@@ -1211,7 +1843,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Rules-based cooperation can help protect states that cannot rely only on power.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么国际法对中小型国家很重要？",
+    "optionsZh": [
+      "它提供共同的规则，可以限制强权政治并保护各国的权利。",
+      "它只适用于大国，小国须听命于更强者。",
+      "它主要规范国际贸易和关税，不涉及政治议题。",
+      "它意味着强国永远不可能违反规则。"
+    ],
+    "explanationZh": "以规则为基础的合作有助于保护那些无法仅靠实力自保的国家，限制强权政治。国际法并非只约束大国，强国也仍可能违反规则。",
+    "questionZhHant": "為什麼國際法對中小型國家很重要？",
+    "optionsZhHant": [
+      "它提供共同的規則，可以限制強權政治並保護各國的權利。",
+      "它只適用於大國，小國須聽命於更強者。",
+      "它主要規範國際貿易和關稅，不涉及政治議題。",
+      "它意味着強國永遠不可能違反規則。"
+    ],
+    "explanationZhHant": "以規則為基礎的合作有助於保護那些無法僅靠實力自保的國家，限制強權政治。國際法並非只約束大國，強國也仍可能違反規則。"
   },
   {
     "id": "draft-ch11-027",
@@ -1241,7 +1889,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "International law includes rules about sovereignty and the use of force.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个国家攻击另一个国家的领土。为什么这会成为国际法的问题？",
+    "optionsZh": [
+      "它涉及国家主权、禁止使用武力，以及和平与安全规则。",
+      "这只是地方市镇规划的问题。",
+      "总是由两国的私营企业决定。",
+      "如果两国不使用相同货币，它就毫无意义。"
+    ],
+    "explanationZh": "国际法包含关于主权和武力使用的规定，禁止以武力侵犯他国领土，因此此类攻击属于国际法议题。",
+    "questionZhHant": "一個國家攻擊另一個國家的領土。為什麼這會成為國際法的問題？",
+    "optionsZhHant": [
+      "它涉及國家主權、禁止使用武力，以及和平與安全規則。",
+      "這只是地方市鎮規劃的問題。",
+      "總是由兩國的私營企業決定。",
+      "如果兩國不使用相同貨幣，它就毫無意義。"
+    ],
+    "explanationZhHant": "國際法包含關於主權和武力使用的規定，禁止以武力侵犯他國領土，因此此類攻擊屬於國際法議題。"
   },
   {
     "id": "draft-ch11-028",
@@ -1270,7 +1934,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden is a small, open economy that depends on trade.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么与其他国家的贸易对瑞典很重要？",
+    "optionsZh": [
+      "瑞典在国际市场上出售并购买商品与服务。",
+      "瑞典依法生产本国所需的一切，无需进口。",
+      "贸易只涉及市镇图书馆。",
+      "瑞典企业不得在欧盟内部出口。"
+    ],
+    "explanationZh": "瑞典是一个小型开放经济体，依赖贸易：既向国际市场出口，也从国际市场进口商品与服务。",
+    "questionZhHant": "為什麼與其他國家的貿易對瑞典很重要？",
+    "optionsZhHant": [
+      "瑞典在國際市場上出售並購買商品與服務。",
+      "瑞典依法生產本國所需的一切，無需進口。",
+      "貿易只涉及市鎮圖書館。",
+      "瑞典企業不得在歐盟內部出口。"
+    ],
+    "explanationZhHant": "瑞典是一個小型開放經濟體，依賴貿易：既向國際市場出口，也從國際市場進口商品與服務。"
   },
   {
     "id": "draft-ch11-029",
@@ -1299,7 +1979,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Export means selling goods or services to other countries.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“出口”是什么意思？",
+    "optionsZh": [
+      "商品或服务从瑞典销售到其他国家。",
+      "从国外购入商品到瑞典。",
+      "由市镇决定地方税收。",
+      "一个人变更户籍登记地址。"
+    ],
+    "explanationZh": "出口指向其他国家销售商品或服务（从国外购入称为进口），与税收或户籍登记无关。",
+    "questionZhHant": "“出口”是什麼意思？",
+    "optionsZhHant": [
+      "商品或服務從瑞典銷售到其他國家。",
+      "從國外購入商品到瑞典。",
+      "由市鎮決定地方稅收。",
+      "一個人變更戶籍登記地址。"
+    ],
+    "explanationZhHant": "出口指向其他國家銷售商品或服務（從國外購入稱為進口），與稅收或戶籍登記無關。"
   },
   {
     "id": "draft-ch11-030",
@@ -1329,7 +2025,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Global trade creates opportunities but also dependence on international flows.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一家瑞典企业依赖来自多个国家的零部件，并向全球销售成品。可能出现哪种脆弱性？",
+    "optionsZh": [
+      "国际供应链中断会影响生产和就业。",
+      "该企业自动免除国内税收。",
+      "瑞典法院总决定该企业的出口价格。",
+      "国际贸易使该企业完全不受政治事件影响。"
+    ],
+    "explanationZh": "全球贸易带来机遇，但也造成对国际流通的依赖：一旦供应链中断，生产和就业都会受影响。贸易并不使企业免除税收或免受政治影响。",
+    "questionZhHant": "一家瑞典企業依賴來自多個國家的零部件，並向全球銷售成品。可能出現哪種脆弱性？",
+    "optionsZhHant": [
+      "國際供應鏈中斷會影響生產和就業。",
+      "該企業自動免除國內稅收。",
+      "瑞典法院總決定該企業的出口價格。",
+      "國際貿易使該企業完全不受政治事件影響。"
+    ],
+    "explanationZhHant": "全球貿易帶來機遇，但也造成對國際流通的依賴：一旦供應鏈中斷，生產和就業都會受影響。貿易並不使企業免除稅收或免受政治影響。"
   },
   {
     "id": "draft-ch11-031",
@@ -1358,7 +2070,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Aid is support directed to development or humanitarian needs internationally.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "外交政策中的“援助”（bistånd）指什么？",
+    "optionsZh": [
+      "向其他国家提供的、用于发展、人道主义需求或国家建设的支持。",
+      "市镇为建设许可收取的费用。",
+      "两家企业之间的私人贷款。",
+      "瑞典病假缺勤的补偿。"
+    ],
+    "explanationZh": "援助是指面向国际发展或人道主义需求的支持，与国内建设许可收费、私人贷款或病假补偿不同。",
+    "questionZhHant": "外交政策中的“援助”（bistånd）指什麼？",
+    "optionsZhHant": [
+      "向其他國家提供的、用於發展、人道主義需求或國家建設的支持。",
+      "市鎮為建設許可收取的費用。",
+      "兩家企業之間的私人貸款。",
+      "瑞典病假缺勤的補償。"
+    ],
+    "explanationZhHant": "援助是指面向國際發展或人道主義需求的支持，與國內建設許可收費、私人貸款或病假補償不同。"
   },
   {
     "id": "draft-ch11-032",
@@ -1387,7 +2115,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Aid can be part of foreign policy, solidarity, and global development work.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么瑞典提供国际援助？",
+    "optionsZh": [
+      "为了促进减贫、人道主义支持、民主或可持续发展。",
+      "为了让受援国自动成为瑞典的市镇。",
+      "为了用赠予取代所有贸易。",
+      "为了让瑞典选民在议会选举中获得更多选票。"
+    ],
+    "explanationZh": "援助可以是外交政策、团结和全球发展工作的一部分，旨在减贫、提供人道支持、促进民主和可持续发展，并非为了换取选票或领土。",
+    "questionZhHant": "為什麼瑞典提供國際援助？",
+    "optionsZhHant": [
+      "為了促進減貧、人道主義支持、民主或可持續發展。",
+      "為了讓受援國自動成為瑞典的市鎮。",
+      "為了用贈予取代所有貿易。",
+      "為了讓瑞典選民在議會選舉中獲得更多選票。"
+    ],
+    "explanationZhHant": "援助可以是外交政策、團結和全球發展工作的一部分，旨在減貧、提供人道支持、促進民主和可持續發展，並非為了換取選票或領土。"
   },
   {
     "id": "draft-ch11-033",
@@ -1417,7 +2161,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Crises can require both emergency aid and long-term rebuilding.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "自然灾害后，既需要紧急救助，也需要长期重建。可能出现哪两类行动？",
+    "optionsZh": [
+      "人道主义援助和发展合作。",
+      "组建军事联盟和关税谈判。",
+      "国际信用审查和货币改革。",
+      "外交豁免和制裁决定。"
+    ],
+    "explanationZh": "危机往往需要既提供紧急援助（人道主义援助），也进行长期重建（发展合作）。二者针对的是灾后不同时期的需求。",
+    "questionZhHant": "自然災害後，既需要緊急救助，也需要長期重建。可能出現哪兩類行動？",
+    "optionsZhHant": [
+      "人道主義援助和發展合作。",
+      "組建軍事聯盟和關稅談判。",
+      "國際信用審查和貨幣改革。",
+      "外交豁免和制裁決定。"
+    ],
+    "explanationZhHant": "危機往往需要既提供緊急援助（人道主義援助），也進行長期重建（發展合作）。二者針對的是災後不同時期的需求。"
   },
   {
     "id": "draft-ch11-034",
@@ -1446,7 +2206,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "International humanitarian law aims to limit suffering in armed conflicts.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "人道主义法（humanitär rätt）主要涉及什么？",
+    "optionsZh": [
+      "在武装冲突中应保护人员的规则。",
+      "关于瑞典学校学期的规定。",
+      "关于市镇垃圾收集的规定。",
+      "关于私营银行如何设定利率的规定。"
+    ],
+    "explanationZh": "国际人道法旨在限制武装冲突中的苦难，保护受冲突影响的人员，与学校、垃圾收集或银行利率无关。",
+    "questionZhHant": "人道主義法（humanitär rätt）主要涉及什麼？",
+    "optionsZhHant": [
+      "在武裝衝突中應保護人員的規則。",
+      "關於瑞典學校學期的規定。",
+      "關於市鎮垃圾收集的規定。",
+      "關於私營銀行如何設定利率的規定。"
+    ],
+    "explanationZhHant": "國際人道法旨在限制武裝衝突中的苦難，保護受衝突影響的人員，與學校、垃圾收集或銀行利率無關。"
   },
   {
     "id": "draft-ch11-035",
@@ -1475,7 +2251,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Humanitarian law sets limits even during armed conflict.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么即使在战争中也有规则？",
+    "optionsZh": [
+      "为了保护平民、伤员、战俘，并限制苦难。",
+      "为了让战争始终在经济上有利可图。",
+      "为了让市镇能就其他国家的边界投票。",
+      "为了让所有军事决定由私营媒体作出。"
+    ],
+    "explanationZh": "人道法即使在武装冲突期间也设定了限制，目的是保护平民、伤员和战俘，并尽量减轻苦难。",
+    "questionZhHant": "為什麼即使在戰爭中也有規則？",
+    "optionsZhHant": [
+      "為了保護平民、傷員、戰俘，並限制苦難。",
+      "為了讓戰爭始終在經濟上有利可圖。",
+      "為了讓市鎮能就其他國家的邊界投票。",
+      "為了讓所有軍事決定由私營媒體作出。"
+    ],
+    "explanationZhHant": "人道法即使在武裝衝突期間也設定了限制，目的是保護平民、傷員和戰俘，並盡量減輕苦難。"
   },
   {
     "id": "draft-ch11-036",
@@ -1505,7 +2297,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Civilian healthcare has protection under humanitarian law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一场武装冲突正在进行，平民医院遭到攻击。涉及哪项国际原则？",
+    "optionsZh": [
+      "根据人道法对平民和医疗的保护。",
+      "医疗规划中的市镇自治。",
+      "欧盟关于资本自由流动的规则。",
+      "北欧关于学校成绩的联合合作。"
+    ],
+    "explanationZh": "平民医疗设施受到人道法的保护，攻击医院违反国际人道法。此议题与市镇自治、欧盟资本流动或北欧教育合作无关。",
+    "questionZhHant": "一場武裝衝突正在進行，平民醫院遭到攻擊。涉及哪項國際原則？",
+    "optionsZhHant": [
+      "根據人道法對平民和醫療的保護。",
+      "醫療規劃中的市鎮自治。",
+      "歐盟關於資本自由流動的規則。",
+      "北歐關於學校成績的聯合合作。"
+    ],
+    "explanationZhHant": "平民醫療設施受到人道法的保護，攻擊醫院違反國際人道法。此議題與市鎮自治、歐盟資本流動或北歐教育合作無關。"
   },
   {
     "id": "draft-ch11-037",
@@ -1534,7 +2342,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Climate change is global and requires international cooperation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么气候问题是国际性的？",
+    "optionsZh": [
+      "排放和气候影响会跨越国界。",
+      "气候只影响发生排放的国家。",
+      "气候协议只由市镇住房公司制定。",
+      "气候问题与政治无关。"
+    ],
+    "explanationZh": "气候变化是全球性的：一个国家的排放会影响他国，因此需要国际合作应对，并非纯地方或无关政治的事务。",
+    "questionZhHant": "為什麼氣候問題是國際性的？",
+    "optionsZhHant": [
+      "排放和氣候影響會跨越國界。",
+      "氣候只影響發生排放的國家。",
+      "氣候協議只由市鎮住房公司制定。",
+      "氣候問題與政治無關。"
+    ],
+    "explanationZhHant": "氣候變化是全球性的：一個國家的排放會影響他國，因此需要國際合作應對，並非純地方或無關政治的事務。"
   },
   {
     "id": "draft-ch11-038",
@@ -1563,7 +2387,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Climate agreements show how states can cooperate on shared problems.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "国际气候协议是哪个现象的例子？",
+    "optionsZh": [
+      "各国试图针对共同的全球问题协调行动。",
+      "两家国际企业之间的私人协议。",
+      "某瑞典政府机关的内部工作条例。",
+      "由单个市镇作出的约束性决定。"
+    ],
+    "explanationZh": "气候协议展示了各国如何就共同问题（全球变暖）开展合作、协调行动，是国家间的协议而非私人或地方决定。",
+    "questionZhHant": "國際氣候協議是哪個現象的例子？",
+    "optionsZhHant": [
+      "各國試圖針對共同的全球問題協調行動。",
+      "兩家國際企業之間的私人協議。",
+      "某瑞典政府機關的內部工作條例。",
+      "由單個市鎮作出的約束性決定。"
+    ],
+    "explanationZhHant": "氣候協議展示了各國如何就共同問題（全球變暖）開展合作、協調行動，是國家間的協議而非私人或地方決定。"
   },
   {
     "id": "draft-ch11-039",
@@ -1593,7 +2433,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Climate policy needs both domestic action and international cooperation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典希望减少排放，但也会受到大型经济体的影响。以下哪项结论最合理？",
+    "optionsZh": [
+      "本国措施和国际合作需要同时进行。",
+      "只要存在其他国家，瑞典的气候政策就毫无意义。",
+      "国际合作使本国决定被禁止。",
+      "气候问题最好在没有研究或协议的情况下解决。"
+    ],
+    "explanationZh": "气候政策既需要本国采取行动，也需要国际合作，因为排放无国界、各国相互影响。两者并不互相排斥。",
+    "questionZhHant": "瑞典希望減少排放，但也會受到大型經濟體的影響。以下哪項結論最合理？",
+    "optionsZhHant": [
+      "本國措施和國際合作需要同時進行。",
+      "只要存在其他國家，瑞典的氣候政策就毫無意義。",
+      "國際合作使本國決定被禁止。",
+      "氣候問題最好在沒有研究或協議的情況下解決。"
+    ],
+    "explanationZhHant": "氣候政策既需要本國採取行動，也需要國際合作，因為排放無國界、各國相互影響。兩者並不互相排斥。"
   },
   {
     "id": "draft-ch11-040",
@@ -1622,7 +2478,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Migration means movement of people.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“移民”（migration）是什么意思？",
+    "optionsZh": [
+      "人们在国家之间或在一国境内迁移。",
+      "商品和服务跨越边境进出口。",
+      "一个国家暂时关闭贸易边境。",
+      "国家签订有约束力的军事条约。"
+    ],
+    "explanationZh": "移民指人员的流动，包括跨国迁移和国内迁移，与货物贸易、关闭边境或军事条约不同。",
+    "questionZhHant": "“移民”（migration）是什麼意思？",
+    "optionsZhHant": [
+      "人們在國家之間或在一國境內遷移。",
+      "商品和服務跨越邊境進出口。",
+      "一個國家暫時關閉貿易邊境。",
+      "國家籤訂有約束力的軍事條約。"
+    ],
+    "explanationZhHant": "移民指人員的流動，包括跨國遷移和國內遷移，與貨物貿易、關閉邊境或軍事條約不同。"
   },
   {
     "id": "draft-ch11-041",
@@ -1651,7 +2523,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Migration often involves both national rules and international commitments.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么移民会成为一个国际议题？",
+    "optionsZh": [
+      "它涉及国家、边境、保护、就业、家庭和国际规则。",
+      "它主要涉及当事人出生国，不涉及其他国家。",
+      "它是每个国家完全自行解决的问题，没有共同规则。",
+      "它与人权无关。"
+    ],
+    "explanationZh": "移民往往既涉及本国规则，也涉及国际承诺与人权，例如庇护、家庭团聚和边境管理，因此需要国际合作。",
+    "questionZhHant": "為什麼移民會成為一個國際議題？",
+    "optionsZhHant": [
+      "它涉及國家、邊境、保護、就業、家庭和國際規則。",
+      "它主要涉及當事人出生國，不涉及其他國家。",
+      "它是每個國家完全自行解決的問題，沒有共同規則。",
+      "它與人權無關。"
+    ],
+    "explanationZhHant": "移民往往既涉及本國規則，也涉及國際承諾與人權，例如庇護、家庭團聚和邊境管理，因此需要國際合作。"
   },
   {
     "id": "draft-ch11-042",
@@ -1681,7 +2569,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "People fleeing conflict may be covered by asylum and protection rules.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人逃离战争，到另一个国家寻求庇护。哪些法律领域可能相关？",
+    "optionsZh": [
+      "庇护权、人权和国际保护规则。",
+      "国际贸易协议和关税配额。",
+      "外交豁免和领事费用。",
+      "公共部门的全国劳动力市场协议。"
+    ],
+    "explanationZh": "逃离冲突的人可能受到庇护法、人权和国际保护规则的覆盖。这与贸易协议、外交豁免或劳工协议无直接关系。",
+    "questionZhHant": "一個人逃離戰爭，到另一個國家尋求庇護。哪些法律領域可能相關？",
+    "optionsZhHant": [
+      "庇護權、人權和國際保護規則。",
+      "國際貿易協議和關稅配額。",
+      "外交豁免和領事費用。",
+      "公共部門的全國勞動力市場協議。"
+    ],
+    "explanationZhHant": "逃離衝突的人可能受到庇護法、人權和國際保護規則的覆蓋。這與貿易協議、外交豁免或勞工協議無直接關系。"
   },
   {
     "id": "draft-ch11-043",
@@ -1710,7 +2614,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The government conducts foreign policy, while the Riksdag has important roles in scrutiny and decisions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在国家层面，谁负责瑞典的外交政策？",
+    "optionsZh": [
+      "政府（Regeringen），并由瑞典国会（Riksdagen）在重要议题上监督和决策。",
+      "各个市镇各自负责。",
+      "私营出口企业。",
+      "各省的个别法院。"
+    ],
+    "explanationZh": "政府负责制定和执行外交政策，而瑞典国会在监督和重要决策方面扮演关键角色。地方市镇、企业或法院不负责外交政策。",
+    "questionZhHant": "在國家層面，誰負責瑞典的外交政策？",
+    "optionsZhHant": [
+      "政府（Regeringen），並由瑞典國會（Riksdagen）在重要議題上監督和決策。",
+      "各個市鎮各自負責。",
+      "私營出口企業。",
+      "各省的個別法院。"
+    ],
+    "explanationZhHant": "政府負責制定和執行外交政策，而瑞典國會在監督和重要決策方面扮演關鍵角色。地方市鎮、企業或法院不負責外交政策。"
   },
   {
     "id": "draft-ch11-044",
@@ -1739,7 +2659,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Ministry for Foreign Affairs supports the government’s foreign policy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "外交部（Utrikesdepartementet）的职责是什么？",
+    "optionsZh": [
+      "处理瑞典与其他国家及国际组织的关系。",
+      "决定瑞典中小学的成绩。",
+      "在地区法院审理刑事案件。",
+      "为每个市镇设定市政税。"
+    ],
+    "explanationZh": "外交部协助政府执行外交政策，处理与其他国家及国际组织的关系。学校成绩、刑事审判和市政税由其他机构负责。",
+    "questionZhHant": "外交部（Utrikesdepartementet）的職責是什麼？",
+    "optionsZhHant": [
+      "處理瑞典與其他國家及國際組織的關系。",
+      "決定瑞典中小學的成績。",
+      "在地區法院審理刑事案件。",
+      "為每個市鎮設定市政稅。"
+    ],
+    "explanationZhHant": "外交部協助政府執行外交政策，處理與其他國家及國際組織的關系。學校成績、刑事審判和市政稅由其他機構負責。"
   },
   {
     "id": "draft-ch11-045",
@@ -1769,7 +2705,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sanctions can involve national foreign policy, EU decisions, and international law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典就针对违反国际法国家的制裁表明立场。可能涉及哪些行为者和层级？",
+    "optionsZh": [
+      "瑞典政府、欧盟合作以及国际规则。",
+      "个别法院和地方警察机关。",
+      "私营出口企业和行业组织。",
+      "非营利团体和地方市镇议会。"
+    ],
+    "explanationZh": "制裁可能涉及本国外交政策、欧盟决定和国际法，主要由政府层面推动，并非由法院、企业或地方团体决定。",
+    "questionZhHant": "瑞典就針對違反國際法國家的制裁表明立場。可能涉及哪些行為者和層級？",
+    "optionsZhHant": [
+      "瑞典政府、歐盟合作以及國際規則。",
+      "個別法院和地方警察機關。",
+      "私營出口企業和行業組織。",
+      "非營利團體和地方市鎮議會。"
+    ],
+    "explanationZhHant": "制裁可能涉及本國外交政策、歐盟決定和國際法，主要由政府層面推動，並非由法院、企業或地方團體決定。"
   },
   {
     "id": "draft-ch11-046",
@@ -1798,7 +2750,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Embassies represent a state abroad.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是大使馆？",
+    "optionsZh": [
+      "一个国家在另一个国家的官方代表机构。",
+      "负责全球自由贸易的国际办事处。",
+      "属于某个国际联盟的军事基地。",
+      "独立的国际刑事法院。"
+    ],
+    "explanationZh": "大使馆代表一个国家在国外的利益，是官方代表机构，并非贸易办事处、军事基地或法院。",
+    "questionZhHant": "什麼是大使館？",
+    "optionsZhHant": [
+      "一個國家在另一個國家的官方代表機構。",
+      "負責全球自由貿易的國際辦事處。",
+      "屬於某個國際聯盟的軍事基地。",
+      "獨立的國際刑事法院。"
+    ],
+    "explanationZhHant": "大使館代表一個國家在國外的利益，是官方代表機構，並非貿易辦事處、軍事基地或法院。"
   },
   {
     "id": "draft-ch11-047",
@@ -1827,7 +2795,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Embassies can provide limited consular help and represent Sweden.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典大使馆可以提供哪些帮助？",
+    "optionsZh": [
+      "为身在国外的瑞典人提供某些领事帮助，并与东道国保持联系。",
+      "为所有瑞典游客保证工作。",
+      "决定瑞典的市镇养老护理。",
+      "在海外撰写瑞典的刑事判决。"
+    ],
+    "explanationZh": "大使馆可以提供有限的领事帮助并代表瑞典，例如协助遇困公民。它不负责保证就业、国内养老护理或撰写刑事判决。",
+    "questionZhHant": "瑞典大使館可以提供哪些幫助？",
+    "optionsZhHant": [
+      "為身在國外的瑞典人提供某些領事幫助，並與東道國保持聯系。",
+      "為所有瑞典遊客保證工作。",
+      "決定瑞典的市鎮養老護理。",
+      "在海外撰寫瑞典的刑事判決。"
+    ],
+    "explanationZhHant": "大使館可以提供有限的領事幫助並代表瑞典，例如協助遇困公民。它不負責保證就業、國內養老護理或撰寫刑事判決。"
   },
   {
     "id": "draft-ch11-048",
@@ -1857,7 +2841,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish missions abroad can guide citizens who lose travel documents.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位瑞典公民在欧盟之外的旅行中丢失了护照。合理的做法是什么？",
+    "optionsZh": [
+      "联系瑞典大使馆或领事馆，咨询旅行证件事宜。",
+      "请求瑞典最近的市镇议会远程签发护照。",
+      "在无需瑞典当局介入的情况下，向东道国地方警察申请新的瑞典护照。",
+      "等待护照因欧盟成员资格而自动被替换。"
+    ],
+    "explanationZh": "瑞典驻外使领馆可以为丢失旅行证件的公民提供指引和协助。护照由瑞典当局签发，不会因欧盟成员资格自动替换，市镇议会也无此职权。",
+    "questionZhHant": "一位瑞典公民在歐盟之外的旅行中丟失了護照。合理的做法是什麼？",
+    "optionsZhHant": [
+      "聯系瑞典大使館或領事館，諮詢旅行證件事宜。",
+      "請求瑞典最近的市鎮議會遠程籤發護照。",
+      "在無需瑞典當局介入的情況下，向東道國地方警察申請新的瑞典護照。",
+      "等待護照因歐盟成員資格而自動被替換。"
+    ],
+    "explanationZhHant": "瑞典駐外使領館可以為丟失旅行證件的公民提供指引和協助。護照由瑞典當局籤發，不會因歐盟成員資格自動替換，市鎮議會也無此職權。"
   },
   {
     "id": "draft-ch11-049",
@@ -1886,7 +2886,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Globalization describes increasing interconnection across borders.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“全球化”大致是什么意思？",
+    "optionsZh": [
+      "国家、经济体、人员和信息变得更加相互关联。",
+      "所有国家成为拥有相同法律的同一个国家。",
+      "瑞典不再受到外部世界影响。",
+      "国际贸易总是被禁止。"
+    ],
+    "explanationZh": "全球化描述跨越国界日益增长的相互联系，涉及经济、人员、信息和文化的交融，并不意味国家消失或贸易被禁。",
+    "questionZhHant": "“全球化”大致是什麼意思？",
+    "optionsZhHant": [
+      "國家、經濟體、人員和資訊變得更加相互關聯。",
+      "所有國家成為擁有相同法律的同一個國家。",
+      "瑞典不再受到外部世界影響。",
+      "國際貿易總是被禁止。"
+    ],
+    "explanationZhHant": "全球化描述跨越國界日益增長的相互聯系，涉及經濟、人員、資訊和文化的交融，並不意味國家消失或貿易被禁。"
   },
   {
     "id": "draft-ch11-050",
@@ -1915,7 +2931,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Globalization can affect everyday life through economy, culture, technology, and crises.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "全球化如何影响瑞典民众？",
+    "optionsZh": [
+      "通过就业、价格、文化、技术、移民和国际危机等方面。",
+      "只通过瑞典媒体中的天气预报。",
+      "通过市镇在联合国安理会获得席位。",
+      "通过瑞典法律在瑞典停止适用。"
+    ],
+    "explanationZh": "全球化可以通过经济、文化、技术和危机等途径影响日常生活，如就业、物价、文化产品。它与市镇获安理会席位或法律失效无关。",
+    "questionZhHant": "全球化如何影響瑞典民眾？",
+    "optionsZhHant": [
+      "通過就業、價格、文化、技術、移民和國際危機等方面。",
+      "只通過瑞典媒體中的天氣預報。",
+      "通過市鎮在聯合國安理會獲得席位。",
+      "通過瑞典法律在瑞典停止適用。"
+    ],
+    "explanationZhHant": "全球化可以通過經濟、文化、技術和危機等途徑影響日常生活，如就業、物價、文化產品。它與市鎮獲安理會席位或法律失效無關。"
   },
   {
     "id": "draft-ch11-051",
@@ -1945,7 +2977,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "International events can affect Swedish households through markets and supply chains.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "远方的冲突导致能源价格上涨，并影响到瑞典家庭。这体现了什么过程？",
+    "optionsZh": [
+      "外部世界的事件会影响瑞典的全球依赖。",
+      "市镇对全球电价的自治。",
+      "国际危机永远不影响日常经济。",
+      "瑞典家庭决定其他国家的安保政策。"
+    ],
+    "explanationZh": "国际事件可以通过市场和供应链影响瑞典家庭，体现了全球相互依赖。能源价格受国际局势影响，并非市镇可单独决定。",
+    "questionZhHant": "遠方的衝突導致能源價格上漲，並影響到瑞典家庭。這體現了什麼過程？",
+    "optionsZhHant": [
+      "外部世界的事件會影響瑞典的全球依賴。",
+      "市鎮對全球電價的自治。",
+      "國際危機永遠不影響日常經濟。",
+      "瑞典家庭決定其他國家的安保政策。"
+    ],
+    "explanationZhHant": "國際事件可以通過市場和供應鏈影響瑞典家庭，體現了全球相互依賴。能源價格受國際局勢影響，並非市鎮可單獨決定。"
   },
   {
     "id": "draft-ch11-052",
@@ -1974,7 +3022,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish foreign policy can promote democracy, rights, and rule of law internationally.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么瑞典可以在国际上支持民主和人权？",
+    "optionsZh": [
+      "这是其外交和发展政策中价值观与目标的一部分。",
+      "为了让瑞典在其他国家议会中获得选票。",
+      "因为瑞典市镇管理其他国家的选举。",
+      "因为人权只适用于瑞典。"
+    ],
+    "explanationZh": "瑞典外交政策可以在国际上促进民主、权利和法治，这是其价值观与目标的一部分，并不等于获取外国选票或管理他国选举。",
+    "questionZhHant": "為什麼瑞典可以在國際上支持民主和人權？",
+    "optionsZhHant": [
+      "這是其外交和發展政策中價值觀與目標的一部分。",
+      "為了讓瑞典在其他國家議會中獲得選票。",
+      "因為瑞典市鎮管理其他國家的選舉。",
+      "因為人權只適用於瑞典。"
+    ],
+    "explanationZhHant": "瑞典外交政策可以在國際上促進民主、權利和法治，這是其價值觀與目標的一部分，並不等於獲取外國選票或管理他國選舉。"
   },
   {
     "id": "draft-ch11-053",
@@ -2003,7 +3067,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Election observation can support trust in democratic processes.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在另一个国家进行选举监督（观察）目的是什么？",
+    "optionsZh": [
+      "评估选举是否自由、公正并符合规则地举行。",
+      "决定哪个政党应赢得选举。",
+      "给予瑞典选民在该国的投票权。",
+      "用瑞典政府机关取代该国议会。"
+    ],
+    "explanationZh": "选举监督（观察）有助于增强对民主进程的信任，评估选举是否自由公正，并不替该国决定结果或赋予外国投票权。",
+    "questionZhHant": "在另一個國家進行選舉監督（觀察）目的是什麼？",
+    "optionsZhHant": [
+      "評估選舉是否自由、公正並符合規則地舉行。",
+      "決定哪個政黨應贏得選舉。",
+      "給予瑞典選民在該國的投票權。",
+      "用瑞典政府機關取代該國議會。"
+    ],
+    "explanationZhHant": "選舉監督（觀察）有助於增強對民主進程的信任，評估選舉是否自由公正，並不替該國決定結果或賦予外國投票權。"
   },
   {
     "id": "draft-ch11-054",
@@ -2033,7 +3113,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Elections require more than voting day; rights, media freedom, and fair competition matter.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某国举行选举，但反对党被禁止竞选，媒体也受管控。这引发了什么国际议题？",
+    "optionsZh": [
+      "民主权利、自由选举以及对人权的尊重。",
+      "国际关税协议和自由贸易区。",
+      "关于国债和货币政策的规则。",
+      "军事调动和边界划定。"
+    ],
+    "explanationZh": "选举需要的不仅仅是投票日；权利、媒体自由和公平竞争都很重要。当反对党被压制、媒体受控时，便涉及民主权利和人权议题。",
+    "questionZhHant": "某國舉行選舉，但反對黨被禁止競選，媒體也受管控。這引發了什麼國際議題？",
+    "optionsZhHant": [
+      "民主權利、自由選舉以及對人權的尊重。",
+      "國際關稅協議和自由貿易區。",
+      "關於國債和貨幣政策的規則。",
+      "軍事調動和邊界劃定。"
+    ],
+    "explanationZhHant": "選舉需要的不僅僅是投票日；權利、媒體自由和公平競爭都很重要。當反對黨被壓制、媒體受控時，便涉及民主權利和人權議題。"
   },
   {
     "id": "draft-ch11-055",
@@ -2062,7 +3158,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "NATO is primarily a defence alliance.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个组织主要是一个防御联盟？",
+    "optionsZh": [
+      "北约（Nato）。",
+      "联合国（FN）。",
+      "北欧理事会（Nordiska rådet）。",
+      "世界卫生组织。"
+    ],
+    "explanationZh": "北约主要是一个防御联盟。联合国侧重和平与安全合作，北欧理事会是北欧合作论坛，世界卫生组织负责公共卫生。",
+    "questionZhHant": "哪個組織主要是一個防御聯盟？",
+    "optionsZhHant": [
+      "北約（Nato）。",
+      "聯合國（FN）。",
+      "北歐理事會（Nordiska rådet）。",
+      "世界衛生組織。"
+    ],
+    "explanationZhHant": "北約主要是一個防御聯盟。聯合國側重和平與安全合作，北歐理事會是北歐合作論壇，世界衛生組織負責公共衛生。"
   },
   {
     "id": "draft-ch11-056",
@@ -2091,7 +3203,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The EU and NATO are different organizations with different purposes.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "欧盟和北约有什么区别？",
+    "optionsZh": [
+      "欧盟是广泛的政治经济合作，而北约是一个防御联盟。",
+      "欧盟和北约是同一组织，只是名称不同。",
+      "北约决定欧盟的立法和预算。",
+      "欧盟只从事军事防御，北约只从事农业。"
+    ],
+    "explanationZh": "欧盟和北约是目的不同的不同组织：欧盟侧重政治经济合作，北约侧重集体防御。二者互不统属。",
+    "questionZhHant": "歐盟和北約有什麼區別？",
+    "optionsZhHant": [
+      "歐盟是廣泛的政治經濟合作，而北約是一個防御聯盟。",
+      "歐盟和北約是同一組織，只是名稱不同。",
+      "北約決定歐盟的立法和預算。",
+      "歐盟只從事軍事防御，北約只從事農業。"
+    ],
+    "explanationZhHant": "歐盟和北約是目的不同的不同組織：歐盟側重政治經濟合作，北約側重集體防御。二者互不統屬。"
   },
   {
     "id": "draft-ch11-057",
@@ -2121,7 +3249,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Different international organizations have different purposes.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个问题涉及共同的欧洲贸易规则，另一个涉及军事集体防御。哪些组织最合适？",
+    "optionsZh": [
+      "欧盟负责贸易规则，北约负责集体防御。",
+      "联合国负责贸易规则，北欧理事会负责全球防御。",
+      "北约负责市镇贸易规则，欧盟负责瑞典护照。",
+      "北欧理事会负责欧盟立法，世界卫生组织负责军事防御。"
+    ],
+    "explanationZh": "不同的国际组织有不同的目的：欧盟制定共同的欧洲贸易等规则，北约负责集体防御。其他组合不符合各组织的实际职责。",
+    "questionZhHant": "一個問題涉及共同的歐洲貿易規則，另一個涉及軍事集體防御。哪些組織最合適？",
+    "optionsZhHant": [
+      "歐盟負責貿易規則，北約負責集體防御。",
+      "聯合國負責貿易規則，北歐理事會負責全球防御。",
+      "北約負責市鎮貿易規則，歐盟負責瑞典護照。",
+      "北歐理事會負責歐盟立法，世界衛生組織負責軍事防御。"
+    ],
+    "explanationZhHant": "不同的國際組織有不同的目的：歐盟制定共同的歐洲貿易等規則，北約負責集體防御。其他組合不符合各組織的實際職責。"
   },
   {
     "id": "draft-ch11-058",
@@ -2150,7 +3294,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Civic knowledge includes understanding Sweden’s place in the world.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "公民应当了解瑞典与外部世界的哪些关系？",
+    "optionsZh": [
+      "瑞典既受国际合作和事件的影响，也反过来影响它们。",
+      "瑞典从未受国外决定的影响。",
+      "外交政策只是私营企业的议题。",
+      "国际组织对瑞典无关紧要。"
+    ],
+    "explanationZh": "公民知识包括理解瑞典在世界中的位置：瑞典既受国际事件与合作的影响，也通过自身行动影响外部世界。",
+    "questionZhHant": "公民應當了解瑞典與外部世界的哪些關系？",
+    "optionsZhHant": [
+      "瑞典既受國際合作和事件的影響，也反過來影響它們。",
+      "瑞典從未受國外決定的影響。",
+      "外交政策只是私營企業的議題。",
+      "國際組織對瑞典無關緊要。"
+    ],
+    "explanationZhHant": "公民知識包括理解瑞典在世界中的位置：瑞典既受國際事件與合作的影響，也通過自身行動影響外部世界。"
   },
   {
     "id": "draft-ch11-059",
@@ -2179,7 +3339,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Knowing the decision level helps people understand responsibility and influence.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么区分国家层面和国际层面的决定很重要？",
+    "optionsZh": [
+      "为了弄清哪个层级负责对规则、协议和政治决定承担责任。",
+      "因为国家立法总会被国际准则自动废除。",
+      "因为瑞典法院拒绝审理国内纠纷。",
+      "因为国际决定要生效总需要一次地方公投。"
+    ],
+    "explanationZh": "了解决策层级有助于人们理解责任与影响力所在。国际法与本国法的关系复杂，并非一方总是自动废除另一方，也不一定需要地方公投。",
+    "questionZhHant": "為什麼區分國家層面和國際層面的決定很重要？",
+    "optionsZhHant": [
+      "為了弄清哪個層級負責對規則、協議和政治決定承擔責任。",
+      "因為國家立法總會被國際準則自動廢除。",
+      "因為瑞典法院拒絕審理國內糾紛。",
+      "因為國際決定要生效總需要一次地方公投。"
+    ],
+    "explanationZhHant": "了解決策層級有助於人們理解責任與影響力所在。國際法與本國法的關系複雜，並非一方總是自動廢除另一方，也不一定需要地方公投。"
   },
   {
     "id": "draft-ch11-060",
@@ -2209,7 +3385,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden’s role abroad includes several forms of cooperation and responsibility.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名学生要总结瑞典在世界中的角色。哪项总结最准确？",
+    "optionsZh": [
+      "瑞典通过北欧、欧盟、联合国、北约及其他论坛，在贸易、安全、权利和可持续发展方面开展合作。",
+      "瑞典只在市镇自行签订协议时才参与国际合作。",
+      "瑞典加入欧盟和北约，但与联合国和北欧毫无关系。",
+      "瑞典受全球化影响，但无法在国际上作出贡献。"
+    ],
+    "explanationZh": "瑞典在国外的角色包括多种形式的合作与责任：通过北欧、欧盟、联合国、北约等参与贸易、安全、权利和可持续发展，既受影响也作出贡献。",
+    "questionZhHant": "一名學生要總結瑞典在世界中的角色。哪項總結最準確？",
+    "optionsZhHant": [
+      "瑞典通過北歐、歐盟、聯合國、北約及其他論壇，在貿易、安全、權利和可持續發展方面開展合作。",
+      "瑞典只在市鎮自行籤訂協議時才參與國際合作。",
+      "瑞典加入歐盟和北約，但與聯合國和北歐毫無關系。",
+      "瑞典受全球化影響，但無法在國際上作出貢獻。"
+    ],
+    "explanationZhHant": "瑞典在國外的角色包括多種形式的合作與責任：通過北歐、歐盟、聯合國、北約等參與貿易、安全、權利和可持續發展，既受影響也作出貢獻。"
   },
   {
     "id": "draft-extra-ch011-001",
@@ -2238,7 +3430,15 @@
     ],
     "correctIndex": 0,
     "explanationEn": "EU membership means Sweden must follow common EU laws, which significantly impact national legislation. The Riksdag does not act completely independently in areas where EU law applies.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典的欧盟成员资格对瑞典立法有何影响？",
+    "optionsZh": [
+      "瑞典必须遵守欧盟的共同法律，这影响到瑞典立法的很大一部分。",
+      "欧盟对瑞典立法没有影响，因为瑞典国会在所有问题上完全独立决定。",
+      "瑞典政府由欧洲议会而非国会任命。",
+      "瑞典法院未经欧盟法院批准不得审理刑事案件。"
+    ],
+    "explanationZh": "欧盟成员资格意味着瑞典必须遵守共同欧盟法律，这对国家立法有重大影响。在欧盟法律适用的领域，瑞典国会并非完全独立决策。政府由议会（国会）任命，司法审判也由本国法院依法进行。"
   },
   {
     "id": "draft-extra-ch011-019",
@@ -2267,6 +3467,22 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish embassies and consulates can give consular help in emergencies, for example if you lose your passport or are arrested. They cannot give you immunity from local law, do not guarantee a paid trip home, and cannot overturn decisions of the host country's courts.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "作为身在国外的公民，瑞典大使馆和领事馆能为你提供什么？",
+    "optionsZh": [
+      "在紧急情况下提供帮助，例如丢失护照或被逮捕时。",
+      "法律豁免，使你无需遵守东道国法律。",
+      "遇到旅行问题时，大使馆总会为你预订并支付回国费用。",
+      "大使馆可以推翻东道国法院的判决。"
+    ],
+    "explanationZh": "瑞典大使馆和领事馆可在紧急情况下提供领事帮助，例如丢失护照或被逮捕时给予指导与协助。但它们不能让你免受当地法律约束，不保证支付回国费用，也不能推翻东道国法院的决定。",
+    "questionZhHant": "作為身在國外的公民，瑞典大使館和領事館能為你提供什麼？",
+    "optionsZhHant": [
+      "在緊急情況下提供幫助，例如丟失護照或被逮捕時。",
+      "法律豁免，使你無需遵守東道國法律。",
+      "遇到旅行問題時，大使館總會為你預訂並支付回國費用。",
+      "大使館可以推翻東道國法院的判決。"
+    ],
+    "explanationZhHant": "瑞典大使館和領事館可在緊急情況下提供領事幫助，例如丟失護照或被逮捕時給予指導與協助。但它們不能讓你免受當地法律約束，不保證支付回國費用，也不能推翻東道國法院的決定。"
   }
 ]

@@ -27,7 +27,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "National Day is a civic and symbolic holiday, not a legal duty to celebrate in one way.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典的国庆日可以成为人们关注什么的一个契机？",
+    "optionsZh": [
+      "瑞典这个国家、民主的象征以及共同的归属感。",
+      "这是一个休息日，瑞典国会（Riksdagen）会在当天选举首相。",
+      "法律规定每个人都必须携带瑞典国旗。",
+      "国庆日只有出生在瑞典的人才会庆祝。"
+    ],
+    "explanationZh": "国庆日（6月6日）是瑞典的公民性和象征性节日，它庆祝国家与民主价值，但并不强制所有人以同一种方式或必须参与庆祝；法律没有规定人们必须悬挂国旗，也并不限定只有本土出生者才能庆祝。",
+    "questionZhHant": "瑞典的國慶日可以成為人們關注什麼的一個契機？",
+    "optionsZhHant": [
+      "瑞典這個國家、民主的象徵以及共同的歸屬感。",
+      "這是一個休息日，瑞典國會（Riksdagen）會在當天選舉首相。",
+      "法律規定每個人都必須攜帶瑞典國旗。",
+      "國慶日只有出生在瑞典的人才會慶祝。"
+    ],
+    "explanationZhHant": "國慶日（6月6日）是瑞典的公民性和象徵性節日，它慶祝國家與民主價值，但並不強制所有人以同一種方式或必須參與慶祝；法律沒有規定人們必須懸掛國旗，也並不限定只有本土出生者才能慶祝。"
   },
   {
     "id": "draft-batch-c-ch13-002",
@@ -57,7 +73,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Midsummer is culturally important and can be celebrated in different ways.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么仲夏节（midsommar）常被视为瑞典的一项重要传统？",
+    "optionsZh": [
+      "它是一个广为流传的夏季节日，承载着社交和文化传统。",
+      "它是瑞典最重要的宗教节日。",
+      "只有出生在瑞典的人才会庆祝它。",
+      "它是所有居民的一项法律义务。"
+    ],
+    "explanationZh": "仲夏节是瑞典文化中一项重要且广为流传的节庆，人们以多种方式庆祝（如围着仲夏柱跳舞、吃腌鲱鱼和新鲜土豆），但它并非宗教节日，也没有法律强制所有人参与。",
+    "questionZhHant": "為什麼仲夏節（midsommar）常被視為瑞典的一項重要傳統？",
+    "optionsZhHant": [
+      "它是一個廣為流傳的夏季節日，承載着社交和文化傳統。",
+      "它是瑞典最重要的宗教節日。",
+      "只有出生在瑞典的人才會慶祝它。",
+      "它是所有居民的一項法律義務。"
+    ],
+    "explanationZhHant": "仲夏節是瑞典文化中一項重要且廣為流傳的節慶，人們以多種方式慶祝（如圍着仲夏柱跳舞、喫醃鯡魚和新鮮土豆），但它並非宗教節日，也沒有法律強制所有人參與。"
   },
   {
     "id": "draft-batch-c-ch13-003",
@@ -87,7 +119,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Walpurgis is a spring tradition with local and social forms; participation is not legally required.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么瓦尔普吉斯之夜（Valborg）在瑞典可以有各种不同的庆祝方式？",
+    "optionsZh": [
+      "它是一项春季传统，可以以社交、地方和文化等多种方式庆祝，并没有唯一强制的方式。",
+      "它是一个宗教节日，要求所有居民都去教堂。",
+      "瓦尔普吉斯之夜只是学生传统，普通大众很少庆祝。",
+      "所有市镇都有法律义务去组织篝火晚会。"
+    ],
+    "explanationZh": "瓦尔普吉斯之夜（4月30日）是迎接春天的传统，常见活动包括点燃篝火、合唱等，但这些属于地方和社交习俗，并非法律要求；不同地区和人群可以有不同的庆祝方式。",
+    "questionZhHant": "為什麼瓦爾普吉斯之夜（Valborg）在瑞典可以有各種不同的慶祝方式？",
+    "optionsZhHant": [
+      "它是一項春季傳統，可以以社交、地方和文化等多種方式慶祝，並沒有唯一強制的方式。",
+      "它是一個宗教節日，要求所有居民都去教堂。",
+      "瓦爾普吉斯之夜只是學生傳統，普通大眾很少慶祝。",
+      "所有市鎮都有法律義務去組織篝火晚會。"
+    ],
+    "explanationZhHant": "瓦爾普吉斯之夜（4月30日）是迎接春天的傳統，常見活動包括點燃篝火、合唱等，但這些屬於地方和社交習俗，並非法律要求；不同地區和人羣可以有不同的慶祝方式。"
   },
   {
     "id": "draft-batch-c-ch13-004",
@@ -117,7 +165,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Traditions can carry different meanings depending on belief, family, and culture.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么在瑞典，圣诞节对不同的人可能意味着不同的事情？",
+    "optionsZh": [
+      "它可以是宗教性的、文化性的、以家庭为中心的，或者主要只是一段休息假期。",
+      "瑞典法律明确规定每个人必须如何庆祝圣诞节。",
+      "圣诞节只有瑞典教会（Svenska kyrkan）的成员才能庆祝。",
+      "圣诞节在瑞典完全没有历史意义。"
+    ],
+    "explanationZh": "圣诞节有基督教背景，但在现代瑞典，对许多不具宗教信仰的人来说，它更多是家庭团聚、文化习俗和假期的象征；法律并不规定个人如何庆祝。",
+    "questionZhHant": "為什麼在瑞典，聖誕節對不同的人可能意味着不同的事情？",
+    "optionsZhHant": [
+      "它可以是宗教性的、文化性的、以家庭為中心的，或者主要只是一段休息假期。",
+      "瑞典法律明確規定每個人必須如何慶祝聖誕節。",
+      "聖誕節只有瑞典教會（Svenska kyrkan）的成員才能慶祝。",
+      "聖誕節在瑞典完全沒有歷史意義。"
+    ],
+    "explanationZhHant": "聖誕節有基督教背景，但在現代瑞典，對許多不具宗教信仰的人來說，它更多是家庭團聚、文化習俗和假期的象徵；法律並不規定個人如何慶祝。"
   },
   {
     "id": "draft-batch-c-ch13-005",
@@ -147,7 +211,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Easter has Christian roots but is observed in many ways.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "复活节可以说明瑞典节日方面的什么特点？",
+    "optionsZh": [
+      "一个节日可以有基督教背景，却同时以宗教和世俗两种方式被庆祝。",
+      "瑞典所有节日都必须以宗教方式庆祝。",
+      "复活节的日期每年由市镇决定。",
+      "只有瑞典教会的成员才能庆祝复活节。"
+    ],
+    "explanationZh": "复活节源自基督教，但许多瑞典人无论是否信教都会以彩蛋、兔子等世俗方式庆祝，这说明瑞典的节日可以同时具有宗教与世俗意义。",
+    "questionZhHant": "複活節可以說明瑞典節日方面的什麼特點？",
+    "optionsZhHant": [
+      "一個節日可以有基督教背景，卻同時以宗教和世俗兩種方式被慶祝。",
+      "瑞典所有節日都必須以宗教方式慶祝。",
+      "複活節的日期每年由市鎮決定。",
+      "只有瑞典教會的成員才能慶祝複活節。"
+    ],
+    "explanationZhHant": "複活節源自基督教，但許多瑞典人無論是否信教都會以彩蛋、兔子等世俗方式慶祝，這說明瑞典的節日可以同時具有宗教與世俗意義。"
   },
   {
     "id": "draft-batch-c-ch13-006",
@@ -177,7 +257,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "New Year is tied to the calendar and social customs rather than one required belief.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么对许多人来说，新年庆祝更像是社会性的而非宗教性的？",
+    "optionsZh": [
+      "它标志着日历年的更替，通常以社交方式庆祝，并不要求有宗教信仰。",
+      "新年是要求去教堂的宗教节日。",
+      "新年只有瑞典公民才庆祝。",
+      "新年总是决定瑞典大选的举行时间。"
+    ],
+    "explanationZh": "元旦（1月1日）与历法更替相关，许多庆祝活动（如烟花、聚餐）是社交性的；它不要求特定宗教信仰，因此更多被视为社会性而非宗教性节日。",
+    "questionZhHant": "為什麼對許多人來說，新年慶祝更像是社會性的而非宗教性的？",
+    "optionsZhHant": [
+      "它標志着日歷年的更替，通常以社交方式慶祝，並不要求有宗教信仰。",
+      "新年是要求去教堂的宗教節日。",
+      "新年只有瑞典公民才慶祝。",
+      "新年總是決定瑞典大選的舉行時間。"
+    ],
+    "explanationZhHant": "元旦（1月1日）與歷法更替相關，許多慶祝活動（如煙花、聚餐）是社交性的；它不要求特定宗教信仰，因此更多被視為社會性而非宗教性節日。"
   },
   {
     "id": "draft-batch-c-ch13-007",
@@ -207,7 +303,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Recognizing several traditions can support inclusion in a diverse society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某工作场所希望在一年里关注好几种不同的节日。这支持哪一种理念？",
+    "optionsZh": [
+      "包容并尊重一个拥有不同传统的社会。",
+      "所有员工都必须有相同的宗教信仰。",
+      "雇主可以用传统取代瑞典法律。",
+      "只能提及新传统。"
+    ],
+    "explanationZh": "在多元社会中，承认多种节日有助于营造包容、互相尊重的工作环境；但这并不要求员工有相同信仰，也不能让传统凌驾于法律之上。",
+    "questionZhHant": "某工作場所希望在一年裡關注好幾種不同的節日。這支持哪一種理念？",
+    "optionsZhHant": [
+      "包容並尊重一個擁有不同傳統的社會。",
+      "所有員工都必須有相同的宗教信仰。",
+      "僱主可以用傳統取代瑞典法律。",
+      "只能提及新傳統。"
+    ],
+    "explanationZhHant": "在多元社會中，承認多種節日有助於營造包容、互相尊重的工作環境；但這並不要求員工有相同信仰，也不能讓傳統凌駕於法律之上。"
   },
   {
     "id": "draft-batch-c-ch13-008",
@@ -237,7 +349,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sami culture and rights are part of Sweden’s history and society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么萨米人的传统在瑞典社会知识（公民教育）中很重要？",
+    "optionsZh": [
+      "萨米人是瑞典境内的原住民，拥有自己的文化、历史和语言。",
+      "萨米传统只适用于其他国家。",
+      "萨米人与瑞典历史毫无关联。",
+      "萨米语言在公共活动中被禁止。"
+    ],
+    "explanationZh": "萨米人（Sami）是北欧的原住民，在瑞典北部拥有悠久的文化、语言和传统（如驯鹿放牧）。了解萨米人的历史和权利，是理解瑞典多元社会与历史的重要部分。",
+    "questionZhHant": "為什麼薩米人的傳統在瑞典社會知識（公民教育）中很重要？",
+    "optionsZhHant": [
+      "薩米人是瑞典境內的原住民，擁有自己的文化、歷史和語言。",
+      "薩米傳統只適用於其他國家。",
+      "薩米人與瑞典歷史毫無關聯。",
+      "薩米語言在公共活動中被禁止。"
+    ],
+    "explanationZhHant": "薩米人（Sami）是北歐的原住民，在瑞典北部擁有悠久的文化、語言和傳統（如馴鹿放牧）。了解薩米人的歷史和權利，是理解瑞典多元社會與歷史的重要部分。"
   },
   {
     "id": "draft-batch-c-ch13-009",
@@ -267,7 +395,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Traditions can be important for group identity and cultural continuity.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么即使多数人不庆祝，少数群体的节日也可能很重要？",
+    "optionsZh": [
+      "它们承载着社会中各群体的语言、历史、身份认同与归属感。",
+      "只有多数人庆祝的节日才算数。",
+      "少数群体的节日不得在公共活动中提及。",
+      "少数群体的节日是私人的，在学校里没有立足之地。"
+    ],
+    "explanationZh": "节日对群体的文化传承和身份认同至关重要；即使不被多数人口庆祝，少数群体的传统节日仍有助于保持语言、历史和归属感，值得尊重。",
+    "questionZhHant": "為什麼即使多數人不慶祝，少數羣體的節日也可能很重要？",
+    "optionsZhHant": [
+      "它們承載着社會中各羣體的語言、歷史、身份認同與歸屬感。",
+      "只有多數人慶祝的節日才算數。",
+      "少數羣體的節日不得在公共活動中提及。",
+      "少數羣體的節日是私人的，在學校裡沒有立足之地。"
+    ],
+    "explanationZhHant": "節日對羣體的文化傳承和身份認同至關重要；即使不被多數人口慶祝，少數羣體的傳統節日仍有助於保持語言、歷史和歸屬感，值得尊重。"
   },
   {
     "id": "draft-batch-c-ch13-010",
@@ -297,7 +441,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Traditions are living practices shaped by society over time.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么传统会随时间而改变？",
+    "optionsZh": [
+      "人、移民、代际更替和社会变迁都会影响传统的庆祝方式。",
+      "传统受法律锁定，永远不得改变。",
+      "只有国家可以更改私人传统。",
+      "新人迁入时，所有传统都会消失。"
+    ],
+    "explanationZh": "传统不是静止不变的，它们会随着人口结构、移民、代际更替和社会观念的变化而演变；这是一种自然的文化现象，而非法律的硬性规定。",
+    "questionZhHant": "為什麼傳統會隨時間而改變？",
+    "optionsZhHant": [
+      "人、移民、代際更替和社會變遷都會影響傳統的慶祝方式。",
+      "傳統受法律鎖定，永遠不得改變。",
+      "只有國家可以更改私人傳統。",
+      "新人遷入時，所有傳統都會消失。"
+    ],
+    "explanationZhHant": "傳統不是靜止不變的，它們會隨着人口結構、移民、代際更替和社會觀念的變化而演變；這是一種自然的文化現象，而非法律的硬性規定。"
   },
   {
     "id": "draft-batch-c-ch13-011",
@@ -327,7 +487,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The flag is a national symbol, but people may relate to it in different ways.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在公共场合，瑞典国旗可以象征什么？",
+    "optionsZh": [
+      "瑞典这个国家以及民族共同体的归属感。",
+      "只有国家才能使用或展示国旗。",
+      "所有公民每天都必须展示国旗。",
+      "所有公民都必须想法一致。"
+    ],
+    "explanationZh": "瑞典国旗是国家的象征，常出现在国庆日等公共场合，代表国家与共同的归属感；但任何人都可以依法使用国旗，法律并不要求公民每天悬挂或必须持相同观点。",
+    "questionZhHant": "在公共場合，瑞典國旗可以象徵什麼？",
+    "optionsZhHant": [
+      "瑞典這個國家以及民族共同體的歸屬感。",
+      "只有國家才能使用或展示國旗。",
+      "所有公民每天都必須展示國旗。",
+      "所有公民都必須想法一致。"
+    ],
+    "explanationZhHant": "瑞典國旗是國家的象徵，常出現在國慶日等公共場合，代表國家與共同的歸屬感；但任何人都可以依法使用國旗，法律並不要求公民每天懸掛或必須持相同觀點。"
   },
   {
     "id": "draft-batch-c-ch13-012",
@@ -357,7 +533,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Food is a common way traditions are practiced and remembered.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么食物可以成为传统的一部分？",
+    "optionsZh": [
+      "食物可以把人们与家庭、地方、节日和记忆联系起来。",
+      "饮食传统决定选举权。",
+      "只有政府机关才能创造饮食传统。",
+      "瑞典法律要求所有节日都吃同样的食物。"
+    ],
+    "explanationZh": "食物是承载和传递传统的重要载体——特定的菜肴往往关联家庭记忆、节庆和地域文化（如仲夏节的腌鲱鱼与新鲜土豆），但它与选举权或法律义务无关。",
+    "questionZhHant": "為什麼食物可以成為傳統的一部分？",
+    "optionsZhHant": [
+      "食物可以把人們與家庭、地方、節日和記憶聯系起來。",
+      "飲食傳統決定選舉權。",
+      "只有政府機關才能創造飲食傳統。",
+      "瑞典法律要求所有節日都喫同樣的食物。"
+    ],
+    "explanationZhHant": "食物是承載和傳遞傳統的重要載體——特定的菜餚往往關聯家庭記憶、節慶和地域文化（如仲夏節的醃鯡魚與新鮮土豆），但它與選舉權或法律義務無關。"
   },
   {
     "id": "draft-batch-c-ch13-013",
@@ -387,7 +579,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A plural society allows different ceremonies and customs around death.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么在瑞典，葬礼可以呈现不同的形式？",
+    "optionsZh": [
+      "人们有不同的宗教、世界观和家庭传统。",
+      "所有葬礼都必须遵循完全相同的国家仪式。",
+      "葬礼只能由市镇议会操办。",
+      "没有宗教信仰的人不得举行仪式。"
+    ],
+    "explanationZh": "瑞典是一个多元社会，不同宗教、世界观和家庭传统的群体会以不同方式告别逝者；无宗教信仰者同样可以举行纪念仪式，葬礼形式并不由单一的国家仪式强制规定。",
+    "questionZhHant": "為什麼在瑞典，葬禮可以呈現不同的形式？",
+    "optionsZhHant": [
+      "人們有不同的宗教、世界觀和家庭傳統。",
+      "所有葬禮都必須遵循完全相同的國家儀式。",
+      "葬禮只能由市鎮議會操辦。",
+      "沒有宗教信仰的人不得舉行儀式。"
+    ],
+    "explanationZhHant": "瑞典是一個多元社會，不同宗教、世界觀和家庭傳統的羣體會以不同方式告別逝者；無宗教信仰者同樣可以舉行紀念儀式，葬禮形式並不由單一的國家儀式強制規定。"
   },
   {
     "id": "draft-batch-c-ch13-014",
@@ -417,7 +625,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public holidays affect work and public life but do not force one way of celebrating.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“一天是法定公共假日”意味着什么？",
+    "optionsZh": [
+      "根据法律，这一天对许多人是休息日，并会影响营业时间和公共服务。",
+      "这一天，每个人都必须以相同的宗教方式庆祝。",
+      "这一天只适用于有固定工作的人。",
+      "这一天仅由雇主决定，而非法律。"
+    ],
+    "explanationZh": "“法定公共假日”（allmän helgdag）由法律规定，许多人在这天休假，商店和公共服务的开放时间也会调整；但法律并不强制人们以某种宗教方式庆祝。",
+    "questionZhHant": "“一天是法定公共假日”意味着什麼？",
+    "optionsZhHant": [
+      "根據法律，這一天對許多人是休息日，並會影響營業時間和公共服務。",
+      "這一天，每個人都必須以相同的宗教方式慶祝。",
+      "這一天只適用於有固定工作的人。",
+      "這一天僅由僱主決定，而非法律。"
+    ],
+    "explanationZhHant": "“法定公共假日”（allmän helgdag）由法律規定，許多人在這天休假，商店和公共服務的開放時間也會調整；但法律並不強制人們以某種宗教方式慶祝。"
   },
   {
     "id": "draft-batch-c-ch13-015",
@@ -447,7 +671,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Traditions can help people participate in society without requiring one fixed identity.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人参加了仲夏节庆祝活动，但并不觉得自己“完全是瑞典人”。这说明了传统方面的什么？",
+    "optionsZh": [
+      "传统可以是开放的参与方式，让人随着时间逐渐建立归属感。",
+      "必须先有完整的国家认同感才能参与。",
+      "传统只属于在本国出生的人。",
+      "参与传统活动会自动获得公民身份。"
+    ],
+    "explanationZh": "传统活动对所有人开放，参与它们可以帮助新移民等不同背景的人逐步建立社会归属感，但这并不等于自动获得公民身份，也不要求先具备某种固定身份。",
+    "questionZhHant": "一個人參加了仲夏節慶祝活動，但並不覺得自己“完全是瑞典人”。這說明了傳統方面的什麼？",
+    "optionsZhHant": [
+      "傳統可以是開放的參與方式，讓人隨着時間逐漸建立歸屬感。",
+      "必須先有完整的國家認同感才能參與。",
+      "傳統只屬於在本國出生的人。",
+      "參與傳統活動會自動獲得公民身份。"
+    ],
+    "explanationZhHant": "傳統活動對所有人開放，參與它們可以幫助新移民等不同背景的人逐步建立社會歸屬感，但這並不等於自動獲得公民身份，也不要求先具備某種固定身份。"
   },
   {
     "id": "draft-ch13-001",
@@ -476,7 +716,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A tradition is a recurring custom or practice that people recognize and pass on.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是传统？",
+    "optionsZh": [
+      "一种被传承下来、随时间反复出现的习俗或习惯。",
+      "总是由法院决定的法律。",
+      "显示公民身份的护照。",
+      "只在节日缴纳的税。"
+    ],
+    "explanationZh": "传统是人们认可并代代相传的反复出现的习俗或做法（如节日、饮食、仪式），它属于文化习惯，而不是法律、证件或税收。",
+    "questionZhHant": "什麼是傳統？",
+    "optionsZhHant": [
+      "一種被傳承下來、隨時間反複出現的習俗或習慣。",
+      "總是由法院決定的法律。",
+      "顯示公民身份的護照。",
+      "只在節日繳納的稅。"
+    ],
+    "explanationZhHant": "傳統是人們認可並代代相傳的反複出現的習俗或做法（如節日、飲食、儀式），它屬於文化習慣，而不是法律、證件或稅收。"
   },
   {
     "id": "draft-ch13-002",
@@ -505,7 +761,15 @@
     ],
     "correctIndex": 0,
     "explanationEn": "People in Sweden have different traditions, religions, and life choices.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典是否人人都必须庆祝相同的节日？",
+    "optionsZh": [
+      "不，人们可以庆祝不同的节日，也可以根本不庆祝。",
+      "是的，每个人都必须庆祝瑞典的所有节日。",
+      "是的，只允许庆祝国家节日。",
+      "不，节日只能在学校里庆祝。"
+    ],
+    "explanationZh": "瑞典保障宗教自由和世界观自由，人们可以自行选择庆祝哪些节日，也可以不庆祝任何宗教节日；不存在法律强制人人过同样的节。"
   },
   {
     "id": "draft-ch13-003",
@@ -534,7 +798,15 @@
     ],
     "correctIndex": 0,
     "explanationEn": "New Year’s Day is celebrated on 1 January.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "元旦（新年）在哪一天庆祝？",
+    "optionsZh": [
+      "1月1日。",
+      "6月6日。",
+      "12月13日。",
+      "12月24日。"
+    ],
+    "explanationZh": "元旦（New Year's Day）是每年的1月1日，标志着新一年的开始，也是瑞典的法定公共假日。"
   },
   {
     "id": "draft-ch13-004",
@@ -563,7 +835,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden’s National Day is celebrated on 6 June.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典国庆日在哪一天庆祝？",
+    "optionsZh": [
+      "6月6日。",
+      "5月1日。",
+      "12月13日。",
+      "10月31日。"
+    ],
+    "explanationZh": "瑞典国庆日是每年的6月6日，这一天同时纪念1523年古斯塔夫·瓦萨当选国王以及1809年宪法（政府约法）的颁布。",
+    "questionZhHant": "瑞典國慶日在哪一天慶祝？",
+    "optionsZhHant": [
+      "6月6日。",
+      "5月1日。",
+      "12月13日。",
+      "10月31日。"
+    ],
+    "explanationZhHant": "瑞典國慶日是每年的6月6日，這一天同時紀念1523年古斯塔夫·瓦薩當選國王以及1809年憲法（政府約法）的頒布。"
   },
   {
     "id": "draft-ch13-005",
@@ -592,7 +880,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Lucia is celebrated on 13 December.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典的露西亚节（Lucia）在哪一天庆祝？",
+    "optionsZh": [
+      "12月13日。",
+      "1月1日。",
+      "6月6日。",
+      "将临期的第一个星期日。"
+    ],
+    "explanationZh": "露西亚节（Lucia）在每年的12月13日庆祝，以烛光游行和唱歌的方式在漫长冬夜里带来光明，是瑞典广为人知的冬季传统。",
+    "questionZhHant": "瑞典的露西亞節（Lucia）在哪一天慶祝？",
+    "optionsZhHant": [
+      "12月13日。",
+      "1月1日。",
+      "6月6日。",
+      "將臨期的第一個星期日。"
+    ],
+    "explanationZhHant": "露西亞節（Lucia）在每年的12月13日慶祝，以燭光遊行和唱歌的方式在漫長冬夜裡帶來光明，是瑞典廣為人知的冬季傳統。"
   },
   {
     "id": "draft-ch13-006",
@@ -621,7 +925,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Christmas traditions often include a tree, food, and gifts.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个节日常以圣诞树和礼物来庆祝？",
+    "optionsZh": [
+      "圣诞节。",
+      "瓦尔普吉斯之夜。",
+      "五一劳动节。",
+      "万圣节（诸圣节）。"
+    ],
+    "explanationZh": "圣诞节（jul）是瑞典最重要的家庭节日之一，常见元素包括圣诞树、礼物、特定食物等，与瓦尔普吉斯之夜、五一等节日明显不同。",
+    "questionZhHant": "哪個節日常以聖誕樹和禮物來慶祝？",
+    "optionsZhHant": [
+      "聖誕節。",
+      "瓦爾普吉斯之夜。",
+      "五一勞動節。",
+      "萬聖節（諸聖節）。"
+    ],
+    "explanationZhHant": "聖誕節（jul）是瑞典最重要的家庭節日之一，常見元素包括聖誕樹、禮物、特定食物等，與瓦爾普吉斯之夜、五一等節日明顯不同。"
   },
   {
     "id": "draft-ch13-007",
@@ -650,7 +970,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The midsummer pole is a common symbol of Midsummer celebrations.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个节日常与“仲夏柱”（midsommarstång）联系在一起？",
+    "optionsZh": [
+      "仲夏节。",
+      "露西亚节。",
+      "万圣节。",
+      "元旦。"
+    ],
+    "explanationZh": "仲夏节的核心象征就是竖立在草地上的“仲夏柱”（midsommarstång），人们围着它唱歌跳舞，这与露西亚、万圣节等节日不同。",
+    "questionZhHant": "哪個節日常與“仲夏柱”（midsommarstång）聯系在一起？",
+    "optionsZhHant": [
+      "仲夏節。",
+      "露西亞節。",
+      "萬聖節。",
+      "元旦。"
+    ],
+    "explanationZhHant": "仲夏節的核心象徵就是豎立在草地上的“仲夏柱”（midsommarstång），人們圍着它唱歌跳舞，這與露西亞、萬聖節等節日不同。"
   },
   {
     "id": "draft-ch13-008",
@@ -679,7 +1015,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Easter has a Christian background and is celebrated in spring.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个节日有基督教背景，并在春季庆祝？",
+    "optionsZh": [
+      "复活节。",
+      "露西亚节。",
+      "仲夏节。",
+      "国庆日。"
+    ],
+    "explanationZh": "复活节（påsk）源自基督教，纪念耶稣复活，在每年春季庆祝；而露西亚在冬季、仲夏在夏季、国庆日在夏季，背景也各不相同。",
+    "questionZhHant": "哪個節日有基督教背景，並在春季慶祝？",
+    "optionsZhHant": [
+      "複活節。",
+      "露西亞節。",
+      "仲夏節。",
+      "國慶日。"
+    ],
+    "explanationZhHant": "複活節（påsk）源自基督教，紀念耶穌複活，在每年春季慶祝；而露西亞在冬季、仲夏在夏季、國慶日在夏季，背景也各不相同。"
   },
   {
     "id": "draft-ch13-009",
@@ -708,7 +1060,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Valborg is often connected with bonfires and welcoming spring.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瓦尔普吉斯之夜（Valborg）通常与什么联系在一起？",
+    "optionsZh": [
+      "篝火与迎接春天。",
+      "12月的露西亚游行。",
+      "6月的仲夏柱。",
+      "万圣节的墓前烛光。"
+    ],
+    "explanationZh": "瓦尔普吉斯之夜（4月30日）是迎接春天的传统，典型活动是点燃篝火、合唱春天歌曲，与露西亚、仲夏、万圣节各自不同的习俗相区别。",
+    "questionZhHant": "瓦爾普吉斯之夜（Valborg）通常與什麼聯系在一起？",
+    "optionsZhHant": [
+      "篝火與迎接春天。",
+      "12月的露西亞遊行。",
+      "6月的仲夏柱。",
+      "萬聖節的墓前燭光。"
+    ],
+    "explanationZhHant": "瓦爾普吉斯之夜（4月30日）是迎接春天的傳統，典型活動是點燃篝火、合唱春天歌曲，與露西亞、仲夏、萬聖節各自不同的習俗相區別。"
   },
   {
     "id": "draft-ch13-010",
@@ -737,7 +1105,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "First of May is associated with the labour movement and public demonstrations.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典在5月1日纪念或庆祝什么？",
+    "optionsZh": [
+      "劳工运动的日子以及示威游行。",
+      "瑞典国庆日。",
+      "露西亚庆祝。",
+      "圣诞前夜。"
+    ],
+    "explanationZh": "5月1日是国际劳动节，在瑞典与劳工运动（arbetarrörelsen）密切相关，常见活动包括工会游行和集会演讲，并非国庆日或圣诞节。",
+    "questionZhHant": "瑞典在5月1日紀念或慶祝什麼？",
+    "optionsZhHant": [
+      "勞工運動的日子以及示威遊行。",
+      "瑞典國慶日。",
+      "露西亞慶祝。",
+      "聖誕前夜。"
+    ],
+    "explanationZhHant": "5月1日是國際勞動節，在瑞典與勞工運動（arbetarrörelsen）密切相關，常見活動包括工會遊行和集會演講，並非國慶日或聖誕節。"
   },
   {
     "id": "draft-ch13-011",
@@ -766,7 +1150,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "All Saints’ Day is often a time to remember people who have died.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在万圣节（诸圣节），许多人会做什么？",
+    "optionsZh": [
+      "在墓前点燃蜡烛，缅怀逝者。",
+      "围着仲夏柱跳舞。",
+      "庆祝学年结束。",
+      "参加议会选举投票。"
+    ],
+    "explanationZh": "万圣节（alla helgons dag，初冬）是缅怀逝者的日子，许多人会到墓园点蜡烛；它与仲夏、结业典礼、选举等活动无关。",
+    "questionZhHant": "在萬聖節（諸聖節），許多人會做什麼？",
+    "optionsZhHant": [
+      "在墓前點燃蠟燭，緬懷逝者。",
+      "圍着仲夏柱跳舞。",
+      "慶祝學年結束。",
+      "參加議會選舉投票。"
+    ],
+    "explanationZhHant": "萬聖節（alla helgons dag，初冬）是緬懷逝者的日子，許多人會到墓園點蠟燭；它與仲夏、結業典禮、選舉等活動無關。"
   },
   {
     "id": "draft-ch13-012",
@@ -795,7 +1195,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Advent is the period leading up to Christmas.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是将临期（Advent）？",
+    "optionsZh": [
+      "基督教传统中圣诞节之前的时段。",
+      "国庆日的后一天。",
+      "5月的一场政治示威。",
+      "庆祝夏季开始的节日。"
+    ],
+    "explanationZh": "将临期（advent）是基督教传统中圣诞节前的等待期，人们常点燃将临蜡烛、倒数迎接圣诞；它与国庆、五一、仲夏都无关。",
+    "questionZhHant": "什麼是將臨期（Advent）？",
+    "optionsZhHant": [
+      "基督教傳統中聖誕節之前的時段。",
+      "國慶日的後一天。",
+      "5月的一場政治示威。",
+      "慶祝夏季開始的節日。"
+    ],
+    "explanationZhHant": "將臨期（advent）是基督教傳統中聖誕節前的等待期，人們常點燃將臨蠟燭、倒數迎接聖誕；它與國慶、五一、仲夏都無關。"
   },
   {
     "id": "draft-ch13-013",
@@ -824,7 +1240,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Traditions are living practices and can change over time.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "传统会随时间改变吗？",
+    "optionsZh": [
+      "会，传统会随社会的变化而改变。",
+      "不会，传统必须永远完全一样。",
+      "不会，国家禁止新传统。",
+      "会，但只有法院可以更改。"
+    ],
+    "explanationZh": "传统是“活”的文化实践，会随社会发展、移民和代际更替而演变；这不是法律禁止或法院专属决定的事。",
+    "questionZhHant": "傳統會隨時間改變嗎？",
+    "optionsZhHant": [
+      "會，傳統會隨社會的變化而改變。",
+      "不會，傳統必須永遠完全一樣。",
+      "不會，國家禁止新傳統。",
+      "會，但只有法院可以更改。"
+    ],
+    "explanationZhHant": "傳統是“活”的文化實踐，會隨社會發展、移民和代際更替而演變；這不是法律禁止或法院專屬決定的事。"
   },
   {
     "id": "draft-ch13-014",
@@ -853,7 +1285,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Migration can add new traditions and ways of celebrating.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "移民能为瑞典的传统带来什么？",
+    "optionsZh": [
+      "新的饮食习惯、节日和庆祝方式。",
+      "所有旧节日都自动被禁止。",
+      "瑞典法律被家庭规则取代。",
+      "只允许一种文化展现。"
+    ],
+    "explanationZh": "移民为瑞典社会带来新的饮食、节日和庆祝方式（如不同文化的美食传统），丰富了文化多样性，但并不会废除旧传统或取代法律。",
+    "questionZhHant": "移民能為瑞典的傳統帶來什麼？",
+    "optionsZhHant": [
+      "新的飲食習慣、節日和慶祝方式。",
+      "所有舊節日都自動被禁止。",
+      "瑞典法律被家庭規則取代。",
+      "只允許一種文化展現。"
+    ],
+    "explanationZhHant": "移民為瑞典社會帶來新的飲食、節日和慶祝方式（如不同文化的美食傳統），豐富了文化多樣性，但並不會廢除舊傳統或取代法律。"
   },
   {
     "id": "draft-ch13-015",
@@ -882,7 +1330,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Herring and new potatoes are common in Midsummer food traditions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪种食物常与仲夏节联系在一起？",
+    "optionsZh": [
+      "腌鲱鱼和新鲜土豆。",
+      "semla 面包和藏红花面包。",
+      "小龙虾和圣诞火腿。",
+      "姜饼和米布丁。"
+    ],
+    "explanationZh": "仲夏节的传统食物是腌鲱鱼（sill）配新鲜土豆；semla 是忏悔节食物、小龙虾是8月、姜饼和米布丁则是圣诞食物，各有不同节令。",
+    "questionZhHant": "哪種食物常與仲夏節聯系在一起？",
+    "optionsZhHant": [
+      "醃鯡魚和新鮮土豆。",
+      "semla 面包和藏紅花面包。",
+      "小龍蝦和聖誕火腿。",
+      "姜餅和米布丁。"
+    ],
+    "explanationZhHant": "仲夏節的傳統食物是醃鯡魚（sill）配新鮮土豆；semla 是懺悔節食物、小龍蝦是8月、姜餅和米布丁則是聖誕食物，各有不同節令。"
   },
   {
     "id": "draft-ch13-016",
@@ -911,7 +1375,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Many Swedish Christmas celebrations take place on Christmas Eve, 24 December.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，许多人在哪一天庆祝圣诞前夜（julafton）？",
+    "optionsZh": [
+      "12月24日。",
+      "12月13日。",
+      "1月6日。",
+      "5月1日。"
+    ],
+    "explanationZh": "在瑞典，圣诞节的主要庆祝活动通常在圣诞前夜（julafton），即12月24日进行，而非圣诞当日；露西亚是12月13日。",
+    "questionZhHant": "在瑞典，許多人在哪一天慶祝聖誕前夜（julafton）？",
+    "optionsZhHant": [
+      "12月24日。",
+      "12月13日。",
+      "1月6日。",
+      "5月1日。"
+    ],
+    "explanationZhHant": "在瑞典，聖誕節的主要慶祝活動通常在聖誕前夜（julafton），即12月24日進行，而非聖誕當日；露西亞是12月13日。"
   },
   {
     "id": "draft-ch13-017",
@@ -940,7 +1420,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A school closing ceremony marks the end of a school term or year.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是学年结业典礼（skolavslutning）？",
+    "optionsZh": [
+      "学期或学年结束时的典礼。",
+      "关于新法律的议会决议。",
+      "针对学生的法庭听证。",
+      "人人都必须庆祝的宗教节日。"
+    ],
+    "explanationZh": "学年结业典礼是学校在学期或学年结束时举行的仪式，标志着假期开始；它是学校活动，并非政治、司法或强制性的宗教节日。",
+    "questionZhHant": "什麼是學年結業典禮（skolavslutning）？",
+    "optionsZhHant": [
+      "學期或學年結束時的典禮。",
+      "關於新法律的議會決議。",
+      "針對學生的法庭聽證。",
+      "人人都必須慶祝的宗教節日。"
+    ],
+    "explanationZhHant": "學年結業典禮是學校在學期或學年結束時舉行的儀式，標志着假期開始；它是學校活動，並非政治、司法或強制性的宗教節日。"
   },
   {
     "id": "draft-ch13-018",
@@ -969,7 +1465,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Swedish flag is common in National Day celebrations.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "国庆日常见哪种象征物？",
+    "optionsZh": [
+      "瑞典国旗。",
+      "欧盟选票。",
+      "法官的法槌。",
+      "工会会员证。"
+    ],
+    "explanationZh": "在国庆日（6月6日）的庆祝活动中，瑞典国旗是最常见的象征物；它与选举选票、司法法槌或工会证件无关。",
+    "questionZhHant": "國慶日常見哪種象徵物？",
+    "optionsZhHant": [
+      "瑞典國旗。",
+      "歐盟選票。",
+      "法官的法槌。",
+      "工會會員證。"
+    ],
+    "explanationZhHant": "在國慶日（6月6日）的慶祝活動中，瑞典國旗是最常見的象徵物；它與選舉選票、司法法槌或工會證件無關。"
   },
   {
     "id": "draft-ch13-019",
@@ -998,7 +1510,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Many traditions are learned in families, communities, schools, and local society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "许多人最初是在哪里学到传统的？",
+    "optionsZh": [
+      "在家庭和亲近的社群里。",
+      "只在学校，从不在家里。",
+      "主要通过政府机关的宣传。",
+      "只通过法律条文和规定。"
+    ],
+    "explanationZh": "许多传统最早在家庭、亲友和本地社群中习得，之后也可能在学校和社会中进一步强化；它们并非只靠法律条文或官方宣传来传递。",
+    "questionZhHant": "許多人最初是在哪裡學到傳統的？",
+    "optionsZhHant": [
+      "在家庭和親近的社羣裡。",
+      "只在學校，從不在家裡。",
+      "主要通過政府機關的宣傳。",
+      "只通過法律條文和規定。"
+    ],
+    "explanationZhHant": "許多傳統最早在家庭、親友和本地社羣中習得，之後也可能在學校和社會中進一步強化；它們並非只靠法律條文或官方宣傳來傳遞。"
   },
   {
     "id": "draft-ch13-020",
@@ -1027,7 +1555,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish holidays have different origins, including religious, political, and cultural traditions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典的所有节日都有宗教背景吗？",
+    "optionsZh": [
+      "不，有些有宗教背景，有些则有政治或文化背景。",
+      "是的，所有节日都由教会决定。",
+      "是的，所有节日都关于同一种宗教。",
+      "不，任何节日都从未有过宗教背景。"
+    ],
+    "explanationZh": "瑞典的节日来源多样：如圣诞节、复活节有基督教背景；而国庆日、五一劳动节则带有政治/公民意义，并非都源于宗教。",
+    "questionZhHant": "瑞典的所有節日都有宗教背景嗎？",
+    "optionsZhHant": [
+      "不，有些有宗教背景，有些則有政治或文化背景。",
+      "是的，所有節日都由教會決定。",
+      "是的，所有節日都關於同一種宗教。",
+      "不，任何節日都從未有過宗教背景。"
+    ],
+    "explanationZhHant": "瑞典的節日來源多樣：如聖誕節、複活節有基督教背景；而國慶日、五一勞動節則帶有政治/公民意義，並非都源於宗教。"
   },
   {
     "id": "draft-ch13-021",
@@ -1056,7 +1600,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Traditions can create belonging and structure in the year.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么传统在一个社会中很重要？",
+    "optionsZh": [
+      "它们能创造共同体意识，并帮助人们标记一年中重要的时刻。",
+      "它们取代所有民主决定。",
+      "它们让所有人都完全一样地生活。",
+      "它们决定谁能获得公民身份。"
+    ],
+    "explanationZh": "传统有助于凝聚社群、赋予生活节奏和意义（如节日划分年度），但它不能替代民主制度、法律或决定公民身份。",
+    "questionZhHant": "為什麼傳統在一個社會中很重要？",
+    "optionsZhHant": [
+      "它們能創造共同體意識，並幫助人們標記一年中重要的時刻。",
+      "它們取代所有民主決定。",
+      "它們讓所有人都完全一樣地生活。",
+      "它們決定誰能獲得公民身份。"
+    ],
+    "explanationZhHant": "傳統有助於凝聚社羣、賦予生活節奏和意義（如節日劃分年度），但它不能替代民主制度、法律或決定公民身份。"
   },
   {
     "id": "draft-ch13-022",
@@ -1085,7 +1645,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Traditions can vary between people and groups.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "应如何理解“人们以不同方式庆祝同一个节日”这件事？",
+    "optionsZh": [
+      "这很正常，因为传统会受到家庭、地区、宗教和背景的影响。",
+      "这意味着只有一种方式是合法的。",
+      "这说明该节日必须被废除。",
+      "这意味着国家应选择“正确”的庆祝方式。"
+    ],
+    "explanationZh": "同一节日在不同家庭、地区和群体中会有不同习俗，这是文化多样性使然，并非违法或需要国家统一规定。",
+    "questionZhHant": "應如何理解“人們以不同方式慶祝同一個節日”這件事？",
+    "optionsZhHant": [
+      "這很正常，因為傳統會受到家庭、地區、宗教和背景的影響。",
+      "這意味着只有一種方式是合法的。",
+      "這說明該節日必須被廢除。",
+      "這意味着國家應選擇“正確”的慶祝方式。"
+    ],
+    "explanationZhHant": "同一節日在不同家庭、地區和羣體中會有不同習俗，這是文化多樣性使然，並非違法或需要國家統一規定。"
   },
   {
     "id": "draft-ch13-023",
@@ -1114,7 +1690,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "6 June has historical connections to Swedish state formation and constitutional history.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么瑞典国庆日定在6月6日？",
+    "optionsZh": [
+      "这个日期与1523年古斯塔夫·瓦萨当选国王以及1809年政府约法（宪法）等历史事件相关。",
+      "这是瑞典加入欧盟的日子。",
+      "这一天总是仲夏前夜。",
+      "这一天标志着二战结束。"
+    ],
+    "explanationZh": "6月6日具有历史与宪法意义：1523年古斯塔夫·瓦萨当选为国王，被视为现代瑞典国家形成的开端；1809年这一天颁布了政府约法（宪法）。瑞典加入欧盟是在1995年，并非此日。",
+    "questionZhHant": "為什麼瑞典國慶日定在6月6日？",
+    "optionsZhHant": [
+      "這個日期與1523年古斯塔夫·瓦薩當選國王以及1809年政府約法（憲法）等歷史事件相關。",
+      "這是瑞典加入歐盟的日子。",
+      "這一天總是仲夏前夜。",
+      "這一天標志着二戰結束。"
+    ],
+    "explanationZhHant": "6月6日具有歷史與憲法意義：1523年古斯塔夫·瓦薩當選為國王，被視為現代瑞典國家形成的開端；1809年這一天頒布了政府約法（憲法）。瑞典加入歐盟是在1995年，並非此日。"
   },
   {
     "id": "draft-ch13-024",
@@ -1143,7 +1735,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "First of May is linked to the labour movement and public political expression.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么五一劳动节可以与民主和公民参与联系起来？",
+    "optionsZh": [
+      "这一天常被用于游行、演讲和提出政治诉求。",
+      "这一天用于在未经选举的情况下任命首相。",
+      "这一天禁止在公共场合表达政治观点。",
+      "这一天取代瑞典国会（Riksdagen）全年的工作。"
+    ],
+    "explanationZh": "五一劳动节与劳工运动和民主政治表达紧密相连，工会和政党常在当天游行、演讲，表达诉求；这与民主参与一致，而非取消选举或封口。",
+    "questionZhHant": "為什麼五一勞動節可以與民主和公民參與聯系起來？",
+    "optionsZhHant": [
+      "這一天常被用於遊行、演講和提出政治訴求。",
+      "這一天用於在未經選舉的情況下任命首相。",
+      "這一天禁止在公共場合表達政治觀點。",
+      "這一天取代瑞典國會（Riksdagen）全年的工作。"
+    ],
+    "explanationZhHant": "五一勞動節與勞工運動和民主政治表達緊密相連，工會和政黨常在當天遊行、演講，表達訴求；這與民主參與一致，而非取消選舉或封口。"
   },
   {
     "id": "draft-ch13-025",
@@ -1172,7 +1780,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Easter is a movable holiday and changes date from year to year.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么复活节每年不在同一天？",
+    "optionsZh": [
+      "复活节遵循基督教传统中的“移动历法”。",
+      "瑞典国会每年春天选一个新日期。",
+      "各市镇轮流决定日期。",
+      "复活节必须总是在6月6日。"
+    ],
+    "explanationZh": "复活节是“移动节日”，其日期由基督教历法（与春分和月相相关）推算，每年不同；它不由国会、市镇或固定法律日期决定。",
+    "questionZhHant": "為什麼複活節每年不在同一天？",
+    "optionsZhHant": [
+      "複活節遵循基督教傳統中的“移動歷法”。",
+      "瑞典國會每年春天選一個新日期。",
+      "各市鎮輪流決定日期。",
+      "複活節必須總是在6月6日。"
+    ],
+    "explanationZhHant": "複活節是“移動節日”，其日期由基督教歷法（與春分和月相相關）推算，每年不同；它不由國會、市鎮或固定法律日期決定。"
   },
   {
     "id": "draft-ch13-026",
@@ -1201,7 +1825,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Midsummer is connected to summer, light, and gathering outdoors.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，仲夏节标志着什么？",
+    "optionsZh": [
+      "夏天以及一年中白昼漫长的明亮时节。",
+      "瑞典国会工作年度的开始。",
+      "纪念所有逝者。",
+      "将临期的开始。"
+    ],
+    "explanationZh": "仲夏节在6月，正值瑞典白夜（极长日照）和夏天，象征光明与户外聚会；它并不标志国会会期、追思或降临节。",
+    "questionZhHant": "在瑞典，仲夏節標志着什麼？",
+    "optionsZhHant": [
+      "夏天以及一年中白晝漫長的明亮時節。",
+      "瑞典國會工作年度的開始。",
+      "紀念所有逝者。",
+      "將臨期的開始。"
+    ],
+    "explanationZhHant": "仲夏節在6月，正值瑞典白夜（極長日照）和夏天，象徵光明與戶外聚會；它並不標志國會會期、追思或降臨節。"
   },
   {
     "id": "draft-ch13-027",
@@ -1230,7 +1870,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Lucia celebrations often include songs and candles in December.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "露西亚游行（luciatåg）的典型特征是什么？",
+    "optionsZh": [
+      "唱歌、烛光，以及头戴（或发间有）蜡烛光的露西亚少女。",
+      "投票箱和政治选票。",
+      "仲夏柱和户外腌鲱鱼午餐。",
+      "11月墓前的烛光。"
+    ],
+    "explanationZh": "露西亚节（12月13日）的典型是白色长袍、头戴蜡烛的露西亚引领的歌声与烛光游行；它与选举、仲夏或万圣节墓园烛光明显不同。",
+    "questionZhHant": "露西亞遊行（luciatåg）的典型特徵是什麼？",
+    "optionsZhHant": [
+      "唱歌、燭光，以及頭戴（或發間有）蠟燭光的露西亞少女。",
+      "投票箱和政治選票。",
+      "仲夏柱和戶外醃鯡魚午餐。",
+      "11月墓前的燭光。"
+    ],
+    "explanationZhHant": "露西亞節（12月13日）的典型是白色長袍、頭戴蠟燭的露西亞引領的歌聲與燭光遊行；它與選舉、仲夏或萬聖節墓園燭光明顯不同。"
   },
   {
     "id": "draft-ch13-028",
@@ -1259,7 +1915,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Christmas has religious roots and many cultural family traditions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在当今瑞典，应如何理解圣诞节？",
+    "optionsZh": [
+      "它有基督教背景，但许多人不信教也把它当作家庭和文化节日来庆祝。",
+      "它只是一个政治示威日。",
+      "只有瑞典教会成员才能庆祝。",
+      "它完全与宗教历史无关。"
+    ],
+    "explanationZh": "圣诞节源于基督教，但在现代瑞典，大量无宗教信仰者同样以家庭团聚、礼物和美食来庆祝，体现其宗教与文化的双重属性。",
+    "questionZhHant": "在當今瑞典，應如何理解聖誕節？",
+    "optionsZhHant": [
+      "它有基督教背景，但許多人不信教也把它當作家庭和文化節日來慶祝。",
+      "它只是一個政治示威日。",
+      "只有瑞典教會成員才能慶祝。",
+      "它完全與宗教歷史無關。"
+    ],
+    "explanationZhHant": "聖誕節源於基督教，但在現代瑞典，大量無宗教信仰者同樣以家庭團聚、禮物和美食來慶祝，體現其宗教與文化的雙重屬性。"
   },
   {
     "id": "draft-ch13-029",
@@ -1288,7 +1960,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "All Saints’ Day is associated with remembrance of the dead.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "万圣节（诸圣节）的主旨是什么？",
+    "optionsZh": [
+      "缅怀和纪念逝去的人。",
+      "庆祝瑞典国庆日。",
+      "为劳动条件举行示威。",
+      "用篝火迎接春天。"
+    ],
+    "explanationZh": "万圣节（alla helgons dag）的核心是为逝者点灯、追思；与国庆、劳工示威、迎春篝火都不同。",
+    "questionZhHant": "萬聖節（諸聖節）的主旨是什麼？",
+    "optionsZhHant": [
+      "緬懷和紀念逝去的人。",
+      "慶祝瑞典國慶日。",
+      "為勞動條件舉行示威。",
+      "用篝火迎接春天。"
+    ],
+    "explanationZhHant": "萬聖節（alla helgons dag）的核心是為逝者點燈、追思；與國慶、勞工示威、迎春篝火都不同。"
   },
   {
     "id": "draft-ch13-030",
@@ -1317,7 +2005,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Advent customs often include candles and preparation for Christmas.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在将临期（Advent），许多人会做什么？",
+    "optionsZh": [
+      "点将临蜡烛，并为圣诞节做准备。",
+      "围着仲夏柱跳舞。",
+      "参加市镇选举投票。",
+      "以示威庆祝五一劳动节。"
+    ],
+    "explanationZh": "将临期是圣诞节前的等待期，常见习俗有点燃四支将临蜡烛、倒数日历等，为圣诞作准备；与仲夏、选举、五一无关。",
+    "questionZhHant": "在將臨期（Advent），許多人會做什麼？",
+    "optionsZhHant": [
+      "點將臨蠟燭，並為聖誕節做準備。",
+      "圍着仲夏柱跳舞。",
+      "參加市鎮選舉投票。",
+      "以示威慶祝五一勞動節。"
+    ],
+    "explanationZhHant": "將臨期是聖誕節前的等待期，常見習俗有點燃四支將臨蠟燭、倒數日歷等，為聖誕作準備；與仲夏、選舉、五一無關。"
   },
   {
     "id": "draft-ch13-031",
@@ -1346,7 +2050,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Traditions are social practices, not a replacement for law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "关于传统与法律，哪种说法最准确？",
+    "optionsZh": [
+      "传统可以很重要，但它们不能取代瑞典法律。",
+      "传统总是优先于法律。",
+      "法院只依据家庭传统判决。",
+      "每个节日都会制定一部新宪法。"
+    ],
+    "explanationZh": "传统是社会习俗，具有文化价值，但不能凌驾于法律之上；瑞典的司法判决依据法律而非家庭传统，节日也不会自动产生宪法。",
+    "questionZhHant": "關於傳統與法律，哪種說法最準確？",
+    "optionsZhHant": [
+      "傳統可以很重要，但它們不能取代瑞典法律。",
+      "傳統總是優先於法律。",
+      "法院只依據家庭傳統判決。",
+      "每個節日都會制定一部新憲法。"
+    ],
+    "explanationZhHant": "傳統是社會習俗，具有文化價值，但不能凌駕於法律之上；瑞典的司法判決依據法律而非家庭傳統，節日也不會自動產生憲法。"
   },
   {
     "id": "draft-ch13-032",
@@ -1375,7 +2095,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Schools can teach about holidays as part of knowledge about society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "学校为什么会关注不同的节日？",
+    "optionsZh": [
+      "为了传授关于社会文化、历史和多样性的知识。",
+      "因为学生必须信仰相同。",
+      "好让市镇替家庭选择传统。",
+      "好用宗教仪式取代教学。"
+    ],
+    "explanationZh": "学校介绍不同节日，是作为社会知识（文化、历史、多元）的教学内容，而非强迫学生信教或替家庭决定传统。",
+    "questionZhHant": "學校為什麼會關注不同的節日？",
+    "optionsZhHant": [
+      "為了傳授關於社會文化、歷史和多樣性的知識。",
+      "因為學生必須信仰相同。",
+      "好讓市鎮替家庭選擇傳統。",
+      "好用宗教儀式取代教學。"
+    ],
+    "explanationZhHant": "學校介紹不同節日，是作為社會知識（文化、歷史、多元）的教學內容，而非強迫學生信教或替家庭決定傳統。"
   },
   {
     "id": "draft-ch13-033",
@@ -1404,7 +2140,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Food is one way traditions are practiced and shared.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "节日里的饮食传统说明了什么？",
+    "optionsZh": [
+      "文化可以通过餐饮与共同体（相聚）来表达。",
+      "国家决定每个家庭的菜单。",
+      "瑞典人人都必须吃相同的食物。",
+      "饮食传统只在选举期间存在。"
+    ],
+    "explanationZh": "节日饮食（如圣诞火腿、仲夏腌鲱鱼）是文化表达和团聚的载体，体现文化多样性；国家并不规定家庭菜单，饮食传统也远不止于选举。",
+    "questionZhHant": "節日裡的飲食傳統說明了什麼？",
+    "optionsZhHant": [
+      "文化可以通過餐飲與共同體（相聚）來表達。",
+      "國家決定每個家庭的菜單。",
+      "瑞典人人都必須喫相同的食物。",
+      "飲食傳統只在選舉期間存在。"
+    ],
+    "explanationZhHant": "節日飲食（如聖誕火腿、仲夏醃鯡魚）是文化表達和團聚的載體，體現文化多樣性；國家並不規定家庭菜單，飲食傳統也遠不止於選舉。"
   },
   {
     "id": "draft-ch13-034",
@@ -1433,7 +2185,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "New Year marks the change from one year to the next.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "新年庆祝通常有什么活动？",
+    "optionsZh": [
+      "标志着新一年的开始。",
+      "庆祝劳工运动的日子。",
+      "在墓园缅怀逝者。",
+      "开始将临期。"
+    ],
+    "explanationZh": "新年的核心意义是辞旧迎新、迎接1月1日；它与五一劳动节、万圣节追思、将临期都不同。",
+    "questionZhHant": "新年慶祝通常有什麼活動？",
+    "optionsZhHant": [
+      "標志着新一年的開始。",
+      "慶祝勞工運動的日子。",
+      "在墓園緬懷逝者。",
+      "開始將臨期。"
+    ],
+    "explanationZhHant": "新年的核心意義是辭舊迎新、迎接1月1日；它與五一勞動節、萬聖節追思、將臨期都不同。"
   },
   {
     "id": "draft-ch13-035",
@@ -1462,7 +2230,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Valborg is commonly connected with spring celebrations.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么许多人庆祝瓦尔普吉斯之夜（Valborg）？",
+    "optionsZh": [
+      "为了迎接春天。",
+      "为了庆祝圣诞季的开始。",
+      "为了纪念国庆日。",
+      "为了结束议会选举。"
+    ],
+    "explanationZh": "瓦尔普吉斯之夜（4月30日）的传统意义是告别漫长冬季、迎接春天，常以篝火和合唱表达；它与圣诞、国庆、选举无关。",
+    "questionZhHant": "為什麼許多人慶祝瓦爾普吉斯之夜（Valborg）？",
+    "optionsZhHant": [
+      "為了迎接春天。",
+      "為了慶祝聖誕季的開始。",
+      "為了紀念國慶日。",
+      "為了結束議會選舉。"
+    ],
+    "explanationZhHant": "瓦爾普吉斯之夜（4月30日）的傳統意義是告別漫長冬季、迎接春天，常以篝火和合唱表達；它與聖誕、國慶、選舉無關。"
   },
   {
     "id": "draft-ch13-036",
@@ -1491,7 +2275,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Traditions can be connected to belonging and identity.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "传统如何影响身份认同？",
+    "optionsZh": [
+      "它们能让人产生归属感，并与家庭或社会建立联系。",
+      "它们让所有人拥有相同的个性。",
+      "它们总是决定一个人的政党。",
+      "它们取代一个人的公民权利。"
+    ],
+    "explanationZh": "传统通过家庭、族群和共同记忆塑造归属感与身份认同，但这不意味着统一个性、决定政党或取代公民权利。",
+    "questionZhHant": "傳統如何影響身份認同？",
+    "optionsZhHant": [
+      "它們能讓人產生歸屬感，並與家庭或社會建立聯系。",
+      "它們讓所有人擁有相同的個性。",
+      "它們總是決定一個人的政黨。",
+      "它們取代一個人的公民權利。"
+    ],
+    "explanationZhHant": "傳統通過家庭、族羣和共同記憶塑造歸屬感與身份認同，但這不意味着統一個性、決定政黨或取代公民權利。"
   },
   {
     "id": "draft-ch13-037",
@@ -1520,7 +2320,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Preserving traditions can be part of cultural identity.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“少数群体能够保留自己的传统”意味着什么？",
+    "optionsZh": [
+      "各群体可以传承自己的语言、文化、节日和记忆。",
+      "少数群体可以废除一般法律。",
+      "公共领域只能展现少数群体的传统。",
+      "国家决定该群体文化的每个细节。"
+    ],
+    "explanationZh": "保留自身传统意味着少数族群可传承语言、节日和记忆，是文化身份的一部分；但这不赋予其凌驾法律之权，也不由国家对每个细节做决定。",
+    "questionZhHant": "“少數羣體能夠保留自己的傳統”意味着什麼？",
+    "optionsZhHant": [
+      "各羣體可以傳承自己的語言、文化、節日和記憶。",
+      "少數羣體可以廢除一般法律。",
+      "公共領域只能展現少數羣體的傳統。",
+      "國家決定該羣體文化的每個細節。"
+    ],
+    "explanationZhHant": "保留自身傳統意味着少數族羣可傳承語言、節日和記憶，是文化身份的一部分；但這不賦予其凌駕法律之權，也不由國家對每個細節做決定。"
   },
   {
     "id": "draft-ch13-038",
@@ -1549,7 +2365,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A secular state can still have historical traditions with religious origins.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典既是世俗国家，为何仍有具基督教背景的节日？",
+    "optionsZh": [
+      "历史和文化的传统可以保留，而国家并不由宗教统治。",
+      "世俗意味着抹去所有基督教历史。",
+      "基督教背景会自动让教会成为政府。",
+      "世俗国家意味着任何人都不得庆祝宗教事物。"
+    ],
+    "explanationZh": "瑞典是世俗国家（政教分离、国家不受宗教统治），但历史上形成的基督教节日（如圣诞、复活节）作为文化习俗被保留；世俗并不等于消除宗教历史或禁止个人庆祝。",
+    "questionZhHant": "瑞典既是世俗國家，為何仍有具基督教背景的節日？",
+    "optionsZhHant": [
+      "歷史和文化的傳統可以保留，而國家並不由宗教統治。",
+      "世俗意味着抹去所有基督教歷史。",
+      "基督教背景會自動讓教會成為政府。",
+      "世俗國家意味着任何人都不得慶祝宗教事物。"
+    ],
+    "explanationZhHant": "瑞典是世俗國家（政教分離、國家不受宗教統治），但歷史上形成的基督教節日（如聖誕、複活節）作為文化習俗被保留；世俗並不等於消除宗教歷史或禁止個人慶祝。"
   },
   {
     "id": "draft-ch13-039",
@@ -1578,7 +2410,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Traditions can spread and change through people’s everyday lives.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "新的传统如何能成为瑞典的一部分？",
+    "optionsZh": [
+      "当人们持续庆祝它们，且其他人随时间逐渐熟悉它们时。",
+      "当瑞典国会禁止所有旧传统时。",
+      "当法院规定必须吃什么食物时。",
+      "当所有市镇都以完全相同的方式庆祝同一天时。"
+    ],
+    "explanationZh": "新传统通过人们日常持续的实践和代际传播，逐渐被社会接纳；它不需要国会禁令、法院规定或强制统一方式来形成。",
+    "questionZhHant": "新的傳統如何能成為瑞典的一部分？",
+    "optionsZhHant": [
+      "當人們持續慶祝它們，且其他人隨時間逐漸熟悉它們時。",
+      "當瑞典國會禁止所有舊傳統時。",
+      "當法院規定必須喫什麼食物時。",
+      "當所有市鎮都以完全相同的方式慶祝同一天時。"
+    ],
+    "explanationZhHant": "新傳統通過人們日常持續的實踐和代際傳播，逐漸被社會接納；它不需要國會禁令、法院規定或強制統一方式來形成。"
   },
   {
     "id": "draft-ch13-040",
@@ -1607,7 +2455,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Some holidays affect work schedules, school, and public services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么某些节日在工作生活中格外明显？",
+    "optionsZh": [
+      "有些是法定公共假日，或会影响营业时间和休假安排。",
+      "它们让所有雇佣关系终止。",
+      "它们用家庭规则取代集体协议。",
+      "它们意味着税收只在夏天缴纳。"
+    ],
+    "explanationZh": "法定公共假日（如圣诞、仲夏、五一）会影响工作日程、学校和公共服务开放时间，因此在职场中格外明显；但它们不会终止雇佣或取代集体协议。",
+    "questionZhHant": "為什麼某些節日在工作生活中格外明顯？",
+    "optionsZhHant": [
+      "有些是法定公共假日，或會影響營業時間和休假安排。",
+      "它們讓所有僱傭關系終止。",
+      "它們用家庭規則取代集體協議。",
+      "它們意味着稅收只在夏天繳納。"
+    ],
+    "explanationZhHant": "法定公共假日（如聖誕、仲夏、五一）會影響工作日程、學校和公共服務開放時間，因此在職場中格外明顯；但它們不會終止僱傭或取代集體協議。"
   },
   {
     "id": "draft-ch13-041",
@@ -1636,7 +2500,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "An open democratic society allows different traditions within the law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，一户新搬来的家庭庆祝一个邻居不熟悉的节日。在开放社会中，哪种态度最合适？",
+    "optionsZh": [
+      "带着好奇与尊重，只要庆祝活动遵守法律、不妨碍他人权利。",
+      "邻居有权向警方举报所有不熟悉的节日。",
+      "公共场合不得用于私人活动。",
+      "这户家庭必须就所有家庭庆祝向市镇申请许可。"
+    ],
+    "explanationZh": "在开放的民主社会里，只要不违法、不妨碍他人，不同文化背景的庆祝应得到好奇与尊重；并不存在必须举报或申请许可的要求。",
+    "questionZhHant": "在瑞典，一戶新搬來的家庭慶祝一個鄰居不熟悉的節日。在開放社會中，哪種態度最合適？",
+    "optionsZhHant": [
+      "帶着好奇與尊重，只要慶祝活動遵守法律、不妨礙他人權利。",
+      "鄰居有權向警方舉報所有不熟悉的節日。",
+      "公共場合不得用於私人活動。",
+      "這戶家庭必須就所有家庭慶祝向市鎮申請許可。"
+    ],
+    "explanationZhHant": "在開放的民主社會裡，只要不違法、不妨礙他人，不同文化背景的慶祝應得到好奇與尊重；並不存在必須舉報或申請許可的要求。"
   },
   {
     "id": "draft-ch13-042",
@@ -1665,7 +2545,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Schools can teach about traditions while respecting diversity.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某学校庆祝露西亚节，但有一名学生家里并不过这个节。最重要的是什么？",
+    "optionsZh": [
+      "学校应以客观态度对待该传统，并尊重学生不同的背景。",
+      "即使活动带有宗教元素，学校也应强制参与。",
+      "学校应取消所有关于瑞典传统的教学。",
+      "学校应让多数人的传统决定所有学生如何参与。"
+    ],
+    "explanationZh": "学校可以介绍露西亚等传统作为文化知识，但应尊重学生多元背景、不强制带宗教色彩的活动参与；既不取消教学，也不以多数压制少数。",
+    "questionZhHant": "某學校慶祝露西亞節，但有一名學生家裡並不過這個節。最重要的是什麼？",
+    "optionsZhHant": [
+      "學校應以客觀態度對待該傳統，並尊重學生不同的背景。",
+      "即使活動帶有宗教元素，學校也應強制參與。",
+      "學校應取消所有關於瑞典傳統的教學。",
+      "學校應讓多數人的傳統決定所有學生如何參與。"
+    ],
+    "explanationZhHant": "學校可以介紹露西亞等傳統作為文化知識，但應尊重學生多元背景、不強制帶宗教色彩的活動參與；既不取消教學，也不以多數壓制少數。"
   },
   {
     "id": "draft-ch13-043",
@@ -1694,7 +2590,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Shared activities should respect different beliefs and traditions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某工作场所计划举办圣诞庆祝，但有些员工不过圣诞。较好的思路是什么？",
+    "optionsZh": [
+      "可以在尊重“并非所有人都以同样方式庆祝”的前提下，安排团建活动。",
+      "所有员工都应参与，以示对职场文化的忠诚。",
+      "雇主应选择宗教形式，因为圣诞有基督教背景。",
+      "不过圣诞的员工应自行安排一个完全隔离的工作日。"
+    ],
+    "explanationZh": "职场的团建可以在尊重多元信仰的前提下进行（如以世俗聚餐形式），不强制参与，也不刻意强化宗教色彩；重点是包容而非要求一致。",
+    "questionZhHant": "某工作場所計劃舉辦聖誕慶祝，但有些員工不過聖誕。較好的思路是什麼？",
+    "optionsZhHant": [
+      "可以在尊重“並非所有人都以同樣方式慶祝”的前提下，安排團建活動。",
+      "所有員工都應參與，以示對職場文化的忠誠。",
+      "僱主應選擇宗教形式，因為聖誕有基督教背景。",
+      "不過聖誕的員工應自行安排一個完全隔離的工作日。"
+    ],
+    "explanationZhHant": "職場的團建可以在尊重多元信仰的前提下進行（如以世俗聚餐形式），不強制參與，也不刻意強化宗教色彩；重點是包容而非要求一致。"
   },
   {
     "id": "draft-ch13-044",
@@ -1723,7 +2635,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Traditions do not override rights and anti-discrimination principles.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某种传统意味着有人因性别或宗教而受到更差待遇。哪种说法是对的？",
+    "optionsZh": [
+      "传统不能用来为歧视辩护。",
+      "传统总是优先于反歧视法律。",
+      "只要是古老的做法，歧视就被允许。",
+      "法院不得审查所谓“传统”相关的问题。"
+    ],
+    "explanationZh": "瑞典有反歧视法律，传统绝不能成为歧视他人（基于性别、宗教等）的借口；古老不等于合法，法院有权审查并以法律为准。",
+    "questionZhHant": "某種傳統意味着有人因性別或宗教而受到更差待遇。哪種說法是對的？",
+    "optionsZhHant": [
+      "傳統不能用來為歧視辯護。",
+      "傳統總是優先於反歧視法律。",
+      "只要是古老的做法，歧視就被允許。",
+      "法院不得審查所謂“傳統”相關的問題。"
+    ],
+    "explanationZhHant": "瑞典有反歧視法律，傳統絕不能成為歧視他人（基於性別、宗教等）的借口；古老不等於合法，法院有權審查並以法律為準。"
   },
   {
     "id": "draft-ch13-045",
@@ -1752,7 +2680,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "National Day can be understood as a civic celebration, not exclusion.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人说国庆日意味着只有某些人才属于瑞典。哪种回应最合适？",
+    "optionsZh": [
+      "国庆日可以把不同背景的人围绕“瑞典”这个国家凝聚在一起。",
+      "国庆日主要显示哪些人有瑞典家族背景。",
+      "国庆日只应由已通晓所有瑞典传统的人庆祝。",
+      "国庆日使其他文化节日在社会中变得次要。"
+    ],
+    "explanationZh": "国庆日是一项公民性、包容性的庆祝，强调对国家的共同归属，而非按出身排斥某些人；它也不贬低其他文化节日的重要性。",
+    "questionZhHant": "有人說國慶日意味着只有某些人才屬於瑞典。哪種回應最合適？",
+    "optionsZhHant": [
+      "國慶日可以把不同背景的人圍繞“瑞典”這個國家凝聚在一起。",
+      "國慶日主要顯示哪些人有瑞典家族背景。",
+      "國慶日只應由已通曉所有瑞典傳統的人慶祝。",
+      "國慶日使其他文化節日在社會中變得次要。"
+    ],
+    "explanationZhHant": "國慶日是一項公民性、包容性的慶祝，強調對國家的共同歸屬，而非按出身排斥某些人；它也不貶低其他文化節日的重要性。"
   },
   {
     "id": "draft-ch13-046",
@@ -1781,7 +2725,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Traditions can continue while adapting over time.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位长者说，传统一旦改变就“不纯正”了。哪种回应最有层次？",
+    "optionsZh": [
+      "传统往往有一个内核，但仍会在代际之间发生变化。",
+      "只有全国上下以完全相同方式庆祝，才算传统。",
+      "改变意味着传统总是丧失全部历史意义。",
+      "国家应决定哪个版本的传统才是“真正”的。"
+    ],
+    "explanationZh": "传统通常有相对稳定的核心元素，但会在代际传承中自然演变；变化不等于消失，也不需要国家来裁定“正统”版本。",
+    "questionZhHant": "一位長者說，傳統一旦改變就“不純正”了。哪種回應最有層次？",
+    "optionsZhHant": [
+      "傳統往往有一個內核，但仍會在代際之間發生變化。",
+      "只有全國上下以完全相同方式慶祝，才算傳統。",
+      "改變意味着傳統總是喪失全部歷史意義。",
+      "國家應決定哪個版本的傳統才是“真正”的。"
+    ],
+    "explanationZhHant": "傳統通常有相對穩定的核心元素，但會在代際傳承中自然演變；變化不等於消失，也不需要國家來裁定“正統”版本。"
   },
   {
     "id": "draft-ch13-047",
@@ -1810,7 +2770,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Many holidays have layered meanings in modern society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某个节日有宗教背景，却被没有宗教信仰的人庆祝。如何理解这一点？",
+    "optionsZh": [
+      "节日可以同时具有宗教和文化两层意义。",
+      "没有宗教信仰而庆祝是被禁止的。",
+      "该节日会自动丧失全部历史意义。",
+      "国家必须登记每位参与者的信仰。"
+    ],
+    "explanationZh": "许多节日（如圣诞、复活节）在保留宗教起源的同时，也发展出世俗的文化意义，无信仰者以家庭、美食、团聚方式参与并不违法，也无需登记信仰。",
+    "questionZhHant": "某個節日有宗教背景，卻被沒有宗教信仰的人慶祝。如何理解這一點？",
+    "optionsZhHant": [
+      "節日可以同時具有宗教和文化兩層意義。",
+      "沒有宗教信仰而慶祝是被禁止的。",
+      "該節日會自動喪失全部歷史意義。",
+      "國家必須登記每位參與者的信仰。"
+    ],
+    "explanationZhHant": "許多節日（如聖誕、複活節）在保留宗教起源的同時，也發展出世俗的文化意義，無信仰者以家庭、美食、團聚方式參與並不違法，也無需登記信仰。"
   },
   {
     "id": "draft-ch13-048",
@@ -1839,7 +2815,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Cultural exchange can create new everyday traditions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个群体把某种饮食传统带到瑞典，并逐渐被更多家庭接受。这说明了什么？",
+    "optionsZh": [
+      "文化与传统可以通过人与人之间的交流而传播和改变。",
+      "新的饮食传统只有经政府机关决定才会被接受。",
+      "旧的瑞典饮食传统就无法同时存在了。",
+      "外来食物永远不可能成为瑞典日常生活的一部分。"
+    ],
+    "explanationZh": "通过移民与日常交往，外来饮食可以融入瑞典日常餐桌，与本地传统并存；这是文化互鉴的自然结果，无需官方强制。",
+    "questionZhHant": "一個羣體把某種飲食傳統帶到瑞典，並逐漸被更多家庭接受。這說明了什麼？",
+    "optionsZhHant": [
+      "文化與傳統可以通過人與人之間的交流而傳播和改變。",
+      "新的飲食傳統只有經政府機關決定才會被接受。",
+      "舊的瑞典飲食傳統就無法同時存在了。",
+      "外來食物永遠不可能成為瑞典日常生活的一部分。"
+    ],
+    "explanationZhHant": "通過移民與日常交往，外來飲食可以融入瑞典日常餐桌，與本地傳統並存；這是文化互鑑的自然結果，無需官方強制。"
   },
   {
     "id": "draft-ch13-049",
@@ -1868,7 +2860,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public information should be objective and serve residents.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某市镇希望在面向居民的资讯中提及多种不同的节日。哪项原则很重要？",
+    "optionsZh": [
+      "资讯应当客观、包容，并与市镇的职责相关。",
+      "市镇应选定一个节日，要求所有居民都遵循。",
+      "市镇只应告知法定公共假日。",
+      "市镇应避免一切关于有宗教背景节日的资讯。"
+    ],
+    "explanationZh": "公共资讯应秉持客观、包容原则，提供与居民服务相关的多元节日信息；它不强制居民遵循某一种，也不必回避宗教背景的节日。",
+    "questionZhHant": "某市鎮希望在面向居民的資訊中提及多種不同的節日。哪項原則很重要？",
+    "optionsZhHant": [
+      "資訊應當客觀、包容，並與市鎮的職責相關。",
+      "市鎮應選定一個節日，要求所有居民都遵循。",
+      "市鎮只應告知法定公共假日。",
+      "市鎮應避免一切關於有宗教背景節日的資訊。"
+    ],
+    "explanationZhHant": "公共資訊應秉持客觀、包容原則，提供與居民服務相關的多元節日資訊；它不強制居民遵循某一種，也不必回避宗教背景的節日。"
   },
   {
     "id": "draft-ch13-050",
@@ -1897,7 +2905,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The two holidays have different meanings and customs.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人把万圣节（诸圣节）和仲夏节搞混了。最重要的区别是什么？",
+    "optionsZh": [
+      "万圣节常与追思逝者有关，而仲夏节庆祝夏天与光明。",
+      "两者都是固定的政治选举日。",
+      "仲夏节主要是关于墓前烛光。",
+      "万圣节总是用仲夏柱来庆祝。"
+    ],
+    "explanationZh": "两者含义和习俗截然不同：万圣节（初冬）是点灯追思逝者，仲夏节（盛夏）是围着仲夏柱跳舞迎光；它们都不是选举日。",
+    "questionZhHant": "有人把萬聖節（諸聖節）和仲夏節搞混了。最重要的區別是什麼？",
+    "optionsZhHant": [
+      "萬聖節常與追思逝者有關，而仲夏節慶祝夏天與光明。",
+      "兩者都是固定的政治選舉日。",
+      "仲夏節主要是關於墓前燭光。",
+      "萬聖節總是用仲夏柱來慶祝。"
+    ],
+    "explanationZhHant": "兩者含義和習俗截然不同：萬聖節（初冬）是點燈追思逝者，仲夏節（盛夏）是圍着仲夏柱跳舞迎光；它們都不是選舉日。"
   },
   {
     "id": "draft-ch13-051",
@@ -1926,7 +2950,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "First of May is linked to labour history and political demonstrations.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么五一劳动节不只是普通的春季传统？",
+    "optionsZh": [
+      "它与劳工运动和公民政治参与有紧密关联。",
+      "它标志着公共圣诞季的开始。",
+      "它只在教会内作为宗教纪念日庆祝。",
+      "它是没有公共活动的私人家庭日。"
+    ],
+    "explanationZh": "五一劳动节源于国际劳工运动，在瑞典是工会游行和发表政治诉求的重要日子，具有鲜明的民主与政治参与色彩，而非单纯的迎春或宗教节日。",
+    "questionZhHant": "為什麼五一勞動節不只是普通的春季傳統？",
+    "optionsZhHant": [
+      "它與勞工運動和公民政治參與有緊密關聯。",
+      "它標志着公共聖誕季的開始。",
+      "它只在教會內作為宗教紀念日慶祝。",
+      "它是沒有公共活動的私人家庭日。"
+    ],
+    "explanationZhHant": "五一勞動節源於國際勞工運動，在瑞典是工會遊行和發表政治訴求的重要日子，具有鮮明的民主與政治參與色彩，而非單純的迎春或宗教節日。"
   },
   {
     "id": "draft-ch13-052",
@@ -1955,7 +2995,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Traditions can change through media, markets, and everyday habits.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某种传统变得更商业化（例如通过广告和购物）。这说明了什么？",
+    "optionsZh": [
+      "传统会受到社会变迁、经济和媒体的影响。",
+      "更商业化的传统总会丧失全部文化意义。",
+      "广告会自动让一个传统成为法定公共假日。",
+      "围绕节日的购物意味着该传统再也无法在家庆祝。"
+    ],
+    "explanationZh": "传统会随市场经济、媒体和商业活动而变化（如圣诞购物），这反映了社会变迁，但不等于彻底失去文化意义，也不会自动变成法定假日。",
+    "questionZhHant": "某種傳統變得更商業化（例如通過廣告和購物）。這說明了什麼？",
+    "optionsZhHant": [
+      "傳統會受到社會變遷、經濟和媒體的影響。",
+      "更商業化的傳統總會喪失全部文化意義。",
+      "廣告會自動讓一個傳統成為法定公共假日。",
+      "圍繞節日的購物意味着該傳統再也無法在家慶祝。"
+    ],
+    "explanationZhHant": "傳統會隨市場經濟、媒體和商業活動而變化（如聖誕購物），這反映了社會變遷，但不等於徹底失去文化意義，也不會自動變成法定假日。"
   },
   {
     "id": "draft-ch13-053",
@@ -1984,7 +3040,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Holidays can help transmit culture and belonging between generations.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么节日对孩子们可能很重要？",
+    "optionsZh": [
+      "它们能带来记忆、语言、共同体意识，以及对家庭或社会文化的认知。",
+      "它们的重要性主要在于让孩子知道学校哪几天放假。",
+      "它们总是显示孩子家庭持何种政治观点。",
+      "它们意味着孩子只需了解自己家庭的传统。"
+    ],
+    "explanationZh": "节日是儿童习得文化、语言和归属感的重要渠道，帮助代际传递记忆与价值观；其意义远超“知道放假”，也不等于暴露政治立场或排斥外部文化。",
+    "questionZhHant": "為什麼節日對孩子們可能很重要？",
+    "optionsZhHant": [
+      "它們能帶來記憶、語言、共同體意識，以及對家庭或社會文化的認知。",
+      "它們的重要性主要在於讓孩子知道學校哪幾天放假。",
+      "它們總是顯示孩子家庭持何種政治觀點。",
+      "它們意味着孩子只需了解自己家庭的傳統。"
+    ],
+    "explanationZhHant": "節日是兒童習得文化、語言和歸屬感的重要渠道，幫助代際傳遞記憶與價值觀；其意義遠超“知道放假”，也不等於暴露政治立場或排斥外部文化。"
   },
   {
     "id": "draft-ch13-054",
@@ -2013,7 +3085,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Not every tradition is an official public holiday.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人以为所有传统都是法定公共假日。哪种说法正确？",
+    "optionsZh": [
+      "不对，有些传统是法定公共假日，但很多只是普通的社交或文化习俗。",
+      "是的，每个传统都总有停工休息日。",
+      "是的，家庭传统总是由瑞典国会决定。",
+      "不对，瑞典不存在法定公共假日。"
+    ],
+    "explanationZh": "只有部分传统节日（如圣诞、仲夏、国庆、五一）是法定公共假日，许多传统（如露西亚、将临期）只是文化或社交习俗，不放假，也不由国会规定。",
+    "questionZhHant": "有人以為所有傳統都是法定公共假日。哪種說法正確？",
+    "optionsZhHant": [
+      "不對，有些傳統是法定公共假日，但很多只是普通的社交或文化習俗。",
+      "是的，每個傳統都總有停工休息日。",
+      "是的，家庭傳統總是由瑞典國會決定。",
+      "不對，瑞典不存在法定公共假日。"
+    ],
+    "explanationZhHant": "只有部分傳統節日（如聖誕、仲夏、國慶、五一）是法定公共假日，許多傳統（如露西亞、將臨期）只是文化或社交習俗，不放假，也不由國會規定。"
   },
   {
     "id": "draft-ch13-055",
@@ -2042,7 +3130,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Traditions are not always identical everywhere.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "两个地区或家庭以不同的食物和歌曲庆祝同一个节日。这说明了传统方面的什么？",
+    "optionsZh": [
+      "传统可以有地方性和个人化的差异。",
+      "只有其中一个家庭遵守法律。",
+      "这个节日就不再算作传统了。",
+      "国家必须选定唯一版本。"
+    ],
+    "explanationZh": "同一节日在不同地区、家庭中呈现出食物和歌曲等差异，是传统的正常现象（地方性、个性化变体），既不违法，也不需要国家统一一种版本。",
+    "questionZhHant": "兩個地區或家庭以不同的食物和歌曲慶祝同一個節日。這說明了傳統方面的什麼？",
+    "optionsZhHant": [
+      "傳統可以有地方性和個人化的差異。",
+      "只有其中一個家庭遵守法律。",
+      "這個節日就不再算作傳統了。",
+      "國家必須選定唯一版本。"
+    ],
+    "explanationZhHant": "同一節日在不同地區、家庭中呈現出食物和歌曲等差異，是傳統的正常現象（地方性、個性化變體），既不違法，也不需要國家統一一種版本。"
   },
   {
     "id": "draft-ch13-056",
@@ -2071,7 +3175,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Holidays can carry memories and meanings from history.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么节日可以与历史记忆相联系？",
+    "optionsZh": [
+      "它们能让人想起往昔的事件、人物或价值。",
+      "它们意味着历史事件总是被以完全相同的方式理解。",
+      "它们是理解历史所需的唯一来源。",
+      "它们说明当今社会不受前代人影响。"
+    ],
+    "explanationZh": "节日常承载着对历史事件、人物和价值的记忆（如国庆日纪念国家形成），帮助社会传承历史；但它并非理解历史的唯一来源，也不意味着历史理解千篇一律。",
+    "questionZhHant": "為什麼節日可以與歷史記憶相聯系？",
+    "optionsZhHant": [
+      "它們能讓人想起往昔的事件、人物或價值。",
+      "它們意味着歷史事件總是被以完全相同的方式理解。",
+      "它們是理解歷史所需的唯一來源。",
+      "它們說明當今社會不受前代人影響。"
+    ],
+    "explanationZhHant": "節日常承載着對歷史事件、人物和價值的記憶（如國慶日紀念國家形成），幫助社會傳承歷史；但它並非理解歷史的唯一來源，也不意味着歷史理解千篇一律。"
   },
   {
     "id": "draft-ch13-057",
@@ -2100,7 +3220,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Shared events can make different traditions visible and build community.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某社团想举办一场新旧传统都能展现的庆祝活动。哪种目的最合适？",
+    "optionsZh": [
+      "让有不同经历的人相遇、建立共同体。",
+      "去管控每个人家里有什么传统。",
+      "为所有居民决定一种强制文化。",
+      "取代市镇的民主决定。"
+    ],
+    "explanationZh": "同时呈现新旧传统的活动，旨在促进不同背景人群之间的交流与融合，营造共同体；它不强制单一文化，也不取代民主治理。",
+    "questionZhHant": "某社團想舉辦一場新舊傳統都能展現的慶祝活動。哪種目的最合適？",
+    "optionsZhHant": [
+      "讓有不同經歷的人相遇、建立共同體。",
+      "去管控每個人家裡有什麼傳統。",
+      "為所有居民決定一種強制文化。",
+      "取代市鎮的民主決定。"
+    ],
+    "explanationZhHant": "同時呈現新舊傳統的活動，旨在促進不同背景人羣之間的交流與融合，營造共同體；它不強制單一文化，也不取代民主治理。"
   },
   {
     "id": "draft-ch13-058",
@@ -2129,7 +3265,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Freedom includes room for different choices about traditions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人因自己的信仰或信念而不愿参加某项庆祝。哪项原则与此相关？",
+    "optionsZh": [
+      "尊重个人自由与不同的世界观。",
+      "人人都必须永远参与多数人的庆祝。",
+      "该人会因此自动丧失权利。",
+      "国家应将这种拒绝登记为犯罪。"
+    ],
+    "explanationZh": "瑞典保障宗教自由和世界观自由，个人有权基于信仰或信念不参加某些庆祝；这不代表丧失权利，更不构成犯罪。",
+    "questionZhHant": "有人因自己的信仰或信念而不願參加某項慶祝。哪項原則與此相關？",
+    "optionsZhHant": [
+      "尊重個人自由與不同的世界觀。",
+      "人人都必須永遠參與多數人的慶祝。",
+      "該人會因此自動喪失權利。",
+      "國家應將這種拒絕登記為犯罪。"
+    ],
+    "explanationZhHant": "瑞典保障宗教自由和世界觀自由，個人有權基於信仰或信念不參加某些慶祝；這不代表喪失權利，更不構成犯罪。"
   },
   {
     "id": "draft-ch13-059",
@@ -2158,7 +3310,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The comparison separates two common traditions by time and custom.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪种对比最准确？",
+    "optionsZh": [
+      "露西亚节在12月以烛光和歌声庆祝；瓦尔普吉斯之夜在春季以篝火庆祝。",
+      "露西亚和瓦尔普吉斯都是议会选举。",
+      "瓦尔普吉斯之夜总是用圣诞树和礼物来庆祝。",
+      "露西亚节是瑞典国庆日。"
+    ],
+    "explanationZh": "露西亚节（12月13日，烛光歌声）与瓦尔普吉斯之夜（4月30日，迎春篝火）分属冬、春两季、习俗不同；它们都不是选举或国庆日。",
+    "questionZhHant": "哪種對比最準確？",
+    "optionsZhHant": [
+      "露西亞節在12月以燭光和歌聲慶祝；瓦爾普吉斯之夜在春季以篝火慶祝。",
+      "露西亞和瓦爾普吉斯都是議會選舉。",
+      "瓦爾普吉斯之夜總是用聖誕樹和禮物來慶祝。",
+      "露西亞節是瑞典國慶日。"
+    ],
+    "explanationZhHant": "露西亞節（12月13日，燭光歌聲）與瓦爾普吉斯之夜（4月30日，迎春篝火）分屬冬、春兩季、習俗不同；它們都不是選舉或國慶日。"
   },
   {
     "id": "draft-ch13-060",
@@ -2187,7 +3355,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Traditions are part of society and culture, but they coexist with freedom, law, and diversity.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "关于瑞典的传统与节日，最重要的是理解什么？",
+    "optionsZh": [
+      "它们既体现了历史、共同体意识与多样性，也会随时间而改变。",
+      "它们意味着所有人都必须以相同方式生活。",
+      "它们比宪法和权利更重要。",
+      "它们会自动决定谁拥有选举权。"
+    ],
+    "explanationZh": "传统与节日是瑞典社会和文化的一部分，承载着历史记忆、共同体意识和多元性，并会随时代演变；但它们与自由、法律和权利并存，绝不能凌驾于宪法和基本权利之上，也不会自动决定选举权。",
+    "questionZhHant": "關於瑞典的傳統與節日，最重要的是理解什麼？",
+    "optionsZhHant": [
+      "它們既體現了歷史、共同體意識與多樣性，也會隨時間而改變。",
+      "它們意味着所有人都必須以相同方式生活。",
+      "它們比憲法和權利更重要。",
+      "它們會自動決定誰擁有選舉權。"
+    ],
+    "explanationZhHant": "傳統與節日是瑞典社會和文化的一部分，承載着歷史記憶、共同體意識和多元性，並會隨時代演變；但它們與自由、法律和權利並存，絕不能凌駕於憲法和基本權利之上，也不會自動決定選舉權。"
   },
   {
     "id": "draft-extra-ch013-001",
@@ -2216,7 +3400,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Midsummer is traditionally celebrated by dancing around a maypole and eating herring and potatoes.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，仲夏节的传统庆祝方式是怎样的？",
+    "optionsZh": [
+      "围着仲夏柱跳舞，并吃腌鲱鱼配土豆。",
+      "点燃大型篝火庆祝春天到来。",
+      "头戴蜡烛、列队唱歌游行。",
+      "打扮后向邻居讨糖果。"
+    ],
+    "explanationZh": "仲夏节的传统活动是竖起并围绕“仲夏柱”（midsommarstång）跳舞，配以腌鲱鱼和新鲜土豆；篝火属瓦尔普吉斯之夜，烛光游行属露西亚，讨糖则是万圣节风格。",
+    "questionZhHant": "在瑞典，仲夏節的傳統慶祝方式是怎樣的？",
+    "optionsZhHant": [
+      "圍着仲夏柱跳舞，並喫醃鯡魚配土豆。",
+      "點燃大型篝火慶祝春天到來。",
+      "頭戴蠟燭、列隊唱歌遊行。",
+      "打扮後向鄰居討糖果。"
+    ],
+    "explanationZhHant": "仲夏節的傳統活動是豎起並圍繞“仲夏柱”（midsommarstång）跳舞，配以醃鯡魚和新鮮土豆；篝火屬瓦爾普吉斯之夜，燭光遊行屬露西亞，討糖則是萬聖節風格。"
   },
   {
     "id": "draft-extra-ch013-002",
@@ -2245,6 +3445,22 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Lucia is celebrated on December 13th with a choir procession to bring light into the winter darkness.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "12月13日露西亚节庆祝的目的是什么？",
+    "optionsZh": [
+      "用歌声和露西亚游行，为冬日的黑暗带来光明。",
+      "纪念瑞典第一位国王。",
+      "用舞蹈音乐庆祝夏天到来。",
+      "纪念瑞典国庆日。"
+    ],
+    "explanationZh": "露西亚节（12月13日）在一年中最暗的时节，以白色长袍、头戴蜡烛的露西亚少女引领的歌声与烛光游行，象征驱散冬夜黑暗、带来光明；它与国王、夏天或国庆无关。",
+    "questionZhHant": "12月13日露西亞節慶祝的目的是什麼？",
+    "optionsZhHant": [
+      "用歌聲和露西亞遊行，為冬日的黑暗帶來光明。",
+      "紀念瑞典第一位國王。",
+      "用舞蹈音樂慶祝夏天到來。",
+      "紀念瑞典國慶日。"
+    ],
+    "explanationZhHant": "露西亞節（12月13日）在一年中最暗的時節，以白色長袍、頭戴蠟燭的露西亞少女引領的歌聲與燭光遊行，象徵驅散冬夜黑暗、帶來光明；它與國王、夏天或國慶無關。"
   }
 ]

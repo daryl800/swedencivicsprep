@@ -27,7 +27,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Separation of powers and judicial independence mean politicians must not direct courts in individual cases.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位大臣公开表示，某法院应当对某个特定的人判处更重的刑罚。为什么这在瑞典的国家体制中是有问题的？",
+    "optionsZh": [
+      "法院应当依照法律独立作出判决，在任何具体个案中都不应接受政治指示。",
+      "大臣只有在瑞典国会先就此事投票后，才可以就判决发表意见。",
+      "政府领导法院，因此应当在重大案件中决定刑罚的轻重。",
+      "法院只能根据司法部（Justitiedepartementet）的建议作出判决。"
+    ],
+    "explanationZh": "瑞典实行权力分立与司法独立。法官必须依据法律和事实独立裁判，政治家（包括大臣）不得就具体个案的判决结果向法官下达指令。这是一种制度性保护，确保每个人都能在不受政治干预的情况下获得公正审判。",
+    "questionZhHant": "一位大臣公開表示，某法院應當對某個特定的人判處更重的刑罰。為什麼這在瑞典的國家體制中是有問題的？",
+    "optionsZhHant": [
+      "法院應當依照法律獨立作出判決，在任何具體個案中都不應接受政治指示。",
+      "大臣只有在瑞典國會先就此事投票後，才可以就判決發表意見。",
+      "政府領導法院，因此應當在重大案件中決定刑罰的輕重。",
+      "法院只能根據司法部（Justitiedepartementet）的建議作出判決。"
+    ],
+    "explanationZhHant": "瑞典實行權力分立與司法獨立。法官必須依據法律和事實獨立裁判，政治家（包括大臣）不得就具體個案的判決結果向法官下達指令。這是一種制度性保護，確保每個人都能在不受政治幹預的情況下獲得公正審判。"
   },
   {
     "id": "draft-batch-a-ch03-002",
@@ -56,7 +72,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Consultation can improve proposals before the government presents a bill.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一项政府调查提出了一项改革建议，但多个征询意见的机构（remissinstans）警告存在实际操作上的问题。政府在继续推进之前可以做些什么？",
+    "optionsZh": [
+      "在提交法案（proposition）之前，对建议进行修改完善，并权衡各方意见。",
+      "让征询意见的机构直接投票通过这项法律。",
+      "把建议送交国王，由国王作出最终裁定。",
+      "既然调查已经完成，就可以不经国会而直接施行该法律。"
+    ],
+    "explanationZh": "瑞典在立法前通常有一个“征询意见”（remiss）环节，政府会把提案送交相关机构和组织，请它们提出看法。政府可以据此修改完善提案，再向国会提交法案。这有助于在正式立法前发现并解决现实问题。",
+    "questionZhHant": "一項政府調查提出了一項改革建議，但多個徵詢意見的機構（remissinstans）警告存在實際操作上的問題。政府在繼續推進之前可以做些什麼？",
+    "optionsZhHant": [
+      "在提交法案（proposition）之前，對建議進行修改完善，並權衡各方意見。",
+      "讓徵詢意見的機構直接投票通過這項法律。",
+      "把建議送交國王，由國王作出最終裁定。",
+      "既然調查已經完成，就可以不經國會而直接施行該法律。"
+    ],
+    "explanationZhHant": "瑞典在立法前通常有一個“徵詢意見”（remiss）環節，政府會把提案送交相關機構和組織，請它們提出看法。政府可以據此修改完善提案，再向國會提交法案。這有助於在正式立法前發現並解決現實問題。"
   },
   {
     "id": "draft-batch-a-ch03-003",
@@ -85,7 +117,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Authorities implement public tasks within a legal and political framework.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个政府机关（myndighet）必须同时遵守法律及其职责说明书（instruktion）。这说明了瑞典行政管理的什么特点？",
+    "optionsZh": [
+      "政府机关有自身的任务，但其工作必须处于瑞典国会和政府所制定的规则框架之内。",
+      "政府机关可以自行决定哪些法律有效。",
+      "政府可以在每个案件中下达秘密裁决。",
+      "市镇领导所有中央政府机关。"
+    ],
+    "explanationZh": "瑞典的公共行政建立在法律和政治框架之上。各政府机关拥有自己的专门职责，但都必须依据国会通过的法律和政府下达的职责说明书（instruktion）开展工作，不能自行其是。",
+    "questionZhHant": "一個政府機關（myndighet）必須同時遵守法律及其職責說明書（instruktion）。這說明了瑞典行政管理的什麼特點？",
+    "optionsZhHant": [
+      "政府機關有自身的任務，但其工作必須處於瑞典國會和政府所制定的規則框架之內。",
+      "政府機關可以自行決定哪些法律有效。",
+      "政府可以在每個案件中下達祕密裁決。",
+      "市鎮領導所有中央政府機關。"
+    ],
+    "explanationZhHant": "瑞典的公共行政建立在法律和政治框架之上。各政府機關擁有自己的專門職責，但都必須依據國會通過的法律和政府下達的職責說明書（instruktion）開展工作，不能自行其是。"
   },
   {
     "id": "draft-batch-a-ch03-004",
@@ -114,7 +162,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Specialized authorities can support informed and lawful administration.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么一个政府机关在其专业领域具备专家知识可能很重要？",
+    "optionsZh": [
+      "它能够在自身职责范围内，依据客观的专业知识来作出和准备决策。",
+      "拥有专业知识意味着该机关可以无视法律。",
+      "专家总是取代瑞典国会中民选的政治家。",
+      "拥有专家的机关永远不需要接受审查。"
+    ],
+    "explanationZh": "许多政府机关是高度专业化的机构（如税务、社保、移民等），其工作人员具备专门领域的知识。这种专业能力有助于机关在法定框架内客观、准确地准备和作出决定，使行政管理更加可靠、高效。",
+    "questionZhHant": "為什麼一個政府機關在其專業領域具備專家知識可能很重要？",
+    "optionsZhHant": [
+      "它能夠在自身職責範圍內，依據客觀的專業知識來作出和準備決策。",
+      "擁有專業知識意味着該機關可以無視法律。",
+      "專家總是取代瑞典國會中民選的政治家。",
+      "擁有專家的機關永遠不需要接受審查。"
+    ],
+    "explanationZhHant": "許多政府機關是高度專業化的機構（如稅務、社會保險、移民等），其工作人員具備專門領域的知識。這種專業能力有助於機關在法定框架內客觀、準確地準備和作出決定，使行政管理更加可靠、高效。"
   },
   {
     "id": "draft-batch-a-ch03-005",
@@ -143,7 +207,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Parliamentarism means a government must be able to tolerate the Riksdag’s composition.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "选举之后，组建政府往往要花费一段时间。在议会制体系中，为什么这种情况可能是正常的？",
+    "optionsZh": [
+      "各政党需要摸清哪一种组阁方案能够获得瑞典国会的支持。",
+      "最大政党总能自动获得组阁权。",
+      "法院必须先批准所有政党的纲领。",
+      "由市镇投票决定国会应当组建哪一届政府。"
+    ],
+    "explanationZh": "瑞典实行议会制（parlamentarism）。政府必须能够“容忍”于国会的多数构成，即其施政要能获得国会支持或至少不被否决。因此选举后各党需要协商、试探，确定哪种政府组合可行，这个过程耗时是正常的。",
+    "questionZhHant": "選舉之後，組建政府往往要花費一段時間。在議會制體系中，為什麼這種情況可能是正常的？",
+    "optionsZhHant": [
+      "各政黨需要摸清哪一種組閣方案能夠獲得瑞典國會的支持。",
+      "最大政黨總能自動獲得組閣權。",
+      "法院必須先批準所有政黨的綱領。",
+      "由市鎮投票決定國會應當組建哪一屆政府。"
+    ],
+    "explanationZhHant": "瑞典實行議會制（parlamentarism）。政府必須能夠“容忍”於國會的多數構成，即其施政要能獲得國會支持或至少不被否決。因此選舉後各黨需要協商、試探，確定哪種政府組合可行，這個過程耗時是正常的。"
   },
   {
     "id": "draft-batch-a-ch03-006",
@@ -172,7 +252,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Minority governments can govern when they are tolerated by the Riksdag and negotiate support.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某一届政府由几个自身都没有多数席位的政党组成。它为何仍能执政？",
+    "optionsZh": [
+      "只要有足够多的国会议员容忍它，且其提案能够获得支持。",
+      "如果政府禁止反对派投票。",
+      "如果法院给政府额外的席位。",
+      "如果国王在国会中投票支持政府。"
+    ],
+    "explanationZh": "少数派政府（minoritetsregering）在瑞典是常见的。它虽不掌握多数席位，但只要国会不通过不信任投票，且各项提案能在国会中获得足够支持（例如与其他政党协商达成默契），就可以正常执政。",
+    "questionZhHant": "某一屆政府由幾個自身都沒有多數席位的政黨組成。它為何仍能執政？",
+    "optionsZhHant": [
+      "只要有足夠多的國會議員容忍它，且其提案能夠獲得支持。",
+      "如果政府禁止反對派投票。",
+      "如果法院給政府額外的席位。",
+      "如果國王在國會中投票支持政府。"
+    ],
+    "explanationZhHant": "少數派政府（minoritetsregering）在瑞典是常見的。它雖不掌握多數席位，但只要國會不通過不信任投票，且各項提案能在國會中獲得足夠支持（例如與其他政黨協商達成默契），就可以正常執政。"
   },
   {
     "id": "draft-batch-a-ch03-007",
@@ -202,7 +298,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish self-government is divided: regions mainly handle healthcare, while municipalities handle local services such as elderly care.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个大区希望优先增设更多医疗中心，而一个市镇希望把钱用于养老服务。为什么这两个议题都可以是政治性的，却又不是由同一个层级负责的？",
+    "optionsZh": [
+      "大区和市镇各自承担不同的职责范围，并拥有民选的议会。",
+      "市镇总是对大区的医疗预算拥有决定权。",
+      "大区负责除议会选举以外的所有地方事务。",
+      "选举后由瑞典国会任命每个市镇和大区的政治家。"
+    ],
+    "explanationZh": "瑞典的地方自治在层级上是分工的：大区（region）主要负责医疗卫生等区域事务，市镇（kommun）负责养老、学校等本地服务。两者都由各自选民选出的议会决定优先事项，因此即便议题性质相似，也分属不同层级的政治决策。",
+    "questionZhHant": "一個大區希望優先增設更多醫療中心，而一個市鎮希望把錢用於養老服務。為什麼這兩個議題都可以是政治性的，卻又不是由同一個層級負責的？",
+    "optionsZhHant": [
+      "大區和市鎮各自承擔不同的職責範圍，並擁有民選的議會。",
+      "市鎮總是對大區的醫療預算擁有決定權。",
+      "大區負責除議會選舉以外的所有地方事務。",
+      "選舉後由瑞典國會任命每個市鎮和大區的政治家。"
+    ],
+    "explanationZhHant": "瑞典的地方自治在層級上是分工的：大區（region）主要負責醫療衛生等區域事務，市鎮（kommun）負責養老、學校等本地服務。兩者都由各自選民選出的議會決定優先事項，因此即便議題性質相似，也分屬不同層級的政治決策。"
   },
   {
     "id": "draft-batch-a-ch03-008",
@@ -231,7 +343,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Knowing responsibility levels helps people contact the right public body.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位居民抱怨说，市镇和大区互相推诿。了解什么知识能帮助这个人？",
+    "optionsZh": [
+      "了解不同的社会层级承担不同职责，例如市镇负责照护、大区负责医疗。",
+      "了解市镇和大区始终是同一个机构。",
+      "了解国家禁止居民对地方决定提出上诉。",
+      "了解政党不得在大区中活动。"
+    ],
+    "explanationZh": "瑞典的公共职责分散在不同层级：市镇管本地服务（如养老、学校），大区管区域事务（如医疗）。弄清“谁负责什么”，居民才能找到正确的公共机构去反映问题或寻求帮助。",
+    "questionZhHant": "一位居民抱怨說，市鎮和大區互相推諉。了解什麼知識能幫助這個人？",
+    "optionsZhHant": [
+      "了解不同的社會層級承擔不同職責，例如市鎮負責照護、大區負責醫療。",
+      "了解市鎮和大區始終是同一個機構。",
+      "了解國家禁止居民對地方決定提出上訴。",
+      "了解政黨不得在大區中活動。"
+    ],
+    "explanationZhHant": "瑞典的公共職責分散在不同層級：市鎮管本地服務（如養老、學校），大區管區域事務（如醫療）。弄清“誰負責什麼”，居民才能找到正確的公共機構去反映問題或尋求幫助。"
   },
   {
     "id": "draft-batch-a-ch03-009",
@@ -260,7 +388,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipal politics often concerns prioritizing local services and resources.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个市镇希望优先增加更多幼儿园学位，而不是新建体育馆。这说明了市政政治的什么特点？",
+    "optionsZh": [
+      "市镇必须在自身职责和预算范围内作出本地优先事项的安排。",
+      "大区总是决定市镇的投资。",
+      "所有本地优先事项都由瑞典国会每周决定。",
+      "市镇预算只适用于中央政府机关。"
+    ],
+    "explanationZh": "市镇享有地方自治权，在其法定职责（如幼儿教育、养老、基础设施）和预算范围内，可以自主决定资源优先投向哪里。这类取舍正是地方政治的核心内容。",
+    "questionZhHant": "一個市鎮希望優先增加更多幼兒園學位，而不是新建體育館。這說明了市政政治的什麼特點？",
+    "optionsZhHant": [
+      "市鎮必須在自身職責和預算範圍內作出本地優先事項的安排。",
+      "大區總是決定市鎮的投資。",
+      "所有本地優先事項都由瑞典國會每周決定。",
+      "市鎮預算只適用於中央政府機關。"
+    ],
+    "explanationZhHant": "市鎮享有地方自治權，在其法定職責（如幼兒教育、養老、基礎設施）和預算範圍內，可以自主決定資源優先投向哪裡。這類取舍正是地方政治的核心內容。"
   },
   {
     "id": "draft-batch-a-ch03-010",
@@ -289,7 +433,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A successful no-confidence vote can force a minister or government to resign.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典国会对某位大臣（statsråd）提出不信任案。可能带来什么后果？",
+    "optionsZh": [
+      "该大臣可能被迫辞职。",
+      "该大臣会在国会自动获得更多票数。",
+      "国会必须由法院解散。",
+      "市镇接管该部委。"
+    ],
+    "explanationZh": "不信任投票（misstroendeförklaring）是国会监督政府的重要工具。若国会通过对某位大臣或整届政府的不信任案，相关大臣或政府就必须辞职。",
+    "questionZhHant": "瑞典國會對某位大臣（statsråd）提出不信任案。可能帶來什麼後果？",
+    "optionsZhHant": [
+      "該大臣可能被迫辭職。",
+      "該大臣會在國會自動獲得更多票數。",
+      "國會必須由法院解散。",
+      "市鎮接管該部委。"
+    ],
+    "explanationZhHant": "不信任投票（misstroendeförklaring）是國會監督政府的重要工具。若國會通過對某位大臣或整屆政府的不信任案，相關大臣或政府就必須辭職。"
   },
   {
     "id": "draft-batch-a-ch03-011",
@@ -319,7 +479,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A government bill still needs support in the Riksdag because the Riksdag is the law-making body.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "政府想要修改某项法律，但在国会中缺乏支持。这种情况说明了瑞典是如何治理的？",
+    "optionsZh": [
+      "政府可以提出法律提案，但由瑞典国会决定法律。",
+      "只要首相召开新闻发布会，政府就可以自行修改法律。",
+      "政府机关可以暂时通过该项法律，直到国会举行选举。",
+      "当政府缺乏多数时，法院取代国会。"
+    ],
+    "explanationZh": "瑞典的立法权属于国会。政府可以提出法案（proposition），但法律的最终通过需要国会支持。即使政府本身没有多数席位，也必须争取国会多数，这体现了行政与立法的分立。",
+    "questionZhHant": "政府想要修改某項法律，但在國會中缺乏支持。這種情況說明了瑞典是如何治理的？",
+    "optionsZhHant": [
+      "政府可以提出法律提案，但由瑞典國會決定法律。",
+      "只要首相召開新聞發布會，政府就可以自行修改法律。",
+      "政府機關可以暫時通過該項法律，直到國會舉行選舉。",
+      "當政府缺乏多數時，法院取代國會。"
+    ],
+    "explanationZhHant": "瑞典的立法權屬於國會。政府可以提出法案（proposition），但法律的最終通過需要國會支持。即使政府本身沒有多數席位，也必須爭取國會多數，這體現了行政與立法的分立。"
   },
   {
     "id": "draft-batch-a-ch03-012",
@@ -348,7 +524,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Legal review can identify problems before a law is adopted.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么立法审查委员会（Lagrådet）有时会在国会作出决定前审查法律提案？",
+    "optionsZh": [
+      "为了评估该提案在法理上是否成立，以及是否符合基本法（grundlag）。",
+      "为了用一项裁决取代国会的表决。",
+      "为了选择哪些政党可以提交议案。",
+      "为了决定市镇的税率。"
+    ],
+    "explanationZh": "Lagrådet（立法审查委员会）由资深法官组成，会在法案送交国会前审查其法律技术质量，看它是否与宪法/基本法相符、表述是否清晰。这种事前审查有助于在立法前发现问题，但它不能代替国会的表决。",
+    "questionZhHant": "為什麼立法審查委員會（Lagrådet）有時會在國會作出決定前審查法律提案？",
+    "optionsZhHant": [
+      "為了評估該提案在法理上是否成立，以及是否符合基本法（grundlag）。",
+      "為了用一項裁決取代國會的表決。",
+      "為了選擇哪些政黨可以提交議案。",
+      "為了決定市鎮的稅率。"
+    ],
+    "explanationZhHant": "Lagrådet（立法審查委員會）由資深法官組成，會在法案送交國會前審查其法律技術質量，看它是否與憲法/基本法相符、表述是否清晰。這種事前審查有助於在立法前發現問題，但它不能代替國會的表決。"
   },
   {
     "id": "draft-batch-a-ch03-013",
@@ -377,7 +569,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The municipal council is elected by residents and makes the municipality’s main political decisions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "市议会（kommunfullmäktige）起着什么作用？",
+    "optionsZh": [
+      "它是市镇最高决策机构。",
+      "它在市镇层面准备并执行中央政府机关的决定。",
+      "它处理涉及学校和照护的具体个案。",
+      "它雇佣市镇的公务员及其主管。"
+    ],
+    "explanationZh": "市议会由本地居民选举产生，是市镇的最高决策机构，负责制定市政的主要政治方向和预算。日常行政则由市政委员会（kommunstyrelse）和公务员执行。",
+    "questionZhHant": "市議會（kommunfullmäktige）起着什麼作用？",
+    "optionsZhHant": [
+      "它是市鎮最高決策機構。",
+      "它在市鎮層面準備並執行中央政府機關的決定。",
+      "它處理涉及學校和照護的具體個案。",
+      "它僱傭市鎮的公務員及其主管。"
+    ],
+    "explanationZhHant": "市議會由本地居民選舉產生，是市鎮的最高決策機構，負責制定市政的主要政治方向和預算。日常行政則由市政委員會（kommunstyrelse）和公務員執行。"
   },
   {
     "id": "draft-batch-a-ch03-014",
@@ -406,7 +614,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Regional elections influence political priorities in healthcare.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个大区在预算中优先处理医疗排队问题。这其中有什么民主联系？",
+    "optionsZh": [
+      "选民可以通过大区选举来影响区域的优先事项。",
+      "医疗预算只由私立医院决定。",
+      "大区没有民选的政治家。",
+      "由瑞典中央银行（Riksbanken）决定医疗排队的长短。"
+    ],
+    "explanationZh": "大区有自己的民选议会（regionfullmäktige），选民通过大区选举选出代表，由他们决定本地区医疗等事务的优先次序。因此医疗预算的去向与区域层面的选举直接相关。",
+    "questionZhHant": "一個大區在預算中優先處理醫療排隊問題。這其中有什麼民主聯系？",
+    "optionsZhHant": [
+      "選民可以通過大區選舉來影響區域的優先事項。",
+      "醫療預算只由私立醫院決定。",
+      "大區沒有民選的政治家。",
+      "由瑞典中央銀行（Riksbanken）決定醫療排隊的長短。"
+    ],
+    "explanationZhHant": "大區有自己的民選議會（regionfullmäktige），選民通過大區選舉選出代表，由他們決定本地區醫療等事務的優先次序。因此醫療預算的去向與區域層面的選舉直接相關。"
   },
   {
     "id": "draft-batch-a-ch03-015",
@@ -435,7 +659,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish governance divides responsibilities between state, regions, and municipalities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典既有中央政府机关，又有市镇地方自治，这说明了什么？",
+    "optionsZh": [
+      "公共部门中的职责被划分到了不同层级和机构之间。",
+      "所有公共决定都由同一个地方办事处作出。",
+      "市镇不得在其任何自有领域作出决定。",
+      "中央政府机关在市镇选举中直接选出。"
+    ],
+    "explanationZh": "瑞典实行多层级的治理：国家、大区和市镇各司其职，中央政府机关执行全国性任务，市镇和大区则在本地/区域事务上享有自治。职责在不同层级间的划分，是瑞典公共行政的基本结构。",
+    "questionZhHant": "瑞典既有中央政府機關，又有市鎮地方自治，這說明了什麼？",
+    "optionsZhHant": [
+      "公共部門中的職責被劃分到了不同層級和機構之間。",
+      "所有公共決定都由同一個地方辦事處作出。",
+      "市鎮不得在其任何自有領域作出決定。",
+      "中央政府機關在市鎮選舉中直接選出。"
+    ],
+    "explanationZhHant": "瑞典實行多層級的治理：國家、大區和市鎮各司其職，中央政府機關執行全國性任務，市鎮和大區則在本地/區域事務上享有自治。職責在不同層級間的劃分，是瑞典公共行政的基本結構。"
   },
   {
     "id": "draft-batch-d-ch03-001",
@@ -465,7 +705,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipal self-government includes local priorities and budgets.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个市镇希望通过缩短图书馆开放时间来节省开支。为什么这是一个市政政治议题？",
+    "optionsZh": [
+      "市镇负责许多本地事务，并对其预算作出优先安排。",
+      "大区决定所有本地图书馆的开放时间。",
+      "瑞典中央银行批准每一项市镇节省措施。",
+      "由欧盟决定每个市镇的文化供给。"
+    ],
+    "explanationZh": "图书馆等本地文化设施属于市镇职责范围。市镇在其预算内自行决定资源如何分配，因此开放时间长短是本地民主政治需要权衡的优先事项。",
+    "questionZhHant": "一個市鎮希望通過縮短圖書館開放時間來節省開支。為什麼這是一個市政政治議題？",
+    "optionsZhHant": [
+      "市鎮負責許多本地事務，並對其預算作出優先安排。",
+      "大區決定所有本地圖書館的開放時間。",
+      "瑞典中央銀行批準每一項市鎮節省措施。",
+      "由歐盟決定每個市鎮的文化供給。"
+    ],
+    "explanationZhHant": "圖書館等本地文化設施屬於市鎮職責範圍。市鎮在其預算內自行決定資源如何分配，因此開放時間長短是本地民主政治需要權衡的優先事項。"
   },
   {
     "id": "draft-batch-d-ch03-002",
@@ -495,7 +751,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Government sets direction and authorities implement public tasks within the legal framework.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "政府与政府机关在实践中区别何在？",
+    "optionsZh": [
+      "政府治理国家，而政府机关依照法律与职责说明书执行各项任务。",
+      "政府机关撰写基本法，政府私下遵守。",
+      "政府审判刑事案件，而政府机关选举国会。",
+      "没有区别；所有决定都出自同一个办事处。"
+    ],
+    "explanationZh": "政府负责确定政治方向、领导国家，并通过部委准备政策；政府机关则在法律框架内具体执行公共任务（如发放许可、提供社保）。二者角色不同：一个是政治领导，一个是依法实施。",
+    "questionZhHant": "政府與政府機關在實踐中區別何在？",
+    "optionsZhHant": [
+      "政府治理國家，而政府機關依照法律與職責說明書執行各項任務。",
+      "政府機關撰寫基本法，政府私下遵守。",
+      "政府審判刑事案件，而政府機關選舉國會。",
+      "沒有區別；所有決定都出自同一個辦事處。"
+    ],
+    "explanationZhHant": "政府負責確定政治方向、領導國家，並通過部委準備政策；政府機關則在法律框架內具體執行公共任務（如發放許可、提供社會保險）。二者角色不同：一個是政治領導，一個是依法實施。"
   },
   {
     "id": "draft-batch-d-ch03-003",
@@ -525,7 +797,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Riksdag decides the state budget and can limit government policy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "政府希望推行一项改革，但国会拒绝为其拨款。这说明了什么？",
+    "optionsZh": [
+      "国会对国家预算拥有核心权力。",
+      "政府总能不经国会决定就借款。",
+      "市镇自动为国家改革买单。",
+      "由法院决定哪些改革能够获得预算。"
+    ],
+    "explanationZh": "国家预算由国会决定。即便是政府提出的改革，若国会不支持其拨款，也无法施行。这体现了国会在财政上的核心地位，也构成对政府政策的制约。",
+    "questionZhHant": "政府希望推行一項改革，但國會拒絕為其撥款。這說明了什麼？",
+    "optionsZhHant": [
+      "國會對國家預算擁有核心權力。",
+      "政府總能不經國會決定就借款。",
+      "市鎮自動為國家改革買單。",
+      "由法院決定哪些改革能夠獲得預算。"
+    ],
+    "explanationZhHant": "國家預算由國會決定。即便是政府提出的改革，若國會不支持其撥款，也無法施行。這體現了國會在財政上的核心地位，也構成對政府政策的制約。"
   },
   {
     "id": "draft-ch03-001",
@@ -555,7 +843,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Riksdag is Sweden’s parliament. It makes laws, decides the state budget, and checks the government.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典国会（Riksdagen）的主要任务是什么？",
+    "optionsZh": [
+      "制定法律并决定国家预算。",
+      "审判刑事案件。",
+      "领导市镇的日常工作。",
+      "管控媒体可以发布哪些新闻。"
+    ],
+    "explanationZh": "瑞典国会是国家议会，拥有立法权，制定法律、批准国家预算，并对政府进行监督。审判犯罪由独立的法院负责，不属于国会职能。",
+    "questionZhHant": "瑞典國會（Riksdagen）的主要任務是什麼？",
+    "optionsZhHant": [
+      "制定法律並決定國家預算。",
+      "審判刑事案件。",
+      "領導市鎮的日常工作。",
+      "管控媒體可以發布哪些新聞。"
+    ],
+    "explanationZhHant": "瑞典國會是國家議會，擁有立法權，制定法律、批準國家預算，並對政府進行監督。審判犯罪由獨立的法院負責，不屬於國會職能。"
   },
   {
     "id": "draft-ch03-002",
@@ -585,7 +889,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Voters elect the Riksdag. The government governs, but it depends on parliamentary support or tolerance.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典国会与政府之间一个重要的区别是什么？",
+    "optionsZh": [
+      "国会决定法律，而政府治理国家并落实国会的决定。",
+      "政府撰写判决书，而国会领导法院。",
+      "国会直接管理医疗，而政府选举市议会。",
+      "政府由选民在单独的大选（政府选举）中直接选出。"
+    ],
+    "explanationZh": "选民选举国会议员，国会掌握立法权；政府则由国会程序产生，负责日常施政并执行国会通过的法律。政府依赖国会的支持（或容忍）才能执政，并非由选民直接单独选出。",
+    "questionZhHant": "瑞典國會與政府之間一個重要的區別是什麼？",
+    "optionsZhHant": [
+      "國會決定法律，而政府治理國家並落實國會的決定。",
+      "政府撰寫判決書，而國會領導法院。",
+      "國會直接管理醫療，而政府選舉市議會。",
+      "政府由選民在單獨的大選（政府選舉）中直接選出。"
+    ],
+    "explanationZhHant": "選民選舉國會議員，國會掌握立法權；政府則由國會程序產生，負責日常施政並執行國會通過的法律。政府依賴國會的支持（或容忍）才能執政，並非由選民直接單獨選出。"
   },
   {
     "id": "draft-ch03-003",
@@ -615,7 +935,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "In Sweden, forming a government is handled through the Riksdag. The Speaker has a key role in proposing a prime minister.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典的首相（statsminister）是如何产生的？",
+    "optionsZh": [
+      "由议长（Talmannen）提议一位首相人选，交由国会表决。",
+      "由国王自行决定选择首相。",
+      "由最高法院在选举后任命首相。",
+      "由各市议会在市镇层面投票选出首相。"
+    ],
+    "explanationZh": "瑞典组建政府通过国会进行。选举后，议长（Talmannen）与党魁磋商，向国会提出首相人选；国会若不反对，该人即出任首相并组建政府。国王在形式上无此实权。",
+    "questionZhHant": "瑞典的首相（statsminister）是如何產生的？",
+    "optionsZhHant": [
+      "由議長（Talmannen）提議一位首相人選，交由國會表決。",
+      "由國王自行決定選擇首相。",
+      "由最高法院在選舉後任命首相。",
+      "由各市議會在市鎮層面投票選出首相。"
+    ],
+    "explanationZhHant": "瑞典組建政府通過國會進行。選舉後，議長（Talmannen）與黨魁磋商，向國會提出首相人選；國會若不反對，該人即出任首相並組建政府。國王在形式上無此實權。"
   },
   {
     "id": "draft-ch03-004",
@@ -645,7 +981,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Coalitions, cooperation, and tolerance agreements can be needed when no party has a majority.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "选举之后，没有任何一个政党取得单独多数。这在瑞典议会制中最典型的情况是什么？",
+    "optionsZh": [
+      "各政党进行谈判，以便找到一届国会能够容忍的政府。",
+      "由法院决定哪些政党应当组阁。",
+      "由国王接管政府职责，直到下届选举。",
+      "所有市镇必须分别批准首相人选。"
+    ],
+    "explanationZh": "瑞典几乎没有政党能单独获得多数。通常需要多个政党通过谈判、结成联盟或达成“容忍协议”（toleransavtal），组建一届能为国会所接受的政府。这是议会制的常态。",
+    "questionZhHant": "選舉之後，沒有任何一個政黨取得單獨多數。這在瑞典議會制中最典型的情況是什麼？",
+    "optionsZhHant": [
+      "各政黨進行談判，以便找到一屆國會能夠容忍的政府。",
+      "由法院決定哪些政黨應當組閣。",
+      "由國王接管政府職責，直到下屆選舉。",
+      "所有市鎮必須分別批準首相人選。"
+    ],
+    "explanationZhHant": "瑞典幾乎沒有政黨能單獨獲得多數。通常需要多個政黨通過談判、結成聯盟或達成“容忍協議”（toleransavtal），組建一屆能為國會所接受的政府。這是議會制的常態。"
   },
   {
     "id": "draft-ch03-005",
@@ -675,7 +1027,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The government consists of the prime minister and ministers who lead different policy areas.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "政府由什么组成？",
+    "optionsZh": [
+      "首相及其他大臣。",
+      "国会的全体议员。",
+      "所有市政委员会的主席。",
+      "来自瑞典法院的法官。"
+    ],
+    "explanationZh": "瑞典政府由首相和各位大臣（statsråd）组成，各位大臣分别主管不同政策领域（如财政、外交、教育等）。",
+    "questionZhHant": "政府由什麼組成？",
+    "optionsZhHant": [
+      "首相及其他大臣。",
+      "國會的全體議員。",
+      "所有市政委員會的主席。",
+      "來自瑞典法院的法官。"
+    ],
+    "explanationZhHant": "瑞典政府由首相和各位大臣（statsråd）組成，各位大臣分別主管不同政策領域（如財政、外交、教育等）。"
   },
   {
     "id": "draft-ch03-006",
@@ -705,7 +1073,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The government has executive responsibility, but it must work within laws and budget decisions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“政府治理国家”是什么意思？",
+    "optionsZh": [
+      "政府领导国家事务，并确保国会通过的决定得到执行。",
+      "政府裁决个人之间的纠纷。",
+      "政府自行选择所有国会议员。",
+      "政府总是可以不顾法律和预算自行决定。"
+    ],
+    "explanationZh": "政府承担行政责任，领导国家日常运转，落实国会立法与预算。但政府必须在法律和预算框架内行事，不能凌驾于法律之上。",
+    "questionZhHant": "“政府治理國家”是什麼意思？",
+    "optionsZhHant": [
+      "政府領導國家事務，並確保國會通過的決定得到執行。",
+      "政府裁決個人之間的糾紛。",
+      "政府自行選擇所有國會議員。",
+      "政府總是可以不顧法律和預算自行決定。"
+    ],
+    "explanationZhHant": "政府承擔行政責任，領導國家日常運轉，落實國會立法與預算。但政府必須在法律和預算框架內行事，不能凌駕於法律之上。"
   },
   {
     "id": "draft-ch03-007",
@@ -735,7 +1119,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish administration separates political steering from individual case handling to protect legality and objectivity.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位大臣想亲自去更改某个政府机关在一项具体个案中的决定。为什么这可能成问题？",
+    "optionsZh": [
+      "政府机关应当依照法律和客观性原则作决定，而不应在具体个案中听从大臣的个人指令。",
+      "大臣永远不得对政治发表看法。",
+      "政府机关始终凌驾于一切法律之上。",
+      "国会必须事先批准每一个政府机关的决定。"
+    ],
+    "explanationZh": "瑞典行政强调“政治领导”与“个案处理”分离。大臣可以对机关下达政策方向的指示，但不能干预具体个案的裁决结果（即不得搞“大臣统治”/ministerstyre），以保障依法、客观行政。",
+    "questionZhHant": "一位大臣想親自去更改某個政府機關在一項具體個案中的決定。為什麼這可能成問題？",
+    "optionsZhHant": [
+      "政府機關應當依照法律和客觀性原則作決定，而不應在具體個案中聽從大臣的個人指令。",
+      "大臣永遠不得對政治發表看法。",
+      "政府機關始終凌駕於一切法律之上。",
+      "國會必須事先批準每一個政府機關的決定。"
+    ],
+    "explanationZhHant": "瑞典行政強調“政治領導”與“個案處理”分離。大臣可以對機關下達政策方向的指示，但不能幹預具體個案的裁決結果（即不得搞“大臣統治”/ministerstyre），以保障依法、客觀行政。"
   },
   {
     "id": "draft-ch03-008",
@@ -764,7 +1164,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Authorities carry out public tasks such as administration, supervision, and services under the law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "中央政府机关（statliga myndigheter）承担什么角色？",
+    "optionsZh": [
+      "它们在各自职责范围内执行法律和各项决定。",
+      "当选举结果不明时，它们取代国会。",
+      "每次选举后，它们选择执政党。",
+      "它们决定哪些公民可以阅读新闻。"
+    ],
+    "explanationZh": "政府机关是依法设立、执行公共任务的机构，负责行政管理、监督与公共服务（如税务、社保、移民等），在法律框架内独立开展工作。",
+    "questionZhHant": "中央政府機關（statliga myndigheter）承擔什麼角色？",
+    "optionsZhHant": [
+      "它們在各自職責範圍內執行法律和各項決定。",
+      "當選舉結果不明時，它們取代國會。",
+      "每次選舉後，它們選擇執政黨。",
+      "它們決定哪些公民可以閱讀新聞。"
+    ],
+    "explanationZhHant": "政府機關是依法設立、執行公共任務的機構，負責行政管理、監督與公共服務（如稅務、社會保險、移民等），在法律框架內獨立開展工作。"
   },
   {
     "id": "draft-ch03-009",
@@ -793,7 +1209,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipalities handle many services close to everyday life, within national laws.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "市镇通常负责哪些事务？",
+    "optionsZh": [
+      "学校、养老和市政社保等地方事务。",
+      "瑞典的外交政策。",
+      "法院对刑事案件的判决。",
+      "决定哪些政党可以参加议会选举。"
+    ],
+    "explanationZh": "市镇负责许多贴近日常生活的公共服务，如学校、幼儿教育、养老、社会救助等，但都必须在国家法律框架内运行。外交与司法不属于市镇职责。",
+    "questionZhHant": "市鎮通常負責哪些事務？",
+    "optionsZhHant": [
+      "學校、養老和市政社會保險等地方事務。",
+      "瑞典的外交政策。",
+      "法院對刑事案件的判決。",
+      "決定哪些政黨可以參加議會選舉。"
+    ],
+    "explanationZhHant": "市鎮負責許多貼近日常生活的公共服務，如學校、幼兒教育、養老、社會救助等，但都必須在國家法律框架內運行。外交與司法不屬於市鎮職責。"
   },
   {
     "id": "draft-ch03-010",
@@ -823,7 +1255,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Local self-government gives local elected bodies responsibility, but not unlimited power.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“市镇地方自治”（kommunalt självstyre）是什么意思？",
+    "optionsZh": [
+      "市镇可以在法律框架内，就许多地方事务自主作出决定。",
+      "市镇永远无需遵守瑞典法律。",
+      "市镇在每次选举后选择首相。",
+      "市镇可以在本地废除国会。"
+    ],
+    "explanationZh": "地方自治意味着由本地民选机构自行决定地方事务，但权力并非无限——必须在国家法律范围内行使，且同样受民主与法律监督。",
+    "questionZhHant": "“市鎮地方自治”（kommunalt självstyre）是什麼意思？",
+    "optionsZhHant": [
+      "市鎮可以在法律框架內，就許多地方事務自主作出決定。",
+      "市鎮永遠無需遵守瑞典法律。",
+      "市鎮在每次選舉後選擇首相。",
+      "市鎮可以在本地廢除國會。"
+    ],
+    "explanationZhHant": "地方自治意味着由本地民選機構自行決定地方事務，但權力並非無限——必須在國家法律範圍內行使，且同樣受民主與法律監督。"
   },
   {
     "id": "draft-ch03-011",
@@ -853,7 +1301,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Elderly care is a typical municipal responsibility, financed and prioritized through local democratic decisions within law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个市镇希望在预算中为养老护理分配更多资源。主要由哪个民主层级负责？",
+    "optionsZh": [
+      "市镇，通过市议会和市镇层面的决策。",
+      "大区，因为大区议会决定一切养老事务。",
+      "国家，因为政府决定每个市镇的养老预算。",
+      "省行政委员会（länsstyrelsen），因为它优先安排市镇的照护事务。"
+    ],
+    "explanationZh": "养老护理是市镇的典型职责，由市镇通过民主程序在法定范围内筹资并决定优先次序。国家定法律框架，但不逐项为市镇决定预算。",
+    "questionZhHant": "一個市鎮希望在預算中為養老護理分配更多資源。主要由哪個民主層級負責？",
+    "optionsZhHant": [
+      "市鎮，通過市議會和市鎮層面的決策。",
+      "大區，因為大區議會決定一切養老事務。",
+      "國家，因為政府決定每個市鎮的養老預算。",
+      "省行政委員會（länsstyrelsen），因為它優先安排市鎮的照護事務。"
+    ],
+    "explanationZhHant": "養老護理是市鎮的典型職責，由市鎮通過民主程序在法定範圍內籌資並決定優先次序。國家定法律框架，但不逐項為市鎮決定預算。"
   },
   {
     "id": "draft-ch03-012",
@@ -882,7 +1346,15 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Regions are elected regional bodies with responsibilities such as healthcare and often public transport.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "大区通常负责哪些事务？",
+    "optionsZh": [
+      "医疗保健和公共交通。",
+      "撰写瑞典的基本法。",
+      "选举所有市议会。",
+      "在地区法院审判刑事案件。"
+    ],
+    "explanationZh": "大区是民选的区域层级，主要承担医疗保健，通常也负责区域公共交通等事务。基本法由国会制定，司法由法院负责。"
   },
   {
     "id": "draft-ch03-013",
@@ -912,7 +1384,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Both are elected levels, but they have different responsibilities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "关于市镇与大区的区别，哪一项最准确？",
+    "optionsZh": [
+      "市镇通常负责本地福利服务，大区通常负责医疗。",
+      "市镇掌管外交，大区制定基本法。",
+      "大区选举国会，市镇选举法院。",
+      "市镇只存在于斯德哥尔摩，大区只存在于乡村。"
+    ],
+    "explanationZh": "市镇和大区都是民选层级，但职责不同：市镇偏重本地福利与服务（学校、养老），大区偏重医疗和区域交通。",
+    "questionZhHant": "關於市鎮與大區的區別，哪一項最準確？",
+    "optionsZhHant": [
+      "市鎮通常負責本地福利服務，大區通常負責醫療。",
+      "市鎮掌管外交，大區制定基本法。",
+      "大區選舉國會，市鎮選舉法院。",
+      "市鎮只存在於斯德哥爾摩，大區只存在於鄉村。"
+    ],
+    "explanationZhHant": "市鎮和大區都是民選層級，但職責不同：市鎮偏重本地福利與服務（學校、養老），大區偏重醫療和區域交通。"
   },
   {
     "id": "draft-ch03-014",
@@ -942,7 +1430,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Healthcare is a central regional responsibility, so regional elections can matter for healthcare policy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "医疗等候时间在选举前成为热议话题。哪个政治层级尤其相关？",
+    "optionsZh": [
+      "大区，因为大区负责大部分医疗事务。",
+      "市镇，因为市镇对医院排队负有主要责任。",
+      "国家，因为政府对所有床位作出操作性决定。",
+      "省行政委员会，因为它掌控大区的医疗预算。"
+    ],
+    "explanationZh": "医疗主要由大区负责，因此区域选举对医疗政策（包括等候时间）有直接影响。市镇、国家和省行政委员会都不直接运营医院排队。",
+    "questionZhHant": "醫療等候時間在選舉前成為熱議話題。哪個政治層級尤其相關？",
+    "optionsZhHant": [
+      "大區，因為大區負責大部分醫療事務。",
+      "市鎮，因為市鎮對醫院排隊負有主要責任。",
+      "國家，因為政府對所有牀位作出操作性決定。",
+      "省行政委員會，因為它掌控大區的醫療預算。"
+    ],
+    "explanationZhHant": "醫療主要由大區負責，因此區域選舉對醫療政策（包括等候時間）有直接影響。市鎮、國家和省行政委員會都不直接運營醫院排隊。"
   },
   {
     "id": "draft-ch03-015",
@@ -972,7 +1476,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Local and regional taxes fund services such as schools, care, healthcare, and transport.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么市镇和大区有权征税？",
+    "optionsZh": [
+      "为了给民主决定的地方与区域事务筹措资金。",
+      "为了让私营企业不用支付工资。",
+      "为了让法院能够选择政府。",
+      "为了让媒体资助政党的竞选活动。"
+    ],
+    "explanationZh": "市镇和大区通过征收地方/区域税，为其民主决定的服务提供资金，如学校、养老、医疗、交通等。税收是地方自治的财政基础。",
+    "questionZhHant": "為什麼市鎮和大區有權徵稅？",
+    "optionsZhHant": [
+      "為了給民主決定的地方與區域事務籌措資金。",
+      "為了讓私營企業不用支付工資。",
+      "為了讓法院能夠選擇政府。",
+      "為了讓媒體資助政黨的競選活動。"
+    ],
+    "explanationZhHant": "市鎮和大區通過徵收地方/區域稅，為其民主決定的服務提供資金，如學校、養老、醫療、交通等。稅收是地方自治的財政基礎。"
   },
   {
     "id": "draft-ch03-016",
@@ -1002,7 +1522,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Budgets turn political priorities into concrete choices, which voters can later evaluate.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么预算决定在民主上很重要？",
+    "optionsZh": [
+      "它们体现了共同资源如何被优先配置，以及谁应当对此负责。",
+      "它们意味着公民不再需要投票。",
+      "它们决定哪些法官可以审理案件。",
+      "它们迫使所有政党意见一致。"
+    ],
+    "explanationZh": "预算把政治优先事项转化为具体的资源分配。选民可以通过预算看清执政者的取舍，并在下次选举中据此问责。预算因此既是政策工具，也是问责依据。",
+    "questionZhHant": "為什麼預算決定在民主上很重要？",
+    "optionsZhHant": [
+      "它們體現了共同資源如何被優先配置，以及誰應當對此負責。",
+      "它們意味着公民不再需要投票。",
+      "它們決定哪些法官可以審理案件。",
+      "它們迫使所有政黨意見一致。"
+    ],
+    "explanationZhHant": "預算把政治優先事項轉化為具體的資源分配。選民可以通過預算看清執政者的取舍，並在下次選舉中據此問責。預算因此既是政策工具，也是問責依據。"
   },
   {
     "id": "draft-ch03-017",
@@ -1031,7 +1567,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden has elected bodies at national, regional, and municipal levels.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典存在哪三个民选层级？",
+    "optionsZh": [
+      "国家、大区和市镇。",
+      "国家、省行政委员会和市镇。",
+      "国会、法院和市镇。",
+      "国家、大区和欧盟委员会。"
+    ],
+    "explanationZh": "瑞典在三个层级设有民选机构：国家（国会）、大区和市镇。省行政委员会是国家的派出机构而非民选层级；法院和欧盟委员会不属于瑞典的民选地方层级。",
+    "questionZhHant": "瑞典存在哪三個民選層級？",
+    "optionsZhHant": [
+      "國家、大區和市鎮。",
+      "國家、省行政委員會和市鎮。",
+      "國會、法院和市鎮。",
+      "國家、大區和歐盟委員會。"
+    ],
+    "explanationZhHant": "瑞典在三個層級設有民選機構：國家（國會）、大區和市鎮。省行政委員會是國家的派出機構而非民選層級；法院和歐盟委員會不屬於瑞典的民選地方層級。"
   },
   {
     "id": "draft-ch03-018",
@@ -1061,7 +1613,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "School resources are largely handled by municipalities, so local democratic channels are relevant.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人希望影响自己所在市镇的学校资源。最合理的起点在哪里？",
+    "optionsZh": [
+      "找市镇政治家，或参与市镇的民主程序。",
+      "找欧盟外交部长。",
+      "找最高法院（但并无具体案件）。",
+      "通过私人信件找国王。"
+    ],
+    "explanationZh": "学校资源主要由市镇负责，因此本地民主渠道（联系市议员、参加市政会议、参与地方选举）最为相关。欧盟、法院和国王都不直接管本地学校预算。",
+    "questionZhHant": "一個人希望影響自己所在市鎮的學校資源。最合理的起點在哪裡？",
+    "optionsZhHant": [
+      "找市鎮政治家，或參與市鎮的民主程序。",
+      "找歐盟外交部長。",
+      "找最高法院（但並無具體案件）。",
+      "通過私人信件找國王。"
+    ],
+    "explanationZhHant": "學校資源主要由市鎮負責，因此本地民主渠道（聯系市議員、參加市政會議、參與地方選舉）最為相關。歐盟、法院和國王都不直接管本地學校預算。"
   },
   {
     "id": "draft-ch03-019",
@@ -1091,7 +1659,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Parliamentary scrutiny is a key part of accountability in a democracy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典国会如何监督政府？",
+    "optionsZh": [
+      "通过提问、辩论、各委员会，以及宪法委员会的审查。",
+      "通过法官就政府受欢迎程度投票。",
+      "通过市镇关闭国会。",
+      "通过禁止媒体报道大臣。"
+    ],
+    "explanationZh": "议会监督是民主问责的关键环节。国会议员可向大臣提问（frågestund）、进行辩论、由专门委员会审议，并由宪法委员会（konstitutionsutskottet）审查政府行为。",
+    "questionZhHant": "瑞典國會如何監督政府？",
+    "optionsZhHant": [
+      "通過提問、辯論、各委員會，以及憲法委員會的審查。",
+      "通過法官就政府受歡迎程度投票。",
+      "通過市鎮關閉國會。",
+      "通過禁止媒體報道大臣。"
+    ],
+    "explanationZhHant": "議會監督是民主問責的關鍵環節。國會議員可向大臣提問（frågestund）、進行辯論、由專門委員會審議，並由憲法委員會（konstitutionsutskottet）審查政府行為。"
   },
   {
     "id": "draft-ch03-020",
@@ -1121,7 +1705,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Members of the Riksdag can use questions and interpellations to scrutinize ministers and make the government answer publicly.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "国会议员如何在两次选举之间追究政府的责任？",
+    "optionsZh": [
+      "通过向大臣提问和质询（interpellation）。",
+      "由议员自己在法院审判大臣。",
+      "通过接管政府机关的具体个案。",
+      "通过不经表决改写基本法。"
+    ],
+    "explanationZh": "国会议员可动用口头提问（frågor）和正式质询（interpellationer）等工具，要求大臣公开说明并答辩，借此在任期内持续监督政府。",
+    "questionZhHant": "國會議員如何在兩次選舉之間追究政府的責任？",
+    "optionsZhHant": [
+      "通過向大臣提問和質詢（interpellation）。",
+      "由議員自己在法院審判大臣。",
+      "通過接管政府機關的具體個案。",
+      "通過不經表決改寫基本法。"
+    ],
+    "explanationZhHant": "國會議員可動用口頭提問（frågor）和正式質詢（interpellationer）等工具，要求大臣公開說明並答辯，借此在任期內持續監督政府。"
   },
   {
     "id": "draft-ch03-021",
@@ -1150,7 +1750,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Speaker leads the work of the Riksdag and has a central role after elections.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典国会的议长（主席）称为什么？",
+    "optionsZh": [
+      "议长（Talmannen）。",
+      "首相（statsminister）。",
+      "司法大臣（Justitiekanslern）。",
+      "市政委员（kommunalrådet）。"
+    ],
+    "explanationZh": "议长（Talmannen）主持国会工作，并在选举后组建政府过程中扮演核心角色。注意它不同于首相和地方政府职务。",
+    "questionZhHant": "瑞典國會的議長（主席）稱為什麼？",
+    "optionsZhHant": [
+      "議長（Talmannen）。",
+      "首相（statsminister）。",
+      "司法大臣（Justitiekanslern）。",
+      "市政委員（kommunalrådet）。"
+    ],
+    "explanationZhHant": "議長（Talmannen）主持國會工作，並在選舉後組建政府過程中扮演核心角色。注意它不同於首相和地方政府職務。"
   },
   {
     "id": "draft-ch03-022",
@@ -1180,7 +1796,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Speaker talks with party leaders and proposes a prime minister to the Riksdag.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么议长在议会选举后很重要？",
+    "optionsZh": [
+      "议长主持提出首相人选的工作。",
+      "议长在家里亲自清点所有选票。",
+      "议长选择哪些判决生效。",
+      "议长决定所有市镇的税率。"
+    ],
+    "explanationZh": "选举后，议长与党魁磋商，向国会提议首相人选。议长是组建政府程序中的中立协调者。",
+    "questionZhHant": "為什麼議長在議會選舉後很重要？",
+    "optionsZhHant": [
+      "議長主持提出首相人選的工作。",
+      "議長在家裡親自清點所有選票。",
+      "議長選擇哪些判決生效。",
+      "議長決定所有市鎮的稅率。"
+    ],
+    "explanationZhHant": "選舉後，議長與黨魁磋商，向國會提議首相人選。議長是組建政府程序中的中立協調者。"
   },
   {
     "id": "draft-ch03-023",
@@ -1210,7 +1842,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Government formation needs legitimacy, so the Speaker’s role must be trusted and tied to parliamentary support.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在组建政府时，为什么议长保持公正中立很重要？",
+    "optionsZh": [
+      "组建过程应当基于国会的组成，而非议长个人的政党偏好。",
+      "议长应当始终偏袒自己原先所属的政党。",
+      "若选举结果难解，议长应取代选民。",
+      "议长应亲自撰写政府政策。"
+    ],
+    "explanationZh": "组建政府需要合法性。议长虽可能来自某党，但其职责是依国会构成推动组阁，而非按个人政党立场行事，这样才能让结果获得广泛信任。",
+    "questionZhHant": "在組建政府時，為什麼議長保持公正中立很重要？",
+    "optionsZhHant": [
+      "組建過程應當基於國會的組成，而非議長個人的政黨偏好。",
+      "議長應當始終偏袒自己原先所屬的政黨。",
+      "若選舉結果難解，議長應取代選民。",
+      "議長應親自撰寫政府政策。"
+    ],
+    "explanationZhHant": "組建政府需要合法性。議長雖可能來自某黨，但其職責是依國會構成推動組閣，而非按個人政黨立場行事，這樣才能讓結果獲得廣泛信任。"
   },
   {
     "id": "draft-ch03-024",
@@ -1239,7 +1887,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Committees work with matters before the Riksdag makes decisions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典国会的各委员会（utskott）做什么？",
+    "optionsZh": [
+      "它们在不同的事务领域里审议和准备议题与提案。",
+      "它们审判刑事案件。",
+      "它们选择市镇的教育主管。",
+      "它们审查私人家庭的经济状况。"
+    ],
+    "explanationZh": "委员会由国会议员组成，按领域（如财政、宪法、卫生）分工，在国会全体表决前对事项进行审议和准备，是立法准备的重要环节。",
+    "questionZhHant": "瑞典國會的各委員會（utskott）做什麼？",
+    "optionsZhHant": [
+      "它們在不同的事務領域裡審議和準備議題與提案。",
+      "它們審判刑事案件。",
+      "它們選擇市鎮的教育主管。",
+      "它們審查私人家庭的經濟狀況。"
+    ],
+    "explanationZhHant": "委員會由國會議員組成，按領域（如財政、憲法、衛生）分工，在國會全體表決前對事項進行審議和準備，是立法準備的重要環節。"
   },
   {
     "id": "draft-ch03-025",
@@ -1269,7 +1933,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Committee work helps parliament examine proposals more carefully before final decisions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么法律提案在国会表决前通常要经过委员会审议？",
+    "optionsZh": [
+      "为了让议员能够审查细节并为表决做好准备。",
+      "为了让选民无从得知讨论内容。",
+      "为了让法院可以不必遵守法律。",
+      "为了让政府可以避开国会。"
+    ],
+    "explanationZh": "委员会审议使议员能在正式表决前仔细审查提案细节、听取专家和相关方面意见，从而提高立法质量。",
+    "questionZhHant": "為什麼法律提案在國會表決前通常要經過委員會審議？",
+    "optionsZhHant": [
+      "為了讓議員能夠審查細節並為表決做好準備。",
+      "為了讓選民無從得知討論內容。",
+      "為了讓法院可以不必遵守法律。",
+      "為了讓政府可以避開國會。"
+    ],
+    "explanationZhHant": "委員會審議使議員能在正式表決前仔細審查提案細節、聽取專家和相關方面意見，從而提高立法質量。"
   },
   {
     "id": "draft-ch03-026",
@@ -1298,7 +1978,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Riksdag is Sweden’s law-making parliament.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，谁制定法律？",
+    "optionsZh": [
+      "瑞典国会（Riksdagen）。",
+      "国王一人。",
+      "每个政府机关（不受限制）。",
+      "私营银行。"
+    ],
+    "explanationZh": "立法权属于国会。国王是象征性国家元首，无立法权；政府机关只能依法执行，不能自行立法。",
+    "questionZhHant": "在瑞典，誰制定法律？",
+    "optionsZhHant": [
+      "瑞典國會（Riksdagen）。",
+      "國王一人。",
+      "每個政府機關（不受限制）。",
+      "私營銀行。"
+    ],
+    "explanationZhHant": "立法權屬於國會。國王是象徵性國家元首，無立法權；政府機關只能依法執行，不能自行立法。"
   },
   {
     "id": "draft-ch03-027",
@@ -1328,7 +2024,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The government often prepares proposals, but the Riksdag decides on laws.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "政府在立法过程中可以扮演什么角色？",
+    "optionsZh": [
+      "政府可以向国会提交载有法律提案的法案（proposition）。",
+      "政府在每起案件后裁决法律是否正确。",
+      "政府在国会中以 349 票投票。",
+      "政府可以绕过国会废除基本法。"
+    ],
+    "explanationZh": "政府通常是法律提案的发起者，通过部委准备并向国会提交法案；但法律的最终通过与修改权在国会，政府不能自行立法或废法。",
+    "questionZhHant": "政府在立法過程中可以扮演什麼角色？",
+    "optionsZhHant": [
+      "政府可以向國會提交載有法律提案的法案（proposition）。",
+      "政府在每起案件後裁決法律是否正確。",
+      "政府在國會中以 349 票投票。",
+      "政府可以繞過國會廢除基本法。"
+    ],
+    "explanationZhHant": "政府通常是法律提案的發起者，通過部委準備並向國會提交法案；但法律的最終通過與修改權在國會，政府不能自行立法或廢法。"
   },
   {
     "id": "draft-ch03-028",
@@ -1358,7 +2070,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Consultation can improve decision-making by gathering knowledge and viewpoints before laws are finalized.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一项新法律提案会影响许多人。为什么提案常被送交“征询意见”（remiss）？",
+    "optionsZh": [
+      "为了让政府机关、组织和其他方面在决定前提出意见。",
+      "为了回避一切公共讨论。",
+      "为了让法院对政党投票。",
+      "为了让市镇能够违反基本法。"
+    ],
+    "explanationZh": "“征询意见”（remiss）是瑞典立法前的惯例：政府把提案发给相关机关、地方政府、利益团体等，征集看法。这能在法律定稿前汇聚知识与不同视角，提升决策质量。",
+    "questionZhHant": "一項新法律提案會影響許多人。為什麼提案常被送交“徵詢意見”（remiss）？",
+    "optionsZhHant": [
+      "為了讓政府機關、組織和其他方面在決定前提出意見。",
+      "為了回避一切公共討論。",
+      "為了讓法院對政黨投票。",
+      "為了讓市鎮能夠違反基本法。"
+    ],
+    "explanationZhHant": "“徵詢意見”（remiss）是瑞典立法前的慣例：政府把提案發給相關機關、地方政府、利益團體等，徵集看法。這能在法律定稿前彙聚知識與不同視角，提升決策質量。"
   },
   {
     "id": "draft-ch03-029",
@@ -1387,7 +2115,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden is a constitutional monarchy. The monarch has ceremonial duties, while political power is democratic.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "国王在当今瑞典国家体制中扮演什么角色？",
+    "optionsZh": [
+      "国王是象征性的国家元首，但没有治理国家的政治权力。",
+      "国王凭自己意愿选择政府。",
+      "国王撰写所有法律。",
+      "国王领导法院。"
+    ],
+    "explanationZh": "瑞典是君主立宪制（konstitutionell monarki）。国王作为国家元首主要履行礼仪性职责，实际政治权力属于民选机构。",
+    "questionZhHant": "國王在當今瑞典國家體制中扮演什麼角色？",
+    "optionsZhHant": [
+      "國王是象徵性的國家元首，但沒有治理國家的政治權力。",
+      "國王憑自己意願選擇政府。",
+      "國王撰寫所有法律。",
+      "國王領導法院。"
+    ],
+    "explanationZhHant": "瑞典是君主立憲制（konstitutionell monarki）。國王作為國家元首主要履行禮儀性職責，實際政治權力屬於民選機構。"
   },
   {
     "id": "draft-ch03-030",
@@ -1417,7 +2161,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden has a monarch as head of state, but democratic institutions make political decisions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人认为，既然瑞典是君主制，就由国王统治。最好的回答是什么？",
+    "optionsZh": [
+      "瑞典是一个议会制民主国家，政治由民选机构治理。",
+      "没错，国王决定政府的政策。",
+      "国王主持国会的所有表决。",
+      "君主制意味着选举毫无作用。"
+    ],
+    "explanationZh": "瑞典虽有君主作为国家元首，但它是议会制民主国家。国王不掌握实权，政治决策由民选的国会和政府作出。",
+    "questionZhHant": "有人認為，既然瑞典是君主制，就由國王統治。最好的回答是什麼？",
+    "optionsZhHant": [
+      "瑞典是一個議會制民主國家，政治由民選機構治理。",
+      "沒錯，國王決定政府的政策。",
+      "國王主持國會的所有表決。",
+      "君主制意味着選舉毫無作用。"
+    ],
+    "explanationZhHant": "瑞典雖有君主作為國家元首，但它是議會制民主國家。國王不掌握實權，政治決策由民選的國會和政府作出。"
   },
   {
     "id": "draft-ch03-031",
@@ -1447,7 +2207,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "As an EU member, Sweden shares decision-making in some areas and must follow applicable EU law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "欧盟如何影响瑞典的治理？",
+    "optionsZh": [
+      "瑞典参与欧盟，并在某些领域受到欧盟规则的约束。",
+      "欧盟取代瑞典所有市镇。",
+      "欧盟选择瑞典首相。",
+      "欧盟禁止瑞典议会选举。"
+    ],
+    "explanationZh": "作为欧盟成员国，瑞典在若干领域（如贸易、环境、内部市场）与欧盟共享决策权，并须遵守适用的欧盟法。但瑞典本国、区域和地方民主依然保留。",
+    "questionZhHant": "歐盟如何影響瑞典的治理？",
+    "optionsZhHant": [
+      "瑞典參與歐盟，並在某些領域受到歐盟規則的約束。",
+      "歐盟取代瑞典所有市鎮。",
+      "歐盟選擇瑞典首相。",
+      "歐盟禁止瑞典議會選舉。"
+    ],
+    "explanationZhHant": "作為歐盟成員國，瑞典在若幹領域（如貿易、環境、內部市場）與歐盟共享決策權，並須遵守適用的歐盟法。但瑞典本國、區域和地方民主依然保留。"
   },
   {
     "id": "draft-ch03-032",
@@ -1477,7 +2253,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "EU law can take precedence in relevant areas, but Sweden still has national, regional, and local democracy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一项瑞典法律因与有约束力的欧盟规则相冲突而必须修改。这说明了什么？",
+    "optionsZh": [
+      "欧盟成员身份在欧盟拥有职权的领域会影响瑞典法律。",
+      "欧盟总是决定所有本地学校事务。",
+      "瑞典不再拥有自己的选举。",
+      "市镇可以无视瑞典法律和欧盟法律。"
+    ],
+    "explanationZh": "在欧盟享有职权的领域，欧盟法具有优先效力，瑞典法律若与之冲突必须调整。但这并不否定瑞典在其它事务上的国家、区域与地方民主。",
+    "questionZhHant": "一項瑞典法律因與有約束力的歐盟規則相衝突而必須修改。這說明了什麼？",
+    "optionsZhHant": [
+      "歐盟成員身份在歐盟擁有職權的領域會影響瑞典法律。",
+      "歐盟總是決定所有本地學校事務。",
+      "瑞典不再擁有自己的選舉。",
+      "市鎮可以無視瑞典法律和歐盟法律。"
+    ],
+    "explanationZhHant": "在歐盟享有職權的領域，歐盟法具有優先效力，瑞典法律若與之衝突必須調整。但這並不否定瑞典在其它事務上的國家、區域與地方民主。"
   },
   {
     "id": "draft-ch03-033",
@@ -1506,7 +2298,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "County administrative boards are state authorities at regional level, different from elected regions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "省行政委员会（länsstyrelsen）承担什么职责？",
+    "optionsZh": [
+      "在区域层面代表国家，并协调本省内某些国家事务。",
+      "作为大区的民选议会。",
+      "审判所有市镇的刑事案件。",
+      "选举欧洲议会议员。"
+    ],
+    "explanationZh": "省行政委员会是设在大区层面的国家行政机关（由国家任命领导），负责在地方代表并协调国家事务。它与民选的大区不同，并非议会。",
+    "questionZhHant": "省行政委員會（länsstyrelsen）承擔什麼職責？",
+    "optionsZhHant": [
+      "在區域層面代表國家，並協調本省內某些國家事務。",
+      "作為大區的民選議會。",
+      "審判所有市鎮的刑事案件。",
+      "選舉歐洲議會議員。"
+    ],
+    "explanationZhHant": "省行政委員會是設在大區層面的國家行政機關（由國家任命領導），負責在地方代表並協調國家事務。它與民選的大區不同，並非議會。"
   },
   {
     "id": "draft-ch03-034",
@@ -1536,7 +2344,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "This distinction matters because elected regional politics and state administration have different roles.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "大区与省行政委员会的一个重要区别是什么？",
+    "optionsZh": [
+      "大区是民选的，而省行政委员会是国家机关。",
+      "省行政委员会在市镇选举中选出，大区由国王任命。",
+      "大区在法院审判，省行政委员会制定法律。",
+      "没有区别。"
+    ],
+    "explanationZh": "大区由选民选出，体现地方民主；省行政委员会则是国家的派出行政机关。二者角色不同：一个是民主自治，一个是国家行政。",
+    "questionZhHant": "大區與省行政委員會的一個重要區別是什麼？",
+    "optionsZhHant": [
+      "大區是民選的，而省行政委員會是國家機關。",
+      "省行政委員會在市鎮選舉中選出，大區由國王任命。",
+      "大區在法院審判，省行政委員會制定法律。",
+      "沒有區別。"
+    ],
+    "explanationZhHant": "大區由選民選出，體現地方民主；省行政委員會則是國家的派出行政機關。二者角色不同：一個是民主自治，一個是國家行政。"
   },
   {
     "id": "draft-ch03-035",
@@ -1565,7 +2389,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipal councils are elected by local voters and decide major municipal matters.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "市镇的最高决策机构叫什么？",
+    "optionsZh": [
+      "市议会（kommunfullmäktige）。",
+      "瑞典中央银行（Riksbanken）。",
+      "最高法院。",
+      "政府办公厅（Regeringskansliet）。"
+    ],
+    "explanationZh": "市议会由本地选民选举产生，决定市镇重大事务。中央银行、最高法院和政府办公厅都与之无关。",
+    "questionZhHant": "市鎮的最高決策機構叫什麼？",
+    "optionsZhHant": [
+      "市議會（kommunfullmäktige）。",
+      "瑞典中央銀行（Riksbanken）。",
+      "最高法院。",
+      "政府辦公廳（Regeringskansliet）。"
+    ],
+    "explanationZhHant": "市議會由本地選民選舉產生，決定市鎮重大事務。中央銀行、最高法院和政府辦公廳都與之無關。"
   },
   {
     "id": "draft-ch03-036",
@@ -1594,7 +2434,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Regional councils are elected and decide regional matters such as healthcare priorities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "大区的最高决策机构叫什么？",
+    "optionsZh": [
+      "大区议会（regionfullmäktige）。",
+      "市政委员会（kommunstyrelsen）。",
+      "国会议长会议。",
+      "欧盟委员会驻瑞典机构。"
+    ],
+    "explanationZh": "大区议会由区域选民选举产生，决定大区事务（如医疗优先次序）。市政委员会属市镇层级，其余两项也无关。",
+    "questionZhHant": "大區的最高決策機構叫什麼？",
+    "optionsZhHant": [
+      "大區議會（regionfullmäktige）。",
+      "市政委員會（kommunstyrelsen）。",
+      "國會議長會議。",
+      "歐盟委員會駐瑞典機構。"
+    ],
+    "explanationZhHant": "大區議會由區域選民選舉產生，決定大區事務（如醫療優先次序）。市政委員會屬市鎮層級，其餘兩項也無關。"
   },
   {
     "id": "draft-ch03-037",
@@ -1624,7 +2480,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public transport is often a regional responsibility, so regional politics is relevant.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位居民希望影响自己所在大区的公共交通。最相关的渠道是哪个？",
+    "optionsZh": [
+      "联系大区政治家，或参与区域的民主程序。",
+      "联系市政委员会，因为市镇总是负责区域公共交通。",
+      "向国会提交建议，因为国会决定区域时刻表。",
+      "向省行政委员会上诉，因为它规划公交线路。"
+    ],
+    "explanationZh": "公共交通通常属大区职责，因此联系大区政治家、参与大区选举与民主程序最为相关。市镇、国会和省行政委员会都不直接规划区域公交线路。",
+    "questionZhHant": "一位居民希望影響自己所在大區的公共交通。最相關的渠道是哪個？",
+    "optionsZhHant": [
+      "聯系大區政治家，或參與區域的民主程序。",
+      "聯系市政委員會，因為市鎮總是負責區域公共交通。",
+      "向國會提交建議，因為國會決定區域時刻表。",
+      "向省行政委員會上訴，因為它規劃公交線路。"
+    ],
+    "explanationZhHant": "公共交通通常屬大區職責，因此聯系大區政治家、參與大區選舉與民主程序最為相關。市鎮、國會和省行政委員會都不直接規劃區域公交線路。"
   },
   {
     "id": "draft-ch03-038",
@@ -1653,7 +2525,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democratic systems divide tasks so national, regional, local, and administrative decisions can be handled effectively.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么并非所有决定都由国会直接作出？",
+    "optionsZh": [
+      "社会需要在不同层级和政府机关内作出许多细致的决定。",
+      "国会根本不得作任何决定。",
+      "市镇和政府机关凌驾于民主之上。",
+      "法院必须总是决定政治优先事项。"
+    ],
+    "explanationZh": "民主体系将任务分工：国家、区域、地方和行政机关各司其职，才能高效处理从立法到日常行政的大量决策。国会不可能、也不宜事必躬亲。",
+    "questionZhHant": "為什麼並非所有決定都由國會直接作出？",
+    "optionsZhHant": [
+      "社會需要在不同層級和政府機關內作出許多細致的決定。",
+      "國會根本不得作任何決定。",
+      "市鎮和政府機關凌駕於民主之上。",
+      "法院必須總是決定政治優先事項。"
+    ],
+    "explanationZhHant": "民主體系將任務分工：國家、區域、地方和行政機關各司其職，才能高效處理從立法到日常行政的大量決策。國會不可能、也不宜事必躬親。"
   },
   {
     "id": "draft-ch03-039",
@@ -1683,7 +2571,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Clear responsibilities help citizens understand where decisions are made and who can be held accountable.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "如果国家、大区和市镇之间的职责划分不清晰，会有什么民主风险？",
+    "optionsZh": [
+      "公民可能更难弄清应当去影响谁、又该向谁问责。",
+      "所有决定会自动变得更公平。",
+      "无记名投票原则立即消失。",
+      "法院总会变成政党。"
+    ],
+    "explanationZh": "职责清晰，公民才知道决策在何处作出、该向谁问责。若划分模糊，民众难以施加影响，问责也会落空，损害民主透明度。",
+    "questionZhHant": "如果國家、大區和市鎮之間的職責劃分不清晰，會有什麼民主風險？",
+    "optionsZhHant": [
+      "公民可能更難弄清應當去影響誰、又該向誰問責。",
+      "所有決定會自動變得更公平。",
+      "無記名投票原則立即消失。",
+      "法院總會變成政黨。"
+    ],
+    "explanationZhHant": "職責清晰，公民才知道決策在何處作出、該向誰問責。若劃分模糊，民眾難以施加影響，問責也會落空，損害民主透明度。"
   },
   {
     "id": "draft-ch03-040",
@@ -1712,7 +2616,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "JO is an ombudsman under the Riksdag that supervises public authorities and officials.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "议会监察专员（JO）与什么相关联？",
+    "optionsZh": [
+      "国会对政府机关和公职人员的监督。",
+      "国王的个人财务。",
+      "政党的竞选活动。",
+      "市镇的学校午餐。"
+    ],
+    "explanationZh": "JO 是隶属于国会的监察专员，负责监督公共机关和公职人员是否依法、正确履职，是议会监督体系的组成部分。",
+    "questionZhHant": "議會監察專員（JO）與什麼相關聯？",
+    "optionsZhHant": [
+      "國會對政府機關和公職人員的監督。",
+      "國王的個人財務。",
+      "政黨的競選活動。",
+      "市鎮的學校午餐。"
+    ],
+    "explanationZhHant": "JO 是隸屬於國會的監察專員，負責監督公共機關和公職人員是否依法、正確履職，是議會監督體系的組成部分。"
   },
   {
     "id": "draft-ch03-041",
@@ -1742,7 +2662,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Ombudsman supervision helps protect legality and trust in public administration.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么 JO 对个人可能很重要？",
+    "optionsZh": [
+      "JO 可以审查政府机关在处理事务时是否遵守了规则。",
+      "JO 总能直接更改所有法院判决。",
+      "JO 在每次选举后选择政府。",
+      "JO 决定市镇税率。"
+    ],
+    "explanationZh": "当个人认为某机关办事不公或违法时，可向 JO 投诉。JO 能审查公共机关的行为是否合法合规，从而维护行政的合法性与公众信任。但 JO 不能代替所有上诉途径，也不能直接改判法院。",
+    "questionZhHant": "為什麼 JO 對個人可能很重要？",
+    "optionsZhHant": [
+      "JO 可以審查政府機關在處理事務時是否遵守了規則。",
+      "JO 總能直接更改所有法院判決。",
+      "JO 在每次選舉後選擇政府。",
+      "JO 決定市鎮稅率。"
+    ],
+    "explanationZhHant": "當個人認為某機關辦事不公或違法時，可向 JO 投訴。JO 能審查公共機關的行為是否合法合規，從而維護行政的合法性與公眾信任。但 JO 不能代替所有上訴途徑，也不能直接改判法院。"
   },
   {
     "id": "draft-ch03-042",
@@ -1772,7 +2708,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "JO does not replace every appeal route, but can review whether public bodies acted correctly.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人认为某政府机关在处理其案件时缺乏客观性。了解以下哪个职能可能有所帮助？",
+    "optionsZh": [
+      "JO，它可以审查政府机关的处理过程。",
+      "议长，他审判所有政府机关案件。",
+      "国王，他重写决定。",
+      "选举管理局（Valmyndigheten），它在所有案件中支付赔偿。"
+    ],
+    "explanationZh": "若怀疑机关处理不公，可了解 JO 这一监督渠道。JO 审查公共机关是否依法、客观履职；但案件本身通常仍需走正式上诉途径，JO 不替代司法救济。",
+    "questionZhHant": "有人認為某政府機關在處理其案件時缺乏客觀性。了解以下哪個職能可能有所幫助？",
+    "optionsZhHant": [
+      "JO，它可以審查政府機關的處理過程。",
+      "議長，他審判所有政府機關案件。",
+      "國王，他重寫決定。",
+      "選舉管理局（Valmyndigheten），它在所有案件中支付賠償。"
+    ],
+    "explanationZhHant": "若懷疑機關處理不公，可了解 JO 這一監督渠道。JO 審查公共機關是否依法、客觀履職；但案件本身通常仍需走正式上訴途徑，JO 不替代司法救濟。"
   },
   {
     "id": "draft-ch03-043",
@@ -1801,7 +2753,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Government Offices support the government and ministries with preparation, coordination, and administration.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "政府办公厅（Regeringskansliet）是什么？",
+    "optionsZh": [
+      "协助政府准备并执行政府工作的机关。",
+      "国会的全体会议厅。",
+      "所有市镇共有的法院。",
+      "为政党竞选服务的私人组织。"
+    ],
+    "explanationZh": "政府办公厅（含各部委）为政府提供政策准备、协调与行政支持，是政府开展工作的中枢机构，并非国会或法院。",
+    "questionZhHant": "政府辦公廳（Regeringskansliet）是什麼？",
+    "optionsZhHant": [
+      "協助政府準備並執行政府工作的機關。",
+      "國會的全體會議廳。",
+      "所有市鎮共有的法院。",
+      "為政黨競選服務的私人組織。"
+    ],
+    "explanationZhHant": "政府辦公廳（含各部委）為政府提供政策準備、協調與行政支持，是政府開展工作的中樞機構，並非國會或法院。"
   },
   {
     "id": "draft-ch03-044",
@@ -1831,7 +2799,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Executive policy work and independent judicial decision-making have different democratic roles.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "（政府）部委与独立的法院有什么区别？",
+    "optionsZh": [
+      "部委负责准备政府政策，而法院依据法律独立审判。",
+      "部委审判刑事案件，而法院撰写政党纲领。",
+      "二者都直接由市议会领导。",
+      "在民主制度下没有区别。"
+    ],
+    "explanationZh": "部委属行政分支，协助政府制定并执行政策；法院属司法分支，依照法律独立裁判。行政与司法角色分离，是民主制度中权力分立的体现。",
+    "questionZhHant": "（政府）部委與獨立的法院有什麼區別？",
+    "optionsZhHant": [
+      "部委負責準備政府政策，而法院依據法律獨立審判。",
+      "部委審判刑事案件，而法院撰寫政黨綱領。",
+      "二者都直接由市議會領導。",
+      "在民主制度下沒有區別。"
+    ],
+    "explanationZhHant": "部委屬行政分支，協助政府制定並執行政策；法院屬司法分支，依照法律獨立裁判。行政與司法角色分離，是民主制度中權力分立的體現。"
   },
   {
     "id": "draft-ch03-045",
@@ -1861,7 +2845,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipal councils are elected locally.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "谁选举市议会？",
+    "optionsZh": [
+      "该市镇的选民。",
+      "国会议长。",
+      "政府的大臣。",
+      "该大区的法院。"
+    ],
+    "explanationZh": "市议会由本地选民在市镇选举中直接选出，体现地方民主。",
+    "questionZhHant": "誰選舉市議會？",
+    "optionsZhHant": [
+      "該市鎮的選民。",
+      "國會議長。",
+      "政府的大臣。",
+      "該大區的法院。"
+    ],
+    "explanationZhHant": "市議會由本地選民在市鎮選舉中直接選出，體現地方民主。"
   },
   {
     "id": "draft-ch03-046",
@@ -1891,7 +2891,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Regional councils are elected by voters in the region.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "谁选举大区议会？",
+    "optionsZh": [
+      "该大区的选民。",
+      "市镇公务员。",
+      "国王与议长共同。",
+      "欧盟委员会。"
+    ],
+    "explanationZh": "大区议会由区域内选民在大区选举中直接选出。",
+    "questionZhHant": "誰選舉大區議會？",
+    "optionsZhHant": [
+      "該大區的選民。",
+      "市鎮公務員。",
+      "國王與議長共同。",
+      "歐盟委員會。"
+    ],
+    "explanationZhHant": "大區議會由區域內選民在大區選舉中直接選出。"
   },
   {
     "id": "draft-ch03-047",
@@ -1921,7 +2937,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish general elections include separate democratic levels with different responsibilities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位选民希望同时影响学校、医疗和国家政治。为什么同一天的多场选举很重要？",
+    "optionsZh": [
+      "不同的选票影响不同层级：市镇、大区和国会。",
+      "市镇选举自动决定由哪个政党组阁。",
+      "大区选举决定全国适用的法律。",
+      "三场选举都通向同一个议会，只是任期不同。"
+    ],
+    "explanationZh": "瑞典大选同日举行市镇、大区和国会三套选举，分别选出不同层级的代表。想影响学校（市镇）、医疗（大区）和国家政策（国会），就需投出对应的选票。",
+    "questionZhHant": "一位選民希望同時影響學校、醫療和國家政治。為什麼同一天的多場選舉很重要？",
+    "optionsZhHant": [
+      "不同的選票影響不同層級：市鎮、大區和國會。",
+      "市鎮選舉自動決定由哪個政黨組閣。",
+      "大區選舉決定全國適用的法律。",
+      "三場選舉都通向同一個議會，只是任期不同。"
+    ],
+    "explanationZhHant": "瑞典大選同日舉行市鎮、大區和國會三套選舉，分別選出不同層級的代表。想影響學校（市鎮）、醫療（大區）和國家政策（國會），就需投出對應的選票。"
   },
   {
     "id": "draft-ch03-048",
@@ -1951,7 +2983,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The public sector includes democratic institutions, authorities, and publicly financed services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“公共部门”（offentlig sektor）是什么意思？",
+    "optionsZh": [
+      "由国家、大区和市镇运营或出资的活动。",
+      "瑞典所有私营企业。",
+      "仅指无成员的组织。",
+      "只是家庭的私人经济。"
+    ],
+    "explanationZh": "公共部门包括民选机构、政府机关和由公共财政支持的服务（如学校、医疗、社保），区别于私营部门。",
+    "questionZhHant": "“公共部門”（offentlig sektor）是什麼意思？",
+    "optionsZhHant": [
+      "由國家、大區和市鎮運營或出資的活動。",
+      "瑞典所有私營企業。",
+      "僅指無成員的組織。",
+      "只是家庭的私人經濟。"
+    ],
+    "explanationZhHant": "公共部門包括民選機構、政府機關和由公共財政支持的服務（如學校、醫療、社會保險），區別於私營部門。"
   },
   {
     "id": "draft-ch03-049",
@@ -1981,7 +3029,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public institutions exercise power on behalf of society and are therefore bound by democratic and legal standards.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么区分公共权力与私人行为者很重要？",
+    "optionsZh": [
+      "公共权力必须遵守关于合法性、客观性和公开性的特殊要求。",
+      "私人行为者总是可以制定法律。",
+      "公共权力永远无需接受审查。",
+      "所有私人决定自动就是民主决定。"
+    ],
+    "explanationZh": "公共机构是代表社会行使权力，因此须受法律、客观与公开（公开原则）等民主法治标准的约束；私人企业或个人则不受同等约束。混淆二者会损害问责与法治。",
+    "questionZhHant": "為什麼區分公共權力與私人行為者很重要？",
+    "optionsZhHant": [
+      "公共權力必須遵守關於合法性、客觀性和公開性的特殊要求。",
+      "私人行為者總是可以制定法律。",
+      "公共權力永遠無需接受審查。",
+      "所有私人決定自動就是民主決定。"
+    ],
+    "explanationZhHant": "公共機構是代表社會行使權力，因此須受法律、客觀與公開（公開原則）等民主法治標準的約束；私人企業或個人則不受同等約束。混淆二者會損害問責與法治。"
   },
   {
     "id": "draft-ch03-050",
@@ -2010,7 +3074,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Instrument of Government is central to Sweden’s constitutional order.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪一部基本法（grundlag）规定了瑞典如何治理？",
+    "optionsZh": [
+      "《政府宪章》（Regeringsformen）。",
+      "《买卖法》（Köplagen）。",
+      "《休假法》（Semesterlagen）。",
+      "《学校法》中的课程大纲。"
+    ],
+    "explanationZh": "《政府宪章》（Regeringsformen）是瑞典四部基本法之一，确立国家体制、权力分配与基本权利，处于宪法秩序的核心。其余几项都是普通法律，不是基本法。",
+    "questionZhHant": "哪一部基本法（grundlag）規定了瑞典如何治理？",
+    "optionsZhHant": [
+      "《政府憲章》（Regeringsformen）。",
+      "《買賣法》（Köplagen）。",
+      "《休假法》（Semesterlagen）。",
+      "《學校法》中的課程大綱。"
+    ],
+    "explanationZhHant": "《政府憲章》（Regeringsformen）是瑞典四部基本法之一，確立國家體制、權力分配與基本權利，處於憲法秩序的核心。其餘幾項都是普通法律，不是基本法。"
   },
   {
     "id": "draft-ch03-051",
@@ -2040,7 +3120,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "This constitutional principle connects public power to popular sovereignty and democratic institutions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“一切公共权力源自人民”这句话是什么意思？",
+    "optionsZh": [
+      "民主合法性来自公民通过选举和民主体制所施加的影响。",
+      "机关可以无视法律为所欲为。",
+      "国王作为国家元首决定政治。",
+      "法院应在每次选举前挑选选民。"
+    ],
+    "explanationZh": "这是瑞典宪法的基本原则：公共权力的正当性来自人民，通过选举和民主体制实现。它强调主权在民，而非来自君主或官僚。",
+    "questionZhHant": "“一切公共權力源自人民”這句話是什麼意思？",
+    "optionsZhHant": [
+      "民主合法性來自公民通過選舉和民主體制所施加的影響。",
+      "機關可以無視法律為所欲為。",
+      "國王作為國家元首決定政治。",
+      "法院應在每次選舉前挑選選民。"
+    ],
+    "explanationZhHant": "這是瑞典憲法的基本原則：公共權力的正當性來自人民，通過選舉和民主體制實現。它強調主權在民，而非來自君主或官僚。"
   },
   {
     "id": "draft-ch03-052",
@@ -2070,7 +3166,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Expertise does not remove legality. Public authorities act under law.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某政府机关称，自己是专家机关，因此无需遵守国会通过的法律。正确的原则是什么？",
+    "optionsZh": [
+      "政府机关虽有专业知识，但仍必须遵守法律和规则。",
+      "专家机关凌驾于国会之上。",
+      "机关只需听从媒体舆论。",
+      "市镇可以取消该机关的职责。"
+    ],
+    "explanationZh": "专业能力并不免除合法性义务。政府机关不论多专业，都必须在法律框架内行动，其权威来自法律授权而非自身专长。",
+    "questionZhHant": "某政府機關稱，自己是專家機關，因此無需遵守國會通過的法律。正確的原則是什麼？",
+    "optionsZhHant": [
+      "政府機關雖有專業知識，但仍必須遵守法律和規則。",
+      "專家機關凌駕於國會之上。",
+      "機關只需聽從媒體輿論。",
+      "市鎮可以取消該機關的職責。"
+    ],
+    "explanationZhHant": "專業能力並不免除合法性義務。政府機關不論多專業，都必須在法律框架內行動，其權威來自法律授權而非自身專長。"
   },
   {
     "id": "draft-ch03-053",
@@ -2099,7 +3211,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Political accountability links power to scrutiny, elections, and parliamentary control.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“政治责任”（politiskt ansvar）是什么意思？",
+    "optionsZh": [
+      "选民和国会可以监督、支持或更换政治代表。",
+      "政治家在选举后永远不得被批评。",
+      "法官必须为政府投票。",
+      "机关应把所有决定保密。"
+    ],
+    "explanationZh": "政治责任把权力与监督、选举和议会控制联系起来：代表须对选民和国会负责，做错了可在选举或国会中被更换。",
+    "questionZhHant": "“政治責任”（politiskt ansvar）是什麼意思？",
+    "optionsZhHant": [
+      "選民和國會可以監督、支持或更換政治代表。",
+      "政治家在選舉後永遠不得被批評。",
+      "法官必須為政府投票。",
+      "機關應把所有決定保密。"
+    ],
+    "explanationZhHant": "政治責任把權力與監督、選舉和議會控制聯系起來：代表須對選民和國會負責，做錯了可在選舉或國會中被更換。"
   },
   {
     "id": "draft-ch03-054",
@@ -2129,7 +3257,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democratic accountability works through debate, scrutiny, organization, and elections, not threats.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某政党在竞选中承诺一件事，却在预算中作出了不同优先安排。选民以何种民主方式回应？",
+    "optionsZh": [
+      "审查该决定、展开辩论，并在下次选举中改投。",
+      "阻止其他选民投票。",
+      "要求法院撰写该党预算。",
+      "威胁政治家直到他们改变主意。"
+    ],
+    "explanationZh": "民主问责通过公开辩论、监督、组织与选举实现，而非威胁或压制他人。选民可用选票和舆论督促政党兑现承诺。",
+    "questionZhHant": "某政黨在競選中承諾一件事，卻在預算中作出了不同優先安排。選民以何種民主方式回應？",
+    "optionsZhHant": [
+      "審查該決定、展開辯論，並在下次選舉中改投。",
+      "阻止其他選民投票。",
+      "要求法院撰寫該黨預算。",
+      "威脅政治家直到他們改變主意。"
+    ],
+    "explanationZhHant": "民主問責通過公開辯論、監督、組織與選舉實現，而非威脅或壓制他人。選民可用選票和輿論督促政黨兌現承諾。"
   },
   {
     "id": "draft-ch03-055",
@@ -2158,7 +3302,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Public officials carry out public administration and must follow rules for objectivity and legality.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "公共部门的“公务员”（tjänsteman）是什么？",
+    "optionsZh": [
+      "依照法律与决定从事公共职务的雇员。",
+      "始终是民选政治家的人。",
+      "评论政治的私人网红。",
+      "撰写政党纲领的法官。"
+    ],
+    "explanationZh": "公务员受雇于公共部门，依据法律和既定决策执行公共行政，须遵守客观、合法等准则。他们不是民选政治家，也不是私人评论者。",
+    "questionZhHant": "公共部門的“公務員”（tjänsteman）是什麼？",
+    "optionsZhHant": [
+      "依照法律與決定從事公共職務的僱員。",
+      "始終是民選政治家的人。",
+      "評論政治的私人網紅。",
+      "撰寫政黨綱領的法官。"
+    ],
+    "explanationZhHant": "公務員受僱於公共部門，依據法律和既定決策執行公共行政，須遵守客觀、合法等準則。他們不是民選政治家，也不是私人評論者。"
   },
   {
     "id": "draft-ch03-056",
@@ -2188,7 +3348,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "This distinction helps separate democratic policy choices from impartial administration.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "政治家与公务员的区别是什么？",
+    "optionsZh": [
+      "政治家作政治决策，公务员客观地进行准备与执行。",
+      "公务员总在议会选举中选出，政治家由法院雇用。",
+      "政治家永远不得负责预算，公务员可以制定法律。",
+      "在公共部门中没有区别。"
+    ],
+    "explanationZh": "政治家通过选举获得授权，作政策与政治抉择；公务员则依法、客观地准备并执行决策。这种区分把民主的政策选择与中立的行政执行分开。",
+    "questionZhHant": "政治家與公務員的區別是什麼？",
+    "optionsZhHant": [
+      "政治家作政治決策，公務員客觀地進行準備與執行。",
+      "公務員總在議會選舉中選出，政治家由法院僱用。",
+      "政治家永遠不得負責預算，公務員可以制定法律。",
+      "在公共部門中沒有區別。"
+    ],
+    "explanationZhHant": "政治家通過選舉獲得授權，作政策與政治抉擇；公務員則依法、客觀地準備並執行決策。這種區分把民主的政策選擇與中立的行政執行分開。"
   },
   {
     "id": "draft-ch03-057",
@@ -2218,7 +3394,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Favoritism in public administration undermines equal treatment and democratic trust.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名公务员为一己亲属的利益改动决定。这威胁到哪项原则？",
+    "optionsZh": [
+      "客观性、公正无私，以及对公共行政的信任。",
+      "议会选举中的无记名投票原则。",
+      "国会设议长的权利。",
+      "大区对公共交通的责任。"
+    ],
+    "explanationZh": "公务员徇私违背客观、公正原则，破坏对公共行政的平等对待与公众信任。这与选举保密、议长制度等无关。",
+    "questionZhHant": "一名公務員為一己親屬的利益改動決定。這威脅到哪項原則？",
+    "optionsZhHant": [
+      "客觀性、公正無私，以及對公共行政的信任。",
+      "議會選舉中的無記名投票原則。",
+      "國會設議長的權利。",
+      "大區對公共交通的責任。"
+    ],
+    "explanationZhHant": "公務員徇私違背客觀、公正原則，破壞對公共行政的平等對待與公眾信任。這與選舉保密、議長制度等無關。"
   },
   {
     "id": "draft-ch03-058",
@@ -2247,7 +3439,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Crises can require fast decisions, but democratic responsibility and legality still matter.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么即使在危机期间也需要清晰的治理？",
+    "optionsZh": [
+      "为了让责任、合法性与信息在必须快速决策时仍能正常运作。",
+      "因为民主规则会自动失效。",
+      "为了让媒体不能提问。",
+      "为了让市镇取代所有机关。"
+    ],
+    "explanationZh": "危机可能要求快速决策，但民主责任与合法性依然重要。清晰的指挥链、权责与信息发布，能避免混乱并保障公众权益。",
+    "questionZhHant": "為什麼即使在危機期間也需要清晰的治理？",
+    "optionsZhHant": [
+      "為了讓責任、合法性與資訊在必須快速決策時仍能正常運作。",
+      "因為民主規則會自動失效。",
+      "為了讓媒體不能提問。",
+      "為了讓市鎮取代所有機關。"
+    ],
+    "explanationZhHant": "危機可能要求快速決策，但民主責任與合法性依然重要。清晰的指揮鏈、權責與資訊發布，能避免混亂並保障公眾權益。"
   },
   {
     "id": "draft-ch03-059",
@@ -2277,7 +3485,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Clear communication and responsibility are important for trust and accountability.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "危机期间，不同层级发出相互矛盾的信息。这有什么民主风险？",
+    "optionsZh": [
+      "公民可能难以弄清责任、规则以及应当监督谁。",
+      "所有机关会自动变得更公正。",
+      "混乱总会强化无记名投票原则。",
+      "国会在不经选举的情况下增加议员。"
+    ],
+    "explanationZh": "清晰的信息与权责划分对公众信任和问责至关重要。层级间信息矛盾会让民众无所适从，也难以判断该向谁问责。",
+    "questionZhHant": "危機期間，不同層級發出相互矛盾的資訊。這有什麼民主風險？",
+    "optionsZhHant": [
+      "公民可能難以弄清責任、規則以及應當監督誰。",
+      "所有機關會自動變得更公正。",
+      "混亂總會強化無記名投票原則。",
+      "國會在不經選舉的情況下增加議員。"
+    ],
+    "explanationZhHant": "清晰的資訊與權責劃分對公眾信任和問責至關重要。層級間資訊矛盾會讓民眾無所適從，也難以判斷該向誰問責。"
   },
   {
     "id": "draft-ch03-060",
@@ -2306,7 +3530,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish governance is divided across democratic levels and institutions with different responsibilities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪种情形最好地说明了瑞典的治理建立在多个层级之上？",
+    "optionsZh": [
+      "国会制定法律，政府领导中央政府机关，大区负责医疗，市镇负责学校。",
+      "国王制定法律，媒体审判犯罪，欧盟选举市议会。",
+      "法院写预算，市镇任命首相，大区禁止选举。",
+      "私营企业取代所有民选机构。"
+    ],
+    "explanationZh": "瑞典治理分散于不同民选层级与机构：国会立法、政府施政、大区管医疗、市镇管学校。各层级分工协作，共同构成治理体系。",
+    "questionZhHant": "哪種情形最好地說明了瑞典的治理建立在多個層級之上？",
+    "optionsZhHant": [
+      "國會制定法律，政府領導中央政府機關，大區負責醫療，市鎮負責學校。",
+      "國王制定法律，媒體審判犯罪，歐盟選舉市議會。",
+      "法院寫預算，市鎮任命首相，大區禁止選舉。",
+      "私營企業取代所有民選機構。"
+    ],
+    "explanationZhHant": "瑞典治理分散於不同民選層級與機構：國會立法、政府施政、大區管醫療、市鎮管學校。各層級分工協作，共同構成治理體系。"
   },
   {
     "id": "draft-extra-ch003-008",
@@ -2336,7 +3576,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The National Audit Office supports parliamentary control by auditing central government activities and finances.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么国家审计署（Riksrevisionen）的审计对国会很重要？",
+    "optionsZh": [
+      "它们为监督国家资金与公共事务的管理情况提供了依据。",
+      "它们取代国会关于国家预算的决定。",
+      "它们让机关选择哪些法律有效。",
+      "它们决定哪些政党可以入阁。"
+    ],
+    "explanationZh": "国家审计署（Riksrevisionen）通过审计中央政府的活动与财政，支持国会的监督职能，帮助议员判断公共资金是否被妥善使用。",
+    "questionZhHant": "為什麼國家審計署（Riksrevisionen）的審計對國會很重要？",
+    "optionsZhHant": [
+      "它們為監督國家資金與公共事務的管理情況提供了依據。",
+      "它們取代國會關於國家預算的決定。",
+      "它們讓機關選擇哪些法律有效。",
+      "它們決定哪些政黨可以入閣。"
+    ],
+    "explanationZhHant": "國家審計署（Riksrevisionen）通過審計中央政府的活動與財政，支持國會的監督職能，幫助議員判斷公共資金是否被妥善使用。"
   },
   {
     "id": "draft-extra-ch003-012",
@@ -2365,6 +3621,22 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A motion of no confidence (misstroendeförklaring) lets the Riksdag remove a minister or the whole government if it loses confidence. The government cannot dissolve the Riksdag; individual ministers can be targeted; the decision is the Riksdag's, not the courts'.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，“不信任投票”（misstroendevotum / misstroendeförklaring）意味着什么？",
+    "optionsZh": [
+      "国会可以投票罢免它已不再信任的某位大臣或整届政府。",
+      "政府在输掉一次表决时可以解散国会。",
+      "只有首相可被罢免，个别大臣不行。",
+      "不信任决定由最高法院作出，而非国会。"
+    ],
+    "explanationZh": "不信任案（misstroendeförklaring）让国会在失去信任时罢免某位大臣或整届政府。政府无权解散国会；个别大臣也可被单独针对；决定权在国会，不在法院。",
+    "questionZhHant": "在瑞典，“不信任投票”（misstroendevotum / misstroendeförklaring）意味着什麼？",
+    "optionsZhHant": [
+      "國會可以投票罷免它已不再信任的某位大臣或整屆政府。",
+      "政府在輸掉一次表決時可以解散國會。",
+      "只有首相可被罷免，個別大臣不行。",
+      "不信任決定由最高法院作出，而非國會。"
+    ],
+    "explanationZhHant": "不信任案（misstroendeförklaring）讓國會在失去信任時罷免某位大臣或整屆政府。政府無權解散國會；個別大臣也可被單獨針對；決定權在國會，不在法院。"
   }
 ]

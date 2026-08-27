@@ -27,7 +27,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Clear employment terms reduce risk and help protect the worker.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人收到一份工作邀约，但没有明确的工时或工资。此人在接受之前应该怎么做？",
+    "optionsZh": [
+      "要求以书面形式明确各项条件，并核实相关规定。",
+      "立即接受，因为含糊不清的条件总是对雇员有利。",
+      "想当然地认为市镇（kommun）会自动保障工资。",
+      "先开始工作，几个月后再问工资的事。"
+    ],
+    "explanationZh": "明确的雇佣条件可以降低风险，有助于保护劳动者。在接受工作前，应要求雇主以书面形式说明工时、工资等关键条款，并了解自己的权利。",
+    "questionZhHant": "一個人收到一份工作邀約，但沒有明確的工時或工資。此人在接受之前應該怎麼做？",
+    "optionsZhHant": [
+      "要求以書面形式明確各項條件，並核實相關規定。",
+      "立即接受，因為含糊不清的條件總是對僱員有利。",
+      "想當然地認為市鎮（kommun）會自動保障工資。",
+      "先開始工作，幾個月後再問工資的事。"
+    ],
+    "explanationZhHant": "明確的僱傭條件可以降低風險，有助於保護勞動者。在接受工作前，應要求僱主以書面形式說明工時、工資等關鍵條款，並了解自己的權利。"
   },
   {
     "id": "draft-batch-b-ch08-002",
@@ -57,7 +73,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "An agreement helps both sides know the terms of employment.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么雇佣合同很重要？",
+    "optionsZh": [
+      "它明确了工资、工时和雇佣形式等条件。",
+      "它取代了所有工作环境规定。",
+      "它使雇主永远无需缴税。",
+      "它只在雇员加入某个政党时才有效。"
+    ],
+    "explanationZh": "雇佣合同是雇员与雇主之间关于工作和条件的约定。明确的合同能帮助双方了解工资、工时、雇佣形式等基本权利与义务。",
+    "questionZhHant": "為什麼僱傭合同很重要？",
+    "optionsZhHant": [
+      "它明確了工資、工時和僱傭形式等條件。",
+      "它取代了所有工作環境規定。",
+      "它使僱主永遠無需繳稅。",
+      "它只在僱員加入某個政黨時才有效。"
+    ],
+    "explanationZhHant": "僱傭合同是僱員與僱主之間關於工作和條件的約定。明確的合同能幫助雙方了解工資、工時、僱傭形式等基本權利與義務。"
   },
   {
     "id": "draft-batch-b-ch08-003",
@@ -87,7 +119,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "For online purchases and subscriptions, consumers should check withdrawal rights, cancellation rules, and ongoing costs.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位消费者在网上订阅了一项服务，几天后后悔了。此人应该核实什么？",
+    "optionsZh": [
+      "是否适用后悔权，以及根据条款如何取消该订阅。",
+      "是否所有网购都自动永久绑定。",
+      "市镇（kommun）是否必须替客户取消订阅。",
+      "卖家是否可以继续扣款而无需告知条款。"
+    ],
+    "explanationZh": "网购和订阅服务通常享有“后悔权”（撤销权），但也受条件和期限限制。消费者应查看是否适用后悔权、如何取消订阅以及是否会产生后续费用。",
+    "questionZhHant": "一位消費者在網上訂閱了一項服務，幾天後後悔了。此人應該核實什麼？",
+    "optionsZhHant": [
+      "是否適用後悔權，以及根據條款如何取消該訂閱。",
+      "是否所有網購都自動永久綁定。",
+      "市鎮（kommun）是否必須替客戶取消訂閱。",
+      "賣家是否可以繼續扣款而無需告知條款。"
+    ],
+    "explanationZhHant": "網購和訂閱服務通常享有“後悔權”（撤銷權），但也受條件和期限限制。消費者應查看是否適用後悔權、如何取消訂閱以及是否會產生後續費用。"
   },
   {
     "id": "draft-batch-b-ch08-004",
@@ -117,7 +165,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Separating expenses can help with realistic financial planning.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么在预算中把固定支出和可变支出区分开来是有用的？",
+    "optionsZh": [
+      "这样更容易看清哪些支出难以改变、哪些可以加以调整。",
+      "固定支出永远不需要支付。",
+      "可变支出总是由税务局（Skatteverket）决定。",
+      "预算只能包含收入，不能包含支出。"
+    ],
+    "explanationZh": "固定支出（如房租、保险）金额稳定且难以短期改变，可变支出（如水电、娱乐）会随消费习惯波动。区分二者有助于制定切合实际的财务计划。",
+    "questionZhHant": "為什麼在預算中把固定支出和可變支出區分開來是有用的？",
+    "optionsZhHant": [
+      "這樣更容易看清哪些支出難以改變、哪些可以加以調整。",
+      "固定支出永遠不需要支付。",
+      "可變支出總是由稅務局（Skatteverket）決定。",
+      "預算只能包含收入，不能包含支出。"
+    ],
+    "explanationZhHant": "固定支出（如房租、保險）金額穩定且難以短期改變，可變支出（如水電、娛樂）會隨消費習慣波動。區分二者有助於制定切合實際的財務計劃。"
   },
   {
     "id": "draft-batch-b-ch08-005",
@@ -147,7 +211,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipal budget and debt counselling can give free advice to people who need help managing debts.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "债务不断增加的人通常可以到哪里寻求免费咨询？",
+    "optionsZh": [
+      "市镇（kommun）的预算与债务咨询。",
+      "选举管理局（Valmyndigheten）的当地投票接待处。",
+      "瑞典中央银行（Riksbanken）的货币政策部门。",
+      "法院（会自动免除所有债务）。"
+    ],
+    "explanationZh": "瑞典的市镇（kommun）通常提供免费的预算与债务咨询，帮助陷入债务困境的人管理债务、制定还款计划。",
+    "questionZhHant": "債務不斷增加的人通常可以到哪裡尋求免費諮詢？",
+    "optionsZhHant": [
+      "市鎮（kommun）的預算與債務諮詢。",
+      "選舉管理局（Valmyndigheten）的當地投票接待處。",
+      "瑞典中央銀行（Riksbanken）的貨幣政策部門。",
+      "法院（會自動免除所有債務）。"
+    ],
+    "explanationZhHant": "瑞典的市鎮（kommun）通常提供免費的預算與債務諮詢，幫助陷入債務困境的人管理債務、制定還款計劃。"
   },
   {
     "id": "draft-batch-b-ch08-006",
@@ -177,7 +257,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Transparent pay, taxes, and contracts protect both workers and the welfare system.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名雇员拿不到工资单，而雇主想不签合同就用现金支付。此人应该留意什么？",
+    "optionsZh": [
+      "这可能意味着工作条件不安全或未被申报。",
+      "这总是意味着更高的养老金和更好的保险。",
+      "没有凭据的现金工资是瑞典的常规模式。",
+      "雇主永远无需向政府机关申报工资。"
+    ],
+    "explanationZh": "在瑞典，工资应通过合同确定，并出具工资单、依法报税和缴纳社保。没有合同、没有工资单的现金支付往往意味着非法雇用或“黑工”，会损害雇员的养老金、保险等权益。",
+    "questionZhHant": "一名僱員拿不到工資單，而僱主想不籤合同就用現金支付。此人應該留意什麼？",
+    "optionsZhHant": [
+      "這可能意味着工作條件不安全或未被申報。",
+      "這總是意味着更高的養老金和更好的保險。",
+      "沒有憑據的現金工資是瑞典的常規模式。",
+      "僱主永遠無需向政府機關申報工資。"
+    ],
+    "explanationZhHant": "在瑞典，工資應通過合同確定，並出具工資單、依法報稅和繳納社會保險。沒有合同、沒有工資單的現金支付往往意味着非法僱用或“黑工”，會損害僱員的養老金、保險等權益。"
   },
   {
     "id": "draft-batch-b-ch08-007",
@@ -207,7 +303,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Some labour-market support depends on being registered and actively seeking work.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么在寻求援助时登记为求职者很重要？",
+    "optionsZh": [
+      "这可能是获得某些援助的前提，并帮助政府机关跟踪求职情况。",
+      "登记意味着自动得到一份工作。",
+      "只有登记过的人才需要缴税。",
+      "登记取代了一切求职要求。"
+    ],
+    "explanationZh": "许多劳动力市场援助（如失业救济金）以在公共就业服务局（Arbetsförmedlingen）登记并主动求职为前提。登记让政府机关能够跟踪求职进度并提供支持。",
+    "questionZhHant": "為什麼在尋求援助時登記為求職者很重要？",
+    "optionsZhHant": [
+      "這可能是獲得某些援助的前提，並幫助政府機關跟蹤求職情況。",
+      "登記意味着自動得到一份工作。",
+      "只有登記過的人才需要繳稅。",
+      "登記取代了一切求職要求。"
+    ],
+    "explanationZhHant": "許多勞動力市場援助（如失業救濟金）以在公共就業服務局（Arbetsförmedlingen）登記並主動求職為前提。登記讓政府機關能夠跟蹤求職進度並提供支持。"
   },
   {
     "id": "draft-batch-b-ch08-008",
@@ -237,7 +349,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Reported income can contribute to pension rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么申报的收入常常影响未来的养老金？",
+    "optionsZh": [
+      "养老金权益部分建立在已申报并纳税的收入之上。",
+      "养老金只由你居住的市镇（kommun）决定。",
+      "黑工工资总能带来更高的公共养老金。",
+      "无论收入如何，养老金对所有人都是一样的。"
+    ],
+    "explanationZh": "瑞典的养老金（包括公共养老金）与申报并纳税的收入挂钩。收入越高中报越多，未来积累的养老金权益也越多；不申报的“黑工”收入则不计入。",
+    "questionZhHant": "為什麼申報的收入常常影響未來的養老金？",
+    "optionsZhHant": [
+      "養老金權益部分建立在已申報並納稅的收入之上。",
+      "養老金只由你居住的市鎮（kommun）決定。",
+      "黑工工資總能帶來更高的公共養老金。",
+      "無論收入如何，養老金對所有人都是一樣的。"
+    ],
+    "explanationZhHant": "瑞典的養老金（包括公共養老金）與申報並納稅的收入掛鉤。收入越高中報越多，未來積累的養老金權益也越多；不申報的“黑工”收入則不計入。"
   },
   {
     "id": "draft-batch-b-ch08-009",
@@ -267,7 +395,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Effective interest helps compare loan costs including fees.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么借款时比较实际利率是明智的？",
+    "optionsZh": [
+      "它能以更可比的方式显示贷款的总成本。",
+      "它由瑞典中央银行（Riksbanken）设定，对所有贷款都一样。",
+      "它使贷款永远免费。",
+      "它取代了阅读合同的必要。"
+    ],
+    "explanationZh": "实际利率（effektiv ränta）不仅包含名义利率，还计入各种费用，能真实反映贷款的总成本，便于在不同贷款产品之间比较。",
+    "questionZhHant": "為什麼借款時比較實際利率是明智的？",
+    "optionsZhHant": [
+      "它能以更可比的方式顯示貸款的總成本。",
+      "它由瑞典中央銀行（Riksbanken）設定，對所有貸款都一樣。",
+      "它使貸款永遠免費。",
+      "它取代了閱讀合同的必要。"
+    ],
+    "explanationZhHant": "實際利率（effektiv ränta）不僅包含名義利率，還計入各種費用，能真實反映貸款的總成本，便於在不同貸款產品之間比較。"
   },
   {
     "id": "draft-batch-b-ch08-010",
@@ -297,7 +441,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Workers can seek support to understand labour rights and agreements.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名雇员被解雇，并认为相关规定未被遵守。谁通常能提供支持或建议？",
+    "optionsZh": [
+      "工会或其他劳动法咨询可以帮助此人了解自己的权利。",
+      "雇主必须始终向警察（局）解释解雇原因。",
+      "法院会自动裁决所有解雇纠纷。",
+      "市镇（kommun）负责重新雇用此人。"
+    ],
+    "explanationZh": "工会（fack）和劳动法咨询机构可以协助雇员理解解雇是否合法、是否符合通知期限等程序，并维护其劳动权利。",
+    "questionZhHant": "一名僱員被解僱，並認為相關規定未被遵守。誰通常能提供支持或建議？",
+    "optionsZhHant": [
+      "工會或其他勞動法諮詢可以幫助此人了解自己的權利。",
+      "僱主必須始終向警察（局）解釋解僱原因。",
+      "法院會自動裁決所有解僱糾紛。",
+      "市鎮（kommun）負責重新僱用此人。"
+    ],
+    "explanationZhHant": "工會（fack）和勞動法諮詢機構可以協助僱員理解解僱是否合法、是否符合通知期限等程序，並維護其勞動權利。"
   },
   {
     "id": "draft-batch-b-ch08-011",
@@ -327,7 +487,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Employment affects both tax revenue and need for benefits.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么高就业率对福利很重要？",
+    "optionsZh": [
+      "更多的人工作会贡献税收，而需要经济援助的人会更少。",
+      "福利完全由企业利润资助。",
+      "更多工作总是导致所有人的税都更高。",
+      "工作不影响公共收入。"
+    ],
+    "explanationZh": "高就业率意味着更多人以纳税方式支撑福利体系（如医疗、教育、养老），同时减少对失业救济等经济援助的依赖，从而增强公共财政。",
+    "questionZhHant": "為什麼高就業率對福利很重要？",
+    "optionsZhHant": [
+      "更多的人工作會貢獻稅收，而需要經濟援助的人會更少。",
+      "福利完全由企業利潤資助。",
+      "更多工作總是導致所有人的稅都更高。",
+      "工作不影響公共收入。"
+    ],
+    "explanationZhHant": "高就業率意味着更多人以納稅方式支撐福利體系（如醫療、教育、養老），同時減少對失業救濟等經濟援助的依賴，從而增強公共財政。"
   },
   {
     "id": "draft-batch-b-ch08-012",
@@ -357,7 +533,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A margin helps handle unexpected expenses without immediate debt.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么在规划个人财务时不留余地是有风险的？",
+    "optionsZh": [
+      "意外开支可能使人难以支付必要的支出。",
+      "留出余地意味着所有收入都免税。",
+      "没有余地时银行必须总是给予补助。",
+      "财务规划只对企业有必要。"
+    ],
+    "explanationZh": "财务规划应预留一定缓冲（margin），因为生活中可能出现意外支出（如维修、生病）。没有任何余地时，一旦收入减少或支出增加，很容易陷入债务。",
+    "questionZhHant": "為什麼在規劃個人財務時不留餘地是有風險的？",
+    "optionsZhHant": [
+      "意外開支可能使人難以支付必要的支出。",
+      "留出餘地意味着所有收入都免稅。",
+      "沒有餘地時銀行必須總是給予補助。",
+      "財務規劃只對企業有必要。"
+    ],
+    "explanationZhHant": "財務規劃應預留一定緩衝（margin），因為生活中可能出現意外支出（如維修、生病）。沒有任何餘地時，一旦收入減少或支出增加，很容易陷入債務。"
   },
   {
     "id": "draft-batch-b-ch08-013",
@@ -387,7 +579,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Tax returns are part of reporting income and calculating tax.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么报税对许多工作的人很重要？",
+    "optionsZh": [
+      "它有助于确定对收入征收的正确税额。",
+      "它取代了雇佣合同。",
+      "它决定你是否能参加选举投票。",
+      "它显示你是否有权领取儿童补贴。"
+    ],
+    "explanationZh": "报税（deklaration）是向税务局（Skatteverket）申报收入并核算应缴税额的环节。雇主通常已代扣预缴税，但年终报税可结算多退少补，并影响养老金等权益。",
+    "questionZhHant": "為什麼報稅對許多工作的人很重要？",
+    "optionsZhHant": [
+      "它有助於確定對收入徵收的正確稅額。",
+      "它取代了僱傭合同。",
+      "它決定你是否能參加選舉投票。",
+      "它顯示你是否有權領取兒童補貼。"
+    ],
+    "explanationZhHant": "報稅（deklaration）是向稅務局（Skatteverket）申報收入並核算應繳稅額的環節。僱主通常已代扣預繳稅，但年終報稅可結算多退少補，並影響養老金等權益。"
   },
   {
     "id": "draft-batch-b-ch08-014",
@@ -417,7 +625,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Comparing terms can prevent unnecessary costs and unsuitable commitments.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么在选择电力、电话或保险之前比较合同很重要？",
+    "optionsZh": [
+      "价格、合约期限和条款在不同选项之间可能差别很大。",
+      "根据法律，所有合同的价格总是相同。",
+      "最贵的合同总是最安全的。",
+      "消费者在购前不得比较各公司。"
+    ],
+    "explanationZh": "电力、电话、保险等服务的价格、绑定期限（如一年或两年合约）和退订条件差异很大。比较合同可以避免不必要的开支和不合适的长期绑定。",
+    "questionZhHant": "為什麼在選擇電力、電話或保險之前比較合同很重要？",
+    "optionsZhHant": [
+      "價格、合約期限和條款在不同選項之間可能差別很大。",
+      "根據法律，所有合同的價格總是相同。",
+      "最貴的合同總是最安全的。",
+      "消費者在購前不得比較各公司。"
+    ],
+    "explanationZhHant": "電力、電話、保險等服務的價格、綁定期限（如一年或兩年合約）和退訂條件差異很大。比較合同可以避免不必要的開支和不合適的長期綁定。"
   },
   {
     "id": "draft-batch-b-ch08-015",
@@ -447,7 +671,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A safety representative works with employees’ work environment interests, while the employer still has main responsibility.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名雇员发现工作场所存在严重风险。安全代表能发挥什么作用？",
+    "optionsZh": [
+      "在工作环境事务中代表雇员，并提醒注意风险。",
+      "每月决定公司的工资标准。",
+      "取代雇主成为整个工作环境的法定责任人。",
+      "在法院裁决所有解雇纠纷。"
+    ],
+    "explanationZh": "安全代表（skyddsombud）由工会或雇员选出，负责在工作环境问题上代表雇员、指出安全风险。但工作环境的首要责任仍在雇主。",
+    "questionZhHant": "一名僱員發現工作場所存在嚴重風險。安全代表能發揮什麼作用？",
+    "optionsZhHant": [
+      "在工作環境事務中代表僱員，並提醒注意風險。",
+      "每月決定公司的工資標準。",
+      "取代僱主成為整個工作環境的法定責任人。",
+      "在法院裁決所有解僱糾紛。"
+    ],
+    "explanationZhHant": "安全代表（skyddsombud）由工會或僱員選出，負責在工作環境問題上代表僱員、指出安全風險。但工作環境的首要責任仍在僱主。"
   },
   {
     "id": "draft-batch-d-ch08-001",
@@ -477,7 +717,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Correct wage reporting matters for tax, benefits, and pension rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人领到了工资，但在凭据上看不到任何扣税。此人应该核实什么？",
+    "optionsZh": [
+      "工资是否如实申报、税款是否按规定处理。",
+      "雇主是否改为以现金向市镇（kommun）缴税。",
+      "净工资是否总是指未扣税的工资。",
+      "未扣税的工资是否自动带来更高的养老金。"
+    ],
+    "explanationZh": "工资应如实申报并由雇主代扣代缴税款。如果没有任何扣税记录，可能是申报错误或被当作“黑工”，这会影响养老金权益和税务合规。",
+    "questionZhHant": "一個人領到了工資，但在憑據上看不到任何扣稅。此人應該核實什麼？",
+    "optionsZhHant": [
+      "工資是否如實申報、稅款是否按規定處理。",
+      "僱主是否改為以現金向市鎮（kommun）繳稅。",
+      "淨工資是否總是指未扣稅的工資。",
+      "未扣稅的工資是否自動帶來更高的養老金。"
+    ],
+    "explanationZhHant": "工資應如實申報並由僱主代扣代繳稅款。如果沒有任何扣稅記錄，可能是申報錯誤或被當作“黑工”，這會影響養老金權益和稅務合規。"
   },
   {
     "id": "draft-batch-d-ch08-002",
@@ -507,7 +763,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The distinction helps people understand pay, tax, and take-home income.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么通常会同时给出毛工资和净工资？",
+    "optionsZh": [
+      "毛工资是税前金额，净工资是扣除后实际发放的金额。",
+      "毛工资总是低于净工资。",
+      "净工资是不需要申报的工资。",
+      "毛工资只用于没有工作的人。"
+    ],
+    "explanationZh": "毛工资（bruttolön）是扣除税款前的工资总额，净工资（nettolön）是扣除税款和社保后实际到手的金额。区分二者有助于理解工资、税负和可支配收入。",
+    "questionZhHant": "為什麼通常會同時給出毛工資和淨工資？",
+    "optionsZhHant": [
+      "毛工資是稅前金額，淨工資是扣除後實際發放的金額。",
+      "毛工資總是低於淨工資。",
+      "淨工資是不需要申報的工資。",
+      "毛工資只用於沒有工作的人。"
+    ],
+    "explanationZhHant": "毛工資（bruttolön）是扣除稅款前的工資總額，淨工資（nettolön）是扣除稅款和社會保險後實際到手的金額。區分二者有助於理解工資、稅負和可支配收入。"
   },
   {
     "id": "draft-ch08-001",
@@ -536,7 +808,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The labour market connects people who want work with employers who need workers.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“劳动力市场”是什么意思？",
+    "optionsZh": [
+      "社会中人们寻找工作、雇主寻找劳动力的那一部分。",
+      "只有市镇（kommun）可以出售商品的地方。",
+      "由法院决定所有工资的制度。",
+      "拥有所有企业的政府机关。"
+    ],
+    "explanationZh": "劳动力市场是连接求职者与雇主的机制。它涵盖了招聘、工资形成、就业关系等整个用工体系。",
+    "questionZhHant": "“勞動力市場”是什麼意思？",
+    "optionsZhHant": [
+      "社會中人們尋找工作、僱主尋找勞動力的那一部分。",
+      "只有市鎮（kommun）可以出售商品的地方。",
+      "由法院決定所有工資的制度。",
+      "擁有所有企業的政府機關。"
+    ],
+    "explanationZhHant": "勞動力市場是連接求職者與僱主的機制。它涵蓋了招聘、工資形成、就業關系等整個用工體系。"
   },
   {
     "id": "draft-ch08-002",
@@ -565,7 +853,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Work supports personal independence and helps finance public services through taxation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么工作对个人和社会都很重要？",
+    "optionsZh": [
+      "工作带来收入，并通过税收贡献于共同的福利。",
+      "工作使人自动免缴国家税。",
+      "工作是能在市镇选举中投票的唯一方式。",
+      "工作只针对没有受过教育的人。"
+    ],
+    "explanationZh": "对个人而言，工作提供收入和独立；对社会而言，劳动者的税收支撑着医疗、教育、养老等公共服务与福利。",
+    "questionZhHant": "為什麼工作對個人和社會都很重要？",
+    "optionsZhHant": [
+      "工作帶來收入，並通過稅收貢獻於共同的福利。",
+      "工作使人自動免繳國家稅。",
+      "工作是能在市鎮選舉中投票的唯一方式。",
+      "工作只針對沒有受過教育的人。"
+    ],
+    "explanationZhHant": "對個人而言，工作提供收入和獨立；對社會而言，勞動者的稅收支撐着醫療、教育、養老等公共服務與福利。"
   },
   {
     "id": "draft-ch08-003",
@@ -595,7 +899,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Language, skills, contacts, and active applications can all help a person enter working life.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名新到瑞典的人想更快进入劳动力市场。哪一组做法最相关？",
+    "optionsZh": [
+      "提升语言、接受教育、建立人脉和积极求职。",
+      "等待雇主自动提供工作。",
+      "只在一个行业求职而不论经验。",
+      "完全避开政府机关、教育和人际网络。"
+    ],
+    "explanationZh": "新移民进入劳动力市场通常取决于多个因素：瑞典语能力、技能与教育、社交网络（人脉），以及主动投递申请。被动等待往往无效。",
+    "questionZhHant": "一名新到瑞典的人想更快進入勞動力市場。哪一組做法最相關？",
+    "optionsZhHant": [
+      "提升語言、接受教育、建立人脈和積極求職。",
+      "等待僱主自動提供工作。",
+      "只在一個行業求職而不論經驗。",
+      "完全避開政府機關、教育和人際網絡。"
+    ],
+    "explanationZhHant": "新移民進入勞動力市場通常取決於多個因素：瑞典語能力、技能與教育、社交網絡（人脈），以及主動投遞申請。被動等待往往無效。"
   },
   {
     "id": "draft-ch08-004",
@@ -624,7 +944,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "An employment contract sets out the job relationship and important conditions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是雇佣合同？",
+    "optionsZh": [
+      "雇主与雇员之间关于工作和条件的协议。",
+      "一份总能给予瑞典公民身份的证明。",
+      "法院关于市镇（kommun）预算的判决。",
+      "显示房租已付的收据。"
+    ],
+    "explanationZh": "雇佣合同是雇主与雇员之间约定工作内容、工资、工时、雇佣形式等条件的书面或口头协议，是劳动关系的基础。",
+    "questionZhHant": "什麼是僱傭合同？",
+    "optionsZhHant": [
+      "僱主與僱員之間關於工作和條件的協議。",
+      "一份總能給予瑞典公民身份的證明。",
+      "法院關於市鎮（kommun）預算的判決。",
+      "顯示房租已付的收據。"
+    ],
+    "explanationZhHant": "僱傭合同是僱主與僱員之間約定工作內容、工資、工時、僱傭形式等條件的書面或口頭協議，是勞動關系的基礎。"
   },
   {
     "id": "draft-ch08-005",
@@ -653,7 +989,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Knowing employment conditions helps employees understand rights and obligations at work.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么雇员应该了解自己的雇佣条件？",
+    "optionsZh": [
+      "为了了解工资、工时、职责和解雇通知期。",
+      "为了自己能每月决定税率。",
+      "为了确保雇主在任何情况下都不能要求加班。",
+      "为了自动获得公司董事会席位的权利。"
+    ],
+    "explanationZh": "了解雇佣条件能让雇员清楚自己的工资标准、工作时间、岗位职责、通知期限和休假等权利与义务，便于在权益受损时维权。",
+    "questionZhHant": "為什麼僱員應該了解自己的僱傭條件？",
+    "optionsZhHant": [
+      "為了了解工資、工時、職責和解僱通知期。",
+      "為了自己能每月決定稅率。",
+      "為了確保僱主在任何情況下都不能要求加班。",
+      "為了自動獲得公司董事會席位的權利。"
+    ],
+    "explanationZhHant": "了解僱傭條件能讓僱員清楚自己的工資標準、工作時間、崗位職責、通知期限和休假等權利與義務，便於在權益受損時維權。"
   },
   {
     "id": "draft-ch08-006",
@@ -683,7 +1035,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Different employment forms can affect job security, notice, and expectations.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人开始工作，却不明白这份工作是长期、固定期限还是试用期。会出现什么风险？",
+    "optionsZh": [
+      "此人可能误解工作的稳定性以及相关规则。",
+      "此人自动比所有人都拿更高的工资。",
+      "雇主立即失去指挥工作的权利。",
+      "雇佣形式在任何情况下都不重要。"
+    ],
+    "explanationZh": "瑞典的雇佣形式包括长期雇用（tillsvidare）、固定期限（visstid）和试用（prov anställning），它们在稳定性、通知期限和解雇保护上差别很大。不清楚自己的形式容易导致误解。",
+    "questionZhHant": "一個人開始工作，卻不明白這份工作是長期、固定期限還是試用期。會出現什麼風險？",
+    "optionsZhHant": [
+      "此人可能誤解工作的穩定性以及相關規則。",
+      "此人自動比所有人都拿更高的工資。",
+      "僱主立即失去指揮工作的權利。",
+      "僱傭形式在任何情況下都不重要。"
+    ],
+    "explanationZhHant": "瑞典的僱傭形式包括長期僱用（tillsvidare）、固定期限（visstid）和試用（prov anställning），它們在穩定性、通知期限和解僱保護上差別很大。不清楚自己的形式容易導致誤解。"
   },
   {
     "id": "draft-ch08-007",
@@ -712,7 +1080,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Working time is part of employment conditions and is regulated by rules and agreements.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是工作时间？",
+    "optionsZh": [
+      "雇员工作或在雇主支配下的时间。",
+      "瑞典国会（Riksdagen）投票立法的时段。",
+      "银行关门的时段。",
+      "房东带看公寓的时段。"
+    ],
+    "explanationZh": "工作时间指雇员在岗工作或因待命而处于雇主支配之下的时间，受法律和工作协议规范（如每日、每周最长工时）。",
+    "questionZhHant": "什麼是工作時間？",
+    "optionsZhHant": [
+      "僱員工作或在僱主支配下的時間。",
+      "瑞典國會（Riksdagen）投票立法的時段。",
+      "銀行關門的時段。",
+      "房東帶看公寓的時段。"
+    ],
+    "explanationZhHant": "工作時間指僱員在崗工作或因待命而處於僱主支配之下的時間，受法律和工作協議規範（如每日、每周最長工時）。"
   },
   {
     "id": "draft-ch08-008",
@@ -741,7 +1125,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Vacation is an important part of working-life protection and recovery.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "职场中的“带薪休假”指什么？",
+    "optionsZh": [
+      "法定休假，给予雇员休息的机会。",
+      "雇主永远无需安排的自愿馈赠。",
+      "税总是消失的一段时期。",
+      "只适用于企业主的权限。"
+    ],
+    "explanationZh": "在瑞典，带薪休假（semester）是法律赋予雇员的权利，雇主必须安排并提供休假津贴，目的是让雇员得到休息和恢复。",
+    "questionZhHant": "職場中的“帶薪休假”指什麼？",
+    "optionsZhHant": [
+      "法定休假，給予僱員休息的機會。",
+      "僱主永遠無需安排的自願饋贈。",
+      "稅總是消失的一段時期。",
+      "只適用於企業主的權限。"
+    ],
+    "explanationZhHant": "在瑞典，帶薪休假（semester）是法律賦予僱員的權利，僱主必須安排並提供休假津貼，目的是讓僱員得到休息和恢複。"
   },
   {
     "id": "draft-ch08-009",
@@ -771,7 +1171,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Work environment includes physical and psychosocial conditions, and employers have responsibility for safety.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个工作场所工作负荷很高，多名雇员因压力而生病。什么问题变得关键？",
+    "optionsZh": [
+      "工作环境，以及雇主对安全健康工作场所的责任。",
+      "公共就业服务局（Arbetsförmedlingen）有义务立即调岗所有生病的雇员。",
+      "社会保险局（Försäkringskassan）有权决定工作场所的排班。",
+      "工会有义务接管公司的经营管理。"
+    ],
+    "explanationZh": "工作中的身体和心理压力都属于工作环境的范畴。雇主对提供安全健康的工作环境负有首要责任，包括预防和治疗工作压力导致的疾病。",
+    "questionZhHant": "一個工作場所工作負荷很高，多名僱員因壓力而生病。什麼問題變得關鍵？",
+    "optionsZhHant": [
+      "工作環境，以及僱主對安全健康工作場所的責任。",
+      "公共就業服務局（Arbetsförmedlingen）有義務立即調崗所有生病的僱員。",
+      "社會保險局（Försäkringskassan）有權決定工作場所的排班。",
+      "工會有義務接管公司的經營管理。"
+    ],
+    "explanationZhHant": "工作中的身體和心理壓力都屬於工作環境的範疇。僱主對提供安全健康的工作環境負有首要責任，包括預防和治療工作壓力導致的疾病。"
   },
   {
     "id": "draft-ch08-010",
@@ -800,7 +1216,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Work environment includes the conditions that affect people at work.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“工作环境”指什么？",
+    "optionsZh": [
+      "工作场所中影响健康、安全和舒适度的各种条件。",
+      "仅仅指家里墙的颜色。",
+      "关于议会选举如何计票的规则。",
+      "个人储蓄的另一种说法。"
+    ],
+    "explanationZh": "工作环境包括物理条件（如噪音、设备安全）和心理社会条件（如工作负荷、人际关系），直接影响雇员的健康与安全。",
+    "questionZhHant": "“工作環境”指什麼？",
+    "optionsZhHant": [
+      "工作場所中影響健康、安全和舒適度的各種條件。",
+      "僅僅指家裡牆的顏色。",
+      "關於議會選舉如何計票的規則。",
+      "個人儲蓄的另一種說法。"
+    ],
+    "explanationZhHant": "工作環境包括物理條件（如噪音、裝置安全）和心理社會條件（如工作負荷、人際關系），直接影響僱員的健康與安全。"
   },
   {
     "id": "draft-ch08-011",
@@ -829,7 +1261,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The employer has primary responsibility, while employees also participate by following rules and reporting risks.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "谁对工作场所的工作环境负有首要责任？",
+    "optionsZh": [
+      "雇主。",
+      "仅安全代表。",
+      "公共就业服务局（Arbetsförmedlingen）。",
+      "市镇执行委员会。"
+    ],
+    "explanationZh": "雇主对工作环境负有首要责任，必须主动预防风险。但雇员也要遵守规则、报告危险，安全代表则代表雇员参与监督。",
+    "questionZhHant": "誰對工作場所的工作環境負有首要責任？",
+    "optionsZhHant": [
+      "僱主。",
+      "僅安全代表。",
+      "公共就業服務局（Arbetsförmedlingen）。",
+      "市鎮執行委員會。"
+    ],
+    "explanationZhHant": "僱主對工作環境負有首要責任，必須主動預防風險。但僱員也要遵守規則、報告危險，安全代表則代表僱員參與監督。"
   },
   {
     "id": "draft-ch08-012",
@@ -859,7 +1307,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Risks at work should be reported and handled before people are harmed.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名雇员发现工作场所有一台危险的机器。合理的第一步是什么？",
+    "optionsZh": [
+      "按工作场所的规程上报风险，以便加以处理。",
+      "继续使用该机器以免扰乱生产。",
+      "立即辞职而不通知同事或主管。",
+      "等到年度员工调查时再说。"
+    ],
+    "explanationZh": "发现危险时，应按单位的安全规程及时上报，让负责人消除隐患，避免人员受伤。沉默或继续冒险操作都可能导致事故。",
+    "questionZhHant": "一名僱員發現工作場所有一台危險的機器。合理的第一步是什麼？",
+    "optionsZhHant": [
+      "按工作場所的規程上報風險，以便加以處理。",
+      "繼續使用該機器以免擾亂生產。",
+      "立即辭職而不通知同事或主管。",
+      "等到年度員工調查時再說。"
+    ],
+    "explanationZhHant": "發現危險時，應按單位的安全規程及時上報，讓負責人消除隱患，避免人員受傷。沉默或繼續冒險操作都可能導致事故。"
   },
   {
     "id": "draft-ch08-013",
@@ -888,7 +1352,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Trade unions represent workers’ interests in working life.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是工会？",
+    "optionsZh": [
+      "雇员可以联合起来影响工作条件的组织。",
+      "审判刑事案件的政府机关。",
+      "决定国家预算的公司。",
+      "只组织大选的协会。"
+    ],
+    "explanationZh": "工会（fackförening）是雇员为维护和改善工资、工时、工作环境等条件而组成的组织，是瑞典劳动力市场模式的重要一环。",
+    "questionZhHant": "什麼是工會？",
+    "optionsZhHant": [
+      "僱員可以聯合起來影響工作條件的組織。",
+      "審判刑事案件的政府機關。",
+      "決定國家預算的公司。",
+      "只組織大選的協會。"
+    ],
+    "explanationZhHant": "工會（fackförening）是僱員為維護和改善工資、工時、工作環境等條件而組成的組織，是瑞典勞動力市場模式的重要一環。"
   },
   {
     "id": "draft-ch08-014",
@@ -917,7 +1397,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Trade unions can negotiate and advise members about rights and conditions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "工会在瑞典劳动力市场上通常扮演什么角色？",
+    "optionsZh": [
+      "它们就工作条件进行谈判，并在职场问题上支持会员。",
+      "它们决定个人的税率。",
+      "它们为外籍劳工签发工作许可。",
+      "它们检查所有公司是否遵守公司法。"
+    ],
+    "explanationZh": "工会通过集体谈判为会员争取工资和福利，并提供法律与职场问题的咨询。税率、工作许可和公司法分别由其他机构负责。",
+    "questionZhHant": "工會在瑞典勞動力市場上通常扮演什麼角色？",
+    "optionsZhHant": [
+      "它們就工作條件進行談判，並在職場問題上支持會員。",
+      "它們決定個人的稅率。",
+      "它們為外籍勞工籤發工作許可。",
+      "它們檢查所有公司是否遵守公司法。"
+    ],
+    "explanationZhHant": "工會通過集體談判為會員爭取工資和福利，並提供法律與職場問題的諮詢。稅率、工作許可和公司法分別由其他機構負責。"
   },
   {
     "id": "draft-ch08-015",
@@ -947,7 +1443,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Employees have a protected interest in being able to organize collectively.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "雇主说雇员不得在工作场所讨论工会会员身份。这可能涉及什么原则？",
+    "optionsZh": [
+      "结社自由，以及雇员组织起来的权利。",
+      "雇主对员工业余时间的自由支配权。",
+      "瑞典国会（Riksdagen）在工资谈判上的垄断。",
+      "关于所有公共协议的保密义务。"
+    ],
+    "explanationZh": "结社自由（föreningsfrihet）是一项基本权利，雇员有权加入并讨论工会，雇主不得禁止。瑞典劳动法保护雇员的这种集体组织权。",
+    "questionZhHant": "僱主說僱員不得在工作場所討論工會會員身份。這可能涉及什麼原則？",
+    "optionsZhHant": [
+      "結社自由，以及僱員組織起來的權利。",
+      "僱主對員工業餘時間的自由支配權。",
+      "瑞典國會（Riksdagen）在工資談判上的壟斷。",
+      "關於所有公共協議的保密義務。"
+    ],
+    "explanationZhHant": "結社自由（föreningsfrihet）是一項基本權利，僱員有權加入並討論工會，僱主不得禁止。瑞典勞動法保護僱員的這種集體組織權。"
   },
   {
     "id": "draft-ch08-016",
@@ -976,7 +1488,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Collective agreements are important in the Swedish labour-market model.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是集体协议？",
+    "optionsZh": [
+      "雇主或雇主组织与工会之间关于工作条件的协议。",
+      "选民与选举管理局（Valmyndigheten）之间关于选票卡的协议。",
+      "取代所有法律的私人保险。",
+      "市镇（kommun）设立新法院的决定。"
+    ],
+    "explanationZh": "集体协议（kollektivavtal）由雇主（或雇主组织）与工会签订，规定工资、工时、养老金等条款，是瑞典“瑞典模式”的核心。",
+    "questionZhHant": "什麼是集體協議？",
+    "optionsZhHant": [
+      "僱主或僱主組織與工會之間關於工作條件的協議。",
+      "選民與選舉管理局（Valmyndigheten）之間關於選票卡的協議。",
+      "取代所有法律的私人保險。",
+      "市鎮（kommun）設立新法院的決定。"
+    ],
+    "explanationZhHant": "集體協議（kollektivavtal）由僱主（或僱主組織）與工會籤訂，規定工資、工時、養老金等條款，是瑞典“瑞典模式”的核心。"
   },
   {
     "id": "draft-ch08-017",
@@ -1005,7 +1533,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Many workplace conditions in Sweden are shaped through collective bargaining.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么集体协议在瑞典很重要？",
+    "optionsZh": [
+      "它们规范了工资、工时、养老金及其他许多条件。",
+      "它们使国家关于工作环境的法律失效。",
+      "所有居民都必须私下签订。",
+      "它们完全取代所有个人雇佣合同。"
+    ],
+    "explanationZh": "在瑞典，许多职场条件不是由国家法律直接规定，而是通过集体谈判形成的集体协议来规范，因此它影响面很广。",
+    "questionZhHant": "為什麼集體協議在瑞典很重要？",
+    "optionsZhHant": [
+      "它們規範了工資、工時、養老金及其他許多條件。",
+      "它們使國家關於工作環境的法律失效。",
+      "所有居民都必須私下籤訂。",
+      "它們完全取代所有個人僱傭合同。"
+    ],
+    "explanationZhHant": "在瑞典，許多職場條件不是由國家法律直接規定，而是通過集體談判形成的集體協議來規範，因此它影響面很廣。"
   },
   {
     "id": "draft-ch08-018",
@@ -1035,7 +1579,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A collective agreement can include important benefits and conditions beyond monthly salary.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人比较两份工资相同的工作，但只有一份有集体协议。什么值得调查？",
+    "optionsZh": [
+      "协议是否带来职业养老金、保险和规范化的加班等条件。",
+      "没有协议的工作是否在所有情况下都自动违法。",
+      "集体协议是否意味着无需缴税。",
+      "有协议的雇主是否决定瑞典国会（Riksdagen）的法律。"
+    ],
+    "explanationZh": "集体协议通常附带职业养老金（tjänstepension）、意外保险、病假和加班规则等福利，这些往往超出月薪本身。比较工作时不只看工资，也要看这些附带条件。",
+    "questionZhHant": "一個人比較兩份工資相同的工作，但只有一份有集體協議。什麼值得調查？",
+    "optionsZhHant": [
+      "協議是否帶來職業養老金、保險和規範化的加班等條件。",
+      "沒有協議的工作是否在所有情況下都自動違法。",
+      "集體協議是否意味着無需繳稅。",
+      "有協議的僱主是否決定瑞典國會（Riksdagen）的法律。"
+    ],
+    "explanationZhHant": "集體協議通常附帶職業養老金（tjänstepension）、意外保險、病假和加班規則等福利，這些往往超出月薪本身。比較工作時不只看工資，也要看這些附帶條件。"
   },
   {
     "id": "draft-ch08-019",
@@ -1064,7 +1624,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "An employer has responsibilities toward employees and organizes the work.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是雇主？",
+    "optionsZh": [
+      "雇佣他人并指挥工作的人。",
+      "在公司求职的人。",
+      "把住房租给雇员的人。",
+      "规定全国所有工资的政府机关。"
+    ],
+    "explanationZh": "雇主是聘用雇员、组织并指挥工作、并承担工资和社保缴费等责任的一方，可以是个人或公司。",
+    "questionZhHant": "什麼是僱主？",
+    "optionsZhHant": [
+      "僱傭他人並指揮工作的人。",
+      "在公司求職的人。",
+      "把住房租給僱員的人。",
+      "規定全國所有工資的政府機關。"
+    ],
+    "explanationZhHant": "僱主是聘用僱員、組織並指揮工作、並承擔工資和社會保險繳費等責任的一方，可以是個人或公司。"
   },
   {
     "id": "draft-ch08-020",
@@ -1094,7 +1670,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Employees have duties as part of the employment relationship, alongside their rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "雇员在工作中的责任是什么？",
+    "optionsZh": [
+      "完成工作、遵守合理指示，并为安全的工作环境作出贡献。",
+      "自主下调或上调公司产品售价。",
+      "监视同事的个人财务状况。",
+      "保证公司的年度利润目标。"
+    ],
+    "explanationZh": "雇员在享有权利的同时也有义务：按要求完成工作、遵守合理的工作指令，并配合维护安全的工作环境。",
+    "questionZhHant": "僱員在工作中的責任是什麼？",
+    "optionsZhHant": [
+      "完成工作、遵守合理指示，並為安全的工作環境作出貢獻。",
+      "自主下調或上調公司產品售價。",
+      "監視同事的個人財務狀況。",
+      "保證公司的年度利潤目標。"
+    ],
+    "explanationZhHant": "僱員在享有權利的同時也有義務：按要求完成工作、遵守合理的工作指令，並配合維護安全的工作環境。"
   },
   {
     "id": "draft-ch08-021",
@@ -1125,7 +1717,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Workplace instructions must be understood together with laws, safety rules, and responsibility.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位主管发出似乎违反安全规程的指示。雇员应当如何思考？",
+    "optionsZh": [
+      "管理权威并非无限；安全风险应按规程提出。",
+      "主管的指示永远有效，即使有人面临伤害风险。",
+      "雇员应自行修改工作场所的法律。",
+      "安全规程只在选举年适用。"
+    ],
+    "explanationZh": "主管有权指挥工作，但这一权威并非无限，不能凌驾于法律和职业安全规章之上。面对危险指示，雇员应按规程指出并拒绝不安全操作。",
+    "questionZhHant": "一位主管發出似乎違反安全規程的指示。僱員應當如何思考？",
+    "optionsZhHant": [
+      "管理權威並非無限；安全風險應按規程提出。",
+      "主管的指示永遠有效，即使有人面臨傷害風險。",
+      "僱員應自行修改工作場所的法律。",
+      "安全規程只在選舉年適用。"
+    ],
+    "explanationZhHant": "主管有權指揮工作，但這一權威並非無限，不能凌駕於法律和職業安全規章之上。面對危險指示，僱員應按規程指出並拒絕不安全操作。"
   },
   {
     "id": "draft-ch08-022",
@@ -1154,7 +1762,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Taxes are a major way to finance the welfare society and public services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么人们在瑞典要缴税？",
+    "optionsZh": [
+      "为了资助医疗、教育和抚养等共同的公共职能。",
+      "为了让所有居民不论职业都拿相同工资。",
+      "为了让国家能拥有所有企业。",
+      "为了让市镇（kommun）完全自由地自行决定税率。"
+    ],
+    "explanationZh": "税收是瑞典福利社会的主要财源，用于资助医疗、教育、养老、基础设施等由全社会共享的公共服务。",
+    "questionZhHant": "為什麼人們在瑞典要繳稅？",
+    "optionsZhHant": [
+      "為了資助醫療、教育和撫養等共同的公共職能。",
+      "為了讓所有居民不論職業都拿相同工資。",
+      "為了讓國家能擁有所有企業。",
+      "為了讓市鎮（kommun）完全自由地自行決定稅率。"
+    ],
+    "explanationZhHant": "稅收是瑞典福利社會的主要財源，用於資助醫療、教育、養老、基礎設施等由全社會共享的公共服務。"
   },
   {
     "id": "draft-ch08-023",
@@ -1183,7 +1807,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Employees usually receive salary after tax deductions have been made.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“工资的预缴税”是什么意思？",
+    "optionsZh": [
+      "税款在工钱发放前持续从工资中扣除。",
+      "一种自己选择在年底缴纳的自愿税。",
+      "仅在出售财产时缴纳的税。",
+      "雇主向工会缴纳的费用。"
+    ],
+    "explanationZh": "预缴税（preliminär skatt）由雇主在发薪时按预计税率代扣，在年底报税时再与实际应缴税额结算，多退少补。",
+    "questionZhHant": "“工資的預繳稅”是什麼意思？",
+    "optionsZhHant": [
+      "稅款在工錢發放前持續從工資中扣除。",
+      "一種自己選擇在年底繳納的自願稅。",
+      "僅在出售財產時繳納的稅。",
+      "僱主向工會繳納的費用。"
+    ],
+    "explanationZhHant": "預繳稅（preliminär skatt）由僱主在發薪時按預計稅率代扣，在年底報稅時再與實際應繳稅額結算，多退少補。"
   },
   {
     "id": "draft-ch08-024",
@@ -1213,7 +1853,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Undeclared work can harm both the worker’s security and public finances.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人以“黑工”方式领取工资，未申报税款和费用。存在什么风险？",
+    "optionsZh": [
+      "此人可能获得更差的保护，而社会也损失了税收。",
+      "此人自动获得比别人都好的养老金。",
+      "工作总是比合法工作更安全。",
+      "市镇（kommun）在国会获得更多席位。"
+    ],
+    "explanationZh": "“黑工”（svartarbete）即不申报、不缴税的用工。对劳动者而言，它意味着没有养老金、保险和解雇保护；对社会而言，则流失了税收。",
+    "questionZhHant": "一個人以“黑工”方式領取工資，未申報稅款和費用。存在什麼風險？",
+    "optionsZhHant": [
+      "此人可能獲得更差的保護，而社會也損失了稅收。",
+      "此人自動獲得比別人都好的養老金。",
+      "工作總是比合法工作更安全。",
+      "市鎮（kommun）在國會獲得更多席位。"
+    ],
+    "explanationZhHant": "“黑工”（svartarbete）即不申報、不繳稅的用工。對勞動者而言，它意味着沒有養老金、保險和解僱保護；對社會而言，則流失了稅收。"
   },
   {
     "id": "draft-ch08-025",
@@ -1242,7 +1898,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Gross salary is the amount before taxes and deductions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是毛工资？",
+    "optionsZh": [
+      "税前的工资。",
+      "付清所有账单后的工资。",
+      "法院发放的一种补助。",
+      "一种市镇选举。"
+    ],
+    "explanationZh": "毛工资（bruttolön）是扣除税款和社保前的总额；与之相对的是实际到手的净工资。",
+    "questionZhHant": "什麼是毛工資？",
+    "optionsZhHant": [
+      "稅前的工資。",
+      "付清所有賬單後的工資。",
+      "法院發放的一種補助。",
+      "一種市鎮選舉。"
+    ],
+    "explanationZhHant": "毛工資（bruttolön）是扣除稅款和社會保險前的總額；與之相對的是實際到手的淨工資。"
   },
   {
     "id": "draft-ch08-026",
@@ -1271,7 +1943,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Net salary is the amount a person receives after tax deductions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是净工资？",
+    "optionsZh": [
+      "税后实际发放的工资。",
+      "总是与毛工资相同的工资。",
+      "对房东的一笔债务。",
+      "两个政党之间的协议。"
+    ],
+    "explanationZh": "净工资（nettolön）是扣除税款和社保后雇员实际拿到手的金额，也是日常可用于开销的钱。",
+    "questionZhHant": "什麼是淨工資？",
+    "optionsZhHant": [
+      "稅後實際發放的工資。",
+      "總是與毛工資相同的工資。",
+      "對房東的一筆債務。",
+      "兩個政黨之間的協議。"
+    ],
+    "explanationZhHant": "淨工資（nettolön）是扣除稅款和社會保險後僱員實際拿到手的金額，也是日常可用於開銷的錢。"
   },
   {
     "id": "draft-ch08-027",
@@ -1301,7 +1989,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A household budget should use money actually available, usually net income.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人按毛工资而非净工资来规划月度预算。可能出什么问题？",
+    "optionsZh": [
+      "此人可能误以为手头可用的钱比实际发放的多。",
+      "此人第二天自动拿回全部税款。",
+      "雇主必须支付所有私人账单。",
+      "用毛工资做预算总是更准确。"
+    ],
+    "explanationZh": "家庭预算应基于实际到手的净工资，因为税款和社保已从中扣除。若按毛工资规划，会高估可用资金，导致入不敷出。",
+    "questionZhHant": "一個人按毛工資而非淨工資來規劃月度預算。可能出什麼問題？",
+    "optionsZhHant": [
+      "此人可能誤以為手頭可用的錢比實際發放的多。",
+      "此人第二天自動拿回全部稅款。",
+      "僱主必須支付所有私人賬單。",
+      "用毛工資做預算總是更準確。"
+    ],
+    "explanationZhHant": "家庭預算應基於實際到手的淨工資，因為稅款和社會保險已從中扣除。若按毛工資規劃，會高估可用資金，導致入不敷出。"
   },
   {
     "id": "draft-ch08-028",
@@ -1330,7 +2034,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Arbetsförmedlingen supports jobseekers and labour-market entry.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个政府机关可以支持求职者？",
+    "optionsZh": [
+      "公共就业服务局（Arbetsförmedlingen）。",
+      "社会保险局（Försäkringskassan）。",
+      "税务局（Skatteverket）。",
+      "移民局（Migrationsverket）。"
+    ],
+    "explanationZh": "公共就业服务局（Arbetsförmedlingen）负责提供求职支持、职业介绍和再就业措施，帮助人们进入劳动力市场。",
+    "questionZhHant": "哪個政府機關可以支持求職者？",
+    "optionsZhHant": [
+      "公共就業服務局（Arbetsförmedlingen）。",
+      "社會保險局（Försäkringskassan）。",
+      "稅務局（Skatteverket）。",
+      "移民局（Migrationsverket）。"
+    ],
+    "explanationZhHant": "公共就業服務局（Arbetsförmedlingen）負責提供求職支持、職業介紹和再就業措施，幫助人們進入勞動力市場。"
   },
   {
     "id": "draft-ch08-029",
@@ -1359,7 +2079,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The agency can support people seeking work, though individuals must also be active.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "公共就业服务局能提供哪些帮助？",
+    "optionsZh": [
+      "求职支持，以及进入劳动力市场的各类措施。",
+      "向生病的雇员批准并发放病假津贴。",
+      "打印税单并确定最终税额。",
+      "在所有私人纠纷中提供免费法律援助。"
+    ],
+    "explanationZh": "公共就业服务局主要协助求职、职业指导和再就业。病假津贴由社会保险局（Försäkringskassan）负责，税务由税务局（Skatteverket）处理。",
+    "questionZhHant": "公共就業服務局能提供哪些幫助？",
+    "optionsZhHant": [
+      "求職支持，以及進入勞動力市場的各類措施。",
+      "向生病的僱員批準並發放病假津貼。",
+      "打印稅單並確定最終稅額。",
+      "在所有私人糾紛中提供免費法律援助。"
+    ],
+    "explanationZhHant": "公共就業服務局主要協助求職、職業指導和再就業。病假津貼由社會保險局（Försäkringskassan）負責，稅務由稅務局（Skatteverket）處理。"
   },
   {
     "id": "draft-ch08-030",
@@ -1389,7 +2125,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Support systems often require active participation and following agreed plans.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名求职者缺席约谈，也没有去申请计划好的工作。这会影响什么？",
+    "optionsZh": [
+      "能否继续获得与求职相关的援助或补偿。",
+      "在下届议会选举中投票的权利。",
+      "法院的独立性。",
+      "市镇（kommun）建造住房的义务。"
+    ],
+    "explanationZh": "失业援助通常与“积极求职”挂钩。若求职者在公共就业服务局登记却缺席约谈、不按要求申请工作，可能失去继续领取救济金的资格。",
+    "questionZhHant": "一名求職者缺席約談，也沒有去申請計劃好的工作。這會影響什麼？",
+    "optionsZhHant": [
+      "能否繼續獲得與求職相關的援助或補償。",
+      "在下屆議會選舉中投票的權利。",
+      "法院的獨立性。",
+      "市鎮（kommun）建造住房的義務。"
+    ],
+    "explanationZhHant": "失業援助通常與“積極求職”掛鉤。若求職者在公共就業服務局登記卻缺席約談、不按要求申請工作，可能失去繼續領取救濟金的資格。"
   },
   {
     "id": "draft-ch08-031",
@@ -1419,7 +2171,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Education and skills can improve opportunities to find and keep work.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么教育在劳动力市场上很重要？",
+    "optionsZh": [
+      "它能提供雇主所需要的知识和技能。",
+      "它让人无需付房租。",
+      "它取代所有工作环境规定。",
+      "它让人自动成为大臣。"
+    ],
+    "explanationZh": "教育和技能培训提升了求职者的竞争力，使其更能满足雇主对岗位能力的要求，从而更容易找到并保住工作。",
+    "questionZhHant": "為什麼教育在勞動力市場上很重要？",
+    "optionsZhHant": [
+      "它能提供僱主所需要的知識和技能。",
+      "它讓人無需付房租。",
+      "它取代所有工作環境規定。",
+      "它讓人自動成為大臣。"
+    ],
+    "explanationZhHant": "教育和技能培訓提升了求職者的競爭力，使其更能滿足僱主對崗位能力的要求，從而更容易找到並保住工作。"
   },
   {
     "id": "draft-ch08-032",
@@ -1449,7 +2217,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Skills development can help people adapt as working life changes.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“能力提升”指什么？",
+    "optionsZh": [
+      "发展工作或学习所需的知识与技能。",
+      "依法每五年换一次行业。",
+      "雇主不论表现自动加薪。",
+      "学校接管雇员工时的责任。"
+    ],
+    "explanationZh": "能力提升（kompetensutveckling）指通过学习、培训不断更新工作所需的技能，有助于适应职场变化和提升职业发展。",
+    "questionZhHant": "“能力提升”指什麼？",
+    "optionsZhHant": [
+      "發展工作或學習所需的知識與技能。",
+      "依法每五年換一次行業。",
+      "僱主不論表現自動加薪。",
+      "學校接管僱員工時的責任。"
+    ],
+    "explanationZhHant": "能力提升（kompetensutveckling）指通過學習、培訓不斷更新工作所需的技能，有助於適應職場變化和提升職業發展。"
   },
   {
     "id": "draft-ch08-033",
@@ -1480,7 +2264,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Working life changes, so lifelong learning and adaptation can be important.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一项职业因新技术而迅速变化。对雇员来说合理的策略是什么？",
+    "optionsZh": [
+      "持续深化能力，并准备好学习新事物。",
+      "认为旧知识在所有职业中永远够用。",
+      "要求在全国范围内禁止该技术。",
+      "停止申报收入。"
+    ],
+    "explanationZh": "职场随技术不断进步而变化，终身学习和主动适应新技能，能帮助雇员保持就业竞争力。",
+    "questionZhHant": "一項職業因新技術而迅速變化。對僱員來說合理的策略是什麼？",
+    "optionsZhHant": [
+      "持續深化能力，並準備好學習新事物。",
+      "認為舊知識在所有職業中永遠夠用。",
+      "要求在全國範圍內禁止該技術。",
+      "停止申報收入。"
+    ],
+    "explanationZhHant": "職場隨技術不斷進步而變化，終身學習和主動適應新技能，能幫助僱員保持就業競爭力。"
   },
   {
     "id": "draft-ch08-034",
@@ -1509,7 +2309,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Private economy is about managing money in everyday life.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "个人财务包含什么？",
+    "optionsZh": [
+      "收入、支出、储蓄、贷款和付款。",
+      "仅瑞典国会（Riksdagen）的预算。",
+      "只有法院的开支。",
+      "仅市镇（kommun）的选举结果。"
+    ],
+    "explanationZh": "个人财务（privatekonomi）指个人或家庭对日常金钱的管理，包括赚钱、花销、储蓄、借贷和按时缴费。",
+    "questionZhHant": "個人財務包含什麼？",
+    "optionsZhHant": [
+      "收入、支出、儲蓄、貸款和付款。",
+      "僅瑞典國會（Riksdagen）的預算。",
+      "只有法院的開支。",
+      "僅市鎮（kommun）的選舉結果。"
+    ],
+    "explanationZhHant": "個人財務（privatekonomi）指個人或家庭對日常金錢的管理，包括賺錢、花銷、儲蓄、借貸和按時繳費。"
   },
   {
     "id": "draft-ch08-035",
@@ -1538,7 +2354,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A budget helps people see whether money will cover necessary costs.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么家庭预算有用？",
+    "optionsZh": [
+      "它帮助家庭规划收入、支出和储蓄。",
+      "它使所有账单自动消失。",
+      "它取代了对银行账户的需要。",
+      "它决定国家的税收政策。"
+    ],
+    "explanationZh": "家庭预算能让人一目了然地看到未来一段时间里，收入是否足以覆盖必要开销，并及时调整消费，避免债务。",
+    "questionZhHant": "為什麼家庭預算有用？",
+    "optionsZhHant": [
+      "它幫助家庭規劃收入、支出和儲蓄。",
+      "它使所有賬單自動消失。",
+      "它取代了對銀行賬戶的需要。",
+      "它決定國家的稅收政策。"
+    ],
+    "explanationZhHant": "家庭預算能讓人一目了然地看到未來一段時間裡，收入是否足以覆蓋必要開銷，並及時調整消費，避免債務。"
   },
   {
     "id": "draft-ch08-036",
@@ -1568,7 +2400,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "When income changes, reviewing costs early can prevent debt problems.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个家庭的收入减少了，却维持相同的支出。首先最可持续的做法是什么？",
+    "optionsZh": [
+      "审查预算，优先保障住房、食物和账单等必要开支。",
+      "在不比较成本的情况下借几笔快贷。",
+      "停止拆阅政府机关和企业寄来的邮件。",
+      "认为债务一个月后会自动消失。"
+    ],
+    "explanationZh": "当收入下降时，应尽早审视预算，先保住住房、饮食、账单等刚性支出，削减可选项，避免借高息贷陷入债务循环。",
+    "questionZhHant": "一個家庭的收入減少了，卻維持相同的支出。首先最可持續的做法是什麼？",
+    "optionsZhHant": [
+      "審查預算，優先保障住房、食物和賬單等必要開支。",
+      "在不比較成本的情況下借幾筆快貸。",
+      "停止拆閱政府機關和企業寄來的郵件。",
+      "認為債務一個月後會自動消失。"
+    ],
+    "explanationZhHant": "當收入下降時，應盡早審視預算，先保住住房、飲食、賬單等剛性支出，削減可選項，避免借高息貸陷入債務循環。"
   },
   {
     "id": "draft-ch08-037",
@@ -1597,7 +2445,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Unpaid bills can become more expensive and lead to debt collection.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "如果账单没有按时支付，会发生什么？",
+    "optionsZh": [
+      "可能产生费用，债务还可能被转交催收机构。",
+      "账单总是变成免费。",
+      "此人自动获得更高工资。",
+      "市镇（kommun）总是支付私人账单。"
+    ],
+    "explanationZh": "逾期未付账单通常会产生滞纳金，若继续拖欠可能被转交催收（inkasso），严重时还会留下付款违约记录。",
+    "questionZhHant": "如果賬單沒有按時支付，會發生什麼？",
+    "optionsZhHant": [
+      "可能產生費用，債務還可能被轉交催收機構。",
+      "賬單總是變成免費。",
+      "此人自動獲得更高工資。",
+      "市鎮（kommun）總是支付私人賬單。"
+    ],
+    "explanationZhHant": "逾期未付賬單通常會產生滯納金，若繼續拖欠可能被轉交催收（inkasso），嚴重時還會留下付款違約記錄。"
   },
   {
     "id": "draft-ch08-038",
@@ -1626,7 +2490,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A payment reminder warns that payment is missing and may lead to extra costs.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是“付款提醒”？",
+    "optionsZh": [
+      "关于某张发票未按时支付的通知。",
+      "显示一笔债务已付清的收据。",
+      "银行批准贷款的确认书。",
+      "执行局（Kronofogden）出具的债务重组证明。"
+    ],
+    "explanationZh": "付款提醒（betalningspåminnelse）是债权人发现账单逾期后发出的通知，提示你尽快付款，否则可能产生额外费用或被催收。",
+    "questionZhHant": "什麼是“付款提醒”？",
+    "optionsZhHant": [
+      "關於某張發票未按時支付的通知。",
+      "顯示一筆債務已付清的收據。",
+      "銀行批準貸款的確認書。",
+      "執行局（Kronofogden）出具的債務重組證明。"
+    ],
+    "explanationZhHant": "付款提醒（betalningspåminnelse）是債權人發現賬單逾期後發出的通知，提示你盡快付款，否則可能產生額外費用或被催收。"
   },
   {
     "id": "draft-ch08-039",
@@ -1656,7 +2536,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Early contact can sometimes prevent fees, debt collection, or more serious consequences.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人意识到房租在到期前无法支付。明智的一步是什么？",
+    "optionsZh": [
+      "尽早联系房东，在债务扩大前设法找到解决办法。",
+      "等到房东把案子送交催收再联系。",
+      "不做利率调查就借快贷来掩盖问题。",
+      "不再拆看房东寄来的所有信件。"
+    ],
+    "explanationZh": "当预计无法按时付款时，主动尽早与债权人（如房东）沟通，往往能协商出延期或分期方案，避免滞纳金、催收乃至被驱逐。",
+    "questionZhHant": "一個人意識到房租在到期前無法支付。明智的一步是什麼？",
+    "optionsZhHant": [
+      "盡早聯系房東，在債務擴大前設法找到解決辦法。",
+      "等到房東把案子送交催收再聯系。",
+      "不做利率調查就借快貸來掩蓋問題。",
+      "不再拆看房東寄來的所有信件。"
+    ],
+    "explanationZhHant": "當預計無法按時付款時，主動盡早與債權人（如房東）溝通，往往能協商出延期或分期方案，避免滯納金、催收乃至被驅逐。"
   },
   {
     "id": "draft-ch08-040",
@@ -1685,7 +2581,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Debt means an obligation to pay money back or pay what is owed.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是债务？",
+    "optionsZh": [
+      "个人或家庭有义务支付的钱。",
+      "总是作为礼物的钱。",
+      "市镇（kommun）发出的选票卡。",
+      "关于公共服务媒体的规则。"
+    ],
+    "explanationZh": "债务（skuld）是欠他人或机构的钱，如未付账单、贷款，负有按约定偿还的义务。",
+    "questionZhHant": "什麼是債務？",
+    "optionsZhHant": [
+      "個人或家庭有義務支付的錢。",
+      "總是作為禮物的錢。",
+      "市鎮（kommun）發出的選票卡。",
+      "關於公共服務媒體的規則。"
+    ],
+    "explanationZhHant": "債務（skuld）是欠他人或機構的錢，如未付賬單、貸款，負有按約定償還的義務。"
   },
   {
     "id": "draft-ch08-041",
@@ -1714,7 +2626,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Interest and fees can make borrowing expensive over time.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么高利率和高费用会让贷款变得困难？",
+    "optionsZh": [
+      "总成本会超过最初借到的金额。",
+      "利息意味着贷款总是免费的。",
+      "费用让债务自动消失。",
+      "贷款从不影响家庭财务。"
+    ],
+    "explanationZh": "贷款除本金外还要付利息和手续费，利率和费用越高，最终偿还总额越大，可能超出借款人的承受能力。",
+    "questionZhHant": "為什麼高利率和高費用會讓貸款變得困難？",
+    "optionsZhHant": [
+      "總成本會超過最初借到的金額。",
+      "利息意味着貸款總是免費的。",
+      "費用讓債務自動消失。",
+      "貸款從不影響家庭財務。"
+    ],
+    "explanationZhHant": "貸款除本金外還要付利息和手續費，利率和費用越高，最終償還總額越大，可能超出借款人的承受能力。"
   },
   {
     "id": "draft-ch08-042",
@@ -1744,7 +2672,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Borrowing to pay existing debts can create a cycle that becomes difficult to stop.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人每月借新贷来还旧贷。这种情况显示出什么风险？",
+    "optionsZh": [
+      "一个费用和借贷依赖不断扩大的债务陷阱。",
+      "一种避开所有未来账单的安全方法。",
+      "贷款越多越便宜。",
+      "银行自动退税。"
+    ],
+    "explanationZh": "用新贷款偿还旧债会让利息和费用不断累积，债务像滚雪球般扩大，形成难以摆脱的“债务陷阱”。应尽早寻求债务咨询。",
+    "questionZhHant": "一個人每月借新貸來還舊貸。這種情況顯示出什麼風險？",
+    "optionsZhHant": [
+      "一個費用和借貸依賴不斷擴大的債務陷阱。",
+      "一種避開所有未來賬單的安全方法。",
+      "貸款越多越便宜。",
+      "銀行自動退稅。"
+    ],
+    "explanationZhHant": "用新貸款償還舊債會讓利息和費用不斷累積，債務像滾雪球般擴大，形成難以擺脫的“債務陷阱”。應盡早尋求債務諮詢。"
   },
   {
     "id": "draft-ch08-043",
@@ -1773,7 +2717,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Kronofogden can become involved when debts are not paid.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个政府机关的工作涉及未偿债务等事务？",
+    "optionsZh": [
+      "执行局（Kronofogden）。",
+      "消费者管理局（Konsumentverket）。",
+      "税务局（Skatteverket）。",
+      "金融监管局（Finansinspektionen）。"
+    ],
+    "explanationZh": "执行局（Kronofogden，瑞典执行局）负责追讨逾期未付的债务、扣押财产和强制执行，是债务问题的最后处理环节。",
+    "questionZhHant": "哪個政府機關的工作涉及未償債務等事務？",
+    "optionsZhHant": [
+      "執行局（Kronofogden）。",
+      "消費者管理局（Konsumentverket）。",
+      "稅務局（Skatteverket）。",
+      "金融監管局（Finansinspektionen）。"
+    ],
+    "explanationZhHant": "執行局（Kronofogden，瑞典執行局）負責追討逾期未付的債務、扣押財產和強制執行，是債務問題的最後處理環節。"
   },
   {
     "id": "draft-ch08-044",
@@ -1802,7 +2762,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A payment default record can make it harder to get loans, rental contracts, and certain subscriptions. It does not affect the right to vote or the right to start a business.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "付款违约记录会影响什么？",
+    "optionsZh": [
+      "获得贷款、租房合同或某些订阅服务的可能性。",
+      "从社会保险局（Försäkringskassan）领取病假津贴的权利。",
+      "在公共选举中投票的权利。",
+      "创办并注册个体企业的权利。"
+    ],
+    "explanationZh": "付款违约记录（betalningsanmärkning）会留在信用记录上约三年，使银行、房东和运营商在审核贷款、租房或签约时更为谨慎。但它不影响投票或创业等公民权利。",
+    "questionZhHant": "付款違約記錄會影響什麼？",
+    "optionsZhHant": [
+      "獲得貸款、租房合同或某些訂閱服務的可能性。",
+      "從社會保險局（Försäkringskassan）領取病假津貼的權利。",
+      "在公共選舉中投票的權利。",
+      "創辦並注冊個體企業的權利。"
+    ],
+    "explanationZhHant": "付款違約記錄（betalningsanmärkning）會留在信用記錄上約三年，使銀行、房東和運營商在審核貸款、租房或籤約時更為謹慎。但它不影響投票或創業等公民權利。"
   },
   {
     "id": "draft-ch08-045",
@@ -1832,7 +2808,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Ignoring debt information can reduce the chance to solve the problem early.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人因为羞愧而忽视关于债务的信件。为什么这会让情况恶化？",
+    "optionsZh": [
+      "即使不拆信，费用、利息和法律措施仍会继续。",
+      "信不拆开，债务就自动还清。",
+      "执行局（Kronofogden）只与没有银行账户的人打交道。",
+      "债务信件只影响政党。"
+    ],
+    "explanationZh": "忽视债务通知并不能让问题消失；滞纳金、利息会持续累积，最终可能升级到执行局（Kronofogden）的强制执行。越早面对，解决成本越低。",
+    "questionZhHant": "一個人因為羞愧而忽視關於債務的信件。為什麼這會讓情況惡化？",
+    "optionsZhHant": [
+      "即使不拆信，費用、利息和法律措施仍會繼續。",
+      "信不拆開，債務就自動還清。",
+      "執行局（Kronofogden）只與沒有銀行賬戶的人打交道。",
+      "債務信件只影響政黨。"
+    ],
+    "explanationZhHant": "忽視債務通知並不能讓問題消失；滯納金、利息會持續累積，最終可能升級到執行局（Kronofogden）的強制執行。越早面對，解決成本越低。"
   },
   {
     "id": "draft-ch08-046",
@@ -1861,7 +2853,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Saving can create security for planned and unexpected expenses.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“储蓄”是什么意思？",
+    "optionsZh": [
+      "为未来的需求或目标存下钱。",
+      "总是借比挣得更多的钱。",
+      "停止付房租。",
+      "在市镇选举中投票。"
+    ],
+    "explanationZh": "储蓄是把一部分收入留存起来，用于未来的计划性支出或意外开销，是建立财务安全的重要习惯。",
+    "questionZhHant": "“儲蓄”是什麼意思？",
+    "optionsZhHant": [
+      "為未來的需求或目標存下錢。",
+      "總是借比掙得更多的錢。",
+      "停止付房租。",
+      "在市鎮選舉中投票。"
+    ],
+    "explanationZhHant": "儲蓄是把一部分收入留存起來，用於未來的計劃性支出或意外開銷，是建立財務安全的重要習慣。"
   },
   {
     "id": "draft-ch08-047",
@@ -1890,7 +2898,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A buffer can reduce the need for expensive borrowing when something unexpected happens.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么个人财务中预留一笔缓冲金是有好处的？",
+    "optionsZh": [
+      "它能在意外支出或收入暂时下降时提供帮助。",
+      "它使贷款永远无需偿还。",
+      "它取代所有保险和法律。",
+      "它自动赋予公民身份的权利。"
+    ],
+    "explanationZh": "缓冲金（buffert）是一笔应急储蓄，能在失业、生病或突发开支时避免借高息贷款，增强财务韧性。",
+    "questionZhHant": "為什麼個人財務中預留一筆緩衝金是有好處的？",
+    "optionsZhHant": [
+      "它能在意外支出或收入暫時下降時提供幫助。",
+      "它使貸款永遠無需償還。",
+      "它取代所有保險和法律。",
+      "它自動賦予公民身份的權利。"
+    ],
+    "explanationZhHant": "緩衝金（buffert）是一筆應急儲蓄，能在失業、生病或突發開支時避免借高息貸款，增強財務韌性。"
   },
   {
     "id": "draft-ch08-048",
@@ -1920,7 +2944,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Financial planning includes prioritizing essential costs and avoiding unnecessary risk.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人想买昂贵的东西，却没有缓冲金。此人应当考虑什么问题？",
+    "optionsZh": [
+      "购买是否能等到必要开支和财务安全更有保障之后。",
+      "是否最好在付房租前清空账户。",
+      "是否所有昂贵购买都自动提高收入。",
+      "钱花光时市镇（kommun）是否必须买单。"
+    ],
+    "explanationZh": "大额消费前应评估自身财务安全：先确保必要开销和应急储蓄无忧，再考虑是否购买，避免为消费背负不必要的风险。",
+    "questionZhHant": "一個人想買昂貴的東西，卻沒有緩衝金。此人應當考慮什麼問題？",
+    "optionsZhHant": [
+      "購買是否能等到必要開支和財務安全更有保障之後。",
+      "是否最好在付房租前清空賬戶。",
+      "是否所有昂貴購買都自動提高收入。",
+      "錢花光時市鎮（kommun）是否必須買單。"
+    ],
+    "explanationZhHant": "大額消費前應評估自身財務安全：先確保必要開銷和應急儲蓄無憂，再考慮是否購買，避免為消費背負不必要的風險。"
   },
   {
     "id": "draft-ch08-049",
@@ -1949,7 +2989,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Consumer rights help buyers when goods or services are faulty or misleading.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“消费者权利”指什么？",
+    "optionsZh": [
+      "针对购买商品或服务的人的保护和规则。",
+      "关于政府如何组建的规则。",
+      "总是买最便宜东西的义务。",
+      "某机关无故阅读私人邮件的权利。"
+    ],
+    "explanationZh": "消费者权利保护购买商品和服务的个人，例如商品有缺陷时可要求修理、退换或退款，防止商家欺诈。",
+    "questionZhHant": "“消費者權利”指什麼？",
+    "optionsZhHant": [
+      "針對購買商品或服務的人的保護和規則。",
+      "關於政府如何組建的規則。",
+      "總是買最便宜東西的義務。",
+      "某機關無故閱讀私人郵件的權利。"
+    ],
+    "explanationZhHant": "消費者權利保護購買商品和服務的個人，例如商品有缺陷時可要求修理、退換或退款，防止商家欺詐。"
   },
   {
     "id": "draft-ch08-050",
@@ -1978,7 +3034,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Complaining to the seller is a normal first step when a product is faulty.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "如果商品有缺陷，消费者应该怎么做？",
+    "optionsZh": [
+      "联系卖家，并在合理期限内就瑕疵提出索赔。",
+      "直接向警察（局）的结案部门报案。",
+      "找市镇（kommun）的建委会。",
+      "要求卖家赔偿一整年的所有个人开支。"
+    ],
+    "explanationZh": "买到瑕疵商品时，第一步通常是联系卖家并提出索赔（reklamera），要求在合理时间内修理、换货或退款。",
+    "questionZhHant": "如果商品有缺陷，消費者應該怎麼做？",
+    "optionsZhHant": [
+      "聯系賣家，並在合理期限內就瑕疵提出索賠。",
+      "直接向警察（局）的結案部門報案。",
+      "找市鎮（kommun）的建委會。",
+      "要求賣家賠償一整年的所有個人開支。"
+    ],
+    "explanationZhHant": "買到瑕疵商品時，第一步通常是聯系賣家並提出索賠（reklamera），要求在合理時間內修理、換貨或退款。"
   },
   {
     "id": "draft-ch08-051",
@@ -2008,7 +3080,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Consumers should understand obligations and costs before entering agreements.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "卖家施压让客户在来不及阅读条款的情况下签下昂贵合同。客户应当注意什么？",
+    "optionsZh": [
+      "在签约前，应核实合同的条款、费用和后悔权。",
+      "昂贵的合同总是无效的。",
+      "客户必须签下卖家提出的一切内容。",
+      "口头承诺总是取代书面条款。"
+    ],
+    "explanationZh": "签署合同即承担法律义务。消费者在签约前应弄清费用、期限和是否有后悔权（撤销权），不要被高压销售迫使仓促决定。",
+    "questionZhHant": "賣家施壓讓客戶在來不及閱讀條款的情況下籤下昂貴合同。客戶應當注意什麼？",
+    "optionsZhHant": [
+      "在籤約前，應核實合同的條款、費用和後悔權。",
+      "昂貴的合同總是無效的。",
+      "客戶必須籤下賣家提出的一切內容。",
+      "口頭承諾總是取代書面條款。"
+    ],
+    "explanationZhHant": "籤署合同即承擔法律義務。消費者在籤約前應弄清費用、期限和是否有後悔權（撤銷權），不要被高壓銷售迫使倉促決定。"
   },
   {
     "id": "draft-ch08-052",
@@ -2037,7 +3125,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Bank accounts are part of everyday economic life.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "银行账户通常用来做什么？",
+    "optionsZh": [
+      "接收工资、支付账单和管理资金。",
+      "在议会选举中投票。",
+      "取代医疗护理。",
+      "下达判决。"
+    ],
+    "explanationZh": "银行账户是日常经济生活的基础工具，用于存入工资、自动扣付账单、转账和储蓄。",
+    "questionZhHant": "銀行賬戶通常用來做什麼？",
+    "optionsZhHant": [
+      "接收工資、支付賬單和管理資金。",
+      "在議會選舉中投票。",
+      "取代醫療護理。",
+      "下達判決。"
+    ],
+    "explanationZhHant": "銀行賬戶是日常經濟生活的基礎工具，用於存入工資、自動扣付賬單、轉賬和儲蓄。"
   },
   {
     "id": "draft-ch08-053",
@@ -2066,7 +3170,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Digital identification is common in Swedish banking and public services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么 BankID 和电子身份凭证在日常生活中很重要？",
+    "optionsZh": [
+      "它们常用于在银行、政府机关和服务中进行数字身份识别。",
+      "在实体店用现金购物必须要有它们。",
+      "它们赋予在市镇服务和公共交通上打折的权利。",
+      "它们取代所有出国旅行中对实体护照的需要。"
+    ],
+    "explanationZh": "BankID 是瑞典广泛使用的电子身份凭证，用于登录网银、报税、与公共机构办事等数字服务，是日常数字生活的关键工具。",
+    "questionZhHant": "為什麼 BankID 和電子身份憑證在日常生活中很重要？",
+    "optionsZhHant": [
+      "它們常用於在銀行、政府機關和服務中進行數字身份識別。",
+      "在實體店用現金購物必須要有它們。",
+      "它們賦予在市鎮服務和公共交通上打折的權利。",
+      "它們取代所有出國旅行中對實體護照的需要。"
+    ],
+    "explanationZhHant": "BankID 是瑞典廣泛使用的電子身份憑證，用於登錄網銀、報稅、與公共機構辦事等數字服務，是日常數字生活的關鍵工具。"
   },
   {
     "id": "draft-ch08-054",
@@ -2097,7 +3217,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "BankID and codes should be protected; suspected fraud should be checked through trusted channels.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人接到电话，对方声称要阻止一起诈骗而索要 BankID 验证码。最安全的做法是什么？",
+    "optionsZh": [
+      "终止联系，并自行通过安全渠道联系银行。",
+      "快点给出验证码，让通话更快结束。",
+      "如果对方听起来可信，连卡号也一并给出。",
+      "若是晚上打来的就信任该来电。"
+    ],
+    "explanationZh": "银行或警方绝不会索要你的 BankID 验证码。任何索要验证码的来电都极可能是诈骗，应挂断并通过官方渠道自行联系银行核实。",
+    "questionZhHant": "一個人接到電話，對方聲稱要阻止一起詐騙而索要 BankID 驗證碼。最安全的做法是什麼？",
+    "optionsZhHant": [
+      "終止聯系，並自行通過安全渠道聯系銀行。",
+      "快點給出驗證碼，讓通話更快結束。",
+      "如果對方聽起來可信，連卡號也一並給出。",
+      "若是晚上打來的就信任該來電。"
+    ],
+    "explanationZhHant": "銀行或警方絕不會索要你的 BankID 驗證碼。任何索要驗證碼的來電都極可能是詐騙，應掛斷並通過官方渠道自行聯系銀行核實。"
   },
   {
     "id": "draft-ch08-055",
@@ -2126,7 +3262,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Insurance spreads economic risk for certain events.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是保险？",
+    "optionsZh": [
+      "一种能在一定条件下对损失或事件给予补偿的保障。",
+      "保证不会发生任何事故的承诺。",
+      "逃避所有税的方法。",
+      "关于政党的决定。"
+    ],
+    "explanationZh": "保险通过缴纳保费，把特定风险（如疾病、失窃、意外）造成的经济损失转移给保险公司，出险时获得补偿。",
+    "questionZhHant": "什麼是保險？",
+    "optionsZhHant": [
+      "一種能在一定條件下對損失或事件給予補償的保障。",
+      "保證不會發生任何事故的承諾。",
+      "逃避所有稅的方法。",
+      "關於政黨的決定。"
+    ],
+    "explanationZhHant": "保險通過繳納保費，把特定風險（如疾病、失竊、意外）造成的經濟損失轉移給保險公司，出險時獲得補償。"
   },
   {
     "id": "draft-ch08-056",
@@ -2155,7 +3307,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Home insurance can reduce financial consequences when something happens.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么家庭保险很重要？",
+    "optionsZh": [
+      "它能在损坏、失窃或责任索赔等情况下保护财务。",
+      "它让人永远无需付房租。",
+      "它取代了住所内对法律的需要。",
+      "它自动给全家所有人提供工作。"
+    ],
+    "explanationZh": "家庭保险（hemförsäkring）通常涵盖失窃、火灾、漏水等损失，还包含第三者责任险，能在意外发生时避免沉重的自费负担。",
+    "questionZhHant": "為什麼家庭保險很重要？",
+    "optionsZhHant": [
+      "它能在損壞、失竊或責任索賠等情況下保護財務。",
+      "它讓人永遠無需付房租。",
+      "它取代了住所內對法律的需要。",
+      "它自動給全家所有人提供工作。"
+    ],
+    "explanationZhHant": "家庭保險（hemförsäkring）通常涵蓋失竊、火災、漏水等損失，還包含第三者責任險，能在意外發生時避免沉重的自費負擔。"
   },
   {
     "id": "draft-ch08-057",
@@ -2185,7 +3353,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Skipping insurance may save money short term but can create large costs after damage or theft.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人租房却为了省钱不买家庭保险。存在什么风险？",
+    "optionsZh": [
+      "损坏或失窃可能让此人自己承担高昂费用。",
+      "房东必须总是赔偿所有个人物品。",
+      "市镇（kommun）自动接管所有私人开支。",
+      "依法，没有保险时房租总是更低。"
+    ],
+    "explanationZh": "租房时，房东的保险通常只保房屋结构，不保你的个人物品。没有家庭保险的话，失窃或漏水损坏的财物需自己承担损失。",
+    "questionZhHant": "一個人租房卻為了省錢不買家庭保險。存在什麼風險？",
+    "optionsZhHant": [
+      "損壞或失竊可能讓此人自己承擔高昂費用。",
+      "房東必須總是賠償所有個人物品。",
+      "市鎮（kommun）自動接管所有私人開支。",
+      "依法，沒有保險時房租總是更低。"
+    ],
+    "explanationZhHant": "租房時，房東的保險通常只保房屋結構，不保你的個人物品。沒有家庭保險的話，失竊或漏水損壞的財物需自己承擔損失。"
   },
   {
     "id": "draft-ch08-058",
@@ -2214,7 +3398,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Housing is usually the single largest recurring cost in a household budget, larger than typical costs for subscriptions or small purchases.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在家庭预算中，哪一项通常是最大的单项支出？",
+    "optionsZh": [
+      "住房开支。",
+      "手机套餐费。",
+      "流媒体服务费用。",
+      "报纸和小额购物的开支。"
+    ],
+    "explanationZh": "对大多数家庭而言，住房（房租或房贷、物业费等）是最大的固定支出，远高于手机、流媒体或报纸等零散开销，因此租房或买房决策影响巨大。",
+    "questionZhHant": "在家庭預算中，哪一項通常是最大的單項支出？",
+    "optionsZhHant": [
+      "住房開支。",
+      "手機套餐費。",
+      "流媒體服務費用。",
+      "報紙和小額購物的開支。"
+    ],
+    "explanationZhHant": "對大多數家庭而言，住房（房租或房貸、物業費等）是最大的固定支出，遠高於手機、流媒體或報紙等零散開銷，因此租房或買房決策影響巨大。"
   },
   {
     "id": "draft-ch08-059",
@@ -2243,7 +3443,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Housing agreements often involve large costs and long-term responsibility.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么理解租房合同或住房贷款合同很重要？",
+    "optionsZh": [
+      "合同规定了费用、责任以及拖欠付款时的后果。",
+      "合同保证房租或利率永远不变。",
+      "合同意味着银行或房东接管所有维护费用。",
+      "合同自动赋予领取国家住房补贴的权利。"
+    ],
+    "explanationZh": "住房合同涉及大笔、长期的财务责任：租金或房贷金额、维护责任、提前解约条件和拖欠后果等，理解条款能避免纠纷和损失。",
+    "questionZhHant": "為什麼理解租房合同或住房貸款合同很重要？",
+    "optionsZhHant": [
+      "合同規定了費用、責任以及拖欠付款時的後果。",
+      "合同保證房租或利率永遠不變。",
+      "合同意味着銀行或房東接管所有維護費用。",
+      "合同自動賦予領取國家住房補貼的權利。"
+    ],
+    "explanationZhHant": "住房合同涉及大筆、長期的財務責任：租金或房貸金額、維護責任、提前解約條件和拖欠後果等，理解條款能避免糾紛和損失。"
   },
   {
     "id": "draft-ch08-060",
@@ -2273,7 +3489,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Stable private economy depends on planning income, necessary costs, risk protection, and timely payments.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人得到第一份全职工作，想建立稳定的个人财务。哪种整体做法最合理？",
+    "optionsZh": [
+      "规划净工资、固定开支、储蓄、保险，并按时支付账单。",
+      "立即花光全部工资，等账单催缴再付。",
+      "不为日常开销算利息和费用就借贷。",
+      "不用银行账户，只靠口头承诺管理财务。"
+    ],
+    "explanationZh": "稳健的个人财务需要通盘规划：以净工资为基础安排固定支出，留出储蓄和保险以防范风险，并坚持按时缴费，避免债务和违约。",
+    "questionZhHant": "一個人得到第一份全職工作，想建立穩定的個人財務。哪種整體做法最合理？",
+    "optionsZhHant": [
+      "規劃淨工資、固定開支、儲蓄、保險，並按時支付賬單。",
+      "立即花光全部工資，等賬單催繳再付。",
+      "不為日常開銷算利息和費用就借貸。",
+      "不用銀行賬戶，只靠口頭承諾管理財務。"
+    ],
+    "explanationZhHant": "穩健的個人財務需要通盤規劃：以淨工資為基礎安排固定支出，留出儲蓄和保險以防範風險，並堅持按時繳費，避免債務和違約。"
   },
   {
     "id": "draft-extra-ch008-007",
@@ -2302,7 +3534,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Svartarbete means work performed or hired without tax and social contributions being reported. Working evenings, lacking a collective agreement, or being paid in cash are not themselves svartarbete.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典，“黑工”指什么？",
+    "optionsZh": [
+      "工作或被雇用却不申报税款和社会保险费。",
+      "在晚上和周末而非办公时间工作。",
+      "从事没有集体协议的工作。",
+      "以现金而非银行账户领取工资。"
+    ],
+    "explanationZh": "黑工（svartarbete）指完成工作或雇人却不向当局申报、不缴税和社保。单纯在晚间工作、没有集体协议或拿现金工资，本身并不等于黑工，关键在是否申报。",
+    "questionZhHant": "在瑞典，“黑工”指什麼？",
+    "optionsZhHant": [
+      "工作或被僱用卻不申報稅款和社會保險費。",
+      "在晚上和周末而非辦公時間工作。",
+      "從事沒有集體協議的工作。",
+      "以現金而非銀行賬戶領取工資。"
+    ],
+    "explanationZhHant": "黑工（svartarbete）指完成工作或僱人卻不向當局申報、不繳稅和社會保險。單純在晚間工作、沒有集體協議或拿現金工資，本身並不等於黑工，關鍵在是否申報。"
   },
   {
     "id": "draft-extra-ch008-010",
@@ -2331,6 +3579,22 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A betalningsanmärkning is a registered note that a debt was unpaid; it can make loans and rental contracts harder to get and stays on record for about three years.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是“付款违约记录”？",
+    "optionsZh": [
+      "关于一笔未偿债务的记录，会让贷款或租房变得更难。",
+      "显示所有税款都已按时缴纳的证明。",
+      "每人每年一次免费获得的信用报告。",
+      "一天后自动删除的信息。"
+    ],
+    "explanationZh": "付款违约记录（betalningsanmärkning）是债务逾期未还而被登记的记录，会在信用档案中保留约三年，使申请贷款、租房或签约更困难。",
+    "questionZhHant": "什麼是“付款違約記錄”？",
+    "optionsZhHant": [
+      "關於一筆未償債務的記錄，會讓貸款或租房變得更難。",
+      "顯示所有稅款都已按時繳納的證明。",
+      "每人每年一次免費獲得的信用報告。",
+      "一天後自動刪除的資訊。"
+    ],
+    "explanationZhHant": "付款違約記錄（betalningsanmärkning）是債務逾期未還而被登記的記錄，會在信用檔案中保留約三年，使申請貸款、租房或籤約更困難。"
   }
 ]

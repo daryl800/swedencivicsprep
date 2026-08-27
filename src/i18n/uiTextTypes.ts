@@ -164,4 +164,4 @@ export type UiText = {
   topicDescriptions: Record<string, string>;
 };
 
-export type CoreUiLanguage = "sv" | "en" | "ar" | "zh";
+export type CoreUiLanguage = "sv" | "en" | "ar" | "zh" | "zh-Hant";

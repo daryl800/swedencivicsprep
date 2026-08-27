@@ -26,7 +26,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A personal vote lets a voter support a candidate while voting for a party.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典选举中，“个人投票”（personröstning，优先票）是指什么？",
+    "optionsZh": [
+      "选民可以在政党的候选人名单上标记一位特定的候选人。",
+      "选民可以同时投票给两个政党。",
+      "政党领袖在瑞典国会（Riksdagen）中可多得一票。",
+      "选举管理局（Valmyndigheten）替选民挑选候选人。"
+    ],
+    "explanationZh": "个人投票让选民在投票给某个政党的同时，还能特别支持名单上的某位候选人。这样候选人的个人吸引力也能影响谁最终获得席位，而不只是由政党总得票决定。",
+    "questionZhHant": "在瑞典選舉中，“個人投票”（personröstning，優先票）是指什麼？",
+    "optionsZhHant": [
+      "選民可以在政黨的候選人名單上標記一位特定的候選人。",
+      "選民可以同時投票給兩個政黨。",
+      "政黨領袖在瑞典國會（Riksdagen）中可多得一票。",
+      "選舉管理局（Valmyndigheten）替選民挑選候選人。"
+    ],
+    "explanationZhHant": "個人投票讓選民在投票給某個政黨的同時，還能特別支持名單上的某位候選人。這樣候選人的個人吸引力也能影響誰最終獲得席位，而不只是由政黨總得票決定。"
   },
   {
     "id": "draft-batch-a-ch04-002",
@@ -55,7 +71,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Accessibility and ballot secrecy both matter in democratic elections.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名选民因残障需要他人协助才能投出选票。对于选举的顺利进行，什么是重要的？",
+    "optionsZh": [
+      "应尽可能在保留投票保密（无记名投票原则）的前提下让选民投票。",
+      "如果需要实际协助，此人便丧失选举权。",
+      "协助者可以替选民自行选择政党。",
+      "选票只有在公开出示时才被计入。"
+    ],
+    "explanationZh": "民主选举既要保障无障碍参与，也要保护投票保密。有残障的选民可以在他人协助下投票，但协助应以选民本人的意愿为准，并尽可能保守其投票内容。",
+    "questionZhHant": "一名選民因殘障需要他人協助才能投出選票。對於選舉的順利進行，什麼是重要的？",
+    "optionsZhHant": [
+      "應盡可能在保留投票保密（無記名投票原則）的前提下讓選民投票。",
+      "如果需要實際協助，此人便喪失選舉權。",
+      "協助者可以替選民自行選擇政黨。",
+      "選票只有在公開出示時才被計入。"
+    ],
+    "explanationZhHant": "民主選舉既要保障無障礙參與，也要保護投票保密。有殘障的選民可以在他人協助下投票，但協助應以選民本人的意願為準，並盡可能保守其投票內容。"
   },
   {
     "id": "draft-batch-a-ch04-003",
@@ -84,7 +116,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Election rules protect trust, equal treatment, and verifiable results.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么对选票、收受选票和计票的程序都有规则规定？",
+    "optionsZh": [
+      "为了使选举具有法律保障、可被核查，并对所有选民公平。",
+      "为了让各政党事后可以更改选票。",
+      "为了让计票对公众保密。",
+      "为了让各市镇可以自行规定不同的选举年龄。"
+    ],
+    "explanationZh": "选举规则的目的是保护公信力、保障所有选民被平等对待，并使结果可被核查。透明的程序让选民相信选票会被如实统计。",
+    "questionZhHant": "為什麼對選票、收受選票和計票的程序都有規則規定？",
+    "optionsZhHant": [
+      "為了使選舉具有法律保障、可被核查，並對所有選民公平。",
+      "為了讓各政黨事後可以更改選票。",
+      "為了讓計票對公眾保密。",
+      "為了讓各市鎮可以自行規定不同的選舉年齡。"
+    ],
+    "explanationZhHant": "選舉規則的目的是保護公信力、保障所有選民被平等對待，並使結果可被核查。透明的程序讓選民相信選票會被如實統計。"
   },
   {
     "id": "draft-batch-a-ch04-004",
@@ -113,7 +161,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Riksdag representation normally requires 4% nationally or 12% in one constituency.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个政党在全国得票率为 3.9%，但在某个选区获得很强支持。需要了解什么重要信息？",
+    "optionsZh": [
+      "存在全国 4% 的门槛，以及单一选区 12% 的规则。",
+      "该党总会恰好获得一半的席位。",
+      "所有低于 4% 的选票都会归给最大政党。",
+      "选区只用于市政选举，不用于议会选举。"
+    ],
+    "explanationZh": "进入瑞典国会（Riksdagen）通常需要全国得票至少 4%，或者至少在单一选区达到 12%。因此即便全国得票率低于 4%，只要在某个选区足够强，仍有机会获得席位。",
+    "questionZhHant": "一個政黨在全國得票率為 3.9%，但在某個選區獲得很強支持。需要了解什麼重要資訊？",
+    "optionsZhHant": [
+      "存在全國 4% 的門檻，以及單一選區 12% 的規則。",
+      "該黨總會恰好獲得一半的席位。",
+      "所有低於 4% 的選票都會歸給最大政黨。",
+      "選區只用於市政選舉，不用於議會選舉。"
+    ],
+    "explanationZhHant": "進入瑞典國會（Riksdagen）通常需要全國得票至少 4%，或者至少在單一選區達到 12%。因此即便全國得票率低於 4%，只要在某個選區足夠強，仍有機會獲得席位。"
   },
   {
     "id": "draft-batch-a-ch04-005",
@@ -142,7 +206,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Registration can protect party names, but voters still decide support.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "政党必须登记其党名以获得某种保护，这意味什么？",
+    "optionsZh": [
+      "这可依照选举规则保护该党出现在选票上的名称。",
+      "这表示该党会自动获得席位。",
+      "这表示该党无需在选举中得票。",
+      "这表示由选举管理局（Valmyndigheten）撰写该党政纲。"
+    ],
+    "explanationZh": "登记党名可以在选举规则下保护其专有名称不被他人冒用。但政党最终能否获得席位，仍取决于选民实际投出的票数。",
+    "questionZhHant": "政黨必須登記其黨名以獲得某種保護，這意味什麼？",
+    "optionsZhHant": [
+      "這可依照選舉規則保護該黨出現在選票上的名稱。",
+      "這表示該黨會自動獲得席位。",
+      "這表示該黨無需在選舉中得票。",
+      "這表示由選舉管理局（Valmyndigheten）撰寫該黨政綱。"
+    ],
+    "explanationZhHant": "登記黨名可以在選舉規則下保護其專有名稱不被他人冒用。但政黨最終能否獲得席位，仍取決於選民實際投出的票數。"
   },
   {
     "id": "draft-batch-a-ch04-006",
@@ -171,7 +251,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Riksdag voting rights require Swedish citizenship and meeting the age rules.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名持有永久居留许可的人想参加议会选举投票。需要满足什么条件？",
+    "optionsZh": [
+      "需要瑞典公民身份，并达到选举权规定的年龄。",
+      "只需此人在市镇纳税。",
+      "加入某个瑞典政党。",
+      "雇主的许可。"
+    ],
+    "explanationZh": "议会选举（riksdagsval）的投票权要求具备瑞典公民身份并满足年龄等规定。仅有居留许可并不自动赋予议会选举权（但地方和区域选举对部分非公民另有条件）。",
+    "questionZhHant": "一名持有永久居留許可的人想參加議會選舉投票。需要滿足什麼條件？",
+    "optionsZhHant": [
+      "需要瑞典公民身份，並達到選舉權規定的年齡。",
+      "只需此人在市鎮納稅。",
+      "加入某個瑞典政黨。",
+      "僱主的許可。"
+    ],
+    "explanationZhHant": "議會選舉（riksdagsval）的投票權要求具備瑞典公民身份並滿足年齡等規定。僅有居留許可並不自動賦予議會選舉權（但地方和區域選舉對部分非公民另有條件）。"
   },
   {
     "id": "draft-batch-a-ch04-007",
@@ -200,7 +296,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Party programmes help voters compare political alternatives.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "政党为何要有竞选纲领或政党纲领？",
+    "optionsZh": [
+      "为了表明它们想要推动的理念和主张。",
+      "为了在选举年取代法典。",
+      "为了让选举管理局（Valmyndigheten）撰写它们的政策。",
+      "为了让法院选定政党领袖。"
+    ],
+    "explanationZh": "政党纲领和竞选纲领帮助选民了解各党的政治主张并加以比较，从而作出知情选择。",
+    "questionZhHant": "政黨為何要有競選綱領或政黨綱領？",
+    "optionsZhHant": [
+      "為了表明它們想要推動的理念和主張。",
+      "為了在選舉年取代法典。",
+      "為了讓選舉管理局（Valmyndigheten）撰寫它們的政策。",
+      "為了讓法院選定政黨領袖。"
+    ],
+    "explanationZhHant": "政黨綱領和競選綱領幫助選民了解各黨的政治主張並加以比較，從而作出知情選擇。"
   },
   {
     "id": "draft-batch-a-ch04-008",
@@ -229,7 +341,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Free elections allow voters to change their political choice.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名选民在两届选举之间更换了政党。这说明了自由选举的什么特点？",
+    "optionsZh": [
+      "选民可以重新考量自己的观点，并选择另一个选项。",
+      "选民必须一生都投同一个政党。",
+      "各政党拥有以往选举中的那些选票。",
+      "市镇必须批准每一次政党更换。"
+    ],
+    "explanationZh": "自由选举允许选民每次重新选择自己的政治立场，而不被绑定于某个政党。",
+    "questionZhHant": "一名選民在兩屆選舉之間更換了政黨。這說明了自由選舉的什麼特點？",
+    "optionsZhHant": [
+      "選民可以重新考量自己的觀點，並選擇另一個選項。",
+      "選民必須一生都投同一個政黨。",
+      "各政黨擁有以往選舉中的那些選票。",
+      "市鎮必須批準每一次政黨更換。"
+    ],
+    "explanationZhHant": "自由選舉允許選民每次重新選擇自己的政治立場，而不被綁定於某個政黨。"
   },
   {
     "id": "draft-batch-a-ch04-009",
@@ -259,7 +387,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Opposition parties are important because they scrutinize those in power and present alternatives to voters.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个政党不执政，但在瑞典国会（Riksdagen）中提出质询并提议另一份预算。这体现了什么角色？",
+    "optionsZh": [
+      "反对派（在野党）审查政府并展示政治替代方案。",
+      "该党因不执政而已经脱离民主。",
+      "该党在政府决策时充当法院。",
+      "该党会在下次会议自动接管政府。"
+    ],
+    "explanationZh": "在野政党的重要作用在于审查当权者、提出不同方案，让选民有可比较的选择。这是议会监督的一部分。",
+    "questionZhHant": "一個政黨不執政，但在瑞典國會（Riksdagen）中提出質詢並提議另一份預算。這體現了什麼角色？",
+    "optionsZhHant": [
+      "反對派（在野黨）審查政府並展示政治替代方案。",
+      "該黨因不執政而已經脫離民主。",
+      "該黨在政府決策時充當法院。",
+      "該黨會在下次會議自動接管政府。"
+    ],
+    "explanationZhHant": "在野政黨的重要作用在於審查當權者、提出不同方案，讓選民有可比較的選擇。這是議會監督的一部分。"
   },
   {
     "id": "draft-batch-a-ch04-010",
@@ -288,7 +432,15 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Ordinary elections to the Riksdag, regional councils, and municipal councils are held on the second Sunday of September every four years.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典的议会常规选举在何时举行？",
+    "optionsZh": [
+      "每四年一次的 9 月第二个星期日。",
+      "每年 6 月第一个星期一。",
+      "由政府在每一任期自由选定的日期。",
+      "每五年一次的 12 月最后一个星期六。"
+    ],
+    "explanationZh": "瑞典国会（Riksdagen）、大区议会和市议会的常规选举都在每四年一次的 9 月第二个星期日举行。"
   },
   {
     "id": "draft-batch-a-ch04-011",
@@ -318,7 +470,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Turnout patterns can reveal whether democratic participation is broad or uneven.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "多个地区的投票率下降，而另一些地区投票踊跃。为什么政党和主管机构会密切关注这种现象？",
+    "optionsZh": [
+      "这可能显示不同群体和地区在参与度和信任上的差异。",
+      "这会自动决定哪些选票应先被统计。",
+      "这意味着投票率低的地区会失去其席位。",
+      "这使得市镇可以事后更改选举结果。"
+    ],
+    "explanationZh": "投票率分布能反映出民主参与是否广泛、均衡。某些群体的低参与可能导致其利益在政治中代表性不足。",
+    "questionZhHant": "多個地區的投票率下降，而另一些地區投票踊躍。為什麼政黨和主管機構會密切關注這種現象？",
+    "optionsZhHant": [
+      "這可能顯示不同羣體和地區在參與度和信任上的差異。",
+      "這會自動決定哪些選票應先被統計。",
+      "這意味着投票率低的地區會失去其席位。",
+      "這使得市鎮可以事後更改選舉結果。"
+    ],
+    "explanationZhHant": "投票率分布能反映出民主參與是否廣泛、均衡。某些羣體的低參與可能導致其利益在政治中代表性不足。"
   },
   {
     "id": "draft-batch-a-ch04-012",
@@ -348,7 +516,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Election promises can concern different responsibilities, so voters need to know which level controls which issue.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在选举辩论中，某政党同时承诺缩短医疗排队和增加义务教育资源。选民为何需要了解不同的政治层级？",
+    "optionsZh": [
+      "不同事务由不同层级决定，因此承诺可能关乎大区、市镇或国家。",
+      "这类承诺在瑞典选举后只由欧盟决定。",
+      "政党不得谈论属于不同层级的事务。",
+      "选民只投一个层级，而该层级随后决定一切。"
+    ],
+    "explanationZh": "医疗主要由大区（region）负责，学校主要由市镇（kommun）负责，而国家层面负责其他事务。选民需了解承诺由哪一层级兑现，才能评估其可行性。",
+    "questionZhHant": "在選舉辯論中，某政黨同時承諾縮短醫療排隊和增加義務教育資源。選民為何需要了解不同的政治層級？",
+    "optionsZhHant": [
+      "不同事務由不同層級決定，因此承諾可能關乎大區、市鎮或國家。",
+      "這類承諾在瑞典選舉後只由歐盟決定。",
+      "政黨不得談論屬於不同層級的事務。",
+      "選民只投一個層級，而該層級隨後決定一切。"
+    ],
+    "explanationZhHant": "醫療主要由大區（region）負責，學校主要由市鎮（kommun）負責，而國家層面負責其他事務。選民需了解承諾由哪一層級兌現，才能評估其可行性。"
   },
   {
     "id": "draft-batch-a-ch04-013",
@@ -377,7 +561,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The government can call an extra election between ordinary elections. The newly elected Riksdag then serves only the remainder of the ordinary four-year term.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是议会补选（extra val）？",
+    "optionsZh": [
+      "政府可在常规选举之间召集的议会选举。",
+      "每次大臣辞职时举行的选举。",
+      "只有国会议员才能投票的表决。",
+      "瑞典换政府时由欧盟决定的选举。"
+    ],
+    "explanationZh": "政府可在两届常规选举之间召集补选（extra val）。新选出的国会只服务剩余的正常四年任期。",
+    "questionZhHant": "什麼是議會補選（extra val）？",
+    "optionsZhHant": [
+      "政府可在常規選舉之間召集的議會選舉。",
+      "每次大臣辭職時舉行的選舉。",
+      "只有國會議員才能投票的表決。",
+      "瑞典換政府時由歐盟決定的選舉。"
+    ],
+    "explanationZhHant": "政府可在兩屆常規選舉之間召集補選（extra val）。新選出的國會只服務剩餘的正常四年任期。"
   },
   {
     "id": "draft-batch-a-ch04-014",
@@ -406,7 +606,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Source criticism helps voters make informed choices.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名选民仅凭一段走红视频就选择政党。哪项民主能力变得重要？",
+    "optionsZh": [
+      "来源批判（核实信息来源）以及比对多方信息。",
+      "为保险起见多次投票。",
+      "让社交媒体替自己填写选票。",
+      "回避一切政治信息。"
+    ],
+    "explanationZh": "来源批判（källkritik）能帮助选民分辨信息真伪、比对不同来源，从而作出更知情的投票选择。",
+    "questionZhHant": "一名選民僅憑一段走紅視頻就選擇政黨。哪項民主能力變得重要？",
+    "optionsZhHant": [
+      "來源批判（核實資訊來源）以及比對多方資訊。",
+      "為保險起見多次投票。",
+      "讓社交媒體替自己填寫選票。",
+      "回避一切政治資訊。"
+    ],
+    "explanationZhHant": "來源批判（källkritik）能幫助選民分辨資訊真偽、比對不同來源，從而作出更知情的投票選擇。"
   },
   {
     "id": "draft-batch-a-ch04-015",
@@ -436,7 +652,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Parties gain influence through voter support and election results.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个新政党想参选。它要获得政治影响力，主要需要做什么？",
+    "optionsZh": [
+      "说服选民并在选举中获得足够支持。",
+      "请求选举管理局（Valmyndigheten）在选前分给该党席位。",
+      "让法院撰写该党的竞选承诺。",
+      "要求其他政党让出它们的席位。"
+    ],
+    "explanationZh": "政党的影响力来自选民的支持和选举结果。没有选民的选票，任何政党都无法获得议会席位。",
+    "questionZhHant": "一個新政黨想參選。它要獲得政治影響力，主要需要做什麼？",
+    "optionsZhHant": [
+      "說服選民並在選舉中獲得足夠支持。",
+      "請求選舉管理局（Valmyndigheten）在選前分給該黨席位。",
+      "讓法院撰寫該黨的競選承諾。",
+      "要求其他政黨讓出它們的席位。"
+    ],
+    "explanationZhHant": "政黨的影響力來自選民的支持和選舉結果。沒有選民的選票，任何政黨都無法獲得議會席位。"
   },
   {
     "id": "draft-batch-d-ch04-001",
@@ -466,7 +698,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Voters can use information, debate, and scrutiny to make informed choices.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名选民觉得各党的竞选承诺含糊不清。什么是良好的民主应对方式？",
+    "optionsZh": [
+      "比较各党信息、关注辩论并在选前提出疑问。",
+      "让市镇替选民选择政党。",
+      "为表达不确定而多次投票。",
+      "要求选举管理局（Valmyndigheten）禁止含糊的政党。"
+    ],
+    "explanationZh": "选民可通过获取信息、参与辩论和监督来作出知情选择。这是公民在政治中积极发挥作用的方式。",
+    "questionZhHant": "一名選民覺得各黨的競選承諾含糊不清。什麼是良好的民主應對方式？",
+    "optionsZhHant": [
+      "比較各黨資訊、關注辯論並在選前提出疑問。",
+      "讓市鎮替選民選擇政黨。",
+      "為表達不確定而多次投票。",
+      "要求選舉管理局（Valmyndigheten）禁止含糊的政黨。"
+    ],
+    "explanationZhHant": "選民可通過獲取資訊、參與辯論和監督來作出知情選擇。這是公民在政治中積極發揮作用的方式。"
   },
   {
     "id": "draft-batch-d-ch04-002",
@@ -496,7 +744,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "In a multi-party system, cooperation is often needed to govern or pass decisions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "选举后政党为何常常需要妥协？",
+    "optionsZh": [
+      "多个政党可能需要共同支持某项决定才能形成多数。",
+      "得票最多的政党总是可以单独决定。",
+      "比例代表制下禁止妥协。",
+      "选举管理局（Valmyndigheten）撰写各党的妥协方案。"
+    ],
+    "explanationZh": "瑞典多为多党制，很少有一党独占多数。因此执政或推动决策往往需要跨党合作与妥协。",
+    "questionZhHant": "選舉後政黨為何常常需要妥協？",
+    "optionsZhHant": [
+      "多個政黨可能需要共同支持某項決定才能形成多數。",
+      "得票最多的政黨總是可以單獨決定。",
+      "比例代表制下禁止妥協。",
+      "選舉管理局（Valmyndigheten）撰寫各黨的妥協方案。"
+    ],
+    "explanationZhHant": "瑞典多為多黨制，很少有一黨獨佔多數。因此執政或推動決策往往需要跨黨合作與妥協。"
   },
   {
     "id": "draft-batch-d-ch04-003",
@@ -526,7 +790,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Secret ballots protect free choice and reduce coercion.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人说，只要选票被准确统计，投票保密就无关紧要。这个人忽略了什么？",
+    "optionsZh": [
+      "投票保密保护选民免受压力，使选举更自由。",
+      "投票保密只在投票率低时才需要。",
+      "只要有人透露自己投了谁，选举就一律无效。",
+      "只有党员才受投票保密保护。"
+    ],
+    "explanationZh": "无记名投票（保密）保护选民免受他人胁迫，使投票成为真正的自由选择。即便计票准确，若投票内容被公开，选民仍可能被迫按其意愿投票。",
+    "questionZhHant": "有人說，只要選票被準確統計，投票保密就無關緊要。這個人忽略了什麼？",
+    "optionsZhHant": [
+      "投票保密保護選民免受壓力，使選舉更自由。",
+      "投票保密只在投票率低時才需要。",
+      "只要有人透露自己投了誰，選舉就一律無效。",
+      "只有黨員才受投票保密保護。"
+    ],
+    "explanationZhHant": "無記名投票（保密）保護選民免受他人脅迫，使投票成為真正的自由選擇。即便計票準確，若投票內容被公開，選民仍可能被迫按其意願投票。"
   },
   {
     "id": "draft-ch04-001",
@@ -555,7 +835,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish general elections normally include separate ballots for national, regional, and municipal democratic levels.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典通常每四年同时举行哪三种选举？",
+    "optionsZh": [
+      "瑞典国会（Riksdagen）、大区议会（regionfullmäktige）和市议会（kommunfullmäktige）的选举。",
+      "政府、法院和警察的选举。",
+      "国王、中央银行和媒体的选举。",
+      "欧盟、联合国和北欧理事会的选举。"
+    ],
+    "explanationZh": "瑞典的全国大选通常包含分别针对国家、大区和市镇三个民主层级的选票，选民可同时参与。",
+    "questionZhHant": "瑞典通常每四年同時舉行哪三種選舉？",
+    "optionsZhHant": [
+      "瑞典國會（Riksdagen）、大區議會（regionfullmäktige）和市議會（kommunfullmäktige）的選舉。",
+      "政府、法院和警察的選舉。",
+      "國王、中央銀行和媒體的選舉。",
+      "歐盟、聯合國和北歐理事會的選舉。"
+    ],
+    "explanationZhHant": "瑞典的全國大選通常包含分別針對國家、大區和市鎮三個民主層級的選票，選民可同時參與。"
   },
   {
     "id": "draft-ch04-002",
@@ -585,7 +881,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Separate ballots help voters influence national, regional, and municipal politics independently.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么选民在全国大选中会拿到不同的选票？",
+    "optionsZh": [
+      "不同选票对应职责不同的民主层级。",
+      "一张选票选政党，另一张选首相。",
+      "选票按选民年龄不同而不同。",
+      "需要分别的选票来投男性和女性候选人。"
+    ],
+    "explanationZh": "分设选票让选民能分别影响国家、大区和市镇的政治，互不混淆。首相并非由选民直接选出。",
+    "questionZhHant": "為什麼選民在全國大選中會拿到不同的選票？",
+    "optionsZhHant": [
+      "不同選票對應職責不同的民主層級。",
+      "一張選票選政黨，另一張選首相。",
+      "選票按選民年齡不同而不同。",
+      "需要分別的選票來投男性和女性候選人。"
+    ],
+    "explanationZhHant": "分設選票讓選民能分別影響國家、大區和市鎮的政治，互不混淆。首相並非由選民直接選出。"
   },
   {
     "id": "draft-ch04-003",
@@ -615,7 +927,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Regions handle much healthcare, while municipalities are central for schools and local services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名选民想同时影响医疗和学校。哪些选举尤其相关？",
+    "optionsZh": [
+      "大区选举关乎医疗，市镇选举关乎学校。",
+      "议会选举关乎医疗，欧盟选举关乎所有学校。",
+      "市镇选举关乎医院，大区选举关乎小学。",
+      "教会议会选举关乎这两个问题。"
+    ],
+    "explanationZh": "大区（region）主要负责医疗，市镇（kommun）负责学校等地方事务。因此想影响这两类事务，应关注对应的选举。",
+    "questionZhHant": "一名選民想同時影響醫療和學校。哪些選舉尤其相關？",
+    "optionsZhHant": [
+      "大區選舉關乎醫療，市鎮選舉關乎學校。",
+      "議會選舉關乎醫療，歐盟選舉關乎所有學校。",
+      "市鎮選舉關乎醫院，大區選舉關乎小學。",
+      "教會議會選舉關乎這兩個問題。"
+    ],
+    "explanationZhHant": "大區（region）主要負責醫療，市鎮（kommun）負責學校等地方事務。因此想影響這兩類事務，應關注對應的選舉。"
   },
   {
     "id": "draft-ch04-004",
@@ -644,7 +972,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Voting age in Swedish general elections is 18.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典全国大选中投票，通常须达到什么年龄？",
+    "optionsZh": [
+      "18 岁。",
+      "16 岁。",
+      "20 岁。",
+      "21 岁。"
+    ],
+    "explanationZh": "瑞典全国大选的投票年龄是 18 岁。",
+    "questionZhHant": "在瑞典全國大選中投票，通常須達到什麼年齡？",
+    "optionsZhHant": [
+      "18 歲。",
+      "16 歲。",
+      "20 歲。",
+      "21 歲。"
+    ],
+    "explanationZhHant": "瑞典全國大選的投票年齡是 18 歲。"
   },
   {
     "id": "draft-ch04-005",
@@ -674,7 +1018,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Voting in Riksdag elections requires Swedish citizenship, while local and regional voting rights can also apply to some non-citizens under conditions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪种选举要求具备瑞典公民身份才能拥有投票权？",
+    "optionsZh": [
+      "议会选举。",
+      "市镇选举（面向所有居住在市镇的人）。",
+      "大区选举（面向所有登记居民，无附加条件）。",
+      "公民社会中的所有社团选举。"
+    ],
+    "explanationZh": "议会选举（riksdagsval）的投票权要求瑞典公民身份；而地方（市镇）和区域（大区）选举在某些条件下也可惠及部分非公民。",
+    "questionZhHant": "哪種選舉要求具備瑞典公民身份才能擁有投票權？",
+    "optionsZhHant": [
+      "議會選舉。",
+      "市鎮選舉（面向所有居住在市鎮的人）。",
+      "大區選舉（面向所有登記居民，無附加條件）。",
+      "公民社會中的所有社團選舉。"
+    ],
+    "explanationZhHant": "議會選舉（riksdagsval）的投票權要求瑞典公民身份；而地方（市鎮）和區域（大區）選舉在某些條件下也可惠及部分非公民。"
   },
   {
     "id": "draft-ch04-006",
@@ -704,7 +1064,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Citizenship matters especially for Riksdag elections. Local and regional voting rights can include some non-citizens.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名欧盟公民在瑞典某市镇登记居住，但非瑞典公民。哪种说法最准确？",
+    "optionsZh": [
+      "此人可能在市镇和大区选举中有投票权，但在议会选举中没有。",
+      "此人可投议会选举，但绝不能投市镇选举。",
+      "此人只有政府在每次选举日给予特别许可才能投票。",
+      "此人可在所有瑞典选举中无限制投票。"
+    ],
+    "explanationZh": "公民身份对议会选举尤其关键；而地方和区域选举的投票权在一定条件下可涵盖部分非公民（如登记居住的欧盟公民）。",
+    "questionZhHant": "一名歐盟公民在瑞典某市鎮登記居住，但非瑞典公民。哪種說法最準確？",
+    "optionsZhHant": [
+      "此人可能在市鎮和大區選舉中有投票權，但在議會選舉中沒有。",
+      "此人可投議會選舉，但絕不能投市鎮選舉。",
+      "此人只有政府在每次選舉日給予特別許可才能投票。",
+      "此人可在所有瑞典選舉中無限制投票。"
+    ],
+    "explanationZhHant": "公民身份對議會選舉尤其關鍵；而地方和區域選舉的投票權在一定條件下可涵蓋部分非公民（如登記居住的歐盟公民）。"
   },
   {
     "id": "draft-ch04-007",
@@ -733,7 +1109,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Ballot secrecy protects voters from pressure and makes free choice possible.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典选举的“保密”（无记名）是指什么？",
+    "optionsZh": [
+      "任何人都不应能够强迫选民公开自己的投票。",
+      "选举结果永远不得公布。",
+      "只有政党可以知道谁投了票。",
+      "选举工作人员决定选民该拿哪张选票。"
+    ],
+    "explanationZh": "投票保密（无记名投票原则）保护选民免受胁迫，使自由选票成为可能。",
+    "questionZhHant": "瑞典選舉的“保密”（無記名）是指什麼？",
+    "optionsZhHant": [
+      "任何人都不應能夠強迫選民公開自己的投票。",
+      "選舉結果永遠不得公布。",
+      "只有政黨可以知道誰投了票。",
+      "選舉工作人員決定選民該拿哪張選票。"
+    ],
+    "explanationZhHant": "投票保密（無記名投票原則）保護選民免受脅迫，使自由選票成為可能。"
   },
   {
     "id": "draft-ch04-008",
@@ -762,7 +1154,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Free elections require real alternatives and protection from coercion.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "自由选举的特征是什么？",
+    "optionsZh": [
+      "选民可在不受威胁或强迫的情况下选择。",
+      "法律强制所有公民必须投票。",
+      "只有已进入国会的政党可以提名候选人。",
+      "政府有权在结果生效前予以批准。"
+    ],
+    "explanationZh": "自由选举需要有真实可选的选项，并保护选民不受胁迫。瑞典的投票并非强制。",
+    "questionZhHant": "自由選舉的特徵是什麼？",
+    "optionsZhHant": [
+      "選民可在不受威脅或強迫的情況下選擇。",
+      "法律強制所有公民必須投票。",
+      "只有已進入國會的政黨可以提名候選人。",
+      "政府有權在結果生效前予以批準。"
+    ],
+    "explanationZhHant": "自由選舉需要有真實可選的選項，並保護選民不受脅迫。瑞典的投票並非強制。"
   },
   {
     "id": "draft-ch04-009",
@@ -792,7 +1200,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "If someone can demand proof of how a person voted, the voter can be pressured or punished.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "雇主要求员工拍摄自己的选票。最受威胁的是哪项原则？",
+    "optionsZh": [
+      "投票保密以及选民免受施压的自由。",
+      "大区对医疗的责任。",
+      "瑞典国会（Riksdagen）决定预算的权利。",
+      "政党结社的权利。"
+    ],
+    "explanationZh": "若有人能要求证明某人投了谁，选民就可能被施压或惩罚。这直接破坏无记名投票和选举自由。",
+    "questionZhHant": "僱主要求員工拍攝自己的選票。最受威脅的是哪項原則？",
+    "optionsZhHant": [
+      "投票保密以及選民免受施壓的自由。",
+      "大區對醫療的責任。",
+      "瑞典國會（Riksdagen）決定預算的權利。",
+      "政黨結社的權利。"
+    ],
+    "explanationZhHant": "若有人能要求證明某人投了誰，選民就可能被施壓或懲罰。這直接破壞無記名投票和選舉自由。"
   },
   {
     "id": "draft-ch04-010",
@@ -821,7 +1245,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Political parties organize ideas, candidates, campaigns, and representation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是政党？",
+    "optionsZh": [
+      "围绕政治理念和候选人将人们凝聚起来的组织。",
+      "负责举办选举的政府机关。",
+      "只关注地方文化事务的公益社团。",
+      "协助政府起草法律的公务员群体。"
+    ],
+    "explanationZh": "政党把理念、候选人、竞选活动和代表机制组织起来，是民主中连接选民与决策的重要角色。",
+    "questionZhHant": "什麼是政黨？",
+    "optionsZhHant": [
+      "圍繞政治理念和候選人將人們凝聚起來的組織。",
+      "負責舉辦選舉的政府機關。",
+      "只關注地方文化事務的公益社團。",
+      "協助政府起草法律的公務員羣體。"
+    ],
+    "explanationZhHant": "政黨把理念、候選人、競選活動和代表機制組織起來，是民主中連接選民與決策的重要角色。"
   },
   {
     "id": "draft-ch04-011",
@@ -851,7 +1291,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Parties group political views and present candidates who can be held accountable by voters.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在代议制民主中，政党为何重要？",
+    "optionsZh": [
+      "它们让选民更容易在不同政治选项间选择。",
+      "它们决定法院应适用哪些法律。",
+      "它们取代了对选举和公民投票的需求。",
+      "它们有权不经国会批准就修改基本法。"
+    ],
+    "explanationZh": "政党将政治观点归类，并推出可被选民问责的候选人，让代表机制得以运转。",
+    "questionZhHant": "在代議制民主中，政黨為何重要？",
+    "optionsZhHant": [
+      "它們讓選民更容易在不同政治選項間選擇。",
+      "它們決定法院應適用哪些法律。",
+      "它們取代了對選舉和公民投票的需求。",
+      "它們有權不經國會批準就修改基本法。"
+    ],
+    "explanationZhHant": "政黨將政治觀點歸類，並推出可被選民問責的候選人，讓代表機制得以運轉。"
   },
   {
     "id": "draft-ch04-012",
@@ -881,7 +1337,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democracy requires room for different political alternatives, within election rules.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个政党资源匮乏但想参选。若它满足规则，支持其仍可参与的民主原则是什么？",
+    "optionsZh": [
+      "政治多元主义和自由选举。",
+      "由国家挑选出最大政党。",
+      "只有国会政党可以表达意见。",
+      "由媒体决定哪些政党可以存在。"
+    ],
+    "explanationZh": "民主需要在选举规则范围内容纳不同的政治替代方案，政治多元主义保证了不同声音可被听见。",
+    "questionZhHant": "一個政黨資源匱乏但想參選。若它滿足規則，支持其仍可參與的民主原則是什麼？",
+    "optionsZhHant": [
+      "政治多元主義和自由選舉。",
+      "由國家挑選出最大政黨。",
+      "只有國會政黨可以表達意見。",
+      "由媒體決定哪些政黨可以存在。"
+    ],
+    "explanationZhHant": "民主需要在選舉規則範圍內容納不同的政治替代方案，政治多元主義保證了不同聲音可被聽見。"
   },
   {
     "id": "draft-ch04-013",
@@ -910,7 +1382,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Proportional representation aims to make the elected assembly reflect voters’ support for parties.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "简单地说，比例代表制选举是什么意思？",
+    "optionsZh": [
+      "席位大致按各政党得票多少分配。",
+      "在某一选区得票最多的政党赢得该区所有席位。",
+      "所有参选政党都获得完全相同数量的席位。",
+      "市镇可不顾投票结果自行分配席位。"
+    ],
+    "explanationZh": "比例代表制旨在让当选议会的组成反映各政党获得的选民支持程度。",
+    "questionZhHant": "簡單地說，比例代表制選舉是什麼意思？",
+    "optionsZhHant": [
+      "席位大致按各政黨得票多少分配。",
+      "在某一選區得票最多的政黨贏得該區所有席位。",
+      "所有參選政黨都獲得完全相同數量的席位。",
+      "市鎮可不顧投票結果自行分配席位。"
+    ],
+    "explanationZhHant": "比例代表制旨在讓當選議會的組成反映各政黨獲得的選民支持程度。"
   },
   {
     "id": "draft-ch04-014",
@@ -939,7 +1427,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A threshold can reduce fragmentation while still keeping a proportional system.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么进入瑞典国会（Riksdagen）设有 4% 的门槛？",
+    "optionsZh": [
+      "为避免过多小党进入国会，否则可能难以组成稳定的政府。",
+      "为防止超过两个政党入阁。",
+      "为保证瑞典所有大区获得同等席位。",
+      "为确保低得票政党自动获得组阁权。"
+    ],
+    "explanationZh": "门槛可以减少议会过度碎片化，同时仍保持比例代表的性质，有助于形成可执政的多数。",
+    "questionZhHant": "為什麼進入瑞典國會（Riksdagen）設有 4% 的門檻？",
+    "optionsZhHant": [
+      "為避免過多小黨進入國會，否則可能難以組成穩定的政府。",
+      "為防止超過兩個政黨入閣。",
+      "為保證瑞典所有大區獲得同等席位。",
+      "為確保低得票政黨自動獲得組閣權。"
+    ],
+    "explanationZhHant": "門檻可以減少議會過度碎片化，同時仍保持比例代表的性質，有助於形成可執政的多數。"
   },
   {
     "id": "draft-ch04-015",
@@ -969,7 +1473,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Threshold rules affect representation. A party below the 4% national threshold may get no Riksdag seats, unless it reaches the 12% constituency exception in at least one electoral district.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个政党得票不少，却刚好低于议会门槛。可能发生什么？",
+    "optionsZh": [
+      "尽管有支持，该党仍可能无缘国会席位。",
+      "该党的选票自动归给最大政党。",
+      "该党转而获得市议会中的额外席位。",
+      "该党获得对政府预算的否决权。"
+    ],
+    "explanationZh": "门槛规则影响代表权。低于全国 4% 门槛的政党可能拿不到国会席位，除非它在至少一个选区达到 12% 的例外标准。",
+    "questionZhHant": "一個政黨得票不少，卻剛好低於議會門檻。可能發生什麼？",
+    "optionsZhHant": [
+      "盡管有支持，該黨仍可能無緣國會席位。",
+      "該黨的選票自動歸給最大政黨。",
+      "該黨轉而獲得市議會中的額外席位。",
+      "該黨獲得對政府預算的否決權。"
+    ],
+    "explanationZhHant": "門檻規則影響代表權。低於全國 4% 門檻的政黨可能拿不到國會席位，除非它在至少一個選區達到 12% 的例外標準。"
   },
   {
     "id": "draft-ch04-016",
@@ -998,7 +1518,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Mandates are the seats distributed after an election.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "民选机构中的一个“席位”（mandat）是什么？",
+    "optionsZh": [
+      "当选议员在该机构中占有的一个位置。",
+      "国王签发的参选书面许可。",
+      "仅用于提前投票的一种选票。",
+      "要求国会议员必须一致投票的规定。"
+    ],
+    "explanationZh": "席位（mandat）是选举后分配的代表位置，如国会议员所占据的座位。",
+    "questionZhHant": "民選機構中的一個“席位”（mandat）是什麼？",
+    "optionsZhHant": [
+      "當選議員在該機構中佔有的一個位置。",
+      "國王籤發的參選書面許可。",
+      "僅用於提前投票的一種選票。",
+      "要求國會議員必須一致投票的規定。"
+    ],
+    "explanationZhHant": "席位（mandat）是選舉後分配的代表位置，如國會議員所佔據的座位。"
   },
   {
     "id": "draft-ch04-017",
@@ -1027,7 +1563,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "When no party has a majority alone, cooperation can be necessary.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "政党为何有时会组成联盟（coalition）？",
+    "optionsZh": [
+      "为了合作并获得足够的支持以执政或决策。",
+      "为了把各党永久合并为一个党。",
+      "为了阻止每年都举行补选。",
+      "因为国会所有政党必须同属一个政府。"
+    ],
+    "explanationZh": "当没有单一政党拥有多数时，合作往往是必要的。联盟通过联合若干政党的支持来执政或推动议案。",
+    "questionZhHant": "政黨為何有時會組成聯盟（coalition）？",
+    "optionsZhHant": [
+      "為了合作並獲得足夠的支持以執政或決策。",
+      "為了把各黨永久合並為一個黨。",
+      "為了阻止每年都舉行補選。",
+      "因為國會所有政黨必須同屬一個政府。"
+    ],
+    "explanationZhHant": "當沒有單一政黨擁有多數時，合作往往是必要的。聯盟通過聯合若幹政黨的支持來執政或推動議案。"
   },
   {
     "id": "draft-ch04-018",
@@ -1057,7 +1609,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Coalition politics often involves negotiation between different priorities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "两个政党在多个问题上意见相左，却共同组建政府。这说明什么？",
+    "optionsZh": [
+      "为形成议会多数或支持，可能需要妥协。",
+      "政党必须对所有问题看法一致才能合作。",
+      "政府无需理会国会决定。",
+      "只要政党一致，选举结果就无关紧要。"
+    ],
+    "explanationZh": "联盟政治通常包含不同优先事项之间的协商。为获得议会容忍或多数，政党可在分歧议题上妥协。",
+    "questionZhHant": "兩個政黨在多個問題上意見相左，卻共同組建政府。這說明什麼？",
+    "optionsZhHant": [
+      "為形成議會多數或支持，可能需要妥協。",
+      "政黨必須對所有問題看法一致才能合作。",
+      "政府無需理會國會決定。",
+      "只要政黨一致，選舉結果就無關緊要。"
+    ],
+    "explanationZhHant": "聯盟政治通常包含不同優先事項之間的協商。為獲得議會容忍或多數，政黨可在分歧議題上妥協。"
   },
   {
     "id": "draft-ch04-019",
@@ -1086,7 +1654,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Election campaigns allow voters to compare parties, ideas, and candidates.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是选举运动（竞选活动）？",
+    "optionsZh": [
+      "各党展示政纲并争取选民支持的时期。",
+      "选举管理局（Valmyndigheten）为下届选举审查选民名册的时期。",
+      "新国会就首相人选投票的程序。",
+      "政府协商国家预算的会议期。"
+    ],
+    "explanationZh": "选举运动让选民比较政党、理念和候选人，是民主中信息交流的重要环节。",
+    "questionZhHant": "什麼是選舉運動（競選活動）？",
+    "optionsZhHant": [
+      "各黨展示政綱並爭取選民支持的時期。",
+      "選舉管理局（Valmyndigheten）為下屆選舉審查選民名冊的時期。",
+      "新國會就首相人選投票的程序。",
+      "政府協商國家預算的會議期。"
+    ],
+    "explanationZhHant": "選舉運動讓選民比較政黨、理念和候選人，是民主中資訊交流的重要環節。"
   },
   {
     "id": "draft-ch04-020",
@@ -1116,7 +1700,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Campaign periods can include persuasion, selective facts, and misinformation, so source criticism matters.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么在选举运动中来源批判很重要？",
+    "optionsZh": [
+      "选民需要能评估各种说法、统计数据和政治信息。",
+      "所有竞选信息永远都是中立事实。",
+      "媒体不得报道选举。",
+      "政党永远不得互相批评。"
+    ],
+    "explanationZh": "竞选期可能夹杂说服、选择性事实和误导信息，因此来源批判（核查信息与来源）十分必要。",
+    "questionZhHant": "為什麼在選舉運動中來源批判很重要？",
+    "optionsZhHant": [
+      "選民需要能評估各種說法、統計數據和政治資訊。",
+      "所有競選資訊永遠都是中立事實。",
+      "媒體不得報道選舉。",
+      "政黨永遠不得互相批評。"
+    ],
+    "explanationZhHant": "競選期可能夾雜說服、選擇性事實和誤導資訊，因此來源批判（核查資訊與來源）十分必要。"
   },
   {
     "id": "draft-ch04-021",
@@ -1146,7 +1746,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "False information about voting can suppress participation and damage trust.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有虚假谣言称某投票站已关闭。其中的民主风险是什么？",
+    "optionsZh": [
+      "选民可能因虚假信息而无法投票。",
+      "政党自动获得更多席位。",
+      "投票保密变得“过强”。",
+      "市镇获得决定基本法的权力。"
+    ],
+    "explanationZh": "关于投票的虚假信息会压制参与并损害信任。阻挠合格选民投票是对民主根基的攻击。",
+    "questionZhHant": "有虛假謠言稱某投票站已關閉。其中的民主風險是什麼？",
+    "optionsZhHant": [
+      "選民可能因虛假資訊而無法投票。",
+      "政黨自動獲得更多席位。",
+      "投票保密變得“過強”。",
+      "市鎮獲得決定基本法的權力。"
+    ],
+    "explanationZhHant": "關於投票的虛假資訊會壓制參與並損害信任。阻撓合格選民投票是對民主根基的攻擊。"
   },
   {
     "id": "draft-ch04-022",
@@ -1175,7 +1791,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Election Authority has central responsibilities for Swedish elections, together with local election administration.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典选举的大量组织实施工作由哪个机关负责？",
+    "optionsZh": [
+      "选举管理局（Valmyndigheten）。",
+      "瑞典中央银行（Riksbanken）。",
+      "最高法院。",
+      "仅由税务局（Skatteverket）的人口登记部门。"
+    ],
+    "explanationZh": "选举管理局（Valmyndigheten）在瑞典选举中承担核心职责，地方选举组织工作也一并配合。",
+    "questionZhHant": "瑞典選舉的大量組織實施工作由哪個機關負責？",
+    "optionsZhHant": [
+      "選舉管理局（Valmyndigheten）。",
+      "瑞典中央銀行（Riksbanken）。",
+      "最高法院。",
+      "僅由稅務局（Skatteverket）的人口登記部門。"
+    ],
+    "explanationZhHant": "選舉管理局（Valmyndigheten）在瑞典選舉中承擔核心職責，地方選舉組織工作也一並配合。"
   },
   {
     "id": "draft-ch04-023",
@@ -1204,7 +1836,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Trust in the election process depends on clear rules, neutral administration, and transparent counting.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么独立而透明的选举行政（组织管理）很重要？",
+    "optionsZh": [
+      "它帮助选民相信选举被正确执行。",
+      "它让政府能操控哪些政党可以参选。",
+      "它使结果可在政府意愿下更快更改。",
+      "它意味着选票无需公开计票。"
+    ],
+    "explanationZh": "对选举程序的信任依赖清晰规则、中立的管理和透明的计票。行政机构应保持独立，不偏袒任何一方。",
+    "questionZhHant": "為什麼獨立而透明的選舉行政（組織管理）很重要？",
+    "optionsZhHant": [
+      "它幫助選民相信選舉被正確執行。",
+      "它讓政府能操控哪些政黨可以參選。",
+      "它使結果可在政府意願下更快更改。",
+      "它意味着選票無需公開計票。"
+    ],
+    "explanationZhHant": "對選舉程序的信任依賴清晰規則、中立的管理和透明的計票。行政機構應保持獨立，不偏袒任何一方。"
   },
   {
     "id": "draft-ch04-024",
@@ -1234,7 +1882,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The polling place must protect free and secret voting.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名选举工作人员试图在投票站内影响选民。为什么这很严重？",
+    "optionsZh": [
+      "选举行政应保持中立，选民应能自由投票。",
+      "选举工作人员有权推荐政党。",
+      "只有当选民事后更换政党时才是问题。",
+      "这加强了投票保密。"
+    ],
+    "explanationZh": "投票场所必须保护自由和无记名投票。工作人员若施加影响，便破坏了选举行政应有的中立性。",
+    "questionZhHant": "一名選舉工作人員試圖在投票站內影響選民。為什麼這很嚴重？",
+    "optionsZhHant": [
+      "選舉行政應保持中立，選民應能自由投票。",
+      "選舉工作人員有權推薦政黨。",
+      "只有當選民事後更換政黨時才是問題。",
+      "這加強了投票保密。"
+    ],
+    "explanationZhHant": "投票場所必須保護自由和無記名投票。工作人員若施加影響，便破壞了選舉行政應有的中立性。"
   },
   {
     "id": "draft-ch04-025",
@@ -1263,7 +1927,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Voter turnout measures participation among those entitled to vote.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“投票率”（valdeltagande）是什么意思？",
+    "optionsZh": [
+      "有投票权者中参与投票的比例。",
+      "当选议员在表决时出席的比例。",
+      "全国大选中参选的候选人数。",
+      "选举日担任选举工作人员的人数。"
+    ],
+    "explanationZh": "投票率衡量的是合格选民中实际参与投票的比例，是民主参与度的指标。",
+    "questionZhHant": "“投票率”（valdeltagande）是什麼意思？",
+    "optionsZhHant": [
+      "有投票權者中參與投票的比例。",
+      "當選議員在表決時出席的比例。",
+      "全國大選中參選的候選人數。",
+      "選舉日擔任選舉工作人員的人數。"
+    ],
+    "explanationZhHant": "投票率衡量的是合格選民中實際參與投票的比例，是民主參與度的指標。"
   },
   {
     "id": "draft-ch04-026",
@@ -1293,7 +1973,15 @@
     ],
     "correctIndex": 0,
     "explanationEn": "High participation can make elected bodies more representative of the electorate.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "高投票率为何能增强民主合法性？",
+    "optionsZh": [
+      "更多有投票权者参与了代表的选择。",
+      "这使得所有决定自动正确。",
+      "这意味着不再需要反对派。",
+      "这意味着选举结果永不可被批评。"
+    ],
+    "explanationZh": "较高的参与度能使当选机构更具选民代表性，从而增强其决定的正当性。"
   },
   {
     "id": "draft-ch04-027",
@@ -1323,7 +2011,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Low participation can reduce political influence and representation for affected groups.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某地区连续多届选举投票率都很低。可能的民主后果是什么？",
+    "optionsZh": [
+      "该群体的利益在政治中影响力可能更弱。",
+      "选举管理局（Valmyndigheten）必须自动宣布整个结果无效。",
+      "所有政党都必须把办公室迁到该地区。",
+      "该地区居民在下一届选举丧失投票权。"
+    ],
+    "explanationZh": "低参与会降低受影响群体在政治中的影响力和代表性，但其投票权并不因此被剥夺。",
+    "questionZhHant": "某地區連續多屆選舉投票率都很低。可能的民主後果是什麼？",
+    "optionsZhHant": [
+      "該羣體的利益在政治中影響力可能更弱。",
+      "選舉管理局（Valmyndigheten）必須自動宣布整個結果無效。",
+      "所有政黨都必須把辦公室遷到該地區。",
+      "該地區居民在下一屆選舉喪失投票權。"
+    ],
+    "explanationZhHant": "低參與會降低受影響羣體在政治中的影響力和代表性，但其投票權並不因此被剝奪。"
   },
   {
     "id": "draft-ch04-028",
@@ -1352,7 +2056,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A referendum lets voters take a direct position on a specific issue.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是公民投票（全民公决）？",
+    "optionsZh": [
+      "选民就某一特定议题直接投票。",
+      "瑞典国会（Riksdagen）就法律修改投票。",
+      "政府任命新的机关首长。",
+      "政党挑选其国会议员。"
+    ],
+    "explanationZh": "公民投票让选民对某个具体议题直接表态，是代议制之外的一种直接民主形式。",
+    "questionZhHant": "什麼是公民投票（全民公決）？",
+    "optionsZhHant": [
+      "選民就某一特定議題直接投票。",
+      "瑞典國會（Riksdagen）就法律修改投票。",
+      "政府任命新的機關首長。",
+      "政黨挑選其國會議員。"
+    ],
+    "explanationZhHant": "公民投票讓選民對某個具體議題直接表態，是代議制之外的一種直接民主形式。"
   },
   {
     "id": "draft-ch04-029",
@@ -1382,7 +2102,15 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden is mainly representative, but referendums can be used in particular questions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "公民投票如何与代议制民主相契合？",
+    "optionsZh": [
+      "它们可在某些具体议题上补充代议制民主。",
+      "它们完全取代民选政治家和国会的需要。",
+      "瑞典每次修法前都必须举行。",
+      "它们意味着只有专家能在难题上投票。"
+    ],
+    "explanationZh": "瑞典主要是代议制，但公民投票可在特定问题上使用，作为对代表决策的补充。"
   },
   {
     "id": "draft-ch04-030",
@@ -1412,7 +2140,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Direct votes do not remove legal limits or the division of responsibilities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "某市镇就地方事务举行公民投票。为什么政治家仍须了解该议题的法律边界？",
+    "optionsZh": [
+      "地方决定仍须遵守法律及市镇的职权范围。",
+      "公民投票使市镇不再需要遵守瑞典法律。",
+      "地方公投后国会总须修改基本法。",
+      "市镇公投结果自动全国适用。"
+    ],
+    "explanationZh": "直接投票并不消除法律限制和权责划分。地方决议仍须在其法定职权内并符合上位法。",
+    "questionZhHant": "某市鎮就地方事務舉行公民投票。為什麼政治家仍須了解該議題的法律邊界？",
+    "optionsZhHant": [
+      "地方決定仍須遵守法律及市鎮的職權範圍。",
+      "公民投票使市鎮不再需要遵守瑞典法律。",
+      "地方公投後國會總須修改基本法。",
+      "市鎮公投結果自動全國適用。"
+    ],
+    "explanationZhHant": "直接投票並不消除法律限制和權責劃分。地方決議仍須在其法定職權內並符合上位法。"
   },
   {
     "id": "draft-ch04-031",
@@ -1441,7 +2185,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "EU citizens vote in European Parliament elections to choose representatives at EU level.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪种选举关乎瑞典在欧洲议会（Europaparlamentet）中的议员？",
+    "optionsZh": [
+      "欧洲议会选举。",
+      "议会选举。",
+      "市镇选举。",
+      "大区选举。"
+    ],
+    "explanationZh": "欧盟公民通过欧洲议会选举选出欧盟层面的代表。瑞典作为欧盟成员国参与这一选举。",
+    "questionZhHant": "哪種選舉關乎瑞典在歐洲議會（Europaparlamentet）中的議員？",
+    "optionsZhHant": [
+      "歐洲議會選舉。",
+      "議會選舉。",
+      "市鎮選舉。",
+      "大區選舉。"
+    ],
+    "explanationZhHant": "歐盟公民通過歐洲議會選舉選出歐盟層面的代表。瑞典作為歐盟成員國參與這一選舉。"
   },
   {
     "id": "draft-ch04-032",
@@ -1471,7 +2231,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden is an EU member, so EU-level decisions can matter domestically.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "欧洲议会选举为何与瑞典选民相关？",
+    "optionsZh": [
+      "欧盟的决定会影响瑞典的规则和政策。",
+      "该选举决定谁任瑞典首相。",
+      "欧洲议会决定瑞典的市政税。",
+      "瑞典法院直接受欧洲议会议员管辖。"
+    ],
+    "explanationZh": "瑞典是欧盟成员，因此欧盟层面的决策会在国内产生影响，欧洲议会选举因而与选民切身相关。",
+    "questionZhHant": "歐洲議會選舉為何與瑞典選民相關？",
+    "optionsZhHant": [
+      "歐盟的決定會影響瑞典的規則和政策。",
+      "該選舉決定誰任瑞典首相。",
+      "歐洲議會決定瑞典的市政稅。",
+      "瑞典法院直接受歐洲議會議員管轄。"
+    ],
+    "explanationZhHant": "瑞典是歐盟成員，因此歐盟層面的決策會在國內產生影響，歐洲議會選舉因而與選民切身相關。"
   },
   {
     "id": "draft-ch04-033",
@@ -1501,7 +2277,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "European Parliament voting rights are tied to EU citizenship and rules about where a person votes.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名瑞典公民居住在另一个欧盟国家。其欧洲议会选举的投票权如何规定？",
+    "optionsZh": [
+      "此人可投欧盟选举，但居住地可决定选票在哪个国家投出。",
+      "欧盟选举只关市镇学校事务。",
+      "议会选举由欧盟委员会举办。",
+      "欧盟公民永远不能投欧盟选举。"
+    ],
+    "explanationZh": "欧洲议会的投票权与欧盟公民身份及“在何地投票”的规则相关。居住在其他欧盟成员国的瑞典公民通常在居住国行使该权利。",
+    "questionZhHant": "一名瑞典公民居住在另一個歐盟國家。其歐洲議會選舉的投票權如何規定？",
+    "optionsZhHant": [
+      "此人可投歐盟選舉，但居住地可決定選票在哪個國家投出。",
+      "歐盟選舉只關市鎮學校事務。",
+      "議會選舉由歐盟委員會舉辦。",
+      "歐盟公民永遠不能投歐盟選舉。"
+    ],
+    "explanationZhHant": "歐洲議會的投票權與歐盟公民身份及“在何地投票”的規則相關。居住在其他歐盟成員國的瑞典公民通常在居住國行使該權利。"
   },
   {
     "id": "draft-ch04-034",
@@ -1530,7 +2322,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Candidates are people voters can help elect to a representative body.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "选举中的“候选人”是什么？",
+    "optionsZh": [
+      "参选、争取被选上的人。",
+      "在投票站负责计票的公务员。",
+      "审查选举结果是否合法的律师。",
+      "已登记要提前投票的选民。"
+    ],
+    "explanationZh": "候选人是选民可以帮助其进入代表机构的人。",
+    "questionZhHant": "選舉中的“候選人”是什麼？",
+    "optionsZhHant": [
+      "參選、爭取被選上的人。",
+      "在投票站負責計票的公務員。",
+      "審查選舉結果是否合法的律師。",
+      "已登記要提前投票的選民。"
+    ],
+    "explanationZhHant": "候選人是選民可以幫助其進入代表機構的人。"
   },
   {
     "id": "draft-ch04-035",
@@ -1560,7 +2368,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "In Swedish elections, voters can express support for a specific candidate on a party list.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一张个人票（优先票）能影响什么？",
+    "optionsZh": [
+      "一个政党内部哪位候选人获得席位。",
+      "哪个政党能组阁。",
+      "一个市镇在国会共有多少席位。",
+      "一个政党能否跨过国会 4% 门槛。"
+    ],
+    "explanationZh": "在瑞典选举中，选民可对政党名单上的特定候选人表达支持（优先票），这会影响该党内部谁获得席位，但跨不过门槛与否取决于该党总得票。",
+    "questionZhHant": "一張個人票（優先票）能影響什麼？",
+    "optionsZhHant": [
+      "一個政黨內部哪位候選人獲得席位。",
+      "哪個政黨能組閣。",
+      "一個市鎮在國會共有多少席位。",
+      "一個政黨能否跨過國會 4% 門檻。"
+    ],
+    "explanationZhHant": "在瑞典選舉中，選民可對政黨名單上的特定候選人表達支持（優先票），這會影響該黨內部誰獲得席位，但跨不過門檻與否取決於該黨總得票。"
   },
   {
     "id": "draft-ch04-036",
@@ -1590,7 +2414,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A personal vote lets the voter mark support for a specific candidate while voting for a party.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名选民喜欢某政党，但想特别支持名单上的一位候选人。使用什么工具？",
+    "optionsZh": [
+      "对这位候选人投个人票（优先票）。",
+      "在政党选票上勾选所有候选人。",
+      "在同一次选举中投空白票。",
+      "把候选人名字写在信封背面。"
+    ],
+    "explanationZh": "个人票（优先票）让选民在投给政党的同时，特别支持名单上的某位候选人。",
+    "questionZhHant": "一名選民喜歡某政黨，但想特別支持名單上的一位候選人。使用什麼工具？",
+    "optionsZhHant": [
+      "對這位候選人投個人票（優先票）。",
+      "在政黨選票上勾選所有候選人。",
+      "在同一次選舉中投空白票。",
+      "把候選人名字寫在信封背面。"
+    ],
+    "explanationZhHant": "個人票（優先票）讓選民在投給政黨的同時，特別支持名單上的某位候選人。"
   },
   {
     "id": "draft-ch04-037",
@@ -1619,7 +2459,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A blank vote can show participation without choosing a party, but it does not give seats to a party.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“空白票”是什么意思？",
+    "optionsZh": [
+      "没有选定政党或候选人的一票。",
+      "自动归给最大政党的一票。",
+      "在最终结果中被计两次的一票。",
+      "仅提前投票时有效的一票。"
+    ],
+    "explanationZh": "空白票表明参与但没选任何政党，它不会给任何政党带来席位。",
+    "questionZhHant": "“空白票”是什麼意思？",
+    "optionsZhHant": [
+      "沒有選定政黨或候選人的一票。",
+      "自動歸給最大政黨的一票。",
+      "在最終結果中被計兩次的一票。",
+      "僅提前投票時有效的一票。"
+    ],
+    "explanationZhHant": "空白票表明參與但沒選任何政黨，它不會給任何政黨帶來席位。"
   },
   {
     "id": "draft-ch04-038",
@@ -1648,7 +2504,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Election rules decide how votes are counted and when they cannot be accepted as valid.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么会使一张选票无效？",
+    "optionsZh": [
+      "若选票无法按选举规则被识别。",
+      "若选民把两张同党选票放入信封。",
+      "若选民优先票投给名单最末位的候选人。",
+      "若选民在公共假日提前投票。"
+    ],
+    "explanationZh": "选举规则规定选票如何被计为有效；若无法按规则判读（例如标记不清或同时投多张不同政党的票造成歧义），则视为无效。",
+    "questionZhHant": "什麼會使一張選票無效？",
+    "optionsZhHant": [
+      "若選票無法按選舉規則被識別。",
+      "若選民把兩張同黨選票放入信封。",
+      "若選民優先票投給名單最末位的候選人。",
+      "若選民在公共假日提前投票。"
+    ],
+    "explanationZhHant": "選舉規則規定選票如何被計為有效；若無法按規則判讀（例如標記不清或同時投多張不同政黨的票造成歧義），則視為無效。"
   },
   {
     "id": "draft-ch04-039",
@@ -1678,7 +2550,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A blank vote is a lawful way to participate without choosing a party; interference with others’ voting is not.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名选民想表达抗议，但仍要参与选举。哪种做法描述了一种可行的行动？",
+    "optionsZh": [
+      "投空白票，并明白它不会给政党带来席位。",
+      "撕毁其他选民的选票。",
+      "多次投票以示不满。",
+      "拍摄其他选民的投票以“证明”抗议。"
+    ],
+    "explanationZh": "投空白票是在不选政党的前提下合法参与的方式；干扰他人投票则不合法。",
+    "questionZhHant": "一名選民想表達抗議，但仍要參與選舉。哪種做法描述了一種可行的行動？",
+    "optionsZhHant": [
+      "投空白票，並明白它不會給政黨帶來席位。",
+      "撕毀其他選民的選票。",
+      "多次投票以示不滿。",
+      "拍攝其他選民的投票以“證明”抗議。"
+    ],
+    "explanationZhHant": "投空白票是在不選政黨的前提下合法參與的方式；幹擾他人投票則不合法。"
   },
   {
     "id": "draft-ch04-040",
@@ -1707,7 +2595,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Polling stations are organized places for voting.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是投票站（vallokal）？",
+    "optionsZh": [
+      "选民可以投票的场所。",
+      "政党撰写竞选纲领的办公室。",
+      "处理选举结果上诉的法院。",
+      "只统计提前选票的集合室。"
+    ],
+    "explanationZh": "投票站是组织起来的投票场所，选民在选举日前往此处投票。",
+    "questionZhHant": "什麼是投票站（vallokal）？",
+    "optionsZhHant": [
+      "選民可以投票的場所。",
+      "政黨撰寫競選綱領的辦公室。",
+      "處理選舉結果上訴的法院。",
+      "只統計提前選票的集合室。"
+    ],
+    "explanationZhHant": "投票站是組織起來的投票場所，選民在選舉日前往此處投票。"
   },
   {
     "id": "draft-ch04-041",
@@ -1736,7 +2640,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Advance voting makes participation easier for people who cannot vote in their polling station on election day.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“提前投票”（förtidsröstning）是什么意思？",
+    "optionsZh": [
+      "在选举日之前按规定投票。",
+      "未满 18 岁就投议会选举。",
+      "政党在选前就分到席位。",
+      "选举工作人员替选民填票。"
+    ],
+    "explanationZh": "提前投票让那些选举日无法到本站投票的人更容易参与，是选举便利化的安排。",
+    "questionZhHant": "“提前投票”（förtidsröstning）是什麼意思？",
+    "optionsZhHant": [
+      "在選舉日之前按規定投票。",
+      "未滿 18 歲就投議會選舉。",
+      "政黨在選前就分到席位。",
+      "選舉工作人員替選民填票。"
+    ],
+    "explanationZhHant": "提前投票讓那些選舉日無法到本站投票的人更容易參與，是選舉便利化的安排。"
   },
   {
     "id": "draft-ch04-042",
@@ -1766,7 +2686,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Accessible voting procedures can increase participation while preserving election rules and secrecy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "提前投票为何能增强参与度？",
+    "optionsZh": [
+      "它提供更多实际机会，使工作、出行等不便者也能投票。",
+      "它使某些选票比别人更“算数”。",
+      "它消除了对投票保密的需要。",
+      "它让政党在选前看到所有人投了谁。"
+    ],
+    "explanationZh": "便利的投票程序能在保持选举规则与保密的前提下提高参与。",
+    "questionZhHant": "提前投票為何能增強參與度？",
+    "optionsZhHant": [
+      "它提供更多實際機會，使工作、出行等不便者也能投票。",
+      "它使某些選票比別人更“算數”。",
+      "它消除了對投票保密的需要。",
+      "它讓政黨在選前看到所有人投了誰。"
+    ],
+    "explanationZhHant": "便利的投票程序能在保持選舉規則與保密的前提下提高參與。"
   },
   {
     "id": "draft-ch04-043",
@@ -1796,7 +2732,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Polls estimate opinions but are not the same as election results.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是民意调查（opinionsundersökning）？",
+    "optionsZh": [
+      "对抽样人群看法或投票意向的测量。",
+      "选举管理局（Valmyndigheten）的最终官方结果。",
+      "审查政党是否履行承诺的检查。",
+      "所有有投票权公民的名册。"
+    ],
+    "explanationZh": "民调估计舆论，但与选举结果不同，不是正式计票。",
+    "questionZhHant": "什麼是民意調查（opinionsundersökning）？",
+    "optionsZhHant": [
+      "對抽樣人羣看法或投票意向的測量。",
+      "選舉管理局（Valmyndigheten）的最終官方結果。",
+      "審查政黨是否履行承諾的檢查。",
+      "所有有投票權公民的名冊。"
+    ],
+    "explanationZhHant": "民調估計輿論，但與選舉結果不同，不是正式計票。"
   },
   {
     "id": "draft-ch04-044",
@@ -1826,7 +2778,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Source criticism applies to polls: method, sample size, timing, and sender matter.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为何应谨慎解读民意调查？",
+    "optionsZh": [
+      "它们基于抽样、方法和误差。",
+      "它们永远是精确的选举结果。",
+      "它们取代投票权。",
+      "它们使政党无需提出政纲。"
+    ],
+    "explanationZh": "来源批判同样适用于民调：抽样规模、方法和发布方都会影响可靠性，民调只是估计而非定论。",
+    "questionZhHant": "為何應謹慎解讀民意調查？",
+    "optionsZhHant": [
+      "它們基於抽樣、方法和誤差。",
+      "它們永遠是精確的選舉結果。",
+      "它們取代投票權。",
+      "它們使政黨無需提出政綱。"
+    ],
+    "explanationZhHant": "來源批判同樣適用於民調：抽樣規模、方法和發布方都會影響可靠性，民調只是估計而非定論。"
   },
   {
     "id": "draft-ch04-045",
@@ -1856,7 +2824,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Polls can show trends, but they are uncertain and not official results.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有标题称某政党在选举日前两个月就“赢了选举”，依据是一次民调。最具来源批判性的做法是？",
+    "optionsZh": [
+      "核查方法、误差幅度，并认清民调不等于选举结果。",
+      "假定选举已经定局。",
+      "把标题当作官方结果转发。",
+      "要求国会立即改席位。"
+    ],
+    "explanationZh": "民调可显示趋势，但存在不确定性且非官方结果。将其当作定局是误读。",
+    "questionZhHant": "有標題稱某政黨在選舉日前兩個月就“贏了選舉”，依據是一次民調。最具來源批判性的做法是？",
+    "optionsZhHant": [
+      "核查方法、誤差幅度，並認清民調不等於選舉結果。",
+      "假定選舉已經定局。",
+      "把標題當作官方結果轉發。",
+      "要求國會立即改席位。"
+    ],
+    "explanationZhHant": "民調可顯示趨勢，但存在不確定性且非官方結果。將其當作定局是誤讀。"
   },
   {
     "id": "draft-ch04-046",
@@ -1885,7 +2869,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Ideologies help explain parties’ values and priorities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是政治意识形态？",
+    "optionsZh": [
+      "关于社会应如何组织的一整套理念。",
+      "关于如何印制选票的政府规则。",
+      "政府内政党间的法律协议。",
+      "国会可辩论议题的清单。"
+    ],
+    "explanationZh": "意识形态有助于解释政党的价值观与优先事项，是理解其路线的基础。",
+    "questionZhHant": "什麼是政治意識形態？",
+    "optionsZhHant": [
+      "關於社會應如何組織的一整套理念。",
+      "關於如何印制選票的政府規則。",
+      "政府內政黨間的法律協議。",
+      "國會可辯論議題的清單。"
+    ],
+    "explanationZhHant": "意識形態有助於解釋政黨的價值觀與優先事項，是理解其路線的基礎。"
   },
   {
     "id": "draft-ch04-047",
@@ -1914,7 +2914,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The left-right scale is a simplified way to describe political differences, especially about economy and welfare.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "政治中的“左右光谱”通常描述什么？",
+    "optionsZh": [
+      "对经济、平等、税收和国家角色的不同看法。",
+      "各党在国会存在多久。",
+      "党内男女席位分布。",
+      "政党地方与全国组织的差异。"
+    ],
+    "explanationZh": "左右光谱是描述政治差异（尤其关于经济与福利）的简化方式。",
+    "questionZhHant": "政治中的“左右光譜”通常描述什麼？",
+    "optionsZhHant": [
+      "對經濟、平等、稅收和國家角色的不同看法。",
+      "各黨在國會存在多久。",
+      "黨內男女席位分布。",
+      "政黨地方與全國組織的差異。"
+    ],
+    "explanationZhHant": "左右光譜是描述政治差異（尤其關於經濟與福利）的簡化方式。"
   },
   {
     "id": "draft-ch04-048",
@@ -1944,7 +2960,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Political conflict is often about priorities and methods, not only final goals.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "两个政党都想改善学校，却提出不同的税收和权责分配。这说明什么？",
+    "optionsZh": [
+      "政党可以目标相同，但通往目标的意识形态路径不同。",
+      "民主中政党不得有不同主张。",
+      "学校事务只能由法院判决。",
+      "选民无法影响教育政策。"
+    ],
+    "explanationZh": "政治分歧往往在于优先事项和方法，而非最终目标本身。",
+    "questionZhHant": "兩個政黨都想改善學校，卻提出不同的稅收和權責分配。這說明什麼？",
+    "optionsZhHant": [
+      "政黨可以目標相同，但通往目標的意識形態路徑不同。",
+      "民主中政黨不得有不同主張。",
+      "學校事務只能由法院判決。",
+      "選民無法影響教育政策。"
+    ],
+    "explanationZhHant": "政治分歧往往在於優先事項和方法，而非最終目標本身。"
   },
   {
     "id": "draft-ch04-049",
@@ -1973,7 +3005,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Opposition parties can criticize, scrutinize, and offer alternatives.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "不执政、也不支持执政一方的政党被称为什么？",
+    "optionsZh": [
+      "反对派（在野党）。",
+      "联盟。",
+      "执政基础（support base）。",
+      "委员会。"
+    ],
+    "explanationZh": "反对派（在野党）可以批评、监督并提供替代方案，是议会制衡的重要部分。",
+    "questionZhHant": "不執政、也不支持執政一方的政黨被稱為什麼？",
+    "optionsZhHant": [
+      "反對派（在野黨）。",
+      "聯盟。",
+      "執政基礎（support base）。",
+      "委員會。"
+    ],
+    "explanationZhHant": "反對派（在野黨）可以批評、監督並提供替代方案，是議會制衡的重要部分。"
   },
   {
     "id": "draft-ch04-050",
@@ -2003,7 +3051,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Even outside government, parties can influence parliamentary decisions and public debate.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "反对派为何仍能影响政治？",
+    "optionsZh": [
+      "它可以监督、提出议案，有时还能在国会凝聚多数。",
+      "它有权不经表决就阻止政府所有决定。",
+      "它任命监督政府守法的法官。",
+      "它两年后自动接管政权。"
+    ],
+    "explanationZh": "即便不在政府内，政党仍可影响议会决策与公共辩论，例如通过提出议案和筹集多数支持。",
+    "questionZhHant": "反對派為何仍能影響政治？",
+    "optionsZhHant": [
+      "它可以監督、提出議案，有時還能在國會凝聚多數。",
+      "它有權不經表決就阻止政府所有決定。",
+      "它任命監督政府守法的法官。",
+      "它兩年後自動接管政權。"
+    ],
+    "explanationZhHant": "即便不在政府內，政黨仍可影響議會決策與公共辯論，例如通過提出議案和籌集多數支持。"
   },
   {
     "id": "draft-ch04-051",
@@ -2033,7 +3097,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Minority governments can govern if enough members of parliament tolerate their proposals.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个少数派政府让预算获得通过。这可能因为什么？",
+    "optionsZh": [
+      "其他政党对该预算足够容忍或支持，使其得以通过。",
+      "少数派政府无需国会批准其预算。",
+      "若国会否决，税务局（Skatteverket）可批准预算。",
+      "政府有权不经国会决定就沿用去年预算。"
+    ],
+    "explanationZh": "少数派政府若获得足够议员的容忍或支持，仍能执政并推动议案。",
+    "questionZhHant": "一個少數派政府讓預算獲得通過。這可能因為什麼？",
+    "optionsZhHant": [
+      "其他政黨對該預算足夠容忍或支持，使其得以通過。",
+      "少數派政府無需國會批準其預算。",
+      "若國會否決，稅務局（Skatteverket）可批準預算。",
+      "政府有權不經國會決定就沿用去年預算。"
+    ],
+    "explanationZhHant": "少數派政府若獲得足夠議員的容忍或支持，仍能執政並推動議案。"
   },
   {
     "id": "draft-ch04-052",
@@ -2062,7 +3142,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "People can influence parties and politics through lawful participation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "影响政党的合法方式是什么？",
+    "optionsZh": [
+      "成为党员、联系代表或参与辩论。",
+      "威胁该党候选人。",
+      "毁坏其他政党的选票。",
+      "未经许可替他人投票。"
+    ],
+    "explanationZh": "人们可以通过合法参与——如入党、联系代表、参加辩论——来影响政党和政治。",
+    "questionZhHant": "影響政黨的合法方式是什麼？",
+    "optionsZhHant": [
+      "成為黨員、聯系代表或參與辯論。",
+      "威脅該黨候選人。",
+      "毀壞其他政黨的選票。",
+      "未經許可替他人投票。"
+    ],
+    "explanationZhHant": "人們可以通過合法參與——如入黨、聯系代表、參加辯論——來影響政黨和政治。"
   },
   {
     "id": "draft-ch04-053",
@@ -2091,7 +3187,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Interfering with voting materials can undermine fair and free elections.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为何毁坏其他政党的选票是有问题的？",
+    "optionsZh": [
+      "这可能阻止选民作出自由的选择。",
+      "这是辩论政治的正常方式。",
+      "这加强投票保密。",
+      "这使选举更具比例性。"
+    ],
+    "explanationZh": "干扰投票材料会破坏公平自由的选举，剥夺他人自由选择的可能。",
+    "questionZhHant": "為何毀壞其他政黨的選票是有問題的？",
+    "optionsZhHant": [
+      "這可能阻止選民作出自由的選擇。",
+      "這是辯論政治的正常方式。",
+      "這加強投票保密。",
+      "這使選舉更具比例性。"
+    ],
+    "explanationZhHant": "幹擾投票材料會破壞公平自由的選舉，剝奪他人自由選擇的可能。"
   },
   {
     "id": "draft-ch04-054",
@@ -2121,7 +3233,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Preventing eligible voters from voting attacks the foundation of democratic elections.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一群人封锁投票站入口，针对来自某地区的选民。受威胁的是哪项民主原则？",
+    "optionsZh": [
+      "普遍且自由的选举权。",
+      "政党的预算补助权。",
+      "中央银行（Riksbanken）的独立性。",
+      "市镇在学校事务上的自治。"
+    ],
+    "explanationZh": "阻止合格选民投票，攻击的是民主选举的根基——普遍与自由的选举权。",
+    "questionZhHant": "一羣人封鎖投票站入口，針對來自某地區的選民。受威脅的是哪項民主原則？",
+    "optionsZhHant": [
+      "普遍且自由的選舉權。",
+      "政黨的預算補助權。",
+      "中央銀行（Riksbanken）的獨立性。",
+      "市鎮在學校事務上的自治。"
+    ],
+    "explanationZhHant": "阻止合格選民投票，攻擊的是民主選舉的根基——普遍與自由的選舉權。"
   },
   {
     "id": "draft-ch04-055",
@@ -2150,7 +3278,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Election results are translated into seats in assemblies such as the Riksdag, regions, and municipalities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "选票统计后会发生什么？",
+    "optionsZh": [
+      "席位被分配，当选机构可开始工作。",
+      "政府指定哪些候选人实际取得席位。",
+      "所有政党须解散重组。",
+      "选举管理局（Valmyndigheten）决定下届适用的法律。"
+    ],
+    "explanationZh": "选举结果转化为国会、大区和市镇等机构中的席位，新一届代表据此就职履职。",
+    "questionZhHant": "選票統計後會發生什麼？",
+    "optionsZhHant": [
+      "席位被分配，當選機構可開始工作。",
+      "政府指定哪些候選人實際取得席位。",
+      "所有政黨須解散重組。",
+      "選舉管理局（Valmyndigheten）決定下屆適用的法律。"
+    ],
+    "explanationZhHant": "選舉結果轉化為國會、大區和市鎮等機構中的席位，新一屆代表據此就職履職。"
   },
   {
     "id": "draft-ch04-056",
@@ -2180,7 +3324,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "In a parliamentary system, the government must be able to function with enough parliamentary tolerance.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "选举后组阁为何可能耗时？",
+    "optionsZh": [
+      "政党可能需要就支持、合作和政治方向进行谈判。",
+      "组阁前选举管理局须审查所有大臣背景。",
+      "基本法要求选后到组阁总须间隔三个月。",
+      "国会所有政党须一致批准首相。"
+    ],
+    "explanationZh": "在议会制下，政府必须能获得足够的议会容忍才能运转，因此权力组合需要协商。",
+    "questionZhHant": "選舉後組閣為何可能耗時？",
+    "optionsZhHant": [
+      "政黨可能需要就支持、合作和政治方向進行談判。",
+      "組閣前選舉管理局須審查所有大臣背景。",
+      "基本法要求選後到組閣總須間隔三個月。",
+      "國會所有政黨須一致批準首相。"
+    ],
+    "explanationZhHant": "在議會制下，政府必須能獲得足夠的議會容忍才能運轉，因此權力組合需要協商。"
   },
   {
     "id": "draft-ch04-057",
@@ -2210,7 +3370,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The key issue is who can be tolerated by the Riksdag, not only which single party is largest.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个政党成为最大党，却未能组阁。这怎么可能？",
+    "optionsZh": [
+      "其他政党联合起来可能对另一种组阁方案有更多支持。",
+      "最大党无权加入联盟。",
+      "议长（Talmannen）有权把最大党排除在组阁谈判外。",
+      "最大党须得票超 50% 才能组阁。"
+    ],
+    "explanationZh": "关键不在于单一政党是否最大，而在于谁能被瑞典国会（Riksdagen）所容忍。若其他政党联合支持另一方案，最大党也可能无缘组阁。",
+    "questionZhHant": "一個政黨成為最大黨，卻未能組閣。這怎麼可能？",
+    "optionsZhHant": [
+      "其他政黨聯合起來可能對另一種組閣方案有更多支持。",
+      "最大黨無權加入聯盟。",
+      "議長（Talmannen）有權把最大黨排除在組閣談判外。",
+      "最大黨須得票超 50% 才能組閣。"
+    ],
+    "explanationZhHant": "關鍵不在於單一政黨是否最大，而在於誰能被瑞典國會（Riksdagen）所容忍。若其他政黨聯合支持另一方案，最大黨也可能無緣組閣。"
   },
   {
     "id": "draft-ch04-058",
@@ -2240,7 +3416,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democracy depends on both fair competition and accepting legitimate results while continuing debate.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为何应接受按规则产生的选举结果？",
+    "optionsZh": [
+      "它保护和平的权力交接和对民主的信任。",
+      "这意味着选后永不可批评政治。",
+      "这使反对派非法。",
+      "这意味着选票无需公开计票。"
+    ],
+    "explanationZh": "民主既依赖公平竞争，也依赖接受合法结果，同时辩论仍可持续。",
+    "questionZhHant": "為何應接受按規則產生的選舉結果？",
+    "optionsZhHant": [
+      "它保護和平的權力交接和對民主的信任。",
+      "這意味着選後永不可批評政治。",
+      "這使反對派非法。",
+      "這意味着選票無需公開計票。"
+    ],
+    "explanationZhHant": "民主既依賴公平競爭，也依賴接受合法結果，同時辯論仍可持續。"
   },
   {
     "id": "draft-ch04-059",
@@ -2270,7 +3462,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Democratic legitimacy is about fair process, not whether one side likes the outcome.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人说：“如果我党输了，选举就一定不民主。”最好的回答是？",
+    "optionsZh": [
+      "民主选举有输有赢；关键在于规则是否自由、公正、透明。",
+      "说得对，民主就是自己的党总赢。",
+      "落败选民不得参加下届选举。",
+      "若有人失望，法院应改结果。"
+    ],
+    "explanationZh": "民主合法性关乎程序是否公平，而非某一方是否喜欢结果。",
+    "questionZhHant": "有人說：“如果我黨輸了，選舉就一定不民主。”最好的回答是？",
+    "optionsZhHant": [
+      "民主選舉有輸有贏；關鍵在於規則是否自由、公正、透明。",
+      "說得對，民主就是自己的黨總贏。",
+      "落敗選民不得參加下屆選舉。",
+      "若有人失望，法院應改結果。"
+    ],
+    "explanationZhHant": "民主合法性關乎程序是否公平，而非某一方是否喜歡結果。"
   },
   {
     "id": "draft-ch04-060",
@@ -2299,7 +3507,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Free competition, secret voting, and trusted vote counting are central to democratic elections.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪种情形最能说明运作良好的民主选举？",
+    "optionsZh": [
+      "多个政党自由竞选、选民无记名投票、结果按清晰规则统计。",
+      "政府挑选谁赢、媒体被禁审查选举。",
+      "雇主检查员工如何投票以“避免选错”。",
+      "移除反对派选票以便选举更快。"
+    ],
+    "explanationZh": "自由竞争、无记名投票和可信的计票是民主选举的核心。",
+    "questionZhHant": "哪種情形最能說明運作良好的民主選舉？",
+    "optionsZhHant": [
+      "多個政黨自由競選、選民無記名投票、結果按清晰規則統計。",
+      "政府挑選誰贏、媒體被禁審查選舉。",
+      "僱主檢查員工如何投票以“避免選錯”。",
+      "移除反對派選票以便選舉更快。"
+    ],
+    "explanationZhHant": "自由競爭、無記名投票和可信的計票是民主選舉的核心。"
   },
   {
     "id": "draft-extra-ch004-004",
@@ -2328,6 +3552,22 @@
     ],
     "correctIndex": 0,
     "explanationEn": "To enter the Riksdag a party normally needs at least 4% of the national vote (or 12% in a single constituency). The threshold is fixed by law and applies to all parties.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "国会选举中的门槛规则（spärrregeln）是指什么？",
+    "optionsZh": [
+      "政党通常须在全国获得至少 4% 的选票才能取得席位。",
+      "门槛只适用于国会外政党，不适用于在任政党。",
+      "每次有新党进入，国会就把门槛提到 8%。",
+      "选举管理局（Valmyndigheten）按投票率逐届定门槛。"
+    ],
+    "explanationZh": "进入瑞典国会（Riksdagen）通常需全国得票至少 4%（或在单一选区达 12%）。门槛由法律规定，对所有政党一视同仁。",
+    "questionZhHant": "國會選舉中的門檻規則（spärrregeln）是指什麼？",
+    "optionsZhHant": [
+      "政黨通常須在全國獲得至少 4% 的選票才能取得席位。",
+      "門檻只適用於國會外政黨，不適用於在任政黨。",
+      "每次有新黨進入，國會就把門檻提到 8%。",
+      "選舉管理局（Valmyndigheten）按投票率逐屆定門檻。"
+    ],
+    "explanationZhHant": "進入瑞典國會（Riksdagen）通常需全國得票至少 4%（或在單一選區達 12%）。門檻由法律規定，對所有政黨一視同仁。"
   }
 ]

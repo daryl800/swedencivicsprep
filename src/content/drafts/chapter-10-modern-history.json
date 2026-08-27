@@ -27,7 +27,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The folkhem idea is linked to welfare, solidarity, and social reform.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“人民之家”（folkhemmet）的思想如何影响了对国家责任的看法？",
+    "optionsZh": [
+      "它强调社会中的安全感、平等和共同责任。",
+      "它意味着国家不应在福利中扮演任何角色。",
+      "它主要关乎废除所有市镇。",
+      "它意味着生病时只有家庭才能提供支持。"
+    ],
+    "explanationZh": "“人民之家”思想与福利、团结和社会改革相联系。20世纪，瑞典把社会比作一个“大家庭”（folkhem），强调国家与社会应共同为所有人提供基本安全感——如医疗、教育、养老。这塑造了瑞典福利国家的核心理念：社会应通过集体努力减少不平等、保障每个人的基本生活。",
+    "questionZhHant": "“人民之家”（folkhemmet）的思想如何影響了對國家責任的看法？",
+    "optionsZhHant": [
+      "它強調社會中的安全感、平等和共同責任。",
+      "它意味着國家不應在福利中扮演任何角色。",
+      "它主要關乎廢除所有市鎮。",
+      "它意味着生病時只有家庭才能提供支持。"
+    ],
+    "explanationZhHant": "“人民之家”思想與福利、團結和社會改革相聯系。20世紀，瑞典把社會比作一個“大家庭”（folkhem），強調國家與社會應共同為所有人提供基本安全感——如醫療、教育、養老。這塑造了瑞典福利國家的核心理念：社會應通過集體努力減少不平等、保障每個人的基本生活。"
   },
   {
     "id": "draft-batch-c-ch10-002",
@@ -57,7 +73,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Industrial work created new conflicts and organization on the labour market.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么工会（fackföreningar）在工业化时期变得重要？",
+    "optionsZh": [
+      "工人组织起来，争取更好的工作条件、工资和影响力。",
+      "工会成立是为了取代所有雇主。",
+      "它们独自决定瑞典国会（Riksdagen）应通过哪些法律。",
+      "它们主要是地主为阻止城市发展而成立的协会。"
+    ],
+    "explanationZh": "工业化带来了工厂雇佣关系，工人面对雇主往往处于弱势。工会让工人以集体力量谈判工资、工时和安全条件，是劳工运动的核心。瑞典的劳动市场模式正是建立在雇主与工会通过集体协议（kollektivavtal）协商的基础之上。",
+    "questionZhHant": "為什麼工會（fackföreningar）在工業化時期變得重要？",
+    "optionsZhHant": [
+      "工人組織起來，爭取更好的工作條件、工資和影響力。",
+      "工會成立是為了取代所有僱主。",
+      "它們獨自決定瑞典國會（Riksdagen）應通過哪些法律。",
+      "它們主要是地主為阻止城市發展而成立的協會。"
+    ],
+    "explanationZhHant": "工業化帶來了工廠僱傭關系，工人面對僱主往往處於弱勢。工會讓工人以集體力量談判工資、工時和安全條件，是勞工運動的核心。瑞典的勞動市場模式正是建立在僱主與工會通過集體協議（kollektivavtal）協商的基礎之上。"
   },
   {
     "id": "draft-batch-c-ch10-003",
@@ -87,7 +119,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Women’s suffrage was a major step in Swedish democracy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么1921年在瑞典的民主化进程中是一个重要年份？",
+    "optionsZh": [
+      "那是女性首次能与男性在同等条件下投票的议会选举。",
+      "那是瑞典加入欧盟的年份。",
+      "那是市镇获得单独立法权的年份。",
+      "那是国王首次任命所有国会议员的年份。"
+    ],
+    "explanationZh": "1921年，瑞典举行了首次女性与男性享有普遍且平等选举权的议会选举。这是妇女选举权斗争的重大胜利，也是瑞典从有限选举权走向现代民主的关键一步。",
+    "questionZhHant": "為什麼1921年在瑞典的民主化進程中是一個重要年份？",
+    "optionsZhHant": [
+      "那是女性首次能與男性在同等條件下投票的議會選舉。",
+      "那是瑞典加入歐盟的年份。",
+      "那是市鎮獲得單獨立法權的年份。",
+      "那是國王首次任命所有國會議員的年份。"
+    ],
+    "explanationZhHant": "1921年，瑞典舉行了首次女性與男性享有普遍且平等選舉權的議會選舉。這是婦女選舉權鬥爭的重大勝利，也是瑞典從有限選舉權走向現代民主的關鍵一步。"
   },
   {
     "id": "draft-batch-c-ch10-004",
@@ -117,7 +165,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The welfare state expanded public security and services funded collectively.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "第二次世界大战后，瑞典扩展了福利。这背后的一个核心思想是什么？",
+    "optionsZh": [
+      "国家和市镇应为更多人提供安全与服务。",
+      "福利应完全由私人保险公司出资。",
+      "只有有工作的人才能获得支持。",
+      "国家应接管全国所有企业。"
+    ],
+    "explanationZh": "战后的福利国家扩大了由社会集体出资的公共服务与保障（如医疗、教育、养老金）。其核心是通过税收进行再分配，使所有公民——无论收入高低——都能获得基本安全网，从而减少贫困和不平等。",
+    "questionZhHant": "第二次世界大戰後，瑞典擴展了福利。這背後的一個核心思想是什麼？",
+    "optionsZhHant": [
+      "國家和市鎮應為更多人提供安全與服務。",
+      "福利應完全由私人保險公司出資。",
+      "只有有工作的人才能獲得支持。",
+      "國家應接管全國所有企業。"
+    ],
+    "explanationZhHant": "戰後的福利國家擴大了由社會集體出資的公共服務與保障（如醫療、教育、養老金）。其核心是通過稅收進行再分配，使所有公民——無論收入高低——都能獲得基本安全網，從而減少貧困和不平等。"
   },
   {
     "id": "draft-batch-c-ch10-005",
@@ -147,7 +211,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "A neutral policy can keep a country out of war while economic, political, and humanitarian effects remain.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典置身于世界大战之外，但仍受到影响。这说明了什么？",
+    "optionsZh": [
+      "中立并不意味着一个国家不受周边战争的影响。",
+      "中立意味着该国没有贸易和外交。",
+      "中立国家必须始终废除自己的国防。",
+      "中立使其他国家的冲突变为非法。"
+    ],
+    "explanationZh": "瑞典在两次世界大战中保持中立，避免了直接参战，但战争仍通过贸易中断、难民潮、物资短缺和外交压力等渠道影响瑞典。这说明“中立”是一种外交政策选择，并不等于完全脱离世界局势。",
+    "questionZhHant": "瑞典置身於世界大戰之外，但仍受到影響。這說明了什麼？",
+    "optionsZhHant": [
+      "中立並不意味着一個國家不受周邊戰爭的影響。",
+      "中立意味着該國沒有貿易和外交。",
+      "中立國家必須始終廢除自己的國防。",
+      "中立使其他國家的衝突變為非法。"
+    ],
+    "explanationZhHant": "瑞典在兩次世界大戰中保持中立，避免了直接參戰，但戰爭仍通過貿易中斷、難民潮、物資短缺和外交壓力等渠道影響瑞典。這說明“中立”是一種外交政策選擇，並不等於完全脫離世界局勢。"
   },
   {
     "id": "draft-batch-c-ch10-006",
@@ -177,7 +257,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "It is associated with the Swedish labour market model and negotiated agreements.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "萨尔特舍巴登协议（Saltsjöbadsavtalet）在瑞典历史中通常象征什么？",
+    "optionsZh": [
+      "劳动力市场各方之间的合作与谈判。",
+      "工资每年由瑞典政府直接决定。",
+      "雇员失去了组建工会的权利。",
+      "瑞典国会（Riksdagen）接管了各方之间的所有谈判。"
+    ],
+    "explanationZh": "1938年的萨尔特舍巴登协议（Saltsjöbadsavtalet）是雇主组织与工会之间达成的历史性协议，确立了通过谈判而非冲突解决劳资纠纷的原则。它象征着瑞典“劳动市场模型”——即由劳资双方自行协商工资与条件，政府较少直接干预。",
+    "questionZhHant": "薩爾特舍巴登協議（Saltsjöbadsavtalet）在瑞典歷史中通常象徵什麼？",
+    "optionsZhHant": [
+      "勞動力市場各方之間的合作與談判。",
+      "工資每年由瑞典政府直接決定。",
+      "僱員失去了組建工會的權利。",
+      "瑞典國會（Riksdagen）接管了各方之間的所有談判。"
+    ],
+    "explanationZhHant": "1938年的薩爾特舍巴登協議（Saltsjöbadsavtalet）是僱主組織與工會之間達成的歷史性協議，確立了通過談判而非衝突解決勞資糾紛的原則。它象徵着瑞典“勞動市場模型”——即由勞資雙方自行協商工資與條件，政府較少直接幹預。"
   },
   {
     "id": "draft-batch-c-ch10-007",
@@ -207,7 +303,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Universal and equal suffrage broadened political participation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么普遍且平等的选举权是一项重大变革？",
+    "optionsZh": [
+      "更多成年人获得了影响选举的同等政治机会。",
+      "选举权现在只适用于高收入人群。",
+      "女性获得了投票权，但男性失去了选举权。",
+      "选举权仍由国王单独决定。"
+    ],
+    "explanationZh": "“普遍且平等”（allmän och lika）意味着选举权不再取决于性别、财产或收入。这让更广泛的人群——包括工人、穷人和女性——能够参与政治，是现代民主扩大的核心。",
+    "questionZhHant": "為什麼普遍且平等的選舉權是一項重大變革？",
+    "optionsZhHant": [
+      "更多成年人獲得了影響選舉的同等政治機會。",
+      "選舉權現在只適用於高收入人羣。",
+      "女性獲得了投票權，但男性失去了選舉權。",
+      "選舉權仍由國王單獨決定。"
+    ],
+    "explanationZhHant": "“普遍且平等”（allmän och lika）意味着選舉權不再取決於性別、財產或收入。這讓更廣泛的人羣——包括工人、窮人和女性——能夠參與政治，是現代民主擴大的核心。"
   },
   {
     "id": "draft-batch-c-ch10-008",
@@ -237,7 +349,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Gender equality is a long historical process involving law, politics, work, and norms.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "女性更多地参与教育、工作和政治改变了瑞典。这在历史上说明了什么？",
+    "optionsZh": [
+      "性别平等是通过改革、组织化和规范变迁而逐步发展的。",
+      "性别平等主要是在1921年女性获得投票权时实现的。",
+      "这一变化主要是因为男性自愿放弃了他们的角色。",
+      "立法没有起作用，只有经济发生了变化。"
+    ],
+    "explanationZh": "性别平等不是某一年突然实现的，而是长期过程：通过立法（如妇女选举权、同工同酬）、社会运动和观念转变共同作用。1921年的投票权是重要里程碑，但平等仍在持续发展中。",
+    "questionZhHant": "女性更多地參與教育、工作和政治改變了瑞典。這在歷史上說明了什麼？",
+    "optionsZhHant": [
+      "性別平等是通過改革、組織化和規範變遷而逐步發展的。",
+      "性別平等主要是在1921年女性獲得投票權時實現的。",
+      "這一變化主要是因為男性自願放棄了他們的角色。",
+      "立法沒有起作用，只有經濟發生了變化。"
+    ],
+    "explanationZhHant": "性別平等不是某一年突然實現的，而是長期過程：通過立法（如婦女選舉權、同工同酬）、社會運動和觀念轉變共同作用。1921年的投票權是重要裡程碑，但平等仍在持續發展中。"
   },
   {
     "id": "draft-batch-c-ch10-009",
@@ -267,7 +395,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Post-war labour migration helped meet labour demand and changed Swedish society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "第二次世界大战后的劳工移民如何改变了瑞典？",
+    "optionsZh": [
+      "来自其他国家的人们为劳动力市场和社會的多样性作出了贡献。",
+      "劳工移民是因为瑞典人完全停止了工作。",
+      "移民计划仅仅是为了填满空置住房。",
+      "瑞典接收的是战争难民，而不是来自其他国家的劳动力。"
+    ],
+    "explanationZh": "战后经济繁荣（“创纪录年代”，rekordåren）造成劳动力短缺，瑞典从南欧、土耳其等地招募劳工。这些移民既填补了工厂岗位，也改变了瑞典的人口结构，使其逐渐成为多元文化社会。",
+    "questionZhHant": "第二次世界大戰後的勞工移民如何改變了瑞典？",
+    "optionsZhHant": [
+      "來自其他國家的人們為勞動力市場和社會的多樣性作出了貢獻。",
+      "勞工移民是因為瑞典人完全停止了工作。",
+      "移民計劃僅僅是為了填滿空置住房。",
+      "瑞典接收的是戰爭難民，而不是來自其他國家的勞動力。"
+    ],
+    "explanationZhHant": "戰後經濟繁榮（“創紀錄年代”，rekordåren）造成勞動力短缺，瑞典從南歐、土耳其等地招募勞工。這些移民既填補了工廠崗位，也改變了瑞典的人口結構，使其逐漸成為多元文化社會。"
   },
   {
     "id": "draft-batch-c-ch10-010",
@@ -297,7 +441,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Economic crises can shape policy because they affect jobs, taxes, welfare, and trust.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么经济危机能影响政治决策？",
+    "optionsZh": [
+      "它们会造成失业、对公共财政的压力以及改革的要求。",
+      "危机主要影响企业，很少影响普通家庭。",
+      "经济危机总会自行迅速解决。",
+      "政府随后总会彻底改变政治方向，无论情况如何。"
+    ],
+    "explanationZh": "经济危机往往推高失业、减少税收并增加福利支出，从而迫使政府调整预算、税制和社会政策。因此经济起伏会直接塑造政治议程和选民倾向。",
+    "questionZhHant": "為什麼經濟危機能影響政治決策？",
+    "optionsZhHant": [
+      "它們會造成失業、對公共財政的壓力以及改革的要求。",
+      "危機主要影響企業，很少影響普通家庭。",
+      "經濟危機總會自行迅速解決。",
+      "政府隨後總會徹底改變政治方向，無論情況如何。"
+    ],
+    "explanationZhHant": "經濟危機往往推高失業、減少稅收並增加福利支出，從而迫使政府調整預算、稅制和社會政策。因此經濟起伏會直接塑造政治議程和選民傾向。"
   },
   {
     "id": "draft-batch-c-ch10-011",
@@ -327,7 +487,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Education expansion is tied to equality, skills, and labour market change.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么扩展的教育在现代瑞典很重要？",
+    "optionsZh": [
+      "它让更多人获得了知识及在劳动力市场上的机会。",
+      "教育重要主要是为了让更多人成为教师。",
+      "广泛的教育意味着更少的人需要工作。",
+      "教育主要改变了农村，而非城市。"
+    ],
+    "explanationZh": "随着经济从农业转向工业和服务业，对技能的要求提高。普及和扩展教育（如义务教育年限延长、大学扩招）既促进了社会平等，也让人们有能力参与更复杂的劳动市场，是福利社会的重要支柱。",
+    "questionZhHant": "為什麼擴展的教育在現代瑞典很重要？",
+    "optionsZhHant": [
+      "它讓更多人獲得了知識及在勞動力市場上的機會。",
+      "教育重要主要是為了讓更多人成為教師。",
+      "廣泛的教育意味着更少的人需要工作。",
+      "教育主要改變了農村，而非城市。"
+    ],
+    "explanationZhHant": "隨着經濟從農業轉向工業和服務業，對技能的要求提高。普及和擴展教育（如義務教育年限延長、大學擴招）既促進了社會平等，也讓人們有能力參與更複雜的勞動市場，是福利社會的重要支柱。"
   },
   {
     "id": "draft-batch-c-ch10-012",
@@ -357,7 +533,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Urban growth created a need for housing, infrastructure, and public planning.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么在20世纪城市化期间建造了许多住房？",
+    "optionsZh": [
+      "当更多人搬到城市时，需要住房和有规划的公共服务。",
+      "住房建造主要是为了取代农村农业。",
+      "城市化减少了公共规划的需要。",
+      "城市发展了，但住房短缺很罕见。"
+    ],
+    "explanationZh": "工业革命把人口从农村吸引到城市，城市人口激增，带来对住房、交通、学校和市政服务的巨大需求，因此需要有计划的城市建设和公共投资。",
+    "questionZhHant": "為什麼在20世紀城市化期間建造了許多住房？",
+    "optionsZhHant": [
+      "當更多人搬到城市時，需要住房和有規劃的公共服務。",
+      "住房建造主要是為了取代農村農業。",
+      "城市化減少了公共規劃的需要。",
+      "城市發展了，但住房短缺很罕見。"
+    ],
+    "explanationZhHant": "工業革命把人口從農村吸引到城市，城市人口激增，帶來對住房、交通、學校和市政服務的巨大需求，因此需要有計劃的城市建設和公共投資。"
   },
   {
     "id": "draft-batch-c-ch10-013",
@@ -387,7 +579,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "EU membership changed Sweden’s international cooperation and legal context.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典于1995年加入欧盟。为什么这是一项重要的历史变革？",
+    "optionsZh": [
+      "瑞典成为一个政治与经济合作的成员，欧盟法律对瑞典产生影响。",
+      "瑞典加入主要是为了免于与其他国家贸易。",
+      "成员身份意味着瑞典退出了北欧合作。",
+      "欧盟成员身份只影响农业，不影响社会的其他方面。"
+    ],
+    "explanationZh": "1995年加入欧盟（EU）使瑞典融入内部市场、共同立法（欧盟法律优先于部分国内法）和政治合作。这深刻改变了瑞典的对外经济与法律环境，但瑞典仍保留克朗并保持了一定独立性。",
+    "questionZhHant": "瑞典於1995年加入歐盟。為什麼這是一項重要的歷史變革？",
+    "optionsZhHant": [
+      "瑞典成為一個政治與經濟合作的成員，歐盟法律對瑞典產生影響。",
+      "瑞典加入主要是為了免於與其他國家貿易。",
+      "成員身份意味着瑞典退出了北歐合作。",
+      "歐盟成員身份只影響農業，不影響社會的其他方面。"
+    ],
+    "explanationZhHant": "1995年加入歐盟（EU）使瑞典融入內部市場、共同立法（歐盟法律優先於部分國內法）和政治合作。這深刻改變了瑞典的對外經濟與法律環境，但瑞典仍保留克朗並保持了一定獨立性。"
   },
   {
     "id": "draft-batch-c-ch10-014",
@@ -417,7 +625,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Digitalization changes access to information and participation, while source criticism remains important.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "数字化如何影响了社会参与？",
+    "optionsZh": [
+      "它创造了获取信息、沟通和施加影响的新方式。",
+      "数字化减少了对社会教育的需要。",
+      "技术使所有人自动获得完全相同的信息。",
+      "数字化完全取代了民主参与。"
+    ],
+    "explanationZh": "互联网和数字技术降低了获取信息与组织行动的成本，使公民更容易参与公共讨论和获取投票信息。但同时，信息甄别（媒介素养）变得更加重要，因为虚假信息也更容易传播。",
+    "questionZhHant": "數字化如何影響了社會參與？",
+    "optionsZhHant": [
+      "它創造了獲取資訊、溝通和施加影響的新方式。",
+      "數字化減少了對社會教育的需要。",
+      "技術使所有人自動獲得完全相同的資訊。",
+      "數字化完全取代了民主參與。"
+    ],
+    "explanationZhHant": "互聯網和數字技術降低了獲取資訊與組織行動的成本，使公民更容易參與公共討論和獲取投票資訊。但同時，資訊甄別（媒介素養）變得更加重要，因為虛假資訊也更容易傳播。"
   },
   {
     "id": "draft-batch-c-ch10-015",
@@ -447,7 +671,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "National identity and culture are shaped over time by people and social change.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么“瑞典性”（svenskhet）的概念会随时间变化？",
+    "optionsZh": [
+      "社会通过移民、规范、政治和历史经验而不断变迁。",
+      "“瑞典性”由某个政府机构一劳永逸地决定。",
+      "只有王室可以描述瑞典文化。",
+      "历史变化从不影晌身份认同。"
+    ],
+    "explanationZh": "民族认同不是固定不变的，而是随着人口结构（如移民）、价值观转变和历史事件被不断重新定义。“瑞典性”今天比100年前包含更多元的文化和背景。",
+    "questionZhHant": "為什麼“瑞典性”（svenskhet）的概念會隨時間變化？",
+    "optionsZhHant": [
+      "社會通過移民、規範、政治和歷史經驗而不斷變遷。",
+      "“瑞典性”由某個政府機構一勞永逸地決定。",
+      "只有王室可以描述瑞典文化。",
+      "歷史變化從不影晌身份認同。"
+    ],
+    "explanationZhHant": "民族認同不是固定不變的，而是隨着人口結構（如移民）、價值觀轉變和歷史事件被不斷重新定義。“瑞典性”今天比100年前包含更多元的文化和背景。"
   },
   {
     "id": "draft-batch-d-ch10-001",
@@ -477,7 +717,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Modern Swedish history includes major changes in work, democracy, population, and welfare.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人说今天的瑞典一直以来都是这个样子。哪个历史视角能说明这是错的？",
+    "optionsZh": [
+      "社会通过工业化、民主化、移民和福利改革而发生了变迁。",
+      "瑞典自19世纪以来一直拥有相同的人口、法律和经济。",
+      "历史变化只影响王室，不影响普通人。",
+      "现代历史只关乎战争，与社会发展无关。"
+    ],
+    "explanationZh": "从19世纪中叶到今天，瑞典经历了从农业国到工业福利国家的巨大转变：人口迁移、政治扩权、福利体系建立等。认为社会“从未改变”不符合历史事实。",
+    "questionZhHant": "有人說今天的瑞典一直以來都是這個樣子。哪個歷史視角能說明這是錯的？",
+    "optionsZhHant": [
+      "社會通過工業化、民主化、移民和福利改革而發生了變遷。",
+      "瑞典自19世紀以來一直擁有相同的人口、法律和經濟。",
+      "歷史變化只影響王室，不影響普通人。",
+      "現代歷史只關乎戰爭，與社會發展無關。"
+    ],
+    "explanationZhHant": "從19世紀中葉到今天，瑞典經歷了從農業國到工業福利國家的巨大轉變：人口遷移、政治擴權、福利體系建立等。認為社會“從未改變”不符合歷史事實。"
   },
   {
     "id": "draft-ch10-001",
@@ -506,7 +762,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Before industrialization, Sweden was mainly rural and agricultural.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在工业化之前，瑞典在很大程度上是什么？",
+    "optionsZh": [
+      "一个以农业为主、许多人靠耕种为生的社会。",
+      "一个大多数人早在18世纪就在工厂工作的社会。",
+      "一个几乎全部粮食靠进口、农业无足轻重的国家。",
+      "一个由贵族统治、没有农民的封建社会。"
+    ],
+    "explanationZh": "工业化前的瑞典主要是农村和农业社会，大多数人口以农业、林业和渔业为生。工业化和城市化是后来才发生的。",
+    "questionZhHant": "在工業化之前，瑞典在很大程度上是什麼？",
+    "optionsZhHant": [
+      "一個以農業為主、許多人靠耕種為生的社會。",
+      "一個大多數人早在18世紀就在工廠工作的社會。",
+      "一個幾乎全部糧食靠進口、農業無足輕重的國家。",
+      "一個由貴族統治、沒有農民的封建社會。"
+    ],
+    "explanationZhHant": "工業化前的瑞典主要是農村和農業社會，大多數人口以農業、林業和漁業為生。工業化和城市化是後來才發生的。"
   },
   {
     "id": "draft-ch10-002",
@@ -535,7 +807,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Industrialization shifted work from farms toward factories and helped cities grow.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "工业化对瑞典意味着什么？",
+    "optionsZh": [
+      "更多人开始在工厂工作，城市迅速增长。",
+      "全国农业被完全停止。",
+      "瑞典停止向其他国家出口商品。",
+      "国家禁止私人拥有企业和土地。"
+    ],
+    "explanationZh": "工业化把劳动从农田转移到工厂和矿山，催生了铁路、制造业和新兴城市，人口大规模向城市聚集。",
+    "questionZhHant": "工業化對瑞典意味着什麼？",
+    "optionsZhHant": [
+      "更多人開始在工廠工作，城市迅速增長。",
+      "全國農業被完全停止。",
+      "瑞典停止向其他國家出口商品。",
+      "國家禁止私人擁有企業和土地。"
+    ],
+    "explanationZhHant": "工業化把勞動從農田轉移到工廠和礦山，催生了鐵路、制造業和新興城市，人口大規模向城市聚集。"
   },
   {
     "id": "draft-ch10-003",
@@ -565,7 +853,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Moving from countryside to industrial cities is a classic example of urbanization.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个家庭在20世纪初离开农村，到一座不断发展的工业城市找工作。这体现了哪种社会变化？",
+    "optionsZh": [
+      "与工业化和新就业机会相关的城市化。",
+      "向等级社会与行会制度的倒退。",
+      "通过废除市镇自治而实现的区域化。",
+      "在国有土地上非法定居的非刑事化。"
+    ],
+    "explanationZh": "从农村迁往工业城市是“城市化”的典型例子——工业化创造了城市就业机会，吸引人口从乡村流向城市。",
+    "questionZhHant": "一個家庭在20世紀初離開農村，到一座不斷發展的工業城市找工作。這體現了哪種社會變化？",
+    "optionsZhHant": [
+      "與工業化和新就業機會相關的城市化。",
+      "向等級社會與行會制度的倒退。",
+      "通過廢除市鎮自治而實現的區域化。",
+      "在國有土地上非法定居的非刑事化。"
+    ],
+    "explanationZhHant": "從農村遷往工業城市是“城市化”的典型例子——工業化創造了城市就業機會，吸引人口從鄉村流向城市。"
   },
   {
     "id": "draft-ch10-004",
@@ -594,7 +898,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Most Swedish emigrants during this period went to North America.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在19世纪和20世纪初，许多瑞典人移民出国。大多数人去了哪里？",
+    "optionsZh": [
+      "去北美，尤其是美国。",
+      "去英国的规模远大于去美国。",
+      "去德国作为最常见的目的地。",
+      "受国家指派去法国。"
+    ],
+    "explanationZh": "19世纪至20世纪初的“瑞典大移民潮”中，约130万人离开瑞典，绝大多数前往北美（美国、加拿大），寻求土地和更好的经济机会。",
+    "questionZhHant": "在19世紀和20世紀初，許多瑞典人移民出國。大多數人去了哪裡？",
+    "optionsZhHant": [
+      "去北美，尤其是美國。",
+      "去英國的規模遠大於去美國。",
+      "去德國作為最常見的目的地。",
+      "受國家指派去法國。"
+    ],
+    "explanationZhHant": "19世紀至20世紀初的“瑞典大移民潮”中，約130萬人離開瑞典，絕大多數前往北美（美國、加拿大），尋求土地和更好的經濟機會。"
   },
   {
     "id": "draft-ch10-005",
@@ -623,7 +943,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Poverty and limited opportunities were major reasons for emigration.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么许多人在19世纪从瑞典移民？",
+    "optionsZh": [
+      "贫困、歉收、人口增长和可耕地不足是重要原因。",
+      "国家强制性地把失业者迁移到海外殖民地。",
+      "与邻国的长期战争使瑞典不宜居。",
+      "瑞典人被国会（Riksdagen）鼓励去移民以创办新工业。"
+    ],
+    "explanationZh": "19世纪瑞典农业歉收、人口快速增长而耕地有限，加上贫困，推动大量人口出国谋生。这是经济推动的自愿移民，而非国家强制。",
+    "questionZhHant": "為什麼許多人在19世紀從瑞典移民？",
+    "optionsZhHant": [
+      "貧困、歉收、人口增長和可耕地不足是重要原因。",
+      "國家強制性地把失業者遷移到海外殖民地。",
+      "與鄰國的長期戰爭使瑞典不宜居。",
+      "瑞典人被國會（Riksdagen）鼓勵去移民以創辦新工業。"
+    ],
+    "explanationZhHant": "19世紀瑞典農業歉收、人口快速增長而耕地有限，加上貧困，推動大量人口出國謀生。這是經濟推動的自願移民，而非國家強制。"
   },
   {
     "id": "draft-ch10-006",
@@ -653,7 +989,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish history includes both major emigration and later immigration.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人把瑞典19世纪的历史性向外移民与后来的移民进行比较。从历史上看，哪个结论最正确？",
+    "optionsZh": [
+      "在不同时期，移民一直是瑞典历史的重要部分，它既是一个移民输出国，也是一个移民输入国。",
+      "19世纪的向外移民完全源于政治压迫，而后来的移民完全与劳动力相关。",
+      "瑞典直到1995年加入欧盟都是一个完全封闭的国家。",
+      "20世纪的移民规模从未超过历史上的向外移民。"
+    ],
+    "explanationZh": "瑞典历史上有大量向外移民（19世纪），也有大量向内移民（战后劳工、难民）。移民是瑞典历史中反复出现的主题，而非单向现象。",
+    "questionZhHant": "一個人把瑞典19世紀的歷史性向外移民與後來的移民進行比較。從歷史上看，哪個結論最正確？",
+    "optionsZhHant": [
+      "在不同時期，移民一直是瑞典歷史的重要部分，它既是一個移民輸出國，也是一個移民輸入國。",
+      "19世紀的向外移民完全源於政治壓迫，而後來的移民完全與勞動力相關。",
+      "瑞典直到1995年加入歐盟都是一個完全封閉的國家。",
+      "20世紀的移民規模從未超過歷史上的向外移民。"
+    ],
+    "explanationZhHant": "瑞典歷史上有大量向外移民（19世紀），也有大量向內移民（戰後勞工、難民）。移民是瑞典歷史中反複出現的主題，而非單向現象。"
   },
   {
     "id": "draft-ch10-007",
@@ -682,7 +1034,15 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Women first voted in a Swedish Riksdag election in 1921.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "首次女性与男性都享有普遍且平等选举权的议会选举是在何时举行的？",
+    "optionsZh": [
+      "1921年。",
+      "1866年。",
+      "1945年。",
+      "1974年。"
+    ],
+    "explanationZh": "1921年瑞典女性首次在议会选举中投票，标志着普遍且平等选举权正式实现（男性更早已有选举权，并逐步扩展）。"
   },
   {
     "id": "draft-ch10-008",
@@ -711,7 +1071,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Suffrage reforms broadened democratic participation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "20世纪初的民主选举权改革意味着什么？",
+    "optionsZh": [
+      "选举权不再取决于收入、财产或性别。",
+      "投票年龄立即降低为所有公民的15岁。",
+      "公民投票（全民公决）取代了所有议会选举。",
+      "只有国家雇员可以参选。"
+    ],
+    "explanationZh": "1900年代初的改革逐步取消了以财产、收入和性别为基础的选举限制，使选举权普及化。投票年龄的降低是更晚的事，并非当时立即降到15岁。",
+    "questionZhHant": "20世紀初的民主選舉權改革意味着什麼？",
+    "optionsZhHant": [
+      "選舉權不再取決於收入、財產或性別。",
+      "投票年齡立即降低為所有公民的15歲。",
+      "公民投票（全民公決）取代了所有議會選舉。",
+      "只有國家僱員可以參選。"
+    ],
+    "explanationZhHant": "1900年代初的改革逐步取消了以財產、收入和性別為基礎的選舉限制，使選舉權普及化。投票年齡的降低是更晚的事，並非當時立即降到15歲。"
   },
   {
     "id": "draft-ch10-009",
@@ -741,7 +1117,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Expanding voting rights is a central part of democratization.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "当民主改革使更多群体获得选举权和政治权利时，这一过程最好如何描述？",
+    "optionsZh": [
+      "一种意味着扩大的政治公民身份的民主化进程。",
+      "一种削弱民治的议会危机。",
+      "向无选举的社团主义政体的过渡。",
+      "由地方当局接管立法的权力下放。"
+    ],
+    "explanationZh": "扩大选举权即民主化，让更多社会成员成为享有政治权利的“公民”。这是从少数精英统治走向大众民主的核心过程。",
+    "questionZhHant": "當民主改革使更多羣體獲得選舉權和政治權利時，這一過程最好如何描述？",
+    "optionsZhHant": [
+      "一種意味着擴大的政治公民身份的民主化進程。",
+      "一種削弱民治的議會危機。",
+      "向無選舉的社團主義政體的過渡。",
+      "由地方當局接管立法的權力下放。"
+    ],
+    "explanationZhHant": "擴大選舉權即民主化，讓更多社會成員成為享有政治權利的“公民”。這是從少數精英統治走向大眾民主的核心過程。"
   },
   {
     "id": "draft-ch10-010",
@@ -770,7 +1162,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Popular movements helped citizens organize and influence society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "19世纪末和20世纪初的瑞典“人民运动”（folkrörelser）是什么？",
+    "optionsZh": [
+      "人们聚集起来影响社会和生存条件的组织。",
+      "负责市镇公共服务的当地机关。",
+      "直接治理国会的政党。",
+      "只经营银行的经济协会。"
+    ],
+    "explanationZh": "人民运动包括劳工运动、禁酒运动、自由教会、妇女运动等，是公民自发组织、推动社会改革的草根力量，为民主提供了训练场。",
+    "questionZhHant": "19世紀末和20世紀初的瑞典“人民運動”（folkrörelser）是什麼？",
+    "optionsZhHant": [
+      "人們聚集起來影響社會和生存條件的組織。",
+      "負責市鎮公共服務的當地機關。",
+      "直接治理國會的政黨。",
+      "只經營銀行的經濟協會。"
+    ],
+    "explanationZhHant": "人民運動包括勞工運動、禁酒運動、自由教會、婦女運動等，是公民自發組織、推動社會改革的草根力量，為民主提供了訓練場。"
   },
   {
     "id": "draft-ch10-011",
@@ -799,7 +1207,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Popular movements became practical schools in democracy and organization.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么人民运动在瑞典的民主化中发挥了重要作用？",
+    "optionsZh": [
+      "它们让普通人获得了民主决策和结社生活的实际经验。",
+      "它们在20世纪初接管了法院在地方纠纷中的角色。",
+      "它们在1974年宪法改革中取代了政党。",
+      "它们绕开国会直接立法。"
+    ],
+    "explanationZh": "人民运动通过内部民主（选举领导、讨论决议）培养了公民的参与能力，并自下而上推动改革，是瑞典走向民主社会的重要基础。",
+    "questionZhHant": "為什麼人民運動在瑞典的民主化中發揮了重要作用？",
+    "optionsZhHant": [
+      "它們讓普通人獲得了民主決策和結社生活的實際經驗。",
+      "它們在20世紀初接管了法院在地方糾紛中的角色。",
+      "它們在1974年憲法改革中取代了政黨。",
+      "它們繞開國會直接立法。"
+    ],
+    "explanationZhHant": "人民運動通過內部民主（選舉領導、討論決議）培養了公民的參與能力，並自下而上推動改革，是瑞典走向民主社會的重要基礎。"
   },
   {
     "id": "draft-ch10-012",
@@ -829,7 +1253,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The labour and trade union movements focused on workers’ conditions and influence.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "工人和职员联合组成协会，以协商条件并影响社会。哪个历史运动与这一发展紧密相连？",
+    "optionsZh": [
+      "劳工运动和工会运动。",
+      "禁酒运动和善意骑士团（Good Templars）。",
+      "自由教会运动和宗教团体运动。",
+      "农业学会和农业合作社。"
+    ],
+    "explanationZh": "劳工运动（arbetarrörelsen）和工会运动（fackföreningsrörelsen）以组织工人争取更好的工资与权利为核心，与题干描述直接对应。",
+    "questionZhHant": "工人和職員聯合組成協會，以協商條件並影響社會。哪個歷史運動與這一發展緊密相連？",
+    "optionsZhHant": [
+      "勞工運動和工會運動。",
+      "禁酒運動和善意騎士團（Good Templars）。",
+      "自由教會運動和宗教團體運動。",
+      "農業學會和農業合作社。"
+    ],
+    "explanationZhHant": "勞工運動（arbetarrörelsen）和工會運動（fackföreningsrörelsen）以組織工人爭取更好的工資與權利為核心，與題幹描述直接對應。"
   },
   {
     "id": "draft-ch10-013",
@@ -858,7 +1298,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The labour movement organized workers around rights, wages, and political influence.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典历史中的“劳工运动”（arbetarrörelsen）是什么？",
+    "optionsZh": [
+      "一个工人为了更好的条件和政治影响力而组织的运动。",
+      "一个控制劳动力市场的国家机构。",
+      "一个决定所有工资的雇主集团。",
+      "一个没有政治目标的宗教运动。"
+    ],
+    "explanationZh": "劳工运动由社会民主党和工会共同构成，围绕工人的权利、工资和政治代表权组织起来，对20世纪瑞典影响深远。",
+    "questionZhHant": "瑞典歷史中的“勞工運動”（arbetarrörelsen）是什麼？",
+    "optionsZhHant": [
+      "一個工人為了更好的條件和政治影響力而組織的運動。",
+      "一個控制勞動力市場的國家機構。",
+      "一個決定所有工資的僱主集團。",
+      "一個沒有政治目標的宗教運動。"
+    ],
+    "explanationZhHant": "勞工運動由社會民主黨和工會共同構成，圍繞工人的權利、工資和政治代表權組織起來，對20世紀瑞典影響深遠。"
   },
   {
     "id": "draft-ch10-014",
@@ -887,7 +1343,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The labour movement pushed for better working conditions and democratic rights.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典早期劳工运动的重要诉求是什么？",
+    "optionsZh": [
+      "八小时工作制、更好的工作环境和普遍选举权。",
+      "废除义务教育制和自由贸易。",
+      "对所有职业群体实行强制兵役。",
+      "禁止所有行业的私人经营。"
+    ],
+    "explanationZh": "早期劳工运动的核心诉求包括缩短工时（八小时工作日于1919年前后实现）、改善劳动安全和赢得普选权，这些后来多通过立法落实。",
+    "questionZhHant": "瑞典早期勞工運動的重要訴求是什麼？",
+    "optionsZhHant": [
+      "八小時工作制、更好的工作環境和普遍選舉權。",
+      "廢除義務教育制和自由貿易。",
+      "對所有職業羣體實行強制兵役。",
+      "禁止所有行業的私人經營。"
+    ],
+    "explanationZhHant": "早期勞工運動的核心訴求包括縮短工時（八小時工作日於1919年前後實現）、改善勞動安全和贏得普選權，這些後來多通過立法落實。"
   },
   {
     "id": "draft-ch10-015",
@@ -917,7 +1389,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Swedish labour-market model is based on negotiation between employers and unions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "劳动力市场各方围绕工资、工时和安全的协议与冲突，构成了哪种瑞典模式的基础？",
+    "optionsZh": [
+      "由劳动力市场各方通过集体协议协商的瑞典劳动市场模式。",
+      "瑞典的行会制度和手工业秩序。",
+      "危机年代的国家价格与工资管制体系。",
+      "市镇的税收均衡模式。"
+    ],
+    "explanationZh": "瑞典劳动市场模型（arbetsmarknadsmodellen）的特点是：雇主组织与工会自行谈判集体协议（kollektivavtal），决定工资与条件，国家较少直接干预。萨尔特舍巴登协议正是其奠基。",
+    "questionZhHant": "勞動力市場各方圍繞工資、工時和安全的協議與衝突，構成了哪種瑞典模式的基礎？",
+    "optionsZhHant": [
+      "由勞動力市場各方通過集體協議協商的瑞典勞動市場模式。",
+      "瑞典的行會制度和手工業秩序。",
+      "危機年代的國家價格與工資管制體系。",
+      "市鎮的稅收均衡模式。"
+    ],
+    "explanationZhHant": "瑞典勞動市場模型（arbetsmarknadsmodellen）的特點是：僱主組織與工會自行談判集體協議（kollektivavtal），決定工資與條件，國家較少直接幹預。薩爾特舍巴登協議正是其奠基。"
   },
   {
     "id": "draft-ch10-016",
@@ -946,7 +1434,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Folkhemmet is associated with equality, social security, and welfare reforms.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“人民之家”（folkhemmet）这一概念在瑞典20世纪历史中主要指什么？",
+    "optionsZh": [
+      "一个关于具有更大社会安全与共同体的社会的理念。",
+      "一个19世纪成立的政治党派。",
+      "一座政府聚集的特定建筑。",
+      "一个基于殖民地的经济体系。"
+    ],
+    "explanationZh": "“人民之家”（folkhemmet）由社会民主党人佩尔·阿尔宾·汉松在1928年提出，把国家比作一个“好家庭”，人人享有平等、安全和互助。它是瑞典福利思想的核心隐喻。",
+    "questionZhHant": "“人民之家”（folkhemmet）這一概念在瑞典20世紀歷史中主要指什麼？",
+    "optionsZhHant": [
+      "一個關於具有更大社會安全與共同體的社會的理念。",
+      "一個19世紀成立的政治黨派。",
+      "一座政府聚集的特定建築。",
+      "一個基於殖民地的經濟體系。"
+    ],
+    "explanationZhHant": "“人民之家”（folkhemmet）由社會民主黨人佩爾·阿爾賓·漢松在1928年提出，把國家比作一個“好家庭”，人人享有平等、安全和互助。它是瑞典福利思想的核心隱喻。"
   },
   {
     "id": "draft-ch10-017",
@@ -976,7 +1480,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The folkhem idea is linked to expanded social reforms and public welfare.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“人民之家”的理念如何与福利国家的建设相联系？",
+    "optionsZh": [
+      "通过儿童津贴、公共养老金和疾病保险等社会改革。",
+      "把所有的医疗和教育交给私人慈善机构。",
+      "废除市镇税收，改用国家收费。",
+      "禁止工会就工资进行谈判。"
+    ],
+    "explanationZh": "人民之家理念落实为具体福利改革：儿童津贴、公共养老金（folkpension）、病假津贴（sjukpenning）、国民医疗保险等，由国家与市镇共同提供，体现了“从摇篮到坟墓”的安全网思想。",
+    "questionZhHant": "“人民之家”的理念如何與福利國家的建設相聯系？",
+    "optionsZhHant": [
+      "通過兒童津貼、公共養老金和疾病保險等社會改革。",
+      "把所有的醫療和教育交給私人慈善機構。",
+      "廢除市鎮稅收，改用國家收費。",
+      "禁止工會就工資進行談判。"
+    ],
+    "explanationZhHant": "人民之家理念落實為具體福利改革：兒童津貼、公共養老金（folkpension）、病假津貼（sjukpenning）、國民醫療保險等，由國家與市鎮共同提供，體現了“從搖籃到墳墓”的安全網思想。"
   },
   {
     "id": "draft-ch10-018",
@@ -1006,7 +1526,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Social security reforms were central to the growth of the Swedish welfare state.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "20世纪的改革在生病、失业和年老时给予公民经济支持。这描述了哪种历史发展？",
+    "optionsZh": [
+      "福利国家和社会保险体系的兴起。",
+      "向无国家支持的纯粹市场经济的过渡。",
+      "行会制度和行会基金的引入。",
+      "公共部门的废除。"
+    ],
+    "explanationZh": "通过社会保险（养老、医疗、失业、工伤）的逐步建立，瑞典形成了覆盖全民的福利国家（välfärdsstat）。这些制度以集体缴费和税收为基础，减少个人风险。",
+    "questionZhHant": "20世紀的改革在生病、失業和年老時給予公民經濟支持。這描述了哪種歷史發展？",
+    "optionsZhHant": [
+      "福利國家和社會保險體系的興起。",
+      "向無國家支持的純粹市場經濟的過渡。",
+      "行會制度和行會基金的引入。",
+      "公共部門的廢除。"
+    ],
+    "explanationZhHant": "通過社會保險（養老、醫療、失業、工傷）的逐步建立，瑞典形成了覆蓋全民的福利國家（välfärdsstat）。這些制度以集體繳費和稅收為基礎，減少個人風險。"
   },
   {
     "id": "draft-ch10-019",
@@ -1035,7 +1571,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden’s 20th-century line is often described as non-alignment aiming at neutrality.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "20世纪大部分时间里，瑞典秉持哪种外交与安全政策路线？",
+    "optionsZh": [
+      "中立与军事不结盟。",
+      "自1945年起与北约的防务同盟。",
+      "瑞典总是作为交战方参战。",
+      "由联合国决定瑞典外交政策的政策。"
+    ],
+    "explanationZh": "整个20世纪，瑞典奉行“不结盟以谋求中立”（alliansfrihet i syfte att i krig vara neutral），即在平时不加入军事联盟，以便在战时保持中立。这一政策在2024年加入北约后结束。",
+    "questionZhHant": "20世紀大部分時間裡，瑞典秉持哪種外交與安全政策路線？",
+    "optionsZhHant": [
+      "中立與軍事不結盟。",
+      "自1945年起與北約的防務同盟。",
+      "瑞典總是作為交戰方參戰。",
+      "由聯合國決定瑞典外交政策的政策。"
+    ],
+    "explanationZhHant": "整個20世紀，瑞典奉行“不結盟以謀求中立”（alliansfrihet i syfte att i krig vara neutral），即在平時不加入軍事聯盟，以便在戰時保持中立。這一政策在2024年加入北約後結束。"
   },
   {
     "id": "draft-ch10-020",
@@ -1064,7 +1616,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Neutrality means not taking part in a war between other parties.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "战争期间，“中立”原则意味着什么？",
+    "optionsZh": [
+      "国家不参与武装冲突，并对交战各方保持公正。",
+      "国家自动中断与邻国的所有外交接触。",
+      "国家对边境的所有人道主义援助关上大门。",
+      "国家的军事防御在冲突期间被解散。"
+    ],
+    "explanationZh": "中立（neutralitet）是国际法概念：一国在战争中不接受交战任何一方的军事参与，并对各方保持公正，不提供军事援助。它不要求断绝外交或人道主义行为。",
+    "questionZhHant": "戰爭期間，“中立”原則意味着什麼？",
+    "optionsZhHant": [
+      "國家不參與武裝衝突，並對交戰各方保持公正。",
+      "國家自動中斷與鄰國的所有外交接觸。",
+      "國家對邊境的所有人道主義援助關上大門。",
+      "國家的軍事防御在衝突期間被解散。"
+    ],
+    "explanationZhHant": "中立（neutralitet）是國際法概念：一國在戰爭中不接受交戰任何一方的軍事參與，並對各方保持公正，不提供軍事援助。它不要求斷絕外交或人道主義行為。"
   },
   {
     "id": "draft-ch10-021",
@@ -1094,7 +1662,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden was formally neutral, but its wartime choices remain historically debated.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么瑞典在第二次世界大战中的行为常在历史辩论中被讨论？",
+    "optionsZh": [
+      "瑞典保持了形式上的中立，但被迫对交战大国作出妥协和权衡。",
+      "瑞典很早就加入了盟军军事指挥机构。",
+      "瑞典在整个战争期间切断了与世界的全部贸易。",
+      "瑞典在西线积极派兵参战。"
+    ],
+    "explanationZh": "瑞典在二战中名义上中立，但实际上存在争议：允许德国过境运输、与盟军贸易、接收难民等。这些“灰色地带”至今仍有历史讨论。",
+    "questionZhHant": "為什麼瑞典在第二次世界大戰中的行為常在歷史辯論中被討論？",
+    "optionsZhHant": [
+      "瑞典保持了形式上的中立，但被迫對交戰大國作出妥協和權衡。",
+      "瑞典很早就加入了盟軍軍事指揮機構。",
+      "瑞典在整個戰爭期間切斷了與世界的全部貿易。",
+      "瑞典在西線積極派兵參戰。"
+    ],
+    "explanationZhHant": "瑞典在二戰中名義上中立，但實際上存在爭議：允許德國過境運輸、與盟軍貿易、接收難民等。這些“灰色地帶”至今仍有歷史討論。"
   },
   {
     "id": "draft-ch10-022",
@@ -1123,7 +1707,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden’s intact industry helped support strong post-war growth.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "二战后紧接着的几十年，瑞典经济如何发展？",
+    "optionsZh": [
+      "强劲增长，工业得到发展。",
+      "它仍是一个没有工业的贫穷农业国。",
+      "因与世界隔绝而停滞。",
+      "它完全由外国公司控制。"
+    ],
+    "explanationZh": "瑞典在战时保全了工业基础，战后迎来“创纪录年代”（rekordåren）的高速增长，出口工业（如汽车、机械、钢铁）迅速扩张。",
+    "questionZhHant": "二戰後緊接着的幾十年，瑞典經濟如何發展？",
+    "optionsZhHant": [
+      "強勁增長，工業得到發展。",
+      "它仍是一個沒有工業的貧窮農業國。",
+      "因與世界隔絕而停滯。",
+      "它完全由外國公司控制。"
+    ],
+    "explanationZhHant": "瑞典在戰時保全了工業基礎，戰後迎來“創紀錄年代”（rekordåren）的高速增長，出口工業（如汽車、機械、鋼鐵）迅速擴張。"
   },
   {
     "id": "draft-ch10-023",
@@ -1152,7 +1752,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Exports have been important for jobs, growth, and tax revenues.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么出口工业对现代瑞典的繁荣很重要？",
+    "optionsZh": [
+      "瑞典国内市场小，依赖向国外出售商品和服务。",
+      "出口收入是宪法下国家税收唯一合法来源。",
+      "出口意味着瑞典不需要从其他国家进口原材料。",
+      "出口企业依法免缴雇主费。"
+    ],
+    "explanationZh": "瑞典人口仅约千万，国内市场有限，因此需要出口来维持增长、就业和税收。出口型工业（如沃尔沃、爱立信、ABB）是繁荣支柱。",
+    "questionZhHant": "為什麼出口工業對現代瑞典的繁榮很重要？",
+    "optionsZhHant": [
+      "瑞典國內市場小，依賴向國外出售商品和服務。",
+      "出口收入是憲法下國家稅收唯一合法來源。",
+      "出口意味着瑞典不需要從其他國家進口原材料。",
+      "出口企業依法免繳僱主費。"
+    ],
+    "explanationZhHant": "瑞典人口僅約千萬，國內市場有限，因此需要出口來維持增長、就業和稅收。出口型工業（如沃爾沃、愛立信、ABB）是繁榮支柱。"
   },
   {
     "id": "draft-ch10-024",
@@ -1182,7 +1798,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "International sales can support Swedish employment and growth.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一家瑞典工程公司全球销售机器，并在瑞典工厂新雇数百人。这体现了哪种经济联系？",
+    "optionsZh": [
+      "出口依赖和国际贸易在瑞典创造就业与增长。",
+      "保护国内企业免受外国竞争的国家的保护主义。",
+      "制造业被公共行政取代的去工业化。",
+      "转向无对外贸易的自给自足经济。"
+    ],
+    "explanationZh": "企业出口带动国内生产和就业，说明瑞典经济高度融入全球贸易，对外销售是本土就业的来源。",
+    "questionZhHant": "一家瑞典工程公司全球銷售機器，並在瑞典工廠新僱數百人。這體現了哪種經濟聯系？",
+    "optionsZhHant": [
+      "出口依賴和國際貿易在瑞典創造就業與增長。",
+      "保護國內企業免受外國競爭的國家的保護主義。",
+      "制造業被公共行政取代的去工業化。",
+      "轉向無對外貿易的自給自足經濟。"
+    ],
+    "explanationZhHant": "企業出口帶動國內生產和就業，說明瑞典經濟高度融入全球貿易，對外銷售是本土就業的來源。"
   },
   {
     "id": "draft-ch10-025",
@@ -1211,7 +1843,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Urbanization means a larger share of people live in urban areas.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“城市化”（urbanisering）这一概念意味着什么？",
+    "optionsZh": [
+      "更多的人居住在城市和城镇中。",
+      "全国人口都在减少。",
+      "更多人迁往人口稀少地区。",
+      "城市被解散，让位于农村。"
+    ],
+    "explanationZh": "城市化指人口从农村迁往城市、城镇人口比重上升的过程，是工业化的伴生现象。",
+    "questionZhHant": "“城市化”（urbanisering）這一概念意味着什麼？",
+    "optionsZhHant": [
+      "更多的人居住在城市和城鎮中。",
+      "全國人口都在減少。",
+      "更多人遷往人口稀少地區。",
+      "城市被解散，讓位於農村。"
+    ],
+    "explanationZhHant": "城市化指人口從農村遷往城市、城鎮人口比重上升的過程，是工業化的伴生現象。"
   },
   {
     "id": "draft-ch10-026",
@@ -1240,7 +1888,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Growing cities created needs for housing, transport, schools, and services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "20世纪瑞典快速的城市化带来了哪些挑战和需求？",
+    "optionsZh": [
+      "城市对新住房、扩建公共交通和学校的大量需求。",
+      "农村住房过剩并废除了市镇税。",
+      "需要禁止全国的私人汽车拥有。",
+      "要求所有市民必须拥有一处农业地产。"
+    ],
+    "explanationZh": "城市人口激增，需要配套建设住房、公交、学校、供水和污水处理系统，给市政规划带来巨大压力。",
+    "questionZhHant": "20世紀瑞典快速的城市化帶來了哪些挑戰和需求？",
+    "optionsZhHant": [
+      "城市對新住房、擴建公共交通和學校的大量需求。",
+      "農村住房過剩並廢除了市鎮稅。",
+      "需要禁止全國的私人汽車擁有。",
+      "要求所有市民必須擁有一處農業地產。"
+    ],
+    "explanationZhHant": "城市人口激增，需要配套建設住房、公交、學校、供水和污水處理系統，給市政規劃帶來巨大壓力。"
   },
   {
     "id": "draft-ch10-027",
@@ -1270,7 +1934,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Urbanization affects municipal planning for housing and services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个市镇在新工业建立、人口迅速增长时面临严重住房短缺。哪种社会过程需要市镇的积极规划？",
+    "optionsZh": [
+      "城市化对基础设施、住房建设和福利服务的影响。",
+      "有利于农村支持的城市地区人口减少。",
+      "国家外交政策的放松管制。",
+      "司法系统和法院的区堿化。"
+    ],
+    "explanationZh": "城市化不仅带来人口聚集，还要求市镇主动规划交通、住房、学校和公共服务，否则会出现短缺与社会问题。",
+    "questionZhHant": "一個市鎮在新工業建立、人口迅速增長時面臨嚴重住房短缺。哪種社會過程需要市鎮的積極規劃？",
+    "optionsZhHant": [
+      "城市化對基礎設施、住房建設和福利服務的影響。",
+      "有利於農村支持的城市地區人口減少。",
+      "國家外交政策的放松管制。",
+      "司法系統和法院的區堿化。"
+    ],
+    "explanationZhHant": "城市化不僅帶來人口聚集，還要求市鎮主動規劃交通、住房、學校和公共服務，否則會出現短缺與社會問題。"
   },
   {
     "id": "draft-ch10-028",
@@ -1299,7 +1979,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Million Programme was a major housing construction initiative.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "1965至1974年间瑞典实施的“百万住房计划”（Miljonprogrammet）是什么？",
+    "optionsZh": [
+      "20世纪60至70年代的一项大型住房建设行动。",
+      "一项给每位公民一栋自有房屋的改革。",
+      "一个建造一百万所学校计划。",
+      "一项来自1980年代的税改。"
+    ],
+    "explanationZh": "百万住房计划（Miljonprogrammet）是瑞典政府在1965–1974年间规划建造100万套住房的计划，以应对严重的住房短缺。",
+    "questionZhHant": "1965至1974年間瑞典實施的“百萬住房計劃”（Miljonprogrammet）是什麼？",
+    "optionsZhHant": [
+      "20世紀60至70年代的一項大型住房建設行動。",
+      "一項給每位公民一棟自有房屋的改革。",
+      "一個建造一百萬所學校計劃。",
+      "一項來自1980年代的稅改。"
+    ],
+    "explanationZhHant": "百萬住房計劃（Miljonprogrammet）是瑞典政府在1965–1974年間規劃建造100萬套住房的計劃，以應對嚴重的住房短缺。"
   },
   {
     "id": "draft-ch10-029",
@@ -1328,7 +2024,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Housing shortage and low housing standards drove the programme.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么在1960年代推出百万住房计划？",
+    "optionsZh": [
+      "当时住房严重短缺，许多既有住房标准很低。",
+      "它要取代所有因战争受损的旧木结构城镇。",
+      "它要为扩建的征兵防务建造营房。",
+      "它要为所有国家机构建造新办公室。"
+    ],
+    "explanationZh": "战后城市化和人口流动造成住房紧张，且老旧住房缺乏现代设施（如无室内卫生间）。百万住房计划旨在快速、批量地提供现代化住房。",
+    "questionZhHant": "為什麼在1960年代推出百萬住房計劃？",
+    "optionsZhHant": [
+      "當時住房嚴重短缺，許多既有住房標準很低。",
+      "它要取代所有因戰爭受損的舊木結構城鎮。",
+      "它要為擴建的徵兵防務建造營房。",
+      "它要為所有國家機構建造新辦公室。"
+    ],
+    "explanationZhHant": "戰後城市化和人口流動造成住房緊張，且老舊住房缺乏現代設施（如無室內衛生間）。百萬住房計劃旨在快速、批量地提供現代化住房。"
   },
   {
     "id": "draft-ch10-030",
@@ -1358,7 +2070,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Many Million Programme areas were part of large-scale planning for housing and services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一家人在1970年代建成的、附近有学校、服务和公共交通的新住宅区安家。这可与哪项历史举措相联系？",
+    "optionsZh": [
+      "百万住房计划和现代城市规划。",
+      "创纪录年代之前的市镇住房建设。",
+      "主要涉及课程大纲的学校改革。",
+      "瑞典的欧盟成员身份与内部市场。"
+    ],
+    "explanationZh": "百万住房计划区通常是有计划的大型居住区，配套学校、商店和公交，是当时现代城市规划的产物。",
+    "questionZhHant": "一家人在1970年代建成的、附近有學校、服務和公共交通的新住宅區安家。這可與哪項歷史舉措相聯系？",
+    "optionsZhHant": [
+      "百萬住房計劃和現代城市規劃。",
+      "創紀錄年代之前的市鎮住房建設。",
+      "主要涉及課程大綱的學校改革。",
+      "瑞典的歐盟成員身份與內部市場。"
+    ],
+    "explanationZhHant": "百萬住房計劃區通常是有計劃的大型居住區，配套學校、商店和公交，是當時現代城市規劃的產物。"
   },
   {
     "id": "draft-ch10-031",
@@ -1387,7 +2115,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Education became more accessible and important in modern Sweden.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "20世纪瑞典的教育体系如何变化？",
+    "optionsZh": [
+      "教育变得更加重要，也让更多人能够获得。",
+      "教育仍是少数人的特权。",
+      "义务教育在工业化中被废除。",
+      "只允宗教教育。"
+    ],
+    "explanationZh": "20世纪瑞典推行义务教育年限延长、综合学校（grundskola）改革，使教育从精英特权变为全民权利，促进社会流动。",
+    "questionZhHant": "20世紀瑞典的教育體系如何變化？",
+    "optionsZhHant": [
+      "教育變得更加重要，也讓更多人能夠獲得。",
+      "教育仍是少數人的特權。",
+      "義務教育在工業化中被廢除。",
+      "只允宗教教育。"
+    ],
+    "explanationZhHant": "20世紀瑞典推行義務教育年限延長、綜合學校（grundskola）改革，使教育從精英特權變為全民權利，促進社會流動。"
   },
   {
     "id": "draft-ch10-032",
@@ -1416,7 +2160,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Modern work created greater need for education and skills.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么在20世纪工业化过程中，对高等教育与职业技能的需求增加？",
+    "optionsZh": [
+      "新技术、复杂机器和不断扩大的服务业需要更多理论和实践知识。",
+      "国家要求所有体力工业劳动都须有大学学历。",
+      "农业比工厂劳动需要更多学术教育。",
+      "外国企业只有全体员工都是研究员才能落户。"
+    ],
+    "explanationZh": "经济向技术密集和服务型转变，要求劳动者具备更高技能，因此职业教育与高等教育扩张成为必然。",
+    "questionZhHant": "為什麼在20世紀工業化過程中，對高等教育與職業技能的需求增加？",
+    "optionsZhHant": [
+      "新技術、複雜機器和不斷擴大的服務業需要更多理論和實踐知識。",
+      "國家要求所有體力工業勞動都須有大學學歷。",
+      "農業比工廠勞動需要更多學術教育。",
+      "外國企業只有全體員工都是研究員才能落戶。"
+    ],
+    "explanationZhHant": "經濟向技術密集和服務型轉變，要求勞動者具備更高技能，因此職業教育與高等教育擴張成為必然。"
   },
   {
     "id": "draft-ch10-033",
@@ -1446,7 +2206,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Knowledge-intensive economies depend on education, research, and skills.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "当一个社会的经济从较简单的手工制造转向先进的知识密集型产业时，哪项政策投入变得关键？",
+    "optionsZh": [
+      "面向全体人口的教育、科研和能力开发投入。",
+      "提高对外关税以阻止技术进口。",
+      "削减义务教育经费以补贴重化工业。",
+      "对所有新职业实行强制行会制度。"
+    ],
+    "explanationZh": "知识密集型经济依赖人力资本——教育、研发和终身技能提升，是国家竞争力的关键，而非贸易保护或复古行会。",
+    "questionZhHant": "當一個社會的經濟從較簡單的手工制造轉向先進的知識密集型產業時，哪項政策投入變得關鍵？",
+    "optionsZhHant": [
+      "面向全體人口的教育、科研和能力開發投入。",
+      "提高對外關稅以阻止技術進口。",
+      "削減義務教育經費以補貼重化工業。",
+      "對所有新職業實行強制行會制度。"
+    ],
+    "explanationZhHant": "知識密集型經濟依賴人力資本——教育、研發和終身技能提升，是國家競爭力的關鍵，而非貿易保護或複古行會。"
   },
   {
     "id": "draft-ch10-034",
@@ -1475,7 +2251,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Modern Swedish history includes major reforms for women’s rights and equality.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "20世纪瑞典在两性平等（jämställdhet）方面发生了什么整体变化？",
+    "optionsZh": [
+      "女性获得了更大的法律、政治和经济机会。",
+      "女性权利在1921年后逐步减少。",
+      "女性被禁止在市镇选举中投票。",
+      "只有未婚女性获得一些权利。"
+    ],
+    "explanationZh": "20世纪瑞典通过立法（选举权、同工同酬、育儿假、个人征税）和政策，大幅提升了女性在教育、职场和政治中的平等地位。",
+    "questionZhHant": "20世紀瑞典在兩性平等（jämställdhet）方面發生了什麼整體變化？",
+    "optionsZhHant": [
+      "女性獲得了更大的法律、政治和經濟機會。",
+      "女性權利在1921年後逐步減少。",
+      "女性被禁止在市鎮選舉中投票。",
+      "只有未婚女性獲得一些權利。"
+    ],
+    "explanationZhHant": "20世紀瑞典通過立法（選舉權、同工同酬、育兒假、個人徵稅）和政策，大幅提升了女性在教育、職場和政治中的平等地位。"
   },
   {
     "id": "draft-ch10-035",
@@ -1504,7 +2296,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Women’s suffrage made democracy more representative.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么引入女性选举权是瑞典民主的决定性一步？",
+    "optionsZh": [
+      "这意味着选举结果基于全体成年人口的参与。",
+      "这导致政党只能有女性候选人。",
+      "这让国会立即废除了两院制。",
+      "这给已婚夫妇在市镇选举中各两票。"
+    ],
+    "explanationZh": "妇女占成年人口约一半，赋予她们选举权使民主真正具有代表性，选举结果反映的是全体成年公民意愿，而非仅男性。",
+    "questionZhHant": "為什麼引入女性選舉權是瑞典民主的決定性一步？",
+    "optionsZhHant": [
+      "這意味着選舉結果基於全體成年人口的參與。",
+      "這導致政黨只能有女性候選人。",
+      "這讓國會立即廢除了兩院制。",
+      "這給已婚夫婦在市鎮選舉中各兩票。"
+    ],
+    "explanationZhHant": "婦女佔成年人口約一半，賦予她們選舉權使民主真正具有代表性，選舉結果反映的是全體成年公民意願，而非僅男性。"
   },
   {
     "id": "draft-ch10-036",
@@ -1534,7 +2342,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Family policy and equality reforms changed work and family life.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "1970年代的扩建幼儿园、个人征税（särbeskattning）和父母保险（föräldraförsäkring）让男女都更容易就业。这发展有何特征？",
+    "optionsZh": [
+      "一项面向双职工家庭、提高劳动参与率的性别平等与家庭政策。",
+      "向传统家庭主妇观念的倒退。",
+      "对所有公共儿童保育的私有化浪潮。",
+      "取消育儿假以换取更长工时。"
+    ],
+    "explanationZh": "1970年代的改革（独立征税让夫妻各自纳税、父母保险分摊育儿、扩建托育）使女性更能进入职场，塑造了瑞典“双职工家庭”模式，是性别平等政策的关键。",
+    "questionZhHant": "1970年代的擴建幼兒園、個人徵稅（särbeskattning）和父母保險（föräldraförsäkring）讓男女都更容易就業。這發展有何特徵？",
+    "optionsZhHant": [
+      "一項面向雙職工家庭、提高勞動參與率的性別平等與家庭政策。",
+      "向傳統家庭主婦觀念的倒退。",
+      "對所有公共兒童保育的私有化浪潮。",
+      "取消育兒假以換取更長工時。"
+    ],
+    "explanationZhHant": "1970年代的改革（獨立徵稅讓夫妻各自納稅、父母保險分攤育兒、擴建托育）使女性更能進入職場，塑造了瑞典“雙職工家庭”模式，是性別平等政策的關鍵。"
   },
   {
     "id": "draft-ch10-037",
@@ -1563,7 +2387,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Post-war immigration was strongly connected to labour demand.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "二战后头几十年，瑞典的移民有何特征？",
+    "optionsZh": [
+      "劳工移民，以及后来为逃避战争或迫害而逃离。",
+      "主要是几年后总是回国的临时客籍工人。",
+      "只有寻求瑞典大学研究职位的学者。",
+      "来自北欧邻国的大规模庇护移民。"
+    ],
+    "explanationZh": "1950–60年代主要是为满足劳动力需求的“劳工移民”（如来自南欧、芬兰、南斯拉夫）；之后因战争（如巴尔干、中东）难民比例上升。",
+    "questionZhHant": "二戰後頭幾十年，瑞典的移民有何特徵？",
+    "optionsZhHant": [
+      "勞工移民，以及後來為逃避戰爭或迫害而逃離。",
+      "主要是幾年後總是回國的臨時客籍工人。",
+      "只有尋求瑞典大學研究職位的學者。",
+      "來自北歐鄰國的大規模庇護移民。"
+    ],
+    "explanationZhHant": "1950–60年代主要是為滿足勞動力需求的“勞工移民”（如來自南歐、芬蘭、南斯拉夫）；之後因戰爭（如巴爾幹、中東）難民比例上升。"
   },
   {
     "id": "draft-ch10-038",
@@ -1592,7 +2432,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Later immigration included more refugees and family reunification.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "从1970和1980年代起，瑞典移民的特征如何变化？",
+    "optionsZh": [
+      "它从主要是劳工移民，转变为更大程度包含难民和亲属团聚。",
+      "因新的宪法修正案而完全停止。",
+      "完全被向其他北欧国家的向外移民取代。",
+      "仅限于大学生。"
+    ],
+    "explanationZh": "1970年代后，随着全球难民危机和亲属团聚政策，移民结构从劳工为主转向难民/家庭为主，这是瑞典移民史的重要转折。",
+    "questionZhHant": "從1970和1980年代起，瑞典移民的特徵如何變化？",
+    "optionsZhHant": [
+      "它從主要是勞工移民，轉變為更大程度包含難民和親屬團聚。",
+      "因新的憲法修正案而完全停止。",
+      "完全被向其他北歐國家的向外移民取代。",
+      "僅限於大學生。"
+    ],
+    "explanationZhHant": "1970年代後，隨着全球難民危機和親屬團聚政策，移民結構從勞工為主轉向難民/家庭為主，這是瑞典移民史的重要轉折。"
   },
   {
     "id": "draft-ch10-039",
@@ -1622,7 +2478,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Industry recruited foreign labour during the post-war boom.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "1950和1960年代，瑞典企业从其他国家招募工人到工厂。这体现了哪种历史现象？",
+    "optionsZh": [
+      "创纪录年代由工业需求驱动的劳工移民。",
+      "向北美的大移民潮。",
+      "通过欧盟成员身份引入的人员自由流动。",
+      "把瑞典工业迁往低工资国家的国家运动。"
+    ],
+    "explanationZh": "战后经济繁荣（rekordåren）遭遇劳动力短缺，企业从国外招募工人，正是“劳工移民”现象，与更早的向外移民和后来的欧盟自由流动不同。",
+    "questionZhHant": "1950和1960年代，瑞典企業從其他國家招募工人到工廠。這體現了哪種歷史現象？",
+    "optionsZhHant": [
+      "創紀錄年代由工業需求驅動的勞工移民。",
+      "向北美的大移民潮。",
+      "通過歐盟成員身份引入的人員自由流動。",
+      "把瑞典工業遷往低工資國家的國家運動。"
+    ],
+    "explanationZhHant": "戰後經濟繁榮（rekordåren）遭遇勞動力短缺，企業從國外招募工人，正是“勞工移民”現象，與更早的向外移民和後來的歐盟自由流動不同。"
   },
   {
     "id": "draft-ch10-040",
@@ -1651,7 +2523,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Sami are Sweden’s Indigenous people; the others listed are national minorities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个民族在瑞典被承认为原住民（urfolk）？",
+    "optionsZh": [
+      "萨米人（Sami）。",
+      "托尔讷河谷人（Tornedalians）。",
+      "瑞典芬兰人（Sverigefinnarna）。",
+      "罗姆人（Roma）。"
+    ],
+    "explanationZh": "萨米人（samerna）是瑞典唯一的原住民，传统上生活在北部的萨米地区（Sápmi），以驯鹿放牧等为生。其余三项是国家少数民族（nationella minoriteter），并非原住民。",
+    "questionZhHant": "哪個民族在瑞典被承認為原住民（urfolk）？",
+    "optionsZhHant": [
+      "薩米人（Sami）。",
+      "托爾訥河谷人（Tornedalians）。",
+      "瑞典芬蘭人（Sverigefinnarna）。",
+      "羅姆人（Roma）。"
+    ],
+    "explanationZhHant": "薩米人（samerna）是瑞典唯一的原住民，傳統上生活在北部的薩米地區（Sápmi），以馴鹿放牧等為生。其餘三項是國家少數民族（nationella minoriteter），並非原住民。"
   },
   {
     "id": "draft-ch10-041",
@@ -1680,7 +2568,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Minority history is connected to language, culture, rights, and historical treatment.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么今天瑞典强调萨米人和国家少数民族的历史？",
+    "optionsZh": [
+      "为了阐明语言、文化以及国家历史上对少数民族的对待。",
+      "为了解释瑞典如何建立与美洲的贸易关系。",
+      "为了分配欧洲议会选举的投票份额。",
+      "为了展示与挪威和芬兰的边界如何确定。"
+    ],
+    "explanationZh": "少数民族历史涉及语言权利、文化保护，以及国家过去对萨米人和罗姆人等的同化政策，今天正视这段历史是对权利与历史正义的承认。",
+    "questionZhHant": "為什麼今天瑞典強調薩米人和國家少數民族的歷史？",
+    "optionsZhHant": [
+      "為了闡明語言、文化以及國家歷史上對少數民族的對待。",
+      "為了解釋瑞典如何建立與美洲的貿易關系。",
+      "為了分配歐洲議會選舉的投票份額。",
+      "為了展示與挪威和芬蘭的邊界如何確定。"
+    ],
+    "explanationZhHant": "少數民族歷史涉及語言權利、文化保護，以及國家過去對薩米人和羅姆人等的同化政策，今天正視這段歷史是對權利與歷史正義的承認。"
   },
   {
     "id": "draft-ch10-042",
@@ -1710,7 +2614,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Truth and reconciliation work addresses historical wrongs and supports rights recognition.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "真相与和解委员会审查了国家历史上对原住民和少数民族的侵害。这项工作的目的是什么？",
+    "optionsZh": [
+      "给予平反、增进认识，并在法治国家中强化少数民族的权利。",
+      "废除学校中的国家少数民族语言。",
+      "把瑞典北部的所有土地所有权转给国家。",
+      "用普通市镇委员会取代萨米议会（Sametinget）。"
+    ],
+    "explanationZh": "真相与和解委员会（如针对萨米人的委员会）旨在承认历史不公、促进知识传播并加强原住民权利，而非取消其机构或语言。",
+    "questionZhHant": "真相與和解委員會審查了國家歷史上對原住民和少數民族的侵害。這項工作的目的是什麼？",
+    "optionsZhHant": [
+      "給予平反、增進認識，並在法治國家中強化少數民族的權利。",
+      "廢除學校中的國家少數民族語言。",
+      "把瑞典北部的所有土地所有權轉給國家。",
+      "用普通市鎮委員會取代薩米議會（Sametinget）。"
+    ],
+    "explanationZhHant": "真相與和解委員會（如針對薩米人的委員會）旨在承認歷史不公、促進知識傳播並加強原住民權利，而非取消其機構或語言。"
   },
   {
     "id": "draft-ch10-043",
@@ -1739,7 +2659,15 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden joined the European Union in 1995.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典何时成为欧盟（EU）成员？",
+    "optionsZh": [
+      "1995年。",
+      "1921年。",
+      "1945年。",
+      "2009年。"
+    ],
+    "explanationZh": "瑞典在1995年全民公决后加入欧盟（EU）。2009年是里斯本条约生效年，与瑞典入盟无关。"
   },
   {
     "id": "draft-ch10-044",
@@ -1768,7 +2696,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "EU membership connects Sweden to shared European cooperation and rules.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "加入欧盟对瑞典意味着什么？",
+    "optionsZh": [
+      "瑞典成为欧盟共同市场、立法和政治合作的成员。",
+      "瑞典不再是独立国家并废除了宪法。",
+      "瑞典被迫立即用欧元取代克朗。",
+      "瑞典失去了拥有本国国防的权利。"
+    ],
+    "explanationZh": "加入欧盟意味着瑞典参与内部市场、共同立法（许多领域须采纳欧盟指令）和政治合作，但瑞典仍为主权国家、保留克朗、并保持自己的国防。",
+    "questionZhHant": "加入歐盟對瑞典意味着什麼？",
+    "optionsZhHant": [
+      "瑞典成為歐盟共同市場、立法和政治合作的成員。",
+      "瑞典不再是獨立國家並廢除了憲法。",
+      "瑞典被迫立即用歐元取代克朗。",
+      "瑞典失去了擁有本國國防的權利。"
+    ],
+    "explanationZhHant": "加入歐盟意味着瑞典參與內部市場、共同立法（許多領域須採納歐盟指令）和政治合作，但瑞典仍為主權國家、保留克朗、並保持自己的國防。"
   },
   {
     "id": "draft-ch10-045",
@@ -1798,7 +2742,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "EU membership means Swedish politics and law are affected by European cooperation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一位瑞典立法者需要考虑共同的欧洲规则。这背后的历史变化是什么？",
+    "optionsZh": [
+      "瑞典的欧盟成员身份。",
+      "瑞典的联合国成员身份。",
+      "北欧合作。",
+      "1921年的选举权改革。"
+    ],
+    "explanationZh": "由于欧盟成员身份，大量瑞典法律须与欧盟法规协调，立法者在制定国内法时须考虑欧盟规则。联合国、北欧合作影响较小，并非此现象主因。",
+    "questionZhHant": "一位瑞典立法者需要考慮共同的歐洲規則。這背後的歷史變化是什麼？",
+    "optionsZhHant": [
+      "瑞典的歐盟成員身份。",
+      "瑞典的聯合國成員身份。",
+      "北歐合作。",
+      "1921年的選舉權改革。"
+    ],
+    "explanationZhHant": "由於歐盟成員身份，大量瑞典法律須與歐盟法規協調，立法者在制定國內法時須考慮歐盟規則。聯合國、北歐合作影響較小，並非此現象主因。"
   },
   {
     "id": "draft-ch10-046",
@@ -1827,7 +2787,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Cold War was the geopolitical conflict between Western and Eastern blocs after 1945.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "20世纪下半叶发生的“冷战”（kalla kriget）是什么？",
+    "optionsZh": [
+      "二战后东西方之间紧张对峙的一段时期。",
+      "1950年代瑞典国内的一场内战。",
+      "瑞典各区域之间的贸易战。",
+      "瑞典领导的一个军事联盟。"
+    ],
+    "explanationZh": "冷战是1945年后以美国为首的西方阵营与以苏联为首的东方阵营之间的政治、军事和意识形态对抗，未演变为直接热战。瑞典处于两大阵营之间，奉行不结盟。",
+    "questionZhHant": "20世紀下半葉發生的“冷戰”（kalla kriget）是什麼？",
+    "optionsZhHant": [
+      "二戰後東西方之間緊張對峙的一段時期。",
+      "1950年代瑞典國內的一場內戰。",
+      "瑞典各區域之間的貿易戰。",
+      "瑞典領導的一個軍事聯盟。"
+    ],
+    "explanationZhHant": "冷戰是1945年後以美國為首的西方陣營與以蘇聯為首的東方陣營之間的政治、軍事和意識形態對抗，未演變為直接熱戰。瑞典處於兩大陣營之間，奉行不結盟。"
   },
   {
     "id": "draft-ch10-047",
@@ -1856,7 +2832,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden’s Cold War policy combined non-alignment with national defence.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "冷战期间瑞典如何制定其安全政策？",
+    "optionsZh": [
+      "通过军事不结盟和强大的本国国防，以便在战时保持中立。",
+      "通过秘密地正式加入华沙条约。",
+      "通过解散全部国防、仅依赖联合国。",
+      "通过与其它北欧国家结成正式军事联盟。"
+    ],
+    "explanationZh": "瑞典冷战政策是“不结盟以求中立”：不加入北约或华约，同时保持强大的国防（包括民防、征兵），以威慑并确保中立可信。",
+    "questionZhHant": "冷戰期間瑞典如何制定其安全政策？",
+    "optionsZhHant": [
+      "通過軍事不結盟和強大的本國國防，以便在戰時保持中立。",
+      "通過祕密地正式加入華沙條約。",
+      "通過解散全部國防、僅依賴聯合國。",
+      "通過與其它北歐國家結成正式軍事聯盟。"
+    ],
+    "explanationZhHant": "瑞典冷戰政策是“不結盟以求中立”：不加入北約或華約，同時保持強大的國防（包括民防、徵兵），以威懾並確保中立可信。"
   },
   {
     "id": "draft-ch10-048",
@@ -1886,7 +2878,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden’s non-alignment existed alongside Western orientation and contacts.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "冷战期间瑞典军事上不结盟，但与西方强国密切合作。哪种描述最符合这种平衡？",
+    "optionsZh": [
+      "瑞典置身于军事联盟之外，但共享民主价值观并与西方有安全接触。",
+      "瑞典是北约正式成员但不参加任何会议。",
+      "瑞典与苏联和美国有完全相同的贸易和国防合作。",
+      "瑞典在整个时期允许外国军事基地设于瑞典领土。"
+    ],
+    "explanationZh": "瑞典虽不结盟，但在价值观和情报、贸易上与西方接近，并与北约有一定合作（如购买装备、情报共享），同时保持形式上不结盟。它并非北约成员，也未允许外国基地。",
+    "questionZhHant": "冷戰期間瑞典軍事上不結盟，但與西方強國密切合作。哪種描述最符合這種平衡？",
+    "optionsZhHant": [
+      "瑞典置身於軍事聯盟之外，但共享民主價值觀並與西方有安全接觸。",
+      "瑞典是北約正式成員但不參加任何會議。",
+      "瑞典與蘇聯和美國有完全相同的貿易和國防合作。",
+      "瑞典在整個時期允許外國軍事基地設於瑞典領土。"
+    ],
+    "explanationZhHant": "瑞典雖不結盟，但在價值觀和情報、貿易上與西方接近，並與北約有一定合作（如購買裝備、情報共享），同時保持形式上不結盟。它並非北約成員，也未允許外國基地。"
   },
   {
     "id": "draft-ch10-049",
@@ -1915,7 +2923,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Secularization means religion has less direct authority over state and society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“世俗化”（sekularisering）这一概念意味着什么？",
+    "optionsZh": [
+      "宗教对国家和社会许多决策的直接影响变小。",
+      "国家规定唯一一种被允许的宗教。",
+      "所有宗教表达在公共领域被禁止。",
+      "教会接管了国家的立法权。"
+    ],
+    "explanationZh": "世俗化指宗教在公共生活和制度中的权威下降，国家决策更多基于世俗理由。它不等于禁止宗教——瑞典仍保障宗教自由。",
+    "questionZhHant": "“世俗化”（sekularisering）這一概念意味着什麼？",
+    "optionsZhHant": [
+      "宗教對國家和社會許多決策的直接影響變小。",
+      "國家規定唯一一種被允許的宗教。",
+      "所有宗教表達在公共領域被禁止。",
+      "教會接管了國家的立法權。"
+    ],
+    "explanationZhHant": "世俗化指宗教在公共生活和制度中的權威下降，國家決策更多基於世俗理由。它不等於禁止宗教——瑞典仍保障宗教自由。"
   },
   {
     "id": "draft-ch10-050",
@@ -1944,7 +2968,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Post-war growth helped finance welfare expansion and social change.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "战后经济增长期间瑞典如何改变？",
+    "optionsZh": [
+      "许多人的生活水准、住房、教育和福利得到扩展。",
+      "瑞典废除工业、回到农业。",
+      "所有公共服务转移到王室。",
+      "经济增长使民主选举变得不必要。"
+    ],
+    "explanationZh": "战后长期增长使政府有能力扩大福利、提升生活水平和教育普及，多数人受益。经济繁荣与民主、福利扩展相辅相成。",
+    "questionZhHant": "戰後經濟增長期間瑞典如何改變？",
+    "optionsZhHant": [
+      "許多人的生活水準、住房、教育和福利得到擴展。",
+      "瑞典廢除工業、回到農業。",
+      "所有公共服務轉移到王室。",
+      "經濟增長使民主選舉變得不必要。"
+    ],
+    "explanationZhHant": "戰後長期增長使政府有能力擴大福利、提升生活水平和教育普及，多數人受益。經濟繁榮與民主、福利擴展相輔相成。"
   },
   {
     "id": "draft-ch10-051",
@@ -1974,7 +3014,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Secularism can coexist with strong freedom of religion.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人声称世俗社会意味着信众失去权利。如何最好地回应这一说法？",
+    "optionsZh": [
+      "世俗社会区分国家与宗教，但宗教自由保护个人信仰或不信仰宗教的权利。",
+      "世俗化要求所有宗教活动秘密进行。",
+      "宗教自由只适用于国家官方多数宗教。",
+      "世俗社会不允许宗教组织拥有房产。"
+    ],
+    "explanationZh": "世俗化是把国家与宗教分离，不等于压制宗教。瑞典宪法保障宗教自由（religionsfrihet）：个人有权信仰、实践或不实践宗教，宗教组织也可合法存在。",
+    "questionZhHant": "有人聲稱世俗社會意味着信眾失去權利。如何最好地回應這一說法？",
+    "optionsZhHant": [
+      "世俗社會區分國家與宗教，但宗教自由保護個人信仰或不信仰宗教的權利。",
+      "世俗化要求所有宗教活動祕密進行。",
+      "宗教自由只適用於國家官方多數宗教。",
+      "世俗社會不允許宗教組織擁有房產。"
+    ],
+    "explanationZhHant": "世俗化是把國家與宗教分離，不等於壓制宗教。瑞典憲法保障宗教自由（religionsfrihet）：個人有權信仰、實踐或不實踐宗教，宗教組織也可合法存在。"
   },
   {
     "id": "draft-ch10-052",
@@ -2003,7 +3059,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Digitalization changes services, work, communication, and daily life.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "现代瑞典社会的“数字化”（digitalisering）意味着什么？",
+    "optionsZh": [
+      "许多服务、工作和联系都以更数字化的方式发生。",
+      "所有实体会面和纸质服务完全消失。",
+      "瑞典出于安全原因停止使用互联网。",
+      "只有年轻人使用数字服务。"
+    ],
+    "explanationZh": "数字化指社会活动（银行、政务、教育、医疗）越来越多地通过互联网和数字平台进行，是渐进过程，并未完全取代线下。",
+    "questionZhHant": "現代瑞典社會的“數字化”（digitalisering）意味着什麼？",
+    "optionsZhHant": [
+      "許多服務、工作和聯系都以更數字化的方式發生。",
+      "所有實體會面和紙質服務完全消失。",
+      "瑞典出於安全原因停止使用互聯網。",
+      "只有年輕人使用數字服務。"
+    ],
+    "explanationZhHant": "數字化指社會活動（銀行、政務、教育、醫療）越來越多地通過互聯網和數字平台進行，是漸進過程，並未完全取代線下。"
   },
   {
     "id": "draft-ch10-053",
@@ -2032,7 +3104,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Digital services can improve access but also exclude people without access or skills.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么公共服务快速数字化会带来民主挑战？",
+    "optionsZh": [
+      "某些群体，例如老年人或缺乏数字经验的人，面临数字排斥的风险。",
+      "数字化使选举无法再以无记名方式举行。",
+      "当局不再被允许用瑞典语提供信息。",
+      "无法再制定关于个人隐私的新法律。"
+    ],
+    "explanationZh": "当政务、医疗、银行都转到线上，缺乏设备或技能的群体（老人、低收入者）可能被排除在外，形成“数字鸿沟”，影响他们行使权利与获取服务。",
+    "questionZhHant": "為什麼公共服務快速數字化會帶來民主挑戰？",
+    "optionsZhHant": [
+      "某些羣體，例如老年人或缺乏數字經驗的人，面臨數字排斥的風險。",
+      "數字化使選舉無法再以無記名方式舉行。",
+      "當局不再被允許用瑞典語提供資訊。",
+      "無法再制定關於個人隱私的新法律。"
+    ],
+    "explanationZhHant": "當政務、醫療、銀行都轉到線上，缺乏裝置或技能的羣體（老人、低收入者）可能被排除在外，形成“數字鴻溝”，影響他們行使權利與獲取服務。"
   },
   {
     "id": "draft-ch10-054",
@@ -2062,7 +3150,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Digital services can create new access but also new barriers.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个机关把几乎所有服务搬到网上。老年人和缺乏数字经验的人难以参与。这体现了哪种现代历史变化？",
+    "optionsZh": [
+      "数字化的机遇与数字排斥的风险。",
+      "老年人增多的人口结构转型。",
+      "1960年代的福利国家扩张。",
+      "工业化的第一阶段。"
+    ],
+    "explanationZh": "题干核心是“服务线上化导致部分人难以参与”，这正是数字化带来便利同时产生数字鸿沟（digitalt utanförskap）的典型现象。",
+    "questionZhHant": "一個機關把幾乎所有服務搬到網上。老年人和缺乏數字經驗的人難以參與。這體現了哪種現代歷史變化？",
+    "optionsZhHant": [
+      "數字化的機遇與數字排斥的風險。",
+      "老年人增多的人口結構轉型。",
+      "1960年代的福利國家擴張。",
+      "工業化的第一階段。"
+    ],
+    "explanationZhHant": "題幹核心是“服務線上化導致部分人難以參與”，這正是數字化帶來便利同時產生數字鴻溝（digitalt utanförskap）的典型現象。"
   },
   {
     "id": "draft-ch10-055",
@@ -2091,7 +3195,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Climate and sustainability have become central public issues.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "近几十年，哪些议题在瑞典和全球的公共辩论中变得日益核心？",
+    "optionsZh": [
+      "环境、气候和可持续发展。",
+      "毫不顾及环境的经济增长。",
+      "所有环境法都被废除。",
+      "仅限地方垃圾管理。"
+    ],
+    "explanationZh": "自1970年代起，环境（如1972年斯德哥尔摩人类环境会议）与后来的气候、可持续议题成为政治核心，瑞典在环保政策上较为领先。",
+    "questionZhHant": "近幾十年，哪些議題在瑞典和全球的公共辯論中變得日益核心？",
+    "optionsZhHant": [
+      "環境、氣候和可持續發展。",
+      "毫不顧及環境的經濟增長。",
+      "所有環境法都被廢除。",
+      "僅限地方垃圾管理。"
+    ],
+    "explanationZhHant": "自1970年代起，環境（如1972年斯德哥爾摩人類環境會議）與後來的氣候、可持續議題成為政治核心，瑞典在環保政策上較為領先。"
   },
   {
     "id": "draft-ch10-056",
@@ -2120,7 +3240,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Modern prosperity and industrial growth also created environmental consequences.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典现代工业发展如何与当今环境挑战相关？",
+    "optionsZh": [
+      "工业化和消费增长创造了高福利，也带来了排放和资源影响。",
+      "工业发展自动减少了瑞典的总资源消耗。",
+      "环境议题对瑞典工业变得重要，只是通过2000年代的欧盟指令。",
+      "瑞典基础工业在整个时期受到严格管制以完全避免环境影响。"
+    ],
+    "explanationZh": "工业化带来财富，但生产、消费和能源使用也造成污染、排放和资源消耗，这正是当今气候与可持续议题的历史根源。环境意识是逐步形成的，并非仅因欧盟。",
+    "questionZhHant": "瑞典現代工業發展如何與當今環境挑戰相關？",
+    "optionsZhHant": [
+      "工業化和消費增長創造了高福利，也帶來了排放和資源影響。",
+      "工業發展自動減少了瑞典的總資源消耗。",
+      "環境議題對瑞典工業變得重要，只是通過2000年代的歐盟指令。",
+      "瑞典基礎工業在整個時期受到嚴格管制以完全避免環境影響。"
+    ],
+    "explanationZhHant": "工業化帶來財富，但生產、消費和能源使用也造成污染、排放和資源消耗，這正是當今氣候與可持續議題的歷史根源。環境意識是逐步形成的，並非僅因歐盟。"
   },
   {
     "id": "draft-ch10-057",
@@ -2150,7 +3286,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Modern decisions often balance jobs, growth, environment, and sustainability.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个市镇面临是否允许一座新矿的决定：它能创造许多就业，但会损害当地环境。这体现了哪种社会目标冲突？",
+    "optionsZh": [
+      "短期经济增长与长期环境可持续性之间的权衡。",
+      "国家税收与市镇自治之间的冲突。",
+      "军事防御与民事危机管理之间的冲突。",
+      "议会制与直接民主之间的目标冲突。"
+    ],
+    "explanationZh": "这类决策典型地体现了“就业/增长”与“环境/可持续性”的目标冲突，是现代治理中常见的权衡（avvägning）。",
+    "questionZhHant": "一個市鎮面臨是否允許一座新礦的決定：它能創造許多就業，但會損害當地環境。這體現了哪種社會目標衝突？",
+    "optionsZhHant": [
+      "短期經濟增長與長期環境可持續性之間的權衡。",
+      "國家稅收與市鎮自治之間的衝突。",
+      "軍事防御與民事危機管理之間的衝突。",
+      "議會制與直接民主之間的目標衝突。"
+    ],
+    "explanationZhHant": "這類決策典型地體現了“就業/增長”與“環境/可持續性”的目標衝突，是現代治理中常見的權衡（avvägning）。"
   },
   {
     "id": "draft-ch10-058",
@@ -2179,7 +3331,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Modern Swedish history is often described as a transformation from agrarian poverty to democratic welfare society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "从19世纪中叶到今天，哪一总体历史历程描述了瑞典的发展？",
+    "optionsZh": [
+      "从一个贫穷的农业国，到一个民主的、工业化的福利社会。",
+      "从一个拥有殖民地的列强帝国，到一个孤立的岛国。",
+      "从绝对君主制，到军事独裁。",
+      "从一个高科技社会，到纯粹的原材料经济。"
+    ],
+    "explanationZh": "瑞典的现代化叙事：19世纪是贫困农业国、向外移民；经工业化、民主化、福利建设，成为今日的民主工业福利国家。瑞典并非殖民帝国（仅曾有少量海外领地）。",
+    "questionZhHant": "從19世紀中葉到今天，哪一總體歷史歷程描述了瑞典的發展？",
+    "optionsZhHant": [
+      "從一個貧窮的農業國，到一個民主的、工業化的福利社會。",
+      "從一個擁有殖民地的列強帝國，到一個孤立的島國。",
+      "從絕對君主制，到軍事獨裁。",
+      "從一個高科技社會，到純粹的原材料經濟。"
+    ],
+    "explanationZhHant": "瑞典的現代化敘事：19世紀是貧困農業國、向外移民；經工業化、民主化、福利建設，成為今日的民主工業福利國家。瑞典並非殖民帝國（僅曾有少量海外領地）。"
   },
   {
     "id": "draft-ch10-059",
@@ -2208,7 +3376,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Modern history helps explain current Swedish institutions and debates.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么了解现代瑞典历史对理解当今社会很重要？",
+    "optionsZh": [
+      "它解释了今天的权力、福利体系、制度和政治辩论是如何形成的。",
+      "它说明所有现行法律都在1900年前制定。",
+      "它证明社会在过去200年没有变化。",
+      "它取代了对宪法和民主的理解需要。"
+    ],
+    "explanationZh": "今日瑞典的福利、权利、政党格局和机构都源于近两百年历史进程；了解历史才能理解现状，而非取代对制度本身的学习。",
+    "questionZhHant": "為什麼了解現代瑞典歷史對理解當今社會很重要？",
+    "optionsZhHant": [
+      "它解釋了今天的權力、福利體系、制度和政治辯論是如何形成的。",
+      "它說明所有現行法律都在1900年前制定。",
+      "它證明社會在過去200年沒有變化。",
+      "它取代了對憲法和民主的理解需要。"
+    ],
+    "explanationZhHant": "今日瑞典的福利、權利、政黨格局和機構都源於近兩百年歷史進程；了解歷史才能理解現狀，而非取代對制度本身的學習。"
   },
   {
     "id": "draft-ch10-060",
@@ -2238,7 +3422,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden’s modern transformation came from several connected social, economic, and political forces.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪种总结最能抓住瑞典现代社会转型背后最重要的力量？",
+    "optionsZh": [
+      "工业化、人民运动、民主改革、福利投入和国际交流之间的相互作用。",
+      "国家强力中央集权，公民社会很少参与。",
+      "外国资本完全接管瑞典自然资源的所有权和管理。",
+      "瑞典在1990年代末迅速融入欧洲市场。"
+    ],
+    "explanationZh": "瑞典转型是多重力量交织的结果：工业革命提供经济，人民运动推动民主，福利改革保障安全，国际交流带来活力。这是一个自下而上与自上而下结合的过程。",
+    "questionZhHant": "哪種總結最能抓住瑞典現代社會轉型背後最重要的力量？",
+    "optionsZhHant": [
+      "工業化、人民運動、民主改革、福利投入和國際交流之間的相互作用。",
+      "國家強力中央集權，公民社會很少參與。",
+      "外國資本完全接管瑞典自然資源的所有權和管理。",
+      "瑞典在1990年代末迅速融入歐洲市場。"
+    ],
+    "explanationZhHant": "瑞典轉型是多重力量交織的結果：工業革命提供經濟，人民運動推動民主，福利改革保障安全，國際交流帶來活力。這是一個自下而上與自上而下結合的過程。"
   },
   {
     "id": "draft-extra-ch010-001",
@@ -2267,7 +3467,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Million Programme solved an acute housing shortage, but some areas were later criticized for monotonous architecture and growing social segregation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "事后对百万住房计划（Miljonprogrammet）的部分住宅区提出了什么批评？",
+    "optionsZh": [
+      "一些地区随时间出现了建筑单一、损耗和社会隔离的问题。",
+      "这些地区都在1980年代被拆除，因为没人愿意住。",
+      "住房从未通电或通自来水。",
+      "批评是这些地区只为国家雇员而建。"
+    ],
+    "explanationZh": "百万住房计划解决了紧急住房短缺，但部分大型郊区（如斯德哥尔摩郊外的“百万项目”街区）因建筑风格雷同、维护不足、失业率高等，后来出现社会隔离（segregation）和治安问题，成为政策反思对象。",
+    "questionZhHant": "事後對百萬住房計劃（Miljonprogrammet）的部分住宅區提出了什麼批評？",
+    "optionsZhHant": [
+      "一些地區隨時間出現了建築單一、損耗和社會隔離的問題。",
+      "這些地區都在1980年代被拆除，因為沒人願意住。",
+      "住房從未通電或通自來水。",
+      "批評是這些地區只為國家僱員而建。"
+    ],
+    "explanationZhHant": "百萬住房計劃解決了緊急住房短缺，但部分大型郊區（如斯德哥爾摩郊外的“百萬項目”街區）因建築風格雷同、維護不足、失業率高等，後來出現社會隔離（segregation）和治安問題，成為政策反思對象。"
   },
   {
     "id": "draft-extra-ch010-013",
@@ -2296,6 +3512,22 @@
     ],
     "correctIndex": 0,
     "explanationEn": "In March 2024 Sweden joined NATO, ending its long policy of military non-alignment that had characterized the 20th century.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "2024年瑞典的安全政策发生了什么重大变化？",
+    "optionsZh": [
+      "瑞典成为北约（Nato）防务联盟成员，结束了军事不结盟。",
+      "瑞典废除军事防御、依赖联合国。",
+      "瑞典退出欧盟以完全保持中立。",
+      "瑞典与仅北欧国家组建了自己的军事联盟。"
+    ],
+    "explanationZh": "2024年3月，瑞典正式加入北约（Nato），结束了自1814年以来（尤其整个20世纪）的军事不结盟传统，是冷战后安全环境（俄罗斯入侵乌克兰）下的重大转向。",
+    "questionZhHant": "2024年瑞典的安全政策發生了什麼重大變化？",
+    "optionsZhHant": [
+      "瑞典成為北約（Nato）防務聯盟成員，結束了軍事不結盟。",
+      "瑞典廢除軍事防御、依賴聯合國。",
+      "瑞典退出歐盟以完全保持中立。",
+      "瑞典與僅北歐國家組建了自己的軍事聯盟。"
+    ],
+    "explanationZhHant": "2024年3月，瑞典正式加入北約（Nato），結束了自1814年以來（尤其整個20世紀）的軍事不結盟傳統，是冷戰後安全環境（俄羅斯入侵烏克蘭）下的重大轉向。"
   }
 ]

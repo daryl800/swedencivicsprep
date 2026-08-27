@@ -1,5 +1,6 @@
 import type { Chapter, Lesson, Question, Topic } from "./types";
 import { DRAFT_QUESTIONS } from "./draftQuestions";
+import { toTraditionalChinese } from "./i18n/locales/zhHantConvert";
 
 export const OFFICIAL_STUDY_GUIDE_URL =
   "https://www.uhr.se/medborgarskapsprovet/utbildningsmaterial/";
@@ -519,6 +520,34 @@ export const LESSONS: Lesson[] = [
 
 export const QUESTIONS: Question[] = DRAFT_QUESTIONS.map((question) => {
   const chapter = OFFICIAL_CHAPTERS.find((item) => item.id === question.chapterId);
+  const translations: Question["translations"] = {
+    en: {
+      question: question.questionEn,
+      options: question.optionsEn
+    }
+  };
+  const explanations: Question["explanations"] = {
+    en: question.explanationEn
+  };
+
+  if (question.questionZh?.trim() && question.optionsZh?.length === 4) {
+    const simplifiedChinese = {
+      question: question.questionZh,
+      options: question.optionsZh
+    };
+    translations.zh = simplifiedChinese;
+    translations["zh-Hant"] = question.questionZhHant?.trim() && question.optionsZhHant?.length === 4
+      ? {
+          question: question.questionZhHant,
+          options: question.optionsZhHant
+        }
+      : toTraditionalChinese(simplifiedChinese);
+  }
+
+  if (question.explanationZh?.trim()) {
+    explanations.zh = question.explanationZh;
+    explanations["zh-Hant"] = question.explanationZhHant?.trim() || toTraditionalChinese(question.explanationZh);
+  }
 
   return {
     id: question.id,
@@ -527,14 +556,7 @@ export const QUESTIONS: Question[] = DRAFT_QUESTIONS.map((question) => {
     questionSv: question.questionSv,
     options: question.options,
     correctIndex: question.correctIndex,
-    translations: {
-      en: {
-        question: question.questionEn,
-        options: question.optionsEn
-      }
-    },
-    explanations: {
-      en: question.explanationEn
-    }
+    translations,
+    explanations
   };
 });

@@ -26,7 +26,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Stockholm is Sweden’s capital city.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典的首都是哪里？",
+    "optionsZh": [
+      "斯德哥尔摩。",
+      "哥德堡。",
+      "马尔默。",
+      "乌普萨拉。"
+    ],
+    "explanationZh": "斯德哥尔摩是瑞典的首都，也是全国政治、文化和经济的中心。",
+    "questionZhHant": "瑞典的首都是哪裡？",
+    "optionsZhHant": [
+      "斯德哥爾摩。",
+      "哥德堡。",
+      "馬爾默。",
+      "烏普薩拉。"
+    ],
+    "explanationZhHant": "斯德哥爾摩是瑞典的首都，也是全國政治、文化和經濟的中心。"
   },
   {
     "id": "draft-ch01-002",
@@ -55,7 +71,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden is located in northern Europe.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典位于欧洲的哪个部分？",
+    "optionsZh": [
+      "北欧。",
+      "南欧。",
+      "东欧。",
+      "西欧。"
+    ],
+    "explanationZh": "瑞典地处北欧，与挪威、芬兰接壤，东临波罗的海，属于北欧五国之一。",
+    "questionZhHant": "瑞典位於歐洲的哪個部分？",
+    "optionsZhHant": [
+      "北歐。",
+      "南歐。",
+      "東歐。",
+      "西歐。"
+    ],
+    "explanationZhHant": "瑞典地處北歐，與挪威、芬蘭接壤，東臨波羅的海，屬於北歐五國之一。"
   },
   {
     "id": "draft-ch01-003",
@@ -84,7 +116,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Nordic countries are Sweden, Norway, Denmark, Finland, and Iceland.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "通常哪些国家被算作北欧国家？",
+    "optionsZh": [
+      "瑞典、挪威、丹麦、芬兰和冰岛。",
+      "瑞典、德国、波兰、法国和西班牙。",
+      "瑞典、爱沙尼亚、拉脱维亚、立陶宛和波兰。",
+      "瑞典、英国、爱尔兰、荷兰和比利时。"
+    ],
+    "explanationZh": "北欧地区（Norden）通常指瑞典、挪威、丹麦、芬兰和冰岛。它们在地理上相近，在历史、文化和社会制度上也有许多相似之处。",
+    "questionZhHant": "通常哪些國家被算作北歐國家？",
+    "optionsZhHant": [
+      "瑞典、挪威、丹麥、芬蘭和冰島。",
+      "瑞典、德國、波蘭、法國和西班牙。",
+      "瑞典、愛沙尼亞、拉脫維亞、立陶宛和波蘭。",
+      "瑞典、英國、愛爾蘭、荷蘭和比利時。"
+    ],
+    "explanationZhHant": "北歐地區（Norden）通常指瑞典、挪威、丹麥、芬蘭和冰島。它們在地理上相近，在歷史、文化和社會制度上也有許多相似之處。"
   },
   {
     "id": "draft-ch01-004",
@@ -113,7 +161,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden has land borders with Norway and Finland.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典与哪些国家有陆地边界？",
+    "optionsZh": [
+      "挪威和芬兰。",
+      "丹麦和冰岛。",
+      "德国和波兰。",
+      "爱沙尼亚和拉脱维亚。"
+    ],
+    "explanationZh": "瑞典本土与挪威和芬兰接壤。丹麦与瑞典隔海相望（有跨海大桥相连），但并不与瑞典陆地相连。",
+    "questionZhHant": "瑞典與哪些國家有陸地邊界？",
+    "optionsZhHant": [
+      "挪威和芬蘭。",
+      "丹麥和冰島。",
+      "德國和波蘭。",
+      "愛沙尼亞和拉脫維亞。"
+    ],
+    "explanationZhHant": "瑞典本土與挪威和芬蘭接壤。丹麥與瑞典隔海相望（有跨海大橋相連），但並不與瑞典陸地相連。"
   },
   {
     "id": "draft-ch01-005",
@@ -142,7 +206,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Population means the people living in a place.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“befolkning”（人口）是什么意思？",
+    "optionsZh": [
+      "居住在一个地区或国家的人。",
+      "一个国家出口的商品。",
+      "法院制定的法律。",
+      "国家拥有的森林。"
+    ],
+    "explanationZh": "“befolkning”指居住在某地的人口。了解人口的数量和分布，是认识一个社会的基本出发点。",
+    "questionZhHant": "“befolkning”（人口）是什麼意思？",
+    "optionsZhHant": [
+      "居住在一個地區或國家的人。",
+      "一個國家出口的商品。",
+      "法院制定的法律。",
+      "國家擁有的森林。"
+    ],
+    "explanationZhHant": "“befolkning”指居住在某地的人口。了解人口的數量和分布，是認識一個社會的基本出發點。"
   },
   {
     "id": "draft-ch01-006",
@@ -171,7 +251,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish is Sweden’s main language.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典的主要语言是什么？",
+    "optionsZh": [
+      "瑞典语。",
+      "挪威语。",
+      "德语。",
+      "芬兰语。"
+    ],
+    "explanationZh": "瑞典语是瑞典的主要语言。芬兰语等是受法律保护的少数民族语言，但全国通用的主导语言是瑞典语。",
+    "questionZhHant": "瑞典的主要語言是什麼？",
+    "optionsZhHant": [
+      "瑞典語。",
+      "挪威語。",
+      "德語。",
+      "芬蘭語。"
+    ],
+    "explanationZhHant": "瑞典語是瑞典的主要語言。芬蘭語等是受法律保護的少數民族語言，但全國通用的主導語言是瑞典語。"
   },
   {
     "id": "draft-ch01-007",
@@ -200,7 +296,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "National minority languages have special protection in Sweden.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "什么是“全国少数民族语言”（nationellt minoritetsspråk）？",
+    "optionsZh": [
+      "在瑞典受到特别保护的语言。",
+      "只允许在家中说的语言。",
+      "国家禁止在学校使用的语言。",
+      "用来书写欧盟所有法律的语言。"
+    ],
+    "explanationZh": "瑞典依法认定若干全国少数民族语言（如芬兰语、萨米语、罗姆语等），它们在教育、公共服务等方面受特别保护，并非被禁止或限制。",
+    "questionZhHant": "什麼是“全國少數民族語言”（nationellt minoritetsspråk）？",
+    "optionsZhHant": [
+      "在瑞典受到特別保護的語言。",
+      "只允許在家中說的語言。",
+      "國家禁止在學校使用的語言。",
+      "用來書寫歐盟所有法律的語言。"
+    ],
+    "explanationZhHant": "瑞典依法認定若幹全國少數民族語言（如芬蘭語、薩米語、羅姆語等），它們在教育、公共服務等方面受特別保護，並非被禁止或限制。"
   },
   {
     "id": "draft-ch01-008",
@@ -229,7 +341,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Forests cover a large part of Sweden.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典最常见的自然地貌是哪一种？",
+    "optionsZh": [
+      "森林。",
+      "沙漠。",
+      "草原。",
+      "大片葡萄园。"
+    ],
+    "explanationZh": "瑞典国土一半以上被森林覆盖，森林既是瑞典的标志性自然景观，也是林业经济的重要基础。",
+    "questionZhHant": "瑞典最常見的自然地貌是哪一種？",
+    "optionsZhHant": [
+      "森林。",
+      "沙漠。",
+      "草原。",
+      "大片葡萄園。"
+    ],
+    "explanationZhHant": "瑞典國土一半以上被森林覆蓋，森林既是瑞典的標志性自然景觀，也是林業經濟的重要基礎。"
   },
   {
     "id": "draft-ch01-009",
@@ -258,7 +386,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Baltic Sea lies east and southeast of Sweden.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典以东是哪个水域？",
+    "optionsZh": [
+      "波罗的海。",
+      "北海。",
+      "卡特加特海峡。",
+      "挪威海。"
+    ],
+    "explanationZh": "瑞典东面和东南面是波罗的海；西面才是卡特加特海峡和朝向北海的方向。",
+    "questionZhHant": "瑞典以東是哪個水域？",
+    "optionsZhHant": [
+      "波羅的海。",
+      "北海。",
+      "卡特加特海峽。",
+      "挪威海。"
+    ],
+    "explanationZhHant": "瑞典東面和東南面是波羅的海；西面才是卡特加特海峽和朝向北海的方向。"
   },
   {
     "id": "draft-ch01-010",
@@ -287,7 +431,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipalities are local self-government units with important public responsibilities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典的“kommun”（市镇）是什么？",
+    "optionsZh": [
+      "负责学校、福利和本地服务等事务的地方层级。",
+      "领导国家防务的国家机关。",
+      "仅负责医疗的区域层级。",
+      "拥有所有道路的私人公司。"
+    ],
+    "explanationZh": "瑞典市镇（kommun）是地方自治单位，负责基础教育、社会福利、垃圾清运等贴近居民的公共服务。",
+    "questionZhHant": "瑞典的“kommun”（市鎮）是什麼？",
+    "optionsZhHant": [
+      "負責學校、福利和本地服務等事務的地方層級。",
+      "領導國家防務的國家機關。",
+      "僅負責醫療的區域層級。",
+      "擁有所有道路的私人公司。"
+    ],
+    "explanationZhHant": "瑞典市鎮（kommun）是地方自治單位，負責基礎教育、社會福利、垃圾清運等貼近居民的公共服務。"
   },
   {
     "id": "draft-ch01-011",
@@ -316,7 +476,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Regions are responsible for healthcare and regional development, among other tasks.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典的“region”（大区）是什么？",
+    "optionsZh": [
+      "负责医疗等事务的区域层级。",
+      "负责幼儿园和环卫的地方单位。",
+      "制定国家法律的行政机关。",
+      "体育和文化的志愿协会。"
+    ],
+    "explanationZh": "瑞典大区（region）主要负责医疗卫生、区域交通和区域发展等事务，与市镇的职责不同。",
+    "questionZhHant": "瑞典的“region”（大區）是什麼？",
+    "optionsZhHant": [
+      "負責醫療等事務的區域層級。",
+      "負責幼兒園和環衛的地方單位。",
+      "制定國家法律的行政機關。",
+      "體育和文化的志願協會。"
+    ],
+    "explanationZhHant": "瑞典大區（region）主要負責醫療衛生、區域交通和區域發展等事務，與市鎮的職責不同。"
   },
   {
     "id": "draft-ch01-012",
@@ -345,7 +521,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Gothenburg is one of Sweden’s largest cities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "以下哪一个是瑞典的大城市？",
+    "optionsZh": [
+      "哥德堡。",
+      "奥斯陆。",
+      "哥本哈根。",
+      "赫尔辛基。"
+    ],
+    "explanationZh": "哥德堡是瑞典第二大城市；奥斯陆在挪威，哥本哈根在丹麦，赫尔辛基在芬兰。",
+    "questionZhHant": "以下哪一個是瑞典的大城市？",
+    "optionsZhHant": [
+      "哥德堡。",
+      "奧斯陸。",
+      "哥本哈根。",
+      "赫爾辛基。"
+    ],
+    "explanationZhHant": "哥德堡是瑞典第二大城市；奧斯陸在挪威，哥本哈根在丹麥，赫爾辛基在芬蘭。"
   },
   {
     "id": "draft-ch01-013",
@@ -374,7 +566,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden has clear seasons and is generally colder than southern Europe.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "与欧洲更南部的许多国家相比，瑞典的气候可以怎样描述？",
+    "optionsZh": [
+      "往往更冷，且四季分明。",
+      "全年温暖且属于热带气候。",
+      "完全没有季节变化。",
+      "全年极端干旱、属于沙漠气候。"
+    ],
+    "explanationZh": "瑞典地处北欧，气候较欧洲南部偏冷，春、夏、秋、冬四季分明。",
+    "questionZhHant": "與歐洲更南部的許多國家相比，瑞典的氣候可以怎樣描述？",
+    "optionsZhHant": [
+      "往往更冷，且四季分明。",
+      "全年溫暖且屬於熱帶氣候。",
+      "完全沒有季節變化。",
+      "全年極端幹旱、屬於沙漠氣候。"
+    ],
+    "explanationZhHant": "瑞典地處北歐，氣候較歐洲南部偏冷，春、夏、秋、冬四季分明。"
   },
   {
     "id": "draft-ch01-014",
@@ -403,7 +611,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Sami are an Indigenous people in Sweden and the Nordic region.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典境内有哪个原住民群体？",
+    "optionsZh": [
+      "萨米人（Sami）。",
+      "因纽特人。",
+      "毛利人。",
+      "澳大利亚原住民。"
+    ],
+    "explanationZh": "萨米人（Sami）是生活在瑞典及北欧地区的原住民，以驯鹿养殖等传统产业闻名。",
+    "questionZhHant": "瑞典境內有哪個原住民羣體？",
+    "optionsZhHant": [
+      "薩米人（Sami）。",
+      "因紐特人。",
+      "毛利人。",
+      "澳大利亞原住民。"
+    ],
+    "explanationZhHant": "薩米人（Sami）是生活在瑞典及北歐地區的原住民，以馴鹿養殖等傳統產業聞名。"
   },
   {
     "id": "draft-ch01-015",
@@ -432,7 +656,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Swedish flag is blue with a yellow cross.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典国旗是什么颜色？",
+    "optionsZh": [
+      "蓝黄两色。",
+      "红白两色。",
+      "绿白两色。",
+      "黑橙两色。"
+    ],
+    "explanationZh": "瑞典国旗为蓝底黄色十字，蓝黄是瑞典的国家代表色。",
+    "questionZhHant": "瑞典國旗是什麼顏色？",
+    "optionsZhHant": [
+      "藍黃兩色。",
+      "紅白兩色。",
+      "綠白兩色。",
+      "黑橙兩色。"
+    ],
+    "explanationZhHant": "瑞典國旗為藍底黃色十字，藍黃是瑞典的國家代表色。"
   },
   {
     "id": "draft-ch01-016",
@@ -461,7 +701,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden is a democratic constitutional monarchy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "按国家政体，瑞典是什么？",
+    "optionsZh": [
+      "民主制和君主制（民主君主立宪制）。",
+      "由民选总统担任国家元首的共和国。",
+      "国王制定一切法律的绝对君主制。",
+      "由宗教领袖统治的神权政治。"
+    ],
+    "explanationZh": "瑞典是民主君主立宪制国家：实行民主选举，同时保留君主，但国王没有实权，不掌握立法权。",
+    "questionZhHant": "按國家政體，瑞典是什麼？",
+    "optionsZhHant": [
+      "民主制和君主制（民主君主立憲制）。",
+      "由民選總統擔任國家元首的共和國。",
+      "國王制定一切法律的絕對君主制。",
+      "由宗教領袖統治的神權政治。"
+    ],
+    "explanationZhHant": "瑞典是民主君主立憲制國家：實行民主選舉，同時保留君主，但國王沒有實權，不掌握立法權。"
   },
   {
     "id": "draft-ch01-017",
@@ -490,7 +746,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden is a member of the European Union.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典是欧盟成员国吗？",
+    "optionsZh": [
+      "是。",
+      "不是，瑞典只是联合国成员。",
+      "不是，瑞典在欧洲之外。",
+      "是，但只有市镇是成员国。"
+    ],
+    "explanationZh": "瑞典自1995年起是欧盟成员国；它同时也加入联合国，但欧盟成员资格是全国层面的。",
+    "questionZhHant": "瑞典是歐盟成員國嗎？",
+    "optionsZhHant": [
+      "是。",
+      "不是，瑞典只是聯合國成員。",
+      "不是，瑞典在歐洲之外。",
+      "是，但只有市鎮是成員國。"
+    ],
+    "explanationZhHant": "瑞典自1995年起是歐盟成員國；它同時也加入聯合國，但歐盟成員資格是全國層面的。"
   },
   {
     "id": "draft-ch01-018",
@@ -519,7 +791,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden uses the Swedish krona.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典使用哪种货币？",
+    "optionsZh": [
+      "瑞典克朗（svensk krona）。",
+      "欧元（唯一货币）。",
+      "丹麦克朗。",
+      "挪威克朗。"
+    ],
+    "explanationZh": "瑞典使用本国货币“瑞典克朗”（krona）。瑞典虽属欧盟，但通过公投决定暂不采用欧元。",
+    "questionZhHant": "瑞典使用哪種貨幣？",
+    "optionsZhHant": [
+      "瑞典克朗（svensk krona）。",
+      "歐元（唯一貨幣）。",
+      "丹麥克朗。",
+      "挪威克朗。"
+    ],
+    "explanationZhHant": "瑞典使用本國貨幣“瑞典克朗”（krona）。瑞典雖屬歐盟，但通過公投決定暫不採用歐元。"
   },
   {
     "id": "draft-ch01-019",
@@ -548,7 +836,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The public sector includes state, regional, and municipal activities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“公共部门”（offentlig sektor）指什么？",
+    "optionsZh": [
+      "由国家、大区和市镇负责的活动。",
+      "全国所有的私人家庭。",
+      "仅指出口商品的公司。",
+      "所有宗教组织。"
+    ],
+    "explanationZh": "公共部门指由中央政府、大区和市镇（kommun）运营和负责的各项公共服务与行政事务，与私营部门相对。",
+    "questionZhHant": "“公共部門”（offentlig sektor）指什麼？",
+    "optionsZhHant": [
+      "由國家、大區和市鎮負責的活動。",
+      "全國所有的私人家庭。",
+      "僅指出口商品的公司。",
+      "所有宗教組織。"
+    ],
+    "explanationZhHant": "公共部門指由中央政府、大區和市鎮（kommun）運營和負責的各項公共服務與行政事務，與私營部門相對。"
   },
   {
     "id": "draft-ch01-020",
@@ -577,7 +881,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Society includes people and the structures that organize shared life.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "“samhälle”（社会）指什么？",
+    "optionsZh": [
+      "共同运作的人群、制度、规则和社群。",
+      "仅指一个国家的自然物理环境。",
+      "仅指私营企业和股份公司。",
+      "仅指国家最高政治领导层。"
+    ],
+    "explanationZh": "一个社会由人、制度、法律规范和各类社群共同构成，是人们在其中共同生活的整体。",
+    "questionZhHant": "“samhälle”（社會）指什麼？",
+    "optionsZhHant": [
+      "共同運作的人羣、制度、規則和社羣。",
+      "僅指一個國家的自然物理環境。",
+      "僅指私營企業和股份公司。",
+      "僅指國家最高政治領導層。"
+    ],
+    "explanationZhHant": "一個社會由人、制度、法律規範和各類社羣共同構成，是人們在其中共同生活的整體。"
   },
   {
     "id": "draft-ch01-021",
@@ -606,7 +926,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Geography shapes how people live, work, travel, and organize services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么瑞典的地理会影响社会？",
+    "optionsZh": [
+      "距离、气候、自然资源和人口分布会影响工作、出行和服务。",
+      "地理意味着所有国家机关必须设在同一个城市。",
+      "地理意味着国界随每个季节自动改变。",
+      "地理直接决定每个人必须选择哪种职业教育。"
+    ],
+    "explanationZh": "瑞典地域狭长、气候和资源分布不均，这些地理因素直接影响人们的居住、就业、交通和公共服务的布局。",
+    "questionZhHant": "為什麼瑞典的地理會影響社會？",
+    "optionsZhHant": [
+      "距離、氣候、自然資源和人口分布會影響工作、出行和服務。",
+      "地理意味着所有國家機關必須設在同一個城市。",
+      "地理意味着國界隨每個季節自動改變。",
+      "地理直接決定每個人必須選擇哪種職業教育。"
+    ],
+    "explanationZhHant": "瑞典地域狹長、氣候和資源分布不均，這些地理因素直接影響人們的居住、就業、交通和公共服務的布局。"
   },
   {
     "id": "draft-ch01-022",
@@ -635,7 +971,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Population is often concentrated where work, education, and services are available.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么许多人住在瑞典南部和大城市？",
+    "optionsZh": [
+      "那里有许多工作、教育机会、服务和交通线路。",
+      "法律禁止在农村建房。",
+      "国家通过强制许可把所有居民安置在城市。",
+      "气候使北方完全无法经营生意。"
+    ],
+    "explanationZh": "工作、教育、医疗和交通等资源在南部和城市更集中，因此人口也更多聚集于此。",
+    "questionZhHant": "為什麼許多人住在瑞典南部和大城市？",
+    "optionsZhHant": [
+      "那裡有許多工作、教育機會、服務和交通線路。",
+      "法律禁止在農村建房。",
+      "國家通過強制許可把所有居民安置在城市。",
+      "氣候使北方完全無法經營生意。"
+    ],
+    "explanationZhHant": "工作、教育、醫療和交通等資源在南部和城市更集中，因此人口也更多聚集於此。"
   },
   {
     "id": "draft-ch01-023",
@@ -664,7 +1016,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Everyday life can differ depending on distance, transport, and local services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "城市和农村之间有什么可能影响日常生活的差异？",
+    "optionsZh": [
+      "服务和公共交通的可及程度可能各不相同。",
+      "农村居民不用向市镇缴税。",
+      "城市居民拥有不同的宪法权利。",
+      "农村适用一套完全不同的刑法。"
+    ],
+    "explanationZh": "城乡差异主要体现在距离、交通和本地服务的便利程度上；但所有公民享有同等基本权利，法律全国统一。",
+    "questionZhHant": "城市和農村之間有什麼可能影響日常生活的差異？",
+    "optionsZhHant": [
+      "服務和公共交通的可及程度可能各不相同。",
+      "農村居民不用向市鎮繳稅。",
+      "城市居民擁有不同的憲法權利。",
+      "農村適用一套完全不同的刑法。"
+    ],
+    "explanationZhHant": "城鄉差異主要體現在距離、交通和本地服務的便利程度上；但所有公民享有同等基本權利，法律全國統一。"
   },
   {
     "id": "draft-ch01-024",
@@ -693,7 +1061,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Natural resources have shaped Sweden’s economy and regional development.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么自然资源对瑞典很重要？",
+    "optionsZh": [
+      "它们能提供原材料、能源、就业和出口收入。",
+      "它们意味着国家无需向公民征税。",
+      "它们完全取代了他国国际贸易的需要。",
+      "它们保证全体人口都从事原料行业。"
+    ],
+    "explanationZh": "森林、矿产、水电等自然资源为瑞典提供工业原料、能源和出口收入，是国家经济的重要支柱。",
+    "questionZhHant": "為什麼自然資源對瑞典很重要？",
+    "optionsZhHant": [
+      "它們能提供原材料、能源、就業和出口收入。",
+      "它們意味着國家無需向公民徵稅。",
+      "它們完全取代了他國國際貿易的需要。",
+      "它們保證全體人口都從事原料行業。"
+    ],
+    "explanationZhHant": "森林、礦產、水電等自然資源為瑞典提供工業原料、能源和出口收入，是國家經濟的重要支柱。"
   },
   {
     "id": "draft-ch01-025",
@@ -722,7 +1106,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Forests have long been important for Swedish industry and economy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "森林对瑞典有多重要？",
+    "optionsZh": [
+      "它为工业、能源和出口提供了原材料。",
+      "它阻碍了瑞典所有较大城市的出现。",
+      "它由联合国环境署而非瑞典法律直接管辖。",
+      "它导致全国农业被禁。"
+    ],
+    "explanationZh": "历史上森林支撑了瑞典的采矿、木材和造纸工业，至今仍是重要的出口原材料来源。",
+    "questionZhHant": "森林對瑞典有多重要？",
+    "optionsZhHant": [
+      "它為工業、能源和出口提供了原材料。",
+      "它阻礙了瑞典所有較大城市的出現。",
+      "它由聯合國環境署而非瑞典法律直接管轄。",
+      "它導致全國農業被禁。"
+    ],
+    "explanationZhHant": "歷史上森林支撐了瑞典的採礦、木材和造紙工業，至今仍是重要的出口原材料來源。"
   },
   {
     "id": "draft-ch01-026",
@@ -751,7 +1151,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Mining and minerals are important for jobs and industrial production in some regions.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么矿山和矿产在瑞典某些地区很重要？",
+    "optionsZh": [
+      "它们为工业创造了就业和原材料。",
+      "它们赋予市镇印制本币的权利。",
+      "它们决定各政党在国会获得多少席位。",
+      "它们取代了大区对医疗的责任。"
+    ],
+    "explanationZh": "瑞典北部矿藏（如铁矿）丰富，采矿业为当地提供大量就业，也是工业的重要原料来源。",
+    "questionZhHant": "為什麼礦山和礦產在瑞典某些地區很重要？",
+    "optionsZhHant": [
+      "它們為工業創造了就業和原材料。",
+      "它們賦予市鎮印制本幣的權利。",
+      "它們決定各政黨在國會獲得多少席位。",
+      "它們取代了大區對醫療的責任。"
+    ],
+    "explanationZhHant": "瑞典北部礦藏（如鐵礦）豐富，採礦業為當地提供大量就業，也是工業的重要原料來源。"
   },
   {
     "id": "draft-ch01-027",
@@ -780,7 +1196,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Water resources matter for everyday life, energy, nature, and society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么水在瑞典很重要？",
+    "optionsZh": [
+      "它用于饮用水、能源、交通、自然和户外生活。",
+      "它意味着瑞典不需要任何陆地基础设施。",
+      "它决定谁能在市镇选举中投票。",
+      "它取代了市镇废物处理的需要。"
+    ],
+    "explanationZh": "瑞典湖泊河流众多，水既提供饮用水和水电能源，也支撑航运、生态和民众的户外休闲。",
+    "questionZhHant": "為什麼水在瑞典很重要？",
+    "optionsZhHant": [
+      "它用於飲用水、能源、交通、自然和戶外生活。",
+      "它意味着瑞典不需要任何陸地基礎設施。",
+      "它決定誰能在市鎮選舉中投票。",
+      "它取代了市鎮廢物處理的需要。"
+    ],
+    "explanationZhHant": "瑞典湖泊河流眾多，水既提供飲用水和水電能源，也支撐航運、生態和民眾的戶外休閒。"
   },
   {
     "id": "draft-ch01-028",
@@ -809,7 +1241,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The seasons affect daily routines and social planning.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "季节如何影响瑞典人的日常生活？",
+    "optionsZh": [
+      "它们影响衣着、出行、工作、休闲和能源需求。",
+      "它们决定哪个政党领导政府。",
+      "它们意味着义务教育学校在冬季全天停课。",
+      "它们每月改变市镇的法律义务。"
+    ],
+    "explanationZh": "瑞典冬寒夏暖，季节变化影响人们穿衣、取暖耗能、出行方式和休闲活动。",
+    "questionZhHant": "季節如何影響瑞典人的日常生活？",
+    "optionsZhHant": [
+      "它們影響衣着、出行、工作、休閒和能源需求。",
+      "它們決定哪個政黨領導政府。",
+      "它們意味着義務教育學校在冬季全天停課。",
+      "它們每月改變市鎮的法律義務。"
+    ],
+    "explanationZhHant": "瑞典冬寒夏暖，季節變化影響人們穿衣、取暖耗能、出行方式和休閒活動。"
   },
   {
     "id": "draft-ch01-029",
@@ -838,7 +1286,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Infrastructure connects people and places across Sweden.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "在瑞典这样一个狭长的国家，为什么需要公路、铁路和数字基础设施？",
+    "optionsZh": [
+      "为了让人员、货物和信息能够跨越长距离流动。",
+      "为了取代市镇议会的所有决定。",
+      "为了防止居民在各地区之间迁移。",
+      "为了让只有大城市地区获得电力和宽带。"
+    ],
+    "explanationZh": "瑞典南北距离长，发达的交通与数字网络把各地居民、劳动市场和贸易连接起来。",
+    "questionZhHant": "在瑞典這樣一個狹長的國家，為什麼需要公路、鐵路和數字基礎設施？",
+    "optionsZhHant": [
+      "為了讓人員、貨物和資訊能夠跨越長距離流動。",
+      "為了取代市鎮議會的所有決定。",
+      "為了防止居民在各地區之間遷移。",
+      "為了讓只有大城市地區獲得電力和寬帶。"
+    ],
+    "explanationZhHant": "瑞典南北距離長，發達的交通與數字網絡把各地居民、勞動市場和貿易連接起來。"
   },
   {
     "id": "draft-ch01-030",
@@ -867,7 +1331,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Migration has shaped Sweden’s population and cultural diversity.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "移民如何影响瑞典的人口？",
+    "optionsZh": [
+      "它使人口变得更加多元文化。",
+      "它使瑞典语在与当局打交道时不再适用。",
+      "它导致市镇自治被废除。",
+      "它意味着所有居民现在都住在同样的三个大城市。"
+    ],
+    "explanationZh": "多年来移民使瑞典人口在族裔、语言和文化上更加多元，丰富了社会结构。",
+    "questionZhHant": "移民如何影響瑞典的人口？",
+    "optionsZhHant": [
+      "它使人口變得更加多元文化。",
+      "它使瑞典語在與當局打交道時不再適用。",
+      "它導致市鎮自治被廢除。",
+      "它意味着所有居民現在都住在同樣的三個大城市。"
+    ],
+    "explanationZhHant": "多年來移民使瑞典人口在族裔、語言和文化上更加多元，豐富了社會結構。"
   },
   {
     "id": "draft-ch01-031",
@@ -896,7 +1376,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "National minorities are part of Sweden’s history and present society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么全国少数民族在瑞典的历史和社会中很重要？",
+    "optionsZh": [
+      "他们有自己的语言、文化和历史经验，是瑞典的一部分。",
+      "他们独享制定瑞典基本法的权利。",
+      "他们被排除在瑞典法律体系之外。",
+      "他们仅在较古老的历史中被承认，今天没有权利。"
+    ],
+    "explanationZh": "瑞典的全国少数民族（如萨米人、芬兰人、罗姆人等）拥有独特的语言文化，是瑞典历史与当代社会不可或缺的组成部分，并受法律保护。",
+    "questionZhHant": "為什麼全國少數民族在瑞典的歷史和社會中很重要？",
+    "optionsZhHant": [
+      "他們有自己的語言、文化和歷史經驗，是瑞典的一部分。",
+      "他們獨享制定瑞典基本法的權利。",
+      "他們被排除在瑞典法律體系之外。",
+      "他們僅在較古老的歷史中被承認，今天沒有權利。"
+    ],
+    "explanationZhHant": "瑞典的全國少數民族（如薩米人、芬蘭人、羅姆人等）擁有獨特的語言文化，是瑞典歷史與當代社會不可或缺的組成部分，並受法律保護。"
   },
   {
     "id": "draft-ch01-032",
@@ -925,7 +1421,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The Sami are recognized as an Indigenous people.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么萨米人在瑞典拥有特殊地位？",
+    "optionsZh": [
+      "他们是拥有自身文化、历史和语言的原住民。",
+      "他们组成瑞典的行政政府。",
+      "他们决定全国的所得税。",
+      "他们自动在国会中组成一个政党。"
+    ],
+    "explanationZh": "萨米人是北欧的原住民，瑞典依法承认其特殊地位，体现在语言文化保护和驯鹿养殖等传统权利上。",
+    "questionZhHant": "為什麼薩米人在瑞典擁有特殊地位？",
+    "optionsZhHant": [
+      "他們是擁有自身文化、歷史和語言的原住民。",
+      "他們組成瑞典的行政政府。",
+      "他們決定全國的所得稅。",
+      "他們自動在國會中組成一個政黨。"
+    ],
+    "explanationZhHant": "薩米人是北歐的原住民，瑞典依法承認其特殊地位，體現在語言文化保護和馴鹿養殖等傳統權利上。"
   },
   {
     "id": "draft-ch01-033",
@@ -954,7 +1466,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Language helps people understand information and participate in society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么语言对参与社会很重要？",
+    "optionsZh": [
+      "语言是获取信息、教育、工作和民主参与所必需的。",
+      "语言是获得瑞典护照的唯一要求。",
+      "语言取代所有法定人权。",
+      "市镇获得立法权来选择居民的母语。"
+    ],
+    "explanationZh": "掌握瑞典语有助于阅读官方信件、接受教育和就业，从而真正参与民主与社会生活。",
+    "questionZhHant": "為什麼語言對參與社會很重要？",
+    "optionsZhHant": [
+      "語言是獲取資訊、教育、工作和民主參與所必需的。",
+      "語言是獲得瑞典護照的唯一要求。",
+      "語言取代所有法定人權。",
+      "市鎮獲得立法權來選擇居民的母語。"
+    ],
+    "explanationZhHant": "掌握瑞典語有助於閱讀官方信件、接受教育和就業，從而真正參與民主與社會生活。"
   },
   {
     "id": "draft-ch01-034",
@@ -983,7 +1511,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipalities and regions deliver many everyday public services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么市镇和大区对人们的日常生活很重要？",
+    "optionsZh": [
+      "它们负责贴近居民的许多服务，例如学校、照护和医疗。",
+      "它们取代瑞典国会（Riksdagen）作为国家立法者的角色。",
+      "它们决定居民必须归属哪个宗教团体。",
+      "它们拥有瑞典所有私人土地和住宅。"
+    ],
+    "explanationZh": "市镇和大区直接提供居民日常依赖的公共服务，如幼儿园、学校、养老照护和医疗。",
+    "questionZhHant": "為什麼市鎮和大區對人們的日常生活很重要？",
+    "optionsZhHant": [
+      "它們負責貼近居民的許多服務，例如學校、照護和醫療。",
+      "它們取代瑞典國會（Riksdagen）作為國家立法者的角色。",
+      "它們決定居民必須歸屬哪個宗教團體。",
+      "它們擁有瑞典所有私人土地和住宅。"
+    ],
+    "explanationZhHant": "市鎮和大區直接提供居民日常依賴的公共服務，如幼兒園、學校、養老照護和醫療。"
   },
   {
     "id": "draft-ch01-035",
@@ -1012,7 +1556,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden’s economy is connected to international trade and cooperation.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "与世界的联系如何影响瑞典经济？",
+    "optionsZh": [
+      "贸易、出口、进口和国际企业影响就业和收入。",
+      "国际贸易意味着瑞典不需要自己的中央银行。",
+      "外部世界直接决定瑞典市镇的税率。",
+      "对外贸易使瑞典的职业教育变得多余。"
+    ],
+    "explanationZh": "瑞典是开放型经济，对外贸易和国际投资带来就业与收入，也使本国经济受全球市场波动影响。",
+    "questionZhHant": "與世界的聯系如何影響瑞典經濟？",
+    "optionsZhHant": [
+      "貿易、出口、進口和國際企業影響就業和收入。",
+      "國際貿易意味着瑞典不需要自己的中央銀行。",
+      "外部世界直接決定瑞典市鎮的稅率。",
+      "對外貿易使瑞典的職業教育變得多餘。"
+    ],
+    "explanationZhHant": "瑞典是開放型經濟，對外貿易和國際投資帶來就業與收入，也使本國經濟受全球市場波動影響。"
   },
   {
     "id": "draft-ch01-036",
@@ -1041,7 +1601,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Environmental issues affect health, economy, nature, and future society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么环境问题在瑞典很重要？",
+    "optionsZh": [
+      "自然、气候、水和资源既影响当代人，也影响子孙后代。",
+      "环境问题只关乎私人旅游和休闲。",
+      "环境决定取代全国大选的需要。",
+      "环境立法只适用于无瑞典公民身份的人。"
+    ],
+    "explanationZh": "环境保护关系民众健康、经济与自然生态，也关系到对后代的责任，是公共政策的重要议题。",
+    "questionZhHant": "為什麼環境問題在瑞典很重要？",
+    "optionsZhHant": [
+      "自然、氣候、水和資源既影響當代人，也影響子孫後代。",
+      "環境問題只關乎私人旅遊和休閒。",
+      "環境決定取代全國大選的需要。",
+      "環境立法只適用於無瑞典公民身份的人。"
+    ],
+    "explanationZhHant": "環境保護關系民眾健康、經濟與自然生態，也關系到對後代的責任，是公共政策的重要議題。"
   },
   {
     "id": "draft-ch01-037",
@@ -1070,7 +1646,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Housing conditions vary with local and regional circumstances.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么瑞典各地的住房问题可能不同？",
+    "optionsZh": [
+      "需求、工作、人口和距离各不相同。",
+      "有国家统一定价，使所有住房价格相同。",
+      "市镇完全无权进行社区规划。",
+      "住房市场完全按当地天气条件规制。"
+    ],
+    "explanationZh": "人口、就业和地价的地区差异，使住房供需与价格在不同地方大不相同。",
+    "questionZhHant": "為什麼瑞典各地的住房問題可能不同？",
+    "optionsZhHant": [
+      "需求、工作、人口和距離各不相同。",
+      "有國家統一定價，使所有住房價格相同。",
+      "市鎮完全無權進行社區規劃。",
+      "住房市場完全按當地天氣條件規制。"
+    ],
+    "explanationZhHant": "人口、就業和地價的地區差異，使住房供需與價格在不同地方大不相同。"
   },
   {
     "id": "draft-ch01-038",
@@ -1099,7 +1691,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Identity can be connected to local places, landscapes, and experiences.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "地点和自然如何影响人们的身份认同？",
+    "optionsZh": [
+      "人们可以对某个城镇、地区、自然环境或文化产生归属感。",
+      "居住地自动决定公民必须投哪个政党的票。",
+      "地理位置使同一地区居民价值观完全一致。",
+      "个人身份仅由当局的个人身份号决定。"
+    ],
+    "explanationZh": "家乡、自然景观和地域文化常让人产生归属感，身份往往是多重且个人化的。",
+    "questionZhHant": "地點和自然如何影響人們的身份認同？",
+    "optionsZhHant": [
+      "人們可以對某個城鎮、地區、自然環境或文化產生歸屬感。",
+      "居住地自動決定公民必須投哪個政黨的票。",
+      "地理位置使同一地區居民價值觀完全一致。",
+      "個人身份僅由當局的個人身份號決定。"
+    ],
+    "explanationZhHant": "家鄉、自然景觀和地域文化常讓人產生歸屬感，身份往往是多重且個人化的。"
   },
   {
     "id": "draft-ch01-039",
@@ -1128,7 +1736,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Nordic countries share some similarities but remain separate states.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么瑞典可以和其他北欧国家比较？",
+    "optionsZh": [
+      "这些国家地理相近，在历史、文化和政治上也有很多相似之处。",
+      "所有北欧国家由同一个共同政府治理。",
+      "北欧是一个合并成、无国界的国家。",
+      "瑞典拥有最高权力并为其他国家立法。"
+    ],
+    "explanationZh": "瑞典与北欧邻国地理邻近、制度相似，但各国仍是主权独立国家，拥有自己的政府和法律。",
+    "questionZhHant": "為什麼瑞典可以和其他北歐國家比較？",
+    "optionsZhHant": [
+      "這些國家地理相近，在歷史、文化和政治上也有很多相似之處。",
+      "所有北歐國家由同一個共同政府治理。",
+      "北歐是一個合並成、無國界的國家。",
+      "瑞典擁有最高權力並為其他國家立法。"
+    ],
+    "explanationZhHant": "瑞典與北歐鄰國地理鄰近、制度相似，但各國仍是主權獨立國家，擁有自己的政府和法律。"
   },
   {
     "id": "draft-ch01-040",
@@ -1157,7 +1781,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden has changed economically, socially, and politically over time.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "瑞典随着时间发生了怎样的变化？",
+    "optionsZh": [
+      "从一个较贫穷的农业社会，发展为工业化和以服务业为主的福利社会。",
+      "从一个民主共和国变为专制君主制。",
+      "从一个现代工业国变为无城市的纯自给农业。",
+      "从国家计划经济变为完全没有公共部门的社会。"
+    ],
+    "explanationZh": "近百年瑞典从一个以农业为主、相对贫穷的国家，转变为工业化、高福利的现代服务业社会。",
+    "questionZhHant": "瑞典隨着時間發生了怎樣的變化？",
+    "optionsZhHant": [
+      "從一個較貧窮的農業社會，發展為工業化和以服務業為主的福利社會。",
+      "從一個民主共和國變為專制君主制。",
+      "從一個現代工業國變為無城市的純自給農業。",
+      "從國家計劃經濟變為完全沒有公共部門的社會。"
+    ],
+    "explanationZhHant": "近百年瑞典從一個以農業為主、相對貧窮的國家，轉變為工業化、高福利的現代服務業社會。"
   },
   {
     "id": "draft-ch01-041",
@@ -1186,7 +1826,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Geography and population density affect how services can be organized.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "有人说全国居民都应同样就近享有服务。为什么这可能有困难？",
+    "optionsZh": [
+      "瑞典狭长且许多地方人口稀少，这影响距离和资源。",
+      "瑞典法律把所有公共服务只分配给大城市。",
+      "农村居民不享有同等的基本服务权利。",
+      "大区仅须在大学城市提供服务。"
+    ],
+    "explanationZh": "瑞典地广人稀，在偏远地区提供同等密度的服务成本高、难度大，因此需要因地制宜的安排。",
+    "questionZhHant": "有人說全國居民都應同樣就近享有服務。為什麼這可能有困難？",
+    "optionsZhHant": [
+      "瑞典狹長且許多地方人口稀少，這影響距離和資源。",
+      "瑞典法律把所有公共服務只分配給大城市。",
+      "農村居民不享有同等的基本服務權利。",
+      "大區僅須在大學城市提供服務。"
+    ],
+    "explanationZhHant": "瑞典地廣人稀，在偏遠地區提供同等密度的服務成本高、難度大，因此需要因地制宜的安排。"
   },
   {
     "id": "draft-ch01-042",
@@ -1215,7 +1871,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Resource use can involve trade-offs between jobs, economy, environment, and local interests.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一家公司想利用自然资源创造新工作，而居民担心环境。这明显体现了什么社会问题？",
+    "optionsZh": [
+      "经济、就业、环境和地方影响之间的平衡。",
+      "经济增长始终优先于环境法的原则。",
+      "自然资源只能由国家企业开采的规则。",
+      "当地居民不得对商业落户发表意见的原则。"
+    ],
+    "explanationZh": "资源开发常涉及就业与环保之间的权衡，体现了经济发展与生态保护需要平衡这一公共政策议题。",
+    "questionZhHant": "一家公司想利用自然資源創造新工作，而居民擔心環境。這明顯體現了什麼社會問題？",
+    "optionsZhHant": [
+      "經濟、就業、環境和地方影響之間的平衡。",
+      "經濟增長始終優先於環境法的原則。",
+      "自然資源只能由國家企業開採的規則。",
+      "當地居民不得對商業落戶發表意見的原則。"
+    ],
+    "explanationZhHant": "資源開發常涉及就業與環保之間的權衡，體現了經濟發展與生態保護需要平衡這一公共政策議題。"
   },
   {
     "id": "draft-ch01-043",
@@ -1244,7 +1916,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Population change can affect local planning and inclusion.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个市镇迎来更多不同语言和背景的居民。哪项规划会变得尤为重要？",
+    "optionsZh": [
+      "信息、学校、融合、服务和集会场所。",
+      "要求私人家中只能说一种语言。",
+      "削减所有市政服务以减少迁入。",
+      "禁止在市镇成立公民社会团体。"
+    ],
+    "explanationZh": "面对人口多样化，市镇需要加强信息沟通、教育、社会融合和公共空间，促进包容共处。",
+    "questionZhHant": "一個市鎮迎來更多不同語言和背景的居民。哪項規劃會變得尤為重要？",
+    "optionsZhHant": [
+      "資訊、學校、融合、服務和集會場所。",
+      "要求私人家中只能說一種語言。",
+      "削減所有市政服務以減少遷入。",
+      "禁止在市鎮成立公民社會團體。"
+    ],
+    "explanationZhHant": "面對人口多樣化，市鎮需要加強資訊溝通、教育、社會融合和公共空間，促進包容共處。"
   },
   {
     "id": "draft-ch01-044",
@@ -1273,7 +1961,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Urbanization means more people move to or live in urban areas.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名年轻人从小镇搬到较大城市求学。这可能是哪类社会变化的体现？",
+    "optionsZh": [
+      "城市化和教育、就业向城市集中。",
+      "农村市镇自治被废除。",
+      "要求高等教育必须在首都进行的国家改革。",
+      "年轻成年人普选权的缩减。"
+    ],
+    "explanationZh": "人口向城市迁移以寻求教育和工作，是“城市化”的典型表现，会改变地区人口结构。",
+    "questionZhHant": "一名年輕人從小鎮搬到較大城市求學。這可能是哪類社會變化的體現？",
+    "optionsZhHant": [
+      "城市化和教育、就業向城市集中。",
+      "農村市鎮自治被廢除。",
+      "要求高等教育必須在首都進行的國家改革。",
+      "年輕成年人普選權的縮減。"
+    ],
+    "explanationZhHant": "人口向城市遷移以尋求教育和工作，是“城市化”的典型表現，會改變地區人口結構。"
   },
   {
     "id": "draft-ch01-045",
@@ -1302,7 +2006,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Minority language protection supports cultural rights and historical responsibility.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名学生疑惑，既然瑞典语是主要语言，为何少数民族语言还受特别保护。哪个回答最合适？",
+    "optionsZh": [
+      "该保护关乎历史上少数群体保留语言文化的权利。",
+      "该保护意味着多数语言瑞典语不再在学校教授。",
+      "该保护使少数民族语言优先于瑞典的基本法。",
+      "该保护意味着所有国家机关必须更换工作语言。"
+    ],
+    "explanationZh": "保护少数民族语言，是为了尊重历史上长期居住群体的语言文化权利，并不削弱瑞典语的地位。",
+    "questionZhHant": "一名學生疑惑，既然瑞典語是主要語言，為何少數民族語言還受特別保護。哪個回答最合適？",
+    "optionsZhHant": [
+      "該保護關乎歷史上少數羣體保留語言文化的權利。",
+      "該保護意味着多數語言瑞典語不再在學校教授。",
+      "該保護使少數民族語言優先於瑞典的基本法。",
+      "該保護意味着所有國家機關必須更換工作語言。"
+    ],
+    "explanationZhHant": "保護少數民族語言，是為了尊重歷史上長期居住羣體的語言文化權利，並不削弱瑞典語的地位。"
   },
   {
     "id": "draft-ch01-046",
@@ -1331,7 +2051,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sami perspectives matter because of Indigenous status, history, culture, and land use.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "关于瑞典北部土地、驯鹿养殖和自然资源的问题引发讨论。为何萨米视角可能相关？",
+    "optionsZh": [
+      "萨米人是在该地区与土地、文化和生计上有历史联系的原住民。",
+      "萨米议会单独决定所有国家环境法。",
+      "萨米生计完全豁免于瑞典环境与建筑规则。",
+      "萨米视角依法只能在文化和博物馆事务中被考虑。"
+    ],
+    "explanationZh": "萨米人对北部的土地和驯鹿养殖有世代相传的传统，其原住民地位使他们的视角在相关决策中具有重要意义。",
+    "questionZhHant": "關於瑞典北部土地、馴鹿養殖和自然資源的問題引發討論。為何薩米視角可能相關？",
+    "optionsZhHant": [
+      "薩米人是在該地區與土地、文化和生計上有歷史聯系的原住民。",
+      "薩米議會單獨決定所有國家環境法。",
+      "薩米生計完全豁免於瑞典環境與建築規則。",
+      "薩米視角依法只能在文化和博物館事務中被考慮。"
+    ],
+    "explanationZhHant": "薩米人對北部的土地和馴鹿養殖有世代相傳的傳統，其原住民地位使他們的視角在相關決策中具有重要意義。"
   },
   {
     "id": "draft-ch01-047",
@@ -1360,7 +2096,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Climate and weather affect many parts of society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个冬天异常温和、一个夏天非常干旱。为何这可作为社会问题讨论？",
+    "optionsZh": [
+      "气候和天气会影响农业、能源、健康、自然和经济。",
+      "极端天气只关乎私人度假和旅游计划。",
+      "气候变化不影响公共部门的规划。",
+      "天气事件自动导致额外的议会选举。"
+    ],
+    "explanationZh": "异常天气冲击农业收成、能源消耗和公共健康，因此气候变化是全社会需应对的议题。",
+    "questionZhHant": "一個冬天異常溫和、一個夏天非常幹旱。為何這可作為社會問題討論？",
+    "optionsZhHant": [
+      "氣候和天氣會影響農業、能源、健康、自然和經濟。",
+      "極端天氣只關乎私人度假和旅遊計劃。",
+      "氣候變化不影響公共部門的規劃。",
+      "天氣事件自動導致額外的議會選舉。"
+    ],
+    "explanationZhHant": "異常天氣衝擊農業收成、能源消耗和公共健康，因此氣候變化是全社會需應對的議題。"
   },
   {
     "id": "draft-ch01-048",
@@ -1389,7 +2141,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Infrastructure connects regions, labour markets, and trade.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "国内某地的列车故障影响了远处的货物和出行。这说明了什么？",
+    "optionsZh": [
+      "基础设施把全国不同地区连接在一起。",
+      "铁路交通只对大城市的客运有意义。",
+      "货运完全独立于国家运输网络。",
+      "大区对交通和基础设施没有责任。"
+    ],
+    "explanationZh": "交通网络互联互通，一处中断会通过供应链和通勤波及全国，体现基础设施的连接作用。",
+    "questionZhHant": "國內某地的列車故障影響了遠處的貨物和出行。這說明了什麼？",
+    "optionsZhHant": [
+      "基礎設施把全國不同地區連接在一起。",
+      "鐵路交通只對大城市的客運有意義。",
+      "貨運完全獨立於國家運輸網絡。",
+      "大區對交通和基礎設施沒有責任。"
+    ],
+    "explanationZhHant": "交通網絡互聯互通，一處中斷會通過供應鏈和通勤波及全國，體現基礎設施的連接作用。"
   },
   {
     "id": "draft-ch01-049",
@@ -1418,7 +2186,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipalities and regions have different responsibilities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名居民混淆了市镇和大区的职责。哪个例子最能说明区别？",
+    "optionsZh": [
+      "市镇通常负责义务教育，而大区负责医疗。",
+      "大区决定所有市镇的建筑许可。",
+      "市镇负责全国所有医院。",
+      "大区选举瑞典国会（Riksdagen）议长。"
+    ],
+    "explanationZh": "在瑞典，基础教育一般由市镇负责，医疗主要由大区负责，两者职能分工明确。",
+    "questionZhHant": "一名居民混淆了市鎮和大區的職責。哪個例子最能說明區別？",
+    "optionsZhHant": [
+      "市鎮通常負責義務教育，而大區負責醫療。",
+      "大區決定所有市鎮的建築許可。",
+      "市鎮負責全國所有醫院。",
+      "大區選舉瑞典國會（Riksdagen）議長。"
+    ],
+    "explanationZhHant": "在瑞典，基礎教育一般由市鎮負責，醫療主要由大區負責，兩者職能分工明確。"
   },
   {
     "id": "draft-ch01-050",
@@ -1447,7 +2231,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Sweden’s economy is connected to the world economy.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "为什么全球危机会影响瑞典的物价和工作？",
+    "optionsZh": [
+      "瑞典依赖贸易、进口、出口和国际供应链。",
+      "瑞典的物价和工资仅由市镇决定。",
+      "全球经济波动只影响欧盟外的国家。",
+      "瑞典经济完全自给自足，不受外部影响。"
+    ],
+    "explanationZh": "瑞典经济深度融入全球，国际供应链中断会推高物价并影响出口相关就业。",
+    "questionZhHant": "為什麼全球危機會影響瑞典的物價和工作？",
+    "optionsZhHant": [
+      "瑞典依賴貿易、進口、出口和國際供應鏈。",
+      "瑞典的物價和工資僅由市鎮決定。",
+      "全球經濟波動只影響歐盟外的國家。",
+      "瑞典經濟完全自給自足，不受外部影響。"
+    ],
+    "explanationZhHant": "瑞典經濟深度融入全球，國際供應鏈中斷會推高物價並影響出口相關就業。"
   },
   {
     "id": "draft-ch01-051",
@@ -1476,7 +2276,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "People can belong to several communities and identities at once.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人既觉得自己是瑞典人、萨米人，又是北欧人。这说明了身份认同的什么？",
+    "optionsZh": [
+      "身份认同可以同时具有多个层面。",
+      "一个人依法只能登记一种文化归属。",
+      "文化身份自动取消国籍。",
+      "地区身份和国家身份总是相互排斥。"
+    ],
+    "explanationZh": "一个人可同时拥有地方、民族和跨国等多重身份，这些层面并不冲突。",
+    "questionZhHant": "一個人既覺得自己是瑞典人、薩米人，又是北歐人。這說明了身份認同的什麼？",
+    "optionsZhHant": [
+      "身份認同可以同時具有多個層面。",
+      "一個人依法只能登記一種文化歸屬。",
+      "文化身份自動取消國籍。",
+      "地區身份和國家身份總是相互排斥。"
+    ],
+    "explanationZhHant": "一個人可同時擁有地方、民族和跨國等多重身份，這些層面並不衝突。"
   },
   {
     "id": "draft-ch01-052",
@@ -1505,7 +2321,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Local development often depends on jobs, education, housing, and connections.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个较小城镇想留住年轻居民。哪些问题可能重要？",
+    "optionsZh": [
+      "工作、教育、住房、服务和交通联系。",
+      "对年轻人迁往其他市镇实行禁令。",
+      "取消本地高中以降税。",
+      "关闭市镇所有数字通信网络。"
+    ],
+    "explanationZh": "留住年轻人依赖当地是否有就业、教育、住房和便利交通，这是地方发展的核心。",
+    "questionZhHant": "一個較小城鎮想留住年輕居民。哪些問題可能重要？",
+    "optionsZhHant": [
+      "工作、教育、住房、服務和交通聯系。",
+      "對年輕人遷往其他市鎮實行禁令。",
+      "取消本地高中以降稅。",
+      "關閉市鎮所有數字通信網絡。"
+    ],
+    "explanationZhHant": "留住年輕人依賴當地是否有就業、教育、住房和便利交通，這是地方發展的核心。"
   },
   {
     "id": "draft-ch01-053",
@@ -1534,7 +2366,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Demographic change affects planning for care and local services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "若某市镇老年人比例上升，市镇需更多规划什么？",
+    "optionsZh": [
+      "养老照护、无障碍环境和人力需求。",
+      "扩建更多义务教育和幼儿园学位。",
+      "更多高等教育名额。",
+      "改变全国大选的投票年龄。"
+    ],
+    "explanationZh": "人口老龄化会增加养老照护和无障碍设施的需求，市镇须据此调整服务规划。",
+    "questionZhHant": "若某市鎮老年人比例上升，市鎮需更多規劃什麼？",
+    "optionsZhHant": [
+      "養老照護、無障礙環境和人力需求。",
+      "擴建更多義務教育和幼兒園學位。",
+      "更多高等教育名額。",
+      "改變全國大選的投票年齡。"
+    ],
+    "explanationZhHant": "人口老齡化會增加養老照護和無障礙設施的需求，市鎮須據此調整服務規劃。"
   },
   {
     "id": "draft-ch01-054",
@@ -1563,7 +2411,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "The right of public access is important in Swedish outdoor life and includes responsibilities.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一家想利用自然进行户外休闲。需要了解什么重要原则？",
+    "optionsZh": [
+      "公众通行权（Allemansrätten）既带来便利，也带来体谅他人的责任。",
+      "公众通行权赋予在所有私人土地自由驾驶机动车的权利。",
+      "公众通行权意味着可在他人宅地无限制露营。",
+      "公众通行权只适用于国有国家公园。"
+    ],
+    "explanationZh": "“公众通行权”（Allemansrätten）允许人们在自然中漫步、采摘，但同时要求不打扰、不破坏，是权利与责任的结合。",
+    "questionZhHant": "一家想利用自然進行戶外休閒。需要了解什麼重要原則？",
+    "optionsZhHant": [
+      "公眾通行權（Allemansrätten）既帶來便利，也帶來體諒他人的責任。",
+      "公眾通行權賦予在所有私人土地自由駕駛機動車的權利。",
+      "公眾通行權意味着可在他人宅地無限制露營。",
+      "公眾通行權只適用於國有國家公園。"
+    ],
+    "explanationZhHant": "“公眾通行權”（Allemansrätten）允許人們在自然中漫步、採摘，但同時要求不打擾、不破壞，是權利與責任的結合。"
   },
   {
     "id": "draft-ch01-055",
@@ -1592,7 +2456,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "National symbols can carry shared meaning while being interpreted differently.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个人在仪式上看到国旗，问这类象征有何意义。哪个回答最有层次？",
+    "optionsZh": [
+      "国家象征能创造共同体感，但人们可有不同解读。",
+      "象征仅有法律功能，无个人意义。",
+      "国家象征取代成文基本法的需要。",
+      "国旗的使用严格限于国家机关。"
+    ],
+    "explanationZh": "国旗等国家象征可凝聚认同感，但不同人群对其情感和理解并不相同，应尊重多元解读。",
+    "questionZhHant": "一個人在儀式上看到國旗，問這類象徵有何意義。哪個回答最有層次？",
+    "optionsZhHant": [
+      "國家象徵能創造共同體感，但人們可有不同解讀。",
+      "象徵僅有法律功能，無個人意義。",
+      "國家象徵取代成文基本法的需要。",
+      "國旗的使用嚴格限於國家機關。"
+    ],
+    "explanationZhHant": "國旗等國家象徵可凝聚認同感，但不同人羣對其情感和理解並不相同，應尊重多元解讀。"
   },
   {
     "id": "draft-ch01-056",
@@ -1621,7 +2501,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Distance and population density affect access to services.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名农村居民离医疗中心很远。这体现什么社会挑战？",
+    "optionsZh": [
+      "在距离遥远、人口密度不同的情况下提供均等服务。",
+      "农村医疗只应由私人家庭经营。",
+      "大区没有义务提供医疗。",
+      "距离标准完全决定谁受医疗法覆盖。"
+    ],
+    "explanationZh": "如何在地广人稀地区维持与城市均等的医疗可及性，是公共服务均等化面临的挑战。",
+    "questionZhHant": "一名農村居民離醫療中心很遠。這體現什麼社會挑戰？",
+    "optionsZhHant": [
+      "在距離遙遠、人口密度不同的情況下提供均等服務。",
+      "農村醫療只應由私人家庭經營。",
+      "大區沒有義務提供醫療。",
+      "距離標準完全決定誰受醫療法覆蓋。"
+    ],
+    "explanationZhHant": "如何在地廣人稀地區維持與城市均等的醫療可及性，是公共服務均等化面臨的挑戰。"
   },
   {
     "id": "draft-ch01-057",
@@ -1650,7 +2546,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Swedish helps people participate and understand society.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一名新到成年人想看懂当局信件并参与职场。为何瑞典语重要？",
+    "optionsZh": [
+      "语言让人获得信息、权利、义务、工作和教育的途径。",
+      "瑞典语是瑞典私人场合唯一允许的语言。",
+      "官方决定只适用于母语为瑞典语的人。",
+      "参与职场要求放弃母语。"
+    ],
+    "explanationZh": "掌握瑞典语能读懂官方信函、了解权利与义务，是融入劳动市场和社会的关键。",
+    "questionZhHant": "一名新到成年人想看懂當局信件並參與職場。為何瑞典語重要？",
+    "optionsZhHant": [
+      "語言讓人獲得資訊、權利、義務、工作和教育的途徑。",
+      "瑞典語是瑞典私人場合唯一允許的語言。",
+      "官方決定只適用於母語為瑞典語的人。",
+      "參與職場要求放棄母語。"
+    ],
+    "explanationZhHant": "掌握瑞典語能讀懂官方信函、了解權利與義務，是融入勞動市場和社會的關鍵。"
   },
   {
     "id": "draft-ch01-058",
@@ -1679,7 +2591,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Municipal planning involves housing, schools, preschools, local transport, and municipal services when a population grows.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "一个市镇快速增长。哪些问题常须同时规划？",
+    "optionsZh": [
+      "住房、学校、幼儿园、地方交通和其他市政服务。",
+      "只关乎哪些政党可参加议会选举。",
+      "仅关乎国家税收和外交政策。",
+      "仅关乎居民在家庆祝哪些节日。"
+    ],
+    "explanationZh": "人口增长时，市镇须同步规划住房、学校、幼儿园和交通等配套，否则会出现短缺。",
+    "questionZhHant": "一個市鎮快速增長。哪些問題常須同時規劃？",
+    "optionsZhHant": [
+      "住房、學校、幼兒園、地方交通和其他市政服務。",
+      "只關乎哪些政黨可參加議會選舉。",
+      "僅關乎國家稅收和外交政策。",
+      "僅關乎居民在家慶祝哪些節日。"
+    ],
+    "explanationZhHant": "人口增長時，市鎮須同步規劃住房、學校、幼兒園和交通等配套，否則會出現短缺。"
   },
   {
     "id": "draft-ch01-059",
@@ -1708,7 +2636,23 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Society often has to balance different interests and long-term effects.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "新工厂可创造就业但也可能增加排放。哪种推论最合适？",
+    "optionsZh": [
+      "决策须权衡经济、环境、健康和长远可持续性。",
+      "创造就业意味着无需遵守环境法。",
+      "工业排放只关乎个别地主，与社会无关。",
+      "顾及环境要求关停所有工业。"
+    ],
+    "explanationZh": "发展经济与保护环境需统筹兼顾，公共政策应在就业、健康和可持续性之间取得平衡。",
+    "questionZhHant": "新工廠可創造就業但也可能增加排放。哪種推論最合適？",
+    "optionsZhHant": [
+      "決策須權衡經濟、環境、健康和長遠可持續性。",
+      "創造就業意味着無需遵守環境法。",
+      "工業排放只關乎個別地主，與社會無關。",
+      "顧及環境要求關停所有工業。"
+    ],
+    "explanationZhHant": "發展經濟與保護環境需統籌兼顧，公共政策應在就業、健康和可持續性之間取得平衡。"
   },
   {
     "id": "draft-ch01-060",
@@ -1737,6 +2681,22 @@
     ],
     "correctIndex": 0,
     "explanationEn": "Understanding Sweden as a country means seeing how place, people, resources, and institutions connect.",
-    "status": "draft"
+    "status": "draft",
+    "questionZh": "哪个说法最能描述瑞典作为一个国家如何构成一个整体？",
+    "optionsZh": [
+      "地理、人口、自然资源、历史和社会组织是相互关联的。",
+      "瑞典的社会结构仅由首都的状况主导。",
+      "自然资源和地理距离对社会发展毫无意义。",
+      "所有市镇和大区都有完全相同的条件和挑战。"
+    ],
+    "explanationZh": "瑞典的国家运行是地理、人口、资源、历史与制度多方面相互交织的结果，各地条件并不相同。",
+    "questionZhHant": "哪個說法最能描述瑞典作為一個國家如何構成一個整體？",
+    "optionsZhHant": [
+      "地理、人口、自然資源、歷史和社會組織是相互關聯的。",
+      "瑞典的社會結構僅由首都的狀況主導。",
+      "自然資源和地理距離對社會發展毫無意義。",
+      "所有市鎮和大區都有完全相同的條件和挑戰。"
+    ],
+    "explanationZhHant": "瑞典的國家運行是地理、人口、資源、歷史與制度多方面相互交織的結果，各地條件並不相同。"
   }
 ]

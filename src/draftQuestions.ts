@@ -24,10 +24,16 @@ export type DraftQuestion = {
   source?: string;
   questionSv: string;
   questionEn: string;
+  questionZh?: string;
+  questionZhHant?: string;
   options: string[];
   optionsEn: string[];
+  optionsZh?: string[];
+  optionsZhHant?: string[];
   correctIndex: number;
   explanationEn: string;
+  explanationZh?: string;
+  explanationZhHant?: string;
   reviewerNote?: string;
   status: DraftQuestionStatus;
 };

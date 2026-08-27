@@ -12,9 +12,9 @@ export type Chapter = {
   topicId: string;
 };
 
-export type ExplanationLanguage = "sv" | "en" | "ar" | "fa" | "so" | "ti" | "zh";
+export type ExplanationLanguage = "sv" | "en" | "ar" | "fa" | "so" | "ti" | "zh" | "zh-Hant";
 
-export type UiLanguage = "sv" | "en" | "ar" | "fa" | "so" | "ti" | "zh";
+export type UiLanguage = "sv" | "en" | "ar" | "fa" | "so" | "ti" | "zh" | "zh-Hant";
 
 export type Question = {
   id: string;
