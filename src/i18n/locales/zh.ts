@@ -21,7 +21,7 @@ export const zhUiText: UiText = {
     heroMockExplanationLabel: "即时解释",
     heroMockExplanation: "民主表示人们可以通过选举、言论自由和参与来影响社会。",
     proofStats: [
-      { value: "48题", label: "精选练习题" },
+      { value: "48题", label: "精选练习题，1000题题库即将上线" },
       { value: "13", label: "官方章节完整覆盖" },
       { value: "5题", label: "免费体验题" }
     ],

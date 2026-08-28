@@ -21,7 +21,7 @@ export const svUiText: UiText = {
     heroMockExplanationLabel: "Kort förklaring",
     heroMockExplanation: "Demokrati betyder att människor kan påverka samhället genom val, yttrandefrihet och delaktighet.",
     proofStats: [
-      { value: "48", label: "utvalda träningsfrågor" },
+      { value: "48", label: "utvalda träningsfrågor; 1 000 frågor kommer snart" },
       { value: "13", label: "officiella kapitel" },
       { value: "5 frågor", label: "gratisfrågor" }
     ],
