@@ -25,8 +25,8 @@ export const soFaqContent: FaqContent = {
       { question: "Su'aalahan ma yihiin su'aalo imtixaan rasmi ah?", answer: "Maya. Waa su'aalo tababar oo asal ah, kuna salaysan mawduucyada waxbarashada ee dadweynaha ee Sverige i fokus." },
       { question: "Maxay su'aaluhu u yihiin Iswiidhish?", answer: "Su'aalaha waxaan ku haynaa Iswiidhish si ay ugu ekaadaan habka waxbarashada, laakiin sharaxaad iyo caawin luqadeed ayaan ku siinnaa luqadda aad doorato." },
       { question: "Xaggee horumarkayga lagu kaydiyaa?", answer: "Noocan tijaabada ah, horumarka wuxuu ku kaydsan yahay browser-ka qalabkan oo keliya. Xisaabo ma jiraan weli." },
-      { question: "Ma bilaash baa?", answer: "Haa, noocan hore waa bilaash inta aan ka ururinayno jawaab-celin ardayda dhabta ah." },
-      { question: "Ma leeyahay imtixaan 60 su'aal ah?", answer: "Weli maya. Hadda waa tababar mawduucyo ah. Imtixaan isku-dhafan wuxuu iman karaa marka bangiga su'aalaha weynaado." }
+      { question: "Ma bilaash baa?", answer: "Haa. Heerka bilaashka ah wuu sii ahaanayaa bilaash wuxuuna leeyahay tababar muunad ah. Bangi su'aalo weyn, imtixaan tijaabo ah, iyo muuqaalada full access waxay u baahan karaan lacag-bixin mustaqbalka." },
+      { question: "Imtixaan kasta oo tijaabo ah ma leeyahay su'aalo kala duwan?", answer: "Haa. Imtixaan kasta wuxuu ka soo xushaa set cusub oo isku-dhafan bangiga su'aalaha la heli karo, wuxuuna su'aalaha ku kala fidiyaa cutubyada rasmiga ah ee waxbarashada, sidaas darteed isku-dayo badan waxay bixiyaan tababar ballaaran." }
     ]
   };
 

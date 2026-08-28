@@ -11,10 +11,11 @@ export const zhUiText: UiText = {
     navAbout: "备考指南",
     navStartPractice: "免费练习",
     practicePathTitle: "选择练习方式",
-    practicePathIntro: "先用免费练习体验本站，需要系统学习时按主题和章节练习，准备冲刺时再做模拟考试。",
+    practicePathIntro: "先用免费练习体验本站，需要系统学习时按主题和章节练习，也可以用闪卡复习；准备冲刺时再做模拟考试。",
     practicePaths: [
       { title: "开始免费练习", body: "先做一组小型混合题。无需账号或付款。", badge: "免费体验", cta: "开始免费练习" },
       { title: "按主题学习", body: "按四个学习范围和官方章节逐步练习。", badge: "13个章节", cta: "选择学习范围" },
+      { title: "闪卡复习", body: "逐张查看瑞典语题目，想好答案后再翻开确认。", badge: "复习模式", cta: "打开闪卡" },
       { title: "模拟考试", body: "用于更认真备考的混合练习模式。完整版功能。", badge: "完整访问", cta: "查看模拟考试" }
     ],
     guidePageTitle: "瑞典入籍社会知识考试指南",
@@ -45,7 +46,7 @@ export const zhUiText: UiText = {
     guideMockExamCta: "试做模拟考试",
     heroPrimaryCta: "立刻开始免费练习",
     heroSecondaryCta: "选择主题",
-    heroTrustBadge: "瑞典语题目 • 按官方学习章节分类练习 • 支持多语言解释 • 随时切换语言查看解释 • 按练习结果，分析并找出薄弱之处",
+    heroTrustBadge: "题目使用瑞典语 • 多语言解释 • 学习进度面板 • 按练习结果找出薄弱之处",
     heroMockLabel: "练习预览",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",

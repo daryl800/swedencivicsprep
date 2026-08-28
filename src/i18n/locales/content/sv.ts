@@ -39,11 +39,11 @@ export const svFaqContent: FaqContent = {
       },
       {
         question: "Är det gratis?",
-        answer: "Ja, den tidiga versionen är gratis medan vi samlar feedback från riktiga användare. Senare versioner kan lägga till konton, mer innehåll eller betalda funktioner."
+        answer: "Ja. Gratisnivån förblir gratis och innehåller provträning. Större frågebank, provträning och andra funktioner med full åtkomst kan kräva betalning senare."
       },
       {
-        question: "Simulerar appen ett helt prov med 60 frågor?",
-        answer: "Inte ännu. Förhandsversionen är ämnesträning. Ett tidsatt blandat provläge är ett bra nästa steg när frågebanken är större."
+        question: "Får man olika frågor i varje provträning?",
+        answer: "Ja. Varje provträning väljer ett nytt blandat urval från den tillgängliga frågebanken och sprider frågorna över de officiella studiekapitlen, så upprepade försök ger bredare träning."
       }
     ]
   };

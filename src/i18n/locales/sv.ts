@@ -11,10 +11,11 @@ export const svUiText: UiText = {
     navAbout: "Provguide",
     navStartPractice: "Prova gratis träning",
     practicePathTitle: "Välj hur du vill träna",
-    practicePathIntro: "Använd gratisfrågorna för att prova sidan, läs efter område när du vill ha struktur eller använd provsimulering när du vill testa dig mer seriöst.",
+    practicePathIntro: "Använd gratisfrågorna för att prova sidan, läs efter område när du vill ha struktur, repetera med frågekort eller använd provsimulering när du vill testa dig mer seriöst.",
     practicePaths: [
       { title: "Börja gratis", body: "Testa ett litet blandat set först. Inget konto och ingen betalning behövs.", badge: "Gratisprov", cta: "Starta gratis träning" },
       { title: "Studera efter område", body: "Gå igenom de fyra studieområdena och de officiella kapitlen.", badge: "13 kapitel", cta: "Välj område" },
+      { title: "Repetera med frågekort", body: "Bläddra bland svenska frågekort och kontrollera svaret när du är redo.", badge: "Repetition", cta: "Öppna frågekort" },
       { title: "Gör provsimulering", body: "Ett blandat provläge för mer seriös förberedelse. Funktion i fullversionen.", badge: "Full åtkomst", cta: "Visa provsimulering" }
     ],
     guidePageTitle: "Guide till medborgarskapsprovet",
@@ -44,7 +45,7 @@ export const svUiText: UiText = {
     guideMockExamCta: "Testa provsimulering",
     heroPrimaryCta: "Börja med gratis träning",
     heroSecondaryCta: "Välj ämne",
-    heroTrustBadge: "Svenska frågor • Träning efter officiella studiekapitel • Flerspråkiga förklaringar • Byt förklaringar när som helst • Analysera dina träningsresultat och identifiera svaga delar",
+    heroTrustBadge: "Frågor på svenska • Flerspråkiga förklaringar • Framstegspanel • Identifiera svaga delar från dina träningsresultat",
     heroMockLabel: "Exempel från träningen",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",

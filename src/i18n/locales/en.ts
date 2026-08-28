@@ -11,10 +11,11 @@ export const enUiText: UiText = {
     navAbout: "Guide",
     navStartPractice: "Start free practice",
     practicePathTitle: "Choose how to practise",
-    practicePathIntro: "Use the free sample to try the site, study by topic when you want structure, or use mock exam mode when you want a serious test simulation.",
+    practicePathIntro: "Use the free sample to try the site, study by topic when you want structure, review with flashcards, or use mock exam mode for serious test simulation.",
     practicePaths: [
       { title: "Start free practice", body: "Try a small mixed set first. No account or payment needed.", badge: "Free sample", cta: "Start free practice" },
       { title: "Study by topic", body: "Work through the four study areas and their official chapters.", badge: "13 chapters", cta: "Choose study area" },
+      { title: "Review flashcards", body: "Flip through Swedish question cards and check the answer when you are ready.", badge: "Review mode", cta: "Open flashcards" },
       { title: "Take mock exam", body: "A mixed exam-style session for serious preparation. Full-access feature.", badge: "Full access", cta: "View mock exam" }
     ],
     guidePageTitle: "Swedish citizenship test guide",
@@ -44,7 +45,7 @@ export const enUiText: UiText = {
     guideMockExamCta: "Try mock exam",
     heroPrimaryCta: "Start free practice",
     heroSecondaryCta: "Choose a topic",
-    heroTrustBadge: "Swedish questions • Organized by official study chapters • Multilingual explanations • Switch explanations anytime • Analyze your practice results and identify weak areas",
+    heroTrustBadge: "Questions in Swedish • Multilingual explanations • Progress dashboard • Identify weak areas from your practice results",
     heroMockLabel: "Practice preview",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",

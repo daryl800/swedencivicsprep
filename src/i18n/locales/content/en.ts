@@ -39,11 +39,11 @@ export const enFaqContent: FaqContent = {
       },
       {
         question: "Is it free?",
-        answer: "Yes, this early version is free while we collect feedback from real learners. Later versions may add accounts, more content, or paid features."
+        answer: "Yes. The free tier stays free and includes sample practice. Larger question sets, mock exams, and other full-access features may require payment later."
       },
       {
-        question: "Does it simulate the full 60-question exam?",
-        answer: "Not yet. The preview version is topic practice. A timed mixed mock exam is a good next step once the question bank is larger."
+        question: "Does each mock exam use different questions?",
+        answer: "Yes. Each mock exam picks a fresh mixed set from the available question bank and spreads questions across the official study chapters, so repeated attempts help you practise more broadly."
       }
     ]
   };
