@@ -874,12 +874,13 @@ function HeroSourcePill({ text }: { text: string }) {
 }
 
 function HeroTrustBadge({ text }: { text: string }) {
-  const [questions, explanations] = text.split(" • ");
+  const items = text.split(" • ").map((item) => item.trim()).filter(Boolean);
 
   return (
     <p className="hero-trust">
-      {questions ? <span>✅ {questions}</span> : null}
-      {explanations ? <span>✅ {explanations}</span> : null}
+      {items.map((item) => (
+        <span key={item}>✅ {item}</span>
+      ))}
     </p>
   );
 }

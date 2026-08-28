@@ -1,8 +1,8 @@
 import type { UiText } from "../uiTextTypes";
 
 export const zhUiText: UiText = {
-    eyebrow: "瑞典入籍社会知识考试，循序渐进",
-    appTitle: "一站式瑞典入籍社会知识考试练习平台",
+    eyebrow: "瑞典语练习题，配合清晰解释，掌握考试重点",
+    appTitle: "瑞典入籍社会知识考试练习平台",
     lead: "覆盖入籍社会知识考试全部官方内容",
     languageNote: "题目保持瑞典语，可随时转换其他语言查看解释。",
     dailyPrompt: "先做5道题。",
@@ -12,7 +12,7 @@ export const zhUiText: UiText = {
     navStartPractice: "免费练习",
     heroPrimaryCta: "立刻开始免费练习",
     heroSecondaryCta: "选择主题",
-    heroTrustBadge: "瑞典语题目 • 可随时转换其他语言查看解释",
+    heroTrustBadge: "瑞典语题目 • 支持多语言解释 • 随时切换语言查看解释 • 按官方学习章节分类练习 • 分析练习结果，找出薄弱之处",
     heroMockLabel: "练习预览",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -21,9 +21,9 @@ export const zhUiText: UiText = {
     heroMockExplanationLabel: "即时解释",
     heroMockExplanation: "民主表示人们可以通过选举、言论自由和参与来影响社会。",
     proofStats: [
-      { value: "48", label: "道精选练习题" },
+      { value: "48题", label: "精选练习题" },
       { value: "13", label: "官方章节完整覆盖" },
-      { value: "5题", label: "道免费体验题" }
+      { value: "5题", label: "免费体验题" }
     ],
     earlyAccessTitle: "独立学习指南",
     earlyAccessMessage: `配合 Sverige i fokus 学习
@@ -86,7 +86,7 @@ export const zhUiText: UiText = {
     comingNextItems: [
       { title: "词汇卡片", body: "把重要瑞典语词汇做成快速复习卡。" },
       { title: "混合模拟考试", body: "当题库足够大后，加入限时60题模式。" },
-      { title: "进度面板", body: "显示薄弱主题、连续练习和下一步复习建议。" }
+      { title: "进度面板", body: "显示薄弱之处、连续练习和下一步复习建议。" }
     ],
     progressDashboardTitle: "进度面板",
     progressDashboardIntro: "这是本浏览器中的本地进度。此预览版本会记录正确和错误答案。",
@@ -114,8 +114,8 @@ export const zhUiText: UiText = {
     backToHome: "返回首页",
     overallProgress: "整体进度",
     topicAccuracy: "正确率",
-    weakTopic: "薄弱主题",
-    weakTopicAdvice: (wrong) => `已记录 ${wrong} 个错误答案。建议接下来复习这个主题。`,
+    weakTopic: "薄弱之处",
+    weakTopicAdvice: (wrong) => `已记录 ${wrong} 个错误答案。建议接下来复习这个部分。`,
     recommendedNext: "下一步建议",
     topicProgress: (completed, total) => `已完成 ${completed}/${total}`,
     moduleMastered: "已掌握",

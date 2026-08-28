@@ -2,14 +2,15 @@ import { enUiText } from "./en";
 import { createLocalizedUiText } from "../uiTextUtils";
 
 export const tiUiText = createLocalizedUiText(enUiText, {
-    eyebrow: "ፈተና ዜግነት ሽወደን፣ ብቐሊሉ",
-    appTitle: "ንፈተና ዜግነት ሽወደን ኣብ ሓደ ቦታ ዝተኣከበ ልምምድ",
+    eyebrow: "ሽወደንኛ ሕቶታት፣ ንጹር መብርሂ፣ ናብ ፈተና ዝተተኮረ ልምምድ",
+    appTitle: "መድረኽ ልምምድ ፈተና ዜግነት ሽወደን",
     lead: "ኣብ ወግዓዊ መጽናዕቲ UHR ዝተመርኮሰ",
     languageNote: "ሕቶታትን ምርጫታት መልስን ብሽወደንኛ ይቕጽሉ። ዝተረፈ ክፋል ናይ app ብዝመረጽኩሞ ቋንቋ ይረአ።",
     dailyPrompt: "ብ5 ሕቶታት ጀምሩ።",
     navStartPractice: "5 ሕቶታት ፈትኑ",
     heroPrimaryCta: "5 ሽወደንኛ ሕቶታት ፈትኑ →",
     heroSecondaryCta: "ርእሰ-ጉዳይ ምረጹ",
+    heroTrustBadge: "ሽወደንኛ ሕቶታት • ብብዙሕ ቋንቋ መብርሂ • ቋንቋ መብርሂ ኣብ ዝኾነ ግዜ ምቕያር • ብወግዓዊ ናይ መጽናዕቲ ምዕራፋት ዝተወደበ ልምምድ • ካብ ውጽኢትኩም ድኹም ክፋላት ምልላይ",
     earlyAccessTitle: "ናጻ መምርሒ",
     earlyAccessMessage: `ብSverige i fokus ተማሃሩ
 
@@ -90,7 +91,7 @@ Swedish Civics Test Preparation ከም ናጻ መምርሒ ልምምድ ተጠ�
     backToHome: "ናብ መጀመርታ ተመለሱ",
     overallProgress: "ሓፈሻዊ ምዕባለ",
     topicAccuracy: "ትኽክለኛነት",
-    weakTopic: "ድኹም ርእሰ-ጉዳይ",
+    weakTopic: "ድኹም ክፋል",
     recommendedNext: "ዝተመከረ ቀጻሊ",
     topicProgress: (completed, total) => `${completed}/${total} ተዛዚሙ`,
     moduleMastered: "ተቆጻጺርካዮ",

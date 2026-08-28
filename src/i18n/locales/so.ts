@@ -2,14 +2,15 @@ import { enUiText } from "./en";
 import { createLocalizedUiText } from "../uiTextUtils";
 
 export const soUiText = createLocalizedUiText(enUiText, {
-    eyebrow: "Imtixaanka jinsiyadda Iswiidhan, si fudud",
-    appTitle: "Tababar hal meel ah oo loogu talagalay imtixaanka dhalashada Iswiidhan",
+    eyebrow: "Su’aalo Iswiidhish ah, sharaxaad cad, tababar imtixaan ku wajahan",
+    appTitle: "Madasha tababarka imtixaanka dhalashada Iswiidhan",
     lead: "Ku salaysan agabka rasmiga ah ee waxbarashada ee UHR",
     languageNote: "Su'aalaha iyo doorashooyinka jawaabta waxay ku sii jiraan af Iswiidhish. Qaybaha kale ee app-ku waxay raacaan luqadda aad doorato.",
     dailyPrompt: "Ku bilow 5 su’aalood.",
     navStartPractice: "Tijaabi 5 su’aalood",
     heroPrimaryCta: "Tijaabi 5 su’aalood oo Iswiidhish ah →",
     heroSecondaryCta: "Dooro mawduuc",
+    heroTrustBadge: "Su’aalo Iswiidhish ah • Sharaxaad luqado badan ah • Beddel luqadda sharaxaadda wakhti kasta • Tababar ku salaysan cutubyada waxbarashada rasmiga ah • Aqoonso meelaha daciifka ah natiijooyinkaaga",
     earlyAccessTitle: "Hage madax-bannaan",
     earlyAccessMessage: `Wax ku baro Sverige i fokus
 
@@ -63,7 +64,7 @@ U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka
     comingNextItems: [
       { title: "Kaadhadh ereyo", body: "Erayada Iswiidhishka ee muhiimka ah u beddel kaadhadh dib-u-eegis degdeg ah." },
       { title: "Imtixaan tijaabo isku-dhafan", body: "Hab 60 su'aalood oo waqti leh marka bangiga su'aalaha weynaado." },
-      { title: "Guddi horumar", body: "Muuji mawduucyada daciifka ah, maalmaha isku xiga, iyo waxa xiga ee la celinayo." }
+      { title: "Guddi horumar", body: "Muuji meelaha daciifka ah, maalmaha isku xiga, iyo waxa xiga ee la celinayo." }
     ],
     progressDashboardTitle: "Guddi horumar",
     flashcardsTitle: "Kaadhadh ereyo - tijaabo",
@@ -90,7 +91,7 @@ U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka
     backToHome: "Ku noqo bogga hore",
     overallProgress: "Horumarka guud",
     topicAccuracy: "Saxnaanta",
-    weakTopic: "Mawduuc daciif ah",
+    weakTopic: "Meel daciif ah",
     recommendedNext: "Talo xigta",
     topicProgress: (completed, total) => `${completed}/${total} dhammaatay`,
     moduleMastered: "La bartay",

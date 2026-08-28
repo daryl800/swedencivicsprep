@@ -1,8 +1,8 @@
 import type { UiText } from "../uiTextTypes";
 
 export const arUiText: UiText = {
-    eyebrow: "اختبار المواطنة السويدية بطريقة أبسط",
-    appTitle: "تدريب شامل لاختبار المواطنة السويدية في مكان واحد",
+    eyebrow: "أسئلة سويدية، شروحات واضحة، وتدريب قريب من الاختبار",
+    appTitle: "منصة تدريب لاختبار المواطنة السويدية",
     lead: "مبني على المادة الدراسية الرسمية من UHR",
     languageNote: "تبقى الأسئلة باللغة السويدية. يمكنك تحويل الشروحات إلى لغة أخرى في أي وقت.",
     dailyPrompt: "ابدأ بخمسة أسئلة.",
@@ -12,7 +12,7 @@ export const arUiText: UiText = {
     navStartPractice: "ابدأ تدريبًا مجانيًا",
     heroPrimaryCta: "ابدأ تدريبًا مجانيًا",
     heroSecondaryCta: "اختر موضوعاً",
-    heroTrustBadge: "أسئلة سويدية • حوّل الشروحات في أي وقت",
+    heroTrustBadge: "أسئلة سويدية • شروحات متعددة اللغات • حوّل الشروحات في أي وقت • تدريب حسب فصول الدراسة الرسمية • حدّد نقاط ضعفك من نتائجك",
     heroMockLabel: "معاينة التدريب",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -114,8 +114,8 @@ export const arUiText: UiText = {
     backToHome: "العودة إلى الرئيسية",
     overallProgress: "التقدم العام",
     topicAccuracy: "الدقة",
-    weakTopic: "موضوع ضعيف",
-    weakTopicAdvice: (wrong) => `تم تسجيل ${wrong} إجابات خاطئة. راجع هذا الموضوع بعد ذلك.`,
+    weakTopic: "نقطة ضعف",
+    weakTopicAdvice: (wrong) => `تم تسجيل ${wrong} إجابات خاطئة. راجع هذه النقطة بعد ذلك.`,
     recommendedNext: "المقترح التالي",
     topicProgress: (completed, total) => `${completed}/${total} مكتملة`,
     moduleMastered: "متقن",
