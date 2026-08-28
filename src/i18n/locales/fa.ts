@@ -3,12 +3,14 @@ import { createLocalizedUiText } from "../uiTextUtils";
 
 export const faUiText = createLocalizedUiText(enUiText, {
     eyebrow: "آزمون شهروندی سوئد، ساده‌تر",
-    appTitle: "آمادگی آزمون جامعه‌شناسی سوئد",
+    appTitle: "تمرین جامع برای آزمون شهروندی سوئد",
     lead: "بر پایه منبع رسمی مطالعه از UHR",
     languageNote: "پرسش‌ها و گزینه‌ها به سوئدی می‌مانند. بقیه برنامه با زبان انتخابی شما نمایش داده می‌شود.",
     dailyPrompt: "با ۵ پرسش شروع کنید.",
-    navStartPractice: "۵ پرسش را امتحان کنید",
-    heroPrimaryCta: "۵ پرسش سوئدی را امتحان کنید →",
+    navPracticeTests: "آزمون آزمایشی",
+    navAbout: "راهنمای آزمون",
+    navStartPractice: "تمرین رایگان را امتحان کنید",
+    heroPrimaryCta: "تمرین رایگان را شروع کنید",
     heroSecondaryCta: "انتخاب موضوع",
     earlyAccessTitle: "راهنمای مستقل",
     earlyAccessMessage: `با Sverige i fokus مطالعه کنید
@@ -17,7 +19,7 @@ export const faUiText = createLocalizedUiText(enUiText, {
 
 از Swedish Civics Test Preparation به عنوان یک راهنمای تمرین مستقل استفاده کنید: اول یک فصل از Sverige i fokus را بخوانید، بعد با این پرسش‌های سوئدی بررسی کنید چه چیزی را به یاد دارید. ما آزمون رسمی نیستیم و پرسش‌های رسمی امتحان را کپی نمی‌کنیم.`,
     officialGuideLink: "باز کردن منبع رسمی مطالعه",
-    studyPathTitle: "روش هوشمندتر برای مطالعه",
+    studyPathTitle: "روش مؤثرتر برای مطالعه",
     studyPathIntro: "درس مفید از برنامه‌های قوی مطالعه، طراحی ظاهری نیست. نکته اصلی چرخه مطالعه است: منبع رسمی را دنبال کنید، با یادآوری فعال تمرین کنید و به فصل‌های ضعیف برگردید.",
     studySteps: [
       { title: "1. منبع را بخوانید", body: "با یک فصل از Sverige i fokus شروع کنید. منبع رسمی را نقشه اصلی خود بدانید." },
@@ -66,7 +68,7 @@ export const faUiText = createLocalizedUiText(enUiText, {
       { title: "داشبورد پیشرفت", body: "موضوع‌های ضعیف، زنجیره تمرین و پیشنهاد مرور بعدی را نشان می‌دهد." }
     ],
     mockExamTitle: "آزمون آزمایشی",
-    mockExamIntro: "به یک مجموعه ترکیبی از بانک پرسش‌های بررسی‌شده پاسخ دهید. توضیح‌ها تا زمان ارسال نمایش داده نمی‌شوند تا تمرین به جلسه آزمون واقعی نزدیک‌تر باشد.",
+    mockExamIntro: "به یک مجموعه ترکیبی از بانک پرسش‌های برگزیده پاسخ دهید. توضیح‌ها تا زمان ارسال نمایش داده نمی‌شوند تا تمرین به جلسه آزمون واقعی نزدیک‌تر باشد.",
     mockExamBadge: "تمرین ترکیبی",
     mockExamLength: (count) => `${count} پرسش`,
     mockExamStart: "شروع آزمون آزمایشی",

@@ -2,17 +2,49 @@ import type { UiText } from "../uiTextTypes";
 
 export const svUiText: UiText = {
     eyebrow: "Svenskt medborgarskapsprov, enkelt förklarat",
-    appTitle: "Träning inför medborgarskapsprovet",
+    appTitle: "All träning inför medborgarskapsprovet på ett ställe",
     lead: "Baserat på UHR:s officiella studiematerial",
-    languageNote: "Frågorna är på svenska. Förklaringarna följer valt språk.",
+    languageNote: "Frågorna är på svenska. Förklaringarna kan visas på önskat språk.",
     dailyPrompt: "Börja med 5 frågor.",
     navStudyModules: "Studieområden",
-    navPracticeTests: "Träningsfrågor",
-    navAbout: "Om guiden",
-    navStartPractice: "Testa 5 frågor",
-    heroPrimaryCta: "Testa 5 svenska frågor →",
+    navPracticeTests: "Provsimulering",
+    navAbout: "Provguide",
+    navStartPractice: "Prova gratis träning",
+    practicePathTitle: "Välj hur du vill träna",
+    practicePathIntro: "Använd gratisfrågorna för att prova sidan, läs efter område när du vill ha struktur eller använd provsimulering när du vill testa dig mer seriöst.",
+    practicePaths: [
+      { title: "Börja gratis", body: "Testa ett litet blandat set först. Inget konto och ingen betalning behövs.", badge: "Gratisprov", cta: "Starta gratis träning" },
+      { title: "Studera efter område", body: "Gå igenom de fyra studieområdena och de officiella kapitlen.", badge: "13 kapitel", cta: "Välj område" },
+      { title: "Gör provsimulering", body: "Ett blandat provläge för mer seriös förberedelse. Funktion i fullversionen.", badge: "Full åtkomst", cta: "Visa provsimulering" }
+    ],
+    guidePageTitle: "Guide till medborgarskapsprovet",
+    guidePageIntro: "En kort guide till vad som är känt om medborgarskapsprovet, hur du kan förbereda dig och hur den här fristående webbplatsen passar ihop med det officiella studiematerialet.",
+    guideFactsTitle: "Det här vet vi nu",
+    guideFacts: [
+      { title: "Det är ett samhällskunskapsprov", body: "Provet testar kunskaper om det svenska samhället. Det är skilt från provet i svenska, som UHR säger införs senare." },
+      { title: "Provet är på svenska", body: "UHR beskriver samhällskunskapsprovet som ett pappersprov på svenska med flervalsfrågor, fyra svarsalternativ och ett rätt svar." },
+      { title: "Nästa detaljer är inte fastställda", body: "Det första samhällskunskapsprovet genomfördes i augusti 2026. UHR skriver att information om nästa provtillfälle, antal frågor och provtid kommer senare." },
+      { title: "Alla kan inte anmäla sig själva", body: "Migrationsverket avgör vem som får skriva provet. Du kan bara anmäla dig om du har fått ett anvisningsbrev från Migrationsverket." }
+    ],
+    guideHowTitle: "Så använder du guiden",
+    guideHowSteps: [
+      { title: "Läs ett officiellt kapitel", body: "Börja med Sverige i fokus från UHR och Skolverket. Använd det officiella materialet som källan." },
+      { title: "Träna på svenska", body: "Svara på svenska frågor efter läsningen. Det tränar formatet och orden du faktiskt möter." },
+      { title: "Använd språkstöd efter försöket", body: "Behåll frågan på svenska och använd förklaringar på önskat språk för att förstå misstag." },
+      { title: "Kontrollera nivån med provsimulering", body: "Använd blandade prov och framstegssidan för att hitta svaga kapitel innan du läser om allt." }
+    ],
+    guideTrustTitle: "Vad webbplatsen kan och inte kan göra",
+    guideTrustItems: [
+      { title: "Fristående träning", body: "Den här sidan är inte UHR, Migrationsverket, Skolverket eller en officiell provanordnare." },
+      { title: "Baserad på officiellt studiematerial", body: "Träningsfrågorna är egna studiefrågor baserade på teman i Sverige i fokus. De är inte kopierade officiella provfrågor." },
+      { title: "Kontrollera alltid officiella uppgifter", body: "Datum, anmälningsregler, avgifter och framtida provformat kan ändras. Kontrollera UHR och Migrationsverket för beslut som gäller ditt ärende." }
+    ],
+    guideOfficialNote: "Använd webbplatsen som ett träningslager. Använd UHR och Migrationsverket som officiell källa för provregler och ditt medborgarskapsärende.",
+    guideStartCta: "Starta 5 gratisfrågor",
+    guideMockExamCta: "Testa provsimulering",
+    heroPrimaryCta: "Börja med gratis träning",
     heroSecondaryCta: "Välj ämne",
-    heroTrustBadge: "Svenska frågor • engelska förklaringar först • Baserat på Sverige i fokus",
+    heroTrustBadge: "Svenska frågor • Förklaringar på önskat språk",
     heroMockLabel: "Exempel från träningen",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -21,9 +53,9 @@ export const svUiText: UiText = {
     heroMockExplanationLabel: "Kort förklaring",
     heroMockExplanation: "Demokrati betyder att människor kan påverka samhället genom val, yttrandefrihet och delaktighet.",
     proofStats: [
-      { value: "1 000", label: "granskade träningsfrågor" },
-      { value: "13", label: "officiella kapitel kartlagda" },
-      { value: "65", label: "planerade gratisfrågor" }
+      { value: "1 000", label: "utvalda träningsfrågor" },
+      { value: "13", label: "officiella kapitel" },
+      { value: "65", label: "gratisfrågor" }
     ],
     freeTierBadge: "Gratisprov",
     fullAccessBadge: "Full åtkomst",
@@ -37,7 +69,7 @@ Det officiella studiematerialet för medborgarskapsprovet är Sverige i fokus fr
 
 Använd Swedish Civics Test Preparation som en oberoende träningsguide: läs först ett kapitel i Sverige i fokus och använd sedan de svenska frågorna för att kontrollera vad du minns. Vi är inte det officiella provet och vi kopierar inte officiella provfrågor.`,
     officialGuideLink: "Öppna det officiella studiematerialet",
-    studyPathTitle: "Ett smartare sätt att studera",
+    studyPathTitle: "Ett effektivare sätt att studera",
     studyPathIntro: "Det viktiga från starka studieappar är inte bara den visuella designen. Det är studie-loopen: följ det officiella materialet, träna aktiv återkallning och återvänd till svaga kapitel.",
     studySteps: [
       { title: "1. Läs källan", body: "Börja med ett kapitel i Sverige i fokus. Se det officiella materialet som kartan." },
@@ -96,10 +128,12 @@ Använd Swedish Civics Test Preparation som en oberoende träningsguide: läs f�
       { title: "Framstegspanel", body: "Visa svaga ämnen, träningsrytm och vad som bör repeteras härnäst." }
     ],
     mockExamTitle: "Provträning",
-    mockExamIntro: "Svara på ett blandat urval från den granskade frågebanken. Förklaringar visas först när du lämnar in, så passet känns mer som ett riktigt prov.",
+    mockExamIntro: "Svara på ett blandat urval från den utvalda frågebanken. Förklaringar visas först när du lämnar in, så passet känns mer som ett riktigt prov.",
     mockExamBadge: "Blandad träning",
     mockExamLength: (count) => `${count} frågor`,
     mockExamStart: "Starta provträning",
+    mockExamLockedIntro: "Provsimulering är reserverad för fullversionen. Använd gratis träning nu och lås upp provsimulering när betalning är kopplad.",
+    mockExamLockedCta: "Full åtkomst krävs",
     mockExamResume: "Fortsätt provträning",
     mockExamPrevious: "Föregående",
     mockExamNext: "Nästa",
@@ -180,7 +214,7 @@ Använd Swedish Civics Test Preparation som en oberoende träningsguide: läs f�
     coachNote: "Välj det svar som känns mest rätt. Vi förklarar efter att du kontrollerat.",
     showQuestionHelp: "Visa språkstöd",
     hideQuestionHelp: "Dölj språkstöd",
-    questionHelpLabel: "Betydelse på valt språk",
+    questionHelpLabel: "Betydelse på önskat språk",
     checkAnswer: "Kontrollera mitt svar",
     nextQuestion: "Prova en till",
     resetProgress: "Nollställ framsteg",

@@ -383,6 +383,7 @@ button:disabled {
   gap: var(--space-3);
 }
 
+
 .hero-primary,
 .hero-secondary {
   display: inline-flex;
@@ -517,6 +518,126 @@ button:disabled {
   margin-top: 8px;
   color: #45586e;
   font-weight: 850;
+}
+
+.practice-path {
+  display: grid;
+  gap: var(--space-5);
+  margin-bottom: var(--space-8);
+}
+
+.practice-path-heading {
+  align-items: end;
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.practice-path-heading h2 {
+  margin: 0;
+  color: var(--color-gray-900);
+  font-size: clamp(2rem, 5vw, 3.45rem);
+  line-height: 1;
+}
+
+.practice-path-heading p {
+  max-width: 780px;
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.guide-link-button {
+  border: 1px solid #bdd3ea;
+  border-radius: 999px;
+  background: #ffffff;
+  color: var(--sweden-blue-dark);
+  padding: 12px 18px;
+  font: inherit;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.practice-path-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.practice-path-card {
+  display: grid;
+  min-height: 300px;
+  gap: var(--space-4);
+  align-content: start;
+  border: 1px solid #d4e2f1;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+  padding: var(--space-5);
+  box-shadow: 0 16px 38px rgba(15, 23, 42, 0.08);
+}
+
+.practice-path-card.path-2 {
+  background: linear-gradient(180deg, #f7fff9 0%, #ffffff 100%);
+}
+
+.practice-path-card.path-3 {
+  background: linear-gradient(180deg, #fff9e8 0%, #ffffff 100%);
+}
+
+.practice-path-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.path-icon {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border-radius: 8px;
+  background: #e7f0fb;
+  color: var(--sweden-blue-dark);
+}
+
+.path-2 .path-icon {
+  background: #e9f8ef;
+  color: #157a47;
+}
+
+.path-3 .path-icon {
+  background: #fff0c2;
+  color: #9a6200;
+}
+
+.path-badge {
+  border: 1px solid #c7d7e9;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.78);
+  padding: 8px 12px;
+  color: #334155;
+  font-size: 0.86rem;
+  font-weight: 900;
+}
+
+.practice-path-card h3 {
+  margin: 0;
+  color: var(--color-gray-900);
+  font-size: 1.45rem;
+  line-height: 1.12;
+}
+
+.practice-path-card p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.practice-path-card button {
+  align-self: end;
+  width: 100%;
+  min-height: 52px;
 }
 
 .study-modules-anchor {
@@ -1311,6 +1432,32 @@ h3 {
   padding: var(--space-4);
   color: var(--color-gray-700);
   font-weight: 850;
+}
+
+.mock-exam-locked {
+  display: grid;
+  gap: var(--space-3);
+  border: 1px solid #f1d08b;
+  border-radius: 8px;
+  background: #fff7df;
+  padding: var(--space-4);
+}
+
+.mock-exam-locked > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  color: #8a5700;
+}
+
+.mock-exam-locked p {
+  color: #5f4520;
+  font-size: 1rem;
+}
+
+.mock-exam-locked .hero-primary:disabled {
+  cursor: not-allowed;
+  opacity: 0.72;
 }
 
 .mock-score-card strong {
@@ -3336,6 +3483,146 @@ legend {
   margin-top: var(--space-5);
 }
 
+
+.guide-page {
+  padding-bottom: 96px;
+}
+
+.guide-hero {
+  margin-bottom: var(--space-10);
+  border: 1px solid #bfd6ee;
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(0, 106, 167, 0.12), transparent 44%),
+    linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  padding: clamp(24px, 5vw, 54px);
+  box-shadow: var(--shadow);
+}
+
+.guide-hero h1 {
+  max-width: 860px;
+  margin-bottom: var(--space-4);
+  color: #103e83;
+  font-size: clamp(2.2rem, 5vw, 4.8rem);
+  line-height: 0.98;
+}
+
+.guide-hero p:not(.eyebrow) {
+  max-width: 860px;
+  color: var(--muted);
+  font-size: clamp(1.05rem, 2vw, 1.32rem);
+  font-weight: 650;
+}
+
+.guide-actions,
+.guide-official-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-5);
+}
+
+.guide-hero .hero-secondary {
+  border-color: #bed3e9;
+  background: #ffffff;
+  color: #16406f;
+}
+
+.guide-section {
+  margin-bottom: var(--space-10);
+}
+
+.guide-card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.guide-card,
+.guide-step,
+.guide-trust-list article {
+  border: 1px solid #d3e0ef;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 12px 28px rgba(21, 49, 87, 0.06);
+}
+
+.guide-card {
+  min-height: 248px;
+  padding: var(--space-5);
+}
+
+.guide-card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  margin-bottom: var(--space-4);
+  border-radius: 8px;
+  background: #eef6ff;
+  color: #006aa7;
+}
+
+.guide-card h3,
+.guide-step h3,
+.guide-trust-list h3 {
+  margin-bottom: var(--space-2);
+  color: var(--ink);
+  font-size: 1.02rem;
+}
+
+.guide-card p,
+.guide-step p,
+.guide-trust-list p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 620;
+}
+
+.guide-use-section,
+.guide-trust-section {
+  border: 1px solid #c8daee;
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(22, 139, 143, 0.08), transparent 42%),
+    #ffffff;
+  padding: clamp(20px, 3vw, 32px);
+  box-shadow: var(--shadow);
+}
+
+.guide-step-list,
+.guide-trust-list {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.guide-step,
+.guide-trust-list article {
+  display: flex;
+  gap: var(--space-4);
+  padding: var(--space-4);
+}
+
+.guide-step > span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  background: #006aa7;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.guide-trust-list svg {
+  flex: 0 0 auto;
+  margin-top: 2px;
+  color: #168b8f;
+}
+
 .question-help {
   margin: -8px 0 18px;
   border: 1px solid #bdd4ef;
@@ -3607,6 +3894,7 @@ legend {
 
   .chapter-grid,
   .topic-list,
+  .practice-path-grid,
   .dashboard-stats,
   .dashboard-insight-grid,
   .admin-metric-grid,
@@ -3863,9 +4151,18 @@ legend {
     overflow-wrap: anywhere;
   }
 
-  .proof-strip {
+  .proof-strip,
+  .practice-path-grid {
     grid-template-columns: 1fr;
     margin-top: 0;
+  }
+
+  .practice-path-heading {
+    grid-template-columns: 1fr;
+  }
+
+  .guide-link-button {
+    width: 100%;
   }
 
   .hero-banner .intro-actions {
@@ -3887,6 +4184,7 @@ legend {
 
   .chapter-grid,
   .topic-list,
+  .practice-path-grid,
   .dashboard-stats,
   .topic-dashboard-grid,
   .admin-metric-grid,
@@ -4295,6 +4593,22 @@ legend {
 
   .question-review-options small {
     grid-column: 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .guide-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .guide-hero h1 {
+    font-size: clamp(2rem, 13vw, 3.4rem);
+  }
+
+  .guide-actions .hero-primary,
+  .guide-actions .hero-secondary,
+  .guide-official-links .source-link {
+    width: 100%;
   }
 }
 

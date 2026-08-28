@@ -1,18 +1,51 @@
 import type { UiText } from "../uiTextTypes";
 
 export const zhUiText: UiText = {
-    eyebrow: "瑞典入籍考试，简单练习",
-    appTitle: "入籍社会知识练习",
-    lead: "基于 UHR 的官方学习材料",
-    languageNote: "题目保持瑞典语，解释会使用你选择的语言。",
+    eyebrow: "瑞典入籍社会知识考试，循序渐进",
+    appTitle: "一站式瑞典入籍社会知识考试练习平台",
+    lead: "覆盖入籍社会知识考试全部官方内容",
+    languageNote: "题目保持瑞典语，可选其他语言查看解释。",
     dailyPrompt: "先做5道题。",
     navStudyModules: "学习模块",
-    navPracticeTests: "练习题",
-    navAbout: "关于指南",
-    navStartPractice: "试做5题",
-    heroPrimaryCta: "试做5道瑞典语题 →",
+    navPracticeTests: "模拟考试",
+    navAbout: "备考指南",
+    navStartPractice: "免费练习",
+    practicePathTitle: "选择练习方式",
+    practicePathIntro: "先用免费练习体验本站，需要系统学习时按主题和章节练习，准备冲刺时再做模拟考试。",
+    practicePaths: [
+      { title: "开始免费练习", body: "先做一组小型混合题。无需账号或付款。", badge: "免费体验", cta: "开始免费练习" },
+      { title: "按主题学习", body: "按四个学习范围和官方章节逐步练习。", badge: "13个章节", cta: "选择学习范围" },
+      { title: "模拟考试", body: "用于更认真备考的混合练习模式。完整版功能。", badge: "完整访问", cta: "查看模拟考试" }
+    ],
+    guidePageTitle: "瑞典入籍社会知识考试指南",
+    guidePageIntro: "简短说明目前关于瑞典入籍社会知识考试（medborgarskapsprovet）已知的信息、应该如何准备，以及本站如何配合官方学习材料使用。",
+    guideFactsTitle: "目前已知的信息",
+    guideFacts: [
+      { title: "这是入籍社会知识考试", body: "考试考查对瑞典社会的了解。它和瑞典语语言考试是分开的；UHR 表示瑞典语考试会在之后推出。" },
+      { title: "考试使用瑞典语", body: "UHR 描述的入籍社会知识考试是纸笔考试，题目为选择题，四个选项中只有一个正确答案，考试语言是瑞典语。" },
+      // TODO: Review this date before launch or make it dynamic when UHR announces the next test details.
+      { title: "下一次考试细节尚未确定", body: "第一次入籍社会知识考试已在 2026 年 8 月举行。UHR 表示下一次考试日期、题目数量和考试时间会稍后公布。" },
+      { title: "不是所有人都能自行报名", body: "Migrationsverket 决定谁可以参加考试。只有收到 Migrationsverket 的通知信后，才可以报名。" }
+    ],
+    guideHowTitle: "如何更有把握通过考试",
+    guideHowSteps: [
+      { title: "先读一个官方章节", body: "从 UHR 和 Skolverket 的 Sverige i fokus 开始。把官方材料作为学习来源。" },
+      { title: "用瑞典语练习", body: "读完后回答瑞典语题目，训练真实考试会遇到的题型和词汇。" },
+      { title: "答题后再看语言帮助", body: "题目保持瑞典语，然后可选其他语言查看解释，理解错在哪里。" },
+      { title: "用模拟考试检查准备程度", body: "通过混合模拟考试和进度面板找到薄弱章节，而不是每次都从头复习。" }
+    ],
+    guideTrustTitle: "本站能做什么，不能做什么",
+    guideTrustItems: [
+      { title: "独立练习工具", body: "本站不是 UHR、Migrationsverket、Skolverket，也不是官方考试机构。" },
+      { title: "基于官方学习材料", body: "练习题是根据 Sverige i fokus 主题原创编写的学习题，不是复制官方考试题。" },
+      { title: "官方信息请始终核实", body: "日期、报名规则、费用和未来考试形式都可能变化。涉及你个人申请的决定，请查看 UHR 和 Migrationsverket。" }
+    ],
+    guideOfficialNote: "把本站当作练习层。考试规则和你的入籍申请，请以 UHR 和 Migrationsverket 的官方信息为准。",
+    guideStartCta: "开始免费练习",
+    guideMockExamCta: "试做模拟考试",
+    heroPrimaryCta: "立刻开始免费练习",
     heroSecondaryCta: "选择主题",
-    heroTrustBadge: "瑞典语题目 • 先提供英文解释 • 基于 Sverige i fokus",
+    heroTrustBadge: "瑞典语题目 • 可选其他语言查看解释",
     heroMockLabel: "练习预览",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -21,9 +54,9 @@ export const zhUiText: UiText = {
     heroMockExplanationLabel: "即时解释",
     heroMockExplanation: "民主表示人们可以通过选举、言论自由和参与来影响社会。",
     proofStats: [
-      { value: "1,000", label: "已审核练习题" },
-      { value: "13", label: "官方章节已映射" },
-      { value: "65", label: "计划免费样题" }
+      { value: "1,000", label: "道精选练习题" },
+      { value: "13", label: "官方章节完整覆盖" },
+      { value: "65", label: "道免费体验题" }
     ],
     freeTierBadge: "免费样题",
     fullAccessBadge: "完整访问",
@@ -33,11 +66,11 @@ export const zhUiText: UiText = {
     earlyAccessTitle: "独立学习指南",
     earlyAccessMessage: `配合 Sverige i fokus 学习
 
-瑞典公民测试的官方学习材料是 UHR 和 Skolverket 的 Sverige i fokus。它涵盖瑞典这个国家、民主、瑞典如何治理、选举、法律和权利、媒体和来源批判、人权、工作和个人经济、福利、现代历史、国际合作、宗教和传统。
+入籍社会知识考试的官方学习材料是 UHR 和 Skolverket 的 Sverige i fokus。它涵盖瑞典这个国家、民主、瑞典如何治理、选举、法律和权利、媒体和来源批判、人权、工作和个人经济、福利、现代历史、国际合作、宗教和传统。
 
 请把 Swedish Civics Test Preparation 当作独立练习指南：先阅读 Sverige i fokus 的一个章节，再用这些瑞典语问题检查自己记住了什么。我们不是官方测试，也不复制官方考试题。`,
     officialGuideLink: "打开官方学习材料",
-    studyPathTitle: "更聪明的学习方式",
+    studyPathTitle: "更有效的学习方式",
     studyPathIntro: "优秀学习应用真正值得借鉴的不是外观，而是学习循环：对应官方教材、主动回忆练习、再回到薄弱章节。",
     studySteps: [
       { title: "1. 先读官方材料", body: "从 Sverige i fokus 的一个章节开始，把官方材料当作地图。" },
@@ -96,10 +129,12 @@ export const zhUiText: UiText = {
       { title: "进度面板", body: "显示薄弱主题、连续练习和下一步复习建议。" }
     ],
     mockExamTitle: "模拟考试",
-    mockExamIntro: "从已审核题库中抽取一组混合题。提交前不显示解释，让练习更接近真实考试状态。",
+    mockExamIntro: "从精选题库中抽取一组混合题。提交前不显示解释，让练习更接近真实考试状态。",
     mockExamBadge: "混合练习",
     mockExamLength: (count) => `${count} 题`,
     mockExamStart: "开始模拟考试",
+    mockExamLockedIntro: "模拟考试属于完整版功能。现在可以先使用免费练习；接入付费权限后即可解锁模拟考试。",
+    mockExamLockedCta: "需要完整访问",
     mockExamResume: "继续模拟考试",
     mockExamPrevious: "上一题",
     mockExamNext: "下一题",

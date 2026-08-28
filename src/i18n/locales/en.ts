@@ -2,17 +2,49 @@ import type { UiText } from "../uiTextTypes";
 
 export const enUiText: UiText = {
     eyebrow: "Swedish citizenship test, made simple",
-    appTitle: "Practice for the Swedish citizenship test",
+    appTitle: "One-stop practice for the Swedish citizenship test",
     lead: "Based on UHR's official study material",
-    languageNote: "Questions stay in Swedish. Explanations use your selected language.",
+    languageNote: "Questions stay in Swedish. Explanations use your preferred language.",
     dailyPrompt: "Start with 5 questions.",
     navStudyModules: "Study Modules",
-    navPracticeTests: "Practice Tests",
-    navAbout: "About",
-    navStartPractice: "Try 5 questions",
-    heroPrimaryCta: "Try 5 Swedish questions →",
+    navPracticeTests: "Mock exam",
+    navAbout: "Guide",
+    navStartPractice: "Start free practice",
+    practicePathTitle: "Choose how to practise",
+    practicePathIntro: "Use the free sample to try the site, study by topic when you want structure, or use mock exam mode when you want a serious test simulation.",
+    practicePaths: [
+      { title: "Start free practice", body: "Try a small mixed set first. No account or payment needed.", badge: "Free sample", cta: "Start free practice" },
+      { title: "Study by topic", body: "Work through the four study areas and their official chapters.", badge: "13 chapters", cta: "Choose study area" },
+      { title: "Take mock exam", body: "A mixed exam-style session for serious preparation. Full-access feature.", badge: "Full access", cta: "View mock exam" }
+    ],
+    guidePageTitle: "Swedish citizenship test guide",
+    guidePageIntro: "A short guide to what is known about medborgarskapsprovet, how to prepare, and how this independent practice site fits around the official study material.",
+    guideFactsTitle: "What is known now",
+    guideFacts: [
+      { title: "It is a society test", body: "The test checks knowledge of Swedish society. It is separate from the Swedish language test, which UHR says will be introduced later." },
+      { title: "The test is in Swedish", body: "UHR describes the society test as a paper-based multiple-choice test in Swedish, with four answer options and one correct answer." },
+      { title: "Next details are not fixed yet", body: "The first society test took place in August 2026. UHR says information about the next test date, number of questions, and test time will come later." },
+      { title: "Registration is not open to everyone", body: "Migrationsverket decides who may take the test. You can register only if you receive a referral letter from Migrationsverket." }
+    ],
+    guideHowTitle: "How to use this guide",
+    guideHowSteps: [
+      { title: "Read one official chapter", body: "Start with Sverige i fokus from UHR and Skolverket. Use the official material as the source." },
+      { title: "Practise in Swedish", body: "Answer Swedish questions after reading. This trains the format and the vocabulary you will actually see." },
+      { title: "Use language help after you try", body: "Keep the question in Swedish, then use explanations in your preferred language to understand mistakes." },
+      { title: "Check readiness with mock exams", body: "Use mixed mock exams and the progress dashboard to find weak chapters before you reread everything." }
+    ],
+    guideTrustTitle: "What this site can and cannot do",
+    guideTrustItems: [
+      { title: "Independent practice", body: "This site is not UHR, Migrationsverket, Skolverket, or an official test provider." },
+      { title: "Based on official study material", body: "The practice questions are original study questions based on themes from Sverige i fokus. They are not copied official exam questions." },
+      { title: "Always verify official details", body: "Dates, registration rules, fees, and future test format can change. Check UHR and Migrationsverket for decisions that affect your own case." }
+    ],
+    guideOfficialNote: "Use this site as a practice layer. Use UHR and Migrationsverket as the official source for test rules and your citizenship case.",
+    guideStartCta: "Start free practice",
+    guideMockExamCta: "Try mock exam",
+    heroPrimaryCta: "Start free practice",
     heroSecondaryCta: "Choose a topic",
-    heroTrustBadge: "Questions in Swedish • English explanations first • Based on Sverige i fokus",
+    heroTrustBadge: "Questions in Swedish • Explanations in your preferred language",
     heroMockLabel: "Practice preview",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -21,9 +53,9 @@ export const enUiText: UiText = {
     heroMockExplanationLabel: "Instant explanation",
     heroMockExplanation: "Democracy means people can influence society through elections, free speech, and participation.",
     proofStats: [
-      { value: "1,000", label: "reviewed practice questions" },
-      { value: "13", label: "official chapters mapped" },
-      { value: "65", label: "planned free sample questions" }
+      { value: "1,000", label: "curated practice questions" },
+      { value: "13", label: "official chapters covered" },
+      { value: "65", label: "free sample questions" }
     ],
     freeTierBadge: "Free sample",
     fullAccessBadge: "Full access",
@@ -37,7 +69,7 @@ The official study material for the Swedish citizenship test is Sverige i fokus 
 
 Use Swedish Civics Test Preparation as an independent practice guide: read a chapter in Sverige i fokus first, then use these Swedish questions to check what you remember. We are not the official test and we do not copy official exam questions.`,
     officialGuideLink: "Open the official study material",
-    studyPathTitle: "A smarter way to study",
+    studyPathTitle: "A more effective way to study",
     studyPathIntro: "The useful lesson from stronger study apps is not the visual design. It is the study loop: map the official book, practice active recall, and return to weak chapters.",
     studySteps: [
       { title: "1. Read the source", body: "Start with one chapter in Sverige i fokus. Treat the official material as the map." },
@@ -96,10 +128,12 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
       { title: "Progress dashboard", body: "Show weak topics, streaks, and what to review next." }
     ],
     mockExamTitle: "Mock exam",
-    mockExamIntro: "Answer a mixed set from the reviewed question bank. No explanations are shown until you submit, so it feels closer to a real test session.",
+    mockExamIntro: "Answer a mixed set from the curated question bank. No explanations are shown until you submit, so it feels closer to a real test session.",
     mockExamBadge: "Mixed practice",
     mockExamLength: (count) => `${count} questions`,
     mockExamStart: "Start mock exam",
+    mockExamLockedIntro: "Mock exam mode is reserved for the full version. Use free practice now, then unlock mock exams when payment access is connected.",
+    mockExamLockedCta: "Full access required",
     mockExamResume: "Continue mock exam",
     mockExamPrevious: "Previous",
     mockExamNext: "Next",

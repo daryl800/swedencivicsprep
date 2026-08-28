@@ -3,12 +3,14 @@ import { createLocalizedUiText } from "../uiTextUtils";
 
 export const soUiText = createLocalizedUiText(enUiText, {
     eyebrow: "Imtixaanka jinsiyadda Iswiidhan, si fudud",
-    appTitle: "Diyaarinta Imtixaanka Bulshada Iswiidhan",
+    appTitle: "Tababar hal meel ah oo loogu talagalay imtixaanka dhalashada Iswiidhan",
     lead: "Ku salaysan agabka rasmiga ah ee waxbarashada ee UHR",
     languageNote: "Su'aalaha iyo doorashooyinka jawaabta waxay ku sii jiraan af Iswiidhish. Qaybaha kale ee app-ku waxay raacaan luqadda aad doorato.",
     dailyPrompt: "Ku bilow 5 su’aalood.",
-    navStartPractice: "Tijaabi 5 su’aalood",
-    heroPrimaryCta: "Tijaabi 5 su’aalood oo Iswiidhish ah →",
+    navPracticeTests: "Imtixaan tijaabo ah",
+    navAbout: "Hagaha imtixaanka",
+    navStartPractice: "Tababar bilaash ah tijaabi",
+    heroPrimaryCta: "Bilow tababarka bilaashka ah",
     heroSecondaryCta: "Dooro mawduuc",
     earlyAccessTitle: "Hage madax-bannaan",
     earlyAccessMessage: `Wax ku baro Sverige i fokus
@@ -17,7 +19,7 @@ Agabka rasmiga ah ee lagu barto imtixaanka jinsiyadda Iswiidhan waa Sverige i fo
 
 U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka hore akhri cutub ka mid ah Sverige i fokus, kadibna isticmaal su'aalahan Iswiidhishka ah si aad u hubiso waxaad xusuusato. Annagu ma nihin imtixaanka rasmiga ah mana nuqulno su'aalaha imtixaanka rasmiga ah.`,
     officialGuideLink: "Fur agabka rasmiga ah ee waxbarashada",
-    studyPathTitle: "Hab waxbarasho oo ka fiican",
+    studyPathTitle: "Hab waxbarasho oo waxtar badan",
     studyPathIntro: "Casharka muhiimka ah ee laga baranayo app-yada waxbarasho ee xooggan ma aha naqshadda muuqaalka. Waa wareegga waxbarashada: raac buugga rasmiga ah, ku tababar xusuusin firfircoon, kuna noqo cutubyada daciifka ah.",
     studySteps: [
       { title: "1. Akhri isha rasmiga ah", body: "Ku bilow hal cutub oo ka mid ah Sverige i fokus. U qaado agabka rasmiga ah inuu yahay khariidaddaada." },
@@ -66,7 +68,7 @@ U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka
       { title: "Guddi horumar", body: "Muuji mawduucyada daciifka ah, maalmaha isku xiga, iyo waxa xiga ee la celinayo." }
     ],
     mockExamTitle: "Imtixaan tijaabo ah",
-    mockExamIntro: "Ka jawaab su'aalo isku-dhafan oo laga soo qaaday bangiga su'aalaha la hubiyay. Sharaxaad lama muujiyo ilaa aad gudbiso, si tababarku ugu dhowaado imtixaan dhab ah.",
+    mockExamIntro: "Ka jawaab su'aalo isku-dhafan oo laga soo qaaday bangiga su'aalaha la xushay. Sharaxaad lama muujiyo ilaa aad gudbiso, si tababarku ugu dhowaado imtixaan dhab ah.",
     mockExamBadge: "Tababar isku-dhafan",
     mockExamLength: (count) => `${count} su'aalood`,
     mockExamStart: "Bilow imtixaanka tijaabada",

@@ -44,7 +44,7 @@ export function trackEvent(eventName: string, properties: AnalyticsProperties = 
 export function trackPageView(routeName: string, properties: AnalyticsProperties = {}) {
   trackEvent("page_viewed", {
     route: routeName,
-    path: window.location.hash || "#/",
+    path: window.location.pathname || "/",
     ...properties
   });
 }

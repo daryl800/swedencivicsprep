@@ -3,12 +3,14 @@ import { createLocalizedUiText } from "../uiTextUtils";
 
 export const tiUiText = createLocalizedUiText(enUiText, {
     eyebrow: "ፈተና ዜግነት ሽወደን፣ ብቐሊሉ",
-    appTitle: "ምድላው ፈተና ማሕበረሰብ ሽወደን",
+    appTitle: "ንፈተና ዜግነት ሽወደን ኣብ ሓደ ቦታ ዝተኣከበ ልምምድ",
     lead: "ኣብ ወግዓዊ መጽናዕቲ UHR ዝተመርኮሰ",
     languageNote: "ሕቶታትን ምርጫታት መልስን ብሽወደንኛ ይቕጽሉ። ዝተረፈ ክፋል ናይ app ብዝመረጽኩሞ ቋንቋ ይረአ።",
     dailyPrompt: "ብ5 ሕቶታት ጀምሩ።",
+    navPracticeTests: "ናይ ልምምድ ፈተና",
+    navAbout: "መምርሒ ፈተና",
     navStartPractice: "5 ሕቶታት ፈትኑ",
-    heroPrimaryCta: "5 ሽወደንኛ ሕቶታት ፈትኑ →",
+    heroPrimaryCta: "ልምምድ ነፍሲ ወከፍ ጀምሩ",
     heroSecondaryCta: "ርእሰ-ጉዳይ ምረጹ",
     earlyAccessTitle: "ናጻ መምርሒ",
     earlyAccessMessage: `ብSverige i fokus ተማሃሩ
@@ -17,7 +19,7 @@ export const tiUiText = createLocalizedUiText(enUiText, {
 
 Swedish Civics Test Preparation ከም ናጻ መምርሒ ልምምድ ተጠቐሙሉ፦ መጀመርታ ሓደ ምዕራፍ ካብ Sverige i fokus ኣንብቡ፣ ድሕሪኡ እዞም ሽወደንኛ ሕቶታት እንታይ ከምዝዘከርኩም ንምርኣይ ተጠቐሙሎም። ንሕና ወግዓዊ ፈተና ኣይኮንናን፣ ወግዓዊ ሕቶታት ፈተና ድማ ኣይንቐድሕን።`,
     officialGuideLink: "ናይ ወግዒ መጽናዕቲ ክፈት",
-    studyPathTitle: "ዝሓሸ መንገዲ መጽናዕቲ",
+    studyPathTitle: "ዝዀውን መንገዲ መጽናዕቲ",
     studyPathIntro: "ካብ ጽቡቓት ናይ መጽናዕቲ appታት ዝምሃር ቀንዲ ነገር ዲዛይን ኣይኮነን። እቲ ጠቓሚ ነገር ዙርያ መጽናዕቲ እዩ፦ ወግዓዊ መጽሓፍ ምክታል፣ ብንጡፍ ምዝካር ምልምማድ፣ ናብ ድኹማት ምዕራፋት ምምላስ።",
     studySteps: [
       { title: "1. ምንጪ ኣንብቡ", body: "ብሓደ ምዕራፍ ካብ Sverige i fokus ጀምሩ። እቲ ወግዓዊ መጽናዕቲ ከም ካርታ ውሰድዎ።" },
@@ -66,7 +68,7 @@ Swedish Civics Test Preparation ከም ናጻ መምርሒ ልምምድ ተጠ�
       { title: "መከታተሊ ምዕባለ", body: "ድኹማት ርእሰ-ጉዳያት፣ ተኸታታሊ ልምምድ፣ እንታይ ቀጺልካ ክትደግም ከምዘለካ የርኢ።" }
     ],
     mockExamTitle: "ፈተና ልምምድ",
-    mockExamIntro: "ካብቲ ዝተገምገመ ባንክ ሕቶታት ዝተሓዋወሰ ስብስብ መልሱ። መግለጺታት ክሳብ ትልእኩ ኣይረአዩን፣ ስለዚ ልምምዱ ናብ ናይ ብሓቂ ፈተና ይቐርብ።",
+    mockExamIntro: "ካብቲ ዝተምረጽ ባንክ ሕቶታት ዝተሓዋወሰ ስብስብ መልሱ። መግለጺታት ክሳብ ትልእኩ ኣይረአዩን፣ ስለዚ ልምምዱ ናብ ናይ ብሓቂ ፈተና ይቐርብ።",
     mockExamBadge: "ዝተሓዋወሰ ልምምድ",
     mockExamLength: (count) => `${count} ሕቶታት`,
     mockExamStart: "ፈተና ልምምድ ጀምሩ",

@@ -22,6 +22,7 @@ type Route =
   | { page: "chapter"; chapterId: string }
   | { page: "quick" }
   | { page: "mock-exam" }
+  | { page: "guide" }
   | { page: "question-review" }
   | { page: "progress" }
   | { page: "flashcards" }
@@ -200,7 +201,7 @@ const FEEDBACK_FORM_URL = import.meta.env.VITE_FEEDBACK_FORM_URL || "https://tal
 registerUiTranslations();
 
 function App() {
-  const [route, setRoute] = useHashRoute();
+  const [route, setRoute] = usePathRoute();
   const [progress, setProgress] = useState<Progress>(() => loadProgress());
   const [questionIndexByTopic, setQuestionIndexByTopic] = useState<Record<string, number>>({});
   const [practiceStartedByTopic, setPracticeStartedByTopic] = useState<Record<string, boolean>>({});
@@ -231,6 +232,16 @@ function App() {
     setSelectedIndex(null);
     setChecked(false);
     setQuestionHelpVisible(false);
+  }
+
+  function goStudyModules() {
+    setRoute({ page: "home" });
+    setSelectedIndex(null);
+    setChecked(false);
+    setQuestionHelpVisible(false);
+    window.setTimeout(() => {
+      document.getElementById("study-modules")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 0);
   }
 
   function goTopic(topicId: string) {
@@ -271,6 +282,14 @@ function App() {
     trackEvent("practice_started", { mode: "quick_start", questionCount: QUICK_START_QUESTIONS.length, topicId: QUICK_START_TOPIC_ID, uiLanguage: language });
     setQuestionIndexByTopic((current) => ({ ...current, [QUICK_START_TOPIC_ID]: 0 }));
     setRoute({ page: "quick" });
+    setSelectedIndex(null);
+    setChecked(false);
+    setQuestionHelpVisible(false);
+  }
+
+  function goGuide() {
+    trackEvent("guide_opened", { uiLanguage: language });
+    setRoute({ page: "guide" });
     setSelectedIndex(null);
     setChecked(false);
     setQuestionHelpVisible(false);
@@ -405,12 +424,33 @@ function App() {
     setQuestionHelpVisible(nextVisible);
   }
 
+  if (route.page === "guide") {
+    return (
+      <GuidePage
+        language={language}
+        onBack={goHome}
+        onOpenFeedback={goFeedback}
+        onOpenGuide={goGuide}
+        onOpenMockExam={goMockExam}
+        onOpenPrivacy={goPrivacy}
+        onQuickPractice={goQuickPractice}
+        onSelectLanguage={handleLanguageChange}
+        onStudy={goStudyModules}
+        ui={ui}
+      />
+    );
+  }
+
   if (route.page === "privacy") {
     return (
       <PrivacyPage
         language={language}
         onBack={goHome}
+        onOpenGuide={goGuide}
+        onOpenMockExam={goMockExam}
+        onQuickPractice={goQuickPractice}
         onSelectLanguage={handleLanguageChange}
+        onStudy={goStudyModules}
         ui={ui}
       />
     );
@@ -421,9 +461,13 @@ function App() {
       <ProgressDashboardPage
         language={language}
         onBack={goHome}
+        onOpenGuide={goGuide}
+        onOpenMockExam={goMockExam}
+        onQuickPractice={goQuickPractice}
         onSelectLanguage={handleLanguageChange}
         onSelectChapter={goChapter}
         onSelectTopic={goTopic}
+        onStudy={goStudyModules}
         progress={progress}
         ui={ui}
       />
@@ -435,7 +479,11 @@ function App() {
       <FlashcardsPreviewPage
         language={language}
         onBack={goHome}
+        onOpenGuide={goGuide}
+        onOpenMockExam={goMockExam}
+        onQuickPractice={goQuickPractice}
         onSelectLanguage={handleLanguageChange}
+        onStudy={goStudyModules}
         ui={ui}
       />
     );
@@ -446,7 +494,11 @@ function App() {
       <FeedbackPage
         language={language}
         onBack={goHome}
+        onOpenGuide={goGuide}
+        onOpenMockExam={goMockExam}
+        onQuickPractice={goQuickPractice}
         onSelectLanguage={handleLanguageChange}
+        onStudy={goStudyModules}
         ui={ui}
       />
     );
@@ -473,7 +525,11 @@ function App() {
       <MockExamPage
         language={language}
         onBack={goHome}
+        onOpenGuide={goGuide}
+        onOpenMockExam={goMockExam}
+        onQuickPractice={goQuickPractice}
         onSelectLanguage={handleLanguageChange}
+        onStudy={goStudyModules}
         ui={ui}
       />
     );
@@ -489,6 +545,7 @@ function App() {
           onBack={goHome}
           onOpenFeedback={goFeedback}
           onOpenFlashcards={goFlashcards}
+          onOpenGuide={goGuide}
           onOpenPrivacy={goPrivacy}
           onOpenProgress={goProgress}
           onOpenMockExam={goMockExam}
@@ -513,7 +570,11 @@ function App() {
         onDismissFeedbackPrompt={handleDismissFeedbackPrompt}
         onFeedbackPromptShown={handleFeedbackPromptShown}
         onOpenFeedback={handleFeedbackPromptClicked}
+        onOpenGuide={goGuide}
+        onOpenMockExam={goMockExam}
         onBack={goHome}
+        onQuickPractice={goQuickPractice}
+        onStudy={goStudyModules}
         onCheck={handleCheck}
         onNext={handleNext}
         onResetProgress={handleResetProgress}
@@ -557,7 +618,11 @@ function App() {
           onDismissFeedbackPrompt={handleDismissFeedbackPrompt}
           onFeedbackPromptShown={handleFeedbackPromptShown}
           onOpenFeedback={handleFeedbackPromptClicked}
+          onOpenGuide={goGuide}
+          onOpenMockExam={goMockExam}
           onBack={goHome}
+          onQuickPractice={goQuickPractice}
+          onStudy={goStudyModules}
           onCheck={handleCheck}
           onNext={handleNext}
           onResetProgress={handleResetProgress}
@@ -594,7 +659,11 @@ function App() {
           onDismissFeedbackPrompt={handleDismissFeedbackPrompt}
           onFeedbackPromptShown={handleFeedbackPromptShown}
           onOpenFeedback={handleFeedbackPromptClicked}
+          onOpenGuide={goGuide}
+          onOpenMockExam={goMockExam}
           onBack={goHome}
+          onQuickPractice={goQuickPractice}
+          onStudy={goStudyModules}
           onCheck={handleCheck}
           onNext={handleNext}
           onResetProgress={handleResetProgress}
@@ -621,6 +690,7 @@ function App() {
       language={language}
       onOpenFeedback={goFeedback}
       onOpenFlashcards={goFlashcards}
+      onOpenGuide={goGuide}
       onOpenPrivacy={goPrivacy}
       onOpenMockExam={goMockExam}
       onOpenProgress={goProgress}
@@ -697,6 +767,10 @@ function getRouteName(route: Route) {
     return "mock-exam";
   }
 
+  if (route.page === "guide") {
+    return "guide";
+  }
+
   if (route.page === "chapter") {
     return `chapter:${route.chapterId}`;
   }
@@ -704,9 +778,13 @@ function getRouteName(route: Route) {
   return route.page;
 }
 
-function getInitialRoute(): Route {
-  const hash = window.location.hash.replace(/^#\/?/, "");
-  const [page, topicId] = hash.split("/");
+function getRouteFromPath(path: string): Route {
+  const normalizedPath = path.replace(/^\/+|\/+$/g, "");
+  const [page, topicId] = normalizedPath.split("/");
+
+  if (!page) {
+    return { page: "home" };
+  }
 
   if (page === "topic" && topicId) {
     return { page: "topic", topicId };
@@ -732,6 +810,10 @@ function getInitialRoute(): Route {
     return { page: "mock-exam" };
   }
 
+  if (page === "guide") {
+    return { page: "guide" };
+  }
+
   if (page === "question-review") {
     return { page: "question-review" };
   }
@@ -755,7 +837,33 @@ function getInitialRoute(): Route {
   return { page: "home" };
 }
 
-function useHashRoute(): [Route, (route: Route) => void] {
+function routeToPath(route: Route) {
+  if (route.page === "home") return "/";
+  if (route.page === "privacy") return "/privacy";
+  if (route.page === "guide") return "/guide";
+  if (route.page === "quick") return "/quick";
+  if (route.page === "question-review") return "/question-review";
+  if (route.page === "mock-exam") return "/mock-exam";
+  if (route.page === "progress") return "/progress";
+  if (route.page === "area") return `/area/${route.topicId}`;
+  if (route.page === "chapter") return `/chapter/${route.chapterId}`;
+  if (route.page === "flashcards") return "/flashcards";
+  if (route.page === "feedback") return "/feedback";
+  if (route.page === "admin") return "/admin";
+  return `/topic/${route.topicId}`;
+}
+
+function getInitialRoute(): Route {
+  if (window.location.hash.startsWith("#/")) {
+    const legacyRoute = getRouteFromPath(window.location.hash.replace(/^#\/?/, ""));
+    window.history.replaceState({}, "", routeToPath(legacyRoute));
+    return legacyRoute;
+  }
+
+  return getRouteFromPath(window.location.pathname);
+}
+
+function usePathRoute(): [Route, (route: Route) => void] {
   const [route, setRouteState] = useState<Route>(() => getInitialRoute());
 
   useEffect(() => {
@@ -763,36 +871,18 @@ function useHashRoute(): [Route, (route: Route) => void] {
       setRouteState(getInitialRoute());
     }
 
-    window.addEventListener("hashchange", syncRoute);
-    return () => window.removeEventListener("hashchange", syncRoute);
+    window.addEventListener("popstate", syncRoute);
+    return () => window.removeEventListener("popstate", syncRoute);
   }, []);
 
   function setRoute(nextRoute: Route) {
     stopBrowserAudio();
-    window.location.hash =
-      nextRoute.page === "home"
-        ? "/"
-        : nextRoute.page === "privacy"
-          ? "/privacy"
-          : nextRoute.page === "quick"
-            ? "/quick"
-            : nextRoute.page === "question-review"
-              ? "/question-review"
-              : nextRoute.page === "mock-exam"
-                ? "/mock-exam"
-              : nextRoute.page === "progress"
-            ? "/progress"
-            : nextRoute.page === "area"
-              ? "/area/" + nextRoute.topicId
-            : nextRoute.page === "chapter"
-              ? "/chapter/" + nextRoute.chapterId
-            : nextRoute.page === "flashcards"
-              ? "/flashcards"
-              : nextRoute.page === "feedback"
-                ? "/feedback"
-                : nextRoute.page === "admin"
-                  ? "/admin"
-                  : `/topic/${nextRoute.topicId}`;
+    const nextPath = routeToPath(nextRoute);
+
+    if (window.location.pathname !== nextPath || window.location.hash) {
+      window.history.pushState({}, "", nextPath);
+    }
+
     setRouteState(nextRoute);
   }
 
@@ -803,6 +893,7 @@ function HomePage({
   language,
   onOpenFeedback,
   onOpenFlashcards,
+  onOpenGuide,
   onOpenMockExam,
   onOpenPrivacy,
   onOpenProgress,
@@ -815,6 +906,7 @@ function HomePage({
   language: UiLanguage;
   onOpenFeedback: () => void;
   onOpenFlashcards: () => void;
+  onOpenGuide: () => void;
   onOpenMockExam: () => void;
   onOpenPrivacy: () => void;
   onOpenProgress: () => void;
@@ -846,6 +938,8 @@ function HomePage({
     <>
       <AppNav
         onExploreModules={handleExploreModules}
+        onGoHome={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        onOpenGuide={onOpenGuide}
         onOpenMockExam={onOpenMockExam}
         onSelectLanguage={onSelectLanguage}
         onStartPractice={handleStartPractice}
@@ -875,6 +969,14 @@ function HomePage({
         </section>
 
         <ProofStats ui={ui} />
+
+        <PracticePathSection
+          onOpenGuide={onOpenGuide}
+          onOpenMockExam={onOpenMockExam}
+          onQuickPractice={handleStartPractice}
+          onStudy={handleExploreModules}
+          ui={ui}
+        />
 
         {showCitizenshipUpdate ? (
           <CitizenshipUpdateCard language={language} onDismiss={handleDismissCitizenshipUpdate} ui={ui} />
@@ -959,7 +1061,7 @@ function HomePage({
 
         <ComingNextSection onOpenFlashcards={onOpenFlashcards} onOpenMockExam={onOpenMockExam} onOpenProgress={onOpenProgress} ui={ui} />
         <FaqSection language={language} />
-        <SiteFooter language={language} onOpenFeedback={onOpenFeedback} onOpenPrivacy={onOpenPrivacy} />
+        <SiteFooter language={language} onOpenFeedback={onOpenFeedback} onOpenGuide={onOpenGuide} onOpenPrivacy={onOpenPrivacy} />
       </main>
       <MobileBottomNav
         active="home"
@@ -974,11 +1076,128 @@ function HomePage({
   );
 }
 
+function GuidePage({
+  language,
+  onBack,
+  onOpenFeedback,
+  onOpenGuide,
+  onOpenMockExam,
+  onOpenPrivacy,
+  onQuickPractice,
+  onSelectLanguage,
+  onStudy,
+  ui
+}: {
+  language: UiLanguage;
+  onBack: () => void;
+  onOpenFeedback: () => void;
+  onOpenGuide: () => void;
+  onOpenMockExam: () => void;
+  onOpenPrivacy: () => void;
+  onQuickPractice: () => void;
+  onSelectLanguage: (language: UiLanguage) => void;
+  onStudy: () => void;
+  ui: UiText;
+}) {
+  return (
+    <>
+      <LearnerPageNav language={language} onBack={onBack} onOpenGuide={onOpenGuide} onOpenMockExam={onOpenMockExam} onQuickPractice={onQuickPractice} onSelectLanguage={onSelectLanguage} onStudy={onStudy} ui={ui} />
+      <main className="shell guide-page" dir={isRtl(language) ? "rtl" : "ltr"}>
+
+      <section className="guide-hero">
+        <p className="eyebrow">{ui.navAbout}</p>
+        <h1 dir={getTextDirection(ui.guidePageTitle)}>{ui.guidePageTitle}</h1>
+        <p dir={getTextDirection(ui.guidePageIntro)}>{ui.guidePageIntro}</p>
+        <div className="guide-actions">
+          <button className="hero-primary" type="button" onClick={onQuickPractice}>
+            {ui.guideStartCta}
+          </button>
+          <button className="hero-secondary" type="button" onClick={onOpenMockExam}>
+            {ui.guideMockExamCta}
+          </button>
+        </div>
+      </section>
+
+      <section className="guide-section" aria-label={ui.guideFactsTitle}>
+        <div className="section-heading">
+          <p className="eyebrow">UHR</p>
+          <h2>{ui.guideFactsTitle}</h2>
+        </div>
+        <div className="guide-card-grid">
+          {ui.guideFacts.map((item, index) => {
+            const Icon = index === 0 ? BookOpen : index === 1 ? CheckCircle2 : index === 2 ? HelpCircle : Landmark;
+            return (
+              <article className="guide-card" key={item.title}>
+                <span className="guide-card-icon" aria-hidden="true">
+                  <Icon size={22} strokeWidth={2.3} />
+                </span>
+                <h3 dir={getTextDirection(item.title)}>{item.title}</h3>
+                <p dir={getTextDirection(item.body)}>{item.body}</p>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+
+      <section className="guide-section guide-use-section" aria-label={ui.guideHowTitle}>
+        <div className="section-heading">
+          <p className="eyebrow">SwedenCivicsPrep</p>
+          <h2>{ui.guideHowTitle}</h2>
+        </div>
+        <div className="guide-step-list">
+          {ui.guideHowSteps.map((step, index) => (
+            <article className="guide-step" key={step.title}>
+              <span aria-hidden="true">{index + 1}</span>
+              <div>
+                <h3 dir={getTextDirection(step.title)}>{step.title}</h3>
+                <p dir={getTextDirection(step.body)}>{step.body}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="guide-section guide-trust-section" aria-label={ui.guideTrustTitle}>
+        <div className="section-heading">
+          <p className="eyebrow">Trust</p>
+          <h2>{ui.guideTrustTitle}</h2>
+          <p dir={getTextDirection(ui.guideOfficialNote)}>{ui.guideOfficialNote}</p>
+        </div>
+        <div className="guide-trust-list">
+          {ui.guideTrustItems.map((item) => (
+            <article key={item.title}>
+              <CheckCircle2 size={20} aria-hidden="true" />
+              <div>
+                <h3 dir={getTextDirection(item.title)}>{item.title}</h3>
+                <p dir={getTextDirection(item.body)}>{item.body}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+        <div className="guide-official-links">
+          <a className="source-link" href={OFFICIAL_STUDY_GUIDE_URL} rel="noopener noreferrer" target="_blank">
+            {ui.officialGuideLink}
+            <ExternalLink size={16} aria-hidden="true" />
+          </a>
+          <a className="source-link" href={MIGRATIONSVERKET_CITIZENSHIP_URL} rel="noopener noreferrer" target="_blank">
+            Migrationsverket
+            <ExternalLink size={16} aria-hidden="true" />
+          </a>
+        </div>
+      </section>
+
+      <SiteFooter language={language} onOpenFeedback={onOpenFeedback} onOpenGuide={onOpenGuide} onOpenPrivacy={onOpenPrivacy} />
+      </main>
+    </>
+  );
+}
+
 function AreaPage({
   language,
   onBack,
   onOpenFeedback,
   onOpenFlashcards,
+  onOpenGuide,
   onOpenMockExam,
   onOpenPrivacy,
   onOpenProgress,
@@ -993,6 +1212,7 @@ function AreaPage({
   onBack: () => void;
   onOpenFeedback: () => void;
   onOpenFlashcards: () => void;
+  onOpenGuide: () => void;
   onOpenMockExam: () => void;
   onOpenPrivacy: () => void;
   onOpenProgress: () => void;
@@ -1019,6 +1239,8 @@ function AreaPage({
     <>
       <AppNav
         onExploreModules={onBack}
+        onGoHome={onBack}
+        onOpenGuide={onOpenGuide}
         onOpenMockExam={onOpenMockExam}
         onSelectLanguage={onSelectLanguage}
         onStartPractice={handleStartPractice}
@@ -1069,7 +1291,7 @@ function AreaPage({
           ui={ui}
         />
         <FaqSection language={language} />
-        <SiteFooter language={language} onOpenFeedback={onOpenFeedback} onOpenPrivacy={onOpenPrivacy} />
+        <SiteFooter language={language} onOpenFeedback={onOpenFeedback} onOpenGuide={onOpenGuide} onOpenPrivacy={onOpenPrivacy} />
       </main>
       <MobileBottomNav
         active="study"
@@ -1086,6 +1308,8 @@ function AreaPage({
 
 function AppNav({
   onExploreModules,
+  onGoHome,
+  onOpenGuide,
   onOpenMockExam,
   onSelectLanguage,
   onStartPractice,
@@ -1093,20 +1317,18 @@ function AppNav({
   value
 }: {
   onExploreModules: () => void;
+  onGoHome: () => void;
+  onOpenGuide: () => void;
   onOpenMockExam: () => void;
   onSelectLanguage: (language: UiLanguage) => void;
   onStartPractice: () => void;
   ui: UiText;
   value: UiLanguage;
 }) {
-  function handleAboutClick() {
-    document.getElementById("about-guide")?.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
-
   return (
     <header className="app-nav" dir={isRtl(value) ? "rtl" : "ltr"}>
       <nav className="app-nav-inner" aria-label="Main navigation">
-        <button className="brand-mark" type="button" onClick={handleAboutClick}>
+        <button className="brand-mark" type="button" onClick={onGoHome}>
           <span className="brand-icon" aria-hidden="true">
             <BookOpen size={20} />
           </span>
@@ -1120,7 +1342,7 @@ function AppNav({
           <button type="button" onClick={onOpenMockExam}>
             {ui.navPracticeTests}
           </button>
-          <button type="button" onClick={handleAboutClick}>
+          <button type="button" onClick={onOpenGuide}>
             {ui.navAbout}
           </button>
         </div>
@@ -1174,6 +1396,39 @@ function HeroArtwork() {
   );
 }
 
+function LearnerPageNav({
+  language,
+  onBack,
+  onOpenGuide,
+  onOpenMockExam,
+  onQuickPractice,
+  onSelectLanguage,
+  onStudy,
+  ui
+}: {
+  language: UiLanguage;
+  onBack: () => void;
+  onOpenGuide: () => void;
+  onOpenMockExam: () => void;
+  onQuickPractice: () => void;
+  onSelectLanguage: (language: UiLanguage) => void;
+  onStudy: () => void;
+  ui: UiText;
+}) {
+  return (
+    <AppNav
+      onExploreModules={onStudy}
+      onGoHome={onBack}
+      onOpenGuide={onOpenGuide}
+      onOpenMockExam={onOpenMockExam}
+      onSelectLanguage={onSelectLanguage}
+      onStartPractice={onQuickPractice}
+      ui={ui}
+      value={language}
+    />
+  );
+}
+
 function ProofStats({ ui }: { ui: UiText }) {
   return (
     <section className="proof-strip" aria-label="Study platform highlights">
@@ -1183,6 +1438,60 @@ function ProofStats({ ui }: { ui: UiText }) {
           <span>{stat.label}</span>
         </article>
       ))}
+    </section>
+  );
+}
+
+function PracticePathSection({
+  onOpenGuide,
+  onOpenMockExam,
+  onQuickPractice,
+  onStudy,
+  ui
+}: {
+  onOpenGuide: () => void;
+  onOpenMockExam: () => void;
+  onQuickPractice: () => void;
+  onStudy: () => void;
+  ui: UiText;
+}) {
+  const actions = [onQuickPractice, onStudy, onOpenMockExam];
+  const icons = [CheckCircle2, Layers3, LockKeyhole];
+
+  return (
+    <section className="practice-path" aria-labelledby="practice-path-title">
+      <div className="section-heading practice-path-heading">
+        <div>
+          <p className="eyebrow">{ui.navStartPractice}</p>
+          <h2 id="practice-path-title">{ui.practicePathTitle}</h2>
+          <p dir={getTextDirection(ui.practicePathIntro)}>{ui.practicePathIntro}</p>
+        </div>
+        <button className="guide-link-button" type="button" onClick={onOpenGuide}>
+          {ui.navAbout}
+        </button>
+      </div>
+
+      <div className="practice-path-grid">
+        {ui.practicePaths.map((path, index) => {
+          const Icon = icons[index] || BookOpen;
+
+          return (
+            <article className={`practice-path-card path-${index + 1}`} key={path.title}>
+              <div className="practice-path-card-top">
+                <span className="path-icon" aria-hidden="true">
+                  <Icon size={24} strokeWidth={2.2} />
+                </span>
+                <span className="path-badge">{path.badge}</span>
+              </div>
+              <h3>{path.title}</h3>
+              <p dir={getTextDirection(path.body)}>{path.body}</p>
+              <button className={index === 2 ? "secondary" : "primary"} type="button" onClick={actions[index]}>
+                {path.cta}
+              </button>
+            </article>
+          );
+        })}
+      </div>
     </section>
   );
 }
@@ -1550,10 +1859,12 @@ function FaqItem({ item }: { item: { question: string; answer: string } }) {
 function SiteFooter({
   language,
   onOpenFeedback,
+  onOpenGuide,
   onOpenPrivacy
 }: {
   language: UiLanguage;
   onOpenFeedback: () => void;
+  onOpenGuide: () => void;
   onOpenPrivacy: () => void;
 }) {
   const legal = LEGAL_CONTENT[language];
@@ -1565,6 +1876,9 @@ function SiteFooter({
         <button className="footer-link" type="button" onClick={onOpenFeedback}>
           {UI_TEXT[language].feedbackTitle}
         </button>
+        <button className="footer-link" type="button" onClick={onOpenGuide}>
+          {UI_TEXT[language].navAbout}
+        </button>
         <button className="footer-link" type="button" onClick={onOpenPrivacy}>
           {legal.privacyLink}
         </button>
@@ -1573,17 +1887,28 @@ function SiteFooter({
   );
 }
 
+type LearnerNavHandlers = {
+  onOpenGuide: () => void;
+  onOpenMockExam: () => void;
+  onQuickPractice: () => void;
+  onStudy: () => void;
+};
+
 function FeedbackPage({
   language,
   onBack,
+  onOpenGuide,
+  onOpenMockExam,
+  onQuickPractice,
   onSelectLanguage,
+  onStudy,
   ui
 }: {
   language: UiLanguage;
   onBack: () => void;
   onSelectLanguage: (language: UiLanguage) => void;
   ui: UiText;
-}) {
+} & LearnerNavHandlers) {
   const tallyUrl = new URL(FEEDBACK_FORM_URL);
   tallyUrl.searchParams.set("transparentBackground", "1");
   tallyUrl.searchParams.set("dynamicHeight", "1");
@@ -1591,13 +1916,9 @@ function FeedbackPage({
   tallyUrl.searchParams.set("language", language);
 
   return (
-    <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
-      <nav className="topbar">
-        <button className="ghost" type="button" onClick={onBack}>
-          {ui.backToHome}
-        </button>
-        <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
-      </nav>
+    <>
+      <LearnerPageNav language={language} onBack={onBack} onOpenGuide={onOpenGuide} onOpenMockExam={onOpenMockExam} onQuickPractice={onQuickPractice} onSelectLanguage={onSelectLanguage} onStudy={onStudy} ui={ui} />
+      <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
 
       <section className="feedback-page">
         <div className="feedback-intro">
@@ -1624,31 +1945,32 @@ function FeedbackPage({
           </a>
         </p>
       </section>
-    </main>
+      </main>
+    </>
   );
 }
 
 function PrivacyPage({
   language,
   onBack,
+  onOpenGuide,
+  onOpenMockExam,
+  onQuickPractice,
   onSelectLanguage,
+  onStudy,
   ui
 }: {
   language: UiLanguage;
   onBack: () => void;
   onSelectLanguage: (language: UiLanguage) => void;
   ui: UiText;
-}) {
+} & LearnerNavHandlers) {
   const legal = LEGAL_CONTENT[language];
 
   return (
-    <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
-      <nav className="topbar">
-        <button className="ghost" type="button" onClick={onBack}>
-          {legal.homeLink}
-        </button>
-        <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
-      </nav>
+    <>
+      <LearnerPageNav language={language} onBack={onBack} onOpenGuide={onOpenGuide} onOpenMockExam={onOpenMockExam} onQuickPractice={onQuickPractice} onSelectLanguage={onSelectLanguage} onStudy={onStudy} ui={ui} />
+      <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
 
       <article className="legal-page">
         <p className="eyebrow">{legal.privacyLink}</p>
@@ -1667,16 +1989,21 @@ function PrivacyPage({
           ))}
         </div>
       </article>
-    </main>
+      </main>
+    </>
   );
 }
 
 function ProgressDashboardPage({
   language,
   onBack,
+  onOpenGuide,
+  onOpenMockExam,
+  onQuickPractice,
   onSelectChapter,
   onSelectLanguage,
   onSelectTopic,
+  onStudy,
   progress,
   ui
 }: {
@@ -1687,7 +2014,7 @@ function ProgressDashboardPage({
   onSelectTopic: (topicId: string) => void;
   progress: Progress;
   ui: UiText;
-}) {
+} & LearnerNavHandlers) {
   const topicStats = TOPICS.map((topic) => getTopicStats(topic, progress, ui));
   const chapterStats = getChapterDashboardStats(progress, ui);
   const recentMistakes = getRecentMistakes(progress, ui);
@@ -1728,13 +2055,8 @@ function ProgressDashboardPage({
 
   return (
     <>
+      <LearnerPageNav language={language} onBack={onBack} onOpenGuide={onOpenGuide} onOpenMockExam={onOpenMockExam} onQuickPractice={onQuickPractice} onSelectLanguage={onSelectLanguage} onStudy={onStudy} ui={ui} />
       <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
-        <nav className="topbar">
-          <button className="ghost" type="button" onClick={onBack}>
-            {ui.backToHome}
-          </button>
-          <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
-        </nav>
 
         <section className="dashboard-page">
           <div className="section-heading dashboard-heading">
@@ -2718,14 +3040,18 @@ type MockExamAnswerMap = Record<string, number>;
 function MockExamPage({
   language,
   onBack,
+  onOpenGuide,
+  onOpenMockExam,
+  onQuickPractice,
   onSelectLanguage,
+  onStudy,
   ui
 }: {
   language: UiLanguage;
   onBack: () => void;
   onSelectLanguage: (language: UiLanguage) => void;
   ui: UiText;
-}) {
+} & LearnerNavHandlers) {
   const [questions, setQuestions] = useState<Question[]>(() => createMockExamQuestions());
   const [started, setStarted] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -2792,13 +3118,9 @@ function MockExamPage({
 
   if (!started) {
     return (
-      <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
-        <nav className="topbar">
-          <button className="ghost" type="button" onClick={onBack}>
-            {ui.backToHome}
-          </button>
-          <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
-        </nav>
+      <>
+        <LearnerPageNav language={language} onBack={onBack} onOpenGuide={onOpenGuide} onOpenMockExam={onOpenMockExam} onQuickPractice={onQuickPractice} onSelectLanguage={onSelectLanguage} onStudy={onStudy} ui={ui} />
+        <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
 
         <section className="mock-exam-start">
           <p className="eyebrow">{ui.mockExamBadge}</p>
@@ -2806,26 +3128,38 @@ function MockExamPage({
           <p dir={getTextDirection(ui.mockExamIntro)}>{ui.mockExamIntro}</p>
           <div className="mock-exam-start-grid">
             <span>{ui.mockExamLength(questions.length)}</span>
-            <span>{HAS_FULL_ACCESS ? ui.fullAccessBadge : ui.freeTierBadge}</span>
+            <span>{ui.fullAccessBadge}</span>
             <span>{ui.chaptersLabel}: {OFFICIAL_CHAPTERS.length}</span>
           </div>
-          <button className="hero-primary" type="button" onClick={startExam}>
-            {ui.mockExamStart}
-          </button>
+          {HAS_FULL_ACCESS ? (
+            <button className="hero-primary" type="button" onClick={startExam}>
+              {ui.mockExamStart}
+            </button>
+          ) : (
+            <div className="mock-exam-locked">
+              <div>
+                <LockKeyhole size={22} strokeWidth={2.2} />
+                <p>{ui.mockExamLockedIntro}</p>
+              </div>
+              <button className="hero-primary" type="button" disabled>
+                {ui.mockExamLockedCta}
+              </button>
+              <button className="hero-secondary" type="button" onClick={onQuickPractice}>
+                {ui.heroPrimaryCta}
+              </button>
+            </div>
+          )}
         </section>
-      </main>
+        </main>
+      </>
     );
   }
 
   if (submitted && result) {
     return (
-      <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
-        <nav className="topbar">
-          <button className="ghost" type="button" onClick={onBack}>
-            {ui.backToHome}
-          </button>
-          <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
-        </nav>
+      <>
+        <LearnerPageNav language={language} onBack={onBack} onOpenGuide={onOpenGuide} onOpenMockExam={onOpenMockExam} onQuickPractice={onQuickPractice} onSelectLanguage={onSelectLanguage} onStudy={onStudy} ui={ui} />
+        <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
 
         <section className="mock-exam-result">
           <div className="mock-score-card">
@@ -2882,21 +3216,15 @@ function MockExamPage({
             </button>
           </div>
         </section>
-      </main>
+        </main>
+      </>
     );
   }
 
   return (
-    <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
-      <nav className="topbar">
-        <button className="ghost" type="button" onClick={onBack}>
-          {ui.backToHome}
-        </button>
-        <div className="topbar-tools">
-          <span className="level-pill">{ui.mockExamBadge}</span>
-          <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
-        </div>
-      </nav>
+    <>
+      <LearnerPageNav language={language} onBack={onBack} onOpenGuide={onOpenGuide} onOpenMockExam={onOpenMockExam} onQuickPractice={onQuickPractice} onSelectLanguage={onSelectLanguage} onStudy={onStudy} ui={ui} />
+      <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
 
       <section className="practice mock-exam-session">
         <div className="practice-header">
@@ -2946,7 +3274,8 @@ function MockExamPage({
           </button>
         </div>
       </section>
-    </main>
+      </main>
+    </>
   );
 }
 
@@ -3018,14 +3347,18 @@ type FlashcardSessionMarks = Record<string, FlashcardMark>;
 function FlashcardsPreviewPage({
   language,
   onBack,
+  onOpenGuide,
+  onOpenMockExam,
+  onQuickPractice,
   onSelectLanguage,
+  onStudy,
   ui
 }: {
   language: UiLanguage;
   onBack: () => void;
   onSelectLanguage: (language: UiLanguage) => void;
   ui: UiText;
-}) {
+} & LearnerNavHandlers) {
   const [chapterId, setChapterId] = useState("all");
   const [cards, setCards] = useState<Question[]>(() => createFlashcardDeck("all"));
   const [cardIndex, setCardIndex] = useState(0);
@@ -3079,13 +3412,9 @@ function FlashcardsPreviewPage({
   }
 
   return (
-    <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
-      <nav className="topbar">
-        <button className="ghost" type="button" onClick={onBack}>
-          {ui.backToHome}
-        </button>
-        <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
-      </nav>
+    <>
+      <LearnerPageNav language={language} onBack={onBack} onOpenGuide={onOpenGuide} onOpenMockExam={onOpenMockExam} onQuickPractice={onQuickPractice} onSelectLanguage={onSelectLanguage} onStudy={onStudy} ui={ui} />
+      <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
 
       <section className="flashcard-page">
         <div className="section-heading flashcard-heading">
@@ -3173,7 +3502,8 @@ function FlashcardsPreviewPage({
           </div>
         )}
       </section>
-    </main>
+      </main>
+    </>
   );
 }
 
@@ -3294,7 +3624,11 @@ type TopicPracticePageProps = {
   onDismissFeedbackPrompt: () => void;
   onFeedbackPromptShown: (topicId: string, milestone: number) => void;
   onOpenFeedback: (topicId: string, milestone: number) => void;
+  onOpenGuide: () => void;
+  onOpenMockExam: () => void;
   onBack: () => void;
+  onQuickPractice: () => void;
+  onStudy: () => void;
   onCheck: (question: Question) => void;
   onNext: (topicId: string, questionCount: number) => void;
   onResetProgress: () => void;
@@ -3324,7 +3658,11 @@ function TopicPracticePage({
   onDismissFeedbackPrompt,
   onFeedbackPromptShown,
   onOpenFeedback,
+  onOpenGuide,
+  onOpenMockExam,
   onBack,
+  onQuickPractice,
+  onStudy,
   onCheck,
   onNext,
   onResetProgress,
@@ -3396,16 +3734,9 @@ function TopicPracticePage({
   }, [feedbackMilestone, onFeedbackPromptShown, shouldShowFeedbackPrompt, shownFeedbackPrompts, topic.id]);
 
   return (
-    <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
-      <nav className="topbar">
-        <button className="ghost" type="button" onClick={onBack}>
-          {ui.backToTopics}
-        </button>
-        <div className="topbar-tools">
-          <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
-          <ProgressCounter progress={progress} ui={ui} />
-        </div>
-      </nav>
+    <>
+      <LearnerPageNav language={language} onBack={onBack} onOpenGuide={onOpenGuide} onOpenMockExam={onOpenMockExam} onQuickPractice={onQuickPractice} onSelectLanguage={onSelectLanguage} onStudy={onStudy} ui={ui} />
+      <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
 
       {lesson && !practiceStarted ? (
         <LessonCard
@@ -3492,7 +3823,8 @@ function TopicPracticePage({
         </div>
       </section>
       ) : null}
-    </main>
+      </main>
+    </>
   );
 }
 
