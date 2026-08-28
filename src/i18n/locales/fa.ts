@@ -10,7 +10,7 @@ export const faUiText = createLocalizedUiText(enUiText, {
     navStartPractice: "۵ پرسش را امتحان کنید",
     heroPrimaryCta: "۵ پرسش سوئدی را امتحان کنید →",
     heroSecondaryCta: "انتخاب موضوع",
-    heroTrustBadge: "پرسش‌های سوئدی • توضیح چندزبانه • تغییر زبان توضیح در هر زمان • تمرین بر اساس فصل‌های رسمی مطالعه • شناسایی بخش‌های ضعیف از نتیجه‌ها",
+    heroTrustBadge: "پرسش‌های سوئدی • تمرین بر اساس فصل‌های رسمی مطالعه • توضیح چندزبانه • تغییر زبان توضیح در هر زمان • شناسایی بخش‌های ضعیف از نتیجه‌ها",
     earlyAccessTitle: "راهنمای مستقل",
     earlyAccessMessage: `با Sverige i fokus مطالعه کنید
 
