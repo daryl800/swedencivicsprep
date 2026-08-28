@@ -4,7 +4,7 @@ export const arUiText: UiText = {
     eyebrow: "اختبار المواطنة السويدية بطريقة أبسط",
     appTitle: "تدريب شامل لاختبار المواطنة السويدية في مكان واحد",
     lead: "مبني على المادة الدراسية الرسمية من UHR",
-    languageNote: "تبقى الأسئلة باللغة السويدية. يمكن عرض الشروحات باللغة التي تفضلها.",
+    languageNote: "تبقى الأسئلة باللغة السويدية. يمكنك تحويل الشروحات إلى لغة أخرى في أي وقت.",
     dailyPrompt: "ابدأ بخمسة أسئلة.",
     navStudyModules: "مجالات الدراسة",
     navPracticeTests: "اختبار تجريبي",
@@ -30,7 +30,7 @@ export const arUiText: UiText = {
     guideHowSteps: [
       { title: "اقرأ فصلاً رسمياً", body: "ابدأ بكتاب Sverige i fokus من UHR وSkolverket. اجعل المادة الرسمية هي المصدر الأساسي." },
       { title: "تدرّب بالسويدية", body: "أجب عن أسئلة سويدية بعد القراءة. هذا يدرّبك على الشكل والمفردات التي ستراها فعلاً." },
-      { title: "استخدم دعم اللغة بعد المحاولة", body: "اجعل السؤال بالسويدية، ثم اقرأ الشرح بلغتك المفضلة لتفهم الأخطاء." },
+      { title: "استخدم دعم اللغة بعد المحاولة", body: "اجعل السؤال بالسويدية، ثم حوّل الشرح إلى لغة أخرى في أي وقت لتفهم الأخطاء." },
       { title: "اختبر جاهزيتك بمحاكاة الاختبار", body: "استخدم اختبارات مختلطة ولوحة التقدم لمعرفة الفصول الضعيفة قبل إعادة قراءة كل شيء." }
     ],
     guideTrustTitle: "ما الذي يمكن لهذا الموقع فعله وما لا يمكنه فعله",
@@ -44,7 +44,7 @@ export const arUiText: UiText = {
     guideMockExamCta: "جرّب اختباراً تجريبياً",
     heroPrimaryCta: "ابدأ التدريب المجاني",
     heroSecondaryCta: "اختر موضوعاً",
-    heroTrustBadge: "أسئلة سويدية • شروحات بلغتك المفضلة",
+    heroTrustBadge: "أسئلة سويدية • حوّل الشروحات في أي وقت",
     heroMockLabel: "معاينة التدريب",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",

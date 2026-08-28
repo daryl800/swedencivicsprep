@@ -4,7 +4,7 @@ export const zhUiText: UiText = {
     eyebrow: "瑞典入籍社会知识考试，循序渐进",
     appTitle: "一站式瑞典入籍社会知识考试练习平台",
     lead: "覆盖入籍社会知识考试全部官方内容",
-    languageNote: "题目保持瑞典语，可选其他语言查看解释。",
+    languageNote: "题目保持瑞典语，可随时转换其他语言查看解释。",
     dailyPrompt: "先做5道题。",
     navStudyModules: "学习模块",
     navPracticeTests: "模拟考试",
@@ -31,7 +31,7 @@ export const zhUiText: UiText = {
     guideHowSteps: [
       { title: "先读一个官方章节", body: "从 UHR 和 Skolverket 的 Sverige i fokus 开始。把官方材料作为学习来源。" },
       { title: "用瑞典语练习", body: "读完后回答瑞典语题目，训练真实考试会遇到的题型和词汇。" },
-      { title: "答题后再看语言帮助", body: "题目保持瑞典语，然后可选其他语言查看解释，理解错在哪里。" },
+      { title: "答题后再看语言帮助", body: "题目保持瑞典语，然后可随时转换其他语言查看解释，理解错在哪里。" },
       { title: "用模拟考试检查准备程度", body: "通过混合模拟考试和进度面板找到薄弱章节，而不是每次都从头复习。" }
     ],
     guideTrustTitle: "本站能做什么，不能做什么",
@@ -45,7 +45,7 @@ export const zhUiText: UiText = {
     guideMockExamCta: "试做模拟考试",
     heroPrimaryCta: "立刻开始免费练习",
     heroSecondaryCta: "选择主题",
-    heroTrustBadge: "瑞典语题目 • 可选其他语言查看解释",
+    heroTrustBadge: "瑞典语题目 • 可随时转换其他语言查看解释",
     heroMockLabel: "练习预览",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",

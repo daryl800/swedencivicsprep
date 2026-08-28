@@ -4,7 +4,7 @@ export const svUiText: UiText = {
     eyebrow: "Svenskt medborgarskapsprov, enkelt förklarat",
     appTitle: "All träning inför medborgarskapsprovet på ett ställe",
     lead: "Baserat på UHR:s officiella studiematerial",
-    languageNote: "Frågorna är på svenska. Förklaringarna kan visas på önskat språk.",
+    languageNote: "Frågorna är på svenska. Du kan byta förklaringar till ett annat språk när som helst.",
     dailyPrompt: "Börja med 5 frågor.",
     navStudyModules: "Studieområden",
     navPracticeTests: "Provsimulering",
@@ -30,7 +30,7 @@ export const svUiText: UiText = {
     guideHowSteps: [
       { title: "Läs ett officiellt kapitel", body: "Börja med Sverige i fokus från UHR och Skolverket. Använd det officiella materialet som källan." },
       { title: "Träna på svenska", body: "Svara på svenska frågor efter läsningen. Det tränar formatet och orden du faktiskt möter." },
-      { title: "Använd språkstöd efter försöket", body: "Behåll frågan på svenska och använd förklaringar på önskat språk för att förstå misstag." },
+      { title: "Använd språkstöd efter försöket", body: "Behåll frågan på svenska och byt förklaringar till ett annat språk när som helst för att förstå misstag." },
       { title: "Kontrollera nivån med provsimulering", body: "Använd blandade prov och framstegssidan för att hitta svaga kapitel innan du läser om allt." }
     ],
     guideTrustTitle: "Vad webbplatsen kan och inte kan göra",
@@ -44,7 +44,7 @@ export const svUiText: UiText = {
     guideMockExamCta: "Testa provsimulering",
     heroPrimaryCta: "Börja med gratis träning",
     heroSecondaryCta: "Välj ämne",
-    heroTrustBadge: "Svenska frågor • Förklaringar på önskat språk",
+    heroTrustBadge: "Svenska frågor • Byt förklaringar när som helst",
     heroMockLabel: "Exempel från träningen",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",

@@ -4,7 +4,7 @@ export const enUiText: UiText = {
     eyebrow: "Swedish citizenship test, made simple",
     appTitle: "One-stop practice for the Swedish citizenship test",
     lead: "Based on UHR's official study material",
-    languageNote: "Questions stay in Swedish. Explanations use your preferred language.",
+    languageNote: "Questions stay in Swedish. You can switch explanations to another language anytime.",
     dailyPrompt: "Start with 5 questions.",
     navStudyModules: "Study Modules",
     navPracticeTests: "Mock exam",
@@ -30,7 +30,7 @@ export const enUiText: UiText = {
     guideHowSteps: [
       { title: "Read one official chapter", body: "Start with Sverige i fokus from UHR and Skolverket. Use the official material as the source." },
       { title: "Practise in Swedish", body: "Answer Swedish questions after reading. This trains the format and the vocabulary you will actually see." },
-      { title: "Use language help after you try", body: "Keep the question in Swedish, then use explanations in your preferred language to understand mistakes." },
+      { title: "Use language help after you try", body: "Keep the question in Swedish, then switch explanations to another language anytime to understand mistakes." },
       { title: "Check readiness with mock exams", body: "Use mixed mock exams and the progress dashboard to find weak chapters before you reread everything." }
     ],
     guideTrustTitle: "What this site can and cannot do",
@@ -44,7 +44,7 @@ export const enUiText: UiText = {
     guideMockExamCta: "Try mock exam",
     heroPrimaryCta: "Start free practice",
     heroSecondaryCta: "Choose a topic",
-    heroTrustBadge: "Questions in Swedish • Explanations in your preferred language",
+    heroTrustBadge: "Questions in Swedish • Switch explanations anytime",
     heroMockLabel: "Practice preview",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
