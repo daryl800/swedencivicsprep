@@ -3,7 +3,7 @@ import { createLocalizedUiText } from "../uiTextUtils";
 
 export const tiUiText = createLocalizedUiText(enUiText, {
     eyebrow: "ፈተና ዜግነት ሽወደን፣ ብቐሊሉ",
-    appTitle: "ምድላው ፈተና ማሕበረሰብ ሽወደን",
+    appTitle: "ንፈተና ዜግነት ሽወደን ኣብ ሓደ ቦታ ዝተኣከበ ልምምድ",
     lead: "ኣብ ወግዓዊ መጽናዕቲ UHR ዝተመርኮሰ",
     languageNote: "ሕቶታትን ምርጫታት መልስን ብሽወደንኛ ይቕጽሉ። ዝተረፈ ክፋል ናይ app ብዝመረጽኩሞ ቋንቋ ይረአ።",
     dailyPrompt: "ብ5 ሕቶታት ጀምሩ።",

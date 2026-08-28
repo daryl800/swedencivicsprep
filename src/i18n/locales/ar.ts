@@ -2,17 +2,17 @@ import type { UiText } from "../uiTextTypes";
 
 export const arUiText: UiText = {
     eyebrow: "اختبار المواطنة السويدية بطريقة أبسط",
-    appTitle: "الاستعداد لاختبار المجتمع السويدي",
+    appTitle: "تدريب شامل لاختبار المواطنة السويدية في مكان واحد",
     lead: "مبني على المادة الدراسية الرسمية من UHR",
-    languageNote: "تبقى الأسئلة باللغة السويدية. تظهر الشروحات باللغة التي تختارها.",
+    languageNote: "تبقى الأسئلة باللغة السويدية. يمكنك تحويل الشروحات إلى لغة أخرى في أي وقت.",
     dailyPrompt: "ابدأ بخمسة أسئلة.",
     navStudyModules: "مجالات الدراسة",
     navPracticeTests: "أسئلة التدريب",
-    navAbout: "عن الدليل",
-    navStartPractice: "جرّب 5 أسئلة",
-    heroPrimaryCta: "جرّب 5 أسئلة سويدية →",
+    navAbout: "الدليل",
+    navStartPractice: "ابدأ تدريبًا مجانيًا",
+    heroPrimaryCta: "ابدأ تدريبًا مجانيًا",
     heroSecondaryCta: "اختر موضوعاً",
-    heroTrustBadge: "أسئلة سويدية • شروحات بلغتك • مبني على Sverige i fokus",
+    heroTrustBadge: "أسئلة سويدية • حوّل الشروحات في أي وقت",
     heroMockLabel: "معاينة التدريب",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -21,9 +21,9 @@ export const arUiText: UiText = {
     heroMockExplanationLabel: "شرح فوري",
     heroMockExplanation: "الديمقراطية تعني أن الناس يمكنهم التأثير في المجتمع عبر الانتخابات وحرية التعبير والمشاركة.",
     proofStats: [
-      { value: "48", label: "سؤالاً في نسخة المعاينة" },
-      { value: "13", label: "فصلاً رسمياً مرتبطاً" },
-      { value: "5 أسئلة", label: "بداية تدريب سريعة" }
+      { value: "48", label: "أسئلة تدريب منتقاة" },
+      { value: "13", label: "فصول رسمية" },
+      { value: "5 أسئلة", label: "أسئلة مجانية" }
     ],
     earlyAccessTitle: "دليل مستقل",
     earlyAccessMessage: `ادرس مع Sverige i fokus

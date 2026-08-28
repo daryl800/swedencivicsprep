@@ -178,7 +178,7 @@ const FEEDBACK_FORM_URL = import.meta.env.VITE_FEEDBACK_FORM_URL || "https://tal
 registerUiTranslations();
 
 function App() {
-  const [route, setRoute] = useHashRoute();
+  const [route, setRoute] = usePathRoute();
   const [progress, setProgress] = useState<Progress>(() => loadProgress());
   const [questionIndexByTopic, setQuestionIndexByTopic] = useState<Record<string, number>>({});
   const [practiceStartedByTopic, setPracticeStartedByTopic] = useState<Record<string, boolean>>({});
@@ -551,9 +551,9 @@ function getRouteName(route: Route) {
   return route.page === "topic" ? `topic:${route.topicId}` : route.page;
 }
 
-function getInitialRoute(): Route {
-  const hash = window.location.hash.replace(/^#\/?/, "");
-  const [page, topicId] = hash.split("/");
+function getRouteFromPath(pathname: string): Route {
+  const normalizedPath = pathname.replace(/\/+$/, "") || "/";
+  const [, page, topicId] = normalizedPath.split("/");
 
   if (page === "topic" && topicId) {
     return { page: "topic", topicId };
@@ -586,35 +586,49 @@ function getInitialRoute(): Route {
   return { page: "home" };
 }
 
-function useHashRoute(): [Route, (route: Route) => void] {
+function routeToPath(route: Route) {
+  if (route.page === "topic") {
+    return `/topic/${route.topicId}`;
+  }
+
+  if (route.page === "home") {
+    return "/";
+  }
+
+  return `/${route.page}`;
+}
+
+function getInitialRoute(): Route {
+  const hashPath = window.location.hash.match(/^#(\/.*)$/)?.[1];
+
+  if (hashPath) {
+    const cleanPath = hashPath === "/" ? "/" : hashPath.replace(/\/+$/, "");
+    window.history.replaceState(null, "", cleanPath + window.location.search);
+    return getRouteFromPath(cleanPath);
+  }
+
+  return getRouteFromPath(window.location.pathname);
+}
+
+function usePathRoute(): [Route, (route: Route) => void] {
   const [route, setRouteState] = useState<Route>(() => getInitialRoute());
 
   useEffect(() => {
     function syncRoute() {
-      setRouteState(getInitialRoute());
+      setRouteState(getRouteFromPath(window.location.pathname));
     }
 
-    window.addEventListener("hashchange", syncRoute);
-    return () => window.removeEventListener("hashchange", syncRoute);
+    window.addEventListener("popstate", syncRoute);
+    return () => window.removeEventListener("popstate", syncRoute);
   }, []);
 
   function setRoute(nextRoute: Route) {
-    window.location.hash =
-      nextRoute.page === "home"
-        ? "/"
-        : nextRoute.page === "privacy"
-          ? "/privacy"
-          : nextRoute.page === "quick"
-            ? "/quick"
-            : nextRoute.page === "progress"
-            ? "/progress"
-            : nextRoute.page === "flashcards"
-              ? "/flashcards"
-              : nextRoute.page === "feedback"
-                ? "/feedback"
-                : nextRoute.page === "admin"
-                  ? "/admin"
-                  : `/topic/${nextRoute.topicId}`;
+    const nextPath = routeToPath(nextRoute);
+
+    if (window.location.pathname !== nextPath) {
+      window.history.pushState(null, "", nextPath);
+    }
+
     setRouteState(nextRoute);
   }
 

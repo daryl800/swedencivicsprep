@@ -2,17 +2,17 @@ import type { UiText } from "../uiTextTypes";
 
 export const enUiText: UiText = {
     eyebrow: "Swedish citizenship test, made simple",
-    appTitle: "Practice for the Swedish citizenship test",
+    appTitle: "One-stop practice for the Swedish citizenship test",
     lead: "Based on UHR's official study material",
-    languageNote: "Questions stay in Swedish. Explanations use your selected language.",
+    languageNote: "Questions stay in Swedish. You can switch explanations to another language anytime.",
     dailyPrompt: "Start with 5 questions.",
     navStudyModules: "Study Modules",
     navPracticeTests: "Practice Tests",
-    navAbout: "About",
-    navStartPractice: "Try 5 questions",
-    heroPrimaryCta: "Try 5 Swedish questions →",
+    navAbout: "Guide",
+    navStartPractice: "Start free practice",
+    heroPrimaryCta: "Start free practice",
     heroSecondaryCta: "Choose a topic",
-    heroTrustBadge: "Questions in Swedish • Explanations in 7 languages • Based on Sverige i fokus",
+    heroTrustBadge: "Questions in Swedish • Switch explanations anytime",
     heroMockLabel: "Practice preview",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -21,9 +21,9 @@ export const enUiText: UiText = {
     heroMockExplanationLabel: "Instant explanation",
     heroMockExplanation: "Democracy means people can influence society through elections, free speech, and participation.",
     proofStats: [
-      { value: "48", label: "civics practice questions" },
-      { value: "13", label: "official chapters mapped" },
-      { value: "5 questions", label: "quick first practice" }
+      { value: "48", label: "curated practice questions" },
+      { value: "13", label: "official chapters covered" },
+      { value: "5 questions", label: "free sample questions" }
     ],
     earlyAccessTitle: "Independent guide",
     earlyAccessMessage: `Study with Sverige i fokus

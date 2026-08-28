@@ -2,17 +2,17 @@ import type { UiText } from "../uiTextTypes";
 
 export const svUiText: UiText = {
     eyebrow: "Svenskt medborgarskapsprov, enkelt förklarat",
-    appTitle: "Träning inför medborgarskapsprovet",
+    appTitle: "All träning inför medborgarskapsprovet på ett ställe",
     lead: "Baserat på UHR:s officiella studiematerial",
-    languageNote: "Frågorna är på svenska. Förklaringarna följer valt språk.",
+    languageNote: "Frågorna är på svenska. Du kan byta förklaringar till ett annat språk när som helst.",
     dailyPrompt: "Börja med 5 frågor.",
     navStudyModules: "Studieområden",
     navPracticeTests: "Träningsfrågor",
-    navAbout: "Om guiden",
-    navStartPractice: "Testa 5 frågor",
-    heroPrimaryCta: "Testa 5 svenska frågor →",
+    navAbout: "Guide",
+    navStartPractice: "Starta gratis träning",
+    heroPrimaryCta: "Starta gratis träning",
     heroSecondaryCta: "Välj ämne",
-    heroTrustBadge: "Svenska frågor • Förklaringar på valt språk • Baserat på Sverige i fokus",
+    heroTrustBadge: "Svenska frågor • Byt förklaringar när som helst",
     heroMockLabel: "Exempel från träningen",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -21,9 +21,9 @@ export const svUiText: UiText = {
     heroMockExplanationLabel: "Kort förklaring",
     heroMockExplanation: "Demokrati betyder att människor kan påverka samhället genom val, yttrandefrihet och delaktighet.",
     proofStats: [
-      { value: "48", label: "samhällsfrågor" },
-      { value: "13", label: "officiella kapitel kartlagda" },
-      { value: "5 frågor", label: "snabb första träning" }
+      { value: "48", label: "utvalda träningsfrågor" },
+      { value: "13", label: "officiella kapitel" },
+      { value: "5 frågor", label: "gratisfrågor" }
     ],
     earlyAccessTitle: "Oberoende guide",
     earlyAccessMessage: `Studera med Sverige i fokus

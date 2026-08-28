@@ -1,18 +1,18 @@
 import type { UiText } from "../uiTextTypes";
 
 export const zhUiText: UiText = {
-    eyebrow: "瑞典入籍考试，简单练习",
-    appTitle: "入籍社会知识练习",
-    lead: "基于 UHR 的官方学习材料",
-    languageNote: "题目保持瑞典语，解释会使用你选择的语言。",
+    eyebrow: "瑞典入籍社会知识考试，循序渐进",
+    appTitle: "一站式瑞典入籍社会知识考试练习平台",
+    lead: "覆盖入籍社会知识考试全部官方内容",
+    languageNote: "题目保持瑞典语，可随时转换其他语言查看解释。",
     dailyPrompt: "先做5道题。",
     navStudyModules: "学习模块",
     navPracticeTests: "练习题",
-    navAbout: "关于指南",
-    navStartPractice: "试做5题",
-    heroPrimaryCta: "试做5道瑞典语题 →",
+    navAbout: "备考指南",
+    navStartPractice: "免费练习",
+    heroPrimaryCta: "立刻开始免费练习",
     heroSecondaryCta: "选择主题",
-    heroTrustBadge: "瑞典语题目 • 使用你选择的语言解释 • 基于 Sverige i fokus",
+    heroTrustBadge: "瑞典语题目 • 可随时转换其他语言查看解释",
     heroMockLabel: "练习预览",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -21,9 +21,9 @@ export const zhUiText: UiText = {
     heroMockExplanationLabel: "即时解释",
     heroMockExplanation: "民主表示人们可以通过选举、言论自由和参与来影响社会。",
     proofStats: [
-      { value: "48", label: "社会知识练习题" },
-      { value: "13", label: "官方章节已映射" },
-      { value: "5题", label: "快速开始练习" }
+      { value: "48", label: "道精选练习题" },
+      { value: "13", label: "官方章节完整覆盖" },
+      { value: "5题", label: "道免费体验题" }
     ],
     earlyAccessTitle: "独立学习指南",
     earlyAccessMessage: `配合 Sverige i fokus 学习
