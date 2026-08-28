@@ -1173,6 +1173,12 @@ function GuidePage({
               <div>
                 <h3 dir={getTextDirection(step.title)}>{step.title}</h3>
                 <p dir={getTextDirection(step.body)}>{step.body}</p>
+                {index === 0 ? (
+                  <a className="source-link guide-step-source-link" href={OFFICIAL_STUDY_GUIDE_URL} rel="noopener noreferrer" target="_blank">
+                    {ui.officialGuideLink}
+                    <ExternalLink size={16} aria-hidden="true" />
+                  </a>
+                ) : null}
               </div>
             </article>
           ))}
