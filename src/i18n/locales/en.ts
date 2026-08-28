@@ -12,7 +12,7 @@ export const enUiText: UiText = {
     navStartPractice: "Start free practice",
     heroPrimaryCta: "Start free practice",
     heroSecondaryCta: "Choose a topic",
-    heroTrustBadge: "Swedish questions • Organized by official study chapters • Multilingual explanations • Switch explanations anytime • Identify weak areas from your results",
+    heroTrustBadge: "Swedish questions • Organized by official study chapters • Multilingual explanations • Switch explanations anytime • Analyze your practice results and identify weak areas",
     heroMockLabel: "Practice preview",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
