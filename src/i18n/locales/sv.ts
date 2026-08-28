@@ -1,8 +1,8 @@
 import type { UiText } from "../uiTextTypes";
 
 export const svUiText: UiText = {
-    eyebrow: "Svenskt medborgarskapsprov, enkelt förklarat",
-    appTitle: "All träning inför medborgarskapsprovet på ett ställe",
+    eyebrow: "Svenska frågor, tydliga förklaringar och provnära träning",
+    appTitle: "Träningsplattform för medborgarskapsprovet",
     lead: "Baserat på UHR:s officiella studiematerial",
     languageNote: "Frågorna är på svenska. Du kan byta förklaringar till ett annat språk när som helst.",
     dailyPrompt: "Börja med 5 frågor.",
@@ -44,7 +44,7 @@ export const svUiText: UiText = {
     guideMockExamCta: "Testa provsimulering",
     heroPrimaryCta: "Börja med gratis träning",
     heroSecondaryCta: "Välj ämne",
-    heroTrustBadge: "Svenska frågor • Byt förklaringar när som helst",
+    heroTrustBadge: "Svenska frågor • Träning efter officiella studiekapitel • Flerspråkiga förklaringar • Byt förklaringar när som helst • Analysera dina träningsresultat och identifiera svaga delar",
     heroMockLabel: "Exempel från träningen",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -125,7 +125,7 @@ Använd Swedish Civics Test Preparation som en oberoende träningsguide: läs f�
     comingNextItems: [
       { title: "Ordkort", body: "Gör viktiga svenska ord till snabba repetitionskort." },
       { title: "Blandat provläge", body: "Träna på ett blandat frågepaket och få en sammanfattning av svaga kapitel." },
-      { title: "Framstegspanel", body: "Visa svaga ämnen, träningsrytm och vad som bör repeteras härnäst." }
+      { title: "Framstegspanel", body: "Visa svaga delar, träningsrytm och vad som bör repeteras härnäst." }
     ],
     mockExamTitle: "Provträning",
     mockExamIntro: "Svara på ett blandat urval från den utvalda frågebanken. Förklaringar visas först när du lämnar in, så passet känns mer som ett riktigt prov.",
@@ -196,8 +196,8 @@ Använd Swedish Civics Test Preparation som en oberoende träningsguide: läs f�
     backToHome: "Till startsidan",
     overallProgress: "Övergripande framsteg",
     topicAccuracy: "Träffsäkerhet",
-    weakTopic: "Svagt ämne",
-    weakTopicAdvice: (wrong) => `${wrong} fel svar registrerade. Repetera det här ämnet härnäst.`,
+    weakTopic: "Svag del",
+    weakTopicAdvice: (wrong) => `${wrong} fel svar registrerade. Repetera den här delen härnäst.`,
     recommendedNext: "Rekommenderat nästa steg",
     topicProgress: (completed, total) => `${completed}/${total} klara`,
     moduleMastered: "Bemästrat",

@@ -1,8 +1,8 @@
 import type { UiText } from "../uiTextTypes";
 
 export const enUiText: UiText = {
-    eyebrow: "Swedish citizenship test, made simple",
-    appTitle: "One-stop practice for the Swedish citizenship test",
+    eyebrow: "Swedish questions, clear explanations, exam-focused practice",
+    appTitle: "Swedish citizenship test practice platform",
     lead: "Based on UHR's official study material",
     languageNote: "Questions stay in Swedish. You can switch explanations to another language anytime.",
     dailyPrompt: "Start with 5 questions.",
@@ -44,7 +44,7 @@ export const enUiText: UiText = {
     guideMockExamCta: "Try mock exam",
     heroPrimaryCta: "Start free practice",
     heroSecondaryCta: "Choose a topic",
-    heroTrustBadge: "Questions in Swedish • Switch explanations anytime",
+    heroTrustBadge: "Swedish questions • Organized by official study chapters • Multilingual explanations • Switch explanations anytime • Analyze your practice results and identify weak areas",
     heroMockLabel: "Practice preview",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -125,7 +125,7 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
     comingNextItems: [
       { title: "Flashcards", body: "Turn the key Swedish words into quick review cards." },
       { title: "Mixed mock exam", body: "Practice a realistic mixed set and get a weak-chapter summary." },
-      { title: "Progress dashboard", body: "Show weak topics, streaks, and what to review next." }
+      { title: "Progress dashboard", body: "Show weak areas, streaks, and what to review next." }
     ],
     mockExamTitle: "Mock exam",
     mockExamIntro: "Answer a mixed set from the curated question bank. No explanations are shown until you submit, so it feels closer to a real test session.",
@@ -196,8 +196,8 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
     backToHome: "Back to home",
     overallProgress: "Overall progress",
     topicAccuracy: "Accuracy",
-    weakTopic: "Weak topic",
-    weakTopicAdvice: (wrong) => `${wrong} wrong answers recorded. Review this topic next.`,
+    weakTopic: "Weak area",
+    weakTopicAdvice: (wrong) => `${wrong} wrong answers recorded. Review this area next.`,
     recommendedNext: "Recommended next",
     topicProgress: (completed, total) => `${completed}/${total} completed`,
     moduleMastered: "Mastered",

@@ -2,8 +2,8 @@ import { enUiText } from "./en";
 import { createLocalizedUiText } from "../uiTextUtils";
 
 export const faUiText = createLocalizedUiText(enUiText, {
-    eyebrow: "آزمون شهروندی سوئد، ساده‌تر",
-    appTitle: "تمرین جامع برای آزمون شهروندی سوئد",
+    eyebrow: "پرسش‌های سوئدی، توضیح روشن، تمرین متمرکز بر آزمون",
+    appTitle: "پلتفرم تمرین آزمون شهروندی سوئد",
     lead: "بر پایه منبع رسمی مطالعه از UHR",
     languageNote: "پرسش‌ها و گزینه‌ها به سوئدی می‌مانند. بقیه برنامه با زبان انتخابی شما نمایش داده می‌شود.",
     dailyPrompt: "با ۵ پرسش شروع کنید.",
@@ -65,7 +65,7 @@ export const faUiText = createLocalizedUiText(enUiText, {
     comingNextItems: [
       { title: "فلش‌کارت‌ها", body: "واژه‌های مهم سوئدی را به کارت‌های مرور سریع تبدیل کنید." },
       { title: "آزمون آزمایشی ترکیبی", body: "یک مجموعه تمرینی ترکیبی انجام دهید و خلاصه فصل‌های ضعیف را ببینید." },
-      { title: "داشبورد پیشرفت", body: "موضوع‌های ضعیف، زنجیره تمرین و پیشنهاد مرور بعدی را نشان می‌دهد." }
+      { title: "داشبورد پیشرفت", body: "بخش‌های ضعیف، زنجیره تمرین و پیشنهاد مرور بعدی را نشان می‌دهد." }
     ],
     mockExamTitle: "آزمون آزمایشی",
     mockExamIntro: "به یک مجموعه ترکیبی از بانک پرسش‌های برگزیده پاسخ دهید. توضیح‌ها تا زمان ارسال نمایش داده نمی‌شوند تا تمرین به جلسه آزمون واقعی نزدیک‌تر باشد.",
@@ -133,7 +133,7 @@ export const faUiText = createLocalizedUiText(enUiText, {
     backToHome: "بازگشت به صفحه اصلی",
     overallProgress: "پیشرفت کلی",
     topicAccuracy: "دقت",
-    weakTopic: "موضوع ضعیف",
+    weakTopic: "بخش ضعیف",
     recommendedNext: "پیشنهاد بعدی",
     topicProgress: (completed, total) => `${completed}/${total} کامل شده`,
     moduleMastered: "مسلط",
