@@ -1,9 +1,9 @@
 import type { UiText } from "../uiTextTypes";
 
 export const arUiText: UiText = {
-    eyebrow: "أسئلة سويدية، شروحات واضحة، وتدريب قريب من الاختبار",
-    appTitle: "منصة تدريب لاختبار المواطنة السويدية",
-    lead: "مبني على المادة الدراسية الرسمية من UHR",
+    eyebrow: "مبني على مادة UHR · 1,000 سؤال · شروحات متعددة اللغات",
+    appTitle: "تدريب منظّم لاختبار المواطنة السويدية",
+    lead: "مبني حول المادة الدراسية الرسمية من UHR.",
     languageNote: "تبقى الأسئلة باللغة السويدية. يمكنك تحويل الشروحات إلى لغة أخرى في أي وقت.",
     dailyPrompt: "ابدأ بخمسة أسئلة.",
     navStudyModules: "مجالات الدراسة",
@@ -44,8 +44,8 @@ export const arUiText: UiText = {
     guideStartCta: "ابدأ 5 أسئلة مجانية",
     guideMockExamCta: "جرّب اختباراً تجريبياً",
     heroPrimaryCta: "ابدأ التدريب المجاني",
-    heroSecondaryCta: "اختر موضوعاً",
-    heroTrustBadge: "الأسئلة باللغة السويدية • شروحات متعددة اللغات • لوحة متابعة التقدم • حدّد نقاط ضعفك من نتائج تدريبك",
+    heroSecondaryCta: "تدرّب حسب الموضوع",
+    heroTrustBadge: "الأسئلة باللغة السويدية • شروحات بالصينية والإنجليزية ولغات أخرى • شاهد الشروحات والأخطاء ونقاط الضعف بعد التدريب • اعرف ما يجب مراجعته بعد ذلك",
     heroMockLabel: "معاينة التدريب",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",

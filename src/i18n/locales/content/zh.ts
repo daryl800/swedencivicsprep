@@ -23,11 +23,7 @@ export const zhFaqContent: FaqContent = {
     items: [
       {
         question: "Swedish Civics Test Preparation 是官方测试服务吗？",
-        answer: "不是。Swedish Civics Test Preparation 是独立学习和练习工具。我们不隶属于 UHR、Skolverket、Migrationsverket 或官方公民测试。"
-      },
-      {
-        question: "这些是官方考试题吗？",
-        answer: "不是。这些题目是为本应用原创编写的练习题，基于 Sverige i fokus 的公开学习主题，并不是复制任何官方考试题。"
+        answer: "Swedish Civics Test Preparation 是独立学习和练习工具。本站练习题根据公开的官方学习材料范围原创编写，用于帮助你理解重点、练习瑞典语题目，并查看解析。涉及考试规则、报名和个人申请，请以 UHR 和 Migrationsverket 的官方信息为准。"
       },
       {
         question: "为什么题目是瑞典语？",

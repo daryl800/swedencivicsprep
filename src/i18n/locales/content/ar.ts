@@ -23,11 +23,7 @@ export const arFaqContent: FaqContent = {
     items: [
       {
         question: "هل Swedish Civics Test Preparation خدمة اختبار رسمية؟",
-        answer: "لا. Swedish Civics Test Preparation أداة دراسة وتدريب مستقلة. ليست تابعة لـ UHR أو Skolverket أو Migrationsverket أو الاختبار الرسمي للمواطنة."
-      },
-      {
-        question: "هل هذه أسئلة امتحان رسمية؟",
-        answer: "لا. الأسئلة أسئلة تدريب أصلية مكتوبة لهذا التطبيق. هي مبنية على موضوعات الدراسة العامة في Sverige i fokus، وليست منسوخة من أي امتحان رسمي."
+        answer: "Swedish Civics Test Preparation أداة دراسة وتدريب مستقلة. أسئلة التدريب أصلية ومبنية على المادة الدراسية الرسمية المتاحة للعامة، حتى تتمكن من التدرّب على أسئلة باللغة السويدية ومراجعة الشروحات. لقواعد الاختبار والتسجيل وطلبك الشخصي، استخدم UHR وMigrationsverket كمصادر رسمية."
       },
       {
         question: "لماذا الأسئلة باللغة السويدية؟",

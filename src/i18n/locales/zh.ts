@@ -1,9 +1,9 @@
 import type { UiText } from "../uiTextTypes";
 
 export const zhUiText: UiText = {
-    eyebrow: "瑞典语练习题，配合清晰解释，掌握考试重点",
-    appTitle: "瑞典入籍社会知识考试练习平台",
-    lead: "覆盖入籍社会知识考试全部官方内容",
+    eyebrow: "覆盖 UHR 官方学习范围 · 1000 道练习题 · 多语解析",
+    appTitle: "瑞典入籍社会知识考试，系统练习",
+    lead: "根据 UHR 官方学习材料范围编写",
     languageNote: "题目保持瑞典语，可随时转换其他语言查看解释。",
     dailyPrompt: "先做5道题。",
     navStudyModules: "学习模块",
@@ -45,8 +45,8 @@ export const zhUiText: UiText = {
     guideStartCta: "开始免费练习",
     guideMockExamCta: "试做模拟考试",
     heroPrimaryCta: "立刻开始免费练习",
-    heroSecondaryCta: "选择主题",
-    heroTrustBadge: "题目使用瑞典语 • 多语言解释 • 学习进度面板 • 根据练习结果找出薄弱之处",
+    heroSecondaryCta: "按主题练习",
+    heroTrustBadge: "题目使用瑞典语 • 解析可切换中文、英文等多种语言 • 练习后查看解析、错误原因和薄弱之处 • 更清楚知道下一步该复习什么",
     heroMockLabel: "练习预览",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",

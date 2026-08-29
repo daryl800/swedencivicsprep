@@ -99,7 +99,7 @@ button:disabled {
 }
 
 .shell {
-  width: min(1180px, calc(100% - 32px));
+  width: min(1440px, calc(100% - 32px));
   margin: 0 auto;
   padding: 48px 0;
 }

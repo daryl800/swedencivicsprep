@@ -2,16 +2,16 @@ import { enUiText } from "./en";
 import { createLocalizedUiText } from "../uiTextUtils";
 
 export const tiUiText = createLocalizedUiText(enUiText, {
-    eyebrow: "ሽወደንኛ ሕቶታት፣ ንጹር መብርሂ፣ ናብ ፈተና ዝተተኮረ ልምምድ",
-    appTitle: "መድረኽ ልምምድ ፈተና ዜግነት ሽወደን",
-    lead: "ኣብ ወግዓዊ መጽናዕቲ UHR ዝተመርኮሰ",
+    eyebrow: "ኣብ መጽናዕቲ UHR ዝተመርኮሰ · 1,000 ሕቶታት · ብዙሕ ቋንቋ መብርሂ",
+    appTitle: "ዝተዋደደ ልምምድ ንፈተና ዜግነት ሽወደን",
+    lead: "ኣብ ወግዓዊ መጽናዕቲ UHR ዝተመርኮሰ።",
     languageNote: "ሕቶታትን ምርጫታት መልስን ብሽወደንኛ ይቕጽሉ። ዝተረፈ ክፋል ናይ app ብዝመረጽኩሞ ቋንቋ ይረአ።",
     dailyPrompt: "ብ5 ሕቶታት ጀምሩ።",
     navPracticeTests: "ናይ ልምምድ ፈተና",
     navAbout: "መምርሒ ፈተና",
     navStartPractice: "5 ሕቶታት ፈትኑ",
     heroPrimaryCta: "ልምምድ ነፍሲ ወከፍ ጀምሩ",
-    heroSecondaryCta: "ርእሰ-ጉዳይ ምረጹ",
+    heroSecondaryCta: "ብርእሰ-ጉዳይ ተለማመዱ",
     earlyAccessTitle: "ናጻ መምርሒ",
     earlyAccessMessage: `ብSverige i fokus ተማሃሩ
 

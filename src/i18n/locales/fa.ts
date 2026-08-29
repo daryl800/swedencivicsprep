@@ -2,16 +2,16 @@ import { enUiText } from "./en";
 import { createLocalizedUiText } from "../uiTextUtils";
 
 export const faUiText = createLocalizedUiText(enUiText, {
-    eyebrow: "پرسش‌های سوئدی، توضیح روشن، تمرین متمرکز بر آزمون",
-    appTitle: "پلتفرم تمرین آزمون شهروندی سوئد",
-    lead: "بر پایه منبع رسمی مطالعه از UHR",
+    eyebrow: "بر پایه منبع UHR · ۱۰۰۰ پرسش · توضیح چندزبانه",
+    appTitle: "تمرین ساختارمند برای آزمون شهروندی سوئد",
+    lead: "بر اساس منبع رسمی مطالعه UHR ساخته شده است.",
     languageNote: "پرسش‌ها و گزینه‌ها به سوئدی می‌مانند. بقیه برنامه با زبان انتخابی شما نمایش داده می‌شود.",
     dailyPrompt: "با ۵ پرسش شروع کنید.",
     navPracticeTests: "آزمون آزمایشی",
     navAbout: "راهنمای آزمون",
     navStartPractice: "تمرین رایگان را امتحان کنید",
     heroPrimaryCta: "تمرین رایگان را شروع کنید",
-    heroSecondaryCta: "انتخاب موضوع",
+    heroSecondaryCta: "تمرین بر اساس موضوع",
     earlyAccessTitle: "راهنمای مستقل",
     earlyAccessMessage: `با Sverige i fokus مطالعه کنید
 

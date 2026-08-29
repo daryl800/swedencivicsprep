@@ -1,9 +1,9 @@
 import type { UiText } from "../uiTextTypes";
 
 export const enUiText: UiText = {
-    eyebrow: "Swedish questions, clear explanations, exam-focused practice",
-    appTitle: "Swedish citizenship test practice platform",
-    lead: "Based on UHR's official study material",
+    eyebrow: "Based on UHR material · 1,000 questions · multilingual explanations",
+    appTitle: "Swedish citizenship test practice, structured for study",
+    lead: "Built around UHR's official study material.",
     languageNote: "Questions stay in Swedish. You can switch explanations to another language anytime.",
     dailyPrompt: "Start with 5 questions.",
     navStudyModules: "Study Modules",
@@ -44,8 +44,8 @@ export const enUiText: UiText = {
     guideStartCta: "Start free practice",
     guideMockExamCta: "Try mock exam",
     heroPrimaryCta: "Start free practice",
-    heroSecondaryCta: "Choose a topic",
-    heroTrustBadge: "Questions in Swedish • Multilingual explanations • Progress dashboard • Identify weak areas from your practice results",
+    heroSecondaryCta: "Practice by topic",
+    heroTrustBadge: "Questions are in Swedish • Explanations in Chinese, English, and more • See explanations, mistakes, and weak areas after practice • Know what to review next",
     heroMockLabel: "Practice preview",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",

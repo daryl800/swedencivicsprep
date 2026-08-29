@@ -23,11 +23,7 @@ export const enFaqContent: FaqContent = {
     items: [
       {
         question: "Is Swedish Civics Test Preparation an official test service?",
-        answer: "No. Swedish Civics Test Preparation is an independent study and practice tool. We are not affiliated with UHR, Skolverket, Migrationsverket, or the official citizenship test."
-      },
-      {
-        question: "Are these official exam questions?",
-        answer: "No. The questions are original practice questions written for this app. They are based on public study themes in Sverige i fokus, not copied from any official exam."
+        answer: "Swedish Civics Test Preparation is an independent study and practice tool. The practice questions are original and based on public official study material, so you can practise Swedish questions and review explanations. For test rules, registration, and your own application, use UHR and Migrationsverket as the official sources."
       },
       {
         question: "Why are the questions in Swedish?",

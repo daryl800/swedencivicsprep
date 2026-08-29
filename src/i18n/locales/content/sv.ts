@@ -23,11 +23,7 @@ export const svFaqContent: FaqContent = {
     items: [
       {
         question: "Är Swedish Civics Test Preparation en officiell provtjänst?",
-        answer: "Nej. Swedish Civics Test Preparation är ett oberoende studie- och träningsverktyg. Vi är inte kopplade till UHR, Skolverket, Migrationsverket eller det officiella medborgarskapsprovet."
-      },
-      {
-        question: "Är det här officiella provfrågor?",
-        answer: "Nej. Frågorna är originalfrågor skrivna för den här appen. De bygger på offentliga studieteman i Sverige i fokus och är inte kopierade från något officiellt prov."
+        answer: "Swedish Civics Test Preparation är ett oberoende studie- och träningsverktyg. Träningsfrågorna är originalfrågor baserade på offentligt officiellt studiematerial, så att du kan öva på svenska frågor och läsa förklaringar. För provregler, anmälan och ditt eget ärende är UHR och Migrationsverket de officiella källorna."
       },
       {
         question: "Varför är frågorna på svenska?",
