@@ -15,7 +15,12 @@
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#006AA7">
     <meta name="application-name" content="SwedenCivicsPrep">
+    <meta name="author" content="SwedenCivicsPrep">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     <link rel="canonical" href="https://swedencivicsprep.se/">
+    <link rel="alternate" hreflang="sv" href="https://swedencivicsprep.se/">
+    <link rel="alternate" hreflang="en" href="https://swedencivicsprep.se/">
+    <link rel="alternate" hreflang="x-default" href="https://swedencivicsprep.se/">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="manifest" href="/site.webmanifest">
     <meta property="og:site_name" content="SwedenCivicsPrep">
@@ -26,6 +31,15 @@
     >
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://swedencivicsprep.se/">
+    <meta property="og:image" content="https://swedencivicsprep.se/images/hero-horse-cityhall-yellow.png">
+    <meta property="og:locale" content="sv_SE">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Swedish Citizenship Civics Test Practice | SwedenCivicsPrep">
+    <meta
+      name="twitter:description"
+      content="Practice Swedish citizenship civics questions for medborgarskapsprovet with multilingual explanations and Sverige i fokus chapter coverage."
+    >
+    <meta name="twitter:image" content="https://swedencivicsprep.se/images/hero-horse-cityhall-yellow.png">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -44,6 +58,12 @@
         },
         "educationalUse": "Practice",
         "learningResourceType": "Practice questions",
+        "about": [
+          "Swedish citizenship test",
+          "Medborgarskapsprovet",
+          "Sverige i fokus",
+          "Swedish civics"
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "SwedenCivicsPrep",
@@ -56,7 +76,34 @@
     </script>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <main>
+        <h1>Swedish Citizenship Civics Test Practice</h1>
+        <p>
+          SwedenCivicsPrep helps learners practice Swedish civics questions for
+          medborgarskapsprovet with Swedish prompts, multilingual explanations,
+          progress tracking, flashcards, and coverage of the public Sverige i fokus
+          study chapters.
+        </p>
+        <nav aria-label="Site sections">
+          <a href="/guide">Citizenship test guide</a>
+          <a href="/study-modules">Study modules</a>
+          <a href="/quick">Quick practice</a>
+          <a href="/mock-exam">Mock exam</a>
+          <a href="/flashcards">Flashcards</a>
+        </nav>
+      </main>
+      <noscript>
+        <section>
+          <h2>Practice for medborgarskapsprovet</h2>
+          <p>
+            Study Swedish democracy, law and justice, rights and duties, welfare,
+            work and economy, media, history, traditions, religion, and Sweden in
+            the world. Enable JavaScript to use the interactive question trainer.
+          </p>
+        </section>
+      </noscript>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
