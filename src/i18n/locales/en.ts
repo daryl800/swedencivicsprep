@@ -2,8 +2,8 @@ import type { UiText } from "../uiTextTypes";
 
 export const enUiText: UiText = {
     eyebrow: "Swedish questions, clear explanations, exam-focused practice",
-    appTitle: "Swedish citizenship test practice platform",
-    lead: "Based on UHR's official study material",
+    appTitle: "Swedish citizenship test, structured practice",
+    lead: "Written around UHR's official study material",
     languageNote: "Questions stay in Swedish. You can switch explanations to another language anytime.",
     dailyPrompt: "Start with 5 questions.",
     navStudyModules: "Study Modules",

@@ -3,8 +3,8 @@ import { createLocalizedUiText } from "../uiTextUtils";
 
 export const soUiText = createLocalizedUiText(enUiText, {
     eyebrow: "Su’aalo Iswiidhish ah, sharaxaad cad, tababar imtixaan ku wajahan",
-    appTitle: "Madasha tababarka imtixaanka dhalashada Iswiidhan",
-    lead: "Ku salaysan agabka rasmiga ah ee waxbarashada ee UHR",
+    appTitle: "Imtixaanka dhalashada Iswiidhan, tababar nidaamsan",
+    lead: "Waxaa lagu dhisay baaxadda agabka rasmiga ah ee UHR",
     languageNote: "Su'aalaha iyo doorashooyinka jawaabta waxay ku sii jiraan af Iswiidhish. Qaybaha kale ee app-ku waxay raacaan luqadda aad doorato.",
     dailyPrompt: "Ku bilow 5 su’aalood.",
     navStartPractice: "Tijaabi 5 su’aalood",

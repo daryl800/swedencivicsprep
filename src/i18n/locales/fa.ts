@@ -3,8 +3,8 @@ import { createLocalizedUiText } from "../uiTextUtils";
 
 export const faUiText = createLocalizedUiText(enUiText, {
     eyebrow: "پرسش‌های سوئدی، توضیح روشن، تمرین متمرکز بر آزمون",
-    appTitle: "پلتفرم تمرین آزمون شهروندی سوئد",
-    lead: "بر پایه منبع رسمی مطالعه از UHR",
+    appTitle: "آزمون شهروندی سوئد، تمرین ساختارمند",
+    lead: "بر اساس دامنه منبع رسمی مطالعه UHR نوشته شده است",
     languageNote: "پرسش‌ها و گزینه‌ها به سوئدی می‌مانند. بقیه برنامه با زبان انتخابی شما نمایش داده می‌شود.",
     dailyPrompt: "با ۵ پرسش شروع کنید.",
     navStartPractice: "۵ پرسش را امتحان کنید",
