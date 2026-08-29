@@ -2,8 +2,8 @@ import type { UiText } from "../uiTextTypes";
 
 export const zhUiText: UiText = {
     eyebrow: "瑞典语练习题，配合清晰解释，掌握考试重点",
-    appTitle: "瑞典入籍社会知识考试练习平台",
-    lead: "覆盖入籍社会知识考试全部官方内容",
+    appTitle: "瑞典入籍社会知识考试，系统练习",
+    lead: "根据 UHR 官方学习材料范围编写",
     languageNote: "题目保持瑞典语，可随时转换其他语言查看解释。",
     dailyPrompt: "先做5道题。",
     navStudyModules: "学习模块",
