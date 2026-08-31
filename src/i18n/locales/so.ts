@@ -10,7 +10,7 @@ export const soUiText = createLocalizedUiText(enUiText, {
     navStartPractice: "Tijaabi 5 su’aalood",
     heroPrimaryCta: "Tijaabi 5 su’aalood oo Iswiidhish ah →",
     heroSecondaryCta: "Dooro mawduuc",
-    heroTrustBadge: "Su’aalo Iswiidhish ah • Tababar ku salaysan cutubyada waxbarashada rasmiga ah • Sharaxaad luqado badan ah • Beddel luqadda sharaxaadda wakhti kasta • Falanqee natiijooyinka tababarka oo aqoonso meelaha daciifka ah",
+    heroTrustBadge: "Su’aaluhu waa af Iswiidhish • Sharaxaad luqado badan ah • App lama soo dejinayo. Ku tababar telefoon ama kombiyuutar • Falanqee natiijooyinka tababarka oo aqoonso meelaha daciifka ah",
     earlyAccessTitle: "Hage madax-bannaan",
     earlyAccessMessage: `Wax ku baro Sverige i fokus
 

@@ -12,7 +12,7 @@ export const svUiText: UiText = {
     navStartPractice: "Starta gratis träning",
     heroPrimaryCta: "Starta gratis träning",
     heroSecondaryCta: "Välj ämne",
-    heroTrustBadge: "Svenska frågor • Träning efter officiella studiekapitel • Flerspråkiga förklaringar • Byt förklaringar när som helst • Analysera dina träningsresultat och identifiera svaga delar",
+    heroTrustBadge: "Frågorna är på svenska • Flerspråkiga förklaringar • Ingen app behövs. Träna på mobil eller dator • Analysera dina träningsresultat och identifiera svaga delar",
     heroMockLabel: "Exempel från träningen",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",

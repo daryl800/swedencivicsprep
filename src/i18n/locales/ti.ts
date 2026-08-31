@@ -10,7 +10,7 @@ export const tiUiText = createLocalizedUiText(enUiText, {
     navStartPractice: "5 ሕቶታት ፈትኑ",
     heroPrimaryCta: "5 ሽወደንኛ ሕቶታት ፈትኑ →",
     heroSecondaryCta: "ርእሰ-ጉዳይ ምረጹ",
-    heroTrustBadge: "ሽወደንኛ ሕቶታት • ብወግዓዊ ናይ መጽናዕቲ ምዕራፋት ዝተወደበ ልምምድ • ብብዙሕ ቋንቋ መብርሂ • ቋንቋ መብርሂ ኣብ ዝኾነ ግዜ ምቕያር • ውጽኢት ልምምድኩም ተንትኑ እሞ ድኹም ክፋላት ለልዩ",
+    heroTrustBadge: "ሕቶታት ብሽወደንኛ እዮም • መብርሂ ብብዙሕ ቋንቋ • app ምውራድ ኣየድልን። ብሞባይል ወይ ኮምፒዩተር ተለማመዱ • ውጽኢት ልምምድኩም ተንትኑ እሞ ድኹም ክፋላት ለልዩ",
     earlyAccessTitle: "ናጻ መምርሒ",
     earlyAccessMessage: `ብSverige i fokus ተማሃሩ
 

@@ -12,7 +12,7 @@ export const zhUiText: UiText = {
     navStartPractice: "免费练习",
     heroPrimaryCta: "立刻开始免费练习",
     heroSecondaryCta: "选择主题",
-    heroTrustBadge: "瑞典语题目 • 按官方学习章节分类练习 • 支持多语言解释 • 随时切换语言查看解释 • 按练习结果，分析并找出薄弱之处",
+    heroTrustBadge: "题目使用瑞典语 • 支持多语言解释 • 无需下载 App，手机和电脑都能练习 • 按练习结果，分析并找出薄弱之处",
     heroMockLabel: "练习预览",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
