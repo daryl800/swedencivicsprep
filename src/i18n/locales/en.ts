@@ -3,7 +3,7 @@ import type { UiText } from "../uiTextTypes";
 export const enUiText: UiText = {
     eyebrow: "Based on UHR material · 1,000 questions · multilingual explanations",
     appTitle: "Swedish citizenship test practice, structured for study",
-    lead: "Built around UHR's official study material.",
+    lead: "Based on UHR's official study material.",
     languageNote: "Questions stay in Swedish. You can switch explanations to another language anytime.",
     dailyPrompt: "Start with 5 questions.",
     navStudyModules: "Study Modules",

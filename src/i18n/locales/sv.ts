@@ -3,7 +3,7 @@ import type { UiText } from "../uiTextTypes";
 export const svUiText: UiText = {
     eyebrow: "Baserat på UHR:s material · 1 000 frågor · flerspråkiga förklaringar",
     appTitle: "Träning för medborgarskapsprovet, strukturerad för studier",
-    lead: "Bygger på UHR:s officiella studiematerial.",
+    lead: "Baserat på UHR:s officiella studiematerial.",
     languageNote: "Frågorna är på svenska. Du kan byta förklaringar till ett annat språk när som helst.",
     dailyPrompt: "Börja med 5 frågor.",
     navStudyModules: "Studieområden",
