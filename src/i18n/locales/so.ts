@@ -2,7 +2,7 @@ import { enUiText } from "./en";
 import { createLocalizedUiText } from "../uiTextUtils";
 
 export const soUiText = createLocalizedUiText(enUiText, {
-    eyebrow: "Su’aalo Iswiidhish ah, sharaxaad cad, tababar imtixaan ku wajahan",
+    eyebrow: "Su'aalaha tababar oo la xushay, bangiga 1,000 su'aal dhawaanaya",
     appTitle: "Imtixaanka dhalashada Iswiidhan, tababar nidaamsan",
     lead: "Dhammaan su'aalaha waxay ku dhisanyihiin agabka rasmiga ah ee UHR",
     heroSubhead: "Ku tababar si cad · Faham khaladaadka · Dib-u-eeg xooggan · Natiijooyin dhakhso ah",

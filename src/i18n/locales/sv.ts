@@ -1,7 +1,7 @@
 import type { UiText } from "../uiTextTypes";
 
 export const svUiText: UiText = {
-    eyebrow: "Svenska frågor, tydliga förklaringar och provnära träning",
+    eyebrow: "Utvalda träningsfrågor, 1 000 frågors bank kommer snart",
     appTitle: "Kunskapsprov för svenskt medborgarskap, strukturerad träning",
     lead: "Alla frågor baserade på UHR:s officiella studiematerial",
     heroSubhead: "Öva tydligt · Förstå misstag · Repetera med fokus · Se snabbare resultat",

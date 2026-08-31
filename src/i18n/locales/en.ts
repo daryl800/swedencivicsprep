@@ -1,7 +1,7 @@
 import type { UiText } from "../uiTextTypes";
 
 export const enUiText: UiText = {
-    eyebrow: "Swedish questions, clear explanations, exam-focused practice",
+    eyebrow: "Curated practice questions, 1,000-question bank coming soon",
     appTitle: "Swedish citizenship civics test, structured practice",
     lead: "All questions based on UHR's official study material",
     heroSubhead: "Practice clearly · Understand mistakes · Review with focus · See faster results",

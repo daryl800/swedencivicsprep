@@ -2,7 +2,7 @@ import { enUiText } from "./en";
 import { createLocalizedUiText } from "../uiTextUtils";
 
 export const tiUiText = createLocalizedUiText(enUiText, {
-    eyebrow: "ሽወደንኛ ሕቶታት፣ ንጹር መብርሂ፣ ናብ ፈተና ዝተተኮረ ልምምድ",
+    eyebrow: "ምርጥ ሕቶታት ልምምድ፣ 1,000 ጥያቄታት ባንክ ቅረቡ ይወጽእ",
     appTitle: "ፈተና ዜግነት ሽወደን፣ ዝተዋደደ ልምምድ",
     lead: "ሙሉ ጥያቄታት ኣብ ወግዓዊ መጽናዕቲ UHR ዝተመርኮሰ ይተዳልዩ",
     heroSubhead: "ብግልጽነት ምልማድ · ጌጋታት ምርዳእ · ብትኩ ምምለሳ · ውጽኢት ቅልጡፍ",

@@ -2,7 +2,7 @@ import { enUiText } from "./en";
 import { createLocalizedUiText } from "../uiTextUtils";
 
 export const faUiText = createLocalizedUiText(enUiText, {
-    eyebrow: "پرسش‌های سوئدی، توضیح روشن، تمرین متمرکز بر آزمون",
+    eyebrow: "پرسش‌های تمرینی منتخب، بانک ۱,۰۰۰ سوال به زودی",
     appTitle: "آزمون دانش شهروندی سوئد، تمرین ساختارمند",
     heroSubhead: "تمرین با وضوح · درک اشتباهات · مرور با تمرکز · نتایج سریع‌تر",
     lead: "تمام سوالات بر اساس منبع رسمی مطالعه UHR نوشته شده است",
