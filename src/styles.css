@@ -1380,7 +1380,7 @@ h3 {
 .seo-guide-actions button {
   min-height: 50px;
 }
-\n.legal-sections {
+.legal-sections {
   display: grid;
   gap: 14px;
   margin-top: 22px;

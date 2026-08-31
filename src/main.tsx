@@ -269,11 +269,31 @@ function App() {
     handleOpenFeedback("manual");
   }
 
-  function goSwedishCivicsTest() {
-    setRoute({ page: "swedish-civics-test" });
+  function resetPracticeState() {
     setSelectedIndex(null);
     setChecked(false);
     setQuestionHelpVisible(false);
+  }
+
+  function goHomeSection(sectionId: string) {
+    setRoute({ page: "home" });
+    resetPracticeState();
+    window.setTimeout(() => {
+      document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 0);
+  }
+
+  function goStudyModules() {
+    goHomeSection("study-modules");
+  }
+
+  function goHomeGuide() {
+    goHomeSection("about-guide");
+  }
+
+  function goSwedishCivicsTest() {
+    setRoute({ page: "swedish-civics-test" });
+    resetPracticeState();
   }
 
   function handleFeedbackPromptShown(topicId: string, milestone: number) {
@@ -382,8 +402,11 @@ function App() {
       <SwedishCivicsTestSeoPage
         language={language}
         onBack={goHome}
+        onOpenGuide={goHomeGuide}
+        onOpenProgress={goProgress}
         onQuickPractice={goQuickPractice}
         onSelectLanguage={handleLanguageChange}
+        onStudy={goStudyModules}
         onSelectTopic={goTopic}
         ui={ui}
       />
@@ -872,25 +895,34 @@ function HomePage({
 
 function AppNav({
   onExploreModules,
+  onGoHome,
+  onOpenAbout,
   onSelectLanguage,
   onStartPractice,
   ui,
   value
 }: {
   onExploreModules: () => void;
+  onGoHome?: () => void;
+  onOpenAbout?: () => void;
   onSelectLanguage: (language: UiLanguage) => void;
   onStartPractice: () => void;
   ui: UiText;
   value: UiLanguage;
 }) {
   function handleAboutClick() {
+    if (onOpenAbout) {
+      onOpenAbout();
+      return;
+    }
+
     document.getElementById("about-guide")?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   return (
     <header className="app-nav" dir={isRtl(value) ? "rtl" : "ltr"}>
       <nav className="app-nav-inner" aria-label="Main navigation">
-        <button className="brand-mark" type="button" onClick={handleAboutClick}>
+        <button className="brand-mark" type="button" onClick={onGoHome || handleAboutClick}>
           <span className="brand-icon" aria-hidden="true">
             <BookOpen size={20} />
           </span>
@@ -1390,42 +1422,57 @@ function FeedbackPage({
 function SwedishCivicsTestSeoPage({
   language,
   onBack,
+  onOpenGuide,
+  onOpenProgress,
   onQuickPractice,
   onSelectLanguage,
   onSelectTopic,
+  onStudy,
   ui
 }: {
   language: UiLanguage;
   onBack: () => void;
+  onOpenGuide: () => void;
+  onOpenProgress: () => void;
   onQuickPractice: () => void;
   onSelectLanguage: (language: UiLanguage) => void;
   onSelectTopic: (topicId: string) => void;
+  onStudy: () => void;
   ui: UiText;
 }) {
   return (
-    <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
-      <nav className="topbar">
-        <button className="ghost" type="button" onClick={onBack}>
-          Back to home
-        </button>
-        <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
-      </nav>
+    <>
+      <AppNav
+        onExploreModules={onStudy}
+        onGoHome={onBack}
+        onOpenAbout={onOpenGuide}
+        onSelectLanguage={onSelectLanguage}
+        onStartPractice={onQuickPractice}
+        ui={ui}
+        value={language}
+      />
+      <main className="shell seo-shell" dir={isRtl(language) ? "rtl" : "ltr"}>
+        <article className="legal-page seo-guide-page">
+          <p className="eyebrow">Swedish civics test preparation</p>
+          <h1>Swedish Civics Test Practice</h1>
+          <p className="lead">
+            Looking for Swedish civics test practice? Start with free Swedish questions, practice by topic, or read how the test works. SwedenCivicsPrep gives you multilingual explanations based on the public Sverige i fokus study material from UHR and Skolverket.
+          </p>
 
-      <article className="legal-page seo-guide-page">
-        <p className="eyebrow">Swedish civics test preparation</p>
-        <h1>Swedish Civics Test Practice for the Swedish Citizenship Test</h1>
-        <p className="lead">
-          Prepare for the Swedish civics test, the society knowledge part connected to the Swedish citizenship test and medborgarskapsprovet. SwedenCivicsPrep gives you Swedish practice questions with multilingual explanations based on the public Sverige i fokus study material from UHR and Skolverket.
-        </p>
-
-        <div className="seo-guide-actions">
-          <button className="primary" type="button" onClick={onQuickPractice}>
-            Start free practice
-          </button>
-          <button className="secondary" type="button" onClick={() => onSelectTopic("democracy")}>
-            Practice Swedish civics questions
-          </button>
-        </div>
+          <div className="seo-guide-actions">
+            <button className="primary" type="button" onClick={onQuickPractice}>
+              Start free practice
+            </button>
+            <button className="secondary" type="button" onClick={() => onSelectTopic("democracy")}>
+              Practice by topic
+            </button>
+            <button className="secondary" type="button" onClick={onOpenGuide}>
+              Read the guide
+            </button>
+            <button className="secondary" type="button" onClick={onOpenProgress}>
+              View progress
+            </button>
+          </div>
 
         <div className="legal-sections">
           <section className="legal-section">
@@ -1452,9 +1499,10 @@ function SwedishCivicsTestSeoPage({
               <ExternalLink size={16} aria-hidden="true" />
             </a>
           </section>
-        </div>
-      </article>
-    </main>
+          </div>
+        </article>
+      </main>
+    </>
   );
 }
 
