@@ -204,6 +204,21 @@ function App() {
     });
   }, [language, route]);
 
+  useEffect(() => {
+    const metadata = getRouteMetadata(route);
+    document.title = metadata.title;
+
+    const canonical = document.querySelector<HTMLLinkElement>("link[rel=\"canonical\"]");
+    if (canonical) {
+      canonical.href = metadata.canonicalUrl;
+    }
+
+    const description = document.querySelector<HTMLMetaElement>("meta[name=\"description\"]");
+    if (description) {
+      description.content = metadata.description;
+    }
+  }, [route]);
+
   function goHome() {
     setRoute({ page: "home" });
     setSelectedIndex(null);
@@ -567,6 +582,26 @@ function getTextDirection(text: string) {
 function formatStudyIntroItem(item: string) {
   const trimmed = item.replace(/\.$/, "");
   return getTextDirection(trimmed) === "rtl" ? trimmed : `${trimmed}.`;
+}
+
+const SITE_BASE_URL = "https://swedencivicsprep.se";
+const DEFAULT_PAGE_TITLE = "Swedish Civics Test Practice for the Swedish Citizenship Test | SwedenCivicsPrep";
+const DEFAULT_PAGE_DESCRIPTION = "Practice for the Swedish civics test, Sweden civics test, and Swedish citizenship test. Study medborgarskapsprovet topics with Swedish questions, multilingual explanations, and Sverige i fokus chapter coverage.";
+
+function getRouteMetadata(route: Route) {
+  if (route.page === "swedish-civics-test") {
+    return {
+      canonicalUrl: `${SITE_BASE_URL}/swedish-civics-test`,
+      description: DEFAULT_PAGE_DESCRIPTION,
+      title: "Swedish Civics Test Practice for the Swedish Citizenship Test | SwedenCivicsPrep"
+    };
+  }
+
+  return {
+    canonicalUrl: `${SITE_BASE_URL}${routeToPath(route)}`,
+    description: DEFAULT_PAGE_DESCRIPTION,
+    title: DEFAULT_PAGE_TITLE
+  };
 }
 
 function getRouteName(route: Route) {
