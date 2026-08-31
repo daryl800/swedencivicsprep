@@ -1369,7 +1369,18 @@ h3 {
   font-weight: 750;
 }
 
-.legal-sections {
+
+.seo-guide-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.seo-guide-actions button {
+  min-height: 50px;
+}
+\n.legal-sections {
   display: grid;
   gap: 14px;
   margin-top: 22px;

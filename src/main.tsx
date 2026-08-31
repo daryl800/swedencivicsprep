@@ -20,6 +20,7 @@ type Route =
   | { page: "progress" }
   | { page: "flashcards" }
   | { page: "feedback" }
+  | { page: "swedish-civics-test" }
   | { page: "privacy" }
   | { page: "admin" };
 
@@ -253,6 +254,13 @@ function App() {
     handleOpenFeedback("manual");
   }
 
+  function goSwedishCivicsTest() {
+    setRoute({ page: "swedish-civics-test" });
+    setSelectedIndex(null);
+    setChecked(false);
+    setQuestionHelpVisible(false);
+  }
+
   function handleFeedbackPromptShown(topicId: string, milestone: number) {
     trackEvent("feedback_prompt_shown", { milestone, topicId, uiLanguage: language });
   }
@@ -352,6 +360,19 @@ function App() {
       uiLanguage: language
     });
     setQuestionHelpVisible(nextVisible);
+  }
+
+  if (route.page === "swedish-civics-test") {
+    return (
+      <SwedishCivicsTestSeoPage
+        language={language}
+        onBack={goHome}
+        onQuickPractice={goQuickPractice}
+        onSelectLanguage={handleLanguageChange}
+        onSelectTopic={goTopic}
+        ui={ui}
+      />
+    );
   }
 
   if (route.page === "privacy") {
@@ -487,6 +508,7 @@ function App() {
       onOpenFlashcards={goFlashcards}
       onOpenPrivacy={goPrivacy}
       onOpenProgress={goProgress}
+      onOpenSeoPage={goSwedishCivicsTest}
       onQuickPractice={goQuickPractice}
       onSelectLanguage={handleLanguageChange}
       onSelectTopic={goTopic}
@@ -561,6 +583,10 @@ function getRouteFromPath(pathname: string): Route {
 
   if (page === "privacy") {
     return { page: "privacy" };
+  }
+
+  if (page === "swedish-civics-test") {
+    return { page: "swedish-civics-test" };
   }
 
   if (page === "quick") {
@@ -641,6 +667,7 @@ function HomePage({
   onOpenFlashcards,
   onOpenPrivacy,
   onOpenProgress,
+  onOpenSeoPage,
   onQuickPractice,
   onSelectLanguage,
   onSelectTopic,
@@ -652,6 +679,7 @@ function HomePage({
   onOpenFlashcards: () => void;
   onOpenPrivacy: () => void;
   onOpenProgress: () => void;
+  onOpenSeoPage: () => void;
   onQuickPractice: () => void;
   onSelectLanguage: (language: UiLanguage) => void;
   onSelectTopic: (topicId: string) => void;
@@ -792,7 +820,7 @@ function HomePage({
 
         <ComingNextSection onOpenFlashcards={onOpenFlashcards} onOpenProgress={onOpenProgress} ui={ui} />
         <FaqSection language={language} />
-        <SiteFooter language={language} onOpenFeedback={onOpenFeedback} onOpenPrivacy={onOpenPrivacy} />
+        <SiteFooter language={language} onOpenFeedback={onOpenFeedback} onOpenPrivacy={onOpenPrivacy} onOpenSeoPage={onOpenSeoPage} />
       </main>
       <MobileBottomNav
         active="home"
@@ -1241,11 +1269,13 @@ function FaqItem({ item }: { item: { question: string; answer: string } }) {
 function SiteFooter({
   language,
   onOpenFeedback,
-  onOpenPrivacy
+  onOpenPrivacy,
+  onOpenSeoPage
 }: {
   language: UiLanguage;
   onOpenFeedback: () => void;
   onOpenPrivacy: () => void;
+  onOpenSeoPage: () => void;
 }) {
   const legal = LEGAL_CONTENT[language];
 
@@ -1258,6 +1288,9 @@ function SiteFooter({
         </button>
         <button className="footer-link" type="button" onClick={onOpenPrivacy}>
           {legal.privacyLink}
+        </button>
+        <button className="footer-link" type="button" onClick={onOpenSeoPage}>
+          Swedish civics test guide
         </button>
       </div>
     </footer>
@@ -1315,6 +1348,77 @@ function FeedbackPage({
           </a>
         </p>
       </section>
+    </main>
+  );
+}
+
+function SwedishCivicsTestSeoPage({
+  language,
+  onBack,
+  onQuickPractice,
+  onSelectLanguage,
+  onSelectTopic,
+  ui
+}: {
+  language: UiLanguage;
+  onBack: () => void;
+  onQuickPractice: () => void;
+  onSelectLanguage: (language: UiLanguage) => void;
+  onSelectTopic: (topicId: string) => void;
+  ui: UiText;
+}) {
+  return (
+    <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
+      <nav className="topbar">
+        <button className="ghost" type="button" onClick={onBack}>
+          Back to home
+        </button>
+        <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
+      </nav>
+
+      <article className="legal-page seo-guide-page">
+        <p className="eyebrow">Swedish civics test preparation</p>
+        <h1>Swedish Civics Test Practice for the Swedish Citizenship Test</h1>
+        <p className="lead">
+          Prepare for the Swedish civics test, the society knowledge part connected to the Swedish citizenship test and medborgarskapsprovet. SwedenCivicsPrep gives you Swedish practice questions with multilingual explanations based on the public Sverige i fokus study material from UHR and Skolverket.
+        </p>
+
+        <div className="seo-guide-actions">
+          <button className="primary" type="button" onClick={onQuickPractice}>
+            Start free practice
+          </button>
+          <button className="secondary" type="button" onClick={() => onSelectTopic("democracy")}>
+            Practice Swedish civics questions
+          </button>
+        </div>
+
+        <div className="legal-sections">
+          <section className="legal-section">
+            <h2>What is the Swedish civics test?</h2>
+            <p>
+              The Swedish civics test checks knowledge of Swedish society: democracy, elections, laws, rights and duties, work, welfare, media, history, traditions, and public institutions. It is separate from Swedish language learning, but the society test itself is connected to Swedish-language study material.
+            </p>
+          </section>
+
+          <section className="legal-section">
+            <h2>How this Sweden civics test practice helps</h2>
+            <p>
+              Use the site after reading a section of Sverige i fokus. Answer short Swedish questions, then review explanations in your preferred language so you understand both the topic and your mistakes.
+            </p>
+          </section>
+
+          <section className="legal-section">
+            <h2>Based on official study material, not official exam questions</h2>
+            <p>
+              The questions are original practice questions written around public official study themes. For rules, registration, dates, and your own citizenship case, always check UHR and Migrationsverket.
+            </p>
+            <a className="source-link" href={OFFICIAL_STUDY_GUIDE_URL} rel="noopener noreferrer" target="_blank">
+              Open the official Sverige i fokus study material
+              <ExternalLink size={16} aria-hidden="true" />
+            </a>
+          </section>
+        </div>
+      </article>
     </main>
   );
 }
