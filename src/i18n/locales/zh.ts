@@ -46,7 +46,7 @@ export const zhUiText: UiText = {
     guideMockExamCta: "试做模拟考试",
     heroPrimaryCta: "立刻开始免费练习",
     heroSecondaryCta: "按主题练习",
-    heroTrustBadge: "题目使用瑞典语 • 解析可切换中文、英文等多种语言 • 练习后查看解析、错误原因和薄弱之处 • 更清楚知道下一步该复习什么",
+    heroTrustBadge: "题目使用瑞典语 • 解析可切换中文、英文等多种语言 • 无需下载 App，手机和电脑都能练习 • 根据练习结果知道下一步该复习什么",
     heroMockLabel: "练习预览",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",

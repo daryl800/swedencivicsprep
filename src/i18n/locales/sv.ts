@@ -45,7 +45,7 @@ export const svUiText: UiText = {
     guideMockExamCta: "Testa provsimulering",
     heroPrimaryCta: "Börja med gratis träning",
     heroSecondaryCta: "Träna efter ämne",
-    heroTrustBadge: "Frågorna är på svenska • Förklaringar på kinesiska, engelska och fler språk • Se förklaringar, misstag och svaga delar efter träning • Vet vad du ska repetera härnäst",
+    heroTrustBadge: "Frågorna är på svenska • Förklaringar på flera språk • Ingen app behövs. Träna på mobil eller dator • Använd resultaten för att veta vad du ska repetera",
     heroMockLabel: "Exempel från träningen",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",

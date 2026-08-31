@@ -45,7 +45,7 @@ export const enUiText: UiText = {
     guideMockExamCta: "Try mock exam",
     heroPrimaryCta: "Start free practice",
     heroSecondaryCta: "Practice by topic",
-    heroTrustBadge: "Questions are in Swedish • Explanations in Chinese, English, and more • See explanations, mistakes, and weak areas after practice • Know what to review next",
+    heroTrustBadge: "Questions are in Swedish • Explanations in multiple languages • No app download. Practice on phone or desktop • Use results to know what to review next",
     heroMockLabel: "Practice preview",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",

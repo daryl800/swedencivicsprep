@@ -12,6 +12,7 @@ export const soUiText = createLocalizedUiText(enUiText, {
     navStartPractice: "Tababar bilaash ah tijaabi",
     heroPrimaryCta: "Bilow tababarka bilaashka ah",
     heroSecondaryCta: "Ku tababar mawduuc",
+    heroTrustBadge: "Su’aaluhu waa af Iswiidhish • Sharaxaad luqado badan • App lama soo dejinayo. Ku tababar telefoon ama kombiyuutar • Natiijooyinkaaga ku ogow waxa xiga ee aad dib u eegayso",
     earlyAccessTitle: "Hage madax-bannaan",
     earlyAccessMessage: `Wax ku baro Sverige i fokus
 

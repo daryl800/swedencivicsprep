@@ -45,7 +45,7 @@ export const arUiText: UiText = {
     guideMockExamCta: "جرّب اختباراً تجريبياً",
     heroPrimaryCta: "ابدأ التدريب المجاني",
     heroSecondaryCta: "تدرّب حسب الموضوع",
-    heroTrustBadge: "الأسئلة باللغة السويدية • شروحات بالصينية والإنجليزية ولغات أخرى • شاهد الشروحات والأخطاء ونقاط الضعف بعد التدريب • اعرف ما يجب مراجعته بعد ذلك",
+    heroTrustBadge: "الأسئلة باللغة السويدية • شروحات بعدة لغات • لا حاجة لتنزيل تطبيق. تدرّب على الهاتف أو الكمبيوتر • استخدم النتائج لمعرفة ما تراجعه بعد ذلك",
     heroMockLabel: "معاينة التدريب",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
