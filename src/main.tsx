@@ -781,6 +781,7 @@ function HomePage({
               {ui.eyebrow}
             </p>
             <h1>{ui.appTitle}</h1>
+            <p className="hero-sub">{ui.heroSubhead}</p>
             <HeroSourcePill text={ui.lead} />
             <HeroTrustBadge text={ui.heroTrustBadge} />
             <div className="hero-cta-row">

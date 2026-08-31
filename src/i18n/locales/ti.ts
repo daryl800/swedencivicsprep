@@ -4,13 +4,14 @@ import { createLocalizedUiText } from "../uiTextUtils";
 export const tiUiText = createLocalizedUiText(enUiText, {
     eyebrow: "ሽወደንኛ ሕቶታት፣ ንጹር መብርሂ፣ ናብ ፈተና ዝተተኮረ ልምምድ",
     appTitle: "ፈተና ዜግነት ሽወደን፣ ዝተዋደደ ልምምድ",
-    lead: "ኣብ ወግዓዊ መጽናዕቲ UHR ዝተመርኮሰ ተዳልዩ",
+    lead: "ሙሉ ጥያቄታት ኣብ ወግዓዊ መጽናዕቲ UHR ዝተመርኮሰ ይተዳልዩ",
+    heroSubhead: "ብግልጽነት ምልማድ · ጌጋታት ምርዳእ · ብትኩ ምምለሳ · ውጽኢት ቅልጡፍ",
     languageNote: "ሕቶታትን ምርጫታት መልስን ብሽወደንኛ ይቕጽሉ። ዝተረፈ ክፋል ናይ app ብዝመረጽኩሞ ቋንቋ ይረአ።",
     dailyPrompt: "ብ5 ሕቶታት ጀምሩ።",
     navStartPractice: "5 ሕቶታት ፈትኑ",
     heroPrimaryCta: "5 ሽወደንኛ ሕቶታት ፈትኑ →",
     heroSecondaryCta: "ርእሰ-ጉዳይ ምረጹ",
-    heroTrustBadge: "ሕቶታት ብሽወደንኛ እዮም • መብርሂ ብብዙሕ ቋንቋ • app ምውራድ ኣየድልን። ብሞባይል ወይ ኮምፒዩተር ተለማመዱ • ውጽኢት ልምምድኩም ተንትኑ እሞ ድኹም ክፋላት ለልዩ",
+    heroTrustBadge: "ባዝዕባ ብብዙሕ ቋንቋ • ሕቶታት ብሽወደንኛ እዮም፣ ቋንቋ ኩሉ ግዜ ኣብ ልምምድ ንምርዳእ ትቕያርዎ • app ምውራድ ኣየድልን፤ ብሞባይል ወይ ኮምፒዩተር ከምቲ ደለየ ተለማመዱ • ውጽኢት ልምምድኩም ይተንትን እሞ ድኹም ክፋላት ይለልዩ",
     earlyAccessTitle: "ናጻ መምርሒ",
     earlyAccessMessage: `ብSverige i fokus ተማሃሩ
 

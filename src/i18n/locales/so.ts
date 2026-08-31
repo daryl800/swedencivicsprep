@@ -4,13 +4,14 @@ import { createLocalizedUiText } from "../uiTextUtils";
 export const soUiText = createLocalizedUiText(enUiText, {
     eyebrow: "Su’aalo Iswiidhish ah, sharaxaad cad, tababar imtixaan ku wajahan",
     appTitle: "Imtixaanka dhalashada Iswiidhan, tababar nidaamsan",
-    lead: "Waxaa lagu dhisay baaxadda agabka rasmiga ah ee UHR",
+    lead: "Dhammaan su'aalaha waxay ku dhisanyihiin agabka rasmiga ah ee UHR",
+    heroSubhead: "Ku tababar si cad · Faham khaladaadka · Dib-u-eeg xooggan · Natiijooyin dhakhso ah",
     languageNote: "Su'aalaha iyo doorashooyinka jawaabta waxay ku sii jiraan af Iswiidhish. Qaybaha kale ee app-ku waxay raacaan luqadda aad doorato.",
     dailyPrompt: "Ku bilow 5 su’aalood.",
     navStartPractice: "Tijaabi 5 su’aalood",
     heroPrimaryCta: "Tijaabi 5 su’aalood oo Iswiidhish ah →",
     heroSecondaryCta: "Dooro mawduuc",
-    heroTrustBadge: "Su’aaluhu waa af Iswiidhish • Sharaxaad luqado badan ah • App lama soo dejinayo. Ku tababar telefoon ama kombiyuutar • Falanqee natiijooyinka tababarka oo aqoonso meelaha daciifka ah",
+    heroTrustBadge: "Interface luqado badan • Su'aalaha waa af Iswiidhish, waad beddeli kartaa luqadda mar kasta inta lagu jiro tababarka si fudud loo fahmo • App lama soo dejinayo; ku tababar telefoon ama kombiyuutar marka aad rabto • Wuxuu falanqeeyaa natiijooyinka tababarka si uu u helo meelaha daciifka ah",
     earlyAccessTitle: "Hage madax-bannaan",
     earlyAccessMessage: `Wax ku baro Sverige i fokus
 

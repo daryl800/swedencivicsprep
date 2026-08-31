@@ -3,7 +3,8 @@ import type { UiText } from "../uiTextTypes";
 export const zhUiText: UiText = {
     eyebrow: "精选练习题，1000题题库即将上线",
     appTitle: "瑞典入籍社会知识考试，系统练习",
-    lead: "根据 UHR 官方学习材料范围编写",
+    lead: "全部题目基于 UHR 官方学习材料编写",
+    heroSubhead: "练得清楚 · 错处即懂 · 复习有方 · 成效更快",
     languageNote: "题目保持瑞典语，可随时转换其他语言查看解释。",
     dailyPrompt: "先做5道题。",
     navStudyModules: "学习模块",
@@ -12,7 +13,7 @@ export const zhUiText: UiText = {
     navStartPractice: "免费练习",
     heroPrimaryCta: "立刻开始免费练习",
     heroSecondaryCta: "选择主题",
-    heroTrustBadge: "题目使用瑞典语 • 支持多语言解释，可以随时切换 • 无需下载 App，可按需要在手机或电脑上练习 • 按练习结果，分析并找出薄弱之处",
+    heroTrustBadge: "支持多语言界面 • 题目为瑞典语，练习时随时切换语言方便理解 • 无需下载 App，可按需要在手机或电脑上练习 • 按练习结果，分析并找出薄弱之处",
     heroMockLabel: "练习预览",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",

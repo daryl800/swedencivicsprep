@@ -2,8 +2,9 @@ import type { UiText } from "../uiTextTypes";
 
 export const svUiText: UiText = {
     eyebrow: "Svenska frågor, tydliga förklaringar och provnära träning",
-    appTitle: "Medborgarskapsprovet, strukturerad träning",
-    lead: "Baserat på UHR:s officiella studiematerial",
+    appTitle: "Kunskapsprov för svenskt medborgarskap, strukturerad träning",
+    lead: "Alla frågor baserade på UHR:s officiella studiematerial",
+    heroSubhead: "Öva tydligt · Förstå misstag · Repetera med fokus · Se snabbare resultat",
     languageNote: "Frågorna är på svenska. Du kan byta förklaringar till ett annat språk när som helst.",
     dailyPrompt: "Börja med 5 frågor.",
     navStudyModules: "Studieområden",
@@ -12,7 +13,7 @@ export const svUiText: UiText = {
     navStartPractice: "Starta gratis träning",
     heroPrimaryCta: "Starta gratis träning",
     heroSecondaryCta: "Välj ämne",
-    heroTrustBadge: "Frågorna är på svenska • Flerspråkiga förklaringar • Ingen app behövs. Träna på mobil eller dator • Analysera dina träningsresultat och identifiera svaga delar",
+    heroTrustBadge: "Flerspråkigt gränssnitt • Frågorna är på svenska, byt språk när som helst under träningen för att underlätta förståelsen • Ingen app behövs; träna på mobil eller dator när du vill • Analyserar dina resultat för att hitta svaga delar",
     heroMockLabel: "Exempel från träningen",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
