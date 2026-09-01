@@ -4,7 +4,7 @@ export const enUiText: UiText = {
     eyebrow: "Curated practice questions, 1,000-question bank coming soon",
     appTitle: "Swedish citizenship civics test, structured practice",
     lead: "All questions based on UHR's official study material",
-    heroSubhead: "Practice clearly · Understand mistakes · Review with focus · See faster results",
+    heroSubhead: "Practice clearly. Understand mistakes. Know what to review next.",
     languageNote: "Questions stay in Swedish. You can switch explanations to another language anytime.",
     dailyPrompt: "Start with 5 questions.",
     navStudyModules: "Study Modules",
