@@ -4,7 +4,7 @@ export const svUiText: UiText = {
     eyebrow: "Utvalda träningsfrågor, 1 000 frågors bank kommer snart",
     appTitle: "Kunskapsprov för svenskt medborgarskap, strukturerad träning",
     lead: "Alla frågor baserade på UHR:s officiella studiematerial",
-    heroSubhead: "Öva tydligt. Förstå misstagen. Vet vad du ska repetera härnäst.",
+    heroSubhead: "Träna efter ämne. Hitta misstagen. Vet vad du ska repetera",
     languageNote: "Frågorna är på svenska. Du kan byta förklaringar till ett annat språk när som helst.",
     dailyPrompt: "Starta gratis träning.",
     navStudyModules: "Studieområden",

@@ -5,7 +5,7 @@ export const soUiText = createLocalizedUiText(enUiText, {
     eyebrow: "Su'aalaha tababar oo la xushay, bangiga 1,000 su'aal dhawaanaya",
     appTitle: "Imtixaanka dhalashada Iswiidhan, tababar nidaamsan",
     lead: "Dhammaan su'aalaha waxay ku dhisanyihiin agabka rasmiga ah ee UHR",
-    heroSubhead: "Si cad u tababar. Faham khaladaadka. Ogow waxa xiga ee aad dib u eegayso.",
+    heroSubhead: "Mawduuc ahaan u tababar. Hel khaladaadka. Ogow waxa aad dib u eegayso",
     languageNote: "Su'aalaha iyo doorashooyinka jawaabta waxay ku sii jiraan af Iswiidhish. Qaybaha kale ee app-ku waxay raacaan luqadda aad doorato.",
     dailyPrompt: "Bilow tababar bilaash ah.",
     navStartPractice: "Bilow tababar bilaash ah",

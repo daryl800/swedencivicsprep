@@ -5,7 +5,7 @@ export const tiUiText = createLocalizedUiText(enUiText, {
     eyebrow: "ምርጥ ሕቶታት ልምምድ፣ 1,000 ጥያቄታት ባንክ ቅረቡ ይወጽእ",
     appTitle: "ፈተና ዜግነት ሽወደን፣ ዝተዋደደ ልምምድ",
     lead: "ሙሉ ጥያቄታት ኣብ ወግዓዊ መጽናዕቲ UHR ዝተመርኮሰ ይተዳልዩ",
-    heroSubhead: "ብግልጺ ተለማመዱ። ጌጋታት ተረድኡ። ቀጺልኩም እንታይ ክትደግሙ ከምዘለኩም ፍለጡ።",
+    heroSubhead: "ብርእሰ-ጉዳይ ተለማመዱ። ጌጋታት ፍለጡ። እንታይ ክትደግሙ ከምዘለኩም ፍለጡ",
     languageNote: "ሕቶታትን ምርጫታት መልስን ብሽወደንኛ ይቕጽሉ። ዝተረፈ ክፋል ናይ app ብዝመረጽኩሞ ቋንቋ ይረአ።",
     dailyPrompt: "ናጻ ልምምድ ጀምሩ።",
     navStartPractice: "ናጻ ልምምድ ጀምሩ",
