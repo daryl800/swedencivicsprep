@@ -837,7 +837,7 @@ function HomePage({
           })}
         </section>
 
-        <ChapterMapSection language={language} ui={ui} />
+        <ChapterMapSection language={language} selectedTopicId={selectedTopicFilter} ui={ui} />
 
         <ComingNextSection onOpenFlashcards={onOpenFlashcards} onOpenProgress={onOpenProgress} ui={ui} />
         <FaqSection language={language} />
@@ -1180,7 +1180,12 @@ function StudyPathSection({ ui }: { ui: UiText }) {
   );
 }
 
-function ChapterMapSection({ language, ui }: { language: UiLanguage; ui: UiText }) {
+function ChapterMapSection({ language, selectedTopicId, ui }: { language: UiLanguage; selectedTopicId: string; ui: UiText }) {
+  const visibleChapters =
+    selectedTopicId === "all"
+      ? OFFICIAL_CHAPTERS
+      : OFFICIAL_CHAPTERS.filter((chapter) => chapter.topicId === selectedTopicId);
+
   return (
     <section className="chapter-map" aria-label={ui.chapterMapTitle}>
       <div className="section-heading">
@@ -1188,7 +1193,7 @@ function ChapterMapSection({ language, ui }: { language: UiLanguage; ui: UiText 
         <p dir={getTextDirection(ui.chapterMapIntro)}>{ui.chapterMapIntro}</p>
       </div>
       <div className="chapter-grid">
-        {OFFICIAL_CHAPTERS.map((chapter) => {
+        {visibleChapters.map((chapter) => {
           const chapterName = ui.chapterNames[chapter.id];
           const visual = TOPIC_VISUALS[chapter.topicId as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
 
