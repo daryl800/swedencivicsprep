@@ -3,7 +3,7 @@ import type { UiText } from "../uiTextTypes";
 export const zhUiText: UiText = {
     eyebrow: "精选练习题，1000题题库即将上线",
     appTitle: "瑞典入籍社会知识考试，系统练习",
-    lead: "全部题目基于 UHR 官方学习材料编写",
+    lead: "全部题目均基于 UHR 官方学习材料编写",
     heroSubhead: "清楚练习，看懂错误，找出复习方向。",
     languageNote: "题目保持瑞典语，可随时转换其他语言查看解释。",
     dailyPrompt: "开始免费练习。",
