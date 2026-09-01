@@ -6,7 +6,7 @@ export const svUiText: UiText = {
     lead: "Alla frågor baserade på UHR:s officiella studiematerial",
     heroSubhead: "Öva tydligt. Förstå misstagen. Vet vad du ska repetera härnäst.",
     languageNote: "Frågorna är på svenska. Du kan byta förklaringar till ett annat språk när som helst.",
-    dailyPrompt: "Börja med 5 frågor.",
+    dailyPrompt: "Starta gratis träning.",
     navStudyModules: "Studieområden",
     navPracticeTests: "Träningsfrågor",
     navAbout: "Guide",
@@ -160,14 +160,14 @@ Använd Swedish Civics Test Preparation som en oberoende träningsguide: läs f�
     progressStrong: "Stark träningsdag.",
     topicNames: {
       democracy: "Demokrati och val",
-      "quick-start": "Snabbträning",
+      "quick-start": "Gratis träning",
       rights: "Rättigheter och skyldigheter",
       everyday: "Vardagsliv i Sverige",
       authorities: "Myndigheter och tjänster"
     },
     topicFlavor: {
       democracy: "Val, röster och demokratins spelregler.",
-      "quick-start": "Fem blandade svenska frågor för att komma igång direkt.",
+      "quick-start": "Alla nuvarande gratis träningsfrågor på svenska.",
       rights: "Känn till dina friheter och det gemensamma ansvaret.",
       everyday: "Det praktiska Sverige du möter i vardagen.",
       authorities: "En snabb karta över vem som hjälper med vad."

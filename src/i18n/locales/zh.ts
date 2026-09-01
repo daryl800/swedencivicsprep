@@ -6,7 +6,7 @@ export const zhUiText: UiText = {
     lead: "全部题目基于 UHR 官方学习材料编写",
     heroSubhead: "清楚练习，看懂错误，找出复习方向。",
     languageNote: "题目保持瑞典语，可随时转换其他语言查看解释。",
-    dailyPrompt: "先做5道题。",
+    dailyPrompt: "开始免费练习。",
     navStudyModules: "学习模块",
     navPracticeTests: "练习题",
     navAbout: "备考指南",
@@ -160,14 +160,14 @@ export const zhUiText: UiText = {
     progressStrong: "今天练习很棒。",
     topicNames: {
       democracy: "民主与选举",
-      "quick-start": "快速练习",
+      "quick-start": "免费练习",
       rights: "权利与义务",
       everyday: "瑞典日常生活",
       authorities: "机构与公共服务"
     },
     topicFlavor: {
       democracy: "选票、声音，以及民主游戏规则。",
-      "quick-start": "先做5道混合瑞典语题。",
+      "quick-start": "当前所有免费瑞典语练习题。",
       rights: "了解你的自由，也了解共同责任。",
       everyday: "普通星期二也会遇到的实用瑞典生活。",
       authorities: "快速了解谁负责什么。"

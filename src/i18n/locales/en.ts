@@ -6,7 +6,7 @@ export const enUiText: UiText = {
     lead: "All questions based on UHR's official study material",
     heroSubhead: "Practice clearly. Understand mistakes. Know what to review next.",
     languageNote: "Questions stay in Swedish. You can switch explanations to another language anytime.",
-    dailyPrompt: "Start with 5 questions.",
+    dailyPrompt: "Start free practice.",
     navStudyModules: "Study Modules",
     navPracticeTests: "Practice Tests",
     navAbout: "Guide",
@@ -160,14 +160,14 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
     progressStrong: "Strong practice day.",
     topicNames: {
       democracy: "Democracy & Elections",
-      "quick-start": "Quick practice",
+      "quick-start": "Free practice",
       rights: "Rights & Duties",
       everyday: "Everyday Life in Sweden",
       authorities: "Authorities & Services"
     },
     topicFlavor: {
       democracy: "Ballots, voices, and the rules of the game.",
-      "quick-start": "Five mixed Swedish questions to start right away.",
+      "quick-start": "All current free Swedish practice questions.",
       rights: "Know your freedoms. Know the shared responsibilities too.",
       everyday: "The practical Sweden you meet on a normal Tuesday.",
       authorities: "A quick map of who helps with what."

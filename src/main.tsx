@@ -16,7 +16,7 @@ import "./styles.css";
 type Route =
   | { page: "home" }
   | { page: "topic"; topicId: string }
-  | { page: "quick" }
+  | { page: "practice" }
   | { page: "progress" }
   | { page: "flashcards" }
   | { page: "feedback" }
@@ -27,16 +27,13 @@ type Route =
 type MobileNavTarget = "home" | "study" | "practice" | "progress";
 
 const QUICK_START_TOPIC_ID = "quick-start";
-const QUICK_START_QUESTION_IDS = ["democracy-001", "rights-001", "everyday-001", "authorities-001", "democracy-002"];
 const QUICK_START_TOPIC: Topic = {
   id: QUICK_START_TOPIC_ID,
   nameSv: "Snabbträning",
-  nameEn: "Quick practice",
-  descriptionEn: "Try five mixed Swedish questions."
+  nameEn: "Free practice",
+  descriptionEn: "Practice all current free Swedish questions."
 };
-const QUICK_START_QUESTIONS = QUICK_START_QUESTION_IDS
-  .map((questionId) => QUESTIONS.find((question) => question.id === questionId))
-  .filter((question): question is Question => Boolean(question));
+const QUICK_START_QUESTIONS = QUESTIONS;
 
 const TOPIC_VISUALS = {
   democracy: { icon: Landmark, accent: "blue" },
@@ -237,7 +234,7 @@ function App() {
   function goQuickPractice() {
     trackEvent("practice_started", { mode: "quick_start", questionCount: QUICK_START_QUESTIONS.length, topicId: QUICK_START_TOPIC_ID, uiLanguage: language });
     setQuestionIndexByTopic((current) => ({ ...current, [QUICK_START_TOPIC_ID]: 0 }));
-    setRoute({ page: "quick" });
+    setRoute({ page: "practice" });
     setSelectedIndex(null);
     setChecked(false);
     setQuestionHelpVisible(false);
@@ -471,7 +468,7 @@ function App() {
     );
   }
 
-  if (route.page === "quick") {
+  if (route.page === "practice") {
     return (
       <TopicPracticePage
         checked={checked}
@@ -647,8 +644,12 @@ function getRouteFromPath(pathname: string): Route {
     return { page: "swedish-civics-test" };
   }
 
+  if (page === "practice") {
+    return { page: "practice" };
+  }
+
   if (page === "quick") {
-    return { page: "quick" };
+    return { page: "practice" };
   }
 
   if (page === "progress") {
@@ -683,6 +684,11 @@ function routeToPath(route: Route) {
 }
 
 function getInitialRoute(): Route {
+  if (window.location.pathname.replace(/\/+$/, "") === "/quick") {
+    window.history.replaceState(null, "", "/practice" + window.location.search);
+    return { page: "practice" };
+  }
+
   const hashPath = window.location.hash.match(/^#(\/.*)$/)?.[1];
 
   if (hashPath) {

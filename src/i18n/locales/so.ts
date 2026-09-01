@@ -7,9 +7,9 @@ export const soUiText = createLocalizedUiText(enUiText, {
     lead: "Dhammaan su'aalaha waxay ku dhisanyihiin agabka rasmiga ah ee UHR",
     heroSubhead: "Si cad u tababar. Faham khaladaadka. Ogow waxa xiga ee aad dib u eegayso.",
     languageNote: "Su'aalaha iyo doorashooyinka jawaabta waxay ku sii jiraan af Iswiidhish. Qaybaha kale ee app-ku waxay raacaan luqadda aad doorato.",
-    dailyPrompt: "Ku bilow 5 su’aalood.",
-    navStartPractice: "Tijaabi 5 su’aalood",
-    heroPrimaryCta: "Tijaabi 5 su’aalood oo Iswiidhish ah →",
+    dailyPrompt: "Bilow tababar bilaash ah.",
+    navStartPractice: "Bilow tababar bilaash ah",
+    heroPrimaryCta: "Bilow tababar bilaash ah",
     heroSecondaryCta: "Dooro mawduuc",
     heroTrustBadge: "Interface luqado badan • Su'aalaha waa af Iswiidhish, waad beddeli kartaa luqadda mar kasta inta lagu jiro tababarka si fudud loo fahmo • App lama soo dejinayo; ku tababar telefoon ama kombiyuutar marka aad rabto • Wuxuu falanqeeyaa natiijooyinka tababarka si uu u helo meelaha daciifka ah",
     proofStats: [
@@ -140,14 +140,14 @@ U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka
     progressStrong: "Maalin tababar oo xooggan.",
     topicNames: {
       democracy: "Dimuqraadiyad & Doorashooyin",
-      "quick-start": "Tababar degdeg ah",
+      "quick-start": "Tababar bilaash ah",
       rights: "Xuquuq & Waajibaad",
       everyday: "Nolosha Maalinlaha ah ee Iswiidhan",
       authorities: "Hay'adaha & Adeegyada"
     },
     topicFlavor: {
       democracy: "Codad, doorashooyin, iyo xeerarka dimuqraadiyadda.",
-      "quick-start": "Shan su’aalood oo Iswiidhish ah si toos ah u bilow.",
+      "quick-start": "Dhammaan su’aalaha tababarka bilaashka ah ee hadda jira.",
       rights: "Ogow xorriyadahaaga iyo masuuliyadaha la wadaago.",
       everyday: "Iswiidhan-ka aad la kulanto maalin caadi ah.",
       authorities: "Khariidad degdeg ah: yaa kaa caawinaya maxay?"

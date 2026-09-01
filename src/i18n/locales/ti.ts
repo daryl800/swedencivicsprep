@@ -7,9 +7,9 @@ export const tiUiText = createLocalizedUiText(enUiText, {
     lead: "ሙሉ ጥያቄታት ኣብ ወግዓዊ መጽናዕቲ UHR ዝተመርኮሰ ይተዳልዩ",
     heroSubhead: "ብግልጺ ተለማመዱ። ጌጋታት ተረድኡ። ቀጺልኩም እንታይ ክትደግሙ ከምዘለኩም ፍለጡ።",
     languageNote: "ሕቶታትን ምርጫታት መልስን ብሽወደንኛ ይቕጽሉ። ዝተረፈ ክፋል ናይ app ብዝመረጽኩሞ ቋንቋ ይረአ።",
-    dailyPrompt: "ብ5 ሕቶታት ጀምሩ።",
-    navStartPractice: "5 ሕቶታት ፈትኑ",
-    heroPrimaryCta: "5 ሽወደንኛ ሕቶታት ፈትኑ →",
+    dailyPrompt: "ናጻ ልምምድ ጀምሩ።",
+    navStartPractice: "ናጻ ልምምድ ጀምሩ",
+    heroPrimaryCta: "ናጻ ልምምድ ጀምሩ",
     heroSecondaryCta: "ርእሰ-ጉዳይ ምረጹ",
     heroTrustBadge: "ባዝዕባ ብብዙሕ ቋንቋ • ሕቶታት ብሽወደንኛ እዮም፣ ቋንቋ ኩሉ ግዜ ኣብ ልምምድ ንምርዳእ ትቕያርዎ • app ምውራድ ኣየድልን፤ ብሞባይል ወይ ኮምፒዩተር ከምቲ ደለየ ተለማመዱ • ውጽኢት ልምምድኩም ይተንትን እሞ ድኹም ክፋላት ይለልዩ",
     proofStats: [
@@ -140,14 +140,14 @@ Swedish Civics Test Preparation ከም ናጻ መምርሒ ልምምድ ተጠ�
     progressStrong: "ጽቡቕ መዓልቲ ልምምድ።",
     topicNames: {
       democracy: "ዲሞክራሲን ምርጫታትን",
-      "quick-start": "ፈጣን ልምምድ",
+      "quick-start": "ናጻ ልምምድ",
       rights: "መሰላትን ግቡኣትን",
       everyday: "ዕለታዊ ህይወት ኣብ ሽወደን",
       authorities: "ትካላትን ኣገልግሎታትን"
     },
     topicFlavor: {
       democracy: "ድምጺ፣ ምርጫታት፣ እና ሕግታት ዲሞክራሲ።",
-      "quick-start": "ብቐጥታ ንምጅማር 5 ዝተሓዋወሱ ሽወደንኛ ሕቶታት።",
+      "quick-start": "ኩሎም ናይ ሕጂ ናጻ ሕቶታት ልምምድ ብሽወደንኛ።",
       rights: "ናጽነታትኩም ፍለጡ፣ ናይ ሓባር ሓላፍነታት እውን።",
       everyday: "ኣብ ሓደ መዓልቲ ዝትረኽብዎ ተግባራዊ ሽወደን።",
       authorities: "መን ኣብ እንታይ ከምዝሕግዝ ፈጣን ካርታ።"
