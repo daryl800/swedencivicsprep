@@ -1,4 +1,4 @@
-import { StrictMode, useEffect, useRef, useState } from "react";
+import { StrictMode, useEffect, useState } from "react";
 import type { FormEvent } from "react";
 import { createRoot } from "react-dom/client";
 import { useTranslation } from "react-i18next";
@@ -16,7 +16,6 @@ import "./styles.css";
 type Route =
   | { page: "home" }
   | { page: "topic"; topicId: string }
-  | { page: "practice" }
   | { page: "progress" }
   | { page: "flashcards" }
   | { page: "feedback" }
@@ -25,15 +24,6 @@ type Route =
   | { page: "admin" };
 
 type MobileNavTarget = "home" | "study" | "practice" | "progress";
-
-const QUICK_START_TOPIC_ID = "quick-start";
-const QUICK_START_TOPIC: Topic = {
-  id: QUICK_START_TOPIC_ID,
-  nameSv: "Snabbträning",
-  nameEn: "Free practice",
-  descriptionEn: "Practice all current free Swedish questions."
-};
-const QUICK_START_QUESTIONS = QUESTIONS;
 
 const TOPIC_VISUALS = {
   democracy: { icon: Landmark, accent: "blue" },
@@ -178,7 +168,6 @@ registerUiTranslations();
 function App() {
   const [route, setRoute] = usePathRoute();
   const [progress, setProgress] = useState<Progress>(() => loadProgress());
-  const didInitializePracticeRoute = useRef(false);
   const [questionIndexByTopic, setQuestionIndexByTopic] = useState<Record<string, number>>({});
   const [practiceStartedByTopic, setPracticeStartedByTopic] = useState<Record<string, boolean>>({});
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
@@ -202,17 +191,6 @@ function App() {
     });
   }, [language, route]);
 
-  useEffect(() => {
-    if (route.page !== "practice" || didInitializePracticeRoute.current) {
-      return;
-    }
-
-    didInitializePracticeRoute.current = true;
-    setQuestionIndexByTopic((current) => ({
-      ...current,
-      [QUICK_START_TOPIC_ID]: getFirstUnansweredQuestionIndex(QUICK_START_QUESTIONS, progress)
-    }));
-  }, [progress, route.page]);
 
   useEffect(() => {
     const metadata = getRouteMetadata(route);
@@ -245,15 +223,8 @@ function App() {
   }
 
   function goQuickPractice() {
-    trackEvent("practice_started", { mode: "quick_start", questionCount: QUICK_START_QUESTIONS.length, topicId: QUICK_START_TOPIC_ID, uiLanguage: language });
-    setQuestionIndexByTopic((current) => ({
-      ...current,
-      [QUICK_START_TOPIC_ID]: getFirstUnansweredQuestionIndex(QUICK_START_QUESTIONS, progress)
-    }));
-    setRoute({ page: "practice" });
-    setSelectedIndex(null);
-    setChecked(false);
-    setQuestionHelpVisible(false);
+    trackEvent("practice_cta_clicked", { destination: "study_modules", uiLanguage: language });
+    goStudyModules();
   }
 
   function goPrivacy() {
@@ -484,36 +455,6 @@ function App() {
     );
   }
 
-  if (route.page === "practice") {
-    return (
-      <TopicPracticePage
-        checked={checked}
-        feedbackPromptMilestone={feedbackPromptMilestone}
-        language={language}
-        lastWasCorrect={lastWasCorrect}
-        onDismissFeedbackPrompt={handleDismissFeedbackPrompt}
-        onFeedbackPromptShown={handleFeedbackPromptShown}
-        onOpenFeedback={handleFeedbackPromptClicked}
-        onBack={goHome}
-        onCheck={handleCheck}
-        onNext={handleNext}
-        onResetProgress={handleResetProgress}
-        onReviewLesson={handleReviewLesson}
-        onSelectAnswer={setSelectedIndex}
-        onSelectLanguage={handleLanguageChange}
-        onStartPractice={handleStartPractice}
-        practiceStarted
-        progress={progress}
-        questionHelpVisible={questionHelpVisible}
-        questionIndex={questionIndexByTopic[QUICK_START_TOPIC_ID] || 0}
-        questionsOverride={QUICK_START_QUESTIONS}
-        selectedIndex={selectedIndex}
-        onToggleQuestionHelp={handleToggleQuestionHelp}
-        topic={QUICK_START_TOPIC}
-        ui={ui}
-      />
-    );
-  }
 
   if (route.page === "topic") {
     const topic = TOPICS.find((item) => item.id === route.topicId);
@@ -660,12 +601,8 @@ function getRouteFromPath(pathname: string): Route {
     return { page: "swedish-civics-test" };
   }
 
-  if (page === "practice") {
-    return { page: "practice" };
-  }
-
-  if (page === "quick") {
-    return { page: "practice" };
+  if (page === "practice" || page === "quick") {
+    return { page: "home" };
   }
 
   if (page === "progress") {
@@ -700,9 +637,12 @@ function routeToPath(route: Route) {
 }
 
 function getInitialRoute(): Route {
-  if (window.location.pathname.replace(/\/+$/, "") === "/quick") {
-    window.history.replaceState(null, "", "/practice" + window.location.search);
-    return { page: "practice" };
+  if (["/practice", "/quick"].includes(window.location.pathname.replace(/\/+$/, ""))) {
+    window.history.replaceState(null, "", "/" + window.location.search);
+    window.setTimeout(() => {
+      document.getElementById("study-modules")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 0);
+    return { page: "home" };
   }
 
   const hashPath = window.location.hash.match(/^#(\/.*)$/)?.[1];
@@ -2961,11 +2901,6 @@ function ProgressCounter({ language, progress, questions, ui }: { language: UiLa
       <span className="progress-message">{getProgressMessage(progress.today, ui)}</span>
     </div>
   );
-}
-
-function getFirstUnansweredQuestionIndex(questions: Question[], progress: Progress) {
-  const index = questions.findIndex((question) => !progress.answeredIds.includes(question.id));
-  return index === -1 ? 0 : index;
 }
 
 function formatCompletedProgress(language: UiLanguage, completed: number, total: number) {
