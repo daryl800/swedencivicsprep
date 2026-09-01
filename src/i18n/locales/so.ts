@@ -12,6 +12,11 @@ export const soUiText = createLocalizedUiText(enUiText, {
     heroPrimaryCta: "Tijaabi 5 su’aalood oo Iswiidhish ah →",
     heroSecondaryCta: "Dooro mawduuc",
     heroTrustBadge: "Interface luqado badan • Su'aalaha waa af Iswiidhish, waad beddeli kartaa luqadda mar kasta inta lagu jiro tababarka si fudud loo fahmo • App lama soo dejinayo; ku tababar telefoon ama kombiyuutar marka aad rabto • Wuxuu falanqeeyaa natiijooyinka tababarka si uu u helo meelaha daciifka ah",
+    proofStats: [
+      { value: "1,000", label: "Bangiga su'aalaha dhawaan" },
+      { value: "13", label: "Cutubyada rasmiga ah oo dhan" },
+      { value: "48", label: "Su'aalo tababar oo bilaash ah" }
+    ],
     earlyAccessTitle: "Hage madax-bannaan",
     earlyAccessMessage: `Wax ku baro Sverige i fokus
 

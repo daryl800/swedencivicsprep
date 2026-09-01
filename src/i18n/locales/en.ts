@@ -22,9 +22,9 @@ export const enUiText: UiText = {
     heroMockExplanationLabel: "Instant explanation",
     heroMockExplanation: "Democracy means people can influence society through elections, free speech, and participation.",
     proofStats: [
-      { value: "48", label: "curated practice questions; 1,000-question bank coming soon" },
+      { value: "1,000", label: "question bank coming soon" },
       { value: "13", label: "official chapters covered" },
-      { value: "5 questions", label: "free sample questions" }
+      { value: "48", label: "free practice questions" }
     ],
     earlyAccessTitle: "Independent guide",
     earlyAccessMessage: `Study with Sverige i fokus

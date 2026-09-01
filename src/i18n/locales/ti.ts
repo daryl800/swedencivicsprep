@@ -12,6 +12,11 @@ export const tiUiText = createLocalizedUiText(enUiText, {
     heroPrimaryCta: "5 ሽወደንኛ ሕቶታት ፈትኑ →",
     heroSecondaryCta: "ርእሰ-ጉዳይ ምረጹ",
     heroTrustBadge: "ባዝዕባ ብብዙሕ ቋንቋ • ሕቶታት ብሽወደንኛ እዮም፣ ቋንቋ ኩሉ ግዜ ኣብ ልምምድ ንምርዳእ ትቕያርዎ • app ምውራድ ኣየድልን፤ ብሞባይል ወይ ኮምፒዩተር ከምቲ ደለየ ተለማመዱ • ውጽኢት ልምምድኩም ይተንትን እሞ ድኹም ክፋላት ይለልዩ",
+    proofStats: [
+      { value: "1,000", label: "ባንክ ሕቶታት ቀረባ ክመጽእ እዩ" },
+      { value: "13", label: "ወግዓዊ ምዕራፋት ሙሉእ ሽፋን" },
+      { value: "48", label: "ናጻ ሕቶታት ልምምድ" }
+    ],
     earlyAccessTitle: "ናጻ መምርሒ",
     earlyAccessMessage: `ብSverige i fokus ተማሃሩ
 

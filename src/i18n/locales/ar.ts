@@ -22,9 +22,9 @@ export const arUiText: UiText = {
     heroMockExplanationLabel: "شرح فوري",
     heroMockExplanation: "الديمقراطية تعني أن الناس يمكنهم التأثير في المجتمع عبر الانتخابات وحرية التعبير والمشاركة.",
     proofStats: [
-      { value: "48", label: "أسئلة تدريب منتقاة؛ بنك من 1,000 سؤال قريبًا" },
+      { value: "1,000", label: "بنك الأسئلة قريبًا" },
       { value: "13", label: "فصول رسمية" },
-      { value: "5 أسئلة", label: "أسئلة مجانية" }
+      { value: "48", label: "أسئلة تدريب مجانية" }
     ],
     earlyAccessTitle: "دليل مستقل",
     earlyAccessMessage: `ادرس مع Sverige i fokus

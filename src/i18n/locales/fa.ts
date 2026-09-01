@@ -12,6 +12,11 @@ export const faUiText = createLocalizedUiText(enUiText, {
     heroPrimaryCta: "۵ پرسش سوئدی را امتحان کنید →",
     heroSecondaryCta: "انتخاب موضوع",
     heroTrustBadge: "رابط کاربری چندزبانه • پرسش‌ها به سوئدی هستند و زبان خود را هر زمان در تمرین برای درک آسان‌تر تغییر دهید • نیازی به دانلود اپ نیست؛ با موبایل یا کامپیوتر هر وقت بخواهید تمرین کنید • نتیجه‌های تمرین را تحلیل می‌کند تا بخش‌های ضعیف را بیابد",
+    proofStats: [
+      { value: "۱,۰۰۰", label: "بانک پرسش به‌زودی" },
+      { value: "۱۳", label: "پوشش کامل فصل‌های رسمی" },
+      { value: "۴۸", label: "پرسش تمرینی رایگان" }
+    ],
     earlyAccessTitle: "راهنمای مستقل",
     earlyAccessMessage: `با Sverige i fokus مطالعه کنید
 
