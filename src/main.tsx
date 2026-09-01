@@ -471,7 +471,7 @@ function App() {
           onDismissFeedbackPrompt={handleDismissFeedbackPrompt}
           onFeedbackPromptShown={handleFeedbackPromptShown}
           onOpenFeedback={handleFeedbackPromptClicked}
-          onBack={goHome}
+          onBack={goStudyModules}
           onCheck={handleCheck}
           onNext={handleNext}
           onResetProgress={handleResetProgress}
