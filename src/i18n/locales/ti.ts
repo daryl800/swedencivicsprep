@@ -11,7 +11,7 @@ export const tiUiText = createLocalizedUiText(enUiText, {
     navStartPractice: "ናጻ ልምምድ ጀምሩ",
     heroPrimaryCta: "ናጻ ልምምድ ጀምሩ",
     heroSecondaryCta: "ርእሰ-ጉዳይ ምረጹ",
-    heroTrustBadge: "ባዝዕባ ብብዙሕ ቋንቋ • ሕቶታት ብሽወደንኛ እዮም፣ ቋንቋ ኩሉ ግዜ ኣብ ልምምድ ንምርዳእ ትቕያርዎ • app ምውራድ ኣየድልን፤ ብሞባይል ወይ ኮምፒዩተር ከምቲ ደለየ ተለማመዱ • ውጽኢት ልምምድኩም ይተንትን እሞ ድኹም ክፋላት ይለልዩ",
+    heroTrustBadge: "ብብዙሕ ቋንቋ ዝሰርሕ መተግበሪ • ሕቶታት ብሽወደንኛ ይቕጽሉ፤ ኣብ ልምምድ ቋንቋ ቀይሩ ንምርዳእ ይሕግዝ • app ምውራድ ኣየድልን፤ ብሞባይል ወይ ኮምፒዩተር ከምቲ ደለየ ተለማመዱ • ውጽኢት ልምምድኩም ይተንትን እሞ ድኹም ክፋላት ይለልዩ",
     proofStats: [
       { value: "1,000", label: "ባንክ ሕቶታት ቀረባ ክመጽእ እዩ" },
       { value: "13", label: "ወግዓዊ ምዕራፋት ሙሉእ ሽፋን" },
