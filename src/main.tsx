@@ -1,4 +1,4 @@
-import { StrictMode, useEffect, useState } from "react";
+import { StrictMode, useEffect, useRef, useState } from "react";
 import type { FormEvent } from "react";
 import { createRoot } from "react-dom/client";
 import { useTranslation } from "react-i18next";
@@ -178,6 +178,7 @@ registerUiTranslations();
 function App() {
   const [route, setRoute] = usePathRoute();
   const [progress, setProgress] = useState<Progress>(() => loadProgress());
+  const didInitializePracticeRoute = useRef(false);
   const [questionIndexByTopic, setQuestionIndexByTopic] = useState<Record<string, number>>({});
   const [practiceStartedByTopic, setPracticeStartedByTopic] = useState<Record<string, boolean>>({});
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
@@ -200,6 +201,18 @@ function App() {
       topicId: route.page === "topic" ? route.topicId : undefined
     });
   }, [language, route]);
+
+  useEffect(() => {
+    if (route.page !== "practice" || didInitializePracticeRoute.current) {
+      return;
+    }
+
+    didInitializePracticeRoute.current = true;
+    setQuestionIndexByTopic((current) => ({
+      ...current,
+      [QUICK_START_TOPIC_ID]: getFirstUnansweredQuestionIndex(QUICK_START_QUESTIONS, progress)
+    }));
+  }, [progress, route.page]);
 
   useEffect(() => {
     const metadata = getRouteMetadata(route);
@@ -233,7 +246,10 @@ function App() {
 
   function goQuickPractice() {
     trackEvent("practice_started", { mode: "quick_start", questionCount: QUICK_START_QUESTIONS.length, topicId: QUICK_START_TOPIC_ID, uiLanguage: language });
-    setQuestionIndexByTopic((current) => ({ ...current, [QUICK_START_TOPIC_ID]: 0 }));
+    setQuestionIndexByTopic((current) => ({
+      ...current,
+      [QUICK_START_TOPIC_ID]: getFirstUnansweredQuestionIndex(QUICK_START_QUESTIONS, progress)
+    }));
     setRoute({ page: "practice" });
     setSelectedIndex(null);
     setChecked(false);
@@ -2488,7 +2504,7 @@ function TopicPracticePage({
         </button>
         <div className="topbar-tools">
           <LanguageSelector onChange={onSelectLanguage} ui={ui} value={language} />
-          <ProgressCounter progress={progress} ui={ui} />
+          <ProgressCounter language={language} progress={progress} questions={questions} ui={ui} />
         </div>
       </nav>
 
@@ -2932,19 +2948,38 @@ function LanguageSelector({
   );
 }
 
-function ProgressCounter({ progress, ui }: { progress: Progress; ui: UiText }) {
+function ProgressCounter({ language, progress, questions, ui }: { language: UiLanguage; progress: Progress; questions: Question[]; ui: UiText }) {
+  const completed = questions.filter((question) => progress.answeredIds.includes(question.id)).length;
+
   return (
     <div className="progress" aria-label="Practice progress">
+      <span>{formatCompletedProgress(language, completed, questions.length)}</span>
+      <span aria-hidden="true">·</span>
       <span>
         <strong>{progress.today}</strong> {ui.today}
-      </span>
-      <span aria-hidden="true">/</span>
-      <span>
-        <strong>{progress.total}</strong> {ui.total}
       </span>
       <span className="progress-message">{getProgressMessage(progress.today, ui)}</span>
     </div>
   );
+}
+
+function getFirstUnansweredQuestionIndex(questions: Question[], progress: Progress) {
+  const index = questions.findIndex((question) => !progress.answeredIds.includes(question.id));
+  return index === -1 ? 0 : index;
+}
+
+function formatCompletedProgress(language: UiLanguage, completed: number, total: number) {
+  const labels: Record<UiLanguage, string> = {
+    sv: `${completed} / ${total} klara`,
+    en: `${completed} / ${total} completed`,
+    zh: `已完成 ${completed} / ${total}`,
+    ar: `${completed} / ${total} مكتملة`,
+    so: `${completed} / ${total} la dhammeeyay`,
+    fa: `${completed} / ${total} تکمیل شده`,
+    ti: `${completed} / ${total} ተዛዚሙ`
+  };
+
+  return labels[language] || labels.en;
 }
 
 function getProgressMessage(today: number, ui: UiText) {
