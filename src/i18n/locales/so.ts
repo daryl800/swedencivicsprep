@@ -11,7 +11,7 @@ export const soUiText = createLocalizedUiText(enUiText, {
     navStartPractice: "Bilow tababar bilaash ah",
     heroPrimaryCta: "Bilow tababar bilaash ah",
     heroSecondaryCta: "Dooro mawduuc",
-    heroTrustBadge: "Interface luqado badan • Su'aaluhu waxay ku sii jiraan af Iswiidhish; beddel luqadda inta lagu jiro tababarka si aad u fahanto • App lama soo dejinayo; ku tababar telefoon ama kombiyuutar marka aad rabto • Wuxuu falanqeeyaa natiijooyinka tababarka si uu u helo meelaha daciifka ah",
+    heroTrustBadge: "Interface luqado badan • Su'aaluhu waxay ku sii jiraan af Iswiidhish; beddel luqadda inta lagu jiro tababarka si aad u fahanto ⭐ • App lama soo dejinayo; ku tababar telefoon ama kombiyuutar marka aad rabto ⭐ • Wuxuu falanqeeyaa natiijooyinka tababarka si uu u helo meelaha daciifka ah",
     proofStats: [
       { value: "1,000", label: "Bangiga su'aalaha dhawaan" },
       { value: "13", label: "Cutubyada rasmiga ah oo dhan" },
