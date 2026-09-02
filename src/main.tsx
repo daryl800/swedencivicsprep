@@ -1070,7 +1070,11 @@ function StudyModulesPage({
           </div>
         </section>
 
+        <StudyModulesTabs onOpenProgress={onOpenProgress} ui={ui} />
+
         <TopicAreaGrid language={language} onSelectArea={onSelectArea} progress={progress} ui={ui} />
+
+        <ProgressPromoCard onOpenProgress={onOpenProgress} progress={progress} ui={ui} />
 
         <FaqSection language={language} />
         <SiteFooter language={language} onOpenFeedback={onOpenFeedback} onOpenGuide={onOpenGuide} onOpenPrivacy={onOpenPrivacy} />
@@ -1085,6 +1089,72 @@ function StudyModulesPage({
         ui={ui}
       />
     </>
+  );
+}
+
+function StudyModulesTabs({ onOpenProgress, ui }: { onOpenProgress: () => void; ui: UiText }) {
+  return (
+    <div className="study-module-tabs" role="tablist" aria-label={ui.navStudyModules}>
+      <button className="active" type="button" role="tab" aria-selected="true">
+        <BookOpen size={18} strokeWidth={2.4} aria-hidden="true" />
+        {ui.navStudyModules}
+      </button>
+      <button type="button" role="tab" aria-selected="false" onClick={onOpenProgress}>
+        <BarChart3 size={18} strokeWidth={2.4} aria-hidden="true" />
+        {ui.progressDashboardTitle}
+      </button>
+    </div>
+  );
+}
+
+function ProgressPromoCard({
+  onOpenProgress,
+  progress,
+  ui
+}: {
+  onOpenProgress: () => void;
+  progress: Progress;
+  ui: UiText;
+}) {
+  const currentQuestionIds = new Set(QUESTIONS.map((question) => question.id));
+  const practicedQuestions = progress.answeredIds.filter((questionId) => currentQuestionIds.has(questionId)).length;
+  const currentKnownAnswers = Object.entries(progress.answers || {})
+    .filter(([questionId]) => currentQuestionIds.has(questionId))
+    .map(([, answer]) => answer);
+  const correct = currentKnownAnswers.reduce((sum, answer) => sum + answer.correct, 0);
+  const attempts = currentKnownAnswers.reduce((sum, answer) => sum + answer.attempts, 0);
+  const accuracy = attempts > 0 ? Math.round((correct / attempts) * 100) : 0;
+
+  return (
+    <article className="progress-promo-card">
+      <div className="progress-promo-copy">
+        <span className="path-icon" aria-hidden="true">
+          <BarChart3 size={24} strokeWidth={2.2} />
+        </span>
+        <div>
+          <p className="eyebrow">{ui.progressDashboardTitle}</p>
+          <h2>{ui.progressPromoTitle}</h2>
+          <p dir={getTextDirection(ui.progressPromoBody)}>{ui.progressPromoBody}</p>
+        </div>
+      </div>
+      <div className="progress-promo-metrics" aria-label={ui.progressPromoTitle}>
+        <span>
+          <strong>{practicedQuestions}</strong>
+          {ui.progressAnsweredMetric}
+        </span>
+        <span>
+          <strong>{accuracy}%</strong>
+          {ui.progressAccuracyMetric}
+        </span>
+        <span>
+          <strong>{progress.today}</strong>
+          {ui.progressTodayMetric}
+        </span>
+      </div>
+      <button className="secondary" type="button" onClick={onOpenProgress}>
+        {ui.progressPromoCta}
+      </button>
+    </article>
   );
 }
 

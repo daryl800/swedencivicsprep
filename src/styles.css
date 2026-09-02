@@ -1200,6 +1200,112 @@ h3 {
   margin: var(--space-8) 0 var(--space-7);
 }
 
+.study-module-tabs {
+  display: inline-flex;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 0 var(--space-5);
+  border: 1px solid #d4e2f1;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.76);
+  padding: 6px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.07);
+}
+
+.study-module-tabs button {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  padding: 0 16px;
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.study-module-tabs button.active {
+  background: #ffffff;
+  color: var(--sweden-blue-dark);
+  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.08);
+}
+
+.progress-promo-card {
+  --card-accent: #0f766e;
+  --card-soft: #ecfdf5;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: var(--space-5);
+  align-items: center;
+  margin: 0 0 var(--space-8);
+  border: 1px solid color-mix(in srgb, var(--card-accent) 26%, var(--border));
+  border-top: 5px solid var(--card-accent);
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--card-soft) 0%, #ffffff 58%);
+  padding: var(--space-5);
+  box-shadow: var(--shadow-soft);
+}
+
+.progress-promo-copy {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: var(--space-4);
+  align-items: start;
+}
+
+.progress-promo-copy .path-icon {
+  background: #dff8ee;
+  color: var(--card-accent);
+}
+
+.progress-promo-copy h2 {
+  margin: 4px 0 8px;
+  color: var(--color-gray-900);
+  font-size: clamp(1.45rem, 3vw, 2.1rem);
+  line-height: 1.05;
+}
+
+.progress-promo-copy p:last-child {
+  max-width: 620px;
+  margin: 0;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.progress-promo-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(84px, 1fr));
+  gap: 10px;
+}
+
+.progress-promo-metrics span {
+  display: grid;
+  min-width: 84px;
+  gap: 2px;
+  border: 1px solid #d4e2f1;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.74);
+  padding: 10px 12px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 850;
+}
+
+.progress-promo-metrics strong {
+  color: var(--text);
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.progress-promo-card button {
+  min-width: 150px;
+}
+
 .area-layer {
   display: grid;
   gap: var(--space-5);
@@ -3941,6 +4047,14 @@ legend {
   .admin-panel-grid {
     grid-template-columns: 1fr;
   }
+
+  .progress-promo-card {
+    grid-template-columns: 1fr;
+  }
+
+  .progress-promo-card button {
+    width: 100%;
+  }
 }
 
 @media (max-width: 700px) {
@@ -4631,6 +4745,21 @@ legend {
 }
 
 @media (max-width: 640px) {
+  .study-module-tabs {
+    width: 100%;
+  }
+
+  .study-module-tabs button {
+    flex: 1;
+    min-width: 0;
+    padding: 0 10px;
+  }
+
+  .progress-promo-copy,
+  .progress-promo-metrics {
+    grid-template-columns: 1fr;
+  }
+
   .guide-card-grid {
     grid-template-columns: 1fr;
   }

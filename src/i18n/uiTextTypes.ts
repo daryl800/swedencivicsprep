@@ -97,6 +97,9 @@ export type UiText = {
   progressAttempts: (attempts: number) => string;
   progressWrongCount: (wrong: number) => string;
   progressLocalOnlyNote: string;
+  progressPromoTitle: string;
+  progressPromoBody: string;
+  progressPromoCta: string;
   flashcardsTitle: string;
   flashcardsPreview: string;
   flashcardsIntro: string;
