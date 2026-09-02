@@ -34,22 +34,12 @@ type Route =
 type MobileNavTarget = "home" | "study" | "practice" | "progress";
 
 const QUICK_START_TOPIC_ID = "quick-start";
-const QUICK_START_QUESTION_IDS = [
-  "draft-batch-a-ch02-001",
-  "draft-batch-a-ch05-001",
-  "draft-batch-b-ch09-001",
-  "draft-batch-a-ch03-001",
-  "draft-batch-b-ch06-001"
-];
 const QUICK_START_TOPIC: Topic = {
   id: QUICK_START_TOPIC_ID,
-  nameSv: "Snabbträning",
-  nameEn: "Quick practice",
-  descriptionEn: "Try five mixed Swedish questions."
+  nameSv: "Gratis träning",
+  nameEn: "Free practice",
+  descriptionEn: "Practice all currently available free Swedish questions."
 };
-const QUICK_START_QUESTIONS = QUICK_START_QUESTION_IDS
-  .map((questionId) => QUESTIONS.find((question) => question.id === questionId))
-  .filter((question): question is Question => Boolean(question));
 const FREE_QUESTIONS_PER_CHAPTER = 5;
 const HAS_FULL_ACCESS = import.meta.env.VITE_FULL_ACCESS === "true";
 const FREE_SAMPLE_QUESTION_IDS = new Set(
@@ -60,6 +50,7 @@ const FREE_SAMPLE_QUESTION_IDS = new Set(
       .map((question) => question.id)
   )
 );
+const QUICK_START_QUESTIONS = QUESTIONS.filter((question) => FREE_SAMPLE_QUESTION_IDS.has(question.id));
 
 const TOPIC_VISUALS = {
   democracy: { icon: Landmark, accent: "blue" },
@@ -981,6 +972,7 @@ function HomePage({
               {ui.eyebrow}
             </p>
             <h1>{ui.appTitle}</h1>
+            <p className="hero-sub">{ui.heroSubhead}</p>
             <HeroSourcePill text={ui.lead} />
             <HeroTrustBadge text={ui.heroTrustBadge} />
             <div className="hero-cta-row">
@@ -3829,7 +3821,7 @@ function TopicPracticePage({
       <section className="practice">
         <div className="practice-header">
           <div>
-            <p className="topic-sv" dir="ltr">{topic.nameSv}</p>
+            {topic.id !== QUICK_START_TOPIC_ID ? <p className="topic-sv" dir="ltr">{topic.nameSv}</p> : null}
             <h1>{topicName}</h1>
             <p className="topic-flavor">{ui.topicFlavor[topic.id] || "Small steps, useful knowledge."}</p>
           </div>

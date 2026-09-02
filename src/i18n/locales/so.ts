@@ -4,15 +4,16 @@ import { createLocalizedUiText } from "../uiTextUtils";
 export const soUiText = createLocalizedUiText(enUiText, {
     eyebrow: "Ku salaysan agabka UHR · 1,000 su’aalood · sharaxaad luqado badan",
     appTitle: "Tababar nidaamsan oo loogu talagalay imtixaanka dhalashada Iswiidhan",
-    lead: "Waxaa lagu dhisay agabka rasmiga ah ee UHR.",
+    lead: "Dhammaan su’aaluhu waxay ku salaysan yihiin agabka waxbarasho ee rasmiga ah ee UHR",
+    heroSubhead: "Ku tababar mawduuc. Ogoow khaladaadka. Baro waxa aad dib u eegayso",
     languageNote: "Su'aalaha iyo doorashooyinka jawaabta waxay ku sii jiraan af Iswiidhish. Qaybaha kale ee app-ku waxay raacaan luqadda aad doorato.",
-    dailyPrompt: "Ku bilow 5 su’aalood.",
+    dailyPrompt: "Bilow tababarka bilaashka ah.",
     navPracticeTests: "Imtixaan tijaabo ah",
     navAbout: "Hagaha imtixaanka",
     navStartPractice: "Tababar bilaash ah tijaabi",
     heroPrimaryCta: "Bilow tababarka bilaashka ah",
     heroSecondaryCta: "Ku tababar mawduuc",
-    heroTrustBadge: "Su’aaluhu waa af Iswiidhish • Sharaxaad luqado badan • App lama soo dejinayo. Ku tababar telefoon ama kombiyuutar • Guddi horumar ayaa muujinaya meelaha xooggan iyo kuwa daciifka ah",
+    heroTrustBadge: "Interface luqado badan • Su’aaluhu waxay ahaanayaan af Iswiidhish; luqadda beddel inta aad tababaranayso si aad u fahanto ⭐ • App lama soo dejinayo; wakhti kasta ku tababar telefoon ama kombiyuutar ⭐ • Guddi horumar ayaa muujinaya meelaha xooggan iyo kuwa daciifka ah",
     earlyAccessTitle: "Hage madax-bannaan",
     earlyAccessMessage: `Wax ku baro Sverige i fokus
 
@@ -177,14 +178,14 @@ U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka
     progressStrong: "Maalin tababar oo xooggan.",
     topicNames: {
       democracy: "Dimuqraadiyad, Doorashooyin & Warbaahin",
-      "quick-start": "Tababar degdeg ah",
+      "quick-start": "Tababar bilaash ah",
       rights: "Xuquuq & Waajibaad",
       everyday: "Nolosha Maalinlaha ah ee Iswiidhan",
       authorities: "Iswiidhan, Dawlad & Adeegyo"
     },
     topicFlavor: {
       democracy: "Codad, doorashooyin, iyo xeerarka dimuqraadiyadda.",
-      "quick-start": "Shan su’aalood oo Iswiidhish ah si toos ah u bilow.",
+      "quick-start": "Ku tababar dhammaan su’aalaha Iswiidhishka ee bilaashka ah ee hadda furan.",
       rights: "Ogow xorriyadahaaga iyo masuuliyadaha la wadaago.",
       everyday: "Iswiidhan-ka aad la kulanto maalin caadi ah.",
       authorities: "Iswiidhan dal ahaan, dawlad, taariikh, iyo adeegyo."

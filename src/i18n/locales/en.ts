@@ -3,9 +3,10 @@ import type { UiText } from "../uiTextTypes";
 export const enUiText: UiText = {
     eyebrow: "Based on UHR material · 1,000 questions · multilingual explanations",
     appTitle: "Swedish citizenship test practice, structured for study",
-    lead: "Based on UHR's official study material.",
+    lead: "All questions based on UHR's official study material",
+    heroSubhead: "Practice by topic. Spot mistakes. Know what to review",
     languageNote: "Questions stay in Swedish. You can switch explanations to another language anytime.",
-    dailyPrompt: "Start with 5 questions.",
+    dailyPrompt: "Start free practice.",
     navStudyModules: "Study Modules",
     navPracticeTests: "Mock exam",
     navAbout: "Guide",
@@ -45,7 +46,7 @@ export const enUiText: UiText = {
     guideMockExamCta: "Try mock exam",
     heroPrimaryCta: "Start free practice",
     heroSecondaryCta: "Practice by topic",
-    heroTrustBadge: "Questions are in Swedish • Explanations in multiple languages • No app download. Practice on phone or desktop • Progress dashboard shows strengths and weak areas",
+    heroTrustBadge: "Multilingual interface • Questions stay in Swedish; switch language during practice to help understanding ⭐ • No app download needed; practice anytime on phone or computer ⭐ • Progress dashboard shows strengths and weak areas anytime",
     heroMockLabel: "Practice preview",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -242,14 +243,14 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
     progressStrong: "Strong practice day.",
     topicNames: {
       democracy: "Democracy, Elections & Media",
-      "quick-start": "Quick practice",
+      "quick-start": "Free practice",
       rights: "Rights & Duties",
       everyday: "Everyday Life in Sweden",
       authorities: "Sweden, State & Services"
     },
     topicFlavor: {
       democracy: "Votes, free media, and the rules of democracy.",
-      "quick-start": "Five mixed Swedish questions to start right away.",
+      "quick-start": "Practice all currently available free Swedish questions.",
       rights: "Know your freedoms. Know the shared responsibilities too.",
       everyday: "Work, welfare, school, healthcare, and traditions.",
       authorities: "Sweden as a country, state, history, and services."

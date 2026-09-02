@@ -4,15 +4,16 @@ import { createLocalizedUiText } from "../uiTextUtils";
 export const tiUiText = createLocalizedUiText(enUiText, {
     eyebrow: "ኣብ መጽናዕቲ UHR ዝተመርኮሰ · 1,000 ሕቶታት · ብዙሕ ቋንቋ መብርሂ",
     appTitle: "ዝተዋደደ ልምምድ ንፈተና ዜግነት ሽወደን",
-    lead: "ኣብ ወግዓዊ መጽናዕቲ UHR ዝተመርኮሰ።",
+    lead: "ኩሎም ሕቶታት ኣብ ወግዓዊ መጽናዕቲ UHR ዝተመርኮሱ እዮም",
+    heroSubhead: "ብርእሰ-ጉዳይ ተለማመዱ። ጌጋታት ፈልጡ። እንታይ ከም እትደግሙ ፍለጡ",
     languageNote: "ሕቶታትን ምርጫታት መልስን ብሽወደንኛ ይቕጽሉ። ዝተረፈ ክፋል ናይ app ብዝመረጽኩሞ ቋንቋ ይረአ።",
-    dailyPrompt: "ብ5 ሕቶታት ጀምሩ።",
+    dailyPrompt: "ናጻ ልምምድ ጀምሩ።",
     navPracticeTests: "ናይ ልምምድ ፈተና",
     navAbout: "መምርሒ ፈተና",
-    navStartPractice: "5 ሕቶታት ፈትኑ",
+    navStartPractice: "ናጻ ልምምድ",
     heroPrimaryCta: "ልምምድ ነፍሲ ወከፍ ጀምሩ",
     heroSecondaryCta: "ብርእሰ-ጉዳይ ተለማመዱ",
-    heroTrustBadge: "ሕቶታት ብሽወደንኛ እዮም • መብርሂ ብብዙሕ ቋንቋ • app ምውራድ ኣየድልን። ብሞባይል ወይ ኮምፒዩተር ተለማመዱ • መከታተሊ ምዕባለ ጽኑዕን ድኹምን ክፋላት የርኢ",
+    heroTrustBadge: "ብዙሕ ቋንቋ ዘለዎ መተግበሪ • ሕቶታት ብሽወደንኛ ይቕጽሉ፤ ንምርዳእ ኣብ ግዜ ልምምድ ቋንቋ ቀይሩ ⭐ • app ምውራድ ኣየድልን፤ ኣብ ሞባይል ወይ ኮምፒዩተር መዓስ ደሊኹም ተለማመዱ ⭐ • መከታተሊ ምዕባለ ጽኑዕን ድኹምን ክፋላት የርኢ",
     earlyAccessTitle: "ናጻ መምርሒ",
     earlyAccessMessage: `ብSverige i fokus ተማሃሩ
 
@@ -177,14 +178,14 @@ Swedish Civics Test Preparation ከም ናጻ መምርሒ ልምምድ ተጠ�
     progressStrong: "ጽቡቕ መዓልቲ ልምምድ።",
     topicNames: {
       democracy: "ዲሞክራሲ፣ ምርጫታትን ሚድያን",
-      "quick-start": "ፈጣን ልምምድ",
+      "quick-start": "ናጻ ልምምድ",
       rights: "መሰላትን ግቡኣትን",
       everyday: "ዕለታዊ ህይወት ኣብ ሽወደን",
       authorities: "ሽወደን፣ መንግስትን ኣገልግሎታትን"
     },
     topicFlavor: {
       democracy: "ድምጺ፣ ምርጫታት፣ እና ሕግታት ዲሞክራሲ።",
-      "quick-start": "ብቐጥታ ንምጅማር 5 ዝተሓዋወሱ ሽወደንኛ ሕቶታት።",
+      "quick-start": "ኩሎም ሕጂ ክፉታት ዘለዉ ናጻ ሽወደንኛ ሕቶታት ተለማመዱ።",
       rights: "ናጽነታትኩም ፍለጡ፣ ናይ ሓባር ሓላፍነታት እውን።",
       everyday: "ኣብ ሓደ መዓልቲ ዝትረኽብዎ ተግባራዊ ሽወደን።",
       authorities: "ሽወደን ከም ሃገር፣ መንግስቲ፣ ታሪኽን ኣገልግሎታትን።"

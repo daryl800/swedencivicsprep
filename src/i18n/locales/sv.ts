@@ -3,9 +3,10 @@ import type { UiText } from "../uiTextTypes";
 export const svUiText: UiText = {
     eyebrow: "Baserat på UHR:s material · 1 000 frågor · flerspråkiga förklaringar",
     appTitle: "Träna inför medborgarskapsprovet",
-    lead: "Baserat på UHR:s officiella studiematerial.",
+    lead: "Alla frågor baserade på UHR:s officiella studiematerial",
+    heroSubhead: "Träna efter ämne. Hitta misstagen. Vet vad du ska repetera",
     languageNote: "Frågorna är på svenska. Du kan byta förklaringar till ett annat språk när som helst.",
-    dailyPrompt: "Börja med 5 frågor.",
+    dailyPrompt: "Börja med gratis träning.",
     navStudyModules: "Studieområden",
     navPracticeTests: "Provsimulering",
     navAbout: "Provguide",
@@ -41,11 +42,11 @@ export const svUiText: UiText = {
       { title: "Kontrollera alltid officiella uppgifter", body: "Datum, anmälningsregler, avgifter och framtida provformat kan ändras. Kontrollera UHR och Migrationsverket för beslut som gäller ditt ärende." }
     ],
     guideOfficialNote: "Använd webbplatsen som ett träningslager. Använd UHR och Migrationsverket som officiell källa för provregler och ditt medborgarskapsärende.",
-    guideStartCta: "Starta 5 gratisfrågor",
+    guideStartCta: "Starta gratis träning",
     guideMockExamCta: "Testa provsimulering",
     heroPrimaryCta: "Börja med gratis träning",
     heroSecondaryCta: "Träna efter ämne",
-    heroTrustBadge: "Frågorna är på svenska • Förklaringar på flera språk • Ingen app behövs. Träna på mobil eller dator • Framstegspanel visar starka och svaga områden",
+    heroTrustBadge: "Flerspråkigt gränssnitt • Frågorna är på svenska; byt språk under träningen för att förstå bättre ⭐ • Ingen app behövs; träna när som helst på mobil eller dator ⭐ • Framstegspanel visar starka och svaga områden",
     heroMockLabel: "Exempel från träningen",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -242,14 +243,14 @@ Använd Swedish Civics Test Preparation som en oberoende träningsguide: läs f�
     progressStrong: "Stark träningsdag.",
     topicNames: {
       democracy: "Demokrati, val och medier",
-      "quick-start": "Snabbträning",
+      "quick-start": "Gratis träning",
       rights: "Rättigheter och skyldigheter",
       everyday: "Vardagsliv i Sverige",
       authorities: "Sverige, staten och tjänster"
     },
     topicFlavor: {
       democracy: "Röster, fria medier och demokratins regler.",
-      "quick-start": "Fem blandade svenska frågor för att komma igång direkt.",
+      "quick-start": "Träna med alla gratisfrågor som är öppna just nu.",
       rights: "Känn till dina friheter och det gemensamma ansvaret.",
       everyday: "Arbete, välfärd, skola, vård och traditioner.",
       authorities: "Sverige som land, staten, historia och tjänster."

@@ -2,6 +2,7 @@ export type UiText = {
   eyebrow: string;
   appTitle: string;
   lead: string;
+  heroSubhead: string;
   languageNote: string;
   dailyPrompt: string;
   navStudyModules: string;

@@ -3,9 +3,10 @@ import type { UiText } from "../uiTextTypes";
 export const zhUiText: UiText = {
     eyebrow: "覆盖 UHR 官方学习范围 · 1000 道练习题 · 多语解析",
     appTitle: "瑞典入籍社会知识考试，系统练习",
-    lead: "根据 UHR 官方学习材料范围编写",
+    lead: "全部题目均基于 UHR 官方学习材料编写",
+    heroSubhead: "按主题练，快速定位错误，明确复习方向",
     languageNote: "题目保持瑞典语，可随时转换其他语言查看解释。",
-    dailyPrompt: "先做5道题。",
+    dailyPrompt: "开始免费练习。",
     navStudyModules: "学习模块",
     navPracticeTests: "模拟考试",
     navAbout: "备考指南",
@@ -46,7 +47,7 @@ export const zhUiText: UiText = {
     guideMockExamCta: "试做模拟考试",
     heroPrimaryCta: "立刻开始免费练习",
     heroSecondaryCta: "按主题练习",
-    heroTrustBadge: "题目使用瑞典语 • 支持多语言解释，可以随时切换 • 无需下载 App，可按需要在手机或电脑上练习 • 练习进度面板，随时掌握强弱项",
+    heroTrustBadge: "支持多语言界面 • 题目保持瑞典语，练习时可切换语言帮助理解 ⭐ • 无需下载 App，可随时在手机或电脑上练习 ⭐ • 练习进度面板，随时掌握强弱项",
     heroMockLabel: "练习预览",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -57,7 +58,7 @@ export const zhUiText: UiText = {
     proofStats: [
       { value: "1,000题", label: "精选练习题" },
       { value: "13", label: "官方章节完整覆盖" },
-      { value: "65题", label: "免费体验题" }
+      { value: "65题", label: "免费练习题" }
     ],
     freeTierBadge: "免费样题",
     fullAccessBadge: "完整访问",
@@ -243,14 +244,14 @@ export const zhUiText: UiText = {
     progressStrong: "今天练习很棒。",
     topicNames: {
       democracy: "民主、选举与媒体",
-      "quick-start": "快速练习",
+      "quick-start": "免费练习",
       rights: "权利与义务",
       everyday: "瑞典日常生活",
       authorities: "瑞典、国家与公共服务"
     },
     topicFlavor: {
       democracy: "选票、自由媒体和民主规则。",
-      "quick-start": "先做5道混合瑞典语题。",
+      "quick-start": "练习当前开放的全部免费瑞典语题。",
       rights: "了解你的自由，也了解共同责任。",
       everyday: "工作、福利、学校、医疗和传统。",
       authorities: "瑞典这个国家、国家制度、历史和公共服务。"
