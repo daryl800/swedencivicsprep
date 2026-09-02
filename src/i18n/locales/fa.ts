@@ -12,7 +12,7 @@ export const faUiText = createLocalizedUiText(enUiText, {
     navStartPractice: "تمرین رایگان را امتحان کنید",
     heroPrimaryCta: "تمرین رایگان را شروع کنید",
     heroSecondaryCta: "تمرین بر اساس موضوع",
-    heroTrustBadge: "پرسش‌ها به سوئدی هستند • توضیح‌ها به چند زبان • نیازی به دانلود اپ نیست. با موبایل یا کامپیوتر تمرین کنید • از نتیجه‌ها بفهمید بعد چه چیزی را مرور کنید",
+    heroTrustBadge: "پرسش‌ها به سوئدی هستند • توضیح‌ها به چند زبان • نیازی به دانلود اپ نیست. با موبایل یا کامپیوتر تمرین کنید • داشبورد پیشرفت نقاط قوت و ضعف را نشان می‌دهد",
     earlyAccessTitle: "راهنمای مستقل",
     earlyAccessMessage: `با Sverige i fokus مطالعه کنید
 
