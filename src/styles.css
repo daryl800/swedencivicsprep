@@ -247,6 +247,23 @@ button:disabled {
   transform: translateY(1px);
 }
 
+.nav-account {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #c7d7e9;
+  background: rgba(255, 255, 255, 0.82);
+  color: #24486f;
+  font-size: 0.92rem;
+  font-weight: 850;
+  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.07);
+}
+
+.nav-account:hover {
+  border-color: #9fb9d7;
+  background: #ffffff;
+}
+
 .intro {
   display: grid;
   gap: var(--space-6);
@@ -1837,6 +1854,132 @@ h3 {
   gap: 8px;
   color: #0b6fa9;
   font-weight: 850;
+}
+
+.account-page {
+  display: grid;
+  gap: 24px;
+  border: 1px solid #c6d8ec;
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(0, 106, 167, 0.08), transparent 42%),
+    linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+  padding: 30px;
+  box-shadow: var(--practice-shadow);
+}
+
+.account-intro {
+  display: grid;
+  gap: 10px;
+  max-width: 760px;
+}
+
+.account-intro h1 {
+  color: #103e83;
+  font-size: clamp(2rem, 6vw, 3.5rem);
+}
+
+.account-intro p {
+  margin: 0;
+  color: #344256;
+  font-weight: 650;
+}
+
+.account-form,
+.account-status-card {
+  display: grid;
+  max-width: 680px;
+  gap: 14px;
+  border: 1px solid #d4e2f1;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.84);
+  padding: 22px;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.07);
+}
+
+.account-form label {
+  color: #0f172a;
+  font-weight: 900;
+}
+
+.account-email-row {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #bfd2e8;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 0 14px;
+}
+
+.account-email-row span {
+  color: var(--primary);
+}
+
+.account-email-row input {
+  width: 100%;
+  min-height: 54px;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  outline: 0;
+  font-weight: 700;
+}
+
+.account-message {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 0;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-weight: 700;
+}
+
+.account-message.success {
+  background: #ecfdf5;
+  color: #166534;
+}
+
+.account-message.error {
+  background: #fef2f2;
+  color: #991b1b;
+}
+
+.account-sync-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 650;
+}
+
+.account-status-card {
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+}
+
+.account-status-card h2 {
+  margin: 0 0 4px;
+  color: var(--color-gray-900);
+}
+
+.account-status-card p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 650;
+}
+
+.account-status-card.success {
+  border-color: #a7f3d0;
+  background: linear-gradient(135deg, #ecfdf5, #ffffff);
+  color: #047857;
+}
+
+.account-status-card.warning {
+  border-color: #fde68a;
+  background: linear-gradient(135deg, #fffbeb, #ffffff);
+  color: #92400e;
 }
 
 .legal-page {
@@ -4139,7 +4282,7 @@ legend {
 
   .mobile-nav-actions {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-columns: minmax(0, 1fr) auto auto;
     align-items: center;
     gap: 10px;
     width: 100%;
@@ -4164,6 +4307,12 @@ legend {
   .mobile-nav-cta {
     min-height: 46px;
     padding: 0 16px;
+    white-space: nowrap;
+  }
+
+  .mobile-account {
+    min-height: 46px;
+    padding: 0 12px;
     white-space: nowrap;
   }
 
@@ -4199,6 +4348,7 @@ legend {
       grid-template-columns: 1fr;
     }
 
+    .mobile-account,
     .mobile-nav-cta {
       width: 100%;
     }
@@ -4346,10 +4496,19 @@ legend {
   .dashboard-page,
   .flashcard-page,
   .feedback-page,
+  .account-page,
   .admin-panel,
   .admin-login-card,
   .admin-hero {
     padding: var(--space-5);
+  }
+
+  .account-status-card {
+    grid-template-columns: 1fr;
+  }
+
+  .account-status-card button {
+    width: 100%;
   }
 
   .admin-shell {

@@ -3,11 +3,12 @@ import type { FormEvent, MouseEvent } from "react";
 import { createRoot } from "react-dom/client";
 import { useTranslation } from "react-i18next";
 import { Analytics } from "@vercel/analytics/react";
-import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Home as HomeIcon, Landmark, Layers3, LockKeyhole, MessageSquare, Scale, Sparkles, Star, Volume2, X, XCircle } from "lucide-react";
+import { AlertTriangle, BarChart3, BookOpen, BriefcaseBusiness, CheckCircle2, ChevronDown, ExternalLink, HeartPulse, HelpCircle, Home as HomeIcon, Landmark, Layers3, LockKeyhole, LogOut, Mail, MessageSquare, Scale, Sparkles, Star, UserCircle, Volume2, X, XCircle } from "lucide-react";
 import { LESSONS, MIGRATIONSVERKET_CITIZENSHIP_URL, OFFICIAL_CHAPTERS, OFFICIAL_STUDY_GUIDE_URL, QUESTIONS, TOPICS } from "./data";
 import { DRAFT_QUESTIONS, type DraftQuestion, type DraftQuestionStatus } from "./draftQuestions";
 import i18n from "./i18n";
 import { analyticsStatus, trackEvent, trackPageView } from "./analytics";
+import { isAuthConfigured, supabase, type AuthSession } from "./auth";
 import { CITIZENSHIP_UPDATE, FAQ_CONTENT, LEGAL_CONTENT } from "./i18n/content";
 import { SUPPORTED_LANGUAGES, UI_TEXT, type UiText } from "./i18n/uiText";
 import { toTraditionalChinese } from "./i18n/locales/zhHantConvert";
@@ -27,6 +28,7 @@ type Route =
   | { page: "question-review" }
   | { page: "progress" }
   | { page: "flashcards" }
+  | { page: "account" }
   | { page: "feedback" }
   | { page: "privacy" }
   | { page: "admin" };
@@ -203,6 +205,8 @@ function App() {
   const [questionHelpVisible, setQuestionHelpVisible] = useState(false);
   const [language, setLanguage] = useState<UiLanguage>(() => getInitialLanguage());
   const [feedbackPromptMilestone, setFeedbackPromptMilestone] = useState<number | null>(null);
+  const [authSession, setAuthSession] = useState<AuthSession | null>(null);
+  const [authLoading, setAuthLoading] = useState(isAuthConfigured);
   const ui = useTranslatedUiText(language);
 
   useEffect(() => {
@@ -218,6 +222,31 @@ function App() {
       chapterId: route.page === "chapter" ? route.chapterId : undefined
     });
   }, [language, route]);
+
+  useEffect(() => {
+    if (!supabase) {
+      setAuthLoading(false);
+      return;
+    }
+
+    let isMounted = true;
+
+    supabase.auth.getSession().then(({ data }) => {
+      if (!isMounted) return;
+      setAuthSession(data.session);
+      setAuthLoading(false);
+    });
+
+    const { data } = supabase.auth.onAuthStateChange((_event, session) => {
+      setAuthSession(session);
+      setAuthLoading(false);
+    });
+
+    return () => {
+      isMounted = false;
+      data.subscription.unsubscribe();
+    };
+  }, []);
 
   function goHome() {
     setRoute({ page: "home" });
@@ -294,6 +323,11 @@ function App() {
   function goProgress() {
     trackEvent("progress_dashboard_viewed", { uiLanguage: language });
     setRoute({ page: "progress" });
+  }
+
+  function goAccount() {
+    trackEvent("account_opened", { signedIn: Boolean(authSession), uiLanguage: language });
+    setRoute({ page: "account" });
   }
 
   function goFlashcards() {
@@ -413,6 +447,36 @@ function App() {
     setQuestionHelpVisible(nextVisible);
   }
 
+  async function handleSignIn(email: string) {
+    if (!supabase) {
+      return ui.accountMissingConfigBody;
+    }
+
+    const { error } = await supabase.auth.signInWithOtp({
+      email,
+      options: {
+        emailRedirectTo: `${window.location.origin}/account`
+      }
+    });
+
+    if (error) {
+      return error.message;
+    }
+
+    trackEvent("account_sign_in_link_sent", { uiLanguage: language });
+    return null;
+  }
+
+  async function handleSignOut() {
+    if (!supabase) return;
+    const { error } = await supabase.auth.signOut();
+
+    if (!error) {
+      setAuthSession(null);
+      trackEvent("account_signed_out", { uiLanguage: language });
+    }
+  }
+
   if (route.page === "guide") {
     return (
       <GuidePage
@@ -512,6 +576,29 @@ function App() {
         onOpenMockExam={goMockExam}
         onQuickPractice={goQuickPractice}
         onSelectLanguage={handleLanguageChange}
+        onStudy={goStudyModules}
+        ui={ui}
+      />
+    );
+  }
+
+  if (route.page === "account") {
+    return (
+      <AccountPage
+        authConfigured={isAuthConfigured}
+        authLoading={authLoading}
+        authSession={authSession}
+        language={language}
+        onBack={goHome}
+        onOpenFeedback={goFeedback}
+        onOpenFlashcards={goFlashcards}
+        onOpenGuide={goGuide}
+        onOpenMockExam={goMockExam}
+        onOpenPrivacy={goPrivacy}
+        onQuickPractice={goQuickPractice}
+        onSelectLanguage={handleLanguageChange}
+        onSignIn={handleSignIn}
+        onSignOut={handleSignOut}
         onStudy={goStudyModules}
         ui={ui}
       />
@@ -712,6 +799,7 @@ function App() {
       onOpenPrivacy={goPrivacy}
       onOpenMockExam={goMockExam}
       onOpenProgress={goProgress}
+      onOpenAccount={goAccount}
       onQuickPractice={goQuickPractice}
       onSelectLanguage={handleLanguageChange}
       onStudy={goStudyModules}
@@ -844,6 +932,10 @@ function getRouteFromPath(path: string): Route {
     return { page: "progress" };
   }
 
+  if (page === "account") {
+    return { page: "account" };
+  }
+
   if (page === "flashcards") {
     return { page: "flashcards" };
   }
@@ -868,6 +960,7 @@ function routeToPath(route: Route) {
   if (route.page === "question-review") return "/question-review";
   if (route.page === "mock-exam") return "/mock-exam";
   if (route.page === "progress") return "/progress";
+  if (route.page === "account") return "/account";
   if (route.page === "area") return `/area/${route.topicId}`;
   if (route.page === "chapter") return `/chapter/${route.chapterId}`;
   if (route.page === "flashcards") return "/flashcards";
@@ -914,6 +1007,7 @@ function usePathRoute(): [Route, (route: Route) => void] {
 
 function HomePage({
   language,
+  onOpenAccount,
   onOpenFeedback,
   onOpenFlashcards,
   onOpenGuide,
@@ -927,6 +1021,7 @@ function HomePage({
   ui
 }: {
   language: UiLanguage;
+  onOpenAccount: () => void;
   onOpenFeedback: () => void;
   onOpenFlashcards: () => void;
   onOpenGuide: () => void;
@@ -959,6 +1054,7 @@ function HomePage({
         onOpenFlashcards={onOpenFlashcards}
         onOpenGuide={onOpenGuide}
         onOpenMockExam={onOpenMockExam}
+        onOpenAccount={onOpenAccount}
         onSelectLanguage={onSelectLanguage}
         onStartPractice={handleStartPractice}
         ui={ui}
@@ -1394,6 +1490,7 @@ function AreaPage({
 function AppNav({
   onExploreModules,
   onGoHome,
+  onOpenAccount,
   onOpenFlashcards,
   onOpenGuide,
   onOpenMockExam,
@@ -1404,6 +1501,7 @@ function AppNav({
 }: {
   onExploreModules: () => void;
   onGoHome: () => void;
+  onOpenAccount?: () => void;
   onOpenFlashcards: () => void;
   onOpenGuide: () => void;
   onOpenMockExam: () => void;
@@ -1435,10 +1533,21 @@ function AppNav({
           <button type="button" onClick={onOpenGuide}>
             {ui.navAbout}
           </button>
+          {onOpenAccount ? (
+            <button type="button" onClick={onOpenAccount}>
+              {ui.navAccount}
+            </button>
+          ) : null}
         </div>
 
         <div className="nav-actions">
           <LanguageSelector onChange={onSelectLanguage} ui={ui} value={value} />
+          {onOpenAccount ? (
+            <button className="nav-account" type="button" onClick={onOpenAccount}>
+              <UserCircle size={18} strokeWidth={2.4} aria-hidden="true" />
+              {ui.navAccount}
+            </button>
+          ) : null}
           <button className="nav-cta" type="button" onClick={onStartPractice}>
             {ui.navStartPractice}
           </button>
@@ -1446,6 +1555,12 @@ function AppNav({
 
         <div className="mobile-nav-actions" aria-label={ui.navStartPractice}>
           <LanguageSelector onChange={onSelectLanguage} ui={ui} value={value} />
+          {onOpenAccount ? (
+            <button className="nav-account mobile-account" type="button" onClick={onOpenAccount}>
+              <UserCircle size={18} strokeWidth={2.4} aria-hidden="true" />
+              {ui.navAccount}
+            </button>
+          ) : null}
           <button className="nav-cta mobile-nav-cta" type="button" onClick={onStartPractice}>
             {ui.navStartPractice}
           </button>
@@ -2028,6 +2143,142 @@ type LearnerNavHandlers = {
   onQuickPractice: () => void;
   onStudy: () => void;
 };
+
+function AccountPage({
+  authConfigured,
+  authLoading,
+  authSession,
+  language,
+  onBack,
+  onOpenFeedback,
+  onOpenFlashcards,
+  onOpenGuide,
+  onOpenMockExam,
+  onOpenPrivacy,
+  onQuickPractice,
+  onSelectLanguage,
+  onSignIn,
+  onSignOut,
+  onStudy,
+  ui
+}: {
+  authConfigured: boolean;
+  authLoading: boolean;
+  authSession: AuthSession | null;
+  language: UiLanguage;
+  onBack: () => void;
+  onOpenFeedback: () => void;
+  onOpenPrivacy: () => void;
+  onSelectLanguage: (language: UiLanguage) => void;
+  onSignIn: (email: string) => Promise<string | null>;
+  onSignOut: () => Promise<void>;
+  ui: UiText;
+} & LearnerNavHandlers) {
+  const [email, setEmail] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [sent, setSent] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    setError(null);
+    setSent(false);
+    setIsSubmitting(true);
+
+    const signInError = await onSignIn(email.trim());
+    setIsSubmitting(false);
+
+    if (signInError) {
+      setError(signInError);
+      return;
+    }
+
+    setSent(true);
+  }
+
+  return (
+    <>
+      <LearnerPageNav language={language} onBack={onBack} onOpenFlashcards={onOpenFlashcards} onOpenGuide={onOpenGuide} onOpenMockExam={onOpenMockExam} onQuickPractice={onQuickPractice} onSelectLanguage={onSelectLanguage} onStudy={onStudy} ui={ui} />
+      <main className="shell" dir={isRtl(language) ? "rtl" : "ltr"}>
+        <section className="account-page" aria-labelledby="account-title">
+          <div className="account-intro">
+            <div className="feedback-icon" aria-hidden="true">
+              <UserCircle size={24} strokeWidth={2.3} />
+            </div>
+            <p className="eyebrow">{ui.navAccount}</p>
+            <h1 id="account-title">{ui.accountTitle}</h1>
+            <p dir={getTextDirection(ui.accountIntro)}>{ui.accountIntro}</p>
+          </div>
+
+          {authLoading ? (
+            <div className="account-status-card">
+              <span className="loading-dot" aria-hidden="true" />
+              <p>{ui.accountIntro}</p>
+            </div>
+          ) : authSession ? (
+            <div className="account-status-card success">
+              <CheckCircle2 size={28} strokeWidth={2.3} aria-hidden="true" />
+              <div>
+                <h2>{ui.accountSignedInTitle}</h2>
+                <p>{authSession.user.email}</p>
+                <p dir={getTextDirection(ui.accountSignedInBody)}>{ui.accountSignedInBody}</p>
+              </div>
+              <button className="secondary" type="button" onClick={onSignOut}>
+                <LogOut size={18} strokeWidth={2.4} aria-hidden="true" />
+                {ui.accountSignOutCta}
+              </button>
+            </div>
+          ) : authConfigured ? (
+            <form className="account-form" onSubmit={handleSubmit}>
+              <label htmlFor="account-email">{ui.accountEmailLabel}</label>
+              <div className="account-email-row">
+                <span aria-hidden="true">
+                  <Mail size={20} strokeWidth={2.2} />
+                </span>
+                <input
+                  id="account-email"
+                  autoComplete="email"
+                  inputMode="email"
+                  onChange={(event) => setEmail(event.target.value)}
+                  placeholder={ui.accountEmailPlaceholder}
+                  required
+                  type="email"
+                  value={email}
+                />
+              </div>
+              {error ? (
+                <p className="account-message error">
+                  <XCircle size={18} strokeWidth={2.3} aria-hidden="true" />
+                  <strong>{ui.accountErrorTitle}:</strong> {error}
+                </p>
+              ) : null}
+              {sent ? (
+                <p className="account-message success">
+                  <CheckCircle2 size={18} strokeWidth={2.3} aria-hidden="true" />
+                  <strong>{ui.accountEmailSentTitle}:</strong> {ui.accountEmailSentBody}
+                </p>
+              ) : null}
+              <button className="hero-primary" disabled={isSubmitting} type="submit">
+                {ui.accountSignInCta}
+              </button>
+              <p className="account-sync-note">{ui.accountSyncNote}</p>
+            </form>
+          ) : (
+            <div className="account-status-card warning">
+              <AlertTriangle size={28} strokeWidth={2.3} aria-hidden="true" />
+              <div>
+                <h2>{ui.accountMissingConfigTitle}</h2>
+                <p>{ui.accountMissingConfigBody}</p>
+              </div>
+            </div>
+          )}
+        </section>
+
+        <SiteFooter language={language} onOpenFeedback={onOpenFeedback} onOpenGuide={onOpenGuide} onOpenPrivacy={onOpenPrivacy} />
+      </main>
+    </>
+  );
+}
 
 function FeedbackPage({
   language,

@@ -8,6 +8,7 @@ export type UiText = {
   navStudyModules: string;
   navPracticeTests: string;
   navAbout: string;
+  navAccount: string;
   navStartPractice: string;
   practicePathTitle: string;
   practicePathIntro: string;
@@ -131,6 +132,20 @@ export type UiText = {
   feedbackNudgeBody: string;
   feedbackNudgeAction: string;
   feedbackTypes: string[];
+  accountTitle: string;
+  accountIntro: string;
+  accountEmailLabel: string;
+  accountEmailPlaceholder: string;
+  accountSignInCta: string;
+  accountSignOutCta: string;
+  accountSignedInTitle: string;
+  accountSignedInBody: string;
+  accountEmailSentTitle: string;
+  accountEmailSentBody: string;
+  accountMissingConfigTitle: string;
+  accountMissingConfigBody: string;
+  accountErrorTitle: string;
+  accountSyncNote: string;
   flipCard: string;
   nextCard: string;
   backToHome: string;
