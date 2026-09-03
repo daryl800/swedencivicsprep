@@ -34,6 +34,7 @@ type Route =
   | { page: "admin" };
 
 type MobileNavTarget = "home" | "study" | "practice" | "progress";
+type AccountAuthMode = "signin" | "signup";
 
 const QUICK_START_TOPIC_ID = "quick-start";
 const QUICK_START_TOPIC: Topic = {
@@ -447,15 +448,39 @@ function App() {
     setQuestionHelpVisible(nextVisible);
   }
 
-  async function handleSignIn(email: string) {
+  async function handleEmailAuth(mode: AccountAuthMode, email: string, password: string) {
     if (!supabase) {
       return ui.accountMissingConfigBody;
     }
 
-    const { error } = await supabase.auth.signInWithOtp({
-      email,
+    const { error } =
+      mode === "signup"
+        ? await supabase.auth.signUp({
+            email,
+            password,
+            options: {
+              emailRedirectTo: `${window.location.origin}/account`
+            }
+          })
+        : await supabase.auth.signInWithPassword({ email, password });
+
+    if (error) {
+      return error.message;
+    }
+
+    trackEvent(mode === "signup" ? "account_signup_started" : "account_signed_in", { uiLanguage: language });
+    return null;
+  }
+
+  async function handleGoogleSignIn() {
+    if (!supabase) {
+      return ui.accountMissingConfigBody;
+    }
+
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: "google",
       options: {
-        emailRedirectTo: `${window.location.origin}/account`
+        redirectTo: `${window.location.origin}/account`
       }
     });
 
@@ -463,7 +488,7 @@ function App() {
       return error.message;
     }
 
-    trackEvent("account_sign_in_link_sent", { uiLanguage: language });
+    trackEvent("account_google_sign_in_started", { uiLanguage: language });
     return null;
   }
 
@@ -597,7 +622,8 @@ function App() {
         onOpenPrivacy={goPrivacy}
         onQuickPractice={goQuickPractice}
         onSelectLanguage={handleLanguageChange}
-        onSignIn={handleSignIn}
+        onEmailAuth={handleEmailAuth}
+        onGoogleSignIn={handleGoogleSignIn}
         onSignOut={handleSignOut}
         onStudy={goStudyModules}
         ui={ui}
@@ -2157,7 +2183,8 @@ function AccountPage({
   onOpenPrivacy,
   onQuickPractice,
   onSelectLanguage,
-  onSignIn,
+  onEmailAuth,
+  onGoogleSignIn,
   onSignOut,
   onStudy,
   ui
@@ -2170,12 +2197,17 @@ function AccountPage({
   onOpenFeedback: () => void;
   onOpenPrivacy: () => void;
   onSelectLanguage: (language: UiLanguage) => void;
-  onSignIn: (email: string) => Promise<string | null>;
+  onEmailAuth: (mode: AccountAuthMode, email: string, password: string) => Promise<string | null>;
+  onGoogleSignIn: () => Promise<string | null>;
   onSignOut: () => Promise<void>;
   ui: UiText;
 } & LearnerNavHandlers) {
+  const [mode, setMode] = useState<AccountAuthMode>("signin");
   const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isGoogleSubmitting, setIsGoogleSubmitting] = useState(false);
   const [sent, setSent] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -2183,9 +2215,15 @@ function AccountPage({
     event.preventDefault();
     setError(null);
     setSent(false);
+
+    if (mode === "signup" && password !== confirmPassword) {
+      setError(ui.accountPasswordMismatch);
+      return;
+    }
+
     setIsSubmitting(true);
 
-    const signInError = await onSignIn(email.trim());
+    const signInError = await onEmailAuth(mode, email.trim(), password);
     setIsSubmitting(false);
 
     if (signInError) {
@@ -2193,7 +2231,19 @@ function AccountPage({
       return;
     }
 
-    setSent(true);
+    setSent(mode === "signup");
+  }
+
+  async function handleGoogleClick() {
+    setError(null);
+    setSent(false);
+    setIsGoogleSubmitting(true);
+    const signInError = await onGoogleSignIn();
+    setIsGoogleSubmitting(false);
+
+    if (signInError) {
+      setError(signInError);
+    }
   }
 
   return (
@@ -2230,22 +2280,51 @@ function AccountPage({
             </div>
           ) : authConfigured ? (
             <form className="account-form" onSubmit={handleSubmit}>
+              <button className="account-oauth-button" disabled={isGoogleSubmitting || isSubmitting} onClick={handleGoogleClick} type="button">
+                {ui.accountGoogleCta}
+              </button>
+
+              <div className="account-divider">
+                <span>{ui.accountOauthDivider}</span>
+              </div>
+
+              <div className="account-mode-toggle" role="tablist" aria-label={ui.accountTitle}>
+                <button aria-selected={mode === "signin"} className={mode === "signin" ? "active" : ""} onClick={() => setMode("signin")} role="tab" type="button">
+                  {ui.accountSignInTab}
+                </button>
+                <button aria-selected={mode === "signup"} className={mode === "signup" ? "active" : ""} onClick={() => setMode("signup")} role="tab" type="button">
+                  {ui.accountSignUpTab}
+                </button>
+              </div>
+
               <label htmlFor="account-email">{ui.accountEmailLabel}</label>
-              <div className="account-email-row">
+              <div className="account-field-row">
                 <span aria-hidden="true">
                   <Mail size={20} strokeWidth={2.2} />
                 </span>
-                <input
-                  id="account-email"
-                  autoComplete="email"
-                  inputMode="email"
-                  onChange={(event) => setEmail(event.target.value)}
-                  placeholder={ui.accountEmailPlaceholder}
-                  required
-                  type="email"
-                  value={email}
-                />
+                <input id="account-email" autoComplete="email" inputMode="email" onChange={(event) => setEmail(event.target.value)} placeholder={ui.accountEmailPlaceholder} required type="email" value={email} />
               </div>
+
+              <label htmlFor="account-password">{ui.accountPasswordLabel}</label>
+              <div className="account-field-row">
+                <span aria-hidden="true">
+                  <LockKeyhole size={20} strokeWidth={2.2} />
+                </span>
+                <input id="account-password" autoComplete={mode === "signup" ? "new-password" : "current-password"} minLength={6} onChange={(event) => setPassword(event.target.value)} placeholder={ui.accountPasswordPlaceholder} required type="password" value={password} />
+              </div>
+
+              {mode === "signup" ? (
+                <>
+                  <label htmlFor="account-confirm-password">{ui.accountConfirmPasswordLabel}</label>
+                  <div className="account-field-row">
+                    <span aria-hidden="true">
+                      <LockKeyhole size={20} strokeWidth={2.2} />
+                    </span>
+                    <input id="account-confirm-password" autoComplete="new-password" minLength={6} onChange={(event) => setConfirmPassword(event.target.value)} placeholder={ui.accountConfirmPasswordPlaceholder} required type="password" value={confirmPassword} />
+                  </div>
+                </>
+              ) : null}
+
               {error ? (
                 <p className="account-message error">
                   <XCircle size={18} strokeWidth={2.3} aria-hidden="true" />
@@ -2258,8 +2337,8 @@ function AccountPage({
                   <strong>{ui.accountEmailSentTitle}:</strong> {ui.accountEmailSentBody}
                 </p>
               ) : null}
-              <button className="hero-primary" disabled={isSubmitting} type="submit">
-                {ui.accountSignInCta}
+              <button className="hero-primary" disabled={isSubmitting || isGoogleSubmitting} type="submit">
+                {mode === "signup" ? ui.accountSignUpCta : ui.accountSignInCta}
               </button>
               <p className="account-sync-note">{ui.accountSyncNote}</p>
             </form>
