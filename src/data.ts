@@ -11,43 +11,43 @@ export const MIGRATIONSVERKET_CITIZENSHIP_URL =
 export const TOPICS: Topic[] = [
   {
     id: "democracy",
-    nameSv: "Demokrati, val och medier",
-    nameEn: "Democracy, Elections & Media",
-    descriptionEn: "Practice democracy, elections, political parties, free media, and source criticism."
+    nameSv: "Demokrati och val",
+    nameEn: "Democracy & Elections",
+    descriptionEn: "Practice democracy, elections, political parties, and how people can influence society."
   },
   {
     id: "rights",
     nameSv: "Rättigheter och skyldigheter",
     nameEn: "Rights & Duties",
-    descriptionEn: "Practice constitutional rights, rule of law, human rights, equality, religious freedom, and shared duties."
+    descriptionEn: "Practice constitutional rights, rule of law, human rights, equality, media, and source criticism."
   },
   {
     id: "everyday",
     nameSv: "Vardagsliv i Sverige",
     nameEn: "Everyday Life in Sweden",
-    descriptionEn: "Practice work, private economy, welfare, school, healthcare, daily life, and traditions."
+    descriptionEn: "Practice facts about Sweden, work, private economy, welfare, history, religion, and traditions."
   },
   {
     id: "authorities",
-    nameSv: "Sverige, staten och tjänster",
-    nameEn: "Sweden, State & Services",
-    descriptionEn: "Practice Sweden as a country, how it is governed, modern history, international cooperation, and public services."
+    nameSv: "Myndigheter och tjänster",
+    nameEn: "Authorities & Services",
+    descriptionEn: "Practice how Sweden is governed, international cooperation, and public services."
   }
 ];
 
 export const OFFICIAL_CHAPTERS: Chapter[] = [
-  { id: "country", number: 1, nameSv: "Landet Sverige", topicId: "authorities" },
+  { id: "country", number: 1, nameSv: "Landet Sverige", topicId: "everyday" },
   { id: "democratic-system", number: 2, nameSv: "Sveriges demokratiska system", topicId: "democracy" },
   { id: "governance", number: 3, nameSv: "Så här styrs Sverige", topicId: "authorities" },
   { id: "elections", number: 4, nameSv: "Politiska val och partier", topicId: "democracy" },
   { id: "law", number: 5, nameSv: "Lag och rätt", topicId: "rights" },
-  { id: "media", number: 6, nameSv: "Mediernas roll", topicId: "democracy" },
+  { id: "media", number: 6, nameSv: "Mediernas roll", topicId: "rights" },
   { id: "human-rights", number: 7, nameSv: "Mänskliga rättigheter", topicId: "rights" },
   { id: "work-economy", number: 8, nameSv: "Arbetsmarknad och privatekonomi", topicId: "everyday" },
   { id: "welfare", number: 9, nameSv: "Välfärdssamhället", topicId: "everyday" },
-  { id: "modern-history", number: 10, nameSv: "Sveriges moderna historia", topicId: "authorities" },
+  { id: "modern-history", number: 10, nameSv: "Sveriges moderna historia", topicId: "everyday" },
   { id: "world", number: 11, nameSv: "Sverige och omvärlden", topicId: "authorities" },
-  { id: "secular-state", number: 12, nameSv: "En sekulär stat och ett mångreligiöst land", topicId: "rights" },
+  { id: "secular-state", number: 12, nameSv: "En sekulär stat och ett mångreligiöst land", topicId: "everyday" },
   { id: "traditions", number: 13, nameSv: "Traditioner och högtider", topicId: "everyday" }
 ];
 

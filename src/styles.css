@@ -118,8 +118,8 @@ button:disabled {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  gap: var(--space-6);
-  width: min(1180px, calc(100% - 32px));
+  gap: var(--space-4);
+  width: min(1440px, calc(100% - 32px));
   min-height: 72px;
   margin: 0 auto;
 }
@@ -156,6 +156,7 @@ button:disabled {
 .nav-links {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: var(--space-2);
 }
 
@@ -174,7 +175,7 @@ button:disabled {
 .nav-actions {
   display: flex;
   align-items: center;
-  gap: var(--space-3);
+  gap: var(--space-2);
 }
 
 .mobile-nav-actions {
@@ -183,7 +184,7 @@ button:disabled {
 
 .app-nav .language-select {
   position: relative;
-  min-width: 190px;
+  min-width: 176px;
   margin: 0;
   border-color: rgba(15, 23, 42, 0.12);
   border-radius: 999px;

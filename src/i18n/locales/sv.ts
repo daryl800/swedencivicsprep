@@ -3,9 +3,9 @@ import type { UiText } from "../uiTextTypes";
 export const svUiText: UiText = {
     eyebrow: "Baserat på UHR:s material · 1 000 frågor · flerspråkiga förklaringar",
     appTitle: "Träna inför medborgarskapsprovet",
-    lead: "Alla frågor baserade på UHR:s officiella studiematerial",
+    lead: "Övningsfrågorna täcker UHR:s officiella studiematerial i sin helhet",
     heroSubhead: "Träna efter ämne. Hitta misstagen. Vet vad du ska repetera",
-    languageNote: "Frågorna är på svenska. Du kan byta förklaringar till ett annat språk när som helst.",
+    languageNote: "Frågorna är på svenska. Byt språk under träningen för att förstå och ta till dig förklaringen lättare.",
     dailyPrompt: "Börja med gratis träning.",
     navStudyModules: "Studieområden",
     navPracticeTests: "Provsimulering",
@@ -13,10 +13,10 @@ export const svUiText: UiText = {
     navAccount: "Konto",
     navStartPractice: "Prova gratis träning",
     practicePathTitle: "Välj hur du vill träna",
-    practicePathIntro: "Använd gratisfrågorna för att prova sidan, läs efter område när du vill ha struktur, repetera med frågekort eller använd provsimulering när du vill testa dig mer seriöst.",
+    practicePathIntro: "Börja efter ämne, följ svaga områden i framstegspanelen, repetera med frågekort eller använd provsimulering när du vill testa dig mer seriöst.",
     practicePaths: [
-      { title: "Börja gratis", body: "Testa ett litet blandat set först. Inget konto och ingen betalning behövs.", badge: "Gratisprov", cta: "Starta gratis träning" },
-      { title: "Studera efter område", body: "Gå igenom de fyra studieområdena och de officiella kapitlen.", badge: "13 kapitel", cta: "Välj område" },
+      { title: "Studera efter område", body: "Gå igenom de fyra studieområdena och de officiella kapitlen.", badge: "13 kapitel", cta: "Träna efter ämne" },
+      { title: "Framstegspanel", body: "Se färdiga frågor, svaga kapitel och vad du bör repetera härnäst.", badge: "Svaga områden", cta: "Visa framsteg" },
       { title: "Repetera med frågekort", body: "Bläddra bland svenska frågekort och kontrollera svaret när du är redo.", badge: "Repetition", cta: "Öppna frågekort" },
       { title: "Gör provsimulering", body: "Ett blandat provläge för mer seriös förberedelse. Funktion i fullversionen.", badge: "Full åtkomst", cta: "Visa provsimulering" }
     ],
@@ -47,7 +47,7 @@ export const svUiText: UiText = {
     guideMockExamCta: "Testa provsimulering",
     heroPrimaryCta: "Börja med gratis träning",
     heroSecondaryCta: "Träna efter ämne",
-    heroTrustBadge: "Flerspråkigt gränssnitt • Frågorna är på svenska; byt språk under träningen för att förstå bättre ⭐ • Ingen app behövs; träna när som helst på mobil eller dator ⭐ • Framstegspanel visar starka och svaga områden",
+    heroTrustBadge: "Frågorna är som standard på svenska – byt språk när som helst för att förstå bättre • Panel för övningsprogress – se dina styrkor och svagheter när som helst • Ingen app behöver laddas ner – öva när som helst på mobil eller dator ⭐",
     heroMockLabel: "Exempel från träningen",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -58,11 +58,11 @@ export const svUiText: UiText = {
     proofStats: [
       { value: "1 000", label: "utvalda träningsfrågor" },
       { value: "13", label: "officiella kapitel" },
-      { value: "65", label: "gratisfrågor" }
+      { value: "60", label: "gratisfrågor" }
     ],
     freeTierBadge: "Gratisprov",
     fullAccessBadge: "Full åtkomst",
-    freeSampleSummary: (freeCount, totalCount) => `${freeCount} gratis / ${totalCount}`,
+    freeSampleSummary: (freeCount) => `${freeCount} gratisfrågor`,
     upgradePromptTitle: "Hela frågebanken är låst",
     upgradePromptBody: (lockedCount, totalCount) => `${lockedCount} av ${totalCount} frågor sparas till fullversionen. Betalning kopplas in i nästa steg.`,
     earlyAccessTitle: "Oberoende guide",
@@ -261,7 +261,7 @@ Använd Swedish Civics Test Preparation som en oberoende träningsguide: läs f�
     bestAnswer: "Bästa svar",
     explanationFallback: "Förklaring kommer snart.",
     appLanguage: "Appspråk",
-    appLanguageHint: "Frågorna är på svenska.",
+    appLanguageHint: "Frågorna är på svenska. Byt språk under träningen för att förstå lättare.",
     today: "idag",
     total: "totalt",
     progressFresh: "Ny start.",
@@ -270,23 +270,23 @@ Använd Swedish Civics Test Preparation som en oberoende träningsguide: läs f�
     progressSolid: "Stabilt pass.",
     progressStrong: "Stark träningsdag.",
     topicNames: {
-      democracy: "Demokrati, val och medier",
+      democracy: "Demokrati och val",
       "quick-start": "Gratis träning",
       rights: "Rättigheter och skyldigheter",
       everyday: "Vardagsliv i Sverige",
-      authorities: "Sverige, staten och tjänster"
+      authorities: "Myndigheter och tjänster"
     },
     topicFlavor: {
-      democracy: "Röster, fria medier och demokratins regler.",
+      democracy: "Röster, delaktighet och demokratins regler.",
       "quick-start": "Träna med alla gratisfrågor som är öppna just nu.",
-      rights: "Känn till dina friheter och det gemensamma ansvaret.",
-      everyday: "Arbete, välfärd, skola, vård och traditioner.",
-      authorities: "Sverige som land, staten, historia och tjänster."
+      rights: "Rättigheter, lag, medier och gemensamt ansvar.",
+      everyday: "Sverige som land, arbete, välfärd, historia, religion och traditioner.",
+      authorities: "Styrning, internationellt samarbete och offentliga tjänster."
     },
     topicDescriptions: {
-      democracy: "Träna på val, partier, fria medier och hur människor kan påverka i Sverige.",
-      rights: "Lär dig balansen mellan friheter, ansvar, religionsfrihet och allas lika värde.",
-      everyday: "Träna på arbete, pengar, skola, sjukvård, välfärd, vardagsrutiner och traditioner.",
-      authorities: "Träna på Sverige som land, hur staten är organiserad, modern historia, internationellt samarbete och offentliga tjänster."
+      democracy: "Träna på val, partier och hur människor kan påverka i Sverige.",
+      rights: "Träna på lag, rättigheter, mänskliga rättigheter, fria medier, källkritik och gemensamt ansvar.",
+      everyday: "Träna på Sverige som land, arbete, pengar, skola, sjukvård, välfärd, historia, religion och traditioner.",
+      authorities: "Träna på hur Sverige styrs, internationellt samarbete och offentliga tjänster."
     }
   };

@@ -1,18 +1,17 @@
 import type { CitizenshipUpdateText, FaqContent, LegalContent } from "../../contentTypes";
 
 export const svCitizenshipUpdate: CitizenshipUpdateText = {
-    title: "Uppdatering av medborgarskapsregler 2026",
-    source: "Baserat på information från Migrationsverket",
-    summary: "Nya medborgarskapsregler 2026 gäller från juni. Vissa sökande kan ha enklare vägar kring kravet på permanent uppehållstillstånd.",
-    intro: "Sedan 6 juni 2026 bedöms ansökningar om svenskt medborgarskap enligt skärpta krav. För många vuxna sökande ingår:",
+    title: "Viktiga fakta om medborgarskapsprovet",
+    source: "Baserat på information från UHR",
+    summary: "Det första provet i samhällskunskap genomfördes i augusti 2026. UHR skriver att provet är på svenska, på papper och består av flervalsfrågor. Offentlig rapportering beskrev det första provet som cirka 60 frågor på 90 minuter.",
+    intro: "Det viktigaste för din förberedelse är enkelt:",
     bullets: [
-      "en giltig grund för vistelse, ofta permanent uppehållstillstånd, uppehållsrätt, uppehållskort eller uppehållsstatus",
-      "en viss tid med hemvist i Sverige",
-      "kunskaper i svenska och om det svenska samhället",
-      "förmåga att försörja sig",
-      "ett skötsamt och hederligt levnadssätt"
+      "samhällskunskapsprovet är på svenska",
+      "frågorna är flervalsfrågor med fyra alternativ och ett rätt svar",
+      "studiematerialet är Sverige i fokus från UHR och Skolverket",
+      "nästa provdatum, antal frågor och provtid meddelas av UHR"
     ],
-    note: "Sedan 12 juli 2026 kan vissa personer med tidsbegränsade uppehållstillstånd undantas från kravet på permanent uppehållstillstånd. Din personliga situation bedöms alltid av Migrationsverket.",
+    note: "Därför fokuserar den här sidan på svenska övningsfrågor, tydliga förklaringar och vad du bör repetera härnäst.",
     migrationsverketLink: "Kontrollera kraven hos Migrationsverket",
     uhrLink: "Studera med Sverige i fokus"
   };

@@ -3,9 +3,9 @@ import type { UiText } from "../uiTextTypes";
 export const enUiText: UiText = {
     eyebrow: "Based on UHR material · 1,000 questions · multilingual explanations",
     appTitle: "Swedish citizenship test practice, structured for study",
-    lead: "All questions based on UHR's official study material",
+    lead: "Practice questions comprehensively cover the UHR official study material topics",
     heroSubhead: "Practice by topic. Spot mistakes. Know what to review",
-    languageNote: "Questions stay in Swedish. You can switch explanations to another language anytime.",
+    languageNote: "Questions stay in Swedish. Switch language during practice to understand and absorb the explanation more easily.",
     dailyPrompt: "Start free practice.",
     navStudyModules: "Study Modules",
     navPracticeTests: "Mock exam",
@@ -13,10 +13,10 @@ export const enUiText: UiText = {
     navAccount: "Account",
     navStartPractice: "Start free practice",
     practicePathTitle: "Choose how to practise",
-    practicePathIntro: "Use the free sample to try the site, study by topic when you want structure, review with flashcards, or use mock exam mode for serious test simulation.",
+    practicePathIntro: "Start by topic, track weak areas in the dashboard, review with flashcards, or use mock exam mode for serious test simulation.",
     practicePaths: [
-      { title: "Start free practice", body: "Try a small mixed set first. No account or payment needed.", badge: "Free sample", cta: "Start free practice" },
-      { title: "Study by topic", body: "Work through the four study areas and their official chapters.", badge: "13 chapters", cta: "Choose study area" },
+      { title: "Study by topic", body: "Work through the four study areas and their official chapters.", badge: "13 chapters", cta: "Practice by topic" },
+      { title: "Progress dashboard", body: "See completed questions, weak chapters, and what to review next.", badge: "Weak areas", cta: "View progress" },
       { title: "Review flashcards", body: "Flip through Swedish question cards and check the answer when you are ready.", badge: "Review mode", cta: "Open flashcards" },
       { title: "Take mock exam", body: "A mixed exam-style session for serious preparation. Full-access feature.", badge: "Full access", cta: "View mock exam" }
     ],
@@ -47,7 +47,7 @@ export const enUiText: UiText = {
     guideMockExamCta: "Try mock exam",
     heroPrimaryCta: "Start free practice",
     heroSecondaryCta: "Practice by topic",
-    heroTrustBadge: "Multilingual interface • Questions stay in Swedish; switch language during practice to help understanding ⭐ • No app download needed; practice anytime on phone or computer ⭐ • Progress dashboard shows strengths and weak areas anytime",
+    heroTrustBadge: "Questions default to Swedish; switch language anytime to aid understanding • Practice progress panel — track strengths and weaknesses anytime • No app download needed; practice anytime on phone or computer ⭐",
     heroMockLabel: "Practice preview",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -58,11 +58,11 @@ export const enUiText: UiText = {
     proofStats: [
       { value: "1,000", label: "curated practice questions" },
       { value: "13", label: "official chapters covered" },
-      { value: "65", label: "free sample questions" }
+      { value: "60", label: "free sample questions" }
     ],
     freeTierBadge: "Free sample",
     fullAccessBadge: "Full access",
-    freeSampleSummary: (freeCount, totalCount) => `${freeCount} free / ${totalCount}`,
+    freeSampleSummary: (freeCount) => `${freeCount} free questions`,
     upgradePromptTitle: "Full question bank is locked",
     upgradePromptBody: (lockedCount, totalCount) => `${lockedCount} of ${totalCount} questions are reserved for the full version. Payment access will be connected next.`,
     earlyAccessTitle: "Independent guide",
@@ -261,7 +261,7 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
     bestAnswer: "Best answer",
     explanationFallback: "Explanation coming soon.",
     appLanguage: "App language",
-    appLanguageHint: "Questions stay Swedish.",
+    appLanguageHint: "Questions stay in Swedish. Switch language during practice to understand more easily.",
     today: "today",
     total: "total",
     progressFresh: "Fresh start.",
@@ -270,23 +270,23 @@ Use Swedish Civics Test Preparation as an independent practice guide: read a cha
     progressSolid: "Solid session.",
     progressStrong: "Strong practice day.",
     topicNames: {
-      democracy: "Democracy, Elections & Media",
+      democracy: "Democracy & Elections",
       "quick-start": "Free practice",
       rights: "Rights & Duties",
       everyday: "Everyday Life in Sweden",
-      authorities: "Sweden, State & Services"
+      authorities: "Authorities & Services"
     },
     topicFlavor: {
-      democracy: "Votes, free media, and the rules of democracy.",
+      democracy: "Votes, participation, and the rules of democracy.",
       "quick-start": "Practice all currently available free Swedish questions.",
-      rights: "Know your freedoms. Know the shared responsibilities too.",
-      everyday: "Work, welfare, school, healthcare, and traditions.",
-      authorities: "Sweden as a country, state, history, and services."
+      rights: "Rights, law, media, and shared responsibilities.",
+      everyday: "Sweden as a country, work, welfare, history, religion, and traditions.",
+      authorities: "Government, international cooperation, and public services."
     },
     topicDescriptions: {
-      democracy: "Get comfortable with voting, political parties, free media, and how people can have a voice in Sweden.",
-      rights: "Learn the everyday balance: your freedoms, your responsibilities, religious freedom, and everyone's equal value.",
-      everyday: "Practice the practical stuff: work, money, school, healthcare, welfare, daily routines, and traditions.",
-      authorities: "Practice Sweden as a country, how the state is organized, modern history, international cooperation, and public services."
+      democracy: "Get comfortable with voting, political parties, and how people can have a voice in Sweden.",
+      rights: "Learn about law, rights, human rights, free media, source criticism, and shared responsibilities.",
+      everyday: "Practice Sweden as a country, work, money, school, healthcare, welfare, history, religion, and traditions.",
+      authorities: "Practice how Sweden is governed, international cooperation, and public services."
     }
   };

@@ -1,18 +1,17 @@
 import type { CitizenshipUpdateText, FaqContent, LegalContent } from "../../contentTypes";
 
 export const soCitizenshipUpdate: CitizenshipUpdateText = {
-    title: "Cusboonaysiinta xeerarka jinsiyadda 2026",
-    source: "Ku salaysan macluumaadka Migrationsverket",
-    summary: "Xeerarka cusub ee jinsiyadda 2026 waxay bilaabmeen Juun. Dadka qaar waxay yeelan karaan waddo ka fudud oo deganaansho joogto ah.",
-    intro: "Laga bilaabo 6 Juun 2026, codsiyada jinsiyadda Iswiidhan waxaa lagu qiimeeyaa shuruudo adag. Dad badan oo waaweyn waxaa laga rabaa:",
+    title: "Xaqiiqooyinka muhiimka ah ee imtixaanka jinsiyadda",
+    source: "Ku salaysan macluumaadka UHR",
+    summary: "Imtixaankii ugu horreeyay ee aqoonta bulshada waxaa la qabtay Agoosto 2026. UHR waxay sheegtay in imtixaanku yahay Iswiidhish, warqad, iyo su'aalo doorasho badan. Warbixinno dadweyne ayaa imtixaankii koowaad ku tilmaamay qiyaastii 60 su'aalood muddo 90 daqiiqo ah.",
+    intro: "Waxyaabaha ugu muhiimsan ee diyaar-garowga waa sahlan yihiin:",
     bullets: [
-      "saldhig deganaansho oo sax ah",
-      "muddo cayiman oo lagu noolaa Iswiidhan",
-      "aqoon af Iswiidhish iyo bulshada Iswiidhan",
-      "awood aad naftaada ku masruufto",
-      "nolol nidaamsan oo sharciga la ixtiraamo"
+      "imtixaanka aqoonta bulshada wuxuu ku qoran yahay Iswiidhish",
+      "su'aaluhu waa doorasho badan: afar jawaabood iyo hal jawaab sax ah",
+      "qalabka waxbarasho waa Sverige i fokus oo ka yimid UHR iyo Skolverket",
+      "taariikhda xigta, tirada su'aalaha, iyo waqtiga imtixaanka waxaa shaacinaysa UHR"
     ],
-    note: "Laga bilaabo 12 Luulyo 2026, dadka qaar oo leh oggolaansho deganaansho ku-meelgaar ah waxaa laga yaabaa in laga dhaafo shuruudda deganaanshaha joogtada ah. Xaaladdaada gaarka ah waxaa qiimeeya Migrationsverket.",
+    note: "Sidaas darteed boggani wuxuu diiradda saaraa su'aalo tababar oo Iswiidhish ah, sharaxaad cad, iyo waxa aad dib u eegi karto xiga.",
     migrationsverketLink: "Ka hubi shuruudaha Migrationsverket",
     uhrLink: "Wax ku baro Sverige i fokus"
   };

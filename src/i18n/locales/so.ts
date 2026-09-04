@@ -4,16 +4,16 @@ import { createLocalizedUiText } from "../uiTextUtils";
 export const soUiText = createLocalizedUiText(enUiText, {
     eyebrow: "Ku salaysan agabka UHR · 1,000 su’aalood · sharaxaad luqado badan",
     appTitle: "Tababar nidaamsan oo loogu talagalay imtixaanka dhalashada Iswiidhan",
-    lead: "Dhammaan su’aaluhu waxay ku salaysan yihiin agabka waxbarasho ee rasmiga ah ee UHR",
+    lead: "Su'aalaha layliska waxay si buuxda u daboolayaan mawduucyada qoraallada waxbarashada rasmiga ah ee UHR",
     heroSubhead: "Ku tababar mawduuc. Ogoow khaladaadka. Baro waxa aad dib u eegayso",
-    languageNote: "Su'aalaha iyo doorashooyinka jawaabta waxay ku sii jiraan af Iswiidhish. Qaybaha kale ee app-ku waxay raacaan luqadda aad doorato.",
+    languageNote: "Su'aaluhu waxay ku sii jiraan af Iswiidhish. Luqadda beddel inta aad tababaranayso si sharaxaadda si fudud loogu fahmo oo loo qaato.",
     dailyPrompt: "Bilow tababarka bilaashka ah.",
     navPracticeTests: "Imtixaan tijaabo ah",
     navAbout: "Hagaha imtixaanka",
     navStartPractice: "Tababar bilaash ah tijaabi",
     heroPrimaryCta: "Bilow tababarka bilaashka ah",
     heroSecondaryCta: "Ku tababar mawduuc",
-    heroTrustBadge: "Interface luqado badan • Su’aaluhu waxay ahaanayaan af Iswiidhish; luqadda beddel inta aad tababaranayso si aad u fahanto ⭐ • App lama soo dejinayo; wakhti kasta ku tababar telefoon ama kombiyuutar ⭐ • Guddi horumar ayaa muujinaya meelaha xooggan iyo kuwa daciifka ah",
+    heroTrustBadge: "Su'aalahu sida caadiga ah waa afka Iswiidhishka; beddel luqadda xilli kasta si aad u fahanto • Bogga horumarka layliska – la soco awooddaada iyo daciifnimadaada xilli kasta • Uma baahnid App-ka; ku layli xilli kasta taleefanka ama kombuyuutarka ⭐",
     earlyAccessTitle: "Hage madax-bannaan",
     earlyAccessMessage: `Wax ku baro Sverige i fokus
 
@@ -168,7 +168,7 @@ U isticmaal Swedish Civics Test Preparation hage tababar oo madax-bannaan: marka
     bestAnswer: "Jawaabta ugu fiican",
     explanationFallback: "Sharaxaad ayaa imanaysa dhowaan.",
     appLanguage: "Luqadda app-ka",
-    appLanguageHint: "Su'aaluhu Iswiidhish bay ku sii jiraan.",
+    appLanguageHint: "Su'aaluhu Iswiidhish bay ku sii jiraan. Luqadda beddel inta aad tababaranayso si fudud loogu fahmo.",
     today: "maanta",
     total: "wadar",
     progressFresh: "Bilow cusub.",

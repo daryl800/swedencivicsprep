@@ -1,18 +1,17 @@
 import type { CitizenshipUpdateText, FaqContent, LegalContent } from "../../contentTypes";
 
 export const zhCitizenshipUpdate: CitizenshipUpdateText = {
-    title: "2026 公民规则更新",
-    source: "根据 Migrationsverket 的信息整理",
-    summary: "新的 2026 公民规则从六月开始适用。部分申请人获得永久居留的路径可能更容易。",
-    intro: "自 2026 年 6 月 6 日起，瑞典公民申请按照更严格的要求审查。对许多成年申请人来说，要求包括：",
+    title: "公民考试重点信息",
+    source: "根据 UHR 的信息整理",
+    summary: "第一次入籍社会知识考试已在 2026 年 8 月举行。UHR 说明考试使用瑞典语、纸笔作答，并采用选择题形式。公开报道提到第一次考试约 60 题，考试时间为 90 分钟。",
+    intro: "对备考最有用的信息其实很直接：",
     bullets: [
-      "有效的居留基础，通常是永久居留、居留权、居留卡或居留身份",
-      "在瑞典居住达到规定年限",
-      "具备瑞典语和瑞典社会知识",
-      "能够自给自足",
-      "生活守法、有良好品行"
+      "社会知识考试使用瑞典语",
+      "题目是选择题，四个选项中只有一个正确答案",
+      "学习材料是 UHR 和 Skolverket 的 Sverige i fokus",
+      "下一次考试日期、题目数量和考试时间以 UHR 公布为准"
     ],
-    note: "自 2026 年 7 月 12 日起，部分持临时居留许可的人可能不再必须先有永久居留。你的个人情况始终由 Migrationsverket 评估。",
+    note: "因此本站重点帮助你练习瑞典语题目、看懂解析，并知道下一步该复习什么。",
     migrationsverketLink: "在 Migrationsverket 查看要求",
     uhrLink: "使用 Sverige i fokus 学习"
   };

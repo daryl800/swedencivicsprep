@@ -3,9 +3,9 @@ import type { UiText } from "../uiTextTypes";
 export const zhUiText: UiText = {
     eyebrow: "覆盖 UHR 官方学习范围 · 1000 道练习题 · 多语解析",
     appTitle: "瑞典入籍社会知识考试，系统练习",
-    lead: "全部题目均基于 UHR 官方学习材料编写",
+    lead: "练习题目全面涵盖 UHR 官方学习材料主题",
     heroSubhead: "按主题练，快速定位错误，明确复习方向",
-    languageNote: "题目保持瑞典语，可随时转换其他语言查看解释。",
+    languageNote: "题目设为瑞典语，需要时可随时切换语言帮助理解，更容易吸收。",
     dailyPrompt: "开始免费练习。",
     navStudyModules: "学习模块",
     navPracticeTests: "模拟考试",
@@ -13,10 +13,10 @@ export const zhUiText: UiText = {
     navAccount: "账号",
     navStartPractice: "免费练习",
     practicePathTitle: "选择练习方式",
-    practicePathIntro: "先用免费练习体验本站，需要系统学习时按主题和章节练习，也可以用闪卡复习；准备冲刺时再做模拟考试。",
+    practicePathIntro: "先按主题练习，再用进度面板查看强弱项；需要复习时用闪卡，准备冲刺时再做模拟考试。",
     practicePaths: [
-      { title: "开始免费练习", body: "先做一组小型混合题。无需账号或付款。", badge: "免费体验", cta: "开始免费练习" },
-      { title: "按主题学习", body: "按四个学习范围和官方章节逐步练习。", badge: "13个章节", cta: "选择学习范围" },
+      { title: "按主题学习", body: "按四个学习范围和官方章节逐步练习。", badge: "13个章节", cta: "按主题练习" },
+      { title: "练习进度面板", body: "图形化查看已完成题目、薄弱章节和下一步复习方向。", badge: "强弱项", cta: "查看进度" },
       { title: "闪卡复习", body: "逐张查看瑞典语题目，想好答案后再翻开确认。", badge: "复习模式", cta: "打开闪卡" },
       { title: "模拟考试", body: "用于更认真备考的混合练习模式。完整版功能。", badge: "完整访问", cta: "查看模拟考试" }
     ],
@@ -48,7 +48,7 @@ export const zhUiText: UiText = {
     guideMockExamCta: "试做模拟考试",
     heroPrimaryCta: "立刻开始免费练习",
     heroSecondaryCta: "按主题练习",
-    heroTrustBadge: "支持多语言界面 • 题目保持瑞典语，练习时可切换语言帮助理解 ⭐ • 无需下载 App，可随时在手机或电脑上练习 ⭐ • 练习进度面板，随时掌握强弱项",
+    heroTrustBadge: "题目预设为瑞典语，可随时切换语言帮助理解 • 练习进度面板，可随时掌握强弱项 • 无需下载 App，可随时在手机或电脑上练习 ⭐",
     heroMockLabel: "练习预览",
     heroMockQuestion: "Vad betyder demokrati i Sverige?",
     heroMockOptionWrong: "Att en person bestämmer allt",
@@ -59,11 +59,11 @@ export const zhUiText: UiText = {
     proofStats: [
       { value: "1,000题", label: "精选练习题" },
       { value: "13", label: "官方章节完整覆盖" },
-      { value: "65题", label: "免费练习题" }
+      { value: "60题", label: "免费练习题" }
     ],
     freeTierBadge: "免费样题",
     fullAccessBadge: "完整访问",
-    freeSampleSummary: (freeCount, totalCount) => `免费 ${freeCount} / ${totalCount}`,
+    freeSampleSummary: (freeCount) => `${freeCount} 道免费题`,
     upgradePromptTitle: "完整题库暂未开放",
     upgradePromptBody: (lockedCount, totalCount) => `${totalCount} 道题中有 ${lockedCount} 道将保留给完整版。下一步会接入付费权限。`,
     earlyAccessTitle: "独立学习指南",
@@ -262,7 +262,7 @@ export const zhUiText: UiText = {
     bestAnswer: "最佳答案",
     explanationFallback: "解释即将添加。",
     appLanguage: "应用语言",
-    appLanguageHint: "题目保持瑞典语。",
+    appLanguageHint: "题目保持瑞典语，练习时可切换语言帮助理解，更容易吸收。",
     today: "今天",
     total: "总计",
     progressFresh: "新的开始。",
@@ -271,23 +271,23 @@ export const zhUiText: UiText = {
     progressSolid: "练得很稳。",
     progressStrong: "今天练习很棒。",
     topicNames: {
-      democracy: "民主、选举与媒体",
+      democracy: "民主与选举",
       "quick-start": "免费练习",
       rights: "权利与义务",
       everyday: "瑞典日常生活",
-      authorities: "瑞典、国家与公共服务"
+      authorities: "机构与公共服务"
     },
     topicFlavor: {
-      democracy: "选票、自由媒体和民主规则。",
+      democracy: "投票、参与和民主规则。",
       "quick-start": "练习当前开放的全部免费瑞典语题。",
-      rights: "了解你的自由，也了解共同责任。",
-      everyday: "工作、福利、学校、医疗和传统。",
-      authorities: "瑞典这个国家、国家制度、历史和公共服务。"
+      rights: "权利、法律、媒体和共同责任。",
+      everyday: "瑞典这个国家、工作、福利、历史、宗教和传统。",
+      authorities: "国家治理、国际合作和公共服务。"
     },
     topicDescriptions: {
-      democracy: "练习投票、政党、自由媒体，以及人们如何在瑞典发声。",
-      rights: "学习日常生活中的自由、责任、宗教自由、平等和共同价值。",
-      everyday: "练习工作、金钱、学校、医疗、福利、日常习惯和传统。",
-      authorities: "练习瑞典这个国家、国家如何组织、现代历史、国际合作和公共服务。"
+      democracy: "练习投票、政党，以及人们如何在瑞典发声。",
+      rights: "学习法律、权利、人权、自由媒体、来源批判和共同责任。",
+      everyday: "练习瑞典这个国家、工作、金钱、学校、医疗、福利、历史、宗教和传统。",
+      authorities: "练习瑞典如何治理、国际合作和公共服务。"
     }
   };

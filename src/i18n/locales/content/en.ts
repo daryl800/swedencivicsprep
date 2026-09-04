@@ -1,18 +1,17 @@
 import type { CitizenshipUpdateText, FaqContent, LegalContent } from "../../contentTypes";
 
 export const enCitizenshipUpdate: CitizenshipUpdateText = {
-    title: "2026 citizenship rules update",
-    source: "Based on information from Migrationsverket",
-    summary: "New 2026 citizenship rules apply from June. Some applicants may have easier paths to permanent residency.",
-    intro: "Since 6 June 2026, Swedish citizenship applications are assessed under stricter requirements. For many adult applicants, the requirements include:",
+    title: "Citizenship test: key facts",
+    source: "Based on information from UHR",
+    summary: "The first society-knowledge citizenship test was held in August 2026. UHR says the test is in Swedish, on paper, and uses multiple-choice questions. Public reporting described the first test as about 60 questions in 90 minutes.",
+    intro: "The useful preparation facts are simple:",
     bullets: [
-      "a valid residence basis, usually permanent residence, right of residence, residence card, or residence status",
-      "a required period of habitual residence in Sweden",
-      "knowledge of Swedish and Swedish society",
-      "ability to support yourself",
-      "an orderly and honourable life"
+      "the society test is in Swedish",
+      "questions are multiple choice with four options and one correct answer",
+      "the study material is Sverige i fokus from UHR and Skolverket",
+      "the next test date, number of questions, and test time are announced by UHR"
     ],
-    note: "Since 12 July 2026, some people with temporary residence permits may be exempt from the permanent-residence requirement. Your personal situation is always assessed by Migrationsverket.",
+    note: "That is why this site focuses on Swedish practice questions, clear explanations, and showing what to review next.",
     migrationsverketLink: "Check requirements at Migrationsverket",
     uhrLink: "Study with Sverige i fokus"
   };

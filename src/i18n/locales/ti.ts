@@ -4,16 +4,16 @@ import { createLocalizedUiText } from "../uiTextUtils";
 export const tiUiText = createLocalizedUiText(enUiText, {
     eyebrow: "ኣብ መጽናዕቲ UHR ዝተመርኮሰ · 1,000 ሕቶታት · ብዙሕ ቋንቋ መብርሂ",
     appTitle: "ዝተዋደደ ልምምድ ንፈተና ዜግነት ሽወደን",
-    lead: "ኩሎም ሕቶታት ኣብ ወግዓዊ መጽናዕቲ UHR ዝተመርኮሱ እዮም",
+    lead: "ናይ ልምምድ ሕቶታት ንርእሰ-ጉዳያት ወግዓዊ መጽናዕቲ UHR ብሰፊሑ ይሽፍኑ",
     heroSubhead: "ብርእሰ-ጉዳይ ተለማመዱ። ጌጋታት ፈልጡ። እንታይ ከም እትደግሙ ፍለጡ",
-    languageNote: "ሕቶታትን ምርጫታት መልስን ብሽወደንኛ ይቕጽሉ። ዝተረፈ ክፋል ናይ app ብዝመረጽኩሞ ቋንቋ ይረአ።",
+    languageNote: "ሕቶታት ብሽወደንኛ ይቕጽሉ። ንመብርሂ ብቐሊሉ ንምርዳእን ንምምሃርን ኣብ ግዜ ልምምድ ቋንቋ ቀይሩ።",
     dailyPrompt: "ናጻ ልምምድ ጀምሩ።",
     navPracticeTests: "ናይ ልምምድ ፈተና",
     navAbout: "መምርሒ ፈተና",
     navStartPractice: "ናጻ ልምምድ",
     heroPrimaryCta: "ልምምድ ነፍሲ ወከፍ ጀምሩ",
     heroSecondaryCta: "ብርእሰ-ጉዳይ ተለማመዱ",
-    heroTrustBadge: "ብዙሕ ቋንቋ ዘለዎ መተግበሪ • ሕቶታት ብሽወደንኛ ይቕጽሉ፤ ንምርዳእ ኣብ ግዜ ልምምድ ቋንቋ ቀይሩ ⭐ • app ምውራድ ኣየድልን፤ ኣብ ሞባይል ወይ ኮምፒዩተር መዓስ ደሊኹም ተለማመዱ ⭐ • መከታተሊ ምዕባለ ጽኑዕን ድኹምን ክፋላት የርኢ",
+    heroTrustBadge: "ሕቶታት ብመሰረት ብሽወደንኛ እዮም፤ ንምርዳእ መዓስ ደሊኹም ቋንቋ ቀይሩ • መከታተሊ ምዕባለ ጽኑዕን ድኹምን ክፋላት የርኢ • app ምውራድ ኣየድልን፤ ኣብ ሞባይል ወይ ኮምፒዩተር መዓስ ደሊኹም ተለማመዱ ⭐",
     earlyAccessTitle: "ናጻ መምርሒ",
     earlyAccessMessage: `ብSverige i fokus ተማሃሩ
 
@@ -168,7 +168,7 @@ Swedish Civics Test Preparation ከም ናጻ መምርሒ ልምምድ ተጠ�
     bestAnswer: "ዝበለጸ መልሲ",
     explanationFallback: "መግለጺ ቀረባ ክውሰኽ እዩ።",
     appLanguage: "ቋንቋ app",
-    appLanguageHint: "ሕቶታት ብሽወደንኛ ይቕጽሉ።",
+    appLanguageHint: "ሕቶታት ብሽወደንኛ ይቕጽሉ። ንምርዳእ ኣብ ግዜ ልምምድ ቋንቋ ቀይሩ።",
     today: "ሎሚ",
     total: "ድምር",
     progressFresh: "ሓድሽ መጀመርታ።",

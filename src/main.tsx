@@ -22,7 +22,6 @@ type Route =
   | { page: "topic"; topicId: string }
   | { page: "area"; topicId: string }
   | { page: "chapter"; chapterId: string }
-  | { page: "quick" }
   | { page: "mock-exam" }
   | { page: "guide" }
   | { page: "question-review" }
@@ -36,24 +35,31 @@ type Route =
 type MobileNavTarget = "home" | "study" | "practice" | "progress";
 type AccountAuthMode = "signin" | "signup";
 
-const QUICK_START_TOPIC_ID = "quick-start";
-const QUICK_START_TOPIC: Topic = {
-  id: QUICK_START_TOPIC_ID,
-  nameSv: "Gratis träning",
-  nameEn: "Free practice",
-  descriptionEn: "Practice all currently available free Swedish questions."
-};
-const FREE_QUESTIONS_PER_CHAPTER = 5;
+const FREE_QUESTIONS_PER_TOPIC = 15;
 const HAS_FULL_ACCESS = import.meta.env.VITE_FULL_ACCESS === "true";
 const FREE_SAMPLE_QUESTION_IDS = new Set(
-  OFFICIAL_CHAPTERS.flatMap((chapter) =>
-    QUESTIONS
-      .filter((question) => question.chapterId === chapter.id)
-      .slice(0, FREE_QUESTIONS_PER_CHAPTER)
-      .map((question) => question.id)
-  )
+  TOPICS.flatMap((topic) => {
+    const topicChapters = OFFICIAL_CHAPTERS.filter((chapter) => chapter.topicId === topic.id);
+    const questionsByChapter = topicChapters.map((chapter) =>
+      QUESTIONS.filter((question) => question.chapterId === chapter.id)
+    );
+    const selectedIds: string[] = [];
+    let round = 0;
+
+    while (selectedIds.length < FREE_QUESTIONS_PER_TOPIC && questionsByChapter.some((questions) => questions[round])) {
+      questionsByChapter.forEach((questions) => {
+        const question = questions[round];
+
+        if (question && selectedIds.length < FREE_QUESTIONS_PER_TOPIC) {
+          selectedIds.push(question.id);
+        }
+      });
+      round += 1;
+    }
+
+    return selectedIds;
+  })
 );
-const QUICK_START_QUESTIONS = QUESTIONS.filter((question) => FREE_SAMPLE_QUESTION_IDS.has(question.id));
 
 const TOPIC_VISUALS = {
   democracy: { icon: Landmark, accent: "blue" },
@@ -209,6 +215,7 @@ function App() {
   const [authSession, setAuthSession] = useState<AuthSession | null>(null);
   const [authLoading, setAuthLoading] = useState(isAuthConfigured);
   const ui = useTranslatedUiText(language);
+  const hasFullAccess = HAS_FULL_ACCESS || Boolean(authSession);
 
   useEffect(() => {
     if (i18n.language !== language) {
@@ -298,9 +305,8 @@ function App() {
   }
 
   function goQuickPractice() {
-    trackEvent("practice_started", { mode: "quick_start", questionCount: QUICK_START_QUESTIONS.length, topicId: QUICK_START_TOPIC_ID, uiLanguage: language });
-    setQuestionIndexByTopic((current) => ({ ...current, [QUICK_START_TOPIC_ID]: 0 }));
-    setRoute({ page: "quick" });
+    trackEvent("practice_area_picker_opened", { source: "free_practice", uiLanguage: language });
+    setRoute({ page: "study-modules" });
     setSelectedIndex(null);
     setChecked(false);
     setQuestionHelpVisible(false);
@@ -399,7 +405,7 @@ function App() {
       uiLanguage: language
     });
 
-    const topicQuestionIds = getAccessibleQuestions(QUESTIONS.filter((item) => item.topicId === question.topicId)).map((item) => item.id);
+    const topicQuestionIds = getAccessibleQuestions(QUESTIONS.filter((item) => item.topicId === question.topicId), hasFullAccess).map((item) => item.id);
     const completedTopicQuestions = topicQuestionIds.filter((questionId) => nextProgress.answeredIds.includes(questionId));
 
     if (!wasAlreadyAnswered && topicQuestionIds.length > 0 && completedTopicQuestions.length === topicQuestionIds.length) {
@@ -539,6 +545,7 @@ function App() {
   if (route.page === "progress") {
     return (
       <ProgressDashboardPage
+        hasFullAccess={hasFullAccess}
         language={language}
         onBack={goHome}
         onOpenFlashcards={goFlashcards}
@@ -558,6 +565,7 @@ function App() {
   if (route.page === "flashcards") {
     return (
       <FlashcardsPreviewPage
+        hasFullAccess={hasFullAccess}
         language={language}
         onBack={goHome}
         onOpenFlashcards={goFlashcards}
@@ -574,6 +582,7 @@ function App() {
   if (route.page === "study-modules") {
     return (
       <StudyModulesPage
+        hasFullAccess={hasFullAccess}
         language={language}
         onBack={goHome}
         onOpenFeedback={goFeedback}
@@ -650,6 +659,7 @@ function App() {
   if (route.page === "mock-exam") {
     return (
       <MockExamPage
+        hasFullAccess={hasFullAccess}
         language={language}
         onBack={goHome}
         onOpenFlashcards={goFlashcards}
@@ -669,6 +679,7 @@ function App() {
     if (topic) {
       return (
         <AreaPage
+          hasFullAccess={hasFullAccess}
           language={language}
           onBack={goHome}
           onOpenFeedback={goFeedback}
@@ -686,42 +697,6 @@ function App() {
         />
       );
     }
-  }
-
-  if (route.page === "quick") {
-    return (
-      <TopicPracticePage
-        checked={checked}
-        feedbackPromptMilestone={feedbackPromptMilestone}
-        language={language}
-        lastWasCorrect={lastWasCorrect}
-        onDismissFeedbackPrompt={handleDismissFeedbackPrompt}
-        onFeedbackPromptShown={handleFeedbackPromptShown}
-        onOpenFeedback={handleFeedbackPromptClicked}
-          onOpenFlashcards={goFlashcards}
-        onOpenGuide={goGuide}
-        onOpenMockExam={goMockExam}
-        onBack={goHome}
-        onQuickPractice={goQuickPractice}
-        onStudy={goStudyModules}
-        onCheck={handleCheck}
-        onNext={handleNext}
-        onResetProgress={handleResetProgress}
-        onReviewLesson={handleReviewLesson}
-        onSelectAnswer={setSelectedIndex}
-        onSelectLanguage={handleLanguageChange}
-        onStartPractice={handleStartPractice}
-        practiceStarted
-        progress={progress}
-        questionHelpVisible={questionHelpVisible}
-        questionIndex={questionIndexByTopic[QUICK_START_TOPIC_ID] || 0}
-        questionsOverride={QUICK_START_QUESTIONS}
-        selectedIndex={selectedIndex}
-        onToggleQuestionHelp={handleToggleQuestionHelp}
-        topic={QUICK_START_TOPIC}
-        ui={ui}
-      />
-    );
   }
 
   if (route.page === "chapter") {
@@ -742,6 +717,7 @@ function App() {
           checked={checked}
           chapterId={chapter.id}
           feedbackPromptMilestone={feedbackPromptMilestone}
+          hasFullAccess={hasFullAccess}
           language={language}
           lastWasCorrect={lastWasCorrect}
           onDismissFeedbackPrompt={handleDismissFeedbackPrompt}
@@ -784,6 +760,7 @@ function App() {
         <TopicPracticePage
           checked={checked}
           feedbackPromptMilestone={feedbackPromptMilestone}
+          hasFullAccess={hasFullAccess}
           language={language}
           lastWasCorrect={lastWasCorrect}
           onDismissFeedbackPrompt={handleDismissFeedbackPrompt}
@@ -939,7 +916,7 @@ function getRouteFromPath(path: string): Route {
   }
 
   if (page === "quick") {
-    return { page: "quick" };
+    return { page: "study-modules" };
   }
 
   if (page === "mock-exam") {
@@ -982,7 +959,6 @@ function routeToPath(route: Route) {
   if (route.page === "study-modules") return "/study-modules";
   if (route.page === "privacy") return "/privacy";
   if (route.page === "guide") return "/guide";
-  if (route.page === "quick") return "/quick";
   if (route.page === "question-review") return "/question-review";
   if (route.page === "mock-exam") return "/mock-exam";
   if (route.page === "progress") return "/progress";
@@ -1119,7 +1095,7 @@ function HomePage({
           onOpenFlashcards={onOpenFlashcards}
           onOpenGuide={onOpenGuide}
           onOpenMockExam={onOpenMockExam}
-          onQuickPractice={handleStartPractice}
+          onOpenProgress={onOpenProgress}
           onStudy={onStudy}
           ui={ui}
         />
@@ -1142,6 +1118,7 @@ function HomePage({
 }
 
 function StudyModulesPage({
+  hasFullAccess,
   language,
   onBack,
   onOpenFeedback,
@@ -1156,6 +1133,7 @@ function StudyModulesPage({
   progress,
   ui
 }: {
+  hasFullAccess: boolean;
   language: UiLanguage;
   onBack: () => void;
   onOpenFeedback: () => void;
@@ -1194,7 +1172,7 @@ function StudyModulesPage({
 
         <StudyModulesTabs onOpenProgress={onOpenProgress} ui={ui} />
 
-        <TopicAreaGrid language={language} onSelectArea={onSelectArea} progress={progress} ui={ui} />
+        <TopicAreaGrid hasFullAccess={hasFullAccess} language={language} onSelectArea={onSelectArea} progress={progress} ui={ui} />
 
         <ProgressPromoCard onOpenProgress={onOpenProgress} progress={progress} ui={ui} />
 
@@ -1405,6 +1383,7 @@ function GuidePage({
 }
 
 function AreaPage({
+  hasFullAccess,
   language,
   onBack,
   onOpenFeedback,
@@ -1420,6 +1399,7 @@ function AreaPage({
   topic,
   ui
 }: {
+  hasFullAccess: boolean;
   language: UiLanguage;
   onBack: () => void;
   onOpenFeedback: () => void;
@@ -1436,7 +1416,7 @@ function AreaPage({
   ui: UiText;
 }) {
   const allTopicQuestions = QUESTIONS.filter((question) => question.topicId === topic.id);
-  const topicQuestions = getAccessibleQuestions(allTopicQuestions);
+  const topicQuestions = getAccessibleQuestions(allTopicQuestions, hasFullAccess);
   const completed = topicQuestions.filter((question) => progress.answeredIds.includes(question.id)).length;
   const percent = topicQuestions.length > 0 ? Math.round((completed / topicQuestions.length) * 100) : 0;
   const visual = TOPIC_VISUALS[topic.id as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
@@ -1490,6 +1470,7 @@ function AreaPage({
         </section>
 
         <ChapterMapSection
+          hasFullAccess={hasFullAccess}
           language={language}
           onSelectChapter={onSelectChapter}
           progress={progress}
@@ -1559,11 +1540,6 @@ function AppNav({
           <button type="button" onClick={onOpenGuide}>
             {ui.navAbout}
           </button>
-          {onOpenAccount ? (
-            <button type="button" onClick={onOpenAccount}>
-              {ui.navAccount}
-            </button>
-          ) : null}
         </div>
 
         <div className="nav-actions">
@@ -1681,19 +1657,19 @@ function PracticePathSection({
   onOpenFlashcards,
   onOpenGuide,
   onOpenMockExam,
-  onQuickPractice,
+  onOpenProgress,
   onStudy,
   ui
 }: {
   onOpenFlashcards: () => void;
   onOpenGuide: () => void;
   onOpenMockExam: () => void;
-  onQuickPractice: () => void;
+  onOpenProgress: () => void;
   onStudy: () => void;
   ui: UiText;
 }) {
-  const actions = [onQuickPractice, onStudy, onOpenFlashcards, onOpenMockExam];
-  const icons = [CheckCircle2, Layers3, Sparkles, LockKeyhole];
+  const actions = [onStudy, onOpenProgress, onOpenFlashcards, onOpenMockExam];
+  const icons = [Layers3, BarChart3, Sparkles, LockKeyhole];
 
   return (
     <section className="practice-path" aria-labelledby="practice-path-title">
@@ -1946,12 +1922,14 @@ function StudyPathSection({ ui }: { ui: UiText }) {
 }
 
 function ChapterMapSection({
+  hasFullAccess,
   language,
   onSelectChapter,
   progress,
   selectedTopicId,
   ui
 }: {
+  hasFullAccess: boolean;
   language: UiLanguage;
   onSelectChapter: (chapterId: string) => void;
   progress: Progress;
@@ -1972,9 +1950,9 @@ function ChapterMapSection({
           const chapterName = ui.chapterNames[chapter.id];
           const visual = TOPIC_VISUALS[chapter.topicId as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
           const allQuestions = QUESTIONS.filter((question) => question.chapterId === chapter.id);
-          const accessibleQuestions = getAccessibleQuestions(allQuestions);
+          const accessibleQuestions = getAccessibleQuestions(allQuestions, hasFullAccess);
           const completed = accessibleQuestions.filter((question) => progress.answeredIds.includes(question.id)).length;
-          const lockedCount = getLockedQuestionCount(allQuestions);
+          const lockedCount = getLockedQuestionCount(allQuestions, hasFullAccess);
           const percent = accessibleQuestions.length > 0 ? Math.round((completed / accessibleQuestions.length) * 100) : 0;
 
           return (
@@ -2009,11 +1987,13 @@ function ChapterMapSection({
 }
 
 function TopicAreaGrid({
+  hasFullAccess,
   language,
   onSelectArea,
   progress,
   ui
 }: {
+  hasFullAccess: boolean;
   language: UiLanguage;
   onSelectArea: (topicId: string) => void;
   progress: Progress;
@@ -2023,16 +2003,16 @@ function TopicAreaGrid({
     <section className="topic-list topic-list-primary" aria-label={ui.topicSelectorLabel}>
       {TOPICS.map((topic) => {
         const allTopicQuestions = QUESTIONS.filter((question) => question.topicId === topic.id);
-        const topicQuestions = getAccessibleQuestions(allTopicQuestions);
+        const topicQuestions = getAccessibleQuestions(allTopicQuestions, hasFullAccess);
         const count = topicQuestions.length;
         const fullCount = allTopicQuestions.length;
-        const lockedCount = getLockedQuestionCount(allTopicQuestions);
+        const lockedCount = getLockedQuestionCount(allTopicQuestions, hasFullAccess);
         const completed = topicQuestions.filter((question) => progress.answeredIds.includes(question.id)).length;
         const percent = count > 0 ? Math.round((completed / count) * 100) : 0;
         const visual = TOPIC_VISUALS[topic.id as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
         const Icon = visual.icon;
         const topicName = ui.topicNames[topic.id] || topic.nameEn;
-        const chapterStats = getChapterStatsForTopic(topic.id, progress, ui);
+        const chapterStats = getChapterStatsForTopic(topic.id, progress, ui, hasFullAccess);
         const moduleStatus =
           percent === 100
             ? { label: ui.moduleMastered, className: "mastered" }
@@ -2048,7 +2028,7 @@ function TopicAreaGrid({
                   <Icon size={24} strokeWidth={2.2} />
                 </div>
                 <span className={`module-status ${moduleStatus.className}`}>
-                  {HAS_FULL_ACCESS ? ui.fullAccessBadge : ui.freeTierBadge}
+                  {hasFullAccess ? ui.fullAccessBadge : ui.freeTierBadge}
                 </span>
               </div>
               {language !== "sv" ? <p className="topic-sv" dir="ltr">{topic.nameSv}</p> : null}
@@ -2462,6 +2442,7 @@ function PrivacyPage({
 }
 
 function ProgressDashboardPage({
+  hasFullAccess,
   language,
   onBack,
   onOpenFlashcards,
@@ -2475,6 +2456,7 @@ function ProgressDashboardPage({
   progress,
   ui
 }: {
+  hasFullAccess: boolean;
   language: UiLanguage;
   onBack: () => void;
   onSelectChapter: (chapterId: string) => void;
@@ -2483,10 +2465,10 @@ function ProgressDashboardPage({
   progress: Progress;
   ui: UiText;
 } & LearnerNavHandlers) {
-  const topicStats = TOPICS.map((topic) => getTopicStats(topic, progress, ui));
-  const chapterStats = getChapterDashboardStats(progress, ui);
+  const topicStats = TOPICS.map((topic) => getTopicStats(topic, progress, ui, hasFullAccess));
+  const chapterStats = getChapterDashboardStats(progress, ui, hasFullAccess);
   const recentMistakes = getRecentMistakes(progress, ui);
-  const accessibleQuestionCount = getAccessibleQuestions(QUESTIONS).length;
+  const accessibleQuestionCount = getAccessibleQuestions(QUESTIONS, hasFullAccess).length;
   const currentQuestionIds = new Set(QUESTIONS.map((question) => question.id));
   const practicedQuestions = progress.answeredIds.filter((questionId) => currentQuestionIds.has(questionId)).length;
   const currentKnownAnswers = Object.entries(progress.answers || {})
@@ -2628,7 +2610,7 @@ function ProgressDashboardPage({
             {topicStats.map((topic) => {
               const visual = TOPIC_VISUALS[topic.id as keyof typeof TOPIC_VISUALS] || TOPIC_VISUALS.democracy;
               const Icon = visual.icon;
-              const chapterStatsForTopic = getChapterStatsForTopic(topic.id, progress, ui);
+              const chapterStatsForTopic = getChapterStatsForTopic(topic.id, progress, ui, hasFullAccess);
               const status =
                 topic.completedPercent === 100
                   ? { label: ui.moduleMastered, className: "mastered" }
@@ -2698,9 +2680,9 @@ type ChapterDashboardStat = {
   accuracy: number;
 };
 
-function getChapterDashboardStats(progress: Progress, ui: UiText): ChapterDashboardStat[] {
+function getChapterDashboardStats(progress: Progress, ui: UiText, hasFullAccess: boolean): ChapterDashboardStat[] {
   return OFFICIAL_CHAPTERS.map((chapter) => {
-    const questions = getAccessibleQuestions(QUESTIONS.filter((question) => question.chapterId === chapter.id));
+    const questions = getAccessibleQuestions(QUESTIONS.filter((question) => question.chapterId === chapter.id), hasFullAccess);
     const questionIds = new Set(questions.map((question) => question.id));
     const answers = questions.map((question) => progress.answers?.[question.id]).filter(Boolean);
     const attempts = answers.reduce((sum, answer) => sum + answer.attempts, 0);
@@ -2985,7 +2967,7 @@ function AdminDashboardPage({
   const [adminStats, setAdminStats] = useState<AdminStats | null>(null);
   const [adminStatsStatus, setAdminStatsStatus] = useState<"idle" | "loading" | "ready" | "error">("idle");
   const [adminStatsMessage, setAdminStatsMessage] = useState("");
-  const topicStats = TOPICS.map((topic) => getTopicStats(topic, progress, ui));
+  const topicStats = TOPICS.map((topic) => getTopicStats(topic, progress, ui, HAS_FULL_ACCESS));
   const knownAnswers = Object.values(progress.answers || {});
   const attempts = knownAnswers.reduce((sum, answer) => sum + answer.attempts, 0);
   const correct = knownAnswers.reduce((sum, answer) => sum + answer.correct, 0);
@@ -3463,16 +3445,16 @@ function AccessGateNotice({ lockedCount, totalCount, ui }: { lockedCount: number
   );
 }
 
-function getAccessibleQuestions(questions: Question[]) {
-  if (HAS_FULL_ACCESS) {
+function getAccessibleQuestions(questions: Question[], hasFullAccess: boolean) {
+  if (hasFullAccess) {
     return questions;
   }
 
   return questions.filter((question) => FREE_SAMPLE_QUESTION_IDS.has(question.id));
 }
 
-function getLockedQuestionCount(questions: Question[]) {
-  return Math.max(questions.length - getAccessibleQuestions(questions).length, 0);
+function getLockedQuestionCount(questions: Question[], hasFullAccess: boolean) {
+  return Math.max(questions.length - getAccessibleQuestions(questions, hasFullAccess).length, 0);
 }
 
 function AdminMetric({ note, title, value }: { note: string; title: string; value: string }) {
@@ -3503,6 +3485,7 @@ function formatAdminTopicName(topicId: string, ui: UiText) {
 type MockExamAnswerMap = Record<string, number>;
 
 function MockExamPage({
+  hasFullAccess,
   language,
   onBack,
   onOpenFlashcards,
@@ -3513,12 +3496,13 @@ function MockExamPage({
   onStudy,
   ui
 }: {
+  hasFullAccess: boolean;
   language: UiLanguage;
   onBack: () => void;
   onSelectLanguage: (language: UiLanguage) => void;
   ui: UiText;
 } & LearnerNavHandlers) {
-  const [questions, setQuestions] = useState<Question[]>(() => createMockExamQuestions());
+  const [questions, setQuestions] = useState<Question[]>(() => createMockExamQuestions(hasFullAccess));
   const [started, setStarted] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -3532,7 +3516,7 @@ function MockExamPage({
 
   function startExam() {
     stopBrowserAudio();
-    trackEvent("mock_exam_started", { questionCount: questions.length, fullAccess: HAS_FULL_ACCESS, uiLanguage: language });
+    trackEvent("mock_exam_started", { questionCount: questions.length, fullAccess: hasFullAccess, uiLanguage: language });
     setStarted(true);
     setSubmitted(false);
     setCurrentIndex(0);
@@ -3542,8 +3526,8 @@ function MockExamPage({
 
   function restartExam() {
     stopBrowserAudio();
-    const nextQuestions = createMockExamQuestions();
-    trackEvent("mock_exam_restarted", { questionCount: nextQuestions.length, fullAccess: HAS_FULL_ACCESS, uiLanguage: language });
+    const nextQuestions = createMockExamQuestions(hasFullAccess);
+    trackEvent("mock_exam_restarted", { questionCount: nextQuestions.length, fullAccess: hasFullAccess, uiLanguage: language });
     setQuestions(nextQuestions);
     setStarted(true);
     setSubmitted(false);
@@ -3597,7 +3581,7 @@ function MockExamPage({
             <span>{ui.fullAccessBadge}</span>
             <span>{ui.chaptersLabel}: {OFFICIAL_CHAPTERS.length}</span>
           </div>
-          {HAS_FULL_ACCESS ? (
+          {hasFullAccess ? (
             <button className="hero-primary" type="button" onClick={startExam}>
               {ui.mockExamStart}
             </button>
@@ -3745,10 +3729,10 @@ function MockExamPage({
   );
 }
 
-function createMockExamQuestions() {
-  const pool = getAccessibleQuestions(QUESTIONS);
+function createMockExamQuestions(hasFullAccess: boolean) {
+  const pool = getAccessibleQuestions(QUESTIONS, hasFullAccess);
   const seed = Date.now();
-  const examLength = Math.min(HAS_FULL_ACCESS ? 60 : 40, pool.length);
+  const examLength = Math.min(hasFullAccess ? 60 : 40, pool.length);
   const selected: Question[] = [];
   const chapters = OFFICIAL_CHAPTERS.map((chapter) => ({
     chapter,
@@ -3811,6 +3795,7 @@ type FlashcardMark = "known" | "review";
 type FlashcardSessionMarks = Record<string, FlashcardMark>;
 
 function FlashcardsPreviewPage({
+  hasFullAccess,
   language,
   onBack,
   onOpenFlashcards,
@@ -3821,13 +3806,14 @@ function FlashcardsPreviewPage({
   onStudy,
   ui
 }: {
+  hasFullAccess: boolean;
   language: UiLanguage;
   onBack: () => void;
   onSelectLanguage: (language: UiLanguage) => void;
   ui: UiText;
 } & LearnerNavHandlers) {
   const [chapterId, setChapterId] = useState("all");
-  const [cards, setCards] = useState<Question[]>(() => createFlashcardDeck("all"));
+  const [cards, setCards] = useState<Question[]>(() => createFlashcardDeck("all", hasFullAccess));
   const [cardIndex, setCardIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [marks, setMarks] = useState<FlashcardSessionMarks>({});
@@ -3841,7 +3827,7 @@ function FlashcardsPreviewPage({
 
   function refreshDeck(nextChapterId = chapterId) {
     stopBrowserAudio();
-    const nextCards = createFlashcardDeck(nextChapterId);
+    const nextCards = createFlashcardDeck(nextChapterId, hasFullAccess);
     setCards(nextCards);
     setCardIndex(0);
     setFlipped(false);
@@ -3893,7 +3879,7 @@ function FlashcardsPreviewPage({
           <div className="flashcard-stats" aria-label={ui.flashcardsTitle}>
             <span>{ui.flashcardsKnownCount(knownCount)}</span>
             <span>{ui.flashcardsReviewCount(reviewCount)}</span>
-            <span>{HAS_FULL_ACCESS ? ui.fullAccessBadge : ui.freeTierBadge}</span>
+            <span>{hasFullAccess ? ui.fullAccessBadge : ui.freeTierBadge}</span>
           </div>
         </div>
 
@@ -3974,14 +3960,14 @@ function FlashcardsPreviewPage({
   );
 }
 
-function createFlashcardDeck(chapterId: string) {
-  const pool = getAccessibleQuestions(QUESTIONS).filter((question) => chapterId === "all" || question.chapterId === chapterId);
+function createFlashcardDeck(chapterId: string, hasFullAccess: boolean) {
+  const pool = getAccessibleQuestions(QUESTIONS, hasFullAccess).filter((question) => chapterId === "all" || question.chapterId === chapterId);
   const seed = Date.now();
   return [...pool].sort((left, right) => seededQuestionRank(left.id, seed) - seededQuestionRank(right.id, seed));
 }
 
-function getTopicStats(topic: Topic, progress: Progress, ui: UiText) {
-  const questions = getAccessibleQuestions(QUESTIONS.filter((question) => question.topicId === topic.id));
+function getTopicStats(topic: Topic, progress: Progress, ui: UiText, hasFullAccess: boolean) {
+  const questions = getAccessibleQuestions(QUESTIONS.filter((question) => question.topicId === topic.id), hasFullAccess);
   const answers = questions.map((question) => progress.answers?.[question.id]).filter(Boolean);
   const attempts = answers.reduce((sum, answer) => sum + answer.attempts, 0);
   const correct = answers.reduce((sum, answer) => sum + answer.correct, 0);
@@ -4002,10 +3988,10 @@ function getTopicStats(topic: Topic, progress: Progress, ui: UiText) {
   };
 }
 
-function getChapterStatsForTopic(topicId: string, progress: Progress, ui: UiText) {
+function getChapterStatsForTopic(topicId: string, progress: Progress, ui: UiText, hasFullAccess: boolean) {
   return OFFICIAL_CHAPTERS.map((chapter) => {
     const allQuestions = QUESTIONS.filter((question) => question.topicId === topicId && question.chapterId === chapter.id);
-    const questions = getAccessibleQuestions(allQuestions);
+    const questions = getAccessibleQuestions(allQuestions, hasFullAccess);
     const completed = questions.filter((question) => progress.answeredIds.includes(question.id)).length;
     const percent = questions.length > 0 ? Math.round((completed / questions.length) * 100) : 0;
 
@@ -4015,11 +4001,11 @@ function getChapterStatsForTopic(topicId: string, progress: Progress, ui: UiText
       name: ui.chapterNames[chapter.id] || chapter.nameSv,
       total: questions.length,
       fullTotal: allQuestions.length,
-      locked: getLockedQuestionCount(allQuestions),
+      locked: getLockedQuestionCount(allQuestions, hasFullAccess),
       completed,
       percent
     };
-  }).filter((chapter) => chapter.total > 0);
+  }).filter((chapter) => chapter.fullTotal > 0);
 }
 
 function ChapterProgressList({
@@ -4085,6 +4071,7 @@ type TopicPracticePageProps = {
   checked: boolean;
   chapterId?: string;
   feedbackPromptMilestone: number | null;
+  hasFullAccess: boolean;
   language: UiLanguage;
   lastWasCorrect: boolean;
   lesson?: Lesson;
@@ -4107,7 +4094,6 @@ type TopicPracticePageProps = {
   practiceId?: string;
   practiceStarted: boolean;
   progress: Progress;
-  questionsOverride?: Question[];
   questionHelpVisible: boolean;
   questionIndex: number;
   selectedIndex: number | null;
@@ -4120,6 +4106,7 @@ function TopicPracticePage({
   checked,
   chapterId,
   feedbackPromptMilestone,
+  hasFullAccess,
   language,
   lastWasCorrect,
   lesson,
@@ -4143,7 +4130,6 @@ function TopicPracticePage({
   practiceId,
   practiceStarted,
   progress,
-  questionsOverride,
   questionHelpVisible,
   questionIndex,
   selectedIndex,
@@ -4156,13 +4142,13 @@ function TopicPracticePage({
       .filter((chapter) => lesson?.chapterNumbers.includes(chapter.number))
       .map((chapter) => chapter.id)
   );
-  const allQuestions = questionsOverride || (chapterId
+  const allQuestions = chapterId
     ? QUESTIONS.filter((question) => question.chapterId === chapterId)
     : lesson
       ? QUESTIONS.filter((question) => lessonQuestionIds.has(question.id) || lessonChapterIds.has(question.chapterId))
-      : QUESTIONS.filter((question) => question.topicId === topic.id));
-  const questions = questionsOverride ? allQuestions : getAccessibleQuestions(allQuestions);
-  const lockedQuestionCount = questionsOverride ? 0 : getLockedQuestionCount(allQuestions);
+      : QUESTIONS.filter((question) => question.topicId === topic.id);
+  const questions = getAccessibleQuestions(allQuestions, hasFullAccess);
+  const lockedQuestionCount = getLockedQuestionCount(allQuestions, hasFullAccess);
   const safeQuestionIndex = questions.length > 0 ? questionIndex % questions.length : 0;
   const question = questions[safeQuestionIndex];
   const topicName = ui.topicNames[topic.id] || topic.nameEn;
@@ -4221,7 +4207,7 @@ function TopicPracticePage({
       <section className="practice">
         <div className="practice-header">
           <div>
-            {topic.id !== QUICK_START_TOPIC_ID ? <p className="topic-sv" dir="ltr">{topic.nameSv}</p> : null}
+            <p className="topic-sv" dir="ltr">{topic.nameSv}</p>
             <h1>{topicName}</h1>
             <p className="topic-flavor">{ui.topicFlavor[topic.id] || "Small steps, useful knowledge."}</p>
           </div>
